@@ -1,0 +1,40 @@
+{
+  "name": "legal-data-extraction",
+  "version": "1.0.0",
+  "description": "Azure OpenAI Batch API system for extracting data from Belgian legal case laws",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "test-decision": "tsx test-decision.ts",
+    "lint": "eslint src --ext .ts",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "legal",
+    "azure",
+    "openai",
+    "batch-api",
+    "data-extraction"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.80.0",
+    "ajv": "^8.12.0",
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.3",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/pg": "^8.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
