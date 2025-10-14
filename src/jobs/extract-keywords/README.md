@@ -13,7 +13,7 @@ This job processes Belgian legal decisions to:
 ### Two-Stage Processing
 
 **Stage 1: Taxonomy Pre-filtering (GPT-5 via OpenAI)**
-- For each decision, GPT-5 analyzes the text
+- For each decision, GPT-5 analyzes the text preview (first 1000 chars)
 - Selects 2-3 most relevant parent legal categories from 8 options:
   - KUU1: DROIT JUDICIAIRE (Judicial Law)
   - KUU2: DROIT CIVIL (Civil Law)
@@ -36,28 +36,32 @@ This job processes Belgian legal decisions to:
 
 ### Query Logic
 
-Only processes decisions that **don't have UTU keywords yet**:
+Only processes decisions that **don't have UTU keywords yet** and **have full markdown text**:
 
 ```sql
 SELECT
   d.id,
   d.decision_id,
-  d.language_metadata
+  d.language_metadata,
+  dm.full_md
 FROM decisions1 d
-WHERE NOT EXISTS (
-  SELECT 1
-  FROM decisions_summaries_keywords dsk
-  JOIN keywords1 k ON dsk.keyword_id = k.id
-  WHERE dsk.decision_id = d.decision_id
-    AND k.keyword_type = 'UTU'
-)
-AND d.status = 'pending'
+INNER JOIN decisions_md dm ON d.id = dm.decision_serial
+WHERE dm.full_md IS NOT NULL
+  AND NOT EXISTS (
+    SELECT 1
+    FROM decisions_summaries_keywords dsk
+    JOIN keywords1 k ON dsk.keyword_id = k.id
+    WHERE dsk.decision_id = d.id
+      AND k.keyword_type = 'UTU'
+  )
+  AND d.status = 'pending'
 LIMIT 100
 ```
 
 ### Tables Used
 
 - **decisions1**: Main decisions table
+- **decisions_md**: Full text markdown storage
 - **decisions_summaries_keywords**: Links decisions to keywords
 - **keywords1**: Keyword definitions (includes `keyword_type`)
 

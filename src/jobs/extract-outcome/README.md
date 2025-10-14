@@ -13,14 +13,14 @@ This job analyzes Belgian legal decisions to extract and classify:
 
 ### Database Tables
 - **decisions1**: Main decisions table
-- **decision_fulltext1**: Full text markdown storage
+- **decisions_md**: Full text markdown storage
 
 ### Required Fields
 The job requires decisions with complete markdown text:
 - `decisions1.id` - Unique identifier
 - `decisions1.decision_id` - ECLI or other decision identifier
 - `decisions1.language_metadata` - Procedural language (FR/NL)
-- `decision_fulltext1.full_md` - Full markdown text of the decision
+- `decisions_md.full_md` - Full markdown text of the decision
 
 **CRITICAL**: Only processes decisions where `full_md IS NOT NULL`
 
@@ -30,10 +30,10 @@ SELECT
   d.id,
   d.decision_id,
   d.language_metadata,
-  df.full_md
+  dm.full_md
 FROM decisions1 d
-INNER JOIN decision_fulltext1 df ON d.id = df.decision_id
-WHERE df.full_md IS NOT NULL
+INNER JOIN decisions_md dm ON d.id = dm.decision_serial
+WHERE dm.full_md IS NOT NULL
   AND d.status = 'pending'
 LIMIT 100
 ```

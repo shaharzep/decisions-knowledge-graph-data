@@ -22,7 +22,7 @@ const config: JobConfig = {
   /**
    * Database Query
    *
-   * Joins decisions1 with decision_fulltext1 to get full markdown text.
+   * Joins decisions1 with decisions_md to get full markdown text.
    * CRITICAL: Only processes decisions where full_md IS NOT NULL.
    */
   dbQuery: `
@@ -30,15 +30,14 @@ const config: JobConfig = {
       d.id,
       d.decision_id,
       d.language_metadata,
-      df.full_md
+      dm.full_md
     FROM decisions1 d
-    INNER JOIN decision_fulltext1 df ON d.id = df.decision_id
-    WHERE df.full_md IS NOT NULL
-      AND d.status = $1
-    LIMIT $2
+    INNER JOIN decisions_md dm ON d.id = dm.decision_serial
+    WHERE dm.full_md IS NOT NULL
+    LIMIT $1
   `,
 
-  dbQueryParams: ['pending', 100],
+  dbQueryParams: [100],
 
   /**
    * Row Metadata Fields

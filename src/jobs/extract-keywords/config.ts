@@ -25,26 +25,29 @@ const config: JobConfig = {
    * Database Query
    *
    * Selects decisions from decisions1 that DON'T have UTU keywords yet.
-   * Joins with decisions_summaries_keywords and keywords1 to check for existing UTU keywords.
+   * Joins with decisions_md to get full markdown text.
+   * CRITICAL: Only processes decisions where full_md IS NOT NULL.
    */
   dbQuery: `
     SELECT
       d.id,
       d.decision_id,
-      d.language_metadata
+      d.language_metadata,
+      dm.full_md
     FROM decisions1 d
-    WHERE NOT EXISTS (
-      SELECT 1
-      FROM decisions_summaries_keywords dsk
-      JOIN keywords1 k ON dsk.keyword_id = k.id
-      WHERE dsk.decision_id = d.id
-        AND k.keyword_type = 'UTU'
-    )
-    AND d.status = $1
-    LIMIT $2
+    INNER JOIN decisions_md dm ON d.id = dm.decision_serial
+    WHERE dm.full_md IS NOT NULL
+      AND NOT EXISTS (
+        SELECT 1
+        FROM decisions_summaries_keywords dsk
+        JOIN keywords1 k ON dsk.keyword_id = k.id
+        WHERE dsk.decision_id = d.id
+          AND k.keyword_type = 'UTU'
+      )
+    LIMIT $1
   `,
 
-  dbQueryParams: ['pending', 100],
+  dbQueryParams: [100],
 
   /**
    * Row Metadata Fields
@@ -79,9 +82,8 @@ const config: JobConfig = {
     // Get parent categories
     const parentCategories = TaxonomyManager.getParentCategories();
 
-    // TODO: Use actual decision text when available
-    // For now, use decision_id and language_metadata as proxy
-    const decisionText = `Decision ${row.decision_id} - Language: ${row.language_metadata}`;
+    // Use actual full text markdown for taxonomy filtering
+    const decisionText = row.full_md;
 
     // Select relevant categories using GPT-5
     const selectedParentIds = await TaxonomyFilterService.selectRelevantCategories(
@@ -106,8 +108,8 @@ const config: JobConfig = {
     return {
       ...row,
       keywordsUtu: taxonomyString,
-      // Add empty strings for fields not yet available
-      fullTextMarkdown: '',
+      // Full text now available from database
+      fullTextMarkdown: row.full_md || '',
       factsFr: '',
       citedProvisions: '',
       proceduralLanguage: row.language_metadata || 'FR',
