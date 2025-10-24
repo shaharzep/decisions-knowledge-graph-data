@@ -1,12 +1,12 @@
 import OpenAI from "openai";
-import { OpenAIConfig } from "../config/openai.js";
+import { AzureConfig } from "../config/azure.js";
 import { JobLogger } from "../utils/logger.js";
 
 /**
  * Completion Settings for Responses API
  */
 export interface CompletionSettings {
-  model: string;
+  model?: string;
   maxOutputTokens?: number;
   reasoningEffort?: "low" | "medium" | "high"; // remove 'minimal'
   verbosity?: "minimal" | "low" | "medium" | "high";
@@ -21,10 +21,12 @@ export interface CompletionSettings {
 export class OpenAIConcurrentClient {
   private client: OpenAI;
   private logger: JobLogger;
+  private defaultDeployment: string;
 
   constructor(jobId: string) {
-    this.client = OpenAIConfig.getClient();
-    this.logger = new JobLogger(`OpenAIConcurrent:${jobId}`);
+    this.client = AzureConfig.getClient();
+    this.defaultDeployment = AzureConfig.getDeployment();
+    this.logger = new JobLogger(`AzureConcurrent:${jobId}`);
   }
 
   /**
@@ -186,7 +188,7 @@ export class OpenAIConcurrentClient {
       : { type: "json_object" };
 
     const body: any = {
-      model: settings.model,
+      model: this.defaultDeployment,
       input,
       text: {
         format: textFormat,

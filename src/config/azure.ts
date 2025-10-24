@@ -18,7 +18,15 @@ export class AzureConfig {
     const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
     const apiKey = process.env.AZURE_OPENAI_API_KEY;
     const deployment = process.env.AZURE_OPENAI_DEPLOYMENT;
-    const apiVersion = process.env.AZURE_API_VERSION || '2024-10-21';
+    const requiredApiVersion = '2025-03-01-preview';
+    let apiVersion = requiredApiVersion;
+
+    if (process.env.AZURE_API_VERSION && process.env.AZURE_API_VERSION !== requiredApiVersion) {
+      console.warn(
+        `⚠️  AZURE_API_VERSION '${process.env.AZURE_API_VERSION}' overridden with '${requiredApiVersion}' ` +
+        'to satisfy Azure Responses API requirements.'
+      );
+    }
 
     if (!endpoint || !apiKey || !deployment) {
       throw new Error(

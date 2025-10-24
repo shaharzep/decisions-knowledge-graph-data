@@ -30,7 +30,7 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
   // 'extract-provisions-interpretation': 'llm-as-a-judge_STAGE 2C.md',
 
   // Stage 3 (uncomment when ready)
-  // 'extract-stage3': 'llm-as-a-judge_STAGE 3.md',
+  'extract-cited-decisions': 'llm-as-a-judge_STAGE 3.md',
 
   // Stage 5 (uncomment when ready)
   // 'extract-stage5': 'llm-as-a-judge_STAGE 5.md',
