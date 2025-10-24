@@ -21,6 +21,9 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
   // Stage 1: Comprehensive extraction (parties, facts, arguments, court order)
   'extract-comprehensive': 'llm-as-a-judge_STAGE 1.md',
 
+  // Stage 2A: Provisions essential metadata (Agent 2A)
+  'extract-provisions-2a': 'llm-as-a-judge_STAGE 2A.md',
+
   // Stage 2: Provisions (uncomment when ready)
   // 'extract-provisions-fr': 'llm-as-a-judge_STAGE 2A.md',
   // 'extract-provisions-nl': 'llm-as-a-judge_STAGE 2B.md',

@@ -75,6 +75,7 @@ export function createExperiment(
  * @param input - Input data (decision ID, source doc, extracted JSON)
  * @param output - Evaluation result from judge
  * @param scores - Extracted scores for metrics
+ * @param metadata - Decision metadata from CSV test set (court, language, decision_type, etc.)
  */
 export function logEvaluation(
   experiment: any,
@@ -94,6 +95,18 @@ export function logEvaluation(
     recommendation: string;
     confidence: string;
     production_ready: boolean;
+  },
+  metadata?: {
+    id?: number;
+    language?: string;
+    decision_type_ecli_code?: string;
+    decision_type_name?: string;
+    court_ecli_code?: string;
+    court_name?: string;
+    courtcategory?: string;
+    decision_date?: string;
+    md_length?: number;
+    length_category?: string;
   }
 ) {
   experiment.log({
@@ -129,6 +142,17 @@ export function logEvaluation(
 
       // Extracted data (for easy reference without opening input)
       extracted_json: JSON.stringify(input.extractedData, null, 2),
+
+      // Decision metadata from CSV test set (for aggregation/analysis)
+      language: metadata?.language,
+      decision_type_ecli_code: metadata?.decision_type_ecli_code,
+      decision_type_name: metadata?.decision_type_name,
+      court_ecli_code: metadata?.court_ecli_code,
+      court_name: metadata?.court_name,
+      courtcategory: metadata?.courtcategory,
+      decision_date: metadata?.decision_date,
+      md_length: metadata?.md_length,
+      length_category: metadata?.length_category,
     },
   });
 }

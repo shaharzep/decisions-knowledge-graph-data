@@ -29,7 +29,7 @@ export class ConcurrentRunner {
   constructor(config: JobConfig, options: ConcurrentOptions = {}) {
     this.config = config;
     this.options = {
-      concurrencyLimit: options.concurrencyLimit || 50,
+      concurrencyLimit: options.concurrencyLimit || 100,
       timeout: options.timeout || 300000, // 5 minutes default
     };
     this.logger = new JobLogger(`ConcurrentRunner:${config.id}`);

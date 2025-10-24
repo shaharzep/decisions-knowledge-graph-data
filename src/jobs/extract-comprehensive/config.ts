@@ -261,10 +261,11 @@ const config: JobConfig = {
                 "NATURAL_PERSON",
                 "LEGAL_ENTITY",
                 "PUBLIC_AUTHORITY",
+                "DE_FACTO_ASSOCIATION",
                 "OTHER",
                 "UNCLEAR",
               ],
-              description: "Type of party",
+              description: "Type of party (including de facto associations)",
             },
             proceduralRole: {
               type: "string",
@@ -272,40 +273,42 @@ const config: JobConfig = {
                 // French - General / First Instance Roles
                 "DEMANDEUR",
                 "DEFENDEUR",
-                "PARTIE INTERVENANTE",
-                "TIERS OPPOSANT",
+                "PLAIGNANT",
+                "PARTIE_INTERVENANTE",
+                "TIERS_OPPOSANT",
                 // French - Appeal Roles
                 "APPELANT",
                 "INTIME",
                 // French - Cassation Roles
-                "DEMANDEUR EN CASSATION",
-                "DEFENDEUR EN CASSATION",
+                "DEMANDEUR_EN_CASSATION",
+                "DEFENDEUR_EN_CASSATION",
                 // French - Criminal & Specific Roles
-                "MINISTERE PUBLIC",
-                "PARTIE CIVILE",
-                "PRÉVENU",
-                "PARTIE CIVILEMENT RESPONSABLE",
+                "MINISTERE_PUBLIC",
+                "PARTIE_CIVILE",
+                "PREVENU",
+                "PARTIE_CIVILEMENT_RESPONSABLE",
                 "AUTRE",
                 // Dutch - General / First Instance Roles
                 "EISER",
                 "VERWEERDER",
-                "TUSSENKOMENDE PARTIJ",
-                "DERDE VERZETTENDE",
+                "KLAGER",
+                "TUSSENKOMENDE_PARTIJ",
+                "DERDE_VERZETTENDE",
                 // Dutch - Appeal Roles
                 "APPELLANT",
                 "GEÏNTIMEERDE",
                 // Dutch - Cassation Roles
-                "EISER IN CASSATIE",
-                "VERWEERDER IN CASSATIE",
+                "EISER_IN_CASSATIE",
+                "VERWEERDER_IN_CASSATIE",
                 // Dutch - Criminal & Specific Roles
-                "OPENBAAR MINISTERIE",
-                "BURGERLIJKE PARTIJ",
+                "OPENBAAR_MINISTERIE",
+                "BURGERLIJKE_PARTIJ",
                 "BEKLAAGDE",
-                "BURGERLIJK AANSPRAKELIJKE PARTIJ",
+                "BURGERLIJK_AANSPRAKELIJKE_PARTIJ",
                 "ANDERE",
               ],
               description:
-                "Procedural role (comprehensive language-specific enum covering all court levels)",
+                "Procedural role (comprehensive language-specific enum with underscores, covering all court levels)",
             },
           },
         },
@@ -329,11 +332,11 @@ const config: JobConfig = {
           },
 
           // ========================================
-          // REQUESTS (field name is plural!)
+          // REQUESTS (field name is plural!) - OPTIONAL
           // ========================================
           requests: {
             type: "array",
-            minItems: 1,
+            description: "Optional: only extract if explicitly mentioned in decision. Can be empty array for short decisions.",
             items: {
               type: "object",
               required: ["partyId", "requests"],
@@ -356,11 +359,11 @@ const config: JobConfig = {
           },
 
           // ========================================
-          // ARGUMENTS (synthesis allowed)
+          // ARGUMENTS (synthesis allowed) - OPTIONAL
           // ========================================
           arguments: {
             type: "array",
-            minItems: 1,
+            description: "Optional: only extract if explicitly mentioned in decision. Can be empty array for short decisions.",
             items: {
               type: "object",
               required: ["partyId", "argument", "treatment"],
@@ -383,23 +386,25 @@ const config: JobConfig = {
                   enum: [
                     // French values
                     "ACCEPTE",
-                    "PARTIELLEMENT ACCEPTE",
+                    "PARTIELLEMENT_ACCEPTE",
                     "REJETE",
+                    "RECEVABLE",
                     "IRRECEVABLE",
-                    "SANS OBJET",
-                    "NON TRAITE",
+                    "SANS_OBJET",
+                    "NON_TRAITE",
                     "INCERTAIN",
                     // Dutch values
                     "AANVAARD",
-                    "GEDEELTELIJK AANVAARD",
+                    "GEDEELTELIJK_AANVAARD",
                     "VERWORPEN",
+                    "ONTVANKELIJK",
                     "NIET-ONTVANKELIJK",
-                    "ZONDER VOORWERP",
-                    "NIET BEHANDELD",
+                    "ZONDER_VOORWERP",
+                    "NIET_BEHANDELD",
                     "ONZEKER",
                   ],
                   description:
-                    "How the court treated this argument (language-specific enum)",
+                    "How the court treated this argument (language-specific enum with underscores)",
                 },
               },
             },
@@ -422,60 +427,64 @@ const config: JobConfig = {
             type: "string",
             enum: [
               // French - General Substantive Outcomes
-              "FONDÉ",
-              "NON FONDÉ",
+              "FONDE",
+              "NON_FONDE",
+              "RECEVABILITE",
+              "IRRECEVABILITE",
               "REJET",
               "CONDAMNATION",
               "ACQUITTEMENT",
               // French - Appellate Outcomes
               "CONFIRMATION",
-              "CONFIRMATION PARTIELLE",
-              "RÉFORMATION",
+              "CONFIRMATION_PARTIELLE",
+              "REFORMATION",
               "ANNULATION",
-              "ANNULATION PARTIELLE",
+              "ANNULATION_PARTIELLE",
               // French - Cassation Outcomes
               "CASSATION",
-              "CASSATION PARTIELLE",
+              "CASSATION_PARTIELLE",
               "RENVOI",
               // French - Procedural & Other Outcomes
-              "IRRECEVABILITE",
-              "DÉCHÉANCE",
+              "DECHEANCE",
               "DESSAISISSEMENT",
               "DESISTEMENT",
+              "RETRAIT",
               "SUSPENSION",
               "RADIATION",
-              "NON-LIEU À STATUER",
+              "NON_LIEU_A_STATUER",
               "REVOCATION",
               "AUTRE",
               // Dutch - General Substantive Outcomes
               "GEGROND",
               "ONGEGROND",
+              "ONTVANKELIJKHEID",
+              "NIET_ONTVANKELIJKHEID",
               "AFWIJZING",
               "VEROORDELING",
               "VRIJSPRAAK",
               // Dutch - Appellate Outcomes
               "BEVESTIGING",
-              "GEDEELTELIJKE BEVESTIGING",
+              "GEDEELTELIJKE_BEVESTIGING",
               "HERVORMING",
               "VERNIETIGING",
-              "GEDEELTELIJKE VERNIETIGING",
+              "GEDEELTELIJKE_VERNIETIGING",
               // Dutch - Cassation Outcomes
               "CASSATIE",
-              "GEDEELTELIJKE CASSATIE",
+              "GEDEELTELIJKE_CASSATIE",
               "VERWIJZING",
               // Dutch - Procedural & Other Outcomes
-              "NIET ONTVANKELIJKHEID",
               "VERVAL",
-              "ONTZEGGING VAN RECHTSMACHT",
+              "ONTZEGGING_VAN_RECHTSMACHT",
               "AFSTAND",
+              "INTREKKING",
               "SCHORSING",
               "DOORHALING",
-              "GEEN AANLEIDING TOT UITSPRAAK",
+              "GEEN_AANLEIDING_TOT_UITSPRAAK",
               "HERROEPING",
               "ANDERE",
             ],
             description:
-              "Final decision classification (comprehensive language-specific enum covering all court levels and outcome types)",
+              "Final decision classification (comprehensive language-specific enum with underscores, covering all court levels and outcome types)",
           },
         },
       },

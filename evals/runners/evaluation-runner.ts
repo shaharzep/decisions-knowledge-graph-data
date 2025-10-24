@@ -142,7 +142,7 @@ export async function runEvaluation(
   console.log(`\n🎯 Evaluating ${evaluationInputs.length} decisions...\n`);
 
   // Determine concurrency
-  const concurrency = options.parallelWorkers || 5; // Default to 5 parallel workers
+  const concurrency = options.parallelWorkers || 50; // Default to 5 parallel workers
   console.log(`   Using ${concurrency} parallel workers\n`);
 
   // Run evaluations in parallel batches
@@ -182,7 +182,8 @@ export async function runEvaluation(
             url: input.metadata?.url,
           },
           evaluation,
-          scores
+          scores,
+          input.metadata // Pass full metadata for aggregation/analysis
         );
 
         progress.completed++;
@@ -247,6 +248,16 @@ export async function runEvaluation(
 
   // Summarize experiment in Braintrust
   await summarizeExperiment(experiment);
+
+  // Automatically run analysis and display results
+  console.log('\n📊 Running automatic analysis...\n');
+  try {
+    const { analyzeExperimentFromBraintrust } = await import('../analyzers/experiment-analyzer.js');
+    await analyzeExperimentFromBraintrust(experimentName);
+  } catch (error: any) {
+    console.warn('⚠️  Could not run automatic analysis:', error.message);
+    console.warn('   You can run it manually: npm run analyze-results --', experimentName);
+  }
 
   return {
     evaluations,

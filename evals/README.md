@@ -136,6 +136,13 @@ npm run eval run extract-comprehensive --timestamp 2025-10-18T22-45-00-000Z
 
 ### 4. View Results
 
+After evaluation completes, **analysis runs automatically** and displays:
+- Overall score and pass rate
+- Breakdown by language (FR vs NL)
+- Breakdown by court (CASS, GBAPD, etc.)
+- Breakdown by decision type
+- Breakdown by length category
+
 **Local Results:**
 ```bash
 cat evals/results/<experiment-name>/summary.json
@@ -143,6 +150,17 @@ cat evals/results/<experiment-name>/summary.json
 
 **Braintrust Dashboard:**
 https://www.braintrustdata.com
+
+**Save Analysis as Markdown:**
+```bash
+# Using experiment name (easier)
+npm run analyze-results -- gpt-5-mini-latest --format markdown --save
+
+# Or using experiment ID
+npm run analyze-results -- <experiment-id> --format markdown --save
+```
+
+See [ANALYSIS-TOOL.md](./ANALYSIS-TOOL.md) for details.
 
 ## CLI Commands
 

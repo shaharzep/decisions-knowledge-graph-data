@@ -12,7 +12,7 @@ These make the extraction **unusable**. ANY critical issue = FAIL.
 3. **Wrong Decision**: Extraction appears to be from completely different case
 4. **Missing Court Order**: `courtOrder` field empty when dispositif exists in source
 5. **Court Order Not Verbatim**: `courtOrder` paraphrased or summarized (MUST be exact)
-6. **Empty Core Content**: `facts`, `requests[]`, or `arguments[]` empty when content clearly available
+6. **Empty Core Content**: `facts` empty when content clearly available. Note: `requests[]` and `arguments[]` can be empty for short procedural decisions.
 
 ### ?? MAJOR ISSUES (Quality Problems - Review Required)
 These reduce value significantly. 2+ major issues = requires review before production.
@@ -31,6 +31,144 @@ These are acceptable for production launch. Note but don't block on these.
 3. **One Broken Reference**: Single `partyId` pointing to non-existent party
 4. **Minor Enum Issues**: 1-2 enum values incorrect
 5. **Minor Length Issues**: Fields slightly outside char limits
+
+---
+
+## VALID ENUM VALUES
+
+The extraction must use values ONLY from these approved lists. Check that enum values match the document's `proceduralLanguage` (FR or NL).
+
+### parties[].type
+- NATURAL_PERSON
+- LEGAL_ENTITY
+- PUBLIC_AUTHORITY
+- DE_FACTO_ASSOCIATION
+- OTHER
+- UNCLEAR
+
+### parties[].proceduralRole
+
+**French (FR):**
+- DEMANDEUR *(general/first instance)*
+- DEFENDEUR *(general/first instance)*
+- PLAIGNANT *(complainant)*
+- PARTIE_INTERVENANTE *(intervening party)*
+- TIERS_OPPOSANT *(third party opponent)*
+- APPELANT *(appeal)*
+- INTIME *(appeal respondent)*
+- DEMANDEUR_EN_CASSATION *(cassation)
+- DEFENDEUR_EN_CASSATION *(cassation respondent)
+- MINISTERE_PUBLIC *(public prosecutor)*
+- PARTIE_CIVILE *(civil party in criminal case)*
+- PREVENU *(defendant in criminal case)*
+- PARTIE_CIVILEMENT_RESPONSABLE *(civilly liable party)
+- AUTRE *(other)*
+
+**Dutch (NL):**
+- EISER *(general/first instance)*
+- VERWEERDER *(general/first instance)*
+- KLAGER *(complainant)*
+- TUSSENKOMENDE_PARTIJ *(intervening party)*
+- DERDE_VERZETTENDE *(third party opponent)*
+- APPELLANT *(appeal)*
+- GEÏNTIMEERDE *(appeal respondent)*
+- EISER_IN_CASSATIE *(cassation)*
+- VERWEERDER_IN_CASSATIE *(cassation respondent)*
+- OPENBAAR_MINISTERIE *(public prosecutor)*
+- BURGERLIJKE_PARTIJ *(civil party in criminal case)*
+- BEKLAAGDE *(defendant in criminal case)*
+- BURGERLIJK_AANSPRAKELIJKE_PARTIJ *(civilly liable party)
+- ANDERE *(other)*
+
+### arguments[].treatment
+
+**French (FR):**
+- ACCEPTE *(accepted)*
+- PARTIELLEMENT_ACCEPTE *(partially accepted)*
+- REJETE *(rejected)*
+- RECEVABLE *(admissible)* ← NEW (procedural)
+- IRRECEVABLE *(inadmissible)*
+- SANS_OBJET *(moot/without object)*
+- NON_TRAITE *(not addressed)*
+- INCERTAIN *(uncertain/unclear)*
+
+**Dutch (NL):**
+- AANVAARD *(accepted)*
+- GEDEELTELIJK_AANVAARD *(partially accepted)*
+- VERWORPEN *(rejected)*
+- ONTVANKELIJK *(admissible)* ← NEW (procedural)
+- NIET-ONTVANKELIJK *(inadmissible)*
+- ZONDER_VOORWERP *(moot/without object)*
+- NIET_BEHANDELD *(not addressed)*
+- ONZEKER *(uncertain/unclear)*
+
+### currentInstance.outcome
+
+**French (FR) - General Substantive:**
+- FONDE *(well-founded)* ← no accent
+- NON_FONDE *(not well-founded)* ← underscore, no accent
+- RECEVABILITE *(admissibility)* ← NEW (procedural)
+- IRRECEVABILITE *(inadmissibility)* ← no accent
+- REJET *(dismissal)*
+- CONDAMNATION *(conviction/condemnation)*
+- ACQUITTEMENT *(acquittal)*
+
+**French (FR) - Appellate:**
+- CONFIRMATION *(confirmation)*
+- CONFIRMATION_PARTIELLE *(partial confirmation)* ← underscore
+- REFORMATION *(reversal/reform)*
+- ANNULATION *(annulment)*
+- ANNULATION_PARTIELLE *(partial annulment)* ← underscore
+
+**French (FR) - Cassation:**
+- CASSATION *(cassation/quashing)*
+- CASSATION_PARTIELLE *(partial cassation)* ← underscore
+- RENVOI *(remand)*
+
+**French (FR) - Procedural & Other:**
+- DECHEANCE *(forfeiture)* ← no accent
+- DESSAISISSEMENT *(relinquishment of jurisdiction)*
+- DESISTEMENT *(withdrawal)* ← no accent
+- RETRAIT *(withdrawal)* ← NEW
+- SUSPENSION *(suspension)*
+- RADIATION *(striking off)*
+- NON_LIEU_A_STATUER *(no grounds to rule)* 
+- REVOCATION *(revocation)* ← no accent
+- AUTRE *(other)*
+
+**Dutch (NL) - General Substantive:**
+- GEGROND *(well-founded)*
+- ONGEGROND *(not well-founded)*
+- ONTVANKELIJKHEID *(admissibility)* ← NEW (procedural)
+- NIET_ONTVANKELIJKHEID *(inadmissibility)* ← underscore
+- AFWIJZING *(dismissal)*
+- VEROORDELING *(conviction/condemnation)*
+- VRIJSPRAAK *(acquittal)*
+
+**Dutch (NL) - Appellate:**
+- BEVESTIGING *(confirmation)*
+- GEDEELTELIJKE_BEVESTIGING *(partial confirmation)* ← underscore
+- HERVORMING *(reversal/reform)*
+- VERNIETIGING *(annulment)*
+- GEDEELTELIJKE_VERNIETIGING *(partial annulment)* ← underscore
+
+**Dutch (NL) - Cassation:**
+- CASSATIE *(cassation/quashing)*
+- GEDEELTELIJKE_CASSATIE *(partial cassation)* ← underscore
+- VERWIJZING *(remand)*
+
+**Dutch (NL) - Procedural & Other:**
+- VERVAL *(forfeiture)*
+- ONTZEGGING_VAN_RECHTSMACHT *(relinquishment of jurisdiction)* 
+- AFSTAND *(withdrawal)*
+- INTREKKING *(withdrawal)* ← NEW
+- SCHORSING *(suspension)*
+- DOORHALING *(striking off)*
+- GEEN_AANLEIDING_TOT_UITSPRAAK *(no grounds to rule)* 
+- HERROEPING *(revocation)*
+- ANDERE *(other)*
+
+**NOTE:** For purely procedural admissibility decisions (e.g., "verklaart de klacht ontvankelijk"), use RECEVABILITE (FR) or ONTVANKELIJKHEID (NL). AUTRE/ANDERE is acceptable but less specific.
 
 ---
 
@@ -59,8 +197,9 @@ For facts, requests, arguments:
 ### 4. Completeness Check (MAJOR)
 - All parties extracted?
 - Key facts present (don't need ALL if minor details)?
-- Main arguments captured?
-- **Red flag**: <70% of important content extracted
+- Main arguments captured (if substantive decision)?
+- **Note**: `requests[]` and `arguments[]` can be empty for short procedural decisions
+- **Red flag**: <70% of important content extracted (for substantive decisions)
 
 ### 5. Reference Integrity (MAJOR if multiple)
 - `requests[].partyId` values exist in `parties[].id`?
@@ -73,14 +212,17 @@ For facts, requests, arguments:
 - **Red flag**: Cannot find extracted content in source
 
 ### 7. Enum Validation (MAJOR if multiple)
-- All enum values from approved comprehensive lists?
+- All enum values from the approved lists defined above?
 - Language-specific enums match `proceduralLanguage`?
-- **Check these enums**:
-  - `parties[].type`: NATURAL_PERSON, LEGAL_ENTITY, PUBLIC_AUTHORITY, OTHER, UNCLEAR
-  - `parties[].proceduralRole`: Language-specific (FR: DEMANDEUR, APPELANT, DEMANDEUR EN CASSATION, MINISTERE PUBLIC, etc. / NL: EISER, APPELLANT, EISER IN CASSATIE, OPENBAAR MINISTERIE, etc.)
-  - `arguments[].treatment`: Language-specific (FR: ACCEPTE, REJETE, IRRECEVABLE, SANS OBJET, etc. / NL: AANVAARD, VERWORPEN, NIET-ONTVANKELIJK, ZONDER VOORWERP, etc.)
-  - `currentInstance.outcome`: Language-specific (FR: FOND�, CASSATION, CONFIRMATION, IRRECEVABILITE, etc. / NL: GEGROND, CASSATIE, BEVESTIGING, NIET ONTVANKELIJKHEID, etc.)
-- **Red flag**: 3+ invalid enum values or consistent language mismatches
+- **Check these fields**:
+  - `parties[].type`: From universal type list (6 values including DE_FACTO_ASSOCIATION)
+  - `parties[].proceduralRole`: Must use correct language variant with underscores (14 FR values, 14 NL values)
+  - `arguments[].treatment`: Must use correct language variant with underscores (8 FR values, 8 NL values)
+  - `currentInstance.outcome`: Must use correct language variant (see comprehensive lists above)
+
+**Red flag (MAJOR)**: 3+ invalid enum values or wrong language variant used
+
+**Acceptable edge case**: Procedural admissibility decisions may use "AUTRE/ANDERE" for outcome since specific procedural values are not currently in the enum. Flag as MINOR issue only if decision is clearly procedural-only.
 
 ### 8. Schema Compliance (MAJOR)
 - `facts` is single string (not array)?
@@ -89,7 +231,32 @@ For facts, requests, arguments:
 - Character limits respected (requests 50-1000, arguments 200-2000)?
 - **Red flag**: Multiple schema violations
 
+### 9. Procedural-Only Decision Check (CRITICAL)
+
+For short documents that only declare admissibility:
+- Check if court order contains "ontvankelijk/recevable" (admissible)
+- Check if it schedules future hearing ("volgende dagorde/prochaine audience")
+- Check if document is < 2000 characters
+
+**If YES to all three, this is a procedural-only decision:**
+- `arguments[]` should be EMPTY (acceptable - field is optional)
+- `requests[]` should be EMPTY (acceptable - field is optional)
+- If arguments exist, `treatment` should be RECEVABLE/ONTVANKELIJK (procedural admissibility), NOT ACCEPTE/AANVAARD (substantive acceptance)
+- `outcome` should be RECEVABILITE/ONTVANKELIJKHEID (now available in enum) or AUTRE/ANDERE
+
+**Red flags (CRITICAL - Hallucination):**
+- Detailed legal arguments in a <2000 char admissibility decision
+- Phrases like "klager stelt dat... in strijd is" (argues illegality) when source only says "klacht betreft" (concerns)
+- Phrases like "verzoekt om onderzoek" (requests investigation) not explicitly in source
+- Treatment marked AANVAARD/ACCEPTÉ when decision only declares admissibility
+
+**How to verify:**
+1. Search source for extracted argument text - is it verbatim or close paraphrase?
+2. If not found, is extraction inferring typical arguments from context? → HALLUCINATION
+3. For procedural decisions: Arguments/requests should ONLY extract what is explicitly stated
+
 ---
+
 
 ## OUTPUT FORMAT
 ```json

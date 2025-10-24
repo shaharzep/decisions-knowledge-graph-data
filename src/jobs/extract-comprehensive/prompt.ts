@@ -1,15 +1,17 @@
 /**
- * Comprehensive Extraction Prompt - Version 2
+ * Comprehensive Extraction Prompt - AI Agent 1
  *
- * Source: prompts-txts/P1_STAGE 1 (2).md
- * Updated: 2025-10-23
+ * Source: prompts-txts/AI Agent 1.md
+ * Updated: 2025-10-24
  *
- * Key changes from Version 1:
- * - Party roles: 14 → 30 values (added appeal, cassation, criminal roles)
- * - Argument treatment: 10 → 14 values (added IRRECEVABLE, SANS OBJET)
- * - Outcome: 24 → 50 values (added substantive, appellate, procedural outcomes)
- * - Enum formatting: UNDERSCORE_SEPARATED → SPACE SEPARATED
- * - Total enum values: 48 → 94
+ * Key changes:
+ * - Enum format: SPACES → UNDERSCORES (e.g., DEMANDEUR EN CASSATION → DEMANDEUR_EN_CASSATION)
+ * - Requests/Arguments: Now OPTIONAL (can be empty arrays for short decisions)
+ * - Party types: Added DE_FACTO_ASSOCIATION
+ * - Procedural roles: Added PLAIGNANT (FR), KLAGER (NL)
+ * - Argument treatment: Added RECEVABLE (FR), ONTVANKELIJK (NL)
+ * - Outcome: Expanded with FONDE, RECEVABILITE, RETRAIT, INTREKKING, etc.
+ * - Court order: Explicit guidance to stop before footnotes/signatures
  */
 
 export const COMPREHENSIVE_PROMPT = `## ROLE
@@ -17,7 +19,7 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 
 ## INPUT
 1. **Decision ID**: \`{decisionId}\`
-2. **Procedural Language**: \`{proceduralLanguage}\`
+2. **Procedural Language**: \`{proceduralLanguage}\` (FR or NL)
 3. **Public URL**: \`{publicUrl}\`
 4. **Full Text**: \`{fullText.markdown}\`
 
@@ -31,7 +33,7 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
     {
       "id": "PARTY-{decisionId}-001",
       "name": "Full party name",
-      "type": "NATURAL_PERSON|LEGAL_ENTITY|PUBLIC_AUTHORITY|OTHER|UNCLEAR",
+      "type": "NATURAL_PERSON|LEGAL_ENTITY|PUBLIC_AUTHORITY|DE_FACTO_ASSOCIATION|OTHER|UNCLEAR",
       "proceduralRole": "Language-specific enum"
     }
   ],
@@ -50,7 +52,7 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
         "treatment": "Language-specific enum"
       }
     ],
-    "courtOrder": "Verbatim dispositif",
+    "courtOrder": "Verbatim dispositif (operative part only)",
     "outcome": "Language-specific enum"
   }
 }
@@ -91,68 +93,51 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 **\`parties[].name\`** - String, 2-200 chars, REQUIRED
 - **CRITICAL**: If decision uses initials, extract FULL NAME if determinable from context
 - If full name not determinable, use initials as written
-- Examples: 
+- Examples:
   - Decision shows "M. J.D." but context reveals "Jean Dupont" ? Extract "Jean Dupont"
   - Decision shows "M. J.D." with no context ? Extract "M. J.D."
   - Decision shows "Société X" ? Extract full company name if stated elsewhere
 
 **\`parties[].type\`** - Enum, REQUIRED
 - \`NATURAL_PERSON\`: Individual human being
-- \`LEGAL_ENTITY\`: Company, association, organization
-- \`PUBLIC_AUTHORITY\`: State, municipality, public institution
+- \`LEGAL_ENTITY\`: Company, non-profit (VZW/ASBL), organization with legal personality
+- \`PUBLIC_AUTHORITY\`: State, municipality, public institution (specific type of legal entity)
+- \`DE_FACTO_ASSOCIATION\`: Group without legal personality that can be party to proceedings (FR: association de fait, NL: feitelijke vereniging) - e.g., local action committee
 - \`OTHER\`: Doesn't fit above categories
 - \`UNCLEAR\`: Cannot determine from decision
 
 **\`parties[].proceduralRole\`** - Enum (language-specific), REQUIRED
 
-### General / First Instance Roles
-
 **If proceduralLanguage = "FR":**
-- \`DEMANDEUR\`: Claimant / Plaintiff (The party starting the case)
-- \`DEFENDEUR\`: Defendant (The party against whom the case is brought)
-- \`PARTIE INTERVENANTE\`: Intervening party (A party voluntarily joining the case)
-- \`TIERS OPPOSANT\`: Third-party objector (A party challenging a decision they weren't part of)
-
-**If proceduralLanguage = "NL":**
-- \`EISER\`: Claimant / Plaintiff
-- \`VERWEERDER\`: Defendant
-- \`TUSSENKOMENDE PARTIJ\`: Intervening party
-- \`DERDE VERZETTENDE\`: Third-party objector
-
-### Appeal Roles
-
-**If proceduralLanguage = "FR":**
-- \`APPELANT\`: Appellant (The party lodging the appeal)
-- \`INTIME\`: Respondent (The party defending against the appeal)
-
-**If proceduralLanguage = "NL":**
-- \`APPELLANT\`: Appellant
-- \`GEÏNTIMEERDE\`: Respondent
-
-### Cassation Roles
-
-**If proceduralLanguage = "FR":**
-- \`DEMANDEUR EN CASSATION\`: Plaintiff in cassation
-- \`DEFENDEUR EN CASSATION\`: Defendant in cassation
-
-**If proceduralLanguage = "NL":**
-- \`EISER IN CASSATIE\`: Plaintiff in cassation
-- \`VERWEERDER IN CASSATIE\`: Defendant in cassation
-
-### Criminal & Specific Roles
-
-**If proceduralLanguage = "FR":**
-- \`MINISTERE PUBLIC\`: Public prosecutor
-- \`PARTIE CIVILE\`: Civil party (Victim seeking damages in a criminal case)
-- \`PRÉVENU\`: Accused / Defendant (In a criminal case)
-- \`PARTIE CIVILEMENT RESPONSABLE\`: Civilly liable party (e.g., an employer or parent)
+- \`DEMANDEUR\`: Claimant/Plaintiff
+- \`DEFENDEUR\`: Defendant
+- \`PLAIGNANT\`: Complainant
+- \`PARTIE_INTERVENANTE\`: Intervening party
+- \`TIERS_OPPOSANT\`: Third-party objector
+- \`APPELANT\`: Appellant
+- \`INTIME\`: Respondent (in appeal)
+- \`DEMANDEUR_EN_CASSATION\`: Plaintiff in cassation
+- \`DEFENDEUR_EN_CASSATION\`: Defendant in cassation
+- \`MINISTERE_PUBLIC\`: Public prosecutor
+- \`PARTIE_CIVILE\`: Civil party
+- \`PREVENU\`: Accused/Defendant (criminal)
+- \`PARTIE_CIVILEMENT_RESPONSABLE\`: Civilly liable party
 - \`AUTRE\`: Other role
 
 **If proceduralLanguage = "NL":**
-- \`OPENBAAR MINISTERIE\`: Public prosecutor
-- \`BURGERLIJKE PARTIJ\`: Civil party
-- \`BEKLAAGDE\`: Accused / Defendant (In a criminal case)
-- \`BURGERLIJK AANSPRAKELIJKE PARTIJ\`: Civilly liable party
+- \`EISER\`: Claimant/Plaintiff
+- \`VERWEERDER\`: Defendant
+- \`KLAGER\`: Complainant
+- \`TUSSENKOMENDE_PARTIJ\`: Intervening party
+- \`DERDE_VERZETTENDE\`: Third-party objector
+- \`APPELLANT\`: Appellant
+- \`GEÏNTIMEERDE\`: Respondent (in appeal)
+- \`EISER_IN_CASSATIE\`: Plaintiff in cassation
+- \`VERWEERDER_IN_CASSATIE\`: Defendant in cassation
+- \`OPENBAAR_MINISTERIE\`: Public prosecutor
+- \`BURGERLIJKE_PARTIJ\`: Civil party
+- \`BEKLAAGDE\`: Accused/Defendant (criminal)
+- \`BURGERLIJK_AANSPRAKELIJKE_PARTIJ\`: Civilly liable party
 - \`ANDERE\`: Other role
 
 **Extraction rules:**
@@ -160,6 +145,7 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 - Create sequential party IDs (001, 002, 003...)
 - Expand initials to full names when possible
 - Use UNCLEAR type when cannot determine
+- Use DE_FACTO_ASSOCIATION for groups without legal personality
 
 ### Current Instance - FACTS
 
@@ -175,18 +161,18 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 
 **Extraction approach:**
 
-? **PREFERRED: Extract verbatim when possible**
-- Facts presented coherently in source ? copy exactly
+✓ **PREFERRED: Extract verbatim when possible**
+- Facts presented coherently in source → copy exactly
 - Maintain chronological flow
 - Preserve dates, amounts, relationships
 
-? **ACCEPTABLE: Synthesize when necessary**
-- Facts scattered across document ? consolidate into single narrative
-- Facts mixed with procedural text ? extract substance only
-- Facts buried in complex legal language ? simplify while preserving accuracy
-- Verbose factual recitation ? consolidate to essential facts
+✓ **ACCEPTABLE: Synthesize when necessary**
+- Facts scattered across document → consolidate into single narrative
+- Facts mixed with procedural text → extract substance only
+- Facts buried in complex legal language → simplify while preserving accuracy
+- Verbose factual recitation → consolidate to essential facts
 
-? **REQUIRED: Accuracy & completeness**
+✓ **REQUIRED: Accuracy & completeness**
 - All material facts included in single text
 - Dates, amounts, relationships accurate
 - Procedural language maintained
@@ -199,7 +185,7 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 "facts": "En 2021, la défenderesse a publié plusieurs offres d'emploi mentionnant des critères d'âge (candidats de 25 à 35 ans). Le Centre pour l'égalité des chances a constaté ces pratiques discriminatoires et a introduit une action collective sans obtenir l'accord d'une victime identifiée. La Cour d'appel de Bruxelles, par arrêt du 12 mai 2021, a déclaré l'action irrecevable au motif que le Centre n'avait pas prouvé l'accord d'une personne lésée."
 \`\`\`
 
-? **NEVER:**
+✗ **NEVER:**
 - Create array of facts (must be single string)
 - Invent facts not in decision
 - Include legal conclusions as facts
@@ -207,7 +193,7 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 
 ### Current Instance - REQUESTS
 
-**\`currentInstance.requests\`** - Array of objects, REQUIRED (minimum 1)
+**\`currentInstance.requests\`** - Array of objects, OPTIONAL (extract only if present)
 \`\`\`json
 {
   "partyId": "PARTY-{decisionId}-001",
@@ -215,13 +201,17 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 }
 \`\`\`
 
-**CRITICAL**: Field name is \`requests\` (plural), not \`request\`.
+**CRITICAL**:
+- Field name is \`requests\` (plural), not \`request\`
+- **Only extract if parties' requests are explicitly stated in decision**
+- **Can be empty array if no requests mentioned** (common in short decisions)
+- **Do NOT hallucinate or invent requests if not present**
 
-**\`requests[].partyId\`** - String, REQUIRED
+**\`requests[].partyId\`** - String, REQUIRED (if request present)
 - References \`parties[].id\`
 - Format: \`PARTY-{decisionId}-{sequence}\`
 
-**\`requests[].requests\`** - String, 50-1000 chars, REQUIRED
+**\`requests[].requests\`** - String, 50-1000 chars, REQUIRED (if request present)
 
 **What are requests:**
 - What party asks court to decide/order
@@ -230,29 +220,31 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 
 **Extraction approach:**
 
-? **PREFERRED: Extract verbatim when clear**
-- Clear "demande que", "vordert dat" statements ? copy
-- Structured conclusions section ? extract exactly
+✓ **PREFERRED: Extract verbatim when clear**
+- Clear "demande que", "vordert dat" statements → copy
+- Structured conclusions section → extract exactly
 
-? **ACCEPTABLE: Synthesize when necessary**
-- Requests scattered across sections ? consolidate
-- Overly verbose legal formulation ? simplify while preserving substance
-- Requests implied from context ? state clearly
+✓ **ACCEPTABLE: Synthesize when necessary**
+- Requests scattered across sections → consolidate
+- Overly verbose legal formulation → simplify while preserving substance
+- Requests implied from context → state clearly
 
-? **REQUIRED:**
-- Capture ALL substantive requests per party
+✓ **REQUIRED:**
+- Capture ALL substantive requests per party (if present)
 - 50-1000 characters (if verbatim exceeds 1000, consolidate)
 - Preserve key legal terminology
 - Procedural language
 
-? **NEVER:**
-- Invent requests not made
-- Omit major requests
+✗ **NEVER:**
+- Invent requests not in decision
+- Extract requests when decision doesn't mention them
 - Confuse requests with arguments
+
+**For short decisions (1-2 pages):** If no explicit requests section or "demande que" language, leave requests array empty rather than inventing.
 
 ### Current Instance - ARGUMENTS
 
-**\`currentInstance.arguments\`** - Array of objects, REQUIRED (minimum 1)
+**\`currentInstance.arguments\`** - Array of objects, OPTIONAL (extract only if present)
 \`\`\`json
 {
   "partyId": "PARTY-{decisionId}-001",
@@ -261,10 +253,15 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 }
 \`\`\`
 
-**\`arguments[].partyId\`** - String, REQUIRED
+**CRITICAL**:
+- **Only extract if parties' arguments are explicitly stated in decision**
+- **Can be empty array if no arguments mentioned** (common in short decisions)
+- **Do NOT hallucinate or invent arguments if not present**
+
+**\`arguments[].partyId\`** - String, REQUIRED (if argument present)
 - References \`parties[].id\`
 
-**\`arguments[].argument\`** - String, 200-2000 chars, REQUIRED
+**\`arguments[].argument\`** - String, 200-2000 chars, REQUIRED (if argument present)
 
 **What are arguments:**
 - Legal grounds party invokes
@@ -274,46 +271,52 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 
 **Extraction approach:**
 
-? **PREFERRED: Extract core reasoning**
-- Clear "Griefs"/"Moyens" sections ? extract substance
-- Party submissions with legal basis ? capture main points
+✓ **PREFERRED: Extract core reasoning**
+- Clear "Griefs"/"Moyens" sections → extract substance
+- Party submissions with legal basis → capture main points
 
-? **ACCEPTABLE: Synthesize from multiple passages**
-- Arguments across multiple paragraphs ? consolidate coherently
-- Arguments mixed with factual recitation ? extract legal reasoning
-- Complex pleadings ? distill to essential legal points
+✓ **ACCEPTABLE: Synthesize from multiple passages**
+- Arguments across multiple paragraphs → consolidate coherently
+- Arguments mixed with factual recitation → extract legal reasoning
+- Complex pleadings → distill to essential legal points
 
-? **REQUIRED:**
+✓ **REQUIRED:**
 - Each argument 200-2000 chars
 - Capture: Legal basis + reasoning + application to facts
 - Procedural language
 - Reflect party's argument (not court's view)
 
-? **NEVER:**
+✗ **NEVER:**
+- Invent arguments not in decision
+- Extract arguments when decision doesn't mention them
 - Confuse party arguments with court reasoning
 - Include only legal citations without reasoning
 - Make arguments too brief (<200 chars)
 
+**For short decisions (1-2 pages):** If no explicit arguments section or party submissions, leave arguments array empty rather than inventing.
+
 **Consolidation principle:** If party makes comprehensive argument across many paragraphs, consolidate into single coherent argument entry.
 
-**\`arguments[].treatment\`** - Enum (language-specific), REQUIRED
+**\`arguments[].treatment\`** - Enum (language-specific), REQUIRED (if argument present)
 
 **If proceduralLanguage = "FR":**
 - \`ACCEPTE\`: Argument accepted
-- \`PARTIELLEMENT ACCEPTE\`: Partially accepted
+- \`PARTIELLEMENT_ACCEPTE\`: Partially accepted
 - \`REJETE\`: Rejected (on the merits)
+- \`RECEVABLE\`: Admissible
 - \`IRRECEVABLE\`: Inadmissible (Procedurally barred)
-- \`SANS OBJET\`: Moot / Without object (No longer needs to be addressed)
-- \`NON TRAITE\`: Not addressed by court
+- \`SANS_OBJET\`: Moot / Without object (No longer needs to be addressed)
+- \`NON_TRAITE\`: Not addressed by court
 - \`INCERTAIN\`: Cannot determine treatment
 
 **If proceduralLanguage = "NL":**
 - \`AANVAARD\`: Accepted
-- \`GEDEELTELIJK AANVAARD\`: Partially accepted
+- \`GEDEELTELIJK_AANVAARD\`: Partially accepted
 - \`VERWORPEN\`: Rejected (on the merits)
+- \`ONTVANKELIJK\`: Admissible
 - \`NIET-ONTVANKELIJK\`: Inadmissible (Procedurally barred)
-- \`ZONDER VOORWERP\`: Moot / Without object (No longer needs to be addressed)
-- \`NIET BEHANDELD\`: Not addressed
+- \`ZONDER_VOORWERP\`: Moot / Without object (No longer needs to be addressed)
+- \`NIET_BEHANDELD\`: Not addressed
 - \`ONZEKER\`: Cannot determine treatment
 
 ### Current Instance - COURT ORDER
@@ -321,14 +324,14 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 **\`currentInstance.courtOrder\`** - String, 50-5000+ chars, REQUIRED
 
 **What is court order:**
-- Operative part of decision (dispositif/beslissing)
+- Operative part of decision (dispositif/beslissing) ONLY
 - What court actually orders/decides
 - Legally binding portion
 - Typically begins: "PAR CES MOTIFS" / "OM DEZE REDENEN"
 
 **EXTRACTION APPROACH - VERBATIM REQUIRED:**
 
-? **EXTRACT EXACTLY:**
+✓ **EXTRACT EXACTLY:**
 - Copy dispositif word-for-word
 - Include ALL operative parts
 - Begin with trigger phrase if present
@@ -336,86 +339,98 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 - No length limit - can be very long
 - No synthesis, no paraphrasing, no summarization
 
-? **NEVER modify courtOrder:**
-- This field MUST be character-for-character exact
-- This is legally operative text
-- Any modification creates legal risk
+✓ **STOP EXTRACTION BEFORE:**
+- Footnotes (e.g., "Footnotes", "^6", "†")
+- Procedural instructions about appeals/recourse
+- Signatures and titles (e.g., "(Sé). Hielke HUMANS Président")
+- Page breaks or document metadata
+- Any content after the operative decision is complete
+
+**Example of what to EXCLUDE:**
+\`\`\`
+✗ DO NOT INCLUDE:
+Footnotes
+\${ }^{6}\$ La requête contient à peine de nullité: \$1^{6}\$ l'indication...
+(Sé). Hielke HUMANS Président de la Chambre Contentieuse
+\`\`\`
+
+**Example of CORRECT extraction:**
+\`\`\`
+✓ CORRECT - Operative part only:
+PAR CES MOTIFS,
+la Chambre Contentieuse de l'Autorité de protection des données décide de retirer la décision 131/2024 du 11 octobre 2024.
+Conformément à l'article 108, § 1 de la LCA, un recours contre cette décision peut être introduit, dans un délai de trente jours à compter de sa notification, auprès de la Cour des Marchés (cour d'appel de Bruxelles), avec l'Autorité de protection des données comme partie défenderesse.
+Un tel recours peut être introduit au moyen d'une requête interlocutoire qui doit contenir les informations énumérées à l'article 1034ter du Code judiciaire. La requête interlocutoire doit être déposée au greffe de la Cour des Marchés conformément à l'article 1034quinquies du C. jud., ou via le système d'information e-Deposit du Ministère de la Justice (article 32ter du C. jud.).
+\`\`\`
+
+✗ **NEVER include in courtOrder:**
+- Footnote content
+- Footnote markers/numbers
+- Signatures
+- Titles/positions after signatures
+- Appeal instructions that are not part of the operative decision
+- This field MUST be character-for-character exact for the operative part only
 
 **Why verbatim required:** The courtOrder is the legally binding portion. Unlike descriptive fields (facts/arguments), this has legal force and must be exact.
+
+**Recognition patterns for where to STOP:**
+- FR: "Footnotes", "(Sé).", "Président", "Greffier", line with just signature
+- NL: "Voetnoten", "(Get.)", "Voorzitter", "Griffier", line with just signature
+- Look for: Footnote markers (^, \${}^{number}\$, †), signature blocks, titles after decision text
 
 ### Current Instance - OUTCOME
 
 **\`currentInstance.outcome\`** - Enum (language-specific), REQUIRED
 
-### General Substantive Outcomes
-(These describe the core decision on the merits of the case, common in first instance)
-
 **If proceduralLanguage = "FR":**
-- \`FONDÉ\`: Granted/Founded (The court agrees with the claimant)
-- \`NON FONDÉ\`: Unfounded (The claim is rejected on its merits)
-- \`REJET\`: Dismissal (Often used as the action resulting from a claim being NON FONDÉ)
-- \`CONDAMNATION\`: Order/Conviction (e.g., ordering a party to pay, or a criminal conviction)
-- \`ACQUITTEMENT\`: Acquittal (Specific to criminal law: the defendant is found not guilty)
+- \`FONDE\`: Granted/Founded
+- \`NON_FONDE\`: Unfounded
+- \`RECEVABILITE\`: Admissibility granted
+- \`IRRECEVABILITE\`: Inadmissibility
+- \`REJET\`: Dismissal
+- \`CONDAMNATION\`: Order/Conviction
+- \`ACQUITTEMENT\`: Acquittal
+- \`CONFIRMATION\`: Confirmation
+- \`CONFIRMATION_PARTIELLE\`: Partial Confirmation
+- \`REFORMATION\`: Reformation/Variation
+- \`ANNULATION\`: Annulment
+- \`ANNULATION_PARTIELLE\`: Partial annulment
+- \`CASSATION\`: Cassation/Quashing
+- \`CASSATION_PARTIELLE\`: Partial cassation
+- \`RENVOI\`: Remand
+- \`DECHEANCE\`: Forfeiture/Lapse
+- \`DESSAISISSEMENT\`: Declining Jurisdiction
+- \`DESISTEMENT\`: Withdrawal
+- \`RETRAIT\`: Retraction
+- \`SUSPENSION\`: Suspension
+- \`RADIATION\`: Striking from the roll
+- \`NON_LIEU_A_STATUER\`: No need to rule
+- \`REVOCATION\`: Revocation
+- \`AUTRE\`: Other outcome
 
 **If proceduralLanguage = "NL":**
 - \`GEGROND\`: Granted/Founded
 - \`ONGEGROND\`: Unfounded
+- \`ONTVANKELIJKHEID\`: Admissibility granted
+- \`NIET_ONTVANKELIJKHEID\`: Inadmissibility
 - \`AFWIJZING\`: Dismissal
 - \`VEROORDELING\`: Order/Conviction
 - \`VRIJSPRAAK\`: Acquittal
-
-### Appellate Outcomes
-(These describe how a Court of Appeal or similar body rules on a lower court's decision)
-
-**If proceduralLanguage = "FR":**
-- \`CONFIRMATION\`: Confirmation (The lower court's decision is upheld)
-- \`CONFIRMATION PARTIELLE\`: Partial Confirmation
-- \`RÉFORMATION\`: Reformation/Variation (The appeal court changes the lower decision and substitutes its own)
-- \`ANNULATION\`: Annulment (The decision is voided. Very common for the Council of State)
-- \`ANNULATION PARTIELLE\`: Partial annulment
-
-**If proceduralLanguage = "NL":**
 - \`BEVESTIGING\`: Confirmation
-- \`GEDEELTELIJKE BEVESTIGING\`: Partial Confirmation
+- \`GEDEELTELIJKE_BEVESTIGING\`: Partial Confirmation
 - \`HERVORMING\`: Reformation/Variation
 - \`VERNIETIGING\`: Annulment
-- \`GEDEELTELIJKE VERNIETIGING\`: Partial annulment
-
-### Cassation Outcomes
-(These are specific to the highest court, the Court of Cassation)
-
-**If proceduralLanguage = "FR":**
-- \`CASSATION\`: Cassation/Quashing (The lower court's decision is "broken" on a point of law)
-- \`CASSATION PARTIELLE\`: Partial cassation
-- \`RENVOI\`: Remand (After cassation, the case is sent to a new court to be re-judged)
-
-**If proceduralLanguage = "NL":**
+- \`GEDEELTELIJKE_VERNIETIGING\`: Partial annulment
 - \`CASSATIE\`: Cassation
-- \`GEDEELTELIJKE CASSATIE\`: Partial cassation
+- \`GEDEELTELIJKE_CASSATIE\`: Partial cassation
 - \`VERWIJZING\`: Remand
-
-### Procedural & Other Outcomes
-(These relate to the procedure of the case, not the substance of the dispute)
-
-**If proceduralLanguage = "FR":**
-- \`IRRECEVABILITE\`: Inadmissibility (The court cannot rule on the merits, e.g., filed too late)
-- \`DÉCHÉANCE\`: Forfeiture/Lapse (Loss of a right, e.g., the right to appeal)
-- \`DESSAISISSEMENT\`: Declining Jurisdiction (The court rules it is not competent to hear the case)
-- \`DESISTEMENT\`: Withdrawal (The plaintiff drops the case)
-- \`SUSPENSION\`: Suspension (The case is paused, often awaiting another decision)
-- \`RADIATION\`: Striking from the roll (The case is removed from the court's list, usually temporarily)
-- \`NON-LIEU À STATUER\`: No need to rule (The object of the dispute has disappeared)
-- \`REVOCATION\`: Revocation (e.g., of a judge or a prior ruling)
-- \`AUTRE\`: Other outcome
-
-**If proceduralLanguage = "NL":**
-- \`NIET ONTVANKELIJKHEID\`: Inadmissibility
 - \`VERVAL\`: Forfeiture/Lapse
-- \`ONTZEGGING VAN RECHTSMACHT\`: Declining Jurisdiction
+- \`ONTZEGGING_VAN_RECHTSMACHT\`: Declining Jurisdiction
 - \`AFSTAND\`: Withdrawal
+- \`INTREKKING\`: Retraction
 - \`SCHORSING\`: Suspension
 - \`DOORHALING\`: Striking from the roll
-- \`GEEN AANLEIDING TOT UITSPRAAK\`: No need to rule
+- \`GEEN_AANLEIDING_TOT_UITSPRAAK\`: No need to rule
 - \`HERROEPING\`: Revocation
 - \`ANDERE\`: Other outcome
 
@@ -426,8 +441,8 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 **Step 1: Identify sections**
 - Header: Court, date, parties
 - Facts: "Faits"/"En fait"/"Feiten"/"In feite"
-- Requests: Conclusions, petitum, "demande que"
-- Arguments: "Griefs"/"Moyens"/"Middelen"
+- Requests: Conclusions, petitum, "demande que" (if present)
+- Arguments: "Griefs"/"Moyens"/"Middelen" (if present)
 - Reasoning: "Motifs"/"En droit"/"Overwegende dat"
 - Dispositif: "PAR CES MOTIFS"/"OM DEZE REDENEN"
 
@@ -439,7 +454,7 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 - ALL parties mentioned
 - Expand initials to full names when possible
 - Sequential IDs: 001, 002, 003...
-- Determine type and role for each
+- Determine type (including DE_FACTO_ASSOCIATION) and role for each
 
 **Step 4: Extract facts as single string**
 - Consolidate ALL factual background
@@ -447,26 +462,29 @@ Extract structured metadata from Belgian judicial decisions: parties, facts, leg
 - Verbatim when clear, synthesis when scattered
 - Single continuous text (not array)
 
-**Step 5: Extract requests**
+**Step 5: Extract requests (if present)**
 - What each party asks court to decide
 - 50-1000 chars per request
 - Field name: \`requests\` (plural)
+- **Leave empty if not mentioned in decision**
 
-**Step 6: Extract arguments**
+**Step 6: Extract arguments (if present)**
 - Main legal grounds per party
 - 200-2000 chars per argument
 - Classify treatment
 - Consolidate multi-paragraph arguments
+- **Leave empty if not mentioned in decision**
 
-**Step 7: Extract court order - VERBATIM ONLY**
+**Step 7: Extract court order - VERBATIM, OPERATIVE PART ONLY**
 - Find dispositif
 - Copy EXACTLY word-for-word
-- No modifications whatsoever
+- **STOP before footnotes, signatures, or procedural instructions**
+- No modifications whatsoever to operative text
 
 **Step 8: Determine outcome**
 - Use language-specific enum
 - Match procedural language
-- Consider court level (first instance, appeal, cassation)
+- Consider court level and nature of decision
 
 ---
 
@@ -498,6 +516,9 @@ LA COUR,
 Casse partiellement l'arrêt attaqué;
 Renvoie la cause devant la cour d'appel de Bruxelles;
 Condamne la défenderesse aux dépens.
+
+(Sé). Jean DUPONT
+Président de la Cour
 \`\`\`
 
 **Output:**
@@ -511,13 +532,13 @@ Condamne la défenderesse aux dépens.
       "id": "PARTY-ECLI:BE:CASS:2023:ARR.20230315-001",
       "name": "Centre interfédéral pour l'égalité des chances",
       "type": "PUBLIC_AUTHORITY",
-      "proceduralRole": "DEMANDEUR EN CASSATION"
+      "proceduralRole": "DEMANDEUR_EN_CASSATION"
     },
     {
       "id": "PARTY-ECLI:BE:CASS:2023:ARR.20230315-002",
       "name": "Banque Commerciale SA",
       "type": "LEGAL_ENTITY",
-      "proceduralRole": "DEFENDEUR EN CASSATION"
+      "proceduralRole": "DEFENDEUR_EN_CASSATION"
     }
   ],
   "currentInstance": {
@@ -535,8 +556,39 @@ Condamne la défenderesse aux dépens.
         "treatment": "ACCEPTE"
       }
     ],
-    "courtOrder": "PAR CES MOTIFS,\\nLA COUR,\\nCasse partiellement l'arrêt attaqué en tant qu'il déclare l'action irrecevable;\\nRenvoie la cause et les parties devant la cour d'appel de Bruxelles autrement composée;\\nCondamne la défenderesse aux dépens.",
-    "outcome": "CASSATION PARTIELLE"
+    "courtOrder": "PAR CES MOTIFS,\\nLA COUR,\\nCasse partiellement l'arrêt attaqué;\\nRenvoie la cause devant la cour d'appel de Bruxelles;\\nCondamne la défenderesse aux dépens.",
+    "outcome": "CASSATION_PARTIELLE"
+  }
+}
+\`\`\`
+
+### Example 2: Short Decision - No Requests/Arguments (French)
+
+**Input excerpt:**
+\`\`\`
+AUTORITÉ DE PROTECTION DES DONNÉES
+Décision du 11 octobre 2024
+Décision 131/2024
+
+La Chambre Contentieuse décide de retirer la décision 131/2024.
+
+PAR CES MOTIFS,
+la Chambre Contentieuse de l'Autorité de protection des données décide de retirer la décision 131/2024 du 11 octobre 2024.
+\`\`\`
+
+**Output:**
+\`\`\`json
+{
+  "reference": {
+    "citationReference": "APD, 11 octobre 2024, Décision 131/2024"
+  },
+  "parties": [],
+  "currentInstance": {
+    "facts": "La Chambre Contentieuse a pris une décision portant le numéro 131/2024 qu'elle a décidé de retirer.",
+    "requests": [],
+    "arguments": [],
+    "courtOrder": "PAR CES MOTIFS,\\nla Chambre Contentieuse de l'Autorité de protection des données décide de retirer la décision 131/2024 du 11 octobre 2024.",
+    "outcome": "RETRAIT"
   }
 }
 \`\`\`
@@ -552,8 +604,8 @@ Condamne la défenderesse aux dépens.
 - [ ] All parties extracted
 - [ ] IDs format: \`PARTY-{decisionId}-{sequence}\` (3 digits)
 - [ ] Initials expanded to full names when possible
-- [ ] \`type\` includes UNCLEAR option
-- [ ] \`proceduralRole\` uses comprehensive language-specific enums
+- [ ] \`type\` includes DE_FACTO_ASSOCIATION option
+- [ ] \`proceduralRole\` uses language-specific enums
 
 **Facts:**
 - [ ] Single string (not array)
@@ -561,28 +613,32 @@ Condamne la défenderesse aux dépens.
 - [ ] Accurate (synthesis acceptable)
 - [ ] Procedural language
 
-**Requests:**
+**Requests (OPTIONAL):**
 - [ ] Field name is \`requests\` (plural)
-- [ ] 50-1000 chars per request
+- [ ] 50-1000 chars per request (if present)
 - [ ] Valid \`partyId\` references
-- [ ] All parties' requests captured
+- [ ] Empty array if not mentioned in decision
+- [ ] NOT invented/hallucinated
 
-**Arguments:**
-- [ ] 200-2000 chars per argument
+**Arguments (OPTIONAL):**
+- [ ] 200-2000 chars per argument (if present)
 - [ ] Legal basis + reasoning
 - [ ] Valid \`partyId\` references
-- [ ] \`treatment\` uses comprehensive language-specific enums
+- [ ] \`treatment\` uses language-specific enums
+- [ ] Empty array if not mentioned in decision
+- [ ] NOT invented/hallucinated
 
 **Court Order:**
-- [ ] VERBATIM from dispositif
+- [ ] VERBATIM from dispositif (operative part only)
 - [ ] Complete operative parts
 - [ ] 50+ chars
+- [ ] NO footnotes, signatures, or procedural instructions
 - [ ] NO synthesis or paraphrasing
 
 **Outcome:**
-- [ ] Comprehensive language-specific enum (FR or NL)
+- [ ] Language-specific enum (FR or NL)
 - [ ] Matches procedural language
-- [ ] Appropriate for court level
+- [ ] Appropriate for decision type
 
 **Quality:**
 - [ ] Nothing invented
@@ -594,14 +650,14 @@ Condamne la défenderesse aux dépens.
 
 ## CRITICAL REMINDERS
 
-1. **Schema Compliance**: Use EXACT field names from schema (not variations)
-2. **Comprehensive Enums**: Use expanded enums covering all case types and court levels
+1. **Schema Compliance**: Use EXACT field names from schema
+2. **Updated Enums**: Use revised comprehensive enums
 3. **Facts = Single String**: Not an array, consolidate into one narrative
-4. **Requests Field = Plural**: \`requests\` not \`request\`
-5. **Party ID = \`id\`**: Not \`partyId\` at party level
-6. **Expand Initials**: Extract full names when determinable
-7. **UNCLEAR Type**: Use when party type cannot be determined
-8. **Verbatim Dispositif**: courtOrder MUST be exact, no exceptions
+4. **Requests = OPTIONAL**: Empty array if not in decision, DO NOT invent
+5. **Arguments = OPTIONAL**: Empty array if not in decision, DO NOT invent
+6. **Party Types**: Include DE_FACTO_ASSOCIATION option
+7. **Court Order = Operative Part ONLY**: Stop before footnotes/signatures
+8. **Expand Initials**: Extract full names when determinable
 9. **Character Limits**: requests 50-1000, arguments 200-2000
 10. **No Translation**: Everything in procedural language
 
