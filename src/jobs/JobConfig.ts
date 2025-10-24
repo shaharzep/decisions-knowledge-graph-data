@@ -73,24 +73,70 @@ export interface JobConfig {
   outputSchema: object;
 
   /**
-   * Azure OpenAI deployment name to use
-   * Should match a deployment in your Azure OpenAI resource
+   * Schema name for structured outputs (json_schema response format)
+   * Used when response_format type is 'json_schema'
+   * Should be a descriptive name for your schema (e.g., "comprehensive_extraction", "provision_extraction")
    *
-   * Example: "gpt-4o-2", "gpt-4-turbo"
+   * If not provided, falls back to legacy json_object mode (not recommended)
    */
-  deploymentName: string;
+  outputSchemaName?: string;
+
+  /**
+   * Batch provider to use for this job
+   * Options: 'azure' | 'openai'
+   *
+   * If not specified, falls back to:
+   * 1. BATCH_PROVIDER environment variable
+   * 2. Default: 'azure'
+   */
+  provider?: 'azure' | 'openai';
+
+  /**
+   * Model/deployment name to use
+   *
+   * For Azure: deployment name (e.g., "o4-mini", "gpt-4o")
+   * For OpenAI: model name (e.g., "gpt-4o-mini", "gpt-4o")
+   *
+   * Note: This field replaces the legacy 'deploymentName' field
+   */
+  model?: string;
+
+  /**
+   * Azure OpenAI deployment name (legacy field)
+   * Use 'model' instead for new configurations
+   *
+   * @deprecated Use 'model' field instead
+   */
+  deploymentName?: string;
 
   /**
    * Maximum tokens for the completion
+   * For reasoning models (o4-mini, o3-mini, o1), use max_completion_tokens
    * Optional - defaults to model's maximum if not specified
    */
-  maxTokens?: number;
+  maxCompletionTokens?: number;
 
   /**
    * Temperature for generation (0.0 - 2.0)
+   * NOTE: Not supported by reasoning models (o4-mini, o3-mini, o1)
    * Optional - defaults to 0.0 for deterministic extraction
    */
   temperature?: number;
+
+  /**
+   * Reasoning effort for reasoning models (o4-mini, o3-mini, o1)
+   * Options: 'minimal' | 'low' | 'medium' | 'high'
+   * Higher effort = more reasoning tokens = better quality
+   * Recommended: 'high' for legal analysis
+   */
+  reasoningEffort?: 'low' | 'medium' | 'high';
+
+  /**
+   * Verbosity for reasoning models (gpt-5, gpt-5-mini)
+   * Options: 'minimal' | 'low' | 'medium' | 'high'
+   * Controls how much of the reasoning process is shown
+   */
+  verbosity?: 'minimal' | 'low' | 'medium' | 'high';
 
   /**
    * Custom ID prefix for batch requests
@@ -258,11 +304,11 @@ export interface BatchRequestItem {
   /** Unique identifier for this request (used to match responses) */
   custom_id: string;
 
-  /** HTTP method (always "POST" for chat completions) */
+  /** HTTP method (always "POST" for batch requests) */
   method: 'POST';
 
   /** API endpoint path */
-  url: '/chat/completions';
+  url: '/v1/chat/completions' | '/v1/responses';
 
   /** Request body */
   body: {
@@ -275,16 +321,26 @@ export interface BatchRequestItem {
       content: string;
     }>;
 
-    /** Maximum tokens for completion */
-    max_tokens?: number;
+    /** Maximum completion tokens (for reasoning models like o4-mini) */
+    max_completion_tokens?: number;
 
-    /** Temperature */
+    /** Temperature (not supported by reasoning models) */
     temperature?: number;
 
+    /** Reasoning effort (for reasoning models: minimal, low, medium, high) */
+    reasoning_effort?: 'minimal' | 'low' | 'medium' | 'high';
+
     /** Response format */
-    response_format?: {
-      type: 'json_object' | 'text';
-    };
+    response_format?:
+      | { type: 'json_object' | 'text' }
+      | {
+          type: 'json_schema';
+          json_schema: {
+            name: string;
+            schema: object;
+            strict?: boolean;
+          };
+        };
   };
 }
 

@@ -10,7 +10,11 @@
     "start": "node dist/cli.js",
     "test-decision": "tsx test-decision.ts",
     "lint": "eslint src --ext .ts",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "status": "tsx src/cli.ts status extract-comprehensive",
+    "process": "tsx src/cli.ts process extract-comprehensive",
+    "list": "tsx src/cli.ts list",
+    "eval": "tsx evals/cli.ts"
   },
   "keywords": [
     "legal",
@@ -22,9 +26,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "openai": "^4.80.0",
+    "@braintrust/core": "^0.0.35",
     "ajv": "^8.12.0",
+    "braintrust": "^0.0.154",
     "dotenv": "^16.4.5",
+    "openai": "^4.80.0",
+    "p-limit": "^5.0.0",
     "pg": "^8.11.3",
     "winston": "^3.11.0"
   },

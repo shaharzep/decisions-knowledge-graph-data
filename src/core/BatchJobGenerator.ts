@@ -1,8 +1,8 @@
-import fs from 'fs/promises';
-import path from 'path';
-import { DatabaseConfig } from '../config/database.js';
-import { JobConfig, BatchRequestItem } from '../jobs/JobConfig.js';
-import { JobLogger } from '../utils/logger.js';
+import fs from "fs/promises";
+import path from "path";
+import { DatabaseConfig } from "../config/database.js";
+import { JobConfig, BatchRequestItem } from "../jobs/JobConfig.js";
+import { JobLogger } from "../utils/logger.js";
 
 /**
  * Batch Job Generator
@@ -36,21 +36,21 @@ export class BatchJobGenerator {
     recordCount: number;
     metadataFilePath?: string;
   }> {
-    this.logger.info('Starting batch job generation', {
+    this.logger.info("Starting batch job generation", {
       query: this.config.dbQuery,
       deployment: this.config.deploymentName,
     });
 
     try {
       // Step 1: Fetch data from database
-      this.logger.debug('Executing database query');
+      this.logger.debug("Executing database query");
       const rows = await DatabaseConfig.executeReadOnlyQuery(
         this.config.dbQuery,
         this.config.dbQueryParams || []
       );
 
       if (rows.length === 0) {
-        throw new Error('Database query returned no rows');
+        throw new Error("Database query returned no rows");
       }
 
       this.logger.info(`Fetched ${rows.length} records from database`);
@@ -58,29 +58,29 @@ export class BatchJobGenerator {
       // Step 2: Preprocess rows if hook is defined
       let processedRows = rows;
       if (this.config.preprocessRow) {
-        this.logger.info('Preprocessing rows with custom hook');
+        this.logger.info("Preprocessing rows with custom hook");
         processedRows = await Promise.all(
           rows.map((row, index) => {
             this.logger.debug(`Preprocessing row ${index + 1}/${rows.length}`);
             return this.config.preprocessRow!(row);
           })
         );
-        this.logger.info('Preprocessing completed');
+        this.logger.info("Preprocessing completed");
       }
 
       // Step 3: Generate batch request items
-      this.logger.debug('Generating batch request items');
+      this.logger.debug("Generating batch request items");
       const batchItems = this.generateBatchItems(processedRows);
 
       // Step 4: Write to JSONL file
-      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
       const filename = `${this.config.id}-${timestamp}.jsonl`;
-      const filePath = path.join(process.cwd(), 'input', filename);
+      const filePath = path.join(process.cwd(), "input", filename);
 
-      this.logger.debug('Writing JSONL file', { path: filePath });
+      this.logger.debug("Writing JSONL file", { path: filePath });
       await this.writeJsonl(filePath, batchItems);
 
-      this.logger.info('Batch job file generated successfully', {
+      this.logger.info("Batch job file generated successfully", {
         path: filePath,
         records: batchItems.length,
         sizeKB: Math.round((await fs.stat(filePath)).size / 1024),
@@ -88,9 +88,12 @@ export class BatchJobGenerator {
 
       // Step 5: Save metadata mapping if rowMetadataFields is configured
       let metadataFilePath: string | undefined;
-      if (this.config.rowMetadataFields && this.config.rowMetadataFields.length > 0) {
+      if (
+        this.config.rowMetadataFields &&
+        this.config.rowMetadataFields.length > 0
+      ) {
         const metadataFilename = `${this.config.id}-${timestamp}-metadata.json`;
-        metadataFilePath = path.join(process.cwd(), 'input', metadataFilename);
+        metadataFilePath = path.join(process.cwd(), "input", metadataFilename);
 
         await this.saveMetadataMapping(
           metadataFilePath,
@@ -98,7 +101,7 @@ export class BatchJobGenerator {
           batchItems
         );
 
-        this.logger.info('Metadata mapping file generated', {
+        this.logger.info("Metadata mapping file generated", {
           path: metadataFilePath,
           fields: this.config.rowMetadataFields,
         });
@@ -110,7 +113,7 @@ export class BatchJobGenerator {
         metadataFilePath,
       };
     } catch (error) {
-      this.logger.error('Failed to generate batch job', error);
+      this.logger.error("Failed to generate batch job", error);
       throw error;
     }
   }
@@ -119,34 +122,126 @@ export class BatchJobGenerator {
    * Generate batch request items from database rows
    */
   private generateBatchItems(rows: any[]): BatchRequestItem[] {
+    // Determine provider and endpoint
+    const isOpenAI = true;
+    const endpoint = isOpenAI ? "/v1/responses" : "/v1/chat/completions";
+
+    this.logger.info(`Generating batch items for provider: ${this.config.provider || 'azure'}`);
+    this.logger.info(`Using endpoint: ${endpoint}`);
+
     return rows.map((row, index) => {
-      const customIdPrefix =
-        this.config.customIdPrefix || this.config.id;
-      const customId = `${customIdPrefix}-${String(index + 1).padStart(4, '0')}`;
+      const customIdPrefix = this.config.customIdPrefix || this.config.id;
+      const customId = `${customIdPrefix}-${String(index + 1).padStart(
+        4,
+        "0"
+      )}`;
 
       // Generate prompt using the template function
       const prompt = this.config.promptTemplate(row);
 
-      // Create batch request item
-      const item: BatchRequestItem = {
-        custom_id: customId,
-        method: 'POST',
-        url: '/chat/completions',
-        body: {
-          model: this.config.deploymentName,
-          messages: [
-            {
-              role: 'user',
-              content: prompt,
-            },
-          ],
-          response_format: { type: 'json_object' },
-          max_tokens: this.config.maxTokens,
-          temperature: this.config.temperature ?? 0.0,
-        },
-      };
+      // Determine model name (prefer 'model' field, fallback to 'deploymentName')
+      const modelName = this.config.model || this.config.deploymentName;
+      if (!modelName) {
+        throw new Error(
+          `Job config must specify either 'model' or 'deploymentName' field`
+        );
+      }
 
-      return item;
+      // Construct response_format based on configuration
+      const responseFormat = this.config.outputSchemaName
+        ? {
+            type: "json_schema" as const,
+            json_schema: {
+              name: this.config.outputSchemaName,
+              schema: this.config.outputSchema,
+              strict: true,
+            },
+          }
+        : { type: "json_object" as const };
+
+      // Create batch request item with provider-specific format
+      if (isOpenAI) {
+        // OpenAI Responses API format
+        // Note: response.text.format is the new structure (not response_format)
+
+        // Build response.text object with format and optional fields
+        const responseText: any = {
+          format: this.config.outputSchemaName ? "json_schema" : "json_object",
+        };
+
+        if (this.config.outputSchemaName) {
+          responseText.json_schema = {
+            name: this.config.outputSchemaName,
+            strict: true,
+            schema: this.config.outputSchema,
+          };
+        }
+
+        // Add verbosity to response.text (not root level)
+        if (this.config.verbosity) {
+          responseText.verbosity = this.config.verbosity;
+        }
+
+        const item: any = {
+          custom_id: customId,
+          method: "POST",
+          url: endpoint,
+          body: {
+            model: modelName,
+            maxCompletionTokens: this.config.maxCompletionTokens,
+            reasoningEffort: this.config.reasoningEffort,
+            response: {
+              text: responseText,
+            },
+            input: [
+              {
+                role: "system",
+                content: [
+                  {
+                    type: "input_text",
+                    text: "Return ONLY a single JSON object matching the schema. No markdown, no prose, no code blocks.",
+                  }
+                ]
+              },
+              {
+                role: "user",
+                content: [
+                  {
+                    type: "input_text",
+                    text: prompt,
+                  }
+                ]
+              },
+            ],
+          },
+        };
+        return item;
+      } else {
+        // Azure Chat Completions API format
+        const item: BatchRequestItem = {
+          custom_id: customId,
+          method: "POST",
+          url: endpoint,
+          body: {
+            model: modelName,
+            messages: [
+              {
+                role: "system",
+                content:
+                  "Return ONLY a single JSON object matching the schema. No markdown, no prose, no code blocks.",
+              },
+              {
+                role: "user",
+                content: prompt,
+              },
+            ],
+            response_format: responseFormat,
+            max_completion_tokens: this.config.maxCompletionTokens,
+            reasoning_effort: this.config.reasoningEffort,
+          },
+        };
+        return item;
+      }
     });
   }
 
@@ -163,10 +258,10 @@ export class BatchJobGenerator {
     await fs.mkdir(dir, { recursive: true });
 
     // Convert to JSONL format (one JSON object per line)
-    const jsonlContent = items.map((item) => JSON.stringify(item)).join('\n');
+    const jsonlContent = items.map((item) => JSON.stringify(item)).join("\n");
 
     // Write file
-    await fs.writeFile(filePath, jsonlContent, 'utf-8');
+    await fs.writeFile(filePath, jsonlContent, "utf-8");
   }
 
   /**
@@ -184,7 +279,10 @@ export class BatchJobGenerator {
     rows: any[],
     batchItems: BatchRequestItem[]
   ): Promise<void> {
-    if (!this.config.rowMetadataFields || this.config.rowMetadataFields.length === 0) {
+    if (
+      !this.config.rowMetadataFields ||
+      this.config.rowMetadataFields.length === 0
+    ) {
       return;
     }
 
@@ -201,7 +299,7 @@ export class BatchJobGenerator {
       for (const fieldName of fields) {
         // Special handling for language_metadata -> language
         const outputFieldName: string =
-          fieldName === 'language_metadata' ? 'language' : fieldName;
+          fieldName === "language_metadata" ? "language" : fieldName;
         metadata[outputFieldName] = row[fieldName];
       }
 
@@ -213,9 +311,9 @@ export class BatchJobGenerator {
     await fs.mkdir(dir, { recursive: true });
 
     // Write mapping file (pretty-printed for readability)
-    await fs.writeFile(filePath, JSON.stringify(mapping, null, 2), 'utf-8');
+    await fs.writeFile(filePath, JSON.stringify(mapping, null, 2), "utf-8");
 
-    this.logger.debug('Metadata mapping saved', {
+    this.logger.debug("Metadata mapping saved", {
       path: filePath,
       recordCount: Object.keys(mapping).length,
     });
@@ -227,8 +325,8 @@ export class BatchJobGenerator {
    */
   async validateFile(filePath: string): Promise<boolean> {
     try {
-      const content = await fs.readFile(filePath, 'utf-8');
-      const lines = content.trim().split('\n');
+      const content = await fs.readFile(filePath, "utf-8");
+      const lines = content.trim().split("\n");
 
       // Verify each line is valid JSON
       for (let i = 0; i < lines.length; i++) {
@@ -240,14 +338,14 @@ export class BatchJobGenerator {
         }
       }
 
-      this.logger.info('File validation successful', {
+      this.logger.info("File validation successful", {
         path: filePath,
         lines: lines.length,
       });
 
       return true;
     } catch (error) {
-      this.logger.error('File validation failed', error);
+      this.logger.error("File validation failed", error);
       return false;
     }
   }
@@ -256,23 +354,37 @@ export class BatchJobGenerator {
    * Get estimated cost for the batch
    * Based on token counts (approximate)
    */
-  async estimateCost(
-    filePath: string
-  ): Promise<{
+  async estimateCost(filePath: string): Promise<{
     estimatedPromptTokens: number;
     estimatedCostUSD: number;
   }> {
     try {
-      const content = await fs.readFile(filePath, 'utf-8');
-      const lines = content.trim().split('\n');
+      const content = await fs.readFile(filePath, "utf-8");
+      const lines = content.trim().split("\n");
 
       let totalPromptChars = 0;
 
       for (const line of lines) {
-        const item = JSON.parse(line) as BatchRequestItem;
-        const promptContent = item.body.messages
-          .map((m) => m.content)
-          .join(' ');
+        const item = JSON.parse(line) as any;
+
+        // Handle both Azure (messages) and OpenAI (input) formats
+        let promptContent = "";
+        if (item.body.messages) {
+          // Azure Chat Completions format
+          promptContent = item.body.messages
+            .map((m: any) => m.content)
+            .join(" ");
+        } else if (item.body.input) {
+          // OpenAI Responses API format
+          promptContent = item.body.input
+            .map((inp: any) =>
+              inp.content
+                .map((c: any) => c.text || "")
+                .join(" ")
+            )
+            .join(" ");
+        }
+
         totalPromptChars += promptContent.length;
       }
 
@@ -285,7 +397,7 @@ export class BatchJobGenerator {
       const estimatedCostUSD =
         (estimatedPromptTokens / 1_000_000) * costPerMillionTokens;
 
-      this.logger.info('Cost estimation', {
+      this.logger.info("Cost estimation", {
         records: lines.length,
         estimatedPromptTokens,
         estimatedCostUSD: `$${estimatedCostUSD.toFixed(2)}`,
@@ -296,7 +408,7 @@ export class BatchJobGenerator {
         estimatedCostUSD,
       };
     } catch (error) {
-      this.logger.error('Cost estimation failed', error);
+      this.logger.error("Cost estimation failed", error);
       throw error;
     }
   }

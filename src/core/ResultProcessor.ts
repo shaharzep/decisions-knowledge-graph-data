@@ -6,6 +6,7 @@ import {
   validator,
   validateBatchResponseItem,
   extractJsonFromResponse,
+  ValidationResult,
 } from '../utils/validators.js';
 
 /**
@@ -83,10 +84,33 @@ export class ResultProcessor {
       const results: ProcessedResult[] = [];
       let totalTokens = 0;
       let validationErrors = 0;
+      let successCount = 0;
+      let failCount = 0;
+      const totalResponses = responses.length;
+      const logInterval = Math.max(1, Math.floor(totalResponses / 10)); // Log 10 times during processing
 
-      for (const response of responses) {
+      for (let i = 0; i < responses.length; i++) {
+        const response = responses[i];
+
+        // Log progress periodically BEFORE processing (to isolate hangs)
+        if (i % logInterval === 0 && i > 0) {
+          this.logger.info(`Progress: ${i}/${totalResponses} responses processed (${successCount} success, ${failCount} failed)`);
+        }
+
+        // Log every 10 records to track progress
+        if ((i + 1) % 10 === 0) {
+          this.logger.info(`Processing record ${i + 1}/${totalResponses}: ${response.custom_id}`);
+        }
+
         const result = await this.processResponse(response, metadataMap);
         results.push(result);
+
+        // Update counters incrementally (avoid filtering large arrays)
+        if (result.success) {
+          successCount++;
+        } else {
+          failCount++;
+        }
 
         if (result.tokenUsage) {
           totalTokens += result.tokenUsage.totalTokens;
@@ -96,6 +120,9 @@ export class ResultProcessor {
           validationErrors++;
         }
       }
+
+      // Final progress log
+      this.logger.info(`Progress: ${totalResponses}/${totalResponses} responses processed (${successCount} success, ${failCount} failed)`);
 
       // Save results to files
       const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
@@ -167,6 +194,16 @@ export class ResultProcessor {
         };
       }
 
+      // Check if response was truncated due to token limit
+      const finishReason = response.response.body.choices[0]?.finish_reason;
+      if (finishReason === 'length') {
+        return {
+          customId,
+          success: false,
+          error: `Response truncated - hit token limit (${response.response.body.usage?.completion_tokens || 'unknown'} tokens). Decision too long for extraction.`,
+        };
+      }
+
       // Extract message content
       const messageContent =
         response.response.body.choices[0]?.message?.content;
@@ -191,8 +228,23 @@ export class ResultProcessor {
         };
       }
 
-      // Validate against schema
-      const schemaValidation = validator.validate(this.config.id, parsedData);
+      // Validate against schema (with timeout protection)
+      let schemaValidation: ValidationResult;
+      try {
+        schemaValidation = await Promise.race([
+          Promise.resolve(validator.validate(this.config.id, parsedData)),
+          new Promise<ValidationResult>((_, reject) =>
+            setTimeout(() => reject(new Error('Validation timeout after 30s')), 30000)
+          )
+        ]);
+      } catch (error) {
+        return {
+          customId,
+          success: false,
+          error: `Validation timeout or error: ${error instanceof Error ? error.message : String(error)}`,
+          data: parsedData, // Include data for debugging
+        };
+      }
 
       if (!schemaValidation.valid) {
         this.logger.warn('Schema validation failed', {

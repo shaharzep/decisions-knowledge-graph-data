@@ -1,6 +1,7 @@
 import { JobConfig, JobStatus } from '../jobs/JobConfig.js';
 import { BatchJobGenerator } from './BatchJobGenerator.js';
-import { AzureBatchClient } from './AzureBatchClient.js';
+import { BatchProvider } from './providers/BatchProvider.js';
+import { ProviderFactory, ProviderType } from './providers/ProviderFactory.js';
 import { JobStatusTracker } from './JobStatusTracker.js';
 import { ResultProcessor } from './ResultProcessor.js';
 import { JobLogger } from '../utils/logger.js';
@@ -17,7 +18,8 @@ import { JobLogger } from '../utils/logger.js';
 export class BatchJobRunner {
   private config: JobConfig;
   private generator: BatchJobGenerator;
-  private client: AzureBatchClient;
+  private provider: BatchProvider;
+  private providerType: ProviderType;
   private statusTracker: JobStatusTracker;
   private resultProcessor: ResultProcessor;
   private logger: JobLogger;
@@ -28,8 +30,11 @@ export class BatchJobRunner {
     this.statusTracker = new JobStatusTracker(config.id);
     this.logger = new JobLogger(`JobRunner:${config.id}`);
 
-    // Client and processor will be initialized with specific job IDs
-    this.client = null as any; // Will be set during run
+    // Determine provider type
+    this.providerType = config.provider || ProviderFactory.getDefaultProvider();
+
+    // Provider will be initialized with specific job ID during run
+    this.provider = null as any;
     this.resultProcessor = new ResultProcessor(config);
   }
 
@@ -68,8 +73,8 @@ export class BatchJobRunner {
       let metadata = this.statusTracker.initializeJob(jobId);
       await this.statusTracker.save(metadata);
 
-      // Initialize client with job ID
-      this.client = new AzureBatchClient(jobId);
+      // Initialize provider with job ID
+      this.provider = ProviderFactory.createProvider(this.providerType, jobId);
 
       // Step 1: Generate JSONL file
       this.logger.info('Step 1: Generating JSONL input file');
@@ -94,9 +99,9 @@ export class BatchJobRunner {
         estimatedCostUSD: `$${estimatedCostUSD.toFixed(2)}`,
       });
 
-      // Step 2: Submit batch job to Azure
-      this.logger.info('Step 2: Submitting batch job to Azure');
-      const { batchId, fileId } = await this.client.submitBatchJob(filePath, {
+      // Step 2: Submit batch job to provider
+      this.logger.info(`Step 2: Submitting batch job to ${this.provider.getProviderName()}`);
+      const { batchId, fileId } = await this.provider.submitBatchJob(filePath, {
         jobType: this.config.id,
         jobId,
       });
@@ -149,7 +154,7 @@ export class BatchJobRunner {
    * Check the status of the current job
    */
   async checkStatus(): Promise<void> {
-    const metadata = await this.statusTracker.load();
+    let metadata = await this.statusTracker.load();
 
     if (!metadata) {
       this.logger.info(`No job found for type: ${this.config.id}`);
@@ -164,19 +169,20 @@ export class BatchJobRunner {
       recordsFailed: metadata.recordsFailed,
     });
 
-    // If job is with Azure, get Azure status
+    // If job has batch ID, get provider status
     if (metadata.azureBatchJobId) {
-      this.client = new AzureBatchClient(metadata.jobId);
-      const azureStatus = await this.client.getBatchStatus(
+      this.provider = ProviderFactory.createProvider(this.providerType, metadata.jobId);
+      const batchStatus = await this.provider.getBatchStatus(
         metadata.azureBatchJobId
       );
 
-      this.logger.info('Azure Batch status:', {
-        status: azureStatus.status,
-        requestCounts: azureStatus.request_counts,
+      this.logger.info('Batch status:', {
+        provider: this.provider.getProviderName(),
+        status: batchStatus.status,
+        requestCounts: batchStatus.requestCounts,
       });
 
-      // Update local status if Azure status changed
+      // Update local status if batch status changed
       const statusMap: Record<string, JobStatus> = {
         validating: JobStatus.VALIDATING,
         in_progress: JobStatus.IN_PROGRESS,
@@ -186,16 +192,26 @@ export class BatchJobRunner {
         cancelled: JobStatus.CANCELLED,
       };
 
-      const newStatus = statusMap[azureStatus.status];
+      const newStatus = statusMap[batchStatus.status];
       if (newStatus && newStatus !== metadata.status) {
-        await this.statusTracker.updateStatus(metadata, newStatus, {
+        metadata = await this.statusTracker.updateStatus(metadata, newStatus, {
           metadata: {
             ...metadata.metadata,
-            azureStatus: azureStatus.status,
-            outputFileId: azureStatus.output_file_id,
-            errorFileId: azureStatus.error_file_id,
+            azureStatus: batchStatus.status,
+            outputFileId: batchStatus.outputFileId,
+            errorFileId: batchStatus.errorFileId,
           },
         });
+      }
+
+      // Update progress from batch request counts
+      if (batchStatus.requestCounts) {
+        const { completed, failed } = batchStatus.requestCounts;
+        metadata = await this.statusTracker.updateProgress(
+          metadata,
+          completed,
+          failed
+        );
       }
     }
 
@@ -224,26 +240,26 @@ export class BatchJobRunner {
     }
 
     if (!metadata.azureBatchJobId) {
-      throw new Error('No Azure batch job ID found');
+      throw new Error('No batch job ID found');
     }
 
-    this.client = new AzureBatchClient(metadata.jobId);
+    this.provider = ProviderFactory.createProvider(this.providerType, metadata.jobId);
 
-    // Get Azure batch status to get output file ID
-    const azureStatus = await this.client.getBatchStatus(
+    // Get batch status to get output file ID
+    const batchStatus = await this.provider.getBatchStatus(
       metadata.azureBatchJobId
     );
 
-    if (!azureStatus.output_file_id) {
-      throw new Error('No output file available from Azure');
+    if (!batchStatus.outputFileId) {
+      throw new Error('No output file available from provider');
     }
 
     // Download output file
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
     const outputPath = `output/${this.config.id}-${timestamp}-output.jsonl`;
 
-    this.logger.info('Downloading results from Azure');
-    await this.client.downloadFile(azureStatus.output_file_id, outputPath);
+    this.logger.info(`Downloading results from ${this.provider.getProviderName()}`);
+    await this.provider.downloadFile(batchStatus.outputFileId, outputPath);
 
     // Process results
     this.logger.info('Processing and validating results');
@@ -285,10 +301,20 @@ export class BatchJobRunner {
     metadata: any,
     pollIntervalMs: number
   ): Promise<void> {
-    const finalStatus = await this.client.waitForCompletion(
+    const finalStatus = await this.provider.waitForCompletion(
       metadata.azureBatchJobId,
       pollIntervalMs
     );
+
+    // Update progress from final request counts
+    if (finalStatus.requestCounts) {
+      const { completed, failed } = finalStatus.requestCounts;
+      metadata = await this.statusTracker.updateProgress(
+        metadata,
+        completed,
+        failed
+      );
+    }
 
     // Update status
     const statusMap: Record<string, JobStatus> = {
@@ -303,8 +329,8 @@ export class BatchJobRunner {
       metadata: {
         ...metadata.metadata,
         azureStatus: finalStatus.status,
-        outputFileId: finalStatus.output_file_id,
-        errorFileId: finalStatus.error_file_id,
+        outputFileId: finalStatus.outputFileId,
+        errorFileId: finalStatus.errorFileId,
       },
     });
 

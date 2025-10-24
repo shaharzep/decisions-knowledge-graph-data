@@ -171,7 +171,7 @@ export function validateBatchResponseItem(item: any): ValidationResult {
         },
       },
       error: {
-        type: 'object',
+        type: ['object', 'null'],
         properties: {
           message: { type: 'string' },
           type: { type: 'string' },
@@ -189,6 +189,14 @@ export function validateBatchResponseItem(item: any): ValidationResult {
  * Handles cases where model returns markdown code blocks
  */
 export function extractJsonFromResponse(content: string): any {
+  // Safety check: refuse to parse extremely large content (likely malformed)
+  const MAX_CONTENT_LENGTH = 100000; // 100KB should be more than enough for valid JSON
+  if (content.length > MAX_CONTENT_LENGTH) {
+    throw new Error(
+      `Response content too large (${content.length} chars, max ${MAX_CONTENT_LENGTH}). Likely truncated/malformed.`
+    );
+  }
+
   // Try direct JSON parse first
   try {
     return JSON.parse(content);
@@ -203,9 +211,9 @@ export function extractJsonFromResponse(content: string): any {
       }
     }
 
-    // Try to extract any JSON object
-    const jsonMatch = content.match(/\{[\s\S]*\}/);
-    if (jsonMatch) {
+    // Try to extract any JSON object (up to first complete object)
+    const jsonMatch = content.match(/\{[\s\S]*?\}/);
+    if (jsonMatch && jsonMatch[0].length < MAX_CONTENT_LENGTH) {
       try {
         return JSON.parse(jsonMatch[0]);
       } catch {

@@ -73,7 +73,7 @@ POSTGRES_DB=lawyers
 # Azure OpenAI
 AZURE_OPENAI_ENDPOINT=https://shacharsopenai.openai.azure.com/
 AZURE_OPENAI_API_KEY=your-key-here
-AZURE_OPENAI_DEPLOYMENT=gpt-4o-2
+AZURE_OPENAI_DEPLOYMENT=o4-mini
 AZURE_API_VERSION=2024-11-20
 ```
 
@@ -194,8 +194,8 @@ const myJobConfig: JobConfig = {
   },
 
   // Azure settings
-  deploymentName: 'gpt-4o-2',
-  maxTokens: 4000,
+  deploymentName: 'o4-mini',
+  maxTokens: 32000,
   temperature: 0.0
 };
 

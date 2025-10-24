@@ -2,22 +2,25 @@
 
 import { DatabaseConfig } from './config/database.js';
 import { AzureConfig } from './config/azure.js';
+import { OpenAIConfig } from './config/openai.js';
 import { BatchJobRunner } from './core/BatchJobRunner.js';
 import { JobStatusTracker } from './core/JobStatusTracker.js';
 import { logger } from './utils/logger.js';
 
 /**
- * CLI for Azure OpenAI Batch API Legal Data Extraction
+ * CLI for Batch API Legal Data Extraction
+ *
+ * Supports Azure OpenAI and standard OpenAI Batch APIs
  *
  * Usage:
  *   npm run dev submit <job-type>           - Submit a batch job
  *   npm run dev status <job-type>           - Check job status
  *   npm run dev process <job-type>          - Process completed results
  *   npm run dev list                        - List all jobs
- *   npm run dev test-connections            - Test database and Azure connections
+ *   npm run dev test-connections            - Test database and provider connections
  */
 
-const COMMANDS = ['submit', 'status', 'process', 'list', 'test-connections', 'help'];
+const COMMANDS = ['submit', 'status', 'process', 'list', 'test-connections', 'concurrent', 'help'];
 
 /**
  * Load job configuration by job type
@@ -47,6 +50,10 @@ async function loadJobConfig(jobType: string): Promise<any> {
 async function submitJob(jobType: string, wait: boolean = false): Promise<void> {
   logger.info(`Submitting batch job: ${jobType}`);
 
+  // Reset client caches to pick up any .env changes
+  AzureConfig.resetClient();
+  OpenAIConfig.resetClient();
+
   const config = await loadJobConfig(jobType);
   const runner = new BatchJobRunner(config);
 
@@ -62,6 +69,10 @@ async function submitJob(jobType: string, wait: boolean = false): Promise<void> 
 async function checkStatus(jobType: string): Promise<void> {
   logger.info(`Checking status for: ${jobType}`);
 
+  // Reset client caches to pick up any .env changes
+  AzureConfig.resetClient();
+  OpenAIConfig.resetClient();
+
   const config = await loadJobConfig(jobType);
   const runner = new BatchJobRunner(config);
 
@@ -73,6 +84,10 @@ async function checkStatus(jobType: string): Promise<void> {
  */
 async function processResults(jobType: string): Promise<void> {
   logger.info(`Processing results for: ${jobType}`);
+
+  // Reset client caches to pick up any .env changes
+  AzureConfig.resetClient();
+  OpenAIConfig.resetClient();
 
   const config = await loadJobConfig(jobType);
   const runner = new BatchJobRunner(config);
@@ -131,10 +146,12 @@ async function listJobs(): Promise<void> {
 }
 
 /**
- * Test database and Azure connections
+ * Test database and provider connections
  */
 async function testConnections(): Promise<void> {
   console.log('\n🧪 Testing connections...\n');
+
+  let allOk = true;
 
   // Test database
   console.log('Testing PostgreSQL connection...');
@@ -144,22 +161,46 @@ async function testConnections(): Promise<void> {
     console.log('✅ Database connection successful\n');
   } else {
     console.log('❌ Database connection failed\n');
+    allOk = false;
   }
 
-  // Test Azure
+  // Test Azure OpenAI
   console.log('Testing Azure OpenAI configuration...');
   const azureOk = AzureConfig.validate();
 
   if (azureOk) {
     console.log('✅ Azure OpenAI configuration valid\n');
   } else {
-    console.log('❌ Azure OpenAI configuration invalid\n');
+    console.log('⚠️  Azure OpenAI configuration invalid (optional)\n');
   }
 
-  if (dbOk && azureOk) {
-    console.log('✅ All connections successful!');
+  // Test standard OpenAI
+  console.log('Testing OpenAI configuration...');
+  const openaiOk = OpenAIConfig.validate();
+
+  if (openaiOk) {
+    console.log('✅ OpenAI configuration valid\n');
   } else {
-    console.log('❌ Some connections failed. Please check your .env file.');
+    console.log('⚠️  OpenAI configuration invalid (optional)\n');
+  }
+
+  // At least one provider must be configured
+  if (!azureOk && !openaiOk) {
+    console.log('❌ No batch provider configured. Please configure either Azure OpenAI or OpenAI.\n');
+    allOk = false;
+  }
+
+  if (allOk && (azureOk || openaiOk)) {
+    console.log('✅ All required connections successful!');
+    if (azureOk && openaiOk) {
+      console.log('   Both Azure and OpenAI providers available');
+    } else if (azureOk) {
+      console.log('   Azure OpenAI provider available');
+    } else {
+      console.log('   OpenAI provider available');
+    }
+  } else {
+    console.log('❌ Some required connections failed. Please check your .env file.');
     process.exit(1);
   }
 }
@@ -169,7 +210,9 @@ async function testConnections(): Promise<void> {
  */
 function printHelp(): void {
   console.log(`
-Azure OpenAI Batch API - Legal Data Extraction System
+Batch API Legal Data Extraction System
+
+Supports Azure OpenAI and standard OpenAI Batch APIs
 
 USAGE:
   npm run dev <command> [options]
@@ -180,16 +223,23 @@ COMMANDS:
   status <job-type>              Check status of a job
   process <job-type>             Download and process completed results
   list                           List all jobs and their statuses
-  test-connections               Test database and Azure connections
+  test-connections               Test database and provider connections
+  concurrent <job-type>          Process decisions concurrently (fast, non-batch)
   help                           Show this help message
 
+PROVIDER CONFIGURATION:
+  - Set provider in job config (provider: 'azure' | 'openai')
+  - Or set BATCH_PROVIDER environment variable
+  - Default: 'azure'
+
 EXAMPLES:
-  npm run dev submit extract-parties
-  npm run dev submit extract-parties --wait
-  npm run dev status extract-parties
-  npm run dev process extract-parties
+  npm run dev submit extract-comprehensive
+  npm run dev submit extract-comprehensive --wait
+  npm run dev status extract-comprehensive
+  npm run dev process extract-comprehensive
   npm run dev list
   npm run dev test-connections
+  npm run dev concurrent extract-comprehensive
 
 JOB TYPES:
   Job types are defined in src/jobs/configs/
@@ -256,6 +306,18 @@ async function main() {
 
       case 'test-connections':
         await testConnections();
+        break;
+
+      case 'concurrent':
+        if (!jobType) {
+          console.error('Error: Job type is required');
+          console.error('Usage: npm run dev concurrent <job-type>');
+          process.exit(1);
+        }
+        const { ConcurrentRunner } = await import('./concurrent/ConcurrentRunner.js');
+        const concurrentConfig = await loadJobConfig(jobType);
+        const concurrentRunner = new ConcurrentRunner(concurrentConfig);
+        await concurrentRunner.run();
         break;
 
       default:

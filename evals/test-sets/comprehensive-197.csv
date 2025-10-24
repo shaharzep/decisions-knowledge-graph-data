@@ -1,0 +1,199 @@
+decision_id,language_metadata,decision_type_ecli_code,decision_type_name,court_ecli_code,court_name,courtcategory,decision_date,md_length,length_category
+ECLI:BE:CASS:2001:ARR.20010131.9,FR,ARR,Arrêt,CASS,Cour de cassation,,2001-01-31,18098,long
+ECLI:BE:CASS:2008:ARR.20080812.1,NL,ARR,Arrest,CASS,Hof van Cassatie,,2008-08-12,8060,medium
+ECLI:BE:CASS:2022:ARR.20220318.1F.9,FR,ARR,Arrêt,CASS,Cour de cassation,,2022-03-18,27040,long
+ECLI:BE:CASS:2023:ARR.20230209.1F.1,FR,ARR,Arrêt,CASS,Cour de cassation,,2023-02-09,26130,long
+ECLI:BE:GBAPD:2019:ARR.20190904.10,FR,ARR,Arrêt,GBAPD,Autorité de protection des données,,2019-09-04,11375,long
+ECLI:BE:GBAPD:2019:ARR.20190116.17,FR,ARR,Arrêt,GBAPD,Autorité de protection des données,,2019-01-16,15005,long
+ECLI:BE:GBAPD:2019:ARR.20190116.10,FR,ARR,Arrêt,GBAPD,Autorité de protection des données,,2019-01-16,7512,medium
+ECLI:BE:COPRIV:2017:ARR.20170111.6,FR,ARR,Arrêt,COPRIV,Commission pour la Protection de la Vie privée,,2017-01-11,10456,long
+ECLI:BE:COPRIV:2012:ARR.20120513.1,FR,ARR,Arrêt,COPRIV,Commission pour la Protection de la Vie privée,,2012-05-13,45926,very_long
+ECLI:BE:COPRIV:2011:ARR.20110323.1,FR,ARR,Arrêt,COPRIV,Commission pour la Protection de la Vie privée,,2011-03-23,39788,very_long
+ECLI:BE:GHCC:1991:ARR.017,FR,ARR,Arrêt,GHCC,Cour constitutionnelle,,1991-07-04,23673,long
+ECLI:BE:GHCC:2001:ARR.048,FR,ARR,Arrêt,GHCC,Cour constitutionnelle,,2001-04-18,27466,long
+ECLI:BE:GHCC:1994:ARR.030,FR,ARR,Arrêt,GHCC,Cour constitutionnelle,,1994-03-29,3640,medium
+ECLI:BE:CABRL:2012:ARR.20120928.10,FR,ARR,Arrêt,CABRL,Cour d'appel du ressort de Bruxelles,,2012-09-28,5948,medium
+ECLI:BE:CABRL:2000:ARR.20000315.10,FR,ARR,Arrêt,CABRL,Cour d'appel du ressort de Bruxelles,,2000-03-15,9667,medium
+ECLI:BE:CABRL:2004:ARR.20040301.3,FR,ARR,Arrêt,CABRL,Cour d'appel du ressort de Bruxelles,,2004-03-01,9589,medium
+ECLI:BE:CALIE:2011:ARR.20110308.5,FR,ARR,Arrêt,CALIE,Cour d'appel du ressort de Liège,,2011-03-08,10939,long
+ECLI:BE:CALIE:2003:ARR.20031112.1,FR,ARR,Arrêt,CALIE,Cour d'appel du ressort de Liège,,2003-11-12,2441,medium
+ECLI:BE:CALIE:2019:ARR.20191002.2,FR,ARR,Arrêt,CALIE,Cour d'appel du ressort de Liège,,2019-10-02,7643,medium
+ECLI:BE:CAMON:2016:ARR.20160421.12,FR,ARR,Arrêt,CAMON,Cour d'appel du ressort de Mons,,2016-04-21,9957,medium
+ECLI:BE:CAMON:1999:ARR.19990430.1,FR,ARR,Arrêt,CAMON,Cour d'appel du ressort de Mons,,1999-04-30,9266,medium
+ECLI:BE:CAMON:2017:ARR.20170214.6,FR,ARR,Arrêt,CAMON,Cour d'appel du ressort de Mons,,2017-02-14,9827,medium
+ECLI:BE:CASS:1997:ARR.19970102.4,FR,ARR,Arrêt,CASS,Cour de cassation,,1997-01-02,10844,long
+ECLI:BE:CASS:2005:ARR.20050615.27,FR,ARR,Arrêt,CASS,Cour de cassation,,2005-06-15,9044,medium
+ECLI:BE:CASS:2024:ARR.20240313.2F.6,FR,ARR,Arrêt,CASS,Cour de cassation,,2024-03-13,2839,medium
+ECLI:BE:CTBRL:2001:ARR.20010418.14,FR,ARR,Arrêt,CTBRL,Cour du travail de Bruxelles,,2001-04-18,19244,long
+ECLI:BE:CTBRL:2010:ARR.20100930.10,FR,ARR,Arrêt,CTBRL,Cour du travail de Bruxelles,,2010-09-30,15922,long
+ECLI:BE:CTBRL:2002:ARR.20020103.1,FR,ARR,Arrêt,CTBRL,Cour du travail de Bruxelles,,2002-01-03,4290,medium
+ECLI:BE:CTLIE:2010:ARR.20100426.2,FR,ARR,Arrêt,CTLIE,Cour du travail de Liège,,2010-04-26,16899,long
+ECLI:BE:CTLIE:2003:ARR.20030916.3,FR,ARR,Arrêt,CTLIE,Cour du travail de Liège,,2003-09-16,23621,long
+ECLI:BE:CTLIE:2009:ARR.20091124.11,FR,ARR,Arrêt,CTLIE,Cour du travail de Liège,,2009-11-24,22747,long
+ECLI:BE:CTMON:2001:ARR.20010605.1,FR,ARR,Arrêt,CTMON,Cour du travail de Mons,,2001-06-05,21135,long
+ECLI:BE:CTMON:1999:ARR.19990626.1,FR,ARR,Arrêt,CTMON,Cour du travail de Mons,,1999-06-26,1794,short
+ECLI:BE:CTMON:2006:ARR.20060824.3,FR,ARR,Arrêt,CTMON,Cour du travail de Mons,,2006-08-24,36661,very_long
+ECLI:BE:TELIE:2004:ARR.20041021.7,FR,ARR,Arrêt,TELIE,Tribunal de l'entreprise de Liège,,2004-10-21,4693,medium
+ECLI:BE:TELIE:2003:ARR.20030821.1,FR,ARR,Arrêt,TELIE,Tribunal de l'entreprise de Liège,,2003-08-21,9348,medium
+ECLI:BE:ORBRL:2008:ARR.20080731.12,FR,ARR,Arrêt,ORBRL,Tribunal de l'entreprise néerlandophone de Bruxelles,,2008-07-31,30237,very_long
+ECLI:BE:PIBRL:1998:ARR.19980410.2,FR,ARR,Arrêt,PIBRL,Tribunal de première instance francophone de Bruxelles,,1998-04-10,17946,long
+ECLI:BE:PIBRL:1997:ARR.19971229.1,FR,ARR,Arrêt,PIBRL,Tribunal de première instance francophone de Bruxelles,,1997-12-29,3869,medium
+ECLI:BE:PIBRL:1998:ARR.19980304.1,FR,ARR,Arrêt,PIBRL,Tribunal de première instance francophone de Bruxelles,,1998-03-04,7115,medium
+ECLI:BE:TTHAI:2011:ARR.20110608.7,FR,ARR,Arrêt,TTHAI,Tribunal du travail du Hainaut,,2011-06-08,19408,long
+ECLI:BE:TTBRL:2012:ARR.20121115.4,FR,ARR,Arrêt,TTBRL,Tribunal du travail francophone de Bruxelles,,2012-11-15,26169,long
+ECLI:BE:RVSCE:2025:ARR.263.235,FR,ARR,Arrêt,RVSCE,,,2025-05-08,15064,long
+ECLI:BE:RVSCE:2024:ARR.261.279,FR,ARR,Arrêt,RVSCE,,,2024-11-05,4613,medium
+ECLI:BE:COVHDP:2010:ARR.20101130.10,FR,ARR,Arrêt,COVHDP,,,2010-11-30,7094,medium
+ECLI:BE:COHSAV:2020:ARR.20201016.7,FR,ARR,Arrêt,COHSAV,,,2020-10-16,5976,medium
+ECLI:BE:RVSCE:2025:ARR.262.410,FR,ARR,Arrêt,RVSCE,,,2025-02-19,3083,medium
+ECLI:BE:COHSAV:2017:ARR.20170322.10,FR,ARR,Arrêt,COHSAV,,,2017-03-22,6470,medium
+ECLI:BE:COVHDP:2010:ARR.20101130.11,FR,ARR,Arrêt,COVHDP,,,2010-11-30,4409,medium
+ECLI:BE:NTRCND:2006:ARR.20060306.9,FR,ARR,Arrêt,NTRCND,,,2006-03-06,2651,medium
+ECLI:BE:NTRCND:2006:ARR.20061108.14,FR,ARR,Arrêt,NTRCND,,,2006-11-08,2558,medium
+ECLI:BE:COHSAV:2019:ARR.20190612.6,FR,ARR,Arrêt,COHSAV,,,2019-06-12,8968,medium
+ECLI:BE:NTRCND:2006:ARR.20060515.2,FR,ARR,Arrêt,NTRCND,,,2006-05-15,4627,medium
+ECLI:BE:GBAPD:2020:AVIS.20200701.3,FR,AVIS,Avis,GBAPD,Autorité de protection des données,,2020-07-01,10394,long
+ECLI:BE:CALIE:2009:AVIS.20090914.5,FR,AVIS,Avis,CALIE,Cour d'appel du ressort de Liège,,2009-09-14,10191,long
+ECLI:BE:CALIE:2009:AVIS.20090525.8,FR,AVIS,Avis,CALIE,Cour d'appel du ressort de Liège,,2009-05-25,22213,long
+ECLI:BE:CAMON:2007:AVIS.20070906.8,FR,AVIS,Avis,CAMON,Cour d'appel du ressort de Mons,,2007-09-06,9376,medium
+ECLI:BE:CTBRL:2016:AVIS.20161221.3,FR,AVIS,Avis,CTBRL,Cour du travail de Bruxelles,,2016-12-21,20289,long
+ECLI:BE:CTMON:2008:AVIS.20080909.7,FR,AVIS,Avis,CTMON,Cour du travail de Mons,,2008-09-09,17219,long
+ECLI:BE:NTRCND:2006:AVIS.20061129.23,FR,AVIS,Avis,NTRCND,,,2006-11-29,12062,long
+ECLI:BE:GBAPE:2021:AVIS.20210910.12,FR,AVIS,Avis,GBAPE,,,2021-09-10,10595,long
+ECLI:BE:COHSAV:2012:AVIS.20120801.9,FR,AVIS,Avis,COHSAV,,,2012-08-01,4434,medium
+ECLI:BE:NTRCND:2007:AVIS.20070919.12,FR,AVIS,Avis,NTRCND,,,2007-09-19,1600,short
+ECLI:BE:GBAPD:2023:DEC.20230502.1,FR,DEC,Décision,GBAPD,Autorité de protection des données,,2023-05-02,28205,long
+ECLI:BE:GBAPD:2025:DEC.20250324.2,FR,DEC,Décision,GBAPD,Autorité de protection des données,,2025-03-24,9631,medium
+ECLI:BE:GBAPD:2022:DEC.20221219.1,FR,DEC,Décision,GBAPD,Autorité de protection des données,,2022-12-19,44820,very_long
+ECLI:BE:COPRIV:2013:DEC.20130605.8,FR,DEC,Décision,COPRIV,Commission pour la Protection de la Vie privée,,2013-06-05,21088,long
+ECLI:BE:COPRIV:1992:DEC.19921120.3,FR,DEC,Décision,COPRIV,Commission pour la Protection de la Vie privée,,1992-11-20,2484,medium
+ECLI:BE:COPRIV:1992:DEC.19921113.2,FR,DEC,Décision,COPRIV,Commission pour la Protection de la Vie privée,,1992-11-13,4129,medium
+ECLI:BE:CABRL:2001:DEC.20011019.4,FR,DEC,Décision,CABRL,Cour d'appel du ressort de Bruxelles,,2001-10-19,9871,medium
+ECLI:BE:CABRL:2001:DEC.20010920.9,FR,DEC,Décision,CABRL,Cour d'appel du ressort de Bruxelles,,2001-09-20,9270,medium
+ECLI:BE:CALIE:2025:DEC.20250109.1,FR,DEC,Décision,CALIE,Cour d'appel du ressort de Liège,,2025-01-09,21682,long
+ECLI:BE:CASS:2004:DEC.20041007.6,FR,DEC,Décision,CASS,Cour de cassation,,2004-10-07,17592,long
+ECLI:BE:CASS:2004:DEC.20040126.10,FR,DEC,Décision,CASS,Cour de cassation,,2004-01-26,2304,medium
+ECLI:BE:CASS:2004:DEC.20040813.10,FR,DEC,Décision,CASS,Cour de cassation,,2004-08-13,2460,medium
+ECLI:BE:CASS:2005:DEC.20050324.11,FR,DEC,Décision,CASS,Cour de cassation,,2005-03-24,1083,short
+ECLI:BE:CTLIE:2021:DEC.20210203.7,FR,DEC,Décision,CTLIE,Cour du travail de Liège,,2021-02-03,23709,long
+ECLI:BE:COHSAV:2018:DEC.20180122.10,FR,DEC,Décision,COHSAV,,,2018-01-22,9444,medium
+ECLI:BE:COVHDP:2009:DEC.20091117.10,FR,DEC,Décision,COVHDP,,,2009-11-17,8878,medium
+ECLI:BE:COHSAV:2022:DEC.20220610.17,FR,DEC,Décision,COHSAV,,,2022-06-10,3987,medium
+ECLI:BE:COHSAV:2021:DEC.20210218.19,FR,DEC,Décision,COHSAV,,,2021-02-18,8401,medium
+ECLI:BE:COVHDP:2009:DEC.20090904.16,FR,DEC,Décision,COVHDP,,,2009-09-04,5193,medium
+ECLI:BE:GBAPE:2020:DEC.20200608.4,FR,DEC,Décision,GBAPE,,,2020-06-08,36367,very_long
+ECLI:BE:TELIE:2003:JUG.20030226.8,FR,JUG,Jugement,TELIE,Tribunal de l'entreprise de Liège,,2003-02-26,10615,long
+ECLI:BE:TELIE:2002:JUG.20020218.8,FR,JUG,Jugement,TELIE,Tribunal de l'entreprise de Liège,,2002-02-18,33263,very_long
+ECLI:BE:TEHAI:2002:JUG.20020116.22,FR,JUG,Jugement,TEHAI,Tribunal de l'entreprise du Hainaut,,2002-01-16,6246,medium
+ECLI:BE:ORBRL:2009:JUG.20090429.11,FR,JUG,Jugement,ORBRL,Tribunal de l'entreprise néerlandophone de Bruxelles,,2009-04-29,2468,medium
+ECLI:BE:PILIE:2002:JUG.20020304.9,FR,JUG,Jugement,PILIE,Tribunal de première instance de Liège,,2002-03-04,6217,medium
+ECLI:BE:PIBRW:2011:JUG.20110502.6,FR,JUG,Jugement,PIBRW,Tribunal de première instance du Brabant Wallon,,2011-05-02,21852,long
+ECLI:BE:PIBRL:1997:JUG.19971112.7,FR,JUG,Jugement,PIBRL,Tribunal de première instance francophone de Bruxelles,,1997-11-12,18363,long
+ECLI:BE:PIBRL:1998:JUG.19980922.1,FR,JUG,Jugement,PIBRL,Tribunal de première instance francophone de Bruxelles,,1998-09-22,8533,medium
+ECLI:BE:TTLIE:2008:JUG.20080212.8,FR,JUG,Jugement,TTLIE,Tribunal du travail de Liège,,2008-02-12,22836,long
+ECLI:BE:COHSAV:2007:JUG.20071017.14,FR,JUG,Jugement,COHSAV,,,2007-10-17,4386,medium
+ECLI:BE:PIBRL:2002:ORD.20021203.6,FR,ORD,Ordonnance,PIBRL,Tribunal de première instance francophone de Bruxelles,,2002-12-03,9280,medium
+ECLI:BE:TTBRL:2015:ORD.20150929.10,FR,ORD,Ordonnance,TTBRL,Tribunal du travail francophone de Bruxelles,,2015-09-29,4405,medium
+ECLI:BE:COHSAV:2024:ORD.20240516.7,FR,ORD,Ordonnance,COHSAV,,,2024-05-16,7655,medium
+ECLI:BE:COPRIV:1993:RECO.19930806.4,FR,RECO,Recommandation,COPRIV,Commission pour la Protection de la Vie privée,,1993-08-06,11455,long
+ECLI:BE:CAMON:2016:RECO.20160317.2,FR,RECO,Recommandation,CAMON,Cour d'appel du ressort de Mons,,2016-03-17,9317,medium
+ECLI:BE:AHANT:2004:ARR.20040603.3,NL,ARR,Arrest,AHANT,Arbeidshof te Antwerpen,,2004-06-03,23278,long
+ECLI:BE:AHANT:2009:ARR.20090611.8,NL,ARR,Arrest,AHANT,Arbeidshof te Antwerpen,,2009-06-11,21160,long
+ECLI:BE:AHANT:2009:ARR.20090420.9,NL,ARR,Arrest,AHANT,Arbeidshof te Antwerpen,,2009-04-20,24579,long
+ECLI:BE:AHANT:2002:ARR.20020221.1,NL,ARR,Arrest,AHANT,Arbeidshof te Antwerpen,,2002-02-21,15940,long
+ECLI:BE:AHANT:2001:ARR.20011212.7,NL,ARR,Arrest,AHANT,Arbeidshof te Antwerpen,,2001-12-12,17909,long
+ECLI:BE:CTBRL:2009:ARR.20090904.6,NL,ARR,Arrest,CTBRL,Arbeidshof te Brussel,,2009-09-04,13689,long
+ECLI:BE:CTBRL:2014:ARR.20141106.14,NL,ARR,Arrest,CTBRL,Arbeidshof te Brussel,,2014-11-06,19752,long
+ECLI:BE:CTBRL:2002:ARR.20020125.7,NL,ARR,Arrest,CTBRL,Arbeidshof te Brussel,,2002-01-25,18020,long
+ECLI:BE:CTBRL:2013:ARR.20131024.8,NL,ARR,Arrest,CTBRL,Arbeidshof te Brussel,,2013-10-24,19365,long
+ECLI:BE:CTBRL:2015:ARR.20150519.11,NL,ARR,Arrest,CTBRL,Arbeidshof te Brussel,,2015-05-19,18492,long
+ECLI:BE:ARANT:2011:ARR.20110127.14,NL,ARR,Arrest,ARANT,Arbeidsrechtbank te Antwerpen,,2011-01-27,11235,long
+ECLI:BE:COPRIV:2013:ARR.20130220.2,NL,ARR,Arrest,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2013-02-20,18717,long
+ECLI:BE:COPRIV:2012:ARR.20121017.2,NL,ARR,Arrest,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2012-10-17,25821,long
+ECLI:BE:COPRIV:2017:ARR.20170201.6,NL,ARR,Arrest,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2017-02-01,15641,long
+ECLI:BE:COPRIV:2018:ARR.20180725.6,NL,ARR,Arrest,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2018-07-25,8089,medium
+ECLI:BE:COPRIV:2018:ARR.20181017.11,NL,ARR,Arrest,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2018-10-17,37586,very_long
+ECLI:BE:GBAPD:2020:ARR.20200630.8,NL,ARR,Arrest,GBAPD,Gegevensbeschermingsautoriteit,,2020-06-30,27192,long
+ECLI:BE:GBAPD:2022:ARR.20220216.3,NL,ARR,Arrest,GBAPD,Gegevensbeschermingsautoriteit,,2022-02-16,16377,long
+ECLI:BE:GBAPD:2020:ARR.20200313.7,NL,ARR,Arrest,GBAPD,Gegevensbeschermingsautoriteit,,2020-03-13,17458,long
+ECLI:BE:GBAPD:2021:ARR.20210205.9,NL,ARR,Arrest,GBAPD,Gegevensbeschermingsautoriteit,,2021-02-05,34996,very_long
+ECLI:BE:CABRL:2014:ARR.20140128.2,NL,ARR,Arrest,CABRL,Hof van Beroep te Brussel,,2014-01-28,16159,long
+ECLI:BE:CABRL:2010:ARR.20100427.1,NL,ARR,Arrest,CABRL,Hof van Beroep te Brussel,,2010-04-27,14189,long
+ECLI:BE:CABRL:2010:ARR.20100315.9,NL,ARR,Arrest,CABRL,Hof van Beroep te Brussel,,2010-03-15,18215,long
+ECLI:BE:CABRL:2010:ARR.20101005.9,NL,ARR,Arrest,CABRL,Hof van Beroep te Brussel,,2010-10-05,6973,medium
+ECLI:BE:CASS:2002:ARR.20020304.6,NL,ARR,Arrest,CASS,Hof van Cassatie,,2002-03-04,16595,long
+ECLI:BE:CASS:2001:ARR.20010601.5,NL,ARR,Arrest,CASS,Hof van Cassatie,,2001-06-01,23703,long
+ECLI:BE:CASS:2003:ARR.20031113.8,NL,ARR,Arrest,CASS,Hof van Cassatie,,2003-11-13,12986,long
+ECLI:BE:CASS:2002:ARR.20020214.10,NL,ARR,Arrest,CASS,Hof van Cassatie,,2002-02-14,5246,medium
+ECLI:BE:EABRL:2020:ARR.20200924.2,NL,ARR,Arrest,EABRL,Nederlandstalige Rechtbank van Eerste Aanleg te Brussel,,2020-09-24,43365,very_long
+ECLI:BE:EAANT:2014:ARR.20140430.20,NL,ARR,Arrest,EAANT,Rechtbank van Eerste Aanleg te Antwerpen,,2014-04-30,18773,long
+ECLI:BE:AHGNT:2015:ARR.20150522.2,NL,ARR,Arrest,AHGNT,,,2015-05-22,13405,long
+ECLI:BE:GHCC:2019:ARR.075,NL,ARR,Arrest,NTRCND,,,2019-05-23,21644,long
+ECLI:BE:HBGNT:2008:ARR.20080414.2,NL,ARR,Arrest,HBGNT,,,2008-04-14,22131,long
+ECLI:BE:HBGNT:2008:ARR.20081009.6,NL,ARR,Arrest,HBGNT,,,2008-10-09,14604,long
+ECLI:BE:HBGNT:2004:ARR.20040209.11,NL,ARR,Arrest,HBGNT,,,2004-02-09,22165,long
+ECLI:BE:AHGNT:2002:ARR.20020207.25,NL,ARR,Arrest,AHGNT,,,2002-02-07,25762,long
+ECLI:BE:HBANT:2003:ARR.20031217.19,NL,ARR,Arrest,HBANT,,,2003-12-17,13881,long
+ECLI:BE:HBGNT:2009:ARR.20091005.6,NL,ARR,Arrest,HBGNT,,,2009-10-05,11129,long
+ECLI:BE:AHGNT:2011:ARR.20110916.7,NL,ARR,Arrest,AHGNT,,,2011-09-16,18709,long
+ECLI:BE:HBANT:2013:ARR.20130128.2,NL,ARR,Arrest,HBANT,,,2013-01-28,27458,long
+ECLI:BE:RVSCE:2025:ARR.262.591,NL,ARR,Arrest,RVSCE,,,2025-03-13,3938,medium
+ECLI:BE:HBANT:2001:ARR.20010926.2,NL,ARR,Arrest,HBANT,,,2001-09-26,3257,medium
+ECLI:BE:HBANT:2003:ARR.20030618.3,NL,ARR,Arrest,HBANT,,,2003-06-18,8459,medium
+ECLI:BE:NTRCND:2006:ARR.20060106.8,NL,ARR,Arrest,NTRCND,,,2006-01-06,3169,medium
+ECLI:BE:NTRCND:2006:ARR.20060403.4,NL,ARR,Arrest,NTRCND,,,2006-04-03,3163,medium
+ECLI:BE:COHSAV:2007:ARR.20070619.8,NL,ARR,Arrest,COHSAV,,,2007-06-19,6771,medium
+ECLI:BE:COHSAV:2005:ARR.20050930.20,NL,ARR,Arrest,COHSAV,,,2005-09-30,5012,medium
+ECLI:BE:ARGNT:2011:ARR.20110418.3,NL,ARR,Arrest,ARGNT,,,2011-04-18,6515,medium
+ECLI:BE:HBGNT:2017:ARR.20170425.8,NL,ARR,Arrest,HBGNT,,,2017-04-25,6325,medium
+ECLI:BE:HBANT:2011:ARR.20110118.7,NL,ARR,Arrest,HBANT,,,2011-01-18,4842,medium
+ECLI:BE:COHSAV:2005:ARR.20050510.29,NL,ARR,Arrest,COHSAV,,,2005-05-10,5561,medium
+ECLI:BE:COHSAV:2005:ARR.20050930.17,NL,ARR,Arrest,COHSAV,,,2005-09-30,4751,medium
+ECLI:BE:NTRCND:2006:ARR.20061205.12,NL,ARR,Arrest,NTRCND,,,2006-12-05,1784,short
+ECLI:BE:RVSCE:2025:ARR.263.454,NL,ARR,Arrest,RVSCE,,,2025-05-27,30061,very_long
+ECLI:BE:AHGNT:2009:ARR.20090911.6,NL,ARR,Arrest,AHGNT,,,2009-09-11,34317,very_long
+ECLI:BE:AHANT:2008:AVIS.20080624.13,NL,AVIS,Advies,AHANT,Arbeidshof te Antwerpen,,2008-06-24,14790,long
+ECLI:BE:CTBRL:2019:AVIS.20190115.9,NL,AVIS,Advies,CTBRL,Arbeidshof te Brussel,,2019-01-15,31660,very_long
+ECLI:BE:COPRIV:1997:AVIS.19970911.7,NL,AVIS,Advies,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,1997-09-11,15140,long
+ECLI:BE:COPRIV:2018:AVIS.20180926.9,NL,AVIS,Advies,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2018-09-26,21827,long
+ECLI:BE:COPRIV:2018:AVIS.20180321.9,NL,AVIS,Advies,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2018-03-21,38813,very_long
+ECLI:BE:CABRL:2010:AVIS.20101221.3,NL,AVIS,Advies,CABRL,Hof van Beroep te Brussel,,2010-12-21,8838,medium
+ECLI:BE:CABRL:2011:AVIS.20110111.1,NL,AVIS,Advies,CABRL,Hof van Beroep te Brussel,,2011-01-11,44934,very_long
+ECLI:BE:CASS:2010:AVIS.20100311.9,NL,AVIS,Advies,CASS,Hof van Cassatie,,2010-03-11,18752,long
+ECLI:BE:HBGNT:2011:AVIS.20110131.4,NL,AVIS,Advies,HBGNT,,,2011-01-31,10794,long
+ECLI:BE:COHSAV:2021:AVIS.20210712.13,NL,AVIS,Advies,COHSAV,,,2021-07-12,10309,long
+ECLI:BE:COPRIV:2016:DEC.20161123.5,NL,DEC,Rechterlijke beslissing,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2016-11-23,13561,long
+ECLI:BE:COPRIV:1992:DEC.19921021.1,NL,DEC,Rechterlijke beslissing,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,1992-10-21,4122,medium
+ECLI:BE:COPRIV:1997:DEC.19970108.7,NL,DEC,Rechterlijke beslissing,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,1997-01-08,1195,short
+ECLI:BE:COPRIV:2013:DEC.20131002.4,NL,DEC,Rechterlijke beslissing,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2013-10-02,36059,very_long
+ECLI:BE:GBAPD:2023:DEC.20230601.4,NL,DEC,Rechterlijke beslissing,GBAPD,Gegevensbeschermingsautoriteit,,2023-06-01,11528,long
+ECLI:BE:GBAPD:2022:DEC.20221012.2,NL,DEC,Rechterlijke beslissing,GBAPD,Gegevensbeschermingsautoriteit,,2022-10-12,14121,long
+ECLI:BE:GBAPD:2020:DEC.20200922.11,NL,DEC,Rechterlijke beslissing,GBAPD,Gegevensbeschermingsautoriteit,,2020-09-22,18073,long
+ECLI:BE:CASS:2004:DEC.20040422.4,NL,DEC,Rechterlijke beslissing,CASS,Hof van Cassatie,,2004-04-22,15555,long
+ECLI:BE:CASS:2011:DEC.20110106.6,NL,DEC,Rechterlijke beslissing,CASS,Hof van Cassatie,,2011-01-06,1697,short
+ECLI:BE:EABRL:2003:DEC.20030526.7,NL,DEC,Rechterlijke beslissing,EABRL,Nederlandstalige Rechtbank van Eerste Aanleg te Brussel,,2003-05-26,20743,long
+ECLI:BE:EABRL:2002:DEC.20021209.4,NL,DEC,Rechterlijke beslissing,EABRL,Nederlandstalige Rechtbank van Eerste Aanleg te Brussel,,2002-12-09,9126,medium
+ECLI:BE:GBAPE:2020:DEC.20200709.7,NL,DEC,Rechterlijke beslissing,GBAPE,,,2020-07-09,28997,long
+ECLI:BE:GBAPE:2019:DEC.20190611.6,NL,DEC,Rechterlijke beslissing,GBAPE,,,2019-06-11,10055,long
+ECLI:BE:AHGNT:2000:DEC.20000405.7,NL,DEC,Rechterlijke beslissing,AHGNT,,,2000-04-05,15973,long
+ECLI:BE:GBAPE:2020:DEC.20200529.8,NL,DEC,Rechterlijke beslissing,GBAPE,,,2020-05-29,29491,long
+ECLI:BE:COHSAV:2012:DEC.20120112.20,NL,DEC,Rechterlijke beslissing,COHSAV,,,2012-01-12,6721,medium
+ECLI:BE:COHSAV:2024:DEC.20241007.5,NL,DEC,Rechterlijke beslissing,COHSAV,,,2024-10-07,8924,medium
+ECLI:BE:COVHDP:2008:DEC.20080821.7,NL,DEC,Rechterlijke beslissing,COVHDP,,,2008-08-21,5932,medium
+ECLI:BE:COHSAV:2005:DEC.20050719.1,NL,DEC,Rechterlijke beslissing,COHSAV,,,2005-07-19,7631,medium
+ECLI:BE:GBAPE:2019:DEC.20191007.10,NL,DEC,Rechterlijke beslissing,GBAPE,,,2019-10-07,6690,medium
+ECLI:BE:ARANT:2004:JUG.20040511.28,NL,JUG,Vonnis,ARANT,Arbeidsrechtbank te Antwerpen,,2004-05-11,9683,medium
+ECLI:BE:TEBRL:2009:JUG.20090703.2,NL,JUG,Vonnis,TEBRL,Franstalige Ondernemingsrechtbank te Brussel,,2009-07-03,2298,medium
+ECLI:BE:EABRL:1997:JUG.19970306.6,NL,JUG,Vonnis,EABRL,Nederlandstalige Rechtbank van Eerste Aanleg te Brussel,,1997-03-06,10001,long
+ECLI:BE:ORANT:2009:JUG.20090519.12,NL,JUG,Vonnis,ORANT,Ondernemingsrechtbank Antwerpen,,2009-05-19,7715,medium
+ECLI:BE:ORANT:2015:JUG.20151118.5,NL,JUG,Vonnis,ORANT,Ondernemingsrechtbank Antwerpen,,2015-11-18,7028,medium
+ECLI:BE:ORGNT:2006:JUG.20060906.16,NL,JUG,Vonnis,ORGNT,Ondernemingsrechtbank Gent,,2006-09-06,16510,long
+ECLI:BE:COHSAV:2012:JUG.20120627.10,NL,JUG,Vonnis,COHSAV,,,2012-06-27,10900,long
+ECLI:BE:ARGNT:1999:JUG.19991213.3,NL,JUG,Vonnis,ARGNT,,,1999-12-13,16609,long
+ECLI:BE:ARGNT:2024:JUG.20240712.1,NL,JUG,Vonnis,ARGNT,,,2024-07-12,11884,long
+ECLI:BE:AHGNT:2010:JUG.20100205.2,NL,JUG,Vonnis,AHGNT,,,2010-02-05,39944,very_long
+ECLI:BE:CTBRL:2011:ORD.20110629.1,NL,ORD,Beschikking,CTBRL,Arbeidshof te Brussel,,2011-06-29,6187,medium
+ECLI:BE:TEBRL:2009:ORD.20090615.10,NL,ORD,Beschikking,TEBRL,Franstalige Ondernemingsrechtbank te Brussel,,2009-06-15,22720,long
+ECLI:BE:TEBRL:2009:ORD.20090707.2,NL,ORD,Beschikking,TEBRL,Franstalige Ondernemingsrechtbank te Brussel,,2009-07-07,1431,short
+ECLI:BE:COPRIV:2017:RECO.20170524.12,NL,RECO,Aanbeveling,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2017-05-24,19493,long
+ECLI:BE:HBGNT:2009:RECO.20091201.5,NL,RECO,Aanbeveling,HBGNT,,,2009-12-01,18438,long

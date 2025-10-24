@@ -36,6 +36,15 @@ export class AzureConfig {
   }
 
   /**
+   * Reset cached client (useful when environment variables change)
+   */
+  static resetClient(): void {
+    // Force reload environment variables
+    dotenv.config({ override: true });
+    this.client = null;
+  }
+
+  /**
    * Get or create Azure OpenAI client
    */
   static getClient(): OpenAI {
@@ -44,7 +53,7 @@ export class AzureConfig {
 
       this.client = new OpenAI({
         apiKey: config.apiKey,
-        baseURL: `${config.endpoint}/openai/deployments/${config.deployment}`,
+        baseURL: `${config.endpoint}/openai`,
         defaultQuery: { 'api-version': config.apiVersion },
         defaultHeaders: { 'api-key': config.apiKey },
       });

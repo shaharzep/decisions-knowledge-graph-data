@@ -6,11 +6,12 @@ dotenv.config();
 /**
  * OpenAI Configuration
  *
- * Manages connection to personal OpenAI account (not Azure)
- * Used specifically for GPT-5 calls for taxonomy pre-filtering
+ * Manages connection to standard OpenAI API
+ * Used for:
+ * - Batch processing via OpenAI Batch API
+ * - Pre-processing calls (e.g., taxonomy filtering)
  *
  * IMPORTANT: This is separate from Azure OpenAI.
- * Azure is used for batch processing, OpenAI is used for pre-processing.
  */
 export class OpenAIConfig {
   private static client: OpenAI | null = null;
@@ -21,18 +22,28 @@ export class OpenAIConfig {
   static getConfig() {
     const apiKey = process.env.OPENAI_API_KEY;
     const organization = process.env.OPENAI_ORG_ID; // Optional
+    const model = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 
     if (!apiKey) {
       throw new Error(
         'Missing required OpenAI configuration. ' +
-        'Please ensure OPENAI_API_KEY is set in .env'
+          'Please ensure OPENAI_API_KEY is set in .env'
       );
     }
 
     return {
       apiKey,
       organization,
+      model,
     };
+  }
+
+  /**
+   * Reset cached client (useful when environment variables change)
+   */
+  static resetClient(): void {
+    dotenv.config({ override: true });
+    this.client = null;
   }
 
   /**
@@ -47,13 +58,21 @@ export class OpenAIConfig {
         organization: config.organization,
       });
 
-      console.log(`🔷 OpenAI client initialized (personal account)`);
+      console.log('🟢 OpenAI client initialized');
+      console.log(`   Default Model: ${config.model}`);
       if (config.organization) {
         console.log(`   Organization: ${config.organization}`);
       }
     }
 
     return this.client;
+  }
+
+  /**
+   * Get the default model name
+   */
+  static getModel(): string {
+    return this.getConfig().model;
   }
 
   /**
