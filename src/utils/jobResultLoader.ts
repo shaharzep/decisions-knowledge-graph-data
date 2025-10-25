@@ -9,8 +9,8 @@ import { logger } from './logger.js';
  * exists in multiple languages.
  */
 export interface DecisionMatchKey {
-  /** Database serial ID (primary identifier) */
-  id: number;
+  /** Database serial ID (optional safety guard) */
+  id?: number;
 
   /** ECLI identifier (can have multiple language versions) */
   decision_id: string;
@@ -38,6 +38,10 @@ export class JobResultLoader {
    */
   private static cache = new Map<string, any[]>();
 
+  private static cacheKey(jobType: string, baseDir: string): string {
+    return `${baseDir}::${jobType}`;
+  }
+
   /**
    * Load result for specific decision using composite key matching
    *
@@ -48,17 +52,19 @@ export class JobResultLoader {
    */
   static async loadForDecision(
     jobType: string,
-    matchKey: DecisionMatchKey
+    matchKey: DecisionMatchKey,
+    baseDir: string = 'results'
   ): Promise<any> {
     logger.debug(`Loading result for decision`, {
       jobType,
       id: matchKey.id,
       decision_id: matchKey.decision_id,
       language: matchKey.language,
+      baseDir,
     });
 
     // Load all results (from cache or file)
-    const results = await this.loadAllResults(jobType);
+    const results = await this.loadAllResults(jobType, baseDir);
 
     // Find matching result using composite key
     const match = results.find((r) => this.matchesKey(r, matchKey));
@@ -88,15 +94,16 @@ export class JobResultLoader {
    * @returns Array of all result objects
    * @throws Error if no results directory or file not found
    */
-  static async loadAllResults(jobType: string): Promise<any[]> {
+  static async loadAllResults(jobType: string, baseDir: string = 'results'): Promise<any[]> {
     // Check cache first
-    if (this.cache.has(jobType)) {
-      logger.debug(`Using cached results for ${jobType}`);
-      return this.cache.get(jobType)!;
+    const cacheKey = this.cacheKey(jobType, baseDir);
+    if (this.cache.has(cacheKey)) {
+      logger.debug(`Using cached results for ${jobType}`, { baseDir });
+      return this.cache.get(cacheKey)!;
     }
 
     // Find latest results directory
-    const resultsDir = await this.findLatestResultsDirectory(jobType);
+    const resultsDir = await this.findLatestResultsDirectory(jobType, baseDir);
 
     // Load extracted-data.json
     const dataPath = path.join(resultsDir, 'extracted-data.json');
@@ -115,9 +122,9 @@ export class JobResultLoader {
       }
 
       // Cache results
-      this.cache.set(jobType, results);
+      this.cache.set(cacheKey, results);
 
-      logger.info(`Loaded ${results.length} results from ${jobType}`);
+      logger.info(`Loaded ${results.length} results from ${jobType}`, { baseDir });
       return results;
     } catch (error: any) {
       if (error.code === 'ENOENT') {
@@ -257,8 +264,13 @@ export class JobResultLoader {
    * @returns True if all three fields match
    */
   private static matchesKey(result: any, key: DecisionMatchKey): boolean {
+    const idMatches =
+      key.id === undefined ||
+      key.id === null ||
+      result.id === key.id;
+
     return (
-      result.id === key.id &&
+      idMatches &&
       result.decision_id === key.decision_id &&
       result.language === key.language
     );

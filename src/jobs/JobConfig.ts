@@ -1,4 +1,56 @@
 /**
+ * Job Dependency
+ *
+ * Declares a dependency on the results of a previously processed job.
+ * Dependency data is automatically loaded and merged into the database row
+ * before preprocessRow and promptTemplate are executed.
+ */
+export interface DependencyMatchField {
+  /**
+   * Property name (dot path supported) on the database row used for matching.
+   */
+  row: string;
+
+  /**
+   * Property name on the dependency result used for matching.
+   * Defaults to the same name as the row field when omitted.
+   */
+  dependency?: string;
+}
+
+export type DependencySource = 'batch' | 'concurrent';
+
+export interface JobDependency {
+  /** Upstream job to pull results from (e.g., 'extract-comprehensive') */
+  jobId: string;
+
+  /** Field name to attach the resolved data under (defaults to jobId) */
+  alias?: string;
+
+  /** When false, missing dependency data resolves to null instead of throwing */
+  required?: boolean;
+
+  /** Location of results; defaults to batch results directory */
+  source?: DependencySource;
+
+  /**
+   * Fields used to match the dependency result to the current row.
+   * Defaults to:
+   *   id (row)            ↔ id (dependency)
+   *   decision_id (row)   ↔ decision_id (dependency)
+   *   language_metadata   ↔ language
+   */
+  matchOn?: DependencyMatchField[];
+
+  /**
+   * Optional transformer applied to the resolved dependency record.
+   * Return value is assigned to the alias. When undefined is returned,
+   * the original dependency record is used.
+   */
+  transform?: (dependency: any, row: any) => any | Promise<any>;
+}
+
+/**
  * Job Configuration Interface
  *
  * Defines the structure for configuring batch extraction jobs.
@@ -192,6 +244,13 @@ export interface JobConfig {
    * }
    */
   rowMetadataFields?: string[];
+
+  /**
+   * Optional dependencies on previously processed job results.
+   * Each dependency is loaded and merged into the database row before
+   * preprocessRow and promptTemplate execute.
+   */
+  dependencies?: JobDependency[];
 }
 
 /**

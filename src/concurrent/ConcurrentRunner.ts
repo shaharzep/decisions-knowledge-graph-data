@@ -4,6 +4,7 @@ import { JobLogger } from '../utils/logger.js';
 import { OpenAIConcurrentClient, CompletionSettings } from './OpenAIConcurrentClient.js';
 import { ConcurrentProcessor, ProcessedResult } from './ConcurrentProcessor.js';
 import { extractJsonFromResponse } from '../utils/validators.js';
+import { DependencyResolver } from '../core/DependencyResolver.js';
 
 /**
  * Concurrent Runner Options
@@ -25,6 +26,7 @@ export class ConcurrentRunner {
   private logger: JobLogger;
   private client: OpenAIConcurrentClient;
   private processor: ConcurrentProcessor;
+  private dependencyResolver: DependencyResolver | null;
 
   constructor(config: JobConfig, options: ConcurrentOptions = {}) {
     this.config = config;
@@ -35,6 +37,12 @@ export class ConcurrentRunner {
     this.logger = new JobLogger(`ConcurrentRunner:${config.id}`);
     this.client = new OpenAIConcurrentClient(config.id);
     this.processor = new ConcurrentProcessor(config);
+
+    // Initialize dependency resolver if dependencies are configured
+    this.dependencyResolver =
+      config.dependencies && config.dependencies.length > 0
+        ? new DependencyResolver(config.id, config.dependencies)
+        : null;
   }
 
   /**
@@ -101,6 +109,8 @@ export class ConcurrentRunner {
    * Load decisions from database
    *
    * Uses job config query and parameters to fetch decisions.
+   * Preloads dependencies if configured.
+   * Enriches rows with dependency data.
    * Applies preprocessing if defined.
    *
    * @returns Array of decision rows
@@ -108,7 +118,7 @@ export class ConcurrentRunner {
   private async loadDecisions(): Promise<any[]> {
     this.logger.debug('Executing database query');
 
-    // Execute database query
+    // Step 1: Execute database query
     const rows = await DatabaseConfig.executeReadOnlyQuery(
       this.config.dbQuery,
       this.config.dbQueryParams || []
@@ -120,14 +130,32 @@ export class ConcurrentRunner {
 
     this.logger.info(`Fetched ${rows.length} records from database`);
 
-    // Apply preprocessing if defined
+    // Step 2: Preload dependency results if required
+    if (this.dependencyResolver) {
+      this.logger.info('Preloading job dependencies');
+      await this.dependencyResolver.preload();
+    }
+
+    // Step 3: Enrich rows with dependencies and apply preprocessing
     let processedRows = rows;
-    if (this.config.preprocessRow) {
-      this.logger.info('Preprocessing rows with custom hook');
+    if (this.config.preprocessRow || this.dependencyResolver) {
+      this.logger.info('Preprocessing rows with dependencies and custom hooks');
       processedRows = await Promise.all(
-        rows.map((row, index) => {
-          this.logger.debug(`Preprocessing row ${index + 1}/${rows.length}`);
-          return this.config.preprocessRow!(row);
+        rows.map(async (row, index) => {
+          this.logger.debug(`Processing row ${index + 1}/${rows.length}`);
+
+          // First, enrich with dependencies (if configured)
+          let enrichedRow = row;
+          if (this.dependencyResolver) {
+            enrichedRow = await this.dependencyResolver.enrichRow(enrichedRow);
+          }
+
+          // Then, apply custom preprocessing (if defined)
+          if (this.config.preprocessRow) {
+            enrichedRow = await this.config.preprocessRow(enrichedRow);
+          }
+
+          return enrichedRow;
         })
       );
       this.logger.info('Preprocessing completed');

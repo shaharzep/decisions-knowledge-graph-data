@@ -3,6 +3,7 @@ import path from "path";
 import { DatabaseConfig } from "../config/database.js";
 import { JobConfig, BatchRequestItem } from "../jobs/JobConfig.js";
 import { JobLogger } from "../utils/logger.js";
+import { DependencyResolver } from "./DependencyResolver.js";
 
 /**
  * Batch Job Generator
@@ -12,10 +13,15 @@ import { JobLogger } from "../utils/logger.js";
 export class BatchJobGenerator {
   private config: JobConfig;
   private logger: JobLogger;
+  private dependencyResolver: DependencyResolver | null;
 
   constructor(config: JobConfig) {
     this.config = config;
     this.logger = new JobLogger(`Generator:${config.id}`);
+    this.dependencyResolver =
+      config.dependencies && config.dependencies.length > 0
+        ? new DependencyResolver(config.id, config.dependencies)
+        : null;
   }
 
   /**
@@ -55,14 +61,30 @@ export class BatchJobGenerator {
 
       this.logger.info(`Fetched ${rows.length} records from database`);
 
+      // Preload dependency results if required
+      if (this.dependencyResolver) {
+        this.logger.info("Preloading job dependencies");
+        await this.dependencyResolver.preload();
+      }
+
       // Step 2: Preprocess rows if hook is defined
       let processedRows = rows;
-      if (this.config.preprocessRow) {
+      if (this.config.preprocessRow || this.dependencyResolver) {
         this.logger.info("Preprocessing rows with custom hook");
         processedRows = await Promise.all(
-          rows.map((row, index) => {
+          rows.map(async (row, index) => {
             this.logger.debug(`Preprocessing row ${index + 1}/${rows.length}`);
-            return this.config.preprocessRow!(row);
+            let enrichedRow = row;
+
+            if (this.dependencyResolver) {
+              enrichedRow = await this.dependencyResolver.enrichRow(enrichedRow);
+            }
+
+            if (this.config.preprocessRow) {
+              enrichedRow = await this.config.preprocessRow(enrichedRow);
+            }
+
+            return enrichedRow;
           })
         );
         this.logger.info("Preprocessing completed");
@@ -123,8 +145,9 @@ export class BatchJobGenerator {
    */
   private generateBatchItems(rows: any[]): BatchRequestItem[] {
     // Determine provider and endpoint
-    const isOpenAI = true;
-    const endpoint = isOpenAI ? "/v1/responses" : "/v1/chat/completions";
+    const provider = this.config.provider || "azure";
+    const isOpenAI = provider === "openai";
+    const endpoint = isOpenAI ? "/v1/chat/completions" : "/v1/chat/completions";
 
     this.logger.info(`Generating batch items for provider: ${this.config.provider || 'azure'}`);
     this.logger.info(`Using endpoint: ${endpoint}`);
@@ -147,7 +170,7 @@ export class BatchJobGenerator {
         );
       }
 
-      // Construct response_format based on configuration
+      // Construct response format based on configuration
       const responseFormat = this.config.outputSchemaName
         ? {
             type: "json_schema" as const,
@@ -161,61 +184,39 @@ export class BatchJobGenerator {
 
       // Create batch request item with provider-specific format
       if (isOpenAI) {
-        // OpenAI Responses API format
-        // Note: response.text.format is the new structure (not response_format)
+        // OpenAI Chat Completions API format
+        const messages = [
+          {
+            role: "system",
+            content:
+              "Return ONLY a single JSON object matching the schema. No markdown, no prose, no code blocks.",
+          },
+          {
+            role: "user",
+            content: prompt,
+          },
+        ];
 
-        // Build response.text object with format and optional fields
-        const responseText: any = {
-          format: this.config.outputSchemaName ? "json_schema" : "json_object",
+        const body: any = {
+          model: modelName,
+          messages,
+          response_format: responseFormat,
         };
 
-        if (this.config.outputSchemaName) {
-          responseText.json_schema = {
-            name: this.config.outputSchemaName,
-            strict: true,
-            schema: this.config.outputSchema,
-          };
+        if (this.config.maxCompletionTokens) {
+          body.max_completion_tokens = this.config.maxCompletionTokens;
         }
 
-        // Add verbosity to response.text (not root level)
-        if (this.config.verbosity) {
-          responseText.verbosity = this.config.verbosity;
+        if (this.config.temperature !== undefined) {
+          body.temperature = this.config.temperature;
         }
 
-        const item: any = {
+        return {
           custom_id: customId,
           method: "POST",
           url: endpoint,
-          body: {
-            model: modelName,
-            maxCompletionTokens: this.config.maxCompletionTokens,
-            reasoningEffort: this.config.reasoningEffort,
-            response: {
-              text: responseText,
-            },
-            input: [
-              {
-                role: "system",
-                content: [
-                  {
-                    type: "input_text",
-                    text: "Return ONLY a single JSON object matching the schema. No markdown, no prose, no code blocks.",
-                  }
-                ]
-              },
-              {
-                role: "user",
-                content: [
-                  {
-                    type: "input_text",
-                    text: prompt,
-                  }
-                ]
-              },
-            ],
-          },
+          body,
         };
-        return item;
       } else {
         // Azure Chat Completions API format
         const item: BatchRequestItem = {
@@ -370,18 +371,9 @@ export class BatchJobGenerator {
         // Handle both Azure (messages) and OpenAI (input) formats
         let promptContent = "";
         if (item.body.messages) {
-          // Azure Chat Completions format
+          // Chat Completions format (Azure or OpenAI)
           promptContent = item.body.messages
             .map((m: any) => m.content)
-            .join(" ");
-        } else if (item.body.input) {
-          // OpenAI Responses API format
-          promptContent = item.body.input
-            .map((inp: any) =>
-              inp.content
-                .map((c: any) => c.text || "")
-                .join(" ")
-            )
             .join(" ");
         }
 

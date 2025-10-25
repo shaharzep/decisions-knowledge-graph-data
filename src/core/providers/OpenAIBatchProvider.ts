@@ -81,7 +81,7 @@ export class OpenAIBatchProvider implements BatchProvider {
     try {
       const response = await this.client.batches.create({
         input_file_id: inputFileId,
-        endpoint: '/v1/responses',
+        endpoint: '/v1/chat/completions',
         completion_window: '24h',
         metadata,
       });

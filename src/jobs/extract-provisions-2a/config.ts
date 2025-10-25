@@ -53,7 +53,6 @@ const config: JobConfig = {
       AND d.language_metadata = test_set.language
     WHERE dm.full_md IS NOT NULL
       AND dm.full_md != ''
-      LIMIT 10
   `,
 
   /**

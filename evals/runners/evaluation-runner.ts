@@ -12,6 +12,7 @@ import { scoreExtraction, extractScoresForBraintrust } from '../scorers/gpt5-jud
 import { createExperiment, logEvaluation, summarizeExperiment } from '../config/braintrust.js';
 import { getJudgePromptFile } from '../config/job-prompt-map.js';
 import { loadJudgePrompt } from '../utils/prompt-loader.js';
+import { generateExperimentName } from '../utils/experiment-naming.js';
 import {
   EvalOptions,
   EvaluationResult,
@@ -86,9 +87,9 @@ export async function runEvaluation(
   const sourceDocuments = await batchLoadSourceDocuments(decisionKeys);
   console.log(`✅ Loaded ${sourceDocuments.size} source documents`);
 
-  // Create Braintrust experiment (model-timestamp format)
-  const experimentName = `${metadata.model}-${timestamp || 'latest'}`;
-  console.log(`\n🧪 Creating Braintrust experiment: ${jobType}/${experimentName}`);
+  // Create Braintrust experiment (jobType-model-date format)
+  const experimentName = generateExperimentName(jobType, metadata.model);
+  console.log(`\n🧪 Creating Braintrust experiment: ${experimentName}`);
 
   const experiment = await createExperiment(
     'belgian-legal-extraction', // Project name
