@@ -20,7 +20,7 @@ import { logger } from './utils/logger.js';
  *   npm run dev test-connections            - Test database and provider connections
  */
 
-const COMMANDS = ['submit', 'status', 'process', 'list', 'test-connections', 'concurrent', 'help'];
+const COMMANDS = ['submit', 'status', 'process', 'list', 'test-connections', 'concurrent', 'retry', 'merge', 'help'];
 
 /**
  * Load job configuration by job type
@@ -225,6 +225,9 @@ COMMANDS:
   list                           List all jobs and their statuses
   test-connections               Test database and provider connections
   concurrent <job-type>          Process decisions concurrently (fast, non-batch)
+  retry <job-type> <timestamp>   Retry failed decisions from a specific run
+  retry <job-type> <timestamp> --dry-run   Analyze failures without retrying
+  merge <job-type> <original> <retry>      Merge successful retry JSONs into original
   help                           Show this help message
 
 PROVIDER CONFIGURATION:
@@ -240,6 +243,9 @@ EXAMPLES:
   npm run dev list
   npm run dev test-connections
   npm run dev concurrent extract-comprehensive
+  npm run dev retry extract-comprehensive 2025-10-25T06-02-48-674Z
+  npm run dev retry extract-comprehensive 2025-10-25T06-02-48-674Z --dry-run
+  npm run dev merge extract-comprehensive 2025-10-25T06-02-48-674Z 2025-10-25T06-02-48-674Z-retry-1
 
 JOB TYPES:
   Job types are defined in src/jobs/configs/
@@ -318,6 +324,44 @@ async function main() {
         const concurrentConfig = await loadJobConfig(jobType);
         const concurrentRunner = new ConcurrentRunner(concurrentConfig);
         await concurrentRunner.run();
+        break;
+
+      case 'retry':
+        if (!jobType) {
+          console.error('Error: Job type is required');
+          console.error('Usage: npm run dev retry <job-type> <timestamp>');
+          process.exit(1);
+        }
+        const timestamp = args[2];
+        if (!timestamp) {
+          console.error('Error: Timestamp is required');
+          console.error('Usage: npm run dev retry <job-type> <timestamp>');
+          console.error('Example: npm run dev retry extract-comprehensive 2025-10-25T06-02-48-674Z');
+          process.exit(1);
+        }
+        const { RetryOrchestrator } = await import('./utils/retryOrchestrator.js');
+        const retryFlags = args.slice(3);
+        await RetryOrchestrator.retryFailedDecisions(jobType, timestamp, {
+          dryRun: retryFlags.includes('--dry-run'),
+        });
+        break;
+
+      case 'merge':
+        if (!jobType) {
+          console.error('Error: Job type is required');
+          console.error('Usage: npm run dev merge <job-type> <original-timestamp> <retry-timestamp>');
+          process.exit(1);
+        }
+        const originalTimestamp = args[2];
+        const retryTimestamp = args[3];
+        if (!originalTimestamp || !retryTimestamp) {
+          console.error('Error: Both original and retry timestamps are required');
+          console.error('Usage: npm run dev merge <job-type> <original-timestamp> <retry-timestamp>');
+          console.error('Example: npm run dev merge extract-comprehensive 2025-10-25T06-02-48-674Z 2025-10-25T06-02-48-674Z-retry-1');
+          process.exit(1);
+        }
+        const { mergeRetryResults } = await import('./utils/mergeRetryResults.js');
+        await mergeRetryResults(jobType, originalTimestamp, retryTimestamp);
         break;
 
       default:

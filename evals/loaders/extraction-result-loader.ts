@@ -56,6 +56,7 @@ export async function loadExtractionResults(
     successfulRecords: summary.successful || data.length,
     failedRecords: summary.failed || 0,
     extractionDate: summary.processedAt || new Date().toISOString(),
+    experimentConfig: summary.experimentConfig, // Include experimentConfig from summary
   };
 
   return {

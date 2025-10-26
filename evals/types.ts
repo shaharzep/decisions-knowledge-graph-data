@@ -34,6 +34,21 @@ export interface EvaluationResult {
 }
 
 /**
+ * Experiment Configuration (from concurrent processing summary)
+ */
+export interface ExperimentConfig {
+  provider: 'azure' | 'openai';
+  model: string;
+  maxCompletionTokens?: number;
+  temperature?: number;
+  reasoningEffort?: 'low' | 'medium' | 'high';
+  verbosity?: 'minimal' | 'low' | 'medium' | 'high';
+  outputSchemaName?: string;
+  concurrencyLimit?: number;
+  useFullDataPipeline: boolean;
+}
+
+/**
  * Metadata about an extraction experiment
  */
 export interface ExperimentMetadata {
@@ -44,6 +59,7 @@ export interface ExperimentMetadata {
   successfulRecords: number;
   failedRecords: number;
   extractionDate: string;
+  experimentConfig?: ExperimentConfig;
 }
 
 /**

@@ -251,6 +251,51 @@ export interface JobConfig {
    * preprocessRow and promptTemplate execute.
    */
   dependencies?: JobDependency[];
+
+  /**
+   * Desired concurrency limit when running via the concurrent pipeline.
+   * Overrides the default runner limit when provided.
+   */
+  concurrencyLimit?: number;
+
+  /**
+   * Enable full-data pipeline for large dataset extraction.
+   *
+   * When false (default):
+   * - Creates 4 aggregated JSON files in concurrent/results/<job>/<model>/<timestamp>/
+   *   1. extracted-data.json - Array of clean outputs (no metadata)
+   *   2. successful-results.json - Array of outputs with metadata
+   *   3. failures.json - Array of failures with enriched metadata
+   *   4. summary.json - Processing statistics
+   * - Suitable for evaluation runs and smaller datasets
+   * - Required for dependency resolution (DependencyResolver expects extracted-data.json)
+   * - All data held in memory until end
+   *
+   * When true:
+   * - Creates per-decision JSON files in full-data/<job>/<timestamp>/jsons/
+   * - Filename format: <decisionId>_<language>.json
+   * - Writes failures.json and summary.json to full-data/<job>/<timestamp>/
+   * - Also maintains summary & failures in concurrent/results/ for backward compatibility
+   * - Streams results incrementally (durable for long-running extractions)
+   * - Suitable for large datasets (50k+ decisions)
+   *
+   * @default false
+   */
+  useFullDataPipeline?: boolean;
+
+  /**
+   * Custom output directory override (internal use)
+   *
+   * When specified, overrides the default output path generation.
+   * Used primarily for retry operations to ensure results go to the correct retry directory.
+   *
+   * If not specified, ConcurrentProcessor generates paths automatically based on:
+   * - Standard mode: concurrent/results/<job>/<model>/<timestamp>
+   * - Full-data mode: full-data/<job>/<timestamp>
+   *
+   * @internal
+   */
+  customOutputDirectory?: string;
 }
 
 /**

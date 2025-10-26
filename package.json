@@ -15,7 +15,8 @@
     "process": "tsx src/cli.ts process extract-comprehensive",
     "list": "tsx src/cli.ts list",
     "eval": "tsx evals/cli.ts",
-    "analyze-results": "tsx evals/analyze-cli.ts"
+    "analyze-results": "tsx evals/analyze-cli.ts",
+    "analyze-full-data": "tsx scripts/analyze-full-data.ts"
   },
   "keywords": [
     "legal",

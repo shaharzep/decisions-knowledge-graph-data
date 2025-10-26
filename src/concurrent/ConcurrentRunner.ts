@@ -1,3 +1,4 @@
+import path from 'path';
 import { JobConfig } from '../jobs/JobConfig.js';
 import { DatabaseConfig } from '../config/database.js';
 import { JobLogger } from '../utils/logger.js';
@@ -13,6 +14,12 @@ export interface ConcurrentOptions {
   concurrencyLimit?: number;
   timeout?: number; // Timeout per request in milliseconds
 }
+
+/**
+ * Callback for streaming result processing
+ * Called immediately as each API request completes
+ */
+export type ResultCallback = (result: ProcessedResult) => Promise<void> | void;
 
 /**
  * Concurrent Runner
@@ -31,8 +38,11 @@ export class ConcurrentRunner {
   constructor(config: JobConfig, options: ConcurrentOptions = {}) {
     this.config = config;
     this.options = {
-      concurrencyLimit: options.concurrencyLimit || 100,
-      timeout: options.timeout || 300000, // 5 minutes default
+      concurrencyLimit:
+        options.concurrencyLimit ??
+        config.concurrencyLimit ??
+        200,
+      timeout: options.timeout || 300000, // 10 minutes default
     };
     this.logger = new JobLogger(`ConcurrentRunner:${config.id}`);
     this.client = new OpenAIConcurrentClient(config.id);
@@ -50,7 +60,7 @@ export class ConcurrentRunner {
    *
    * Main orchestration method that:
    * 1. Loads decisions from database
-   * 2. Executes concurrent API calls
+   * 2. Executes concurrent API calls with optional streaming
    * 3. Processes and validates results
    * 4. Displays summary
    */
@@ -63,14 +73,22 @@ export class ConcurrentRunner {
       const decisions = await this.loadDecisions();
       this.logger.info(`Loaded ${decisions.length} decisions`);
 
-      // Step 2: Execute concurrent API calls
-      this.logger.info(`Step 2: Processing ${decisions.length} decisions concurrently`, {
-        concurrencyLimit: this.options.concurrencyLimit,
-      });
-      const results = await this.executeConcurrent(decisions);
+      // Step 2: Setup streaming callback for full-data pipeline
+      let streamingCallback: ResultCallback | undefined;
+      if (this.config.useFullDataPipeline) {
+        this.logger.info('Full-data pipeline enabled - setting up incremental persistence');
+        streamingCallback = await this.processor.createStreamingCallback();
+      }
 
-      // Step 3: Process and validate results
-      this.logger.info('Step 3: Processing and validating results');
+      // Step 3: Execute concurrent API calls
+      this.logger.info(`Step ${streamingCallback ? '3' : '2'}: Processing ${decisions.length} decisions concurrently`, {
+        concurrencyLimit: this.options.concurrencyLimit,
+        streamingEnabled: !!streamingCallback,
+      });
+      const results = await this.executeConcurrent(decisions, streamingCallback);
+
+      // Step 4: Process and validate results (or finalize streaming results)
+      this.logger.info(`Step ${streamingCallback ? '4' : '3'}: ${streamingCallback ? 'Finalizing' : 'Processing and validating'} results`);
       const summary = await this.processor.process(results);
 
       // Step 4: Display summary
@@ -90,13 +108,20 @@ export class ConcurrentRunner {
         }
       }
 
-      console.log('\nFiles saved:');
-      console.log(`  - extracted-data.json (${summary.successfulRecords} records)`);
-      console.log(`  - successful-results.json`);
-      if (summary.failedRecords > 0) {
-        console.log(`  - failures.json (${summary.failedRecords} records)`);
+      console.log('\nArtifacts:');
+      if (this.config.useFullDataPipeline) {
+        // Full-data pipeline output
+        console.log(`  - Per-decision JSONs: ${summary.jsonDirectory}`);
+        console.log(`  - Summary: ${path.join(summary.outputDirectory, 'summary.json')}`);
+        console.log(`  - Failures: ${path.join(summary.outputDirectory, 'failures.json')} (${summary.failedRecords} records)`);
+      } else {
+        // Standard pipeline output
+        console.log(`  - Extracted data: ${path.join(summary.outputDirectory, 'extracted-data.json')}`);
+        console.log(`  - Successful results: ${path.join(summary.outputDirectory, 'successful-results.json')}`);
+        console.log(`  - Failures: ${path.join(summary.outputDirectory, 'failures.json')} (${summary.failedRecords} records)`);
+        console.log(`  - Summary: ${path.join(summary.outputDirectory, 'summary.json')}`);
       }
-      console.log(`  - summary.json\n`);
+      console.log('');
 
       this.logger.completed();
     } catch (error) {
@@ -177,6 +202,7 @@ export class ConcurrentRunner {
   ): Promise<ProcessedResult> {
     const customIdPrefix = this.config.customIdPrefix || this.config.id;
     const customId = `${customIdPrefix}-${String(index + 1).padStart(4, '0')}`;
+    const metadata = this.extractMetadata(row);
 
     try {
       // Generate prompt
@@ -234,6 +260,7 @@ export class ConcurrentRunner {
           customId,
           success: false,
           error: 'No content in response',
+          metadata,
         };
       }
 
@@ -244,6 +271,7 @@ export class ConcurrentRunner {
           customId,
           success: false,
           error: `Response truncated - hit token limit (${completion.usage?.completion_tokens || 'unknown'} tokens)`,
+          metadata,
         };
       }
 
@@ -256,18 +284,8 @@ export class ConcurrentRunner {
           customId,
           success: false,
           error: `JSON parse error: ${error instanceof Error ? error.message : String(error)}`,
+          metadata,
         };
-      }
-
-      // Extract metadata separately (will be merged after validation)
-      let metadata: Record<string, any> | undefined;
-      if (this.config.rowMetadataFields && this.config.rowMetadataFields.length > 0) {
-        metadata = {};
-        for (const fieldName of this.config.rowMetadataFields) {
-          // Special handling for language_metadata -> language
-          const outputFieldName = fieldName === 'language_metadata' ? 'language' : fieldName;
-          metadata[outputFieldName] = row[fieldName];
-        }
       }
 
       // Success!
@@ -291,8 +309,35 @@ export class ConcurrentRunner {
         customId,
         success: false,
         error: `Processing error: ${error instanceof Error ? error.message : String(error)}`,
+        metadata,
       };
     }
+  }
+  
+  private extractMetadata(row: any): Record<string, any> | undefined {
+    const metadata: Record<string, any> = {};
+    const fields = this.config.rowMetadataFields ?? [];
+
+    const assign = (targetKey: string, sourceKey: string) => {
+      const value = row[sourceKey];
+      if (value !== undefined && value !== null) {
+        metadata[targetKey] = value;
+      }
+    };
+
+    for (const fieldName of fields) {
+      const outputFieldName = fieldName === 'language_metadata' ? 'language' : fieldName;
+      assign(outputFieldName, fieldName);
+    }
+
+    // Ensure core identifiers are present even if not explicitly listed
+    assign('decision_id', 'decision_id');
+    assign('language', 'language');
+    if (metadata.language === undefined) {
+      assign('language', 'language_metadata');
+    }
+
+    return Object.keys(metadata).length > 0 ? metadata : undefined;
   }
 
   /**
@@ -303,9 +348,13 @@ export class ConcurrentRunner {
    * Tracks progress and logs every 10 completions.
    *
    * @param decisions Array of decision rows
+   * @param onResult Optional callback invoked immediately after each result completes
    * @returns Array of processed results
    */
-  private async executeConcurrent(decisions: any[]): Promise<ProcessedResult[]> {
+  private async executeConcurrent(
+    decisions: any[],
+    onResult?: ResultCallback
+  ): Promise<ProcessedResult[]> {
     const batchSize = this.options.concurrencyLimit;
     let completedCount = 0;
     const totalCount = decisions.length;
@@ -320,12 +369,21 @@ export class ConcurrentRunner {
         const globalIndex = batchStart + batchIndex;
         const result = await this.processSingleDecision(decision, globalIndex);
 
+        // Stream result immediately if callback provided
+        if (onResult) {
+          try {
+            await onResult(result);
+          } catch (error) {
+            this.logger.error(`Error in streaming callback for result ${result.customId}`, error);
+          }
+        }
+
         // Update progress
         completedCount++;
 
         // Log progress every 10 completions or at the end
         if (completedCount % 10 === 0 || completedCount === totalCount) {
-          this.logger.info(`Progress: ${completedCount}/${totalCount} completed`);
+          this.logger.info(`Progress: ${completedCount}/${totalCount} completed${onResult ? ' (streaming)' : ''}`);
         }
 
         return result;

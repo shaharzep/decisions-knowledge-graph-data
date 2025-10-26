@@ -12,7 +12,7 @@ import { scoreExtraction, extractScoresForBraintrust } from '../scorers/gpt5-jud
 import { createExperiment, logEvaluation, summarizeExperiment } from '../config/braintrust.js';
 import { getJudgePromptFile } from '../config/job-prompt-map.js';
 import { loadJudgePrompt } from '../utils/prompt-loader.js';
-import { generateExperimentName } from '../utils/experiment-naming.js';
+import { generateEnhancedExperimentName, generateExperimentName } from '../utils/experiment-naming.js';
 import {
   EvalOptions,
   EvaluationResult,
@@ -87,9 +87,25 @@ export async function runEvaluation(
   const sourceDocuments = await batchLoadSourceDocuments(decisionKeys);
   console.log(`✅ Loaded ${sourceDocuments.size} source documents`);
 
-  // Create Braintrust experiment (jobType-model-date format)
-  const experimentName = generateExperimentName(jobType, metadata.model);
-  console.log(`\n🧪 Creating Braintrust experiment: ${experimentName}`);
+  // Create Braintrust experiment with enhanced naming (includes config params)
+  let experimentName: string;
+  if (metadata.experimentConfig) {
+    // Enhanced naming with reasoningEffort, maxTokens, etc.
+    experimentName = generateEnhancedExperimentName(jobType, {
+      model: metadata.experimentConfig.model,
+      reasoningEffort: metadata.experimentConfig.reasoningEffort,
+      maxCompletionTokens: metadata.experimentConfig.maxCompletionTokens,
+      verbosity: metadata.experimentConfig.verbosity,
+      temperature: metadata.experimentConfig.temperature,
+    });
+    console.log(`\n🧪 Creating Braintrust experiment: ${experimentName}`);
+    console.log(`   Using enhanced naming with config parameters`);
+  } else {
+    // Fallback to legacy naming (for old results without experimentConfig)
+    experimentName = generateExperimentName(jobType, metadata.model);
+    console.log(`\n🧪 Creating Braintrust experiment: ${experimentName}`);
+    console.log(`   ⚠️  Using legacy naming (experimentConfig not found in summary.json)`);
+  }
 
   const experiment = await createExperiment(
     'belgian-legal-extraction', // Project name
@@ -100,6 +116,8 @@ export async function runEvaluation(
       extractionDate: metadata.extractionDate,
       totalRecords: metadata.totalRecords,
       sampleSize: options.sampleSize,
+      // Include full experiment config for traceability
+      experimentConfig: metadata.experimentConfig,
     }
   );
 

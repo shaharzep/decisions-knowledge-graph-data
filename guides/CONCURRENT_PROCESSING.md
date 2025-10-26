@@ -37,11 +37,11 @@ The system reuses settings from `extract-comprehensive/config.ts`:
 Results are saved to: `concurrent/results/extract-comprehensive/{timestamp}/`
 
 **Files created:**
-- `extracted-data.json` - Successfully extracted data (clean)
-- `successful-results.json` - Successful results with metadata
+- `all-results.json` - All results (successes + failures)
+- `extracted-data.json` - Model outputs with metadata (successes only)
+- `successful-results.json` - Same as extracted-data (backward compatibility)
 - `failures.json` - Failed extractions with error messages
-- `summary.json` - Statistics and breakdown
-- `all-results.json` - Complete raw results
+- `summary.json` - Statistics and breakdown with experimentConfig
 
 ## Performance
 
