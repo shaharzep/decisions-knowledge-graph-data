@@ -30,7 +30,7 @@ export interface ProcessedResult {
  * at the time of execution for full reproducibility.
  */
 export interface ExperimentConfig {
-  provider: 'azure' | 'openai';
+  provider: 'azure' | 'openai' | 'anthropic';
   model: string;
   maxCompletionTokens?: number;
   temperature?: number;

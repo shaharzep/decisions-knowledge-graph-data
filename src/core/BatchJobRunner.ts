@@ -30,8 +30,15 @@ export class BatchJobRunner {
     this.statusTracker = new JobStatusTracker(config.id);
     this.logger = new JobLogger(`JobRunner:${config.id}`);
 
-    // Determine provider type
-    this.providerType = config.provider || ProviderFactory.getDefaultProvider();
+    // Determine provider type (filter out 'anthropic' as it's not supported for batch)
+    const configuredProvider = config.provider;
+    if (configuredProvider === 'anthropic') {
+      throw new Error(
+        'Anthropic provider is not supported for batch operations. ' +
+        'Use concurrent mode instead: npm run dev concurrent <job-type>'
+      );
+    }
+    this.providerType = configuredProvider || ProviderFactory.getDefaultProvider();
 
     // Provider will be initialized with specific job ID during run
     this.provider = null as any;

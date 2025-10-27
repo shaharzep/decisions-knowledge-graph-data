@@ -135,13 +135,16 @@ export interface JobConfig {
 
   /**
    * Batch provider to use for this job
-   * Options: 'azure' | 'openai'
+   * Options: 'azure' | 'openai' | 'anthropic'
+   *
+   * For batch mode: 'azure' or 'openai' (uses Batch API)
+   * For concurrent mode: 'openai' or 'anthropic' (uses direct API)
    *
    * If not specified, falls back to:
    * 1. BATCH_PROVIDER environment variable
-   * 2. Default: 'azure'
+   * 2. Default: 'azure' (batch) or 'openai' (concurrent)
    */
-  provider?: 'azure' | 'openai';
+  provider?: 'azure' | 'openai' | 'anthropic';
 
   /**
    * Model/deployment name to use

@@ -368,7 +368,7 @@ const config: JobConfig = {
   provider: "openai",
   model: "gpt-5-mini",
   maxCompletionTokens: 64000,        // Provision extraction simpler than comprehensive
-  reasoningEffort: "medium",         // Medium reasoning needed for documents with many provisions (96+)
+  reasoningEffort: "low",         // Medium reasoning needed for documents with many provisions (96+)
   verbosity: "low",                   // Concise responses preferred
   /**
    * Custom ID prefix

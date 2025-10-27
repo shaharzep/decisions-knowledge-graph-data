@@ -1,0 +1,214 @@
+════════════════════════════════════════════════════════════════════════════════
+DEBUG PROMPT GENERATION
+════════════════════════════════════════════════════════════════════════════════
+
+Job Type:     extract-provisions-2a
+Decision ID:  ECLI:BE:COPRIV:2018:AVIS.20180321.9
+Language:     NL
+Generated:    2025-10-27T15:50:05.917Z
+Prompt Size:  13916 characters
+
+════════════════════════════════════════════════════════════════════════════════
+PROMPT CONTENT
+════════════════════════════════════════════════════════════════════════════════
+
+You are a legal document analyzer for Belgian and European law. Extract ALL unique legal provisions from the provided text and output both a human-readable summary and a structured JSON payload.
+
+DECISION ID (ECLI): ECLI:BE:COPRIV:2018:AVIS.20180321.9
+LANGUAGE: NL
+
+INPUT TEXT:
+[1] ttreksels voorontwerp van ministerieel besluit dat uitvoering verleent aan art 56 van dit KB (CO-2017-057) De Commissie voor de bescherming van de persoonlijke levens
+
+[2] selijkheid van de WVP 3. De kadastrale documentatie wordt gedefinieerd in artikel 2 van het voorontwerp van koninklijk besluit: het gaat om « het geheel van de documenten, stukken, plannen, databanken
+
+[3] etrokken goed. Deze documentatie bevat dus persoonsgegevens als bedoeld in artikel 1 §1 van de WVP, (artikel 4.1 AVG), namelijk gegevens betreffende een rechtstreeks of onrechtst
+
+[4] oorbeeld de organisatorische en beveiligingsmaatregelen opgelegd krachtens artikel 16, § 4 van de WVP (artikel 32 AVG) voor iedere gegevensverwerking en die niettemin van toepassin
+
+[5] inklijk besluit ${ }^{2}$. 5. De Commissie acht het noodzakelijk, gelet op artikel 1 § 4 van de WVP (artikel 4 § 7 AVG) en de belangrijke rol die is toevertrouwd aan de "verantwo
+
+[6] n persoonsgegevens door de FOD Financiën in het kader van zijn opdrachten. Artikel 2 van deze wet duidt de FOD Financiën aan als verantwoordelijke voor de verwerking. De Co
+
+[7] ber 2008, punt 11 (=De Commissie acht het aangewezen om - in navolging van artikel 6, § 1, $1^{\circ}$, van het decreet van 18 juli 2008 betreffende het elektronische bestuurlijke gegevensverkeer - in het ontwerp een algemeen artikel op te nemen dat onderstreept dat alle deelnemende instanties verplich
+
+[8] memorie van toelichting blijkt dat de kadastrale documentatie op grond van artikelen 504 WIB niet alleen kan aangewend worden voor louter fiscale doeleinden maar ook t
+
+[9] rontwerp van koninklijk besluit is inderdaad genomen in toepassing van het artikel 504 WIB $^{4}$. Overeenkomstig het tweede lid van dit artikel is de Algemene Admin
+
+[10] telde tarieven. De Commissie merkt op dat dit artikel wordt aangevuld door artikel 337 WIB $^{5}$ dat handelt over het beroepsgeheim van de personeelsleden van de AA
+
+[11] personeelsleden van de AAPD en voorziet het in een [^0] [^0]: ${ }^{4}$ Artikel 504 WIB =De Algemene Administratie van de Patrimoniumdocumentatie staat in voor he
+
+[12] volgens een op informatica gebaseerde of andere werkwijze. " ${ }^{5}$ Artikel 337 WIB: = Hij die, uit welken hoofde ook, optreedt bij de toepassing van de belas
+
+[13] le rechtsmachten, en van de Gemeenschappen en de Gewesten en aan de in artikel 329 bedoelde openbare instellingen of inrichtingen, inlichtingen verstrekken welke voor die die
+
+[14] diensten waaraan ingevolge de controle georganiseerd ter uitvoering van de artikelen 320 en 321, inlichtingen van fiscale aard zouden worden verstrekt. De ambtenaren van de Algemene Administratie van
+
+[15] d. " --- uitzondering op dit beroepsgeheim wanneer zij in toepassing van artikel 504 WIB kadastrale informatie ter beschikking stellen van het publiek. b. De memor
+
+[16] t onderscheid tussen de doeleinden van de gegevensverwerkingen opgesomd in artikel 44 versus artikel 46 verdient te worden verduidelijkt, zoals uiteengezet hierna. 11. En
+
+[17] teengezet hierna. 11. Enerzijds zijn sommige gegevens die opgesomd zijn in artikel 46 van het voorontwerp immers bedoeld om ter beschikking gesteld te worden van het publiek op basis van de wetgeving infrastructuur voor ruimtelijke informatie in de Europese Gemeenscha
+
+[18] derworpen "aan een gegevens-beschermingseffectbeoordeling zoals bedoeld in artikel 35 van de Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 ". 1
+
+[19] kunnen worden meegedeeld aan derden op grond van de doeleinden bepaald in artikel 42 maar eveneens met het oog op het verzamelen van geografische gegevens bedoeld i
+
+[20] veneens met het oog op het verzamelen van geografische gegevens bedoeld in artikel 43 (artikel 42, $7^{\circ}$ van het voorontwerp). 15. Bijgevolg, aangezien de in
+
+[21] oorontwerp van koninklijk besluit, "Het afleveren of het gebruik van de in artikel 44" van dit besluit bepaalde kadastrale informatie "voor commerciële, politieke of verkiezingsdoeleinden is verboden" (artikel 45 van het voorontwerp van koninklijk besluit). De Commissie leidt hi
+
+[22] rgelijke doeleinden wel geoorloofd zouden zijn voor de gegevens bedoeld in artikel 46 van het voorontwerp van koninklijk besluit. Eveneens in dit opzicht reserveert de Commissie haar advies in afwachting
+
+[23] uit te voeren effectbeoordeling betreffende de verwerking van de zowel in artikel 46 als in artikel 44 opgesomde gegevens, en onder voorbehoud van de hiernavolgende bijk
+
+[24] sie verduidelijkt evenwel dat het irrelevant zou zijn om te verwijzen naar artikel 6 van de voormelde wet van 3 augustus 2012 betreffende de verwerking van persoonsgegevens door de
+
+[25] fundamentele rechten en vrijheden van de eigenaar van het betrokken goed. Artikel 7 van dit KB bepaalt immers: « De aanvraag om kadastrale informatie wordt afgewezen als
+
+[26] de aanvragers die om informatie verzoeken. 20. De doeleinden, opgesomd in artikel 44 waarvoor de aanvrager kadastrale informatie mag verwerken, worden als volgt uit
+
+[27] rager kadastrale informatie mag verwerken, worden als volgt uiteengezet in artikel 42 van het voorontwerp van koninklijk besluit: « Artikel 42 - de kadastrale documentatie wordt ter beschikking gesteld v
+
+[28] t het oog op het beheer van een onroerende mede-eigendom als bedoeld in de artikelen 577-2 en 577-3 van het Burgerlijk Wetboek; 4) wanneer de gevraagde informatie betrekking heeft op een onroerend
+
+[29] oegang tot de verzamelingen geografische gegevens (cf. doeleinde vervat in artikel 42, $7^{\circ}$ van het voorontwerp van koninklijk besluit). Artikel 43 bepaalt immers dat "In afwijking op artikel 42, wordt de publ
+
+[30] at in artikel 42, $7^{\circ}$ van het voorontwerp van koninklijk besluit). Artikel 43 bepaalt immers dat "In afwijking op artikel 42, wordt de publieke toegang tot de verzamelingen geografische gegev
+
+[31] elijke informatie in de Gemeenschap (INSPIRE) ${ }^{6}$. 22. Het voormelde artikel 43 vormt eveneens de grens voor de terbeschikkingstelling van het publiek van de in artikel 46 opgesomde gegevens. 23. Er wordt overigens gepreciseerd dat "Het a
+
+[32] r wordt overigens gepreciseerd dat "Het afleveren of het gebruik van de in artikel 44 van dit besluit bepaalde kadastrale informatie voor commerciële, politieke of verkiezingsdoeleinden is verboden" (Artikel 45 van het voorontwerp van koninklijk besluit). [^0] [^0]: ${ }^{
+
+[33] van het voorontwerp van koninklijk besluit). [^0] [^0]: ${ }^{6}$ Zie artikel 9 van de voormelde wet van 15 december 2011: « Art. 9. §1. De entiteiten bedoeld in artikel 4, §
+
+[34] voormelde wet van 15 december 2011: « Art. 9. §1. De entiteiten bedoeld in artikel 4, § 1, beperken de publieke toegang tot verzamelingen geografische gegevens en diensten met betrekking tot geografische gegevens via de in artikel 11, § 1, a), van de INSPIRE-Richtlijn bedoelde diensten, indien de to
+
+[35] en van België met de supranationale instellingen. De entiteiten bedoeld in artikel 4, § 1, beperken de publieke toegang tot verzamelingen geografische gegevens en diensten met betrekking tot geografische gegevens via de in artikel 11, § 1, b) tot e), van de INSPIRE-Richtlijn vermelde diensten of tot
+
+[36] 1, § 1, b) tot e), van de INSPIRE-Richtlijn vermelde diensten of tot de in artikel 14, § 3, van de INSPIRE-Richtlijn vermelde e-commercediensten, indien de toegang afbreuk zou doen aan een va
+
+[37] te stellen, zoals hiervoor vermeld. # 4. Proportionaliteitsbeginsel 25. Artikel 4, $\S 1,3^{\circ}$ van de WVP bepaalt dat persoonsgegevens toereikend, ter zake dienend en niet overmatig moeten zijn, uitgaande van de doeleinden waarvoor zij worden verkregen en waarvoor zijn verder worden verwerkt. 26. De C
+
+[38] ng van de Persoonlijke Levenssfeer, opgericht bij wet van 3 augustus 2012 (artikel 8 en 9 van deze wet), verzoekt de Commissie aan de verantwoordelijke voor de verwerking om de
+
+[39] aardigd belang met de fundamentele rechten en vrijheden van de betrokkene (artikel 42, $12^{\circ}$ van het voorontwerp van koninklijk besluit). b. voor elke verwerking die zou afwijken van onderhavig voorontwerp van
+
+[40] teem voor toegangsbeheer wel degelijk werd ingevoerd en dit overeenkomstig artikel 10 van de wet van 3 augustus 2012 houdende de bepalingen betreffende de verwerkingen van
+
+[41] lijk is om de doeleinden te verwezenlijken waarvoor zij werden ingezameld (artikel 4, § 1, $5^{\circ}$ van de WVP; artikel 5.1.b AVG). Dit principe geldt zowel voor de administratie financiën
+
+[42] VG). De Commissie herhaalt eveneens dat de informatieplicht als bedoeld in artikel 9, § 2 van de WVP (zie artikelen 12 en volgende AVG) een van de hoekstenen vormt van een transparant
+
+[43] rgelijke situatie is een vrijstelling van informatieplicht van toepassing (artikel 9, §2, $2^{\text {de }}$ lid, b) van de WVP; artikel 13.4 AVG). Deze vrijstelling verhindert echter niet dat de administra
+
+[44] eoordeling uitvoeren, zowel voor de verwerking van de gegevens opgesomd in artikel 46 als deze opgesomd in artikel 44 (considerans 15); - De verwerkingen identificeren die moeten opgev
+
+[45] sten wenst te vervangen of nader te omschrijven: [^0] [^0]: ${ }^{[1]}$ Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bes
+
+[46] ns en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (algemene verordening gegevensbescherming) Richtlijn (EU) 2016/680 van
+
+[47] gegevens-beschermingseffectbeoordeling zoals bedoeld in artikel 35 van de Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 ". 13. Anderzijds
+
+EXTRACTION INSTRUCTIONS:
+
+1. ARTICLE IDENTIFICATION:
+   - Extract every mention of "artikel", "article", "art." in both French and Dutch
+   - Include complete article numbers (e.g., "101", "174", "327")
+   - Capture ALL subdivisions: §, al., alinea, lid, °, bis, ter, etc.
+   - Note references like "e.v." (en volgende / et suivants) meaning "and following"
+   - Include historical references (e.g., "thans artikel X" = "now article X")
+
+2. PARENT ACT IDENTIFICATION:
+   - Act type: Use enum values → WET/LOI = LAW, KONINKLIJK_BESLUIT/ARRÊTÉ_ROYAL = REGULATION, DECREET/DÉCRET = DECREE, GRONDWET/CONSTITUTION = CONSTITUTION, etc.
+   - Full act name in original language
+   - Date in YYYY-MM-DD format (if mentioned in act title)
+   - Act number if present (e.g., "2001022645")
+
+3. PROVISION NUMBERING:
+   - provisionNumber: Full text as cited (e.g., "artikel 174, §1, lid 5°")
+   - provisionNumberKey: Extract primary numeric identifier only (e.g., "174")
+
+4. INTERNAL ID GENERATION:
+   - internalProvisionId: Format as "ART-{decisionId}-###" where ### is a 3-digit sequential number (001, 002, 003...)
+   - internalParentActId: Format as "ACT-{decisionId}-###" where ### is a 3-digit sequential number (001, 002, 003...)
+   - Each unique parent act gets one ACT ID, provisions under same act share that ACT ID
+   - Provisions are numbered sequentially regardless of parent act
+
+5. DEDUPLICATION:
+   - Same article + same parent act = ONE entry (list all subdivision contexts)
+   - Same article + different parent act = SEPARATE entries
+   - Same article + different dates = SEPARATE entries
+
+6. NULL VALUES:
+   - provisionId: ALWAYS null (will be matched to database later)
+   - parentActId: ALWAYS null (will be matched to database later)
+   - parentActNumber: null if not mentioned in source text
+
+OUTPUT FORMAT:
+
+Return a JSON object matching this exact structure:
+
+{
+  "decisionId": "{decisionId}",
+  "language": "{language}",
+  "extractionMetadata": {
+    "totalProvisionsExtracted": 0,
+    "totalUniqueParentActs": 0,
+    "extractionTimestamp": "2025-10-26T00:00:00Z"
+  },
+  "citedProvisions": [
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-{decisionId}-001",
+      "internalParentActId": "ACT-{decisionId}-001",
+      "provisionNumber": "artikel 101",
+      "provisionNumberKey": "101",
+      "parentActType": "LAW",
+      "parentActName": "gecoördineerde wetten van 14 juli 1994 betreffende...",
+      "parentActDate": "1994-07-14",
+      "parentActNumber": null
+    }
+  ]
+}
+
+PARENT ACT TYPE MAPPING:
+- WET, LOI → "LAW"
+- KONINKLIJK BESLUIT, ARRÊTÉ ROYAL, KB, AR → "REGULATION"
+- DECREET, DÉCRET → "DECREE"
+- ORDONNANTIE, ORDONNANCE → "ORDINANCE"
+- GRONDWET, CONSTITUTION → "CONSTITUTION"
+- VERDRAG, TRAITÉ → "TREATY"
+- BURGERLIJK WETBOEK, CODE CIVIL, WETBOEK, CODE → "CODE"
+- RICHTLIJN, DIRECTIVE → "DIRECTIVE"
+- VERORDENING (EU), RÈGLEMENT (UE) → "EU_REGULATION"
+- OTHER → "OTHER"
+
+CRITICAL RULES:
+1. provisionId and parentActId must ALWAYS be null
+2. internalProvisionId must use format: ART-{full ECLI}-### (3 digits)
+3. internalParentActId must use format: ACT-{full ECLI}-### (3 digits)
+4. provisionNumberKey must be numeric string only (no "artikel", no subdivisions)
+5. parentActDate must be YYYY-MM-DD format or null
+6. All provisions citing same parent act must share same internalParentActId
+7. Number internalParentActId sequentially as new acts are encountered (001, 002, 003...)
+8. Number internalProvisionId sequentially for all provisions (001, 002, 003...)
+
+Think step-by-step:
+1. Scan all snippets for article mentions
+2. For each, identify parent act from surrounding context
+3. Assign internalParentActId (new acts get new numbers, same acts reuse)
+4. Assign internalProvisionId sequentially for all provisions
+5. Extract provisionNumberKey (numeric part only)
+6. Map parent act type to enum
+7. Format dates as YYYY-MM-DD
+8. Return only the JSON object
+
+IMPORTANT: Return ONLY the JSON object. No explanations, no human-readable summary, no markdown formatting.
+
+════════════════════════════════════════════════════════════════════════════════
+END OF PROMPT
+════════════════════════════════════════════════════════════════════════════════

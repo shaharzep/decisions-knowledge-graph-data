@@ -1,0 +1,138 @@
+════════════════════════════════════════════════════════════════════════════════
+DEBUG PROMPT GENERATION
+════════════════════════════════════════════════════════════════════════════════
+
+Job Type:     extract-provisions-2a
+Decision ID:  ECLI:BE:RVSCE:2025:ARR.263.235
+Language:     FR
+Generated:    2025-10-27T14:16:44.664Z
+Prompt Size:  8955 characters
+
+════════════════════════════════════════════════════════════════════════════════
+PROMPT CONTENT
+════════════════════════════════════════════════════════════════════════════════
+
+You are a legal document analyzer for Belgian and European law. Extract ALL unique legal provisions from the provided text and output both a human-readable summary and a structured JSON payload.
+
+DECISION ID (ECLI): ECLI:BE:RVSCE:2025:ARR.263.235
+LANGUAGE: FR
+
+INPUT TEXT:
+[1] celle-ci n'était pas remédiable, la partie adverse n'a pas procédé, le 10 septembre, à une nouvelle évaluation et à une nouvelle notation concernant ces unités d'enseignement. D'autre part, la partie adverse n'a pas fait usage de la faculté prévue par l'article 140, précité, et n'a donc pas substitué à la décision d'échec du 25 juin 2024 une décision de réussite le 10 septembre 2024. Le recours est donc prima facie irrecevable en ce qu'il vise la délibération du 10 septembre 2024 puisque les seules critiques
+
+[2] recevabilité d'un recours introduit contre un acte administratif. Le recours est donc prima facie irrecevable. --- # PAR CES MOTIFS, <br> LE CONSEIL D'ÉTAT DÉCIDE : ## Article $1^{\text {er }}$. La Haute École Albert Jacquard est mise hors de cause. ## Article 2. La demande de suspension est rejetée. ## Article 3. Les dépens sont réservés. Ainsi prononcé à Bruxelles le 8 mai 2025, par la $\mathrm{XI}^{\mathrm{e}}$ chambre du Conseil d'État siégeant en référé, composée de : Denis Delvax, président de chambre
+
+[3] par dérogation à ce principe de deux sessions d'évaluation, les évaluations de certaines activités d'apprentissage comme les stages peuvent n'être organisées qu'une seul fois. Un échec à cette évaluation est alors « non remédiable». Conformément à l'article 140 de ce même décret, le jury d'examens a la possibilité de considérer que le déficit pour une unité d'enseignement est acceptable au vu de l'ensemble des résultats. Cette faculté offerte au jury concerne toutes les unités d'enseignement, en ce compris
+
+[4] administratif. Le recours est donc prima facie irrecevable. --- # PAR CES MOTIFS, <br> LE CONSEIL D'ÉTAT DÉCIDE : ## Article $1^{\text {er }}$. La Haute École Albert Jacquard est mise hors de cause. ## Article 2. La demande de suspension est rejetée. ## Article 3. Les dépens sont réservés. Ainsi prononcé à Bruxelles le 8 mai 2025, par la $\mathrm{XI}^{\mathrm{e}}$ chambre du Conseil d'État siégeant en référé, composée de : Denis Delvax, président de chambre f.f., Xavier Dupont, greffier. Le Greffier, Le
+
+[5] d'autre part, l'annulation de cette décision. ## II. Procédure La note d'observations et le dossier administratif ont été déposés. $\mathrm{M}^{\mathrm{me}}$ Laurence Lejeune, premier auditeur au Conseil d'État, a rédigé un rapport sur la base de l'article 12 de l'arrêté royal du 5 décembre 1991 déterminant la procédure en référé devant le Conseil d'État. --- Par une ordonnance du 27 février 2025, l'affaire a été fixée à l'audience du 7 avril 2025 et le rapport a été notifié aux parties. M. Denis Delvax,
+
+[6] la date manuscrite mentionnée sur l'accusé de réception de ce courrier que la requête a bien été notifiée à la partie adverse le 20 janvier 2025. La note d'observations, transmise le 4 février 2025, l'a été dans le délai de quinze jours prévu par l'article 11, alinéa $1^{\text {er }}$, de l'arrêté royal du 5 décembre 1991 déterminant la procédure en référé devant le Conseil d'État. Il n'y a donc pas lieu de l'écarter des débats. ## V. Détermination de la partie adverse L'acte dont la partie requérante
+
+[7] devenu définitif qu'après que le jury d'examens, en possession de l'ensemble des résultats, n'a pas fait usage, lors de sa --- délibération du 10 septembre 2024 relative à l'unité d'enseignement remédiable, de la faculté qui lui était octroyée par l'article 140 du décret du 7 novembre 2013, précité. Lors de sa délibération du 10 septembre 2024, le jury d'examens ne s'est pas prononcé sur la réussite des unités d'enseignement «UE 42 - Activités d'intégration professionnelle 3 - P5-P6 » et «UE 53 - Activités
+
+[8] recours interne irrecevable ; et que les arrêts déjà rendus par le Conseil d'État concernaient des hypothèses dans lesquelles le jury restreint avait déclaré le recours interne irrecevable, quod non en l'espèce. ## VI.2. Appréciation du Conseil d'État L'article 138 du décret du 7 novembre 2013 définissant le paysage de l'enseignement supérieur et l'organisation académique des études prévoit le principe de deux sessions d'évaluation par année académique. Il précise, toutefois, en son dernier alinéa, que, par
+
+[9] recours ne lie pas le Conseil d'Etat dans l'appréciation que celui-ci émet sur la recevabilité d'un recours introduit contre un acte administratif. Le recours est donc prima facie irrecevable. --- # PAR CES MOTIFS, <br> LE CONSEIL D'ÉTAT DÉCIDE : ## Article $1^{\text {er }}$. La Haute École Albert Jacquard est mise hors de cause. ## Article 2. La demande de suspension est rejetée. ## Article 3. Les dépens sont réservés. Ainsi prononcé à Bruxelles le 8 mai 2025, par la $\mathrm{XI}^{\mathrm{e}}$ chambre
+
+EXTRACTION INSTRUCTIONS:
+
+1. ARTICLE IDENTIFICATION:
+   - Extract every mention of "artikel", "article", "art." in both French and Dutch
+   - Include complete article numbers (e.g., "101", "174", "327")
+   - Capture ALL subdivisions: §, al., alinea, lid, °, bis, ter, etc.
+   - Note references like "e.v." (en volgende / et suivants) meaning "and following"
+   - Include historical references (e.g., "thans artikel X" = "now article X")
+
+2. PARENT ACT IDENTIFICATION:
+   - Act type: Use enum values → WET/LOI = LAW, KONINKLIJK_BESLUIT/ARRÊTÉ_ROYAL = REGULATION, DECREET/DÉCRET = DECREE, GRONDWET/CONSTITUTION = CONSTITUTION, etc.
+   - Full act name in original language
+   - Date in YYYY-MM-DD format (if mentioned in act title)
+   - Act number if present (e.g., "2001022645")
+
+3. PROVISION NUMBERING:
+   - provisionNumber: Full text as cited (e.g., "artikel 174, §1, lid 5°")
+   - provisionNumberKey: Extract primary numeric identifier only (e.g., "174")
+
+4. INTERNAL ID GENERATION:
+   - internalProvisionId: Format as "ART-{decisionId}-###" where ### is a 3-digit sequential number (001, 002, 003...)
+   - internalParentActId: Format as "ACT-{decisionId}-###" where ### is a 3-digit sequential number (001, 002, 003...)
+   - Each unique parent act gets one ACT ID, provisions under same act share that ACT ID
+   - Provisions are numbered sequentially regardless of parent act
+
+5. DEDUPLICATION:
+   - Same article + same parent act = ONE entry (list all subdivision contexts)
+   - Same article + different parent act = SEPARATE entries
+   - Same article + different dates = SEPARATE entries
+
+6. NULL VALUES:
+   - provisionId: ALWAYS null (will be matched to database later)
+   - parentActId: ALWAYS null (will be matched to database later)
+   - parentActNumber: null if not mentioned in source text
+
+OUTPUT FORMAT:
+
+Return a JSON object matching this exact structure:
+
+{
+  "decisionId": "{decisionId}",
+  "language": "{language}",
+  "extractionMetadata": {
+    "totalProvisionsExtracted": 0,
+    "totalUniqueParentActs": 0,
+    "extractionTimestamp": "2025-10-26T00:00:00Z"
+  },
+  "citedProvisions": [
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-{decisionId}-001",
+      "internalParentActId": "ACT-{decisionId}-001",
+      "provisionNumber": "artikel 101",
+      "provisionNumberKey": "101",
+      "parentActType": "LAW",
+      "parentActName": "gecoördineerde wetten van 14 juli 1994 betreffende...",
+      "parentActDate": "1994-07-14",
+      "parentActNumber": null
+    }
+  ]
+}
+
+PARENT ACT TYPE MAPPING:
+- WET, LOI → "LAW"
+- KONINKLIJK BESLUIT, ARRÊTÉ ROYAL, KB, AR → "REGULATION"
+- DECREET, DÉCRET → "DECREE"
+- ORDONNANTIE, ORDONNANCE → "ORDINANCE"
+- GRONDWET, CONSTITUTION → "CONSTITUTION"
+- VERDRAG, TRAITÉ → "TREATY"
+- BURGERLIJK WETBOEK, CODE CIVIL, WETBOEK, CODE → "CODE"
+- RICHTLIJN, DIRECTIVE → "DIRECTIVE"
+- VERORDENING (EU), RÈGLEMENT (UE) → "EU_REGULATION"
+- OTHER → "OTHER"
+
+CRITICAL RULES:
+1. provisionId and parentActId must ALWAYS be null
+2. internalProvisionId must use format: ART-{full ECLI}-### (3 digits)
+3. internalParentActId must use format: ACT-{full ECLI}-### (3 digits)
+4. provisionNumberKey must be numeric string only (no "artikel", no subdivisions)
+5. parentActDate must be YYYY-MM-DD format or null
+6. All provisions citing same parent act must share same internalParentActId
+7. Number internalParentActId sequentially as new acts are encountered (001, 002, 003...)
+8. Number internalProvisionId sequentially for all provisions (001, 002, 003...)
+
+Think step-by-step:
+1. Scan all snippets for article mentions
+2. For each, identify parent act from surrounding context
+3. Assign internalParentActId (new acts get new numbers, same acts reuse)
+4. Assign internalProvisionId sequentially for all provisions
+5. Extract provisionNumberKey (numeric part only)
+6. Map parent act type to enum
+7. Format dates as YYYY-MM-DD
+8. Return only the JSON object
+
+IMPORTANT: Return ONLY the JSON object. No explanations, no human-readable summary, no markdown formatting.
+
+════════════════════════════════════════════════════════════════════════════════
+END OF PROMPT
+════════════════════════════════════════════════════════════════════════════════

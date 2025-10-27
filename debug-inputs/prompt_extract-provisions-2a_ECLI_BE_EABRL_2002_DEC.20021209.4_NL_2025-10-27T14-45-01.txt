@@ -1,23 +1,24 @@
-/**
- * Provisions Extraction Prompt - P1 STAGE 2A ALT (Simplified Snippet-Based)
- *
- * Source: prompts-txts/P1_STAGE 2A_ALT.md
- * Updated: 2025-10-26
- *
- * SIMPLIFIED APPROACH:
- * - Works with simple text snippets (no highlighted markers)
- * - LLM does all extraction work from raw 250-char windows
- * - Outputs human-readable summary THEN JSON
- * - Uses simplified enum values (LAW, REGULATION, etc.)
- */
+════════════════════════════════════════════════════════════════════════════════
+DEBUG PROMPT GENERATION
+════════════════════════════════════════════════════════════════════════════════
 
-export const PROVISIONS_2A_PROMPT = `You are a legal document analyzer for Belgian and European law. Extract ALL unique legal provisions from the provided text and output a structured JSON payload.
+Job Type:     extract-provisions-2a
+Decision ID:  ECLI:BE:EABRL:2002:DEC.20021209.4
+Language:     NL
+Generated:    2025-10-27T14:45:01.165Z
+Prompt Size:  4317 characters
 
-DECISION ID (ECLI): {decisionId}
-LANGUAGE: {language}
+════════════════════════════════════════════════════════════════════════════════
+PROMPT CONTENT
+════════════════════════════════════════════════════════════════════════════════
+
+You are a legal document analyzer for Belgian and European law. Extract ALL unique legal provisions from the provided text and output both a human-readable summary and a structured JSON payload.
+
+DECISION ID (ECLI): ECLI:BE:EABRL:2002:DEC.20021209.4
+LANGUAGE: NL
 
 INPUT TEXT:
-{text_rows}
+
 
 EXTRACTION INSTRUCTIONS:
 
@@ -114,4 +115,8 @@ Think step-by-step:
 7. Format dates as YYYY-MM-DD
 8. Return only the JSON object
 
-IMPORTANT: Return ONLY the JSON object. No explanations, no human-readable summary, no markdown formatting.`;
+IMPORTANT: Return ONLY the JSON object. No explanations, no human-readable summary, no markdown formatting.
+
+════════════════════════════════════════════════════════════════════════════════
+END OF PROMPT
+════════════════════════════════════════════════════════════════════════════════

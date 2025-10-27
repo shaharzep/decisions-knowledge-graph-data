@@ -7,29 +7,32 @@
 
 import { formatJudgePrompt } from '../utils/prompt-loader.js';
 import { callGPT5Judge } from '../config/openai.js';
-import { EvaluationResult, Verdict, Recommendation, Confidence } from '../types.js';
+import { EvaluationResult, Verdict, Recommendation, Confidence, GroundTruthData } from '../types.js';
 
 /**
  * Score a single extraction using GPT-5 judge
  *
  * @param decisionId - ECLI identifier
- * @param originalDocument - Source markdown text
+ * @param groundTruthData - Ground truth data (full text OR snippets)
  * @param extractedJSON - Extracted data object
  * @param judgePromptTemplate - The loaded judge prompt markdown content
+ * @param jobType - Optional job type for context
  * @returns Structured evaluation result
  */
 export async function scoreExtraction(
   decisionId: string,
-  originalDocument: string,
+  groundTruthData: GroundTruthData,
   extractedJSON: any,
-  judgePromptTemplate: string
+  judgePromptTemplate: string,
+  jobType?: string
 ): Promise<EvaluationResult> {
   // Format the judge prompt with inputs
   const prompt = formatJudgePrompt(
     judgePromptTemplate,
     decisionId,
-    originalDocument,
-    extractedJSON
+    groundTruthData,
+    extractedJSON,
+    jobType
   );
 
   // Call GPT-5 for evaluation

@@ -14,14 +14,23 @@ import sys
 
 
 # Keywords to search for (bilingual FR/NL)
-KEYWORDS = [
-    "article", "articles", "artikel", "artikels",
-    "artikelen", r"art\.", r"artt\.", r"arts\."
+# Split into word keywords and dotted keywords for different boundary handling
+WORD_KEYWORDS = [
+    "article", "articles", "artikel", "artikels", "artikelen"
+]
+
+DOTTED_KEYWORDS = [
+    r"art\.", r"artt\.", r"arts\."
 ]
 
 # Compile regex pattern
+# Word keywords use word boundaries on both sides
+# Dotted keywords use word boundary only at start (period creates natural boundary)
+word_pattern = r'\b(?:' + '|'.join(WORD_KEYWORDS) + r')\b'
+dotted_pattern = r'\b(?:' + '|'.join(DOTTED_KEYWORDS) + r')'
+
 PATTERN = re.compile(
-    r'\b(?:' + '|'.join(KEYWORDS) + r')\b',
+    r'(?:' + word_pattern + r'|' + dotted_pattern + r')',
     re.IGNORECASE
 )
 

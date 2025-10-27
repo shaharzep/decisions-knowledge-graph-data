@@ -1,0 +1,250 @@
+════════════════════════════════════════════════════════════════════════════════
+DEBUG PROMPT GENERATION
+════════════════════════════════════════════════════════════════════════════════
+
+Job Type:     extract-provisions-2a
+Decision ID:  ECLI:BE:COPRIV:2011:ARR.20110323.1
+Language:     FR
+Generated:    2025-10-27T13:52:06.669Z
+Prompt Size:  38102 characters
+
+════════════════════════════════════════════════════════════════════════════════
+PROMPT CONTENT
+════════════════════════════════════════════════════════════════════════════════
+
+You are a legal document analyzer for Belgian and European law. Extract ALL unique legal provisions from the provided text and output both a human-readable summary and a structured JSON payload.
+
+DECISION ID (ECLI): ECLI:BE:COPRIV:2011:ARR.20110323.1
+LANGUAGE: FR
+
+INPUT TEXT:
+[1] l'application de ces mesures et, d'autre part, de la nature des données à protéger et des risques potentiels." Pour satisfaire concrètement à cette exigence, la Commission se réfère aux mesures de référence qu'elle a rédigées ${ }^{13}$. 29. Il découle de l'article $75,1^{\circ}, 12^{\circ}$ tiret de l'avant-projet qu'un consultant en sécurité de l'information et protection de la vie privée, au sens de l'article 4, § 5 de la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour
+
+[2] traitement. On tient compte ainsi de l'exigence de l'article 1, § 4 de la LVP. 27. Il ressort de l'article $75,1^{\circ}, 11^{\circ}$ tiret de l'avant-projet de loi qu'au sein de l'AFCN, un professionnel des soins de santé sera désigné, au sens de l'article 7, § 4 de la LVP. Cet article dispose également que tant que les mesures d'exécution de la disposition précitée de la LVP ne sont pas prises, on entend par "professionnel des soins de santé" : la personne titulaire du diplôme légal de docteur en médecine,
+
+[3] demandé. --- 36. En vertu des articles 18 et 27 de la loi précitée du 16 janvier 2003, l'accès à certaines informations de la Banque-Carrefour des Entreprises requiert une autorisation du Comité sectoriel pour la Banque-Carrefour des Entreprises. 37. En vertu de l'article 46 de la loi précitée du 15 janvier 1990, toute communication (au sein et) en dehors du réseau de la sécurité sociale de données sociales de nature personnelle requiert une autorisation du Comité sectoriel de la Sécurité Sociale et de la Santé, Section
+
+[4] Santé, Section sécurité sociale. 38. Dans le cadre du transfert de missions du SPF ETCS à l'AFCN, I'article 77, § 2 de l'avant-projet de loi prévoit que les données relatives à la surveillance dosimétrique doivent également être transmises. En vertu de l'article 36bis de la LVP, toute communication électronique de données à caractère personnel par un Service public fédéral exige une autorisation de principe du Comité sectoriel pour l'Autorité Fédérale. 39. L'AFCN entreprendra dès lors les démarches nécessaires
+
+[5] simplification administrative pour les différents acteurs concernés par la surveillance dosimétrique des travailleurs. La finalité ainsi décrite semble légitime et fondée dans le cadre de l'article 7, § 2, e) de la LVP. 14. L'Exposé des motifs de l'article 76, 25/5 de l'avant-projet de loi mentionne ce qui suit au sujet du délai de conservation prévu qui s'élève à 50 ans après le décès de la personne concernée : "La conservation des données pendant cinquante ans après le décès permet de veiller à ce que
+
+[6] des modalités pratiques concernant : - le suivi dosimétrique en général ; - le fonctionnement et l'utilisation du registre d'exposition ainsi que son contenu et l'accès à ce dernier (voir également l'article 76, 25/2, § 1, deuxième alinéa et § 2 ; I'article 76, $25 / 6,4^{\circ}$ à $7^{\circ}$ et l'article $76,25 / 7,10^{\circ}$ ) ; - l'établissement et la délivrance de passeports radiologiques (voir l'article 76, 25/9, § 2 et l'article 76, 25/11). 33. La Commission souhaite également être consultée concernant
+
+[7] le point 15) ; - à l'article 76, 25/6, $1^{\circ}$ de l'avant-projet de loi, supprimer la donnée "nationalité" étant donné son caractère superflu à l'égard de la finalité définie (voir le point 17) ; - revoir le délai de conservation maximal prévu à l'article 76, 25/5 de l'avant-projet de loi, soit en reprenant dans l'avant-projet lui-même ou dans l'Exposé des motifs une justification concrète et claire du délai extrêmement long de 50 ans après le décès (voir le point 24) ; - mentionner dans l'avant-projet
+
+[8] personne concernée. Il s'agit en outre d'une donnée à caractère personnel "sensible" au sens de l'article 6 de la LVP, qui requiert une plus grande prudence que celle de mise pour les données à caractère personnel "ordinaires" (non sensibles). 18. L'article 76, 25/6 et l'article 76, 25/11 de l'avant-projet de loi donnent au Roi une certaine compétence d'exécution en ce qui concerne les données à caractère personnel à reprendre respectivement dans le registre d'exposition et dans le passeport radiologique.
+
+[9] l'article $75,1^{\circ}, 15^{\circ}$ tiret de l'avant-projet de loi et l'article 2, § 1, premier et deuxième alinéas, $1^{\circ}$ de la loi du 4 août 1996 relative au bien-être des travailleurs lors de l'exécution de leur travail. ${ }^{9}$ Voir l'article 3 de la loi du 3 juillet 2005 relative aux droits des volontaires: "Pour l'application de la présente loi, on entend par: $1^{\circ}$ volontariat : toute activité : a) qui est exercée sans rétribution ni obligation; b) qui est exercée au
+
+[10] cas, pendant une période d'au moins trente ans à compter de la fin de l'activité professionnelle comportant une exposition aux rayonnements ionisants." --- est recommandé d'ajouter ce qu'il faut entendre par données anonymes, et ce en référence à l'article $1,5^{\circ}$ de l'arrêté royal du 13 février 2001 portant exécution de la LVP. # Responsabilité et mesures de sécurité 26. À l'article $75,1^{\circ}, 13^{\circ}$ tiret de l'avant-projet de loi, l'AFCN est explicitement désignée comme responsable
+
+[11] la Commission se réfère aux mesures de référence qu'elle a rédigées ${ }^{13}$. 29. Il découle de l'article $75,1^{\circ}, 12^{\circ}$ tiret de l'avant-projet qu'un consultant en sécurité de l'information et protection de la vie privée, au sens de l'article 4, § 5 de la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la sécurité sociale, sera désigné au sein de l'AFCN. La Commission en prend acte. 30. Les données à caractère personnel sensibles, dont celles
+
+[12] travailleurs aux rayonnements ionisants puis jusqu'au moment où l'intéressé a ou aurait atteint l'âge de 75 ans, et en tout cas pendant une période d'au moins trente ans à compter de la fin de l'activité professionnelle comportant une exposition (...)" Art. 34, 1: "Un dossier médical est créé pour chaque travailleur de la catégorie A et il est tenu à jour aussi longtemps que l'intéressé reste dans cette catégorie. Il est ensuite conservé jusqu'au moment où l'intéressé a ou aurait atteint l'âge de 75 ans
+
+[13] stagiaires. Les conséquences concrètes au niveau de l'exécution des différentes obligations apparaîtront clairement dans les dispositions d'exécution." --- # Finalité, licéité et proportionnalité du traitement ## Finalité et licéité 12. Conformément à l'article $4, \S 1,2^{\circ}$ de la LVP, les données à caractère personnel peuvent uniquement être collectées pour des finalités déterminées, explicites et légitimes. La description des finalités poursuivies doit donc être aussi précise, détaillée et complète
+
+[14] matière de maladies professionnelles) en mentionnant les données à caractère personnel qui seront traitées à cet effet (voir le point 14) ; - à l'article 76, 25/5, deuxième alinéa de l'avant-projet de loi, définir les "données anonymes" en référence à l'article 1, $5^{\circ}$ de l'arrêté royal du 13 février 2001 portant exécution de la LVP (voir le point 15) ; - à l'article 76, 25/6, $1^{\circ}$ de l'avant-projet de loi, supprimer la donnée "nationalité" étant donné son caractère superflu à l'égard de la finalité
+
+[15] 5$ précité prévoit par ailleurs qu'à l'expiration de ce délai de 50 ans, les données seront encore conservées "sous la forme de données anonymes, en vue de leur traitement ultérieur comme le prévoient les mesures d'exécution prises en application de l'article 4 de la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel." Comme déjà mentionné (voir le point 15), il [^0] [^0]: ${ }^{12}$ Voir la Directive 95/29/Euratom du Conseil du
+
+[16] contrat sera ainsi conclu entre l'entreprise extérieure ou l'indépendant, d'une part, et l'exploitant étranger, d'autre part, afin de garantir au travailleur extérieur une protection équivalente à celle dont bénéficient les employés de l'exploitant (voir l'article 76, 25/9, § 2 de l'avant-projet de loi). Dans l'Exposé des motifs, on précise à cet égard que l'entreprise extérieure imprimera le passeport radiologique de la personne concernée à partir du registre d'exposition et indiquera dans le contrat avec l'exploitant
+
+[17] d'offrir une protection optimale des personnes soumises à la surveillance dosimétrique, notamment via l'enregistrement de données relatives à la surveillance dosimétrique, la surveillance sanitaire et l'information et la formation de l'intéressé (voir l'article 76, 25/1, $4^{\circ}$ de l'avant-projet de loi). L'Exposé des motifs précise à cet égard que le registre d'exposition s'inscrit dans le cadre de la protection des travailleurs et constitue un moyen qui vient soutenir : - le contrôle du respect des limites
+
+[18] Banque-carrefour de la sécurité sociale, sera désigné au sein de l'AFCN. La Commission en prend acte. 30. Les données à caractère personnel sensibles, dont celles relatives à la santé, sont de nature à justifier des mesures de sécurité plus strictes. En vertu de l'article 25 de l'arrêté royal du 13 février 2001 portant exécution de la LVP, le responsable du traitement doit, dans le cadre du traitement de données à caractère personnel sensibles, comme les données à caractère personnel relatives à la santé, prendre les
+
+[19] (CO-A-2011-003) La Commission de la protection de la vie privée (ci-après "la Commission") ; Vu la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel (ci-après "la LVP"), en particulier l'article 29 ; Vu la demande d'avis de Madame A. Turtelboom, Ministre de l'Intérieur, reçue le 10/02/2011; Vu le rapport de Monsieur Jan Remans ; Émet, le 23 mars 2011, l'avis suivant : --- # I. OBJET DE LA DEMANDE D'AVIS 1. Madame A. Turtelboom, Ministre
+
+[20] ionisants sera qu'elle ne pourra plus travailler avec des sources non scellées ainsi qu'éventuellement la période sur laquelle portera cette restriction." ${ }^{7}$ L'Exposé des motifs précise que ces données concernent la formation comme visée à l'article 25 du Règlement général (arrêté royal du 20 juillet 2001 portant règlement général de la protection de la population, des travailleurs et de l'environnement contre le danger des rayonnements ionisants), plus particulièrement : notion de base concernant
+
+[21] 90/641/Euratom du Conseil du 4 décembre 1990 concernant la protection opérationnelle des travailleurs extérieurs exposés à un risque de rayonnements ionisants au cours de leur intervention en zone contrôlée. # II. EXAMEN DE LA DEMANDE D'AVIS 6. L'article 76, 25/12 de l'avant-projet dispose qu'en général, l'application de la nouvelle sous-section II relative à la Compétence en matière de surveillance dosimétrique ne porte pas atteinte à l'application de la loi du 8 décembre 1992 relative à la protection
+
+[22] personnel qu'il contient. Il est dès lors recommandé, le cas échéant, de définir et de reprendre clairement cette finalité supplémentaire dans l'avant-projet de loi et de mentionner les données à caractère personnel qui seront traitées dans ce cadre. 15. L'article 76, 25/5, deuxième alinéa de l'avant-projet de loi prévoit que 50 ans après le décès des personnes concernées, leurs données à caractère personnel en matière de surveillance dosimétrique sont anonymisées et conservées en vue d'un traitement ultérieur
+
+[23] (voir également l'article 76, 25/2, § 1, deuxième alinéa et § 2 ; I'article 76, $25 / 6,4^{\circ}$ à $7^{\circ}$ et l'article $76,25 / 7,10^{\circ}$ ) ; - l'établissement et la délivrance de passeports radiologiques (voir l'article 76, 25/9, § 2 et l'article 76, 25/11). 33. La Commission souhaite également être consultée concernant les arrêtés d'exécution qui devront être pris en la matière. Elle apprécierait que ces derniers lui soient soumis pour avis en temps utile. ## Autorisation des comités sectoriels
+
+[24] finalité ou des finalités liées, le responsable du traitement ou, le cas échéant, son représentant, en fait la déclaration auprès de la Commission de la protection de la vie privée." 41. Cette déclaration doit préciser les informations énumérées à l'article 17, § 3 de la LVP. 42. La déclaration peut être effectuée au moyen d'un formulaire papier disponible auprès de la Commission. La déclaration peut toutefois aussi être introduite par voie électronique via le site Internet de la Commission (http://www.privacycommission.be). --- #
+
+[25] l'avant-projet de loi une description claire d'une finalité supplémentaire (étude statistique et/ou stratégique en matière de maladies professionnelles) en mentionnant les données à caractère personnel qui seront traitées à cet effet (voir le point 14) ; - à l'article 76, 25/5, deuxième alinéa de l'avant-projet de loi, définir les "données anonymes" en référence à l'article 1, $5^{\circ}$ de l'arrêté royal du 13 février 2001 portant exécution de la LVP (voir le point 15) ; - à l'article 76, 25/6, $1^{\circ}$ de l'avant-projet
+
+[26] été reçues lors de l'exécution de missions comportant un risque d'exposition à l'étranger (voir l'article 75, 25/10 de l'avant-projet de loi). 9. Ces données sont au minimum des données à caractère personnel "ordinaires" (non sensibles) au sens de l'article 1 de la LVP, mais pour certaines d'entre elles, il s'agit en outre de données à caractère personnel sensibles au sens de l'article 6 (nationalité) et de l'article 7 (données relatives à la surveillance sanitaire) de la LVP. # Nature des traitements
+
+[27] cadre de la surveillance dosimétrique des travailleurs ; - une simplification administrative pour les différents acteurs concernés par la surveillance dosimétrique des travailleurs. La finalité ainsi décrite semble légitime et fondée dans le cadre de l'article 7, § 2, e) de la LVP. 14. L'Exposé des motifs de l'article 76, 25/5 de l'avant-projet de loi mentionne ce qui suit au sujet du délai de conservation prévu qui s'élève à 50 ans après le décès de la personne concernée : "La conservation des données pendant
+
+[28] que les personnes désignées soient tenues, par une obligation légale ou statutaire, ou par une disposition contractuelle équivalente, au respect du caractère confidentiel des données visées. L'avant-projet de loi en tient déjà partiellement compte à l'article 76, 25/4, qui mentionne les instances qui devront introduire ou consulter les données à caractère personnel enregistrées et qui sont donc impliquées dans la collecte et le traitement de ces données. Il s'agit en particulier des catégories suivantes : -
+
+[29] transposition ${ }^{12}$. Par ailleurs, il faudra alors veiller, le cas échéant, à ce que soient prévues et mises en œuvre les procédures requises pouvant garantir que des données aussi 'anciennes' sont encore toujours utilisables et exploitables. 25. L'article $25 / 5$ précité prévoit par ailleurs qu'à l'expiration de ce délai de 50 ans, les données seront encore conservées "sous la forme de données anonymes, en vue de leur traitement ultérieur comme le prévoient les mesures d'exécution prises en application
+
+[30] réseau de la sécurité sociale de données sociales de nature personnelle requiert une autorisation du Comité sectoriel de la Sécurité Sociale et de la Santé, Section sécurité sociale. 38. Dans le cadre du transfert de missions du SPF ETCS à l'AFCN, I'article 77, § 2 de l'avant-projet de loi prévoit que les données relatives à la surveillance dosimétrique doivent également être transmises. En vertu de l'article 36bis de la LVP, toute communication électronique de données à caractère personnel par un Service
+
+[31] ainsi de l'exigence de l'article 1, § 4 de la LVP. 27. Il ressort de l'article $75,1^{\circ}, 11^{\circ}$ tiret de l'avant-projet de loi qu'au sein de l'AFCN, un professionnel des soins de santé sera désigné, au sens de l'article 7, § 4 de la LVP. Cet article dispose également que tant que les mesures d'exécution de la disposition précitée de la LVP ne sont pas prises, on entend par "professionnel des soins de santé" : la personne titulaire du diplôme légal de docteur en médecine, chirurgie et accouchements. 28.
+
+[32] l'avant-projet de loi). 9. Ces données sont au minimum des données à caractère personnel "ordinaires" (non sensibles) au sens de l'article 1 de la LVP, mais pour certaines d'entre elles, il s'agit en outre de données à caractère personnel sensibles au sens de l'article 6 (nationalité) et de l'article 7 (données relatives à la surveillance sanitaire) de la LVP. # Nature des traitements 10. Tout d'abord, un registre d'exposition sera créé, lequel centralisera les données dosimétriques (cf. ci-dessus) de toutes les
+
+[33] et protection de la vie privée désigné, à ce que les mesures de sécurité précitées soient respectées à tout moment. --- # Délégation de compétence au Roi 32. À différents niveaux, l'avant-projet de loi confère au Roi une compétence étendue (voir l'article 76, 25/1 de l'avant-projet de loi) pour élaborer des modalités pratiques concernant : - le suivi dosimétrique en général ; - le fonctionnement et l'utilisation du registre d'exposition ainsi que son contenu et l'accès à ce dernier (voir également l'article
+
+[34] (voir le point 14) ; - à l'article 76, 25/5, deuxième alinéa de l'avant-projet de loi, définir les "données anonymes" en référence à l'article 1, $5^{\circ}$ de l'arrêté royal du 13 février 2001 portant exécution de la LVP (voir le point 15) ; - à l'article 76, 25/6, $1^{\circ}$ de l'avant-projet de loi, supprimer la donnée "nationalité" étant donné son caractère superflu à l'égard de la finalité définie (voir le point 17) ; - revoir le délai de conservation maximal prévu à l'article 76, 25/5 de l'avant-projet
+
+[35] au minimum des données à caractère personnel "ordinaires" (non sensibles) au sens de l'article 1 de la LVP, mais pour certaines d'entre elles, il s'agit en outre de données à caractère personnel sensibles au sens de l'article 6 (nationalité) et de l'article 7 (données relatives à la surveillance sanitaire) de la LVP. # Nature des traitements 10. Tout d'abord, un registre d'exposition sera créé, lequel centralisera les données dosimétriques (cf. ci-dessus) de toutes les personnes soumises à la surveillance
+
+[36] également que tant que les mesures d'exécution de la disposition précitée de la LVP ne sont pas prises, on entend par "professionnel des soins de santé" : la personne titulaire du diplôme légal de docteur en médecine, chirurgie et accouchements. 28. L'article 16 de la LVP impose au responsable du traitement de "prendre les mesures techniques et organisationnelles requises pour protéger les données à caractère personnel (...)" [et précise que] "Ces mesures doivent assurer un niveau de protection adéquat, compte
+
+[37] personnel à reprendre respectivement dans le registre d'exposition et dans le passeport radiologique. Dans le cadre de l'appréciation de la proportionnalité, il est recommandé que les arrêtés d'exécution [^0] [^0]: ${ }^{11}$ Voir l'Exposé des motifs de l'article 25/5 : "La conservation illimitée des données après les avoir rendues anonymes permet de les utiliser dans le cadre d'études épidémiologiques." --- concernés soient soumis préalablement à l'avis de la Commission (cf. ci-après - les points 32 et 33
+
+[38] particulier des catégories suivantes : - services publics chargés de surveiller le respect des règles concernant la surveillance de la santé ; - I'AFCN, le responsable du traitement ; - le professionnel des soins de santé désigné par l'AFCN en vertu de l'article 7, § 4 de la LVP ; - le consultant en sécurité de l'information et en protection de la vie privée désigné par I'AFCN ; - les exploitants, en ce qui concerne leurs données, leurs travailleurs ou travailleurs extérieurs, l'entreprise extérieure qui emploie
+
+[39] en relation avec une personne identifiée ou identifiable et qui ne sont donc pas des données à caractère personnel', par référence à l'article 1, $5^{\circ}$ de l'arrêté royal du 13 février 2001 portant exécution de la LVP. # Proportionnalité 16. L'article 4, § 1, $3^{\circ}$ de la LVP dispose que les données à caractère personnel collectées doivent obligatoirement être pertinentes et non excessives au regard de la finalité du traitement. 17. Les données à caractère personnel énumérées aux points 7 et
+
+[40] européenne 95/46/CE relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données -, ou vers des pays qui garantissent un niveau de protection adéquat, conformément à l'article 21 de la LVP, il n'y a en principe aucun problème. 21. Dans tous les autres cas, il faudra veiller à ce que le contrat qui doit être conclu entre l'entreprise extérieure/l'indépendant et l'exploitant étranger reprenne des dispositions contractuelles
+
+[41] derniers mois consécutifs glissants précédant la délivrance du passeport radiologique, ainsi que des données dosimétriques concernant les doses qui ont été reçues lors de l'exécution de missions comportant un risque d'exposition à l'étranger (voir l'article 75, 25/10 de l'avant-projet de loi). 9. Ces données sont au minimum des données à caractère personnel "ordinaires" (non sensibles) au sens de l'article 1 de la LVP, mais pour certaines d'entre elles, il s'agit en outre de données à caractère personnel
+
+[42] supérieure à la limite de dose fixée pour le public dans le cadre de ses activités professionnelles, ses études ou toute autre formation, ainsi que des volontaires ${ }^{9}$ qui exécutent des activités - quelle que soit leur [^0] [^0]: ${ }^{8}$ Voir l'article $75,1^{\circ}, 15^{\circ}$ tiret de l'avant-projet de loi et l'article 2, § 1, premier et deuxième alinéas, $1^{\circ}$ de la loi du 4 août 1996 relative au bien-être des travailleurs lors de l'exécution de leur travail. ${ }^{9}$ Voir l'article
+
+[43] contenu et l'accès à ce dernier (voir également l'article 76, 25/2, § 1, deuxième alinéa et § 2 ; I'article 76, $25 / 6,4^{\circ}$ à $7^{\circ}$ et l'article $76,25 / 7,10^{\circ}$ ) ; - l'établissement et la délivrance de passeports radiologiques (voir l'article 76, 25/9, § 2 et l'article 76, 25/11). 33. La Commission souhaite également être consultée concernant les arrêtés d'exécution qui devront être pris en la matière. Elle apprécierait que ces derniers lui soient soumis pour avis en temps utile. ## Autorisation
+
+[44] de la personne concernée. Le Roi devra en tenir compte lorsqu'en exécution de l'article 76, 25/9, § 2 de l'avant-projet de loi, il définira les modalités auxquelles un tel contrat doit répondre. ## Délai de conservation des données 22. En vertu de l'article 4, $\S 1,5^{\circ}$ LVP les données à caractère personnels ne peuvent être conservées, sous une forme permettant l'identification des personnes concernées, pendant une durée n'excédant pas celle nécessaire à la réalisation des finalités pour lesquelles
+
+[45] ionisants." --- est recommandé d'ajouter ce qu'il faut entendre par données anonymes, et ce en référence à l'article $1,5^{\circ}$ de l'arrêté royal du 13 février 2001 portant exécution de la LVP. # Responsabilité et mesures de sécurité 26. À l'article $75,1^{\circ}, 13^{\circ}$ tiret de l'avant-projet de loi, l'AFCN est explicitement désignée comme responsable du traitement. On tient compte ainsi de l'exigence de l'article 1, § 4 de la LVP. 27. Il ressort de l'article $75,1^{\circ}, 11^{\circ}$ tiret
+
+[46] chaque personne qui exécute des activités de quelque nature que ce soit lors desquelles elle est soumise à une exposition aux rayonnements ionisants susceptible d'entraîner le dépassement de l'une des limites de dose fixées pour les personnes du public. L'article 76, 25/3 de l'avant-projet de loi dispose à cet égard que le registre d'exposition s'appliquera aux travailleurs (et personnes assimilées, comme les personnes en formation professionnelle ou en contrat d'apprentissage, les stagiaires, les étudiants)
+
+[47] réglementaires relatives à l'exercice de la médecine. La Commission en prend acte. ## Nature des données et des traitements au sens de la LVP ## Nature des données 7. Les données qui seront enregistrées dans le registre d'exposition sont les suivantes (voir l'article 25/6 de l'avant-projet) : - les données d'identité, le domicile ou l'unité d'établissement, la nationalité et le rôle linguistique des personnes, exploitants et entreprises extérieures soumis à la surveillance dosimétrique ; - pour chaque personne soumise
+
+[48] étranger reprenne des dispositions contractuelles adéquates offrant des garanties suffisantes (équivalentes) à l'égard de la protection des données à caractère personnel de la personne concernée. Le Roi devra en tenir compte lorsqu'en exécution de l'article 76, 25/9, § 2 de l'avant-projet de loi, il définira les modalités auxquelles un tel contrat doit répondre. ## Délai de conservation des données 22. En vertu de l'article 4, $\S 1,5^{\circ}$ LVP les données à caractère personnels ne peuvent être conservées,
+
+[49] public fédéral exige une autorisation de principe du Comité sectoriel pour l'Autorité Fédérale. 39. L'AFCN entreprendra dès lors les démarches nécessaires pour obtenir les autorisations requises. # Déclaration de traitements à la Commission 40. L'article 17 de la LVP prévoit ce qui suit : "Préalablement à la mise en œuvre d'un traitement entièrement ou partiellement automatisé ou d'un ensemble de tels traitements ayant une même finalité ou des finalités liées, le responsable du traitement ou, le cas
+
+[50] 76, 25/1 de l'avant-projet de loi) pour élaborer des modalités pratiques concernant : - le suivi dosimétrique en général ; - le fonctionnement et l'utilisation du registre d'exposition ainsi que son contenu et l'accès à ce dernier (voir également l'article 76, 25/2, § 1, deuxième alinéa et § 2 ; I'article 76, $25 / 6,4^{\circ}$ à $7^{\circ}$ et l'article $76,25 / 7,10^{\circ}$ ) ; - l'établissement et la délivrance de passeports radiologiques (voir l'article 76, 25/9, § 2 et l'article 76, 25/11). 33.
+
+[51] }^{8}$, employés dans un établissement belge soumis à autorisation ou employés dans une entreprise extérieure qui exécutent des missions comportant un risque d'exposition et les indépendants qui exécutent des missions comportant un risque d'exposition. L'article 76, 25/6 de l'avant-projet de loi mentionne notamment que le registre d'exposition contiendra des données pour chaque personne soumise à la surveillance dosimétrique. L'Exposé des motifs précise que l'avant-projet de loi vise la protection de toute
+
+[52] surveillance sanitaire) de la LVP. # Nature des traitements 10. Tout d'abord, un registre d'exposition sera créé, lequel centralisera les données dosimétriques (cf. ci-dessus) de toutes les personnes soumises à la surveillance dosimétrique. Conformément à l'article $75,1^{\circ}, 2^{\circ}$ tiret de l'avant-projet, cela concerne chaque personne qui exécute des activités de quelque nature que ce soit lors desquelles elle est soumise à une exposition aux rayonnements ionisants susceptible d'entraîner le dépassement
+
+[53] activités professionnelles, ses études ou toute autre formation, ainsi que des volontaires ${ }^{9}$ qui exécutent des activités - quelle que soit leur [^0] [^0]: ${ }^{8}$ Voir l'article $75,1^{\circ}, 15^{\circ}$ tiret de l'avant-projet de loi et l'article 2, § 1, premier et deuxième alinéas, $1^{\circ}$ de la loi du 4 août 1996 relative au bien-être des travailleurs lors de l'exécution de leur travail. ${ }^{9}$ Voir l'article 3 de la loi du 3 juillet 2005 relative aux droits des volontaires: "Pour
+
+[54] Il s'agit en outre d'une donnée à caractère personnel "sensible" au sens de l'article 6 de la LVP, qui requiert une plus grande prudence que celle de mise pour les données à caractère personnel "ordinaires" (non sensibles). 18. L'article 76, 25/6 et l'article 76, 25/11 de l'avant-projet de loi donnent au Roi une certaine compétence d'exécution en ce qui concerne les données à caractère personnel à reprendre respectivement dans le registre d'exposition et dans le passeport radiologique. Dans le cadre de l'appréciation
+
+[55] à l'égard de la finalité du traitement, étant donné qu'elle ne semble en aucune manière pouvoir contribuer à l'optimisation de la radioprotection de la personne concernée. Il s'agit en outre d'une donnée à caractère personnel "sensible" au sens de l'article 6 de la LVP, qui requiert une plus grande prudence que celle de mise pour les données à caractère personnel "ordinaires" (non sensibles). 18. L'article 76, 25/6 et l'article 76, 25/11 de l'avant-projet de loi donnent au Roi une certaine compétence d'exécution
+
+[56] 15), il [^0] [^0]: ${ }^{12}$ Voir la Directive 95/29/Euratom du Conseil du 13 mai 1996 fixant les normes de base relatives à la protection sanitaire de la population et des travailleurs contre les dangers résultant des rayonnements ionisants : Art. 28, 1: "Un relevé contenant les résultats de la surveillance individuelle est tenu pour chaque travailleur exposé de la catégorie A. 2. Aux fins du paragraphe 1, les documents ci-après sont conservés pendant toute la vie professionnelle comportant une
+
+[57] recommandé d'ajouter ce qu'il faut entendre par données anonymes, c'est-à-dire "les données qui ne peuvent être mises en relation avec une personne identifiée ou identifiable et qui ne sont donc pas des données à caractère personnel', par référence à l'article 1, $5^{\circ}$ de l'arrêté royal du 13 février 2001 portant exécution de la LVP. # Proportionnalité 16. L'article 4, § 1, $3^{\circ}$ de la LVP dispose que les données à caractère personnel collectées doivent obligatoirement être pertinentes et non
+
+[58] portant exécution de la LVP. # Responsabilité et mesures de sécurité 26. À l'article $75,1^{\circ}, 13^{\circ}$ tiret de l'avant-projet de loi, l'AFCN est explicitement désignée comme responsable du traitement. On tient compte ainsi de l'exigence de l'article 1, § 4 de la LVP. 27. Il ressort de l'article $75,1^{\circ}, 11^{\circ}$ tiret de l'avant-projet de loi qu'au sein de l'AFCN, un professionnel des soins de santé sera désigné, au sens de l'article 7, § 4 de la LVP. Cet article dispose également que tant
+
+[59] mesures de sécurité 26. À l'article $75,1^{\circ}, 13^{\circ}$ tiret de l'avant-projet de loi, l'AFCN est explicitement désignée comme responsable du traitement. On tient compte ainsi de l'exigence de l'article 1, § 4 de la LVP. 27. Il ressort de l'article $75,1^{\circ}, 11^{\circ}$ tiret de l'avant-projet de loi qu'au sein de l'AFCN, un professionnel des soins de santé sera désigné, au sens de l'article 7, § 4 de la LVP. Cet article dispose également que tant que les mesures d'exécution de la disposition
+
+[60] dosimétrique en général ; - le fonctionnement et l'utilisation du registre d'exposition ainsi que son contenu et l'accès à ce dernier (voir également l'article 76, 25/2, § 1, deuxième alinéa et § 2 ; I'article 76, $25 / 6,4^{\circ}$ à $7^{\circ}$ et l'article $76,25 / 7,10^{\circ}$ ) ; - l'établissement et la délivrance de passeports radiologiques (voir l'article 76, 25/9, § 2 et l'article 76, 25/11). 33. La Commission souhaite également être consultée concernant les arrêtés d'exécution qui devront être
+
+[61] conservées, sous une forme permettant l'identification des personnes concernées, pendant une durée n'excédant pas celle nécessaire à la réalisation des finalités pour lesquelles elles sont obtenues ou pour lesquelles elles sont traitées ultérieurement. L'article 25/5 du présent avant-projet de loi prévoit que les données reprises dans le registre d'exposition sont conservées jusqu'à 50 ans après le décès de la personne soumise à la surveillance dosimétrique. 23. Dans l'Exposé des motifs, on affirme à cet égard
+
+[62] d'application. 11. Un passeport radiologique sera en outre créé pour les travailleurs extérieurs, qui permettra d'assurer leur surveillance dosimétrique au cours des missions comportant un risque d'exposition et qui sont effectuées à l'étranger. Conformément à l'article 75, $1^{\circ}$, $7^{\circ}$ tiret de l'avant-projet, cela concerne toute personne soumise à la surveillance dosimétrique qui exécute chez un exploitant une mission comportant un risque d'exposition, qu'elle soit employée à titre temporaire ou permanent
+
+[63] agréés et portant diverses dispositions ; - les Registres de la Banque-carrefour de la Sécurité sociale, créés par la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la sécurité sociale. 35. En vertu de l'article 16 de la loi précitée du 8 août 1983, tout accès au Registre national ou communication d'informations de ce registre requiert une autorisation du Comité sectoriel du Registre national. Dans le cadre de ce dossier, une demande a déjà été introduite en
+
+[64] une finalité supplémentaire (étude statistique et/ou stratégique en matière de maladies professionnelles) qui n'est pas mentionnée dans le texte même de l'avant-projet de loi. Le Fonds des maladies professionnelles n'est pas non plus --- repris à l'article 76, 25/7 qui mentionne les personnes/instances qui auront accès au registre d'exposition et aux données à caractère personnel qu'il contient. Il est dès lors recommandé, le cas échéant, de définir et de reprendre clairement cette finalité supplémentaire
+
+[65] demande a déjà été introduite en vue d'obtenir une autorisation d'accéder au Registre national. La demande a été temporairement suspendue, en attendant l'appréciation du fondement juridique qui servirait de base pour l'accès demandé. --- 36. En vertu des articles 18 et 27 de la loi précitée du 16 janvier 2003, l'accès à certaines informations de la Banque-Carrefour des Entreprises requiert une autorisation du Comité sectoriel pour la Banque-Carrefour des Entreprises. 37. En vertu de l'article 46 de la loi précitée
+
+EXTRACTION INSTRUCTIONS:
+
+1. ARTICLE IDENTIFICATION:
+   - Extract every mention of "artikel", "article", "art." in both French and Dutch
+   - Include complete article numbers (e.g., "101", "174", "327")
+   - Capture ALL subdivisions: §, al., alinea, lid, °, bis, ter, etc.
+   - Note references like "e.v." (en volgende / et suivants) meaning "and following"
+   - Include historical references (e.g., "thans artikel X" = "now article X")
+
+2. PARENT ACT IDENTIFICATION:
+   - Act type: Use enum values → WET/LOI = LAW, KONINKLIJK_BESLUIT/ARRÊTÉ_ROYAL = REGULATION, DECREET/DÉCRET = DECREE, GRONDWET/CONSTITUTION = CONSTITUTION, etc.
+   - Full act name in original language
+   - Date in YYYY-MM-DD format (if mentioned in act title)
+   - Act number if present (e.g., "2001022645")
+
+3. PROVISION NUMBERING:
+   - provisionNumber: Full text as cited (e.g., "artikel 174, §1, lid 5°")
+   - provisionNumberKey: Extract primary numeric identifier only (e.g., "174")
+
+4. INTERNAL ID GENERATION:
+   - internalProvisionId: Format as "ART-{decisionId}-###" where ### is a 3-digit sequential number (001, 002, 003...)
+   - internalParentActId: Format as "ACT-{decisionId}-###" where ### is a 3-digit sequential number (001, 002, 003...)
+   - Each unique parent act gets one ACT ID, provisions under same act share that ACT ID
+   - Provisions are numbered sequentially regardless of parent act
+
+5. DEDUPLICATION:
+   - Same article + same parent act = ONE entry (list all subdivision contexts)
+   - Same article + different parent act = SEPARATE entries
+   - Same article + different dates = SEPARATE entries
+
+6. NULL VALUES:
+   - provisionId: ALWAYS null (will be matched to database later)
+   - parentActId: ALWAYS null (will be matched to database later)
+   - parentActNumber: null if not mentioned in source text
+
+OUTPUT FORMAT:
+
+Return a JSON object matching this exact structure:
+
+{
+  "decisionId": "{decisionId}",
+  "language": "{language}",
+  "extractionMetadata": {
+    "totalProvisionsExtracted": 0,
+    "totalUniqueParentActs": 0,
+    "extractionTimestamp": "2025-10-26T00:00:00Z"
+  },
+  "citedProvisions": [
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-{decisionId}-001",
+      "internalParentActId": "ACT-{decisionId}-001",
+      "provisionNumber": "artikel 101",
+      "provisionNumberKey": "101",
+      "parentActType": "LAW",
+      "parentActName": "gecoördineerde wetten van 14 juli 1994 betreffende...",
+      "parentActDate": "1994-07-14",
+      "parentActNumber": null
+    }
+  ]
+}
+
+PARENT ACT TYPE MAPPING:
+- WET, LOI → "LAW"
+- KONINKLIJK BESLUIT, ARRÊTÉ ROYAL, KB, AR → "REGULATION"
+- DECREET, DÉCRET → "DECREE"
+- ORDONNANTIE, ORDONNANCE → "ORDINANCE"
+- GRONDWET, CONSTITUTION → "CONSTITUTION"
+- VERDRAG, TRAITÉ → "TREATY"
+- BURGERLIJK WETBOEK, CODE CIVIL, WETBOEK, CODE → "CODE"
+- RICHTLIJN, DIRECTIVE → "DIRECTIVE"
+- VERORDENING (EU), RÈGLEMENT (UE) → "EU_REGULATION"
+- OTHER → "OTHER"
+
+CRITICAL RULES:
+1. provisionId and parentActId must ALWAYS be null
+2. internalProvisionId must use format: ART-{full ECLI}-### (3 digits)
+3. internalParentActId must use format: ACT-{full ECLI}-### (3 digits)
+4. provisionNumberKey must be numeric string only (no "artikel", no subdivisions)
+5. parentActDate must be YYYY-MM-DD format or null
+6. All provisions citing same parent act must share same internalParentActId
+7. Number internalParentActId sequentially as new acts are encountered (001, 002, 003...)
+8. Number internalProvisionId sequentially for all provisions (001, 002, 003...)
+
+Think step-by-step:
+1. Scan all snippets for article mentions
+2. For each, identify parent act from surrounding context
+3. Assign internalParentActId (new acts get new numbers, same acts reuse)
+4. Assign internalProvisionId sequentially for all provisions
+5. Extract provisionNumberKey (numeric part only)
+6. Map parent act type to enum
+7. Format dates as YYYY-MM-DD
+8. Return only the JSON object
+
+IMPORTANT: Return ONLY the JSON object. No explanations, no human-readable summary, no markdown formatting.
+
+════════════════════════════════════════════════════════════════════════════════
+END OF PROMPT
+════════════════════════════════════════════════════════════════════════════════

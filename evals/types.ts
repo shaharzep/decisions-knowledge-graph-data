@@ -86,6 +86,20 @@ export interface EvalOptions {
 }
 
 /**
+ * Snippet-based ground truth (for provision extraction evaluations)
+ */
+export interface GroundTruthSnippets {
+  snippets: string[];
+  format: 'snippets';
+}
+
+/**
+ * Ground truth data format for evaluations
+ * Can be either full text (string) or snippet-based
+ */
+export type GroundTruthData = string | GroundTruthSnippets;
+
+/**
  * Single decision input for evaluation
  */
 export interface DecisionEvaluationInput {

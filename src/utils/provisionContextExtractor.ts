@@ -1,17 +1,15 @@
 /**
- * Provision Context Extractor - TypeScript Wrapper (Simplified)
+ * Provision Context Extractor - TypeScript Implementation
  *
- * Calls Python script to extract simple text snippets around provision mentions.
- * Used in extract-provisions-2a preprocessing (ALT approach).
+ * Extracts provision snippets using pure TypeScript (no Python dependency).
+ * Used in extract-provisions-2a preprocessing.
+ *
+ * Uses N8N-based extraction logic with 3 specialized regex patterns for
+ * Belgian/EU legal provisions.
  */
 
-import { spawn } from 'child_process';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import { extractCandidateSnippets } from './provisionSnippetExtractor.js';
 import { logger } from './logger.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 /**
  * Simplified provision snippet result
@@ -23,116 +21,61 @@ export interface ProvisionSnippetsResult {
 }
 
 /**
- * Extract provision snippets from markdown text by calling Python script
+ * Extract provision snippets from markdown text using TypeScript
  *
- * Simplified approach: extracts 250-char windows around provision keywords,
- * no highlighting, no quality stats, no pronominal filtering.
- * LLM does all the extraction work from raw snippets.
+ * Uses N8N-based extraction logic with 3 specialized regex patterns:
+ * - Article + source context (e.g., "article 1382 du Code civil")
+ * - Treaty references (e.g., "artikel 6, §1 EVRM")
+ * - EU instruments (e.g., "Verordening (EG) nr. 261/2004")
+ *
+ * Extracts focused 75-char context windows around provision mentions.
  *
  * @param decisionId - Decision identifier (ECLI code)
  * @param markdownText - Full markdown text of the decision
  * @param language - Procedural language (FR or NL)
- * @returns Promise resolving to simplified snippet result
+ * @returns Promise resolving to snippet result
  */
 export async function extractProvisionContexts(
   decisionId: string,
   markdownText: string,
   language: string = 'FR'
 ): Promise<ProvisionSnippetsResult> {
-  // Construct path to Python script
-  const scriptPath = path.resolve(
-    __dirname,
-    '../../scripts/extract-provision-contexts.py'
-  );
-
-  // Prepare input data
-  const inputData = {
-    decision_id: decisionId,
-    markdown_text: markdownText,
-    language: language,
-  };
-
-  return new Promise((resolve, reject) => {
-    // Spawn Python process
-    const python = spawn('python3', [scriptPath], {
-      stdio: ['pipe', 'pipe', 'pipe'],
-    });
-
-    let stdoutData = '';
-    let stderrData = '';
-
-    // Collect stdout
-    python.stdout.on('data', (data) => {
-      stdoutData += data.toString();
-    });
-
-    // Collect stderr
-    python.stderr.on('data', (data) => {
-      stderrData += data.toString();
-    });
-
-    // Handle process completion
-    python.on('close', (code) => {
-      if (code !== 0) {
-        // Process failed
-        let errorMessage = 'Python script failed';
-        try {
-          const errorObj = JSON.parse(stderrData);
-          errorMessage = `${errorObj.type}: ${errorObj.error}`;
-        } catch {
-          errorMessage = stderrData || 'Unknown error';
-        }
-
-        logger.error('Provision snippet extraction failed', {
-          decisionId,
-          exitCode: code,
-          error: errorMessage,
-        });
-
-        reject(new Error(errorMessage));
-        return;
-      }
-
-      // Parse output
-      try {
-        const result: ProvisionSnippetsResult = JSON.parse(stdoutData);
-        resolve(result);
-      } catch (error) {
-        logger.error('Failed to parse Python script output', {
-          decisionId,
-          error: error instanceof Error ? error.message : String(error),
-        });
-        reject(new Error(`Failed to parse output: ${error}`));
-      }
-    });
-
-    // Handle process errors
-    python.on('error', (error) => {
-      logger.error('Failed to spawn Python process', {
+  try {
+    // Handle empty text
+    if (!markdownText || markdownText.trim() === '') {
+      logger.warn('Empty markdown text provided', { decisionId });
+      return {
         decisionId,
-        error: error.message,
-        scriptPath,
-      });
-      reject(
-        new Error(
-          `Failed to spawn Python process: ${error.message}. ` +
-          `Make sure Python 3 is installed and available in PATH.`
-        )
-      );
-    });
-
-    // Write input data to stdin
-    try {
-      python.stdin.write(JSON.stringify(inputData));
-      python.stdin.end();
-    } catch (error) {
-      logger.error('Failed to write to Python stdin', {
-        decisionId,
-        error: error instanceof Error ? error.message : String(error),
-      });
-      reject(new Error(`Failed to write input: ${error}`));
+        language,
+        text_rows: [],
+      };
     }
-  });
+
+    // Extract snippets using TypeScript implementation
+    const candidates = extractCandidateSnippets(markdownText, 75);
+
+    // Convert to expected format (extract just the snippet strings)
+    const text_rows = candidates.map(c => c.snippet);
+
+    logger.debug('Provision snippets extracted', {
+      decisionId,
+      snippetCount: text_rows.length,
+    });
+
+    return {
+      decisionId,
+      language,
+      text_rows,
+    };
+  } catch (error) {
+    logger.error('Provision snippet extraction failed', {
+      decisionId,
+      error: error instanceof Error ? error.message : String(error),
+    });
+    throw new Error(
+      `Failed to extract provision snippets: ${error instanceof Error ? error.message : String(error)}`
+    );
+  }
 }
 
 /**

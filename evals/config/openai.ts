@@ -66,7 +66,7 @@ export async function callGPT5Judge(prompt: string): Promise<string> {
           content: prompt,
         },
       ],
-      reasoning_effort: 'high',
+      reasoning_effort: 'medium',
       // GPT-4o configuration
       max_completion_tokens: 16000,
       response_format: { type: 'json_object' }, // Request JSON output

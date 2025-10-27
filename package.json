@@ -28,6 +28,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.67.0",
     "@braintrust/core": "^0.0.35",
     "ajv": "^8.12.0",
     "braintrust": "^0.0.154",

@@ -13,12 +13,16 @@ import { createExperiment, logEvaluation, summarizeExperiment } from '../config/
 import { getJudgePromptFile } from '../config/job-prompt-map.js';
 import { loadJudgePrompt } from '../utils/prompt-loader.js';
 import { generateEnhancedExperimentName, generateExperimentName } from '../utils/experiment-naming.js';
+import { extractCandidateSnippets } from '../../src/utils/provisionSnippetExtractor.js';
+import { filterToExtractionFields } from '../utils/extraction-filter.js';
 import {
   EvalOptions,
   EvaluationResult,
   DecisionEvaluationInput,
   EvaluationProgress,
   ExperimentMetadata,
+  GroundTruthData,
+  GroundTruthSnippets,
 } from '../types.js';
 
 /**
@@ -75,9 +79,11 @@ export async function runEvaluation(
   console.log(`   Decisions to evaluate: ${decisionsToEvaluate.length}`);
 
   // Extract decision keys (decisionId + language) for batch loading source documents
+  // IMPORTANT: Prioritize decision_id (from metadata/database) over decisionId (from model output)
+  // Models can "correct" decision IDs, causing mismatches with database
   const decisionKeys = decisionsToEvaluate.map((d) => ({
-    decisionId: d.decisionId || d.decision_id,
-    language: d.procedureLanguage || d.language_metadata || d.language || 'FR', // Try multiple field names
+    decisionId: d.decision_id || d.decisionId, // decision_id first (authoritative)
+    language: d.language || d.language_metadata || d.procedureLanguage || 'FR', // Try multiple field names
   }));
 
   console.log(`   Decision keys extracted: ${decisionKeys.length}`);
@@ -127,8 +133,10 @@ export async function runEvaluation(
   const evaluationInputs: DecisionEvaluationInput[] = [];
 
   for (const extracted of decisionsToEvaluate) {
-    const decisionId = extracted.decisionId || extracted.decision_id;
-    const language = extracted.procedureLanguage || extracted.language_metadata || extracted.language || 'FR';
+    // IMPORTANT: Use decision_id from metadata (database) as authoritative source
+    // Model output decisionId may have "corrections" that don't match database
+    const decisionId = extracted.decision_id || extracted.decisionId;
+    const language = extracted.language || extracted.language_metadata || extracted.procedureLanguage || 'FR';
 
     // Use composite key to look up source document
     const cacheKey = `${decisionId}|${language}`;
@@ -182,22 +190,27 @@ export async function runEvaluation(
       const globalIndex = batchStart + batchIndex;
 
       try {
-        // Score the extraction
+        // Filter extraction data to remove metadata (judge should only see model output)
+        const extractionOnly = filterToExtractionFields(input.extractedData, jobType);
+
+        // Score the extraction with job type and language
         const evaluation = await evaluateSingleDecision(
           input.decisionId,
-          input.extractedData,
+          extractionOnly,  // Pass filtered data (no metadata)
           input.sourceDocument,
-          judgePromptTemplate
+          judgePromptTemplate,
+          jobType,
+          input.metadata?.language || 'FR'
         );
 
-        // Log to Braintrust
+        // Log to Braintrust with FULL data (metadata preserved for clustering/analysis)
         const scores = extractScoresForBraintrust(evaluation);
         logEvaluation(
           experiment,
           {
             decisionId: input.decisionId,
             sourceDocument: input.sourceDocument,
-            extractedData: input.extractedData,
+            extractedData: input.extractedData,  // Full data with metadata
             url: input.metadata?.url,
           },
           evaluation,
@@ -286,21 +299,65 @@ export async function runEvaluation(
 }
 
 /**
+ * Prepare ground truth data based on job type
+ *
+ * For Stage 2A (provision extraction): Extracts snippets instead of full text
+ * For other stages: Returns full text as-is
+ *
+ * @param jobType - Job type (e.g., "extract-provisions-2a")
+ * @param sourceDocument - Full markdown document
+ * @param language - Procedural language (FR or NL)
+ * @returns Ground truth data (full text or snippets)
+ */
+export async function prepareGroundTruthData(
+  jobType: string,
+  sourceDocument: string,
+  language: string
+): Promise<GroundTruthData> {
+  // Stage 2A: Extract provision snippets for evaluation
+  if (jobType === 'extract-provisions-2a') {
+    const candidates = extractCandidateSnippets(sourceDocument, 75);
+    const snippets: GroundTruthSnippets = {
+      snippets: candidates.map(c => c.snippet),
+      format: 'snippets',
+    };
+    return snippets;
+  }
+
+  // Default: Return full text for all other stages
+  return sourceDocument;
+}
+
+/**
  * Evaluate a single decision
  *
  * @param decisionId - ECLI identifier
  * @param extractedData - Extracted JSON data
  * @param sourceDocument - Original markdown document
  * @param judgePromptTemplate - The loaded judge prompt markdown content
+ * @param jobType - Job type for ground truth preparation
+ * @param language - Procedural language (FR or NL)
  * @returns Evaluation result
  */
 export async function evaluateSingleDecision(
   decisionId: string,
   extractedData: any,
   sourceDocument: string,
-  judgePromptTemplate: string
+  judgePromptTemplate: string,
+  jobType: string,
+  language: string
 ): Promise<EvaluationResult> {
-  return await scoreExtraction(decisionId, sourceDocument, extractedData, judgePromptTemplate);
+  // Prepare ground truth data based on job type
+  const groundTruthData = await prepareGroundTruthData(jobType, sourceDocument, language);
+
+  // Score the extraction
+  return await scoreExtraction(
+    decisionId,
+    groundTruthData,
+    extractedData,
+    judgePromptTemplate,
+    jobType
+  );
 }
 
 /**

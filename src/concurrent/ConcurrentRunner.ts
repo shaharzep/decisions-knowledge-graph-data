@@ -2,10 +2,14 @@ import path from 'path';
 import { JobConfig } from '../jobs/JobConfig.js';
 import { DatabaseConfig } from '../config/database.js';
 import { JobLogger } from '../utils/logger.js';
-import { OpenAIConcurrentClient, CompletionSettings } from './OpenAIConcurrentClient.js';
+import { OpenAIConcurrentClient, CompletionSettings as OpenAICompletionSettings } from './OpenAIConcurrentClient.js';
+import { ClaudeConcurrentClient, CompletionSettings as ClaudeCompletionSettings } from './ClaudeConcurrentClient.js';
 import { ConcurrentProcessor, ProcessedResult } from './ConcurrentProcessor.js';
 import { extractJsonFromResponse } from '../utils/validators.js';
 import { DependencyResolver } from '../core/DependencyResolver.js';
+
+// Union type for completion settings
+type CompletionSettings = OpenAICompletionSettings | ClaudeCompletionSettings;
 
 /**
  * Concurrent Runner Options
@@ -31,7 +35,7 @@ export class ConcurrentRunner {
   private config: JobConfig;
   private options: Required<ConcurrentOptions>;
   private logger: JobLogger;
-  private client: OpenAIConcurrentClient;
+  private client: OpenAIConcurrentClient | ClaudeConcurrentClient;
   private processor: ConcurrentProcessor;
   private dependencyResolver: DependencyResolver | null;
 
@@ -42,10 +46,15 @@ export class ConcurrentRunner {
         options.concurrencyLimit ??
         config.concurrencyLimit ??
         200,
-      timeout: options.timeout || 300000, // 10 minutes default
+      timeout: options.timeout || 300000, // 10 minutes default (required for Claude)
     };
     this.logger = new JobLogger(`ConcurrentRunner:${config.id}`);
-    this.client = new OpenAIConcurrentClient(config.id);
+
+    // Select client based on provider
+    this.client = config.provider === 'anthropic'
+      ? new ClaudeConcurrentClient(config.id)
+      : new OpenAIConcurrentClient(config.id);
+
     this.processor = new ConcurrentProcessor(config);
 
     // Initialize dependency resolver if dependencies are configured
