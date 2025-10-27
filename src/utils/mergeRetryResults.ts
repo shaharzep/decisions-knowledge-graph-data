@@ -241,7 +241,7 @@ export async function mergeRetryResults(
   const destFiles = await listJsonFiles(originalDir);
   const duplicates = detectDuplicates(sourceFiles, destFiles);
 
-  // Copy files
+  // Copy files (skipDuplicates = false to OVERRIDE existing files)
   const copyStats = await copyRetryJsons(retryDir, originalDir, true);
 
   // Count after merge
