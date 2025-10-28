@@ -1,13 +1,17 @@
 import { JobConfig } from "../JobConfig.js";
 import { PROVISIONS_2A_PROMPT } from "./prompt.js";
 import { TestSetLoader } from "../../utils/testSetLoader.js";
+import { extractCandidateSnippets } from "../../utils/provisionSnippetExtractor.js";
 
 /**
- * Extract Provisions 2A Job Configuration - P1 STAGE 2A (Full-Text)
+ * Extract Provisions 2A Job Configuration - P1 STAGE 2A (Full-Text + Snippet Verification)
  *
- * FULL-TEXT APPROACH:
+ * FULL-TEXT APPROACH WITH SNIPPET-BASED VERIFICATION:
  *
  * Processes complete decision markdown text to extract cited legal provisions.
+ * Uses dual-pass strategy for maximum completeness:
+ * 1. Full-text sweep: Systematic extraction following comprehensive rules
+ * 2. Snippet verification: Cross-checks against regex-extracted provision mentions
  *
  * Extracts cited legal provisions with essential metadata:
  * - Provision numbers (article/artikel) - verbatim
@@ -20,6 +24,13 @@ import { TestSetLoader } from "../../utils/testSetLoader.js";
  * - Bilingual enum values (LOI/WET, ARRETE_ROYAL/KONINKLIJK_BESLUIT, etc.)
  * - Parent act deduplication within decision
  * - Complete context for accurate extraction
+ * - Snippet-based verification to catch missed provisions (target 99.5%+ recall)
+ *
+ * Snippet Extraction Strategy:
+ * - 3 specialized regex patterns (article+source, treaties, EU instruments)
+ * - 150-character context windows around provision mentions (300+ chars total)
+ * - Position tracking for verification in full text
+ * - Mandatory second-pass verification in prompt
  *
  * Does NOT extract (deferred to other agents):
  * - URLs, ELI, CELEX identifiers (Agent 2B)
@@ -88,6 +99,7 @@ const config: JobConfig = {
    * Preprocess Row
    *
    * Enriches rows with metadata from CSV test set for evaluation and filtering.
+   * Also extracts provision snippets for verification in the prompt.
    */
   preprocessRow: await (async () => {
     const testSet = await TestSetLoader.loadTestSet(
@@ -100,12 +112,18 @@ const config: JobConfig = {
       const key = `${entry.decision_id}|${entry.language}`;
       testSetMap.set(key, entry);
     });
+    
 
     // Return preprocessor function
     return async (row: any) => {
       // Enrich with test set metadata
       const key = `${row.decision_id}|${row.language_metadata}`;
       const testSetEntry = testSetMap.get(key);
+
+      // Extract provision snippets from full markdown text
+      // Use 150-char context window for comprehensive context
+      // (Belgian legal citations are verbose with long parent act names)
+      const snippets = extractCandidateSnippets(row.full_md || '', 150);
 
       return {
         ...row,
@@ -122,6 +140,8 @@ const config: JobConfig = {
               length_category: testSetEntry.length_category,
             }
           : {}),
+        // Add extracted provision snippets for verification
+        provisionSnippets: snippets,
       };
     };
   })(),
@@ -148,12 +168,25 @@ const config: JobConfig = {
   /**
    * Prompt Template
    *
-   * Injects full decision markdown text along with decision ID and procedural language.
+   * Injects full decision markdown text, decision ID, procedural language,
+   * and formatted provision snippets for verification.
    */
   promptTemplate: (row) => {
-    return PROVISIONS_2A_PROMPT.replace("{decisionId}", row.decision_id || "")
+    // Format provision snippets for prompt injection
+    // Expected format: [N] char X-Y: "...snippet text..."
+    const formattedSnippets = row.provisionSnippets && row.provisionSnippets.length > 0
+      ? row.provisionSnippets
+          .map((snippet: any, index: number) =>
+            `[${index + 1}] char ${snippet.char_start}-${snippet.char_end}: "${snippet.snippet}"`
+          )
+          .join('\n')
+      : '(No snippets extracted - document may contain no provision citations)';
+
+    return PROVISIONS_2A_PROMPT
+      .replace("{decisionId}", row.decision_id || "")
       .replace("{proceduralLanguage}", row.language_metadata || "FR")
-      .replace("{fullText.markdown}", row.full_md || "");
+      .replace("{fullText.markdown}", row.full_md || "")
+      .replace("{provisionSnippets}", formattedSnippets);
   },
 
   /**
@@ -189,7 +222,7 @@ const config: JobConfig = {
     }
 
     // Construct IDs with guaranteed-correct format
-    result.citedProvisions = result.citedProvisions.map((provision) => {
+    result.citedProvisions = result.citedProvisions.map((provision: any) => {
       const provSeq = String(provision.provisionSequence).padStart(3, '0');
       const actSeq = String(provision.parentActSequence).padStart(3, '0');
 

@@ -1,12 +1,18 @@
-/**
- * Provisions Extraction Prompt - Stage 2A (UPDATED v3.2)
- *
- * Optimized for: GPT-5-mini with structured outputs
- * Focus: 100% completeness, zero hallucinations, correct IDs
- * Updates: Fixed ID construction, deduplication logic, draft law handling
- */
+════════════════════════════════════════════════════════════════════════════════
+DEBUG PROMPT GENERATION
+════════════════════════════════════════════════════════════════════════════════
 
-export const PROVISIONS_2A_PROMPT = `## ROLE
+Job Type:     extract-provisions-2a
+Decision ID:  ECLI:BE:EABRL:2002:DEC.20021209.4
+Language:     NL
+Generated:    2025-10-28T00:31:38.779Z
+Prompt Size:  36232 characters
+
+════════════════════════════════════════════════════════════════════════════════
+PROMPT CONTENT
+════════════════════════════════════════════════════════════════════════════════
+
+## ROLE
 You are a specialized legal AI assistant extracting cited legal provisions from Belgian judicial decisions (French or Dutch). This is Stage 2A: ESSENTIAL METADATA ONLY.
 
 ## PRIMARY OBJECTIVE
@@ -17,13 +23,96 @@ Extract EVERY cited provision with PERFECT ACCURACY and correct sequencing.
 - **SEQUENCING**: wrong sequence numbers or deduplication = FAIL
 
 ## INPUT
-1. **decisionId**: {decisionId} — for reference only (you won't use this directly)
-2. **proceduralLanguage**: {proceduralLanguage} — FR or NL
+1. **decisionId**: ECLI:BE:EABRL:2002:DEC.20021209.4 — for reference only (you won't use this directly)
+2. **proceduralLanguage**: NL — FR or NL
 3. **fullText.markdown**:
-{fullText.markdown}
+In dit geding wordt geconcludeerd en gepleit in het Nederlands ter openbare zitting van 25 november 2002;
+
+Na beraad spreekt de voorzitter van de rechtbank van eerste aanleg te Brussel volgend bevelschrift uit :
+
+Gezien :
+
+- de dagvaarding in kort geding betekend door exploot van Meester S., gerechtsdeurwaarder, verblijvende te 1081 Koekelberg, d.d. 23 oktober 2002;
+- de besluiten van eisende partij, neergelegd ter griffie op 18 november 2002;
+- de besluiten en synthesebesluiten van verwerende partij, neergelegd ter griffie respectievelijk op 5 november 2002 en op 22 november 2002.
+
+Gehoord in hun pleidooien de raadslieden van partijen;
+
+De vordering van eisende partij strekt ertoe :
+
+- de opheffing van het beslag op de wagen Mercedes, C 220 CDI, zwarte kleur, chassisnummer WDB2032061F7132290, immatriculatie.: D.... 7 te bevelen;
+- bevel te geven om het voertuig vrij te geven waar en onder wie, inclusief de heer D. Jos, het zich ook bevindt, en dit binnen de 12 uur na tussenkomst van de beschikking, en zulks op straffe van verbeurte van een dwangsom van 2.500 euro per dag vertraging lastens de persoon of firma of instelling die de wagen onder zich houdt;
+- verbod op te leggen aan eenieder, inclusief de heer D. Jos, om enig retentierecht uit te oefenen op de wagen onder meer wegens nietbetaling van slepingskosten, stallingskosten en andere, op straffe van verbeurte van een dwangsom van 2.500 euro per dag vertraging;
+■ bij gebreke hieraan vrijwillig te voldoen, haar te machtigen om bezit te laten nemen van het voertuig door de eerste aangezochte gerechtsdeurwaarder desnoods met behulp van de openbare macht 12 uur na tussenkomst van de beschikking.
+
+Verwerende partij vraagt :
+
+- in hoofdorde - Ons onbevoegd te verklaren;
+- in ondergeschikte orde - de vordering onontvankelijk, minstens ongegrond te verklaren.
+
+---
+
+# 1. DE FEITEN. 
+
+Op 17 oktober 2002, om 17 uur 25, werd lastens de heer Christophe O., werknemer van de NV Huis Leemans, huidige eiseres, een proces-verbaal van inbeslagneming opgesteld. Het door de heer O. bestuurde voertuig (Mercedes, C 220 CDI, zwarte kleur, chassisnummer WDB2032061F132290, immatriculatie : D....7) werd onmiddellijk in beslag genomen en opgeslagen bij garage D. Jos, ... 1281 te 1130 Brussel.
+
+De NV Huis Leemans stelt dat deze wagen door haar wordt geleasd voor een maandelijks bedrag van 861,28 euro ( 34.744 BEF ) en wordt gebruikt voor het uitoefenen van haar beroepsactiviteit, met name het verhuren van limousines met chauffeur.
+
+Op 23 oktober 2002 ging de NV Huis Leemans over tot dagvaarding in kort geding.
+
+## 2. IN RECHTE : Wat Onze bevoegdheid/rechtsmacht betreft :
+
+2.1. Volgens verweerder is de burgerlijke kort gedingrechter niet bevoegd om zich uit te spreken over de opsporingshandeling, meer bepaald een beslag, waardoor eiseres zich geschaad voelt.
+
+In eerste instantie meent verweerder dat de rechter in kort geding, op grond van art. 2 Ger. W., in combinatie met het beginsel van het niet-contradictoir karakter van het onderzoek, niet kan oordelen over een verzoek tot opheffing van een beslag dat is gelegd door de procureur des Konings (of, mutatis mutandis, door de onderzoeksrechter) (zie : Cass., 27 juni 1986, Arr. Cass., 1985-86, 1477; Cass., 2 november 1995, Arr. Cass., 1995, 470; MARCHAL, P., " De rechter in kort geding en de strafvordering ", in Liber amicorum Marc Châtel, 321).
+Er dient inderdaad te worden aangenomen dat de bevoegdheid van de kort gedingrechter ophoudt wanneer zijn optreden onverenigbaar is met de regels die het straf(proces)recht beheersen (zie : conclusie van het openbaar ministerie voorafgaand aan Cass., 2 november 1995, voormeld).
+
+In tweede instantie wijst verweerder erop dat sinds enkele jaren het zg. strafrechtelijk kort geding bestaat. Voorheen kon iemand, die meende het slachtoffer te zijn van een ten onrechte gestelde opsporingsmaatregel, daartegen niet opkomen. Thans kan eenieder, die zich geschaad acht door een opsporingsmaatregel met betrekking tot zijn goederen, krachtens het nieuwe art. 28sexies W. Sv. (zoals ingevoegd door de zg. Wet Franchimont van 12 maart 1998) aan de procureur des Konings (of, als het gaat om een onderzoekshandeling, aan de onderzoeksrechter) de opheffing ervan vragen. De procureur des Konings moet dan binnen 15 dagen beslissen, en er is beroep mogelijkbij de kamer van inbeschuldigingstelling (K.I.).
+
+---
+
+Verweerder wijst erop dat eiseres deze nieuwe procedure ook heeft toegepast, nu zij op 28 oktober 2002 bij toepassing van art. 28sexies W. Sv. een verzoek tot opheffing heeft gericht aan de procureur des Konings, die evenwel dit verzoek op 12 november 2002 heeft verworpen. Op 19 november 2002 heeft eiseres tegen deze beslissing hoger beroep aangetekend en zal de K.I. zich daarover dienen uit te spreken.
+
+Volgens verweerder behoort de opheffing van de opsporingshandeling tot de uitsluitende bevoegdheid van de procureur des Konings en van de K.I. Nu de kort gedingrechter niet bevoegd is om de opheffing van de opsporingshandeling te bevelen, is hij evenmin bevoegd om de modaliteiten van de opheffing te bepalen (bv. de aanrekening van stallinggskosten).
+2.2. Van haar kant meent eiseres dat het bestaan van art. 28sexies W. Sv. de bevoegdheid van de rechter in kort geding geenszins wegneemt, nu deze uitspraak doet "in gevallen die hij spoedeisend acht, bij voorraad in alle zake, behalve die welke de wet aan de rechterlijke orde onttrekt". Volgens eiseres betreft het hier geenszins een zaak die aan de rechterlijke macht wordt onttrokken, nu de K.I., die behoort tot de rechterlijke macht, bevoegdheid heeft om (weliswaar in beroep) te oordelen over de vraag tot opheffing van een opsporingsmaatregel.
+Eiseres wijst erop dat de Voorzitter, rechtsprekend in kort geding, de volheid van bevoegdheid, ja zelfs van rechtsmacht heeft. Hij doet uitspraak in alle zaken die hij spoedeisend acht, zelfs indien het aangelegenheden betreft die ten principale tot de bevoegdheid van een ander rechtscollege behoren. Dit betekent ook dat de Voorzitter ook kennis kan nemen van bv. strafrechtelijke aangelegenheden.
+Overigens is het beroep op het kort geding mogelijk wanneer de gewone rechtspleging niet bij machte is het geschil tijdig op te lossen, wat maakt dat de rechter in kort geding over een ruime feitelijke beoordelingsmacht beschikt en, binnen de juiste maat, over de grootste vrijheid (zie : Cass., 21 mei 1987, Arr. Cass., 1986-87, 1287; Pas., 1987, I, 1160; R.W., 198788, 1425).
+Eiseres wijst er nog op dat haar subjectieve rechten geschonden zijn door de maatregel van beslag, en tevens door de kosten en eventuele schade die met dit beslag gepaard gaan.
+
+Verder wijst eiseres erop dat de vraag in onderhavige zaak niet enkel strekt tot de opheffing van de opsporingsmaatregel, maar tevens tot het opleggen van verbod aan eenieder om enig retentierecht uit te oefenen op de wagen onder meer wegens niet-betaling van slepingskosten, stallingskosten en andere. Van hun kant spreken de procureur des Konings en de K.I. (in beroep) zich in het kader van art. 28sexies W. Sv. enkel uit over het al dan niet opheffen van de opsporingshandeling.
+Eiseres meent dat de rechter in kort geding in ieder geval bevoegd is om zich uit te spreken over het (voorlopig) al dan niet verschuldigd zijn van
+
+---
+
+deze kosten, en dit in afwachting van een procedure ten gronde. Deze kosten zijn immers onlosmakelijk verbonden met het beslag in kwestie.
+2.3. Wij treden op dit punt evenwel verweerder bij.
+
+Tijdens de parlementaire voorbereiding van de zg. Wet Franchimont stelde de toenmalige minister van Justitie dat "het een werkelijk strafrechtelijk kort geding (betreft) dat elke tussenkomst van de Voorzitter van de rechtbank van eerste aanleg uitsluit" (zie : Memorie van Toelichting, Parl. St., Kamer, 1996-97, nr. 857/1, p. 33).
+
+De rechtsleer heeft deze verklaring van de minister van Justitie bekritiseerd op het punt dat het geen echt kort geding betreft, zoals dat reeds gekend was in het Ger. W., maar deze rechtsleer ging wel met de minister van Justitie akkoord dat de tussenkomst van de Voorzitter van de rechtbank van eerste aanleg inderdaad uitgesloten is voor zover het gaat om de procedure die thans wordt beschreven in het W. Sv. (zie o.m. : SCHUERMANS, F., " Het strafrechtelijk kort geding na de Wet Franchimont ", in X., Het vernieuwde strafprocesrecht, AntwerpenApeldoorn, C.B.R., Maklu, 1998, 118.
+
+Wij sluiten Ons hierbij aan, en dienen Ons derhalve zonder rechtsmacht te verklaren.
+
+# OM DEZE REDENEN : 
+
+Wij, , rechter, aangesteld om de voorzitter van de rechtbank van eerste aanleg zetelende te Brussel te vervangen;
+
+Bijgestaan door de heer , griffier;
+
+Gezien de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken;
+
+Rechtsprekende over het voorlopige, na tegenspraak;
+
+Alle andere of strijdige besluiten verwerpend;
+
+Verklaren Ons zonder rechtsmacht;
+
+Veroordelen de NV Huis Leemans tot de kosten van het geding, vereffend op $227,32+111,55$ euro voor de eisende partij en op 111,55 euro voor verwerende partij;
+
+Aldus gewezen en uitspraak gedaan ter openbare zitting van het kort geding van 9 december 2002.
 
 ## OUTPUT SCHEMA
-\`\`\`json
+```json
 {
   "citedProvisions": [
     {
@@ -40,7 +129,7 @@ Extract EVERY cited provision with PERFECT ACCURACY and correct sequencing.
     }
   ]
 }
-\`\`\`
+```
 
 **Note**: You output simple integer sequences. The full IDs (ART-xxx-001, ACT-xxx-001) are constructed automatically afterward.
 
@@ -61,28 +150,28 @@ Extract ONLY when **BOTH conditions are met**:
 **CRITICAL HALLUCINATION PATTERNS TO AVOID**:
 
 **Pattern 1: Degree sign (°) confusion**
-\`\`\`
+```
 Source: "article 4, § 1er, 3°"
 ❌ DO NOT create: "article 4, § 3" (3° means POINT 3 within §1, NOT paragraph 3)
-\`\`\`
+```
 
 **Pattern 2: Decimal notation duplication**
-\`\`\`
+```
 Source: "art. 8.1 en 8.2"
 ✅ Extract: "art. 8.1" and "art. 8.2"
 ❌ DO NOT also create: "art. 8, lid 1" or "art. 8, lid 2" (duplicates in different notation)
 ❌ DO NOT create: "art. 8, lid 5" (no lid notation in source at all)
-\`\`\`
+```
 
 **Pattern 3: Comma in compact notation**
-\`\`\`
+```
 Source: "§2,3de lid"
 ✅ Means: "§2, 3rd paragraph" (3de modifies lid, not §)
 ❌ DO NOT create: "§3" (hallucination)
-\`\`\`
+```
 
 **Pattern 4: Draft laws vs enacted laws**
-\`\`\`
+```
 Source: "Het wetsontwerp tot wijziging van de wet van 8 augustus 1983... artikel 3 van deze wet"
 
 Context clues:
@@ -97,7 +186,7 @@ Context clues:
 1. Identify the BASE LAW being amended
 2. Use the BASE LAW as parentActName
 3. Ignore the draft law wrapper
-\`\`\`
+```
 
 **Verification**: For every provision extracted, the exact article number + notation pattern must appear in the source text.
 
@@ -119,17 +208,17 @@ Context clues:
 - **Abbreviated act names** (e.g., letters followed by "W." or similar patterns) - resolve from context
 
 **Look for**:
-- Article tokens: \`art.\`, \`article\`, \`artikel\` + numbers
+- Article tokens: `art.`, `article`, `artikel` + numbers
 - Belgian patterns:
-  - Roman.Arabic: \`XX.99\`, \`III.49\`, \`I.1\`
-  - Slashed numbering: \`1675/2\`, \`1675/13\`
-  - Suffixes: \`74bis\`, \`123ter\`, \`87quater\`
-- Sub-provisions: \`§\`, \`°\`, \`a)\`, \`b)\`, \`c)\`, \`alinéa\`, \`lid\`
-- **Decimal notation (EU regulations)**: \`art. 8.1\`, \`art. 8.2\` (paragraph notation)
+  - Roman.Arabic: `XX.99`, `III.49`, `I.1`
+  - Slashed numbering: `1675/2`, `1675/13`
+  - Suffixes: `74bis`, `123ter`, `87quater`
+- Sub-provisions: `§`, `°`, `a)`, `b)`, `c)`, `alinéa`, `lid`
+- **Decimal notation (EU regulations)**: `art. 8.1`, `art. 8.2` (paragraph notation)
 
 **CRITICAL: Notation Equivalence Rule**
 Different notation systems can refer to the SAME provision. Extract using the notation found in the source:
-\`\`\`
+```
 "art. 8.1 en 8.2" (decimal notation) = "art. 8, §1 and §2" = "art. 8, lid 1 en 2"
 
 ✅ If source uses decimal: extract "art. 8.1" and "art. 8.2"
@@ -139,7 +228,7 @@ Different notation systems can refer to the SAME provision. Extract using the no
 ❌ DO NOT also create "art. 8.1" and "art. 8.2" (duplicates)
 
 Rule: Use the EXACT notation from the source text. Never create alternative notations.
-\`\`\`
+```
 
 **Range patterns** (MUST expand to individual articles):
 - **French**: "articles 50 à 60", "de l'article 31 à 35", "articles 31 au 35"
@@ -159,12 +248,12 @@ Rule: Use the EXACT notation from the source text. Never create alternative nota
 - May appear without "van de" connector: "artikelen 10 en 11 Grondwet"
 
 **Sub-point within articles** (do NOT expand into separate provisions):
-\`\`\`
+```
 "article 2, 5°" → ONE provision (article 2, point 5)
 NOT: Five separate provisions (1°, 2°, 3°, 4°, 5°)
 
 Extract verbatim: "article 2, 5°"
-\`\`\`
+```
 
 ### 2. RESOLVE context for each candidate
 
@@ -175,28 +264,28 @@ Link each article to its immediate parent act by looking:
 **Priority Rules for Context Resolution**:
 
 **Rule 1: Explicit attachment beats contextual mention**
-\`\`\`
+```
 Text: "De Arbeidsongevallenwet bepaalt... artikel 579 Ger.W. is bevoegd..."
 
 "Ger.W." is EXPLICITLY attached to artikel 579 → Use Ger.W.
 "Arbeidsongevallenwet" is background context → Ignore
-\`\`\`
+```
 
 **Rule 2: Abbreviations with periods signal attachment**
-\`\`\`
+```
 Pattern: "artikel NNN [Abbreviation]."
 Examples: "artikel 579 Ger.W.", "artikel 1675/2 Ger. W.", "art. 74 BW."
 
 If you see this pattern, the abbreviation IS the parent act.
-\`\`\`
+```
 
 **Rule 3: Draft laws - use the enacted law being amended**
-\`\`\`
+```
 Text: "Het wetsontwerp wijzigt artikel 3 van de WRR..."
 
 ✅ Use: WRR (the enacted law where article 3 lives)
 ❌ NOT: wetsontwerp (this is metadata about the amendment)
-\`\`\`
+```
 
 ### 3. EXPAND ranges and lists
 
@@ -211,7 +300,7 @@ Pattern: "artikelen X tot Ybis" means:
 - Article Ybis
 
 **Example**:
-\`\`\`
+```
 "artikelen 31 tot 37bis" → 8 provisions:
   - artikel 31
   - artikel 32
@@ -221,7 +310,7 @@ Pattern: "artikelen X tot Ybis" means:
   - artikel 36
   - artikel 37     ← Don't forget this!
   - artikel 37bis  ← Then add the bis variant
-\`\`\`
+```
 
 **Common mistake**: Thinking "31 tot 37bis" means "31 to 36, then 37bis"
 → NO! It means "31 to 37 inclusive, then 37bis"
@@ -234,58 +323,53 @@ Pattern: "artikelen X tot Ybis" means:
 5. If suffix present: Add "end + suffix" as final provision
 
 **More examples**:
-\`\`\`
+```
 "articles 50 à 53ter" → 50, 51, 52, 53, 53ter (5 provisions)
 "artikelen 10 t/m 12bis" → 10, 11, 12, 12bis (4 provisions)
 "van artikel 100 tot 102" → 100, 101, 102 (3 provisions, no suffix)
-\`\`\`
+```
 
 **Dutch "lid" expansion (CRITICAL for avoiding hallucinations)**:
-\`\`\`
+```
 Source: "Artikel 1675/12 §2, 2de en 3de lid"
 Meaning: Article 1675/12, paragraph 2, with TWO sub-paragraphs
 
-FINDING phase: Identify both sub-paragraphs:
-  - "artikel 1675/12, §2, 2de lid"
-  - "artikel 1675/12, §2, 3de lid"
-
-OUTPUT phase (after article-level deduplication):
-  ✅ Extract 1 provision (first occurrence only):
-  {
-    "provisionNumber": "artikel 1675/12, §2, 2de lid",
-    "provisionNumberKey": "1675/12"
-  }
-
-  (Second mention "3de lid" is skipped - same article 1675/12)
+✅ Extract 2 provisions:
+{
+  "provisionNumber": "artikel 1675/12, §2, 2de lid",
+  "provisionNumberKey": "1675/12"
+}
+{
+  "provisionNumber": "artikel 1675/12, §2, 3de lid",
+  "provisionNumberKey": "1675/12"
+}
 
 ❌ DO NOT extract "artikel 1675/12, §3" (hallucination - §3 not in text)
-\`\`\`
-
-**Article-level deduplication:** If you find multiple mentions of the same article (same provisionNumberKey + same parent act), keep only the FIRST occurrence you encounter in document order.
+```
 
 **Ordinal forms to recognize** (all mean the same):
-- 1st: \`1e lid\`, \`1ste lid\`, \`eerste lid\`
-- 2nd: \`2e lid\`, \`2de lid\`, \`tweede lid\`
-- 3rd: \`3e lid\`, \`3de lid\`, \`derde lid\`
+- 1st: `1e lid`, `1ste lid`, `eerste lid`
+- 2nd: `2e lid`, `2de lid`, `tweede lid`
+- 3rd: `3e lid`, `3de lid`, `derde lid`
 
 **Multiple paragraphs**:
-\`\`\`
-"§§ 1 en 2" of different articles → separate provisions
-"art. 72 §3" and "art. 75 §4" → 2 provisions (different articles)
+```
+"§§ 1 en 2" → 2 provisions:
+  - § 1
+  - § 2
 
-"art. 72 §3 en §4" → 1 provision after article-level dedup:
-  ✅ Keep first: art. 72, §3
-  (Skip "art. 72, §4" - same article)
+"art. 72 §3 en §4" → 2 provisions:
+  - art. 72, §3
+  - art. 72, §4
 
-"art. 8, §§2, 3 et 4" → 1 provision after article-level dedup:
-  ✅ Keep first: art. 8, §2
-  (Skip "§3" and "§4" - same article)
-\`\`\`
-
-**Key principle:** Same article number (provisionNumberKey) from same parent act = ONE provision (first occurrence only).
+"art. 8, §§2, 3 et 4" → 3 provisions:
+  - art. 8, §2
+  - art. 8, §3
+  - art. 8, §4
+```
 
 **CRITICAL: Degree sign (°) ANTI-HALLUCINATION RULE**:
-\`\`\`
+```
 Source: "art. 74, §1, 3°"
 
 This is ONE provision with three levels:
@@ -297,23 +381,23 @@ This is ONE provision with three levels:
 ❌ DO NOT create: "art. 74, §3" (hallucination)
 
 The degree sign (°) indicates a POINT or ITEM within a paragraph, NOT a separate paragraph.
-\`\`\`
+```
 
 ### 4. DEDUPLICATE parent acts (CRITICAL)
 
 **Before assigning any ACT-ID, maintain an internal registry:**
 
-\`\`\`
+```
 actRegistry = {}  // Maps normalized key → ACT-ID
 nextActSequence = 1
-\`\`\`
+```
 
 **For EACH parent act:**
 
-1. Create a **normalized key**: \`TYPE|DATE|SUBJECT\`
+1. Create a **normalized key**: `TYPE|DATE|SUBJECT`
 
 Examples:
-\`\`\`
+```
 "Gerechtelijk Wetboek" → "WETBOEK||gerechtelijk wetboek"
 "Ger.W." → "WETBOEK||gerechtelijk wetboek"  // SAME KEY → Same ACT-ID
 "Ger. W." → "WETBOEK||gerechtelijk wetboek"  // SAME KEY → Same ACT-ID
@@ -330,11 +414,11 @@ Examples:
 "Code de procédure pénale" → "CODE|1878-04-17|procedure penale"
 "loi du 17 avril 1878 contenant le titre préliminaire du Code d'instruction criminelle"
   → "CODE|1878-04-17|instruction criminelle"  // SAME DATE → Same ACT-ID
-\`\`\`
+```
 
 2. **Check registry and assign ACT-ID:**
 
-\`\`\`
+```
 if (actRegistry[normalizedKey]) {
   // Reuse existing ACT-ID for same act
   internalParentActId = actRegistry[normalizedKey]
@@ -344,7 +428,7 @@ if (actRegistry[normalizedKey]) {
   actRegistry[normalizedKey] = internalParentActId
   nextActSequence++
 }
-\`\`\`
+```
 
 **Validation**: Before output, verify:
 - Count unique keys in actRegistry
@@ -352,7 +436,7 @@ if (actRegistry[normalizedKey]) {
 - These numbers MUST match
 
 Example:
-\`\`\`
+```
 If you have 3 unique acts in registry:
   "WETBOEK||gerechtelijk wetboek" → ACT-...-001
   "LOI|1971-04-10|accidents travail" → ACT-...-002
@@ -360,11 +444,11 @@ If you have 3 unique acts in registry:
 
 Then your output should ONLY contain: ACT-...-001, ACT-...-002, ACT-...-003
 If you see ACT-...-004 → YOU FAILED (dedup error)
-\`\`\`
+```
 
 ### 5. MAINTAIN document order
 
-Output \`citedProvisions\` in the order they appear in the decision text.
+Output `citedProvisions` in the order they appear in the decision text.
 
 ### 6. VALIDATE before output
 
@@ -372,8 +456,8 @@ Output \`citedProvisions\` in the order they appear in the decision text.
 - [ ] No bare acts without article numbers
 - [ ] All ranges expanded (tot en met / à)
 - [ ] All lists expanded (lid/alinéa/§§/°/letters)
-- [ ] All qualifiers preserved in \`provisionNumber\`
-- [ ] \`provisionNumberKey\` normalized per rules
+- [ ] All qualifiers preserved in `provisionNumber`
+- [ ] `provisionNumberKey` normalized per rules
 - [ ] Sequencing rules satisfied (see below)
 
 ---
@@ -402,9 +486,9 @@ When you encounter a parent act, check if you've already seen it:
 - "Code civil" = "Burgerlijk Wetboek" → **DIFFERENT acts** (different language)
 
 **Normalization Key** (mental model):
-\`\`\`
+```
 TYPE + DATE + core subject
-\`\`\`
+```
 
 Examples:
 - "Gerechtelijk Wetboek" → WETBOEK || gerechtelijk wetboek
@@ -414,7 +498,7 @@ Examples:
 
 ### Complete Example
 
-\`\`\`json
+```json
 [
   {
     "provisionNumber": "artikel 31",
@@ -453,7 +537,7 @@ Examples:
     "parentActSequence": 3  // NEW act (third unique act)
   }
 ]
-\`\`\`
+```
 
 ### Validation Before Output
 
@@ -469,69 +553,69 @@ Count unique parent acts in your extraction, then verify:
 ### provisionNumber (VERBATIM)
 
 Extract **the COMPLETE citation** exactly as written, preserving ALL qualifiers but **excluding parent act tokens**:
-- Keep: \`§\`, \`°\`, \`a)\`, \`b)\`, \`c)\`, \`bis/ter/quater\`, Roman numerals, \`lid\`, \`alinéa\`
+- Keep: `§`, `°`, `a)`, `b)`, `c)`, `bis/ter/quater`, Roman numerals, `lid`, `alinéa`
 - Never translate or standardize
 - **Do NOT include parent act** (e.g., no "Ger.W.", "BW", "Code civil" in provisionNumber)
 
 **CRITICAL**: If the source says "article 155, § 6, alinéa 1er", extract ALL of it:
-\`\`\`
+```
 ❌ Wrong: "article 155" (incomplete - missing § 6, alinéa 1er)
 ✅ Correct: "article 155, § 6, alinéa 1er" (complete)
-\`\`\`
+```
 
 **Examples**:
-- Source: "article 74bis, §2, alinéa 1er de la loi..." → \`"article 74bis, §2, alinéa 1er"\`
-- Source: "artikel 1675/12, §2, 3de lid Ger.W." → \`"artikel 1675/12, §2, 3de lid"\`
-- Source: "article I.1, 1°, a) du Code" → \`"article I.1, 1°, a)"\`
-- Source: "WVP artikel 29 § 3" → \`"artikel 29, § 3"\` (include the §)
+- Source: "article 74bis, §2, alinéa 1er de la loi..." → `"article 74bis, §2, alinéa 1er"`
+- Source: "artikel 1675/12, §2, 3de lid Ger.W." → `"artikel 1675/12, §2, 3de lid"`
+- Source: "article I.1, 1°, a) du Code" → `"article I.1, 1°, a)"`
+- Source: "WVP artikel 29 § 3" → `"artikel 29, § 3"` (include the §)
 
-**Parent act belongs ONLY in \`parentActName\`, never in \`provisionNumber\`.**
+**Parent act belongs ONLY in `parentActName`, never in `provisionNumber`.**
 
 ### provisionNumberKey (NORMALIZED)
 
 Keep only the article anchor needed to locate it in the table of contents. Drop sub-divisions:
 
 **Rules**:
-- Keep bis/ter/quater suffixes: "74bis" → \`"74bis"\`
-- Keep Roman.Arabic: "I.1" → \`"I.1"\`, "XX.99" → \`"XX.99"\`
-- Drop §, alinéa/lid, °, letters: "31, § 2, alinéa 1er" → \`"31"\`
-- Drop degrees and letters: "I.1, 1°, a)" → \`"I.1"\`
+- Keep bis/ter/quater suffixes: "74bis" → `"74bis"`
+- Keep Roman.Arabic: "I.1" → `"I.1"`, "XX.99" → `"XX.99"`
+- Drop §, alinéa/lid, °, letters: "31, § 2, alinéa 1er" → `"31"`
+- Drop degrees and letters: "I.1, 1°, a)" → `"I.1"`
 
 **Examples**:
-\`\`\`
+```
 "article 74bis, §2, alinéa 1er" → "74bis"
 "artikel 1675/12, §2, 3de lid" → "1675/12"
 "article I.1, 1°, a)" → "I.1"
 "artikel 31, § 2" → "31"
 "article XX.99, §2" → "XX.99"
-\`\`\`
+```
 
 ---
 
 ## PARENT ACT TYPE (ENUM by language)
 
-**French**: \`LOI\`, \`ARRETE_ROYAL\`, \`CODE\`, \`CONSTITUTION\`, \`REGLEMENT_UE\`, \`DIRECTIVE_UE\`, \`TRAITE\`, \`ARRETE_GOUVERNEMENT\`, \`ORDONNANCE\`, \`DECRET\`, \`AUTRE\`
+**French**: `LOI`, `ARRETE_ROYAL`, `CODE`, `CONSTITUTION`, `REGLEMENT_UE`, `DIRECTIVE_UE`, `TRAITE`, `ARRETE_GOUVERNEMENT`, `ORDONNANCE`, `DECRET`, `AUTRE`
 
-**Dutch**: \`WET\`, \`KONINKLIJK_BESLUIT\`, \`WETBOEK\`, \`GRONDWET\`, \`EU_VERORDENING\`, \`EU_RICHTLIJN\`, \`VERDRAG\`, \`BESLUIT_VAN_DE_REGERING\`, \`ORDONNANTIE\`, \`DECREET\`, \`ANDERE\`
+**Dutch**: `WET`, `KONINKLIJK_BESLUIT`, `WETBOEK`, `GRONDWET`, `EU_VERORDENING`, `EU_RICHTLIJN`, `VERDRAG`, `BESLUIT_VAN_DE_REGERING`, `ORDONNANTIE`, `DECREET`, `ANDERE`
 
 ### Abbreviation mapping (for classification ONLY - keep names verbatim)
 
 **Belgian codes (all → WETBOEK/CODE)**:
-- NL "Ger.W." / "Ger. W." / "Gerechtelijk Wetboek" → \`WETBOEK\`
-- NL "BW" / "Burgerlijk Wetboek" / FR "Code civil" → \`WETBOEK\`/\`CODE\`
-- NL "SW" / "Strafwetboek" / FR "Code pénal" → \`WETBOEK\`/\`CODE\`
-- NL "Sv" / "Wetboek van Strafvordering" → \`WETBOEK\`
-- NL "W.Kh." / "Wetboek van Koophandel" → \`WETBOEK\`
-- FR "CIR 92" / "Code des impôts sur les revenus 1992" → \`CODE\`
-- NL "WIB 92" / "Wetboek van de Inkomstenbelastingen 1992" → \`WETBOEK\`
+- NL "Ger.W." / "Ger. W." / "Gerechtelijk Wetboek" → `WETBOEK`
+- NL "BW" / "Burgerlijk Wetboek" / FR "Code civil" → `WETBOEK`/`CODE`
+- NL "SW" / "Strafwetboek" / FR "Code pénal" → `WETBOEK`/`CODE`
+- NL "Sv" / "Wetboek van Strafvordering" → `WETBOEK`
+- NL "W.Kh." / "Wetboek van Koophandel" → `WETBOEK`
+- FR "CIR 92" / "Code des impôts sur les revenus 1992" → `CODE`
+- NL "WIB 92" / "Wetboek van de Inkomstenbelastingen 1992" → `WETBOEK`
 
 **Royal Decrees (→ KONINKLIJK_BESLUIT/ARRETE_ROYAL)**:
-- NL "KB" / "Koninklijk Besluit" → \`KONINKLIJK_BESLUIT\`
-- FR "AR" / "Arrêté Royal" → \`ARRETE_ROYAL\`
-- Names containing "besluit" (NL) → \`KONINKLIJK_BESLUIT\`
-- Example: "Werkloosheidsbesluit" → \`KONINKLIJK_BESLUIT\` (NOT \`ANDERE\`)
+- NL "KB" / "Koninklijk Besluit" → `KONINKLIJK_BESLUIT`
+- FR "AR" / "Arrêté Royal" → `ARRETE_ROYAL`
+- Names containing "besluit" (NL) → `KONINKLIJK_BESLUIT`
+- Example: "Werkloosheidsbesluit" → `KONINKLIJK_BESLUIT` (NOT `ANDERE`)
 
-**Do NOT expand abbreviations in \`parentActName\` - keep verbatim as written.**
+**Do NOT expand abbreviations in `parentActName` - keep verbatim as written.**
 
 ---
 
@@ -540,19 +624,19 @@ Keep only the article anchor needed to locate it in the table of contents. Drop 
 **General Rule**: Attach article to the **most specific parent structure explicitly mentioned** in the citation.
 
 **Case 1: Protocols and Treaties**
-\`\`\`
+```
 "article 3 du Protocole additionnel du 6 juillet 1970
  à la Convention Eurocontrol du 13 décembre 1960"
-\`\`\`
+```
 
 ✅ Extract: article 3 → parent: "Protocole additionnel... à la Convention..."
 
 ❌ DO NOT create separate provision for Convention (no article of Convention cited)
 
 **Case 2: Sections/Titles/Books/Chapters within Codes**
-\`\`\`
+```
 "article 1er du Titre préliminaire du Code de procédure pénale"
-\`\`\`
+```
 
 ✅ Extract: article 1er → parent: "Titre préliminaire du Code de procédure pénale"
 
@@ -568,15 +652,15 @@ Keep only the article anchor needed to locate it in the table of contents. Drop 
 
 ## PARENT ACT FIELDS
 
-**\`parentActName\`**: VERBATIM with ALL qualifiers
+**`parentActName`**: VERBATIM with ALL qualifiers
 - Keep: "(coordonné par...)", "(approuvé par...)", "(modifié par...)"
 - Never shorten, even if 100+ characters
 
-**\`parentActDate\`**: \`YYYY-MM-DD\` if exact date present; else \`null\`
-- From name: "Loi du 10 mai 2007" → \`"2007-05-10"\`
-- From qualifier: "(coordonné... du 26 février 1964)" → \`"1964-02-26"\`
+**`parentActDate`**: `YYYY-MM-DD` if exact date present; else `null`
+- From name: "Loi du 10 mai 2007" → `"2007-05-10"`
+- From qualifier: "(coordonné... du 26 février 1964)" → `"1964-02-26"`
 
-**\`parentActNumber\`**: Official number if present; else \`null\`
+**`parentActNumber`**: Official number if present; else `null`
 
 ---
 
@@ -607,13 +691,13 @@ Before outputting JSON, verify:
 - [ ] All degree/letter lists expanded (1° à 3° → 3 provisions; a), b), c) → 3 provisions)
 - [ ] **NO hallucinated paragraphs from degree signs** (§1, 3° does NOT create §3)
 - [ ] **NO duplicate notations** (if source has "8.1", don't also create "lid 1")
-- [ ] **All qualifiers preserved in \`provisionNumber\`** (if source has "§ 6, alinéa 1er", extraction must too)
-- [ ] All \`provisionNumberKey\` normalized per rules
+- [ ] **All qualifiers preserved in `provisionNumber`** (if source has "§ 6, alinéa 1er", extraction must too)
+- [ ] All `provisionNumberKey` normalized per rules
 - [ ] Parent act classification correct (Ger.W. → WETBOEK, not WET; Werkloosheidsbesluit → KONINKLIJK_BESLUIT, not ANDERE)
-- [ ] All IDs copy exact \`decisionId\` with correct sequencing
-- [ ] **Same parent act shares SAME \`internalParentActId\`** (check normalization)
-- [ ] **Different parent acts have DIFFERENT \`internalParentActId\`**
-- [ ] **All IDs contain complete \`decisionId\`** (no truncation, all colons/dots present)
+- [ ] All IDs copy exact `decisionId` with correct sequencing
+- [ ] **Same parent act shares SAME `internalParentActId`** (check normalization)
+- [ ] **Different parent acts have DIFFERENT `internalParentActId`**
+- [ ] **All IDs contain complete `decisionId`** (no truncation, all colons/dots present)
 - [ ] **Hierarchical citations use most specific parent** (Titre within Code, not just Code)
 - [ ] **Draft laws resolved to enacted base laws** (wetsontwerp → actual wet being amended)
 - [ ] No bare acts without articles
@@ -644,7 +728,11 @@ For this run, decisionId EXACT STRING:
 
 You have been provided with pre-extracted snippets that identify potential provision mentions:
 
-{provisionSnippets}
+[1] char 2916-2930: "ing, meer bepaald een beslag, waardoor eiseres zich geschaad voelt. In eerste instantie meent verweerder dat de rechter in kort geding, op grond van art. 2 Ger. W., in combinatie met het beginsel van het niet-contradictoir karakter van het onderzoek, niet kan oordelen over een verzoek tot opheffing van een besla"
+[2] char 4028-4048: "aartegen niet opkomen. Thans kan eenieder, die zich geschaad acht door een opsporingsmaatregel met betrekking tot zijn goederen, krachtens het nieuwe art. 28sexies W. Sv. (zoals ingevoegd door de zg. Wet Franchimont van 12 maart 1998) aan de procureur des Konings (of, als het gaat om een onderzoekshandeling, aan de ond"
+[3] char 4503-4523: "igingstelling (K.I.). --- Verweerder wijst erop dat eiseres deze nieuwe procedure ook heeft toegepast, nu zij op 28 oktober 2002 bij toepassing van art. 28sexies W. Sv. een verzoek tot opheffing heeft gericht aan de procureur des Konings, die evenwel dit verzoek op 12 november 2002 heeft verworpen. Op 19 november 200"
+[4] char 5194-5214: "evoegd om de modaliteiten van de opheffing te bepalen (bv. de aanrekening van stallinggskosten). 2.2. Van haar kant meent eiseres dat het bestaan van art. 28sexies W. Sv. de bevoegdheid van de rechter in kort geding geenszins wegneemt, nu deze uitspraak doet "in gevallen die hij spoedeisend acht, bij voorraad in alle z"
+[5] char 7044-7064: "et-betaling van slepingskosten, stallingskosten en andere. Van hun kant spreken de procureur des Konings en de K.I. (in beroep) zich in het kader van art. 28sexies W. Sv. enkel uit over het al dan niet opheffen van de opsporingshandeling. Eiseres meent dat de rechter in kort geding in ieder geval bevoegd is om zich uit"
 
 These snippets were extracted using regex patterns that capture:
 - Article/artikel citations with parent acts
@@ -652,9 +740,9 @@ These snippets were extracted using regex patterns that capture:
 - EU instruments (Verordening, Directive)
 
 **Each snippet shows:**
-- \`[N]\` - Snippet number for reference
-- \`char X-Y\` - Position in the full text
-- \`"...text..."\` - ~75 characters of context around a provision mention
+- `[N]` - Snippet number for reference
+- `char X-Y` - Position in the full text
+- `"...text..."` - ~75 characters of context around a provision mention
 
 ### Verification Protocol
 
@@ -666,7 +754,7 @@ These snippets were extracted using regex patterns that capture:
    - Note the parent act reference
 
 2. **Cross-check against your extraction**
-   - Is this provision in your \`citedProvisions\` array?
+   - Is this provision in your `citedProvisions` array?
    - If it's a range, did you expand ALL items? (e.g., "10 à 15" = 6 provisions: 10, 11, 12, 13, 14, 15)
    - If it's a list, did you extract ALL items? (e.g., "§2, 1° à 3°" = 3 provisions)
 
@@ -687,36 +775,36 @@ These snippets were extracted using regex patterns that capture:
 Snippets will help you catch these common misses:
 
 **Pattern 1: Dense citation paragraphs**
-\`\`\`
+```
 Snippet shows: "articles 5, 8, 12 et 15 du Code"
 Check: Did you extract all FOUR? (5, 8, 12, 15)
-\`\`\`
+```
 
 **Pattern 2: Range expansion completeness**
-\`\`\`
+```
 Snippet shows: "artikelen 10 tot en met 15"
 Check: Did you extract all SIX? (10, 11, 12, 13, 14, 15)
 Belgian "tot en met" / French "à" are INCLUSIVE on both ends
-\`\`\`
+```
 
 **Pattern 3: List expansion in sub-provisions**
-\`\`\`
+```
 Snippet shows: "§2, 1° à 3°"
 Check: Did you extract all THREE? (§2, 1°; §2, 2°; §2, 3°)
-\`\`\`
+```
 
 **Pattern 4: Multiple provisions in parentheses**
-\`\`\`
+```
 Snippet shows: "(articles 31, 32 et 35)"
 Check: Did you extract all THREE? Not just the first or last
-\`\`\`
+```
 
 **Pattern 5: Abbreviated act names**
-\`\`\`
+```
 Snippet shows: "art. 579 Ger.W."
 Check: Did you resolve "Ger.W." to "Gerechtelijk Wetboek"?
 Did you use the abbreviation verbatim in parentActName?
-\`\`\`
+```
 
 ### Verification Checklist
 
@@ -753,294 +841,11 @@ Before finalizing your output, confirm:
 
 ---
 
-## 🎯 ARTICLE-LEVEL DEDUPLICATION & FINAL VALIDATION PROTOCOL
-
-### CRITICAL EXTRACTION PRINCIPLE
-
-**Extract at ARTICLE level: one provision per unique article from each parent act.**
-
-\`\`\`
-Deduplication key = provisionNumberKey + parentActSequence
-
-If you've already extracted "artikel 98" from "WOG" (parentActSequence 1):
-  → Skip any subsequent mentions of "artikel 98" from same act
-  → Keep first occurrence only
-
-Example:
-  ✅ First: "artikel 98, 2°" from WOG → EXTRACT (key: "98|1")
-  ❌ Later: "artikel 98, 3°" from WOG → SKIP (duplicate key: "98|1")
-  ✅ Later: "artikel 99, 1°" from WOG → EXTRACT (new key: "99|1")
-  ✅ Later: "artikel 98, 1°" from other law → EXTRACT (new key: "98|2")
-\`\`\`
-
----
-
-## PHASE 1: EXTRACTION WITH ARTICLE-LEVEL DEDUPLICATION
-
-### Step 1: Extract All Article Citations
-
-**For each article mention in the text:**
-
-1. **Capture complete citation** (provisionNumber)
-   - Include ALL qualifiers: §, °, lid, alinéa, a), b), etc.
-   - Keep verbatim as written in source
-
-2. **Extract article anchor** (provisionNumberKey)
-   - Base number: "31" from "artikel 31, §2"
-   - With suffix: "74bis" from "article 74bis, §2"
-   - Roman.Arabic: "I.1" from "article I.1, 1°"
-   - Slashed: "1675/12" from "artikel 1675/12, §2"
-   - **Inserted articles**: "25/6" from "article 76, 25/6" (use inserted number, not 76)
-
-3. **Resolve parent act** (using priority rules from earlier sections)
-
-### Step 2: Article-Level Deduplication
-
-**Maintain internal tracking as you process:**
-
-\`\`\`
-extractedArticles = new Set()  // Tracks: "provisionNumberKey|parentActSequence"
-
-For each article citation found:
-  dedupKey = \`\${provisionNumberKey}|\${parentActSequence}\`
-
-  if (extractedArticles.has(dedupKey)) {
-    // Already extracted this article from this law
-    SKIP (don't add to output)
-  } else {
-    // New article - add it
-    extractedArticles.add(dedupKey)
-    ADD to output with next provisionSequence number
-  }
-\`\`\`
-
-**Example execution:**
-
-\`\`\`
-Text mentions in order:
-1. "artikel 98, 2° van de WOG"
-   → key: "98|1" → NOT in set → ADD (provisionSequence: 1)
-
-2. "artikel 98, 3° van de WOG"
-   → key: "98|1" → IN set → SKIP
-
-3. "artikel 99, 1° van de WOG"
-   → key: "99|1" → NOT in set → ADD (provisionSequence: 2)
-
-4. "artikel 98, 1° van andere wet" (parentActSequence: 2)
-   → key: "98|2" → NOT in set → ADD (provisionSequence: 3)
-
-Final output: 3 provisions (not 4)
-\`\`\`
-
----
-
-## PHASE 2: RANGE EXPANSION WITH VERIFICATION
-
-### Article Range Expansion (MUST EXPAND)
-
-**Expand ARTICLE ranges only:**
-
-\`\`\`
-✅ EXPAND these into separate articles:
-- "artikelen 1 tot 4" → artikel 1, artikel 2, artikel 3, artikel 4 (4 provisions)
-- "articles 444 à 448" → article 444, 445, 446, 447, 448 (5 provisions)
-- "artikelen 31 tot 37bis" → artikel 31-37, artikel 37bis (8 provisions)
-
-❌ DON'T expand sub-provision ranges (these stay verbatim):
-- "artikel 98, 2° à 4°" → ONE provision: "artikel 98, 2° à 4°"
-- "article 155, §§ 2, 3 et 4" → ONE provision: "article 155, §§ 2, 3 et 4"
-\`\`\`
-
-### Range Verification Algorithm
-
-**For EVERY article range encountered:**
-
-\`\`\`
-1. Extract start and end numbers
-   "artikelen 64 tot en met 68" → start: 64, end: 68
-
-2. Calculate expected count
-   count = (end - start) + 1
-   Example: (68 - 64) + 1 = 5 articles
-
-3. Check for suffix (bis/ter/quater)
-   "31 tot 37bis" → base count: 7, with suffix: 8 total
-
-4. Generate each article
-   For i = start to end:
-     Extract provision: "artikel {i}"
-   If suffix exists: Extract provision: "artikel {end}{suffix}"
-
-5. Verify count matches expected
-   If mismatch → YOU MISSED ARTICLES
-\`\`\`
-
-**Common mistakes to avoid:**
-
-\`\`\`
-❌ "articles 444 à 448" → starting at 445 (missed 444)
-❌ "artikelen 1 tot 4" → stopping at 3 (missed 4)
-❌ "artikelen 31 tot 37bis" → stopping at 37 (missed 37bis)
-\`\`\`
-
----
-
-## PHASE 3: PARENT ACT RESOLUTION & DEDUPLICATION
-
-### Priority Rules (from earlier sections - strictly enforce)
-
-\`\`\`
-Priority 1 (HIGHEST): EXPLICIT ATTACHMENT
-  "art. 554 CS" → CS is parent act (use this)
-  "artikel 579 Ger.W." → Ger.W. is parent act (use this)
-
-Priority 2: IMMEDIATE PREPOSITIONAL PHRASE
-  "article 159 de la loi du 22 décembre 1989" → loi is parent
-
-Priority 3: SAME SENTENCE
-  "La loi prévoit à son article 159" → loi is parent
-
-Priority 4 (LOWEST): PREVIOUS SENTENCE
-  Only if no other clues available
-\`\`\`
-
-### Enhanced Deduplication Normalization
-
-**Normalization key structure:** \`TYPE|DATE|SUBJECT\`
-
-\`\`\`
-Critical differentiation examples:
-
-DIFFERENT acts (assign different parentActSequence):
-  "Gerechtelijk Wetboek" → WETBOEK||gerechtelijk → seq 1
-  "Strafwetboek" → WETBOEK||straf → seq 2
-  "Wetboek van strafvordering" → WETBOEK||strafvordering → seq 3
-
-SAME act (assign same parentActSequence):
-  "Gerechtelijk Wetboek" → WETBOEK||gerechtelijk → seq 1
-  "Ger.W." → WETBOEK||gerechtelijk → seq 1 (SAME)
-  "Ger. W." → WETBOEK||gerechtelijk → seq 1 (SAME)
-\`\`\`
-
----
-
-## PHASE 4: provisionNumberKey EDGE CASES
-
-### Inserted Articles (Critical Pattern)
-
-\`\`\`
-Pattern: "article X, Y/Z"
-
-Structure explanation:
-  X = legislative article being amended (meta-reference)
-  Y/Z = inserted article number (actual citation)
-
-Examples:
-  "article 76, 25/6" → provisionNumberKey: "25/6" (NOT "76")
-  "article 100, 15/1" → provisionNumberKey: "15/1" (NOT "100")
-
-Rule: Use the INSERTED article number (Y/Z), not the amendment reference (X)
-\`\`\`
-
----
-
-## PHASE 5: FINAL VALIDATION GATE
-
-**Execute these checks before generating output JSON:**
-
-### Check 1: Article-Level Deduplication
-
-\`\`\`
-For each provision in your output:
-  key = \`\${provisionNumberKey}|\${parentActSequence}\`
-
-Verify no duplicates exist with same key
-If found → ERROR: deduplication failed, remove duplicates
-\`\`\`
-
-### Check 2: Range Completeness
-
-\`\`\`
-For each article range you expanded:
-  - Calculate expected count (end - start + 1 + suffix_bonus)
-  - Count provisions extracted from that range
-  - Verify counts match
-
-If mismatch → Missing articles, add them now
-\`\`\`
-
-### Check 3: Parent Act Deduplication
-
-\`\`\`
-Count unique parentActSequence values in output
-Count unique normalization keys (TYPE|DATE|SUBJECT) you tracked
-
-These MUST match
-
-Example validation:
-  If 3 unique acts → parentActSequence should use only 1, 2, 3
-  If you see sequence 4 → dedup failed, fix it
-\`\`\`
-
-### Check 4: Parent Act Attribution
-
-\`\`\`
-For each provision:
-  - Verify priority rules were followed
-  - Explicit attachments (CS, Ger.W.) override proximity
-  - No distant context overrode explicit attachment
-\`\`\`
-
-### Check 5: provisionNumberKey Correctness
-
-\`\`\`
-For each provision:
-  - Verify key is article anchor (dropped §, lid, alinéa, °)
-  - For "article X, Y/Z" pattern → key must be Y/Z
-  - bis/ter/quater suffixes preserved if present
-\`\`\`
-
-### Check 6: Snippet Verification
-
-\`\`\`
-For each snippet provided earlier:
-  - Identify articles mentioned
-  - Verify those articles are in output (accounting for deduplication)
-  - For ranges: verify ALL articles expanded
-  - For article lists: verify ALL articles extracted
-\`\`\`
-
-### Check 7: No Hallucinations
-
-\`\`\`
-For each provision:
-  - Article number appears in source text
-  - Parent act explicitly referenced (not inferred from nothing)
-  - Notation pattern matches source
-\`\`\`
-
----
-
-## VALIDATION CHECKLIST
-
-**Before finalizing output, confirm:**
-
-- [ ] Article-level dedup: no duplicate (provisionNumberKey + parentActSequence) pairs
-- [ ] All article ranges expanded completely and verified
-- [ ] Parent act dedup: unique normalization keys = unique sequences
-- [ ] Parent act resolution: priority rules strictly applied
-- [ ] provisionNumberKey: article anchors only, inserted articles handled correctly
-- [ ] All snippets verified: article mentions cross-checked with output
-- [ ] No hallucinations: every provision exists in source
-- [ ] Provision numbering: sequential 1, 2, 3, ... (no gaps, no reuse)
-- [ ] Parent act sequences: correct (same act = same seq, different act = different seq)
-
-**If ANY check fails → FIX IT before output**
-
----
-
 ## OUTPUT FORMAT
 
 Return ONLY valid JSON matching the schema. No markdown code fences, no explanatory text, no preamble.
-`;
+
+
+════════════════════════════════════════════════════════════════════════════════
+END OF PROMPT
+════════════════════════════════════════════════════════════════════════════════

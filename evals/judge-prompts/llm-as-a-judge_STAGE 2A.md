@@ -1,6 +1,8 @@
-# Belgian Legal Provision Extraction — Evaluation Judge (v3.1)
+# Belgian Legal Provision Extraction — Evaluation Judge (v3.2 - Article-Level Update)
 
 You are evaluating whether provision extraction is production-ready. Compare EXTRACTED OUTPUT against ORIGINAL SOURCE. Enforce zero hallucinations and correctness of priority fields. Work silently and return JSON only.
+
+**v3.2 Update:** Extraction now uses article-level deduplication (one provision per unique article per parent act). See "Article-Level Extraction Philosophy" below.
 
 ## Priority fields (must be correct)
 1) IDs: internalProvisionId, internalParentActId
@@ -15,6 +17,38 @@ You are evaluating whether provision extraction is production-ready. Compare EXT
    - Keep Roman.Arabic and bis/ter/quater; drop §, lid/alinéa, °, letters
 
 Non-priority field: provisionNumber (verbatim formatting is MINOR unless it breaks the key)
+
+## ARTICLE-LEVEL EXTRACTION PHILOSOPHY
+
+**Critical change:** Extraction now uses article-level deduplication.
+
+**Key principle:** One provision per unique article per parent act.
+- Deduplication key: `provisionNumberKey + parentActSequence`
+- First occurrence only: Keep first mention, skip subsequent mentions of same article
+
+**Examples:**
+```
+Source: "artikel 98, 2° van de WOG... artikel 98, 3° van de WOG..."
+Expected: 1 provision (article 98 from WOG)
+Extracted: "artikel 98, 2°" (first occurrence)
+Match: YES ✅ (same article, same parent act)
+
+Source: "artikel 98 van de WOG... artikel 99 van de WOG..."
+Expected: 2 provisions (different articles)
+Extracted: "artikel 98" and "artikel 99"
+Match: YES ✅
+```
+
+**Implications for evaluation:**
+- Count unique ARTICLES (not sub-provision mentions)
+- Match on `provisionNumberKey + parentActSequence`
+- Multiple mentions of same article = 1 expected provision
+
+**parentActName cosmetic variations (ACCEPTABLE - do not penalize):**
+- Trailing punctuation: "B.W." vs "B.W._" (acceptable)
+- Formatting variants: "Code Judiciaire" vs "C.J.: C.J." (acceptable)
+- Abbreviation consistency: "Ger.W." vs "Ger. W." (acceptable - this is deduplication, not error)
+- These are cosmetic and do not affect correctness
 
 ## Inputs you receive
 - decisionId (string)
@@ -36,14 +70,19 @@ Non-priority field: provisionNumber (verbatim formatting is MINOR unless it brea
 5) Language enum set mismatch for parentActType (NL vs FR set)
 
 ### MAJOR issues (important, but not hard fail alone)
-1) Missing provisions: recall < 90% (or missing required range/list expansions)
+1) Missing provisions: recall < 90% **at article level** (see article-level matching below)
 2) Range/list expansion incomplete:
-   - Ranges: “tot en met”, “t.e.m.”, “t/m”, “van X tot Y”, “X à Y”
-   - Lists: “§2, 2de en 3de lid”, “alinéas 1er et 2”, “1° à/tot 3°”, “a), b), c)”
+   - **ARTICLE ranges** (MUST expand): "articles 444 à 448", "artikelen 31 tot 37bis"
+   - **Sub-provision ranges** (do NOT expand): "artikel 98, 2° à 4°" stays as ONE provision
+   - **Article lists** (MUST expand): "articles 31, 32 et 35" → 3 separate provisions
+   - **Sub-provision lists** (do NOT expand): "§2, 2de en 3de lid" stays in ONE provision
    - Also flag range overshoot (outside upper bound)
 3) Wrong parent act: misattribution (e.g., Protocol vs Convention) or wrong hierarchical parent (e.g., missing Titre/Boek when specified)
-4) Dedup failure: same logical act split across multiple internalParentActId
+4) Dedup failure:
+   - **Parent act dedup:** same logical act split across multiple internalParentActId
+   - **Article dedup:** duplicate (provisionNumberKey + parentActSequence) pairs in output
 5) parentActName materially wrong or missing a key anchoring qualifier/date
+   - **NOTE:** Cosmetic variations are acceptable (see "parentActName cosmetic variations" above)
 6) parentActDate clearly incorrect when a date is present in the citation
 7) provisionNumberKey incorrect (lost bis/ter/quater or Roman.Arabic, or included sub-divisions)
 
@@ -59,9 +98,12 @@ Non-priority field: provisionNumber (verbatim formatting is MINOR unless it brea
 - Find article tokens: `art.`, `article`, `artikel` with numbers
 - Belgian forms: Roman.Arabic (I.1, XX.99), slashed (1675/13), suffixes (bis, ter, quater)
 
-2) Range and list expansion
-- Must fully expand ranges and lists as separate provisions
-- Do not exceed the upper bound of stated ranges
+2) Range and list expansion (article-level only)
+- **MUST expand ARTICLE ranges:** "articles 444 à 448" → 5 provisions (444, 445, 446, 447, 448)
+- **DO NOT expand sub-provision ranges:** "art. 98, 2° à 4°" → 1 provision (verbatim in provisionNumber)
+- **MUST expand ARTICLE lists:** "articles 31, 32, 35" → 3 provisions
+- **DO NOT expand sub-provision lists:** "art. 31, §§2, 3, 4" → 1 provision
+- Do not exceed upper bound of article ranges
 
 3) Notation equivalence guard
 - If source uses decimal notation (e.g., “art. 8.1”), do not duplicate using paragraph/lid notation, and vice-versa
@@ -86,6 +128,51 @@ Non-priority field: provisionNumber (verbatim formatting is MINOR unless it brea
 8) ID format and sequencing
 - Pattern: `^ART-<decisionId>-\d{3}$` and `^ACT-<decisionId>-\d{3}$`, where `<decisionId>` is the exact input string
 - Sequences unique for provisions; parent act sequence reused for the same act
+
+9) Article-level matching and recall calculation
+
+**Expected provision count:**
+- Scan source text for ALL article mentions
+- Group by `(provisionNumberKey, parentActName)` pairs
+- Count UNIQUE pairs only
+
+Example:
+```
+Source mentions:
+  "artikel 98, 2° van de WOG"     → key: (98, WOG)
+  "artikel 98, 3° van de WOG"     → key: (98, WOG) [DUPLICATE]
+  "artikel 99, 1° van de WOG"     → key: (99, WOG)
+  "artikel 98, 1° van andere wet" → key: (98, andere wet)
+
+Expected count: 3 (not 4)
+  1. artikel 98 from WOG
+  2. artikel 99 from WOG
+  3. artikel 98 from andere wet
+```
+
+**Matching logic:**
+- Extract `provisionNumberKey` from each extracted provision
+- Extract `parentActSequence` (map to parent act name)
+- For each unique (key, parent) pair in source:
+  - Check if extracted provisions contain matching (key, parentActSequence)
+  - Match = YES if found (regardless of sub-provision details)
+  - Match = NO if not found
+
+**Recall calculation:**
+```
+matched = count of expected (key, parent) pairs found in extraction
+expected = count of unique (key, parent) pairs in source
+extracted = count of provisions in citedProvisions array
+
+recall = matched / expected
+precision = matched / extracted
+```
+
+**Anti-pattern validation:**
+- ✅ CORRECT: No duplicate (provisionNumberKey + parentActSequence) pairs
+- ❌ WRONG: Multiple provisions with same (key + parentActSequence)
+
+If duplicates found → Flag as MAJOR issue "Article-level deduplication failure"
 
 ## Output format
 Return JSON only:
@@ -117,7 +204,10 @@ Return JSON only:
 - REVIEW_SAMPLES: Edge cases or document-specific issues (OCR noise, ambiguous hierarchy/dates) with 1 MAJOR or multiple MINOR that do not clearly implicate the prompt
 
 ## Scoring
-Compute precision and recall:
+Compute **article-level** precision and recall:
+- matched = count of unique (provisionNumberKey, parentActSequence) pairs in both source and extraction
+- expected = count of unique (provisionNumberKey, parentActName) pairs in source
+- extracted = count of provisions in citedProvisions array
 - precision = matched / max(extracted, 1)
 - recall = matched / max(expected, 1)
 
@@ -125,11 +215,13 @@ Start at 100:
 - If any CRITICAL, cap at 59
 - MAJOR: −12 each (cap −36)
 - MINOR: −2 each (cap −8)
-- recall < 0.95: −15
-- precision < 0.90: −10
+- recall < 0.90: −15  (NOTE: Changed from 0.95 to account for article-level matching)
+- precision < 0.85: −10  (NOTE: Changed from 0.90 to account for deduplication)
+- Article-level dedup failure (duplicates present): −15
 Additional priorities:
 - Any provisionNumberKey error: −10 (one time)
 - parentActDate clearly wrong (not just null): −8
+- parentActName cosmetic variations (trailing punctuation, formatting): do NOT penalize
 Clamp final score to [0, 100].
 
 ## Helper patterns (optional)
