@@ -61,10 +61,35 @@ Extract ONLY when **BOTH conditions are met**:
 **CRITICAL HALLUCINATION PATTERNS TO AVOID**:
 
 **Pattern 1: Degree sign (°) confusion**
+
+The degree sign (°) indicates a POINT or ITEM within an article or paragraph. It is NEVER part of the article number or paragraph number.
+
+**Type A: Paragraph hallucination**
 \`\`\`
 Source: "article 4, § 1er, 3°"
 ❌ DO NOT create: "article 4, § 3" (3° means POINT 3 within §1, NOT paragraph 3)
 \`\`\`
+
+**Type B: Article number concatenation (CRITICAL HALLUCINATION)**
+\`\`\`
+Source: "article 17, 3°, a)"
+❌ WRONG: Reading as "article 173, a)" (concatenated 17 + 3°)
+✅ CORRECT: "article 17, 3°, a)" where:
+  - Article number: 17
+  - Point: 3°
+  - Sub-point: a)
+  - provisionNumberKey: "17" (NOT "173")
+\`\`\`
+
+**Parsing rule**: The degree sign creates a boundary - never merge numbers across it.
+- "17, 3°" = article 17, point 3 (NOT article 173)
+- "31,2°" = article 31, point 2 (NOT article 312)
+- "98,5°" = article 98, point 5 (NOT article 985)
+
+**Validation check**: If you extracted an article number that seems unusually high:
+1. Check if it could be concatenation (e.g., "173" → could be "17, 3°")
+2. Verify the article exists in the act's structure
+3. If the act only has ~50 articles, "article 173" is likely a parsing error
 
 **Pattern 2: Decimal notation duplication**
 \`\`\`
@@ -107,6 +132,80 @@ Context clues:
 
 **Execute silently. Output only final JSON.**
 
+## ⚡ DOCUMENT LENGTH ADAPTIVE PROCESSING
+
+**CRITICAL:** Long documents (>30,000 characters) require a different strategy to prevent attention degradation.
+
+**Step 0: Assess document length**
+- Count characters in the full text
+- If > 30,000 characters → Use LONG DOCUMENT PROTOCOL (3-pass strategy)
+- If ≤ 30,000 characters → Use standard sweep (steps 1-6)
+
+### LONG DOCUMENT PROTOCOL (for documents >30k chars)
+
+**Pass 1: Section-by-Section Marking (IDENTIFICATION PHASE)**
+\`\`\`
+Do NOT extract yet - just identify and mark locations.
+
+Divide document into logical sections:
+- Preamble ("Gelet op", "Vu")
+- Facts section
+- Arguments section
+- Court reasoning
+- Dispositif/Court order
+- Footnotes/Endnotes (if present)
+
+For EACH section:
+- Scan for article tokens: art., article, artikel
+- Mark approximate location (beginning of section, middle, end)
+- Note parent act context nearby
+- Count approximate number of provisions in this section
+- Do NOT extract yet - just create mental map
+
+This creates a complete inventory of WHERE provisions appear.
+\`\`\`
+
+**Pass 2: Focused Extraction (EXTRACTION PHASE)**
+\`\`\`
+Now return to EACH marked location and extract:
+
+- Go back to marked section
+- Extract provisions with FULL context (not just snippets)
+- Apply all rules (expansion, parent act resolution, deduplication)
+- Verify parent act before adding to registry
+- Process one section at a time to maintain focus
+
+This ensures accurate extraction with full context.
+\`\`\`
+
+**Pass 3: Snippet Cross-Verification (VALIDATION PHASE)**
+\`\`\`
+Use the provided snippets as safety net:
+
+For EACH snippet in {provisionSnippets}:
+- Check if provision is in your extraction
+- If missing:
+  - Go back to full text at snippet char position
+  - Extract with full context and all rules
+  - Add to extraction
+- This catches what passes 1-2 might have missed
+
+This is your final completeness check.
+\`\`\`
+
+**Why this works for long documents:**
+- Pass 1: Ensures 100% coverage (systematic scan, no misses)
+- Pass 2: Maintains accuracy (focused extraction with full context)
+- Pass 3: Safety net (snippet verification catches remaining gaps)
+
+---
+
+### STANDARD PROTOCOL (for documents ≤30k chars)
+
+Use steps 1-6 below in single pass, with snippet verification as final check.
+
+---
+
 ### 1. FIND all article candidates
 
 **SCAN THE ENTIRE DOCUMENT** - missing even one citation = FAILURE
@@ -117,6 +216,7 @@ Context clues:
 - **Indirect references** ("voormelde wet", "précité") that need context resolution
 - **Nested provisions** in parenthetical notation: "art. 19(2)(a)"
 - **Abbreviated act names** (e.g., letters followed by "W." or similar patterns) - resolve from context
+- **FOOTNOTES AND ENDNOTES** (CRITICAL - often contain provision citations)
 
 **Look for**:
 - Article tokens: \`art.\`, \`article\`, \`artikel\` + numbers
@@ -125,7 +225,67 @@ Context clues:
   - Slashed numbering: \`1675/2\`, \`1675/13\`
   - Suffixes: \`74bis\`, \`123ter\`, \`87quater\`
 - Sub-provisions: \`§\`, \`°\`, \`a)\`, \`b)\`, \`c)\`, \`alinéa\`, \`lid\`
-- **Decimal notation (EU regulations)**: \`art. 8.1\`, \`art. 8.2\` (paragraph notation)
+- **Decimal notation**: \`art. 8.1\`, \`art. 8.2\` (see type clarification below)
+
+**CRITICAL: Three types of decimal notation**
+
+Belgian/EU legal texts use decimals in THREE different ways:
+
+**Type 1: Belgian Code Article Numbers (Roman.Arabic)**
+\`\`\`
+Codes use Roman.Arabic as ARTICLE IDENTIFIERS (not sub-provisions):
+- "article I.1" in Code de droit économique
+- "article XX.99" in Code de droit économique
+- "article III.49" in Wetboek
+
+These are ARTICLE NUMBERS (like "article 98" or "article 579")
+provisionNumberKey: Keep full number (I.1, XX.99, III.49)
+Deduplication: Each is a separate article
+\`\`\`
+
+**Type 2: Treaty Decimal Provisions (DISTINCT ARTICLES)**
+\`\`\`
+International treaties/GDPR use decimals for SEPARATE PROVISIONS:
+- CEDH/EVRM: "article 8.1", "article 8.2" are DIFFERENT provisions
+  - 8.1 = respect for private life (substantive right)
+  - 8.2 = lawful interference (exceptions)
+- GDPR/AVG/RGPD: "article 4.1", "article 4.2", "article 4.7" are DIFFERENT definitions
+  - 4.1 = "personal data" definition
+  - 4.2 = "processing" definition
+  - 4.7 = "controller" definition
+
+These are SEPARATE PROVISIONS with distinct legal effects
+provisionNumberKey: Keep decimal (8.1, 8.2, 4.1, 4.7)
+Deduplication: DO NOT deduplicate (each decimal is a separate provision)
+
+**How to identify Type 2:**
+- Parent act is: CEDH, EVRM, ECHR, TFUE, TFEU, IVBPR, GDPR, AVG, RGPD
+- Each decimal number is a distinct provision
+\`\`\`
+
+**Type 3: Paragraph Notation (ALTERNATIVE NOTATION)**
+\`\`\`
+Some Belgian sources use decimal as shorthand for paragraphs:
+- "article 8.1" as shorthand for "article 8, §1"
+- "article 8.2" as shorthand for "article 8, §2"
+
+Check if source uses BOTH notations for same provision
+provisionNumberKey: Drop to base (8)
+Deduplication: Same article, different sub-provisions
+\`\`\`
+
+**How to distinguish:**
+\`\`\`
+If source is a TREATY/GDPR → Type 2 (keep decimals, separate provisions)
+If source is BELGIAN CODE with Roman.Arabic → Type 1 (keep, article numbers)
+If source is BELGIAN LAW and uses §/lid notation → Type 3 (drop decimals)
+
+Examples:
+"article 8.1 CEDH" → Type 2 → provisionNumberKey "8.1" (distinct provision)
+"article 8.2 CEDH" → Type 2 → provisionNumberKey "8.2" (distinct provision)
+"article I.1 du Code" → Type 1 → provisionNumberKey "I.1" (article number)
+"article 8, §1 van de wet" → Type 3 → provisionNumberKey "8"
+\`\`\`
 
 **CRITICAL: Notation Equivalence Rule**
 Different notation systems can refer to the SAME provision. Extract using the notation found in the source:
@@ -166,6 +326,33 @@ NOT: Five separate provisions (1°, 2°, 3°, 4°, 5°)
 Extract verbatim: "article 2, 5°"
 \`\`\`
 
+**CRITICAL: Scan footnotes and endnotes**
+
+Provisions frequently appear in footnotes - treat them as valid citations.
+
+**Footnote format examples:**
+\`\`\`
+Markdown: "...conformément à la loi[^1]"
+          [^1]: Loi du 15 juin 1935, articles 28 à 32
+
+Superscript: "...wet¹"
+             1. Wet van 18 december 1986, artikelen 28 tot 32
+
+Parentheses: "...loi(1)"
+             (1) Arrêté royal, articles 39 à 42
+\`\`\`
+
+**Extraction rule:**
+- Scan ALL footnote content with same rigor as main text
+- Apply all expansion rules (ranges, lists, parent act resolution)
+- Footnote citations are AS VALID as main body citations
+- Common pattern: "Gelet op [act]" in footnote with article ranges
+
+**Where footnotes appear:**
+- Bottom of page (separated by horizontal line)
+- End of document (section titled "Notes" or "Footnotes")
+- Inline superscript markers: ¹, ², ³, [1], [2], [3]
+
 ### 2. RESOLVE context for each candidate
 
 Link each article to its immediate parent act by looking:
@@ -200,45 +387,58 @@ Text: "Het wetsontwerp wijzigt artikel 3 van de WRR..."
 
 ### 3. EXPAND ranges and lists
 
-**CRITICAL: "bis/ter/quater" suffix in ranges**
+**CRITICAL: "bis/ter/quater" suffix in ranges - CORRECTED ALGORITHM**
 
-Pattern: "artikelen X tot Ybis" means:
-- Article X
-- Article X+1
-- ...
-- Article Y-1
-- Article Y
-- Article Ybis
+**Belgian legal convention:**
+When "bis/ter/quater" appears in range end, the base number is typically EXCLUDED (the suffixed article was inserted).
 
-**Example**:
+**Correct expansion algorithm:**
 \`\`\`
-"artikelen 31 tot 37bis" → 8 provisions:
-  - artikel 31
-  - artikel 32
-  - artikel 33
-  - artikel 34
-  - artikel 35
-  - artikel 36
-  - artikel 37     ← Don't forget this!
-  - artikel 37bis  ← Then add the bis variant
+"artikelen X tot Ybis"
+1. Extract start (X)
+2. Extract end base number (Y)
+3. Extract suffix (bis/ter/quater)
+4. Generate: X, X+1, X+2, ..., (Y-1), then Y+suffix
+5. Total: (Y - X) + 1 provisions
 \`\`\`
 
-**Common mistake**: Thinking "31 tot 37bis" means "31 to 36, then 37bis"
-→ NO! It means "31 to 37 inclusive, then 37bis"
-
-**Expansion algorithm**:
-1. Extract start number (e.g., 31)
-2. Extract end number (e.g., 37)
-3. Check for suffix after end number (bis/ter/quater)
-4. Generate: start, start+1, ..., end (all base numbers)
-5. If suffix present: Add "end + suffix" as final provision
-
-**More examples**:
+**Examples**:
 \`\`\`
-"articles 50 à 53ter" → 50, 51, 52, 53, 53ter (5 provisions)
-"artikelen 10 t/m 12bis" → 10, 11, 12, 12bis (4 provisions)
-"van artikel 100 tot 102" → 100, 101, 102 (3 provisions, no suffix)
+"artikelen 9 tot 15bis" → 7 provisions:
+  - artikel 9
+  - artikel 10
+  - artikel 11
+  - artikel 12
+  - artikel 13
+  - artikel 14
+  - artikel 15bis  ← No plain "15" (bis was inserted, 15 may not exist)
+
+"artikelen 31 tot 37bis" → 7 provisions:
+  - artikel 31, 32, 33, 34, 35, 36, 37bis
+  - Total: (37 - 31) + 1 = 7 provisions
+
+"articles 50 à 53ter" → 4 provisions:
+  - article 50, 51, 52, 53ter
+  - Total: (53 - 50) + 1 = 4 provisions
+
+"artikelen 10 t/m 12bis" → 3 provisions:
+  - artikel 10, 11, 12bis
+  - Total: (12 - 10) + 1 = 3 provisions
 \`\`\`
+
+**Exception - Range WITHOUT suffix includes end:**
+\`\`\`
+"artikelen 9 tot 15" → 7 provisions:
+  - artikel 9, 10, 11, 12, 13, 14, 15
+  - Total: (15 - 9) + 1 = 7 provisions
+
+"van artikel 100 tot 102" → 3 provisions:
+  - artikel 100, 101, 102
+\`\`\`
+
+**Validation:** Count expected provisions before expanding:
+- "X tot Ybis": expect (Y - X) + 1 provisions
+- "X tot Y": expect (Y - X + 1) provisions
 
 **Dutch "lid" expansion (CRITICAL for avoiding hallucinations)**:
 \`\`\`
@@ -332,6 +532,33 @@ Examples:
   → "CODE|1878-04-17|instruction criminelle"  // SAME DATE → Same ACT-ID
 \`\`\`
 
+**ABBREVIATION NORMALIZATION PRINCIPLE**:
+
+Periods and spacing in abbreviations don't matter - normalize to same key:
+
+\`\`\`
+Tax codes:
+  "W.I.B. 1992" → "WETBOEK|1992||inkomstenbelastingen"
+  "WIB 1992" → "WETBOEK|1992||inkomstenbelastingen"      // SAME KEY
+  "W.B. 1992" → "WETBOEK|1992||inkomstenbelastingen"     // SAME KEY (common shorthand)
+  "Wetboek van de Inkomstenbelastingen 1992" → "WETBOEK|1992||inkomstenbelastingen" // SAME KEY
+
+Court codes:
+  "Ger.W." → "WETBOEK||gerechtelijk wetboek"
+  "Ger. W." → "WETBOEK||gerechtelijk wetboek"            // SAME KEY (spacing variant)
+  "Gerechtelijk Wetboek" → "WETBOEK||gerechtelijk wetboek" // SAME KEY
+
+Civil/Criminal codes:
+  "B.W." → "WETBOEK||burgerlijk wetboek"
+  "BW" → "WETBOEK||burgerlijk wetboek"                   // SAME KEY (no periods)
+  "S.W." → "WETBOEK||strafwetboek"
+  "SW" → "WETBOEK||strafwetboek"                         // SAME KEY
+\`\`\`
+
+**Normalization rule**: When creating the key, strip periods and normalize spacing.
+- If two acts have the same date and TYPE, check if names are abbreviation variants
+- Pattern: "X.Y.Z." = "XYZ" = "X.Y.Z" = "X Y Z"
+
 2. **Check registry and assign ACT-ID:**
 
 \`\`\`
@@ -360,6 +587,71 @@ If you have 3 unique acts in registry:
 
 Then your output should ONLY contain: ACT-...-001, ACT-...-002, ACT-...-003
 If you see ACT-...-004 → YOU FAILED (dedup error)
+\`\`\`
+
+### 4B. DEDUPLICATE ARTICLES (Article-Level Extraction)
+
+**CRITICAL**: Extract each unique article ONCE per parent act, regardless of how many times it's mentioned with different sub-divisions.
+
+**Principle**: One provision per unique (provisionNumberKey, parent act) pair.
+
+**Maintain an article registry:**
+\`\`\`
+articleRegistry = {}  // Maps (provisionNumberKey, parentActSequence) → boolean
+\`\`\`
+
+**For EACH article you extract:**
+
+1. **Calculate provisionNumberKey** (using the decision tree above)
+2. **Check if already extracted**:
+   \`\`\`
+   articleKey = provisionNumberKey + "|" + parentActSequence
+
+   if (articleRegistry[articleKey]) {
+     // SKIP - already extracted this article for this parent act
+     // Do NOT create another provision
+   } else {
+     // EXTRACT - first occurrence of this article
+     articleRegistry[articleKey] = true
+     // Create provision with current sub-division details
+   }
+   \`\`\`
+
+**Example scenario**:
+\`\`\`
+Source mentions:
+  "AVG artikel 6.1, onder b)" → key: 6.1, parent: AVG-001
+  "AVG artikel 6.1, onder c)" → key: 6.1, parent: AVG-001 [DUPLICATE]
+  "AVG artikel 6.1, onder e)" → key: 6.1, parent: AVG-001 [DUPLICATE]
+
+articleRegistry after processing:
+  "6.1|AVG-001" → true
+
+Expected output: 1 provision (first occurrence only)
+  {
+    "provisionNumber": "artikel 6.1, onder b)",  // Keep first occurrence details
+    "provisionNumberKey": "6.1",
+    "parentActSequence": 1
+  }
+
+❌ WRONG: Creating 3 provisions (one for b, one for c, one for e)
+✅ CORRECT: Creating 1 provision (article 6.1, first mention)
+\`\`\`
+
+**EXCEPTION - Treaty/GDPR decimals are NOT duplicates**:
+
+If parent act is a treaty/GDPR (CEDH, EVRM, GDPR, AVG, RGPD) AND the keys are different decimals:
+- "8.1" and "8.2" → BOTH extracted (different provisions)
+- "6.1, b)" and "6.1, c)" → ONE extracted (same provision 6.1, different letters)
+
+**Validation**: Before output, check for duplicate (provisionNumberKey, parentActSequence) pairs:
+\`\`\`
+uniquePairs = Set()
+for each provision:
+  pair = provision.provisionNumberKey + "|" + provision.parentActSequence
+  if (pair in uniquePairs):
+    ERROR - you have a duplicate article!
+  uniquePairs.add(pair)
 \`\`\`
 
 ### 5. MAINTAIN document order
@@ -489,21 +781,65 @@ Extract **the COMPLETE citation** exactly as written, preserving ALL qualifiers 
 
 ### provisionNumberKey (NORMALIZED)
 
-Keep only the article anchor needed to locate it in the table of contents. Drop sub-divisions:
+**Objective**: Extract the article anchor used in the act's table of contents.
 
-**Rules**:
-- Keep bis/ter/quater suffixes: "74bis" → \`"74bis"\`
-- Keep Roman.Arabic: "I.1" → \`"I.1"\`, "XX.99" → \`"XX.99"\`
-- Drop §, alinéa/lid, °, letters: "31, § 2, alinéa 1er" → \`"31"\`
-- Drop degrees and letters: "I.1, 1°, a)" → \`"I.1"\`
+**DECISION TREE** (check parent act FIRST):
 
-**Examples**:
+**STEP 1: Identify parent act type**
+
+Is this a TREATY or GDPR/AVG/RGPD?
+- Check parent act name for: CEDH, EVRM, ECHR, TFUE, TFEU, IVBPR, GDPR, AVG, RGPD, Verdrag, Traité, Convention
+
+→ **YES (Treaty/GDPR)**: Go to STEP 2A
+→ **NO (Belgian/EU law)**: Go to STEP 2B
+
+**STEP 2A: Treaty/GDPR decimal handling**
+
+Decimal notation (X.Y format like 8.1, 9.2, 4.7) represents DISTINCT ARTICLE NUMBERS in treaties.
+
+provisionNumberKey: **KEEP FULL DECIMAL**
+- "article 8.1 CEDH" → key: \`"8.1"\`
+- "article 9.2 EVRM" → key: \`"9.2"\`
+- "article 4.7 GDPR" → key: \`"4.7"\`
+- "artikel 6.1 AVG" → key: \`"6.1"\`
+
+**STEP 2B: Belgian/EU law handling**
+
+Check the number format:
+
+1. **Roman.Arabic** (I.1, XX.99, III.49)?
+   → These are ARTICLE NUMBERS in Belgian codes
+   → provisionNumberKey: **KEEP FULL NUMBER**
+   → "article I.1 du Code" → key: \`"I.1"\`
+
+2. **Arabic.Arabic** (8.1, 8.2) OR paragraph notation (§1, §2)?
+   → These are SUB-DIVISIONS (paragraph shorthand)
+   → provisionNumberKey: **DROP decimals, keep base only**
+   → "article 8, §1" → key: \`"8"\`
+
+3. **Slashed numbers** (1675/2, 1675/13)?
+   → These are ARTICLE NUMBERS
+   → provisionNumberKey: **KEEP FULL NUMBER**
+   → "artikel 1675/12" → key: \`"1675/12"\`
+
+4. **Suffixes** (74bis, 123ter, 87quater)?
+   → provisionNumberKey: **KEEP SUFFIX**
+   → "article 74bis" → key: \`"74bis"\`
+
+**STEP 3: Drop all sub-divisions**
+- Drop: §, alinéa, lid, °, letters (a/b/c)
+- Keep: article number only
+
+**Examples with decision tree**:
 \`\`\`
-"article 74bis, §2, alinéa 1er" → "74bis"
-"artikel 1675/12, §2, 3de lid" → "1675/12"
-"article I.1, 1°, a)" → "I.1"
-"artikel 31, § 2" → "31"
-"article XX.99, §2" → "XX.99"
+"article 8.1 CEDH" → Parent: treaty → STEP 2A → key: "8.1" ✅
+"article 9.2 EVRM" → Parent: treaty → STEP 2A → key: "9.2" ✅
+"article 6.1, b) AVG" → Parent: GDPR → STEP 2A → key: "6.1" ✅
+"article I.1, 1°, a) du Code" → Parent: Belgian code → Roman.Arabic → key: "I.1" ✅
+"artikel 1675/12, §2, 3de lid" → Parent: Belgian law → Slashed → key: "1675/12" ✅
+"article 74bis, §2, alinéa 1er" → Parent: Belgian law → Suffix → key: "74bis" ✅
+"artikel 31, § 2" → Parent: Belgian law → Plain number → key: "31" ✅
+"article XX.99, §2" → Parent: Belgian code → Roman.Arabic → key: "XX.99" ✅
 \`\`\`
 
 ---
@@ -580,13 +916,45 @@ Keep only the article anchor needed to locate it in the table of contents. Drop 
 
 ---
 
+## PREAMBLE CITATIONS ("Gelet op" / "Vu") - CLARIFIED RULE
+
+**Extract IF article numbers are present:**
+
+✅ **EXTRACT (article numbers present):**
+\`\`\`
+"Gelet op de wet van 15 juni 1935, artikelen 28 tot 32"
+→ Extract articles 28-32 (expand range)
+
+"Vu l'arrêté royal du 18 décembre 1986, notamment les articles 28 à 32"
+→ Extract articles 28-32 (expand range)
+
+"Gelet op de lois coordonnées du 18 juillet 1966, en particulier les articles 39 à 42"
+→ Extract articles 39-42 (expand range)
+
+"Vu la Constitution, notamment les articles 10, 11, 19 et 23"
+→ Extract all 4 articles (expand list)
+\`\`\`
+
+❌ **DO NOT EXTRACT (no article numbers):**
+\`\`\`
+"Gelet op de wet van 15 juni 1935 op het taalgebruik in gerechtszaken"
+→ Only act name, no articles specified
+
+"Vu la Constitution"
+→ No articles specified
+
+"Conform de Grondwet"
+→ No articles specified
+\`\`\`
+
+**Pattern recognition:**
+- "Gelet op [act name]" alone → SKIP (no articles)
+- "Gelet op [act name], artikel(en) [numbers]" → EXTRACT (articles specified)
+- Same for "Vu", "notamment", "en particulier", "inzonderheid"
+
+---
+
 ## NEGATIVE EXAMPLES (DO NOT EXTRACT)
-
-❌ "Gelet op de wet van 15 juni 1935 op het taalgebruik in gerechtszaken."
-   → No article cited, only act mentioned
-
-❌ "Conform de Grondwet"
-   → No article cited
 
 ❌ "Rechtsprekende met toepassing van artikel 1675/2 tot en met 1675/19 Ger. W."
    → ✅ Extract the range, but ❌ DO NOT extract "Ger.W." itself as separate provision
@@ -599,16 +967,47 @@ Keep only the article anchor needed to locate it in the table of contents. Drop 
 ## FINAL CHECKLIST
 
 Before outputting JSON, verify:
+
+### STEP 1: MANDATORY RANGE VERIFICATION
+
+**Did you find ANY article ranges in the document?**
+
+Search again for range patterns:
+- Dutch: "tot en met", "t.e.m.", "t/m", "tot", "van [art] tot [art]"
+- French: "à", "au", "de l'article X à Y"
+
+For EACH range pattern found:
+1. **Identify boundaries**: What are the start and end numbers?
+2. **Check for suffix**: Does the end number have bis/ter/quater?
+3. **Calculate expected count**:
+   - WITH suffix: (end - start) provisions + suffix variant
+     Example: "9 tot 15bis" = 9,10,11,12,13,14,15bis (7 provisions, NO plain 15)
+   - WITHOUT suffix: (end - start + 1) provisions
+     Example: "9 tot 15" = 9,10,11,12,13,14,15 (7 provisions)
+4. **Verify extraction**: Did you extract exactly that many provisions for this parent act?
+
+**If you found zero ranges**: Explicitly confirm "No article ranges detected"
+**If you found ranges but didn't expand**: GO BACK NOW and expand them
+
+### STEP 2: CORE VALIDATION
+
 - [ ] All provisions tied to article token + number + instrument
-- [ ] All ranges expanded (1675/2 tot en met 1675/19 → 18 provisions)
-- [ ] **Ranges with "bis/ter" suffix expanded correctly** (31 tot 37bis → includes 37 AND 37bis)
+- [ ] **Footnotes scanned** (provisions in footnotes are extracted)
+- [ ] **Preambles scanned** ("Gelet op [act], artikelen X-Y" → extract range)
 - [ ] All "lid" lists expanded (2de en 3de lid → 2 separate provisions)
 - [ ] All "alinéa" lists expanded (alinéas 1er et 2 → 2 provisions)
 - [ ] All degree/letter lists expanded (1° à 3° → 3 provisions; a), b), c) → 3 provisions)
+
+### STEP 3: ANTI-HALLUCINATION VERIFICATION
+
+- [ ] **NO degree sign concatenation** (article 17, 3° is NOT "article 173")
+  - Check: If you extracted article numbers >100, verify they exist in the act
+  - Pattern check: "X,Y°" should parse as article X, not XY
 - [ ] **NO hallucinated paragraphs from degree signs** (§1, 3° does NOT create §3)
 - [ ] **NO duplicate notations** (if source has "8.1", don't also create "lid 1")
+- [ ] **Treaty/GDPR decimals are separate provisions** (CEDH art. 8.1 and 8.2 are BOTH extracted, not deduplicated)
 - [ ] **All qualifiers preserved in \`provisionNumber\`** (if source has "§ 6, alinéa 1er", extraction must too)
-- [ ] All \`provisionNumberKey\` normalized per rules
+- [ ] All \`provisionNumberKey\` normalized per rules (keep treaty decimals: 8.1, drop Belgian paragraph decimals to 8)
 - [ ] Parent act classification correct (Ger.W. → WETBOEK, not WET; Werkloosheidsbesluit → KONINKLIJK_BESLUIT, not ANDERE)
 - [ ] All IDs copy exact \`decisionId\` with correct sequencing
 - [ ] **Same parent act shares SAME \`internalParentActId\`** (check normalization)
@@ -622,11 +1021,39 @@ Before outputting JSON, verify:
   - Look for article tokens: "art.", "article", "artikel"
   - Verify each one appears in your output
   - Special attention to:
+    * **Footnotes and endnotes** (check all footnote content for provisions)
+    * **Preambles** ("Gelet op", "Vu" with article numbers)
     * Constitutional references: "Grondwet", "Constitution" with article numbers
     * Abbreviated citations: "art. XX ACT-NAME" patterns
     * Parenthetical citations: "(art. YY)"
     * "voormeld artikel", "précité", "dudit article" references
   - If you find ANY article you didn't extract → ADD IT NOW
+
+### STEP 4: DEDUPLICATION VERIFICATION
+
+**Check for duplicate articles**:
+\`\`\`
+Create a set of (provisionNumberKey, parentActSequence) pairs
+For each provision in your output:
+  pair = provisionNumberKey + "|" + parentActSequence
+  If pair already in set:
+    ❌ DUPLICATE DETECTED - you extracted the same article twice!
+    → Keep FIRST occurrence only, remove this duplicate
+  Add pair to set
+\`\`\`
+
+**Check for abbreviation variants** (same act split across multiple IDs):
+\`\`\`
+For acts with same date:
+  Check if names could be abbreviation variants
+  Examples: "W.I.B. 1992" vs "WIB 1992" vs "W.B. 1992"
+  → Should share SAME parentActSequence
+\`\`\`
+
+**Final validation**:
+- [ ] No duplicate (provisionNumberKey, parentActSequence) pairs in output
+- [ ] Abbreviation variants (Ger.W. = Ger. W. = Gerechtelijk Wetboek) share same parent ID
+- [ ] Treaty/GDPR decimals (8.1, 8.2) treated as separate provisions (NOT duplicates)
 - [ ] Output is valid JSON only, no explanatory text
 
 ---

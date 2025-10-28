@@ -71,14 +71,14 @@ const config: JobConfig = {
    * Database Query Parameters
    *
    * Loaded from CSV test set file at runtime.
-   * Reuses comprehensive-197.csv initially for consistency.
+   * Using lowest-20-provisions.csv for targeted re-extraction of low-scoring decisions.
    */
   dbQueryParams: await (async () => {
     const testSet = await TestSetLoader.loadTestSet(
       "evals/test-sets/comprehensive-197.csv"
     );
     const summary = TestSetLoader.getSummary(testSet);
-    console.log(`📊 Provisions 2A test set: ${summary.total} decisions`);
+    console.log(`📊 Provisions 2A test set (LOWEST 20): ${summary.total} decisions`);
     console.log(`   Languages: ${JSON.stringify(summary.byLanguage)}`);
 
     // Show distribution by length category
@@ -103,7 +103,7 @@ const config: JobConfig = {
    */
   preprocessRow: await (async () => {
     const testSet = await TestSetLoader.loadTestSet(
-      "evals/test-sets/comprehensive-197.csv"
+      "evals/test-sets/lowest-20-provisions.csv"
     );
 
     // Create map for fast lookup: key = decision_id + language

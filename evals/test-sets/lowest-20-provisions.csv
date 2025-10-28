@@ -1,0 +1,21 @@
+decision_id,language_metadata,decision_type_ecli_code,decision_type_name,court_ecli_code,court_name,courtcategory,decision_date,md_length,length_category
+ECLI:BE:COPRIV:2011:ARR.20110323.1,FR,ARR,Arrêt,COPRIV,Commission pour la Protection de la Vie privée,,2011-03-23,39788,very_long
+ECLI:BE:GBAPD:2022:DEC.20221219.1,FR,DEC,Décision,GBAPD,Autorité de protection des données,,2022-12-19,44820,very_long
+ECLI:BE:CASS:2001:ARR.20010131.9,FR,ARR,Arrêt,CASS,Cour de cassation,,2001-01-31,18098,long
+ECLI:BE:GBAPD:2023:DEC.20230601.4,NL,DEC,Rechterlijke beslissing,GBAPD,Gegevensbeschermingsautoriteit,,2023-06-01,11528,long
+ECLI:BE:RVSCE:2025:ARR.263.454,NL,ARR,Arrest,RVSCE,,,2025-05-27,30061,very_long
+ECLI:BE:COPRIV:2018:AVIS.20180321.9,NL,AVIS,Advies,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2018-03-21,38813,very_long
+ECLI:BE:COHSAV:2017:ARR.20170322.10,FR,ARR,Arrêt,COHSAV,,,2017-03-22,6470,medium
+ECLI:BE:NTRCND:2006:ARR.20060106.8,NL,ARR,Arrest,NTRCND,,,2006-01-06,3169,medium
+ECLI:BE:CASS:2023:ARR.20230209.1F.1,FR,ARR,Arrêt,CASS,Cour de cassation,,2023-02-09,26130,long
+ECLI:BE:CTBRL:2014:ARR.20141106.14,NL,ARR,Arrest,CTBRL,Arbeidshof te Brussel,,2014-11-06,19752,long
+ECLI:BE:AHGNT:2010:JUG.20100205.2,NL,JUG,Vonnis,AHGNT,,,2010-02-05,39944,very_long
+ECLI:BE:AHANT:2004:ARR.20040603.3,NL,ARR,Arrest,AHANT,Arbeidshof te Antwerpen,,2004-06-03,23278,long
+ECLI:BE:GBAPD:2021:ARR.20210205.9,NL,ARR,Arrest,GBAPD,Gegevensbeschermingsautoriteit,,2021-02-05,34996,very_long
+ECLI:BE:COPRIV:2013:DEC.20131002.4,NL,DEC,Rechterlijke beslissing,COPRIV,Commissie voor de bescherming van de persoonlijke levenssfeer,,2013-10-02,36059,very_long
+ECLI:BE:EABRL:2020:ARR.20200924.2,NL,ARR,Arrest,EABRL,Nederlandstalige Rechtbank van Eerste Aanleg te Brussel,,2020-09-24,43365,very_long
+ECLI:BE:COVHDP:2009:DEC.20091117.10,FR,DEC,Décision,COVHDP,,,2009-11-17,8878,medium
+ECLI:BE:TTBRL:2012:ARR.20121115.4,FR,ARR,Arrêt,TTBRL,Tribunal du travail francophone de Bruxelles,,2012-11-15,26169,long
+ECLI:BE:HBGNT:2008:ARR.20081009.6,NL,ARR,Arrest,HBGNT,,,2008-10-09,14604,long
+ECLI:BE:GBAPD:2019:ARR.20190904.10,FR,ARR,Arrêt,GBAPD,Autorité de protection des données,,2019-09-04,11375,long
+ECLI:BE:CTMON:2006:ARR.20060824.3,FR,ARR,Arrêt,CTMON,Cour du travail de Mons,,2006-08-24,36661,very_long

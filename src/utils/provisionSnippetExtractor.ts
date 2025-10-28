@@ -43,11 +43,11 @@ export interface SnippetCandidate {
  */
 export function extractCandidateSnippets(
   fullText: string,
-  contextWindow: number = 75
+  contextWindow: number = 200
 ): SnippetCandidate[] {
   // Pattern 1: "article 1382 du Code civil", "artikel 6, §1 van de Grondwet"
   // Captures: article keyword + number + optional §/paragraph + parent act within 160 chars
-  const patternArticleWithSource = /(?:(art\.?|artikel|articles?|artikelen?|article)\s*[0-9][0-9a-zA-Z./-]*(?:\s*(?:§+|§|par(?:a|.)?graphe?|lid|alin[eé]a)\s*\d+)?(?:\s*,?\s*(?:§+|§|par(?:a|.)?graphe?|lid|alin[eé]a)\s*\d+)?(?:\s*(?:,|\bet\b|\ben\b)\s*[0-9][0-9a-zA-Z./-]*(?:\s*(?:§+|§|par(?:a|.)?graphe?|lid|alin[eé]a)\s*\d+)?)*[^.\n]{0,160}?(Code|Wet|Loi|Grondwet|Constitution|C\.C\.|C\.P\.|C\.I\.C\.|C\.J\.|C\.Com\.|C\.\s*Const\.|B\.W\.|Sw\.|W\.?\s*Sv\.|Ger\.?\s*W\.|Gw\.|VenW\.|AR|A\.R\.|K\.B\.|KB|Koninklijk\s+besluit|Arr[êe]t|Arrêt[ée]?|Verordening|R[eè]glement|Regulation|Richtlijn|Directive|CEDH|EVRM|TFUE|TFEU|TUE|VWEU|WIB|Btw-Wetboek|loi\s+du\s+\d{1,2}\s+\w+\s+\d{4}|wet\s+van\s+\d{1,2}\s+\w+\s+\d{4}|loi\s+spéciale))/gmi; 
+  const patternArticleWithSource = /(?:(art\.?|artikel|articles?|artikelen?|article)\s*[0-9][0-9a-zA-Z./-°]*(?:\s*(?:§+|§|par(?:a|.)?graphe?|lid|alin[eé]a)\s*\d+)?(?:\s*,?\s*(?:§+|§|par(?:a|.)?graphe?|lid|alin[eé]a)\s*\d+)?(?:\s*(?:,|\bet\b|\ben\b)\s*[0-9][0-9a-zA-Z./-°]*(?:\s*(?:§+|§|par(?:a|.)?graphe?|lid|alin[eé]a)\s*\d+)?)*[^.\n]{0,160}?(Code|Wet|Loi|Grondwet|Constitution|C\.C\.|C\.P\.|C\.I\.C\.|C\.J\.|C\.Com\.|C\.\s*Const\.|B\.W\.|Sw\.|W\.?\s*Sv\.|Ger\.?\s*W\.|Gw\.|VenW\.|AR|A\.R\.|K\.B\.|KB|Koninklijk\s+besluit|Arr[êe]t|Arrêt[ée]?|Verordening|R[eè]glement|Regulation|Richtlijn|Directive|CEDH|EVRM|TFUE|TFEU|TUE|VWEU|WIB|Btw-Wetboek|loi\s+du\s+\d{1,2}\s+\w+\s+\d{4}|wet\s+van\s+\d{1,2}\s+\w+\s+\d{4}|loi\s+spéciale))/gmi; 
   
   // Pattern 2: "artikel 6, §1 EVRM", "article 101(1) TFUE"
   // Treaty/ECHR style references with explicit treaty acronym

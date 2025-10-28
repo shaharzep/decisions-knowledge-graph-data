@@ -166,7 +166,7 @@ export async function runEvaluation(
   console.log(`\n🎯 Evaluating ${evaluationInputs.length} decisions...\n`);
 
   // Determine concurrency
-  const concurrency = options.parallelWorkers || 50; // Default to 5 parallel workers
+  const concurrency = 100; // Default to 5 parallel workers
   console.log(`   Using ${concurrency} parallel workers\n`);
 
   // Run evaluations in parallel batches

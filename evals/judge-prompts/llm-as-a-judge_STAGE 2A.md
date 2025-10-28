@@ -18,31 +18,68 @@ You are evaluating whether provision extraction is production-ready. Compare EXT
 
 Non-priority field: provisionNumber (verbatim formatting is MINOR unless it breaks the key)
 
-## ARTICLE-LEVEL EXTRACTION PHILOSOPHY
+## ARTICLE-LEVEL EXTRACTION PHILOSOPHY (v3.3 - Decimal Notation Fix)
 
-**Critical change:** Extraction now uses article-level deduplication.
+**Critical change:** Extraction uses article-level deduplication **EXCEPT for decimal-numbered treaty/GDPR provisions**.
 
 **Key principle:** One provision per unique article per parent act.
 - Deduplication key: `provisionNumberKey + parentActSequence`
 - First occurrence only: Keep first mention, skip subsequent mentions of same article
 
+**EXCEPTION - Treaty/GDPR Decimal Provisions:**
+
+Decimal notation in international treaties represents DISTINCT PROVISIONS, not sub-divisions:
+- CEDH/EVRM: article 8.1 ≠ article 8.2 (different provisions with different legal effects)
+- GDPR/AVG/RGPD: article 4.1 ≠ article 4.2 ≠ article 4.7 (different definitions)
+- Each decimal is a SEPARATE provision that should be extracted separately
+
 **Examples:**
+
+✅ **CORRECT (Belgian law sub-provisions → deduplicate):**
 ```
 Source: "artikel 98, 2° van de WOG... artikel 98, 3° van de WOG..."
 Expected: 1 provision (article 98 from WOG)
 Extracted: "artikel 98, 2°" (first occurrence)
+provisionNumberKey: "98"
 Match: YES ✅ (same article, same parent act)
-
-Source: "artikel 98 van de WOG... artikel 99 van de WOG..."
-Expected: 2 provisions (different articles)
-Extracted: "artikel 98" and "artikel 99"
-Match: YES ✅
 ```
+
+✅ **CORRECT (Treaty decimals → separate provisions, NO deduplication):**
+```
+Source: "article 8.1 CEDH... article 8.2 CEDH..."
+Expected: 2 provisions (different treaty articles)
+Extracted: "article 8.1 CEDH" AND "article 8.2 CEDH"
+provisionNumberKey: "8.1" and "8.2"
+Match: YES ✅ (distinct provisions, correctly extracted)
+```
+
+✅ **CORRECT (Belgian code decimals → article numbers, separate provisions):**
+```
+Source: "article I.1 du Code... article I.2 du Code..."
+Expected: 2 provisions (different articles)
+Extracted: "article I.1" AND "article I.2"
+provisionNumberKey: "I.1" and "I.2"
+Match: YES ✅ (distinct article numbers)
+```
+
+❌ **WRONG (Treaty decimals penalized as duplicates - DO NOT DO THIS):**
+```
+Source: "article 8.1 CEDH... article 8.2 CEDH..."
+Extracted: "article 8.1" AND "article 8.2"
+Judge penalty: "Article-level deduplication breach"
+This is INCORRECT - do NOT penalize treaty decimals as duplicates
+```
+
+**How to identify treaty/GDPR decimals:**
+- Parent act is: CEDH, EVRM, ECHR, TFUE, TFEU, IVBPR, GDPR, AVG, RGPD
+- Decimal notation: X.Y format
+- These are distinct provisions → DO NOT count as duplicates
 
 **Implications for evaluation:**
 - Count unique ARTICLES (not sub-provision mentions)
 - Match on `provisionNumberKey + parentActSequence`
 - Multiple mentions of same article = 1 expected provision
+- **EXCEPT: Treaty/GDPR decimals are separate provisions (not duplicates)**
 
 **parentActName cosmetic variations (ACCEPTABLE - do not penalize):**
 - Trailing punctuation: "B.W." vs "B.W._" (acceptable)
@@ -170,9 +207,21 @@ precision = matched / extracted
 
 **Anti-pattern validation:**
 - ✅ CORRECT: No duplicate (provisionNumberKey + parentActSequence) pairs
+  - **EXCEPTION:** Treaty/GDPR decimals (8.1, 8.2 from CEDH) are NOT duplicates
 - ❌ WRONG: Multiple provisions with same (key + parentActSequence)
+  - **EXCEPTION:** If parent is treaty/GDPR and keys are 8.1, 8.2 → NOT wrong (distinct provisions)
 
-If duplicates found → Flag as MAJOR issue "Article-level deduplication failure"
+**Deduplication check logic:**
+```
+For each pair of provisions with same parentActSequence:
+  1. Check if parent act is treaty/GDPR (CEDH, EVRM, GDPR, AVG, RGPD, TFUE, IVBPR)
+  2. If YES and both have decimal notation (X.Y format):
+     → These are DISTINCT provisions, NOT duplicates (skip dedup check)
+  3. If NO or no decimal notation:
+     → Apply normal dedup: same provisionNumberKey = duplicate (flag as MAJOR)
+```
+
+If duplicates found (excluding treaty decimal exception) → Flag as MAJOR issue "Article-level deduplication failure"
 
 ## Output format
 Return JSON only:
@@ -215,9 +264,9 @@ Start at 100:
 - If any CRITICAL, cap at 59
 - MAJOR: −12 each (cap −36)
 - MINOR: −2 each (cap −8)
-- recall < 0.90: −15  (NOTE: Changed from 0.95 to account for article-level matching)
+- recall < 0.90: −15  (NOTE: For long documents >30k chars, use 0.85 threshold instead)
 - precision < 0.85: −10  (NOTE: Changed from 0.90 to account for deduplication)
-- Article-level dedup failure (duplicates present): −15
+- Article-level dedup failure (duplicates present, excluding treaty decimal exception): −15
 Additional priorities:
 - Any provisionNumberKey error: −10 (one time)
 - parentActDate clearly wrong (not just null): −8

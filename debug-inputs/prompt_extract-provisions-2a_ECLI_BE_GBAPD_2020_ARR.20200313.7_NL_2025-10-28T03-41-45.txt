@@ -1,12 +1,18 @@
-/**
- * Provisions Extraction Prompt - Stage 2A (UPDATED v3.2)
- *
- * Optimized for: GPT-5-mini with structured outputs
- * Focus: 100% completeness, zero hallucinations, correct IDs
- * Updates: Fixed ID construction, deduplication logic, draft law handling
- */
+════════════════════════════════════════════════════════════════════════════════
+DEBUG PROMPT GENERATION
+════════════════════════════════════════════════════════════════════════════════
 
-export const PROVISIONS_2A_PROMPT = `## ROLE
+Job Type:     extract-provisions-2a
+Decision ID:  ECLI:BE:GBAPD:2020:ARR.20200313.7
+Language:     NL
+Generated:    2025-10-28T03:41:45.643Z
+Prompt Size:  78866 characters
+
+════════════════════════════════════════════════════════════════════════════════
+PROMPT CONTENT
+════════════════════════════════════════════════════════════════════════════════
+
+## ROLE
 You are a specialized legal AI assistant extracting cited legal provisions from Belgian judicial decisions (French or Dutch). This is Stage 2A: ESSENTIAL METADATA ONLY.
 
 ## PRIMARY OBJECTIVE
@@ -17,13 +23,126 @@ Extract EVERY cited provision with PERFECT ACCURACY and correct sequencing.
 - **SEQUENCING**: wrong sequence numbers or deduplication = FAIL
 
 ## INPUT
-1. **decisionId**: {decisionId} — for reference only (you won't use this directly)
-2. **proceduralLanguage**: {proceduralLanguage} — FR or NL
+1. **decisionId**: ECLI:BE:GBAPD:2020:ARR.20200313.7 — for reference only (you won't use this directly)
+2. **proceduralLanguage**: NL — FR or NL
 3. **fullText.markdown**:
-{fullText.markdown}
+Advies nr. 24/2020 van 13 maart 2020
+
+Betreft: Adviesaanvraag met betrekking tot het:
+
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest (artikelen 3 tot 10)
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest met betrekking tot de personen bedoeld in artikel 27/1 van diezelfde ordonnantie (artikelen 4 tot 11)
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (artikelen 4 tot 11)
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 (artikelen 3 tot 10)
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure (artikelen 3 tot 10)
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure betreffende de personen als bedoeld in artikel 75, eerste lid, van dezelfde ordonnantie (artikelen 4 tot 11) (CO-A-2020-009)
+
+---
+
+De Gegevensbeschermingsautoriteit (hierna "de Autoriteit");
+
+Gelet op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, inzonderheid op artikel 23 en 26 (hierna "WOG");
+
+Gelet op de Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (algemene verordening gegevensbescherming) (hierna "AVG");
+
+Gelet op de wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens (hierna "WVG");
+
+Gelet op de adviesaanvragen van de Minister van het Brussels Hoofdstedelijk Gewest belast met Financiën en Begroting, Ambtenarenzaken en Meertaligheid, de heer Sven Gatz, ontvangen op 16, 20 en 29 januari 2020;
+
+Gelet op de bijkomende informatie ontvangen op 27 januari 2020;
+
+Gelet op het verslag van mevrouw Alexandra Jaspar, Directeur van het Kenniscentrum van de Gegevensbeschermingsautoriteit ;
+
+Brengt op 13 maart 2020 het volgend, advies uit:
+
+# I. ONDERWERP EN CONTEXT VAN DE ADVIESAANVRAAG 
+
+1. de Minister van het Brussels Hoofdstedelijk Gewest belast met Financiën en Begroting, Ambtenarenzaken en Meertaligheid, de heer Sven Gatz, (hierna "de aanvrager") vroeg op 16, 20 en 29 januari 2020, het advies van de Autoriteit over 6 voorontwerpen van besluit van de Brusselse Hoofdstedelijke Regering (hierna "de ontwerpen"):
+
+- Een voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest (hierna " het ontwerp 1")
+- Een voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest met betrekking tot de personen bedoeld in artikel 27/1 van diezelfde ordonnantie (hierna "het ontwerp 2")
+
+---
+
+- Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 (hierna "het ontwerp 3")
+- Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 vaan het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (hierna "het ontwerp 4")
+- Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot en met 71 van de ordonnantie van 6 december 2019 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest (hierna " het ontwerp 5")
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure betreffende de personen als bedoeld in artikel 75, eerste lid, van dezelfde ordonnantie ("het ontwerp 6")
+
+2. Deze ontwerpen geven uitvoering aan wettelijke bepalingen die voorzien in een gegevensstroom tussen de Brusselse fiscus en de notarissen en andere personen die gemachtigd zijn om een authentieke akte op te stellen om de invordering mogelijk te maken van belastingschulden aan het Brussels Hoofdstedelijk Gewest van partijen bij een authentieke akte met het oog op de vervreemding of hypothecaire aanwending van een voor hypotheek vatbaar goed. Deze invorderingsmethode wordt de "4de weg" genoemd.
+3. De artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen (hierna "WIB 1992"), de artikelen 24 tot $27 / 2$ van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest alsook de artikelen 69 tot 71 van de ordonnantie van 6 maart 2019 betreffende de Brusselse Codex fiscale procedure, bepalen het volgende:
+a) De notarissen of andere gemachtigde personen die gevorderd zijn om een akte op te maken die de vervreemding of de hypothecaire aanwending van een onroerend goed, van een schip of een vaartuig tot voorwerp heeft, moeten deze vordering bekend maken aan de fiscale administratie van het Brussels hoofdstedelijk Gewest (bij gebrek hieraan, zijn zij persoonlijk aansprakelijk voor de betaling der gewestbelastingen en bijbehoren die tot een hypothecaire inschrijving aanleiding kunnen geven) (artikel 24 van de ordonnantie van 21 december 2012, artikel 433 WIB 1992 en artikel 69 van de ordonnantie van 6 maart 2019.
+b) De fiscale administratie beschikt over een termijn van 12 dagen om de notaris kennis te geven van het bedrag van de gewestbelastingen en bijbehoren die aanleiding kunnen geven tot inschrijving van de wettelijke hypotheek van het Gewest op de goederen welke het voorwerp van
+
+---
+
+de akte zijn ${ }^{1}$ (artikel 25 van de ordonnantie van 21 december 2012, artikel WIB 1992 en artikel 70 van de ordonnantie van 6 maart 2019).
+c) Wanneer de bedoelde akte verleden is, geldt de kennisgeving als derdenbeslag in handen van de notaris of van de persoon die gemachtigd is om een authentieke akte op te maken (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019).
+d) indien de aldus door beslag onder derden getroffen sommen en waarden minder bedragen dan het totaal der sommen verschuldigd aan de ingeschreven schuldeisers en aan de verzetdoende schuldeisers, moet de notaris of de gemachtigde persoon, op straffe van persoonlijke aansprakelijkheid voor het overschot, daarover, de Brusselse fiscale administratie inlichten, uiterlijk de eerste werkdag die volgt op het verlijden van de akte (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019).
+4. De voormelde wettelijke bepalingen delegeren de bevoegdheid om de toepassingsvoorwaarden van deze verschillende artikelen te bepalen aan de Regering van het Brussels Hoofdstedelijk Gewest. De ontwerpen die voor advies aan de Autoriteit worden voorgelegd, voorzien in de uitvoering van deze wettelijke bepalingen. Zo bepalen de ontwerpen onder andere de volgende elementen:
+
+- De inlichtingen die krachtens de artikelen 24 van de ordonnantie van 21 december 2012, 433 van het WIB en 70 van de ordonnantie van 6 maar 2019, moeten wordt verzonden naar de fiscale administratie door alle notarissen of de personen die gemachtigd zijn om een authentieke akte op te maken, die gevorderd zijn om een akte op te maken die de vervreemding of de hypothecaire aanwending van een onroerend goed, van een schip of een vaartuig tot voorwerp heeft ("het bericht" als bedoeld in de ontwerpen);
+- De inlichtingen die de fiscale administratie verstuurt, krachtens de artikelen 25 van de ordonnantie van 21 december 2012, 434 van het WIB 1992 en 70 van de ordonnantie van 6 maart 2019, aan de notaris of de gemachtigde persoon om een authentieke akte op te maken binnen de 12 werkdagen volgend op het "advies" (de kennisgeving", als bedoeld in de ontwerpen);
+- De inlichtingen die de notaris of de gemachtigde persoon om een authentieke akte op te maken, krachtens de artikelen 26 van de ordonnantie van 21 december 2012, 435 van het WIB 1992 en 71 van de ordonnantie van 6 maart 2019, aan de fiscale administratie moet
+
+[^0]
+[^0]:    ${ }^{1}$ De wettelijke bepalingen bepalen immers dat het Brussels Hoofdstedelijk Gewest een wettelijke hypotheek kan nemen op de onroerende goederen van de schuldenaar. Zie artikel 17 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest dat bepaalt " Voor de inning van de gewestbelasting, de intresten en de verhogingen, (...) over een wettelijke hypotheek op alle goederen toebehorend aan de belastingplichtige en gelegen op het grondgebied van België en waarop hypotheek kan worden gevestigd (...)". Zie ook artikel 427 van het WIB 1992 dat bepaalt De hypotheek wordt ingeschreven op verzoek van de statutaire of contractuele ambtenaar die hiertoe gemachtigd is door de Regering van de het Brussels Hoofdstedelijk Gewest (...) ${ }^{\prime}$. .
+
+---
+
+overmaken in het geval de door beslag onder derden getroffen, sommen en waarden in handen van de notaris of van de persoon die gemachtigd is om een authentieke akte op te maken, minder bedragen dan het totaal der sommen verschuldigd aan de ingeschreven schuldeisers en aan de verzetdoende schuldeisers ("de inlichting" als bedoeld in de ontwerpen);
+
+- De manieren waarop een elektronische handtekening moet worden opgenomen in de "kennisgeving" opdat deze kan resulteren in een geldig beslag onder derden;
+- De manieren waarop de betrokken personen, waarop de verzending van het bericht, kennisgeving en inlichtingen betrekking hebben, geïdentificeerd worden;
+- De identificatie van de verwerkingsverantwoordelijken;
+- De identificatie van de bewaartermijnen van de persoonsgegevens;
+- De verplichting om de oorsprong en de integriteit van de inhoud van de berichten, kennisgevingen en inlichtingen te waarborgen bij een verzending door middel van een procedure met behulp van computertechnologie.
+
+# II. ONDERZOEK VAN DE ADVIESAANVRAAG 
+
+5. De ontwerpen bepalen de gegevens die notarissen en andere personen die gemachtigd zijn om authentieke akten op te maken, moeten uitwisselen met de Brusselse fiscale administratie ter uitvoering van de wettelijke bepalingen als voorzien in "de 4de weg ", alsook de identiteit van de verantwoordelijken voor de verwerking en de bewaartermijnen.
+6. Zoals de Autoriteit al herhaaldelijk ${ }^{2}$ heeft kunnen in herinnering brengen, vereisen de in artikel 8 van het EVRM en artikel 22 van de Grondwet vastgelegde beginselen van transparantie en wettigheid dat in een wet, decreet of besluit duidelijk wordt bepaald onder welke omstandigheden de verwerking van persoonsgegevens is toegestaan ${ }^{3}$. Wanneer de verwerking berust op een rechtsgrond van nationaal recht, eist artikel 6.3 van de AVG eveneens specifiek dat de doeleinden ervan in deze rechtsgrond worden gedefinieerd. De doeleinden van de verwerking en de gevallen waarin en de voorwaarden waaronder persoonsgegevens worden verwerkt, moeten worden vastgelegd in een norm die volgens de jurisprudentie van het Hof van Justitie van de Europese Unie en het Europees Hof voor de Rechten van de Mens duidelijk, nauwkeurig en voorspelbaar moet zijn voor de burgers.
+7. Om te voldoen aan de vereiste van duidelijkheid, nauwkeurigheid en voorspelbaarheid van de norm, is de Autoriteit van mening dat de aanvrager de volgende wijzigingen moet aanbrengen in Ontwerp:
+
+## a) Aangaande het doeleinde
+
+[^0]
+[^0]:    ${ }^{2}$ Zie onder meer, Advies van de GBA nr. 65/2019 van 27 februari 2019 betreffende een ontwerp van samenwerkingsakkoord tot wijziging van het samenwerkingsakkoord van 23 mei 2013 tussen het Waals Gewest en de Franse Gemeenschap betreffende de uitwerking van een gemeenschappelijk initiatief inzake gegevensdeling en het gezamenlijk beheer van dit initiatief, punten 5-6.
+    ${ }^{3}$ In die zin, lees Grondwettelijk Hof, Arrest nr. 29/2018 van 15 maart 2018, punten B. 9 en v. en punt B.13.3 in het bijzonder.
+
+---
+
+8. De ontwerpen definiëren het doeleinde niet van de gegevensverwerking die zij organiseren, omdat dit doel volgens de aanvrager is vastgelegd in de wettelijke bepalingen die door de ontwerpen worden uitgevoerd. De Autoriteit merkt echter op dat, in tegenstelling tot wat de aanvrager beweert, deze wettelijke bepalingen het doeleinde van de verwerkingen die zij invoeren, niet uitdrukkelijk omschrijven. Dit doeleinde kan vermoedelijk worden afgeleid uit de opzet van deze wettelijke bepalingen. Het lijkt er immers op dat het Gewest zijn wettelijke hypotheek moet kunnen behouden en een hypothecaire inschrijving moet kunnen afsluiten wanneer zijn belangen dat vereisen. Een dergelijk doeleinde is welomschreven en gerechtvaardigd, maar het is niet "uitdrukkelijk", terwijl artikel 5.1. b) en artikel 6.3 van de AVG vereisen dat het doeleinde van de verwerking op basis van het nationale recht uitdrukkelijk omschreven moet zijn. De Autoriteit verzoekt de aanvrager daarom het doeleinde van de ontwerpen nauwkeurig te omschrijven.
+
+# b) Aangaande de categorieën van verwerkte gegevens 
+
+9. De Autoriteit merkt op dat de verschillende categorieën gegevens die in de "berichten", "kennisgevingen" en "inlichtingen" moeten worden opgenomen, voldoen aan het beginsel van de minimale gegevensverwerking dat is opgelegd door artikel 5.1. c) van de AVG, met uitzondering van de categorie "beschrijving van het goed", die te vaag is en niet noodzakelijk is voor het nagestreefde doel. De gegevens "aard", "volledig adres", "oppervlakte" en "kadastergegevens" volstaan immers om het betrokken onroerend goed te identificeren om het nagestreefde doeleinde te kunnen bereiken via de uitwisseling van gegevens in het kader van de "berichten", de "kennisgevingen" en de "inlichtingen".
+
+## c) Aangaande de aanduiding van de verwerkingsverantwoordelijke
+
+10. De ontwerpen duiden de GOBF en de notaris "elk voor wat hem betreft" aan als verwerkingsverantwoordelijke van de gegevens die worden uitgewisseld voor de uitvoering van de ontwerpen. De Autoriteit neemt nota van deze aanduiding. Zij benadrukt echter de noodzaak om nader te omschrijven met welke gegevensverwerkingen deze aanduiding in verband staat.
+
+## d) Aangaande de duur van de machtiging
+
+11. De Autoriteit stelt vast dat de ontwerpen het volgende bepalen :"De in het kader van de verzending van de berichten, kennisgevingen en inlichtingen uitgewisselde persoonsgegevens worden door de verwerkingsverantwoordelijken bewaard gedurende de termijn die nodig is voor de vervulling van hun respectieve taken. Voor de GOBF mag deze termijn in ieder geval de twintig jaren vanaf de eerste dag van de derde maand volgend op het bericht niet overschrijden. Voor de notaris mag deze termijn in ieder geval de dertig jaren vanaf het verlijden van de authentieke akte niet overschrijden».
+
+---
+
+12. De Autoriteit neemt hier nota van, maar benadrukt dat de bewaartermijn restrictiever moet worden gedefinieerd, in overeenstemming met het vereiste van artikel 5.1.e) van de AVG. Zo wordt de aanvrager verzocht om de woorden "gedurende de termijn die nodig is voor de vervulling van hun respectieve takerf te vervangen door de woorden "gedurende de termijn die nodig is om het nagestreefde doeleinde te bereiken met de gegevensuitwisselingen in het kader van het verzenden van de berichten, kennisgevingen en inlichtingen».
+
+# OM DIE REDENEN, 
+
+## is de Autoriteit van mening dat de aanvrager het ontwerp als volgt moet aanpassen:
+
+- het doeleinde vermelden dat wordt nagestreefd met de gegevensuitwisselingen in het kader van de verzending van berichten, kennisgevingen en inlichtingen (punt 8);
+- de "beschrijving van het goed" schrappen uit de inlichtingen die moeten worden opgenomen in de "berichten", "kennisgevingen" en "inlichtingen" (punt 9);
+- de gegevensverwerkingen nader omschrijven waarvoor de ontwerpen de GOBF en de notaris aanduiden als verwerkingsverantwoordelijke (punt 10);
+- de bewaartermijn beter omschrijven van de gegevensuitwisselingen in het kader van de verzending van berichten, kennisgevingen, inlichtingen door de woorden te vervangen "gedurende de termijn die nodig is voor de vervulling van hun respectieve takerf door de woorden "gedurende de termijn die nodig is om het nagestreefde doeleinde te bereiken met de gegevensuitwisselingen in het kader van het verzenden van de berichten, kennisgevingen en inlichtingen » (punt 12).
+(get.) Alexandra Jaspar
+Directeur van het Kenniscentrum
 
 ## OUTPUT SCHEMA
-\`\`\`json
+```json
 {
   "citedProvisions": [
     {
@@ -40,7 +159,7 @@ Extract EVERY cited provision with PERFECT ACCURACY and correct sequencing.
     }
   ]
 }
-\`\`\`
+```
 
 **Note**: You output simple integer sequences. The full IDs (ART-xxx-001, ACT-xxx-001) are constructed automatically afterward.
 
@@ -65,13 +184,13 @@ Extract ONLY when **BOTH conditions are met**:
 The degree sign (°) indicates a POINT or ITEM within an article or paragraph. It is NEVER part of the article number or paragraph number.
 
 **Type A: Paragraph hallucination**
-\`\`\`
+```
 Source: "article 4, § 1er, 3°"
 ❌ DO NOT create: "article 4, § 3" (3° means POINT 3 within §1, NOT paragraph 3)
-\`\`\`
+```
 
 **Type B: Article number concatenation (CRITICAL HALLUCINATION)**
-\`\`\`
+```
 Source: "article 17, 3°, a)"
 ❌ WRONG: Reading as "article 173, a)" (concatenated 17 + 3°)
 ✅ CORRECT: "article 17, 3°, a)" where:
@@ -79,7 +198,7 @@ Source: "article 17, 3°, a)"
   - Point: 3°
   - Sub-point: a)
   - provisionNumberKey: "17" (NOT "173")
-\`\`\`
+```
 
 **Parsing rule**: The degree sign creates a boundary - never merge numbers across it.
 - "17, 3°" = article 17, point 3 (NOT article 173)
@@ -92,22 +211,22 @@ Source: "article 17, 3°, a)"
 3. If the act only has ~50 articles, "article 173" is likely a parsing error
 
 **Pattern 2: Decimal notation duplication**
-\`\`\`
+```
 Source: "art. 8.1 en 8.2"
 ✅ Extract: "art. 8.1" and "art. 8.2"
 ❌ DO NOT also create: "art. 8, lid 1" or "art. 8, lid 2" (duplicates in different notation)
 ❌ DO NOT create: "art. 8, lid 5" (no lid notation in source at all)
-\`\`\`
+```
 
 **Pattern 3: Comma in compact notation**
-\`\`\`
+```
 Source: "§2,3de lid"
 ✅ Means: "§2, 3rd paragraph" (3de modifies lid, not §)
 ❌ DO NOT create: "§3" (hallucination)
-\`\`\`
+```
 
 **Pattern 4: Draft laws vs enacted laws**
-\`\`\`
+```
 Source: "Het wetsontwerp tot wijziging van de wet van 8 augustus 1983... artikel 3 van deze wet"
 
 Context clues:
@@ -122,7 +241,7 @@ Context clues:
 1. Identify the BASE LAW being amended
 2. Use the BASE LAW as parentActName
 3. Ignore the draft law wrapper
-\`\`\`
+```
 
 **Verification**: For every provision extracted, the exact article number + notation pattern must appear in the source text.
 
@@ -144,7 +263,7 @@ Context clues:
 ### LONG DOCUMENT PROTOCOL (for documents >30k chars)
 
 **Pass 1: Section-by-Section Marking (IDENTIFICATION PHASE)**
-\`\`\`
+```
 Do NOT extract yet - just identify and mark locations.
 
 Divide document into logical sections:
@@ -163,10 +282,10 @@ For EACH section:
 - Do NOT extract yet - just create mental map
 
 This creates a complete inventory of WHERE provisions appear.
-\`\`\`
+```
 
 **Pass 2: Focused Extraction (EXTRACTION PHASE)**
-\`\`\`
+```
 Now return to EACH marked location and extract:
 
 - Go back to marked section
@@ -176,13 +295,45 @@ Now return to EACH marked location and extract:
 - Process one section at a time to maintain focus
 
 This ensures accurate extraction with full context.
-\`\`\`
+```
 
 **Pass 3: Snippet Cross-Verification (VALIDATION PHASE)**
-\`\`\`
+```
 Use the provided snippets as safety net:
 
-For EACH snippet in {provisionSnippets}:
+For EACH snippet in [1] char 177-327: "aart 2020 Betreft: Adviesaanvraag met betrekking tot het: - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest (artikelen 3 tot 10) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnan"
+[2] char 624-666: "nantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest met betrekking tot de personen bedoeld in artikel 27/1 van diezelfde ordonnantie (artikelen 4 tot 11) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van"
+[3] char 774-807: "artikel 27/1 van diezelfde ordonnantie (artikelen 4 tot 11) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (artikelen 4 tot 11) - Voorontwerp van besl"
+[4] char 880-909: "fdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (artikelen 4 tot 11) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetb"
+[5] char 1025-1058: "d in artikel 439 van hetzelfde Wetboek (artikelen 4 tot 11) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 (artikelen 3 tot 10) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de a"
+[6] char 1207-1256: "tboek van de inkomstenbelastingen 1992 (artikelen 3 tot 10) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure (artikelen 3 tot 10) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot u"
+[7] char 1423-1472: "e de Brusselse Codex Fiscale Procedure (artikelen 3 tot 10) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure betreffende de personen als bedoeld in artikel 75, eerste lid, van dezelfde ordonnantie (artik"
+[8] char 1567-1619: "an de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure betreffende de personen als bedoeld in artikel 75, eerste lid, van dezelfde ordonnantie (artikelen 4 tot 11) (CO-A-2020-009) --- De Gegevensbeschermingsautoriteit (hierna "de Autoriteit"); Gelet op de wet van 3 december 2017 tot oprichtin"
+[9] char 3910-3943: "an diezelfde ordonnantie (hierna "het ontwerp 2") --- - Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 (hierna "het ontwerp 3") - Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering"
+[10] char 4100-4134: "n de inkomstenbelastingen 1992 (hierna "het ontwerp 3") - Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 vaan het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (hierna "het ontwerp 4") - Een Voorontwerp"
+[11] char 4207-4236: "dstedelijke Regering tot uitvoering van de artikelen 433 tot 435 vaan het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (hierna "het ontwerp 4") - Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot en met 71"
+[12] char 4622-4671: "et Brussels Hoofdstedelijk Gewest (hierna " het ontwerp 5") - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure betreffende de personen als bedoeld in artikel 75, eerste lid, van dezelfde ordonnantie ("het"
+[13] char 5340-5373: "het oog op de vervreemding of hypothecaire aanwending van een voor hypotheek vatbaar goed. Deze invorderingsmethode wordt de "4de weg" genoemd. 3. De artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen (hierna "WIB 1992"), de artikelen 24 tot $27 / 2$ van de ordonnantie van 21 december 2012 tot vaststelling van de fis"
+[14] char 5430-5588: "Deze invorderingsmethode wordt de "4de weg" genoemd. 3. De artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen (hierna "WIB 1992"), de artikelen 24 tot $27 / 2$ van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest alsook de artikelen 69 tot 71 van de ordonnantie van 6 maart 2019 betreffende de Brusselse Codex fiscale procedure, bepalen het volgende: a) De notarissen of ande"
+[15] char 5633-5671: "ecember 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest alsook de artikelen 69 tot 71 van de ordonnantie van 6 maart 2019 betreffende de Brusselse Codex fiscale procedure, bepalen het volgende: a) De notarissen of andere gemachtigde personen die gevorderd zijn om een akte op te maken die de vervreemd"
+[16] char 6205-6259: "jn zij persoonlijk aansprakelijk voor de betaling der gewestbelastingen en bijbehoren die tot een hypothecaire inschrijving aanleiding kunnen geven) (artikel 24 van de ordonnantie van 21 december 2012, artikel 433 WIB 1992 en artikel 69 van de ordonnantie van 6 maart 2019. b) De fiscale administratie beschikt over een termijn van 12 dagen om de notaris"
+[17] char 6281-6321: "ijbehoren die tot een hypothecaire inschrijving aanleiding kunnen geven) (artikel 24 van de ordonnantie van 21 december 2012, artikel 433 WIB 1992 en artikel 69 van de ordonnantie van 6 maart 2019. b) De fiscale administratie beschikt over een termijn van 12 dagen om de notaris kennis te geven van het bedrag van de gewestbelastingen en bi"
+[18] char 6636-6690: "nleiding kunnen geven tot inschrijving van de wettelijke hypotheek van het Gewest op de goederen welke het voorwerp van --- de akte zijn ${ }^{1}$ (artikel 25 van de ordonnantie van 21 december 2012, artikel WIB 1992 en artikel 70 van de ordonnantie van 6 maart 2019). c) Wanneer de bedoelde akte verleden is, geldt de kennisgeving als derdenbeslag in"
+[19] char 6708-6748: "et Gewest op de goederen welke het voorwerp van --- de akte zijn ${ }^{1}$ (artikel 25 van de ordonnantie van 21 december 2012, artikel WIB 1992 en artikel 70 van de ordonnantie van 6 maart 2019). c) Wanneer de bedoelde akte verleden is, geldt de kennisgeving als derdenbeslag in handen van de notaris of van de persoon die gemachtigd is"
+[20] char 6935-6989: "verleden is, geldt de kennisgeving als derdenbeslag in handen van de notaris of van de persoon die gemachtigd is om een authentieke akte op te maken (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019). d) indien de aldus door beslag onder derden getroffen sommen en waarden"
+[21] char 7019-7059: "de persoon die gemachtigd is om een authentieke akte op te maken (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019). d) indien de aldus door beslag onder derden getroffen sommen en waarden minder bedragen dan het totaal der sommen verschuldigd aan de ingesch"
+[22] char 7498-7552: "kheid voor het overschot, daarover, de Brusselse fiscale administratie inlichten, uiterlijk de eerste werkdag die volgt op het verlijden van de akte (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019). 4. De voormelde wettelijke bepalingen delegeren de bevoegdheid om de to"
+[23] char 7582-7622: "terlijk de eerste werkdag die volgt op het verlijden van de akte (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019). 4. De voormelde wettelijke bepalingen delegeren de bevoegdheid om de toepassingsvoorwaarden van deze verschillende artikelen te bepalen aan d"
+[24] char 8043-8112: "zien in de uitvoering van deze wettelijke bepalingen. Zo bepalen de ontwerpen onder andere de volgende elementen: - De inlichtingen die krachtens de artikelen 24 van de ordonnantie van 21 december 2012, 433 van het WIB en 70 van de ordonnantie van 6 maar 2019, moeten wordt verzonden naar de fiscale administratie door alle notarissen of de personen die gemachtigd zij"
+[25] char 8583-8652: "f een vaartuig tot voorwerp heeft ("het bericht" als bedoeld in de ontwerpen); - De inlichtingen die de fiscale administratie verstuurt, krachtens de artikelen 25 van de ordonnantie van 21 december 2012, 434 van het WIB 1992 en 70 van de ordonnantie van 6 maart 2019, aan de notaris of de gemachtigde persoon om een authentieke akte op te maken binnen de 12 werkdagen v"
+[26] char 8691-8713: "ale administratie verstuurt, krachtens de artikelen 25 van de ordonnantie van 21 december 2012, 434 van het WIB 1992 en 70 van de ordonnantie van 6 maart 2019, aan de notaris of de gemachtigde persoon om een authentieke akte op te maken binnen de 12 werkdagen volgend op het "advies" (de kennisgeving", als bedoeld in de o"
+[27] char 8983-9052: "isgeving", als bedoeld in de ontwerpen); - De inlichtingen die de notaris of de gemachtigde persoon om een authentieke akte op te maken, krachtens de artikelen 26 van de ordonnantie van 21 december 2012, 435 van het WIB 1992 en 71 van de ordonnantie van 6 maart 2019, aan de fiscale administratie moet [^0] [^0]: ${ }^{1}$ De wettelijke bepalingen bepalen immers da"
+[28] char 9729-9752: "alle goederen toebehorend aan de belastingplichtige en gelegen op het grondgebied van België en waarop hypotheek kan worden gevestigd (...)". Zie ook artikel 427 van het WIB 1992 dat bepaalt De hypotheek wordt ingeschreven op verzoek van de statutaire of contractuele ambtenaar die hiertoe gemachtigd is door de Regering va"
+[29] char 11459-11481: "ijken voor de verwerking en de bewaartermijnen. 6. Zoals de Autoriteit al herhaaldelijk ${ }^{2}$ heeft kunnen in herinnering brengen, vereisen de in artikel 8 van het EVRM en artikel 22 van de Grondwet vastgelegde beginselen van transparantie en wettigheid dat in een wet, decreet of besluit duidelijk wordt bepaald onder"
+[30] char 11485-11511: "n de bewaartermijnen. 6. Zoals de Autoriteit al herhaaldelijk ${ }^{2}$ heeft kunnen in herinnering brengen, vereisen de in artikel 8 van het EVRM en artikel 22 van de Grondwet vastgelegde beginselen van transparantie en wettigheid dat in een wet, decreet of besluit duidelijk wordt bepaald onder welke omstandigheden de verwe"
+[31] char 13778-13799: "afsluiten wanneer zijn belangen dat vereisen. Een dergelijk doeleinde is welomschreven en gerechtvaardigd, maar het is niet "uitdrukkelijk", terwijl artikel 5.1. b) en artikel 6.3 van de AVG vereisen dat het doeleinde van de verwerking op basis van het nationale recht uitdrukkelijk omschreven moet zijn. De Autoriteit v"
+[32] char 1872-1897: "let op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, inzonderheid op artikel 23 en 26 (hierna "WOG"); Gelet op de Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoons"
+[33] char 2128-2146: "ng van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (algemene verordening gegevensbescherming) (hierna "AVG"); Gelet op de wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met":
 - Check if provision is in your extraction
 - If missing:
   - Go back to full text at snippet char position
@@ -191,12 +342,7 @@ For EACH snippet in {provisionSnippets}:
 - This catches what passes 1-2 might have missed
 
 This is your final completeness check.
-\`\`\`
-
-**Why this works for long documents:**
-- Pass 1: Ensures 100% coverage (systematic scan, no misses)
-- Pass 2: Maintains accuracy (focused extraction with full context)
-- Pass 3: Safety net (snippet verification catches remaining gaps)
+```
 
 ---
 
@@ -219,20 +365,20 @@ Use steps 1-6 below in single pass, with snippet verification as final check.
 - **FOOTNOTES AND ENDNOTES** (CRITICAL - often contain provision citations)
 
 **Look for**:
-- Article tokens: \`art.\`, \`article\`, \`artikel\` + numbers
+- Article tokens: `art.`, `article`, `artikel` + numbers
 - Belgian patterns:
-  - Roman.Arabic: \`XX.99\`, \`III.49\`, \`I.1\`
-  - Slashed numbering: \`1675/2\`, \`1675/13\`
-  - Suffixes: \`74bis\`, \`123ter\`, \`87quater\`
-- Sub-provisions: \`§\`, \`°\`, \`a)\`, \`b)\`, \`c)\`, \`alinéa\`, \`lid\`
-- **Decimal notation**: \`art. 8.1\`, \`art. 8.2\` (see type clarification below)
+  - Roman.Arabic: `XX.99`, `III.49`, `I.1`
+  - Slashed numbering: `1675/2`, `1675/13`
+  - Suffixes: `74bis`, `123ter`, `87quater`
+- Sub-provisions: `§`, `°`, `a)`, `b)`, `c)`, `alinéa`, `lid`
+- **Decimal notation**: `art. 8.1`, `art. 8.2` (see type clarification below)
 
 **CRITICAL: Three types of decimal notation**
 
 Belgian/EU legal texts use decimals in THREE different ways:
 
 **Type 1: Belgian Code Article Numbers (Roman.Arabic)**
-\`\`\`
+```
 Codes use Roman.Arabic as ARTICLE IDENTIFIERS (not sub-provisions):
 - "article I.1" in Code de droit économique
 - "article XX.99" in Code de droit économique
@@ -241,10 +387,10 @@ Codes use Roman.Arabic as ARTICLE IDENTIFIERS (not sub-provisions):
 These are ARTICLE NUMBERS (like "article 98" or "article 579")
 provisionNumberKey: Keep full number (I.1, XX.99, III.49)
 Deduplication: Each is a separate article
-\`\`\`
+```
 
 **Type 2: Treaty Decimal Provisions (DISTINCT ARTICLES)**
-\`\`\`
+```
 International treaties/GDPR use decimals for SEPARATE PROVISIONS:
 - CEDH/EVRM: "article 8.1", "article 8.2" are DIFFERENT provisions
   - 8.1 = respect for private life (substantive right)
@@ -261,10 +407,10 @@ Deduplication: DO NOT deduplicate (each decimal is a separate provision)
 **How to identify Type 2:**
 - Parent act is: CEDH, EVRM, ECHR, TFUE, TFEU, IVBPR, GDPR, AVG, RGPD
 - Each decimal number is a distinct provision
-\`\`\`
+```
 
 **Type 3: Paragraph Notation (ALTERNATIVE NOTATION)**
-\`\`\`
+```
 Some Belgian sources use decimal as shorthand for paragraphs:
 - "article 8.1" as shorthand for "article 8, §1"
 - "article 8.2" as shorthand for "article 8, §2"
@@ -272,10 +418,10 @@ Some Belgian sources use decimal as shorthand for paragraphs:
 Check if source uses BOTH notations for same provision
 provisionNumberKey: Drop to base (8)
 Deduplication: Same article, different sub-provisions
-\`\`\`
+```
 
 **How to distinguish:**
-\`\`\`
+```
 If source is a TREATY/GDPR → Type 2 (keep decimals, separate provisions)
 If source is BELGIAN CODE with Roman.Arabic → Type 1 (keep, article numbers)
 If source is BELGIAN LAW and uses §/lid notation → Type 3 (drop decimals)
@@ -285,11 +431,11 @@ Examples:
 "article 8.2 CEDH" → Type 2 → provisionNumberKey "8.2" (distinct provision)
 "article I.1 du Code" → Type 1 → provisionNumberKey "I.1" (article number)
 "article 8, §1 van de wet" → Type 3 → provisionNumberKey "8"
-\`\`\`
+```
 
 **CRITICAL: Notation Equivalence Rule**
 Different notation systems can refer to the SAME provision. Extract using the notation found in the source:
-\`\`\`
+```
 "art. 8.1 en 8.2" (decimal notation) = "art. 8, §1 and §2" = "art. 8, lid 1 en 2"
 
 ✅ If source uses decimal: extract "art. 8.1" and "art. 8.2"
@@ -299,7 +445,7 @@ Different notation systems can refer to the SAME provision. Extract using the no
 ❌ DO NOT also create "art. 8.1" and "art. 8.2" (duplicates)
 
 Rule: Use the EXACT notation from the source text. Never create alternative notations.
-\`\`\`
+```
 
 **Range patterns** (MUST expand to individual articles):
 - **French**: "articles 50 à 60", "de l'article 31 à 35", "articles 31 au 35"
@@ -319,19 +465,19 @@ Rule: Use the EXACT notation from the source text. Never create alternative nota
 - May appear without "van de" connector: "artikelen 10 en 11 Grondwet"
 
 **Sub-point within articles** (do NOT expand into separate provisions):
-\`\`\`
+```
 "article 2, 5°" → ONE provision (article 2, point 5)
 NOT: Five separate provisions (1°, 2°, 3°, 4°, 5°)
 
 Extract verbatim: "article 2, 5°"
-\`\`\`
+```
 
 **CRITICAL: Scan footnotes and endnotes**
 
 Provisions frequently appear in footnotes - treat them as valid citations.
 
 **Footnote format examples:**
-\`\`\`
+```
 Markdown: "...conformément à la loi[^1]"
           [^1]: Loi du 15 juin 1935, articles 28 à 32
 
@@ -340,7 +486,7 @@ Superscript: "...wet¹"
 
 Parentheses: "...loi(1)"
              (1) Arrêté royal, articles 39 à 42
-\`\`\`
+```
 
 **Extraction rule:**
 - Scan ALL footnote content with same rigor as main text
@@ -362,28 +508,28 @@ Link each article to its immediate parent act by looking:
 **Priority Rules for Context Resolution**:
 
 **Rule 1: Explicit attachment beats contextual mention**
-\`\`\`
+```
 Text: "De Arbeidsongevallenwet bepaalt... artikel 579 Ger.W. is bevoegd..."
 
 "Ger.W." is EXPLICITLY attached to artikel 579 → Use Ger.W.
 "Arbeidsongevallenwet" is background context → Ignore
-\`\`\`
+```
 
 **Rule 2: Abbreviations with periods signal attachment**
-\`\`\`
+```
 Pattern: "artikel NNN [Abbreviation]."
 Examples: "artikel 579 Ger.W.", "artikel 1675/2 Ger. W.", "art. 74 BW."
 
 If you see this pattern, the abbreviation IS the parent act.
-\`\`\`
+```
 
 **Rule 3: Draft laws - use the enacted law being amended**
-\`\`\`
+```
 Text: "Het wetsontwerp wijzigt artikel 3 van de WRR..."
 
 ✅ Use: WRR (the enacted law where article 3 lives)
 ❌ NOT: wetsontwerp (this is metadata about the amendment)
-\`\`\`
+```
 
 ### 3. EXPAND ranges and lists
 
@@ -393,17 +539,17 @@ Text: "Het wetsontwerp wijzigt artikel 3 van de WRR..."
 When "bis/ter/quater" appears in range end, the base number is typically EXCLUDED (the suffixed article was inserted).
 
 **Correct expansion algorithm:**
-\`\`\`
+```
 "artikelen X tot Ybis"
 1. Extract start (X)
 2. Extract end base number (Y)
 3. Extract suffix (bis/ter/quater)
 4. Generate: X, X+1, X+2, ..., (Y-1), then Y+suffix
 5. Total: (Y - X) + 1 provisions
-\`\`\`
+```
 
 **Examples**:
-\`\`\`
+```
 "artikelen 9 tot 15bis" → 7 provisions:
   - artikel 9
   - artikel 10
@@ -424,24 +570,24 @@ When "bis/ter/quater" appears in range end, the base number is typically EXCLUDE
 "artikelen 10 t/m 12bis" → 3 provisions:
   - artikel 10, 11, 12bis
   - Total: (12 - 10) + 1 = 3 provisions
-\`\`\`
+```
 
 **Exception - Range WITHOUT suffix includes end:**
-\`\`\`
+```
 "artikelen 9 tot 15" → 7 provisions:
   - artikel 9, 10, 11, 12, 13, 14, 15
   - Total: (15 - 9) + 1 = 7 provisions
 
 "van artikel 100 tot 102" → 3 provisions:
   - artikel 100, 101, 102
-\`\`\`
+```
 
 **Validation:** Count expected provisions before expanding:
 - "X tot Ybis": expect (Y - X) + 1 provisions
 - "X tot Y": expect (Y - X + 1) provisions
 
 **Dutch "lid" expansion (CRITICAL for avoiding hallucinations)**:
-\`\`\`
+```
 Source: "Artikel 1675/12 §2, 2de en 3de lid"
 Meaning: Article 1675/12, paragraph 2, with TWO sub-paragraphs
 
@@ -459,17 +605,17 @@ OUTPUT phase (after article-level deduplication):
   (Second mention "3de lid" is skipped - same article 1675/12)
 
 ❌ DO NOT extract "artikel 1675/12, §3" (hallucination - §3 not in text)
-\`\`\`
+```
 
 **Article-level deduplication:** If you find multiple mentions of the same article (same provisionNumberKey + same parent act), keep only the FIRST occurrence you encounter in document order.
 
 **Ordinal forms to recognize** (all mean the same):
-- 1st: \`1e lid\`, \`1ste lid\`, \`eerste lid\`
-- 2nd: \`2e lid\`, \`2de lid\`, \`tweede lid\`
-- 3rd: \`3e lid\`, \`3de lid\`, \`derde lid\`
+- 1st: `1e lid`, `1ste lid`, `eerste lid`
+- 2nd: `2e lid`, `2de lid`, `tweede lid`
+- 3rd: `3e lid`, `3de lid`, `derde lid`
 
 **Multiple paragraphs**:
-\`\`\`
+```
 "§§ 1 en 2" of different articles → separate provisions
 "art. 72 §3" and "art. 75 §4" → 2 provisions (different articles)
 
@@ -480,12 +626,12 @@ OUTPUT phase (after article-level deduplication):
 "art. 8, §§2, 3 et 4" → 1 provision after article-level dedup:
   ✅ Keep first: art. 8, §2
   (Skip "§3" and "§4" - same article)
-\`\`\`
+```
 
 **Key principle:** Same article number (provisionNumberKey) from same parent act = ONE provision (first occurrence only).
 
 **CRITICAL: Degree sign (°) ANTI-HALLUCINATION RULE**:
-\`\`\`
+```
 Source: "art. 74, §1, 3°"
 
 This is ONE provision with three levels:
@@ -497,23 +643,23 @@ This is ONE provision with three levels:
 ❌ DO NOT create: "art. 74, §3" (hallucination)
 
 The degree sign (°) indicates a POINT or ITEM within a paragraph, NOT a separate paragraph.
-\`\`\`
+```
 
 ### 4. DEDUPLICATE parent acts (CRITICAL)
 
 **Before assigning any ACT-ID, maintain an internal registry:**
 
-\`\`\`
+```
 actRegistry = {}  // Maps normalized key → ACT-ID
 nextActSequence = 1
-\`\`\`
+```
 
 **For EACH parent act:**
 
-1. Create a **normalized key**: \`TYPE|DATE|SUBJECT\`
+1. Create a **normalized key**: `TYPE|DATE|SUBJECT`
 
 Examples:
-\`\`\`
+```
 "Gerechtelijk Wetboek" → "WETBOEK||gerechtelijk wetboek"
 "Ger.W." → "WETBOEK||gerechtelijk wetboek"  // SAME KEY → Same ACT-ID
 "Ger. W." → "WETBOEK||gerechtelijk wetboek"  // SAME KEY → Same ACT-ID
@@ -530,13 +676,13 @@ Examples:
 "Code de procédure pénale" → "CODE|1878-04-17|procedure penale"
 "loi du 17 avril 1878 contenant le titre préliminaire du Code d'instruction criminelle"
   → "CODE|1878-04-17|instruction criminelle"  // SAME DATE → Same ACT-ID
-\`\`\`
+```
 
 **ABBREVIATION NORMALIZATION PRINCIPLE**:
 
 Periods and spacing in abbreviations don't matter - normalize to same key:
 
-\`\`\`
+```
 Tax codes:
   "W.I.B. 1992" → "WETBOEK|1992||inkomstenbelastingen"
   "WIB 1992" → "WETBOEK|1992||inkomstenbelastingen"      // SAME KEY
@@ -553,7 +699,7 @@ Civil/Criminal codes:
   "BW" → "WETBOEK||burgerlijk wetboek"                   // SAME KEY (no periods)
   "S.W." → "WETBOEK||strafwetboek"
   "SW" → "WETBOEK||strafwetboek"                         // SAME KEY
-\`\`\`
+```
 
 **Normalization rule**: When creating the key, strip periods and normalize spacing.
 - If two acts have the same date and TYPE, check if names are abbreviation variants
@@ -561,7 +707,7 @@ Civil/Criminal codes:
 
 2. **Check registry and assign ACT-ID:**
 
-\`\`\`
+```
 if (actRegistry[normalizedKey]) {
   // Reuse existing ACT-ID for same act
   internalParentActId = actRegistry[normalizedKey]
@@ -571,7 +717,7 @@ if (actRegistry[normalizedKey]) {
   actRegistry[normalizedKey] = internalParentActId
   nextActSequence++
 }
-\`\`\`
+```
 
 **Validation**: Before output, verify:
 - Count unique keys in actRegistry
@@ -579,7 +725,7 @@ if (actRegistry[normalizedKey]) {
 - These numbers MUST match
 
 Example:
-\`\`\`
+```
 If you have 3 unique acts in registry:
   "WETBOEK||gerechtelijk wetboek" → ACT-...-001
   "LOI|1971-04-10|accidents travail" → ACT-...-002
@@ -587,7 +733,7 @@ If you have 3 unique acts in registry:
 
 Then your output should ONLY contain: ACT-...-001, ACT-...-002, ACT-...-003
 If you see ACT-...-004 → YOU FAILED (dedup error)
-\`\`\`
+```
 
 ### 4B. DEDUPLICATE ARTICLES (Article-Level Extraction)
 
@@ -596,15 +742,15 @@ If you see ACT-...-004 → YOU FAILED (dedup error)
 **Principle**: One provision per unique (provisionNumberKey, parent act) pair.
 
 **Maintain an article registry:**
-\`\`\`
+```
 articleRegistry = {}  // Maps (provisionNumberKey, parentActSequence) → boolean
-\`\`\`
+```
 
 **For EACH article you extract:**
 
 1. **Calculate provisionNumberKey** (using the decision tree above)
 2. **Check if already extracted**:
-   \`\`\`
+   ```
    articleKey = provisionNumberKey + "|" + parentActSequence
 
    if (articleRegistry[articleKey]) {
@@ -615,10 +761,10 @@ articleRegistry = {}  // Maps (provisionNumberKey, parentActSequence) → boolea
      articleRegistry[articleKey] = true
      // Create provision with current sub-division details
    }
-   \`\`\`
+   ```
 
 **Example scenario**:
-\`\`\`
+```
 Source mentions:
   "AVG artikel 6.1, onder b)" → key: 6.1, parent: AVG-001
   "AVG artikel 6.1, onder c)" → key: 6.1, parent: AVG-001 [DUPLICATE]
@@ -636,7 +782,7 @@ Expected output: 1 provision (first occurrence only)
 
 ❌ WRONG: Creating 3 provisions (one for b, one for c, one for e)
 ✅ CORRECT: Creating 1 provision (article 6.1, first mention)
-\`\`\`
+```
 
 **EXCEPTION - Treaty/GDPR decimals are NOT duplicates**:
 
@@ -645,18 +791,18 @@ If parent act is a treaty/GDPR (CEDH, EVRM, GDPR, AVG, RGPD) AND the keys are di
 - "6.1, b)" and "6.1, c)" → ONE extracted (same provision 6.1, different letters)
 
 **Validation**: Before output, check for duplicate (provisionNumberKey, parentActSequence) pairs:
-\`\`\`
+```
 uniquePairs = Set()
 for each provision:
   pair = provision.provisionNumberKey + "|" + provision.parentActSequence
   if (pair in uniquePairs):
     ERROR - you have a duplicate article!
   uniquePairs.add(pair)
-\`\`\`
+```
 
 ### 5. MAINTAIN document order
 
-Output \`citedProvisions\` in the order they appear in the decision text.
+Output `citedProvisions` in the order they appear in the decision text.
 
 ### 6. VALIDATE before output
 
@@ -664,8 +810,8 @@ Output \`citedProvisions\` in the order they appear in the decision text.
 - [ ] No bare acts without article numbers
 - [ ] All ranges expanded (tot en met / à)
 - [ ] All lists expanded (lid/alinéa/§§/°/letters)
-- [ ] All qualifiers preserved in \`provisionNumber\`
-- [ ] \`provisionNumberKey\` normalized per rules
+- [ ] All qualifiers preserved in `provisionNumber`
+- [ ] `provisionNumberKey` normalized per rules
 - [ ] Sequencing rules satisfied (see below)
 
 ---
@@ -694,9 +840,9 @@ When you encounter a parent act, check if you've already seen it:
 - "Code civil" = "Burgerlijk Wetboek" → **DIFFERENT acts** (different language)
 
 **Normalization Key** (mental model):
-\`\`\`
+```
 TYPE + DATE + core subject
-\`\`\`
+```
 
 Examples:
 - "Gerechtelijk Wetboek" → WETBOEK || gerechtelijk wetboek
@@ -706,7 +852,7 @@ Examples:
 
 ### Complete Example
 
-\`\`\`json
+```json
 [
   {
     "provisionNumber": "artikel 31",
@@ -745,7 +891,7 @@ Examples:
     "parentActSequence": 3  // NEW act (third unique act)
   }
 ]
-\`\`\`
+```
 
 ### Validation Before Output
 
@@ -761,23 +907,23 @@ Count unique parent acts in your extraction, then verify:
 ### provisionNumber (VERBATIM)
 
 Extract **the COMPLETE citation** exactly as written, preserving ALL qualifiers but **excluding parent act tokens**:
-- Keep: \`§\`, \`°\`, \`a)\`, \`b)\`, \`c)\`, \`bis/ter/quater\`, Roman numerals, \`lid\`, \`alinéa\`
+- Keep: `§`, `°`, `a)`, `b)`, `c)`, `bis/ter/quater`, Roman numerals, `lid`, `alinéa`
 - Never translate or standardize
 - **Do NOT include parent act** (e.g., no "Ger.W.", "BW", "Code civil" in provisionNumber)
 
 **CRITICAL**: If the source says "article 155, § 6, alinéa 1er", extract ALL of it:
-\`\`\`
+```
 ❌ Wrong: "article 155" (incomplete - missing § 6, alinéa 1er)
 ✅ Correct: "article 155, § 6, alinéa 1er" (complete)
-\`\`\`
+```
 
 **Examples**:
-- Source: "article 74bis, §2, alinéa 1er de la loi..." → \`"article 74bis, §2, alinéa 1er"\`
-- Source: "artikel 1675/12, §2, 3de lid Ger.W." → \`"artikel 1675/12, §2, 3de lid"\`
-- Source: "article I.1, 1°, a) du Code" → \`"article I.1, 1°, a)"\`
-- Source: "WVP artikel 29 § 3" → \`"artikel 29, § 3"\` (include the §)
+- Source: "article 74bis, §2, alinéa 1er de la loi..." → `"article 74bis, §2, alinéa 1er"`
+- Source: "artikel 1675/12, §2, 3de lid Ger.W." → `"artikel 1675/12, §2, 3de lid"`
+- Source: "article I.1, 1°, a) du Code" → `"article I.1, 1°, a)"`
+- Source: "WVP artikel 29 § 3" → `"artikel 29, § 3"` (include the §)
 
-**Parent act belongs ONLY in \`parentActName\`, never in \`provisionNumber\`.**
+**Parent act belongs ONLY in `parentActName`, never in `provisionNumber`.**
 
 ### provisionNumberKey (NORMALIZED)
 
@@ -798,10 +944,10 @@ Is this a TREATY or GDPR/AVG/RGPD?
 Decimal notation (X.Y format like 8.1, 9.2, 4.7) represents DISTINCT ARTICLE NUMBERS in treaties.
 
 provisionNumberKey: **KEEP FULL DECIMAL**
-- "article 8.1 CEDH" → key: \`"8.1"\`
-- "article 9.2 EVRM" → key: \`"9.2"\`
-- "article 4.7 GDPR" → key: \`"4.7"\`
-- "artikel 6.1 AVG" → key: \`"6.1"\`
+- "article 8.1 CEDH" → key: `"8.1"`
+- "article 9.2 EVRM" → key: `"9.2"`
+- "article 4.7 GDPR" → key: `"4.7"`
+- "artikel 6.1 AVG" → key: `"6.1"`
 
 **STEP 2B: Belgian/EU law handling**
 
@@ -810,28 +956,28 @@ Check the number format:
 1. **Roman.Arabic** (I.1, XX.99, III.49)?
    → These are ARTICLE NUMBERS in Belgian codes
    → provisionNumberKey: **KEEP FULL NUMBER**
-   → "article I.1 du Code" → key: \`"I.1"\`
+   → "article I.1 du Code" → key: `"I.1"`
 
 2. **Arabic.Arabic** (8.1, 8.2) OR paragraph notation (§1, §2)?
    → These are SUB-DIVISIONS (paragraph shorthand)
    → provisionNumberKey: **DROP decimals, keep base only**
-   → "article 8, §1" → key: \`"8"\`
+   → "article 8, §1" → key: `"8"`
 
 3. **Slashed numbers** (1675/2, 1675/13)?
    → These are ARTICLE NUMBERS
    → provisionNumberKey: **KEEP FULL NUMBER**
-   → "artikel 1675/12" → key: \`"1675/12"\`
+   → "artikel 1675/12" → key: `"1675/12"`
 
 4. **Suffixes** (74bis, 123ter, 87quater)?
    → provisionNumberKey: **KEEP SUFFIX**
-   → "article 74bis" → key: \`"74bis"\`
+   → "article 74bis" → key: `"74bis"`
 
 **STEP 3: Drop all sub-divisions**
 - Drop: §, alinéa, lid, °, letters (a/b/c)
 - Keep: article number only
 
 **Examples with decision tree**:
-\`\`\`
+```
 "article 8.1 CEDH" → Parent: treaty → STEP 2A → key: "8.1" ✅
 "article 9.2 EVRM" → Parent: treaty → STEP 2A → key: "9.2" ✅
 "article 6.1, b) AVG" → Parent: GDPR → STEP 2A → key: "6.1" ✅
@@ -840,34 +986,34 @@ Check the number format:
 "article 74bis, §2, alinéa 1er" → Parent: Belgian law → Suffix → key: "74bis" ✅
 "artikel 31, § 2" → Parent: Belgian law → Plain number → key: "31" ✅
 "article XX.99, §2" → Parent: Belgian code → Roman.Arabic → key: "XX.99" ✅
-\`\`\`
+```
 
 ---
 
 ## PARENT ACT TYPE (ENUM by language)
 
-**French**: \`LOI\`, \`ARRETE_ROYAL\`, \`CODE\`, \`CONSTITUTION\`, \`REGLEMENT_UE\`, \`DIRECTIVE_UE\`, \`TRAITE\`, \`ARRETE_GOUVERNEMENT\`, \`ORDONNANCE\`, \`DECRET\`, \`AUTRE\`
+**French**: `LOI`, `ARRETE_ROYAL`, `CODE`, `CONSTITUTION`, `REGLEMENT_UE`, `DIRECTIVE_UE`, `TRAITE`, `ARRETE_GOUVERNEMENT`, `ORDONNANCE`, `DECRET`, `AUTRE`
 
-**Dutch**: \`WET\`, \`KONINKLIJK_BESLUIT\`, \`WETBOEK\`, \`GRONDWET\`, \`EU_VERORDENING\`, \`EU_RICHTLIJN\`, \`VERDRAG\`, \`BESLUIT_VAN_DE_REGERING\`, \`ORDONNANTIE\`, \`DECREET\`, \`ANDERE\`
+**Dutch**: `WET`, `KONINKLIJK_BESLUIT`, `WETBOEK`, `GRONDWET`, `EU_VERORDENING`, `EU_RICHTLIJN`, `VERDRAG`, `BESLUIT_VAN_DE_REGERING`, `ORDONNANTIE`, `DECREET`, `ANDERE`
 
 ### Abbreviation mapping (for classification ONLY - keep names verbatim)
 
 **Belgian codes (all → WETBOEK/CODE)**:
-- NL "Ger.W." / "Ger. W." / "Gerechtelijk Wetboek" → \`WETBOEK\`
-- NL "BW" / "Burgerlijk Wetboek" / FR "Code civil" → \`WETBOEK\`/\`CODE\`
-- NL "SW" / "Strafwetboek" / FR "Code pénal" → \`WETBOEK\`/\`CODE\`
-- NL "Sv" / "Wetboek van Strafvordering" → \`WETBOEK\`
-- NL "W.Kh." / "Wetboek van Koophandel" → \`WETBOEK\`
-- FR "CIR 92" / "Code des impôts sur les revenus 1992" → \`CODE\`
-- NL "WIB 92" / "Wetboek van de Inkomstenbelastingen 1992" → \`WETBOEK\`
+- NL "Ger.W." / "Ger. W." / "Gerechtelijk Wetboek" → `WETBOEK`
+- NL "BW" / "Burgerlijk Wetboek" / FR "Code civil" → `WETBOEK`/`CODE`
+- NL "SW" / "Strafwetboek" / FR "Code pénal" → `WETBOEK`/`CODE`
+- NL "Sv" / "Wetboek van Strafvordering" → `WETBOEK`
+- NL "W.Kh." / "Wetboek van Koophandel" → `WETBOEK`
+- FR "CIR 92" / "Code des impôts sur les revenus 1992" → `CODE`
+- NL "WIB 92" / "Wetboek van de Inkomstenbelastingen 1992" → `WETBOEK`
 
 **Royal Decrees (→ KONINKLIJK_BESLUIT/ARRETE_ROYAL)**:
-- NL "KB" / "Koninklijk Besluit" → \`KONINKLIJK_BESLUIT\`
-- FR "AR" / "Arrêté Royal" → \`ARRETE_ROYAL\`
-- Names containing "besluit" (NL) → \`KONINKLIJK_BESLUIT\`
-- Example: "Werkloosheidsbesluit" → \`KONINKLIJK_BESLUIT\` (NOT \`ANDERE\`)
+- NL "KB" / "Koninklijk Besluit" → `KONINKLIJK_BESLUIT`
+- FR "AR" / "Arrêté Royal" → `ARRETE_ROYAL`
+- Names containing "besluit" (NL) → `KONINKLIJK_BESLUIT`
+- Example: "Werkloosheidsbesluit" → `KONINKLIJK_BESLUIT` (NOT `ANDERE`)
 
-**Do NOT expand abbreviations in \`parentActName\` - keep verbatim as written.**
+**Do NOT expand abbreviations in `parentActName` - keep verbatim as written.**
 
 ---
 
@@ -876,19 +1022,19 @@ Check the number format:
 **General Rule**: Attach article to the **most specific parent structure explicitly mentioned** in the citation.
 
 **Case 1: Protocols and Treaties**
-\`\`\`
+```
 "article 3 du Protocole additionnel du 6 juillet 1970
  à la Convention Eurocontrol du 13 décembre 1960"
-\`\`\`
+```
 
 ✅ Extract: article 3 → parent: "Protocole additionnel... à la Convention..."
 
 ❌ DO NOT create separate provision for Convention (no article of Convention cited)
 
 **Case 2: Sections/Titles/Books/Chapters within Codes**
-\`\`\`
+```
 "article 1er du Titre préliminaire du Code de procédure pénale"
-\`\`\`
+```
 
 ✅ Extract: article 1er → parent: "Titre préliminaire du Code de procédure pénale"
 
@@ -904,15 +1050,15 @@ Check the number format:
 
 ## PARENT ACT FIELDS
 
-**\`parentActName\`**: VERBATIM with ALL qualifiers
+**`parentActName`**: VERBATIM with ALL qualifiers
 - Keep: "(coordonné par...)", "(approuvé par...)", "(modifié par...)"
 - Never shorten, even if 100+ characters
 
-**\`parentActDate\`**: \`YYYY-MM-DD\` if exact date present; else \`null\`
-- From name: "Loi du 10 mai 2007" → \`"2007-05-10"\`
-- From qualifier: "(coordonné... du 26 février 1964)" → \`"1964-02-26"\`
+**`parentActDate`**: `YYYY-MM-DD` if exact date present; else `null`
+- From name: "Loi du 10 mai 2007" → `"2007-05-10"`
+- From qualifier: "(coordonné... du 26 février 1964)" → `"1964-02-26"`
 
-**\`parentActNumber\`**: Official number if present; else \`null\`
+**`parentActNumber`**: Official number if present; else `null`
 
 ---
 
@@ -921,7 +1067,7 @@ Check the number format:
 **Extract IF article numbers are present:**
 
 ✅ **EXTRACT (article numbers present):**
-\`\`\`
+```
 "Gelet op de wet van 15 juni 1935, artikelen 28 tot 32"
 → Extract articles 28-32 (expand range)
 
@@ -933,10 +1079,10 @@ Check the number format:
 
 "Vu la Constitution, notamment les articles 10, 11, 19 et 23"
 → Extract all 4 articles (expand list)
-\`\`\`
+```
 
 ❌ **DO NOT EXTRACT (no article numbers):**
-\`\`\`
+```
 "Gelet op de wet van 15 juni 1935 op het taalgebruik in gerechtszaken"
 → Only act name, no articles specified
 
@@ -945,7 +1091,7 @@ Check the number format:
 
 "Conform de Grondwet"
 → No articles specified
-\`\`\`
+```
 
 **Pattern recognition:**
 - "Gelet op [act name]" alone → SKIP (no articles)
@@ -1006,13 +1152,13 @@ For EACH range pattern found:
 - [ ] **NO hallucinated paragraphs from degree signs** (§1, 3° does NOT create §3)
 - [ ] **NO duplicate notations** (if source has "8.1", don't also create "lid 1")
 - [ ] **Treaty/GDPR decimals are separate provisions** (CEDH art. 8.1 and 8.2 are BOTH extracted, not deduplicated)
-- [ ] **All qualifiers preserved in \`provisionNumber\`** (if source has "§ 6, alinéa 1er", extraction must too)
-- [ ] All \`provisionNumberKey\` normalized per rules (keep treaty decimals: 8.1, drop Belgian paragraph decimals to 8)
+- [ ] **All qualifiers preserved in `provisionNumber`** (if source has "§ 6, alinéa 1er", extraction must too)
+- [ ] All `provisionNumberKey` normalized per rules (keep treaty decimals: 8.1, drop Belgian paragraph decimals to 8)
 - [ ] Parent act classification correct (Ger.W. → WETBOEK, not WET; Werkloosheidsbesluit → KONINKLIJK_BESLUIT, not ANDERE)
-- [ ] All IDs copy exact \`decisionId\` with correct sequencing
-- [ ] **Same parent act shares SAME \`internalParentActId\`** (check normalization)
-- [ ] **Different parent acts have DIFFERENT \`internalParentActId\`**
-- [ ] **All IDs contain complete \`decisionId\`** (no truncation, all colons/dots present)
+- [ ] All IDs copy exact `decisionId` with correct sequencing
+- [ ] **Same parent act shares SAME `internalParentActId`** (check normalization)
+- [ ] **Different parent acts have DIFFERENT `internalParentActId`**
+- [ ] **All IDs contain complete `decisionId`** (no truncation, all colons/dots present)
 - [ ] **Hierarchical citations use most specific parent** (Titre within Code, not just Code)
 - [ ] **Draft laws resolved to enacted base laws** (wetsontwerp → actual wet being amended)
 - [ ] No bare acts without articles
@@ -1032,7 +1178,7 @@ For EACH range pattern found:
 ### STEP 4: DEDUPLICATION VERIFICATION
 
 **Check for duplicate articles**:
-\`\`\`
+```
 Create a set of (provisionNumberKey, parentActSequence) pairs
 For each provision in your output:
   pair = provisionNumberKey + "|" + parentActSequence
@@ -1040,15 +1186,15 @@ For each provision in your output:
     ❌ DUPLICATE DETECTED - you extracted the same article twice!
     → Keep FIRST occurrence only, remove this duplicate
   Add pair to set
-\`\`\`
+```
 
 **Check for abbreviation variants** (same act split across multiple IDs):
-\`\`\`
+```
 For acts with same date:
   Check if names could be abbreviation variants
   Examples: "W.I.B. 1992" vs "WIB 1992" vs "W.B. 1992"
   → Should share SAME parentActSequence
-\`\`\`
+```
 
 **Final validation**:
 - [ ] No duplicate (provisionNumberKey, parentActSequence) pairs in output
@@ -1079,9 +1225,9 @@ These snippets were extracted using regex patterns that capture:
 - EU instruments (Verordening, Directive)
 
 **Each snippet shows:**
-- \`[N]\` - Snippet number for reference
-- \`char X-Y\` - Position in the full text
-- \`"...text..."\` - ~75 characters of context around a provision mention
+- `[N]` - Snippet number for reference
+- `char X-Y` - Position in the full text
+- `"...text..."` - ~75 characters of context around a provision mention
 
 ### Verification Protocol
 
@@ -1093,7 +1239,7 @@ These snippets were extracted using regex patterns that capture:
    - Note the parent act reference
 
 2. **Cross-check against your extraction**
-   - Is this provision in your \`citedProvisions\` array?
+   - Is this provision in your `citedProvisions` array?
    - If it's a range, did you expand ALL items? (e.g., "10 à 15" = 6 provisions: 10, 11, 12, 13, 14, 15)
    - If it's a list, did you extract ALL items? (e.g., "§2, 1° à 3°" = 3 provisions)
 
@@ -1114,36 +1260,36 @@ These snippets were extracted using regex patterns that capture:
 Snippets will help you catch these common misses:
 
 **Pattern 1: Dense citation paragraphs**
-\`\`\`
+```
 Snippet shows: "articles 5, 8, 12 et 15 du Code"
 Check: Did you extract all FOUR? (5, 8, 12, 15)
-\`\`\`
+```
 
 **Pattern 2: Range expansion completeness**
-\`\`\`
+```
 Snippet shows: "artikelen 10 tot en met 15"
 Check: Did you extract all SIX? (10, 11, 12, 13, 14, 15)
 Belgian "tot en met" / French "à" are INCLUSIVE on both ends
-\`\`\`
+```
 
 **Pattern 3: List expansion in sub-provisions**
-\`\`\`
+```
 Snippet shows: "§2, 1° à 3°"
 Check: Did you extract all THREE? (§2, 1°; §2, 2°; §2, 3°)
-\`\`\`
+```
 
 **Pattern 4: Multiple provisions in parentheses**
-\`\`\`
+```
 Snippet shows: "(articles 31, 32 et 35)"
 Check: Did you extract all THREE? Not just the first or last
-\`\`\`
+```
 
 **Pattern 5: Abbreviated act names**
-\`\`\`
+```
 Snippet shows: "art. 579 Ger.W."
 Check: Did you resolve "Ger.W." to "Gerechtelijk Wetboek"?
 Did you use the abbreviation verbatim in parentActName?
-\`\`\`
+```
 
 ### Verification Checklist
 
@@ -1186,7 +1332,7 @@ Before finalizing your output, confirm:
 
 **Extract at ARTICLE level: one provision per unique article from each parent act.**
 
-\`\`\`
+```
 Deduplication key = provisionNumberKey + parentActSequence
 
 If you've already extracted "artikel 98" from "WOG" (parentActSequence 1):
@@ -1198,7 +1344,7 @@ Example:
   ❌ Later: "artikel 98, 3°" from WOG → SKIP (duplicate key: "98|1")
   ✅ Later: "artikel 99, 1°" from WOG → EXTRACT (new key: "99|1")
   ✅ Later: "artikel 98, 1°" from other law → EXTRACT (new key: "98|2")
-\`\`\`
+```
 
 ---
 
@@ -1225,11 +1371,11 @@ Example:
 
 **Maintain internal tracking as you process:**
 
-\`\`\`
+```
 extractedArticles = new Set()  // Tracks: "provisionNumberKey|parentActSequence"
 
 For each article citation found:
-  dedupKey = \`\${provisionNumberKey}|\${parentActSequence}\`
+  dedupKey = `${provisionNumberKey}|${parentActSequence}`
 
   if (extractedArticles.has(dedupKey)) {
     // Already extracted this article from this law
@@ -1239,11 +1385,11 @@ For each article citation found:
     extractedArticles.add(dedupKey)
     ADD to output with next provisionSequence number
   }
-\`\`\`
+```
 
 **Example execution:**
 
-\`\`\`
+```
 Text mentions in order:
 1. "artikel 98, 2° van de WOG"
    → key: "98|1" → NOT in set → ADD (provisionSequence: 1)
@@ -1258,7 +1404,7 @@ Text mentions in order:
    → key: "98|2" → NOT in set → ADD (provisionSequence: 3)
 
 Final output: 3 provisions (not 4)
-\`\`\`
+```
 
 ---
 
@@ -1268,7 +1414,7 @@ Final output: 3 provisions (not 4)
 
 **Expand ARTICLE ranges only:**
 
-\`\`\`
+```
 ✅ EXPAND these into separate articles:
 - "artikelen 1 tot 4" → artikel 1, artikel 2, artikel 3, artikel 4 (4 provisions)
 - "articles 444 à 448" → article 444, 445, 446, 447, 448 (5 provisions)
@@ -1277,13 +1423,13 @@ Final output: 3 provisions (not 4)
 ❌ DON'T expand sub-provision ranges (these stay verbatim):
 - "artikel 98, 2° à 4°" → ONE provision: "artikel 98, 2° à 4°"
 - "article 155, §§ 2, 3 et 4" → ONE provision: "article 155, §§ 2, 3 et 4"
-\`\`\`
+```
 
 ### Range Verification Algorithm
 
 **For EVERY article range encountered:**
 
-\`\`\`
+```
 1. Extract start and end numbers
    "artikelen 64 tot en met 68" → start: 64, end: 68
 
@@ -1301,15 +1447,15 @@ Final output: 3 provisions (not 4)
 
 5. Verify count matches expected
    If mismatch → YOU MISSED ARTICLES
-\`\`\`
+```
 
 **Common mistakes to avoid:**
 
-\`\`\`
+```
 ❌ "articles 444 à 448" → starting at 445 (missed 444)
 ❌ "artikelen 1 tot 4" → stopping at 3 (missed 4)
 ❌ "artikelen 31 tot 37bis" → stopping at 37 (missed 37bis)
-\`\`\`
+```
 
 ---
 
@@ -1317,7 +1463,7 @@ Final output: 3 provisions (not 4)
 
 ### Priority Rules (from earlier sections - strictly enforce)
 
-\`\`\`
+```
 Priority 1 (HIGHEST): EXPLICIT ATTACHMENT
   "art. 554 CS" → CS is parent act (use this)
   "artikel 579 Ger.W." → Ger.W. is parent act (use this)
@@ -1330,13 +1476,13 @@ Priority 3: SAME SENTENCE
 
 Priority 4 (LOWEST): PREVIOUS SENTENCE
   Only if no other clues available
-\`\`\`
+```
 
 ### Enhanced Deduplication Normalization
 
-**Normalization key structure:** \`TYPE|DATE|SUBJECT\`
+**Normalization key structure:** `TYPE|DATE|SUBJECT`
 
-\`\`\`
+```
 Critical differentiation examples:
 
 DIFFERENT acts (assign different parentActSequence):
@@ -1348,7 +1494,7 @@ SAME act (assign same parentActSequence):
   "Gerechtelijk Wetboek" → WETBOEK||gerechtelijk → seq 1
   "Ger.W." → WETBOEK||gerechtelijk → seq 1 (SAME)
   "Ger. W." → WETBOEK||gerechtelijk → seq 1 (SAME)
-\`\`\`
+```
 
 ---
 
@@ -1356,7 +1502,7 @@ SAME act (assign same parentActSequence):
 
 ### Inserted Articles (Critical Pattern)
 
-\`\`\`
+```
 Pattern: "article X, Y/Z"
 
 Structure explanation:
@@ -1368,7 +1514,7 @@ Examples:
   "article 100, 15/1" → provisionNumberKey: "15/1" (NOT "100")
 
 Rule: Use the INSERTED article number (Y/Z), not the amendment reference (X)
-\`\`\`
+```
 
 ---
 
@@ -1378,28 +1524,28 @@ Rule: Use the INSERTED article number (Y/Z), not the amendment reference (X)
 
 ### Check 1: Article-Level Deduplication
 
-\`\`\`
+```
 For each provision in your output:
-  key = \`\${provisionNumberKey}|\${parentActSequence}\`
+  key = `${provisionNumberKey}|${parentActSequence}`
 
 Verify no duplicates exist with same key
 If found → ERROR: deduplication failed, remove duplicates
-\`\`\`
+```
 
 ### Check 2: Range Completeness
 
-\`\`\`
+```
 For each article range you expanded:
   - Calculate expected count (end - start + 1 + suffix_bonus)
   - Count provisions extracted from that range
   - Verify counts match
 
 If mismatch → Missing articles, add them now
-\`\`\`
+```
 
 ### Check 3: Parent Act Deduplication
 
-\`\`\`
+```
 Count unique parentActSequence values in output
 Count unique normalization keys (TYPE|DATE|SUBJECT) you tracked
 
@@ -1408,44 +1554,44 @@ These MUST match
 Example validation:
   If 3 unique acts → parentActSequence should use only 1, 2, 3
   If you see sequence 4 → dedup failed, fix it
-\`\`\`
+```
 
 ### Check 4: Parent Act Attribution
 
-\`\`\`
+```
 For each provision:
   - Verify priority rules were followed
   - Explicit attachments (CS, Ger.W.) override proximity
   - No distant context overrode explicit attachment
-\`\`\`
+```
 
 ### Check 5: provisionNumberKey Correctness
 
-\`\`\`
+```
 For each provision:
   - Verify key is article anchor (dropped §, lid, alinéa, °)
   - For "article X, Y/Z" pattern → key must be Y/Z
   - bis/ter/quater suffixes preserved if present
-\`\`\`
+```
 
 ### Check 6: Snippet Verification
 
-\`\`\`
+```
 For each snippet provided earlier:
   - Identify articles mentioned
   - Verify those articles are in output (accounting for deduplication)
   - For ranges: verify ALL articles expanded
   - For article lists: verify ALL articles extracted
-\`\`\`
+```
 
 ### Check 7: No Hallucinations
 
-\`\`\`
+```
 For each provision:
   - Article number appears in source text
   - Parent act explicitly referenced (not inferred from nothing)
   - Notation pattern matches source
-\`\`\`
+```
 
 ---
 
@@ -1470,4 +1616,8 @@ For each provision:
 ## OUTPUT FORMAT
 
 Return ONLY valid JSON matching the schema. No markdown code fences, no explanatory text, no preamble.
-`;
+
+
+════════════════════════════════════════════════════════════════════════════════
+END OF PROMPT
+════════════════════════════════════════════════════════════════════════════════
