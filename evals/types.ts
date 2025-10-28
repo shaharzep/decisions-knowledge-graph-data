@@ -83,6 +83,9 @@ export interface EvalOptions {
 
   /** Output directory for local results */
   outputDir?: string;
+
+  /** Optional CSV test set (decision_id, language) to filter evaluation set */
+  testSetPath?: string;
 }
 
 /**

@@ -40,23 +40,14 @@ const config: JobConfig = {
    */
   dependencies: [
     {
-      jobId: 'extract-provisions-2a',
-      alias: 'agent2a',
+      jobId: 'resolve-provisions-2a',
+      alias: 'resolved2a',
       required: true,
-      source: 'concurrent', // Load from concurrent or batch results directory
-
-      /**
-       * Transform: Extract citedProvisions and create stringified version
-       *
-       * Returns object with:
-       * - citedProvisions: Original array (for reference)
-       * - citedProvisionsJson: Prettified JSON string for prompt injection
-       */
       transform: (dep) => ({
         citedProvisions: dep.citedProvisions,
-        citedProvisionsJson: JSON.stringify(dep.citedProvisions, null, 2)
-      })
-    }
+        citedProvisionsJson: JSON.stringify(dep.citedProvisions, null, 2),
+      }),
+    },
   ],
 
   /**
@@ -119,7 +110,7 @@ const config: JobConfig = {
    * Uses composite key lookup for correct language matching.
    *
    * NOTE: Dependencies are loaded BEFORE preprocessRow runs,
-   * so row.agent2a.citedProvisionsJson is already available here.
+   * so row.resolved2a.citedProvisionsJson is already available here.
    */
   preprocessRow: await (async () => {
     const testSet = await TestSetLoader.loadTestSet(
@@ -184,14 +175,14 @@ const config: JobConfig = {
    * 3. {citedProvisions} - Stringified JSON from Agent 2A
    * 4. {fullText.markdown} - Full decision text
    *
-   * Dependencies are already loaded, so row.agent2a.citedProvisionsJson
-   * contains the stringified provisions from Agent 2A.
+   * Dependencies are already loaded, so row.resolved2a.citedProvisionsJson
+   * contains the stringified provisions from the resolved Stage 2A output.
    */
   promptTemplate: (row) => {
     const prompt = ENRICH_PROVISIONS_PROMPT
       .replace("{decisionId}", row.decision_id || "")
       .replace("{proceduralLanguage}", row.language_metadata || "FR")
-      .replace("{citedProvisions}", row.agent2a?.citedProvisionsJson || "[]")
+      .replace("{citedProvisions}", row.resolved2a?.citedProvisionsJson || "[]")
       .replace("{fullText.markdown}", row.full_md || "");
 
     return prompt;

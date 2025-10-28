@@ -1,7 +1,83 @@
 import { JobConfig } from "../JobConfig.js";
-import { PROVISIONS_2A_PROMPT } from "./prompt.js";
+import { buildProvisionsPrompt } from "./prompt.js";
 import { TestSetLoader } from "../../utils/testSetLoader.js";
 import { extractCandidateSnippets } from "../../utils/provisionSnippetExtractor.js";
+import { extractAbbreviations } from "../../utils/abbreviationExtractor.js";
+import { sanitiseCitedProvisions } from "../../utils/provisionAggregator.js";
+import type { TextChunk } from "../../utils/chunkDecisionText.js";
+
+function formatAbbreviationGuide(entries: ReturnType<typeof extractAbbreviations>): string {
+  if (!entries || entries.length === 0) {
+    return '(No explicit abbreviations detected in earlier sections)';
+  }
+  return entries
+    .map(
+      (entry) =>
+        `- ${entry.abbreviation} ➝ ${entry.fullName}` +
+        (entry.context ? ` (source: ${entry.context.slice(0, 120)}...)` : '')
+    )
+    .join('\n');
+}
+
+function computeSectionGuide(fullText: string, maxSections: number = 8): string {
+  if (!fullText || fullText.trim() === '') {
+    return '(Preamble → Facts → Arguments → Reasoning → Dispositif → Footnotes)';
+  }
+
+  const headingPattern = /^#{1,6}\s+(.+)$/;
+  const sections: string[] = [];
+  const lines = fullText.split(/\r?\n/);
+
+  for (const line of lines) {
+    const match = line.match(headingPattern);
+    if (match) {
+      sections.push(match[1].trim());
+      if (sections.length >= maxSections) break;
+    }
+  }
+
+  if (sections.length === 0) {
+    return '(Preamble → Facts → Arguments → Reasoning → Dispositif → Footnotes)';
+  }
+
+  return sections.map((title, index) => `- Section ${index + 1}: ${title}`).join('\n');
+}
+
+function formatProvisionSnippets(snippets: any[]): string {
+  if (!snippets || snippets.length === 0) {
+    return '(No snippets extracted - document may contain no provision citations)';
+  }
+
+  return snippets
+    .map(
+      (snippet: any, index: number) =>
+        `[${index + 1}] char ${snippet.char_start}-${snippet.char_end}: "${snippet.snippet}"`
+    )
+    .join('\n');
+}
+
+function formatChunkProvisionSnippets(snippets: any[], chunk: TextChunk): string {
+  if (!snippets || snippets.length === 0) {
+    return '(No snippets extracted in this segment)';
+  }
+
+  const filtered = snippets.filter(
+    (snippet: any) =>
+      snippet.char_start < chunk.end && snippet.char_end > chunk.start
+  );
+
+  if (filtered.length === 0) {
+    return '(No snippets extracted in this segment)';
+  }
+
+  return filtered
+    .map((snippet: any, index: number) => {
+      const relativeStart = Math.max(snippet.char_start - chunk.start, 0);
+      const relativeEnd = Math.max(snippet.char_end - chunk.start, relativeStart);
+      return `[${index + 1}] local ${relativeStart}-${relativeEnd} (global ${snippet.char_start}-${snippet.char_end}): "${snippet.snippet}"`;
+    })
+    .join('\n');
+}
 
 /**
  * Extract Provisions 2A Job Configuration - P1 STAGE 2A (Full-Text + Snippet Verification)
@@ -37,11 +113,19 @@ import { extractCandidateSnippets } from "../../utils/provisionSnippetExtractor.
  * - Interpretation, context, application (Agent 2C)
  */
 
+const TEST_SET_PATH =
+  process.env.PROVISIONS_TEST_SET || "evals/test-sets/comprehensive-197.csv";
+
 const config: JobConfig = {
   id: "extract-provisions-2a",
 
   description:
     "Extract cited legal provisions with 100% completeness + accuracy (P1 STAGE 2A: full-text, verbatim with ALL qualifiers, fuzzy deduplication, anti-hallucination rules)",
+
+  chunking: {
+    maxChunkSize: 15000,
+    overlap: 800,
+  },
 
   /**
    * Database Query
@@ -75,7 +159,7 @@ const config: JobConfig = {
    */
   dbQueryParams: await (async () => {
     const testSet = await TestSetLoader.loadTestSet(
-      "evals/test-sets/comprehensive-197.csv"
+      TEST_SET_PATH
     );
     const summary = TestSetLoader.getSummary(testSet);
     console.log(`📊 Provisions 2A test set (LOWEST 20): ${summary.total} decisions`);
@@ -123,7 +207,12 @@ const config: JobConfig = {
       // Extract provision snippets from full markdown text
       // Use 150-char context window for comprehensive context
       // (Belgian legal citations are verbose with long parent act names)
-      const snippets = extractCandidateSnippets(row.full_md || '', 150);
+      const fullText = row.full_md || '';
+      const snippets = extractCandidateSnippets(fullText, 150);
+      const abbreviations = extractAbbreviations(row.decision_id, fullText);
+      const abbreviationGuide = formatAbbreviationGuide(abbreviations);
+      const sectionGuide = computeSectionGuide(fullText);
+      const formattedSnippets = formatProvisionSnippets(snippets);
 
       return {
         ...row,
@@ -142,6 +231,10 @@ const config: JobConfig = {
           : {}),
         // Add extracted provision snippets for verification
         provisionSnippets: snippets,
+        formattedProvisionSnippets: formattedSnippets,
+        abbreviations,
+        abbreviationGuide,
+        sectionGuide,
       };
     };
   })(),
@@ -163,6 +256,8 @@ const config: JobConfig = {
     "decision_date",
     "md_length",
     "length_category",
+    "abbreviationGuide",
+    "sectionGuide",
   ],
 
   /**
@@ -172,21 +267,61 @@ const config: JobConfig = {
    * and formatted provision snippets for verification.
    */
   promptTemplate: (row) => {
-    // Format provision snippets for prompt injection
-    // Expected format: [N] char X-Y: "...snippet text..."
-    const formattedSnippets = row.provisionSnippets && row.provisionSnippets.length > 0
-      ? row.provisionSnippets
-          .map((snippet: any, index: number) =>
-            `[${index + 1}] char ${snippet.char_start}-${snippet.char_end}: "${snippet.snippet}"`
-          )
-          .join('\n')
-      : '(No snippets extracted - document may contain no provision citations)';
+    const abbreviationGuide =
+      row.abbreviationGuide || formatAbbreviationGuide(row.abbreviations || []);
+    const sectionGuide =
+      row.sectionGuide || computeSectionGuide(row.full_md || '');
+    const provisionSnippets =
+      row.formattedProvisionSnippets ||
+      formatProvisionSnippets(row.provisionSnippets || []);
 
-    return PROVISIONS_2A_PROMPT
-      .replace("{decisionId}", row.decision_id || "")
-      .replace("{proceduralLanguage}", row.language_metadata || "FR")
-      .replace("{fullText.markdown}", row.full_md || "")
-      .replace("{provisionSnippets}", formattedSnippets);
+    return buildProvisionsPrompt({
+      decisionId: row.decision_id || '',
+      proceduralLanguage:
+        (row.language_metadata || 'FR').toUpperCase() === 'NL' ? 'NL' : 'FR',
+      fullText: row.full_md || '',
+      abbreviationGuide,
+      sectionGuide,
+      provisionSnippets,
+      chunkInfo: row.chunkMetadata,
+    });
+  },
+
+  chunkPromptTemplate: ({
+    row,
+    chunk,
+    totalChunks,
+    formattedSnippets,
+  }) => {
+    const abbreviationGuide =
+      row.abbreviationGuide || formatAbbreviationGuide(row.abbreviations || []);
+
+    const sectionGuide = `Segment ${chunk.index + 1}/${totalChunks} – ${chunk.label}`;
+    const effectiveChunk: TextChunk = {
+      index: chunk.index,
+      start: chunk.start,
+      end: chunk.end,
+      label: chunk.label,
+      text: (chunk.text ?? row.full_md) || '',
+    };
+
+    return buildProvisionsPrompt({
+      decisionId: row.decision_id || '',
+      proceduralLanguage:
+        (row.language_metadata || 'FR').toUpperCase() === 'NL' ? 'NL' : 'FR',
+      fullText: effectiveChunk.text,
+      abbreviationGuide,
+      sectionGuide,
+      provisionSnippets:
+        formattedSnippets ||
+        formatChunkProvisionSnippets(row.provisionSnippets || [], effectiveChunk),
+      chunkInfo: {
+        index: chunk.index,
+        total: totalChunks,
+        label: chunk.label,
+        charRange: `${chunk.start}-${chunk.end}`,
+      },
+    });
   },
 
   /**
@@ -211,27 +346,10 @@ const config: JobConfig = {
       return result;
     }
 
-    // Validate sequences exist
-    for (const prov of result.citedProvisions) {
-      if (typeof prov.provisionSequence !== 'number') {
-        throw new Error(`Missing or invalid provisionSequence: ${JSON.stringify(prov)}`);
-      }
-      if (typeof prov.parentActSequence !== 'number') {
-        throw new Error(`Missing or invalid parentActSequence: ${JSON.stringify(prov)}`);
-      }
-    }
-
-    // Construct IDs with guaranteed-correct format
-    result.citedProvisions = result.citedProvisions.map((provision: any) => {
-      const provSeq = String(provision.provisionSequence).padStart(3, '0');
-      const actSeq = String(provision.parentActSequence).padStart(3, '0');
-
-      return {
-        ...provision,
-        // Add the full IDs that will be used downstream
-        internalProvisionId: `ART-${decisionId}-${provSeq}`,
-        internalParentActId: `ACT-${decisionId}-${actSeq}`,
-      };
+    result.citedProvisions = sanitiseCitedProvisions(result.citedProvisions, {
+      decisionId,
+      language: row.language_metadata,
+      abbreviations: row.abbreviations,
     });
 
     return result;

@@ -3,8 +3,9 @@
  */
 
 import { DatabaseConfig } from './src/config/database.js';
-import { extractProvisionContexts } from './src/utils/provisionContextExtractor.js';
-import { PROVISIONS_2A_PROMPT } from './src/jobs/extract-provisions-2a/prompt.js';
+import { extractCandidateSnippets } from './src/utils/provisionSnippetExtractor.js';
+import { extractAbbreviations } from './src/utils/abbreviationExtractor.js';
+import { buildProvisionsPrompt } from './src/jobs/extract-provisions-2a/prompt.js';
 
 async function debugPromptGeneration() {
   console.log('='.repeat(80));
@@ -35,28 +36,50 @@ async function debugPromptGeneration() {
     const row = rows[0];
 
     // Step 1: Extract provision contexts (simulating preprocessRow)
-    console.log('Step 1: Extracting provision contexts...');
-    const provisionContexts = await extractProvisionContexts(
-      row.decision_id,
-      row.full_md
-    );
-    console.log(`✅ Found ${provisionContexts.total_provision_mentions} mentions`);
+    console.log('Step 1: Extracting provision snippets...');
+    const snippets = extractCandidateSnippets(row.full_md, 150);
+    console.log(`✅ Found ${snippets.length} snippet candidates`);
     console.log();
 
-    // Step 2: Create the enriched row (simulating what preprocessRow does)
+    // Step 2: Extract abbreviations
+    console.log('Step 2: Extracting abbreviations...');
+    const abbreviations = extractAbbreviations(row.decision_id, row.full_md);
+    console.log(`✅ Found ${abbreviations.length} abbreviations`);
+    console.log();
+
+    // Step 3: Create the enriched row (simulating what preprocessRow does)
     const enrichedRow = {
       ...row,
-      provision_contexts: provisionContexts
+      provisionSnippets: snippets,
+      abbreviations,
     };
 
-    // Step 3: Generate the prompt (simulating promptTemplate)
-    console.log('Step 2: Generating prompt template...');
-    const contextsJson = JSON.stringify(enrichedRow.provision_contexts, null, 2);
+    // Step 4: Generate the prompt (simulating promptTemplate)
+    console.log('Step 3: Generating prompt template...');
+    const formattedSnippets = snippets.length
+      ? snippets
+          .map(
+            (snippet, index) =>
+              `[${index + 1}] char ${snippet.char_start}-${snippet.char_end}: "${snippet.snippet}"`
+          )
+          .join('\n')
+      : '(No snippets extracted - document may contain no provision citations)';
 
-    const finalPrompt = PROVISIONS_2A_PROMPT
-      .replace("{decisionId}", enrichedRow.decision_id || "")
-      .replace("{proceduralLanguage}", enrichedRow.language_metadata || "FR")
-      .replace("{provisionContextsJson}", contextsJson);
+    const abbreviationGuide = abbreviations.length
+      ? abbreviations
+          .map((entry) => `- ${entry.abbreviation} ➝ ${entry.fullName}`)
+          .join('\n')
+      : '(No explicit abbreviations detected in earlier sections)';
+
+    const finalPrompt = buildProvisionsPrompt({
+      decisionId: enrichedRow.decision_id || '',
+      proceduralLanguage:
+        (enrichedRow.language_metadata || 'FR').toUpperCase() === 'NL' ? 'NL' : 'FR',
+      fullText: enrichedRow.full_md || '',
+      provisionSnippets: formattedSnippets,
+      abbreviationGuide,
+      sectionGuide: '(Debug run - section guide omitted)',
+    });
 
     console.log('='.repeat(80));
     console.log('GENERATED PROMPT (first 2000 chars):');
@@ -99,13 +122,12 @@ async function debugPromptGeneration() {
     console.log('='.repeat(80));
     console.log('CONTEXTS STRUCTURE CHECK:');
     console.log('='.repeat(80));
-    console.log(`Total contexts: ${provisionContexts.contexts.length}`);
+    console.log(`Total snippets: ${snippets.length}`);
     console.log();
-    console.log('First 3 contexts:');
-    provisionContexts.contexts.slice(0, 3).forEach((ctx, idx) => {
-      console.log(`\n${idx + 1}. Snippet ${ctx.snippet_id}:`);
-      console.log(`   Matched: "${ctx.matched_text}"`);
-      console.log(`   Text: ${ctx.context_text.substring(0, 80)}...`);
+    console.log('First 3 snippets:');
+    snippets.slice(0, 3).forEach((snippet, idx) => {
+      console.log(`\n${idx + 1}. Char ${snippet.char_start}-${snippet.char_end}`);
+      console.log(`   Snippet: ${snippet.snippet.substring(0, 80)}...`);
     });
     console.log();
 
@@ -113,14 +135,13 @@ async function debugPromptGeneration() {
     console.log('='.repeat(80));
     console.log('PLACEHOLDER REPLACEMENT CHECK:');
     console.log('='.repeat(80));
-    const hasUnreplacedPlaceholder = finalPrompt.includes('{provisionContextsJson}');
-    console.log(`✗ Unreplaced {provisionContextsJson}: ${hasUnreplacedPlaceholder}`);
+    const hasSnippetPlaceholder = finalPrompt.includes('{provisionSnippets}');
+    console.log(`✗ Unreplaced {provisionSnippets}: ${hasSnippetPlaceholder}`);
 
-    if (hasUnreplacedPlaceholder) {
-      console.log('⚠️  WARNING: Placeholder was not replaced!');
-      console.log('   This means the contexts are NOT in the prompt.');
+    if (hasSnippetPlaceholder) {
+      console.log('⚠️  WARNING: Snippet placeholder was not replaced!');
     } else {
-      console.log('✓ Placeholder was replaced correctly');
+      console.log('✓ Snippet placeholder was replaced correctly');
     }
     console.log();
 

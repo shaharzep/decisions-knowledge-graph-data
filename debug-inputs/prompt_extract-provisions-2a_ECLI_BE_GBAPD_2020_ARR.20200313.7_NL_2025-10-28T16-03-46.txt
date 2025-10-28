@@ -1,0 +1,370 @@
+════════════════════════════════════════════════════════════════════════════════
+DEBUG PROMPT GENERATION
+════════════════════════════════════════════════════════════════════════════════
+
+Job Type:     extract-provisions-2a
+Decision ID:  ECLI:BE:GBAPD:2020:ARR.20200313.7
+Language:     NL
+Generated:    2025-10-28T16:03:46.260Z
+Prompt Size:  37386 characters
+
+════════════════════════════════════════════════════════════════════════════════
+PROMPT CONTENT
+════════════════════════════════════════════════════════════════════════════════
+
+## ROLE
+You are a specialized legal AI assistant extracting cited legal provisions from Belgian judicial decisions. This is Stage 2A: ESSENTIAL METADATA ONLY.
+
+## PRIMARY OBJECTIVE
+Extract EVERY cited provision with PERFECT ACCURACY and correct sequencing.
+
+- **COMPLETENESS**: missing one provision = FAIL
+- **ACCURACY**: wrong parent act or hallucinated provision = FAIL
+- **SEQUENCING**: wrong sequence numbers or deduplication = FAIL
+
+## INPUT
+1. **decisionId**: ECLI:BE:GBAPD:2020:ARR.20200313.7 — for reference only
+2. **proceduralLanguage**: NL — FR or NL
+3. **fullText.markdown**:
+Advies nr. 24/2020 van 13 maart 2020
+
+Betreft: Adviesaanvraag met betrekking tot het:
+
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest (artikelen 3 tot 10)
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest met betrekking tot de personen bedoeld in artikel 27/1 van diezelfde ordonnantie (artikelen 4 tot 11)
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (artikelen 4 tot 11)
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 (artikelen 3 tot 10)
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure (artikelen 3 tot 10)
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure betreffende de personen als bedoeld in artikel 75, eerste lid, van dezelfde ordonnantie (artikelen 4 tot 11) (CO-A-2020-009)
+
+---
+
+De Gegevensbeschermingsautoriteit (hierna "de Autoriteit");
+
+Gelet op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, inzonderheid op artikel 23 en 26 (hierna "WOG");
+
+Gelet op de Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (algemene verordening gegevensbescherming) (hierna "AVG");
+
+Gelet op de wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens (hierna "WVG");
+
+Gelet op de adviesaanvragen van de Minister van het Brussels Hoofdstedelijk Gewest belast met Financiën en Begroting, Ambtenarenzaken en Meertaligheid, de heer Sven Gatz, ontvangen op 16, 20 en 29 januari 2020;
+
+Gelet op de bijkomende informatie ontvangen op 27 januari 2020;
+
+Gelet op het verslag van mevrouw Alexandra Jaspar, Directeur van het Kenniscentrum van de Gegevensbeschermingsautoriteit ;
+
+Brengt op 13 maart 2020 het volgend, advies uit:
+
+# I. ONDERWERP EN CONTEXT VAN DE ADVIESAANVRAAG 
+
+1. de Minister van het Brussels Hoofdstedelijk Gewest belast met Financiën en Begroting, Ambtenarenzaken en Meertaligheid, de heer Sven Gatz, (hierna "de aanvrager") vroeg op 16, 20 en 29 januari 2020, het advies van de Autoriteit over 6 voorontwerpen van besluit van de Brusselse Hoofdstedelijke Regering (hierna "de ontwerpen"):
+
+- Een voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest (hierna " het ontwerp 1")
+- Een voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest met betrekking tot de personen bedoeld in artikel 27/1 van diezelfde ordonnantie (hierna "het ontwerp 2")
+
+---
+
+- Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 (hierna "het ontwerp 3")
+- Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 vaan het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (hierna "het ontwerp 4")
+- Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot en met 71 van de ordonnantie van 6 december 2019 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest (hierna " het ontwerp 5")
+- Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure betreffende de personen als bedoeld in artikel 75, eerste lid, van dezelfde ordonnantie ("het ontwerp 6")
+
+2. Deze ontwerpen geven uitvoering aan wettelijke bepalingen die voorzien in een gegevensstroom tussen de Brusselse fiscus en de notarissen en andere personen die gemachtigd zijn om een authentieke akte op te stellen om de invordering mogelijk te maken van belastingschulden aan het Brussels Hoofdstedelijk Gewest van partijen bij een authentieke akte met het oog op de vervreemding of hypothecaire aanwending van een voor hypotheek vatbaar goed. Deze invorderingsmethode wordt de "4de weg" genoemd.
+3. De artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen (hierna "WIB 1992"), de artikelen 24 tot $27 / 2$ van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest alsook de artikelen 69 tot 71 van de ordonnantie van 6 maart 2019 betreffende de Brusselse Codex fiscale procedure, bepalen het volgende:
+a) De notarissen of andere gemachtigde personen die gevorderd zijn om een akte op te maken die de vervreemding of de hypothecaire aanwending van een onroerend goed, van een schip of een vaartuig tot voorwerp heeft, moeten deze vordering bekend maken aan de fiscale administratie van het Brussels hoofdstedelijk Gewest (bij gebrek hieraan, zijn zij persoonlijk aansprakelijk voor de betaling der gewestbelastingen en bijbehoren die tot een hypothecaire inschrijving aanleiding kunnen geven) (artikel 24 van de ordonnantie van 21 december 2012, artikel 433 WIB 1992 en artikel 69 van de ordonnantie van 6 maart 2019.
+b) De fiscale administratie beschikt over een termijn van 12 dagen om de notaris kennis te geven van het bedrag van de gewestbelastingen en bijbehoren die aanleiding kunnen geven tot inschrijving van de wettelijke hypotheek van het Gewest op de goederen welke het voorwerp van
+
+---
+
+de akte zijn ${ }^{1}$ (artikel 25 van de ordonnantie van 21 december 2012, artikel WIB 1992 en artikel 70 van de ordonnantie van 6 maart 2019).
+c) Wanneer de bedoelde akte verleden is, geldt de kennisgeving als derdenbeslag in handen van de notaris of van de persoon die gemachtigd is om een authentieke akte op te maken (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019).
+d) indien de aldus door beslag onder derden getroffen sommen en waarden minder bedragen dan het totaal der sommen verschuldigd aan de ingeschreven schuldeisers en aan de verzetdoende schuldeisers, moet de notaris of de gemachtigde persoon, op straffe van persoonlijke aansprakelijkheid voor het overschot, daarover, de Brusselse fiscale administratie inlichten, uiterlijk de eerste werkdag die volgt op het verlijden van de akte (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019).
+4. De voormelde wettelijke bepalingen delegeren de bevoegdheid om de toepassingsvoorwaarden van deze verschillende artikelen te bepalen aan de Regering van het Brussels Hoofdstedelijk Gewest. De ontwerpen die voor advies aan de Autoriteit worden voorgelegd, voorzien in de uitvoering van deze wettelijke bepalingen. Zo bepalen de ontwerpen onder andere de volgende elementen:
+
+- De inlichtingen die krachtens de artikelen 24 van de ordonnantie van 21 december 2012, 433 van het WIB en 70 van de ordonnantie van 6 maar 2019, moeten wordt verzonden naar de fiscale administratie door alle notarissen of de personen die gemachtigd zijn om een authentieke akte op te maken, die gevorderd zijn om een akte op te maken die de vervreemding of de hypothecaire aanwending van een onroerend goed, van een schip of een vaartuig tot voorwerp heeft ("het bericht" als bedoeld in de ontwerpen);
+- De inlichtingen die de fiscale administratie verstuurt, krachtens de artikelen 25 van de ordonnantie van 21 december 2012, 434 van het WIB 1992 en 70 van de ordonnantie van 6 maart 2019, aan de notaris of de gemachtigde persoon om een authentieke akte op te maken binnen de 12 werkdagen volgend op het "advies" (de kennisgeving", als bedoeld in de ontwerpen);
+- De inlichtingen die de notaris of de gemachtigde persoon om een authentieke akte op te maken, krachtens de artikelen 26 van de ordonnantie van 21 december 2012, 435 van het WIB 1992 en 71 van de ordonnantie van 6 maart 2019, aan de fiscale administratie moet
+
+[^0]
+[^0]:    ${ }^{1}$ De wettelijke bepalingen bepalen immers dat het Brussels Hoofdstedelijk Gewest een wettelijke hypotheek kan nemen op de onroerende goederen van de schuldenaar. Zie artikel 17 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest dat bepaalt " Voor de inning van de gewestbelasting, de intresten en de verhogingen, (...) over een wettelijke hypotheek op alle goederen toebehorend aan de belastingplichtige en gelegen op het grondgebied van België en waarop hypotheek kan worden gevestigd (...)". Zie ook artikel 427 van het WIB 1992 dat bepaalt De hypotheek wordt ingeschreven op verzoek van de statutaire of contractuele ambtenaar die hiertoe gemachtigd is door de Regering van de het Brussels Hoofdstedelijk Gewest (...) ${ }^{\prime}$. .
+
+---
+
+overmaken in het geval de door beslag onder derden getroffen, sommen en waarden in handen van de notaris of van de persoon die gemachtigd is om een authentieke akte op te maken, minder bedragen dan het totaal der sommen verschuldigd aan de ingeschreven schuldeisers en aan de verzetdoende schuldeisers ("de inlichting" als bedoeld in de ontwerpen);
+
+- De manieren waarop een elektronische handtekening moet worden opgenomen in de "kennisgeving" opdat deze kan resulteren in een geldig beslag onder derden;
+- De manieren waarop de betrokken personen, waarop de verzending van het bericht, kennisgeving en inlichtingen betrekking hebben, geïdentificeerd worden;
+- De identificatie van de verwerkingsverantwoordelijken;
+- De identificatie van de bewaartermijnen van de persoonsgegevens;
+- De verplichting om de oorsprong en de integriteit van de inhoud van de berichten, kennisgevingen en inlichtingen te waarborgen bij een verzending door middel van een procedure met behulp van computertechnologie.
+
+# II. ONDERZOEK VAN DE ADVIESAANVRAAG 
+
+5. De ontwerpen bepalen de gegevens die notarissen en andere personen die gemachtigd zijn om authentieke akten op te maken, moeten uitwisselen met de Brusselse fiscale administratie ter uitvoering van de wettelijke bepalingen als voorzien in "de 4de weg ", alsook de identiteit van de verantwoordelijken voor de verwerking en de bewaartermijnen.
+6. Zoals de Autoriteit al herhaaldelijk ${ }^{2}$ heeft kunnen in herinnering brengen, vereisen de in artikel 8 van het EVRM en artikel 22 van de Grondwet vastgelegde beginselen van transparantie en wettigheid dat in een wet, decreet of besluit duidelijk wordt bepaald onder welke omstandigheden de verwerking van persoonsgegevens is toegestaan ${ }^{3}$. Wanneer de verwerking berust op een rechtsgrond van nationaal recht, eist artikel 6.3 van de AVG eveneens specifiek dat de doeleinden ervan in deze rechtsgrond worden gedefinieerd. De doeleinden van de verwerking en de gevallen waarin en de voorwaarden waaronder persoonsgegevens worden verwerkt, moeten worden vastgelegd in een norm die volgens de jurisprudentie van het Hof van Justitie van de Europese Unie en het Europees Hof voor de Rechten van de Mens duidelijk, nauwkeurig en voorspelbaar moet zijn voor de burgers.
+7. Om te voldoen aan de vereiste van duidelijkheid, nauwkeurigheid en voorspelbaarheid van de norm, is de Autoriteit van mening dat de aanvrager de volgende wijzigingen moet aanbrengen in Ontwerp:
+
+## a) Aangaande het doeleinde
+
+[^0]
+[^0]:    ${ }^{2}$ Zie onder meer, Advies van de GBA nr. 65/2019 van 27 februari 2019 betreffende een ontwerp van samenwerkingsakkoord tot wijziging van het samenwerkingsakkoord van 23 mei 2013 tussen het Waals Gewest en de Franse Gemeenschap betreffende de uitwerking van een gemeenschappelijk initiatief inzake gegevensdeling en het gezamenlijk beheer van dit initiatief, punten 5-6.
+    ${ }^{3}$ In die zin, lees Grondwettelijk Hof, Arrest nr. 29/2018 van 15 maart 2018, punten B. 9 en v. en punt B.13.3 in het bijzonder.
+
+---
+
+8. De ontwerpen definiëren het doeleinde niet van de gegevensverwerking die zij organiseren, omdat dit doel volgens de aanvrager is vastgelegd in de wettelijke bepalingen die door de ontwerpen worden uitgevoerd. De Autoriteit merkt echter op dat, in tegenstelling tot wat de aanvrager beweert, deze wettelijke bepalingen het doeleinde van de verwerkingen die zij invoeren, niet uitdrukkelijk omschrijven. Dit doeleinde kan vermoedelijk worden afgeleid uit de opzet van deze wettelijke bepalingen. Het lijkt er immers op dat het Gewest zijn wettelijke hypotheek moet kunnen behouden en een hypothecaire inschrijving moet kunnen afsluiten wanneer zijn belangen dat vereisen. Een dergelijk doeleinde is welomschreven en gerechtvaardigd, maar het is niet "uitdrukkelijk", terwijl artikel 5.1. b) en artikel 6.3 van de AVG vereisen dat het doeleinde van de verwerking op basis van het nationale recht uitdrukkelijk omschreven moet zijn. De Autoriteit verzoekt de aanvrager daarom het doeleinde van de ontwerpen nauwkeurig te omschrijven.
+
+# b) Aangaande de categorieën van verwerkte gegevens 
+
+9. De Autoriteit merkt op dat de verschillende categorieën gegevens die in de "berichten", "kennisgevingen" en "inlichtingen" moeten worden opgenomen, voldoen aan het beginsel van de minimale gegevensverwerking dat is opgelegd door artikel 5.1. c) van de AVG, met uitzondering van de categorie "beschrijving van het goed", die te vaag is en niet noodzakelijk is voor het nagestreefde doel. De gegevens "aard", "volledig adres", "oppervlakte" en "kadastergegevens" volstaan immers om het betrokken onroerend goed te identificeren om het nagestreefde doeleinde te kunnen bereiken via de uitwisseling van gegevens in het kader van de "berichten", de "kennisgevingen" en de "inlichtingen".
+
+## c) Aangaande de aanduiding van de verwerkingsverantwoordelijke
+
+10. De ontwerpen duiden de GOBF en de notaris "elk voor wat hem betreft" aan als verwerkingsverantwoordelijke van de gegevens die worden uitgewisseld voor de uitvoering van de ontwerpen. De Autoriteit neemt nota van deze aanduiding. Zij benadrukt echter de noodzaak om nader te omschrijven met welke gegevensverwerkingen deze aanduiding in verband staat.
+
+## d) Aangaande de duur van de machtiging
+
+11. De Autoriteit stelt vast dat de ontwerpen het volgende bepalen :"De in het kader van de verzending van de berichten, kennisgevingen en inlichtingen uitgewisselde persoonsgegevens worden door de verwerkingsverantwoordelijken bewaard gedurende de termijn die nodig is voor de vervulling van hun respectieve taken. Voor de GOBF mag deze termijn in ieder geval de twintig jaren vanaf de eerste dag van de derde maand volgend op het bericht niet overschrijden. Voor de notaris mag deze termijn in ieder geval de dertig jaren vanaf het verlijden van de authentieke akte niet overschrijden».
+
+---
+
+12. De Autoriteit neemt hier nota van, maar benadrukt dat de bewaartermijn restrictiever moet worden gedefinieerd, in overeenstemming met het vereiste van artikel 5.1.e) van de AVG. Zo wordt de aanvrager verzocht om de woorden "gedurende de termijn die nodig is voor de vervulling van hun respectieve takerf te vervangen door de woorden "gedurende de termijn die nodig is om het nagestreefde doeleinde te bereiken met de gegevensuitwisselingen in het kader van het verzenden van de berichten, kennisgevingen en inlichtingen».
+
+# OM DIE REDENEN, 
+
+## is de Autoriteit van mening dat de aanvrager het ontwerp als volgt moet aanpassen:
+
+- het doeleinde vermelden dat wordt nagestreefd met de gegevensuitwisselingen in het kader van de verzending van berichten, kennisgevingen en inlichtingen (punt 8);
+- de "beschrijving van het goed" schrappen uit de inlichtingen die moeten worden opgenomen in de "berichten", "kennisgevingen" en "inlichtingen" (punt 9);
+- de gegevensverwerkingen nader omschrijven waarvoor de ontwerpen de GOBF en de notaris aanduiden als verwerkingsverantwoordelijke (punt 10);
+- de bewaartermijn beter omschrijven van de gegevensuitwisselingen in het kader van de verzending van berichten, kennisgevingen, inlichtingen door de woorden te vervangen "gedurende de termijn die nodig is voor de vervulling van hun respectieve takerf door de woorden "gedurende de termijn die nodig is om het nagestreefde doeleinde te bereiken met de gegevensuitwisselingen in het kader van het verzenden van de berichten, kennisgevingen en inlichtingen » (punt 12).
+(get.) Alexandra Jaspar
+Directeur van het Kenniscentrum
+4. **Known abbreviations** (keep parent act alignment across sections):
+- WOG ➝ op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, inzonderheid op artikel 23 en 26 (source: op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, inzonderheid op artikel 23 en 26 (hi...)
+- WVG ➝ juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens (source: juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens (hie...)
+5. **Document sections** (process sequentially):
+- Section 1: I. ONDERWERP EN CONTEXT VAN DE ADVIESAANVRAAG
+- Section 2: II. ONDERZOEK VAN DE ADVIESAANVRAAG
+- Section 3: a) Aangaande het doeleinde
+- Section 4: b) Aangaande de categorieën van verwerkte gegevens
+- Section 5: c) Aangaande de aanduiding van de verwerkingsverantwoordelijke
+- Section 6: d) Aangaande de duur van de machtiging
+- Section 7: OM DIE REDENEN,
+- Section 8: is de Autoriteit van mening dat de aanvrager het ontwerp als volgt moet aanpassen:
+6. **Provision snippets** (safety net for validation):
+[1] char 177-327: "aart 2020 Betreft: Adviesaanvraag met betrekking tot het: - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest (artikelen 3 tot 10) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 24 tot en met 26 van de ordonnan"
+[2] char 624-666: "nantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest met betrekking tot de personen bedoeld in artikel 27/1 van diezelfde ordonnantie (artikelen 4 tot 11) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van"
+[3] char 774-807: "artikel 27/1 van diezelfde ordonnantie (artikelen 4 tot 11) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (artikelen 4 tot 11) - Voorontwerp van besl"
+[4] char 880-909: "fdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (artikelen 4 tot 11) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetb"
+[5] char 1025-1058: "d in artikel 439 van hetzelfde Wetboek (artikelen 4 tot 11) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 (artikelen 3 tot 10) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de a"
+[6] char 1207-1256: "tboek van de inkomstenbelastingen 1992 (artikelen 3 tot 10) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure (artikelen 3 tot 10) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot u"
+[7] char 1423-1472: "e de Brusselse Codex Fiscale Procedure (artikelen 3 tot 10) - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure betreffende de personen als bedoeld in artikel 75, eerste lid, van dezelfde ordonnantie (artik"
+[8] char 1567-1619: "an de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure betreffende de personen als bedoeld in artikel 75, eerste lid, van dezelfde ordonnantie (artikelen 4 tot 11) (CO-A-2020-009) --- De Gegevensbeschermingsautoriteit (hierna "de Autoriteit"); Gelet op de wet van 3 december 2017 tot oprichtin"
+[9] char 3910-3943: "an diezelfde ordonnantie (hierna "het ontwerp 2") --- - Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen 1992 (hierna "het ontwerp 3") - Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering"
+[10] char 4100-4134: "n de inkomstenbelastingen 1992 (hierna "het ontwerp 3") - Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 433 tot 435 vaan het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (hierna "het ontwerp 4") - Een Voorontwerp"
+[11] char 4207-4236: "dstedelijke Regering tot uitvoering van de artikelen 433 tot 435 vaan het Wetboek van de inkomstenbelastingen 1992 betreffende de personen bedoeld in artikel 439 van hetzelfde Wetboek (hierna "het ontwerp 4") - Een Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot en met 71"
+[12] char 4622-4671: "et Brussels Hoofdstedelijk Gewest (hierna " het ontwerp 5") - Voorontwerp van besluit van de Brusselse Hoofdstedelijke Regering tot uitvoering van de artikelen 69 tot 71 van de Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure betreffende de personen als bedoeld in artikel 75, eerste lid, van dezelfde ordonnantie ("het"
+[13] char 5340-5373: "het oog op de vervreemding of hypothecaire aanwending van een voor hypotheek vatbaar goed. Deze invorderingsmethode wordt de "4de weg" genoemd. 3. De artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen (hierna "WIB 1992"), de artikelen 24 tot $27 / 2$ van de ordonnantie van 21 december 2012 tot vaststelling van de fis"
+[14] char 5430-5588: "Deze invorderingsmethode wordt de "4de weg" genoemd. 3. De artikelen 433 tot 435 van het Wetboek van de inkomstenbelastingen (hierna "WIB 1992"), de artikelen 24 tot $27 / 2$ van de ordonnantie van 21 december 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest alsook de artikelen 69 tot 71 van de ordonnantie van 6 maart 2019 betreffende de Brusselse Codex fiscale procedure, bepalen het volgende: a) De notarissen of ande"
+[15] char 5633-5671: "ecember 2012 tot vaststelling van de fiscale procedure in het Brussels Hoofdstedelijk Gewest alsook de artikelen 69 tot 71 van de ordonnantie van 6 maart 2019 betreffende de Brusselse Codex fiscale procedure, bepalen het volgende: a) De notarissen of andere gemachtigde personen die gevorderd zijn om een akte op te maken die de vervreemd"
+[16] char 6205-6259: "jn zij persoonlijk aansprakelijk voor de betaling der gewestbelastingen en bijbehoren die tot een hypothecaire inschrijving aanleiding kunnen geven) (artikel 24 van de ordonnantie van 21 december 2012, artikel 433 WIB 1992 en artikel 69 van de ordonnantie van 6 maart 2019. b) De fiscale administratie beschikt over een termijn van 12 dagen om de notaris"
+[17] char 6281-6321: "ijbehoren die tot een hypothecaire inschrijving aanleiding kunnen geven) (artikel 24 van de ordonnantie van 21 december 2012, artikel 433 WIB 1992 en artikel 69 van de ordonnantie van 6 maart 2019. b) De fiscale administratie beschikt over een termijn van 12 dagen om de notaris kennis te geven van het bedrag van de gewestbelastingen en bi"
+[18] char 6636-6690: "nleiding kunnen geven tot inschrijving van de wettelijke hypotheek van het Gewest op de goederen welke het voorwerp van --- de akte zijn ${ }^{1}$ (artikel 25 van de ordonnantie van 21 december 2012, artikel WIB 1992 en artikel 70 van de ordonnantie van 6 maart 2019). c) Wanneer de bedoelde akte verleden is, geldt de kennisgeving als derdenbeslag in"
+[19] char 6708-6748: "et Gewest op de goederen welke het voorwerp van --- de akte zijn ${ }^{1}$ (artikel 25 van de ordonnantie van 21 december 2012, artikel WIB 1992 en artikel 70 van de ordonnantie van 6 maart 2019). c) Wanneer de bedoelde akte verleden is, geldt de kennisgeving als derdenbeslag in handen van de notaris of van de persoon die gemachtigd is"
+[20] char 6935-6989: "verleden is, geldt de kennisgeving als derdenbeslag in handen van de notaris of van de persoon die gemachtigd is om een authentieke akte op te maken (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019). d) indien de aldus door beslag onder derden getroffen sommen en waarden"
+[21] char 7019-7059: "de persoon die gemachtigd is om een authentieke akte op te maken (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019). d) indien de aldus door beslag onder derden getroffen sommen en waarden minder bedragen dan het totaal der sommen verschuldigd aan de ingesch"
+[22] char 7498-7552: "kheid voor het overschot, daarover, de Brusselse fiscale administratie inlichten, uiterlijk de eerste werkdag die volgt op het verlijden van de akte (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019). 4. De voormelde wettelijke bepalingen delegeren de bevoegdheid om de to"
+[23] char 7582-7622: "terlijk de eerste werkdag die volgt op het verlijden van de akte (artikel 26 van de ordonnantie van 21 december 2012, artikel 435 van het WIB 1992 en artikel 71 van de ordonnantie van 6 maart 2019). 4. De voormelde wettelijke bepalingen delegeren de bevoegdheid om de toepassingsvoorwaarden van deze verschillende artikelen te bepalen aan d"
+[24] char 8043-8112: "zien in de uitvoering van deze wettelijke bepalingen. Zo bepalen de ontwerpen onder andere de volgende elementen: - De inlichtingen die krachtens de artikelen 24 van de ordonnantie van 21 december 2012, 433 van het WIB en 70 van de ordonnantie van 6 maar 2019, moeten wordt verzonden naar de fiscale administratie door alle notarissen of de personen die gemachtigd zij"
+[25] char 8583-8652: "f een vaartuig tot voorwerp heeft ("het bericht" als bedoeld in de ontwerpen); - De inlichtingen die de fiscale administratie verstuurt, krachtens de artikelen 25 van de ordonnantie van 21 december 2012, 434 van het WIB 1992 en 70 van de ordonnantie van 6 maart 2019, aan de notaris of de gemachtigde persoon om een authentieke akte op te maken binnen de 12 werkdagen v"
+[26] char 8691-8713: "ale administratie verstuurt, krachtens de artikelen 25 van de ordonnantie van 21 december 2012, 434 van het WIB 1992 en 70 van de ordonnantie van 6 maart 2019, aan de notaris of de gemachtigde persoon om een authentieke akte op te maken binnen de 12 werkdagen volgend op het "advies" (de kennisgeving", als bedoeld in de o"
+[27] char 8983-9052: "isgeving", als bedoeld in de ontwerpen); - De inlichtingen die de notaris of de gemachtigde persoon om een authentieke akte op te maken, krachtens de artikelen 26 van de ordonnantie van 21 december 2012, 435 van het WIB 1992 en 71 van de ordonnantie van 6 maart 2019, aan de fiscale administratie moet [^0] [^0]: ${ }^{1}$ De wettelijke bepalingen bepalen immers da"
+[28] char 9729-9752: "alle goederen toebehorend aan de belastingplichtige en gelegen op het grondgebied van België en waarop hypotheek kan worden gevestigd (...)". Zie ook artikel 427 van het WIB 1992 dat bepaalt De hypotheek wordt ingeschreven op verzoek van de statutaire of contractuele ambtenaar die hiertoe gemachtigd is door de Regering va"
+[29] char 11459-11481: "ijken voor de verwerking en de bewaartermijnen. 6. Zoals de Autoriteit al herhaaldelijk ${ }^{2}$ heeft kunnen in herinnering brengen, vereisen de in artikel 8 van het EVRM en artikel 22 van de Grondwet vastgelegde beginselen van transparantie en wettigheid dat in een wet, decreet of besluit duidelijk wordt bepaald onder"
+[30] char 11485-11511: "n de bewaartermijnen. 6. Zoals de Autoriteit al herhaaldelijk ${ }^{2}$ heeft kunnen in herinnering brengen, vereisen de in artikel 8 van het EVRM en artikel 22 van de Grondwet vastgelegde beginselen van transparantie en wettigheid dat in een wet, decreet of besluit duidelijk wordt bepaald onder welke omstandigheden de verwe"
+[31] char 13778-13799: "afsluiten wanneer zijn belangen dat vereisen. Een dergelijk doeleinde is welomschreven en gerechtvaardigd, maar het is niet "uitdrukkelijk", terwijl artikel 5.1. b) en artikel 6.3 van de AVG vereisen dat het doeleinde van de verwerking op basis van het nationale recht uitdrukkelijk omschreven moet zijn. De Autoriteit v"
+[32] char 1872-1897: "let op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, inzonderheid op artikel 23 en 26 (hierna "WOG"); Gelet op de Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoons"
+[33] char 2128-2146: "ng van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (algemene verordening gegevensbescherming) (hierna "AVG"); Gelet op de wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met"
+
+## OUTPUT SCHEMA
+```json
+{
+  "citedProvisions": [
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "provisionSequence": 1,
+      "parentActSequence": 1,
+      "provisionNumber": "string (VERBATIM, all qualifiers)",
+      "provisionNumberKey": "string (normalized)",
+      "parentActType": "enum (procedural language)",
+      "parentActName": "string (VERBATIM, all qualifiers)",
+      "parentActDate": "YYYY-MM-DD or null",
+      "parentActNumber": "string or null"
+    }
+  ]
+}
+```
+
+**Note**: You output simple integer sequences. The full IDs (ART-xxx-001, ACT-xxx-001) are constructed automatically afterward.
+
+---
+
+## ⛔ HARD ANTI-HALLUCINATION RULE
+
+Extract ONLY when **BOTH conditions are met**:
+1. An article number is **explicitly cited** (art./article/artikel + number)
+2. An instrument is **explicitly referenced** in the same sentence OR clearly implied by immediate context (previous 1-2 sentences)
+
+**DO NOT extract**:
+- ❌ Bare act mentions without article number (e.g., "wet van 15 juni 1935" with no article)
+- ❌ Base instruments in hierarchical citations when only Protocol's article is cited
+- ❌ Provisions inferred from sub-paragraph notation (e.g., "§2, 3de lid" does NOT mean "§3 exists")
+- ❌ Acts mentioned outside of article citation context (e.g., "Gelet op de wet..." without article reference)
+
+**CRITICAL HALLUCINATION PATTERNS TO AVOID**:
+
+**Pattern 1: Degree sign (°) confusion**
+
+The degree sign (°) indicates a POINT or ITEM within an article or paragraph. It is NEVER part of the article number or paragraph number.
+
+**Type A: Paragraph hallucination**
+```
+Source: "article 4, § 1er, 3°"
+❌ DO NOT create: "article 4, § 3" (3° means POINT 3 within §1, NOT paragraph 3)
+```
+
+**Type B: Article number concatenation (CRITICAL HALLUCINATION)**
+```
+Source: "article 17, 3°, a)"
+❌ WRONG: Reading as "article 173, a)" (concatenated 17 + 3°)
+✅ CORRECT: "article 17, 3°, a)" where:
+  - Article number: 17
+  - Point: 3°
+  - Sub-point: a)
+  - provisionNumberKey: "17" (NOT "173")
+```
+
+**Parsing rule**: The degree sign creates a boundary - never merge numbers across it.
+- "17, 3°" = article 17, point 3 (NOT article 173)
+- "31,2°" = article 31, point 2 (NOT article 312)
+- "98,5°" = article 98, point 5 (NOT article 985)
+
+**Validation check**: If you extracted an article number that seems unusually high:
+1. Check if it could be concatenation (e.g., "173" → could be "17, 3°")
+2. Verify the article exists in the act's structure
+3. If the act only has ~50 articles, "article 173" is likely a parsing error
+
+**Pattern 2: Decimal notation duplication**
+```
+Source: "art. 8.1 en 8.2"
+✅ Extract: "art. 8.1" and "art. 8.2"
+❌ DO NOT also create: "art. 8, lid 1" or "art. 8, lid 2" (duplicates in different notation)
+❌ DO NOT create: "art. 8, lid 5" (no lid notation in source at all)
+```
+
+**Pattern 3: Comma in compact notation**
+```
+Source: "§2,3de lid"
+✅ Means: "§2, 3rd paragraph" (3de modifies lid, not §)
+❌ DO NOT create: "§3" (hallucination)
+```
+
+**Pattern 4: Draft laws vs enacted laws**
+```
+Source: "Het wetsontwerp tot wijziging van de wet van 8 augustus 1983... artikel 3 van deze wet"
+
+Context clues:
+- "wetsontwerp" / "projet" = draft law (instrument of amendment)
+- "wet van 8 augustus 1983" = enacted law (where article lives)
+- "van deze wet" = refers to the enacted law
+
+✅ Extract with parent: "wet van 8 augustus 1983 tot regeling van het Rijksregister"
+❌ DO NOT use parent: "wetsontwerp tot wijziging van..."
+```
+
+**RULE**: When a draft law is mentioned in the context of amending an existing law:
+1. Identify the BASE LAW being amended
+2. Use the BASE LAW as parentActName
+3. Ignore the draft law wrapper
+```
+
+**Verification**: For every provision extracted, the exact article number + notation pattern must appear in the source text.
+
+---
+
+## SYSTEMATIC SWEEP PROTOCOL
+
+**Execute silently. Output only final JSON.**
+
+## ⚡ DOCUMENT LENGTH ADAPTIVE PROCESSING
+
+**CRITICAL:** Long documents (>30,000 characters) require a different strategy to prevent attention degradation.
+
+**Step 0: Assess document length**
+- Count characters in the full text
+- If > 30,000 characters → Use LONG DOCUMENT PROTOCOL (3-pass strategy)
+- If ≤ 30,000 characters → Use standard sweep (steps 1-6)
+
+### LONG DOCUMENT PROTOCOL (for documents >30k chars)
+
+**Pass 1: Section-by-Section Marking (IDENTIFICATION PHASE)**
+```
+Do NOT extract yet - just identify and mark locations.
+
+Divide document into logical sections:
+- Preamble ("Gelet op", "Vu")
+- Facts section
+- Arguments section
+- Court reasoning
+- Dispositif/Court order
+- Footnotes/Endnotes (if present)
+
+For EACH section:
+- Scan for article tokens: art., article, artikel
+- Mark approximate location (beginning of section, middle, end)
+- Note parent act context nearby
+- Count approximate number of provisions in this section
+- Do NOT extract yet - just create mental map
+
+This creates a complete inventory of WHERE provisions appear.
+```
+
+**Pass 2: Focused Extraction (EXTRACTION PHASE)**
+```
+Now return to EACH marked location and extract:
+
+- Go back to marked section
+- Extract provisions with FULL context (not just snippets)
+- Apply all rules (expansion, parent act resolution, deduplication)
+- Verify parent act before adding to registry
+- Process one section at a time to maintain focus
+
+This ensures accurate extraction with full context.
+```
+
+**Pass 3: Snippet Cross-Verification (VALIDATION PHASE)**
+```
+Use the provided snippets as safety net:
+
+For EACH snippet in the safety net:
+- Check if provision is in your extraction
+- If missing:
+  - Go back to full text at snippet char position
+  - Extract with full context and all rules
+  - Add to extraction
+- This catches what passes 1-2 might have missed
+
+This is your final completeness check.
+```
+
+**Why this works for long documents:**
+- Pass 1: Ensures 100% coverage (systematic scan, no misses)
+- Pass 2: Maintains accuracy (focused extraction with full context)
+- Pass 3: Safety net (snippet verification catches remaining gaps)
+
+
+════════════════════════════════════════════════════════════════════════════════
+END OF PROMPT
+════════════════════════════════════════════════════════════════════════════════

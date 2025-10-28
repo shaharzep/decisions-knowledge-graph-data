@@ -21,6 +21,7 @@ import {
   EvaluationProgress,
   ExperimentMetadata,
 } from '../types.js';
+import { TestSetLoader } from '../../src/utils/testSetLoader.js';
 
 /**
  * Run evaluation on extraction results
@@ -68,8 +69,46 @@ export async function runEvaluation(
 
   // Apply sample size if specified
   let decisionsToEvaluate = data;
-  if (options.sampleSize && options.sampleSize < data.length) {
-    decisionsToEvaluate = data.slice(0, options.sampleSize);
+  if (options.testSetPath) {
+    console.log(`\n🗂  Loading test set filter: ${options.testSetPath}`);
+    const testSetEntries = await TestSetLoader.loadTestSet(options.testSetPath);
+    const filterKeys = new Set(
+      testSetEntries.map((entry) =>
+        `${entry.decision_id}||${(entry.language || 'FR').toUpperCase()}`
+      )
+    );
+
+    const beforeCount = decisionsToEvaluate.length;
+    decisionsToEvaluate = decisionsToEvaluate.filter((record) => {
+      const id = record.decision_id || record.decisionId;
+      const lang = (
+        record.language ||
+        record.language_metadata ||
+        record.procedureLanguage ||
+        'FR'
+      ).toUpperCase();
+      return filterKeys.has(`${id}||${lang}`);
+    });
+
+    console.log(
+      `   Filtered to ${decisionsToEvaluate.length} of ${beforeCount} records using test set`
+    );
+
+    const missing = [...filterKeys].filter((key) => {
+      const [decisionId] = key.split('||');
+      return !decisionsToEvaluate.some(
+        (record) => (record.decision_id || record.decisionId) === decisionId
+      );
+    });
+    if (missing.length > 0) {
+      console.warn(
+        `⚠️  ${missing.length} decision(s) from test set not found in extraction results`
+      );
+    }
+  }
+
+  if (options.sampleSize && options.sampleSize < decisionsToEvaluate.length) {
+    decisionsToEvaluate = decisionsToEvaluate.slice(0, options.sampleSize);
     console.log(`\n📊 Sampling ${options.sampleSize} decisions for evaluation`);
   }
 

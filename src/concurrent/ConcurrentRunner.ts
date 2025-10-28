@@ -7,6 +7,7 @@ import { ClaudeConcurrentClient, CompletionSettings as ClaudeCompletionSettings 
 import { ConcurrentProcessor, ProcessedResult } from './ConcurrentProcessor.js';
 import { extractJsonFromResponse } from '../utils/validators.js';
 import { DependencyResolver } from '../core/DependencyResolver.js';
+import { chunkDecisionText } from '../utils/chunkDecisionText.js';
 
 // Union type for completion settings
 type CompletionSettings = OpenAICompletionSettings | ClaudeCompletionSettings;
@@ -214,102 +215,31 @@ export class ConcurrentRunner {
     const metadata = this.extractMetadata(row);
 
     try {
-      // Generate prompt
+      const sourceText =
+        row.full_md || row.full_markdown || row.fullText || row.text || '';
+      const shouldChunk =
+        this.config.chunking &&
+        typeof sourceText === 'string' &&
+        sourceText.length > this.config.chunking.maxChunkSize;
+
+      if (shouldChunk) {
+        return await this.processChunkedDecision(
+          row,
+          sourceText,
+          metadata,
+          customId
+        );
+      }
+
       const prompt = this.config.promptTemplate(row);
+      const { data: parsedData, usage } = await this.executePrompt(prompt);
 
-      // Prepare messages
-      const messages = [
-        {
-          role: 'system' as const,
-          content:
-            'Return ONLY a single JSON object matching the schema. No markdown, no prose, no code blocks.',
-        },
-        {
-          role: 'user' as const,
-          content: prompt,
-        },
-      ];
-
-      // Prepare response format
-      const responseFormat = this.config.outputSchemaName
-        ? {
-            type: 'json_schema' as const,
-            json_schema: {
-              name: this.config.outputSchemaName,
-              schema: this.config.outputSchema,
-              strict: true,
-            },
-          }
-        : { type: 'json_object' as const };
-
-      // Prepare completion settings
-      const settings: CompletionSettings = {
-        model: this.config.model || this.config.deploymentName || 'gpt-5-mini',
-        maxOutputTokens: this.config.maxCompletionTokens,
-        reasoningEffort: this.config.reasoningEffort,
-        verbosity: this.config.verbosity,
-      };
-
-      // Call API with timeout
-      const completion = await Promise.race([
-        this.client.complete(messages, responseFormat, settings),
-        new Promise<never>((_, reject) =>
-          setTimeout(
-            () => reject(new Error(`Request timeout after ${this.options.timeout}ms`)),
-            this.options.timeout
-          )
-        ),
-      ]);
-
-      // Extract response content from Chat Completions API
-      const messageContent = completion.choices[0]?.message?.content;
-
-      if (!messageContent) {
-        return {
-          customId,
-          success: false,
-          error: 'No content in response',
-          metadata,
-        };
-      }
-
-      // Check finish reason
-      const finishReason = completion.choices[0]?.finish_reason;
-      if (finishReason === 'length') {
-        return {
-          customId,
-          success: false,
-          error: `Response truncated - hit token limit (${completion.usage?.completion_tokens || 'unknown'} tokens)`,
-          metadata,
-        };
-      }
-
-      // Parse JSON
-      let parsedData: any;
-      try {
-        parsedData = extractJsonFromResponse(messageContent);
-      } catch (error) {
-        return {
-          customId,
-          success: false,
-          error: `JSON parse error: ${error instanceof Error ? error.message : String(error)}`,
-          metadata,
-        };
-      }
-
-      // Success!
       return {
         customId,
         success: true,
         data: parsedData, // Pure model output (not merged yet)
         metadata, // Metadata to merge after validation
-        tokenUsage: completion.usage
-          ? {
-              promptTokens: completion.usage.prompt_tokens,
-              completionTokens: completion.usage.completion_tokens,
-              totalTokens: completion.usage.total_tokens,
-            }
-          : undefined,
+        tokenUsage: usage,
       };
     } catch (error: any) {
       this.logger.error(`Error processing decision ${customId}`, error);
@@ -321,6 +251,100 @@ export class ConcurrentRunner {
         metadata,
       };
     }
+  }
+
+  private async processChunkedDecision(
+    row: any,
+    sourceText: string,
+    metadata: Record<string, any> | undefined,
+    customId: string
+  ): Promise<ProcessedResult> {
+    const chunking = this.config.chunking!;
+    const chunks = chunkDecisionText(sourceText, chunking);
+
+    const allProvisions: any[] = [];
+    let promptTokens = 0;
+    let completionTokens = 0;
+    let totalTokens = 0;
+
+    for (const chunk of chunks) {
+      const chunkSnippets = (row.provisionSnippets || []).filter(
+        (snippet: any) =>
+          snippet.char_start < chunk.end && snippet.char_end > chunk.start
+      );
+
+      const formattedSnippets = chunkSnippets.length
+        ? chunkSnippets
+            .map((snippet: any, index: number) => {
+              const relStart = Math.max(snippet.char_start - chunk.start, 0);
+              const relEnd = Math.max(snippet.char_end - chunk.start, relStart);
+              return `[${index + 1}] local ${relStart}-${relEnd} (global ${snippet.char_start}-${snippet.char_end}): "${snippet.snippet}"`;
+            })
+            .join('\n')
+        : '(No snippets extracted in this segment)';
+
+      const chunkRow = {
+        ...row,
+        full_md: chunk.text,
+        chunkMetadata: {
+          index: chunk.index,
+          total: chunks.length,
+          start: chunk.start,
+          end: chunk.end,
+          label: chunk.label,
+        },
+        provisionSnippets: chunkSnippets,
+        formattedProvisionSnippets: formattedSnippets,
+      };
+
+      const prompt = this.config.chunkPromptTemplate
+        ? this.config.chunkPromptTemplate({
+            row: chunkRow,
+            chunk: {
+              index: chunk.index,
+              total: chunks.length,
+              start: chunk.start,
+              end: chunk.end,
+              label: chunk.label,
+              text: chunk.text,
+            },
+            chunkIndex: chunk.index,
+            totalChunks: chunks.length,
+            provisionSnippets: chunkSnippets,
+            formattedSnippets,
+          })
+        : this.config.promptTemplate(chunkRow);
+
+      const { data, usage } = await this.executePrompt(prompt);
+      const chunkProvisions = Array.isArray(data?.citedProvisions)
+        ? data.citedProvisions
+        : [];
+
+      allProvisions.push(...chunkProvisions);
+
+      if (usage) {
+        promptTokens += usage.promptTokens ?? 0;
+        completionTokens += usage.completionTokens ?? 0;
+        totalTokens += usage.totalTokens ?? 0;
+      }
+    }
+
+    const tokenUsage =
+      promptTokens + completionTokens + totalTokens > 0
+        ? {
+            promptTokens,
+            completionTokens,
+            totalTokens,
+          }
+        : undefined;
+
+    return {
+      customId,
+      success: true,
+      data: { citedProvisions: allProvisions },
+      metadata,
+      tokenUsage,
+    };
   }
   
   private extractMetadata(row: any): Record<string, any> | undefined {
@@ -347,6 +371,77 @@ export class ConcurrentRunner {
     }
 
     return Object.keys(metadata).length > 0 ? metadata : undefined;
+  }
+
+  private async executePrompt(prompt: string) {
+    const messages = [
+      {
+        role: 'system' as const,
+        content:
+          'Return ONLY a single JSON object matching the schema. No markdown, no prose, no code blocks.',
+      },
+      {
+        role: 'user' as const,
+        content: prompt,
+      },
+    ];
+
+    const responseFormat = this.config.outputSchemaName
+      ? {
+          type: 'json_schema' as const,
+          json_schema: {
+            name: this.config.outputSchemaName,
+            schema: this.config.outputSchema,
+            strict: true,
+          },
+        }
+      : { type: 'json_object' as const };
+
+    const settings: CompletionSettings = {
+      model: this.config.model || this.config.deploymentName || 'gpt-5-mini',
+      maxOutputTokens: this.config.maxCompletionTokens,
+      reasoningEffort: this.config.reasoningEffort,
+      verbosity: this.config.verbosity,
+    };
+
+    const completion = await Promise.race([
+      this.client.complete(messages, responseFormat, settings),
+      new Promise<never>((_, reject) =>
+        setTimeout(
+          () => reject(new Error(`Request timeout after ${this.options.timeout}ms`)),
+          this.options.timeout
+        )
+      ),
+    ]);
+
+    const messageContent = completion.choices[0]?.message?.content;
+    if (!messageContent) {
+      throw new Error('No content in response');
+    }
+
+    const finishReason = completion.choices[0]?.finish_reason;
+    if (finishReason === 'length') {
+      const tokens = completion.usage?.completion_tokens ?? 'unknown';
+      throw new Error(`Response truncated - hit token limit (${tokens} tokens)`);
+    }
+
+    let parsedData: any;
+    try {
+      parsedData = extractJsonFromResponse(messageContent);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      throw new Error(`JSON parse error: ${message}`);
+    }
+
+    const usage = completion.usage
+      ? {
+          promptTokens: completion.usage.prompt_tokens,
+          completionTokens: completion.usage.completion_tokens,
+          totalTokens: completion.usage.total_tokens,
+        }
+      : undefined;
+
+    return { data: parsedData, usage };
   }
 
   /**

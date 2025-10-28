@@ -93,6 +93,9 @@ async function runEvalCommand(
       options.saveLocal = false;
     } else if (args[i] === '--batch') {
       options.batch = true;
+    } else if (args[i] === '--test-set' && args[i + 1]) {
+      options.testSetPath = args[i + 1];
+      i++;
     }
   }
 

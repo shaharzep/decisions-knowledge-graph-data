@@ -23,6 +23,7 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
 
   // Stage 2A: Provisions essential metadata (Agent 2A)
   'extract-provisions-2a': 'llm-as-a-judge_STAGE 2A.md',
+  'resolve-provisions-2a': 'llm-as-a-judge_STAGE 2A.md',
 
   // Stage 2B: Enrich provisions with additional details (Agent 2B)
   'enrich-provisions': 'llm-as-a-judge_STAGE 2B.md',

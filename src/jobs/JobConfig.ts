@@ -20,6 +20,32 @@ export interface DependencyMatchField {
 
 export type DependencySource = 'batch' | 'concurrent';
 
+export interface ChunkingConfig {
+  /** Maximum characters per chunk before creating another prompt */
+  maxChunkSize: number;
+  /** Character overlap between consecutive chunks */
+  overlap?: number;
+}
+
+export interface ChunkMetadata {
+  index: number;
+  total: number;
+  start: number;
+  end: number;
+  label: string;
+  text?: string;
+}
+
+export interface ChunkPromptContext {
+  row: any;
+  chunk: ChunkMetadata;
+  chunkIndex: number;
+  totalChunks: number;
+  abbreviations?: any[];
+  provisionSnippets?: any[];
+  formattedSnippets?: string;
+}
+
 export interface JobDependency {
   /** Upstream job to pull results from (e.g., 'extract-comprehensive') */
   jobId: string;
@@ -201,6 +227,16 @@ export interface JobConfig {
    * Example: "extract-parties-001", "extract-parties-002"
    */
   customIdPrefix?: string;
+
+  /**
+   * Optional chunking configuration for long documents
+   */
+  chunking?: ChunkingConfig;
+
+  /**
+   * Optional chunk-specific prompt template invoked when chunking is enabled
+   */
+  chunkPromptTemplate?: (context: ChunkPromptContext) => string;
 
   /**
    * Optional preprocessing function

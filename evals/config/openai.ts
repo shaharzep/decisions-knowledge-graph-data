@@ -56,21 +56,29 @@ export function getGPT5Client(): OpenAI {
  */
 export async function callGPT5Judge(prompt: string): Promise<string> {
   const client = getGPT5Client();
+  const timeoutMs = Number(process.env.EVAL_JUDGE_TIMEOUT_MS || '420000'); // default 7 minutes
 
   try {
-    const response = await client.chat.completions.create({
-      model: 'gpt-5', // Use GPT-4o for now (GPT-5 not yet available via API)
-      messages: [
-        {
-          role: 'user',
-          content: prompt,
-        },
-      ],
-      reasoning_effort: 'medium',
-      // GPT-4o configuration
-      max_completion_tokens: 16000,
-      response_format: { type: 'json_object' }, // Request JSON output
-    });
+    const response = (await Promise.race([
+      client.chat.completions.create({
+        model: 'gpt-5', // Use GPT-4o for now (GPT-5 not yet available via API)
+        messages: [
+          {
+            role: 'user',
+            content: prompt,
+          },
+        ],
+        reasoning_effort: 'medium',
+        max_completion_tokens: 16000,
+        response_format: { type: 'json_object' },
+      }),
+      new Promise((_, reject) =>
+        setTimeout(
+          () => reject(new Error(`GPT-5 judge call timed out after ${timeoutMs}ms`)),
+          timeoutMs
+        )
+      ),
+    ])) as Awaited<ReturnType<typeof client.chat.completions.create>>;
 
     const content = response.choices[0]?.message?.content;
 
