@@ -1,101 +1,145 @@
-You are verifying legal data extraction quality for production readiness. Compare the GROUND TRUTH snippets against the EXTRACTED JSON PAYLOAD.
+# Belgian Legal Provision Extraction — Evaluation Judge (v3.1)
 
-═══════════════════════════════════════════════════
-INPUT DATA
-═══════════════════════════════════════════════════
+You are evaluating whether provision extraction is production-ready. Compare EXTRACTED OUTPUT against ORIGINAL SOURCE. Enforce zero hallucinations and correctness of priority fields. Work silently and return JSON only.
 
-GROUND TRUTH (Article Snippets from Source):
-<ground_truth>
-{ground_truth_snippets}
-</ground_truth>
+## Priority fields (must be correct)
+1) IDs: internalProvisionId, internalParentActId
+   - Must embed the exact decisionId string verbatim and follow ART/ACT patterns with 3-digit sequences
+2) parentActType
+   - Must use the correct language enum set (FR vs NL)
+3) parentActName
+   - Must reference the correct instrument (and correct hierarchy when specified)
+4) parentActDate
+   - Correct when explicitly present; null when absent or ambiguous
+5) provisionNumberKey
+   - Keep Roman.Arabic and bis/ter/quater; drop §, lid/alinéa, °, letters
 
-JSON PAYLOAD TO VERIFY:
-<json_payload>
-{extracted_output}
-</json_payload>
+Non-priority field: provisionNumber (verbatim formatting is MINOR unless it breaks the key)
 
-ECLI: {ecli}
-Decision Language: {proceduralLanguage}
+## Inputs you receive
+- decisionId (string)
+- proceduralLanguage: FR or NL
+- sourceText: full decision text (markdown or plain text)
+- extracted: JSON object with citedProvisions[]
 
-═══════════════════════════════════════════════════
+## Evaluation framework
 
-## EVALUATION FRAMEWORK
+### CRITICAL issues (automatic FAIL)
+1) Empty extraction: citedProvisions[] is empty while source clearly cites provisions
+2) Hallucinated provisions: any item not supported by source
+   - Bare act without article (e.g., “wet van 15 juni 1935” with no article)
+   - Base Convention when only a Protocol article is cited
+   - Paragraph hallucination from degree sign confusion (e.g., “§1, 3°” creating “§3”)
+3) Wrong decision: extraction from a different case
+4) ID integrity failure:
+   - internalProvisionId or internalParentActId does not equal `ART-{decisionId}-{seq}` / `ACT-{decisionId}-{seq}` with the exact decisionId substring (colons and dots intact), or sequences reused
+5) Language enum set mismatch for parentActType (NL vs FR set)
 
-### 🔴 CRITICAL ISSUES (Automatic FAIL)
-1. **No Provisions Found**: Empty `citedProvisions[]` when provisions clearly cited in ground truth
-2. **Hallucinated Provisions**: Provisions in JSON that don't exist in ground truth
-3. **Wrong Decision**: Extraction appears to be from different case entirely
-4. **Wrong Parent Act**: Provision attributed to completely different law/code
+### MAJOR issues (important, but not hard fail alone)
+1) Missing provisions: recall < 90% (or missing required range/list expansions)
+2) Range/list expansion incomplete:
+   - Ranges: “tot en met”, “t.e.m.”, “t/m”, “van X tot Y”, “X à Y”
+   - Lists: “§2, 2de en 3de lid”, “alinéas 1er et 2”, “1° à/tot 3°”, “a), b), c)”
+   - Also flag range overshoot (outside upper bound)
+3) Wrong parent act: misattribution (e.g., Protocol vs Convention) or wrong hierarchical parent (e.g., missing Titre/Boek when specified)
+4) Dedup failure: same logical act split across multiple internalParentActId
+5) parentActName materially wrong or missing a key anchoring qualifier/date
+6) parentActDate clearly incorrect when a date is present in the citation
+7) provisionNumberKey incorrect (lost bis/ter/quater or Roman.Arabic, or included sub-divisions)
 
-### 🟠 MAJOR ISSUES (REVIEW Required if 2+)
-1. **Missing Provisions**: >30% of ground truth provisions not in JSON
-3. **Wrong Parent Act Details**: Correct law but wrong date/version (e.g., KB 1976 vs KB 1996)
-4. **Incorrect Deduplication**: Same parent act has multiple `internalParentActId` values
+### MINOR issues (do not tank score)
+1) One missing provision with recall ≥ 95%
+2) Verbatim cosmetics in provisionNumber only (spacing, punctuation, § vs “par.”, a)/b)/c)), provided the key is correct
+3) parentActDate null though arguably present but ambiguous
+4) Type classification slightly off but still in the correct language set
 
-### 🟡 MINOR ISSUES (Acceptable for PASS)
-1. **One Missing Provision**: Single provision from ground truth not extracted
-2. **Minor Text Variance**: Slight differences (e.g., "art. 31" vs "artikel 31")
-3. **Missing Subdivision**: Core article present but §/alinéa not captured
-4. **Missing Optional Date**: `parentActDate` null when date present in ground truth
+## Specific validation checks
 
-## VERIFICATION CHECKLIST
+1) Provision detection
+- Find article tokens: `art.`, `article`, `artikel` with numbers
+- Belgian forms: Roman.Arabic (I.1, XX.99), slashed (1675/13), suffixes (bis, ter, quater)
 
-### 1. Provision Coverage (CRITICAL)
-- All provisions from ground truth present in JSON?
-- Any provisions in JSON not in ground truth? (hallucinations)
-- **Red flag**: Clear citations from ground truth missing
+2) Range and list expansion
+- Must fully expand ranges and lists as separate provisions
+- Do not exceed the upper bound of stated ranges
 
-### 2. Parent Act Deduplication (MAJOR)
-- Same law cited multiple times → same `internalParentActId`?
-- Different laws → different `internalParentActId`?
-- Example: Article 31 and Article 29 of "Loi du 10 mai 2007" must share parent ID
-- **Red flag**: Same act has multiple parent IDs
+3) Notation equivalence guard
+- If source uses decimal notation (e.g., “art. 8.1”), do not duplicate using paragraph/lid notation, and vice-versa
 
-### 3. Type Classification (MINOR)
-- `parentActType` appropriate? (LOI/WET, CODE/WETBOEK, KB/KONINKLIJK_BESLUIT, etc.)
-- Matches `proceduralLanguage`?
-- **Note**: Minor enum errors acceptable
+4) Hierarchical parent
+- If citation names a structure (FR: Titre/Livre/Chapitre/Section/Protocole; NL: Titel/Boek/Hoofdstuk/Afdeling/Protocol), parentActName must reflect that structure
 
-### 4. ID Format (Programmatic)
-- `internalProvisionId`: Pattern `ART-{decisionId}-{sequence}`
-- `internalParentActId`: Pattern `ACT-{decisionId}-{sequence}`
+5) Dedup of parent acts
+- “Gerechtelijk Wetboek” = “Ger.W.” = “Ger. W.” (same act)
+- “Code des impôts sur les revenus (coordonné…)” = “Code des impôts sur les revenus” (same act)
+- Draft KB vs KB with same subject/date should share internalParentActId
 
-═══════════════════════════════════════════════════
-REQUIRED OUTPUT FORMAT
-═══════════════════════════════════════════════════
+6) Type classification by language set
+- FR enums: LOI, ARRETE_ROYAL, CODE, CONSTITUTION, REGLEMENT_UE, DIRECTIVE_UE, TRAITE, ARRETE_GOUVERNEMENT, ORDONNANCE, DECRET, AUTRE
+- NL enums: WET, KONINKLIJK_BESLUIT, WETBOEK, GRONDWET, EU_VERORDENING, EU_RICHTLIJN, VERDRAG, BESLUIT_VAN_DE_REGERING, ORDONNANTIE, DECREET, ANDERE
+- Common mappings: Ger.W.→WETBOEK; BW/Code civil→WETBOEK/CODE; SW/Code pénal→WETBOEK/CODE; Sv→WETBOEK; CIR 92/WIB 92→CODE/WETBOEK (respect language)
 
-Return ONLY a JSON object with the following structure:
+7) provisionNumber vs key
+- provisionNumber may have cosmetic differences
+- provisionNumberKey must retain the article anchor (Roman.Arabic and bis/ter/quater), and drop sub-divisions (§, lid/alinéa, °, letters)
 
+8) ID format and sequencing
+- Pattern: `^ART-<decisionId>-\d{3}$` and `^ACT-<decisionId>-\d{3}$`, where `<decisionId>` is the exact input string
+- Sequences unique for provisions; parent act sequence reused for the same act
+
+## Output format
+Return JSON only:
 {
   "verdict": "PASS|FAIL|REVIEW_REQUIRED",
-  "score": 85,
-  "criticalIssues": [
-    "Article XXX - HALLUCINATED: Provision in JSON not found in ground truth",
-    "Article YYY - WRONG PARENT ACT: Attributed to incorrect law"
-  ],
-  "majorIssues": [
-    "Article AAA - MISSING: Cited in ground truth but not in JSON"
-  ],
-  "minorIssues": [
-    "Article BBB - Minor text variance (art. vs artikel)",
-    "Article CCC - Missing optional date"
-  ],
-  "recommendation": "PROCEED|FIX_PROMPT|REVIEW_SAMPLES",
+  "score": 0-100,
   "confidence": "HIGH|MEDIUM|LOW",
-  "summary": "Brief overall assessment of extraction quality (2-3 sentences)"
+  "criticalIssues": [],
+  "majorIssues": [],
+  "minorIssues": [],
+  "recommendation": "PROCEED|FIX_PROMPT|REVIEW_SAMPLES",
+  "summary": "One sentence summary.",
+  "counts": { "expected": 0, "extracted": 0, "matched": 0, "missing": 0, "hallucinated": 0, "duplicates": 0 },
+  "missing": [],
+  "hallucinated": [],
+  "idIssues": [],
+  "typeIssues": [],
+  "normalizationIssues": []
 }
 
-## VERDICT LOGIC
-- **FAIL**: Any critical issue present
-- **REVIEW_REQUIRED**: 2+ major issues
-- **PASS**: 0-1 major issues, no critical issues
+## Verdict logic
+- FAIL: any CRITICAL
+- REVIEW_REQUIRED: 1 or more MAJOR, or 3 or more MINOR
+- PASS: otherwise
 
-## SCORING RUBRIC
-- **90-100**: All provisions extracted, perfect parent act matching and deduplication
-- **80-89**: Minor text variance or one missing provision
-- **60-79**: Multiple major issues but no critical failures
-- **0-59**: Critical issues or extensive quality problems
+## Recommendation rules
+- PROCEED: PASS with no MAJOR issues (0–2 MINOR ok)
+- FIX_PROMPT: Any CRITICAL or systemic MAJOR indicating prompt/instruction gaps
+- REVIEW_SAMPLES: Edge cases or document-specific issues (OCR noise, ambiguous hierarchy/dates) with 1 MAJOR or multiple MINOR that do not clearly implicate the prompt
 
-═══════════════════════════════════════════════════
+## Scoring
+Compute precision and recall:
+- precision = matched / max(extracted, 1)
+- recall = matched / max(expected, 1)
 
-IMPORTANT: Return ONLY the JSON object. No explanations before or after. Pure JSON only.
+Start at 100:
+- If any CRITICAL, cap at 59
+- MAJOR: −12 each (cap −36)
+- MINOR: −2 each (cap −8)
+- recall < 0.95: −15
+- precision < 0.90: −10
+Additional priorities:
+- Any provisionNumberKey error: −10 (one time)
+- parentActDate clearly wrong (not just null): −8
+Clamp final score to [0, 100].
+
+## Helper patterns (optional)
+- Article token: `(?i)\b(?:art\.?|article|artikel)\b`
+- Article number: `(?:[IVXLCDM]+\.[0-9]+|[A-Z]{1,4}\.[0-9]+|\d+(?:/\d+)?(?:bis|ter|quater)?)`
+- Paragraph: `\s*§+\s*\d+`
+- Lid: `\b\d+(?:e|de|ste)\s+lid\b`
+- Degree: `\b\d+°\b`
+- Range NL: `(?i)(tot\s+en\s+met|t\.e\.m\.|t/m|van\s+\S+\s+tot\s+\S+)`
+- Range FR: `(?i)\b(?:à|au)\b`
+- ID regex: `^ART-` + escape(decisionId) + `-\d{3}$` and `^ACT-` + escape(decisionId) + `-\d{3}$`
+
+Return only the JSON described in Output format.

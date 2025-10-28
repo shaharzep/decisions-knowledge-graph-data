@@ -1,29 +1,25 @@
 import { JobConfig } from "../JobConfig.js";
 import { PROVISIONS_2A_PROMPT } from "./prompt.js";
 import { TestSetLoader } from "../../utils/testSetLoader.js";
-import { extractProvisionContexts } from "../../utils/provisionContextExtractor.js";
 
 /**
- * Extract Provisions 2A Job Configuration - P1 STAGE 2A (Context-Based)
+ * Extract Provisions 2A Job Configuration - P1 STAGE 2A (Full-Text)
  *
- * NEW APPROACH - CONTEXT-BASED EXTRACTION:
+ * FULL-TEXT APPROACH:
  *
- * Preprocessing extracts provision mention snippets using Python script, then
- * LLM processes only these targeted contexts (not full decision text).
+ * Processes complete decision markdown text to extract cited legal provisions.
  *
  * Extracts cited legal provisions with essential metadata:
  * - Provision numbers (article/artikel) - verbatim
- * - Parent act information (name, type, date) - verbatim from snippet context
+ * - Parent act information (name, type, date) - verbatim
  * - Internal reference IDs (ART-xxx-001, ACT-xxx-001)
  * - Provision number keys (normalized for matching)
  *
- * Key Design Improvements:
- * - Python preprocessing filters pronominal references ("du même article")
- * - Highlighted markers guide LLM: **[PROVISION: article]**
- * - Context-only parent act identification (no cross-snippet inference)
- * - Enforces completeness: process EVERY snippet
- * - Reduced token usage (~80% less than full text)
- * - Better accuracy through focused attention
+ * Key Features:
+ * - Verbatim extraction (no standardization or translation)
+ * - Bilingual enum values (LOI/WET, ARRETE_ROYAL/KONINKLIJK_BESLUIT, etc.)
+ * - Parent act deduplication within decision
+ * - Complete context for accurate extraction
  *
  * Does NOT extract (deferred to other agents):
  * - URLs, ELI, CELEX identifiers (Agent 2B)
@@ -34,7 +30,7 @@ const config: JobConfig = {
   id: "extract-provisions-2a",
 
   description:
-    "Extract cited legal provisions from context snippets (P1 STAGE 2A: context-based, verbatim extraction, no inference)",
+    "Extract cited legal provisions with 100% completeness + accuracy (P1 STAGE 2A: full-text, verbatim with ALL qualifiers, fuzzy deduplication, anti-hallucination rules)",
 
   /**
    * Database Query
@@ -78,7 +74,8 @@ const config: JobConfig = {
     const byLength: Record<string, number> = {};
     testSet.forEach((entry) => {
       if (entry.length_category) {
-        byLength[entry.length_category] = (byLength[entry.length_category] || 0) + 1;
+        byLength[entry.length_category] =
+          (byLength[entry.length_category] || 0) + 1;
       }
     });
     console.log(`   Length distribution: ${JSON.stringify(byLength)}`);
@@ -90,13 +87,7 @@ const config: JobConfig = {
   /**
    * Preprocess Row
    *
-   * NEW: Extracts provision context snippets using Python script, then
-   * enriches with metadata from CSV test set.
-   *
-   * Process:
-   * 1. Call Python script to extract provision mentions with context
-   * 2. Merge provision contexts into row
-   * 3. Enrich with test set metadata for evaluation
+   * Enriches rows with metadata from CSV test set for evaluation and filtering.
    */
   preprocessRow: await (async () => {
     const testSet = await TestSetLoader.loadTestSet(
@@ -112,35 +103,26 @@ const config: JobConfig = {
 
     // Return preprocessor function
     return async (row: any) => {
-      // Step 1: Extract provision snippets using Python script (ALT approach)
-      const provisionSnippets = await extractProvisionContexts(
-        row.decision_id,
-        row.full_md,
-        row.language_metadata || 'FR'
-      );
-
-      // Step 2: Enrich with test set metadata
+      // Enrich with test set metadata
       const key = `${row.decision_id}|${row.language_metadata}`;
       const testSetEntry = testSetMap.get(key);
 
-      const enriched = {
+      return {
         ...row,
-        // Add provision snippets for prompt (ALT format)
-        provision_snippets: provisionSnippets,
         // Add metadata from test set
-        ...(testSetEntry ? {
-          decision_type_ecli_code: testSetEntry.decision_type_ecli_code,
-          decision_type_name: testSetEntry.decision_type_name,
-          court_ecli_code: testSetEntry.court_ecli_code,
-          court_name: testSetEntry.court_name,
-          courtcategory: testSetEntry.courtcategory,
-          decision_date: testSetEntry.decision_date,
-          md_length: testSetEntry.md_length,
-          length_category: testSetEntry.length_category,
-        } : {})
+        ...(testSetEntry
+          ? {
+              decision_type_ecli_code: testSetEntry.decision_type_ecli_code,
+              decision_type_name: testSetEntry.decision_type_name,
+              court_ecli_code: testSetEntry.court_ecli_code,
+              court_name: testSetEntry.court_name,
+              courtcategory: testSetEntry.courtcategory,
+              decision_date: testSetEntry.decision_date,
+              md_length: testSetEntry.md_length,
+              length_category: testSetEntry.length_category,
+            }
+          : {}),
       };
-
-      return enriched;
     };
   })(),
 
@@ -166,69 +148,82 @@ const config: JobConfig = {
   /**
    * Prompt Template
    *
-   * ALT APPROACH: Injects simple text snippets (no highlighting, no markers).
-   * LLM receives raw 250-char windows and does all extraction work.
+   * Injects full decision markdown text along with decision ID and procedural language.
    */
   promptTemplate: (row) => {
-    // Format text_rows as numbered list for readability
-    const textRows = row.provision_snippets.text_rows
-      .map((snippet: string, idx: number) => `[${idx + 1}] ${snippet}`)
-      .join('\n\n');
-
-    return PROVISIONS_2A_PROMPT
-      .replace("{decisionId}", row.decision_id || "")
-      .replace("{language}", row.language_metadata || "FR")
-      .replace("{text_rows}", textRows);
+    return PROVISIONS_2A_PROMPT.replace("{decisionId}", row.decision_id || "")
+      .replace("{proceduralLanguage}", row.language_metadata || "FR")
+      .replace("{fullText.markdown}", row.full_md || "");
   },
 
   /**
-   * Output JSON Schema - ALT APPROACH (Simplified Enums)
+   * Post-Processing: Construct IDs from Sequences
    *
-   * CHANGES from previous version:
-   * - Simplified enum values (LAW, REGULATION, etc. - no bilingual variants)
-   * - Added parentActNumber field
-   * - Added extractionMetadata wrapper
-   * - Added provisionId/parentActId (always null - for database mapping later)
+   * This is where deterministic ID construction happens - the LLM only outputs
+   * simple integer sequences, then TypeScript constructs the full IDs with
+   * guaranteed-correct decisionId string concatenation.
+   *
+   * This eliminates all ID truncation/corruption errors because the LLM never
+   * touches decisionId string manipulation.
+   */
+  postProcessRow: (row, result) => {
+    const decisionId = row.decision_id;
+
+    if (!decisionId) {
+      throw new Error('decision_id is required for ID construction');
+    }
+
+    if (!result.citedProvisions || !Array.isArray(result.citedProvisions)) {
+      result.citedProvisions = [];
+      return result;
+    }
+
+    // Validate sequences exist
+    for (const prov of result.citedProvisions) {
+      if (typeof prov.provisionSequence !== 'number') {
+        throw new Error(`Missing or invalid provisionSequence: ${JSON.stringify(prov)}`);
+      }
+      if (typeof prov.parentActSequence !== 'number') {
+        throw new Error(`Missing or invalid parentActSequence: ${JSON.stringify(prov)}`);
+      }
+    }
+
+    // Construct IDs with guaranteed-correct format
+    result.citedProvisions = result.citedProvisions.map((provision) => {
+      const provSeq = String(provision.provisionSequence).padStart(3, '0');
+      const actSeq = String(provision.parentActSequence).padStart(3, '0');
+
+      return {
+        ...provision,
+        // Add the full IDs that will be used downstream
+        internalProvisionId: `ART-${decisionId}-${provSeq}`,
+        internalParentActId: `ACT-${decisionId}-${actSeq}`,
+      };
+    });
+
+    return result;
+  },
+
+  /**
+   * Output JSON Schema - Full-Text Approach (Bilingual Enums)
+   *
+   * CHANGES from snippet-based version:
+   * - Removed extractionMetadata wrapper
+   * - Removed top-level decisionId and language fields (provided via metadata)
+   * - Bilingual enum values (LOI/WET, ARRETE_ROYAL/KONINKLIJK_BESLUIT, etc.)
+   * - Direct citedProvisions array at top level
    *
    * Key features:
-   * - Universal English enum values (easier to work with downstream)
-   * - Includes human-readable summary in response (not validated)
+   * - Language-specific enum values matching procedural language
+   * - Verbatim extraction requirements
+   * - Parent act deduplication via internalParentActId
    * - Same internal ID patterns (ART-xxx-001, ACT-xxx-001)
    */
   outputSchema: {
     type: "object",
-    required: ["decisionId", "language", "extractionMetadata", "citedProvisions"],
+    required: ["citedProvisions"],
     additionalProperties: false,
     properties: {
-      decisionId: {
-        type: "string",
-        description: "Decision ECLI identifier",
-      },
-      language: {
-        type: "string",
-        enum: ["FR", "NL"],
-        description: "Procedural language",
-      },
-      extractionMetadata: {
-        type: "object",
-        required: ["totalProvisionsExtracted", "totalUniqueParentActs", "extractionTimestamp"],
-        additionalProperties: false,
-        properties: {
-          totalProvisionsExtracted: {
-            type: "number",
-            description: "Count of unique provisions extracted",
-          },
-          totalUniqueParentActs: {
-            type: "number",
-            description: "Count of unique parent acts identified",
-          },
-          extractionTimestamp: {
-            type: "string",
-            pattern: "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$",
-            description: "ISO 8601 timestamp of extraction",
-          },
-        },
-      },
       citedProvisions: {
         type: "array",
         minItems: 0, // Some decisions cite no provisions
@@ -237,8 +232,8 @@ const config: JobConfig = {
           required: [
             "provisionId",
             "parentActId",
-            "internalProvisionId",
-            "internalParentActId",
+            "provisionSequence",
+            "parentActSequence",
             "provisionNumber",
             "provisionNumberKey",
             "parentActType",
@@ -261,17 +256,21 @@ const config: JobConfig = {
             },
 
             // ========================================
-            // INTERNAL REFERENCE IDs
+            // SEQUENCING (IDs constructed in postProcessRow)
             // ========================================
-            internalProvisionId: {
-              type: "string",
-              pattern: "^ART-[a-zA-Z0-9:.]+-\\d{3}$",
-              description: "Unique provision ID within decision: ART-{decisionId}-{sequence}",
+            provisionSequence: {
+              type: "integer",
+              minimum: 1,
+              maximum: 9999,
+              description:
+                "Sequential provision number: 1, 2, 3, 4, ... Increment for each provision, never skip or reuse.",
             },
-            internalParentActId: {
-              type: "string",
-              pattern: "^ACT-[a-zA-Z0-9:.]+-\\d{3}$",
-              description: "Parent act ID (deduplicated across provisions citing same act)",
+            parentActSequence: {
+              type: "integer",
+              minimum: 1,
+              maximum: 999,
+              description:
+                "Parent act sequence (deduplicated): same parent act = same number, different act = new number.",
             },
 
             // ========================================
@@ -281,50 +280,61 @@ const config: JobConfig = {
               type: "string",
               minLength: 3,
               maxLength: 200,
-              description: "Provision number as written in text (verbatim)",
+              description:
+                "Provision number VERBATIM from text (no standardization)",
             },
             provisionNumberKey: {
               type: "string",
               minLength: 1,
               maxLength: 50,
-              description: "Normalized core number (e.g., '174' from 'artikel 174, §1')",
+              description:
+                "Normalized core number (e.g., '31' from 'article 31, § 2', '87' from 'article 87quater')",
             },
 
             // ========================================
-            // PARENT ACT TYPE (SIMPLIFIED ENGLISH ENUM)
+            // PARENT ACT TYPE (BILINGUAL ENUM)
             // ========================================
             parentActType: {
               type: "string",
               enum: [
-                "LAW",             // WET, LOI
-                "REGULATION",      // KONINKLIJK BESLUIT, ARRÊTÉ ROYAL, KB, AR
-                "DECREE",          // DECREET, DÉCRET
-                "ORDINANCE",       // ORDONNANTIE, ORDONNANCE
-                "CONSTITUTION",    // GRONDWET, CONSTITUTION
-                "TREATY",          // VERDRAG, TRAITÉ
-                "CODE",            // WETBOEK, CODE (CIVIL, PENAL, etc.)
-                "DIRECTIVE",       // RICHTLIJN, DIRECTIVE
-                "EU_REGULATION",   // VERORDENING (EU), RÈGLEMENT (UE)
-                "OTHER",           // Other types
+                // French values
+                "LOI",
+                "ARRETE_ROYAL",
+                "CODE",
+                "CONSTITUTION",
+                "REGLEMENT_UE",
+                "DIRECTIVE_UE",
+                "TRAITE",
+                "ARRETE_GOUVERNEMENT",
+                "ORDONNANCE",
+                "DECRET",
+                "AUTRE",
+                // Dutch values
+                "WET",
+                "KONINKLIJK_BESLUIT",
+                "WETBOEK",
+                "GRONDWET",
+                "EU_VERORDENING",
+                "EU_RICHTLIJN",
+                "VERDRAG",
+                "BESLUIT_VAN_DE_REGERING",
+                "ORDONNANTIE",
+                "DECREET",
+                "ANDERE",
               ],
-              description: "Type of parent legal act (simplified English enum)",
+              description:
+                "Type of parent legal act (bilingual enum - use language-specific value)",
             },
 
             // ========================================
             // PARENT ACT INFORMATION
             // ========================================
             parentActName: {
-              anyOf: [
-                {
-                  type: "string",
-                  minLength: 5,
-                  maxLength: 500,
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Parent act name verbatim from text or null",
+              type: "string",
+              minLength: 5,
+              maxLength: 500,
+              description:
+                "Parent act name VERBATIM with ALL qualifiers (coordonné..., approuvé..., modifié...)",
             },
             parentActDate: {
               anyOf: [
@@ -336,7 +346,8 @@ const config: JobConfig = {
                   type: "null",
                 },
               ],
-              description: "Date in YYYY-MM-DD format or null",
+              description:
+                "Date in YYYY-MM-DD format (from name or qualifier) or null",
             },
             parentActNumber: {
               anyOf: [
@@ -360,16 +371,16 @@ const config: JobConfig = {
   /**
    * Schema name for structured outputs
    */
-  outputSchemaName: "provision_extraction_2a",
+  outputSchemaName: "provision_extraction",
 
   /**
    * Provider and Model Configuration
    */
   provider: "openai",
   model: "gpt-5-mini",
-  maxCompletionTokens: 64000,        // Provision extraction simpler than comprehensive
-  reasoningEffort: "low",         // Medium reasoning needed for documents with many provisions (96+)
-  verbosity: "low",                   // Concise responses preferred
+  maxCompletionTokens: 128000, // Full text processing requires more tokens
+  reasoningEffort: "medium", // Medium reasoning for complex provision extraction
+  verbosity: "low", // Concise responses preferred
   /**
    * Custom ID prefix
    */

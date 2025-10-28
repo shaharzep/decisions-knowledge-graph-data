@@ -223,6 +223,31 @@ export interface JobConfig {
   preprocessRow?: (row: any) => Promise<any>;
 
   /**
+   * Optional post-processing function
+   * Called after API response and schema validation, before saving results
+   *
+   * Use cases:
+   * - Construct deterministic IDs from sequences (eliminates LLM string manipulation errors)
+   * - Transform validated data
+   * - Add computed fields
+   *
+   * @param row The database row (with metadata)
+   * @param result The validated model output
+   * @returns The processed result to save
+   *
+   * Example:
+   * postProcessRow: (row, result) => {
+   *   const decisionId = row.decision_id;
+   *   result.citedProvisions = result.citedProvisions.map((prov, idx) => ({
+   *     ...prov,
+   *     internalProvisionId: `ART-${decisionId}-${String(idx + 1).padStart(3, '0')}`
+   *   }));
+   *   return result;
+   * }
+   */
+  postProcessRow?: (row: any, result: any) => any | Promise<any>;
+
+  /**
    * Optional row metadata fields to track
    *
    * Specifies which fields from database rows should be saved to a metadata

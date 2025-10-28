@@ -184,10 +184,30 @@ export class ConcurrentProcessor {
         return;
       }
 
+      // Apply post-processing if defined
+      let processedData = result.data;
+      if (this.config.postProcessRow) {
+        try {
+          processedData = await this.config.postProcessRow(metadata, processedData);
+        } catch (postProcessError) {
+          this.recordFailure(
+            this.streamingState.failures,
+            this.streamingState.errorsByType,
+            'Post-Processing Error',
+            `postProcessRow failed: ${postProcessError instanceof Error ? postProcessError.message : String(postProcessError)}`,
+            result.customId,
+            metadata,
+            decisionId,
+            language
+          );
+          return;
+        }
+      }
+
       // Success - merge metadata and write immediately
       const finalData = metadata && Object.keys(metadata).length > 0
-        ? { ...metadata, ...result.data }
-        : result.data;
+        ? { ...metadata, ...processedData }
+        : processedData;
 
       try {
         await this.writeSuccessJson(
@@ -409,10 +429,39 @@ export class ConcurrentProcessor {
         continue;
       }
 
+      // Apply post-processing if defined
+      let processedData = result.data;
+      if (this.config.postProcessRow) {
+        try {
+          processedData = await this.config.postProcessRow(metadata, processedData);
+        } catch (postProcessError) {
+          validationErrors++;
+          this.recordFailure(
+            failures,
+            errorsByType,
+            'Post-Processing Error',
+            `postProcessRow failed: ${postProcessError instanceof Error ? postProcessError.message : String(postProcessError)}`,
+            result.customId,
+            metadata,
+            decisionId,
+            language
+          );
+          allResults.push({
+            customId: result.customId,
+            success: false,
+            error: `Post-processing failed: ${postProcessError instanceof Error ? postProcessError.message : String(postProcessError)}`,
+            data: result.data,
+            metadata,
+            tokenUsage: result.tokenUsage,
+          });
+          continue;
+        }
+      }
+
       // Success - merge metadata with model output
       const dataWithMetadata = metadata && Object.keys(metadata).length > 0
-        ? { ...metadata, ...result.data }
-        : result.data;
+        ? { ...metadata, ...processedData }
+        : processedData;
 
       // Both extracted-data and successful-results include metadata
       // This ensures evaluation and dependency systems always have decision_id, language, etc.
@@ -584,10 +633,32 @@ export class ConcurrentProcessor {
         continue;
       }
 
+      // Apply post-processing if defined
+      let processedData = result.data;
+      if (this.config.postProcessRow) {
+        try {
+          processedData = await this.config.postProcessRow(metadata, processedData);
+        } catch (postProcessError) {
+          validationErrors++;
+          failedRecords++;
+          this.recordFailure(
+            failures,
+            errorsByType,
+            'Post-Processing Error',
+            `postProcessRow failed: ${postProcessError instanceof Error ? postProcessError.message : String(postProcessError)}`,
+            result.customId,
+            metadata,
+            decisionId,
+            language
+          );
+          continue;
+        }
+      }
+
       // Success - merge metadata and write immediately
       const finalData = metadata && Object.keys(metadata).length > 0
-        ? { ...metadata, ...result.data }
-        : result.data;
+        ? { ...metadata, ...processedData }
+        : processedData;
 
       try {
         await this.writeSuccessJson(jsonDirectory, finalData, decisionId, language, result.customId);

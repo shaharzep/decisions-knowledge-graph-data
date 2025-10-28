@@ -13,7 +13,6 @@ import { createExperiment, logEvaluation, summarizeExperiment } from '../config/
 import { getJudgePromptFile } from '../config/job-prompt-map.js';
 import { loadJudgePrompt } from '../utils/prompt-loader.js';
 import { generateEnhancedExperimentName, generateExperimentName } from '../utils/experiment-naming.js';
-import { extractCandidateSnippets } from '../../src/utils/provisionSnippetExtractor.js';
 import { filterToExtractionFields } from '../utils/extraction-filter.js';
 import {
   EvalOptions,
@@ -21,8 +20,6 @@ import {
   DecisionEvaluationInput,
   EvaluationProgress,
   ExperimentMetadata,
-  GroundTruthData,
-  GroundTruthSnippets,
 } from '../types.js';
 
 /**
@@ -299,43 +296,13 @@ export async function runEvaluation(
 }
 
 /**
- * Prepare ground truth data based on job type
- *
- * For Stage 2A (provision extraction): Extracts snippets instead of full text
- * For other stages: Returns full text as-is
- *
- * @param jobType - Job type (e.g., "extract-provisions-2a")
- * @param sourceDocument - Full markdown document
- * @param language - Procedural language (FR or NL)
- * @returns Ground truth data (full text or snippets)
- */
-export async function prepareGroundTruthData(
-  jobType: string,
-  sourceDocument: string,
-  language: string
-): Promise<GroundTruthData> {
-  // Stage 2A: Extract provision snippets for evaluation
-  if (jobType === 'extract-provisions-2a') {
-    const candidates = extractCandidateSnippets(sourceDocument, 75);
-    const snippets: GroundTruthSnippets = {
-      snippets: candidates.map(c => c.snippet),
-      format: 'snippets',
-    };
-    return snippets;
-  }
-
-  // Default: Return full text for all other stages
-  return sourceDocument;
-}
-
-/**
  * Evaluate a single decision
  *
  * @param decisionId - ECLI identifier
  * @param extractedData - Extracted JSON data
  * @param sourceDocument - Original markdown document
  * @param judgePromptTemplate - The loaded judge prompt markdown content
- * @param jobType - Job type for ground truth preparation
+ * @param jobType - Job type (for context)
  * @param language - Procedural language (FR or NL)
  * @returns Evaluation result
  */
@@ -347,13 +314,10 @@ export async function evaluateSingleDecision(
   jobType: string,
   language: string
 ): Promise<EvaluationResult> {
-  // Prepare ground truth data based on job type
-  const groundTruthData = await prepareGroundTruthData(jobType, sourceDocument, language);
-
-  // Score the extraction
+  // Score the extraction using full source document
   return await scoreExtraction(
     decisionId,
-    groundTruthData,
+    sourceDocument,
     extractedData,
     judgePromptTemplate,
     jobType
