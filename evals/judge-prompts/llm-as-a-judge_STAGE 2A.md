@@ -1,8 +1,27 @@
-# Belgian Legal Provision Extraction — Evaluation Judge (v3.6 - Mixed Range+List Fix)
+# Belgian Legal Provision Extraction — Evaluation Judge (v3.8 - Context-Agnostic Extraction)
 
-You are evaluating whether provision extraction is production-ready. Compare EXTRACTED OUTPUT against ORIGINAL SOURCE. Enforce zero hallucinations and correctness of priority fields. Work silently and return JSON only.
+You are evaluating whether provision extraction is production-ready. Compare EXTRACTED OUTPUT against ORIGINAL SOURCE. Work silently and return JSON only.
 
-**v3.6 Update:** Fixed judge logic to handle mixed range+list citations. When source contains BOTH a range ("articles 31 tot 37bis") AND a separate list ("articles 31, 32, 33") for same act, intermediate articles from the list are CORRECT, not range over-expansion.
+**CRITICAL EXTRACTION RULE - NO CONTEXT ANALYSIS:**
+**If text contains "article/artikel [NUMBER] of/van/du [PARENT ACT]" → It MUST be extracted.**
+
+**Context NEVER matters. Extract regardless of:**
+- ❌ "not requested for application" → STILL EXTRACT
+- ❌ "not applicable" → STILL EXTRACT
+- ❌ "mentioned but not applied" → STILL EXTRACT
+- ❌ "incorrectly cited" / "mistakenly referenced" → STILL EXTRACT
+- ❌ "does not apply" / "rejected" → STILL EXTRACT
+- ❌ "not concerned" / "not cited" → STILL EXTRACT
+- ❌ **ANY negative or qualifying context** → STILL EXTRACT
+
+**DO NOT analyze whether something is a "real citation" vs "just mentioned" - this distinction does NOT exist.**
+
+**Example:** "article 44 of W.C.O. not requested for application" → This IS a valid provision citation. MUST be extracted.
+
+**The ONLY 3 exceptions (do NOT extract):**
+1. Case law citations (court decisions: "Cass., 15 juli 2014, P.14.1029.N")
+2. Bare acts (no article number: "loi du 8 août 1983")
+3. Person references ("de personen bedoeld in artikel X")
 
 ## Priority fields (must be correct)
 1) IDs: internalProvisionId, internalParentActId
@@ -102,16 +121,87 @@ This is INCORRECT - do NOT penalize treaty decimals as duplicates
    - Only penalize empty extraction when the source actually references legal provisions
 
 2) Hallucinated provisions: any item not supported by source
-   - Bare act without article (e.g., "wet van 15 juni 1935" with no article)
+   - **Case law citations** (court decisions like "Cass., 15 juli 2014, P.14.1029.N" - these are cited decisions, not legal provisions)
+   - **Person references** ("de personen bedoeld in artikel X" - identifier, not provision citation)
+   - Provisions with article numbers that do NOT appear anywhere in source text
    - Base Convention when only a Protocol article is cited
    - Paragraph hallucination from degree sign confusion (e.g., "§1, 3°" creating "§3")
+
+   - **NOT hallucinations (these ARE valid provisions to extract):**
+     - ✅ "article 44 of W.C.O. not requested for application" → VALID PROVISION (extract it)
+     - ✅ "artikel 58 not applicable in this case" → VALID PROVISION (extract it)
+     - ✅ Articles "mentioned but not applied" → VALID PROVISIONS (extract them)
+     - ✅ Articles "incorrectly cited" or "mistakenly referenced" → VALID PROVISIONS (extract them)
+     - ✅ Articles cited for **interpretation** → VALID PROVISIONS
+     - ✅ Articles cited as **transposition deadlines** → VALID PROVISIONS
+     - ✅ Articles cited as **procedural references** → VALID PROVISIONS
+     - ✅ **ANY article number + parent act in text = VALID PROVISION**, regardless of ANY context
+
+   - **SIMPLE RULE:** If source text contains "article/artikel [NUMBER] of/van/du [PARENT ACT]" → It's a valid provision citation, extract it
+   - **Context NEVER matters** - "not requested", "not applicable", "does not apply", etc. do NOT make it a hallucination
 3) Wrong decision: extraction from a different case
 4) ID integrity failure:
    - internalProvisionId or internalParentActId does not equal `ART-{decisionId}-{seq}` / `ACT-{decisionId}-{seq}` with the exact decisionId substring (colons and dots intact), or sequences reused
 5) Language enum set mismatch for parentActType (NL vs FR set)
 
+### Examples: What IS and IS NOT a Legal Provision
+
+**Legal Provisions (SHOULD be extracted - these ARE provisions):**
+- ✅ "artikel 51, lid 1 van het Handvest van de grondrechten van de Europese Unie" (substantive provision)
+- ✅ "artikel 52, lid 3 of the Handvest" (interpretative reference - still a provision)
+- ✅ "artikel 9 of richtlijn 2010/64/EU" (even if cited as transposition deadline - still a provision)
+- ✅ "artikel 5, leden 3 en 5 of richtlijn 2010/64/EU" (even if cited as mistaken reference - still a provision)
+- ✅ "article 8.1 CEDH" (interpretative reference - still a provision)
+- ✅ "artikel 92, al. 10 de la loi du 15 janvier 1990" (procedural reference - still a provision)
+- ✅ "artikel 31 van de wet van 15 juni 1935" (any context - extract all article citations)
+- ✅ "article 44 of W.C.O. not requested for application" (mentioned but not applied - STILL a provision)
+- ✅ "article 58 of W.C.O. not applicable in this case" (negative context - STILL a provision)
+- ✅ "article 59 of W.C.O. does not apply" (explicitly not applied - STILL a provision)
+- ✅ "article 70 of W.C.O. mentioned but rejected" (rejected - STILL a provision)
+
+**NOT Legal Provisions (should NOT be extracted - these are NOT provisions):**
+- ❌ "Cass., 15 juli 2014, P.14.1029.N" (case law citation - court decision, not legal provision)
+- ❌ "arrest van het Hof van Justitie, 26 februari 2013, Åkerberg Fransson, C-617/10" (case law)
+- ❌ "Hof van Cassatie 21 februari 2020" (case law citation)
+- ❌ "loi du 8 août 1983" (bare act with no article number - not a provision)
+- ❌ "de wet van 15 januari 1990" (bare act - no article specified)
+- ❌ "de personen bedoeld in artikel 27/1" (person identifier reference - not a provision citation)
+- ❌ "Koninklijk Besluit van 8 mei 2018" (bare act with no article)
+
+**Critical distinction:**
+- ✅ "artikel 51 van het Handvest" → Legal provision (extract)
+- ❌ "Cass., 15 juli 2014, P.14.1029.N" → Case law citation (do not expect in extraction)
+
+**Purpose and context NEVER matter - extract ALL article citations:**
+- Substantive provisions → Extract ✅
+- Interpretative references → Extract ✅
+- Transposition deadlines → Extract ✅
+- Procedural references → Extract ✅
+- Mistaken references (later corrected) → Extract ✅
+- "Not requested for application" → Extract ✅
+- "Not applicable" → Extract ✅
+- "Does not apply" → Extract ✅
+- "Mentioned but rejected" → Extract ✅
+- ANY negative context → Extract ✅
+
+**The judge must NOT determine if something is a "real citation" vs "just mentioned"**
+- This distinction does NOT exist in this evaluation
+- If article number + parent act appear in ANY context → Extract it
+
+**Only exclude (3 exceptions only):**
+- Case law citations (court decisions)
+- Bare acts (no article number)
+- Person identifier references
+
 ### MAJOR issues (important, but not hard fail alone)
 1) Missing provisions: recall < 90% **at article level** (see article-level matching below)
+   - Count ONLY article citations with article numbers (art./artikel/article + numbers)
+   - **Do NOT count bare acts** (acts without article numbers like "loi du 8 août 1983" alone - these should NOT be extracted)
+   - **Do NOT expect both general and specific forms** (article-level deduplication applies):
+     - If source mentions "article 92" (general) and "article 92, al. 10" (specific)
+     - Expected extraction: 1 provision (article 92 with key "92")
+     - Do NOT flag missing "article 92 (general)" as separate provision from "article 92, al. 10"
+     - Article-level deduplication means ONE provision per article per parent act
 2) Range/list extraction errors:
    - **INCOMPLETE range extraction**: Article range like "articles 444 à 448" should extract exactly 2 provisions (444 and 448), not expanded intermediate articles
    - **MISSING start or end**: Only extracted start (444) but not end (448), or vice versa
@@ -137,6 +227,35 @@ This is INCORRECT - do NOT penalize treaty decimals as duplicates
 
 1) **Provision detection (CRITICAL - Read source carefully)**
 - **FIRST:** Scan the ENTIRE source text for article tokens: `art.`, `article`, `artikel` followed by numbers
+
+- **CRITICAL RULE: Context does NOT matter. If article number + parent act appear in text → Extract it.**
+
+- **Extract ALL article citations, regardless of ANY context:**
+  - ✅ Substantive provisions (main legal basis)
+  - ✅ Interpretative references (cited for interpretation)
+  - ✅ Transposition deadlines (e.g., "artikel 9 of richtlijn 2010/64/EU")
+  - ✅ Procedural references
+  - ✅ Mistaken references (even if later corrected in text)
+  - ✅ **Articles "not requested for application"** (e.g., "article 44 of W.C.O. not requested")
+  - ✅ **Articles "not applicable"** (e.g., "artikel 58 not applicable")
+  - ✅ **Articles "mentioned but not applied"**
+  - ✅ **Articles "does not apply"** or "rejected"
+  - ✅ **ANY negative context** ("not cited", "incorrectly referenced", "does not concern", etc.)
+  - ✅ **ANY article number + parent act in text = EXTRACT IT**
+
+- **Do NOT extract (these are NOT legal provisions):**
+  - ❌ **Case law citations** (court decisions like "Cass., 15 juli 2014, P.14.1029.N", "Hof van Cassatie 21 februari 2020", "arrest van het Hof")
+  - ❌ **Bare acts without article numbers** ("loi du 8 août 1983" with no article → NOT a provision)
+  - ❌ **Person identifier references** ("de personen bedoeld in artikel X" → identifier, not provision citation)
+
+- **DO NOT analyze whether it's a "real citation" vs "just a mention"** - this distinction does NOT exist in this evaluation
+  - If text says "article X of Act Y" in ANY context → It's a provision citation, period
+
+- **Distinguishing legal provisions from case law:**
+  - ✅ "artikel 51 van het Handvest" → Legal provision (extract)
+  - ❌ "arrest van het Hof van Justitie, 26 februari 2013, Åkerberg Fransson, C-617/10" → Case law (do not expect)
+  - ✅ "artikel 9 of richtlijn 2010/64/EU" → Legal provision, even if cited as deadline (extract)
+
 - **If ZERO article citations found in source:**
   - Empty citedProvisions[] = CORRECT extraction (score: 100/100, verdict: PASS)
   - This is a decision with no provision citations - perfectly valid
@@ -278,6 +397,7 @@ b) Identify all LIST citations
 c) Identify all INDIVIDUAL mentions
    - Pattern: "article/artikel [X]" (not part of range or list)
    - Example: "artikel 34ter" → individual = [34ter]
+   - **EXCLUDE person references:** "de personen bedoeld in artikel X" → NOT a provision citation
 
 STEP 2: Build expected article set
 - From each range: add ONLY start and end articles (NOT intermediates)
@@ -297,18 +417,56 @@ STEP 3: Compare extraction to expected
 - Match extracted against expected
 
 STEP 4: Flag errors based on comparison
-a) If extracted article NOT in expected set → Hallucination error
+a) If extracted article NOT in expected set → Check if it's a person reference
+   - Search source for context: "de personen bedoeld in artikel X"
+   - If person reference → Hallucination error (person identifier, not provision)
+   - If not person reference → Hallucination error (not cited in source)
 b) If expected article NOT in extraction → Missing provision error
 c) DO NOT flag "range over-expansion" if intermediate articles justified by:
    - Separate list citation ✅
    - Individual mentions ✅
    - Mixed range+list notation ✅
+d) **Person references are NOT provisions:**
+   - "de personen bedoeld in artikel 27/1" → NOT a provision citation (person identifier)
+   - If intermediate article only appears in person reference context → Should NOT be extracted
+   - If extracted anyway → Flag as hallucination, NOT range over-expansion
 
 STEP 5: Only flag "range over-expansion" if:
 - Extracted article is numerically between range boundaries (start < article < end)
 - AND article is NOT in any list citation for same parent act
 - AND article is NOT individually mentioned for same parent act
+- AND article is NOT only mentioned as person reference ("de personen bedoeld in...")
 - Then it's true over-expansion error
+
+**Important:** Before flagging range over-expansion for intermediate articles:
+1. Check if they appear in a separate list citation → If yes, NOT over-expansion
+2. Check if they appear as individual mentions → If yes, NOT over-expansion
+3. Check if they ONLY appear as person references → If yes, flag as hallucination (NOT range over-expansion)
+4. Only if none of above → Flag as range over-expansion
+
+**Example: Person References vs Provision Citations**
+
+```
+Source text for "ordonnantie van 21 december 2012":
+  - "artikelen 24 tot en met 26" [RANGE]
+  - "de personen bedoeld in artikel 25, artikel 27/1 en artikel 27/2" [PERSON REFERENCE]
+
+Analysis:
+  Range citation: artikelen 24 tot en met 26
+    → Expected from range: [24, 26] (start + end only)
+
+  Person reference: "de personen bedoeld in artikel 25..."
+    → This is NOT a provision citation (it's a person identifier)
+    → Article 25 NOT cited as legal provision
+    → Articles 27/1 and 27/2 also NOT cited as legal provisions
+
+  Expected extraction: [24, 26]
+
+  If extracted: [24, 25, 26, 27/1, 27/2]
+    → Articles 25, 27/1, 27/2 are hallucinations (person references, not provisions)
+    → Flag as: "Hallucinated provisions: articles 25, 27/1, 27/2 only appear as person identifiers"
+    → Do NOT flag as "range over-expansion" (article 25 is hallucination, not over-expansion)
+```
 
 **Range Extraction Completeness Check:**
 
@@ -326,18 +484,22 @@ For parent act "wet van 1 augustus 1985":
   Find all citations:
     - "artikelen 28 tot 41" [RANGE]
     - "artikelen 31, 31bis, 32, 33, 33bis" [LIST]
+    - "de personen bedoeld in artikel 34" [PERSON REFERENCE - IGNORE]
 
   Build expected:
     - From range: [28, 41]
     - From list: [31, 31bis, 32, 33, 33bis]
+    - From person references: [] (NOT provisions, exclude)
     - Total: [28, 31, 31bis, 32, 33, 33bis, 41]
 
   Compare to extracted: [28, 31, 31bis, 32, 33, 33bis, 41]
 
   Match? YES → No errors
 
-  If extracted had: [28, 29, 30, 31, ... 41]
-  Then 29, 30 not in expected → Range over-expansion error
+  If extracted had: [28, 29, 30, 31, ... 34, ... 41]
+  Then:
+    - 29, 30 not in expected → Range over-expansion error
+    - 34 only in person reference → Hallucination error (person identifier, not provision)
 ```
 
 3) Notation equivalence guard

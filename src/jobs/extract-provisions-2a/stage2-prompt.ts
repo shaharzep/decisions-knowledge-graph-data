@@ -21,6 +21,30 @@ Convert agentic snippets → JSON with PERFECT ACCURACY
 - **SEQUENCING**: Correct provision and parent act sequences
 - **🚨 CRITICAL RULE**: Article ranges → Extract ONLY start and end (NO intermediate articles!)
 
+## CRITICAL: FILTER OUT CASE LAW CITATIONS
+
+**BEFORE parsing any snippet, check if it's a case law citation (court decision):**
+
+If snippet contains pattern: [Court name] + [date] + [optional case number], it's case law → SKIP IT (do NOT parse, do NOT add to output)
+
+**Case law patterns to SKIP:**
+- "Cass., 15 juli 2014, P.14.1029.N" → SKIP (court decision)
+- "Hof van Cassatie 21 februari 2020, C.19.0123.F" → SKIP
+- "arrest van het Hof van Justitie, 26 februari 2013, Åkerberg Fransson" → SKIP
+- "Cour de Cassation, 12 janvier 2018" → SKIP
+- "Cassatiejurisprudentie (Cass., ...)" → SKIP
+
+**Detection rules:**
+- If snippet starts with "Cass." or contains "Cass.," → Check for date pattern → If date present, it's case law, SKIP
+- If snippet contains "Hof van Cassatie" or "Cour de Cassation" or "arrest van het Hof" + date → Case law, SKIP
+- If snippet contains "Cassatiejurisprudentie" → Case law, SKIP
+
+**Legal provisions (DO parse these):**
+- "artikel 51 van het Handvest" → Legal provision (parse normally)
+- "article 31 de la loi du 15 juin 1935" → Legal provision (parse normally)
+
+**If unsure:** Check if snippet has standard provision structure (article + number + parent act). If it looks like a court decision citation (court name + date + case number), SKIP it.
+
 ---
 
 ## INPUT
@@ -491,6 +515,8 @@ For lists:
 7. **Sequencing**: provisionSequence 1, 2, 3... (no gaps), parentActSequence reused for same act
 
 8. **No hallucination**: Parse ONLY what's in snippets (don't invent provisions)
+
+9. **Skip case law citations**: If snippet is a court decision (Cass., Hof van Cassatie + date), SKIP it completely
 
 ---
 

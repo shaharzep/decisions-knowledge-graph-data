@@ -146,6 +146,13 @@ Perfect: Complete citation synthesized by pulling parent act from 1400 chars awa
 2. Instrument explicitly referenced or clearly implied
 
 **DO NOT extract:**
+- ❌ **CASE LAW CITATIONS** (court decisions - NOT legal provisions):
+  - "Cass., 15 juli 2014, P.14.1029.N" → SKIP (this is a court decision, not a provision)
+  - "Hof van Cassatie 21 februari 2020, C.19.0123.F" → SKIP
+  - "arrest van het Hof van Justitie, 26 februari 2013, Åkerberg Fransson, C-617/10" → SKIP
+  - "Cour de Cassation, 12 janvier 2018" → SKIP
+  - Pattern: Court name + date + optional case number/name = case law (NOT provision)
+  - If you see "Cass.", "Hof van Cassatie", "Cour de Cassation", "arrest van het Hof" + date → It's case law, SKIP IT
 - ❌ **BARE ACTS WITHOUT ARTICLES**: "Koninklijk Besluit van 8 mei 2018" (no article) → SKIP
 - ❌ **DIRECTIVES/REGULATIONS WITHOUT ARTICLES**: "Directive 96/29/Euratom" (no article) → SKIP
 - ❌ **STRUCTURAL REFERENCES**: "Titre VI, Chapitre II" / "Hoofdstuk III" → NOT provisions
