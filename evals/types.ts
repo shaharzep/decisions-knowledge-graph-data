@@ -63,6 +63,17 @@ export interface ExperimentMetadata {
 }
 
 /**
+ * Judge configuration for LLM-as-a-judge evaluations
+ */
+export interface JudgeConfig {
+  /** Judge provider: 'claude' or 'gpt5' */
+  provider: 'claude' | 'gpt5';
+
+  /** Optional model override (uses defaults if not specified) */
+  model?: string;
+}
+
+/**
  * Options for running evaluations
  */
 export interface EvalOptions {
@@ -83,6 +94,9 @@ export interface EvalOptions {
 
   /** Output directory for local results */
   outputDir?: string;
+
+  /** Judge configuration (defaults to Claude Sonnet 4.5) */
+  judge?: JudgeConfig;
 }
 
 /**

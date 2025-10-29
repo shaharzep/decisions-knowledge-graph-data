@@ -30,6 +30,7 @@ COMMANDS:
   <job-type> --timestamp <ts>    Run evaluation on specific timestamp
   <job-type> --sample <n>        Run evaluation on sample of n decisions
   <job-type> --workers <n>       Run with n parallel workers (default: 5)
+  <job-type> --judge <provider>  Use specific judge (claude | gpt5) - defaults to claude
   <job-type> --batch             Evaluate batch processing results (instead of concurrent)
   compare <exp1> <exp2>          Compare two experiments and generate report
   list <job-type>                List available result timestamps
@@ -39,7 +40,9 @@ EXAMPLES:
   npm run eval extract-comprehensive
   npm run eval extract-comprehensive --sample 50
   npm run eval extract-comprehensive --workers 10
-  npm run eval extract-comprehensive --sample 50 --workers 10
+  npm run eval extract-comprehensive --judge gpt5
+  npm run eval extract-comprehensive --judge claude
+  npm run eval extract-comprehensive --sample 50 --workers 10 --judge gpt5
   npm run eval extract-comprehensive --batch
   npm run eval extract-comprehensive --batch --sample 100
   npm run eval extract-comprehensive --batch --timestamp 2025-10-18T22-45-00-000Z
@@ -49,7 +52,8 @@ EXAMPLES:
 
 ENVIRONMENT:
   Required environment variables in .env:
-    - OPENAI_API_KEY          # OpenAI API key for GPT-5 judge
+    - ANTHROPIC_API_KEY       # Anthropic API key for Claude judge (default)
+    - OPENAI_API_KEY          # OpenAI API key for GPT-5 judge (optional)
     - BRAINTRUST_API_KEY      # Braintrust API key
     - PGHOST, PGUSER, etc.    # PostgreSQL connection for source documents
 `);
@@ -88,6 +92,15 @@ async function runEvalCommand(
       i++;
     } else if (args[i] === '--workers' && args[i + 1]) {
       options.parallelWorkers = parseInt(args[i + 1], 10);
+      i++;
+    } else if (args[i] === '--judge' && args[i + 1]) {
+      const judgeProvider = args[i + 1];
+      if (judgeProvider === 'claude' || judgeProvider === 'gpt5') {
+        options.judge = { provider: judgeProvider };
+      } else {
+        console.error(`❌ Invalid judge provider: ${judgeProvider}. Must be 'claude' or 'gpt5'`);
+        process.exit(1);
+      }
       i++;
     } else if (args[i] === '--no-save') {
       options.saveLocal = false;

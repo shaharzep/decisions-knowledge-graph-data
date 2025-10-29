@@ -1,17 +1,27 @@
 import { JobConfig } from "../JobConfig.js";
-import { PROVISIONS_2A_PROMPT } from "./prompt.js";
 import { TestSetLoader } from "../../utils/testSetLoader.js";
-import { extractCandidateSnippets } from "../../utils/provisionSnippetExtractor.js";
+import { executeTwoStageExtraction } from "./two-stage-executor.js";
 
 /**
- * Extract Provisions 2A Job Configuration - P1 STAGE 2A (Full-Text + Snippet Verification)
+ * Extract Provisions 2A Job Configuration - TWO-STAGE AGENTIC SNIPPET ARCHITECTURE
  *
- * FULL-TEXT APPROACH WITH SNIPPET-BASED VERIFICATION:
+ * APPROACH: Separation of concerns via two focused LLM stages
  *
- * Processes complete decision markdown text to extract cited legal provisions.
- * Uses dual-pass strategy for maximum completeness:
- * 1. Full-text sweep: Systematic extraction following comprehensive rules
- * 2. Snippet verification: Cross-checks against regex-extracted provision mentions
+ * Stage 1: Agentic Snippet Creation (gpt-5-mini MEDIUM reasoning)
+ *   - Scans complete decision markdown text (2K-80K chars)
+ *   - Finds EVERY provision mention (100% recall target)
+ *   - Synthesizes enriched, self-contained snippets
+ *   - Combines distant information (article + parent act from 2000+ chars away)
+ *   - Resolves implicit references ("voormelde artikel")
+ *   - Returns plain text snippet list
+ *   - Task: Systematic extraction, not deep reasoning (MEDIUM sufficient)
+ *
+ * Stage 2: Deterministic Parsing (gpt-5-mini MEDIUM reasoning)
+ *   - Parses ONLY the enriched snippets (5-10K chars, 8-16x smaller)
+ *   - Complex normalization (decimal notation, key extraction, deduplication)
+ *   - Applies expansion (ranges/lists), deduplication, sequencing
+ *   - Returns citedProvisions array
+ *   - Task: Complex parsing with multi-step rules (MEDIUM needed for accuracy)
  *
  * Extracts cited legal provisions with essential metadata:
  * - Provision numbers (article/artikel) - verbatim
@@ -20,17 +30,13 @@ import { extractCandidateSnippets } from "../../utils/provisionSnippetExtractor.
  * - Provision number keys (normalized for matching)
  *
  * Key Features:
+ * - Better for long documents (no attention degradation)
+ * - Clearer deduplication (snippet list view vs 80K char scan)
+ * - Easier to debug (inspect Stage 1 output)
  * - Verbatim extraction (no standardization or translation)
  * - Bilingual enum values (LOI/WET, ARRETE_ROYAL/KONINKLIJK_BESLUIT, etc.)
  * - Parent act deduplication within decision
- * - Complete context for accurate extraction
- * - Snippet-based verification to catch missed provisions (target 99.5%+ recall)
- *
- * Snippet Extraction Strategy:
- * - 3 specialized regex patterns (article+source, treaties, EU instruments)
- * - 150-character context windows around provision mentions (300+ chars total)
- * - Position tracking for verification in full text
- * - Mandatory second-pass verification in prompt
+ * - Target: 99-100/100 evaluation score
  *
  * Does NOT extract (deferred to other agents):
  * - URLs, ELI, CELEX identifiers (Agent 2B)
@@ -41,7 +47,7 @@ const config: JobConfig = {
   id: "extract-provisions-2a",
 
   description:
-    "Extract cited legal provisions with 100% completeness + accuracy (P1 STAGE 2A: full-text, verbatim with ALL qualifiers, fuzzy deduplication, anti-hallucination rules)",
+    "Two-stage agentic snippet extraction: Stage 1 synthesizes enriched snippets (HIGH reasoning), Stage 2 parses to JSON (LOW reasoning). Target: 99-100/100 score.",
 
   /**
    * Database Query
@@ -71,25 +77,12 @@ const config: JobConfig = {
    * Database Query Parameters
    *
    * Loaded from CSV test set file at runtime.
-   * Using lowest-20-provisions.csv for targeted re-extraction of low-scoring decisions.
+   * Using low-scores-9.csv for fast iteration on problematic decisions.
    */
   dbQueryParams: await (async () => {
     const testSet = await TestSetLoader.loadTestSet(
       "evals/test-sets/comprehensive-197.csv"
     );
-    const summary = TestSetLoader.getSummary(testSet);
-    console.log(`📊 Provisions 2A test set (LOWEST 20): ${summary.total} decisions`);
-    console.log(`   Languages: ${JSON.stringify(summary.byLanguage)}`);
-
-    // Show distribution by length category
-    const byLength: Record<string, number> = {};
-    testSet.forEach((entry) => {
-      if (entry.length_category) {
-        byLength[entry.length_category] =
-          (byLength[entry.length_category] || 0) + 1;
-      }
-    });
-    console.log(`   Length distribution: ${JSON.stringify(byLength)}`);
 
     const params = TestSetLoader.toQueryParams(testSet);
     return [params.decisionIds, params.languages];
@@ -99,11 +92,12 @@ const config: JobConfig = {
    * Preprocess Row
    *
    * Enriches rows with metadata from CSV test set for evaluation and filtering.
-   * Also extracts provision snippets for verification in the prompt.
+   *
+   * Note: Snippet extraction removed - Stage 1 does its own scanning.
    */
   preprocessRow: await (async () => {
     const testSet = await TestSetLoader.loadTestSet(
-      "evals/test-sets/lowest-20-provisions.csv"
+      "evals/test-sets/low-scores-9.csv"
     );
 
     // Create map for fast lookup: key = decision_id + language
@@ -112,18 +106,12 @@ const config: JobConfig = {
       const key = `${entry.decision_id}|${entry.language}`;
       testSetMap.set(key, entry);
     });
-    
 
     // Return preprocessor function
     return async (row: any) => {
       // Enrich with test set metadata
       const key = `${row.decision_id}|${row.language_metadata}`;
       const testSetEntry = testSetMap.get(key);
-
-      // Extract provision snippets from full markdown text
-      // Use 150-char context window for comprehensive context
-      // (Belgian legal citations are verbose with long parent act names)
-      const snippets = extractCandidateSnippets(row.full_md || '', 150);
 
       return {
         ...row,
@@ -140,8 +128,6 @@ const config: JobConfig = {
               length_category: testSetEntry.length_category,
             }
           : {}),
-        // Add extracted provision snippets for verification
-        provisionSnippets: snippets,
       };
     };
   })(),
@@ -166,27 +152,21 @@ const config: JobConfig = {
   ],
 
   /**
-   * Prompt Template
+   * Custom Execution: Two-Stage Agentic Snippet Architecture
    *
-   * Injects full decision markdown text, decision ID, procedural language,
-   * and formatted provision snippets for verification.
+   * Stage 1: Agentic snippet creation (gpt-5-mini MEDIUM reasoning)
+   *   - Scans full decision text
+   *   - Synthesizes enriched, self-contained snippets
+   *   - Returns plain text snippet list
+   *
+   * Stage 2: Complex parsing (gpt-5-mini MEDIUM reasoning)
+   *   - Parses snippets into structured JSON
+   *   - Applies complex normalization, expansion, deduplication
+   *   - Returns citedProvisions array
    */
-  promptTemplate: (row) => {
-    // Format provision snippets for prompt injection
-    // Expected format: [N] char X-Y: "...snippet text..."
-    const formattedSnippets = row.provisionSnippets && row.provisionSnippets.length > 0
-      ? row.provisionSnippets
-          .map((snippet: any, index: number) =>
-            `[${index + 1}] char ${snippet.char_start}-${snippet.char_end}: "${snippet.snippet}"`
-          )
-          .join('\n')
-      : '(No snippets extracted - document may contain no provision citations)';
-
-    return PROVISIONS_2A_PROMPT
-      .replace("{decisionId}", row.decision_id || "")
-      .replace("{proceduralLanguage}", row.language_metadata || "FR")
-      .replace("{fullText.markdown}", row.full_md || "")
-      .replace("{provisionSnippets}", formattedSnippets);
+  customExecution: async (row, client) => {
+    const result = await executeTwoStageExtraction(row, client);
+    return result;
   },
 
   /**
@@ -312,7 +292,7 @@ const config: JobConfig = {
             provisionNumber: {
               type: "string",
               minLength: 3,
-              maxLength: 200,
+              maxLength: 500,
               description:
                 "Provision number VERBATIM from text (no standardization)",
             },
@@ -408,12 +388,16 @@ const config: JobConfig = {
 
   /**
    * Provider and Model Configuration
+   *
+   * Note: Two-stage execution specifies reasoning effort per stage:
+   *   - Stage 1: MEDIUM (systematic extraction with synthesis)
+   *   - Stage 2: MEDIUM (complex normalization with multi-step rules)
+   *
+   * Both use MEDIUM to handle the complexity accurately.
    */
   provider: "openai",
   model: "gpt-5-mini",
   maxCompletionTokens: 128000, // Full text processing requires more tokens
-  reasoningEffort: "medium", // Medium reasoning for complex provision extraction
-  verbosity: "low", // Concise responses preferred
   /**
    * Custom ID prefix
    */

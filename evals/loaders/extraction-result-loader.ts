@@ -36,7 +36,7 @@ export async function loadExtractionResults(
 
   if (timestamp) {
     // Load specific timestamp
-    resultsDir = getResultsByTimestamp(jobType, timestamp, baseDir);
+    resultsDir = await getResultsByTimestamp(jobType, timestamp, baseDir);
     data = await loadExtractedData(resultsDir);
     summary = await loadSummary(resultsDir);
   } else {

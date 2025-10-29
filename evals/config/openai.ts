@@ -59,16 +59,21 @@ export async function callGPT5Judge(prompt: string): Promise<string> {
 
   try {
     const response = await client.chat.completions.create({
-      model: 'gpt-5', // Use GPT-4o for now (GPT-5 not yet available via API)
+      model: 'gpt-4.1', // Use GPT-4.1, do NOT use GPT-5 label yet, i want to use a controlled model 
       messages: [
+        {
+          role: 'system',
+          content: 'You are an expert legal extraction quality evaluator. You must respond with valid JSON only. No markdown, no code blocks, no explanations.',
+        },
         {
           role: 'user',
           content: prompt,
         },
       ],
-      reasoning_effort: 'medium',
+      // reasoning_effort: 'low',
       // GPT-4o configuration
       max_completion_tokens: 16000,
+      temperature: 0, // Deterministic for consistency (match Claude)
       response_format: { type: 'json_object' }, // Request JSON output
     });
 

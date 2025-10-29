@@ -307,17 +307,58 @@ export class JobResultLoader {
 /**
  * Get results directory for a specific timestamp
  *
+ * For concurrent results, searches within model subdirectories
+ * For batch results, uses direct path
+ *
  * @param jobType - Job type
  * @param timestamp - Timestamp directory name
  * @param baseDir - Base directory (default: 'results', can use 'concurrent/results')
  * @returns Full path to results directory
  */
-export function getResultsByTimestamp(
+export async function getResultsByTimestamp(
   jobType: string,
   timestamp: string,
   baseDir: string = 'results'
-): string {
-  return path.join(process.cwd(), baseDir, jobType, timestamp);
+): Promise<string> {
+  const isConcurrent = baseDir.includes('concurrent');
+
+  if (isConcurrent) {
+    // For concurrent results, search within model subdirectories
+    const jobResultsDir = path.join(process.cwd(), baseDir, jobType);
+
+    try {
+      const modelDirs = await fs.readdir(jobResultsDir, { withFileTypes: true });
+
+      // Search each model directory for the timestamp
+      for (const modelDir of modelDirs) {
+        if (modelDir.isDirectory()) {
+          const timestampPath = path.join(jobResultsDir, modelDir.name, timestamp);
+
+          // Check if this path exists
+          try {
+            await fs.access(timestampPath);
+            return timestampPath; // Found it!
+          } catch {
+            // Not in this model directory, continue searching
+            continue;
+          }
+        }
+      }
+
+      throw new Error(
+        `Timestamp ${timestamp} not found in any model directory under ${jobResultsDir}\n` +
+        `Available models: ${modelDirs.filter(d => d.isDirectory()).map(d => d.name).join(', ')}`
+      );
+    } catch (error: any) {
+      if (error.code === 'ENOENT') {
+        throw new Error(`Job results directory not found: ${jobResultsDir}`);
+      }
+      throw error;
+    }
+  } else {
+    // For batch results, use direct path
+    return path.join(process.cwd(), baseDir, jobType, timestamp);
+  }
 }
 
 /**

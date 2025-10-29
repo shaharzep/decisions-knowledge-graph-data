@@ -8,7 +8,8 @@ import fs from 'fs/promises';
 import path from 'path';
 import { loadExtractionResults, validateExtractionResults } from '../loaders/extraction-result-loader.js';
 import { batchLoadSourceDocuments, loadSourceDocument, SourceDocumentWithMetadata } from '../loaders/source-document-loader.js';
-import { scoreExtraction, extractScoresForBraintrust } from '../scorers/gpt5-judge-scorer.js';
+import { scoreExtraction as scoreWithGPT5, extractScoresForBraintrust } from '../scorers/gpt5-judge-scorer.js';
+import { scoreExtraction as scoreWithClaude } from '../scorers/claude-judge-scorer.js';
 import { createExperiment, logEvaluation, summarizeExperiment } from '../config/braintrust.js';
 import { getJudgePromptFile } from '../config/job-prompt-map.js';
 import { loadJudgePrompt } from '../utils/prompt-loader.js';
@@ -20,7 +21,38 @@ import {
   DecisionEvaluationInput,
   EvaluationProgress,
   ExperimentMetadata,
+  JudgeConfig,
+  GroundTruthData,
 } from '../types.js';
+
+/**
+ * Type for scorer function
+ */
+type ScorerFunction = (
+  decisionId: string,
+  groundTruthData: GroundTruthData,
+  extractedJSON: any,
+  judgePromptTemplate: string,
+  jobType?: string
+) => Promise<EvaluationResult>;
+
+/**
+ * Get the appropriate scorer function based on judge configuration
+ *
+ * @param judgeConfig - Judge configuration (defaults to Claude)
+ * @returns Scorer function to use
+ */
+function getJudgeScorer(judgeConfig?: JudgeConfig): ScorerFunction {
+  // Default to Claude Sonnet 4.5 if no config provided
+  return scoreWithGPT5;
+
+  // if (provider === 'claude') {
+  //   return scoreWithClaude;
+  // } else if (provider === 'gpt5') {
+  // } else {
+  //   throw new Error(`Unknown judge provider: ${provider}`);
+  // }
+}
 
 /**
  * Run evaluation on extraction results
@@ -45,6 +77,13 @@ export async function runEvaluation(
   const sourceLabel = options.batch ? 'batch results' : 'concurrent results';
 
   console.log(`\n🚀 Starting evaluation for ${jobType}${timestamp ? ` (${timestamp})` : ' (latest)'} from ${sourceLabel}\n`);
+
+  // Get judge scorer (defaults to Claude Sonnet 4.5)
+  const scoreExtraction = getJudgeScorer(options.judge);
+  const judgeProvider = 'gpt5'; //options.judge?.provider || 'claude';
+  const judgeModel = 'gpt-4.1'; //options.judge?.model || 'claude-sonnet-4.5';
+
+  console.log(`🤖 Using LLM Judge: ${judgeProvider} (${judgeModel})\n`);
 
   // Load judge prompt for this job type
   const promptFile = getJudgePromptFile(jobType);
@@ -197,7 +236,8 @@ export async function runEvaluation(
           input.sourceDocument,
           judgePromptTemplate,
           jobType,
-          input.metadata?.language || 'FR'
+          input.metadata?.language || 'FR',
+          scoreExtraction  // Pass the selected scorer function
         );
 
         // Log to Braintrust with FULL data (metadata preserved for clustering/analysis)
@@ -304,6 +344,7 @@ export async function runEvaluation(
  * @param judgePromptTemplate - The loaded judge prompt markdown content
  * @param jobType - Job type (for context)
  * @param language - Procedural language (FR or NL)
+ * @param scorer - Scorer function to use (Claude or GPT-5)
  * @returns Evaluation result
  */
 export async function evaluateSingleDecision(
@@ -312,10 +353,11 @@ export async function evaluateSingleDecision(
   sourceDocument: string,
   judgePromptTemplate: string,
   jobType: string,
-  language: string
+  language: string,
+  scorer: ScorerFunction
 ): Promise<EvaluationResult> {
-  // Score the extraction using full source document
-  return await scoreExtraction(
+  // Score the extraction using the provided scorer
+  return await scorer(
     decisionId,
     sourceDocument,
     extractedData,

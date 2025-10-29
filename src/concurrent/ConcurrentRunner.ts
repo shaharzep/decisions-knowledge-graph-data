@@ -214,8 +214,20 @@ export class ConcurrentRunner {
     const metadata = this.extractMetadata(row);
 
     try {
+      // Check for custom execution (e.g., two-stage processing)
+      if (this.config.customExecution) {
+        const data = await this.config.customExecution(row, this.client);
+        return {
+          customId,
+          success: true,
+          data,
+          metadata,
+        };
+      }
+
+      // Standard single-stage execution
       // Generate prompt
-      const prompt = this.config.promptTemplate(row);
+      const prompt = this.config.promptTemplate!(row);
 
       // Prepare messages
       const messages = [

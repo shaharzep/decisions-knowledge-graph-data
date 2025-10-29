@@ -101,7 +101,27 @@ export interface JobConfig {
    * @param row A single row from the database query result
    * @returns The prompt string to send to the model
    */
-  promptTemplate: (row: any) => string;
+  promptTemplate?: (row: any) => string;
+
+  /**
+   * Optional custom execution handler for multi-stage LLM processing
+   *
+   * When present, ConcurrentRunner calls this instead of the normal
+   * promptTemplate → LLM → parse flow. Enables custom execution logic
+   * like two-stage agentic snippet creation + parsing.
+   *
+   * @param row Database row with decision data
+   * @param client OpenAI/Claude concurrent client with retry logic
+   * @returns Parsed extraction result (will be validated against outputSchema)
+   *
+   * @example
+   * customExecution: async (row, client) => {
+   *   const stage1 = await runStage1(row, client);
+   *   const stage2 = await runStage2(stage1, client);
+   *   return stage2.citedProvisions;
+   * }
+   */
+  customExecution?: (row: any, client: any) => Promise<any>;
 
   /**
    * JSON schema for validating the output
