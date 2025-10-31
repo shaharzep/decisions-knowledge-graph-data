@@ -10,7 +10,7 @@ import { runEvaluation } from './runners/evaluation-runner.js';
 import { generateComparisonReport, exportReportToMarkdown } from './reporters/analysis-reporter.js';
 import { listAvailableExtractionResults } from './loaders/extraction-result-loader.js';
 import { validateBraintrustConfig } from './config/braintrust.js';
-import { validateGPT5Config } from './config/openai.js';
+import { validateAzureJudgeConfig } from './config/openai.js';
 import { DatabaseConfig } from '../src/config/database.js';
 import { getConfiguredJobTypes, hasEvalConfigured } from './config/job-prompt-map.js';
 
@@ -30,19 +30,16 @@ COMMANDS:
   <job-type> --timestamp <ts>    Run evaluation on specific timestamp
   <job-type> --sample <n>        Run evaluation on sample of n decisions
   <job-type> --workers <n>       Run with n parallel workers (default: 5)
-  <job-type> --judge <provider>  Use specific judge (claude | gpt5) - defaults to claude
   <job-type> --batch             Evaluate batch processing results (instead of concurrent)
   compare <exp1> <exp2>          Compare two experiments and generate report
   list <job-type>                List available result timestamps
-  test-connections               Test database, OpenAI, and Braintrust connections
+  test-connections               Test database, Azure OpenAI, and Braintrust connections
 
 EXAMPLES:
   npm run eval extract-comprehensive
   npm run eval extract-comprehensive --sample 50
   npm run eval extract-comprehensive --workers 10
-  npm run eval extract-comprehensive --judge gpt5
-  npm run eval extract-comprehensive --judge claude
-  npm run eval extract-comprehensive --sample 50 --workers 10 --judge gpt5
+  npm run eval extract-comprehensive --sample 50 --workers 10
   npm run eval extract-comprehensive --batch
   npm run eval extract-comprehensive --batch --sample 100
   npm run eval extract-comprehensive --batch --timestamp 2025-10-18T22-45-00-000Z
@@ -52,10 +49,12 @@ EXAMPLES:
 
 ENVIRONMENT:
   Required environment variables in .env:
-    - ANTHROPIC_API_KEY       # Anthropic API key for Claude judge (default)
-    - OPENAI_API_KEY          # OpenAI API key for GPT-5 judge (optional)
-    - BRAINTRUST_API_KEY      # Braintrust API key
-    - PGHOST, PGUSER, etc.    # PostgreSQL connection for source documents
+    - AZURE_GPT4_1_OPENAI_ENDPOINT     # Azure OpenAI endpoint for GPT-4.1 judge
+    - AZURE_GPT4_1_OPENAI_API_KEY      # Azure OpenAI API key for GPT-4.1 judge
+    - AZURE_GPT4_1_OPENAI_DEPLOYMENT   # Azure OpenAI deployment name (gpt-4.1)
+    - AZURE_GPT4_1_API_VERSION         # Azure API version (2024-12-01-preview)
+    - BRAINTRUST_API_KEY               # Braintrust API key
+    - PGHOST, PGUSER, etc.             # PostgreSQL connection for source documents
 `);
 }
 
@@ -92,15 +91,6 @@ async function runEvalCommand(
       i++;
     } else if (args[i] === '--workers' && args[i + 1]) {
       options.parallelWorkers = parseInt(args[i + 1], 10);
-      i++;
-    } else if (args[i] === '--judge' && args[i + 1]) {
-      const judgeProvider = args[i + 1];
-      if (judgeProvider === 'claude' || judgeProvider === 'gpt5') {
-        options.judge = { provider: judgeProvider };
-      } else {
-        console.error(`❌ Invalid judge provider: ${judgeProvider}. Must be 'claude' or 'gpt5'`);
-        process.exit(1);
-      }
       i++;
     } else if (args[i] === '--no-save') {
       options.saveLocal = false;
@@ -193,10 +183,10 @@ async function testConnectionsCommand(): Promise<void> {
     console.log('❌ Database connection failed\n');
   }
 
-  // Test OpenAI
-  console.log('Testing OpenAI GPT-5 configuration...');
-  const openaiOk = validateGPT5Config();
-  if (!openaiOk) {
+  // Test Azure OpenAI GPT-4.1
+  console.log('Testing Azure OpenAI GPT-4.1 judge configuration...');
+  const azureOk = validateAzureJudgeConfig();
+  if (!azureOk) {
     console.log('');
   }
 
@@ -207,7 +197,7 @@ async function testConnectionsCommand(): Promise<void> {
     console.log('');
   }
 
-  if (dbOk && openaiOk && braintrustOk) {
+  if (dbOk && azureOk && braintrustOk) {
     console.log('\n✅ All connections successful!');
   } else {
     console.log('\n❌ Some connections failed. Please check your .env file.');

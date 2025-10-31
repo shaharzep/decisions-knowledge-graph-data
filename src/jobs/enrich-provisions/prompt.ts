@@ -38,7 +38,50 @@ You will receive:
 1. **Decision ID**: \`{decisionId}\`
 2. **Procedural Language**: \`{proceduralLanguage}\`
 3. **Cited Provisions**: \`{citedProvisions}\` (Output from Agent 2A)
-4. **Markdown Text**: \`{fullText.markdown}\`
+4. **Extracted References**: \`{extractedReferences}\` (Pre-scanned legal references)
+5. **Markdown Text**: \`{fullText.markdown}\`
+
+---
+
+## PRE-EXTRACTED REFERENCES
+
+The following legal references have been automatically extracted from the decision text using comprehensive regex patterns. **Use these as your primary source** for URLs, CELEX, ELI, and NUMAC identifiers:
+
+\`\`\`json
+{extractedReferences}
+\`\`\`
+
+**Structure:**
+- **eli**: Array of European Legislation Identifiers found in text
+- **celex**: Array of CELEX numbers (EU law identifiers)
+- **numac**: Array of NUMAC identifiers (Belgian legal text identifiers)
+- **eurLexUrls**: Array of EUR-Lex URLs found in text
+- **justelUrls**: Array of Justel (e-Justice) URLs found in text
+
+**Usage instructions:**
+
+1. **CELEX Numbers**: Prioritize CELEX extracted from EUR-Lex URLs (most reliable). These have been validated and normalized.
+
+2. **ELI Identifiers**: Use extracted ELI when available. Match to appropriate provision or parent act based on context.
+
+3. **NUMAC**: Use for \`parentActNumber\` field when NUMAC is found in extracted references.
+
+4. **Justel URLs**: Match to Belgian parent acts by comparing act name, date, or NUMAC. Determine if URL points to specific article (provision-level) or entire act (parent act-level) by checking for article anchors (#Art.X).
+
+5. **EUR-Lex URLs**: Match to EU provisions/acts by comparing directive/regulation number in URL. Check for fragment identifiers to distinguish provision-level vs parent act-level URLs.
+
+**Matching strategy:**
+1. For each provision from Agent 2A, search extracted references for matching identifiers/URLs
+2. Match based on: act name, date, directive/regulation number, or NUMAC
+3. If multiple URLs found, choose most specific (provision-level > parent act-level)
+4. If no match in extracted references, search full markdown text as fallback
+5. Set field to \`null\` if not found (do NOT construct or guess)
+
+**Benefits:**
+- Pre-validated and normalized identifiers
+- Faster lookup (no need to scan 30K+ chars)
+- Reduced hallucination risk
+- Higher extraction accuracy
 
 ---
 
@@ -135,18 +178,18 @@ You will receive:
 **\`parentActCelex\`**
 - **Type**: String or null
 - **Format**: CELEX number (EU legislation only)
-- **Pattern**: \`^[0-9]{4}[A-Z][0-9]{4}\$\`
+- **Length**: Typically 10 characters for modern EU legislation (8-10 characters depending on format)
+- **Pattern**: \`^[1-9]\\d{3}[A-Z]{1,2}\\d{3,4}\$\`
 - **Examples**:
-  - EU Regulation (GDPR): \`"32016R0679"\`
-  - EU Directive (Employment Equality): \`"32000L0078"\`
-  - EU Decision: \`"32020D1234"\`
-- **Extract from**: Decision text when EU law cited
-- **Null when**: Not EU law or not mentioned
-- **Structure breakdown**:
-  - \`3\`: Third series (1958-present)
-  - \`2016\`: Year
-  - \`R\`: Type (R=Regulation, L=Directive, D=Decision)
-  - \`0679\`: Sequential number
+  - \`"32016R0679"\` - GDPR (10 characters)
+  - \`"32000L0078"\` - Employment Equality Directive (10 characters)
+  - \`"32000L0035"\` - Late Payment Directive (10 characters)
+  - \`"32019L1028"\` - Directive 2019/1028 (10 characters)
+- **Extract from**: 
+  - **PRIORITY 1**: EUR-Lex URLs containing \`uri=CELEX:32016R0679\` or \`CELEX%3A32000L0035\`
+  - **PRIORITY 2**: Explicit text mentions like "CELEX: 32016R0679" or "(CELEX n° 32000L0078)"
+- **Null when**: Not EU law, not explicitly mentioned in URL or text
+- **CRITICAL**: Only extract if CELEX is explicitly present - DO NOT construct from directive numbers like "2016/679"
 
 **\`parentActNumber\`**
 - **Type**: String or null
@@ -318,22 +361,60 @@ Provision ELI:  eli/eu/reg/2016/679/oj/art_6
 
 ### Finding CELEX
 
-**Only for EU law** - applies to parent act only:
-- Usually in format: "Règlement (UE) n° 2016/679" → CELEX: \`32016R0679\`
-- Pattern breakdown:
-  - \`3\`: Third series (1958-present)
-  - \`2016\`: Year
-  - \`R\`: Regulation (or \`L\` for directive, \`D\` for decision)
-  - \`0679\`: Sequential number
+**Only for EU law** - applies to parent act only
 
-**Common patterns in decisions:**
-- "CELEX: 32016R0679"
-- "CELEX 32000L0078"
-- "(CELEX n° 32016R0679)"
+**EXTRACTION PRIORITY (follow in this order):**
 
-**If CELEX not explicitly mentioned:**
+**1. Extract from EUR-Lex URLs** (MOST RELIABLE):
+\`\`\`
+URL: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679
+Extract: 32016R0679
+
+URL: http://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX%3A32000L0035  
+Extract: 32000L0035 (note: %3A is URL-encoded colon)
+
+URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L1028
+Extract: 32019L1028
+\`\`\`
+
+**2. Extract from explicit text mentions**:
+\`\`\`
+"CELEX: 32016R0679" → Extract: 32016R0679
+"CELEX 32000L0078" → Extract: 32000L0078
+"(CELEX n° 32016R0679)" → Extract: 32016R0679
+"CELEX n°32000L0035" → Extract: 32000L0035
+\`\`\`
+
+**DO NOT extract CELEX from:**
+- ❌ Directive numbers like "2016/679" → Do NOT convert to \`32016R0679\`
+- ❌ Regulation numbers like "2000/35/CE" → Do NOT convert to \`32000L0035\`
+- ❌ "(UE) 2019/1028" → Do NOT convert to \`32019L1028\`
+- ❌ Narrative references without explicit "CELEX" identifier
+
+**Why?** Converting directive numbers to CELEX requires knowing the exact format, and errors are common (e.g., missing digits, wrong letter). Only extract what is explicitly stated.
+
+**Examples:**
+\`\`\`
+✅ CORRECT:
+Text: "...see https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679"
+Extract: parentActCelex: "32016R0679"
+
+✅ CORRECT:
+Text: "Directive 2000/78/CE (CELEX 32000L0078)"
+Extract: parentActCelex: "32000L0078"
+
+❌ WRONG:
+Text: "Directive 2016/679"
+Extract: parentActCelex: null (not "32016R0679" - CELEX not explicitly mentioned)
+
+❌ WRONG:
+Text: "Règlement (UE) 2016/679"
+Extract: parentActCelex: null (not "32016R0679" - CELEX not explicitly mentioned)
+\`\`\`
+
+**If CELEX not explicitly mentioned in URL or text:**
 - Set to \`null\`
-- Do NOT construct or guess CELEX
+- Do NOT construct or guess CELEX from directive/regulation numbers
 
 ### Finding Justel URLs
 
@@ -446,7 +527,8 @@ Before outputting, verify:
 **Format:**
 - [ ] \`provisionEli\` matches ELI pattern or is null
 - [ ] \`parentActEli\` matches ELI pattern or is null
-- [ ] \`parentActCelex\` matches CELEX pattern (8 characters: 4 digits + letter + 4 digits) or is null
+- [ ] \`parentActCelex\` matches pattern \`^[1-9]\\d{3}[A-Z]{1,2}\\d{3,4}\$\` (8-10 chars) or is null
+- [ ] If \`parentActUrlEurlex\` contains CELEX, that same CELEX is in \`parentActCelex\`
 - [ ] \`provisionUrlJustel\` is valid Justel URL or is null
 - [ ] \`parentActUrlJustel\` is valid Justel URL or is null
 - [ ] \`provisionUrlEurlex\` is valid EUR-Lex URL or is null

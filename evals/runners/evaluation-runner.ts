@@ -8,8 +8,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { loadExtractionResults, validateExtractionResults } from '../loaders/extraction-result-loader.js';
 import { batchLoadSourceDocuments, loadSourceDocument, SourceDocumentWithMetadata } from '../loaders/source-document-loader.js';
-import { scoreExtraction as scoreWithGPT5, extractScoresForBraintrust } from '../scorers/gpt5-judge-scorer.js';
-import { scoreExtraction as scoreWithClaude } from '../scorers/claude-judge-scorer.js';
+import { scoreExtraction, extractScoresForBraintrust } from '../scorers/gpt5-judge-scorer.js';
 import { createExperiment, logEvaluation, summarizeExperiment } from '../config/braintrust.js';
 import { getJudgePromptFile } from '../config/job-prompt-map.js';
 import { loadJudgePrompt } from '../utils/prompt-loader.js';
@@ -21,7 +20,6 @@ import {
   DecisionEvaluationInput,
   EvaluationProgress,
   ExperimentMetadata,
-  JudgeConfig,
   GroundTruthData,
 } from '../types.js';
 
@@ -35,24 +33,6 @@ type ScorerFunction = (
   judgePromptTemplate: string,
   jobType?: string
 ) => Promise<EvaluationResult>;
-
-/**
- * Get the appropriate scorer function based on judge configuration
- *
- * @param judgeConfig - Judge configuration (defaults to Claude)
- * @returns Scorer function to use
- */
-function getJudgeScorer(judgeConfig?: JudgeConfig): ScorerFunction {
-  // Default to Claude Sonnet 4.5 if no config provided
-  return scoreWithGPT5;
-
-  // if (provider === 'claude') {
-  //   return scoreWithClaude;
-  // } else if (provider === 'gpt5') {
-  // } else {
-  //   throw new Error(`Unknown judge provider: ${provider}`);
-  // }
-}
 
 /**
  * Run evaluation on extraction results
@@ -78,12 +58,8 @@ export async function runEvaluation(
 
   console.log(`\n🚀 Starting evaluation for ${jobType}${timestamp ? ` (${timestamp})` : ' (latest)'} from ${sourceLabel}\n`);
 
-  // Get judge scorer (defaults to Claude Sonnet 4.5)
-  const scoreExtraction = getJudgeScorer(options.judge);
-  const judgeProvider = 'gpt5'; //options.judge?.provider || 'claude';
-  const judgeModel = 'gpt-4.1'; //options.judge?.model || 'claude-sonnet-4.5';
-
-  console.log(`🤖 Using LLM Judge: ${judgeProvider} (${judgeModel})\n`);
+  // Using Azure GPT-4.1 as LLM judge
+  console.log(`🤖 Using LLM Judge: Azure GPT-4.1\n`);
 
   // Load judge prompt for this job type
   const promptFile = getJudgePromptFile(jobType);

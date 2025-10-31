@@ -1,6 +1,6 @@
 import { JobConfig } from "../JobConfig.js";
 import { ENRICH_PROVISIONS_PROMPT } from "./prompt.js";
-import { TestSetLoader } from "../../utils/testSetLoader.js";
+import { extractLegalReferences } from "../../utils/legalReferenceExtractor.js";
 
 /**
  * Enrich Provisions Job Configuration - Agent 2B
@@ -62,136 +62,111 @@ const config: JobConfig = {
   /**
    * Database Query
    *
-   * IMPORTANT: Uses SAME query as extract-provisions-2a to ensure
-   * we process the exact same decisions.
+   * Selects top 200 decisions with the most ejustice or eur-lex URLs.
+   * No test set filtering - query is self-contained with URL counts.
    *
    * Joins decisions1 with decisions_md to get full markdown text.
-   * Uses test set for stratified selection.
+   * Includes all metadata fields from decisions1 for evaluation.
+   * Adds URL count metadata: justel_urls, eurlex_urls, total_urls.
    */
   dbQuery: `
     SELECT
       d.id,
       d.decision_id,
       d.language_metadata,
-      dm.full_md
-    FROM decisions1 d
-    INNER JOIN decisions_md dm
-      ON dm.decision_id = d.decision_id
-      AND dm.language = d.language_metadata
-    INNER JOIN unnest($1::text[], $2::text[]) AS test_set(decision_id, language)
-      ON d.decision_id = test_set.decision_id
-      AND d.language_metadata = test_set.language
-    WHERE dm.full_md IS NOT NULL
+      d.decision_type_ecli_code,
+      d.court_ecli_code,
+      d.decision_date,
+      dm.full_md,
+      LENGTH(dm.full_md) as md_length,
+      CASE
+        WHEN LENGTH(dm.full_md) < 10000 THEN 'short'
+        WHEN LENGTH(dm.full_md) < 30000 THEN 'medium'
+        WHEN LENGTH(dm.full_md) < 60000 THEN 'long'
+        ELSE 'very_long'
+      END as length_category,
+      (SELECT count(*) FROM regexp_matches(dm.full_md, 'ejustice\\.just\\.fgov\\.be', 'g')) as justel_urls,
+      (SELECT count(*) FROM regexp_matches(dm.full_md, 'eur-lex\\.europa\\.eu', 'g')) as eurlex_urls,
+      (
+        (SELECT count(*) FROM regexp_matches(dm.full_md, 'ejustice\\.just\\.fgov\\.be', 'g')) +
+        (SELECT count(*) FROM regexp_matches(dm.full_md, 'eur-lex\\.europa\\.eu', 'g'))
+      ) as total_urls
+    FROM decisions_md dm
+    INNER JOIN decisions1 d
+      ON d.decision_id = dm.decision_id
+      AND d.language_metadata = dm.language
+    WHERE
+      (dm.full_md ~ 'ejustice\\.just\\.fgov\\.be' OR dm.full_md ~ 'eur-lex\\.europa\\.eu')
+      AND dm.full_md IS NOT NULL
       AND dm.full_md != ''
+    ORDER BY total_urls DESC
+    LIMIT 200
   `,
 
   /**
    * Database Query Parameters
    *
-   * Loaded from same test set as extract-provisions-2a.
-   * Ensures consistency across Agent 2A and Agent 2B.
+   * No parameters needed - query is self-contained with URL filtering.
    */
-  dbQueryParams: await (async () => {
-    const testSet = await TestSetLoader.loadTestSet(
-      "evals/test-sets/comprehensive-197.csv"
-    );
-    const summary = TestSetLoader.getSummary(testSet);
-    console.log(`📊 Enrich Provisions test set: ${summary.total} decisions`);
-    console.log(`   Languages: ${JSON.stringify(summary.byLanguage)}`);
-
-    // Show distribution by length category
-    const byLength: Record<string, number> = {};
-    testSet.forEach((entry) => {
-      if (entry.length_category) {
-        byLength[entry.length_category] = (byLength[entry.length_category] || 0) + 1;
-      }
-    });
-    console.log(`   Length distribution: ${JSON.stringify(byLength)}`);
-
-    const params = TestSetLoader.toQueryParams(testSet);
-    return [params.decisionIds, params.languages];
-  })(),
+  dbQueryParams: [],
 
   /**
    * Preprocess Row
    *
-   * Enrich database rows with metadata from CSV test set.
-   * Uses composite key lookup for correct language matching.
-   *
-   * NOTE: Dependencies are loaded BEFORE preprocessRow runs,
-   * so row.agent2a.citedProvisionsJson is already available here.
+   * Extracts all legal references (ELI, CELEX, NUMAC, URLs) from markdown text
+   * using comprehensive regex patterns. Provides structured data to LLM for
+   * improved enrichment accuracy and reduced hallucination.
    */
-  preprocessRow: await (async () => {
-    const testSet = await TestSetLoader.loadTestSet(
-      "evals/test-sets/comprehensive-197.csv"
-    );
+  preprocessRow: async (row: any) => {
+    const references = extractLegalReferences(row.full_md || '');
 
-    // Create map for fast lookup: key = decision_id + language
-    const testSetMap = new Map<string, any>();
-    testSet.forEach((entry) => {
-      const key = `${entry.decision_id}|${entry.language}`;
-      testSetMap.set(key, entry);
-    });
-
-    // Return preprocessor function
-    return async (row: any) => {
-      const key = `${row.decision_id}|${row.language_metadata}`;
-      const testSetEntry = testSetMap.get(key);
-
-      if (testSetEntry) {
-        return {
-          ...row,
-          decision_type_ecli_code: testSetEntry.decision_type_ecli_code,
-          decision_type_name: testSetEntry.decision_type_name,
-          court_ecli_code: testSetEntry.court_ecli_code,
-          court_name: testSetEntry.court_name,
-          courtcategory: testSetEntry.courtcategory,
-          decision_date: testSetEntry.decision_date,
-          md_length: testSetEntry.md_length,
-          length_category: testSetEntry.length_category,
-        };
-      }
-
-      return row;
+    return {
+      ...row,
+      extractedReferences: references,
+      extractedReferencesJson: JSON.stringify(references, null, 2)
     };
-  })(),
+  },
 
   /**
    * Row Metadata Fields
    *
-   * Track all metadata from CSV test set for evaluation and filtering.
+   * Track all metadata for evaluation and filtering.
+   * Includes URL count metadata from query and extracted references from preprocessing.
    */
   rowMetadataFields: [
     "id",
     "decision_id",
     "language_metadata",
     "decision_type_ecli_code",
-    "decision_type_name",
     "court_ecli_code",
-    "court_name",
-    "courtcategory",
     "decision_date",
     "md_length",
     "length_category",
+    "justel_urls",
+    "eurlex_urls",
+    "total_urls",
+    "extractedReferences",
   ],
 
   /**
    * Prompt Template
    *
-   * Injects 4 variables into Agent 2B prompt:
+   * Injects 5 variables into Agent 2B prompt:
    * 1. {decisionId} - ECLI identifier
    * 2. {proceduralLanguage} - FR or NL
    * 3. {citedProvisions} - Stringified JSON from Agent 2A
-   * 4. {fullText.markdown} - Full decision text
+   * 4. {extractedReferences} - Pre-scanned legal references (ELI, CELEX, URLs)
+   * 5. {fullText.markdown} - Full decision text
    *
-   * Dependencies are already loaded, so row.agent2a.citedProvisionsJson
-   * contains the stringified provisions from Agent 2A.
+   * Dependencies are loaded automatically, row.agent2a.citedProvisionsJson
+   * contains provisions from Agent 2A. Preprocessing adds extractedReferencesJson.
    */
   promptTemplate: (row) => {
     const prompt = ENRICH_PROVISIONS_PROMPT
       .replace("{decisionId}", row.decision_id || "")
       .replace("{proceduralLanguage}", row.language_metadata || "FR")
       .replace("{citedProvisions}", row.agent2a?.citedProvisionsJson || "[]")
+      .replace("{extractedReferences}", row.extractedReferencesJson || '{"eli":[],"celex":[],"numac":[],"eurLexUrls":[],"justelUrls":[]}')
       .replace("{fullText.markdown}", row.full_md || "");
 
     return prompt;
@@ -498,8 +473,8 @@ const config: JobConfig = {
    */
   provider: "openai",
   model: "gpt-5-mini",
-  maxCompletionTokens: 64000,        // Same as Agent 2A (metadata extraction)
-  reasoningEffort: "low",            // Metadata extraction requires less reasoning
+  maxCompletionTokens: 64000,       
+  reasoningEffort: "medium",            // Metadata extraction requires less reasoning
   verbosity: "low",                   // Concise responses preferred
 
   /**

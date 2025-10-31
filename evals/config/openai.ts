@@ -1,7 +1,7 @@
 /**
- * OpenAI GPT-5 Client Configuration
+ * Azure OpenAI GPT-4.1 Client Configuration
  *
- * Client for calling GPT-5 as LLM judge with high reasoning effort
+ * Client for calling GPT-4.1 as LLM judge (deterministic model)
  */
 
 import OpenAI from 'openai';
@@ -9,57 +9,86 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-let openaiClient: OpenAI | null = null;
+let azureJudgeClient: OpenAI | null = null;
 
 /**
- * Initialize OpenAI client for GPT-5
+ * Get Azure GPT-4.1 configuration from environment variables
  */
-export function initGPT5Client(): OpenAI {
-  if (openaiClient) {
-    return openaiClient;
+function getAzureJudgeConfig() {
+  const endpoint = process.env.AZURE_GPT4_1_OPENAI_ENDPOINT;
+  const apiKey = process.env.AZURE_GPT4_1_OPENAI_API_KEY;
+  const deployment = process.env.AZURE_GPT4_1_OPENAI_DEPLOYMENT;
+  const apiVersion = process.env.AZURE_GPT4_1_API_VERSION || '2024-12-01-preview';
+
+  if (!endpoint || !apiKey || !deployment) {
+    throw new Error(
+      'Missing required Azure OpenAI GPT-4.1 configuration. ' +
+      'Please ensure AZURE_GPT4_1_OPENAI_ENDPOINT, AZURE_GPT4_1_OPENAI_API_KEY, and AZURE_GPT4_1_OPENAI_DEPLOYMENT are set in .env'
+    );
   }
 
-  const apiKey = process.env.OPENAI_API_KEY;
-  if (!apiKey) {
-    throw new Error('OPENAI_API_KEY not found in environment variables');
-  }
-
-  const config: any = {
+  return {
+    endpoint,
     apiKey,
+    deployment,
+    apiVersion,
   };
-
-  // Add organization ID if provided
-  if (process.env.OPENAI_ORG_ID) {
-    config.organization = process.env.OPENAI_ORG_ID;
-  }
-
-  openaiClient = new OpenAI(config);
-
-  return openaiClient;
 }
 
 /**
- * Get or create OpenAI client
+ * Initialize Azure OpenAI client for GPT-4.1 judge
  */
-export function getGPT5Client(): OpenAI {
-  if (!openaiClient) {
-    return initGPT5Client();
+export function initAzureJudgeClient(): OpenAI {
+  if (azureJudgeClient) {
+    return azureJudgeClient;
   }
-  return openaiClient;
+
+  const config = getAzureJudgeConfig();
+
+  azureJudgeClient = new OpenAI({
+    apiKey: config.apiKey,
+    baseURL: `${config.endpoint}/openai/deployments/${config.deployment}`,
+    defaultQuery: { 'api-version': config.apiVersion },
+    defaultHeaders: { 'api-key': config.apiKey },
+  });
+
+  console.log(`🔷 Azure OpenAI Judge client initialized: ${config.endpoint}`);
+  console.log(`   Deployment: ${config.deployment}`);
+  console.log(`   API Version: ${config.apiVersion}`);
+
+  return azureJudgeClient;
 }
 
 /**
- * Call GPT-5 with high reasoning effort for judge evaluation
+ * Get or create Azure OpenAI judge client
+ */
+export function getAzureJudgeClient(): OpenAI {
+  if (!azureJudgeClient) {
+    return initAzureJudgeClient();
+  }
+  return azureJudgeClient;
+}
+
+/**
+ * Get the deployment name for the judge
+ */
+export function getJudgeDeployment(): string {
+  return getAzureJudgeConfig().deployment;
+}
+
+/**
+ * Call Azure OpenAI GPT-4.1 for judge evaluation
  *
  * @param prompt - The full judge prompt with inputs
  * @returns Parsed evaluation result
  */
-export async function callGPT5Judge(prompt: string): Promise<string> {
-  const client = getGPT5Client();
+export async function callAzureJudge(prompt: string): Promise<string> {
+  const client = getAzureJudgeClient();
+  const deployment = getJudgeDeployment();
 
   try {
     const response = await client.chat.completions.create({
-      model: 'gpt-4.1', // Use GPT-4.1, do NOT use GPT-5 label yet, i want to use a controlled model 
+      model: deployment, // Use Azure deployment name
       messages: [
         {
           role: 'system',
@@ -70,54 +99,56 @@ export async function callGPT5Judge(prompt: string): Promise<string> {
           content: prompt,
         },
       ],
-      // reasoning_effort: 'low',
-      // GPT-4o configuration
       max_completion_tokens: 16000,
-      temperature: 0, // Deterministic for consistency (match Claude)
+      temperature: 0, // Deterministic for consistency
       response_format: { type: 'json_object' }, // Request JSON output
     });
 
     const content = response.choices[0]?.message?.content;
 
     if (!content) {
-      throw new Error('No response content from GPT-5');
+      throw new Error('No response content from Azure GPT-4.1 judge');
     }
 
     return content;
   } catch (error: any) {
-    // Enhanced error handling for OpenAI API
+    // Enhanced error handling for Azure OpenAI API
     if (error.response) {
       throw new Error(
-        `OpenAI API error: ${error.response.status} - ${error.response.data?.error?.message || 'Unknown error'}`
+        `Azure OpenAI API error: ${error.response.status} - ${error.response.data?.error?.message || 'Unknown error'}`
       );
     }
-    throw new Error(`Failed to call GPT-5: ${error.message}`);
+    throw new Error(`Failed to call Azure GPT-4.1 judge: ${error.message}`);
   }
 }
 
 /**
- * Validate OpenAI configuration
+ * Validate Azure OpenAI GPT-4.1 judge configuration
  */
-export function validateGPT5Config(): boolean {
-  const apiKey = process.env.OPENAI_API_KEY;
+export function validateAzureJudgeConfig(): boolean {
+  try {
+    const config = getAzureJudgeConfig();
 
-  if (!apiKey) {
-    console.error('❌ OPENAI_API_KEY not found in .env');
+    if (!config.endpoint.includes('azure.com') && !config.endpoint.includes('cognitiveservices.azure.com')) {
+      console.error('❌ AZURE_GPT4_1_OPENAI_ENDPOINT appears to be invalid (should be an Azure endpoint)');
+      return false;
+    }
+
+    console.log('✅ Azure OpenAI GPT-4.1 judge configuration valid');
+    console.log(`   Endpoint: ${config.endpoint}`);
+    console.log(`   Deployment: ${config.deployment}`);
+    return true;
+  } catch (error: any) {
+    console.error(`❌ Azure OpenAI GPT-4.1 judge configuration invalid: ${error.message}`);
     return false;
   }
-
-  if (!apiKey.startsWith('sk-')) {
-    console.error('❌ OPENAI_API_KEY appears to be invalid (should start with sk-)');
-    return false;
-  }
-
-  console.log('✅ OpenAI GPT-5 configuration valid');
-  return true;
 }
 
 /**
  * Reset client (useful for testing or config changes)
  */
-export function resetGPT5Client(): void {
-  openaiClient = null;
+export function resetAzureJudgeClient(): void {
+  // Force reload environment variables
+  dotenv.config({ override: true });
+  azureJudgeClient = null;
 }

@@ -19,15 +19,15 @@ You are a specialized legal AI assistant enriching cited provisions with metadat
 
 You will receive:
 
-1. **Decision ID**: `{decisionId}`
-2. **Procedural Language**: `{proceduralLanguage}`
-3. **Cited Provisions**: `{citedProvisions}` (Output from Agent 2A)
-4. **Markdown Text**: `{fullText.markdown}`
+1. **Decision ID**: \`{decisionId}\`
+2. **Procedural Language**: \`{proceduralLanguage}\`
+3. **Cited Provisions**: \`{citedProvisions}\` (Output from Agent 2A)
+4. **Markdown Text**: \`{fullText.markdown}\`
 
 ---
 
 ## OUTPUT SCHEMA
-```json
+\`\`\`json
 {
   "citedProvisions": [
     {
@@ -52,7 +52,7 @@ You will receive:
     }
   ]
 }
-```
+\`\`\`
 
 ---
 
@@ -60,41 +60,41 @@ You will receive:
 
 ### Matching Key
 
-**`internalProvisionId`**
+**\`internalProvisionId\`**
 - **Purpose**: Match enrichment to base provisions from Agent 2A
-- **CRITICAL**: Output must have SAME `internalProvisionId` values as Agent 2A input
-- **Format**: `ART-{decisionId}-{sequence}`
-- **Example**: `ART-68b62d344617563d91457888-001`
+- **CRITICAL**: Output must have SAME \`internalProvisionId\` values as Agent 2A input
+- **Format**: \`ART-{decisionId}-{sequence}\`
+- **Example**: \`ART-68b62d344617563d91457888-001\`
 
 ---
 
 ### Provision-Level Identifiers
 
-**`provisionEli`**
+**\`provisionEli\`**
 - **Type**: String or null
 - **Format**: European Legislation Identifier for the specific provision
-- **Pattern**: `^eli/[a-z]+/[a-z0-9_-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[0-9]+/art_[0-9a-z_-]+(/[a-z]{2,3})?$`
+- **Pattern**: \`^eli/[a-z]+/[a-z0-9_-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[0-9]+/art_[0-9a-z_-]+(/[a-z]{2,3})?\$\`
 - **Examples**:
-  - Belgian law article: `"eli/be/loi/2007/05/10/2007202032/art_31"`
-  - EU regulation article: `"eli/eu/reg/2016/679/oj/art_6"`
+  - Belgian law article: \`"eli/be/loi/2007/05/10/2007202032/art_31"\`
+  - EU regulation article: \`"eli/eu/reg/2016/679/oj/art_6"\`
 - **Extract from**: Decision text, footnotes, official references
 - **Null when**: Not mentioned or cannot determine
-- **Note**: This is different from `parentActEli` - it points to the specific article, not the entire act
+- **Note**: This is different from \`parentActEli\` - it points to the specific article, not the entire act
 
-**`provisionUrlJustel`**
+**\`provisionUrlJustel\`**
 - **Type**: String (URL) or null
 - **Format**: Belgian Justel database URL pointing to specific provision
-- **Pattern**: `^https?://www\.ejustice\.just\.fgov\.be/.*$`
-- **Example**: `"http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&la=F&cn=2007051035&table_name=loi&&caller=list&fromtab=loi&tri=dd+AS+RANK#Art.31"`
+- **Pattern**: \`^https?://www\\.ejustice\\.just\\.fgov\\.be/.*\$\`
+- **Example**: \`"http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&la=F&cn=2007051035&table_name=loi&&caller=list&fromtab=loi&tri=dd+AS+RANK#Art.31"\`
 - **Extract from**: Decision footnotes, references with article anchors
 - **Null when**: Not mentioned
 - **Note**: Should include anchor to specific article if available
 
-**`provisionUrlEurlex`**
+**\`provisionUrlEurlex\`**
 - **Type**: String (URL) or null
 - **Format**: EUR-Lex URL pointing to specific provision
-- **Pattern**: `^https?://eur-lex\.europa\.eu/.*$`
-- **Example**: `"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679#d1e1888-1-1"`
+- **Pattern**: \`^https?://eur-lex\\.europa\\.eu/.*\$\`
+- **Example**: \`"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679#d1e1888-1-1"\`
 - **Extract from**: Decision references to EU law provisions
 - **Null when**: Not EU law or not mentioned
 - **Note**: Should include fragment identifier to specific article if available
@@ -103,61 +103,59 @@ You will receive:
 
 ### Parent Act Identifiers
 
-**`parentActEli`**
+**\`parentActEli\`**
 - **Type**: String or null
 - **Format**: European Legislation Identifier for the entire parent act
-- **Pattern**: `^eli/[a-z]+/[a-z0-9_-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[0-9]+(/[a-z]{2,3})?$`
+- **Pattern**: \`^eli/[a-z]+/[a-z0-9_-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[0-9]+(/[a-z]{2,3})?\$\`
 - **Examples**:
-  - Belgian law: `"eli/be/loi/2007/05/10/2007202032"`
-  - Belgian royal decree: `"eli/be/arrete_royal/2009/05/19/2009201234"`
-  - EU regulation: `"eli/eu/reg/2016/679/oj"`
-  - EU directive: `"eli/eu/dir/2000/78/oj"`
+  - Belgian law: \`"eli/be/loi/2007/05/10/2007202032"\`
+  - Belgian royal decree: \`"eli/be/arrete_royal/2009/05/19/2009201234"\`
+  - EU regulation: \`"eli/eu/reg/2016/679/oj"\`
+  - EU directive: \`"eli/eu/dir/2000/78/oj"\`
 - **Extract from**: Decision text, official act references
 - **Null when**: Not mentioned or cannot determine
 - **Note**: Points to the entire act, not a specific article
 
-**`parentActCelex`**
+**\`parentActCelex\`**
 - **Type**: String or null
 - **Format**: CELEX number (EU legislation only)
-- **Pattern**: `^[0-9]{4}[A-Z][0-9]{4}$`
+- **Length**: Exactly 10 characters
+- **Pattern**: \`^[0-9]{5}[A-Z][0-9]{4}\$\`
 - **Examples**:
-  - EU Regulation (GDPR): `"32016R0679"`
-  - EU Directive (Employment Equality): `"32000L0078"`
-  - EU Decision: `"32020D1234"`
+  - EU Regulation (GDPR): \`"32016R0679"\`
+  - EU Directive (Employment Equality): \`"32000L0078"\`
+  - EU Directive (Late Payments): \`"32000L0035"\`
+  - EU Decision: \`"32020D1234"\`
 - **Extract from**: Decision text when EU law cited
 - **Null when**: Not EU law or not mentioned
-- **Structure breakdown**:
-  - `3`: Third series (1958-present)
-  - `2016`: Year
-  - `R`: Type (R=Regulation, L=Directive, D=Decision)
-  - `0679`: Sequential number
+- **Note**: CELEX is always exactly 10 characters (5 digits + 1 letter + 4 digits)
 
-**`parentActNumber`**
+**\`parentActNumber\`**
 - **Type**: String or null
 - **Format**: Official act number or publication reference
 - **Examples**:
-  - Belgian numac: `"2007202032"`
-  - Belgian MB reference: `"M.B. 30.05.2007"`
-  - File number: `"2007/05/10-35"`
-  - Publication reference: `"numac: 2007202032"`
+  - Belgian numac: \`"2007202032"\`
+  - Belgian MB reference: \`"M.B. 30.05.2007"\`
+  - File number: \`"2007/05/10-35"\`
+  - Publication reference: \`"numac: 2007202032"\`
 - **Extract from**: Decision references to official publications
 - **Null when**: Not mentioned
 - **Note**: This is typically the "numac" number for Belgian legislation
 
-**`parentActUrlJustel`**
+**\`parentActUrlJustel\`**
 - **Type**: String (URL) or null
 - **Format**: Belgian Justel database URL for the entire parent act
-- **Pattern**: `^https?://www\.ejustice\.just\.fgov\.be/.*$`
-- **Example**: `"http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=fr&la=F&cn=2007051035"`
+- **Pattern**: \`^https?://www\\.ejustice\\.just\\.fgov\\.be/.*\$\`
+- **Example**: \`"http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=fr&la=F&cn=2007051035"\`
 - **Extract from**: Decision footnotes, references
 - **Null when**: Not mentioned
 - **Note**: Points to the entire act, not a specific article
 
-**`parentActUrlEurlex`**
+**\`parentActUrlEurlex\`**
 - **Type**: String (URL) or null
 - **Format**: EUR-Lex URL for the entire parent EU act
-- **Pattern**: `^https?://eur-lex\.europa\.eu/.*$`
-- **Example**: `"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679"`
+- **Pattern**: \`^https?://eur-lex\\.europa\\.eu/.*\$\`
+- **Example**: \`"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679"\`
 - **Extract from**: Decision references to EU law
 - **Null when**: Not EU law or not mentioned
 - **Note**: Points to the entire EU regulation/directive, not a specific article
@@ -166,7 +164,7 @@ You will receive:
 
 ### Citation Reference (Bluebook-Style Citation)
 
-**`citationReference`**
+**\`citationReference\`**
 - **Type**: String or null
 - **Length**: 20-500 characters
 - **Purpose**: Formal legal citation in Bluebook or European citation style
@@ -186,24 +184,24 @@ A citation reference is a **formal, standardized bibliographic reference** to a 
 **Common citation formats:**
 
 **Belgian legislation citations:**
-```
+\`\`\`
 "Loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination, M.B., 30 mai 2007, p. 29016"
 "Arrêté royal du 19 mai 2009, M.B., 3 juin 2009, éd. 2"
 "Décret wallon du 27 mars 2014, M.B., 23 avril 2014"
-```
+\`\`\`
 
 **EU legislation citations:**
-```
+\`\`\`
 "Directive 2000/78/CE du Conseil du 27 novembre 2000, J.O., L 303, 2 décembre 2000, p. 16-22"
 "Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016, J.O., L 119, 4 mai 2016, p. 1-88"
 "Règlement (CE) n° 883/2004, J.O., L 166, 30 avril 2004"
-```
+\`\`\`
 
 **Dutch citations:**
-```
+\`\`\`
 "Wet van 10 mei 2007 ter bestrijding van bepaalde vormen van discriminatie, B.S., 30 mei 2007"
 "Koninklijk besluit van 19 mei 2009, B.S., 3 juni 2009"
-```
+\`\`\`
 
 **Key elements to capture:**
 - Publication source abbreviation (M.B./B.S. for Belgian official gazette, J.O. for EU official journal)
@@ -215,7 +213,7 @@ A citation reference is a **formal, standardized bibliographic reference** to a 
 **Extract verbatim**: Copy the complete citation exactly as written, including punctuation and formatting.
 
 **Examples of what to extract:**
-```json
+\`\`\`json
 // French decision with footnote citation
 {
   "citationReference": "Loi du 10 mai 2007, M.B., 30 mai 2007, p. 29016"
@@ -235,13 +233,13 @@ A citation reference is a **formal, standardized bibliographic reference** to a 
 {
   "citationReference": null
 }
-```
+\`\`\`
 
 **What NOT to extract as citation reference:**
 - ❌ Simple mentions like "l'article 31 de la loi de 2007" (not a formal citation)
 - ❌ Narrative references like "la loi précitée" (not a complete citation)
 - ❌ URLs or ELI identifiers (these go in separate fields)
-- ❌ CELEX numbers alone (this goes in `parentActCelex` field)
+- ❌ CELEX numbers alone (this goes in \`parentActCelex\` field)
 
 **Where to find citation references:**
 - Footnotes (most common location)
@@ -257,13 +255,13 @@ A citation reference is a **formal, standardized bibliographic reference** to a 
 
 **CRITICAL DISTINCTION:**
 
-**Provision-level fields** (`provisionEli`, `provisionUrlJustel`, `provisionUrlEurlex`):
+**Provision-level fields** (\`provisionEli\`, \`provisionUrlJustel\`, \`provisionUrlEurlex\`):
 - Point to the SPECIFIC ARTICLE/PROVISION
 - Example: Article 31 of the 2007 law
 - Include article number in identifier/URL
 - More precise, less commonly available
 
-**Parent act-level fields** (`parentActEli`, `parentActCelex`, `parentActNumber`, `parentActUrlJustel`, `parentActUrlEurlex`, `citationReference`):
+**Parent act-level fields** (\`parentActEli\`, \`parentActCelex\`, \`parentActNumber\`, \`parentActUrlJustel\`, \`parentActUrlEurlex\`, \`citationReference\`):
 - Point to or reference the ENTIRE ACT
 - Example: The entire 2007 anti-discrimination law
 - Do NOT include article number (except in descriptive text)
@@ -273,42 +271,38 @@ A citation reference is a **formal, standardized bibliographic reference** to a 
 
 **Belgian legislation ELI:**
 - Often in footnotes or official references
-- Format: `eli/be/{type}/{year}/{month}/{day}/{number}`
-- Types: `loi` (law), `arrete_royal` (royal decree), `ordonnance`, `decret`
-- **For provision**: Add `/art_{article_number}` at end
+- Format: \`eli/be/{type}/{year}/{month}/{day}/{number}\`
+- Types: \`loi\` (law), \`arrete_royal\` (royal decree), \`ordonnance\`, \`decret\`
+- **For provision**: Add \`/art_{article_number}\` at end
 - **For parent act**: Stop at the number
 
 **Examples:**
-```
+\`\`\`
 Parent act ELI: eli/be/loi/2007/05/10/2007202032
 Provision ELI:  eli/be/loi/2007/05/10/2007202032/art_31
-```
+\`\`\`
 
 **EU legislation ELI:**
-- Format: `eli/eu/{type}/{year}/{number}/oj`
-- Types: `reg` (regulation), `dir` (directive)
-- **For provision**: Add `/art_{article_number}` at end (if supported)
-- **For parent act**: Stop at `/oj`
+- Format: \`eli/eu/{type}/{year}/{number}/oj\`
+- Types: \`reg\` (regulation), \`dir\` (directive)
+- **For provision**: Add \`/art_{article_number}\` at end (if supported)
+- **For parent act**: Stop at \`/oj\`
 
 **Examples:**
-```
+\`\`\`
 Parent act ELI: eli/eu/reg/2016/679/oj
 Provision ELI:  eli/eu/reg/2016/679/oj/art_6
-```
+\`\`\`
 
 **If ELI not explicitly mentioned:**
-- Set to `null`
+- Set to \`null\`
 - Do NOT construct or guess ELI
 
 ### Finding CELEX
 
 **Only for EU law** - applies to parent act only:
-- Usually in format: "Règlement (UE) n° 2016/679" → CELEX: `32016R0679`
-- Pattern breakdown:
-  - `3`: Third series (1958-present)
-  - `2016`: Year
-  - `R`: Regulation (or `L` for directive, `D` for decision)
-  - `0679`: Sequential number
+- CELEX is exactly 10 characters long
+- Common examples: \`32016R0679\`, \`32000L0078\`, \`32000L0035\`
 
 **Common patterns in decisions:**
 - "CELEX: 32016R0679"
@@ -316,54 +310,54 @@ Provision ELI:  eli/eu/reg/2016/679/oj/art_6
 - "(CELEX n° 32016R0679)"
 
 **If CELEX not explicitly mentioned:**
-- Set to `null`
+- Set to \`null\`
 - Do NOT construct or guess CELEX
 
 ### Finding Justel URLs
 
 **Common patterns in Belgian decisions:**
-- Footnotes with `ejustice.just.fgov.be` links
+- Footnotes with \`ejustice.just.fgov.be\` links
 - Official publication references with URLs
 - Sometimes abbreviated as "Justel: [URL]"
 
 **Provision URL vs Parent Act URL:**
-- **Provision URL**: Has anchor to specific article (e.g., `#Art.31`)
+- **Provision URL**: Has anchor to specific article (e.g., \`#Art.31\`)
 - **Parent Act URL**: Points to entire act (no article anchor)
 
 **Examples:**
-```
-Parent act URL: 
+\`\`\`
+Parent act URL:
 http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=fr&la=F&cn=2007051035
 
 Provision URL:
 http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&la=F&cn=2007051035&table_name=loi&&caller=list&fromtab=loi&tri=dd+AS+RANK#Art.31
-```
+\`\`\`
 
 **If URL not provided:**
-- Set to `null`
+- Set to \`null\`
 - Do NOT construct URLs
 
 ### Finding EUR-Lex URLs
 
 **Only for EU legislation:**
-- Pattern: `https://eur-lex.europa.eu/legal-content/{LANG}/TXT/?uri=CELEX:{celex_number}`
+- Pattern: \`https://eur-lex.europa.eu/legal-content/{LANG}/TXT/?uri=CELEX:{celex_number}\`
 - Language codes: FR, NL, EN, etc.
 
 **Provision URL vs Parent Act URL:**
-- **Provision URL**: Has fragment identifier to specific article (e.g., `#d1e1888-1-1`)
+- **Provision URL**: Has fragment identifier to specific article (e.g., \`#d1e1888-1-1\`)
 - **Parent Act URL**: Points to entire document (no fragment)
 
 **Examples:**
-```
+\`\`\`
 Parent act URL:
 https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679
 
 Provision URL:
 https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679#d1e1888-1-1
-```
+\`\`\`
 
 **If URL not provided:**
-- Set to `null`
+- Set to \`null\`
 - Do NOT construct URLs
 
 ### Finding Parent Act Number
@@ -401,262 +395,20 @@ https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679#d1e1888-1-1
 **Recognition patterns:**
 
 **French:**
-```
+\`\`\`
 "Loi du [date], M.B., [date], p. [page]"
 "Arrêté royal du [date], M.B., [date]"
 "Directive [number]/[year]/CE, J.O., L [number], [date], p. [pages]"
-```
+\`\`\`
 
 **Dutch:**
-```
+\`\`\`
 "Wet van [datum], B.S., [datum], blz. [pagina]"
 "Koninklijk besluit van [datum], B.S., [datum]"
 "Richtlijn [nummer]/[jaar]/EG, P.B., L [nummer], [datum], blz. [pagina's]"
-```
+\`\`\`
 
 **Extract verbatim** - do not modify or standardize the citation format.
-
----
-
-## EXAMPLES
-
-### Example 1: Belgian Law with Full Metadata and Formal Citation
-
-**Agent 2A output (input to Agent 2B):**
-```json
-{
-  "citedProvisions": [
-    {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-68b62d344617563d91457888-001",
-      "internalParentActId": "ACT-68b62d344617563d91457888-001",
-      "provisionNumber": "article 31, § 2",
-      "provisionNumberKey": "31",
-      "parentActType": "LOI",
-      "parentActName": "Loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination",
-      "parentActDate": "2007-05-10",
-      "parentActNumber": null
-    }
-  ]
-}
-```
-
-**Decision text excerpt:**
-```
-L'article 31, § 2, de la loi du 10 mai 2007¹ dispose que...
-
-¹ Loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination, 
-  M.B., 30 mai 2007, p. 29016, numac: 2007202032,
-  ELI: eli/be/loi/2007/05/10/2007202032
-  Justel: http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=fr&la=F&cn=2007051035
-  Article 31: http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&la=F&cn=2007051035#Art.31
-```
-
-**Agent 2B output:**
-```json
-{
-  "citedProvisions": [
-    {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-68b62d344617563d91457888-001",
-      "internalParentActId": "ACT-68b62d344617563d91457888-001",
-      "provisionNumber": "article 31, § 2",
-      "provisionNumberKey": "31",
-      "parentActType": "LOI",
-      "parentActName": "Loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination",
-      "parentActDate": "2007-05-10",
-      "parentActNumber": "2007202032",
-      "provisionEli": "eli/be/loi/2007/05/10/2007202032/art_31",
-      "parentActEli": "eli/be/loi/2007/05/10/2007202032",
-      "parentActCelex": null,
-      "provisionUrlJustel": "http://www.ejustice.just.fgov.be/cgi_loi/loi_a.pl?language=fr&la=F&cn=2007051035#Art.31",
-      "parentActUrlJustel": "http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=fr&la=F&cn=2007051035",
-      "provisionUrlEurlex": null,
-      "parentActUrlEurlex": null,
-      "citationReference": "Loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination, M.B., 30 mai 2007, p. 29016"
-    }
-  ]
-}
-```
-
-### Example 2: EU Directive with Formal Citation
-
-**Agent 2A output:**
-```json
-{
-  "citedProvisions": [
-    {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-72822d344617563d66589156-003",
-      "internalParentActId": "ACT-72822d344617563d66589156-002",
-      "provisionNumber": "article 2, § 1",
-      "provisionNumberKey": "2",
-      "parentActType": "DIRECTIVE_UE",
-      "parentActName": "Directive 2000/78/CE du Conseil du 27 novembre 2000 portant création d'un cadre général en faveur de l'égalité de traitement en matière d'emploi et de travail",
-      "parentActDate": "2000-11-27",
-      "parentActNumber": null
-    }
-  ]
-}
-```
-
-**Decision text:**
-```
-La directive 2000/78/CE du Conseil du 27 novembre 2000 portant création d'un cadre général en faveur de l'égalité de traitement en matière d'emploi et de travail²...
-
-² Directive 2000/78/CE du Conseil du 27 novembre 2000 portant création d'un cadre 
-  général en faveur de l'égalité de traitement en matière d'emploi et de travail,
-  J.O., L 303, 2 décembre 2000, p. 16-22, CELEX: 32000L0078
-  EUR-Lex: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32000L0078
-```
-
-**Agent 2B output:**
-```json
-{
-  "citedProvisions": [
-    {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-72822d344617563d66589156-003",
-      "internalParentActId": "ACT-72822d344617563d66589156-002",
-      "provisionNumber": "article 2, § 1",
-      "provisionNumberKey": "2",
-      "parentActType": "DIRECTIVE_UE",
-      "parentActName": "Directive 2000/78/CE du Conseil du 27 novembre 2000 portant création d'un cadre général en faveur de l'égalité de traitement en matière d'emploi et de travail",
-      "parentActDate": "2000-11-27",
-      "parentActNumber": null,
-      "provisionEli": "eli/eu/dir/2000/78/oj/art_2",
-      "parentActEli": "eli/eu/dir/2000/78/oj",
-      "parentActCelex": "32000L0078",
-      "provisionUrlJustel": null,
-      "parentActUrlJustel": null,
-      "provisionUrlEurlex": null,
-      "parentActUrlEurlex": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32000L0078",
-      "citationReference": "Directive 2000/78/CE du Conseil du 27 novembre 2000 portant création d'un cadre général en faveur de l'égalité de traitement en matière d'emploi et de travail, J.O., L 303, 2 décembre 2000, p. 16-22"
-    }
-  ]
-}
-```
-
-### Example 3: Dutch Decision with Citation
-
-**Agent 2A output:**
-```json
-{
-  "citedProvisions": [
-    {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-47g22d344617564f91327878-002",
-      "internalParentActId": "ACT-47g22d344617564f91327878-001",
-      "provisionNumber": "artikel 31, § 2",
-      "provisionNumberKey": "31",
-      "parentActType": "WET",
-      "parentActName": "Wet van 10 mei 2007 ter bestrijding van bepaalde vormen van discriminatie",
-      "parentActDate": "2007-05-10",
-      "parentActNumber": null
-    }
-  ]
-}
-```
-
-**Decision text:**
-```
-Artikel 31, § 2, van de wet van 10 mei 2007¹...
-
-¹ Wet van 10 mei 2007 ter bestrijding van bepaalde vormen van discriminatie,
-  B.S., 30 mei 2007, blz. 29016
-  ELI: eli/be/loi/2007/05/10/2007202032
-```
-
-**Agent 2B output:**
-```json
-{
-  "citedProvisions": [
-    {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-47g22d344617564f91327878-002",
-      "internalParentActId": "ACT-47g22d344617564f91327878-001",
-      "provisionNumber": "artikel 31, § 2",
-      "provisionNumberKey": "31",
-      "parentActType": "WET",
-      "parentActName": "Wet van 10 mei 2007 ter bestrijding van bepaalde vormen van discriminatie",
-      "parentActDate": "2007-05-10",
-      "parentActNumber": null,
-      "provisionEli": "eli/be/loi/2007/05/10/2007202032/art_31",
-      "parentActEli": "eli/be/loi/2007/05/10/2007202032",
-      "parentActCelex": null,
-      "provisionUrlJustel": null,
-      "parentActUrlJustel": null,
-      "provisionUrlEurlex": null,
-      "parentActUrlEurlex": null,
-      "citationReference": "Wet van 10 mei 2007 ter bestrijding van bepaalde vormen van discriminatie, B.S., 30 mei 2007, blz. 29016"
-    }
-  ]
-}
-```
-
-### Example 4: Belgian Code Without Formal Citation
-
-**Agent 2A output:**
-```json
-{
-  "citedProvisions": [
-    {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-68b62d344617563f91327878-005",
-      "internalParentActId": "ACT-68b62d344617563f91327878-004",
-      "provisionNumber": "article 1382",
-      "provisionNumberKey": "1382",
-      "parentActType": "CODE",
-      "parentActName": "Code civil",
-      "parentActDate": null,
-      "parentActNumber": null
-    }
-  ]
-}
-```
-
-**Decision text:**
-```
-Selon l'article 1382 du Code civil, tout fait quelconque de l'homme qui cause 
-à autrui un dommage oblige celui par la faute duquel il est arrivé à le réparer.
-```
-
-**Agent 2B output:**
-```json
-{
-  "citedProvisions": [
-    {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-68b62d344617563f91327878-005",
-      "internalParentActId": "ACT-68b62d344617563f91327878-004",
-      "provisionNumber": "article 1382",
-      "provisionNumberKey": "1382",
-      "parentActType": "CODE",
-      "parentActName": "Code civil",
-      "parentActDate": null,
-      "parentActNumber": null,
-      "provisionEli": null,
-      "parentActEli": null,
-      "parentActCelex": null,
-      "provisionUrlJustel": null,
-      "parentActUrlJustel": null,
-      "provisionUrlEurlex": null,
-      "parentActUrlEurlex": null,
-      "citationReference": null
-    }
-  ]
-}
-```
-
-**Rationale**: No formal citation, identifiers, or URLs provided in decision - simple narrative mention only. All metadata fields are null.
 
 ---
 
@@ -666,26 +418,26 @@ Before outputting, verify:
 
 **Matching:**
 - [ ] Output has SAME number of provisions as Agent 2A input
-- [ ] Every `internalProvisionId` in output matches an input provision
+- [ ] Every \`internalProvisionId\` in output matches an input provision
 - [ ] No provisions added or removed
 
 **Format:**
-- [ ] `provisionEli` matches ELI pattern or is null
-- [ ] `parentActEli` matches ELI pattern or is null
-- [ ] `parentActCelex` matches CELEX pattern (8 characters: 4 digits + letter + 4 digits) or is null
-- [ ] `provisionUrlJustel` is valid Justel URL or is null
-- [ ] `parentActUrlJustel` is valid Justel URL or is null
-- [ ] `provisionUrlEurlex` is valid EUR-Lex URL or is null
-- [ ] `parentActUrlEurlex` is valid EUR-Lex URL or is null
+- [ ] \`provisionEli\` matches ELI pattern or is null
+- [ ] \`parentActEli\` matches ELI pattern or is null
+- [ ] \`parentActCelex\` matches CELEX pattern (10 characters: 5 digits + letter + 4 digits) or is null
+- [ ] \`provisionUrlJustel\` is valid Justel URL or is null
+- [ ] \`parentActUrlJustel\` is valid Justel URL or is null
+- [ ] \`provisionUrlEurlex\` is valid EUR-Lex URL or is null
+- [ ] \`parentActUrlEurlex\` is valid EUR-Lex URL or is null
 
 **Logical Consistency:**
-- [ ] If `parentActCelex` populated, then it's EU law (no CELEX for Belgian law)
-- [ ] If `provisionUrlEurlex` or `parentActUrlEurlex` populated, then it's EU law
-- [ ] If `provisionUrlJustel` or `parentActUrlJustel` populated, then it's Belgian law
+- [ ] If \`parentActCelex\` populated, then it's EU law (no CELEX for Belgian law)
+- [ ] If \`provisionUrlEurlex\` or \`parentActUrlEurlex\` populated, then it's EU law
+- [ ] If \`provisionUrlJustel\` or \`parentActUrlJustel\` populated, then it's Belgian law
 - [ ] Provision-level identifiers are more specific than parent act identifiers
 
 **Citation Reference:**
-- [ ] `citationReference` is formal Bluebook-style citation or null
+- [ ] \`citationReference\` is formal Bluebook-style citation or null
 - [ ] Citation extracted verbatim from decision text
 - [ ] Citation includes publication source (M.B./B.S./J.O.)
 - [ ] Citation is for entire act (not specific to article)
@@ -694,7 +446,7 @@ Before outputting, verify:
 **Quality:**
 - [ ] Only populate fields with data explicitly found in decision
 - [ ] Do NOT construct or guess identifiers, URLs, or citations
-- [ ] When uncertain, use `null`
+- [ ] When uncertain, use \`null\`
 - [ ] Distinguish between provision-level and parent-level correctly
 
 ---

@@ -1,16 +1,16 @@
 /**
- * GPT-5 Judge Scorer - 3-Tier Severity System
+ * Azure GPT-4.1 Judge Scorer - 3-Tier Severity System
  *
- * Evaluates extraction quality using GPT-5 as an LLM judge
+ * Evaluates extraction quality using Azure GPT-4.1 as an LLM judge
  * with production-readiness focus
  */
 
 import { formatJudgePrompt } from '../utils/prompt-loader.js';
-import { callGPT5Judge } from '../config/openai.js';
+import { callAzureJudge } from '../config/openai.js';
 import { EvaluationResult, Verdict, Recommendation, Confidence } from '../types.js';
 
 /**
- * Score a single extraction using GPT-5 judge
+ * Score a single extraction using Azure GPT-4.1 judge
  *
  * @param decisionId - ECLI identifier
  * @param originalDocument - Source markdown text
@@ -32,8 +32,8 @@ export async function scoreExtraction(
     extractedJSON
   );
 
-  // Call GPT-5 for evaluation
-  const responseText = await callGPT5Judge(prompt);
+  // Call Azure GPT-4.1 for evaluation
+  const responseText = await callAzureJudge(prompt);
 
   // Parse and validate response
   const evaluation = parseJudgeResponse(responseText);
@@ -45,11 +45,11 @@ export async function scoreExtraction(
 }
 
 /**
- * Parse GPT-5 response into structured evaluation result
+ * Parse Azure GPT-4.1 response into structured evaluation result
  *
  * Extracts JSON from markdown code blocks or plain JSON
  *
- * @param responseText - Response from GPT-5
+ * @param responseText - Response from Azure GPT-4.1
  * @returns Parsed evaluation result
  */
 export function parseJudgeResponse(responseText: string): EvaluationResult {
@@ -87,7 +87,7 @@ export function parseJudgeResponse(responseText: string): EvaluationResult {
   } catch (error: any) {
     if (error instanceof SyntaxError) {
       throw new Error(
-        `Failed to parse GPT-5 judge response as JSON: ${error.message}\n` +
+        `Failed to parse Azure GPT-4.1 judge response as JSON: ${error.message}\n` +
           `Response preview: ${responseText.substring(0, 500)}...`
       );
     }
