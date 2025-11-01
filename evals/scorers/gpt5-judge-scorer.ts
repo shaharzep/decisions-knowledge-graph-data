@@ -16,20 +16,27 @@ import { EvaluationResult, Verdict, Recommendation, Confidence } from '../types.
  * @param originalDocument - Source markdown text
  * @param extractedJSON - Extracted data object
  * @param judgePromptTemplate - The loaded judge prompt markdown content
+ * @param jobType - Optional job type for context
  * @returns Structured evaluation result
  */
 export async function scoreExtraction(
   decisionId: string,
   originalDocument: string,
   extractedJSON: any,
-  judgePromptTemplate: string
+  judgePromptTemplate: string,
+  jobType?: string
 ): Promise<EvaluationResult> {
+  // Extract extractedReferences for Agent 2B evaluation (enrich-provisions)
+  const extractedReferences = extractedJSON.extractedReferences || undefined;
+
   // Format the judge prompt with inputs
   const prompt = formatJudgePrompt(
     judgePromptTemplate,
     decisionId,
     originalDocument,
-    extractedJSON
+    extractedJSON,
+    jobType,
+    extractedReferences
   );
 
   // Call Azure GPT-4.1 for evaluation

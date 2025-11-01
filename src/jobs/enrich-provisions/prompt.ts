@@ -45,43 +45,62 @@ You will receive:
 
 ## PRE-EXTRACTED REFERENCES
 
-The following legal references have been automatically extracted from the decision text using comprehensive regex patterns. **Use these as your primary source** for URLs, CELEX, ELI, and NUMAC identifiers:
+The following legal references have been automatically extracted using production-tested regex patterns:
 
 \`\`\`json
 {extractedReferences}
 \`\`\`
 
-**Structure:**
-- **eli**: Array of European Legislation Identifiers found in text
-- **celex**: Array of CELEX numbers (EU law identifiers)
-- **numac**: Array of NUMAC identifiers (Belgian legal text identifiers)
-- **eurLexUrls**: Array of EUR-Lex URLs found in text
-- **justelUrls**: Array of Justel (e-Justice) URLs found in text
+**Structure (9 reference types):**
+- **eli**: European Legislation Identifiers (Belgian: eli/be/loi/..., EU: eli/reg/.../oj)
+- **celex**: CELEX numbers (9-11 chars: 32016R0679, 62019CJ0311, 52020DC0066)
+- **numac**: Belgian NUMAC identifiers (10 chars: 2023045678, 2020015234)
+- **fileNumber**: Dossier numbers (YYYY-MM-DD/NN format: 2023-01-15/12)
+- **dataEuropa**: data.europa.eu URLs
+- **eurLexUrls**: eur-lex.europa.eu URLs
+- **justelUrls**: ejustice.just.fgov.be URLs
+- **etaamb**: etaamb.openjustice.be URLs
+- **bibliographicRefs**: Article/Artikel citations with legal containers
+
+**CELEX Format (9-11 characters):**
+
+Real examples from Belgian decisions:
+- \`32016R0679\` (Regulation, sector 3, type R, 10 chars)
+- \`62019CJ0311\` (CJEU Judgment, sector 6, type CJ, 11 chars)
+- \`32019L1024\` (Directive, sector 3, type L, 10 chars)
+- \`52020DC0066\` (Commission Communication, sector 5, type DC, 11 chars)
+- \`32003R0001\` (Regulation with leading zeros, 10 chars)
+
+Format: Sector(1) + Year(4) + Type(1-2) + Sequential(3-6) + Optional Corrigendum R(XX)
+- Sector 3 types: R, L, D, etc. (1 letter)
+- Sector 5 types: PC, DC, AG, etc. (often 2 letters)
+- Sector 6 types: CJ, TJ, CO, etc. (2 letters)
 
 **Usage instructions:**
 
-1. **CELEX Numbers**: Prioritize CELEX extracted from EUR-Lex URLs (most reliable). These have been validated and normalized.
+1. **CELEX**: Extracted from labeled text ("CELEX: 32016R0679") and EUR-Lex URLs. Pre-validated with sector-specific type checking.
 
-2. **ELI Identifiers**: Use extracted ELI when available. Match to appropriate provision or parent act based on context.
+2. **ELI**: Supports Belgian format (eli/be/loi/YYYY/MM/DD/ID) and EU format (eli/reg/YYYY/N/oj). Validated for date correctness.
 
-3. **NUMAC**: Use for \`parentActNumber\` field when NUMAC is found in extracted references.
+3. **NUMAC**: Belgian 10-character identifiers. Year (4) + category (1: digit or A-E) + sequence (5). Use for \`parentActNumber\`.
 
-4. **Justel URLs**: Match to Belgian parent acts by comparing act name, date, or NUMAC. Determine if URL points to specific article (provision-level) or entire act (parent act-level) by checking for article anchors (#Art.X).
+4. **File Numbers**: Dossier Numéro in canonical format. Extracted from labeled "Dossier Numéro" mentions and bare patterns.
 
-5. **EUR-Lex URLs**: Match to EU provisions/acts by comparing directive/regulation number in URL. Check for fragment identifiers to distinguish provision-level vs parent act-level URLs.
+5. **URLs**: Domain-specific categorization. Check for article anchors (#Art.X) to distinguish provision-level vs parent act-level.
+
+6. **Bibliographic Refs**: High-precision article citations with legal container context (loi/wet/code/C.civ./WIB/Règlement).
 
 **Matching strategy:**
-1. For each provision from Agent 2A, search extracted references for matching identifiers/URLs
-2. Match based on: act name, date, directive/regulation number, or NUMAC
-3. If multiple URLs found, choose most specific (provision-level > parent act-level)
-4. If no match in extracted references, search full markdown text as fallback
-5. Set field to \`null\` if not found (do NOT construct or guess)
+1. For each provision from Agent 2A, search extracted references
+2. Match by: act name, date, NUMAC, directive/regulation number
+3. Prefer most specific (provision-level > parent act-level)
+4. Use \`null\` if not found (do NOT construct)
 
 **Benefits:**
-- Pre-validated and normalized identifiers
-- Faster lookup (no need to scan 30K+ chars)
-- Reduced hallucination risk
-- Higher extraction accuracy
+- Production-tested patterns with OCR error tolerance
+- Sector-specific CELEX validation
+- Date validation for ELI and file numbers
+- Pre-normalized and deduplicated
 
 ---
 
@@ -416,6 +435,42 @@ Extract: parentActCelex: null (not "32016R0679" - CELEX not explicitly mentioned
 - Set to \`null\`
 - Do NOT construct or guess CELEX from directive/regulation numbers
 
+**CELEX Sector-Specific Type Codes:**
+
+CELEX numbers follow the structure: **Sector (1 digit) + Year (4 digits) + Type (1-2 letters) + Sequential (4-6 digits)**
+
+**Sector 3 - Legal Acts (1-letter type codes):**
+- **R** = Regulation (e.g., 32016R0679 - GDPR)
+- **L** = Directive (e.g., 32019L1024 - Open Data Directive)
+- **D** = Decision (e.g., 32001D0497)
+- Other: A, B, C, E, F, G, H, J, K, M, O, Q, S, X, Y
+
+**Sector 5 - Preparatory Documents (often 2-letter type codes):**
+- **DC** = Commission Document (e.g., 52020DC0066)
+- **PC** = Commission Proposal (e.g., 52021PC0206)
+- **SC** = Commission Staff Working Document (e.g., 52012SC0345)
+- **AG** = Council/Member States preparatory doc
+- Other: KG, IG, XG, JC, EC, FC, GC, M, AT, AS, XC, AP, BP, IP, DP, XP, AA, TA, SA, XA, AB, HB, XB, AE, IE, AC, XE, AR, IR, XR, AK, XK, XX
+
+**Sector 6 - Case Law (2-letter type codes):**
+- **CJ** = Court of Justice judgment (e.g., 62019CJ0311 - Schrems II)
+- **TJ** = General Court judgment
+- **CO** = Court of Justice order
+- **CC** = Court of Justice pending case (e.g., 62022CC0307)
+- Other: CS, CT, CV, CX, CD, CP, CN, CA, CB, CU, CG, TO, TC, TT
+
+**Optional Corrigendum Suffix:**
+- Format: **R(XX)** where XX is a 2-digit number
+- Example: 32016R0679R(01) indicates first corrigendum to GDPR
+
+**Real examples from Belgian decisions:**
+- 32016R0679 (GDPR Regulation, sector 3, 10 chars)
+- 62019CJ0311 (CJEU Judgment Schrems II, sector 6, 11 chars)
+- 32019L1024 (Open Data Directive, sector 3, 10 chars)
+- 52020DC0066 (Commission Communication, sector 5, 11 chars)
+- 32003R0001 (Competition Regulation, sector 3, 10 chars with leading zeros)
+- 62022CC0307 (Pending case, sector 6, 11 chars)
+
 ### Finding Justel URLs
 
 **Common patterns in Belgian decisions:**
@@ -465,21 +520,68 @@ https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679#d1e1888-1-1
 
 ### Finding Parent Act Number
 
-**Look for:**
-- **numac**: Belgian unique identifier (most common)
-- **M.B./B.S.**: Moniteur Belge/Belgisch Staatsblad (official gazette) publication reference
-- **File numbers**: Official administrative references
+**NUMAC Format (Belgian Unique Identifier):**
 
-**Common patterns:**
-- "numac: 2007202032"
-- "M.B. 30.05.2007"
-- "B.S. 30.05.2007"
-- "2007/05/10-35"
-- "numac 2007202032"
+NUMAC identifiers are **ALWAYS exactly 10 characters**:
+- **Positions 1-4:** Year (1789-2025)
+- **Position 5:** Usually digit, **rarely A/B/C/D/E** (special cases)
+- **Positions 6-10:** Digits
 
-**Extract verbatim** - copy exactly as written
+**Character constraints by position:**
+- **Char #1:** 1 or 2 (year century)
+- **Char #2:** 7, 8, 9, or 0 (year decade)
+- **Char #3-4:** Any digit (year)
+- **Char #5:** Digit (0-9) OR letter (A/B/C/D/E)
+- **Char #6-10:** Digits only
+
+**Real NUMAC examples:**
+- \`2017031916\` - Standard format (10 digits)
+- \`1870B30450\` - Rare format with letter B at position 5
+- \`2006202382\` - NUMAC for specific act
+- \`1999062050\` - Often represents date YYYYMMDD + 2 digits
+
+**Common patterns in text:**
+- "numac: 2017031916"
+- "numac 2006202382"
+- "numac_search=2021031575"
+- "numac=2017120311"
+
+**File Reference (Dossier Numéro):**
+
+File references follow the format: **YYYY-MM-DD/NN**
+- Date component: Full date (validated)
+- Counter component: 1-3 digits
+
+**Real file reference examples:**
+- \`2012-05-15/16\`
+- \`2012-04-22/26\`
+- \`2012-01-09/06\`
+
+**Common patterns in text:**
+- "Dossier Numéro: 2012-05-15/16"
+- "Dossier Numéro 2012-04-22/26"
+- "Dossier n° 2012-01-09/06"
+
+**Publication References:**
+
+Official gazette publication references:
+- **M.B.** (Moniteur Belge - French): "M.B. 30.05.2007"
+- **B.S.** (Belgisch Staatsblad - Dutch): "B.S. 30.05.2007"
+
+**Extraction priority for \`parentActNumber\` field:**
+1. NUMAC (if found) - most specific
+2. File reference (if found and no NUMAC)
+3. Publication reference (if found and no NUMAC/file ref)
+
+**Extract verbatim** - copy exactly as written, maintaining format
 
 ### Finding Citation Reference (Bluebook-Style)
+
+**Belgian Citation Standard:**
+
+Belgium follows specific bibliographic citation standards similar to Bluebook style used in common law countries. These standardized references are distinct from narrative mentions of laws.
+
+**Reference:** Belgian legal citation guide - https://orbi.uliege.be/bitstream/2268/228047/1/Guide_Style_Zotero_20180924.pdf
 
 **Where to look:**
 1. **Footnotes** (most common) - numbered references at bottom of pages
@@ -489,11 +591,35 @@ https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679#d1e1888-1-1
 
 **What to capture:**
 - Complete formal citation including:
-  - Act name/description
-  - Publication source (M.B., B.S., J.O.)
+  - Act type and date: "Loi du 30 juillet 2018"
+  - Short title: "relative à la protection..."
+  - Publication source: "M.B." (Moniteur Belge) or "B.S." (Belgisch Staatsblad) or "J.O." (Journal Officiel)
   - Publication date
-  - Page numbers (if provided)
-  - Volume/issue numbers (for EU publications)
+  - Page numbers (if provided): "p. 68616" or "blz. 29016"
+  - Volume/issue numbers (for EU publications): "L 119"
+
+**Real Belgian citation examples:**
+
+**French format:**
+\`\`\`
+"Loi du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel, M.B., 5 septembre 2018, p. 68616"
+
+"Arrêté royal du 23 mars 2019 portant exécution de la loi du 18 septembre 2017, M.B., 29 mars 2019, p. 31675"
+\`\`\`
+
+**Dutch format:**
+\`\`\`
+"Wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens, B.S., 5 september 2018, blz. 68616"
+
+"Koninklijk besluit van 23 maart 2019 tot uitvoering van de wet van 18 september 2017, B.S., 29 maart 2019, blz. 31675"
+\`\`\`
+
+**EU legislation format:**
+\`\`\`
+"Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data (GDPR), OJ L 119, 4.5.2016, p. 1-88"
+
+"Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information, OJ L 172, 26.6.2019, p. 56-83"
+\`\`\`
 
 **Recognition patterns:**
 
@@ -511,7 +637,18 @@ https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679#d1e1888-1-1
 "Richtlijn [nummer]/[jaar]/EG, P.B., L [nummer], [datum], blz. [pagina's]"
 \`\`\`
 
-**Extract verbatim** - do not modify or standardize the citation format.
+**What TO extract (standardized formal citations):**
+✅ Full formal citations in footnotes with publication details
+✅ Complete bibliographic references with M.B./B.S./J.O. publication
+✅ EU official citations with OJ volume and page numbers
+
+**What NOT to extract (narrative mentions):**
+❌ Simple mentions: "l'article 31 de la loi de 2007" (incomplete)
+❌ Narrative references: "la loi précitée" (not a citation)
+❌ URLs or ELI identifiers (these go in separate fields)
+❌ CELEX numbers alone (goes in \`parentActCelex\` field)
+
+**Extract verbatim** - do not modify or standardize the citation format. Copy exactly as written in the decision.
 
 ---
 
@@ -527,8 +664,9 @@ Before outputting, verify:
 **Format:**
 - [ ] \`provisionEli\` matches ELI pattern or is null
 - [ ] \`parentActEli\` matches ELI pattern or is null
-- [ ] \`parentActCelex\` matches pattern \`^[1-9]\\d{3}[A-Z]{1,2}\\d{3,4}\$\` (8-10 chars) or is null
+- [ ] \`parentActCelex\` matches pattern \`^[356]\\d{4}[A-Z]{1,2}\\d{4,6}(?:R\\(\\d{2}\\))?\$\` (9-13 chars, sectors 3/5/6) or is null
 - [ ] If \`parentActUrlEurlex\` contains CELEX, that same CELEX is in \`parentActCelex\`
+- [ ] \`parentActNumber\` is NUMAC (10 chars), file reference (YYYY-MM-DD/NN), or publication ref, or is null
 - [ ] \`provisionUrlJustel\` is valid Justel URL or is null
 - [ ] \`parentActUrlJustel\` is valid Justel URL or is null
 - [ ] \`provisionUrlEurlex\` is valid EUR-Lex URL or is null

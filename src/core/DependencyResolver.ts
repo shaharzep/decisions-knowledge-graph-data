@@ -18,6 +18,7 @@ interface PreparedDependency {
   alias: string;
   required: boolean;
   baseDir: string;
+  timestamp?: string;
   matchOn: PreparedMatchField[];
   cache?: Map<string, any>;
   unavailable?: boolean;
@@ -133,6 +134,7 @@ export class DependencyResolver {
         SOURCE_TO_DIR[dependency.source ?? 'batch'] ??
         dependency.source ??
         'results',
+      timestamp: dependency.timestamp,
       matchOn: normalizeMatchFields(dependency.matchOn),
     }));
   }
@@ -143,7 +145,8 @@ export class DependencyResolver {
         try {
           const records = await JobResultLoader.loadAllResults(
             prepared.config.jobId,
-            prepared.baseDir
+            prepared.baseDir,
+            prepared.timestamp
           );
 
           const map = new Map<string, any>();

@@ -26,13 +26,17 @@ export async function scoreExtraction(
   judgePromptTemplate: string,
   jobType?: string
 ): Promise<EvaluationResult> {
+  // Extract extractedReferences for Agent 2B evaluation (enrich-provisions)
+  const extractedReferences = extractedJSON.extractedReferences || undefined;
+
   // Format the judge prompt with inputs
   const prompt = formatJudgePrompt(
     judgePromptTemplate,
     decisionId,
     groundTruthData,
     extractedJSON,
-    jobType
+    jobType,
+    extractedReferences
   );
 
   // Call Claude for evaluation

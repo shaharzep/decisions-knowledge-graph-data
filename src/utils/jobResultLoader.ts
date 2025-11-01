@@ -91,19 +91,21 @@ export class JobResultLoader {
    * Uses cache if available, otherwise reads from file system.
    *
    * @param jobType Job type to load results from
+   * @param baseDir Base directory ('results' or 'concurrent/results')
+   * @param timestamp Optional specific timestamp to load (e.g., '2025-10-31T00-48-32-418Z')
    * @returns Array of all result objects
    * @throws Error if no results directory or file not found
    */
-  static async loadAllResults(jobType: string, baseDir: string = 'results'): Promise<any[]> {
-    // Check cache first
-    const cacheKey = this.cacheKey(jobType, baseDir);
+  static async loadAllResults(jobType: string, baseDir: string = 'results', timestamp?: string): Promise<any[]> {
+    // Check cache first (include timestamp in cache key if provided)
+    const cacheKey = timestamp ? `${this.cacheKey(jobType, baseDir)}::${timestamp}` : this.cacheKey(jobType, baseDir);
     if (this.cache.has(cacheKey)) {
-      logger.debug(`Using cached results for ${jobType}`, { baseDir });
+      logger.debug(`Using cached results for ${jobType}`, { baseDir, timestamp });
       return this.cache.get(cacheKey)!;
     }
 
-    // Find latest results directory
-    const resultsDir = await this.findLatestResultsDirectory(jobType, baseDir);
+    // Find results directory (latest or specific timestamp)
+    const resultsDir = await this.findLatestResultsDirectory(jobType, baseDir, timestamp);
 
     // Load extracted-data.json
     const dataPath = path.join(resultsDir, 'extracted-data.json');
@@ -159,11 +161,52 @@ export class JobResultLoader {
    *
    * @param jobType Job type to search for
    * @param baseDir Base directory (default: 'results', can use 'concurrent/results')
-   * @returns Full path to latest results directory
+   * @param timestamp Optional specific timestamp to load (e.g., '2025-10-31T00-48-32-418Z')
+   * @returns Full path to latest results directory (or specific timestamp directory)
    * @throws Error if no results directory found
    */
-  static async findLatestResultsDirectory(jobType: string, baseDir: string = 'results'): Promise<string> {
+  static async findLatestResultsDirectory(jobType: string, baseDir: string = 'results', timestamp?: string): Promise<string> {
     const jobResultsDir = path.join(process.cwd(), baseDir, jobType);
+
+    // If specific timestamp provided, locate it directly
+    if (timestamp) {
+      const isConcurrent = baseDir.includes('concurrent');
+
+      if (isConcurrent) {
+        // For concurrent: concurrent/results/{jobType}/{model}/{timestamp}/
+        // Try gpt-5-mini first (most common)
+        const modelPath = path.join(jobResultsDir, 'gpt-5-mini', timestamp);
+        try {
+          await fs.access(modelPath);
+          return modelPath;
+        } catch {
+          // Fallback: search all model directories for this timestamp
+          const entries = await fs.readdir(jobResultsDir, { withFileTypes: true });
+          const modelDirs = entries.filter((entry) => entry.isDirectory()).map((entry) => entry.name);
+
+          for (const model of modelDirs) {
+            const timestampPath = path.join(jobResultsDir, model, timestamp);
+            try {
+              await fs.access(timestampPath);
+              return timestampPath;
+            } catch {
+              continue;
+            }
+          }
+
+          throw new Error(`Timestamp directory not found: ${timestamp}\n\nSearched in: ${jobResultsDir}/*/`);
+        }
+      } else {
+        // For batch: results/{jobType}/{timestamp}/
+        const timestampPath = path.join(jobResultsDir, timestamp);
+        try {
+          await fs.access(timestampPath);
+          return timestampPath;
+        } catch {
+          throw new Error(`Timestamp directory not found: ${timestampPath}`);
+        }
+      }
+    }
 
     try {
       // Read all directories in results/<jobType>/

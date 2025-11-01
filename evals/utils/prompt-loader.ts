@@ -88,6 +88,7 @@ export function formatSnippetsForPrompt(snippets: string[]): string {
  * @param groundTruthData - Ground truth data (full text OR snippets)
  * @param extractedData - Extracted JSON object from the model
  * @param jobType - Optional job type for context
+ * @param extractedReferences - Optional pre-extracted references for Agent 2B evaluation
  * @returns Complete formatted prompt ready for GPT-5
  */
 export function formatJudgePrompt(
@@ -95,7 +96,8 @@ export function formatJudgePrompt(
   decisionId: string,
   groundTruthData: GroundTruthData,
   extractedData: any,
-  jobType?: string
+  jobType?: string,
+  extractedReferences?: any
 ): string {
   // Detect prompt style
   if (isTemplateStylePrompt(promptTemplate)) {
@@ -104,7 +106,8 @@ export function formatJudgePrompt(
       promptTemplate,
       decisionId,
       groundTruthData,
-      extractedData
+      extractedData,
+      extractedReferences
     );
   } else {
     // Append-style: Backward compatible (for Stage 1, etc.)
@@ -112,7 +115,8 @@ export function formatJudgePrompt(
       promptTemplate,
       decisionId,
       groundTruthData,
-      extractedData
+      extractedData,
+      extractedReferences
     );
   }
 }
@@ -124,13 +128,15 @@ export function formatJudgePrompt(
  * @param decisionId - ECLI identifier
  * @param groundTruthData - Ground truth data
  * @param extractedData - Extracted JSON
+ * @param extractedReferences - Optional pre-extracted references (for Agent 2B)
  * @returns Formatted prompt with placeholders replaced
  */
 function formatTemplateStylePrompt(
   promptTemplate: string,
   decisionId: string,
   groundTruthData: GroundTruthData,
-  extractedData: any
+  extractedData: any,
+  extractedReferences?: any
 ): string {
   let formatted = promptTemplate;
 
@@ -152,6 +158,14 @@ function formatTemplateStylePrompt(
     JSON.stringify(extractedData, null, 2)
   );
 
+  // Replace {extractedReferences} if provided (for Agent 2B evaluation)
+  if (extractedReferences) {
+    formatted = formatted.replace(
+      '{extractedReferences}',
+      JSON.stringify(extractedReferences, null, 2)
+    );
+  }
+
   // Replace {ecli}
   formatted = formatted.replace('{ecli}', decisionId);
 
@@ -169,20 +183,22 @@ function formatTemplateStylePrompt(
  * @param decisionId - ECLI identifier
  * @param groundTruthData - Ground truth data (should be full text for append style)
  * @param extractedData - Extracted JSON
+ * @param extractedReferences - Optional pre-extracted references (for Agent 2B)
  * @returns Formatted prompt with appended sections
  */
 function formatAppendStylePrompt(
   promptTemplate: string,
   decisionId: string,
   groundTruthData: GroundTruthData,
-  extractedData: any
+  extractedData: any,
+  extractedReferences?: any
 ): string {
   // For append style, ground truth should always be full text
   const sourceDocument = typeof groundTruthData === 'string'
     ? groundTruthData
     : groundTruthData.snippets.join('\n\n'); // Fallback: concatenate snippets
 
-  return `${promptTemplate}
+  let appendedContent = `${promptTemplate}
 
 ## DECISION ID
 ${decisionId}
@@ -190,7 +206,19 @@ ${decisionId}
 ## ORIGINAL SOURCE DOCUMENT
 \`\`\`markdown
 ${sourceDocument}
-\`\`\`
+\`\`\``;
+
+  // Add extractedReferences if provided (for Agent 2B)
+  if (extractedReferences) {
+    appendedContent += `
+
+## EXTRACTED REFERENCES (Pre-extracted via Regex)
+\`\`\`json
+${JSON.stringify(extractedReferences, null, 2)}
+\`\`\``;
+  }
+
+  appendedContent += `
 
 ## EXTRACTED OUTPUT
 \`\`\`json
@@ -198,4 +226,6 @@ ${JSON.stringify(extractedData, null, 2)}
 \`\`\`
 
 Return your evaluation as valid JSON only.`;
+
+  return appendedContent;
 }

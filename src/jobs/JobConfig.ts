@@ -33,6 +33,9 @@ export interface JobDependency {
   /** Location of results; defaults to batch results directory */
   source?: DependencySource;
 
+  /** Specific timestamp to load (e.g., '2025-10-31T00-48-32-418Z'). If omitted, loads latest. */
+  timestamp?: string;
+
   /**
    * Fields used to match the dependency result to the current row.
    * Defaults to:
