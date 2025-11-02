@@ -59,9 +59,8 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
    * Stage 2B: Enrich provisions with URLs/identifiers
    */
   'enrich-provisions': [
-    'decisionId',
-    'language',
-    'enrichedProvisions',
+    'citedProvisions',        // Enriched provisions array (correct field name)
+    'extractedReferences',    // Pre-extracted metadata (celex, eli, numac, urls) - CRITICAL for judge
   ],
 
   /**

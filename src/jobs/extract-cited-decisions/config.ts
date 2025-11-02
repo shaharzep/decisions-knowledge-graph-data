@@ -1,9 +1,27 @@
 import { JobConfig } from "../JobConfig.js";
-import { CITED_DECISIONS_PROMPT } from "./prompt.js";
+import { executeTwoStageExtraction } from "./two-stage-executor.js";
 import { TestSetLoader } from "../../utils/testSetLoader.js";
 
 /**
- * Extract Cited Decisions Job Configuration - Agent 3
+ * Extract Cited Decisions Job Configuration - Agent 3 - TWO-STAGE AGENTIC SNIPPET ARCHITECTURE
+ *
+ * APPROACH: Separation of concerns via two focused LLM stages
+ *
+ * Stage 1: Agentic Snippet Creation (gpt-5-mini MEDIUM reasoning)
+ *   - Scans complete decision markdown text (2K-80K chars)
+ *   - Finds EVERY Belgian court citation (100% recall target)
+ *   - Synthesizes enriched, self-contained snippets
+ *   - Captures surrounding context (50-100 words) with treatment indicators
+ *   - Filters out EU/international courts
+ *   - Returns plain text snippet list
+ *   - Task: Systematic extraction with context synthesis
+ *
+ * Stage 2: Deterministic Parsing (gpt-5-mini MEDIUM reasoning)
+ *   - Parses ONLY the enriched snippets (5-10K chars, 8-16x smaller)
+ *   - Extracts court name, date, case number, ECLI verbatim
+ *   - Classifies treatment based on context indicators
+ *   - Returns citedDecisions array
+ *   - Task: Complex parsing with treatment classification
  *
  * SCOPE: Belgian court decisions cited in judicial texts
  *
@@ -19,17 +37,20 @@ import { TestSetLoader } from "../../utils/testSetLoader.js";
  * - Foreign court decisions
  *
  * Key Features:
+ * - Better for long documents (no attention degradation)
+ * - Better treatment classification (context-based)
+ * - Easier to debug (inspect Stage 1 output)
  * - Reserved null field for database mapping (decisionId)
  * - Verbatim extraction (no translation or standardization)
  * - Sequential internal IDs for cross-agent linking
- * - Treatment classification based on linguistic indicators
+ * - Target: 95-100/100 evaluation score
  */
 
 const config: JobConfig = {
   id: "extract-cited-decisions",
 
   description:
-    "Extract cited Belgian court decisions with treatment classification (Agent 3: court name, citation details, treatment)",
+    "Two-stage agentic snippet extraction: Stage 1 finds all Belgian court citations with context (MEDIUM reasoning), Stage 2 parses to JSON and classifies treatment (MEDIUM reasoning). Target: 95-100/100 score.",
 
   /**
    * Database Query
@@ -143,15 +164,65 @@ const config: JobConfig = {
   ],
 
   /**
-   * Prompt Template
+   * Custom Execution: Two-Stage Agentic Snippet Architecture
    *
-   * Replaces template variables in CITED_DECISIONS_PROMPT with actual data.
+   * Stage 1: Agentic snippet creation (gpt-5-mini MEDIUM reasoning)
+   *   - Scans full decision text
+   *   - Finds ALL Belgian court citations
+   *   - Synthesizes enriched snippets with context (50-100 words)
+   *   - Returns plain text snippet list
+   *
+   * Stage 2: Complex parsing (gpt-5-mini MEDIUM reasoning)
+   *   - Parses snippets into structured JSON
+   *   - Classifies treatment based on context indicators
+   *   - Returns citedDecisions array
    */
-  promptTemplate: (row) => {
-    return CITED_DECISIONS_PROMPT
-      .replace("{decisionId}", row.decision_id || "")
-      .replace("{proceduralLanguage}", row.language_metadata || "FR")
-      .replace("{fullText.markdown}", row.full_md || "");
+  customExecution: async (row, client) => {
+    const result = await executeTwoStageExtraction(row, client);
+    return result;
+  },
+
+  /**
+   * Post-Processing: Construct IDs from Sequences
+   *
+   * This is where deterministic ID construction happens - the LLM only outputs
+   * simple integer sequences, then TypeScript constructs the full IDs with
+   * guaranteed-correct decisionId string concatenation.
+   *
+   * This eliminates all ID truncation/corruption errors because the LLM never
+   * touches decisionId string manipulation.
+   */
+  postProcessRow: (row, result) => {
+    const decisionId = row.decision_id;
+
+    if (!decisionId) {
+      throw new Error('decision_id is required for ID construction');
+    }
+
+    if (!result.citedDecisions || !Array.isArray(result.citedDecisions)) {
+      result.citedDecisions = [];
+      return result;
+    }
+
+    // Validate sequences exist
+    for (const citation of result.citedDecisions) {
+      if (typeof citation.decisionSequence !== 'number') {
+        throw new Error(`Missing or invalid decisionSequence: ${JSON.stringify(citation)}`);
+      }
+    }
+
+    // Construct IDs with guaranteed-correct format
+    result.citedDecisions = result.citedDecisions.map((citation: any) => {
+      const seq = String(citation.decisionSequence).padStart(3, '0');
+
+      return {
+        ...citation,
+        // Add the full ID that will be used downstream
+        internalDecisionId: `DEC-${decisionId}-${seq}`,
+      };
+    });
+
+    return result;
   },
 
   /**
@@ -177,7 +248,7 @@ const config: JobConfig = {
           type: "object",
           required: [
             "decisionId",
-            "internalDecisionId",
+            "decisionSequence",
             "courtJurisdictionCode",
             "courtName",
             "date",
@@ -196,12 +267,14 @@ const config: JobConfig = {
             },
 
             // ========================================
-            // INTERNAL REFERENCE ID
+            // SEQUENCING (ID constructed in postProcessRow)
             // ========================================
-            internalDecisionId: {
-              type: "string",
-              pattern: "^DEC-[a-zA-Z0-9:.]+-\\d{3}$",
-              description: "Internal reference ID: DEC-{decisionId}-{sequence}",
+            decisionSequence: {
+              type: "integer",
+              minimum: 1,
+              maximum: 9999,
+              description:
+                "Sequential citation number: 1, 2, 3, 4, ... Increment for each citation, never skip or reuse.",
             },
 
             // ========================================
