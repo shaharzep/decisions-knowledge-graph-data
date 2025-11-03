@@ -1,0 +1,5 @@
+decision_id,language_metadata,decision_type_ecli_code,decision_type_name,court_ecli_code,court_name,courtcategory,decision_date,md_length,length_category
+ECLI:BE:CASS:2001:ARR.20010131.9,FR,ARR,Arrêt,CASS,Cour de cassation,,2001-01-31,18098,long
+ECLI:BE:CASS:2008:ARR.20080812.1,NL,ARR,Arrest,CASS,Hof van Cassatie,,2008-08-12,8060,medium
+ECLI:BE:CASS:2022:ARR.20220318.1F.9,FR,ARR,Arrêt,CASS,Cour de cassation,,2022-03-18,27040,long
+ECLI:BE:CASS:2023:ARR.20230209.1F.1,FR,ARR,Arrêt,CASS,Cour de cassation,,2023-02-09,26130,long

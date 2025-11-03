@@ -78,7 +78,7 @@ export function parseJudgeResponse(responseText: string): EvaluationResult {
 
     const parsed = JSON.parse(jsonText);
 
-    // Map to ensure correct types
+    // Map to ensure correct types (required fields)
     const evaluation: EvaluationResult = {
       verdict: parsed.verdict as Verdict,
       score: Number(parsed.score),
@@ -89,6 +89,32 @@ export function parseJudgeResponse(responseText: string): EvaluationResult {
       confidence: parsed.confidence as Confidence,
       summary: parsed.summary || '',
     };
+
+    // Optional detailed tracking fields (Stage 3: Cited Decisions)
+    if (parsed.counts) {
+      evaluation.counts = parsed.counts;
+    }
+    if (Array.isArray(parsed.missing)) {
+      evaluation.missing = parsed.missing;
+    }
+    if (Array.isArray(parsed.hallucinated)) {
+      evaluation.hallucinated = parsed.hallucinated;
+    }
+    if (Array.isArray(parsed.foreignCourts)) {
+      evaluation.foreignCourts = parsed.foreignCourts;
+    }
+    if (Array.isArray(parsed.wrongTreatments)) {
+      evaluation.wrongTreatments = parsed.wrongTreatments;
+    }
+    if (Array.isArray(parsed.notVerbatim)) {
+      evaluation.notVerbatim = parsed.notVerbatim;
+    }
+    if (Array.isArray(parsed.administrativeBodyErrors)) {
+      evaluation.administrativeBodyErrors = parsed.administrativeBodyErrors;
+    }
+    if (Array.isArray(parsed.sequencingErrors)) {
+      evaluation.sequencingErrors = parsed.sequencingErrors;
+    }
 
     return evaluation;
   } catch (error: any) {

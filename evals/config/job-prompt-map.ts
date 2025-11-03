@@ -30,8 +30,14 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
   // Stage 2C: Provisions interpretation (uncomment when ready)
   'interpret-provisions': 'llm-as-a-judge_STAGE 2C.md',
   
-  // Stage 3 (uncomment when ready)
+  // Stage 3: Cited decisions extraction
   'extract-cited-decisions': 'llm-as-a-judge_STAGE 3.md',
+
+  // Stage 4: Keywords extraction
+  'extract-keywords': 'llm-as-a-judge_STAGE 4_keywords.md',
+
+  // Agent 6: Micro-summary extraction
+  'extract-micro-summary': 'llm-as-a-judge_MICRO-SUMMARY.md',
 
   // Stage 5 (uncomment when ready)
   // 'extract-stage5': 'llm-as-a-judge_STAGE 5.md',

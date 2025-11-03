@@ -31,6 +31,23 @@ export interface EvaluationResult {
   recommendation: Recommendation;
   confidence: Confidence;
   summary: string;
+
+  // Optional detailed tracking (Stage 3: Cited Decisions)
+  counts?: {
+    expected: number;
+    extracted: number;
+    matched: number;
+    missing: number;
+    hallucinated: number;
+    foreignCourts: number;
+  };
+  missing?: string[];
+  hallucinated?: string[];
+  foreignCourts?: string[];
+  wrongTreatments?: string[];
+  notVerbatim?: string[];
+  administrativeBodyErrors?: string[];
+  sequencingErrors?: string[];
 }
 
 /**

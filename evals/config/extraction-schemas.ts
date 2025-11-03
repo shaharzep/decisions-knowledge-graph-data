@@ -80,6 +80,15 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
     'language',
     'citedDecisions',
   ],
+
+  /**
+   * Agent 6: Micro-summary extraction
+   */
+  'extract-micro-summary': [
+    'decisionId',             // Decision identifier (from metadata)
+    'language',               // Procedural language (from metadata)
+    'microSummary',           // Concise 2-4 sentence summary (50-800 chars)
+  ],
 };
 
 /**
