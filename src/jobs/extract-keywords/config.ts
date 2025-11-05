@@ -266,8 +266,8 @@ const config: JobConfig = {
    * - Fast iteration preferred
    */
   provider: "openai",
-  openaiProvider: "standard",     // Use standard OpenAI (not Azure) for GPT-5
-  model: "gpt-5",                 // GPT-5 full model
+  openaiProvider: "azure",     // Use standard OpenAI (not Azure) for GPT-5
+  model: "gpt-5-mini",                 // GPT-5 full model
   maxCompletionTokens: 16000,     // Keywords are short output
   reasoningEffort: "medium",         // Pattern recognition task
   verbosity: "low",               // Concise responses preferred
@@ -279,7 +279,7 @@ const config: JobConfig = {
    * - Start with 200 concurrent requests
    * - Monitor for 429 errors and adjust if needed
    */
-  concurrencyLimit: 200,
+  concurrencyLimit: 300,
 
   /**
    * Pipeline Configuration

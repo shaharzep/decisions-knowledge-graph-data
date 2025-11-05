@@ -1,4 +1,19 @@
-# MISSION
+/**
+ * Keyword Extraction Prompt - AI Agent 4
+ *
+ * Generates 8-12 scannable keywords for Belgian court decisions across 4 categories:
+ * 1. Legal Domain (1 keyword)
+ * 2. Factual Situation (3-5 keywords)
+ * 3. Key Dispute (3-4 keywords)
+ * 4. Distinctive Element (0-2 keywords)
+ *
+ * Placeholders:
+ * - {decisionId} - ECLI identifier
+ * - {proceduralLanguage} - FR or NL
+ * - {fullText.markdown} - Full decision markdown text
+ */
+
+export const KEYWORD_EXTRACTION_PROMPT = `# MISSION
 
 Generate 8-12 short, scannable keywords that allow lawyers to quickly understand what this decision is about when viewing search result cards.
 
@@ -14,11 +29,9 @@ Focus on:
 
 You will receive:
 
-1. **Decision ID**: `{decisionId}`
-2. **Procedural Language**: `{proceduralLanguage}`
-3. **Facts**: `{facts}` (Array of strings from Stage 1)
-4. **Cited Provisions**: `{citedProvisions}` (Array of provision objects from Stages 2A-2C)
-5. **Markdown Text**: `{fullText.markdown}`
+1. **Decision ID**: \`{decisionId}\`
+2. **Procedural Language**: \`{proceduralLanguage}\`
+3. **Markdown Text**: \`{fullText.markdown}\`
 
 # CRITICAL: LANGUAGE HANDLING
 
@@ -155,7 +168,7 @@ Extract keywords across 4 dimensions:
 
 ## Style Rules
 
-**DO:** 
+**DO:**
 ✅ Use terms lawyers actually search for
 ✅ Focus on concrete, practical concepts
 ✅ Prioritize factual clarity over legal technicality
@@ -163,7 +176,7 @@ Extract keywords across 4 dimensions:
 ✅ Think: "What would I want to know in 3 seconds?"
 ✅ Balance general and specific
 
-**DON'T:** 
+**DON'T:**
 ❌ Use overly generic terms ("Droit", "Justice", "Wet", "Recht" alone)
 ❌ Include party names (unless landmark case)
 ❌ Include specific amounts, dates, or article numbers
@@ -233,13 +246,13 @@ Only if case has truly notable characteristics:
 
 You MUST output valid JSON with TWO purposes:
 
-1. **For the database** (stored): `customKeywords` array only
-2. **For self-validation** (discarded after extraction): `metadata` object
+1. **For the database** (stored): \`customKeywords\` array only
+2. **For self-validation** (discarded after extraction): \`metadata\` object
 
 The metadata helps you validate your own work but is NOT stored in the database.
 
 ## Required Output Structure
-```json
+\`\`\`json
 {
   "customKeywords": [
     "Legal Domain Keyword",
@@ -269,10 +282,10 @@ The metadata helps you validate your own work but is NOT stored in the database.
     }
   }
 }
-```
+\`\`\`
 
 **IMPORTANT NOTES:**
-- **Database storage**: Only `customKeywords` array is stored
+- **Database storage**: Only \`customKeywords\` array is stored
 - **Metadata purpose**: Self-validation only, discarded after extraction
 - **Output format**: Must include both sections for validation purposes
 - **No markdown blocks**: Output only the JSON, no code blocks or extra text
@@ -310,7 +323,7 @@ The metadata helps you validate your own work but is NOT stored in the database.
 **Context:** Equality body sues over age discriminatory job posting
 
 **Output:**
-```json
+\`\`\`json
 {
   "customKeywords": [
     "Droit du travail",
@@ -341,7 +354,7 @@ The metadata helps you validate your own work but is NOT stored in the database.
     }
   }
 }
-```
+\`\`\`
 
 **Keyword breakdown:**
 - Legal Domain (1): "Droit du travail"
@@ -354,7 +367,7 @@ The metadata helps you validate your own work but is NOT stored in the database.
 **Context:** Breach of distribution agreement
 
 **Output:**
-```json
+\`\`\`json
 {
   "customKeywords": [
     "Handelsrecht",
@@ -383,7 +396,7 @@ The metadata helps you validate your own work but is NOT stored in the database.
     }
   }
 }
-```
+\`\`\`
 
 **Keyword breakdown:**
 - Legal Domain (1): "Handelsrecht"
@@ -396,7 +409,7 @@ The metadata helps you validate your own work but is NOT stored in the database.
 **Context:** Bank liable for unauthorized transactions
 
 **Output:**
-```json
+\`\`\`json
 {
   "customKeywords": [
     "Droit de la consommation",
@@ -429,7 +442,7 @@ The metadata helps you validate your own work but is NOT stored in the database.
     }
   }
 }
-```
+\`\`\`
 
 **Keyword breakdown:**
 - Legal Domain (1): "Droit de la consommation"
@@ -492,8 +505,8 @@ Before finalizing, verify:
 Before submitting your output, verify:
 
 **Structure:**
-- [ ] JSON has `customKeywords` array
-- [ ] JSON has `metadata` object with all required fields
+- [ ] JSON has \`customKeywords\` array
+- [ ] JSON has \`metadata\` object with all required fields
 - [ ] No markdown code blocks, no explanatory text
 
 **Keywords Array:**
@@ -520,3 +533,4 @@ Before submitting your output, verify:
 ## OUTPUT FORMAT
 
 Return ONLY valid JSON matching the schema. No markdown, no code blocks, no explanatory text.
+`;

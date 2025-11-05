@@ -1,21 +1,21 @@
 import { JobConfig } from "../JobConfig.js";
-import { TestSetLoader } from "../../utils/testSetLoader.js";
 import { createMicroSummaryPrompt } from "./prompt.js";
 
 /**
  * Extract Micro-Summary Job Configuration
  *
- * APPROACH: Single-stage extraction with simple prompt template
+ * APPROACH: Single-stage extraction with dynamic length scaling
  *
- * Task: Generate concise 2-4 sentence micro-summaries (50-800 chars)
+ * Task: Generate concise micro-summaries with length scaling (600-1800 chars)
  *   - Model extracts who/what/outcome directly from full markdown text
  *   - No dependencies on other extraction jobs
  *   - Returns summary in procedural language (FR/NL)
+ *   - Length scales with decision complexity (short → long → very_long)
  *
  * Output:
- *   - microSummary: String (50-800 chars)
+ *   - microSummary: String with dynamic length (600-1800 chars based on md_length)
  *
- * Target: Quick, scannable summaries for all decisions
+ * Target: Scannable summaries for all ~64,000 decisions
  */
 
 const config: JobConfig = {
@@ -27,23 +27,25 @@ const config: JobConfig = {
   /**
    * Database Query
    *
-   * Uses test set to select specific decisions for processing.
-   * Joins decisions1 with decisions_md to get full markdown text.
-   * Uses composite key (decision_id + language) for correct matching.
+   * Pulls all decisions from the database with full markdown text.
+   * Includes metadata fields directly from decisions1 table for tracking.
+   *
+   * This query selects all ~64,000 decisions with complete markdown content.
    */
   dbQuery: `
     SELECT
       d.id,
       d.decision_id,
       d.language_metadata,
-      dm.full_md
+      d.decision_type_ecli_code,
+      d.court_ecli_code,
+      d.decision_date,
+      dm.full_md,
+      LENGTH(dm.full_md) as md_length
     FROM decisions1 d
     INNER JOIN decisions_md dm
       ON dm.decision_id = d.decision_id
       AND dm.language = d.language_metadata
-    INNER JOIN unnest($1::text[], $2::text[]) AS test_set(decision_id, language)
-      ON d.decision_id = test_set.decision_id
-      AND d.language_metadata = test_set.language
     WHERE dm.full_md IS NOT NULL
       AND dm.full_md != ''
   `,
@@ -51,85 +53,46 @@ const config: JobConfig = {
   /**
    * Database Query Parameters
    *
-   * Loaded from CSV test set file at runtime.
-   * Uses comprehensive-197.csv for full test set evaluation.
+   * No parameters needed - query selects all decisions directly.
    */
-  dbQueryParams: await (async () => {
-    const testSet = await TestSetLoader.loadTestSet(
-      "evals/test-sets/comprehensive-197.csv"
-    );
-    const summary = TestSetLoader.getSummary(testSet);
-    console.log(`📊 Micro-Summary test set: ${summary.total} decisions`);
-    console.log(`   Languages: ${JSON.stringify(summary.byLanguage)}`);
-
-    // Show distribution by length category
-    const byLength: Record<string, number> = {};
-    testSet.forEach((entry) => {
-      if (entry.length_category) {
-        byLength[entry.length_category] = (byLength[entry.length_category] || 0) + 1;
-      }
-    });
-    console.log(`   Length distribution: ${JSON.stringify(byLength)}`);
-
-    const params = TestSetLoader.toQueryParams(testSet);
-    return [params.decisionIds, params.languages];
-  })(),
+  dbQueryParams: [],
 
   /**
    * Preprocess Row
    *
-   * Enrich database rows with metadata from CSV test set.
-   * Uses composite key lookup for correct language matching.
+   * Add computed length category based on markdown length.
+   * All other metadata comes directly from database query.
    */
-  preprocessRow: await (async () => {
-    const testSet = await TestSetLoader.loadTestSet(
-      "evals/test-sets/comprehensive-197.csv"
-    );
+  preprocessRow: async (row: any) => {
+    let length_category = 'unknown';
+    if (row.md_length) {
+      if (row.md_length < 10000) length_category = 'short';
+      else if (row.md_length < 30000) length_category = 'medium';
+      else if (row.md_length < 60000) length_category = 'long';
+      else length_category = 'very_long';
+    }
 
-    // Create map for fast lookup: key = decision_id + language
-    const testSetMap = new Map<string, any>();
-    testSet.forEach((entry) => {
-      const key = `${entry.decision_id}|${entry.language}`;
-      testSetMap.set(key, entry);
-    });
-
-    // Return preprocessor function
-    return async (row: any) => {
-      const key = `${row.decision_id}|${row.language_metadata}`;
-      const testSetEntry = testSetMap.get(key);
-
-      if (testSetEntry) {
-        return {
-          ...row,
-          decision_type_ecli_code: testSetEntry.decision_type_ecli_code,
-          decision_type_name: testSetEntry.decision_type_name,
-          court_ecli_code: testSetEntry.court_ecli_code,
-          court_name: testSetEntry.court_name,
-          courtcategory: testSetEntry.courtcategory,
-          decision_date: testSetEntry.decision_date,
-          md_length: testSetEntry.md_length,
-          length_category: testSetEntry.length_category,
-        };
-      }
-
-      return row;
+    return {
+      ...row,
+      length_category,
     };
-  })(),
+  },
 
   /**
    * Row Metadata Fields
    *
-   * Track all metadata from CSV test set for evaluation and filtering.
+   * Track all metadata from database for analysis and filtering.
+   * These fields will be merged into each extraction result, enabling:
+   * - Filtering by language, court, decision type, length
+   * - Performance analysis by category
+   * - Identifying which types work well vs poorly
    */
   rowMetadataFields: [
     "id",
     "decision_id",
     "language_metadata",
     "decision_type_ecli_code",
-    "decision_type_name",
     "court_ecli_code",
-    "court_name",
-    "courtcategory",
     "decision_date",
     "md_length",
     "length_category",
@@ -175,10 +138,31 @@ const config: JobConfig = {
    * Provider and Model Configuration
    */
   provider: "openai",
-  model: "gpt-5-mini",                // GPT-5 Mini with reasoning
-  maxCompletionTokens: 16000,         // Summaries are short, don't need much
-  reasoningEffort: "medium",           
-  verbosity: "low",                   // Concise responses preferred
+  model: "gpt-5-mini",
+  maxCompletionTokens: 16000,
+  reasoningEffort: "medium",
+  verbosity: "low",
+
+  /**
+   * Concurrency Configuration
+   *
+   * For full dataset (64k decisions), use high concurrency to leverage rate limits:
+   * - Recommended: 300 concurrent requests
+   * - Monitor for 429 errors and adjust if needed
+   */
+  concurrencyLimit: 300,
+
+  /**
+   * Full-Data Pipeline Mode
+   *
+   * Enable for large dataset extraction (64k decisions).
+   *
+   * When true:
+   * - Writes per-decision JSONs to full-data/<job>/<timestamp>/jsons/
+   * - Streams results incrementally (durable for long runs)
+   * - Suitable for full dataset extraction
+   */
+  useFullDataPipeline: true,
 
   /**
    * Custom ID prefix
