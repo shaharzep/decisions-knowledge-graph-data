@@ -467,6 +467,7 @@ const config: JobConfig = {
    * Provider and Model Configuration
    */
   provider: "openai", // Use OpenAI Batch API
+  openaiProvider: "standard",
   model: "gpt-5-mini", // GPT-5 Mini with reasoning
   maxCompletionTokens: 128000,
   reasoningEffort: "medium", // Medium reasoning effort

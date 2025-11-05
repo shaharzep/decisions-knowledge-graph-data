@@ -170,6 +170,19 @@ export interface JobConfig {
   provider?: 'azure' | 'openai' | 'anthropic';
 
   /**
+   * OpenAI provider selection
+   *
+   * When provider is 'openai', specifies which OpenAI service to use:
+   * - 'azure': Azure OpenAI (requires AZURE_OPENAI_* env vars)
+   * - 'standard': Standard OpenAI (requires OPENAI_API_KEY env var)
+   *
+   * Default: 'azure' (for backward compatibility)
+   *
+   * Example use case: GPT-5 is only available via standard OpenAI, not Azure
+   */
+  openaiProvider?: 'azure' | 'standard';
+
+  /**
    * Model/deployment name to use
    *
    * For Azure: deployment name (e.g., "o4-mini", "gpt-4o")

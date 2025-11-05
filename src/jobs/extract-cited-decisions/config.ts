@@ -1,6 +1,5 @@
 import { JobConfig } from "../JobConfig.js";
 import { executeTwoStageExtraction } from "./two-stage-executor.js";
-import { TestSetLoader } from "../../utils/testSetLoader.js";
 
 /**
  * Extract Cited Decisions Job Configuration - Agent 3 - TWO-STAGE AGENTIC SNIPPET ARCHITECTURE
@@ -53,25 +52,58 @@ const config: JobConfig = {
     "Two-stage agentic snippet extraction: Stage 1 finds all Belgian court citations with context (MEDIUM reasoning), Stage 2 parses to JSON and classifies treatment (MEDIUM reasoning). Target: 95-100/100 score.",
 
   /**
+   * Concurrency Configuration
+   *
+   * For full dataset (64k decisions), use high concurrency to leverage Azure rate limits:
+   * - Rate limit: 9,750,000 tokens/min
+   * - Rate limit: 9,750 requests/min
+   * - Recommended: 300-500 concurrent requests
+   */
+  concurrencyLimit: 300,
+
+  /**
+   * Full-Data Pipeline Mode
+   *
+   * Enable for large dataset extraction (50k+ decisions).
+   *
+   * When true:
+   * - Writes per-decision JSONs to full-data/<job>/<timestamp>/jsons/
+   * - Streams results incrementally (durable for long runs)
+   * - Suitable for full dataset extraction
+   *
+   * When false (default):
+   * - Writes 4 aggregated JSONs to concurrent/results/
+   * - Required for dependency resolution and evaluation
+   * - Suitable for test set runs (197 decisions)
+   *
+   * Toggle this flag when switching between test runs and full dataset:
+   * - Test/eval runs (197 decisions): false
+   * - Full dataset (64k decisions): true
+   */
+  useFullDataPipeline: true,
+
+  /**
    * Database Query
    *
-   * Uses test set to select specific decisions for processing.
-   * Joins decisions1 with decisions_md to get full markdown text.
-   * Uses composite key (decision_id + language) for correct matching.
+   * Pulls all decisions from the database with full markdown text.
+   * Includes metadata fields directly from decisions1 table for tracking.
+   *
+   * This query selects all ~64,000 decisions with complete markdown content.
    */
   dbQuery: `
     SELECT
       d.id,
       d.decision_id,
       d.language_metadata,
-      dm.full_md
+      d.decision_type_ecli_code,
+      d.court_ecli_code,
+      d.decision_date,
+      dm.full_md,
+      LENGTH(dm.full_md) as md_length
     FROM decisions1 d
     INNER JOIN decisions_md dm
       ON dm.decision_id = d.decision_id
       AND dm.language = d.language_metadata
-    INNER JOIN unnest($1::text[], $2::text[]) AS test_set(decision_id, language)
-      ON d.decision_id = test_set.decision_id
-      AND d.language_metadata = test_set.language
     WHERE dm.full_md IS NOT NULL
       AND dm.full_md != ''
   `,
@@ -79,88 +111,50 @@ const config: JobConfig = {
   /**
    * Database Query Parameters
    *
-   * Loaded from CSV test set file at runtime.
-   * Reuses comprehensive-197.csv initially for consistency.
+   * No parameters needed - query selects all decisions directly.
    */
-  dbQueryParams: await (async () => {
-    const testSet = await TestSetLoader.loadTestSet(
-      "evals/test-sets/comprehensive-197.csv"
-    );
-    const summary = TestSetLoader.getSummary(testSet);
-    console.log(`📊 Cited Decisions test set: ${summary.total} decisions`);
-    console.log(`   Languages: ${JSON.stringify(summary.byLanguage)}`);
-
-    // Show distribution by length category
-    const byLength: Record<string, number> = {};
-    testSet.forEach((entry) => {
-      if (entry.length_category) {
-        byLength[entry.length_category] = (byLength[entry.length_category] || 0) + 1;
-      }
-    });
-    console.log(`   Length distribution: ${JSON.stringify(byLength)}`);
-
-    const params = TestSetLoader.toQueryParams(testSet);
-    return [params.decisionIds, params.languages];
-  })(),
+  dbQueryParams: [],
 
   /**
    * Preprocess Row
    *
-   * Enrich database rows with metadata from CSV test set.
-   * Uses composite key lookup for correct language matching.
+   * Add computed length category based on markdown length.
+   * All other metadata comes directly from database query.
    */
-  preprocessRow: await (async () => {
-    const testSet = await TestSetLoader.loadTestSet(
-      "evals/test-sets/comprehensive-197.csv"
-    );
+  preprocessRow: async (row: any) => {
+    // Categorize decision length
+    let length_category = 'unknown';
+    if (row.md_length) {
+      if (row.md_length < 10000) length_category = 'short';
+      else if (row.md_length < 30000) length_category = 'medium';
+      else if (row.md_length < 60000) length_category = 'long';
+      else length_category = 'very_long';
+    }
 
-    // Create map for fast lookup: key = decision_id + language
-    const testSetMap = new Map<string, any>();
-    testSet.forEach((entry) => {
-      const key = `${entry.decision_id}|${entry.language}`;
-      testSetMap.set(key, entry);
-    });
-
-    // Return preprocessor function
-    return async (row: any) => {
-      const key = `${row.decision_id}|${row.language_metadata}`;
-      const testSetEntry = testSetMap.get(key);
-
-      if (testSetEntry) {
-        return {
-          ...row,
-          decision_type_ecli_code: testSetEntry.decision_type_ecli_code,
-          decision_type_name: testSetEntry.decision_type_name,
-          court_ecli_code: testSetEntry.court_ecli_code,
-          court_name: testSetEntry.court_name,
-          courtcategory: testSetEntry.courtcategory,
-          decision_date: testSetEntry.decision_date,
-          md_length: testSetEntry.md_length,
-          length_category: testSetEntry.length_category,
-        };
-      }
-
-      return row;
+    return {
+      ...row,
+      length_category,
     };
-  })(),
+  },
 
   /**
    * Row Metadata Fields
    *
-   * Track all metadata from CSV test set for evaluation and filtering.
+   * Track all metadata from database for analysis and filtering.
+   * These fields will be merged into each extraction result, enabling:
+   * - Filtering by language, court, decision type, length
+   * - Performance analysis by category
+   * - Identifying which types work well vs poorly
    */
   rowMetadataFields: [
-    "id",
-    "decision_id",
-    "language_metadata",
-    "decision_type_ecli_code",
-    "decision_type_name",
-    "court_ecli_code",
-    "court_name",
-    "courtcategory",
-    "decision_date",
-    "md_length",
-    "length_category",
+    "id",                      // Database serial ID
+    "decision_id",             // ECLI code
+    "language_metadata",       // FR or NL
+    "decision_type_ecli_code", // ARR, ORD, RECO, etc. (from database)
+    "court_ecli_code",         // CASS, GBAPD, COPRIV, etc. (from database)
+    "decision_date",           // YYYY-MM-DD (from database)
+    "md_length",               // Character count (computed from full_md)
+    "length_category",         // short, medium, long, very_long (computed in preprocessRow)
   ],
 
   /**
@@ -360,12 +354,16 @@ const config: JobConfig = {
 
   /**
    * Provider and Model Configuration
+   *
+   * Note: Two-stage execution specifies reasoning effort per stage:
+   *   - Stage 1: MEDIUM (systematic extraction with context synthesis)
+   *   - Stage 2: MEDIUM (complex parsing with treatment classification)
+   *
+   * Both use MEDIUM to handle the complexity accurately.
    */
   provider: "openai",
-  model: "gpt-5-mini",                // GPT-5 Mini with reasoning
-  maxCompletionTokens: 64000,         // Same as provisions-2a
-  reasoningEffort: "medium",             // Low reasoning for citation extraction
-  verbosity: "low",                   // Concise responses preferred
+  model: "gpt-5-mini",
+  maxCompletionTokens: 64000, // Citations typically shorter output than provisions
 
   /**
    * Custom ID prefix

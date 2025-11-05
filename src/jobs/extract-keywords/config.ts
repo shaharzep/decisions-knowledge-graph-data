@@ -4,7 +4,7 @@ import { KEYWORD_EXTRACTION_PROMPT } from "./prompt.js";
 /**
  * Extract Keywords Job Configuration - AI Agent 4
  *
- * FULL-DATA KEYWORD EXTRACTION
+ * KEYWORD EXTRACTION WITH GPT-5 (STANDARD OPENAI)
  *
  * Generates 8-12 scannable keywords across 4 categories:
  * 1. Legal Domain (1 keyword - REQUIRED)
@@ -15,14 +15,15 @@ import { KEYWORD_EXTRACTION_PROMPT } from "./prompt.js";
  * APPROACH:
  * - Standard single-stage execution (no custom executor)
  * - No dependencies - works directly from full markdown text
+ * - Uses GPT-5 via standard OpenAI (Azure doesn't support GPT-5 yet)
  * - Prompt template injects 3 placeholders:
  *   1. {decisionId} - from database
  *   2. {proceduralLanguage} - from database
  *   3. {fullText.markdown} - from database
- * - Processes all ~64,000 decisions with streaming persistence
+ * - Test mode: Uses standard pipeline for evaluation
  *
  * OUTPUT:
- * - Per-decision JSONs in full-data/extract-keywords/<timestamp>/jsons/
+ * - Results in concurrent/results/extract-keywords/<model>/<timestamp>/
  * - customKeywords: Array of 8-12 keywords (stored in database)
  * - metadata: Self-validation object (discarded after extraction)
  *
@@ -258,13 +259,15 @@ const config: JobConfig = {
   /**
    * Provider and Model Configuration
    *
-   * Using GPT-5 Mini with LOW reasoning:
+   * Using GPT-5 (standard OpenAI, not Azure) with LOW reasoning:
+   * - Azure OpenAI doesn't support GPT-5 yet
    * - Keyword extraction is pattern recognition, not deep reasoning
    * - Short output (8-12 keywords)
    * - Fast iteration preferred
    */
   provider: "openai",
-  model: "gpt-5-mini",
+  openaiProvider: "standard",     // Use standard OpenAI (not Azure) for GPT-5
+  model: "gpt-5",                 // GPT-5 full model
   maxCompletionTokens: 16000,     // Keywords are short output
   reasoningEffort: "medium",         // Pattern recognition task
   verbosity: "low",               // Concise responses preferred
@@ -272,19 +275,17 @@ const config: JobConfig = {
   /**
    * Concurrency Configuration
    *
-   * For full dataset (64k decisions), use high concurrency to leverage Azure rate limits:
-   * - Rate limit: 9,750,000 tokens/min
-   * - Rate limit: 9,750 requests/min
-   * - Recommended: 300-500 concurrent requests
+   * Conservative settings for GPT-5 (rate limits unknown):
+   * - Start with 200 concurrent requests
+   * - Monitor for 429 errors and adjust if needed
    */
-  concurrencyLimit: 300,
+  concurrencyLimit: 200,
 
   /**
    * Pipeline Configuration
    *
-   * Use full-data pipeline for large dataset extraction (64k decisions).
-   * Outputs per-decision JSONs to full-data/<job>/<timestamp>/jsons/
-   * Streams results incrementally (durable for long runs).
+   * Use standard pipeline for test mode.
+   * Outputs to concurrent/results/ for evaluation.
    */
   useFullDataPipeline: true,
 

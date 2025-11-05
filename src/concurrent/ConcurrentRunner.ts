@@ -53,7 +53,10 @@ export class ConcurrentRunner {
     // Select client based on provider
     this.client = config.provider === 'anthropic'
       ? new ClaudeConcurrentClient(config.id)
-      : new OpenAIConcurrentClient(config.id);
+      : new OpenAIConcurrentClient(config.id, {
+          openaiProvider: config.openaiProvider,
+          model: config.model
+        });
 
     this.processor = new ConcurrentProcessor(config);
 

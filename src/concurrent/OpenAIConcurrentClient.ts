@@ -1,5 +1,6 @@
 import OpenAI from "openai";
 import { AzureConfig } from "../config/azure.js";
+import { OpenAIConfig } from "../config/openai.js";
 import { JobLogger } from "../utils/logger.js";
 
 /**
@@ -23,10 +24,26 @@ export class OpenAIConcurrentClient {
   private logger: JobLogger;
   private defaultDeployment: string;
 
-  constructor(jobId: string) {
-    this.client = AzureConfig.getClient();
-    this.defaultDeployment = AzureConfig.getDeployment();
-    this.logger = new JobLogger(`AzureConcurrent:${jobId}`);
+  constructor(
+    jobId: string,
+    options?: {
+      openaiProvider?: 'azure' | 'standard';
+      model?: string;
+    }
+  ) {
+    const provider = options?.openaiProvider || 'azure';
+
+    if (provider === 'standard') {
+      // Use standard OpenAI (api.openai.com)
+      this.client = OpenAIConfig.getClient();
+      this.defaultDeployment = options?.model || OpenAIConfig.getModel();
+      this.logger = new JobLogger(`OpenAI:${jobId}`);
+    } else {
+      // Use Azure OpenAI (default for backward compatibility)
+      this.client = AzureConfig.getClient();
+      this.defaultDeployment = options?.model || AzureConfig.getDeployment();
+      this.logger = new JobLogger(`AzureOpenAI:${jobId}`);
+    }
   }
 
   /**
