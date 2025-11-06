@@ -1,4 +1,4 @@
-# Cited Decisions Extraction — Evaluation Judge (v4.0 - Two-Stage Architecture, Multi-Jurisdiction)
+# Cited Decisions Extraction — Evaluation Judge (v4.1 - Two-Stage Architecture, Multi-Jurisdiction)
 
 You are evaluating whether cited decision extraction is production-ready. Compare EXTRACTED OUTPUT against ORIGINAL SOURCE. Work silently and return JSON only.
 
@@ -170,10 +170,10 @@ Non-priority fields: ecli, internalDecisionId (constructed in post-processing)
 ### MAJOR issues (important, but not hard fail alone)
 
 1) **Missing citations: recall < 70%**
-   - Count ALL court citations (BE, EU, INT) in source
+   - Count ALL **PRECEDENT** court citations (BE, EU, INT) in source
    - Count extracted citations
    - Recall = extracted / expected
-   - Expected count: all court citations from BE/EU/INT with identifiable court name
+   - **CRITICAL:** Expected count = only PRECEDENT citations (NOT procedural history)
 
 2) **Wrong treatment classification (>30% of citations):**
    - Treatment doesn't match context indicators
@@ -218,6 +218,20 @@ Non-priority fields: ecli, internalDecisionId (constructed in post-processing)
    - decisionSequence has gaps (e.g., 1, 2, 4)
    - decisionSequence has duplicates (e.g., 1, 2, 2, 3)
    - decisionSequence doesn't start at 1
+
+---
+
+## CRITICAL: Procedural History vs Precedent
+
+**The most common judge error is penalizing extraction for correctly excluding procedural history.**
+
+**Remember:**
+- **Procedural history** = events in THIS case's timeline → **Correctly excluded from extraction**
+- **Precedent citations** = references to OTHER cases for legal reasoning → **Should be extracted**
+
+**If extraction omits procedural history → This is CORRECT, not an error.**
+
+**Only penalize for missing PRECEDENT citations, never for missing procedural history.**
 
 ---
 
@@ -291,10 +305,19 @@ If you believe source has ZERO citations, complete this checklist first:
 - Count each citation separately (multiple citations in one sentence = multiple expected)
 
 **❌ DO NOT count as expected citations (these are PROCEDURAL HISTORY, correctly excluded):**
+
+**CRITICAL: These are NOT missing citations. If extraction omits these, it is CORRECT.**
+
 - Current case's own procedural timeline events
-- Lower court decision being appealed in THIS case ("le jugement entrepris")
+- Lower court decision being appealed in THIS case ("le jugement entrepris", "het bestreden vonnis")
 - Detention/release orders in applicant's own case ("a été libéré par arrêt de...")
 - Procedural references in Procédure/Faits sections ("Vu le jugement...", "Gelet op het vonnis...")
+- Appeal chain references ("ayant appel du jugement de...", "in hoger beroep tegen...")
+- References to "the challenged judgment" or "the appealed decision" in THIS case
+
+**If you find these in source but NOT in extraction → DO NOT PENALIZE. Extraction is CORRECT.**
+
+---
 
 **How to distinguish PRECEDENT vs PROCEDURAL HISTORY:**
 
@@ -341,6 +364,7 @@ accusation de Bruxelles."
 ```
 → This describes applicant's release in THIS case (not a precedent citation)
 → **DO NOT COUNT** as expected citation
+→ **If extraction omits this → CORRECT**
 
 ❌ **Example 2 - Lower court being appealed:**
 ```
@@ -349,6 +373,16 @@ accusation de Bruxelles."
 ```
 → This is the lower court decision in THIS case being appealed
 → **DO NOT COUNT** as expected citation
+→ **If extraction omits this → CORRECT**
+
+❌ **Example 3 - Procedural viewing:**
+```
+"Gelet op het vonnis van de rechtbank van eerste aanleg te Brussel van
+20 maart 2022 in deze zaak..."
+```
+→ Procedural reference to lower court in THIS case
+→ **DO NOT COUNT** as expected citation
+→ **If extraction omits this → CORRECT**
 
 ---
 
@@ -361,6 +395,7 @@ du 15 mars 2022 (C.21.0789.N), l'obligation de justification doit être respect�
 ```
 → Cites Belgian Cour de cassation precedent with "conformément à" for legal reasoning
 → **COUNT IT** as expected citation (courtJurisdictionCode: "BE")
+→ **If extraction omits this → ERROR**
 
 ✅ **Example 2 - Citing EU court:**
 ```
@@ -369,6 +404,7 @@ du 26 février 2013, affaire Åkerberg Fransson (C-617/10), dans lequel..."
 ```
 → Cites CJUE precedent for legal reasoning
 → **COUNT IT** as expected citation (courtJurisdictionCode: "EU")
+→ **If extraction omits this → ERROR**
 
 ✅ **Example 3 - Citing international court:**
 ```
@@ -377,6 +413,7 @@ de l'homme, notamment son arrêt du 15 janvier 2020 dans l'affaire X c. Belgique
 ```
 → Cites ECtHR precedent with legal reasoning
 → **COUNT IT** as expected citation (courtJurisdictionCode: "INT")
+→ **If extraction omits this → ERROR**
 
 ---
 
@@ -701,12 +738,22 @@ Source: "arrêt du 15 mars 2022 (ECLI:BE:CASS:2022:ARR.20220315.1N.4)"
 
 **Expected citation count:**
 
-Count all court citations (BE, EU, INT) in source with identifiable court name:
+Count all **PRECEDENT** court citations (BE, EU, INT) in source with identifiable court name:
 - Include ALL jurisdictions: Belgian, EU, International
 - Include footnote citations
 - Include all mentions (multiple citations of same decision = multiple counts)
-- **Exclude:** Procedural history of current case
-- **Exclude:** Foreign national courts (out of scope)
+- **EXCLUDE:** Procedural history of current case (DO NOT COUNT THESE)
+- **EXCLUDE:** Foreign national courts (out of scope)
+
+**CRITICAL VALIDATION STEP:**
+
+Before counting each citation as "expected", verify it passed the 6-step validation in Section 1.
+- If Step 6 says "DON'T COUNT (PROCEDURAL HISTORY)" → DO NOT include in expected count
+- If Step 6 says "COUNT IT (PRECEDENT)" → Include in expected count
+
+**Only PRECEDENTS count toward expected citations. Procedural history references are correctly excluded.**
+
+---
 
 **Extracted citation count:**
 
@@ -715,7 +762,7 @@ Count citedDecisions array length
 **Recall calculation:**
 ```
 matched = count of citations found in both source and extraction
-expected = count of court citations (BE/EU/INT) in source
+expected = count of PRECEDENT court citations (BE/EU/INT) in source
 extracted = count of citedDecisions in extraction
 
 recall = matched / expected
@@ -725,19 +772,29 @@ precision = matched / extracted (if extracted > expected)
 **Examples:**
 
 ```
-Source has 10 court citations (8 BE, 1 EU, 1 INT)
+Source has 10 PRECEDENT citations (8 BE, 1 EU, 1 INT) + 3 procedural history references
 Extracted 9 citations, all correct (7 BE, 1 EU, 1 INT)
+Expected = 10 (only precedents count, not the 3 procedural history)
 Recall = 9/10 = 90%
 Precision = 9/9 = 100%
 Result: Good (1 missing but recall ≥ 85%)
 ```
 
 ```
-Source has 5 Belgian + 2 EU citations
-Extracted 7 citations, all correct
+Source has 5 Belgian + 2 EU precedent citations + 2 procedural history references
+Extracted 7 citations, all correct (5 BE + 2 EU)
+Expected = 7 (only precedents, not procedural history)
 Recall = 7/7 = 100%
 Precision = 7/7 = 100%
 Result: Perfect
+```
+
+```
+Source has only 4 procedural history references in "Procédure" section + 0 precedents
+Extracted 0 citations (correctly excluded procedural history)
+Expected = 0 (no precedents to extract)
+Recall = 0/0 = 100% (no precedents to find)
+Result: Perfect (correctly excluded all procedural history)
 ```
 
 ---
@@ -784,6 +841,35 @@ Result: Perfect
 - Substantial uncertainty about procedural history distinction
 - Judge uncertain about whether to flag issues
 - Multiple edge cases requiring interpretation
+
+---
+
+## JUDGE ERROR PREVENTION - PROCEDURAL HISTORY CHECK
+
+**Before flagging "missing citation" or "low recall", ask:**
+
+1. **Is the "missing" citation actually procedural history?**
+   - Check: Does it describe an event in THIS case's timeline?
+   - Check: Is it in a Procédure/Faits/Procedure/Feiten section?
+   - Check: Does it reference the parties by name in context of THIS case?
+
+2. **If YES to any above → It is PROCEDURAL HISTORY**
+   - DO NOT count as expected citation
+   - DO NOT penalize extraction for omitting it
+   - Extraction correctly excluded it
+
+3. **Common procedural patterns that should NOT be penalized:**
+   - "Vu le jugement du [court] du [date]" (procedural viewing)
+   - "Gelet op het vonnis van [court] van [date]" (procedural viewing)
+   - "ayant appel du jugement de..." (appeal reference)
+   - "in hoger beroep tegen het vonnis..." (appeal reference)
+   - "[Applicant name] a été [action] par arrêt de..." (event in this case)
+   - "le jugement entrepris" / "het bestreden vonnis" (challenged judgment)
+   - "dans la présente affaire" / "in deze zaak" (this case)
+
+**If you're unsure → Apply the simple test from Step 6:**
+- References ANOTHER case for legal reasoning? → PRECEDENT (count it)
+- Describes event in CURRENT case? → PROCEDURAL HISTORY (don't count it)
 
 ---
 
@@ -882,7 +968,7 @@ This is the ONLY scenario where empty extraction should score 100.
 
 Compute recall and precision:
 - matched = count of citations in both source and extraction
-- expected = count of court citations (BE/EU/INT) in source
+- expected = count of PRECEDENT court citations (BE/EU/INT) in source
 - extracted = count of citedDecisions in extraction
 - recall = matched / max(expected, 1)
 - precision = matched / max(extracted, 1)
@@ -1015,31 +1101,47 @@ La Cour de cassation belge a confirmé cette approche dans son arrêt du 15 mars
 
 ---
 
-### Example 3: Procedural History Correctly Excluded
+### Example 3: Procedural History Correctly Excluded (Mixed Scenario)
 
 **Source text:**
 ```
 Vu le jugement du tribunal de première instance de Bruxelles du 15 janvier 2021,
 l'arrêt de la cour d'appel de Bruxelles du 20 juin 2022 dans la présente affaire...
+
+Conformément à la jurisprudence constante de la Cour de cassation, notamment son
+arrêt du 15 mars 2020 (C.19.0234.N), le principe de proportionnalité doit être respecté.
 ```
 
 **Extracted:**
 ```json
 {
-  "citedDecisions": []
+  "citedDecisions": [
+    {
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cour de cassation",
+      "date": "2020-03-15",
+      "caseNumber": "C.19.0234.N",
+      "treatment": "FOLLOWED"
+    }
+  ]
 }
 ```
 
 **Evaluation:**
-- Context: "Vu le jugement..." = procedural history section
-- These are procedural steps in THIS case (appeal chain)
-- These are NOT precedent citations
-- **Expected: 0 citations** (all are procedural history, correctly excluded)
-- **Extracted: 0 citations**
-- **Recall: 100%**
+- First two references: "Vu le jugement...", "l'arrêt... dans la présente affaire" = procedural history
+  - These are procedural steps in THIS case (appeal chain)
+  - These are NOT precedent citations
+  - **DO NOT COUNT these as expected citations**
+- Third reference: Cour de cassation with "conformément à" = PRECEDENT
+  - This IS a precedent citation (legal reasoning)
+  - **COUNT this as expected citation**
+- **Expected: 1 citation (only the precedent, NOT the procedural history)**
+- **Extracted: 1 citation (correctly omitted procedural history)**
+- **Recall: 1/1 = 100%**
 - **Score: 100/100**
 - **Verdict: PASS**
 - **Confidence: HIGH**
+- **Summary: "Perfect extraction: correctly distinguished precedent from procedural history"**
 
 ---
 
@@ -1112,6 +1214,44 @@ Cass., 15 maart 2022, P.14.1029.N
 
 ---
 
+### Example 6: Only Procedural History (Zero Precedents)
+
+**Source text:**
+```
+PROCÉDURE
+
+Vu le jugement du tribunal de première instance de Bruxelles du 10 janvier 2020.
+
+Vu l'arrêt de la cour d'appel de Bruxelles du 15 mars 2021 dans la présente affaire.
+
+Le demandeur a été placé en détention par décision du juge d'instruction du 
+20 février 2020.
+```
+
+**Extracted:**
+```json
+{
+  "citedDecisions": []
+}
+```
+
+**Evaluation:**
+- All references are in "PROCÉDURE" section
+- All references describe events in THIS case's timeline:
+  - Lower court judgment in THIS case
+  - Court of appeal decision in THIS case
+  - Detention order for applicant in THIS case
+- **None are precedent citations to OTHER cases**
+- **Expected: 0 citations** (all procedural history, correctly excluded)
+- **Extracted: 0 citations**
+- **Recall: 100% (0/0)**
+- **Score: 100/100**
+- **Verdict: PASS**
+- **Confidence: HIGH**
+- **Summary: "Correct extraction: all court references are procedural history, no precedents cited"**
+
+---
+
 ## Key Principles
 
 1. **Multi-jurisdiction scope** - Extract from Belgian (BE), EU, and International (INT) courts
@@ -1122,6 +1262,7 @@ Cass., 15 maart 2022, P.14.1029.N
 6. **100% recall target for precedents** - All precedent citations should be found
 7. **Zero hallucinations** - Only extract what's actually in source
 8. **Administrative bodies require decision numbers** - Must have formal decision identifier
+9. **Procedural history is correctly excluded** - Never penalize for omitting procedural references
 
 ---
 
@@ -1171,6 +1312,9 @@ For each court reference found in source:
 ❌ **WRONG:** Counting "Vu le jugement..." in procedural section as missing citation
 ✅ **CORRECT:** Recognizing this as procedural history, correctly excluded
 
+❌ **WRONG:** Counting "dans la présente affaire" references as missing citations
+✅ **CORRECT:** These are THIS case's events, correctly excluded
+
 ❌ **WRONG:** Flagging EU/INT courts as errors
 ✅ **CORRECT:** EU and International courts are IN SCOPE, should be extracted
 
@@ -1182,6 +1326,9 @@ For each court reference found in source:
 
 ❌ **WRONG:** Accepting administrative bodies without decision numbers
 ✅ **CORRECT:** Administrative bodies require formal decision numbers
+
+❌ **WRONG:** Penalizing omission of "le jugement entrepris" or "het bestreden vonnis"
+✅ **CORRECT:** These are the challenged judgment in THIS case, correctly excluded
 
 ---
 

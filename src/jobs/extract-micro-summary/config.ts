@@ -133,12 +133,12 @@ const config: JobConfig = {
    * Schema name for structured outputs
    */
   outputSchemaName: "micro_summary_extraction",
-
+  openaiProvider: "standard",
   /**
    * Provider and Model Configuration
    */
   provider: "openai",
-  model: "gpt-5-mini",
+  model: "gpt-5",
   maxCompletionTokens: 16000,
   reasoningEffort: "medium",
   verbosity: "low",

@@ -160,6 +160,12 @@ export class BatchJobGenerator {
       )}`;
 
       // Generate prompt using the template function
+      if (!this.config.promptTemplate) {
+        throw new Error(
+          `Job config must specify 'promptTemplate' for batch processing. ` +
+          `Job '${this.config.id}' uses customExecution which is not supported in batch mode.`
+        );
+      }
       const prompt = this.config.promptTemplate(row);
 
       // Determine model name (prefer 'model' field, fallback to 'deploymentName')

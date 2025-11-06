@@ -1,44 +1,48 @@
 import { JobConfig } from "../JobConfig.js";
 import { executeTwoStageExtraction } from "./two-stage-executor.js";
+import { TestSetLoader } from "../../utils/testSetLoader.js";
 
 /**
- * Extract Cited Decisions Job Configuration - Agent 3 - TWO-STAGE AGENTIC SNIPPET ARCHITECTURE
+ * Extract Cited Decisions Job Configuration - Agent 3 - REGEX + LLM VALIDATION ARCHITECTURE
  *
- * APPROACH: Separation of concerns via two focused LLM stages
+ * APPROACH: Fast regex extraction with LLM validation
  *
- * Stage 1: Agentic Snippet Creation (gpt-5-mini MEDIUM reasoning)
+ * Stage 1: Regex Extraction (instant, zero cost)
  *   - Scans complete decision markdown text (2K-80K chars)
- *   - Finds EVERY Belgian court citation (100% recall target)
- *   - Synthesizes enriched, self-contained snippets
- *   - Captures surrounding context (50-100 words) with treatment indicators
- *   - Filters out EU/international courts
- *   - Returns plain text snippet list
- *   - Task: Systematic extraction with context synthesis
+ *   - Finds ALL potential citations (BE, EU, INT) with 400-char context snippets
+ *   - Detects court names, dates, case numbers, ECLI codes via pattern matching
+ *   - Returns structured JSON with all extracted fields + confidence levels
+ *   - Task: Cast wide net for maximum recall
  *
- * Stage 2: Deterministic Parsing (gpt-5-mini MEDIUM reasoning)
- *   - Parses ONLY the enriched snippets (5-10K chars, 8-16x smaller)
- *   - Extracts court name, date, case number, ECLI verbatim
- *   - Classifies treatment based on context indicators
- *   - Returns citedDecisions array
- *   - Task: Complex parsing with treatment classification
+ * Stage 2: LLM Validation & Correction (gpt-5-mini MEDIUM reasoning)
+ *   - Validates regex-extracted JSON (verify fields are correct)
+ *   - Fixes parsing errors (date normalization, court name completion)
+ *   - Classifies treatment based on 400-char context indicators
+ *   - Filters false positives (paragraph refs, self-citations)
+ *   - Returns validated citedDecisions array
+ *   - Task: Quality control + treatment classification
  *
- * SCOPE: Belgian court decisions cited in judicial texts
+ * SCOPE: Belgian, EU, and International court decisions cited in judicial texts
  *
  * Extracts cited judicial decisions from Belgian court decisions:
  * - Court name (verbatim, in procedural language)
  * - Citation details (date, case number, ECLI)
  * - Treatment classification (FOLLOWED, DISTINGUISHED, OVERRULED, CITED, UNCERTAIN)
+ * - Jurisdiction (BE, EU, INT)
  * - Internal reference IDs (DEC-xxx-001, DEC-xxx-002, etc.)
  *
- * Exclusions:
- * - EU court decisions (CJEU, General Court)
- * - International court decisions (ECtHR, ICC)
- * - Foreign court decisions
+ * Included:
+ * - Belgian courts (Cass., GwH, RvS, etc.)
+ * - EU courts (CJUE, TUE, etc.)
+ * - International courts (CEDH, CIJ, etc.)
  *
  * Key Features:
- * - Better for long documents (no attention degradation)
- * - Better treatment classification (context-based)
- * - Easier to debug (inspect Stage 1 output)
+ * - Faster than dual-LLM approach (regex is instant)
+ * - Lower cost (one LLM call instead of two)
+ * - Better recall (regex casts wide net)
+ * - Better precision (LLM validates and corrects)
+ * - Easier to debug (inspect regex JSON before LLM)
+ * - 400-char context windows for accurate treatment classification
  * - Reserved null field for database mapping (decisionId)
  * - Verbatim extraction (no translation or standardization)
  * - Sequential internal IDs for cross-agent linking
@@ -49,7 +53,7 @@ const config: JobConfig = {
   id: "extract-cited-decisions",
 
   description:
-    "Two-stage agentic snippet extraction: Stage 1 finds all Belgian court citations with context (MEDIUM reasoning), Stage 2 parses to JSON and classifies treatment (MEDIUM reasoning). Target: 95-100/100 score.",
+    "Regex + LLM validation: Stage 1 regex extracts all citations (BE/EU/INT) with 400-char snippets (instant), Stage 2 LLM validates/corrects and classifies treatment (MEDIUM reasoning). Target: 95-100/100 score.",
 
   /**
    * Concurrency Configuration
@@ -80,15 +84,15 @@ const config: JobConfig = {
    * - Test/eval runs (197 decisions): false
    * - Full dataset (64k decisions): true
    */
-  useFullDataPipeline: true,
+  useFullDataPipeline: false,
 
   /**
    * Database Query
    *
-   * Pulls all decisions from the database with full markdown text.
-   * Includes metadata fields directly from decisions1 table for tracking.
+   * Pulls decisions from comprehensive-197.csv test set for evaluation.
+   * Uses unnest() to filter by (decision_id, language) pairs from test set.
    *
-   * This query selects all ~64,000 decisions with complete markdown content.
+   * This query selects 197 decisions from the stratified test set.
    */
   dbQuery: `
     SELECT
@@ -104,16 +108,28 @@ const config: JobConfig = {
     INNER JOIN decisions_md dm
       ON dm.decision_id = d.decision_id
       AND dm.language = d.language_metadata
-    WHERE dm.full_md IS NOT NULL
+    WHERE (d.decision_id, d.language_metadata) IN (
+      SELECT unnest($1::text[]), unnest($2::text[])
+    )
+      AND dm.full_md IS NOT NULL
       AND dm.full_md != ''
   `,
 
   /**
    * Database Query Parameters
    *
-   * No parameters needed - query selects all decisions directly.
+   * Loads comprehensive-197.csv test set and extracts decision IDs and languages.
+   * Returns [decisionIds[], languages[]] for unnest() query.
    */
-  dbQueryParams: [],
+  dbQueryParams: await (async () => {
+    const testSet = await TestSetLoader.loadTestSet('evals/test-sets/comprehensive-197.csv');
+    const summary = TestSetLoader.getSummary(testSet);
+    console.log(`📊 Extract Cited Decisions test set: ${summary.total} decisions`);
+    console.log(`   Languages: ${JSON.stringify(summary.byLanguage)}`);
+
+    const { decisionIds, languages } = TestSetLoader.toQueryParams(testSet);
+    return [decisionIds, languages];
+  })(),
 
   /**
    * Preprocess Row
@@ -225,9 +241,9 @@ const config: JobConfig = {
    * Schema for cited decisions with treatment classification.
    * Key features:
    * - Reserved null field (decisionId)
-   * - Internal IDs with strict regex patterns
-   * - Belgian courts only (courtJurisdictionCode: "BE")
-   * - Treatment classification enum (5 values)
+   * - Internal IDs constructed in postProcessRow
+   * - Multi-jurisdiction support (BE, EU, INT)
+   * - Treatment classification enum (5 values: FOLLOWED, DISTINGUISHED, OVERRULED, CITED, UNCERTAIN)
    * - Verbatim extraction requirements
    */
   outputSchema: {
@@ -276,12 +292,12 @@ const config: JobConfig = {
             // ========================================
             courtJurisdictionCode: {
               type: "string",
-              enum: ["BE"],
-              description: "Always BE for Belgian courts",
+              enum: ["BE", "EU", "INT"],
+              description: "BE for Belgian courts, EU for European courts, INT for International courts",
             },
             courtName: {
               type: "string",
-              minLength: 10,
+              minLength: 3,
               maxLength: 200,
               description: "Court name verbatim in procedural language",
             },
@@ -318,7 +334,7 @@ const config: JobConfig = {
               anyOf: [
                 {
                   type: "string",
-                  pattern: "^ECLI:BE:[A-Z]+:\\d{4}:.*$",
+                  pattern: "^ECLI:[A-Z]{2}:[A-Z0-9]+:\\d{4}:.*$",
                 },
                 {
                   type: "null",
@@ -364,6 +380,8 @@ const config: JobConfig = {
   provider: "openai",
   model: "gpt-5-mini",
   maxCompletionTokens: 64000, // Citations typically shorter output than provisions
+  reasoningEffort: "medium",         // Pattern recognition task
+  verbosity: "low",               // Concise responses preferred
 
   /**
    * Custom ID prefix

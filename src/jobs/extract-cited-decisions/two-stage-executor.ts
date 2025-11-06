@@ -1,21 +1,66 @@
 /**
- * Two-Stage Cited Decisions Extraction Executor
+ * Two-Stage Citation Extraction Executor
  *
- * Orchestrates Stage 1 (agentic snippet creation) and Stage 2 (deterministic parsing)
- * for the extract-cited-decisions job.
+ * NEW ARCHITECTURE: "Regex finds regions + LLM extracts everything"
  *
- * Stage 1: gpt-5-mini MEDIUM reasoning → plain text snippets
- * Stage 2: gpt-5-mini MEDIUM reasoning → structured JSON
+ * Stage 1: Regex → Detect 1200-char regions where citations likely exist
+ * Stage 2: LLM → Extract ALL structured fields from each region
+ *
+ * This approach:
+ * - Reduces regex complexity (just detection, not parsing)
+ * - Lets LLM handle complex date/case number parsing
+ * - Provides more context (1200 chars vs 400 chars)
+ * - Better for cases where citation info spans multiple sentences
  */
 
 import { OpenAIConcurrentClient } from "../../concurrent/OpenAIConcurrentClient.js";
-import { AzureConfig } from "../../config/azure.js";
 import { extractJsonFromResponse } from "../../utils/validators.js";
-import { STAGE_1_AGENTIC_SNIPPETS_PROMPT } from "./stage1-prompt.js";
+import { detectCitationRegions, CitationRegion } from "./regex-extractor.js";
 import { STAGE_2_PARSING_PROMPT } from "./stage2-prompt.js";
 
 /**
+ * Format citation regions for Stage 2 LLM
+ *
+ * Converts CitationRegion[] to formatted text for LLM prompt.
+ * Each region includes: 1200-char text window, trigger metadata, confidence hints.
+ *
+ * @param regions Array of citation regions from regex detection
+ * @returns Formatted text for Stage 2 prompt
+ */
+function formatRegionsForStage2(regions: CitationRegion[]): string {
+  if (regions.length === 0) {
+    return "NO_REGIONS_FOUND";
+  }
+
+  const formattedRegions = regions.map(region => {
+    // Format trigger list
+    const triggerList = region.triggers.map(t =>
+      `${t.type}: "${t.text}" @pos ${t.position}`
+    ).join(', ');
+
+    // Build region description
+    return `
+REGION ${region.regionId}:
+- Trigger Type: ${region.triggerType}
+- Confidence: ${region.confidence}
+- Potential Jurisdiction: ${region.potentialJurisdiction || 'UNKNOWN'}
+- Triggers Found: ${triggerList}
+- Text Window (1200 chars):
+
+${region.text}
+
+---`;
+  });
+
+  return formattedRegions.join('\n\n');
+}
+
+/**
  * Execute two-stage cited decisions extraction
+ *
+ * NEW ARCHITECTURE:
+ * Stage 1: Regex detects regions where citations likely exist (1200-char windows)
+ * Stage 2: LLM extracts ALL fields from each region (court, date, case number, ECLI, treatment)
  *
  * @param row Database row with decision data
  * @param client OpenAI concurrent client
@@ -25,78 +70,30 @@ export async function executeTwoStageExtraction(
   row: any,
   client: OpenAIConcurrentClient
 ): Promise<{ citedDecisions: any[] }> {
-  // Fill Stage 1 prompt with decision data
-  // Use replaceAll() to handle multiple occurrences of placeholders
-  const stage1Prompt = STAGE_1_AGENTIC_SNIPPETS_PROMPT
-    .replaceAll("{decisionId}", row.decision_id || "")
-    .replaceAll("{proceduralLanguage}", row.language_metadata || "FR")
-    .replaceAll("{fullText.markdown}", row.full_md || "");
+  // Stage 1: Regex detection - find text regions containing potential citations
+  const { regions, stats } = detectCitationRegions(
+    row.full_md || "",
+    row.decision_id || ""
+  );
 
-  // Stage 1: Call OpenAI SDK directly for plain text output
-  // NOTE: We don't use the passed 'client' here because:
-  //   - OpenAIConcurrentClient.complete() requires responseFormat (json_schema/json_object)
-  //   - Stage 1 needs plain text output (no structured format)
-  //   - Direct SDK call is simplest for this use case
-  // TODO: If this needs to support non-Azure providers, add provider detection
-  const openaiClient = AzureConfig.getClient();
-  const deployment = AzureConfig.getDeployment();
-
-  const stage1Response = await openaiClient.responses.create({
-    model: deployment,
-    input: [
-      {
-        role: "user",
-        content: [
-          {
-            type: "input_text",
-            text: stage1Prompt,
-          },
-        ],
-      },
-    ],
-    reasoning: {
-      effort: "medium", // MEDIUM reasoning - Stage 1 is systematic scanning + synthesis
-    },
-  });
-
-  // Extract snippets from Stage 1 response
-  // Pass raw output directly to Stage 2 (no parsing/formatting)
-  let snippets = "";
-  if (stage1Response.output_text) {
-    snippets = stage1Response.output_text;
-  } else if (Array.isArray(stage1Response.output)) {
-    // Fallback: stitch text pieces
-    const pieces: string[] = [];
-    for (const item of stage1Response.output) {
-      if ('content' in item && Array.isArray(item.content)) {
-        for (const c of item.content) {
-          if (c?.type === "output_text" && typeof c.text === "string") {
-            pieces.push(c.text);
-          }
-        }
-      }
-    }
-    snippets = pieces.join("");
-  }
-
-  const trimmedSnippets = snippets.trim();
-
-  if (
-    trimmedSnippets === "" ||
-    trimmedSnippets === "NO_SNIPPETS_FOUND" ||
-    trimmedSnippets === "NO_SNIPPETS_FOUND."
-  ) {
+  // If no regions found, return empty array
+  if (regions.length === 0) {
     return { citedDecisions: [] };
   }
 
-  // Fill Stage 2 prompt with snippets from Stage 1
+  // Format citation regions for Stage 2 LLM
+  const formattedRegions = formatRegionsForStage2(regions);
+
+  // Fill Stage 2 prompt with citation regions
   // Use replaceAll() to handle multiple occurrences of placeholders
   const stage2Prompt = STAGE_2_PARSING_PROMPT
     .replaceAll("{decisionId}", row.decision_id || "")
     .replaceAll("{proceduralLanguage}", row.language_metadata || "FR")
-    .replaceAll("{agenticSnippets}", snippets);
+    .replaceAll("{citationRegions}", formattedRegions)
+    .replaceAll("{regionCount}", String(regions.length))
+    .replaceAll("{triggerStats}", JSON.stringify(stats, null, 2));
 
-  // Stage 2: Use client's complete() with JSON schema
+  // Stage 2: LLM extraction - parse all fields from regions
   // (This path is already optimized in OpenAIConcurrentClient)
   const stage2Response = await client.complete(
     [
@@ -132,8 +129,8 @@ export async function executeTwoStageExtraction(
                 properties: {
                   decisionId: { type: "null" },
                   decisionSequence: { type: "integer", minimum: 1, maximum: 9999 },
-                  courtJurisdictionCode: { type: "string", enum: ["BE"] },
-                  courtName: { type: "string", minLength: 10, maxLength: 200 },
+                  courtJurisdictionCode: { type: "string", enum: ["BE", "EU", "INT"] },
+                  courtName: { type: "string", minLength: 3, maxLength: 200 },
                   date: {
                     anyOf: [
                       { type: "string", pattern: "^\\d{4}-\\d{2}-\\d{2}$" },
@@ -148,7 +145,7 @@ export async function executeTwoStageExtraction(
                   },
                   ecli: {
                     anyOf: [
-                      { type: "string", pattern: "^ECLI:BE:[A-Z]+:\\d{4}:.*$" },
+                      { type: "string", pattern: "^ECLI:[A-Z]{2}:[A-Z0-9]+:\\d{4}:.*$" },
                       { type: "null" },
                     ],
                   },
@@ -171,7 +168,7 @@ export async function executeTwoStageExtraction(
       },
     },
     {
-      reasoningEffort: "medium", // MEDIUM reasoning - Stage 2 does treatment classification (complex)
+      reasoningEffort: "medium", // MEDIUM reasoning - LLM does full extraction + treatment classification
       maxOutputTokens: 64000,
     }
   );
