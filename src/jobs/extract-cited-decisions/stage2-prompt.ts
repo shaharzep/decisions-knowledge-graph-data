@@ -44,18 +44,25 @@ Each region is a 1200-character text window where regex detected potential citat
 A valid citation must have:
 ✅ **Court/body name** from the scope list (Belgian, EU, or International courts)
 ✅ **At least ONE identifier**: date, case number, OR ECLI
-✅ **Context indicating precedent citation** (not procedural history or bare reference)
+✅ **Context indicating citation** (can be precedent OR procedural - extract BOTH)
+
+**IMPORTANT**: Extract BOTH types of citations:
+1. **PRECEDENT**: Citations to other cases for legal authority
+2. **PROCEDURAL**: Citations to events in current case's timeline
 
 **What to extract:**
 
-Example text: "La Cour rappelle que, conformément à son arrêt du 15 mars 2022 (C.21.0789.N), l'obligation..."
-→ Extract: Cass., 2022-03-15, C.21.0789.N, FOLLOWED
+Example 1 (PRECEDENT): "La Cour rappelle que, conformément à son arrêt du 15 mars 2022 (C.21.0789.N), l'obligation..."
+→ Extract: Cass., 2022-03-15, C.21.0789.N, FOLLOWED, type: PRECEDENT
+
+Example 2 (PROCEDURAL): "Le prévenu fut libéré par arrêt de la Chambre du 12 janvier 2021"
+→ Extract: Chambre, 2021-01-12, null, CITED, type: PROCEDURAL
 
 **What NOT to extract:**
-- Procedural history: "fut libéré par arrêt de la Chambre du 12 janvier 2021" (event in current case)
 - Bare references: "selon le Hof van Cassatie" (no identifier)
 - Legal provisions: "article 31 de la loi du 15 juin 1935" (not a court decision)
 - Self-references: Citations to {decisionId} itself
+- Foreign national courts: French Cour de cassation, German courts, US courts
 
 ### 2. Extract Court Name (Verbatim)
 
@@ -162,6 +169,47 @@ Analyze the context around the citation to determine how the current court treat
 
 **Priority order**: OVERRULED > DISTINGUISHED > FOLLOWED > CITED > UNCERTAIN
 
+### 8. Classify Type (PRECEDENT vs PROCEDURAL)
+
+Determine whether the citation is used for legal authority or describes procedural history:
+
+**PRECEDENT** - Citation to another case for legal reasoning/authority:
+
+**Purpose**: Support legal principle, establish authority, distinguish precedent, build legal argument
+
+**Indicators:**
+- FR: "conformément à l'arrêt", "selon la jurisprudence", "comme l'a jugé", "la Cour a décidé que", "il ressort de l'arrêt que", "en application de", "suivant la jurisprudence"
+- NL: "overeenkomstig het arrest", "volgens de rechtspraak", "zoals geoordeeld", "het Hof heeft beslist dat", "blijkt uit het arrest dat", "in toepassing van", "volgens vaste rechtspraak"
+- Context: Legal reasoning section, discussion of applicable law, interpretation guidance
+- Timing: Usually older decisions (months/years prior to current case)
+
+**Examples:**
+- "La Cour rappelle que, conformément à son arrêt du 15 mars 2022, l'obligation..."
+- "Volgens het arrest van het Hof van Cassatie van 12 januari 2020 moet..."
+- "En application de la jurisprudence constante (Cass., 5 juin 2018), il convient..."
+
+**PROCEDURAL** - Citation describes an event in the current case's procedural timeline:
+
+**Purpose**: Describe what happened in THIS case, track procedural history, reference prior decisions in current case
+
+**Indicators:**
+- FR: "fut libéré par arrêt de", "a été condamné par", "dont appel", "jugement entrepris", "la décision attaquée", "l'arrêt dont pourvoi", "par ordonnance du", "statuant sur appel"
+- NL: "werd vrijgelaten door arrest van", "veroordeeld door", "waarvan beroep", "bestreden vonnis", "de aangevochten beslissing", "het arrest waartegen cassatieberoep", "bij beschikking van"
+- Context: Procedural history section, timeline of current case, prior stages of THIS case
+- Timing: Usually recent decisions (days/weeks before current decision), same parties
+
+**Examples:**
+- "Le prévenu fut libéré par arrêt de la Chambre du 12 janvier 2021" (defendant's release)
+- "De beklaagde werd veroordeeld door de Correctionele Rechtbank te Antwerpen bij vonnis van 5 maart 2022" (conviction in current case)
+- "Par jugement du tribunal de première instance du 10 juin 2023, dont appel..." (prior stage of current case)
+
+**Decision tree:**
+1. Is the citation in the procedural history section? → Likely PROCEDURAL
+2. Does it describe an event/decision involving the SAME parties in THIS case? → PROCEDURAL
+3. Is it used to support a legal principle or interpretation? → PRECEDENT
+4. Does it reference jurisprudence/case law for authority? → PRECEDENT
+5. If unclear, default to PRECEDENT (more common in legal reasoning)
+
 ---
 
 ## SCOPE REFERENCE
@@ -194,16 +242,17 @@ Analyze the context around the citation to determine how the current court treat
 ## FILTERING & VALIDATION
 
 **Remove citations that:**
-1. ❌ Cite {decisionId} itself (self-reference)
-2. ❌ Are procedural history events ("werd vrijgelaten door arrest van...")
-3. ❌ Are bare court mentions without identifier ("selon la Cour de cassation")
-4. ❌ Are legal provisions ("article 31 de la loi")
-5. ❌ Are reports/correspondence ("rapport de la Commission")
-6. ❌ Cite foreign national courts (French, German, US courts)
+1. ❌ Cite {decisionId} itself (self-reference to current decision)
+2. ❌ Are bare court mentions without identifier ("selon la Cour de cassation")
+3. ❌ Are legal provisions ("article 31 de la loi du 15 juin 1935")
+4. ❌ Are reports/correspondence without decision number ("rapport de la Commission")
+5. ❌ Cite foreign national courts (French Cour de cassation, German courts, US courts)
 
-**Keep citations even if:**
-- ✅ Only one identifier present (date OR case number OR ECLI is enough if court name is clear)
-- ✅ From administrative bodies with decision numbers
+**Extract ALL citations including:**
+- ✅ Precedent citations (legal authority)
+- ✅ Procedural citations (timeline events in current case) - classify as type: PROCEDURAL
+- ✅ Citations with only one identifier (date OR case number OR ECLI is enough if court name is clear)
+- ✅ Administrative bodies with decision numbers
 - ✅ Multiple citations in same region (extract each separately)
 
 ---
@@ -223,7 +272,8 @@ Return ONLY valid JSON:
       "date": "2022-03-15",
       "caseNumber": "C.21.0789.N",
       "ecli": "ECLI:BE:CASS:2022:ARR.20220315.1N.4",
-      "treatment": "FOLLOWED"
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT"
     }
   ]
 }
@@ -238,6 +288,7 @@ Return ONLY valid JSON:
 - **caseNumber**: Verbatim or null (3-100 chars)
 - **ecli**: Valid ECLI format or null
 - **treatment**: One of: FOLLOWED, DISTINGUISHED, OVERRULED, CITED, UNCERTAIN
+- **type**: Must be "PRECEDENT" or "PROCEDURAL"
 
 **If no valid citations found**: Return \`{"citedDecisions": []}\`
 
@@ -262,7 +313,8 @@ Return ONLY valid JSON:
       "date": "2022-03-15",
       "caseNumber": "C.21.0789.N",
       "ecli": "ECLI:BE:CASS:2022:ARR.20220315.1N.4",
-      "treatment": "FOLLOWED"
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT"
     }
   ]
 }
@@ -275,6 +327,7 @@ Return ONLY valid JSON:
 - ECLI: Explicitly present ✓
 - Jurisdiction: BE (from ECLI:BE:...) ✓
 - Treatment: FOLLOWED (indicator: "conformément à son arrêt") ✓
+- Type: PRECEDENT (cites prior case for legal principle) ✓
 
 ### Example 2: Court+Date Citation (No ECLI)
 
@@ -293,7 +346,8 @@ Return ONLY valid JSON:
       "date": "2021-01-12",
       "caseNumber": null,
       "ecli": null,
-      "treatment": "CITED"
+      "treatment": "CITED",
+      "type": "PRECEDENT"
     }
   ]
 }
@@ -306,6 +360,7 @@ Return ONLY valid JSON:
 - ECLI: Not mentioned → null ✓
 - Jurisdiction: BE (Belgian appeal court) ✓
 - Treatment: CITED (indicator: "Zie ook" = simple reference) ✓
+- Type: PRECEDENT (cites prior case for legal reasoning) ✓
 
 ### Example 3: Multiple Citations in One Region
 
@@ -324,7 +379,8 @@ Return ONLY valid JSON:
       "date": "2022-03-15",
       "caseNumber": "C.21.0789.N",
       "ecli": null,
-      "treatment": "FOLLOWED"
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT"
     },
     {
       "decisionId": null,
@@ -334,7 +390,8 @@ Return ONLY valid JSON:
       "date": "2018-06-20",
       "caseNumber": "C-123/17",
       "ecli": null,
-      "treatment": "FOLLOWED"
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT"
     }
   ]
 }
@@ -345,8 +402,9 @@ Return ONLY valid JSON:
 - Both extracted with sequential IDs (1, 2) ✓
 - Different jurisdictions (BE, EU) ✓
 - Treatment: FOLLOWED (indicator: "confirme que") ✓
+- Type: PRECEDENT (both cite prior cases for legal authority) ✓
 
-### Example 4: False Positive - Procedural History
+### Example 4: Procedural Citation (Timeline Event)
 
 **Region Text:**
 "...Le prévenu fut libéré par arrêt de la Kamer van inbeschuldigingstelling du 12 janvier 2021. La défense a ensuite introduit une demande de mise en liberté..."
@@ -354,14 +412,30 @@ Return ONLY valid JSON:
 **Extraction:**
 \`\`\`json
 {
-  "citedDecisions": []
+  "citedDecisions": [
+    {
+      "decisionId": null,
+      "decisionSequence": 1,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Kamer van inbeschuldigingstelling",
+      "date": "2021-01-12",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PROCEDURAL"
+    }
+  ]
 }
 \`\`\`
 
 **Reasoning:**
-- This describes an event in the CURRENT case (procedural history) ✗
-- "fut libéré par arrêt" = release event, not precedent citation ✗
-- No valid precedent citation found → empty array ✓
+- Court: "Kamer van inbeschuldigingstelling" (Belgian court) ✓
+- Date: "12 janvier 2021" → 2021-01-12 ✓
+- Case number: Not mentioned → null ✓
+- ECLI: Not mentioned → null ✓
+- Jurisdiction: BE (Belgian court) ✓
+- Treatment: CITED (neutral mention of procedural event) ✓
+- Type: PROCEDURAL (describes release event in current case's timeline) ✓
 
 ### Example 5: Administrative Body Decision
 
@@ -380,7 +454,8 @@ Return ONLY valid JSON:
       "date": "2013-02-20",
       "caseNumber": "Advies nr. 07/2013",
       "ecli": null,
-      "treatment": "FOLLOWED"
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT"
     }
   ]
 }
@@ -390,6 +465,7 @@ Return ONLY valid JSON:
 - Admin body with decision number is valid ✓
 - Decision number "Advies nr. 07/2013" is the case number ✓
 - Treatment: FOLLOWED (indicator: "a considéré que") ✓
+- Type: PRECEDENT (cites admin decision for legal authority on data protection) ✓
 
 ---
 
@@ -402,10 +478,12 @@ Before outputting, verify:
 - ✅ All case numbers are verbatim or null (no paragraph refs)
 - ✅ All ECLI codes match pattern or null
 - ✅ All treatment values are valid enum values
+- ✅ All type values are "PRECEDENT" or "PROCEDURAL"
 - ✅ Sequences are 1, 2, 3... with no gaps
 - ✅ No self-references to {decisionId}
-- ✅ No procedural history events
+- ✅ BOTH precedent and procedural citations extracted
 - ✅ No bare court mentions without identifiers
+- ✅ Type classification matches context (precedent = legal authority, procedural = timeline event)
 
 **Output JSON only. No markdown fences, no explanations.**
 `;

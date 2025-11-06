@@ -238,13 +238,15 @@ const config: JobConfig = {
   /**
    * Output JSON Schema
    *
-   * Schema for cited decisions with treatment classification.
+   * Schema for cited decisions with treatment and type classification.
    * Key features:
    * - Reserved null field (decisionId)
    * - Internal IDs constructed in postProcessRow
    * - Multi-jurisdiction support (BE, EU, INT)
    * - Treatment classification enum (5 values: FOLLOWED, DISTINGUISHED, OVERRULED, CITED, UNCERTAIN)
+   * - Type classification enum (2 values: PRECEDENT, PROCEDURAL)
    * - Verbatim extraction requirements
+   * - Extracts BOTH precedent citations (legal authority) and procedural citations (timeline events)
    */
   outputSchema: {
     type: "object",
@@ -265,6 +267,7 @@ const config: JobConfig = {
             "caseNumber",
             "ecli",
             "treatment",
+            "type",
           ],
           additionalProperties: false,
           properties: {
@@ -356,6 +359,15 @@ const config: JobConfig = {
                 "UNCERTAIN",
               ],
               description: "How current court treats cited decision",
+            },
+
+            // ========================================
+            // CITATION TYPE CLASSIFICATION
+            // ========================================
+            type: {
+              type: "string",
+              enum: ["PRECEDENT", "PROCEDURAL"],
+              description: "PRECEDENT: Citation to another case for legal authority. PROCEDURAL: Citation to event in current case's timeline.",
             },
           },
         },

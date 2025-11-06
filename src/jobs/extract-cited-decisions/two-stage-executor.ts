@@ -124,6 +124,7 @@ export async function executeTwoStageExtraction(
                   "caseNumber",
                   "ecli",
                   "treatment",
+                  "type",
                 ],
                 additionalProperties: false,
                 properties: {
@@ -159,6 +160,10 @@ export async function executeTwoStageExtraction(
                       "UNCERTAIN",
                     ],
                   },
+                  type: {
+                    type: "string",
+                    enum: ["PRECEDENT", "PROCEDURAL"],
+                  },
                 },
               },
             },
@@ -168,7 +173,7 @@ export async function executeTwoStageExtraction(
       },
     },
     {
-      reasoningEffort: "medium", // MEDIUM reasoning - LLM does full extraction + treatment classification
+      reasoningEffort: "high", // MEDIUM reasoning - LLM does full extraction + treatment + type classification
       maxOutputTokens: 64000,
     }
   );
