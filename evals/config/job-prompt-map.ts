@@ -42,6 +42,9 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
   // HTML Structure Conversion: Markdown to structured HTML
   'structure-full-html': 'llm-as-a-judge_structure-html.md',
 
+  // Markdown cleaning prior to HTML conversion
+  'clean-decision-markdown': 'llm-as-a-judge_clean-markdown.md',
+
   // Stage 5 (uncomment when ready)
   // 'extract-stage5': 'llm-as-a-judge_STAGE 5.md',
 

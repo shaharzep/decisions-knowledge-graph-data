@@ -1,5 +1,5 @@
 /**
- * Belgian Court Decision Reference Extractor
+ * Belgian Court Decision Reference Extractor - this is the one being used. 
  *
  * Production-tested regex extraction of legal references from Belgian/EU court decisions.
  * Ported from N8N code node with zero changes to validation logic.

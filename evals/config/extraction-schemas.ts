@@ -96,6 +96,13 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
   'structure-full-html': [
     'html',                   // Structured HTML fragment with semantic CSS classes
   ],
+
+  /**
+   * Markdown Cleaning: Remove LaTeX before HTML conversion
+   */
+  'clean-decision-markdown': [
+    'cleanedMarkdown',        // Markdown with LaTeX removed/converted
+  ],
 };
 
 /**
