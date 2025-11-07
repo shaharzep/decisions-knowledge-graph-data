@@ -1,6 +1,41 @@
 import { JobConfig } from "../JobConfig.js";
 import { executeTwoStageExtraction } from "./two-stage-executor.js";
-import { TestSetLoader } from "../../utils/testSetLoader.js";
+import { loadProcessedIds } from "../../load-processed-ids.js";
+
+/**
+ * Helper: Extract decision date from ECLI code
+ *
+ * ECLI format: ECLI:BE:CASS:2001:ARR.20010131.9
+ * Extracts: 20010131 → 2001-01-31
+ *
+ * Used to filter self-citations by date matching in postProcessRow.
+ */
+function extractDateFromECLI(ecli: string): string | null {
+  if (!ecli || !ecli.startsWith('ECLI:')) return null;
+
+  const parts = ecli.split(':');
+  if (parts.length < 5) return null;
+
+  // Get identifier part (5th segment, index 4)
+  const identifier = parts[4];
+
+  // Look for 8-digit date pattern (YYYYMMDD)
+  const dateMatch = identifier.match(/(\d{8})/);
+  if (!dateMatch) return null;
+
+  const dateStr = dateMatch[1];
+  const year = dateStr.substring(0, 4);
+  const month = dateStr.substring(4, 6);
+  const day = dateStr.substring(6, 8);
+
+  return `${year}-${month}-${day}`;
+}
+
+/**
+ * Load already-processed decisions to resume from where we left off
+ */
+const { decisionIds: processedDecisionIds, languages: processedLanguages } = await loadProcessedIds();
+console.log(`📊 Excluding ${processedDecisionIds.length} already-processed decisions from query`);
 
 /**
  * Extract Cited Decisions Job Configuration - Agent 3 - REGEX + LLM VALIDATION ARCHITECTURE
@@ -84,15 +119,16 @@ const config: JobConfig = {
    * - Test/eval runs (197 decisions): false
    * - Full dataset (64k decisions): true
    */
-  useFullDataPipeline: false,
+  useFullDataPipeline: true,
 
   /**
    * Database Query
    *
-   * Pulls decisions from comprehensive-197.csv test set for evaluation.
-   * Uses unnest() to filter by (decision_id, language) pairs from test set.
+   * Pulls all decisions from the database with full markdown text.
+   * Includes metadata fields directly from decisions1 table for tracking.
    *
-   * This query selects 197 decisions from the stratified test set.
+   * This query selects all ~64,000 decisions with complete markdown content.
+   * Excludes already-processed decisions using (decision_id, language) pairs.
    */
   dbQuery: `
     SELECT
@@ -108,28 +144,20 @@ const config: JobConfig = {
     INNER JOIN decisions_md dm
       ON dm.decision_id = d.decision_id
       AND dm.language = d.language_metadata
-    WHERE (d.decision_id, d.language_metadata) IN (
-      SELECT unnest($1::text[]), unnest($2::text[])
-    )
-      AND dm.full_md IS NOT NULL
+    WHERE dm.full_md IS NOT NULL
       AND dm.full_md != ''
+      AND (d.decision_id, d.language_metadata) NOT IN (
+        SELECT unnest($1::text[]), unnest($2::text[])
+      )
   `,
 
   /**
    * Database Query Parameters
    *
-   * Loads comprehensive-197.csv test set and extracts decision IDs and languages.
-   * Returns [decisionIds[], languages[]] for unnest() query.
+   * Passes arrays of already-processed (decision_id, language) pairs to exclude.
+   * Parameters: [$1 = decisionIds array, $2 = languages array]
    */
-  dbQueryParams: await (async () => {
-    const testSet = await TestSetLoader.loadTestSet('evals/test-sets/comprehensive-197.csv');
-    const summary = TestSetLoader.getSummary(testSet);
-    console.log(`📊 Extract Cited Decisions test set: ${summary.total} decisions`);
-    console.log(`   Languages: ${JSON.stringify(summary.byLanguage)}`);
-
-    const { decisionIds, languages } = TestSetLoader.toQueryParams(testSet);
-    return [decisionIds, languages];
-  })(),
+  dbQueryParams: [processedDecisionIds, processedLanguages],
 
   /**
    * Preprocess Row
@@ -193,14 +221,17 @@ const config: JobConfig = {
   },
 
   /**
-   * Post-Processing: Construct IDs from Sequences
+   * Post-Processing: Filter Self-Citations & Construct IDs
    *
-   * This is where deterministic ID construction happens - the LLM only outputs
-   * simple integer sequences, then TypeScript constructs the full IDs with
-   * guaranteed-correct decisionId string concatenation.
+   * Step 1: Filter self-citations by date matching
+   *   - Extract decision date from ECLI
+   *   - Remove citations with same date as current decision
+   *   - Re-sequence remaining citations (1, 2, 3...)
    *
-   * This eliminates all ID truncation/corruption errors because the LLM never
-   * touches decisionId string manipulation.
+   * Step 2: Construct IDs from sequences
+   *   - LLM outputs simple integer sequences
+   *   - TypeScript constructs full IDs with guaranteed-correct format
+   *   - Eliminates ID truncation/corruption errors
    */
   postProcessRow: (row, result) => {
     const decisionId = row.decision_id;
@@ -214,14 +245,37 @@ const config: JobConfig = {
       return result;
     }
 
-    // Validate sequences exist
+    // Step 1: Filter self-citations by date matching
+    const decisionDate = extractDateFromECLI(decisionId);
+
+    if (decisionDate) {
+      // Filter out citations with same date as current decision
+      const originalCount = result.citedDecisions.length;
+      result.citedDecisions = result.citedDecisions.filter(
+        (citation: any) => citation.date !== decisionDate
+      );
+
+      // Log if any self-citations were filtered
+      const filteredCount = originalCount - result.citedDecisions.length;
+      if (filteredCount > 0) {
+        console.log(`[${decisionId}] Filtered ${filteredCount} self-citation(s) by date match (${decisionDate})`);
+      }
+
+      // Re-sequence to fill gaps (1, 2, 3...)
+      result.citedDecisions = result.citedDecisions.map((citation: any, index: number) => ({
+        ...citation,
+        decisionSequence: index + 1
+      }));
+    }
+
+    // Step 2: Validate sequences exist
     for (const citation of result.citedDecisions) {
       if (typeof citation.decisionSequence !== 'number') {
         throw new Error(`Missing or invalid decisionSequence: ${JSON.stringify(citation)}`);
       }
     }
 
-    // Construct IDs with guaranteed-correct format
+    // Step 3: Construct IDs with guaranteed-correct format
     result.citedDecisions = result.citedDecisions.map((citation: any) => {
       const seq = String(citation.decisionSequence).padStart(3, '0');
 
@@ -383,17 +437,21 @@ const config: JobConfig = {
   /**
    * Provider and Model Configuration
    *
-   * Note: Two-stage execution specifies reasoning effort per stage:
-   *   - Stage 1: MEDIUM (systematic extraction with context synthesis)
-   *   - Stage 2: MEDIUM (complex parsing with treatment classification)
+   * Note: Two-stage execution with HIGH reasoning effort:
+   *   - Stage 1: Region detection (regex - instant, zero cost)
+   *   - Stage 2: Field extraction + treatment + type classification (gpt-5-mini HIGH reasoning)
    *
-   * Both use MEDIUM to handle the complexity accurately.
+   * HIGH reasoning needed for:
+   *   - Complex date format parsing (15 mars 2022 → 2022-03-15)
+   *   - Treatment classification from context
+   *   - Type classification (PRECEDENT vs PROCEDURAL)
+   *   - Self-reference detection
    */
   provider: "openai",
   model: "gpt-5-mini",
   maxCompletionTokens: 64000, // Citations typically shorter output than provisions
-  reasoningEffort: "medium",         // Pattern recognition task
-  verbosity: "low",               // Concise responses preferred
+  reasoningEffort: "high",    // HIGH reasoning for complex extraction + dual classification
+  verbosity: "low",           // Concise responses preferred
 
   /**
    * Custom ID prefix

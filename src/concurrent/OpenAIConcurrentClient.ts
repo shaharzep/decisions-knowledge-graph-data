@@ -32,17 +32,19 @@ export class OpenAIConcurrentClient {
     }
   ) {
     const provider = options?.openaiProvider || 'azure';
+    const model = options?.model;
 
     if (provider === 'standard') {
       // Use standard OpenAI (api.openai.com)
       this.client = OpenAIConfig.getClient();
-      this.defaultDeployment = options?.model || OpenAIConfig.getModel();
+      this.defaultDeployment = model || OpenAIConfig.getModel();
       this.logger = new JobLogger(`OpenAI:${jobId}`);
     } else {
       // Use Azure OpenAI (default for backward compatibility)
-      this.client = AzureConfig.getClient();
-      this.defaultDeployment = options?.model || AzureConfig.getDeployment();
-      this.logger = new JobLogger(`AzureOpenAI:${jobId}`);
+      // Pass model to get model-specific client and deployment
+      this.client = AzureConfig.getClient(model);
+      this.defaultDeployment = AzureConfig.getDeployment(model);
+      this.logger = new JobLogger(`AzureOpenAI:${jobId}:${model || 'default'}`);
     }
   }
 

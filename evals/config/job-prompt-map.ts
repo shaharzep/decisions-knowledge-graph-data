@@ -39,6 +39,9 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
   // Agent 6: Micro-summary extraction
   'extract-micro-summary': 'llm-as-a-judge_MICRO-SUMMARY.md',
 
+  // HTML Structure Conversion: Markdown to structured HTML
+  'structure-full-html': 'llm-as-a-judge_structure-html.md',
+
   // Stage 5 (uncomment when ready)
   // 'extract-stage5': 'llm-as-a-judge_STAGE 5.md',
 

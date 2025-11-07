@@ -89,6 +89,13 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
     'language',               // Procedural language (from metadata)
     'microSummary',           // Concise 2-4 sentence summary (50-800 chars)
   ],
+
+  /**
+   * HTML Structure Conversion: Markdown to structured HTML
+   */
+  'structure-full-html': [
+    'html',                   // Structured HTML fragment with semantic CSS classes
+  ],
 };
 
 /**
