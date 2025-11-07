@@ -1,15 +1,13 @@
 import { JobConfig } from "../JobConfig.js";
-import { ENRICH_PROVISIONS_PROMPT } from "./prompt.js";
-import { extractLegalReferences, hasAnyReferences } from "../../utils/legalReferenceExtractor.js";
-import { extractJsonFromResponse } from "../../utils/validators.js";
+import { ReferenceExtractorN8N } from "../../utils/referenceExtractorN8N.js";
 import fs from "fs";
 import path from "path";
 
 /**
- * Get latest concurrent run timestamp for a job
+ * Get latest full-data run timestamp for a job
  */
-function getLatestConcurrentTimestamp(jobId: string, model: string = 'gpt-5-mini'): string | null {
-  const resultsDir = path.join(process.cwd(), 'concurrent', 'results', jobId, model);
+function getLatestFullDataTimestamp(jobId: string): string | null {
+  const resultsDir = path.join(process.cwd(), 'full-data', jobId);
 
   if (!fs.existsSync(resultsDir)) {
     return null;
@@ -27,116 +25,174 @@ function getLatestConcurrentTimestamp(jobId: string, model: string = 'gpt-5-mini
  * Load successful provision results from latest concurrent run
  *
  * Returns array of (decision_id, language) pairs for composite key matching.
- * Only includes records that have citedProvisions data (successful extractions).
+ * Reads decision_id and language directly from JSON content (more reliable than parsing filenames).
  */
-function loadSuccessfulProvisions(timestamp: string): Array<{ decision_id: string; language: string }> {
+function loadSuccessful2ADecisions(timestamp: string): Array<{ decision_id: string; language: string }> {
   const resultPath = path.join(
     process.cwd(),
-    'concurrent/results/extract-provisions-2a/gpt-5-mini',
+    'full-data/extract-provisions-2a',
     timestamp,
-    'extracted-data.json'
+    'jsons'
   );
 
   if (!fs.existsSync(resultPath)) {
-    throw new Error(`Results file not found: ${resultPath}\n\nPlease verify the extract-provisions-2a run completed successfully.`);
+    throw new Error(`Full-data results not found: ${resultPath}\n\nPlease verify the extract-provisions-2a run completed successfully with full-data pipeline.`);
   }
 
-  const data = JSON.parse(fs.readFileSync(resultPath, 'utf-8'));
+  const jsonFiles = fs.readdirSync(resultPath).filter(f => f.endsWith('.json'));
 
-  // Extract decision_id + language pairs from successful records
-  const pairs = data
-    .filter((record: any) => record.citedProvisions !== undefined)
-    .map((record: any) => ({
-      decision_id: record.decision_id,
-      language: record.language || record.language_metadata
-    }))
-    .filter((pair: any) => pair.decision_id && pair.language);
+  if (jsonFiles.length === 0) {
+    throw new Error('No decision JSONs found in 2A full-data directory.');
+  }
+
+  console.log(`Reading decision_id + language from ${jsonFiles.length} JSON files...`);
+
+  // Read decision_id and language directly from JSON content
+  const pairs = jsonFiles.map(filename => {
+    const filepath = path.join(resultPath, filename);
+    try {
+      const data = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
+      return {
+        decision_id: data.decision_id,
+        language: data.language || data.language_metadata
+      };
+    } catch (error) {
+      console.warn(`Failed to read ${filename}: ${error}`);
+      return null;
+    }
+  }).filter((pair): pair is { decision_id: string; language: string } =>
+    pair !== null && pair.decision_id && pair.language
+  );
 
   if (pairs.length === 0) {
-    throw new Error('No successful provisions found in latest 2A run. All decisions failed.');
+    throw new Error('Could not extract decision_id + language pairs from 2A JSONs.');
   }
 
   return pairs;
 }
 
-// Auto-detect latest run at module load time
-const LATEST_2A_TIMESTAMP = getLatestConcurrentTimestamp('extract-provisions-2a', 'gpt-5-mini');
+// Auto-detect latest 2A run at module load time (from full-data directory)
+const LATEST_2A_TIMESTAMP_RAW = getLatestFullDataTimestamp('extract-provisions-2a');
 
-if (!LATEST_2A_TIMESTAMP) {
-  throw new Error('No extract-provisions-2a concurrent results found. Please run Agent 2A first:\n  npm run dev concurrent extract-provisions-2a');
+if (!LATEST_2A_TIMESTAMP_RAW) {
+  throw new Error('No extract-provisions-2a full-data results found. Please run Agent 2A first with full-data pipeline:\n  npm run dev concurrent extract-provisions-2a');
 }
 
-const SUCCESSFUL_2A_PAIRS = loadSuccessfulProvisions(LATEST_2A_TIMESTAMP);
+const LATEST_2A_TIMESTAMP: string = LATEST_2A_TIMESTAMP_RAW;
+const SUCCESSFUL_2A_PAIRS = loadSuccessful2ADecisions(LATEST_2A_TIMESTAMP);
 
 console.log(`📋 Using extract-provisions-2a results from: ${LATEST_2A_TIMESTAMP}`);
-console.log(`✅ Found ${SUCCESSFUL_2A_PAIRS.length} successful decisions to enrich`);
+console.log(`✅ Found ${SUCCESSFUL_2A_PAIRS.length} successful 2A decisions to enrich`);
 
 /**
- * Enrich Provisions Job Configuration - Agent 2B
+ * Build a map of (decision_id, language) -> filepath for fast lookup
+ * This avoids having to reconstruct filenames from ECLI format
+ */
+function build2AFilepathMap(timestamp: string): Map<string, string> {
+  const jsonsDir = path.join(
+    process.cwd(),
+    'full-data/extract-provisions-2a',
+    timestamp,
+    'jsons'
+  );
+
+  const jsonFiles = fs.readdirSync(jsonsDir).filter(f => f.endsWith('.json'));
+  const map = new Map<string, string>();
+
+  console.log('Building filepath map for fast lookup...');
+
+  for (const filename of jsonFiles) {
+    const filepath = path.join(jsonsDir, filename);
+    try {
+      const data = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
+      const key = `${data.decision_id}||${data.language || data.language_metadata}`;
+      map.set(key, filepath);
+    } catch (error) {
+      console.warn(`Failed to read ${filename} for map building: ${error}`);
+    }
+  }
+
+  console.log(`Built filepath map with ${map.size} entries`);
+  return map;
+}
+
+const FILEPATH_MAP_2A = build2AFilepathMap(LATEST_2A_TIMESTAMP);
+
+/**
+ * Load Agent 2A data for a specific decision using composite key
  *
- * SCOPE: Enrich provisions from Agent 2A with metadata identifiers
+ * Uses prebuilt map for fast lookup (no filename reconstruction needed).
+ */
+function load2AData(decisionId: string, language: string): any {
+  const key = `${decisionId}||${language}`;
+  const filepath = FILEPATH_MAP_2A.get(key);
+
+  if (!filepath) {
+    return null;
+  }
+
+  try {
+    const data = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
+    return data;
+  } catch (error) {
+    console.warn(`Failed to load 2A data for ${key}: ${error}`);
+    return null;
+  }
+}
+
+/**
+ * Enrich Provisions Job Configuration - Agent 2B (REGEX-ONLY)
  *
- * Enriches cited legal provisions with:
- * - Provision-level identifiers (ELI, Justel URL, EUR-Lex URL)
- * - Parent act identifiers (ELI, CELEX, Justel URL, EUR-Lex URL)
- * - Official publication references (parentActNumber)
- * - Citation references (Bluebook-style citations)
+ * SCOPE: Enrich provisions from Agent 2A with regex-extracted metadata
+ *
+ * Enriches decisions with legal reference metadata:
+ * - EU references: CELEX codes and Europa URLs
+ * - Belgian references: NUMAC codes, file numbers, Justel/etaamb URLs
+ *
+ * APPROACH: Pure regex extraction (no LLM)
+ * - Uses production-tested N8N ReferenceExtractor
+ * - Zero cost per decision (no API calls)
+ * - Instant processing (no rate limits)
  *
  * DEPENDS ON: extract-provisions-2a (Agent 2A)
- * - Loads citedProvisions array from Agent 2A results
- * - Preserves all 10 fields from Agent 2A unchanged
- * - Adds 8 new enrichment fields
+ * - Loads citedProvisions array from latest Agent 2A results
+ * - Merges 2A provisions with extracted reference metadata
+ * - All decisions output (even if 0 provisions or 0 references)
  *
- * Key Features:
- * - Automatic dependency loading via DependencyResolver
- * - Composite key matching (id + decision_id + language)
- * - Transform function stringifies citedProvisions for prompt
- * - Comprehensive schema validates all 18 required fields
- * - Bilingual URL/identifier pattern support
+ * OUTPUT STRUCTURE:
+ * {
+ *   citedProvisions: [...],        // From Agent 2A (unchanged)
+ *   extractedReferences: {         // From regex extractor
+ *     url: { eu: [...], be: [...] },
+ *     reference: {
+ *       eu: { extracted: [...], verified: [...] },
+ *       be: { extracted: [...], verifiedNumac: [...], verifiedFileNumber: [...] }
+ *     }
+ *   }
+ * }
  */
 
 const config: JobConfig = {
   id: "enrich-provisions",
 
   description:
-    "Enrich cited provisions with metadata identifiers (Agent 2B: ELI, CELEX, URLs, citations)",
+    "Enrich provisions with regex-extracted metadata (Agent 2B: CELEX, NUMAC, URLs) - NO LLM",
 
   /**
    * Dependencies
    *
-   * Loads Agent 2A results and makes them available in promptTemplate.
-   * Transform function extracts and stringifies citedProvisions array.
+   * NOTE: We manually load 2A data in customExecution from full-data directory
+   * instead of using DependencyResolver (which expects concurrent results).
    */
-  dependencies: [
-    {
-      jobId: 'extract-provisions-2a',
-      alias: 'agent2a',
-      required: true,
-      source: 'concurrent',
-      timestamp: LATEST_2A_TIMESTAMP,
-
-      /**
-       * Transform: Extract citedProvisions and create stringified version
-       *
-       * Returns object with:
-       * - citedProvisions: Original array (for reference)
-       * - citedProvisionsJson: Prettified JSON string for prompt injection
-       */
-      transform: (dep) => ({
-        citedProvisions: dep.citedProvisions,
-        citedProvisionsJson: JSON.stringify(dep.citedProvisions, null, 2)
-      })
-    }
-  ],
+  dependencies: [],
 
   /**
    * Database Query
    *
-   * Loads ONLY successful decisions from latest extract-provisions-2a run.
-   * Uses composite key (decision_id, language) matching to ensure correct pairing.
+   * Query ALL decisions that have successful Agent 2A results.
+   * Filters using composite key (decision_id, language) from 2A full-data directory.
    *
-   * Query uses INNER JOIN with unnest() to filter to successful 2A results.
-   * This prevents processing decisions where Agent 2A failed.
+   * This ensures we only process decisions where Agent 2A completed successfully.
    */
   dbQuery: `
     SELECT
@@ -153,13 +209,7 @@ const config: JobConfig = {
         WHEN LENGTH(dm.full_md) < 30000 THEN 'medium'
         WHEN LENGTH(dm.full_md) < 60000 THEN 'long'
         ELSE 'very_long'
-      END as length_category,
-      (SELECT count(*) FROM regexp_matches(dm.full_md, 'ejustice\\.just\\.fgov\\.be', 'g')) as justel_urls,
-      (SELECT count(*) FROM regexp_matches(dm.full_md, 'eur-lex\\.europa\\.eu', 'g')) as eurlex_urls,
-      (
-        (SELECT count(*) FROM regexp_matches(dm.full_md, 'ejustice\\.just\\.fgov\\.be', 'g')) +
-        (SELECT count(*) FROM regexp_matches(dm.full_md, 'eur-lex\\.europa\\.eu', 'g'))
-      ) as total_urls
+      END as length_category
     FROM decisions_md dm
     INNER JOIN decisions1 d
       ON d.decision_id = dm.decision_id
@@ -184,34 +234,10 @@ const config: JobConfig = {
   ],
 
   /**
-   * Preprocess Row
-   *
-   * Extracts all legal references (ELI, CELEX, NUMAC, file numbers, URLs, bibliographic refs)
-   * from decision text. Flags decisions without enrichable references for cost-saving skip logic.
-   */
-  preprocessRow: async (row: any) => {
-    const references = extractLegalReferences(row.full_md || '');
-    const hasReferences = hasAnyReferences(references);
-
-    return {
-      ...row,
-      extractedReferences: references,
-      extractedReferencesJson: JSON.stringify(references, null, 2),
-      hasEnrichableReferences: hasReferences,
-      referenceCount: {
-        totalUrls: references.eurLexUrls.length + references.justelUrls.length +
-                   references.dataEuropa.length + references.etaamb.length,
-        totalIdentifiers: references.celex.length + references.eli.length +
-                         references.numac.length + references.fileNumber.length,
-        hasBiblio: references.bibliographicRefs.length > 0
-      }
-    };
-  },
-
-  /**
    * Row Metadata Fields
    *
-   * Track all metadata for evaluation, filtering, and cost-saving statistics.
+   * Track all metadata for analysis and filtering.
+   * Matches Agent 2A's metadata fields.
    */
   rowMetadataFields: [
     "id",
@@ -221,121 +247,86 @@ const config: JobConfig = {
     "court_ecli_code",
     "decision_date",
     "md_length",
-    "length_category",
-    "justel_urls",
-    "eurlex_urls",
-    "total_urls",
-    "extractedReferences",
-    "hasEnrichableReferences",
-    "referenceCount",
+    "length_category"
   ],
 
   /**
-   * Custom Execution with Cost-Saving Logic
+   * Custom Execution: Regex-Only Enrichment
    *
-   * Implements intelligent skip logic: if no enrichable references found,
-   * return Agent 2A provisions with null enrichment fields (skip expensive LLM call).
-   * Otherwise, run full LLM enrichment with extracted references.
+   * NO LLM CALLS - Pure regex extraction using N8N ReferenceExtractor.
+   *
+   * Process:
+   * 1. Get citedProvisions from Agent 2A dependency
+   * 2. Run regex extractor on full_md text
+   * 3. Merge and return both arrays
+   *
+   * All decisions output (even if 2A had 0 provisions or regex found 0 references).
    */
-  customExecution: async (row: any, client: any) => {
-    // Cost-saving: Skip LLM if no enrichable references
-    if (!row.hasEnrichableReferences) {
-      const provisions = row.agent2a?.citedProvisions || [];
+  customExecution: async (row: any, _client: any) => {
+    // Step 1: Load Agent 2A data from full-data directory
+    const agent2aData = load2AData(row.decision_id, row.language_metadata);
+
+    if (!agent2aData) {
+      console.warn(`⚠️  Missing Agent 2A data for decision ${row.decision_id} (${row.language_metadata}), skipping`);
+      // Return empty structure
       return {
-        citedProvisions: provisions.map((p: any) => ({
-          ...p,
-          provisionEli: null,
-          parentActEli: null,
-          parentActCelex: null,
-          provisionUrlJustel: null,
-          parentActUrlJustel: null,
-          provisionUrlEurlex: null,
-          parentActUrlEurlex: null,
-          citationReference: null
-        })),
-        _skipped: true,  // Track for statistics
+        citedProvisions: [],
+        extractedReferences: {
+          url: { eu: [], be: [] },
+          reference: {
+            eu: { extracted: [], verified: [] },
+            be: { extracted: [], verifiedNumac: [], verifiedFileNumber: [] }
+          }
+        }
       };
     }
 
-    // Build prompt with extracted references
-    const prompt = ENRICH_PROVISIONS_PROMPT
-      .replace("{decisionId}", row.decision_id || "")
-      .replace("{proceduralLanguage}", row.language_metadata || "FR")
-      .replace("{citedProvisions}", row.agent2a?.citedProvisionsJson || "[]")
-      .replace("{extractedReferences}", row.extractedReferencesJson || '{}')
-      .replace("{fullText.markdown}", row.full_md || "");
+    const citedProvisions = agent2aData.citedProvisions || [];
 
-    const messages = [
-      {
-        role: 'system' as const,
-        content: 'Return ONLY a single JSON object matching the schema. No markdown, no prose, no code blocks.'
-      },
-      {
-        role: 'user' as const,
-        content: prompt
-      }
-    ];
+    // Step 2: Run regex extractor (no LLM call)
+    const extractor = new ReferenceExtractorN8N();
+    const extractedReferences = extractor.processDecision(
+      row.decision_id || '',
+      row.full_md || ''
+    );
 
-    const responseFormat = {
-      type: 'json_schema' as const,
-      json_schema: {
-        name: config.outputSchemaName!,
-        schema: config.outputSchema,
-        strict: true
-      }
+    // Step 3: Merge and return
+    return {
+      citedProvisions,           // Pass through from Agent 2A (unchanged)
+      extractedReferences        // New enrichment data from regex
     };
-
-    const settings = {
-      model: config.model || 'gpt-5-mini',
-      maxOutputTokens: config.maxCompletionTokens,
-      reasoningEffort: config.reasoningEffort,
-      verbosity: config.verbosity
-    };
-
-    const completion = await client.complete(messages, responseFormat, settings);
-    const content = completion.choices[0]?.message?.content;
-
-    if (!content) {
-      throw new Error('No content in LLM response');
-    }
-
-    return extractJsonFromResponse(content);
   },
 
   /**
    * Output JSON Schema
    *
-   * Comprehensive schema for enriched provisions.
+   * Combines Agent 2A provisions array with regex-extracted reference metadata.
    *
    * Structure:
-   * - 10 fields from Agent 2A (preserved unchanged)
-   * - 8 new fields from Agent 2B (enrichment metadata)
+   * - citedProvisions: Array from Agent 2A (provisions with all 2A fields)
+   * - extractedReferences: Hints structure from regex extractor
    *
-   * Total: 18 required fields per provision
-   *
-   * Key validation:
-   * - All fields from 2A must be present and unchanged
-   * - internalProvisionId must match Agent 2A input
-   * - ELI patterns validated with regex
-   * - CELEX pattern validated (8 chars: 4 digits + letter + 4 digits)
-   * - URL patterns validated for Justel and EUR-Lex
+   * Both arrays can be empty (some decisions cite no provisions,
+   * some decisions contain no extractable references).
    */
   outputSchema: {
     type: "object",
-    required: ["citedProvisions"],
+    required: ["citedProvisions", "extractedReferences"],
     additionalProperties: false,
     properties: {
+      // ========================================
+      // FROM AGENT 2A: Cited Provisions
+      // ========================================
       citedProvisions: {
         type: "array",
-        minItems: 0, // Some decisions may cite no provisions
+        description: "Provisions array from Agent 2A (unchanged)",
         items: {
           type: "object",
           required: [
-            // ========================================
-            // FROM AGENT 2A (10 fields - preserved unchanged)
-            // ========================================
             "provisionId",
             "parentActId",
+            "provisionSequence",
+            "parentActSequence",
             "internalProvisionId",
             "internalParentActId",
             "provisionNumber",
@@ -343,276 +334,187 @@ const config: JobConfig = {
             "parentActType",
             "parentActName",
             "parentActDate",
-            "parentActNumber",
-
-            // ========================================
-            // FROM AGENT 2B (8 new enrichment fields)
-            // ========================================
-            "provisionEli",
-            "parentActEli",
-            "parentActCelex",
-            "provisionUrlJustel",
-            "parentActUrlJustel",
-            "provisionUrlEurlex",
-            "parentActUrlEurlex",
-            "citationReference",
+            "parentActNumber"
           ],
           additionalProperties: false,
           properties: {
-            // ========================================
-            // RESERVED DATABASE MAPPING FIELDS (FROM 2A)
-            // ========================================
-            provisionId: {
-              type: "null",
-              description: "Reserved for database mapping - always null",
+            provisionId: { type: "null" },
+            parentActId: { type: "null" },
+            provisionSequence: {
+              type: "integer",
+              minimum: 1,
+              maximum: 9999,
+              description: "Sequential provision number from Agent 2A"
             },
-            parentActId: {
-              type: "null",
-              description: "Reserved for database mapping - always null",
+            parentActSequence: {
+              type: "integer",
+              minimum: 1,
+              maximum: 999,
+              description: "Parent act sequence from Agent 2A"
             },
-
-            // ========================================
-            // INTERNAL REFERENCE IDs (FROM 2A)
-            // ========================================
             internalProvisionId: {
               type: "string",
-              pattern: "^ART-[a-zA-Z0-9:.]+-\\d{3}$",
-              description: "CRITICAL: Must match Agent 2A input - ART-{decisionId}-{seq}",
+              pattern: "^ART-[a-zA-Z0-9:.]+-\\d{3}$"
             },
             internalParentActId: {
               type: "string",
-              pattern: "^ACT-[a-zA-Z0-9:.]+-\\d{3}$",
-              description: "Parent act ID - ACT-{decisionId}-{seq}",
+              pattern: "^ACT-[a-zA-Z0-9:.]+-\\d{3}$"
             },
-
-            // ========================================
-            // PROVISION IDENTIFICATION (FROM 2A)
-            // ========================================
             provisionNumber: {
               type: "string",
-              minLength: 5,
-              maxLength: 200,
-              description: "Verbatim provision number (from Agent 2A)",
+              minLength: 3,
+              maxLength: 500
             },
             provisionNumberKey: {
               type: "string",
               minLength: 1,
-              maxLength: 50,
-              description: "Normalized core number (from Agent 2A)",
+              maxLength: 50
             },
-
-            // ========================================
-            // PARENT ACT TYPE (FROM 2A - BILINGUAL ENUM)
-            // ========================================
             parentActType: {
               type: "string",
               enum: [
-                // French (11 values)
-                "LOI",
-                "ARRETE_ROYAL",
-                "CODE",
-                "CONSTITUTION",
-                "REGLEMENT_UE",
-                "DIRECTIVE_UE",
-                "TRAITE",
-                "ARRETE_GOUVERNEMENT",
-                "ORDONNANCE",
-                "DECRET",
-                "AUTRE",
-
-                // Dutch (11 values)
-                "WET",
-                "KONINKLIJK_BESLUIT",
-                "WETBOEK",
-                "GRONDWET",
-                "EU_VERORDENING",
-                "EU_RICHTLIJN",
-                "VERDRAG",
-                "BESLUIT_VAN_DE_REGERING",
-                "ORDONNANTIE",
-                "DECREET",
-                "ANDERE",
-              ],
-              description: "Parent act type (from Agent 2A)",
+                "LOI", "ARRETE_ROYAL", "CODE", "CONSTITUTION",
+                "REGLEMENT_UE", "DIRECTIVE_UE", "TRAITE",
+                "ARRETE_GOUVERNEMENT", "ORDONNANCE", "DECRET", "AUTRE",
+                "WET", "KONINKLIJK_BESLUIT", "WETBOEK", "GRONDWET",
+                "EU_VERORDENING", "EU_RICHTLIJN", "VERDRAG",
+                "BESLUIT_VAN_DE_REGERING", "ORDONNANTIE", "DECREET", "ANDERE"
+              ]
             },
-
-            // ========================================
-            // PARENT ACT INFORMATION (FROM 2A)
-            // ========================================
             parentActName: {
               type: "string",
-              minLength: 10,
-              maxLength: 500,
-              description: "Verbatim parent act name (from Agent 2A)",
+              minLength: 5,
+              maxLength: 500
             },
             parentActDate: {
               anyOf: [
-                {
-                  type: "string",
-                  pattern: "^\\d{4}-\\d{2}-\\d{2}$",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Date in YYYY-MM-DD or null (from Agent 2A)",
+                { type: "string", pattern: "^\\d{4}-\\d{2}-\\d{2}$" },
+                { type: "null" }
+              ]
             },
             parentActNumber: {
               anyOf: [
-                {
-                  type: "string",
-                  pattern: "^([12][7890]\\d{2}[0-9A-E]\\d{5}|\\d{4}-\\d{2}-\\d{2}/\\d{1,3}|M\\.B\\..*|B\\.S\\..*|.{1,100})$",
-                  minLength: 1,
-                  maxLength: 100,
-                  description: "NUMAC (10 chars: year 1789-2025, pos 5 = digit or A-E), file reference (YYYY-MM-DD/NN), or publication reference (M.B./B.S.)"
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Official act number or null (from Agent 2A or enriched by 2B)",
-            },
-
-            // ========================================
-            // PROVISION-LEVEL IDENTIFIERS (NEW IN 2B)
-            // ========================================
-            provisionEli: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^eli/[a-z]+(/[a-z]+)?/[0-9]{4}/[0-9]{1,5}(/[0-9]{1,2}/[0-9]{1,2}/[0-9a-zA-Z]+)?(/art_[0-9a-z_-]+)?(/[a-z]{2,3})?(/oj)?$",
-                  description: "ELI for provision - Belgian (eli/be/loi/.../art_31) or EU (eli/reg/2016/679/oj/art_6)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "European Legislation Identifier for the specific provision or null",
-            },
-            provisionUrlJustel: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^https?://www\\.ejustice\\.just\\.fgov\\.be/.*$",
-                  description: "Justel URL pointing to specific provision with anchor (e.g., #Art.31)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Belgian Justel URL for specific provision or null",
-            },
-            provisionUrlEurlex: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^https?://eur-lex\\.europa\\.eu/.*$",
-                  description: "EUR-Lex URL pointing to specific provision with fragment",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "EUR-Lex URL for specific provision or null",
-            },
-
-            // ========================================
-            // PARENT ACT IDENTIFIERS (NEW IN 2B)
-            // ========================================
-            parentActEli: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^eli/[a-z]+(/[a-z]+)?/[0-9]{4}/[0-9]{1,5}(/[0-9]{1,2}/[0-9]{1,2}/[0-9a-zA-Z]+)?(/[a-z]{2,3})?(/oj)?$",
-                  description: "ELI for parent act - Belgian (eli/be/loi/2007/05/10/2007202032) or EU (eli/reg/2016/679/oj)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "European Legislation Identifier for entire parent act or null",
-            },
-            parentActCelex: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^[356]\\d{4}[A-Z]{1,2}\\d{4,6}(?:R\\(\\d{2}\\))?$",
-                  description: "CELEX number (EU law): 9-13 chars, sectors 3/5/6 (e.g., 32016R0679, 62019CJ0311, 52020DC0066). Optional corrigendum suffix R(XX).",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "CELEX number for EU legislation or null",
-            },
-            parentActUrlJustel: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^https?://www\\.ejustice\\.just\\.fgov\\.be/.*$",
-                  description: "Justel URL pointing to entire parent act (no article anchor)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Belgian Justel URL for entire parent act or null",
-            },
-            parentActUrlEurlex: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^https?://eur-lex\\.europa\\.eu/.*$",
-                  description: "EUR-Lex URL pointing to entire parent act (no fragment)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "EUR-Lex URL for entire parent act or null",
-            },
-
-            // ========================================
-            // CITATION REFERENCE (NEW IN 2B)
-            // ========================================
-            citationReference: {
-              anyOf: [
-                {
-                  type: "string",
-                  minLength: 20,
-                  maxLength: 500,
-                  description: "Formal Bluebook-style citation extracted verbatim from decision",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Formal legal citation or null",
-            },
-          },
-        },
+                { type: "string", minLength: 1, maxLength: 100 },
+                { type: "null" }
+              ]
+            }
+          }
+        }
       },
-    },
+
+      // ========================================
+      // FROM REGEX EXTRACTOR: Reference Metadata
+      // ========================================
+      extractedReferences: {
+        type: "object",
+        required: ["url", "reference"],
+        additionalProperties: false,
+        description: "Regex-extracted legal reference metadata",
+        properties: {
+          url: {
+            type: "object",
+            required: ["eu", "be"],
+            additionalProperties: false,
+            properties: {
+              eu: {
+                type: "array",
+                items: { type: "string" },
+                description: "EU URLs (europa.eu with CELEX)"
+              },
+              be: {
+                type: "array",
+                items: { type: "string" },
+                description: "Belgian URLs (ejustice, etaamb)"
+              }
+            }
+          },
+          reference: {
+            type: "object",
+            required: ["eu", "be"],
+            additionalProperties: false,
+            properties: {
+              eu: {
+                type: "object",
+                required: ["extracted", "verified"],
+                additionalProperties: false,
+                properties: {
+                  extracted: {
+                    type: "array",
+                    items: { type: "string" },
+                    description: "CELEX candidates that failed validation"
+                  },
+                  verified: {
+                    type: "array",
+                    items: { type: "string" },
+                    description: "CELEX codes that passed validation"
+                  }
+                }
+              },
+              be: {
+                type: "object",
+                required: ["extracted", "verifiedNumac", "verifiedFileNumber"],
+                additionalProperties: false,
+                properties: {
+                  extracted: {
+                    type: "array",
+                    items: { type: "string" },
+                    description: "Belgian reference candidates that failed validation"
+                  },
+                  verifiedNumac: {
+                    type: "array",
+                    items: { type: "string" },
+                    description: "NUMAC codes that passed validation"
+                  },
+                  verifiedFileNumber: {
+                    type: "array",
+                    items: { type: "string" },
+                    description: "File numbers that passed validation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
 
   /**
    * Schema name for structured outputs
    */
-  outputSchemaName: "provision_enrichment_2b",
+  outputSchemaName: "provision_enrichment_regex",
 
   /**
    * Provider and Model Configuration
+   *
+   * NOTE: No LLM is used in this job (regex-only).
+   * These settings are required by JobConfig type but unused.
    */
   provider: "openai",
   model: "gpt-5-mini",
-  maxCompletionTokens: 64000,       
-  reasoningEffort: "medium",            // Metadata extraction requires less reasoning
-  verbosity: "low",                   // Concise responses preferred
+  maxCompletionTokens: 16000,
+  reasoningEffort: "low",
+  verbosity: "low",
+
+  /**
+   * Concurrency Configuration
+   *
+   * High concurrency possible since no LLM calls (no rate limits).
+   */
+  concurrencyLimit: 500,
+
+  /**
+   * Full-Data Pipeline Mode
+   *
+   * Enabled for full dataset processing.
+   * Writes per-decision JSONs to full-data/enrich-provisions/<timestamp>/jsons/
+   */
+  useFullDataPipeline: true,
 
   /**
    * Custom ID prefix
    */
-  customIdPrefix: "enrich-provisions",
+  customIdPrefix: "enrich-provisions-regex",
 };
 
 export default config;

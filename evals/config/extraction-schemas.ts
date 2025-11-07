@@ -56,11 +56,11 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
   ],
 
   /**
-   * Stage 2B: Enrich provisions with URLs/identifiers
+   * Stage 2B: Enrich provisions with URLs/identifiers (REGEX-ONLY)
    */
   'enrich-provisions': [
-    'citedProvisions',        // Enriched provisions array (correct field name)
-    'extractedReferences',    // Pre-extracted metadata (celex, eli, numac, urls) - CRITICAL for judge
+    'citedProvisions',        // Provisions array from Agent 2A (unchanged)
+    'extractedReferences',    // Regex-extracted references (urls, celex, numac, file numbers)
   ],
 
   /**
