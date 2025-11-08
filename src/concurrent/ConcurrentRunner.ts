@@ -263,6 +263,8 @@ export class ConcurrentRunner {
         maxOutputTokens: this.config.maxCompletionTokens,
         reasoningEffort: this.config.reasoningEffort,
         verbosity: this.config.verbosity,
+        temperature: this.config.temperature,
+        top_p: this.config.top_p,
       };
 
       // Call API with timeout

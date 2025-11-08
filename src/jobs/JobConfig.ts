@@ -215,6 +215,14 @@ export interface JobConfig {
   temperature?: number;
 
   /**
+   * Top-p sampling for generation (0.0 - 1.0)
+   * Controls nucleus sampling - considers tokens with cumulative probability up to top_p
+   * NOTE: Not supported by reasoning models (o4-mini, o3-mini, o1)
+   * Optional - defaults to 1.0 (consider all tokens)
+   */
+  top_p?: number;
+
+  /**
    * Reasoning effort for reasoning models (o4-mini, o3-mini, o1)
    * Options: 'minimal' | 'low' | 'medium' | 'high'
    * Higher effort = more reasoning tokens = better quality

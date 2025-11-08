@@ -159,6 +159,13 @@ export async function runEvaluation(
       continue;
     }
 
+    // Skip evaluation if extraction was explicitly skipped (e.g., document too long)
+    // Only applies to jobs that have skip logic (clean-decision-markdown, etc.)
+    if (typeof extracted.skipped === 'boolean' && extracted.skipped === true) {
+      console.log(`⏭️  Skipping evaluation for ${decisionId} (extraction was skipped: ${extracted.skipReason || 'unknown reason'})`);
+      continue;
+    }
+
     evaluationInputs.push({
       decisionId,
       sourceDocument: sourceDocWithMeta.fullMd,

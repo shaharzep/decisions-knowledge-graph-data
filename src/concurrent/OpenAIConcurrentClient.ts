@@ -11,6 +11,8 @@ export interface CompletionSettings {
   maxOutputTokens?: number;
   reasoningEffort?: "low" | "medium" | "high"; // remove 'minimal'
   verbosity?: "minimal" | "low" | "medium" | "high";
+  temperature?: number;
+  top_p?: number;
 }
 
 /**
@@ -223,6 +225,12 @@ export class OpenAIConcurrentClient {
     if (settings.verbosity) {
       body.text.verbosity = settings.verbosity;
     }
+
+    // Add temperature and top_p if specified (optional, backward compatible)
+    if (settings.temperature !== undefined)
+      body.temperature = settings.temperature;
+    if (settings.top_p !== undefined)
+      body.top_p = settings.top_p;
 
     return body;
   }

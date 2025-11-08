@@ -1,6 +1,5 @@
 import { JobConfig } from "../JobConfig.js";
 import { executeTwoStageExtraction } from "./two-stage-executor.js";
-import { loadProcessedIds } from "../../load-processed-ids.js";
 
 /**
  * Helper: Extract decision date from ECLI code
@@ -30,12 +29,6 @@ function extractDateFromECLI(ecli: string): string | null {
 
   return `${year}-${month}-${day}`;
 }
-
-/**
- * Load already-processed decisions to resume from where we left off
- */
-const { decisionIds: processedDecisionIds, languages: processedLanguages } = await loadProcessedIds();
-console.log(`📊 Excluding ${processedDecisionIds.length} already-processed decisions from query`);
 
 /**
  * Extract Cited Decisions Job Configuration - Agent 3 - REGEX + LLM VALIDATION ARCHITECTURE
@@ -128,7 +121,6 @@ const config: JobConfig = {
    * Includes metadata fields directly from decisions1 table for tracking.
    *
    * This query selects all ~64,000 decisions with complete markdown content.
-   * Excludes already-processed decisions using (decision_id, language) pairs.
    */
   dbQuery: `
     SELECT
@@ -146,18 +138,14 @@ const config: JobConfig = {
       AND dm.language = d.language_metadata
     WHERE dm.full_md IS NOT NULL
       AND dm.full_md != ''
-      AND (d.decision_id, d.language_metadata) NOT IN (
-        SELECT unnest($1::text[]), unnest($2::text[])
-      )
   `,
 
   /**
    * Database Query Parameters
    *
-   * Passes arrays of already-processed (decision_id, language) pairs to exclude.
-   * Parameters: [$1 = decisionIds array, $2 = languages array]
+   * No parameters needed - query selects all decisions directly.
    */
-  dbQueryParams: [processedDecisionIds, processedLanguages],
+  dbQueryParams: [],
 
   /**
    * Preprocess Row
@@ -448,7 +436,8 @@ const config: JobConfig = {
    *   - Self-reference detection
    */
   provider: "openai",
-  model: "gpt-5-mini",
+  model: "gpt-5",
+  openaiProvider: "standard",
   maxCompletionTokens: 64000, // Citations typically shorter output than provisions
   reasoningEffort: "high",    // HIGH reasoning for complex extraction + dual classification
   verbosity: "low",           // Concise responses preferred

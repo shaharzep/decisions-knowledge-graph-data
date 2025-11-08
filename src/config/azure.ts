@@ -8,6 +8,7 @@ dotenv.config();
  */
 const MODEL_ENV_PREFIX_MAP: Record<string, string> = {
   'gpt-4.1': 'AZURE_GPT4_1_',
+  'gpt-4.1-mini': 'AZURE_GPT4_1_MINI_',
   'gpt-5-mini': 'AZURE_',
   'gpt-5': 'AZURE_',
 };
