@@ -130,7 +130,7 @@ const config: JobConfig = {
       [
         {
           role: "system",
-          content: "You must return valid JSON matching the schema. If you cannot process the document, return it unchanged in the cleanedMarkdown field.",
+          content: "Return ONLY valid JSON matching the schema. Put the RAW Markdown (no code fences, no commentary, no manual escaping) in cleanedMarkdown. Do not add extra fields.",
         },
         {
           role: "user",

@@ -177,74 +177,70 @@ This document has Article \${ }^{2}\$ and Section 3 but no [^0].
 EXACTLY THE SAME. Do not create footnotes!
 
 ═══════════════════════════════════════════════════════════════════
-COMMON MISTAKES TO AVOID
-═══════════════════════════════════════════════════════════════════
-
-❌ OFF-BY-ONE ERROR:
-   References: [^1], [^2], [^3]
-   Definitions: [^2]:, [^3]:, [^4]:
-   → This is WRONG! Misaligned!
-
-❌ SKIPPING FOOTNOTES:
-   Original has 5 [^0], output only has 2 [^N]
-   → This is WRONG! Content lost!
-
-❌ CREATING FOOTNOTES:
-   Original has NO [^0], output has [^1], [^2]
-   → This is WRONG! Added footnotes!
-
-❌ CONVERTING LaTeX:
-   \${ }^{2}\$ becomes [^1]
-   → This is WRONG! LaTeX is not a footnote!
-
-═══════════════════════════════════════════════════════════════════
 TASK 2: TABLE CONVERSION (Secondary Task)
 ═══════════════════════════════════════════════════════════════════
 
-If you see text-based tables (aligned columns), convert to markdown pipe tables.
+Goal: Convert plain-text, column-aligned tables into Markdown pipe tables
+while preserving every character of cell content (no additions or deletions).
 
-Keep all data, preserve structure, no content loss.
+WHAT COUNTS AS A TEXT TABLE (convert these):
+• Two or more consecutive non-empty lines that appear in columns aligned by
+  spaces or tabs (monospaced layout), with ≥2 columns across lines.
+• Optional header row present (detect if first row looks like headers).
+
+DO NOT CONVERT (leave as-is):
+• Code blocks (indented or fenced with \`\`\`).
+• Footnote definition blocks ([^N]: …).
+• Lists, paragraphs, or judicial headers merely using extra spaces.
+• Already-valid Markdown tables (rows containing pipes \`|\` with proper separators).
+
+CONVERSION RULES:
+1) Preserve cell text verbatim (including punctuation, diacritics, LaTeX, digits).
+   Do NOT alter or normalize content inside cells.
+2) Trim only the padding used for column alignment; keep meaningful internal spaces.
+3) Build a valid Markdown pipe table:
+   • Add a header row if an obvious header exists; otherwise, use the first row as header.
+   • Add the separator line \`| --- | --- | ... |\` with the correct number of columns.
+   • Emit one \`|\`-delimited row per original line, same column order.
+4) Do NOT introduce, merge, split, or drop rows or columns.
+5) Keep surrounding text exactly as-is; only the table block’s formatting changes.
+
+SANITY CHECK FOR TABLES:
+• The number of rows before vs after conversion must match.
+• The number of columns per row must be consistent after conversion.
+• All characters present in the original cells must appear in the corresponding cells post-conversion (no loss).
 
 ═══════════════════════════════════════════════════════════════════
 INTEGRITY REQUIREMENTS (CRITICAL FOR LEGAL DOCUMENTS)
 ═══════════════════════════════════════════════════════════════════
 
-1. ✓ Preserve ALL text exactly as-is (except [^0] → [^N])
+Content Preservation First:
+1. ✓ Preserve ALL textual content exactly as-is (except [^0] → [^N] renumbering and permitted table reformatting).
 2. ✓ Keep ALL LaTeX math unchanged: \${ }^{2}\$, \$^{3}\$
 3. ✓ Keep ALL Unicode characters: é, è, à, ç, ¹, ²
-4. ✓ Keep ALL document structure: headers, lists, paragraphs
-5. ✓ NO content addition (don't create footnotes)
-6. ✓ NO content removal (don't drop footnotes)
-7. ✓ NO content modification (don't merge/split)
+4. ✓ Keep ALL document structure (headers, lists, paragraphs) unchanged, EXCEPT:
+   • Converting eligible text tables to Markdown pipe tables is an allowed formatting change.
+5. ✓ NO content addition (do not invent text, rows, or columns)
+6. ✓ NO content removal (do not drop text, rows, or columns)
+7. ✓ NO content modification (do not paraphrase or normalize text); only:
+   • [^0] → [^N] renumbering
+   • Plain-text table → Markdown table formatting
 
 ═══════════════════════════════════════════════════════════════════
-FINAL CHECKLIST (Before Returning)
+OUTPUT FORMAT (ABSOLUTELY REQUIRED)
 ═══════════════════════════════════════════════════════════════════
+• Return the FULL cleaned document as RAW Markdown placed into a single string (no code fences, no JSON besides the schema wrapper used by the caller).
+• Do NOT add backticks, quotes, or explanatory text.
+• Do NOT escape characters manually (no \" or \\$ or \\[). Use plain text; the transport layer will handle any necessary JSON escaping.
+• Line endings: use \\n (LF) only.
+• The output MUST begin with the first character of the document and end with the last character of the document—nothing before or after.
 
-□ Did I search for [^0]?
-  └─ If NO [^0] found → Return document unchanged
-  └─ If [^0] found → Proceed to fix
-
-□ Did I count references and definitions?
-  └─ References = N
-  └─ Definitions = N
-  └─ If counts don't match, something is wrong!
-
-□ Did I pair them correctly?
-  └─ 1st ref → [^1], 1st def → [^1]:
-  └─ 2nd ref → [^2], 2nd def → [^2]:
-  └─ No gaps, no skips, no duplicates
-
-□ Did I leave LaTeX unchanged?
-  └─ \${ }^{2}\$ still has \${ }^{2}\$
-  └─ NOT converted to [^N]
-
-□ Did I preserve ALL content?
-  └─ Same text, same structure, same formatting
-  └─ ONLY [^0] changed to [^N]
+SANITY CHECK BEFORE RETURNING:
+- If your content begins with \`\`\` or " or {, remove any such wrappers so only raw Markdown remains.
+- Ensure you did not escape \$, \[, \], \(, \), \{, \} unless they already existed in the input.
 
 ═══════════════════════════════════════════════════════════════════
-
 INPUT DOCUMENT:
 ═══════════════════════════════════════════════════════════════════
-\${markdown}`;
+\${markdown}
+`;

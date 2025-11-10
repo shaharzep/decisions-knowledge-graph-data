@@ -12,12 +12,13 @@ import { TestSetLoader } from "../../utils/testSetLoader.js";
  * - Relevant factual context for provision's application (relevantFactualContext)
  *
  * DEPENDS ON: enrich-provisions (Agent 2B)
- * - Loads citedProvisions array with 18 fields from Agent 2B results
- * - Preserves all 18 fields from Agent 2B unchanged
+ * - Loads citedProvisions array with 10 fields from Agent 2A (passed through 2B)
+ * - Note: 2B adds extractedReferences separately, but NOT merged into provisions
+ * - Preserves all 10 fields from Agent 2A unchanged
  * - Adds 2 new interpretative fields
  *
  * CRITICAL REQUIREMENT:
- * - Must preserve exact internalProvisionId matching from Agent 2B
+ * - Must preserve exact internalProvisionId matching from Agent 2A
  * - Same number of provisions in output as input
  * - No provisions added or removed
  *
@@ -25,7 +26,7 @@ import { TestSetLoader } from "../../utils/testSetLoader.js";
  * - Automatic dependency loading via DependencyResolver
  * - Composite key matching (id + decision_id + language)
  * - Transform function stringifies citedProvisions for prompt
- * - Comprehensive schema validates all 20 required fields
+ * - Comprehensive schema validates all 12 required fields
  * - Nullable interpretative fields (null when not applicable)
  */
 
@@ -206,16 +207,19 @@ const config: JobConfig = {
    * Comprehensive schema for interpreted provisions.
    *
    * Structure:
-   * - 18 fields from Agent 2B (preserved unchanged)
+   * - 10 fields from Agent 2A (preserved unchanged via Agent 2B passthrough)
    * - 2 new fields from Agent 2C (interpretative enrichment)
    *
-   * Total: 20 required fields per provision
+   * Total: 12 required fields per provision
    *
    * Key validation:
-   * - All fields from 2B must be present and unchanged
-   * - internalProvisionId must match Agent 2B input exactly
+   * - All fields from 2A must be present and unchanged
+   * - internalProvisionId must match Agent 2A input exactly
    * - New fields are nullable (null when interpretation not found)
    * - Length constraints: interpretation 100-1000, context 50-500
+   *
+   * Note: Agent 2B regex enrichment is stored separately in extractedReferences,
+   * not merged into provision objects.
    */
   outputSchema: {
     type: "object",
@@ -229,7 +233,7 @@ const config: JobConfig = {
           type: "object",
           required: [
             // ========================================
-            // FROM AGENT 2A (10 fields - via Agent 2B)
+            // FROM AGENT 2A (10 fields - via Agent 2B passthrough)
             // ========================================
             "provisionId",
             "parentActId",
@@ -241,18 +245,6 @@ const config: JobConfig = {
             "parentActName",
             "parentActDate",
             "parentActNumber",
-
-            // ========================================
-            // FROM AGENT 2B (8 enrichment fields)
-            // ========================================
-            "provisionEli",
-            "parentActEli",
-            "parentActCelex",
-            "provisionUrlJustel",
-            "parentActUrlJustel",
-            "provisionUrlEurlex",
-            "parentActUrlEurlex",
-            "citationReference",
 
             // ========================================
             // FROM AGENT 2C (2 new interpretative fields)
@@ -371,124 +363,7 @@ const config: JobConfig = {
                   type: "null",
                 },
               ],
-              description: "Official act number or null (from Agent 2A/2B)",
-            },
-
-            // ========================================
-            // PROVISION-LEVEL IDENTIFIERS (FROM 2B)
-            // ========================================
-            provisionEli: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^eli/[a-z]+/[a-z0-9_-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[0-9]+/art_[0-9a-z_-]+(/[a-z]{2,3})?$",
-                  description: "ELI for specific provision (e.g., eli/be/loi/2007/05/10/2007202032/art_31)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "European Legislation Identifier for provision or null (from Agent 2B)",
-            },
-            provisionUrlJustel: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^https?://www\\.ejustice\\.just\\.fgov\\.be/.*$",
-                  description: "Justel URL pointing to specific provision with anchor (e.g., #Art.31)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Belgian Justel URL for provision or null (from Agent 2B)",
-            },
-            provisionUrlEurlex: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^https?://eur-lex\\.europa\\.eu/.*$",
-                  description: "EUR-Lex URL pointing to specific provision with fragment",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "EUR-Lex URL for provision or null (from Agent 2B)",
-            },
-
-            // ========================================
-            // PARENT ACT IDENTIFIERS (FROM 2B)
-            // ========================================
-            parentActEli: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^eli/[a-z]+/[a-z0-9_-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[0-9]+(/[a-z]{2,3})?$",
-                  description: "ELI for entire parent act (e.g., eli/be/loi/2007/05/10/2007202032)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "European Legislation Identifier for parent act or null (from Agent 2B)",
-            },
-            parentActCelex: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^[0-9]{4}[A-Z][0-9]{4}$",
-                  description: "CELEX number (EU law only): 8 chars (e.g., 32016R0679)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "CELEX number for EU legislation or null (from Agent 2B)",
-            },
-            parentActUrlJustel: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^https?://www\\.ejustice\\.just\\.fgov\\.be/.*$",
-                  description: "Justel URL pointing to entire parent act (no article anchor)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Belgian Justel URL for parent act or null (from Agent 2B)",
-            },
-            parentActUrlEurlex: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^https?://eur-lex\\.europa\\.eu/.*$",
-                  description: "EUR-Lex URL pointing to entire parent act (no fragment)",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "EUR-Lex URL for parent act or null (from Agent 2B)",
-            },
-
-            // ========================================
-            // CITATION REFERENCE (FROM 2B)
-            // ========================================
-            citationReference: {
-              anyOf: [
-                {
-                  type: "string",
-                  minLength: 20,
-                  maxLength: 500,
-                  description: "Formal Bluebook-style citation extracted verbatim from decision",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Formal legal citation or null (from Agent 2B)",
+              description: "Official act number or null (from Agent 2A)",
             },
 
             // ========================================
@@ -540,7 +415,7 @@ const config: JobConfig = {
   provider: "openai",
   model: "gpt-5-mini",
   maxCompletionTokens: 128000,        // Same as Agent 2B (interpretative analysis)
-  reasoningEffort: "medium",            // Interpretative extraction
+  reasoningEffort: "low",            // Interpretative extraction
   verbosity: "low",                   // Concise responses preferred
 
   /**

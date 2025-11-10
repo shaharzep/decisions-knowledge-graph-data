@@ -67,9 +67,7 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
    * Stage 2C: Provisions interpretation
    */
   'interpret-provisions': [
-    'decisionId',
-    'language',
-    'interpretedProvisions',
+    'citedProvisions',  // Array of provisions with interpretation + factual context
   ],
 
   /**
