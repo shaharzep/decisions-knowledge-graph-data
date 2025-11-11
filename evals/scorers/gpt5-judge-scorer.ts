@@ -116,6 +116,23 @@ export function parseJudgeResponse(responseText: string): EvaluationResult {
       evaluation.sequencingErrors = parsed.sequencingErrors;
     }
 
+    // Optional detailed tracking fields (Stage 5: Legal Teachings)
+    if (parsed.courtLevelDetection) {
+      evaluation.courtLevelDetection = parsed.courtLevelDetection;
+    }
+    if (Array.isArray(parsed.teachingAnalysis)) {
+      evaluation.teachingAnalysis = parsed.teachingAnalysis;
+    }
+    if (parsed.aggregateStatistics) {
+      evaluation.aggregateStatistics = parsed.aggregateStatistics;
+    }
+    if (parsed.deductionBreakdown) {
+      evaluation.deductionBreakdown = parsed.deductionBreakdown;
+    }
+    if (parsed.expectedVsActual) {
+      evaluation.expectedVsActual = parsed.expectedVsActual;
+    }
+
     return evaluation;
   } catch (error: any) {
     if (error instanceof SyntaxError) {

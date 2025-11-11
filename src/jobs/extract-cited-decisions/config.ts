@@ -436,8 +436,8 @@ const config: JobConfig = {
    *   - Self-reference detection
    */
   provider: "openai",
-  model: "gpt-5",
-  openaiProvider: "standard",
+  model: "gpt-5-mini",
+  openaiProvider: "azure",
   maxCompletionTokens: 64000, // Citations typically shorter output than provisions
   reasoningEffort: "high",    // HIGH reasoning for complex extraction + dual classification
   verbosity: "low",           // Concise responses preferred

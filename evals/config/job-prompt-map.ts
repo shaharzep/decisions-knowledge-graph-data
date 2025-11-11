@@ -45,8 +45,8 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
   // Markdown cleaning prior to HTML conversion
   'clean-decision-markdown': 'llm-as-a-judge_clean-markdown.md',
 
-  // Stage 5 (uncomment when ready)
-  // 'extract-stage5': 'llm-as-a-judge_STAGE 5.md',
+  // Stage 5: Legal teachings extraction
+  'extract-legal-teachings': 'llm-as-a-judge_STAGE 5.md',
 
   // Stage 6 (uncomment when ready)
   // 'extract-stage6': 'llm-as-a-judge_STAGE 6.md',
