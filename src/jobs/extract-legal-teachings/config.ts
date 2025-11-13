@@ -1,39 +1,177 @@
 import { JobConfig } from "../JobConfig.js";
 import { EXTRACT_LEGAL_TEACHINGS_PROMPT } from "./prompt.js";
-import { TestSetLoader } from "../../utils/testSetLoader.js";
+import fs from "fs";
+import path from "path";
 
 /**
- * Load 197-decision test set for legal teachings extraction
- *
- * This test set is stratified by language, court level, decision type, and length.
- * Returns query parameters for composite key matching.
+ * Get latest full-data run timestamp for a job
  */
-async function loadTestSetParams() {
-  const testSet = await TestSetLoader.loadTestSet("evals/test-sets/comprehensive-197.csv");
-  const summary = TestSetLoader.getSummary(testSet);
+function getLatestFullDataTimestamp(jobId: string): string | null {
+  const resultsDir = path.join(process.cwd(), 'full-data', jobId);
 
-  console.log(`📊 Legal Teachings test set: ${summary.total} decisions`);
-  console.log(`   Languages: ${JSON.stringify(summary.byLanguage)}`);
+  if (!fs.existsSync(resultsDir)) {
+    return null;
+  }
 
-  return TestSetLoader.toQueryParams(testSet);
+  const timestamps = fs.readdirSync(resultsDir)
+    .filter(name => /^\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}-\d{3}Z/.test(name))
+    .sort()
+    .reverse();
+
+  return timestamps[0] || null;
 }
 
 /**
- * Build test set metadata map for preprocessor enrichment
+ * Load successful decisions from latest full-data run
  *
- * Creates fast lookup map for enriching rows with court level and other metadata.
+ * Returns array of (decision_id, language) pairs for composite key matching.
  */
-async function buildTestSetMap() {
-  const testSet = await TestSetLoader.loadTestSet("evals/test-sets/comprehensive-197.csv");
-  const map = new Map<string, any>();
+function loadSuccessfulDecisions(jobId: string, timestamp: string): Array<{ decision_id: string; language: string }> {
+  const jsonsDir = path.join(
+    process.cwd(),
+    'full-data',
+    jobId,
+    timestamp,
+    'jsons'
+  );
 
-  testSet.forEach((entry) => {
-    const key = `${entry.decision_id}|${entry.language}`;
-    map.set(key, entry);
-  });
+  if (!fs.existsSync(jsonsDir)) {
+    throw new Error(`Full-data results not found: ${jsonsDir}\n\nPlease verify the ${jobId} run completed successfully with full-data pipeline.`);
+  }
 
+  const jsonFiles = fs.readdirSync(jsonsDir).filter(f => f.endsWith('.json'));
+
+  if (jsonFiles.length === 0) {
+    throw new Error(`No decision JSONs found in ${jobId} full-data directory.`);
+  }
+
+  console.log(`Reading decision_id + language from ${jsonFiles.length} ${jobId} files...`);
+
+  const pairs = jsonFiles.map(filename => {
+    const filepath = path.join(jsonsDir, filename);
+    try {
+      const data = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
+      return {
+        decision_id: data.decision_id,
+        language: data.language || data.language_metadata
+      };
+    } catch (error) {
+      console.warn(`Failed to read ${filename}: ${error}`);
+      return null;
+    }
+  }).filter((pair): pair is { decision_id: string; language: string } =>
+    pair !== null && pair.decision_id && pair.language
+  );
+
+  if (pairs.length === 0) {
+    throw new Error(`Could not extract decision_id + language pairs from ${jobId} JSONs.`);
+  }
+
+  return pairs;
+}
+
+/**
+ * Build filepath map for fast lookup
+ *
+ * Maps (decision_id, language) -> filepath to avoid ECLI filename reconstruction.
+ */
+function buildFilepathMap(jobId: string, timestamp: string): Map<string, string> {
+  const jsonsDir = path.join(
+    process.cwd(),
+    'full-data',
+    jobId,
+    timestamp,
+    'jsons'
+  );
+
+  const jsonFiles = fs.readdirSync(jsonsDir).filter(f => f.endsWith('.json'));
+  const map = new Map<string, string>();
+
+  console.log(`Building ${jobId} filepath map for fast lookup...`);
+
+  for (const filename of jsonFiles) {
+    const filepath = path.join(jsonsDir, filename);
+    try {
+      const data = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
+      const key = `${data.decision_id}||${data.language || data.language_metadata}`;
+      map.set(key, filepath);
+    } catch (error) {
+      console.warn(`Failed to read ${filename} for map building: ${error}`);
+    }
+  }
+
+  console.log(`Built ${jobId} filepath map with ${map.size} entries`);
   return map;
 }
+
+/**
+ * Load dependency data for specific decision using composite key
+ *
+ * Uses prebuilt filepath map for O(1) lookup.
+ */
+function loadDependencyData(
+  filepathMap: Map<string, string>,
+  decisionId: string,
+  language: string
+): any | null {
+  const key = `${decisionId}||${language}`;
+  const filepath = filepathMap.get(key);
+
+  if (!filepath) {
+    return null;
+  }
+
+  try {
+    const data = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
+    return data;
+  } catch (error) {
+    console.warn(`Failed to load data for ${key}: ${error}`);
+    return null;
+  }
+}
+
+// Auto-detect latest runs for both dependencies at module load time
+const LATEST_2C_TIMESTAMP_RAW = getLatestFullDataTimestamp('interpret-provisions');
+const LATEST_3_TIMESTAMP_RAW = getLatestFullDataTimestamp('extract-cited-decisions');
+
+if (!LATEST_2C_TIMESTAMP_RAW) {
+  throw new Error('No interpret-provisions full-data results found. Please run Agent 2C first with full-data pipeline:\n  npm run dev concurrent interpret-provisions');
+}
+
+if (!LATEST_3_TIMESTAMP_RAW) {
+  throw new Error('No extract-cited-decisions full-data results found. Please run Agent 3 first with full-data pipeline:\n  npm run dev concurrent extract-cited-decisions');
+}
+
+const LATEST_2C_TIMESTAMP: string = LATEST_2C_TIMESTAMP_RAW;
+const LATEST_3_TIMESTAMP: string = LATEST_3_TIMESTAMP_RAW;
+
+const SUCCESSFUL_2C_PAIRS = loadSuccessfulDecisions('interpret-provisions', LATEST_2C_TIMESTAMP);
+const SUCCESSFUL_3_PAIRS = loadSuccessfulDecisions('extract-cited-decisions', LATEST_3_TIMESTAMP);
+
+console.log(`📋 Using interpret-provisions results from: ${LATEST_2C_TIMESTAMP}`);
+console.log(`✅ Found ${SUCCESSFUL_2C_PAIRS.length} successful 2C decisions`);
+console.log(`📋 Using extract-cited-decisions results from: ${LATEST_3_TIMESTAMP}`);
+console.log(`✅ Found ${SUCCESSFUL_3_PAIRS.length} successful 3 decisions`);
+
+const FILEPATH_MAP_2C = buildFilepathMap('interpret-provisions', LATEST_2C_TIMESTAMP);
+const FILEPATH_MAP_3 = buildFilepathMap('extract-cited-decisions', LATEST_3_TIMESTAMP);
+
+/**
+ * Build intersection of decisions that have both Agent 2C AND Agent 3 results
+ *
+ * Only these decisions can be processed by Agent 5.
+ */
+function buildProcessableDecisions(): Array<{ decision_id: string; language: string }> {
+  const set2C = new Set(SUCCESSFUL_2C_PAIRS.map(p => `${p.decision_id}||${p.language}`));
+  const processable = SUCCESSFUL_3_PAIRS.filter(p => set2C.has(`${p.decision_id}||${p.language}`));
+
+  console.log(`\n🔗 Intersection: ${processable.length} decisions have both Agent 2C and Agent 3 results`);
+  console.log(`   (${SUCCESSFUL_2C_PAIRS.length} with 2C, ${SUCCESSFUL_3_PAIRS.length} with 3, ${processable.length} with both)\n`);
+
+  return processable;
+}
+
+const PROCESSABLE_DECISIONS = buildProcessableDecisions();
 
 /**
  * Extract Legal Teachings Job Configuration - Agent 5
@@ -52,22 +190,20 @@ async function buildTestSetMap() {
  * DEPENDENCIES:
  * - Agent 2C (interpret-provisions): Provides citedProvisions array with internalProvisionId
  * - Agent 3 (extract-cited-decisions): Provides citedDecisions array with internalDecisionId
+ * - Both loaded from full-data directory (latest timestamps)
  *
- * APPROACH: Multi-source extraction with dependency linking
- * - LLM receives full markdown + cited provisions + cited decisions
- * - Must identify reasoning sections, apply quality gates, extract verbatim quotes
- * - Links teachings to specific provisions and precedents using internal IDs
- * - gpt-5 with HIGH reasoning effort for complex multi-step analysis
+ * APPROACH: Full-dataset extraction with manual dependency loading
+ * - Bypasses DependencyResolver (which only supports concurrent/results)
+ * - Manually loads dependencies from full-data/{job}/{timestamp}/jsons/
+ * - Processes only decisions that have BOTH Agent 2C AND Agent 3 results
+ * - Uses composite key matching (decision_id + language)
  *
- * OUTPUT: Production-ready legal principles with complete metadata
+ * OUTPUT: Per-decision JSONs in full-data pipeline
  * - 14 required fields per teaching (dual formulations + contexts + relationships + weight + links)
  * - Nested hierarchicalRelationships object (5 fields)
  * - Nested precedentialWeight object (6 fields)
  * - Enhanced metadata with relationship counts and validation checks
  */
-
-const TEST_SET_PARAMS = await loadTestSetParams();
-const TEST_SET_MAP = await buildTestSetMap();
 
 const config: JobConfig = {
   id: "extract-legal-teachings",
@@ -78,51 +214,31 @@ const config: JobConfig = {
   /**
    * Dependencies
    *
-   * Load citedProvisions from Agent 2C and citedDecisions from Agent 3.
-   * Both use concurrent/results source for test set evaluation.
+   * Empty array - we manually load from full-data in preprocessRow.
+   * DependencyResolver only supports concurrent/results, not full-data.
    */
-  dependencies: [
-    {
-      jobId: "interpret-provisions",
-      alias: "agent2c",
-      required: false,
-      source: "concurrent",
-      matchOn: [
-        { row: "decision_id", dependency: "decision_id" },
-        { row: "language_metadata", dependency: "language" },
-      ],
-    },
-    {
-      jobId: "extract-cited-decisions",
-      alias: "agent3",
-      required: false,
-      source: "concurrent",
-      matchOn: [
-        { row: "decision_id", dependency: "decision_id" },
-        { row: "language_metadata", dependency: "language" },
-      ],
-    },
-  ],
+  dependencies: [],
 
   /**
    * Database Query
    *
-   * Loads 197 stratified test decisions using TestSetLoader.
-   * Composite key matching (decision_id + language) ensures correct pairing.
+   * Loads ALL decisions that have both Agent 2C and Agent 3 results.
+   * Uses composite key matching (decision_id + language) from full-data.
    */
   dbQuery: `
     SELECT
       d.id,
       d.decision_id,
       d.language_metadata,
-      dm.full_md
+      dm.full_md,
+      LENGTH(dm.full_md) as md_length
     FROM decisions1 d
     INNER JOIN decisions_md dm
       ON dm.decision_id = d.decision_id
       AND dm.language = d.language_metadata
-    INNER JOIN unnest($1::text[], $2::text[]) AS test_set(decision_id, language)
-      ON d.decision_id = test_set.decision_id
-      AND d.language_metadata = test_set.language
+    INNER JOIN unnest($1::text[], $2::text[]) AS processable(decision_id, language)
+      ON d.decision_id = processable.decision_id
+      AND d.language_metadata = processable.language
     WHERE dm.full_md IS NOT NULL
       AND dm.full_md != ''
     ORDER BY d.decision_id, d.language_metadata
@@ -131,54 +247,69 @@ const config: JobConfig = {
   /**
    * Database Query Parameters
    *
-   * Load 197-decision test set with composite key arrays.
+   * Loads only decisions that exist in BOTH Agent 2C and Agent 3 full-data results.
    */
-  dbQueryParams: [TEST_SET_PARAMS.decisionIds, TEST_SET_PARAMS.languages],
+  dbQueryParams: [
+    PROCESSABLE_DECISIONS.map(p => p.decision_id),
+    PROCESSABLE_DECISIONS.map(p => p.language)
+  ],
 
   /**
    * Preprocess Row
    *
-   * Enriches database rows with test set metadata.
-   * Note: Dependencies (agent2c, agent3) are automatically loaded by DependencyResolver.
+   * Manually loads Agent 2C and Agent 3 data from full-data directories.
+   * Returns null if either dependency is missing (ConcurrentRunner will skip).
    */
   preprocessRow: async (row: any) => {
-    const key = `${row.decision_id}|${row.language_metadata}`;
-    const testSetEntry = TEST_SET_MAP.get(key);
+    // Load Agent 2C data (interpret-provisions)
+    const agent2cData = loadDependencyData(
+      FILEPATH_MAP_2C,
+      row.decision_id,
+      row.language_metadata
+    );
 
-    if (!testSetEntry) {
-      return row;
+    if (!agent2cData) {
+      console.warn(`⚠️  Missing Agent 2C data for decision ${row.decision_id} (${row.language_metadata}), skipping`);
+      return null;
     }
 
+    // Load Agent 3 data (extract-cited-decisions)
+    const agent3Data = loadDependencyData(
+      FILEPATH_MAP_3,
+      row.decision_id,
+      row.language_metadata
+    );
+
+    if (!agent3Data) {
+      console.warn(`⚠️  Missing Agent 3 data for decision ${row.decision_id} (${row.language_metadata}), skipping`);
+      return null;
+    }
+
+    // Attach both dependencies to row
     return {
       ...row,
-      decision_type_ecli_code: testSetEntry.decision_type_ecli_code,
-      decision_type_name: testSetEntry.decision_type_name,
-      court_ecli_code: testSetEntry.court_ecli_code,
-      court_name: testSetEntry.court_name,
-      courtcategory: testSetEntry.courtcategory,
-      decision_date: testSetEntry.decision_date,
-      md_length: testSetEntry.md_length,
-      length_category: testSetEntry.length_category,
+      agent2c: {
+        citedProvisions: agent2cData.citedProvisions || [],
+        citedProvisionsJson: JSON.stringify(agent2cData.citedProvisions || [], null, 2),
+        extractedReferences: agent2cData.extractedReferences
+      },
+      agent3: {
+        citedDecisions: agent3Data.citedDecisions || [],
+        citedDecisionsJson: JSON.stringify(agent3Data.citedDecisions || [], null, 2)
+      }
     };
   },
 
   /**
    * Row Metadata Fields
    *
-   * Track all metadata for filtering and evaluation analysis.
+   * Track essential metadata for analysis and filtering.
    */
   rowMetadataFields: [
     "id",
     "decision_id",
     "language_metadata",
-    "decision_type_ecli_code",
-    "decision_type_name",
-    "court_ecli_code",
-    "court_name",
-    "courtcategory",
-    "decision_date",
-    "md_length",
-    "length_category",
+    "md_length"
   ],
 
   /**
@@ -191,13 +322,10 @@ const config: JobConfig = {
    * 4. {citedDecisions} - JSON array from Agent 3 (with internalDecisionId)
    * 5. {fullText.markdown} - Full decision text
    *
-   * Dependencies are loaded by DependencyResolver and attached to row.agent2c and row.agent3.
+   * Dependencies loaded manually in preprocessRow and attached as row.agent2c and row.agent3.
    */
   promptTemplate: (row) => {
-    // Extract citedProvisions from Agent 2C dependency
     const citedProvisions = row.agent2c?.citedProvisions || [];
-
-    // Extract citedDecisions from Agent 3 dependency
     const citedDecisions = row.agent3?.citedDecisions || [];
 
     return EXTRACT_LEGAL_TEACHINGS_PROMPT
@@ -593,7 +721,7 @@ const config: JobConfig = {
   /**
    * Provider and Model Configuration
    *
-   * gpt-5 (full model) with HIGH reasoning effort:
+   * gpt-5-mini with MEDIUM reasoning effort:
    * - Complex multi-step reasoning required
    * - Belgian document structure awareness
    * - 5 quality gates per candidate
@@ -612,20 +740,21 @@ const config: JobConfig = {
   /**
    * Concurrency Configuration
    *
-   * Lower concurrency (150 vs typical 200-300) due to:
-   * - gpt-5 (full model) complexity and cost
-   * - HIGH reasoning effort per request
-   * - Larger output per decision (dual formulations + metadata)
+   * Conservative concurrency for full dataset:
+   * - 200 concurrent requests (standard for large runs)
+   * - Reduced from 300 to avoid rate limits on 60k+ dataset
+   * - Batch processing with 500ms delays between batches
    */
-  concurrencyLimit: 300,
+  concurrencyLimit: 200,
 
   /**
-   * Standard Pipeline Mode
+   * Full-Data Pipeline Mode
    *
-   * Enabled for test set evaluation and rapid iteration.
-   * Creates 4 aggregated JSONs in concurrent/results/ for analysis.
+   * Enabled for full dataset processing.
+   * Writes per-decision JSONs to full-data/extract-legal-teachings/<timestamp>/jsons/
+   * Required for large datasets and future retry operations.
    */
-  useFullDataPipeline: false,
+  useFullDataPipeline: true,
 
   /**
    * Custom ID prefix

@@ -233,23 +233,26 @@ export class RetryOrchestrator {
       dbQuery: retryDbQuery,
       dbQueryParams: retryDbQueryParams,
 
-      // Minimal preprocessRow to compute length_category
-      // No CSV test set loading needed - metadata comes from database query
-      preprocessRow: async (row: any) => {
-        // Compute length category based on markdown length
-        let length_category = 'unknown';
-        if (row.md_length) {
-          if (row.md_length < 10000) length_category = 'short';
-          else if (row.md_length < 30000) length_category = 'medium';
-          else if (row.md_length < 60000) length_category = 'long';
-          else length_category = 'very_long';
-        }
+      // Preserve original preprocessRow if it exists
+      // This is critical for jobs that load dependencies (e.g., Agent 2C loads Agent 2B data)
+      // If no preprocessRow, add minimal one to compute length_category
+      preprocessRow: originalConfig.preprocessRow
+        ? originalConfig.preprocessRow
+        : async (row: any) => {
+            // Compute length category based on markdown length
+            let length_category = 'unknown';
+            if (row.md_length) {
+              if (row.md_length < 10000) length_category = 'short';
+              else if (row.md_length < 30000) length_category = 'medium';
+              else if (row.md_length < 60000) length_category = 'long';
+              else length_category = 'very_long';
+            }
 
-        return {
-          ...row,
-          length_category,
-        };
-      },
+            return {
+              ...row,
+              length_category,
+            };
+          },
 
       // Override concurrency if specified
       concurrencyLimit: concurrencyLimit !== undefined
