@@ -81,7 +81,7 @@ export function logEvaluation(
   experiment: any,
   input: {
     decisionId: string;
-    sourceDocument: string;
+    sourceDocument: string | null;  // Allow null for RFTC jobs
     extractedData: any;
     url?: string;
   },
@@ -113,7 +113,7 @@ export function logEvaluation(
     input: {
       decision_id: input.decisionId,
       url: input.url || 'N/A',
-      source_document_length: input.sourceDocument.length,
+      source_document_length: input.sourceDocument?.length || 0,  // Handle null for RFTC jobs
       extracted_data: input.extractedData, // Full extracted JSON for viewing
     },
     output: output, // Full evaluation result with all details

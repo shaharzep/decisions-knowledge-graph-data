@@ -34,6 +34,7 @@
     "@braintrust/core": "^0.0.35",
     "ajv": "^8.12.0",
     "braintrust": "^0.0.154",
+    "cheerio": "^1.1.2",
     "dotenv": "^16.4.5",
     "openai": "^4.80.0",
     "p-limit": "^5.0.0",

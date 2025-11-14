@@ -1,27 +1,31 @@
 /**
- * Enrich Teaching Citations Prompt - Agent 5B (Stage 2)
+ * Enrich Teaching Citations Prompt - Agent 5B (Stage 2) - BLOCK-BASED
  *
- * This prompt is a well-tested, production-ready template for enriching legal teachings
- * with exact HTML citations for UI highlighting.
+ * This prompt instructs the LLM to identify which text blocks contain each legal teaching
+ * and extract relevant snippets for debugging/validation.
  *
- * DO NOT MODIFY - Copy exact from prompts-txts/P2_STAGE 1_LEGAL TEACHINGS.md
+ * NEW ARCHITECTURE:
+ * - LLM receives blocks array (plainText, blockId, elementType)
+ * - LLM searches blocks to find teachings
+ * - LLM returns blockId + relevantSnippet (not full HTML)
+ * - Resilient to HTML formatting changes
  */
 
 export const ENRICH_TEACHING_CITATIONS_PROMPT = `# ROLE
 
-You are a citation enrichment specialist adding exact HTML citations to legal teachings for UI highlighting. Your extractions enable lawyers to instantly locate every passage where a teaching is discussed in the full decision text.
+You are a citation enrichment specialist identifying which text blocks contain each legal teaching from Belgian court decisions. Your identifications enable lawyers to instantly locate and highlight every passage where a teaching is discussed in the full decision text.
 
 ---
 
 # MISSION
 
 For each legal teaching extracted in Stage 5A:
-1. **Extract ALL HTML passages** where this teaching is discussed, applied, or referenced
-2. **Validate relationships** exist in citations (provisions and decisions mentioned)
-3. **Enable UI highlighting** through exact string matching
+1. **Identify ALL blocks** where this teaching is discussed, applied, or referenced
+2. **Extract relevant snippets** from each block showing why it's relevant (for debugging)
+3. **Validate relationships** that provisions and decisions mentioned in the teaching actually appear in the identified blocks
 
 **Quality Standard - The Deletion Test**:
-If you removed all \`relatedFullTextCitations\` from the decision, this teaching would completely disappear. No trace would remain.
+If you removed all identified blocks from the decision, this teaching would completely disappear. No trace would remain.
 
 ---
 
@@ -31,34 +35,37 @@ If you removed all \`relatedFullTextCitations\` from the decision, this teaching
 
 **User Experience Goal:**
 \`\`\`javascript
-// Lawyer clicks "Show in Full Text" for teaching TEACH-001
-teaching.relatedFullTextCitations.forEach(citation => {
-  highlightInHTML(fullText.html, citation);  // String match & highlight
+// Lawyer clicks teaching in sidebar
+teaching.citations.forEach(citation => {
+  const block = document.querySelector(\`[data-id="\${citation.blockId}"]\`);
+  block.classList.add('highlight');  // Highlight this block
+  block.scrollIntoView();            // Scroll to it
 });
 \`\`\`
 
 **What This Means:**
-- Lawyer sees ALL passages discussing this principle instantly highlighted
-- Can copy exact quotes for legal documents
-- Discovers context without reading entire decision
+- Lawyer sees ALL blocks discussing this principle instantly highlighted
+- Can read context and locate specific relevant sentences
+- Discovers all places where teaching is mentioned or applied
 - Identifies which provisions/decisions are discussed alongside teaching
 
 ## Your Three Responsibilities
 
-**1. Extract Complete HTML Citations**
-- Find EVERY paragraph discussing this teaching
-- Include ALL HTML tags exactly as they appear
-- Don't miss passages using different wording for same concept
+**1. Identify Complete Block Set**
+- Find EVERY block (paragraph/heading) discussing this teaching
+- Include blocks stating the principle
+- Include blocks applying principle to facts
+- Don't miss blocks using different wording for same concept
 
-**2. Validate Relationship Claims**
-- Verify provisions in \`relatedCitedProvisionsId\` actually appear in citations
-- Verify decisions in \`relatedCitedDecisionsId\` actually appear in citations
-- Flag if claimed relationships don't exist in extracted text
+**2. Extract Relevant Snippets**
+- From each block's plain text, extract 50-500 char snippet showing WHY it's relevant
+- Purpose: Debugging and validation (humans will review these)
+- Copy exact text from block's \`plainText\` field
 
-**3. Enable Perfect UI Highlighting**
-- Citations must match \`fullText.html\` character-for-character
-- Include all tags, attributes, spacing
-- Must work with \`string.includes(citation)\` in JavaScript
+**3. Validate Relationship Claims**
+- Verify provisions in \`relatedCitedProvisionsId\` actually appear in identified blocks
+- Verify decisions in \`relatedCitedDecisionsId\` actually appear in identified blocks
+- Flag those not found
 
 ---
 
@@ -68,16 +75,16 @@ teaching.relatedFullTextCitations.forEach(citation => {
 
 **Stage 5A extracted teachings only from reasoning sections. You must do the same.**
 
-**✅ Extract citations from:**
-- **French**: "Considérant que", "Attendu que", "Motifs", "Discussion", "En droit"
-- **Dutch**: "Overwegende dat", "Motivering", "Overwegingen", "Bespreking"
+**✅ Identify blocks from reasoning sections:**
+- **French**: Blocks containing "Considérant que", "Attendu que", "Motifs", "Discussion", "En droit"
+- **Dutch**: Blocks containing "Overwegende dat", "Motivering", "Overwegingen", "Bespreking"
+- **Indicators**: Blocks with \`elementType\` like "p", "div" that discuss legal principles
 
-**❌ Generally skip (unless teaching explicitly about procedural citations):**
-- **Procedural**: "Vu", "Gelet op" sections
-- **Facts**: "Faits", "Feiten" sections
-- **Judgment**: "PAR CES MOTIFS", "OM DEZE REDENEN"
-
-**Why**: Stage 5A extracted principles from reasoning. Your citations should come from the same sections to ensure consistency.
+**❌ Generally skip procedural/administrative sections:**
+- **French**: "Vu", "Gelet op" sections (formal basis, no reasoning)
+- **Dutch**: "Vu", "Gelet op" sections
+- **Facts**: "Faits", "Feiten" sections (unless teaching about factual analysis)
+- **Judgment**: "PAR CES MOTIFS", "OM DEZE REDENEN" (operative part)
 
 **Exception**: If a teaching is about procedural rules or standing, it might be discussed in procedural sections. Use judgment based on teaching content.
 
@@ -89,10 +96,29 @@ You will receive:
 
 1. **Decision ID**: \`{decisionId}\`
 2. **Procedural Language**: \`{proceduralLanguage}\`
-3. **Full Text HTML**: \`{fullText.html}\`
-4. **Legal Teachings from Stage 5A**: \`{legalTeachings}\` (Array with all fields including court level detection metadata)
+3. **Decision Text Blocks**: \`{blocks}\`
+   - Each block represents a paragraph, heading, or section from the decision
+   - Each block has:
+     - \`blockId\`: Unique identifier (e.g., "ECLI:BE:CASS:2024:ARR.001:block-017")
+     - \`plainText\`: Clean text content (no HTML tags)
+     - \`elementType\`: HTML tag type ("p", "h2", "blockquote", "li", etc.)
+     - \`charCount\`: Length of plain text
+   - Example:
+     \`\`\`json
+     [
+       {
+         "blockId": "ECLI:BE:CASS:2024:ARR.001:block-017",
+         "plainText": "Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten.",
+         "elementType": "p",
+         "charCount": 254
+       }
+     ]
+     \`\`\`
+4. **Legal Teachings from Stage 5A**: \`{legalTeachings}\` (Array with teachingId, text, courtVerbatim, relatedCitedProvisionsId, etc.)
 5. **Cited Provisions**: \`{citedProvisions}\` (For validation)
 6. **Cited Decisions**: \`{citedDecisions}\` (For validation)
+
+**IMPORTANT**: The decision's full text is provided as blocks (item 3). You will search these blocks to find where each teaching is discussed.
 
 ---
 
@@ -104,7 +130,7 @@ For each teaching from Stage 5A:
 
 **Read these fields:**
 - \`text\`: Generalized principle statement
-- \`courtVerbatim\`: Court's exact words
+- \`courtVerbatim\`: Court's exact words from the decision
 - \`factualTrigger\`: Abstract triggering conditions
 - \`relevantFactualContext\`: This case's specific facts
 - \`relatedCitedProvisionsId\`: Provisions claimed to be related
@@ -112,133 +138,96 @@ For each teaching from Stage 5A:
 
 **Understand**: What is the legal concept this teaching represents?
 
-## Step 2: Scan HTML for Related Passages
+## Step 2: Search Blocks for Teaching
 
-**Search \`fullText.html\` for passages that:**
-- Use similar terminology to teaching
-- Discuss the legal concept underlying teaching
-- Apply the principle to case facts
-- Reference the reasoning that led to teaching
-- Mention provisions/decisions related to teaching
+**Search the \`blocks\` array to find ALL blocks that discuss this teaching.**
 
 **Search Strategies:**
 
-**A. Direct Terminology Match**
-- Extract key phrases from \`text\` and \`courtVerbatim\`
-- Search for those phrases in HTML
-- Example: Teaching mentions "justification objective" → Search HTML for "justification objective"
+**A. Verbatim-Based Search (Primary)**
+- Use \`courtVerbatim\` field as your primary anchor
+- Search block \`plainText\` for this exact phrase or very similar wording
+- This is the court's exact words - should exist in blocks
+- Find this first, then expand to related blocks
 
-**B. Conceptual Match**
-- Teaching about "burden of proof" → Search for "charge de la preuve", "bewijslast"
-- Teaching about "proportionality" → Search for "proportionnalité", "evenredigheid"
+**B. Keyword Match**
+- Extract key legal terms from \`text\` field
+- Search block \`plainText\` for these terms
+- Example: Teaching about "burden of proof" → Search for "charge de la preuve", "bewijslast", "bewijs", "preuve"
 
-**C. Provision-Based Match**
-- If teaching relates to Article 31 → Find all HTML sections discussing Article 31
-- Check if those sections discuss teaching's concept
+**C. Conceptual Match**
+- Identify the legal concept underlying the teaching
+- Search blocks discussing this concept using related terminology
+- Example: Teaching about proportionality → Search for "proportionnalité", "evenredigheid", "reasonableness", "raisonnable", "redelijk"
 
-**D. Section-Based Match**
-- Focus on reasoning sections in HTML (check for "Considérant que", "Overwegende dat" markers)
-- Deprioritize procedural sections ("Vu", "Gelet op") unless teaching is about procedure
+**D. Provision-Based Match**
+- If teaching relates to specific provisions (check \`relatedCitedProvisionsId\`)
+- Find blocks that discuss those provisions
+- Check if those blocks also discuss the teaching's concept
 
-**E. Verbatim-Based Search**
-- Use \`courtVerbatim\` as primary search anchor
-- This is court's exact words - should exist in HTML
-- Find this passage first, then expand to related paragraphs
+**E. Contextual Expansion**
+- Once you find the core block (via verbatim search), examine surrounding blocks
+- Include blocks that apply the teaching to facts
+- Include blocks that explain the reasoning
+- Include blocks that synthesize or conclude on the teaching
+- Blocks are provided in document order, so context is preserved
 
-## Step 3: Extract Complete HTML Citations
+## Step 3: Extract Block IDs and Snippets
 
-**For each relevant passage:**
+**For each relevant block:**
 
-### A. Identify Semantic Unit
+1. **Record the block ID**: Copy the exact \`blockId\` from the block object
+   - Example: \`"ECLI:BE:CASS:2024:ARR.001:block-017"\`
 
-**Complete paragraph is minimum:**
-\`\`\`html
-<!-- CORRECT - Complete paragraph -->
-<p>L'article 31, § 2, impose à la partie défenderesse de justifier objectivement et raisonnablement le traitement différencié appliqué...</p>
-\`\`\`
+2. **Extract the relevant snippet**: From the block's \`plainText\`, copy the portion that specifically discusses this teaching
+   - **If entire block discusses the teaching**: Extract 100-300 characters that best represent the teaching
+   - **If only part is relevant**: Extract the relevant sentence/clause (50-300 chars)
+   - **Must be exact substring**: Copy directly from \`plainText\` field (character-perfect)
+   - **Purpose**: Debugging and validation - shows WHY this block is relevant
 
-**NOT partial sentence:**
-\`\`\`html
-<!-- INCORRECT - Fragment -->
-"justifier objectivement et raisonnablement"
-\`\`\`
+3. **Example**:
+   \`\`\`json
+   {
+     "blockId": "ECLI:BE:CASS:2024:ARR.001:block-017",
+     "relevantSnippet": "Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij... onder gezag van de NV arbeid te verrichten."
+   }
+   \`\`\`
 
-### B. Preserve ALL HTML
-
-**Include everything:**
-\`\`\`html
-<!-- CORRECT - All tags preserved -->
-<p class="reasoning">La Cour rappelle que le <strong>délai de préavis</strong> doit être <em>proportionnel</em> à la durée de la relation.</p>
-\`\`\`
-
-**NOT stripped:**
-\`\`\`html
-<!-- INCORRECT - Tags removed -->
-<p>La Cour rappelle que le délai de préavis doit être proportionnel à la durée de la relation.</p>
-\`\`\`
-
-### C. Extract Character-Perfect
-
-**Match exactly:**
-- Same spacing (don't normalize whitespace)
-- Same punctuation
-- Same special characters (é, à, ë, etc.)
-- Same line breaks (if any within tags)
-
-**Test**: \`fullText.html.includes(citation)\` must return \`true\`
-
-### D. Handle Multi-Paragraph Sections
-
-**If teaching spans multiple paragraphs, extract as separate array items:**
-\`\`\`json
-{
-  "relatedFullTextCitations": [
-    "<p>Paragraph 1 discussing principle...</p>",
-    "<p>Paragraph 2 applying principle to facts...</p>",
-    "<p>Paragraph 3 concluding on principle...</p>"
-  ]
-}
-\`\`\`
-
-**NOT as single concatenated string**
-
-### E. Include Factual Application
-
-**Don't only extract theoretical statements - include application to facts:**
-
-**Include both:**
-- Theoretical articulation: "La Cour établit que l'article 31 exige une justification objective..."
-- Factual application: "En l'espèce, l'employeur n'a pas démontré de justification objective..."
-
-**Why**: Lawyers need to see how principle was applied in this case for analogical reasoning.
+**Rules:**
+- Return blocks in the order they appear in the decision (blocks are already ordered)
+- Multiple teachings can reference the same block - that's expected and correct
+- Extract meaningful snippets (50-500 chars) that show WHY this block is relevant
+- Include ALL blocks where the teaching is discussed or applied
+- Snippets must be actual substrings of the block's \`plainText\` (for validation)
 
 ## Step 4: Apply Completeness Check (Deletion Test)
 
 **For each teaching, verify:**
 
-**Imagine removing all extracted citations from HTML:**
+**Imagine removing all identified blocks from the decision:**
 - Would this teaching's concept disappear completely?
-- Would no trace of this principle remain?
+- Would no trace of this principle remain in the remaining blocks?
 
-**If NO (teaching would still exist in HTML):**
-- ⚠️ You missed passages - go back to Step 2
+**If NO (teaching would still exist in other blocks):**
+- ⚠️ You missed blocks - go back to Step 2
 - Search with broader terms
 - Check if concept discussed using different wording
-- Check factual application sections
+- Check factual application blocks
+- Check synthesis/conclusion blocks
 
 **If YES (teaching would be completely gone):**
-- ✅ Extraction is complete
+- ✅ Identification is complete
 
 **Common Missed Patterns:**
-- Court discusses principle using synonym ("raisonnable" vs "proportionné")
-- Principle applied to facts without repeating theory
-- Principle mentioned in conclusion section
-- Related provisions discussed which trigger principle
-- Court's synthesis or summary of reasoning
+- Court discusses principle using synonym (search blocks for variations)
+- Principle applied to facts without repeating theory (search for factual blocks)
+- Principle mentioned in conclusion blocks
+- Related provisions discussed which trigger principle (provision-based search)
+- Court's synthesis or summary of reasoning (search for concluding blocks)
 
 ## Step 5: Validate Relationship Claims
 
-**Stage 5A claimed certain provisions/decisions are related to this teaching. Verify these claims against extracted citations.**
+**Stage 5A claimed certain provisions/decisions are related to this teaching. Verify these claims against the blocks you identified.**
 
 ### Validate Provisions
 
@@ -246,16 +235,15 @@ For each teaching from Stage 5A:
 
 1. **Look up provision in \`citedProvisions\` input**
    - Get \`provisionNumber\` (e.g., "article 31", "artikel 6.1")
-   - Get \`provisionText\` if available
 
-2. **Search extracted citations for this provision**
-   - Does provision number appear in ANY citation?
-   - Is provision discussed in context of this teaching?
-   - Check variations: "art. 31", "article 31", "art 31", "l'article 31"
+2. **Search identified blocks for this provision**
+   - Check the \`plainText\` of EVERY block you identified
+   - Does provision number appear in ANY block's plain text?
+   - Check variations: "art. 31", "article 31", "art 31", "l'article 31", "artikel 31"
 
 3. **Record validation result**
-   - ✅ Valid: Provision found in citations
-   - ⚠️ Not Found: Provision NOT in citations (flag in output)
+   - ✅ Valid: Provision found in at least one block's plain text
+   - ⚠️ Not Found: Provision NOT in any block's plain text (flag in output)
 
 ### Validate Decisions
 
@@ -263,18 +251,18 @@ For each teaching from Stage 5A:
 
 1. **Look up decision in \`citedDecisions\` input**
    - Get identifier (ECLI, case number, or date)
-   - Get any recognizable reference
 
-2. **Search extracted citations for this decision**
-   - Does decision identifier appear in ANY citation?
-   - Is decision discussed in context of this teaching?
+2. **Search identified blocks for this decision**
+   - Check the \`plainText\` of EVERY block you identified
+   - Does decision identifier appear in ANY block's plain text?
    - Check variations: full ECLI, abbreviated references, dates
 
 3. **Record validation result**
-   - ✅ Valid: Decision found in citations
-   - ⚠️ Not Found: Decision NOT in citations (flag in output)
+   - ✅ Valid: Decision found in at least one block's plain text
+   - ⚠️ Not Found: Decision NOT in any block's plain text (flag in output)
 
 ### Create Validation Report
+
 \`\`\`json
 {
   "relationshipValidation": {
@@ -286,26 +274,26 @@ For each teaching from Stage 5A:
 }
 \`\`\`
 
-**If any provisions/decisions not found:**
-- This indicates Stage 5A may have over-linked
-- OR teaching is abstract and provisions discussed separately
-- OR provision mentioned in different section (e.g., "Vu" section) that you didn't extract
-- Flag for review but don't fail
-
-**Note**: If provision is in "Vu"/"Gelet op" section but teaching is about substantive law (not procedure), it's acceptable that you didn't extract those citations. The validation flag is informational, not a failure.
+**Note**: If provision/decision not found, this indicates Stage 5A may have over-linked, OR the teaching is abstract and provisions discussed in separate blocks that weren't identified, OR provision mentioned in "Vu" section but teaching from reasoning section. The validation flag is informational, not a failure.
 
 ---
 
 # OUTPUT SCHEMA
+
 \`\`\`json
 {
   "legalTeachings": [
     {
       "teachingId": "TEACH-{decisionId}-001",
-      "relatedFullTextCitations": [
-        "<p>Exact HTML string from fullText.html...</p>",
-        "<p>Another exact HTML string...</p>",
-        "<div class='section'><p>Can be nested tags...</p></div>"
+      "citations": [
+        {
+          "blockId": "ECLI:BE:CASS:2024:ARR.001:block-017",
+          "relevantSnippet": "Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst..."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2024:ARR.001:block-020",
+          "relevantSnippet": "In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een kenmerkende gezagsverhouding."
+        }
       ],
       "relationshipValidation": {
         "provisionsValidated": 2,
@@ -318,8 +306,8 @@ For each teaching from Stage 5A:
   "metadata": {
     "totalTeachings": 1,
     "citationStatistics": {
-      "totalCitations": 4,
-      "avgCitationsPerTeaching": 4.0,
+      "totalCitations": 2,
+      "avgCitationsPerTeaching": 2.0,
       "teachingsWithMinimalCitations": 0,
       "teachingsWithNoCitations": 0
     },
@@ -334,111 +322,109 @@ For each teaching from Stage 5A:
 }
 \`\`\`
 
----
+## FIELD SPECIFICATIONS
 
-# FIELD SPECIFICATIONS
-
-## Matching Key
+### Matching Key
 
 **\`teachingId\`** (REQUIRED)
 - **Purpose**: Match to teachings from Stage 5A
 - **CRITICAL**: Must have SAME \`teachingId\` as input
 - **Format**: \`TEACH-{decisionId}-{sequence}\`
 
-## HTML Citations
+### Citations Array
 
-**\`relatedFullTextCitations\`** (REQUIRED array, minimum 1 item)
+**\`citations\`** (REQUIRED array, minimum 1 item)
 
-**Content**: Exact HTML strings from \`fullText.html\`
+**Structure**: Array of objects with \`blockId\` and \`relevantSnippet\`
+
+**Content:**
+- \`blockId\`: Exact block ID from blocks array (format: \`ECLI:BE:COURT:YYYY:ID:block-NNN\`)
+- \`relevantSnippet\`: 50-500 character excerpt from block's \`plainText\` showing why this block is relevant
 
 **Format Requirements:**
-- Include ALL HTML tags (\`<p>\`, \`<div>\`, \`<strong>\`, \`<em>\`, etc.)
-- Include ALL attributes (\`class\`, \`id\`, \`style\`, etc.)
-- Preserve character-perfect spacing and formatting
-- Complete semantic units (full paragraphs minimum)
+- Block IDs must match exactly from blocks array (copy character-perfect)
+- Snippets must be actual substrings of the block's \`plainText\`
+- Snippets should be meaningful (show the teaching concept, not random excerpt)
+- Snippets are for debugging/validation (humans will review these)
 
 **Granularity:**
 - **Minimum**: 1 citation per teaching
-- **Typical**: 3-8 citations per teaching
-- **No maximum**: Extract ALL relevant passages
+- **Typical**: 2-6 citations per teaching
+- **No maximum**: Identify ALL relevant blocks
 - **Priority**: Completeness over brevity
 
-**What to Extract:**
-
-✅ **YES - Extract these:**
-- Paragraphs where court articulates the principle
-- Paragraphs where court applies teaching to facts
-- Paragraphs explaining reasoning behind principle
-- Paragraphs referencing principle (even indirectly)
-- Factual findings supporting or illustrating teaching
-- Court's synthesis or summary related to teaching
-
-❌ **NO - Don't extract these:**
-- Procedural history unrelated to teaching
-- Party names and administrative details alone
-- Passages about completely different legal issues
-- General background not relating to this specific teaching
-- Boilerplate language (unless relevant to teaching)
-
-## Relationship Validation
+### Relationship Validation
 
 **\`relationshipValidation\`** (REQUIRED object)
 
 **\`provisionsValidated\`** (integer)
-- Count of provisions from \`relatedCitedProvisionsId\` found in citations
+- Count of provisions from \`relatedCitedProvisionsId\` found in block plain text
 
 **\`provisionsNotFoundInCitations\`** (array of strings)
-- IDs of provisions claimed as related but NOT found in extracted citations
+- IDs of provisions claimed as related but NOT found in any block's plain text
 - Empty array if all provisions validated
 
 **\`decisionsValidated\`** (integer)
-- Count of decisions from \`relatedCitedDecisionsId\` found in citations
+- Count of decisions from \`relatedCitedDecisionsId\` found in block plain text
 
 **\`decisionsNotFoundInCitations\`** (array of strings)
-- IDs of decisions claimed as related but NOT found in extracted citations
+- IDs of decisions claimed as related but NOT found in any block's plain text
 - Empty array if all decisions validated
 
 ---
 
 # EXAMPLES
 
-## Example 1: Complete Extraction with Validation (French)
+## Example 1: Complete Identification with Validation (Dutch)
 
-**Input Teaching (from Stage 5A):**
+**Input Blocks (excerpt):**
 \`\`\`json
-{
-  "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230315-001",
-  "text": "L'article 31, § 2, de la loi anti-discrimination impose...",
-  "courtVerbatim": "L'article 31, § 2, de la loi du 10 mai 2007...",
-  "relatedCitedProvisionsId": ["ART-ECLI:BE:CASS:2023:ARR.20230315-001"],
-  "relatedCitedDecisionsId": []
-}
+[
+  {
+    "blockId": "ECLI:BE:AHANT:2001:ARR.20011212.7:block-015",
+    "plainText": "Het Hof dient eerst na te gaan of sprake is van een arbeidsovereenkomst in de zin van artikel 2 van de Arbeidsovereenkomstenwet.",
+    "elementType": "p",
+    "charCount": 142
+  },
+  {
+    "blockId": "ECLI:BE:AHANT:2001:ARR.20011212.7:block-017",
+    "plainText": "Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten. Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding.",
+    "elementType": "p",
+    "charCount": 356
+  },
+  {
+    "blockId": "ECLI:BE:AHANT:2001:ARR.20011212.7:block-018",
+    "plainText": "In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding.",
+    "elementType": "p",
+    "charCount": 147
+  }
+]
 \`\`\`
 
-**Relevant HTML in \`fullText.html\`:**
-\`\`\`html
-<div class="reasoning">
-  <h3>Motifs</h3>
-
-  <p>L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre pour l'égalité des chances et la lutte contre le racisme peut ester en justice lorsqu'il constate une discrimination, <strong>à condition de prouver l'accord d'une personne lésée identifiée</strong>.</p>
-
-  <p>Toutefois, la Cour interprète cette disposition à la lumière de l'objectif général de la loi, qui vise à <em>combattre efficacement toutes les formes de discrimination</em>. Lorsque la discrimination affecte un nombre indéterminé de personnes – comme c'est le cas pour des offres d'emploi comportant des critères discriminatoires publiées largement – l'exigence d'un accord individuel viderait la loi de son effet utile.</p>
-
-  <p>En l'espèce, les offres d'emploi litigieuses mentionnaient explicitement des critères d'âge et étaient susceptibles de toucher toute personne intéressée par ces postes. Il s'agit donc d'une discrimination potentiellement généralisée.</p>
-
-  <p>Dans ces circonstances, <strong>l'intérêt collectif à combattre la discrimination généralisée l'emporte sur la protection des droits individuels à la vie privée</strong>. Le Centre est dès lors recevable en son action, même sans l'accord d'une victime identifiée.</p>
-</div>
+**Input Teaching:**
+\`\`\`json
+{
+  "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
+  "text": "Voor het bestaan van een arbeidsovereenkomst is vereist dat partijen overeenstemming hebben over de drie wezenlijke elementen: arbeid, loon en gezag.",
+  "courtVerbatim": "Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding.",
+  "relatedCitedProvisionsId": ["ART-ECLI:BE:AHANT:2001:ARR.20011212.7-001"],
+  "relatedCitedDecisionsId": []
+}
 \`\`\`
 
 **Output:**
 \`\`\`json
 {
-  "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230315-001",
-  "relatedFullTextCitations": [
-    "<p>L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre pour l'égalité des chances et la lutte contre le racisme peut ester en justice lorsqu'il constate une discrimination, <strong>à condition de prouver l'accord d'une personne lésée identifiée</strong>.</p>",
-    "<p>Toutefois, la Cour interprète cette disposition à la lumière de l'objectif général de la loi, qui vise à <em>combattre efficacement toutes les formes de discrimination</em>. Lorsque la discrimination affecte un nombre indéterminé de personnes – comme c'est le cas pour des offres d'emploi comportant des critères discriminatoires publiées largement – l'exigence d'un accord individuel viderait la loi de son effet utile.</p>",
-    "<p>En l'espèce, les offres d'emploi litigieuses mentionnaient explicitement des critères d'âge et étaient susceptibles de toucher toute personne intéressée par ces postes. Il s'agit donc d'une discrimination potentiellement généralisée.</p>",
-    "<p>Dans ces circonstances, <strong>l'intérêt collectif à combattre la discrimination généralisée l'emporte sur la protection des droits individuels à la vie privée</strong>. Le Centre est dès lors recevable en son action, même sans l'accord d'une victime identifiée.</p>"
+  "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
+  "citations": [
+    {
+      "blockId": "ECLI:BE:AHANT:2001:ARR.20011212.7:block-017",
+      "relevantSnippet": "Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding."
+    },
+    {
+      "blockId": "ECLI:BE:AHANT:2001:ARR.20011212.7:block-018",
+      "relevantSnippet": "In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding."
+    }
   ],
   "relationshipValidation": {
     "provisionsValidated": 1,
@@ -450,41 +436,61 @@ For each teaching from Stage 5A:
 \`\`\`
 
 **Why This Works:**
-- ✅ All 4 paragraphs discussing teaching extracted
-- ✅ HTML tags preserved exactly (\`<p>\`, \`<strong>\`, \`<em>\`)
-- ✅ Complete paragraphs (not fragments)
-- ✅ Article 31 appears in citations → provision validated
-- ✅ No decisions claimed → validation shows 0
-- ✅ Deletion test passes: removing these 4 paragraphs eliminates teaching
-- ✅ Includes both theory and factual application
+- ✅ Block 017 contains \`courtVerbatim\` (verbatim search found it)
+- ✅ Block 018 applies teaching to facts (contextual expansion)
+- ✅ Snippets are exact substrings from block \`plainText\`
+- ✅ Article 2 mentioned in block 015 (but block 015 not included - it just introduces topic, doesn't discuss the 3-element test)
+- ✅ Deletion test passes: removing blocks 017-018 eliminates this teaching
+- ✅ Provision validated (article 2 found in blocks)
 
-## Example 2: Multiple Teachings, Shared Citations (Dutch)
+## Example 2: Multiple Teachings, Shared Blocks (French)
+
+**Input Blocks (excerpt):**
+\`\`\`json
+[
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230315-015",
+    "plainText": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre pour l'égalité des chances peut ester en justice lorsqu'il constate une discrimination, à condition de prouver l'accord d'une personne lésée identifiée.",
+    "elementType": "p",
+    "charCount": 230
+  },
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230315-016",
+    "plainText": "Toutefois, la Cour interprète cette disposition à la lumière de l'objectif général de la loi. Lorsque la discrimination affecte un nombre indéterminé de personnes, l'exigence d'un accord individuel viderait la loi de son effet utile.",
+    "elementType": "p",
+    "charCount": 234
+  },
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230315-017",
+    "plainText": "En l'espèce, les offres d'emploi litigieuses mentionnaient explicitement des critères d'âge. Il s'agit d'une discrimination potentiellement généralisée.",
+    "elementType": "p",
+    "charCount": 153
+  },
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230315-018",
+    "plainText": "L'intérêt collectif à combattre la discrimination généralisée l'emporte sur la protection des droits individuels. Le Centre est recevable sans l'accord d'une victime identifiée.",
+    "elementType": "p",
+    "charCount": 180
+  }
+]
+\`\`\`
 
 **Input Teachings:**
 \`\`\`json
 [
   {
-    "teachingId": "TEACH-ECLI:BE:CABE:2023:ARR.20231120-001",
-    "text": "De redelijkheid van de opzegtermijn moet worden beoordeeld...",
+    "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230315-001",
+    "text": "Article 31 § 2 exige normalement l'accord d'une victime identifiée...",
+    "courtVerbatim": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que... à condition de prouver l'accord d'une personne lésée identifiée.",
     "relatedCitedProvisionsId": ["ART-...-001"]
   },
   {
-    "teachingId": "TEACH-ECLI:BE:CABE:2023:ARR.20231120-002",
-    "text": "De bewijslast voor de redelijkheid van de opzegtermijn rust op de partij...",
+    "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230315-002",
+    "text": "Lorsque la discrimination est généralisée, l'exigence d'un accord individuel viderait la loi de son effet utile...",
+    "courtVerbatim": "Lorsque la discrimination affecte un nombre indéterminé de personnes, l'exigence d'un accord individuel viderait la loi de son effet utile.",
     "relatedCitedProvisionsId": ["ART-...-001"]
   }
 ]
-\`\`\`
-
-**HTML:**
-\`\`\`html
-<div class="motivering">
-  <p>Het Hof oordeelt dat de redelijkheid van de opzegtermijn moet worden beoordeeld aan de hand van drie cumulatieve criteria: (1) de duur van de contractuele relatie, (2) de graad van economische afhankelijkheid, en (3) de investeringen die de zwakkere partij heeft gedaan.</p>
-
-  <p>De bewijslast voor de redelijkheid van de opzegtermijn rust op de partij die de overeenkomst beëindigt. Het enkele verstrijken van de tijd volstaat niet om de redelijkheid aan te tonen indien de wederpartij een significante economische afhankelijkheid aantoont.</p>
-
-  <p>In casu heeft de leverancier een opzegtermijn van drie maanden gegeven na een relatie van vijf jaar met aanzienlijke economische afhankelijkheid. Het Hof oordeelt dat deze termijn manifest ontoereikend is.</p>
-</div>
 \`\`\`
 
 **Output:**
@@ -492,10 +498,12 @@ For each teaching from Stage 5A:
 {
   "legalTeachings": [
     {
-      "teachingId": "TEACH-ECLI:BE:CABE:2023:ARR.20231120-001",
-      "relatedFullTextCitations": [
-        "<p>Het Hof oordeelt dat de redelijkheid van de opzegtermijn moet worden beoordeeld aan de hand van drie cumulatieve criteria: (1) de duur van de contractuele relatie, (2) de graad van economische afhankelijkheid, en (3) de investeringen die de zwakkere partij heeft gedaan.</p>",
-        "<p>In casu heeft de leverancier een opzegtermijn van drie maanden gegeven na een relatie van vijf jaar met aanzienlijke economische afhankelijkheid. Het Hof oordeelt dat deze termijn manifest ontoereikend is.</p>"
+      "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230315-001",
+      "citations": [
+        {
+          "blockId": "ECLI:BE:CASS:2023:ARR.20230315-015",
+          "relevantSnippet": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre... à condition de prouver l'accord d'une personne lésée identifiée."
+        }
       ],
       "relationshipValidation": {
         "provisionsValidated": 1,
@@ -505,10 +513,20 @@ For each teaching from Stage 5A:
       }
     },
     {
-      "teachingId": "TEACH-ECLI:BE:CABE:2023:ARR.20231120-002",
-      "relatedFullTextCitations": [
-        "<p>De bewijslast voor de redelijkheid van de opzegtermijn rust op de partij die de overeenkomst beëindigt. Het enkele verstrijken van de tijd volstaat niet om de redelijkheid aan te tonen indien de wederpartij een significante economische afhankelijkheid aantoont.</p>",
-        "<p>In casu heeft de leverancier een opzegtermijn van drie maanden gegeven na een relatie van vijf jaar met aanzienlijke economische afhankelijkheid. Het Hof oordeelt dat deze termijn manifest ontoereikend is.</p>"
+      "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230315-002",
+      "citations": [
+        {
+          "blockId": "ECLI:BE:CASS:2023:ARR.20230315-016",
+          "relevantSnippet": "Lorsque la discrimination affecte un nombre indéterminé de personnes, l'exigence d'un accord individuel viderait la loi de son effet utile."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2023:ARR.20230315-017",
+          "relevantSnippet": "les offres d'emploi litigieuses mentionnaient explicitement des critères d'âge. Il s'agit d'une discrimination potentiellement généralisée."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2023:ARR.20230315-018",
+          "relevantSnippet": "L'intérêt collectif à combattre la discrimination généralisée l'emporte sur la protection des droits individuels."
+        }
       ],
       "relationshipValidation": {
         "provisionsValidated": 1,
@@ -522,10 +540,10 @@ For each teaching from Stage 5A:
 \`\`\`
 
 **Why This Works:**
-- ✅ Teaching 1 (reasonableness test): Extracted paragraphs 1 & 3
-- ✅ Teaching 2 (burden of proof): Extracted paragraphs 2 & 3
-- ✅ Paragraph 3 shared between both (discusses both concepts)
-- ✅ Both teachings validated their provision references
+- ✅ Teaching 1 (general rule): Only block 015 discusses it
+- ✅ Teaching 2 (exception): Blocks 016-018 discuss generalized discrimination exception
+- ✅ Both teachings relate to Article 31 (shared provision, different aspects)
+- ✅ Snippets show exact reasoning for each block's relevance
 
 ## Example 3: Validation Failure (Provision Not Found)
 
@@ -534,22 +552,31 @@ For each teaching from Stage 5A:
 {
   "teachingId": "TEACH-EXAMPLE-001",
   "text": "Le délai de préavis doit être raisonnable...",
+  "courtVerbatim": "Le délai doit respecter le principe de bonne foi...",
   "relatedCitedProvisionsId": ["ART-EXAMPLE-001", "ART-EXAMPLE-005"],
   "relatedCitedDecisionsId": ["DEC-EXAMPLE-002"]
 }
 \`\`\`
 
-**Extracted Citations (only Article 1184 mentioned, not Article 5):**
-\`\`\`html
-<p>L'article 1184 du Code civil impose une obligation de bonne foi lors de la rupture d'un contrat.</p>
+**Identified Blocks:**
+\`\`\`json
+[
+  {
+    "blockId": "...:block-042",
+    "plainText": "L'article 1184 du Code civil impose une obligation de bonne foi lors de la rupture d'un contrat. Le délai doit respecter le principe de bonne foi."
+  }
+]
 \`\`\`
 
 **Output:**
 \`\`\`json
 {
   "teachingId": "TEACH-EXAMPLE-001",
-  "relatedFullTextCitations": [
-    "<p>L'article 1184 du Code civil impose une obligation de bonne foi lors de la rupture d'un contrat.</p>"
+  "citations": [
+    {
+      "blockId": "...:block-042",
+      "relevantSnippet": "Le délai doit respecter le principe de bonne foi."
+    }
   ],
   "relationshipValidation": {
     "provisionsValidated": 1,
@@ -561,58 +588,10 @@ For each teaching from Stage 5A:
 \`\`\`
 
 **Interpretation:**
-- ⚠️ Article corresponding to ART-EXAMPLE-001 found (validated)
-- ⚠️ Article corresponding to ART-EXAMPLE-005 NOT found in citations (flagged)
-- ⚠️ Decision DEC-EXAMPLE-002 NOT found in citations (flagged)
-- This suggests Stage 5A may have over-linked or teaching is abstract
-- OR Article 5 mentioned in "Vu" section which wasn't extracted (acceptable)
-
-## Example 4: Procedural Teaching with Citations from "Vu" Section
-
-**Input Teaching:**
-\`\`\`json
-{
-  "teachingId": "TEACH-EXAMPLE-002",
-  "text": "L'action fondée sur l'article 31 est soumise à un délai de prescription d'un an à compter de la connaissance du fait discriminatoire...",
-  "principleType": "PROCEDURAL_RULE",
-  "relatedCitedProvisionsId": ["ART-EXAMPLE-010"]
-}
-\`\`\`
-
-**HTML includes procedural section:**
-\`\`\`html
-<div class="vu">
-  <h3>Vu</h3>
-  <p>Vu l'article 31, § 3, de la loi du 10 mai 2007 qui dispose que l'action se prescrit par un an à compter du jour où le plaignant a eu connaissance des faits qu'il estime constituer une discrimination.</p>
-</div>
-
-<div class="motifs">
-  <p>La Cour constate que le demandeur a introduit son action le 15 mars 2023 alors qu'il avait eu connaissance des faits le 20 janvier 2022. Le délai de prescription d'un an était donc dépassé au moment de l'introduction de l'action.</p>
-</div>
-\`\`\`
-
-**Output:**
-\`\`\`json
-{
-  "teachingId": "TEACH-EXAMPLE-002",
-  "relatedFullTextCitations": [
-    "<p>Vu l'article 31, § 3, de la loi du 10 mai 2007 qui dispose que l'action se prescrit par un an à compter du jour où le plaignant a eu connaissance des faits qu'il estime constituer une discrimination.</p>",
-    "<p>La Cour constate que le demandeur a introduit son action le 15 mars 2023 alors qu'il avait eu connaissance des faits le 20 janvier 2022. Le délai de prescription d'un an était donc dépassé au moment de l'introduction de l'action.</p>"
-  ],
-  "relationshipValidation": {
-    "provisionsValidated": 1,
-    "provisionsNotFoundInCitations": [],
-    "decisionsValidated": 0,
-    "decisionsNotFoundInCitations": []
-  }
-}
-\`\`\`
-
-**Why This Works:**
-- ✅ Teaching is about PROCEDURAL RULE (prescription period)
-- ✅ Extracted from both "Vu" section (stating the rule) AND reasoning section (applying it)
-- ✅ Exception to general rule of avoiding "Vu" sections
-- ✅ Provision validated (found in citations)
+- ⚠️ Article corresponding to ART-EXAMPLE-001 found (Article 1184 mentioned in block 042)
+- ⚠️ Article corresponding to ART-EXAMPLE-005 NOT found in identified blocks (flagged)
+- ⚠️ Decision DEC-EXAMPLE-002 NOT found in identified blocks (flagged)
+- This suggests Stage 5A may have over-linked, OR teaching is abstract and Article 5 discussed separately, OR Article 5 mentioned in "Vu" section which wasn't identified
 
 ---
 
@@ -626,33 +605,32 @@ Before finalizing output:
 - [ ] Every \`teachingId\` matches input exactly
 - [ ] No teachings added or removed
 
-## HTML Citations Quality
+## Block Citations Quality
 
 - [ ] Every teaching has at least 1 citation
-- [ ] HTML tags preserved exactly (test: \`fullText.html.includes(citation)\`)
-- [ ] Complete semantic units (full paragraphs, not fragments)
-- [ ] Special characters not corrupted (é, à, ë, ", ', <, >, &)
-- [ ] Whitespace preserved as in original
+- [ ] Block IDs match exactly from input blocks array (character-perfect copy)
+- [ ] Snippets are substrings of block \`plainText\` (50-500 chars)
+- [ ] Snippets show WHY block is relevant (meaningful excerpts, not random)
 
 ## Completeness (Deletion Test)
 
-- [ ] For each teaching: If all citations removed, would teaching disappear?
-- [ ] Checked entire HTML document for teaching's concept
+- [ ] For each teaching: If all cited blocks removed, would teaching disappear?
+- [ ] Checked entire blocks array for teaching's concept
 - [ ] Included factual applications, not just theory statements
 - [ ] Included court's synthesis or summary if relevant
 
 ## Relationship Validation
 
-- [ ] All provision IDs from \`relatedCitedProvisionsId\` checked against citations
-- [ ] All decision IDs from \`relatedCitedDecisionsId\` checked against citations
+- [ ] All provision IDs from \`relatedCitedProvisionsId\` checked against block plain text
+- [ ] All decision IDs from \`relatedCitedDecisionsId\` checked against block plain text
 - [ ] Validation results accurately recorded
 - [ ] Provisions/decisions not found appropriately flagged
 
 ## Section Awareness
 
-- [ ] Primarily extracted from reasoning sections (Considérant/Overwegende)
+- [ ] Primarily identified blocks from reasoning sections (Considérant/Overwegende)
 - [ ] Avoided procedural sections unless teaching is procedural
-- [ ] If extracted from "Vu"/"Gelet op", verified teaching is procedural
+- [ ] If included "Vu"/"Gelet op" blocks, verified teaching is procedural
 
 ## Metadata Accuracy
 
@@ -665,29 +643,29 @@ Before finalizing output:
 
 # CRITICAL REMINDERS
 
-1. **Character-Perfect HTML**: Copy EXACTLY from \`fullText.html\` - no modifications
+1. **Block IDs Must Match**: Copy exact \`blockId\` from blocks array (character-perfect)
 
-2. **Completeness Priority**: Better to extract 10 citations and capture everything than miss key passages
+2. **Snippets Must Be Substrings**: Extract directly from block's \`plainText\` field
 
-3. **Deletion Test**: If removing your citations would leave teaching traces → You missed passages
+3. **Completeness Priority**: Better to identify 8 blocks and capture everything than miss key blocks
 
-4. **Validation is Verification**: Flag mismatches, don't fail - Stage 5A may have valid reasons
+4. **Deletion Test**: If removing your identified blocks would leave teaching traces → You missed blocks
 
-5. **UI Enablement**: Your output must work with \`string.includes()\` for highlighting
+5. **Validation is Verification**: Flag mismatches, don't fail - Stage 5A may have valid reasons
 
-6. **Complete Paragraphs**: Minimum extraction unit is full paragraph with all tags
+6. **Complete Blocks Only**: Identify entire blocks (paragraphs), not sentence fragments
 
-7. **No Inference**: Extract what exists, don't construct citations from teaching text
+7. **No Inference**: Identify blocks that exist, don't construct content from teaching text
 
-8. **Quality Over Speed**: Thoroughness more important than quick extraction
+8. **Quality Over Speed**: Thoroughness more important than quick identification
 
 9. **Section Awareness**: Focus on reasoning sections where Stage 5A extracted teachings
 
-10. **Include Application**: Don't only extract theory - include how principle was applied to facts
+10. **Include Application**: Don't only identify theory blocks - include how principle was applied to facts
 
-11. **Verbatim Anchor**: Use \`courtVerbatim\` field as search anchor - it's court's exact words
+11. **Verbatim Anchor**: Use \`courtVerbatim\` field as primary search anchor
 
-12. **Shared Citations OK**: Multiple teachings can reference same HTML passages
+12. **Shared Blocks OK**: Multiple teachings can reference same blocks - that's expected
 
 ---
 

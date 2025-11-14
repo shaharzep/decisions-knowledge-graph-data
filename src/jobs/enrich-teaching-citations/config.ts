@@ -2,12 +2,19 @@ import { JobConfig } from "../JobConfig.js";
 import { ENRICH_TEACHING_CITATIONS_PROMPT } from "./prompt.js";
 import { enrichTeachingCitationsSchema, SCHEMA_NAME } from "./schema.js";
 import { TestSetLoader } from "../../utils/testSetLoader.js";
+import { transformDecisionHtml } from "../../utils/htmlTransformer.js";
 
 /**
- * Enrich Teaching Citations Job Configuration - Agent 5B (Stage 2)
+ * Enrich Teaching Citations Job Configuration - Agent 5B (Stage 2) - BLOCK-BASED
  *
- * Enriches legal teachings from Agent 5A with exact HTML citations for UI highlighting.
- * Validates that claimed provision/decision relationships exist in extracted text.
+ * Enriches legal teachings from Agent 5A with block-based citations for UI highlighting.
+ * Validates that claimed provision/decision relationships exist in extracted blocks.
+ *
+ * NEW ARCHITECTURE:
+ * - Transforms HTML to add data-id attributes to blocks
+ * - Returns block IDs instead of HTML strings (resilient to HTML changes)
+ * - Includes relevantSnippet for debugging/validation
+ * - LLM searches blocks array (plain text) instead of full HTML
  *
  * DEPENDENCIES (all required):
  * - extract-legal-teachings (Agent 5A): Source of teachings to enrich
@@ -19,14 +26,13 @@ import { TestSetLoader } from "../../utils/testSetLoader.js";
  * EXECUTION MODE: Evaluation mode on 197-decision test set (not full-data pipeline)
  *
  * SKIP LOGIC: If ANY of the 3 dependencies is missing, row cannot be processed
- * (dependency enrichment will fail validation)
  */
 
 const config: JobConfig = {
   id: "enrich-teaching-citations",
 
   description:
-    "Enrich legal teachings with exact HTML citations for UI highlighting and validate provision/decision relationships (Agent 5B - Stage 2)",
+    "Enrich legal teachings with block-based citations for UI highlighting and validate provision/decision relationships (Agent 5B - Stage 2 - BLOCK-BASED)",
 
   /**
    * Dependencies (3 required - all from concurrent/results, latest timestamp)
@@ -117,15 +123,14 @@ const config: JobConfig = {
   })(),
 
   /**
-   * Preprocessing: Check dependencies and skip if any missing
+   * Preprocessing: Transform HTML and check dependencies
    *
    * DependencyResolver loads and attaches dependencies to row:
    * - row.agent5a.legalTeachings
    * - row.agent2c.citedProvisions
    * - row.agent3.citedDecisions
    *
-   * We explicitly check if ANY dependency is missing and skip the row
-   * to avoid wasting API calls on incomplete data.
+   * We check dependencies, then transform HTML to add block IDs and generate blocks array.
    */
   preprocessRow: async (row: any) => {
     // Check if all 3 required dependencies are present
@@ -145,8 +150,19 @@ const config: JobConfig = {
       return null; // Skip this row
     }
 
-    // All dependencies present - proceed with processing
-    return row;
+    // Transform HTML and generate blocks
+    const { transformedHtml, blocks } = transformDecisionHtml(
+      row.decision_id,
+      row.full_html
+    );
+
+    // All dependencies present and HTML transformed - proceed with processing
+    return {
+      ...row,
+      transformed_html: transformedHtml,  // HTML with data-id attributes
+      blocks: blocks,                     // Array of block metadata
+      blocks_json: JSON.stringify(blocks, null, 2)  // For prompt injection
+    };
   },
 
   /**
@@ -161,32 +177,34 @@ const config: JobConfig = {
   ],
 
   /**
-   * Prompt Template
+   * Prompt Template - BLOCK-BASED
    *
-   * Injects 6 variables into prompt template:
+   * Injects 5 variables into prompt template:
    * 1. {decisionId} - ECLI identifier
    * 2. {proceduralLanguage} - FR or NL
-   * 3. {fullText.html} - HTML from decision_fulltext1
+   * 3. {blocks} - JSON array of blocks (blockId, plainText, elementType, charCount)
    * 4. {legalTeachings} - JSON array from Agent 5A
    * 5. {citedProvisions} - JSON array from Agent 2C
    * 6. {citedDecisions} - JSON array from Agent 3
+   *
+   * NOTE: No longer injecting full HTML - LLM searches blocks array instead
    */
   promptTemplate: (row) => {
     return ENRICH_TEACHING_CITATIONS_PROMPT
       .replace("{decisionId}", row.decision_id || "")
       .replace("{proceduralLanguage}", row.language_metadata || "FR")
-      .replace("{fullText.html}", row.full_html || "")
+      .replace("{blocks}", row.blocks_json || "[]")
       .replace("{legalTeachings}", JSON.stringify(row.agent5a?.legalTeachings || [], null, 2))
       .replace("{citedProvisions}", JSON.stringify(row.agent2c?.citedProvisions || [], null, 2))
       .replace("{citedDecisions}", JSON.stringify(row.agent3?.citedDecisions || [], null, 2));
   },
 
   /**
-   * Output JSON Schema
+   * Output JSON Schema - BLOCK-BASED
    *
    * Validates:
-   * - legalTeachings: Array with teachingId, relatedFullTextCitations, relationshipValidation
-   * - metadata: Statistics about citations and validation results
+   * - legalTeachings: Array with teachingId, citations (blockId + snippet), relationshipValidation
+   * - metadata: Statistics about block citations and validation results
    */
   outputSchema: enrichTeachingCitationsSchema,
 
@@ -198,10 +216,10 @@ const config: JobConfig = {
   /**
    * Provider and Model Configuration
    *
-   * Using gpt-5-mini with MEDIUM reasoning effort for citation extraction.
-   * This is a complex task requiring:
+   * Using gpt-5-mini with MEDIUM reasoning effort for block-based citation extraction.
+   * This task requires:
    * - Semantic understanding of legal concepts
-   * - Character-perfect HTML extraction
+   * - Block identification and snippet extraction
    * - Relationship validation logic
    */
   provider: "openai",

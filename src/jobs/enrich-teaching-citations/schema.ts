@@ -1,11 +1,16 @@
 /**
- * Enrich Teaching Citations Schema - Agent 5B (Stage 2)
+ * Enrich Teaching Citations Schema - Agent 5B (Stage 2) - BLOCK-BASED
  *
- * Enriches legal teachings from Agent 5A with exact HTML citations for UI highlighting.
- * Validates that claimed provision/decision relationships exist in extracted text.
+ * Enriches legal teachings from Agent 5A with block-based citations for UI highlighting.
+ * Validates that claimed provision/decision relationships exist in extracted blocks.
+ *
+ * NEW ARCHITECTURE:
+ * - Returns block IDs instead of HTML strings (resilient to HTML changes)
+ * - Includes relevantSnippet for debugging/validation
+ * - Validates relationships against block plain text
  *
  * Output Structure:
- * - legalTeachings: Array of teachings with HTML citations and validation results
+ * - legalTeachings: Array of teachings with block citations (blockId + snippet)
  * - metadata: Statistics about citations and relationship validation
  */
 
@@ -17,12 +22,12 @@ export const enrichTeachingCitationsSchema = {
     legalTeachings: {
       type: "array",
       minItems: 0,
-      description: "Array of enriched teachings with citations (can be 0 if no teachings in input)",
+      description: "Array of enriched teachings with block citations (can be 0 if no teachings in input)",
       items: {
         type: "object",
         required: [
           "teachingId",
-          "relatedFullTextCitations",
+          "citations",
           "relationshipValidation"
         ],
         additionalProperties: false,
@@ -32,14 +37,27 @@ export const enrichTeachingCitationsSchema = {
             pattern: "^TEACH-[a-zA-Z0-9:.]+-\\d{3}$",
             description: "Teaching ID from Agent 5A - must match exactly"
           },
-          relatedFullTextCitations: {
+          citations: {
             type: "array",
             minItems: 1,
-            description: "Exact HTML strings from fullText.html where teaching is discussed",
+            description: "Array of block citations where this teaching is discussed",
             items: {
-              type: "string",
-              minLength: 10,
-              description: "Complete HTML paragraph with all tags preserved"
+              type: "object",
+              required: ["blockId", "relevantSnippet"],
+              additionalProperties: false,
+              properties: {
+                blockId: {
+                  type: "string",
+                  pattern: "^ECLI:[A-Z]{2}:[A-Z0-9]+:\\d{4}:[A-Z0-9.]+:block-\\d{3}$",
+                  description: "Block ID in format: ECLI:BE:COURT:YYYY:IDENTIFIER:block-NNN"
+                },
+                relevantSnippet: {
+                  type: "string",
+                  minLength: 50,
+                  maxLength: 500,
+                  description: "50-500 character excerpt from block's plainText showing why it's relevant to this teaching (for debugging/validation)"
+                }
+              }
             }
           },
           relationshipValidation: {
@@ -55,22 +73,22 @@ export const enrichTeachingCitationsSchema = {
               provisionsValidated: {
                 type: "integer",
                 minimum: 0,
-                description: "Count of provisions found in citations"
+                description: "Count of provisions found in block plain text"
               },
               provisionsNotFoundInCitations: {
                 type: "array",
                 items: { type: "string" },
-                description: "Provision IDs claimed but not found in citations"
+                description: "Provision IDs claimed but not found in block plain text"
               },
               decisionsValidated: {
                 type: "integer",
                 minimum: 0,
-                description: "Count of decisions found in citations"
+                description: "Count of decisions found in block plain text"
               },
               decisionsNotFoundInCitations: {
                 type: "array",
                 items: { type: "string" },
-                description: "Decision IDs claimed but not found in citations"
+                description: "Decision IDs claimed but not found in block plain text"
               }
             }
           }
@@ -105,12 +123,12 @@ export const enrichTeachingCitationsSchema = {
             totalCitations: {
               type: "integer",
               minimum: 0,
-              description: "Total HTML citations extracted across all teachings"
+              description: "Total block citations extracted across all teachings"
             },
             avgCitationsPerTeaching: {
               type: "number",
               minimum: 0,
-              description: "Average number of citations per teaching"
+              description: "Average number of block citations per teaching"
             },
             teachingsWithMinimalCitations: {
               type: "integer",
@@ -137,22 +155,22 @@ export const enrichTeachingCitationsSchema = {
             totalProvisionsValidated: {
               type: "integer",
               minimum: 0,
-              description: "Total provisions found in citations across all teachings"
+              description: "Total provisions found in block plain text across all teachings"
             },
             totalProvisionsNotFound: {
               type: "integer",
               minimum: 0,
-              description: "Total provisions claimed but not found in citations"
+              description: "Total provisions claimed but not found in block plain text"
             },
             totalDecisionsValidated: {
               type: "integer",
               minimum: 0,
-              description: "Total decisions found in citations across all teachings"
+              description: "Total decisions found in block plain text across all teachings"
             },
             totalDecisionsNotFound: {
               type: "integer",
               minimum: 0,
-              description: "Total decisions claimed but not found in citations"
+              description: "Total decisions claimed but not found in block plain text"
             }
           }
         },
@@ -166,4 +184,4 @@ export const enrichTeachingCitationsSchema = {
   }
 };
 
-export const SCHEMA_NAME = "enrich_teaching_citations_v1";
+export const SCHEMA_NAME = "enrich_teaching_citations_v2";

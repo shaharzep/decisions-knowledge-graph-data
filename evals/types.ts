@@ -131,11 +131,28 @@ export interface GroundTruthSnippets {
 export type GroundTruthData = string | GroundTruthSnippets;
 
 /**
+ * RFTC (Related Full-Text Citations) source data structure
+ *
+ * Used for evaluating block-based citation jobs (enrich-teaching-citations, enrich-provision-citations)
+ * Contains transformed HTML with data-id attributes + dependency data
+ */
+export interface RFTCSourceData {
+  transformedHtml: string;  // HTML with data-id attributes embedded on content blocks
+  dependencies: {
+    legalTeachingsInput: any[];   // From Agent 5A (extract-legal-teachings)
+    citedProvisions: any[];        // From Agent 2C (interpret-provisions)
+    citedDecisions: any[];         // From Agent 3 (extract-cited-decisions)
+  };
+  url?: string;
+}
+
+/**
  * Single decision input for evaluation
  */
 export interface DecisionEvaluationInput {
   decisionId: string;
-  sourceDocument: string;
+  sourceDocument: string | null;  // null for RFTC jobs (use rftcData instead)
+  rftcData?: RFTCSourceData;      // Only for RFTC jobs (enrich-teaching-citations, etc.)
   extractedData: any;
   metadata?: {
     id?: number;

@@ -7,7 +7,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { loadExtractionResults, validateExtractionResults } from '../loaders/extraction-result-loader.js';
-import { batchLoadSourceDocuments, loadSourceDocument, SourceDocumentWithMetadata } from '../loaders/source-document-loader.js';
+import { batchLoadSourceDocuments, batchLoadRFTCData, loadSourceDocument, SourceDocumentWithMetadata } from '../loaders/source-document-loader.js';
 import { scoreExtraction, extractScoresForBraintrust } from '../scorers/gpt5-judge-scorer.js';
 import { createExperiment, logEvaluation, summarizeExperiment } from '../config/braintrust.js';
 import { getJudgePromptFile } from '../config/job-prompt-map.js';
@@ -21,6 +21,7 @@ import {
   EvaluationProgress,
   ExperimentMetadata,
   GroundTruthData,
+  RFTCSourceData,
 } from '../types.js';
 
 /**
@@ -28,7 +29,7 @@ import {
  */
 type ScorerFunction = (
   decisionId: string,
-  groundTruthData: GroundTruthData,
+  groundTruthData: GroundTruthData | RFTCSourceData,
   extractedJSON: any,
   judgePromptTemplate: string,
   jobType?: string
@@ -100,10 +101,20 @@ export async function runEvaluation(
 
   console.log(`   Decision keys extracted: ${decisionKeys.length}`);
 
-  // Batch load source documents
-  console.log(`\n📚 Loading ${decisionKeys.length} source documents from database...`);
-  const sourceDocuments = await batchLoadSourceDocuments(decisionKeys);
-  console.log(`✅ Loaded ${sourceDocuments.size} source documents`);
+  // Batch load source documents (or RFTC data for block-based citation jobs)
+  let sourceDocuments: Map<string, SourceDocumentWithMetadata | RFTCSourceData>;
+  let isRFTCJob = false;
+
+  if (jobType === 'enrich-teaching-citations' || jobType === 'enrich-provision-citations') {
+    isRFTCJob = true;
+    console.log(`\n📚 Loading RFTC data (transformed HTML + dependencies) for ${decisionKeys.length} decisions...`);
+    sourceDocuments = await batchLoadRFTCData(decisionKeys, jobType);
+    console.log(`✅ Loaded ${sourceDocuments.size} RFTC data packages`);
+  } else {
+    console.log(`\n📚 Loading ${decisionKeys.length} source documents from database...`);
+    sourceDocuments = await batchLoadSourceDocuments(decisionKeys);
+    console.log(`✅ Loaded ${sourceDocuments.size} source documents`);
+  }
 
   // Create Braintrust experiment with enhanced naming (includes config params)
   let experimentName: string;
@@ -166,23 +177,49 @@ export async function runEvaluation(
       continue;
     }
 
-    evaluationInputs.push({
-      decisionId,
-      sourceDocument: sourceDocWithMeta.fullMd,
-      extractedData: extracted,
-      metadata: {
-        id: extracted.id,
-        language,
-        url: sourceDocWithMeta.url,
-        decision_type_ecli_code: extracted.decision_type_ecli_code,
-        decision_type_name: extracted.decision_type_name,
-        court_ecli_code: extracted.court_ecli_code,
-        court_name: extracted.court_name,
-        decision_date: extracted.decision_date,
-        md_length: extracted.md_length,
-        length_category: extracted.length_category,
-      },
-    });
+    // Prepare evaluation input based on job type
+    if (isRFTCJob) {
+      // RFTC jobs: use transformed HTML + dependencies
+      const rftcData = sourceDocWithMeta as RFTCSourceData;
+      evaluationInputs.push({
+        decisionId,
+        sourceDocument: null,  // Not used for RFTC
+        rftcData: rftcData,    // Contains transformedHtml + dependencies
+        extractedData: extracted,
+        metadata: {
+          id: extracted.id,
+          language,
+          url: rftcData.url,
+          decision_type_ecli_code: extracted.decision_type_ecli_code,
+          decision_type_name: extracted.decision_type_name,
+          court_ecli_code: extracted.court_ecli_code,
+          court_name: extracted.court_name,
+          decision_date: extracted.decision_date,
+          md_length: extracted.md_length,
+          length_category: extracted.length_category,
+        },
+      });
+    } else {
+      // Standard jobs: use markdown
+      const sourceDoc = sourceDocWithMeta as SourceDocumentWithMetadata;
+      evaluationInputs.push({
+        decisionId,
+        sourceDocument: sourceDoc.fullMd,
+        extractedData: extracted,
+        metadata: {
+          id: extracted.id,
+          language,
+          url: sourceDoc.url,
+          decision_type_ecli_code: extracted.decision_type_ecli_code,
+          decision_type_name: extracted.decision_type_name,
+          court_ecli_code: extracted.court_ecli_code,
+          court_name: extracted.court_name,
+          decision_date: extracted.decision_date,
+          md_length: extracted.md_length,
+          length_category: extracted.length_category,
+        },
+      });
+    }
   }
 
   console.log(`\n🎯 Evaluating ${evaluationInputs.length} decisions...\n`);
@@ -212,11 +249,14 @@ export async function runEvaluation(
         // Filter extraction data to remove metadata (judge should only see model output)
         const extractionOnly = filterToExtractionFields(input.extractedData, jobType);
 
+        // Determine ground truth data based on job type
+        const groundTruthData = input.rftcData || input.sourceDocument!;
+
         // Score the extraction with job type and language
         const evaluation = await evaluateSingleDecision(
           input.decisionId,
           extractionOnly,  // Pass filtered data (no metadata)
-          input.sourceDocument,
+          groundTruthData,  // Either RFTC data or markdown
           judgePromptTemplate,
           jobType,
           input.metadata?.language || 'FR',
@@ -250,6 +290,7 @@ export async function runEvaluation(
       } catch (error: any) {
         progress.failed++;
         console.error(`\n❌ Error evaluating ${input.decisionId}: ${error.message}`);
+        console.error(`   Stack: ${error.stack}`);
         return { success: false, error: error.message, input };
       }
     });
@@ -323,7 +364,7 @@ export async function runEvaluation(
  *
  * @param decisionId - ECLI identifier
  * @param extractedData - Extracted JSON data
- * @param sourceDocument - Original markdown document
+ * @param groundTruthData - Original markdown document OR RFTC data (transformed HTML + dependencies)
  * @param judgePromptTemplate - The loaded judge prompt markdown content
  * @param jobType - Job type (for context)
  * @param language - Procedural language (FR or NL)
@@ -333,7 +374,7 @@ export async function runEvaluation(
 export async function evaluateSingleDecision(
   decisionId: string,
   extractedData: any,
-  sourceDocument: string,
+  groundTruthData: string | GroundTruthData | RFTCSourceData,
   judgePromptTemplate: string,
   jobType: string,
   language: string,
@@ -342,7 +383,7 @@ export async function evaluateSingleDecision(
   // Score the extraction using the provided scorer
   return await scorer(
     decisionId,
-    sourceDocument,
+    groundTruthData,
     extractedData,
     judgePromptTemplate,
     jobType

@@ -6,7 +6,7 @@
 
 import fs from 'fs/promises';
 import path from 'path';
-import { GroundTruthData, GroundTruthSnippets } from '../types.js';
+import { GroundTruthData, GroundTruthSnippets, RFTCSourceData } from '../types.js';
 
 /**
  * Load a judge prompt from the judge-prompts directory
@@ -56,7 +56,8 @@ export async function loadJudgePrompt(filename: string): Promise<string> {
 export function isTemplateStylePrompt(promptTemplate: string): boolean {
   return (
     promptTemplate.includes('{ground_truth_snippets}') ||
-    promptTemplate.includes('{extracted_output}')
+    promptTemplate.includes('{extracted_output}') ||
+    promptTemplate.includes('{transformedHtml}')  // RFTC template detection
   );
 }
 
@@ -79,13 +80,14 @@ export function formatSnippetsForPrompt(snippets: string[]): string {
 /**
  * Format a judge prompt with actual evaluation data
  *
- * Supports two formatting styles:
- * 1. Template-style: Replaces placeholders like {ground_truth_snippets}
- * 2. Append-style: Appends sections at the end (backward compatible)
+ * Supports three formatting styles:
+ * 1. RFTC-style: Replaces placeholders like {transformedHtml}, {legalTeachingsInput}
+ * 2. Template-style: Replaces placeholders like {ground_truth_snippets}
+ * 3. Append-style: Appends sections at the end (backward compatible)
  *
  * @param promptTemplate - The loaded judge prompt markdown content
  * @param decisionId - ECLI identifier
- * @param groundTruthData - Ground truth data (full text OR snippets)
+ * @param groundTruthData - Ground truth data (markdown, snippets, OR RFTC data)
  * @param extractedData - Extracted JSON object from the model
  * @param jobType - Optional job type for context
  * @param extractedReferences - Optional pre-extracted references for Agent 2B evaluation
@@ -94,7 +96,7 @@ export function formatSnippetsForPrompt(snippets: string[]): string {
 export function formatJudgePrompt(
   promptTemplate: string,
   decisionId: string,
-  groundTruthData: GroundTruthData,
+  groundTruthData: GroundTruthData | RFTCSourceData,
   extractedData: any,
   jobType?: string,
   extractedReferences?: any
@@ -126,7 +128,7 @@ export function formatJudgePrompt(
  *
  * @param promptTemplate - Template with placeholders
  * @param decisionId - ECLI identifier
- * @param groundTruthData - Ground truth data
+ * @param groundTruthData - Ground truth data (can be markdown, snippets, or RFTC data)
  * @param extractedData - Extracted JSON
  * @param extractedReferences - Optional pre-extracted references (for Agent 2B)
  * @returns Formatted prompt with placeholders replaced
@@ -134,25 +136,44 @@ export function formatJudgePrompt(
 function formatTemplateStylePrompt(
   promptTemplate: string,
   decisionId: string,
-  groundTruthData: GroundTruthData,
+  groundTruthData: GroundTruthData | RFTCSourceData,
   extractedData: any,
   extractedReferences?: any
 ): string {
   let formatted = promptTemplate;
 
-  // Replace {ground_truth_snippets}
-  if (typeof groundTruthData === 'object' && groundTruthData.format === 'snippets') {
+  // Check if RFTC data (has transformedHtml property)
+  if (typeof groundTruthData === 'object' && 'transformedHtml' in groundTruthData) {
+    // RFTC-style template
+    const rftcData = groundTruthData as RFTCSourceData;
+
+    formatted = formatted
+      .replace('{transformedHtml}', rftcData.transformedHtml)
+      .replace(
+        '{legalTeachingsInput}',
+        JSON.stringify(rftcData.dependencies.legalTeachingsInput, null, 2)
+      )
+      .replace(
+        '{citedProvisions}',
+        JSON.stringify(rftcData.dependencies.citedProvisions, null, 2)
+      )
+      .replace(
+        '{citedDecisions}',
+        JSON.stringify(rftcData.dependencies.citedDecisions, null, 2)
+      );
+  } else if (typeof groundTruthData === 'object' && groundTruthData.format === 'snippets') {
+    // Snippet-style template
     const snippetsFormatted = formatSnippetsForPrompt(groundTruthData.snippets);
     formatted = formatted.replace('{ground_truth_snippets}', snippetsFormatted);
   } else {
-    // Fallback: if full text provided but template expects snippets, wrap in code block
+    // Markdown-style template (fallback)
     formatted = formatted.replace(
       '{ground_truth_snippets}',
       `\`\`\`markdown\n${groundTruthData}\n\`\`\``
     );
   }
 
-  // Replace {extracted_output}
+  // Common replacements
   formatted = formatted.replace(
     '{extracted_output}',
     JSON.stringify(extractedData, null, 2)

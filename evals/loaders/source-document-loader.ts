@@ -5,7 +5,12 @@
  * Uses composite key (decision_id + language) for accurate matching
  */
 
+import fs from 'fs/promises';
+import path from 'path';
+import pLimit from 'p-limit';
 import { DatabaseConfig } from '../../src/config/database.js';
+import { transformDecisionHtml } from '../../src/utils/htmlTransformer.js';
+import { RFTCSourceData } from '../types.js';
 
 /**
  * Composite key for uniquely identifying a decision document
@@ -225,5 +230,303 @@ export function getCacheStats(): {
   return {
     size: documentCache.size,
     entries: Array.from(documentCache.keys()),
+  };
+}
+
+/**
+ * Cache for RFTC source documents
+ * Key format: "decisionId|language"
+ */
+const rftcDocumentCache = new Map<string, RFTCSourceData>();
+
+/**
+ * Load source document for RFTC evaluation
+ *
+ * Returns transformed HTML (with data-id attributes) + dependencies
+ * instead of markdown. Used for evaluating block-based citation jobs.
+ *
+ * @param decisionId - ECLI identifier
+ * @param language - Procedural language (FR or NL)
+ * @param jobType - RFTC job type ('enrich-teaching-citations' or 'enrich-provision-citations')
+ * @returns Transformed HTML + dependencies
+ */
+export async function loadSourceDocumentForRFTC(
+  decisionId: string,
+  language: string,
+  jobType: string
+): Promise<RFTCSourceData> {
+  const cacheKey = getCacheKey(decisionId, language);
+
+  // Check cache first
+  if (rftcDocumentCache.has(cacheKey)) {
+    return rftcDocumentCache.get(cacheKey)!;
+  }
+
+  // 1. Load HTML from decision_fulltext1
+  const htmlQuery = `
+    SELECT df.full_html, d.url_official_publication
+    FROM decisions1 d
+    INNER JOIN decision_fulltext1 df ON df.decision_id = d.id
+    WHERE d.decision_id = $1 AND d.language_metadata = $2
+    LIMIT 1
+  `;
+
+  const rows: any = await DatabaseConfig.executeReadOnlyQuery(htmlQuery, [
+    decisionId,
+    language,
+  ]);
+
+  if (!rows || rows.length === 0) {
+    throw new Error(`HTML not found for ${decisionId} (${language})`);
+  }
+
+  const { full_html, url_official_publication } = rows[0];
+
+  if (!full_html || full_html.trim() === '') {
+    throw new Error(`HTML is empty for ${decisionId} (${language})`);
+  }
+
+  // 2. Transform HTML to add data-id attributes
+  const { transformedHtml } = transformDecisionHtml(decisionId, full_html);
+
+  // 3. Load dependencies
+  const dependencies = await loadDependenciesForRFTC(
+    decisionId,
+    language,
+    jobType
+  );
+
+  const result: RFTCSourceData = {
+    transformedHtml,
+    dependencies,
+    url: url_official_publication || undefined,
+  };
+
+  // Cache the result
+  rftcDocumentCache.set(cacheKey, result);
+
+  return result;
+}
+
+/**
+ * Load dependencies for RFTC evaluation
+ *
+ * @param decisionId - ECLI identifier
+ * @param language - Procedural language
+ * @param jobType - RFTC job type
+ * @returns Dependency data
+ */
+async function loadDependenciesForRFTC(
+  decisionId: string,
+  language: string,
+  jobType: string
+): Promise<{
+  legalTeachingsInput: any[];
+  citedProvisions: any[];
+  citedDecisions: any[];
+}> {
+  const baseDir = 'concurrent/results';
+
+  // Dependency mapping per job type
+  const depJobs: Record<
+    string,
+    { input: string; provisions: string; decisions: string }
+  > = {
+    'enrich-teaching-citations': {
+      input: 'extract-legal-teachings', // Agent 5A
+      provisions: 'interpret-provisions', // Agent 2C
+      decisions: 'extract-cited-decisions', // Agent 3
+    },
+    'enrich-provision-citations': {
+      input: 'interpret-provisions', // Agent 2C (self)
+      provisions: 'interpret-provisions', // Agent 2C (for cross-refs)
+      decisions: 'extract-cited-decisions', // Agent 3
+    },
+  };
+
+  const deps = depJobs[jobType];
+  if (!deps) {
+    throw new Error(
+      `Unknown RFTC job type: ${jobType}. Expected: enrich-teaching-citations or enrich-provision-citations`
+    );
+  }
+
+  // Load each dependency
+  const [inputResult, provisionsResult, decisionsResult] = await Promise.all([
+    loadLatestJobResult(baseDir, deps.input, decisionId, language),
+    loadLatestJobResult(baseDir, deps.provisions, decisionId, language),
+    loadLatestJobResult(baseDir, deps.decisions, decisionId, language),
+  ]);
+
+  return {
+    legalTeachingsInput: inputResult?.legalTeachings || [],
+    citedProvisions: provisionsResult?.citedProvisions || [],
+    citedDecisions: decisionsResult?.citedDecisions || [],
+  };
+}
+
+/**
+ * Load latest result for a specific job + decision
+ *
+ * @param baseDir - Base directory (e.g., 'concurrent/results')
+ * @param jobId - Job ID (e.g., 'extract-legal-teachings')
+ * @param decisionId - ECLI identifier
+ * @param language - Procedural language
+ * @returns Extraction result or null if not found
+ */
+async function loadLatestJobResult(
+  baseDir: string,
+  jobId: string,
+  decisionId: string,
+  language: string
+): Promise<any | null> {
+  const jobDir = path.join(process.cwd(), baseDir, jobId);
+
+  try {
+    // Step 1: Find model subdirectories (e.g., gpt-5-mini)
+    const modelDirs = await fs.readdir(jobDir);
+    const validModelDirs = [];
+
+    for (const modelDir of modelDirs) {
+      if (modelDir.startsWith('.')) continue; // Skip hidden files like .DS_Store
+      const modelPath = path.join(jobDir, modelDir);
+      const stat = await fs.stat(modelPath);
+      if (stat.isDirectory()) {
+        validModelDirs.push({ name: modelDir, path: modelPath });
+      }
+    }
+
+    if (validModelDirs.length === 0) {
+      console.warn(`⚠️  No model directories found for ${jobId}`);
+      return null;
+    }
+
+    // Step 2: For each model directory, find the latest timestamp directory
+    // Use the most recent one across all models
+    let latestTimestamp: string | null = null;
+    let latestDir: string | null = null;
+
+    for (const modelDir of validModelDirs) {
+      const timestampDirs = await fs.readdir(modelDir.path);
+      // Match ISO 8601 format: 2025-11-11T00-47-37-685Z
+      const validTimestamps = timestampDirs.filter((d) =>
+        /^\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}-\d{3}Z$/.test(d)
+      );
+
+      for (const ts of validTimestamps) {
+        if (!latestTimestamp || ts > latestTimestamp) {
+          latestTimestamp = ts;
+          latestDir = path.join(modelDir.path, ts);
+        }
+      }
+    }
+
+    if (!latestDir || !latestTimestamp) {
+      console.warn(`⚠️  No timestamp directories found for ${jobId}`);
+      return null;
+    }
+
+    // Step 3: Read extracted-data.json (or fall back to other JSON files)
+    const preferredFile = path.join(latestDir, 'extracted-data.json');
+    let data: any[] | null = null;
+
+    try {
+      const content = await fs.readFile(preferredFile, 'utf-8');
+      data = JSON.parse(content);
+    } catch (error: any) {
+      // Fall back to searching all JSON files
+      const files = await fs.readdir(latestDir);
+      const jsonFiles = files.filter(
+        (f) => f.endsWith('.json') && f !== 'summary.json'
+      );
+
+      for (const file of jsonFiles) {
+        const filePath = path.join(latestDir, file);
+        const content = await fs.readFile(filePath, 'utf-8');
+        const parsed = JSON.parse(content);
+        if (Array.isArray(parsed)) {
+          data = parsed;
+          break;
+        }
+      }
+    }
+
+    if (!data || !Array.isArray(data)) {
+      console.warn(`⚠️  No valid JSON data found for ${jobId}`);
+      return null;
+    }
+
+    // Step 4: Find matching record by composite key
+    const match = data.find(
+      (record: any) =>
+        record.decision_id === decisionId &&
+        (record.language === language || record.language_metadata === language)
+    );
+
+    return match || null;
+  } catch (error: any) {
+    console.warn(
+      `⚠️  Error loading ${jobId} result for ${decisionId}: ${error.message}`
+    );
+    return null;
+  }
+}
+
+/**
+ * Batch load RFTC data for multiple decisions
+ *
+ * @param decisionKeys - Array of decision keys
+ * @param jobType - RFTC job type
+ * @returns Map of decision data keyed by "decisionId|language"
+ */
+export async function batchLoadRFTCData(
+  decisionKeys: DecisionKey[],
+  jobType: string
+): Promise<Map<string, RFTCSourceData>> {
+  const results = new Map<string, RFTCSourceData>();
+
+  // Load in parallel (with some concurrency limit to avoid overwhelming DB)
+  const limit = pLimit(10);
+
+  await Promise.all(
+    decisionKeys.map((key) =>
+      limit(async () => {
+        try {
+          const data = await loadSourceDocumentForRFTC(
+            key.decisionId,
+            key.language,
+            jobType
+          );
+          const cacheKey = getCacheKey(key.decisionId, key.language);
+          results.set(cacheKey, data);
+        } catch (error: any) {
+          console.warn(
+            `⚠️  Failed to load RFTC data for ${key.decisionId} (${key.language}): ${error.message}`
+          );
+        }
+      })
+    )
+  );
+
+  return results;
+}
+
+/**
+ * Clear RFTC document cache
+ */
+export function clearRFTCCache(): void {
+  rftcDocumentCache.clear();
+}
+
+/**
+ * Get RFTC cache statistics
+ */
+export function getRFTCCacheStats(): {
+  size: number;
+  entries: string[];
+} {
+  return {
+    size: rftcDocumentCache.size,
+    entries: Array.from(rftcDocumentCache.keys()),
   };
 }
