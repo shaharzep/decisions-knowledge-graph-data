@@ -1,0 +1,1458 @@
+{
+  "decision_id": "ECLI:BE:CASS:2004:DEC.20041007.6",
+  "language": "FR",
+  "metadata": {
+    "id": 23993,
+    "court_ecli_code": "CASS",
+    "court_name": "Cour de cassation",
+    "decision_date": "2004-10-07",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Décision",
+    "md_length": 17592,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cass., 7 octobre 2004, C.02.0185.F, ECLI:BE:CASS:2004:DEC.20041007.6"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "name": "ETAT BELGE",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEMANDEUR_EN_CASSATION"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+        "name": "RECOLTA RECYCLING",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "DEFENDEUR_EN_CASSATION"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+        "name": "s.p.r.l. Auto Mail",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "name": "sieur A.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "La défenderesse RECOLTA RECYCLING a acheté à un sieur A. seize véhicules \"hauts de gamme\" que ce dernier avait acquis auprès de la s.p.r.l. Auto Mail; ces premiers achats n'ont donné lieu à aucune perception de la T.V.A. au profit du Trésor public. Le sieur A. n'a pas reversé la taxe payée par la défenderesse et celle-ci a revendu les véhicules en exemption de taxe à la société Auto Mail sous le couvert d'une autorisation de vente délivrée par l'administration en application de l'article 43 du Code T.V.A. L'administration (demandeur) a délivré une contrainte le 26 octobre 1989 pour recouvrement de la T.V.A.; la cour d'appel de Liège, par arrêt du 9 novembre 2001, a constaté que la défenderesse n'avait pas connaissance de la fraude dite \"carrousel T.V.A.\", qu'elle avait reçu livraison des véhicules et disposait de factures apparemment régulières, et a déclaré la contrainte nulle en ordonnant la mainlevée et en condamnant l'Etat aux dépens.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "requests": "Le demandeur en cassation dirige son pourvoi contre l'arrêt rendu le 9 novembre 2001 par la cour d'appel de Liège et demande la cassation de cet arrêt."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "argument": "Le moyen soutient que les dispositions du Code de la taxe sur la valeur ajoutée sont d'ordre public et que toute convention dont la cause est contraire à l'ordre public est nulle; en l'espèce, le vendeur initial (Auto Mail), le vendeur intermédiaire (sieur A.) et l'acquéreur final auraient organisé un trafic frauduleux (carrousel T.V.A.) constituant le mobile déterminant des conventions de vente. Il en résulte, soutient le pourvoi, que les conventions intervenues entre le vendeur et la défenderesse sont frappées de nullité absolue et que, par voie de conséquence, la défenderesse ne peut se prévaloir d'un droit à déduction de la T.V.A. payée, même si elle était de bonne foi et avait matériellement reçu les livraisons et disposait de factures apparemment régulières; la bonne foi de l'assujetti est indifférente et la nullité empêche toute production d'effet juridique utile au droit à déduction (art. 4, 10, 45 C. TVA; art. 1131 C. civ.; renvois à la sixième directive).",
+          "treatment": "NON_TRAITE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS, \n\nLA COUR\n\nSursoit à statuer jusqu'à ce que la Cour de justice des Communautés européennes ait répondu aux questions préjudicielles suivantes :\n\n1. Lorsque la livraison de biens est destinée à un assujetti qui a contracté de bonne foi dans l'ignorance de la fraude commise par le vendeur, le principe de neutralité fiscale de la taxe sur la valeur ajoutée s'oppose-t-il à ce que l'annulation du contrat de vente, en vertu d'une règle de droit civil interne, qui frappe ce contrat de nullité absolue comme contraire à l'ordre public pour une cause illicite dans le chef du vendeur, entraîne pour cet assujetti la perte du droit à déduction de la taxe ?\n2. La réponse est-elle différente lorsque la nullité absolue résulte d'une fraude à la taxe sur la valeur ajoutée elle-même?",
+      "outcome": "SUSPENSION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "provisionNumber": "article 6",
+        "provisionNumberKey": "6",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "provisionNumber": "article 1108",
+        "provisionNumberKey": "1108",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "provisionNumber": "article 1131",
+        "provisionNumberKey": "1131",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que la convention qui a pour but d'organiser une fraude envers des tiers protégés par une loi d'ordre public caractérise une cause illicite et entraîne la nullité absolue du contrat; pour l'intérêt général, il suffit que l'une des parties ait poursuivi une fin illicite, indépendamment de la bonne foi du co-contractant.",
+        "relevantFactualContext": "La cour constate qu'Auto Mail et le sieur A. ont organisé un trafic frauduleux lié à la vente de véhicules; la défenderesse a acheté seize véhicules, affirme avoir été de bonne foi, avoir reçu les livraisons et détenait des factures apparemment régulières."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "provisionNumber": "article 1315",
+        "provisionNumberKey": "1315",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "provisionNumber": "article 1604",
+        "provisionNumberKey": "1604",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "provisionNumber": "article 1606",
+        "provisionNumberKey": "1606",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "provisionNumber": "article 1609",
+        "provisionNumberKey": "1609",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-008",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "provisionNumber": "article 1614",
+        "provisionNumberKey": "1614",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "provisionNumber": "article 1615",
+        "provisionNumberKey": "1615",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-010",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+        "provisionNumber": "article 870",
+        "provisionNumberKey": "870",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-011",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+        "provisionNumber": "article 4",
+        "provisionNumberKey": "4",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée",
+        "parentActDate": "1969-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-012",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+        "provisionNumber": "article 15",
+        "provisionNumberKey": "15",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée",
+        "parentActDate": "1969-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-013",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+        "provisionNumber": "article 43",
+        "provisionNumberKey": "43",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée",
+        "parentActDate": "1969-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-014",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+        "provisionNumber": "article 45",
+        "provisionNumberKey": "45",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée",
+        "parentActDate": "1969-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-015",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+        "provisionNumber": "article 59",
+        "provisionNumberKey": "59",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée",
+        "parentActDate": "1969-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-016",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "provisionNumber": "article 4, spécialement §§ 1er et 2",
+        "provisionNumberKey": "4",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires",
+        "parentActDate": "1977-05-17",
+        "parentActNumber": "n° 77/388/CEE",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-017",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "provisionNumber": "article 17, spécialement §2, a",
+        "provisionNumberKey": "17",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires",
+        "parentActDate": "1977-05-17",
+        "parentActNumber": "n° 77/388/CEE",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-018",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "provisionNumber": "article 18",
+        "provisionNumberKey": "18",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires",
+        "parentActDate": "1977-05-17",
+        "parentActNumber": "n° 77/388/CEE",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-019",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "provisionNumber": "article 20",
+        "provisionNumberKey": "20",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires",
+        "parentActDate": "1977-05-17",
+        "parentActNumber": "n° 77/388/CEE",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-020",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "provisionNumber": "article 22",
+        "provisionNumberKey": "22",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires",
+        "parentActDate": "1977-05-17",
+        "parentActNumber": "n° 77/388/CEE",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-021",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+        "provisionNumber": "article 1er, spécialement alinéa 1er, 2°, 3°",
+        "provisionNumberKey": "1",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal n° 1 du 23 juillet 1969 relatif aux mesures tendant au paiement de la taxe sur la valeur ajoutée (avant sa modification par l'arrêté royal du 29 décembre 1992)",
+        "parentActDate": "1969-07-23",
+        "parentActNumber": "n° 1",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-022",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+        "provisionNumber": "article 3, §1er, 1°",
+        "provisionNumberKey": "3",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal n° 3 du 10 décembre 1969 relatif aux déductions par application de la taxe sur la valeur ajoutée (avant sa modification par l'arrêté royal du 29 décembre 1992)",
+        "parentActDate": "1969-12-10",
+        "parentActNumber": "n° 3",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+        "provisionNumber": "article 2",
+        "provisionNumberKey": "2",
+        "parentActType": "CODE",
+        "parentActName": "Code de la taxe sur la valeur ajoutée",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 2, alinéa 1, comme soumettant à la TVA, lorsqu'elles ont lieu en Belgique, les livraisons de biens effectuées à titre onéreux par un assujetti; combiné avec d'autres dispositions, cela implique que le droit à déduction suppose l'existence d'une livraison au sens du droit T.V.A. accomplie par un assujetti.",
+        "relevantFactualContext": "La défenderesse a acheté seize véhicules dans une chaîne d'opérations où les premiers achats n'ont donné lieu à aucune perception de TVA; la question porte sur la qualification des livraisons effectuées et le droit de déduction résultant de ces achats."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+        "provisionNumber": "article 4",
+        "provisionNumberKey": "4",
+        "parentActType": "CODE",
+        "parentActName": "Code de la taxe sur la valeur ajoutée",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour entend l'article 4, §1er, comme définissant l'assujetti: toute personne accomplissant, de manière habituelle et indépendante, des livraisons de biens ou prestations de services visées par le code; cette qualification détermine qui peut être redevable de la taxe et bénéficier d'une déduction.",
+        "relevantFactualContext": "Il s'agit d'apprécier si les intervenants dans la chaîne (vendeur, intermédiaire, défenderesse) agissaient en tant qu'assujettis et si les opérations constituaient des livraisons imposables ouvrant droit à déduction."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+        "provisionNumber": "article 10",
+        "provisionNumberKey": "10",
+        "parentActType": "CODE",
+        "parentActName": "Code de la taxe sur la valeur ajoutée",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que l'article 10 définit la livraison comme le transfert du pouvoir de disposer d'un bien comme un propriétaire, notamment la mise du bien à disposition de l'acquéreur en exécution d'un contrat; seule une telle livraison ouvre en principe des conséquences TVA et la possibilité de déduction.",
+        "relevantFactualContext": "La défenderesse soutient que les véhicules lui ont été matériellement livrés et qu'elle les a ensuite revendus; la Cour examine si ces mises à disposition constituent des livraisons au sens de l'article 10."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+        "provisionNumber": "article 15",
+        "provisionNumberKey": "15",
+        "parentActType": "CODE",
+        "parentActName": "Code de la taxe sur la valeur ajoutée",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour souligne que, selon l'article 15, §1er, la livraison s'opère au moment où le bien est mis à la disposition de l'acquéreur; cette détermination du moment de la livraison est pertinente pour apprécier l'existence matérielle et la licéité des opérations ouvrant droit à déduction.",
+        "relevantFactualContext": "La cour relève que les véhicules ont été remis matériellement à la défenderesse et que la chronologie des mises à disposition est au centre de l'appréciation du droit à déduction."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+        "provisionNumber": "article 40",
+        "provisionNumberKey": "40",
+        "parentActType": "CODE",
+        "parentActName": "Code de la taxe sur la valeur ajoutée",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+        "provisionNumber": "article 45",
+        "provisionNumberKey": "45",
+        "parentActType": "CODE",
+        "parentActName": "Code de la taxe sur la valeur ajoutée",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 45, §1er, comme n'autorisant la déduction que pour la taxe grevant des biens effectivement et valablement livrés et utilisés de manière réelle et licite pour des opérations soumises ou exonérées visées par le code; lorsque la livraison résulte d'un contrat de cause illicite, la déduction ne peut être revendiquée, la bonne foi de l'assujetti étant indifférente.",
+        "relevantFactualContext": "La défenderesse réclame la déduction de TVA payée sur l'achat des véhicules qui s'inscrivent dans une chaîne suspectée de 'carrousel' ; elle affirme bonne foi, livraison matérielle et factures apparemment régulières, mais l'administration conteste l'effet juridique des contrats."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-029",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "provisionNumber": "article 2",
+        "provisionNumberKey": "2",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires",
+        "parentActDate": "1977-05-17",
+        "parentActNumber": "n° 77/388/CEE",
+        "provisionInterpretation": "La Cour indique que les règles énoncées à l'article 2 de la sixième directive sont transposées en droit interne et s'inscrivent dans le principe de neutralité fiscale; ce principe, selon la jurisprudence communautaire citée, s'oppose à une différenciation généralisée entre transactions licites et illicites pour l'exercice du droit à déduction.",
+        "relevantFactualContext": "La question préjudicielle porte sur l'application de la directive à une série d'opérations de vente de véhicules formant un 'carrousel' et sur l'impact d'une annulation contractuelle en droit interne sur le droit à déduction d'un assujetti de bonne foi."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-030",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "provisionNumber": "article 4.1",
+        "provisionNumberKey": "4.1",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires",
+        "parentActDate": "1977-05-17",
+        "parentActNumber": "n° 77/388/CEE",
+        "provisionInterpretation": "La Cour relève que l'article 4.1 de la directive, transposé en droit interne, participe à la définition du champ des opérations soumises et s'inscrit dans le principe de neutralité fiscale; elle souligne que ce principe soulève la question de savoir si la nullité d'un contrat prive l'assujetti de bonne foi du droit à déduction.",
+        "relevantFactualContext": "La défenderesse se prévaut des règles transposées de la directive pour soutenir son droit à déduction malgré l'annulation éventuelle des contrats intervenus dans la chaîne de transactions frauduleuses."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-031",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "provisionNumber": "article 5.1",
+        "provisionNumberKey": "5.1",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires",
+        "parentActDate": "1977-05-17",
+        "parentActNumber": "n° 77/388/CEE",
+        "provisionInterpretation": "La Cour considère que l'article 5.1, dont les règles sont transposées localement, s'inscrit dans le régime de neutralité fiscale visé par la directive; elle en conclut que l'effet d'une nullité de contrat sur le droit à déduction soulève une question préjudicielle d'interprétation communautaire.",
+        "relevantFactualContext": "Il s'agit d'apprécier, à la lumière des dispositions communautaires transposées, si un assujetti de bonne foi peut conserver le droit à déduction lorsqu'un contrat ayant servi de base à la livraison est frappé de nullité pour cause illicite."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-032",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "provisionNumber": "article 17.2",
+        "provisionNumberKey": "17.2",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires",
+        "parentActDate": "1977-05-17",
+        "parentActNumber": "n° 77/388/CEE",
+        "provisionInterpretation": "La Cour mentionne que l'article 17.2 de la directive fait partie des règles transposées qui fondent le principe de neutralité fiscale; elle demande au Tribunal de justice si ce principe fait obstacle à la perte automatique du droit à déduction pour un assujetti de bonne foi en cas d'annulation du contrat en droit interne.",
+        "relevantFactualContext": "La question préjudicielle émane du litige sur seize véhicules vendus dans une opération qualifiée de 'carrousel' et porte sur l'effet, au regard de la directive, d'une nullité contractuelle sur le droit à restitution de la TVA."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-033",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+        "provisionNumber": "article 43",
+        "provisionNumberKey": "43",
+        "parentActType": "CODE",
+        "parentActName": "Code de la taxe sur la valeur ajoutée",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "La cour relève que la défenderesse a revendu les véhicules en exemption de taxe sous le couvert d'une autorisation de vente à l'exportation délivrée par l'administration en application de l'article 43."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "cour d'appel de Liège",
+        "date": "2001-11-09",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour de cassation",
+        "date": "2000-10-12",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "DISTINGUISHED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit fiscal",
+      "Vente de voitures",
+      "Carrousel TVA",
+      "Livraisons matérielles",
+      "Factures apparemment régulières",
+      "Nullité pour cause illicite",
+      "Droit à déduction TVA",
+      "Bonne foi de l'acheteur",
+      "Principe de neutralité fiscale",
+      "Question préjudicielle"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "text": "Une convention dont l'objet ou la cause est de commettre une fraude envers des tiers protégés par une loi d'ordre public constitue une cause illicite et entraîne la nullité absolue du contrat; pour l'intérêt général, il suffit que le mobile déterminant d'une seule des parties soit illicite, indépendamment de la connaissance ou de la bonne foi du co-contractant, et l'existence matérielle de la chose ou la livraison sont indifférentes au regard de cette nullité.",
+        "courtVerbatim": "Les dispositions du Code de la taxe sur la valeur ajoutée sont d'ordre public car elles touchent aux intérêts essentiels de l'Etat et de la collectivité. Or, toute convention dont l'objet ou la cause est contraire à l'ordre public est nulle, de nullité absolue, l'article 1131 du Code civil disposant que «l'obligation sans cause ou sur une fausse cause ou sur une cause illicite ne peut avoir aucun effet». La cause d'une convention synallagmatique constitue le ou les mobiles qui ont déterminé une partie à contracter ; et, si le mobile déterminant doit entrer dans le champ contractuel, il n'est nullement requis qu'il soit commun à toutes les parties à la convention. Lorsque la cause d'une convention est contraire à l'ordre public et que sa nullité, et en tout cas son inopposabilité, est poursuivie par un tiers en fraude aux droits duquel la convention a été conclue, il suffit, s'agissant de l'intérêt général, que le mobile déterminant de l'une des parties soit illicite, sans qu'il soit nécessaire que cette fin soit connue du co-contractant. Il est aussi indifférent, lorsque la convention illicite est une vente, que la chose vendue existe ou non et qu'elle ait été livrée ou non, la nullité de la convention découlant de l'illicéité de la cause.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une convention bilatérale a été conclue avec pour mobile déterminant la réalisation d'une fraude portant atteinte à des intérêts d'ordre public.",
+        "relevantFactualContext": "La cour constate qu'Auto Mail et le sieur A. ont organisé un trafic frauduleux lié à la vente de véhicules; la défenderesse a acheté seize véhicules, affirme avoir été de bonne foi, avoir reçu les livraisons et détenait des factures apparemment régulières.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CASS:2004:DEC.20041007.6-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+        "text": "Le droit à déduction de la taxe sur la valeur ajoutée suppose l'existence d'une livraison au sens du Code T.V.A. (transfert du pouvoir de disposer comme un propriétaire) accomplie par un assujetti; lorsqu'une livraison, fût-elle matériellement réalisée, est effectuée en vertu d'un contrat dont la cause est illicite (nullité absolue), elle ne peut produire d'effet au regard du droit à déduction et la bonne foi de l'acquéreur est indifférente.",
+        "courtVerbatim": "Il résulte de la combinaison de ces dispositions qu'un assujetti ne peut prétendre bénéficier de la déduction de la taxe que dans la mesure où il y a eu livraison de biens au sens de l'article 10 du Code de la taxe sur la valeur ajoutée, ce qui ne saurait être le cas lorsque la livraison, fût-elle matériellement réalisée, est effectuée en vertu d'un contrat dont la cause est illicite, parce que contraire à l'ordre public, et qui ne peut, partant, produire aucun effet, la bonne foi de l'assujetti étant indifférente et la circonstance que les opérations ont donné lieu à l'émission de factures d'achat répondant aux exigences de forme de l'arrêté royal n° 3 du 10 décembre 1969 et de l'arrêté royal n° 1 du 23 juillet 1969 étant, à cet égard, dépourvue d'incidence.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque l'assujetti prétend exercer le droit à déduction pour une livraison qui pourrait résulter d'un contrat frappé de nullité pour cause illicite.",
+        "relevantFactualContext": "La défenderesse a acheté seize véhicules dans une chaîne d'opérations où les premiers achats n'ont donné lieu à aucune perception de TVA; la question porte sur la qualification des livraisons effectuées et le droit de déduction résultant de ces achats.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CASS:2004:DEC.20041007.6-003"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+        "text": "La charge de la preuve incombe à l'assujetti qui invoque un droit à déduction: il doit démontrer que la taxe qu'il réclame a grevé des livraisons ou prestations qui lui ont été effectivement et licitement fournies et qu'il les a utilisées pour effectuer des opérations licites visées par l'article 45 du Code T.V.A.",
+        "courtVerbatim": "Et il incombe à l'assujetti qui veut faire valoir un droit à déduction de démontrer que la taxe, dont il prétend obtenir la restitution en tout ou en partie, a grevé des livraisons de biens ou des prestations de services qui lui ont été effectivement et licitement fournis et qu'il a utilisés pour effectuer des opérations licites visées par l'article 45, §1er, 1° ou 2°, du code.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un assujetti demande la restitution ou la déduction de TVA payée au titre de livraisons ou prestations dont la validité ou la licéité est contestée.",
+        "relevantFactualContext": "La défenderesse réclame la déduction de TVA payée sur l'achat de véhicules au sein d'une chaîne suspectée de fraude; l'administration conteste l'effet juridique des contrats et la licéité des livraisons.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 2,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 3,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, l'État, conteste la déduction de TVA opérée par la société défenderesse après l'achat et la revente de véhicules intégrés à un mécanisme frauduleux dit «carrousel», la question étant de savoir si la nullité absolue des contrats pour cause illicite prive l'acheteur de bonne foi du droit à déduction. La Cour de cassation a sursis à statuer et a posé à la Cour de justice des Communautés européennes deux questions préjudicielles portant sur l'articulation entre le principe de neutralité fiscale et la perte du droit à déduction en cas de nullité civile pour cause illicite, et sur l'éventuelle différence lorsque la nullité résulte d'une fraude à la TVA. Point clé : confrontation entre la nullité pour cause illicite et le principe de neutralité de la TVA."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "relatedFullTextCitations": [
+          "<li>articles 6, 1108, 1131, 1315, 1604, 1606, 1609, 1614 et 1615 du Code civil ;</li>",
+          "<p class=\"case-section__paragraph\">L'arrêt attaqué, qui constate que la défenderesse a été mêlée à une opération frauduleuse, appelée \" carrousel T.V.A. \", relative à la vente de voiture et que, dans le chef de ceux qui lui ont vendu et acheté des voitures, le but poursuivi était de bénéficier, au préjudice du Trésor, d'un remboursement indéfini de la T.V.A., mais que, d'autre part, la défenderesse n'avait pas connaissance de cette fraude organisée et était de bonne foi, tandis qu'elle avait reçu livraison des véhicules et les avait elle-même livrés à son tour au destinataire bénéficiant d'une exemption de T.V.A. et que les factures étaient apparemment régulières, décide que les conventions de vente entre le vendeur, complice d'Auto Mail, et la défenderesse, n'étaient pas nulles du chef de contrariété à l'ordre public, en sorte que la défenderesse était tenue au paiement de la T.V.A. en raison de ces conventions et, partant, pouvait en exiger la déduction et la restitution au demandeur, conformément à l'article 45 du Code de la taxe sur la valeur ajoutée. Les dispositions du Code de la taxe sur la valeur ajoutée sont d'ordre public car elles touchent aux intérêts essentiels de l'Etat et de la collectivité. Or, toute convention dont l'objet ou la cause est contraire à l'ordre public est nulle, de nullité absolue, l'article 1131 du Code civil disposant que</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-008",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+        "relatedFullTextCitations": [
+          "<li>articles 6, 1108, 1131, 1315, 1604, 1606, 1609, 1614 et 1615 du Code civil ;</li>",
+          "<p class=\"case-section__paragraph\">L'arrêt attaqué, qui constate que la défenderesse a été mêlée à une opération frauduleuse, appelée \" carrousel T.V.A. \", relative à la vente de voiture et que, dans le chef de ceux qui lui ont vendu et acheté des voitures, le but poursuivi était de bénéficier, au préjudice du Trésor, d'un remboursement indéfini de la T.V.A., mais que, d'autre part, la défenderesse n'avait pas connaissance de cette fraude organisée et était de bonne foi, tandis qu'elle avait reçu livraison des véhicules et les avait elle-même livrés à son tour au destinataire bénéficiant d'une exemption de T.V.A. et que les factures étaient apparemment régulières, décide que les conventions de vente entre le vendeur, complice d'Auto Mail, et la défenderesse, n'étaient pas nulles du chef de contrariété à l'ordre public, en sorte que la défenderesse était tenue au paiement de la T.V.A. en raison de ces conventions et, partant, pouvait en exiger la déduction et la restitution au demandeur, conformément à l'article 45 du Code de la taxe sur la valeur ajoutée. Les dispositions du Code de la taxe sur la valeur ajoutée sont d'ordre public car elles touchent aux intérêts essentiels de l'Etat et de la collectivité. Or, toute convention dont l'objet ou la cause est contraire à l'ordre public est nulle, de nullité absolue, l'article 1131 du Code civil disposant que</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-008",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+        "relatedFullTextCitations": [
+          "<li>articles 6, 1108, 1131, 1315, 1604, 1606, 1609, 1614 et 1615 du Code civil ;</li>",
+          "<p class=\"case-section__paragraph\">L'arrêt attaqué, qui constate que la défenderesse a été mêlée à une opération frauduleuse, appelée \" carrousel T.V.A. \", relative à la vente de voiture et que, dans le chef de ceux qui lui ont vendu et acheté des voitures, le but poursuivi était de bénéficier, au préjudice du Trésor, d'un remboursement indéfini de la T.V.A., mais que, d'autre part, la défenderesse n'avait pas connaissance de cette fraude organisée et était de bonne foi, tandis qu'elle avait reçu livraison des véhicules et les avait elle-même livrés à son tour au destinataire bénéficiant d'une exemption de T.V.A. et que les factures étaient apparemment régulières, décide que les conventions de vente entre le vendeur, complice d'Auto Mail, et la défenderesse, n'étaient pas nulles du chef de contrariété à l'ordre public, en sorte que la défenderesse était tenue au paiement de la T.V.A. en raison de ces conventions et, partant, pouvait en exiger la déduction et la restitution au demandeur, conformément à l'article 45 du Code de la taxe sur la valeur ajoutée. Les dispositions du Code de la taxe sur la valeur ajoutée sont d'ordre public car elles touchent aux intérêts essentiels de l'Etat et de la collectivité. Or, toute convention dont l'objet ou la cause est contraire à l'ordre public est nulle, de nullité absolue, l'article 1131 du Code civil disposant que</p>",
+          "<blockquote class=\"case-quote\"> l'obligation sans cause ou sur une fausse cause ou sur une cause illicite ne peut avoir aucun effet </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-008",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+        "relatedFullTextCitations": [
+          "<li>articles 6, 1108, 1131, 1315, 1604, 1606, 1609, 1614 et 1615 du Code civil ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-008",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+        "relatedFullTextCitations": [
+          "<li>articles 6, 1108, 1131, 1315, 1604, 1606, 1609, 1614 et 1615 du Code civil ;</li>",
+          "<p class=\"case-section__paragraph\">L'arrêt attaqué, qui constate que la défenderesse a été mêlée à une opération frauduleuse, appelée \" carrousel T.V.A. \", relative à la vente de voiture et que, dans le chef de ceux qui lui ont vendu et acheté des voitures, le but poursuivi était de bénéficier, au préjudice du Trésor, d'un remboursement indéfini de la T.V.A., mais que, d'autre part, la défenderesse n'avait pas connaissance de cette fraude organisée et était de bonne foi, tandis qu'elle avait reçu livraison des véhicules et les avait elle-même livrés à son tour au destinataire bénéficiant d'une exemption de T.V.A. et que les factures étaient apparemment régulières, décide que les conventions de vente entre le vendeur, complice d'Auto Mail, et la défenderesse, n'étaient pas nulles du chef de contrariété à l'ordre public, en sorte que la défenderesse était tenue au paiement de la T.V.A. en raison de ces conventions et, partant, pouvait en exiger la déduction et la restitution au demandeur, conformément à l'article 45 du Code de la taxe sur la valeur ajoutée. Les dispositions du Code de la taxe sur la valeur ajoutée sont d'ordre public car elles touchent aux intérêts essentiels de l'Etat et de la collectivité. Or, toute convention dont l'objet ou la cause est contraire à l'ordre public est nulle, de nullité absolue, l'article 1131 du Code civil disposant que</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-008",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+        "relatedFullTextCitations": [
+          "<li>articles 6, 1108, 1131, 1315, 1604, 1606, 1609, 1614 et 1615 du Code civil ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-008",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+        "relatedFullTextCitations": [
+          "<li>articles 6, 1108, 1131, 1315, 1604, 1606, 1609, 1614 et 1615 du Code civil ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-008",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-008",
+        "relatedFullTextCitations": [
+          "<li>articles 6, 1108, 1131, 1315, 1604, 1606, 1609, 1614 et 1615 du Code civil ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.20041007.6-008",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009",
+        "relatedFullTextCitations": [
+          "<li>articles 6, 1108, 1131, 1315, 1604, 1606, 1609, 1614 et 1615 du Code civil ;</li>",
+          "<p class=\"case-section__paragraph\">L'arrêt attaqué, qui constate que la défenderesse a été mêlée à une opération frauduleuse, appelée \" carrousel T.V.A. \", relative à la vente de voiture et que, dans le chef de ceux qui lui ont vendu et acheté des voitures, le but poursuivi était de bénéficier, au préjudice du Trésor, d'un remboursement indéfini de la T.V.A., mais que, d'autre part, la défenderesse n'avait pas connaissance de cette fraude organisée et était de bonne foi, tandis qu'elle avait reçu livraison des véhicules et les avait elle-même livrés à son tour au destinataire bénéficiant d'une exemption de T.V.A. et que les factures étaient apparemment régulières, décide que les conventions de vente entre le vendeur, complice d'Auto Mail, et la défenderesse, n'étaient pas nulles du chef de contrariété à l'ordre public, en sorte que la défenderesse était tenue au paiement de la T.V.A. en raison de ces conventions et, partant, pouvait en exiger la déduction et la restitution au demandeur, conformément à l'article 45 du Code de la taxe sur la valeur ajoutée. Les dispositions du Code de la taxe sur la valeur ajoutée sont d'ordre public car elles touchent aux intérêts essentiels de l'Etat et de la collectivité. Or, toute convention dont l'objet ou la cause est contraire à l'ordre public est nulle, de nullité absolue, l'article 1131 du Code civil disposant que</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-009",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-004",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-005",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-006",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-007",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-008",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-010",
+        "relatedFullTextCitations": [
+          "<li>article 870 du Code judiciaire ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-011",
+        "relatedFullTextCitations": [
+          "<li>articles 4, 15, 43, 45, 59 de la loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée, avant sa modification par la loi du 28 décembre 1992 ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-011",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-012",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-013",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-014",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-012",
+        "relatedFullTextCitations": [
+          "<li>articles 4, 15, 43, 45, 59 de la loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée, avant sa modification par la loi du 28 décembre 1992 ;</li>",
+          "<p class=\"case-section__paragraph\">L'article 2, ,§ 1er, du Code de la taxe sur la valeur ajoutée. prévoit que \" sont soumises à la taxe, lorsqu'elles ont lieu dans le pays : 1° les livraisons de biens et les prestations de services faites par un assujetti dans l'exercice de son activité professionnelle (...) \". L'article 10 du code définit la livraison comme étant \" la mise d'un bien à la disposition de l'acquéreur ou du cessionnaire en exécution du contrat à titre onéreux translatif ou déclaratif de propriété ou d'usufruit \" ; les livraisons de biens, telles qu'elles sont définies par cette disposition, ne sont soumises à la T.V.A. que si elles sont effectuées par un assujetti, c'est-à-dire, selon l'article 4 du code, \" toute personne dont l'activité consiste à effectuer, d'une manière habituelle et indépendante, à titre principal ou à titre d'appoint, avec ou sans esprit de lucre, des livraisons de biens ou des prestations de services (...) \", l'article 15, ,§ 1er, du code précisant que \" la livraison s'opère au moment où le bien est mis à la disposition de l'acquéreur ou du cessionnaire \". L'article 45, ,§ 1er, du Code de la taxe sur la valeur ajoutée n'autorise l'assujetti, au sens de l'article 4, à déduire de la taxe pour les livraisons de biens qu'il a effectuées, que les taxes des biens qui lui ont été effectivement et valablement livrés et qu'il a utilisés, de manière réelle et licite, pour réaliser des opérations soit soumises à la taxe soit exonérées en vertu des articles 39 à 43 du code. Il résulte de la combinaison de ces dispositions qu'un assujetti ne peut prétendre bénéficier de la déduction de la taxe que dans la mesure où il y a eu livraison de biens au sens de l'article 10 du Code de la taxe sur la valeur ajoutée, ce qui ne saurait être le cas lorsque la livraison, fût-elle matériellement réalisée, est effectuée en vertu d'un contrat dont la cause est illicite, parce que contraire à l'ordre public, et qui ne peut, partant, produire aucun effet, la bonne foi de l'assujetti étant indifférente et la circonstance que les opérations ont donné lieu à l'émission de factures d'achat répondant aux exigences de forme de l'arrêté royal n° 3 du 10 décembre 1969 et de l'arrêté royal n° 1 du 23 juillet 1969 étant, à cet égard, dépourvue d'incidence. Et il incombe à l'assujetti qui veut faire valoir un droit à déduction de démontrer que la taxe, dont il prétend obtenir la restitution en tout ou en partie, a grevé des livraisons de biens ou des prestations de services qui lui ont été effectivement et licitement fournis et qu'il a utilisés pour effectuer des opérations licites visées par l'article 45, ,§ 1er, 1° ou 2°, du code. Il s'ensuit que l'arrêt attaqué n'a pu décider légalement que la défenderesse était en droit d'opérer la déduction de la taxe qu'elle avait payée à son cocontractant en raison des contrats de vente illicites et que, partant, la contrainte délivrée par le demandeur était nulle, parce que la défenderesse était de bonne foi, qu'elle ignorait que les achats et les ventes participaient d'un trafic frauduleux et que les biens vendus avaient été matériellement délivrés, tandis que des factures apparemment régulières avaient été confectionnées (violation de toutes les dispositions visées au moyen).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-012",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-011",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-013",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-014",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-013",
+        "relatedFullTextCitations": [
+          "<li>articles 4, 15, 43, 45, 59 de la loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée, avant sa modification par la loi du 28 décembre 1992 ;</li>",
+          "<blockquote class=\"case-quote\"> le sieur A. n'a pas davantage reversé (au demandeur) la taxe payée par (la défenderesse) et que (celle-ci) a revendu les véhicules en exemption de taxe à la société Auto Mail sous le couvert d'une autorisation de vente délivrée par l'administration en application de l'article 43 du Code de la taxe sur la valeur ajoutée </blockquote>",
+          "<blockquote class=\"case-quote\"> ne conteste pas avoir acheté à un sieur A. seize véhicules dits hauts de gamme, véhicules que l'intéressé avait achetés à une société Auto-Mail, ces premiers achats n'ayant donné lieu à aucune perception de la T.V.A. au profit du Trésor public ; que le sieur A. n'a pas davantage reversé la taxe payée à l'Etat par la défenderesse et que la défenderesse a revendu les véhicules en exemption de taxe à la société Auto-Mail sous le couvert d'une autorisation de vente à l'exportation délivrée par l'administration en application de l'article 43 du Code T.V.A. </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-013",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-011",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-012",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-014",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-014",
+        "relatedFullTextCitations": [
+          "<li>articles 4, 15, 43, 45, 59 de la loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée, avant sa modification par la loi du 28 décembre 1992 ;</li>",
+          "<p class=\"case-section__paragraph\">L'arrêt attaqué, qui constate que la défenderesse a été mêlée à une opération frauduleuse, appelée \" carrousel T.V.A. \", relative à la vente de voiture et que, dans le chef de ceux qui lui ont vendu et acheté des voitures, le but poursuivi était de bénéficier, au préjudice du Trésor, d'un remboursement indéfini de la T.V.A., mais que, d'autre part, la défenderesse n'avait pas connaissance de cette fraude organisée et était de bonne foi, tandis qu'elle avait reçu livraison des véhicules et les avait elle-même livrés à son tour au destinataire bénéficiant d'une exemption de T.V.A. et que les factures étaient apparemment régulières, décide que les conventions de vente entre le vendeur, complice d'Auto Mail, et la défenderesse, n'étaient pas nulles du chef de contrariété à l'ordre public, en sorte que la défenderesse était tenue au paiement de la T.V.A. en raison de ces conventions et, partant, pouvait en exiger la déduction et la restitution au demandeur, conformément à l'article 45 du Code de la taxe sur la valeur ajoutée. Les dispositions du Code de la taxe sur la valeur ajoutée sont d'ordre public car elles touchent aux intérêts essentiels de l'Etat et de la collectivité. Or, toute convention dont l'objet ou la cause est contraire à l'ordre public est nulle, de nullité absolue, l'article 1131 du Code civil disposant que</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-014",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-011",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-012",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-013",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-015",
+        "relatedFullTextCitations": [
+          "<li>articles 4, 15, 43, 45, 59 de la loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée, avant sa modification par la loi du 28 décembre 1992 ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-015",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-011",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-012",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-013",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-014"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-016",
+        "relatedFullTextCitations": [
+          "<li>articles 4, spécialement ,§,§ 1er et 2, 17, spécialement ,§ 2, a, 18, 20 et 22 de la sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-016",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-017",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-018",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-019",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-020"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-017",
+        "relatedFullTextCitations": [
+          "<li>articles 4, spécialement ,§,§ 1er et 2, 17, spécialement ,§ 2, a, 18, 20 et 22 de la sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-017",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-016",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-018",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-019",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-020"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-018",
+        "relatedFullTextCitations": [
+          "<li>articles 4, spécialement ,§,§ 1er et 2, 17, spécialement ,§ 2, a, 18, 20 et 22 de la sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-018",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-016",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-017",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-019",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-020"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-019",
+        "relatedFullTextCitations": [
+          "<li>articles 4, spécialement ,§,§ 1er et 2, 17, spécialement ,§ 2, a, 18, 20 et 22 de la sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-019",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-016",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-017",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-018",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-020"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-020",
+        "relatedFullTextCitations": [
+          "<li>articles 4, spécialement ,§,§ 1er et 2, 17, spécialement ,§ 2, a, 18, 20 et 22 de la sixième directive n° 77/388/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur les chiffres d'affaires ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-020",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-016",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-017",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-018",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-019"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-021",
+        "relatedFullTextCitations": [
+          "<li>article 1er, spécialement alinéa 1er, 2° et 3°, de l'arrêté royal n° 1 du 23 juillet 1969 relatif aux mesures tendant au paiement de la taxe sur la valeur ajoutée, avant sa modification par l'arrêté royal du 29 décembre 1992 ;</li>",
+          "<p class=\"case-section__paragraph\">L'article 2, ,§ 1er, du Code de la taxe sur la valeur ajoutée. prévoit que \" sont soumises à la taxe, lorsqu'elles ont lieu dans le pays : 1° les livraisons de biens et les prestations de services faites par un assujetti dans l'exercice de son activité professionnelle (...) \". L'article 10 du code définit la livraison comme étant \" la mise d'un bien à la disposition de l'acquéreur ou du cessionnaire en exécution du contrat à titre onéreux translatif ou déclaratif de propriété ou d'usufruit \" ; les livraisons de biens, telles qu'elles sont définies par cette disposition, ne sont soumises à la T.V.A. que si elles sont effectuées par un assujetti, c'est-à-dire, selon l'article 4 du code, \" toute personne dont l'activité consiste à effectuer, d'une manière habituelle et indépendante, à titre principal ou à titre d'appoint, avec ou sans esprit de lucre, des livraisons de biens ou des prestations de services (...) \", l'article 15, ,§ 1er, du code précisant que \" la livraison s'opère au moment où le bien est mis à la disposition de l'acquéreur ou du cessionnaire \". L'article 45, ,§ 1er, du Code de la taxe sur la valeur ajoutée n'autorise l'assujetti, au sens de l'article 4, à déduire de la taxe pour les livraisons de biens qu'il a effectuées, que les taxes des biens qui lui ont été effectivement et valablement livrés et qu'il a utilisés, de manière réelle et licite, pour réaliser des opérations soit soumises à la taxe soit exonérées en vertu des articles 39 à 43 du code. Il résulte de la combinaison de ces dispositions qu'un assujetti ne peut prétendre bénéficier de la déduction de la taxe que dans la mesure où il y a eu livraison de biens au sens de l'article 10 du Code de la taxe sur la valeur ajoutée, ce qui ne saurait être le cas lorsque la livraison, fût-elle matériellement réalisée, est effectuée en vertu d'un contrat dont la cause est illicite, parce que contraire à l'ordre public, et qui ne peut, partant, produire aucun effet, la bonne foi de l'assujetti étant indifférente et la circonstance que les opérations ont donné lieu à l'émission de factures d'achat répondant aux exigences de forme de l'arrêté royal n° 3 du 10 décembre 1969 et de l'arrêté royal n° 1 du 23 juillet 1969 étant, à cet égard, dépourvue d'incidence. Et il incombe à l'assujetti qui veut faire valoir un droit à déduction de démontrer que la taxe, dont il prétend obtenir la restitution en tout ou en partie, a grevé des livraisons de biens ou des prestations de services qui lui ont été effectivement et licitement fournis et qu'il a utilisés pour effectuer des opérations licites visées par l'article 45, ,§ 1er, 1° ou 2°, du code. Il s'ensuit que l'arrêt attaqué n'a pu décider légalement que la défenderesse était en droit d'opérer la déduction de la taxe qu'elle avait payée à son cocontractant en raison des contrats de vente illicites et que, partant, la contrainte délivrée par le demandeur était nulle, parce que la défenderesse était de bonne foi, qu'elle ignorait que les achats et les ventes participaient d'un trafic frauduleux et que les biens vendus avaient été matériellement délivrés, tandis que des factures apparemment régulières avaient été confectionnées (violation de toutes les dispositions visées au moyen).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-021",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-022",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-022",
+        "relatedFullTextCitations": [
+          "<li>article 3, ,§ 1er, 1°, de l'arrêté royal n° 3 du 10 décembre 1969 relatif aux déductions par application de la taxe sur la valeur ajoutée, avant sa modification par l'arrêté royal du 29 décembre 1992.</li>",
+          "<p class=\"case-section__paragraph\">L'article 2, ,§ 1er, du Code de la taxe sur la valeur ajoutée. prévoit que \" sont soumises à la taxe, lorsqu'elles ont lieu dans le pays : 1° les livraisons de biens et les prestations de services faites par un assujetti dans l'exercice de son activité professionnelle (...) \". L'article 10 du code définit la livraison comme étant \" la mise d'un bien à la disposition de l'acquéreur ou du cessionnaire en exécution du contrat à titre onéreux translatif ou déclaratif de propriété ou d'usufruit \" ; les livraisons de biens, telles qu'elles sont définies par cette disposition, ne sont soumises à la T.V.A. que si elles sont effectuées par un assujetti, c'est-à-dire, selon l'article 4 du code, \" toute personne dont l'activité consiste à effectuer, d'une manière habituelle et indépendante, à titre principal ou à titre d'appoint, avec ou sans esprit de lucre, des livraisons de biens ou des prestations de services (...) \", l'article 15, ,§ 1er, du code précisant que \" la livraison s'opère au moment où le bien est mis à la disposition de l'acquéreur ou du cessionnaire \". L'article 45, ,§ 1er, du Code de la taxe sur la valeur ajoutée n'autorise l'assujetti, au sens de l'article 4, à déduire de la taxe pour les livraisons de biens qu'il a effectuées, que les taxes des biens qui lui ont été effectivement et valablement livrés et qu'il a utilisés, de manière réelle et licite, pour réaliser des opérations soit soumises à la taxe soit exonérées en vertu des articles 39 à 43 du code. Il résulte de la combinaison de ces dispositions qu'un assujetti ne peut prétendre bénéficier de la déduction de la taxe que dans la mesure où il y a eu livraison de biens au sens de l'article 10 du Code de la taxe sur la valeur ajoutée, ce qui ne saurait être le cas lorsque la livraison, fût-elle matériellement réalisée, est effectuée en vertu d'un contrat dont la cause est illicite, parce que contraire à l'ordre public, et qui ne peut, partant, produire aucun effet, la bonne foi de l'assujetti étant indifférente et la circonstance que les opérations ont donné lieu à l'émission de factures d'achat répondant aux exigences de forme de l'arrêté royal n° 3 du 10 décembre 1969 et de l'arrêté royal n° 1 du 23 juillet 1969 étant, à cet égard, dépourvue d'incidence. Et il incombe à l'assujetti qui veut faire valoir un droit à déduction de démontrer que la taxe, dont il prétend obtenir la restitution en tout ou en partie, a grevé des livraisons de biens ou des prestations de services qui lui ont été effectivement et licitement fournis et qu'il a utilisés pour effectuer des opérations licites visées par l'article 45, ,§ 1er, 1° ou 2°, du code. Il s'ensuit que l'arrêt attaqué n'a pu décider légalement que la défenderesse était en droit d'opérer la déduction de la taxe qu'elle avait payée à son cocontractant en raison des contrats de vente illicites et que, partant, la contrainte délivrée par le demandeur était nulle, parce que la défenderesse était de bonne foi, qu'elle ignorait que les achats et les ventes participaient d'un trafic frauduleux et que les biens vendus avaient été matériellement délivrés, tandis que des factures apparemment régulières avaient été confectionnées (violation de toutes les dispositions visées au moyen).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-022",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-021",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 2, ,§ 1er, du Code de la taxe sur la valeur ajoutée. prévoit que \" sont soumises à la taxe, lorsqu'elles ont lieu dans le pays : 1° les livraisons de biens et les prestations de services faites par un assujetti dans l'exercice de son activité professionnelle (...) \". L'article 10 du code définit la livraison comme étant \" la mise d'un bien à la disposition de l'acquéreur ou du cessionnaire en exécution du contrat à titre onéreux translatif ou déclaratif de propriété ou d'usufruit \" ; les livraisons de biens, telles qu'elles sont définies par cette disposition, ne sont soumises à la T.V.A. que si elles sont effectuées par un assujetti, c'est-à-dire, selon l'article 4 du code, \" toute personne dont l'activité consiste à effectuer, d'une manière habituelle et indépendante, à titre principal ou à titre d'appoint, avec ou sans esprit de lucre, des livraisons de biens ou des prestations de services (...) \", l'article 15, ,§ 1er, du code précisant que \" la livraison s'opère au moment où le bien est mis à la disposition de l'acquéreur ou du cessionnaire \". L'article 45, ,§ 1er, du Code de la taxe sur la valeur ajoutée n'autorise l'assujetti, au sens de l'article 4, à déduire de la taxe pour les livraisons de biens qu'il a effectuées, que les taxes des biens qui lui ont été effectivement et valablement livrés et qu'il a utilisés, de manière réelle et licite, pour réaliser des opérations soit soumises à la taxe soit exonérées en vertu des articles 39 à 43 du code. Il résulte de la combinaison de ces dispositions qu'un assujetti ne peut prétendre bénéficier de la déduction de la taxe que dans la mesure où il y a eu livraison de biens au sens de l'article 10 du Code de la taxe sur la valeur ajoutée, ce qui ne saurait être le cas lorsque la livraison, fût-elle matériellement réalisée, est effectuée en vertu d'un contrat dont la cause est illicite, parce que contraire à l'ordre public, et qui ne peut, partant, produire aucun effet, la bonne foi de l'assujetti étant indifférente et la circonstance que les opérations ont donné lieu à l'émission de factures d'achat répondant aux exigences de forme de l'arrêté royal n° 3 du 10 décembre 1969 et de l'arrêté royal n° 1 du 23 juillet 1969 étant, à cet égard, dépourvue d'incidence. Et il incombe à l'assujetti qui veut faire valoir un droit à déduction de démontrer que la taxe, dont il prétend obtenir la restitution en tout ou en partie, a grevé des livraisons de biens ou des prestations de services qui lui ont été effectivement et licitement fournis et qu'il a utilisés pour effectuer des opérations licites visées par l'article 45, ,§ 1er, 1° ou 2°, du code. Il s'ensuit que l'arrêt attaqué n'a pu décider légalement que la défenderesse était en droit d'opérer la déduction de la taxe qu'elle avait payée à son cocontractant en raison des contrats de vente illicites et que, partant, la contrainte délivrée par le demandeur était nulle, parce que la défenderesse était de bonne foi, qu'elle ignorait que les achats et les ventes participaient d'un trafic frauduleux et que les biens vendus avaient été matériellement délivrés, tandis que des factures apparemment régulières avaient été confectionnées (violation de toutes les dispositions visées au moyen).</p>",
+          "<p class=\"case-section__paragraph\">Attendu que l'article 2, alinéa 1er, du Code de la taxe sur la valeur ajoutée dispose que sont soumises à la taxe, lorsqu'elles ont lieu en Belgique, les livraisons de biens et les prestations de services effectuées à titre onéreux par un assujetti en tant que tel ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-021",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-022",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Qu'aux termes de l'article 4, ,§ 1er, de ce code, est un assujetti quiconque effectue, dans l'exercice d'une activité économique, d'une manière habituelle et indépendante, à titre principal ou à titre d'appoint, avec ou sans esprit de lucre, des livraisons de biens ou des prestations de services visées par le code, quel que soit le lieu où s'exerce l'activité économique ;</p>",
+          "<li>articles 4, 15, 43, 45, 59 de la loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée, avant sa modification par la loi du 28 décembre 1992 ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Que l'article 10, ,§ 1er, considère comme livraison d'un bien le transfert du pouvoir de disposer d'un bien comme un propriétaire et précise qu'il s'agit notamment de la mise d'un bien à la disposition de l'acquéreur ou du cessionnaire en exécution d'un contrat translatif ou déclaratif ;</p>",
+          "<p class=\"case-section__paragraph\">L'article 2, ,§ 1er, du Code de la taxe sur la valeur ajoutée. prévoit que \" sont soumises à la taxe, lorsqu'elles ont lieu dans le pays : 1° les livraisons de biens et les prestations de services faites par un assujetti dans l'exercice de son activité professionnelle (...) \". L'article 10 du code définit la livraison comme étant \" la mise d'un bien à la disposition de l'acquéreur ou du cessionnaire en exécution du contrat à titre onéreux translatif ou déclaratif de propriété ou d'usufruit \" ; les livraisons de biens, telles qu'elles sont définies par cette disposition, ne sont soumises à la T.V.A. que si elles sont effectuées par un assujetti, c'est-à-dire, selon l'article 4 du code, \" toute personne dont l'activité consiste à effectuer, d'une manière habituelle et indépendante, à titre principal ou à titre d'appoint, avec ou sans esprit de lucre, des livraisons de biens ou des prestations de services (...) \", l'article 15, ,§ 1er, du code précisant que \" la livraison s'opère au moment où le bien est mis à la disposition de l'acquéreur ou du cessionnaire \".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 2, ,§ 1er, du Code de la taxe sur la valeur ajoutée. prévoit que \" sont soumises à la taxe, lorsqu'elles ont lieu dans le pays : 1° les livraisons de biens et les prestations de services faites par un assujetti dans l'exercice de son activité professionnelle (...) \". L'article 10 du code définit la livraison comme étant \" la mise d'un bien à la disposition de l'acquéreur ou du cessionnaire en exécution du contrat à titre onéreux translatif ou déclaratif de propriété ou d'usufruit \" ; les livraisons de biens, telles qu'elles sont définies par cette disposition, ne sont soumises à la T.V.A. que si elles sont effectuées par un assujetti, c'est-à-dire, selon l'article 4 du code, \" toute personne dont l'activité consiste à effectuer, d'une manière habituelle et indépendante, à titre principal ou à titre d'appoint, avec ou sans esprit de lucre, des livraisons de biens ou des prestations de services (...) \", l'article 15, ,§ 1er, du code précisant que \" la livraison s'opère au moment où le bien est mis à la disposition de l'acquéreur ou du cessionnaire \". L'article 45, ,§ 1er, du Code de la taxe sur la valeur ajoutée n'autorise l'assujetti, au sens de l'article 4, à déduire de la taxe pour les livraisons de biens qu'il a effectuées, que les taxes des biens qui lui ont été effectivement et valablement livrés et qu'il a utilisés, de manière réelle et licite, pour réaliser des opérations soit soumises à la taxe soit exonérées en vertu des articles 39 à 43 du code. Il résulte de la combinaison de ces dispositions qu'un assujetti ne peut prétendre bénéficier de la déduction de la taxe que dans la mesure où il y a eu livraison de biens au sens de l'article 10 du Code de la taxe sur la valeur ajoutée, ce qui ne saurait être le cas lorsque la livraison, fût-elle matériellement réalisée, est effectuée en vertu d'un contrat dont la cause est illicite, parce que contraire à l'ordre public, et qui ne peut, partant, produire aucun effet, la bonne foi de l'assujetti étant indifférente et la circonstance que les opérations ont donné lieu à l'émission de factures d'achat répondant aux exigences de forme de l'arrêté royal n° 3 du 10 décembre 1969 et de l'arrêté royal n° 1 du 23 juillet 1969 étant, à cet égard, dépourvue d'incidence.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'arrêt attaqué, qui constate que la défenderesse a été mêlée à une opération frauduleuse, appelée \" carrousel T.V.A. \", relative à la vente de voiture et que, dans le chef de ceux qui lui ont vendu et acheté des voitures, le but poursuivi était de bénéficier, au préjudice du Trésor, d'un remboursement indéfini de la T.V.A., mais que, d'autre part, la défenderesse n'avait pas connaissance de cette fraude organisée et était de bonne foi, tandis qu'elle avait reçu livraison des véhicules et les avait elle-même livrés à son tour au destinataire bénéficiant d'une exemption de T.V.A. et que les factures étaient apparemment régulières, décide que les conventions de vente entre le vendeur, complice d'Auto Mail, et la défenderesse, n'étaient pas nulles du chef de contrariété à l'ordre public, en sorte que la défenderesse était tenue au paiement de la T.V.A. en raison de ces conventions et, partant, pouvait en exiger la déduction et la restitution au demandeur, conformément à l'article 45 du Code de la taxe sur la valeur ajoutée. Les dispositions du Code de la taxe sur la valeur ajoutée sont d'ordre public car elles touchent aux intérêts essentiels de l'Etat et de la collectivité. Or, toute convention dont l'objet ou la cause est contraire à l'ordre public est nulle, de nullité absolue, l'article 1131 du Code civil disposant que</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028",
+        "relatedFullTextCitations": [
+          "<li>articles 4, 15, 43, 45, 59 de la loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée, avant sa modification par la loi du 28 décembre 1992 ;</li>",
+          "<p class=\"case-section__paragraph\">L'article 2, ,§ 1er, du Code de la taxe sur la valeur ajoutée. prévoit que \" sont soumises à la taxe, lorsqu'elles ont lieu dans le pays : 1° les livraisons de biens et les prestations de services faites par un assujetti dans l'exercice de son activité professionnelle (...) \". L'article 10 du code définit la livraison comme étant \" la mise d'un bien à la disposition de l'acquéreur ou du cessionnaire en exécution du contrat à titre onéreux translatif ou déclaratif de propriété ou d'usufruit \" ; les livraisons de biens, telles qu'elles sont définies par cette disposition, ne sont soumises à la T.V.A. que si elles sont effectuées par un assujetti, c'est-à-dire, selon l'article 4 du code, \" toute personne dont l'activité consiste à effectuer, d'une manière habituelle et indépendante, à titre principal ou à titre d'appoint, avec ou sans esprit de lucre, des livraisons de biens ou des prestations de services (...) \", l'article 15, ,§ 1er, du code précisant que \" la livraison s'opère au moment où le bien est mis à la disposition de l'acquéreur ou du cessionnaire \". L'article 45, ,§ 1er, du Code de la taxe sur la valeur ajoutée n'autorise l'assujetti, au sens de l'article 4, à déduire de la taxe pour les livraisons de biens qu'il a effectuées, que les taxes des biens qui lui ont été effectivement et valablement livrés et qu'il a utilisés, de manière réelle et licite, pour réaliser des opérations soit soumises à la taxe soit exonérées en vertu des articles 39 à 43 du code. Il résulte de la combinaison de ces dispositions qu'un assujetti ne peut prétendre bénéficier de la déduction de la taxe que dans la mesure où il y a eu livraison de biens au sens de l'article 10 du Code de la taxe sur la valeur ajoutée, ce qui ne saurait être le cas lorsque la livraison, fût-elle matériellement réalisée, est effectuée en vertu d'un contrat dont la cause est illicite, parce que contraire à l'ordre public, et qui ne peut, partant, produire aucun effet, la bonne foi de l'assujetti étant indifférente et la circonstance que les opérations ont donné lieu à l'émission de factures d'achat répondant aux exigences de forme de l'arrêté royal n° 3 du 10 décembre 1969 et de l'arrêté royal n° 1 du 23 juillet 1969 étant, à cet égard, dépourvue d'incidence. Et il incombe à l'assujetti qui veut faire valoir un droit à déduction de démontrer que la taxe, dont il prétend obtenir la restitution en tout ou en partie, a grevé des livraisons de biens ou des prestations de services qui lui ont été effectivement et licitement fournis et qu'il a utilisés pour effectuer des opérations licites visées par l'article 45, ,§ 1er, 1° ou 2°, du code. Il s'ensuit que l'arrêt attaqué n'a pu décider légalement que la défenderesse était en droit d'opérer la déduction de la taxe qu'elle avait payée à son cocontractant en raison des contrats de vente illicites et que, partant, la contrainte délivrée par le demandeur était nulle, parce que la défenderesse était de bonne foi, qu'elle ignorait que les achats et les ventes participaient d'un trafic frauduleux et que les biens vendus avaient été matériellement délivrés, tandis que des factures apparemment régulières avaient été confectionnées (violation de toutes les dispositions visées au moyen).</p>",
+          "<p class=\"case-section__paragraph\">Qu'en vertu de l'article 45, ,§ 1er, tout assujetti peut déduire de la taxe dont il est redevable les taxes ayant grevé les biens et les services qui lui ont été fournis, les biens qu'il a importés et les acquisitions intracommunautaires de biens qu'il a effectuées, dans la mesure où il les utilise pour effectuer des opérations qui y sont énumérées ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-028",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-023",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-024",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-025",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-026",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-027"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-029",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Que ces dispositions légales constituent la transposition en droit interne des règles énoncées aux articles 2, 4.1, 5.1. et 17.2 de la sixième directive 77/338/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur le chiffre d'affaires -système commun de taxe sur la valeur ajoutée : assiette uniforme ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-029",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-030",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-031",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-032"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-030",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Que ces dispositions légales constituent la transposition en droit interne des règles énoncées aux articles 2, 4.1, 5.1. et 17.2 de la sixième directive 77/338/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur le chiffre d'affaires -système commun de taxe sur la valeur ajoutée : assiette uniforme ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-030",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-029",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-031",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-032"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-031",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Que ces dispositions légales constituent la transposition en droit interne des règles énoncées aux articles 2, 4.1, 5.1. et 17.2 de la sixième directive 77/338/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur le chiffre d'affaires -système commun de taxe sur la valeur ajoutée : assiette uniforme ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-031",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-029",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-030",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-032"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-032",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Que ces dispositions légales constituent la transposition en droit interne des règles énoncées aux articles 2, 4.1, 5.1. et 17.2 de la sixième directive 77/338/CEE du Conseil du 17 mai 1977 en matière d'harmonisation des législations des Etats membres relatives aux taxes sur le chiffre d'affaires -système commun de taxe sur la valeur ajoutée : assiette uniforme ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-032",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-029",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-030",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-031"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2004:DEC.20041007.6-033",
+        "relatedFullTextCitations": [
+          "<li>articles 4, 15, 43, 45, 59 de la loi du 3 juillet 1969 créant le Code de la taxe sur la valeur ajoutée, avant sa modification par la loi du 28 décembre 1992 ;</li>",
+          "<blockquote class=\"case-quote\"> le sieur A. n'a pas davantage reversé (au demandeur) la taxe payée par (la défenderesse) et que (celle-ci) a revendu les véhicules en exemption de taxe à la société Auto Mail sous le couvert d'une autorisation de vente délivrée par l'administration en application de l'article 43 du Code de la taxe sur la valeur ajoutée </blockquote>",
+          "<blockquote class=\"case-quote\"> ne conteste pas avoir acheté à un sieur A. seize véhicules dits hauts de gamme, véhicules que l'intéressé avait achetés à une société Auto-Mail, ces premiers achats n'ayant donné lieu à aucune perception de la T.V.A. au profit du Trésor public ; que le sieur A. n'a pas davantage reversé la taxe payée à l'Etat par la défenderesse et que la défenderesse a revendu les véhicules en exemption de taxe à la société Auto-Mail sous le couvert d'une autorisation de vente à l'exportation délivrée par l'administration en application de l'article 43 du Code T.V.A. </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-033",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-011",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-012",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-013",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-014",
+          "ART-ECLI:BE:CASS:2004:DEC.20041007.6-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+          "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-002"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 33,
+      "citationStatistics": {
+        "totalCitations": 57,
+        "avgCitationsPerProvision": 1.7272727272727273,
+        "provisionsWithMinimalCitations": 27,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 8.424242424242424,
+        "avgDecisionsPerProvision": 1.0909090909090908,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2004:DEC.20041007.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'arrêt attaqué, qui constate que la défenderesse a été mêlée à une opération frauduleuse, appelée \" carrousel T.V.A. \", relative à la vente de voiture et que, dans le chef de ceux qui lui ont vendu et acheté des voitures, le but poursuivi était de bénéficier, au préjudice du Trésor, d'un remboursement indéfini de la T.V.A., mais que, d'autre part, la défenderesse n'avait pas connaissance de cette fraude organisée et était de bonne foi, tandis qu'elle avait reçu livraison des véhicules et les avait elle-même livrés à son tour au destinataire bénéficiant d'une exemption de T.V.A. et que les factures étaient apparemment régulières, décide que les conventions de vente entre le vendeur, complice d'Auto Mail, et la défenderesse, n'étaient pas nulles du chef de contrariété à l'ordre public, en sorte que la défenderesse était tenue au paiement de la T.V.A. en raison de ces conventions et, partant, pouvait en exiger la déduction et la restitution au demandeur, conformément à l'article 45 du Code de la taxe sur la valeur ajoutée. Les dispositions du Code de la taxe sur la valeur ajoutée sont d'ordre public car elles touchent aux intérêts essentiels de l'Etat et de la collectivité. Or, toute convention dont l'objet ou la cause est contraire à l'ordre public est nulle, de nullité absolue, l'article 1131 du Code civil disposant que</p>",
+          "<blockquote class=\"case-quote\"> l'obligation sans cause ou sur une fausse cause ou sur une cause illicite ne peut avoir aucun effet </blockquote>",
+          "<p class=\"case-section__paragraph\">. La cause d'une convention synallagmatique constitue le ou les mobiles qui ont déterminé une partie à contracter ; et, si le mobile déterminant doit entrer dans le champ contractuel, il n'est nullement requis qu'il soit commun à toutes les parties à la convention. Lorsque la cause d'une convention est contraire à l'ordre public et que sa nullité, et en tout cas son inopposabilité, est poursuivie par un tiers en fraude aux droits duquel la convention a été conclue, il suffit, s'agissant de l'intérêt général, que le mobile déterminant de l'une des parties soit illicite, sans qu'il soit nécessaire que cette fin soit connue du co-contractant. Il est aussi indifférent, lorsque la convention illicite est une vente, que la chose vendue existe ou non et qu'elle ait été livrée ou non, la nullité de la convention découlant de l'illicéité de la cause. L'arrêt attaqué, qui constate que le vendeur initial, la s.p.r.l. Auto Mail, le vendeur intermédiaire A. et l'acquéreur final, la s.p.r.l. Auto Mail, avaient organisé un trafic frauduleux de voitures, au détriment, notamment, du demandeur, dont les droits sont protégés par des dispositions d'ordre public, trafic qui a constitué dans leur chef le mobile déterminant des conventions de vente, n'a pu légalement décider que les conventions intervenues entre le vendeur et la défenderesse étaient valables, en sorte que la contrainte délivrée par le demandeur était nulle, parce que la défenderesse était de bonne foi, n'avait pas connaissance de la fraude \" carrousel \" organisée par ses cocontractants et que les ventes et les achats avaient fait l'objet de livraisons effectives et de factures apparemment régulières (violation des articles 6, 1108, 1131, 1604, 1615 du Code civil, 2, 4, 10, 15, 40 et 45 du Code de la taxe sur la valeur ajoutée, avant sa modification par la loi du 28 décembre 1992).</p>",
+          "<blockquote class=\"case-quote\"> (le demandeur) invoque en vain l'arrêt de la Cour de cassation du 12 octobre 2000 qui ne peut être transposé au cas d'espèce, la Cour de cassation ayant relevé, dans l'hypothèse visée, que, par adoption des motifs du premier juge, l'arrêt de la cour d'appel constate que la défenderesse a été mêlée à des opérations frauduleuses appelées 'carrousel T.V.A.' à savoir que la défenderesse n'aurait jamais reçu la livraison des véhicules qu'elle avait prétendument acquis, que certaines des voitures n'avaient pas d'existence physique et que les autres voitures se trouvaient déjà en possession des acquéreurs définitifs (voir l'argumentation des parties développée par l'Etat dans la première partie de l'arrêt) ; qu'il en résulte que les conditions constituant les prémisses du raisonnement de la Cour de cassation sont différentes du cas présentement soumis à la cour (d'appel)\". </blockquote>",
+          "<p class=\"case-section__paragraph\">Attendu qu'une convention qui a pour but d'organiser une fraude envers des tiers, en l'espèce le demandeur, dont les droits sont protégés par une législation d'ordre public, a une cause illicite et est frappée de nullité absolue ;</p>",
+          "<p class=\"case-section__paragraph\">Que, s'agissant de l'intérêt général, il suffit que l'une des parties ait contracté à des fins illicites et qu'il n'est pas nécessaire que ces fins soient connues du co-contractant ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2004:DEC.20041007.6-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 2, ,§ 1er, du Code de la taxe sur la valeur ajoutée. prévoit que \" sont soumises à la taxe, lorsqu'elles ont lieu dans le pays : 1° les livraisons de biens et les prestations de services faites par un assujetti dans l'exercice de son activité professionnelle (...) \". L'article 10 du code définit la livraison comme étant \" la mise d'un bien à la disposition de l'acquéreur ou du cessionnaire en exécution du contrat à titre onéreux translatif ou déclaratif de propriété ou d'usufruit \" ; les livraisons de biens, telles qu'elles sont définies par cette disposition, ne sont soumises à la T.V.A. que si elles sont effectuées par un assujetti, c'est-à-dire, selon l'article 4 du code, \" toute personne dont l'activité consiste à effectuer, d'une manière habituelle et indépendante, à titre principal ou à titre d'appoint, avec ou sans esprit de lucre, des livraisons de biens ou des prestations de services (...) \", l'article 15, ,§ 1er, du code précisant que \" la livraison s'opère au moment où le bien est mis à la disposition de l'acquéreur ou du cessionnaire \". L'article 45, ,§ 1er, du Code de la taxe sur la valeur ajoutée n'autorise l'assujetti, au sens de l'article 4, à déduire de la taxe pour les livraisons de biens qu'il a effectuées, que les taxes des biens qui lui ont été effectivement et valablement livrés et qu'il a utilisés, de manière réelle et licite, pour réaliser des opérations soit soumises à la taxe soit exonérées en vertu des articles 39 à 43 du code. Il résulte de la combinaison de ces dispositions qu'un assujetti ne peut prétendre bénéficier de la déduction de la taxe que dans la mesure où il y a eu livraison de biens au sens de l'article 10 du Code de la taxe sur la valeur ajoutée, ce qui ne saurait être le cas lorsque la livraison, fût-elle matériellement réalisée, est effectuée en vertu d'un contrat dont la cause est illicite, parce que contraire à l'ordre public, et qui ne peut, partant, produire aucun effet, la bonne foi de l'assujetti étant indifférente et la circonstance que les opérations ont donné lieu à l'émission de factures d'achat répondant aux exigences de forme de l'arrêté royal n° 3 du 10 décembre 1969 et de l'arrêté royal n° 1 du 23 juillet 1969 étant, à cet égard, dépourvue d'incidence. Et il incombe à l'assujetti qui veut faire valoir un droit à déduction de démontrer que la taxe, dont il prétend obtenir la restitution en tout ou en partie, a grevé des livraisons de biens ou des prestations de services qui lui ont été effectivement et licitement fournis et qu'il a utilisés pour effectuer des opérations licites visées par l'article 45, ,§ 1er, 1° ou 2°, du code. Il s'ensuit que l'arrêt attaqué n'a pu décider légalement que la défenderesse était en droit d'opérer la déduction de la taxe qu'elle avait payée à son cocontractant en raison des contrats de vente illicites et que, partant, la contrainte délivrée par le demandeur était nulle, parce que la défenderesse était de bonne foi, qu'elle ignorait que les achats et les ventes participaient d'un trafic frauduleux et que les biens vendus avaient été matériellement délivrés, tandis que des factures apparemment régulières avaient été confectionnées (violation de toutes les dispositions visées au moyen).</p>",
+          "<p class=\"case-section__paragraph\">Attendu que l'article 2, alinéa 1er, du Code de la taxe sur la valeur ajoutée dispose que sont soumises à la taxe, lorsqu'elles ont lieu en Belgique, les livraisons de biens et les prestations de services effectuées à titre onéreux par un assujetti en tant que tel ;</p>",
+          "<p class=\"case-section__paragraph\">Qu'en vertu de l'article 45, ,§ 1er, tout assujetti peut déduire de la taxe dont il est redevable les taxes ayant grevé les biens et les services qui lui ont été fournis, les biens qu'il a importés et les acquisitions intracommunautaires de biens qu'il a effectuées, dans la mesure où il les utilise pour effectuer des opérations qui y sont énumérées ;</p>",
+          "<blockquote class=\"case-quote\"> (le demandeur) invoque en vain l'arrêt de la Cour de cassation du 12 octobre 2000 qui ne peut être transposé au cas d'espèce, la Cour de cassation ayant relevé, dans l'hypothèse visée, que, par adoption des motifs du premier juge, l'arrêt de la cour d'appel constate que la défenderesse a été mêlée à des opérations frauduleuses appelées 'carrousel T.V.A.' à savoir que la défenderesse n'aurait jamais reçu la livraison des véhicules qu'elle avait prétendument acquis, que certaines des voitures n'avaient pas d'existence physique et que les autres voitures se trouvaient déjà en possession des acquéreurs définitifs (voir l'argumentation des parties développée par l'Etat dans la première partie de l'arrêt) ; qu'il en résulte que les conditions constituant les prémisses du raisonnement de la Cour de cassation sont différentes du cas présentement soumis à la cour (d'appel)\". </blockquote>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 6,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2004:DEC.20041007.6-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 2, ,§ 1er, du Code de la taxe sur la valeur ajoutée. prévoit que \" sont soumises à la taxe, lorsqu'elles ont lieu dans le pays : 1° les livraisons de biens et les prestations de services faites par un assujetti dans l'exercice de son activité professionnelle (...) \". L'article 10 du code définit la livraison comme étant \" la mise d'un bien à la disposition de l'acquéreur ou du cessionnaire en exécution du contrat à titre onéreux translatif ou déclaratif de propriété ou d'usufruit \" ; les livraisons de biens, telles qu'elles sont définies par cette disposition, ne sont soumises à la T.V.A. que si elles sont effectuées par un assujetti, c'est-à-dire, selon l'article 4 du code, \" toute personne dont l'activité consiste à effectuer, d'une manière habituelle et indépendante, à titre principal ou à titre d'appoint, avec ou sans esprit de lucre, des livraisons de biens ou des prestations de services (...) \", l'article 15, ,§ 1er, du code précisant que \" la livraison s'opère au moment où le bien est mis à la disposition de l'acquéreur ou du cessionnaire \". L'article 45, ,§ 1er, du Code de la taxe sur la valeur ajoutée n'autorise l'assujetti, au sens de l'article 4, à déduire de la taxe pour les livraisons de biens qu'il a effectuées, que les taxes des biens qui lui ont été effectivement et valablement livrés et qu'il a utilisés, de manière réelle et licite, pour réaliser des opérations soit soumises à la taxe soit exonérées en vertu des articles 39 à 43 du code. Il résulte de la combinaison de ces dispositions qu'un assujetti ne peut prétendre bénéficier de la déduction de la taxe que dans la mesure où il y a eu livraison de biens au sens de l'article 10 du Code de la taxe sur la valeur ajoutée, ce qui ne saurait être le cas lorsque la livraison, fût-elle matériellement réalisée, est effectuée en vertu d'un contrat dont la cause est illicite, parce que contraire à l'ordre public, et qui ne peut, partant, produire aucun effet, la bonne foi de l'assujetti étant indifférente et la circonstance que les opérations ont donné lieu à l'émission de factures d'achat répondant aux exigences de forme de l'arrêté royal n° 3 du 10 décembre 1969 et de l'arrêté royal n° 1 du 23 juillet 1969 étant, à cet égard, dépourvue d'incidence. Et il incombe à l'assujetti qui veut faire valoir un droit à déduction de démontrer que la taxe, dont il prétend obtenir la restitution en tout ou en partie, a grevé des livraisons de biens ou des prestations de services qui lui ont été effectivement et licitement fournis et qu'il a utilisés pour effectuer des opérations licites visées par l'article 45, ,§ 1er, 1° ou 2°, du code. Il s'ensuit que l'arrêt attaqué n'a pu décider légalement que la défenderesse était en droit d'opérer la déduction de la taxe qu'elle avait payée à son cocontractant en raison des contrats de vente illicites et que, partant, la contrainte délivrée par le demandeur était nulle, parce que la défenderesse était de bonne foi, qu'elle ignorait que les achats et les ventes participaient d'un trafic frauduleux et que les biens vendus avaient été matériellement délivrés, tandis que des factures apparemment régulières avaient été confectionnées (violation de toutes les dispositions visées au moyen).</p>",
+          "<p class=\"case-section__paragraph\">Qu'en vertu de l'article 45, ,§ 1er, tout assujetti peut déduire de la taxe dont il est redevable les taxes ayant grevé les biens et les services qui lui ont été fournis, les biens qu'il a importés et les acquisitions intracommunautaires de biens qu'il a effectuées, dans la mesure où il les utilise pour effectuer des opérations qui y sont énumérées ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CASS:2004:DEC.20041007.6-001"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 12,
+        "avgCitationsPerTeaching": 4,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 10,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 3,
+        "totalDecisionsNotFound": 3
+      },
+      "extractionNotes": []
+    }
+  }
+}

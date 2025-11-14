@@ -1,0 +1,450 @@
+{
+  "decision_id": "ECLI:BE:CAMON:2016:RECO.20160317.2",
+  "language": "FR",
+  "metadata": {
+    "id": 11322,
+    "court_ecli_code": "CAMON",
+    "court_name": "Cour d'appel du ressort de Mons",
+    "decision_date": "2016-03-17",
+    "decision_type_ecli_code": "RECO",
+    "decision_type_name": "Recommandation",
+    "md_length": 9317,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour d'appel de Mons, 17 mars 2016, ECLI:BE:CAMON:2016:RECO.20160317.2"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CAMON:2016:RECO.20160317.2-001",
+        "name": "L'Intercommunale NAUTISPORT",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:2016:RECO.20160317.2-002",
+        "name": "A.S.B.L. Fédération Royale Belge de Tennis de Table",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:2016:RECO.20160317.2-003",
+        "name": "S.A. VAN MIEGHEM LOGISTICS",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "PARTIE_INTERVENANTE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Le 5 mars 2012, l'appelante a organisé à Enghien, au sein de ses infrastructures, le championnat de Belgique série A 2012 de tennis de table. À cette fin, l'intimée lui a livré 18 tables de tennis de tables, 18 tables d'arbitre, 18 filets, 14 marquoirs, 200 séparations et 15 bacs. Le 5 mars 2012, l'appelante a confié ce matériel à la S.A. VAN MIEGHEM LOGISTICS qui l'a déposé au centre du Blocry à Louvain-la-Neuve. Le 6 mars 2012, l'intimée a informé l'appelante par courriel qu'une partie du matériel restitué le 5 mars 2012 était endommagée (7 tables de tennis de table, 1 table d'arbitre, 1 filet et 1 séparation). L'intimée a transmis des photographies quelques jours plus tard et a adressé une facture de 5.157,30 euro par lettre recommandée le 14 mars 2012. Le 6 mai 2013, les parties ont déposé une requête conjointe devant le premier juge pour que celui-ci statue sur la demande de l'intimée visant à faire condamner l'appelante au paiement de cette somme, majorée d'intérêts depuis le 14 mars 2012. Le 10 juin 2013, l'appelante a cité en intervention forcée et garantie la S.A. VAN MIEGHEM LOGISTICS. Le jugement entrepris a condamné l'Intercommunale NAUTISPORT à payer la somme réclamée et a constaté la prescription de la demande en intervention et garantie. L'appel vise à faire dire la demande originaire non fondée.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:2016:RECO.20160317.2-001",
+          "requests": "L'Intercommunale NAUTISPORT demande que l'appel soit accueilli et que la demande originaire de l'A.S.B.L. Fédération Royale Belge de Tennis de Table soit déclarée non fondée."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:2016:RECO.20160317.2-001",
+          "argument": "L'appelante soutient qu'au moment où elle a reçu le matériel de l'intimée puis l'a confié au transporteur S.A. VAN MIEGHEM LOGISTICS, celui-ci était en bon état et qu'il n'est pas établi que les dégâts constatés lui sont imputables. Elle invoque l'absence de preuve d'une détérioration de son fait et laisse entendre que, si des dommages sont intervenus, ils l'ont été lors du transport par la société à qui elle a confié la restitution, ce dont elle n'estime pas responsable pour autant sans preuve formelle.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:2016:RECO.20160317.2-002",
+          "argument": "L'intimée expose qu'elle a livré le matériel à l'appelante pour usage et qu'à la restitution une partie du matériel était endommagée; elle fait valoir avoir informé l'appelante sans délai (courriel du 6 mars 2012), avoir transmis des photographies et adressé une facture par lettre recommandée le 14 mars 2012, et que l'appelante n'a jamais contesté ces constatations avant l'introduction de la procédure. L'intimée soutient dès lors que ces éléments constituent des présomptions graves, précises et concordantes établissant que l'appelante n'a pas restitué le matériel dans l'état où elle l'avait reçu et qu'il incombe à l'appelante de prouver une cause d'exonération.",
+          "treatment": "ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS, LA COUR,\n\nStatuant contradictoirement, dans les limites de sa saisine ,\n\nVu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire ;\n\nDit l'appel recevable mais non fondé ;\n\nCondamne l'appelante aux dépens d'appel de l'intimée , liquidés à 990 euro et lui délaisse ses propres dépens d'appel.",
+      "outcome": "NON_FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-001",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2016:RECO.20160317.2-001",
+        "provisionNumber": "article 1875",
+        "provisionNumberKey": "1875",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour retient, en vertu de l'article 1875 du Code civil, que le contrat liant les parties doit être qualifié de prêt à usage (commodat) : l'intimée a livré du matériel à l'appelante pour qu'elle s'en serve et avait pour charge de le rendre après s'en être servi, qualification qui détermine les obligations respectives.",
+        "relevantFactualContext": "Le 5 mars 2012, l'intimée a livré à l'appelante du matériel (tables, filets, marquoirs, etc.) pour le championnat de Belgique afin qu'elle s'en serve et le restitue ensuite."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-002",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2016:RECO.20160317.2-001",
+        "provisionNumber": "article 1884",
+        "provisionNumberKey": "1884",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 1884 comme imposant à l'emprunteur une obligation de résultat : après usage, il doit restituer la chose dans l'état où il l'a reçue, sauf détériorations résultant d'un usage normal. L'emprunteur ne peut s'exonérer que par la preuve du cas fortuit et de l'absence de faute.",
+        "relevantFactualContext": "À la suite du championnat, des dégâts ont été constatés le 6 mars 2012 ; l'intimée a informé l'appelante par courriel, transmis des photographies et adressé une facture le 14 mars 2012, sans contestation immédiate de l'appelante."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-003",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2016:RECO.20160317.2-001",
+        "provisionNumber": "article 1245",
+        "provisionNumberKey": "1245",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que, selon l'article 1245 du Code civil, le débiteur d'un corps certain et déterminé reste responsable des détériorations résultant de sa faute ou de celle des personnes dont il est responsable : la substitution d'une personne pour exécuter l'obligation n'exonère pas le débiteur de sa responsabilité contractuelle.",
+        "relevantFactualContext": "L'appelante avait confié le matériel au transporteur S.A. VAN MIEGHEM LOGISTICS pour le restituer ; la Cour considère que cette mise en œuvre d'un tiers n'exonère pas l'appelante de sa responsabilité envers l'intimée."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-004",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2016:RECO.20160317.2-002",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "2001-10-18",
+        "caseNumber": "C.99.0021.N",
+        "ecli": "ECLI:BE:CASS:2001:ARR.20011018.4",
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:2016:RECO.20160317.2-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "2012-05-25",
+        "caseNumber": "C.10.0557.F",
+        "ecli": "ECLI:BE:CASS:2012:ARR.20120525.2",
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:2016:RECO.20160317.2-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit de la responsabilité",
+      "Prêt à usage",
+      "Matériel sportif",
+      "Transporteur tiers",
+      "Transport assumé par emprunteur",
+      "Obligation de restitution",
+      "Obligation de résultat",
+      "Responsabilité contractuelle",
+      "Force majeure",
+      "Photographies comme preuve"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2016:RECO.20160317.2-001",
+        "text": "Lorsqu'une partie remet des biens mobiliers à une autre pour qu'elle s'en serve temporairement et qu'elle en assume la charge de restitution, ce contrat doit être qualifié de prêt à usage (commodat). Cette qualification détermine les obligations de restitution et l'encadrement des responsabilités du bénéficiaire.",
+        "courtVerbatim": "En vertu de l'article 1875 du Code civil, le contrat liant les parties doit être qualifié de prêt à usage ou commodat , s'agissant d'un contrat par lequel l'intimée a livré du matériel à l'appelante pour s'en servir, à la charge pour cette dernière de le rendre après s'en être servi.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une partie livre du matériel mobile à une autre en vue d'un usage temporaire avec obligation de restitution.",
+        "relevantFactualContext": "Le 5 mars 2012, l'intimée a livré à l'appelante 18 tables, filets, marquoirs et autres matériels pour le championnat; il s'agissait d'une remise temporaire en vue d'utilisation puis restitution.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2016:RECO.20160317.2-002",
+        "text": "L'article 1884 du Code civil impose à l'emprunteur une obligation de résultat : il doit restituer la chose dans l'état où il l'a reçue après usage. L'emprunteur ne peut s'en exonérer qu'en prouvant le cas fortuit ou l'absence de faute ; à défaut, la faute peut se déduire de l'absence de preuve d'exonération.",
+        "courtVerbatim": "L'appelante avait l'obligation de restituer le matériel en bon état. En effet , il résulte de l'article 1884 du Code civil, qu'après usage , l'emprunteur est tenu de restituer la chose dans l'état dans lequel il l'a reçue , sauf détériorations résultant d'un usage normal. Cette obligation est une obligation de résultat dont l'emprunteur ne pourra s'exonérer qu'en démontrant le cas fortuit et son absence de faute dans la détérioration ou la perte ( Voyez notamment M. CLAVIE , Le prêt , in X. , Formation permanente CUP , Les contrats spéciaux , volume XXXIV , novembre 1999 , p.81, n°10) . Une obligation de résultat oblige le débiteur à obtenir un résultat, à moins qu'il ne prouve l'existence de la force majeure qu'il invoque ; le juge qui considère que cette preuve n'est pas apportée n'est pas tenu de constater la faute du débiteur ( Voyez , Cass. 18 octobre 2001 C.99.0021.N ECLI:BE:CASS:2001:ARR.20011018.4 ).",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "Applicable lorsque l'emprunteur a l'obligation de restituer une chose après usage et que des détériorations sont constatées au retour.",
+        "relevantFactualContext": "Après le championnat, des dégâts ont été constatés sur plusieurs tables et accessoires; l'intimée a notifié l'appelante par courriel le 6 mars 2012, transmis des photographies et adressé une facture le 14 mars 2012 sans contestation immédiate.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CAMON:2016:RECO.20160317.2-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2016:RECO.20160317.2-003",
+        "text": "Selon l'article 1245 du Code civil, le débiteur d'un corps certain et déterminé reste responsable des détériorations résultant de sa faute ou de celle des personnes dont il est responsable : la mise en œuvre d'un tiers pour exécuter l'obligation n'exonère pas la responsabilité contractuelle du débiteur envers le créancier.",
+        "courtVerbatim": "Conformément à l'article 1245 du Code civil, le débiteur d'un corps certain et déterminé n'est pas libéré par la remise de la chose en l'état où elle se trouve lors de la livraison lorsque les détériorations qui y sont survenues viennent de son fait ou de sa faute, ou de celle des personnes dont il est responsable. Il suit de cette disposition que le débiteur d'un corps certain et déterminé qui se substitue une personne pour exécuter son obligation est contractuellement responsable des dégradations causées par la faute de cette personne ( Voyez Cass. 25 mai 2012 C.10.0557.F ECLI:BE:CASS:2012:ARR.20120525.2 ).",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque le débiteur confie la restitution ou le transport d'une chose déterminée à un tiers et des détériorations surviennent.",
+        "relevantFactualContext": "L'appelante avait confié la restitution du matériel à la S.A. VAN MIEGHEM LOGISTICS; la Cour retient que la substitution d'un transporteur n'exonère pas l'appelante de sa responsabilité contractuelle envers l'intimée.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CAMON:2016:RECO.20160317.2-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 3,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "L'intercommunale (appelante) et l'association intimée contestent la réparation de dégâts matériels infligés au matériel prêté pour un championnat de tennis de table, l'association réclamant 5.157,30 €. La Cour d'appel déclare l'appel recevable mais non fondé, confirme la condamnation de l'intercommunale et retient que le commodat emporte une obligation de résultat: l'emprunteur doit restituer la chose en l'état et sa responsabilité ne saurait être écartée faute de preuve d'une cause d'exonération."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">En vertu de l'article 1875 du Code civil, le contrat liant les parties doit être qualifié de prêt à usage ou commodat , s'agissant d'un contrat par lequel l'intimée a livré du matériel à l'appelante pour s'en servir, à la charge pour cette dernière de le rendre après s'en être servi.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'appelante avait l'obligation de restituer le matériel en bon état. En effet , il résulte de l'article 1884 du Code civil, qu'après usage , l'emprunteur est tenu de restituer la chose dans l'état dans lequel il l'a reçue , sauf détériorations résultant d'un usage normal. Cette obligation est une obligation de résultat dont l'emprunteur ne pourra s'exonérer qu'en démontrant le cas fortuit et son absence de faute dans la détérioration ou la perte ( Voyez notamment M. CLAVIE , Le prêt , in X. , Formation permanente CUP , Les contrats spéciaux , volume XXXIV , novembre 1999 , p.81, n°10) .</p>",
+          "<p class=\"case-section__paragraph\">Une obligation de résultat oblige le débiteur à obtenir un résultat, à moins qu'il ne prouve l'existence de la force majeure qu'il invoque ; le juge qui considère que cette preuve n'est pas apportée n'est pas tenu de constater la faute du débiteur ( Voyez Cass. 18 octobre 2001 C.99.0021.N ECLI:BE:CASS:2001:ARR.20011018.4 ).</p>",
+          "<p class=\"case-section__paragraph\">La partie qui invoque l'inexécution d'une obligation de résultat doit établir l'existence de l'obligation et le fait que le résultat promis n'a pas été atteint. Il appartient alors au débiteur de prouver la force majeure , ou plus généralement une cause d'exonération , pour pouvoir être libéré. Le juge qui constate que cette preuve n'est pas rapportée ne doit pas , dès lors, constater de manière distincte la faute du débiteur : elle se déduit de cette situation ( Voyez , P. VAN OMMESLAGHE , Traité de droit civil belge , DE PAGE , tome II , Les obligations , volume 1 , Bruylant , 2013 ,p. 51 , n°15).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CAMON:2016:RECO.20160317.2-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Conformément à l'article 1245 du Code civil, le débiteur d'un corps certain et déterminé n'est pas libéré par la remise de la chose en l'état où elle se trouve lors de la livraison lorsque les détériorations qui y sont survenues viennent de son fait ou de sa faute, ou de celle des personnes dont il est responsable. Il suit de cette disposition que le débiteur d'un corps certain et déterminé qui se substitue une personne pour exécuter son obligation est contractuellement responsable des dégradations causées par la faute de cette personne ( Voyez Cass. 25 mai 2012 C.10.0557.F ECLI:BE:CASS:2012:ARR.20120525.2 ).</p>",
+          "<p class=\"case-section__paragraph\">Le fait que le matériel ait éventuellement été abîmé par le transporteur à qui l'appelante l'a confié pour le restituer ne pourrait décharger l'appelante de son obligation de restitution à l'égard de l'intimée. Le cahier des charges liant les parties prévoyait en outre que le transport était à charge de l'appelante.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CAMON:2016:RECO.20160317.2-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:RECO.20160317.2-004"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 4,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerProvision": 1.75,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0.5,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2016:RECO.20160317.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le 5 mars 2012 , l'intimée lui a livré 18 tables de tennis de tables , 18 tables d'arbitre , 18 filets , 14 marquoirs , 200 séparations et 15 bacs.</p>",
+          "<p class=\"case-section__paragraph\">Le 5 mars 2012 , l'appelante a confié ce matériel à un transporteur , la S.A. VAN MIEGHEM LOGISTICS, qui l'a déposé au centre du Blocry à Louvain-la-neuve.</p>",
+          "<p class=\"case-section__paragraph\">En vertu de l'article 1875 du Code civil, le contrat liant les parties doit être qualifié de prêt à usage ou commodat , s'agissant d'un contrat par lequel l'intimée a livré du matériel à l'appelante pour s'en servir, à la charge pour cette dernière de le rendre après s'en être servi.</p>",
+          "<p class=\"case-section__paragraph\">L'appelante affirme que lorsqu'elle a confié le matériel au transporteur , la S.A. VAN MIEGHEM LOGISTICS , ce matériel était en bon état et qu'il n'est pas prouvé que des dégâts lui sont imputables. Il ne parait donc pas contesté que le matériel litigieux était en bon état lorsqu'il a été livré à l'appelante. Par ailleurs , s'il n'avait pas été en bon état , le matériel n'aurait pu être utilisé pour le championnat.</p>",
+          "<p class=\"case-section__paragraph\">L'ensemble des ces éléments constituent des présomptions graves, précises et concordantes qui suffisent à établir que l'appelante n'a pas restitué le matériel dans l'état où elle l'avait reçu. Il appartient dès lors à cette dernière de prouver une cause d'exonération , ce qu'elle ne fait pas.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2016:RECO.20160317.2-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'appelante avait l'obligation de restituer le matériel en bon état. En effet , il résulte de l'article 1884 du Code civil, qu'après usage , l'emprunteur est tenu de restituer la chose dans l'état dans lequel il l'a reçue , sauf détériorations résultant d'un usage normal. Cette obligation est une obligation de résultat dont l'emprunteur ne pourra s'exonérer qu'en démontrant le cas fortuit et son absence de faute dans la détérioration ou la perte ( Voyez notamment M. CLAVIE , Le prêt , in X. , Formation permanente CUP , Les contrats spéciaux , volume XXXIV , novembre 1999 , p.81, n°10) .</p>",
+          "<p class=\"case-section__paragraph\">Une obligation de résultat oblige le débiteur à obtenir un résultat, à moins qu'il ne prouve l'existence de la force majeure qu'il invoque ; le juge qui considère que cette preuve n'est pas apportée n'est pas tenu de constater la faute du débiteur ( Voyez Cass. 18 octobre 2001 C.99.0021.N ECLI:BE:CASS:2001:ARR.20011018.4 ).</p>",
+          "<p class=\"case-section__paragraph\">Dès le retour du matériel , Monsieur M.P. a informé l'intimée de l'existence des dégâts . L'intimée a signalés ceux-ci sans délai à l'appelante , par courriel du 6 mars 2012. Les photographies de ces dégâts ont été transmises six jours plus tard , l'intimée ayant d'emblée annoncé qu'elle ferait parvenir les photographies à l'appelante dès qu'elle les recevrait. La facture relative à ces dégâts a été adressée à l'appelante dès le 14 mars 2012 par lettre recommandée dans laquelle l'intimée expose les dégâts qu'elle a constatés et réclame le paiement de la somme de 5.157,30 euro . L'appelante n'a jamais réagi et n'a pas contesté le contenu de ces différents courriers jusqu'à l'introduction de la procédure, plus d'un an plus tard.</p>",
+          "<p class=\"case-section__paragraph\">L'ensemble des ces éléments constituent des présomptions graves, précises et concordantes qui suffisent à établir que l'appelante n'a pas restitué le matériel dans l'état où elle l'avait reçu. Il appartient dès lors à cette dernière de prouver une cause d'exonération , ce qu'elle ne fait pas.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2016:RECO.20160317.2-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Conformément à l'article 1245 du Code civil, le débiteur d'un corps certain et déterminé n'est pas libéré par la remise de la chose en l'état où elle se trouve lors de la livraison lorsque les détériorations qui y sont survenues viennent de son fait ou de sa faute, ou de celle des personnes dont il est responsable. Il suit de cette disposition que le débiteur d'un corps certain et déterminé qui se substitue une personne pour exécuter son obligation est contractuellement responsable des dégradations causées par la faute de cette personne ( Voyez Cass. 25 mai 2012 C.10.0557.F ECLI:BE:CASS:2012:ARR.20120525.2 ).</p>",
+          "<p class=\"case-section__paragraph\">Le 5 mars 2012 , l'appelante a confié ce matériel à un transporteur , la S.A. VAN MIEGHEM LOGISTICS, qui l'a déposé au centre du Blocry à Louvain-la-neuve.</p>",
+          "<p class=\"case-section__paragraph\">Le fait que le matériel ait éventuellement été abîmé par le transporteur à qui l'appelante l'a confié pour le restituer à l'intimée ne pourrait décharger l'appelante de son obligation de restitution à l'égard de l'intimée. Le cahier des charges liant les parties prévoyait en outre que le transport était à charge de l'appelante.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 12,
+        "avgCitationsPerTeaching": 4,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 3,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

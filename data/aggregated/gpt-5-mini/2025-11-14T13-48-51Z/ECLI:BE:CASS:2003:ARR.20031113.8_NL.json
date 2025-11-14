@@ -1,0 +1,344 @@
+{
+  "decision_id": "ECLI:BE:CASS:2003:ARR.20031113.8",
+  "language": "NL",
+  "metadata": {
+    "id": 163974,
+    "court_ecli_code": "CASS",
+    "court_name": "Hof van Cassatie",
+    "decision_date": "2003-11-13",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 12986,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cass., 13 november 2003, C.01.0184.N, ECLI:BE:CASS:2003:ARR.20031113.8"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+        "name": "DEUMER TRADE & CONSULTING, naamloze vennootschap",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "EISER_IN_CASSATIE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2003:ARR.20031113.8-002",
+        "name": "V.D.M.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "VERWEERDER_IN_CASSATIE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Verweerder huurt van eiseres een handelspand, gelegen te P., T. F36 en 37, ingevolge een mondelinge huurovereenkomst. Verweerder zond bij aangetekend schrijven van 15 februari 1998 een aanvraag tot huurhernieuwing voor de huurovereenkomst die afloopt op 1 juni 1999, waarin hij voorstelde de overeenkomst te hernieuwen aan de thans geldende voorwaarden. Bij een tweede aangetekend schrijven van 22 februari 1998 voegde verweerder een aanvullende mededeling toe waarin hij stelde dat die brief de aanvraag van 15 februari 1998 vervolledigt en voegde de in artikel 14 van de wet voorgeschreven kennisgeving toe dat de verhuurder geacht zal worden met de hernieuwing onder de voorgestelde voorwaarden in te stemmen indien hij niet binnen drie maanden bij aangetekend schrijven kennis geeft van zijn met redenen omklede weigering, van andere voorwaarden of van het aanbod van een derde. Eiseres stelde dat geen geldige aanvraag tot huurhernieuwing was gedaan omdat de vereiste vermeldingen niet in hetzelfde schrijven waren opgenomen. De vrederechter van het tweede kanton Turnhout wees bij vonnis van 8 september 1999 de vordering van eiseres af; het hof van beroep te Turnhout handhaafde dit bij vonnis van 11 december 2000; eiseres stelde cassatieberoep in tegen dat arrest.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+          "requests": "Eiseres vordert dat wordt vastgesteld dat verweerder het pand zonder recht noch titel bezet en dat verweerder wordt bevolen het pand te ontruimen."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+          "argument": "Eiseres voert aan dat artikel 14, eerste lid, van de wet van 30 april 1951 verplicht dat de kennisgeving van de huurder op straffe van nietigheid zowel de voorwaarden vermeldt waaronder de huurder bereid is de nieuwe huur aan te gaan als de vermelding bevat dat de verhuurder geacht zal worden met de hernieuwing van de huur onder de voorgestelde voorwaarden in te stemmen indien hij niet, binnen drie maanden na ontvangst, op dezelfde wijze kennis geeft van zijn met redenen omklede weigering van hernieuwing, van andere voorwaarden of van het aanbod van een derde. Eiseres betoogt dat wanneer deze twee elementen in verschillende brieven voorkomen, de kennisgeving niet voldoet aan artikel 14 en derhalve nietig is, zodat de vordering tot ontruiming gegrond zou moeten worden verklaard.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2003:ARR.20031113.8-002",
+          "argument": "Verweerder stelt dat zijn eerste aangetekende schrijven van 15 februari 1998 de voorwaarden bevatte waaronder hij de huur wenst te hernieuwen en dat zijn tweede aangetekende schrijven van 22 februari 1998 uitdrukkelijk de aanvraag vervolledigt door de in artikel 14 voorgeschreven vermelding toe te voegen; aldus is volgens verweerder in feite voldaan aan beide vereisten van artikel 14 en kan de tweede brief als aanvulling op de eerste worden beschouwd, zonder dat beide mededelingen noodzakelijkerwijs in één en hetzelfde schrijven moeten voorkomen, zodat de aanvraag geldig is.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "OM DIE REDENEN, \n\n## HET HOF,\n\nVerwerpt het cassatieberoep ;\nVeroordeelt eiseres in de kosten.\nDe kosten begroot op de som van vijfhonderd en negen euro negenendertig cent jegens de eisende partij en op de som van honderd vijfendertig euro zevenennegentig cent jegens de verwerende partij.",
+      "outcome": "ONGEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+        "provisionNumber": "artikel 14, eerste lid",
+        "provisionNumberKey": "14",
+        "parentActType": "WET",
+        "parentActName": "de wet van 30 april 1951 betreffende de handelshuurovereenkomsten, vormend boek III, titel VIII, hoofdstuk 2, afdeling IIbis van het Burgerlijk Wetboek",
+        "parentActDate": "1951-04-30",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 14, eerste lid, dwingend is en vereist dat de kennisgeving zowel de voorwaarden vermeldt waaronder de huurder bereid is de nieuwe huur aan te gaan als de mededeling dat de verhuurder geacht wordt in te stemmen indien hij binnen drie maanden niet op dezelfde wijze zijn gemotiveerde weigering, andere voorwaarden of het aanbod van een derde kenbaar maakt. Het Hof erkent dat het opsplitsen van die mededeling in meerdere brieven twijfel kan scheppen over het aanvangsmoment van de driemaandstermijn en in beginsel niet voldoet, doch bevestigt dat het verzuim kan worden hersteld door tussen de achttiende en vijftiende maand een aanvullende aangetekende brief te sturen die naar de eerste brief verwijst en de ontbrekende mededeling bevat; in dat geval vangt de driemaandstermijn aan op datum van de vernieuwde kennisgeving.",
+        "relevantFactualContext": "De huurder zond op 15 februari 1998 een aangetekende aanvraag tot huurhernieuwing zonder de verplichte vermelding; op 22 februari 1998 zond hij een tweede aangetekende brief die de ontbrekende verklaring toevoegde en expliciet stelde dat deze de eerste brief vervolledigt; beide brieven werden tijdig verzonden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2003:ARR.20031113.8-002",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+        "provisionNumber": "artikelen 13 en volgende",
+        "provisionNumberKey": "13",
+        "parentActType": "WET",
+        "parentActName": "de wet van 30 april 1951 betreffende de handelshuurovereenkomsten",
+        "parentActDate": "1951-04-30",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Vrederechter van het tweede kanton Turnhout",
+        "date": "1999-09-08",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2003:ARR.20031113.8-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Handelsrecht",
+      "Handelshuur",
+      "Mondelinge huurovereenkomst",
+      "Aangetekende brieven",
+      "Aanvraag huurhernieuwing",
+      "Geldigheid kennisgeving",
+      "Nietigheid aanvraag",
+      "Drie maanden termijn",
+      "Stilzwijgende instemming",
+      "Aanvullende aangetekende brief"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+        "text": "Artikel 14, eerste lid, van de Handelshuurwet is van dwingend recht en vereist dat de kennisgeving van de huurder beide daarin voorgeschreven mededelingen bevat. Een kennisgeving die over meerdere brieven is opgesplitst, waarbij pas in een latere brief de tweede vereiste mededeling voorkomt, voldoet niet aan artikel 14 en is nietig omdat daardoor twijfel ontstaat over het aanvangsmoment van de drie‑maandstermijn.",
+        "courtVerbatim": "Hieruit volgt dat wanneer in een eerste brief de voorwaarden worden opgegeven waaronder de huurder bereid is om de nieuwe huur aan te gaan, en pas in een latere brief vermeld wordt dat de verhuurder geacht zal worden met de hernieuwing van de huur onder de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde, de kennisgeving niet voldoet aan de vereisten van artikel 14 van de Handelshuurwet en derhalve nietig is.\n\nDe verplichte vermelding van artikel 14 van de Handelshuurwet heeft tot doel de wettige belangen van de eigenaars te beschermen, en met name te vermijden dat de hernieuwing van de huurovereenkomst de verhuurder onverwacht wordt opgelegd. De in artikel 14 van de Handelshuurwet bedoelde kennisgeving door de huurder doet voor de verhuurder een termijn ingaan om kennis te geven ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde. De belangen van de verhuurder vereisen dat deze termijn van drie maanden op een welbepaald ogenblik ingaat, met name op het ogenblik van de kennisgeving. Artikel 14 van de Handelshuurwet verzet zich tegen een kennisgeving die in meerdere brieven is opgedeeld, gezien er aldus twijfel ontstaat over het ogenblik waarop de termijn voor de verhuurder begint te lopen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een huurder een kennisgeving tot huurhernieuwing indient waarbij de twee in artikel 14 vereiste mededelingen niet in één enkel aangetekend schrijven voorkomen maar over meerdere brieven zijn verspreid.",
+        "relevantFactualContext": "De huurder zond op 15 februari 1998 een aangetekend schrijven tot aanvraag van huurhernieuwing zonder de verplichte vermelding; op 22 februari 1998 zond hij een tweede aangetekende brief die de ontbrekende verklaring toevoegde en expliciet stelde dat deze de eerste brief vervolledigt; beide brieven werden tijdig verzonden.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [
+            "TEACH-ECLI:BE:CASS:2003:ARR.20031113.8-002"
+          ],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2003:ARR.20031113.8-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2003:ARR.20031113.8-002",
+        "text": "Een onvolledige kennisgeving in de zin van artikel 14 kan worden hersteld door tussen de achttiende en vijftiende maand vóór het einde van de lopende huur een aanvullende aangetekende brief te sturen die verwijst naar de eerste kennisgeving en de ontbrekende verzuimvermelding bevat; in dat geval begint de drie‑maandstermijn voor de verhuurder te lopen vanaf de datum van die vernieuwde kennisgeving.",
+        "courtVerbatim": "Overwegende dat de huurder de onregelmatigheid van de aanvraag wegens de niet-vermelding van de antwoordmogelijkheden van de verhuurder kan herstellen door tussen de achttiende en vijftiende maand voor het eindigen van de lopende huur een nieuwe regelmatige aanvraag tot huurhernieuwing aan de verhuurder te richten, wat kan gebeuren door het sturen van een aanvullende aangetekende brief die verwijst naar de inhoud van de eerste brief, en waarin die verzuimvermelding voorkomt ;\n\nDat in dat geval de in artikel 14, eerste lid, Handelshuurwet gestelde termijn van drie maanden om de aanvraag tot huurhernieuwing door de huurder te beantwoorden, aanvangt vanaf de datum van de aldus vernieuwde aanvraag tot huurhernieuwing ;",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de eerste kennisgeving gebrekkig is en de huurder binnen de toegestane periode een aanvullende aangetekende brief kan sturen die naar de eerste verwijst en de ontbrekende mededeling bevat.",
+        "relevantFactualContext": "In deze zaak had de huurder eerst een aangetekende aanvraag gestuurd zonder de verplichte mededeling; tien dagen later zond hij een aanvullende aangetekende brief die verwees naar de eerste brief en de ontbrekende vermelding bevatte; beide brieven vielen binnen de termijn van achttien tot vijftien maanden voor het einde van de huur.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": "TEACH-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2003:ARR.20031113.8-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 1,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 2,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De vennootschap vordert ontruiming en stelt dat de door de verweerder ingediende aanvraag tot handelshuurhernieuwing nietig is wegens schending van artikel 14 van de wet van 30 april 1951. Het Hof van Cassatie verwerpt het cassatieberoep en bevestigt dat twee aangetekende brieven samen geldig kunnen zijn wanneer de aanvullende brief tijdig is verzonden en uitdrukkelijk verwijst naar de eerste, zodat aan de wettelijke vermeldingen is voldaan. Het hof benadrukt dat de huurder de onregelmatigheid kan herstellen door een aanvullende aangetekende brief en dat de drie maanden termijn voor de verhuurder aanvangt vanaf die vernieuwde aanvraag; de vennootschap wordt in de kosten veroordeeld."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">artikel 14, eerste lid, van de wet van 30 april 1951 betreffende de handelshuurovereenkomsten, vormend boek III, titel VIII, hoofdstuk 2, afdeling IIbis van het Burgerlijk Wetboek.</p>",
+          "<blockquote class=\"case-quote\">\"(Verweerder) huurt van (eiseres) een handelspand, gelegen te P., T. F36 en 37 ingevolge een mondelinge huurovereenkomst. Op 15 februari 1998 richtte (verweerder) een aangetekend schrijven aan eiseres waarvan de inhoud luidt als volgt : 'Aangezien onze huurovereenkomst betreffende het handelspand gelegen te P., T. F36 en 37 op 1 juni 1999 verstrijkt, wens ik U hierbij overeenkomstig de artikelen 13 en volgende van de wet van 30 april 1951 om huurhernieuwing te verzoeken. Ik neem mij voor de daarin nu door mij uitgeoefende activiteit verder te zetten. Ik stel voor de overeenkomst te hernieuwen aan de thans geldende voorwaarden, eveneens wat de huurprijs betreft. Voor zover nodig richt ik hetzelfde verzoek van handelshuurverlenging aan B.V.B.A. Estancia Tulderheyde 25B, 2382 Poppel'. Op 22 februari 1998 richtte (verweerder) andermaal een aangetekend schrijven aan eiseres, waarvan de inhoud luidt als volgt : 'Bij nazicht van de handelshuurwet van 30 april 1951 en meer speciaal artikel 14 van de wet, ben ik tot de vaststelling gekomen dat ik in mijn aangetekend schrijven van 15 februari 1998 tot aanvraag van handelshuurverlenging het volgende vergeten te vermelden ben : 'De wet op de handelshuurovereenkomsten verplicht mij ertoe Uw aandacht te vestigen op de wettelijke bepalingen volgens dewelke U wordt geacht met de hernieuwing van de huur onder de hierboven voorgestelde voorwaarden in te stemmen, indien U mij niet, binnen de drie maanden na ontvangst van deze brief, kennis geeft van Uw met redenen omklede weigering van hernieuwing, van andere voorwaarden of van het aanbod van een derde. Deze kennisgeving dient te gebeuren op dezelfde wijze als mijn aanvraag tot hernieuwing, dit is bij aangetekend schrijven'. Deze brief vervolledigt bijgevolg mijn aanvraag tot handelshuurvernieuwing van 15 februari 1998. Gelieve mij te verontschuldigen voor dit aangetekend schrijven en deze brief te aanvaarden als een betrachting mijnentwege om de wettelijke voorschriften na te leven'. (Eiseres) houdt voor dat geen geldige aanvraag tot huurhernieuwing werd gedaan, gelet op het strenge en formalistische karakter van artikel 14 van de Handelshuurwet. Het schrijven van 15 februari 1998 maakt, aldus (eiseres), geen geldige aanvraag tot huurhernieuwing uit, daar niet voldaan is aan de tweede voorwaarde zoals opgenomen in artikel 14. Het schrijven van 22 februari 1998 is, aldus nog (eiseres), behept met dezelfde nietigheid, daar het de voorwaarden niet opgeeft waaronder de huurder zelf bereid is de nieuwe huur aan te gaan. (Eiseres) stelt dat, nu de eerste aanvraag niet conform artikel 14 was, de huurder gedurende de wettelijke periode een nieuwe geldige aanvraag had moeten indienen, met vermelding van de twee inhoudelijke voorwaarden. De rechtbank merkt op dat de huurder in zijn tweede schrijven uitdrukkelijk heeft gesteld : 'deze brief vervolledigt bijgevolg mijn aanvraag tot handelshuurhernieuwing van 15 februari 1998'. Geen enkele wettelijke bepaling gebiedt dat de inhoud van de kennisgeving van artikel 14 van de Handelshuurwet bij één en hetzelfde schrijven zou worden meegedeeld. De eerste rechter wordt dan ook gevolgd waar hij stelt dat voldaan is aan beide voorwaarden van artikel 14 van de Handelshuurwet. Nu beide brieven tijdig werden verzonden, hetgeen ook niet betwist wordt, aanvaardt de rechtbank dat de brief van 22 februari 1998 een aanvulling vormt op deze van 15 februari 1998, zoals overigens uitdrukkelijk in de brief gesteld\".</blockquote>",
+          "<p class=\"case-section__paragraph\">Artikel 14 van de Handelshuurwet bepaalt dat de kennisgeving van de huurder, die het recht op hernieuwing wenst uit te oefenen, op straffe van nietigheid enerzijds de voorwaarden moet opgeven waaronder de huurder zelf bereid is om de nieuwe huur aan te gaan en anderzijds de vermelding moet bevatten dat de verhuurder geacht zal worden met de hernieuwing van de huur onder de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde. Deze wetsbepaling is van dwingend recht. Niet alleen het verzuim van de opgave van de voorwaarden waaronder de huurder bereid is om de nieuwe huur aan te gaan, leidt tot nietigheid, maar ook het ontbreken van de vermelding dat de verhuurder geacht zal worden met de hernieuwing van de huur onder de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde. Het bestreden vonnis beslist dat geen enkele wettelijke bepaling gebiedt dat de inhoud van de kennisgeving van artikel 14 van de Handelshuurwet bij één en hetzelfde schrijven zou worden meegedeeld. Artikel 14 van de Handelshuurwet bepaalt evenwel uitdrukkelijk dat de in deze bepaling bedoelde kennisgeving aan beide voorwaarden moet voldoen. Hieruit volgt dat wanneer in een eerste brief de voorwaarden worden opgegeven waaronder de huurder bereid is om de nieuwe huur aan te gaan, en pas in een latere brief vermeld wordt dat de verhuurder geacht zal worden met de hernieuwing van de huur onder de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde, de kennisgeving niet voldoet aan de vereisten van artikel 14 van de Handelshuurwet en derhalve nietig is. De verplichte vermelding van artikel 14 van de Handelshuurwet heeft tot doel de wettige belangen van de eigenaars te beschermen, en met name te vermijden dat de hernieuwing van de huurovereenkomst de verhuurder onverwacht wordt opgelegd. De in artikel 14 van de Handelshuurwet bedoelde kennisgeving door de huurder doet voor de verhuurder een termijn ingaan om kennis te geven ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde. De belangen van de verhuurder vereisen dat deze termijn van drie maanden op een welbepaald ogenblik ingaat, met name op het ogenblik van de kennisgeving. Artikel 14 van de Handelshuurwet verzet zich tegen een kennisgeving die in meerdere brieven is opgedeeld, gezien er aldus twijfel ontstaat over het ogenblik waarop de termijn voor de verhuurder begint te lopen. Hieruit volgt dat de appèlrechters derhalve, door te beslissen dat geen enkele wettelijke bepaling gebiedt dat de inhoud van de kennisgeving van artikel 14 van de Handelshuurwet bij één en hetzelfde schrijven zou worden meegedeeld, en dat een kennisgeving bestaande uit twee brieven, waarbij in de eerste brief enkel de voorwaarden werden opgegeven waaronder de huurder bereid is om de nieuwe huur aan te gaan, en pas in een latere brief vermeld wordt dat de verhuurder geacht zal worden met de hernieuwing van de huur over de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde, geldig is, nu beide brieven tijdig werden verzonden en de tweede brief een aanvulling vormt op de eerste brief, en door op die gronden de vordering van eiseres te horen zeggen voor recht dat verweerder het pand zonder recht noch titel bezet en te horen bevelen dat verweerder het pand zou ontruimen, ongegrond te verklaren, artikel 14, eerste lid, van de wet van 30 april 1951 betreffende de handelshuurovereenkomsten, vormend boek III, titel VIII, hoofdstuk 2, afdeling IIbis van het Burgerlijk Wetboek, schenden.</p>",
+          "<p class=\"case-section__paragraph\">Overwegende dat artikel 14, eerste lid, van de wet van 30 april 1951 op de handelshuur bepaalt : \"De huurder die het recht op hernieuwing verlangt uit te oefenen, moet zulks op straffe van verval bij exploot van gerechtsdeurwaarder of bij aangetekende brief ter kennis van de verhuurder brengen, ten vroegste achttien maanden, ten laatste vijftien maanden voor het eindigen van de lopende huur. De kennisgeving moet op straffe van nietigheid de voorwaarden opgeven waaronder de huurder zelf bereid is om de nieuwe huur aan te gaan en de vermelding bevatten dat de verhuurder geacht zal worden met de hernieuwing van de huur onder de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing ofwel van andere voorwaarden of van het aanbod van een derde\" ;</p>",
+          "<p class=\"case-section__paragraph\">Dat die wetsbepaling van dwingend recht is ;</p>",
+          "<p class=\"case-section__paragraph\">Overwegende dat de huurder de onregelmatigheid van de aanvraag wegens de niet-vermelding van de antwoordmogelijkheden van de verhuurder kan herstellen door tussen de achttiende en vijftiende maand voor het eindigen van de lopende huur een nieuwe regelmatige aanvraag tot huurhernieuwing aan de verhuurder te richten, wat kan gebeuren door het sturen van een aanvullende aangetekende brief die verwijst naar de inhoud van de eerste brief, en waarin die verzuimvermelding voorkomt ;</p>",
+          "<p class=\"case-section__paragraph\">Dat in dat geval de in artikel 14, eerste lid, Handelshuurwet gestelde termijn van drie maanden om de aanvraag tot huurhernieuwing door de huurder te beantwoorden, aanvangt vanaf de datum van de aldus vernieuwde aanvraag tot huurhernieuwing ;</p>",
+          "<p class=\"case-section__paragraph\">Overwegende dat het bestreden vonnis vaststelt dat :</p>",
+          "<ol>\n            <li>verweerder bij aangetekende brief van 15 februari 1992 een aanvraag tot huurhernieuwing aan de eiseres heeft gedaan aan de bestaande voorwaarden ;</li>\n            <li>verweerder bij aangetekende brief van 22 februari 1992 zijn eerste brief vervolledigt met de vermelding dat eiseres wordt geacht met de huurhernieuwing in te stemmen indien zij niet, binnen drie maanden na de ontvangst van deze brief, op dezelfde wijze binnen drie maanden kennis geeft van haar met redenen omklede weigering van huurhernieuwing, van andere voorwaarden of van het aanbod van een derde en dat deze kennisgeving dient te gebeuren bij aangetekend schrijven ;</li>\n        </ol>",
+          "<p class=\"case-section__paragraph\">Overwegende dat het bestreden vonnis door vervolgens te oordelen dat de brief van 22 februari 1998 een aanvulling vormt op die van 15 februari 1998 en dat beide brieven tijdig werden verzonden, en op grond hiervan de door eiseres gevorderde nietigheid van de aanvraag tot huurhernieuwing af te wijzen, zijn beslissing naar recht verantwoordt ;</p>",
+          "<p class=\"case-section__paragraph\">Dat het middel niet kan worden aangenomen ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+          "ART-ECLI:BE:CASS:2003:ARR.20031113.8-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2003:ARR.20031113.8-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2003:ARR.20031113.8-002",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"(Verweerder) huurt van (eiseres) een handelspand, gelegen te P., T. F36 en 37 ingevolge een mondelinge huurovereenkomst. Op 15 februari 1998 richtte (verweerder) een aangetekend schrijven aan eiseres waarvan de inhoud luidt als volgt : 'Aangezien onze huurovereenkomst betreffende het handelspand gelegen te P., T. F36 en 37 op 1 juni 1999 verstrijkt, wens ik U hierbij overeenkomstig de artikelen 13 en volgende van de wet van 30 april 1951 om huurhernieuwing te verzoeken. Ik neem mij voor de daarin nu door mij uitgeoefende activiteit verder te zetten. Ik stel voor de overeenkomst te hernieuwen aan de thans geldende voorwaarden, eveneens wat de huurprijs betreft. Voor zover nodig richt ik hetzelfde verzoek van handelshuurverlenging aan B.V.B.A. Estancia Tulderheyde 25B, 2382 Poppel'. Op 22 februari 1998 richtte (verweerder) andermaal een aangetekend schrijven aan eiseres, waarvan de inhoud luidt als volgt : 'Bij nazicht van de handelshuurwet van 30 april 1951 en meer speciaal artikel 14 van de wet, ben ik tot de vaststelling gekomen dat ik in mijn aangetekend schrijven van 15 februari 1998 tot aanvraag van handelshuurverlenging het volgende vergeten te vermelden ben : 'De wet op de handelshuurovereenkomsten verplicht mij ertoe Uw aandacht te vestigen op de wettelijke bepalingen volgens dewelke U wordt geacht met de hernieuwing van de huur onder de hierboven voorgestelde voorwaarden in te stemmen, indien U mij niet, binnen de drie maanden na ontvangst van deze brief, kennis geeft van Uw met redenen omklede weigering van hernieuwing, van andere voorwaarden of van het aanbod van een derde. Deze kennisgeving dient te gebeuren op dezelfde wijze als mijn aanvraag tot hernieuwing, dit is bij aangetekend schrijven'. Deze brief vervolledigt bijgevolg mijn aanvraag tot handelshuurvernieuwing van 15 februari 1998. Gelieve mij te verontschuldigen voor dit aangetekend schrijven en deze brief te aanvaarden als een betrachting mijnentwege om de wettelijke voorschriften na te leven'. (Eiseres) houdt voor dat geen geldige aanvraag tot huurhernieuwing werd gedaan, gelet op het strenge en formalistische karakter van artikel 14 van de Handelshuurwet. Het schrijven van 15 februari 1998 maakt, aldus (eiseres), geen geldige aanvraag tot huurhernieuwing uit, daar niet voldaan is aan de tweede voorwaarde zoals opgenomen in artikel 14. Het schrijven van 22 februari 1998 is, aldus nog (eiseres), behept met dezelfde nietigheid, daar het de voorwaarden niet opgeeft waaronder de huurder zelf bereid is de nieuwe huur aan te gaan. (Eiseres) stelt dat, nu de eerste aanvraag niet conform artikel 14 was, de huurder gedurende de wettelijke periode een nieuwe geldige aanvraag had moeten indienen, met vermelding van de twee inhoudelijke voorwaarden. De rechtbank merkt op dat de huurder in zijn tweede schrijven uitdrukkelijk heeft gesteld : 'deze brief vervolledigt bijgevolg mijn aanvraag tot handelshuurhernieuwing van 15 februari 1998'. Geen enkele wettelijke bepaling gebiedt dat de inhoud van de kennisgeving van artikel 14 van de Handelshuurwet bij één en hetzelfde schrijven zou worden meegedeeld. De eerste rechter wordt dan ook gevolgd waar hij stelt dat voldaan is aan beide voorwaarden van artikel 14 van de Handelshuurwet. Nu beide brieven tijdig werden verzonden, hetgeen ook niet betwist wordt, aanvaardt de rechtbank dat de brief van 22 februari 1998 een aanvulling vormt op deze van 15 februari 1998, zoals overigens uitdrukkelijk in de brief gesteld\".</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2003:ARR.20031113.8-002",
+          "ART-ECLI:BE:CASS:2003:ARR.20031113.8-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2003:ARR.20031113.8-001"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 2,
+      "citationStatistics": {
+        "totalCitations": 12,
+        "avgCitationsPerProvision": 6,
+        "provisionsWithMinimalCitations": 1,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2,
+        "avgDecisionsPerProvision": 1,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2003:ARR.20031113.8-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 14 van de Handelshuurwet bepaalt dat de kennisgeving van de huurder, die het recht op hernieuwing wenst uit te oefenen, op straffe van nietigheid enerzijds de voorwaarden moet opgeven waaronder de huurder zelf bereid is om de nieuwe huur aan te gaan en anderzijds de vermelding moet bevatten dat de verhuurder geacht zal worden met de hernieuwing van de huur onder de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde. Deze wetsbepaling is van dwingend recht. Niet alleen het verzuim van de opgave van de voorwaarden waaronder de huurder bereid is om de nieuwe huur aan te gaan, leidt tot nietigheid, maar ook het ontbreken van de vermelding dat de verhuurder geacht zal worden met de hernieuwing van de huur onder de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde. Het bestreden vonnis beslist dat geen enkele wettelijke bepaling gebiedt dat de inhoud van de kennisgeving van artikel 14 van de Handelshuurwet bij één en hetzelfde schrijven zou worden meegedeeld. Artikel 14 van de Handelshuurwet bepaalt evenwel uitdrukkelijk dat de in deze bepaling bedoelde kennisgeving aan beide voorwaarden moet voldoen. Hieruit volgt dat wanneer in een eerste brief de voorwaarden worden opgegeven waaronder de huurder bereid is om de nieuwe huur aan te gaan, en pas in een latere brief vermeld wordt dat de verhuurder geacht zal worden met de hernieuwing van de huur onder de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde, de kennisgeving niet voldoet aan de vereisten van artikel 14 van de Handelshuurwet en derhalve nietig is. De verplichte vermelding van artikel 14 van de Handelshuurwet heeft tot doel de wettige belangen van de eigenaars te beschermen, en met name te vermijden dat de hernieuwing van de huurovereenkomst de verhuurder onverwacht wordt opgelegd. De in artikel 14 van de Handelshuurwet bedoelde kennisgeving door de huurder doet voor de verhuurder een termijn ingaan om kennis te geven ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde. De belangen van de verhuurder vereisen dat deze termijn van drie maanden op een welbepaald ogenblik ingaat, met name op het ogenblik van de kennisgeving. Artikel 14 van de Handelshuurwet verzet zich tegen een kennisgeving die in meerdere brieven is opgedeeld, gezien er aldus twijfel ontstaat over het ogenblik waarop de termijn voor de verhuurder begint te lopen. Hieruit volgt dat de appèlrechters derhalve, door te beslissen dat geen enkele wettelijke bepaling gebiedt dat de inhoud van de kennisgeving van artikel 14 van de Handelshuurwet bij één en hetzelfde schrijven zou worden meegedeeld, en dat een kennisgeving bestaande uit twee brieven, waarbij in de eerste brief enkel de voorwaarden werden opgegeven waaronder de huurder bereid is om de nieuwe huur aan te gaan, en pas in een latere brief vermeld wordt dat de verhuurder geacht zal worden met de hernieuwing van de huur over de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing, ofwel van andere voorwaarden of van het aanbod van een derde, geldig is, nu beide brieven tijdig werden verzonden en de tweede brief een aanvulling vormt op de eerste brief, en door op die gronden de vordering van eiseres te horen zeggen voor recht dat verweerder het pand zonder recht noch titel bezet en te horen bevelen dat verweerder het pand zou ontruimen, ongegrond te verklaren, artikel 14, eerste lid, van de wet van 30 april 1951 betreffende de handelshuurovereenkomsten, vormend boek III, titel VIII, hoofdstuk 2, afdeling IIbis van het Burgerlijk Wetboek, schenden.</p>",
+          "<p class=\"case-section__paragraph\">Overwegende dat artikel 14, eerste lid, van de wet van 30 april 1951 op de handelshuur bepaalt : \"De huurder die het recht op hernieuwing verlangt uit te oefenen, moet zulks op straffe van verval bij exploot van gerechtsdeurwaarder of bij aangetekende brief ter kennis van de verhuurder brengen, ten vroegste achttien maanden, ten laatste vijftien maanden voor het eindigen van de lopende huur. De kennisgeving moet op straffe van nietigheid de voorwaarden opgeven waaronder de huurder zelf bereid is om de nieuwe huur aan te gaan en de vermelding bevatten dat de verhuurder geacht zal worden met de hernieuwing van de huur onder de voorgestelde voorwaarden in te stemmen, indien hij niet op dezelfde wijze binnen drie maanden kennis geeft ofwel van zijn met redenen omklede weigering van hernieuwing ofwel van andere voorwaarden of van het aanbod van een derde\" ;</p>",
+          "<p class=\"case-section__paragraph\">Dat die wetsbepaling van dwingend recht is ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2003:ARR.20031113.8-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overwegende dat de huurder de onregelmatigheid van de aanvraag wegens de niet-vermelding van de antwoordmogelijkheden van de verhuurder kan herstellen door tussen de achttiende en vijftiende maand voor het eindigen van de lopende huur een nieuwe regelmatige aanvraag tot huurhernieuwing aan de verhuurder te richten, wat kan gebeuren door het sturen van een aanvullende aangetekende brief die verwijst naar de inhoud van de eerste brief, en waarin die verzuimvermelding voorkomt ;</p>",
+          "<p class=\"case-section__paragraph\">Dat in dat geval de in artikel 14, eerste lid, Handelshuurwet gestelde termijn van drie maanden om de aanvraag tot huurhernieuwing door de huurder te beantwoorden, aanvangt vanaf de datum van de aldus vernieuwde aanvraag tot huurhernieuwing ;</p>",
+          "<ol>\n            <li>verweerder bij aangetekende brief van 15 februari 1992 een aanvraag tot huurhernieuwing aan de eiseres heeft gedaan aan de bestaande voorwaarden ;</li>\n            <li>verweerder bij aangetekende brief van 22 februari 1992 zijn eerste brief vervolledigt met de vermelding dat eiseres wordt geacht met de huurhernieuwing in te stemmen indien zij niet, binnen drie maanden na de ontvangst van deze brief, op dezelfde wijze binnen drie maanden kennis geeft van haar met redenen omklede weigering van huurhernieuwing, van andere voorwaarden of van het aanbod van een derde en dat deze kennisgeving dient te gebeuren bij aangetekend schrijven ;</li>\n        </ol>",
+          "<p class=\"case-section__paragraph\">Overwegende dat het bestreden vonnis door vervolgens te oordelen dat de brief van 22 februari 1998 een aanvulling vormt op die van 15 februari 1998 en dat beide brieven tijdig werden verzonden, en op grond hiervan de door eiseres gevorderde nietigheid van de aanvraag tot huurhernieuwing af te wijzen, zijn beslissing naar recht verantwoordt ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 3.5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

@@ -1,0 +1,1295 @@
+{
+  "decision_id": "ECLI:BE:AHGNT:2010:JUG.20100205.2",
+  "language": "NL",
+  "metadata": {
+    "id": 160293,
+    "court_ecli_code": "AHGNT",
+    "decision_date": "2010-02-05",
+    "decision_type_ecli_code": "JUG",
+    "decision_type_name": "Vonnis",
+    "md_length": 39944,
+    "length_category": "very_long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidshof te Gent, 5 februari 2010, A.R. nr. 2009/AG/25, ECLI:BE:AHGNT:2010:JUG.20100205.2"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+        "name": "F.C.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHGNT:2010:JUG.20100205.2-002",
+        "name": "H.F.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+        "name": "H.A.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+        "name": "RIJSDIENST VOOR ARBEIDSVOORZIENING",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De Rijksdienst voor Arbeidsvoorziening (RVA) vorderde bij dagvaarding van 26 september 2007 betaling van een bijzondere bijdrage sociale zekerheid voor aanslagjaar 1989 (inkomsten 1988) ten bedrage van in totaal €11.779,86 (hoofdsom €4.219,15 + intresten) van eerste appellante F.C. en medeaansprakelijke erfgenamen/rechtspersonen van wijlen H.J.S. De fiscale betwisting door de belastingplichtigen liep decennia en werd door het Hof van Beroep te Gent bij arrest van 23 maart 2005 (definitief op 24 juni 2005) ongegrond verklaard voor het aanslagjaar 1989. De RVA stelde daarop op 12 september 2005 een berekeningsblad op (hoofdsom €11.104,79; intresten €17.856,49) en zond herinneringen; op 18 januari 2006 werd door appellanten een betaling van €18.123,02 verricht. Omdat dit bedrag onvoldoende was werd op 10 mei 2006 een laatste herinnering verstuurd en werd op 26 september 2007 gedagvaard. Bij vonnis van 10 december 2008 verklaarde de arbeidsrechtbank Dendermonde de vordering ontvankelijk en gegrond en veroordeelde appellanten tot betaling van €11.779,86 plus verdere moratoire intresten; de tegenvordering tot terugbetaling van €1.687,94 werd ontvankelijk doch ongegrond verklaard. Appellanten stelden hoger beroep en betwisten verjaring, de toerekening van de betaling en beroepen zich tevens ten slotte op schending van de beginselen van behoorlijk bestuur.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+          "requests": "Appellanten vorderen dat het hoger beroep ontvankelijk en gegrond wordt verklaard, dat het vonnis van 10 december 2008 wordt vernietigd, dat de hoofdvordering ongegrond wordt verklaard en dat bij rechtdoende uitspraak geïntimeerde wordt veroordeeld tot betaling aan appellanten van €1.687,94, te vermeerderen met intresten vanaf 18 januari 2006."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+          "requests": "Geïntimeerde (RVA) vordert dat het hoger beroep ontvankelijk doch ongegrond wordt verklaard en dat appellanten van de vordering worden afgewezen en veroordeeld tot de kosten van het geding."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+          "argument": "Appellanten betogen dat de vordering verjaard is: de verjaringstermijn zou moeten lopen vanaf het ogenblik waarop de RVA in het bezit is van de definitieve gegevens over het gezamenlijk belastbaar inkomen, en volgens hen is de opeisbaarheid en aanvangsdatum van de verjaring niet zoals de rechtbank oordeelde; voorts voeren zij aan dat uit hun betaling van 18 januari 2006 blijkt dat zij hoogstens €16.435,08 hadden moeten betalen, zodat de tegenvordering van €1.687,94 tot terugbetaling terecht is ingesteld. Zij beroepen zich daarnaast subsidiar op schending van de beginselen van behoorlijk bestuur omdat de RVA zou hebben afgewacht waardoor zeer hoge intresten zijn ontstaan.",
+          "treatment": "GEDEELTELIJK_AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+          "argument": "Appellanten stellen afzonderlijk en in wedereis dat zij recht hebben op terugbetaling van €1.687,94 omdat zij op 18 januari 2006 een bedrag van €18.123,02 voldeden en volgens hun berekening de verschuldigde som lager was (hoofdsom €11.104,79 plus maximaal 60 maanden intresten €5.330,30 = €16.435,08). Zij vragen veroordeling van geïntimeerde tot terugbetaling met intresten vanaf de datum van betaling.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+          "argument": "Appellanten voeren in hoogst ondergeschikte orde aan dat de houding van de RVA, door lange tijd af te wachten en intresten gedurende meer dan twintig jaar te laten oplopen, in strijd is met het vertrouwens- en rechtszekerheidsbeginsel en aldus de beginselen van behoorlijk bestuur schendt, zodat dit tot ontslag van de vordering zou moeten leiden.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+          "argument": "Geïntimeerde betoogt dat de vordering pas kan aanvangen vanaf het ogenblik waarop de fiscale gegevens definitief vaststaan en aan de RVA zijn meegedeeld; dat de betaling van 18 januari 2006 zonder voorbehoud geschiedde en derhalve stilzwijgend afstand doet van een verjaringverweer; dat de toerekening van de betaling overeenkomstig artikel 1254 B.W. correct is toegepast (verhouding hoofdsom/intresten) en dat de intresten op de provisionele storting van rechtswege blijven lopen en niet worden geschorst door het indienen van een fiscaal bezwaar; daarom dient de vordering gegrond verklaard te worden zoals door de RVA berekend behalve voor die intresten die reeds verjaard waren vóór de dagvaarding.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN, \n\nHET ARBEIDSHOF,\n\nRechtsprekend op tegenspraak,\ngelet op de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken en inzonderheid op artikel 24 van deze wet,\nverwerpt alle andere, ruimere of strijdige conclusies.\nVerklaart het hoger beroep ontvankelijk en gedeeltelijk gegrond.\nVernietigt dienvolgens het vonnis van de vijfde kamer van de arbeidsrechtbank te Dendermonde, afdeling Dendermonde, op tegenspraak gewezen op 10 december 2008 (A.R. 07/54152/A), in al zijn beschikkingen.\n\nEn, opnieuw wijzend,\nVerklaart de vordering ontvankelijk en gegrond en de tegenvordering ontvankelijk doch ongegrond.\n\nVeroordeelt appellanten solidair, of ieder voor zijn aandeel, tot het betalen van de som van zesduizend tweehonderd vierenveertig euro en vierendertig cent $(6.244,34$ EUR) te vermeerderen met de wettelijke intresten op saldo hoofdsom (vierduizend tweehonderd negentien euro en vijftien cent - 4.219,15 EUR) à rato van 0,8 procent per maand vanaf één oktober tweeduizend en zeven (01.10.2007) tot en met de maand van de volledige betaling.\n\nVeroordeelt appellanten enerzijds en geïntimeerde anderzijds, overeenkomstig artikel 1017, $4^{\\text {de }}$ lid van het Gerechtelijk Wetboek elk tot de helft van de kosten van beide aanleggen.\n\nVereffent deze kosten als volgt:\n\n* aan de zijde van appellanten: geen opgave\n* aan de zijde van geïntimeerde:\n- dagvaarding: 169,31 euro\n- rechtsplegingsvergoeding eerste aanleg: 218,64 euro\n- rechtsplegingsvergoeding hoger beroep: 291,50 euro.",
+      "outcome": "HERVORMING"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+        "provisionNumber": "artikel 747, § 2",
+        "provisionNumberKey": "747",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-002",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-002",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 op het gebruik der talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+        "provisionNumber": "artikel 60",
+        "provisionNumberKey": "60",
+        "parentActType": "WET",
+        "parentActName": "wet van 28 december 1983 houdende fiscale en begrotingsbepalingen (BS 30.12.1983)",
+        "parentActDate": "1983-12-28",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof beoordeelt artikel 60 als de bepalende grondslag voor de verschuldigdheid van de bijzondere bijdrage: die bijdrage is slechts verschuldigd en opeisbaar indien het netto gezamenlijk belastbaar inkomen in de personenbelasting definitief is vastgesteld en het bedrag de grens van drie miljoen BEF overschrijdt; artikel 60 bepaalt aldus de toepassingsomvang van de bijdrage.",
+        "relevantFactualContext": "In deze zaak werd het gezamenlijk belastbaar inkomen voor inkomstenjaar 1988 vastgesteld op 5.027.865 BEF (124.637,52 EUR); het hof van beroep besliste op 23-03-2005 (definitief 24-06-2005), waarna de RVA op 12-09-2005 een berekeningsblad opmaakte."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+        "provisionNumber": "artikel 73",
+        "provisionNumberKey": "73",
+        "parentActType": "WET",
+        "parentActName": "wet van 28 december 1983 houdende fiscale en begrotingsbepalingen (BS 30.12.1983)",
+        "parentActDate": "1983-12-28",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof overweegt dat de artikelen 60 tot en met 73 geen specifieke verjaringstermijn voor de invordering van de bijzondere bijdrage bepalen; door die wettelijke leemte moet de vordering onderworpen worden aan de gemeenrechtelijke verjaring, tenzij een andere zichtbare regel geldt.",
+        "relevantFactualContext": "Het hof vergeleek de ontbrekende termijn in 60-73 met de feiten: berekeningsblad d.d. 12-09-2005 en dagvaarding d.d. 26-09-2007; aldus oordeelde het Hof dat er geen bijzondere verjaringstermijn in deze artikelen staat."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-005",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+        "provisionNumber": "artikel 61, § 1, tweede lid",
+        "provisionNumberKey": "61",
+        "parentActType": "WET",
+        "parentActName": "wet van 28 december 1983 houdende fiscale en begrotingsbepalingen (BS 30.12.1983)",
+        "parentActDate": "1983-12-28",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+        "provisionNumber": "artikel 62, eerste lid",
+        "provisionNumberKey": "62",
+        "parentActType": "WET",
+        "parentActName": "wet van 28 december 1983 houdende fiscale en begrotingsbepalingen (BS 30.12.1983)",
+        "parentActDate": "1983-12-28",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof interpreteert artikel 62 als een regeling van de verplichting tot provisionele storting en benadrukt de provisionele aard ervan: de uiterste stortingsdatum regelt een voorschot en impliceert niet dat het definitieve bedrag vaststaat; daarom kan die stortingsdatum niet worden aangemerkt als het begin van de verjaring voor de definitieve invorderingsvordering.",
+        "relevantFactualContext": "Voor inkomstenjaar 1988 gold de uiterste datum van 1 februari 1989 voor de provisionele storting; er werden geen provisionele stortingen verricht, waardoor vanaf die datum nalatigheidsintresten liepen maar de uiteindelijke opeisbaarheid van de hoofdvordering pas na definitieve fiscale vaststelling ontstond."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-007",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+        "provisionNumber": "artikel 66",
+        "provisionNumberKey": "66",
+        "parentActType": "WET",
+        "parentActName": "wet van 28 december 1983 houdende fiscale en begrotingsbepalingen (BS 30.12.1983)",
+        "parentActDate": "1983-12-28",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof leest artikel 66 als bepalend voor de afhankelijkheid van de RVA van inlichtingen van andere openbare besturen: de RVA kan het bestaan en het bedrag van de bijzondere bijdrage pas vaststellen aan de hand van die door de wet bedoelde inlichtingen, zodat de opeisbaarheid en het begin van de verjaring afhangen van ontvangst van die gegevens.",
+        "relevantFactualContext": "Concreet werd de fiscale beslissing betreffende 1988 aan de RVA meegedeeld op 11-08-2005; daarop stelde de RVA op 12-09-2005 het berekeningsblad op, waarna de invordering kon volgen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-008",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+        "provisionNumber": "artikel 2",
+        "provisionNumberKey": "2",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 4 juli 1984 tot uitvoering van Hoofdstuk III \"Bijzondere bijdrage voor sociale zekerheid\" van de wet van 28 december 1983 (K.B. 04.07.1984)",
+        "parentActDate": "1984-07-04",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verklaart dat artikel 2 KB vereist dat de RVA een berekeningsblad zendt met vermelding van het bedrag, de grondslag en de betaaltermijn; op grond van deze bepaling kan de opeisbaarheid van de vordering en dus het begin van de verjaring pas worden vastgesteld nadat de betaaltermijn van dat berekeningsblad is verstreken.",
+        "relevantFactualContext": "In casu stelde de RVA een berekeningsblad op d.d. 12-09-2005; volgens het KB moest het saldo uiterlijk de laatste dag van de maand volgend op de verzending worden gestort, waarna de verjaring kon aanvang nemen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-009",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+        "provisionNumber": "artikel 3",
+        "provisionNumberKey": "3",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 4 juli 1984 tot uitvoering van Hoofdstuk III \"Bijzondere bijdrage voor sociale zekerheid\" van de wet van 28 december 1983 (K.B. 04.07.1984)",
+        "parentActDate": "1984-07-04",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof benadrukt dat artikel 3 KB de plicht oplegt aan personen die de aanslag betwisten bewijs te leveren van de indiening van bezwaar en uitdrukkelijk bepaalt dat het indienen van een fiscaal bezwaar de periode waarover verwijlintresten lopen niet schorst; dit beïnvloedt de behandeling van intresten maar niet het criterium voor opeisbaarheid van de hoofdvordering.",
+        "relevantFactualContext": "Appellanten hebben in 1991 een bezwaarschrift ingediend en bewijsstukken overgemaakt; het Hof hield rekening met die procedure en met de regel dat intresten doorliepen ondanks het bezwaar."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-010",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-005",
+        "provisionNumber": "artikel 271",
+        "provisionNumberKey": "271",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van de Inkomstenbelastingen (W.I.B.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-011",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-005",
+        "provisionNumber": "artikel 281",
+        "provisionNumberKey": "281",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van de Inkomstenbelastingen (W.I.B.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-012",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-005",
+        "provisionNumber": "artikel 290",
+        "provisionNumberKey": "290",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van de Inkomstenbelastingen (W.I.B.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-013",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+        "provisionNumber": "artikel 1254",
+        "provisionNumberKey": "1254",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof bevestigt dat bij een betaling zonder voorbehoud de regels van artikel 1254 B.W. van toepassing zijn: de ontvangen betaling moet verhoudingsgewijs worden toegerekend op hoofdsom en intresten; die toerekening beïnvloedt de resterende hoofdsom die voortaan opeisbaar blijft.",
+        "relevantFactualContext": "Op 18-01-2006 werd een storting van 18.123,02 EUR gedaan; volgens de toerekening werd de hoofdsom gereduceerd tot 4.219,15 EUR en werden intresten voor het overige deel verrekend."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-014",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+        "provisionNumber": "artikel 2257",
+        "provisionNumberKey": "2257",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verwijst naar artikel 2257 B.W. om vast te stellen dat de verjaring niet begint te lopen voor een schuldvordering die van een voorwaarde afhangt zolang die voorwaarde (hier: de definitieve vaststelling van de fiscale grondslag) niet vervuld is; de bijzondere bijdrage is afhankelijk van die voorwaarde.",
+        "relevantFactualContext": "De fiscale procedure liep tot het arrest van het Hof van Beroep te Gent van 23-03-2005 (definitief op 24-06-2005); daardoor kon de verjaring volgens het Hof niet eerder beginnen te lopen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-015",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+        "provisionNumber": "artikel 2262bis, § 1, eerste lid",
+        "provisionNumberKey": "2262bis",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof oordeelt dat, bij ontstentenis van een bijzondere verjaringstermijn in de wetgeving omtrent de bijzondere bijdrage, de vordering onderworpen is aan de gemeenrechtelijke verjaring van artikel 2262bis §1 B.W.; sinds de wetswijziging geldt voor persoonlijke rechtsvorderingen een termijn van tien jaar.",
+        "relevantFactualContext": "Het berekeningsblad dateert van 12-09-2005 en de dagvaarding van 26-09-2007; het Hof constateert dat, gelet op de tienjarige termijn, de vordering niet verjaard was."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-016",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+        "provisionNumber": "artikel 2262",
+        "provisionNumberKey": "2262",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-017",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+        "provisionNumber": "artikel 2220",
+        "provisionNumberKey": "2220",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof legt artikel 2220 B.W. uit als stellend dat afstand van een verworven verjaringsmiddel mogelijk is; afstand kan uitdrukkelijk of stilzwijgend gebeuren en een onvoorwaardelijke betaling zonder voorbehoud geldt als afstand van de verjaring ten aanzien van het betaalde deel.",
+        "relevantFactualContext": "De storting van 18-01-2006 werd zonder voorbehoud gedaan; het Hof oordeelt dat daardoor ondubbelzinnig afstand is gedaan van de verjaring voor het reeds betaalde gedeelte."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-018",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+        "provisionNumber": "artikel 2221",
+        "provisionNumberKey": "2221",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verduidelijkt artikel 2221 B.W. dat stilzwijgende afstand van verjaring slechts mag worden afgeleid uit gedragingen die ondubbelzinnig wijzen op de bedoeling afstand te doen; betaling zonder voorbehoud voldoet aan die eis en leidt tot stilzwijgende maar duidelijke afstand.",
+        "relevantFactualContext": "Gezien de aard en wijze van de betaling op 18-01-2006 acht het Hof de afstand stilzwijgend doch duidelijk, waardoor de tegeneis tot terugbetaling ongegrond is voor het betaalde."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-019",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+        "provisionNumber": "artikel 2277",
+        "provisionNumberKey": "2277",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt vast dat de verjaring van wettelijke nalatigheidsintresten wordt beheerst door artikel 2277 B.W., met een vijfjarige verjaringstermijn voor die intresten; de verjaring van intresten moet derhalve afzonderlijk worden beoordeeld ten opzichte van de hoofdvordering.",
+        "relevantFactualContext": "Het Hof rekende dat alle nalatigheidsintresten vervallen vóór 26-09-2002 verjaard waren; de resterende intresten over 26-09-2002 tot 30-09-2007 bedragen volgens het vonnis 2.025,19 EUR."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-020",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-007",
+        "provisionNumber": "artikel 157 e.v.",
+        "provisionNumberKey": "157",
+        "parentActType": "WETBOEK",
+        "parentActName": "W.B. 1992 (verwezen als \"W.B. 1992\")",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-021",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-008",
+        "provisionNumber": "artikel 57",
+        "provisionNumberKey": "57",
+        "parentActType": "WET",
+        "parentActName": "wet van 7 november 1987 (B.S. 17.11.1987)",
+        "parentActDate": "1987-11-07",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-022",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-008",
+        "provisionNumber": "artikel 59",
+        "provisionNumberKey": "59",
+        "parentActType": "WET",
+        "parentActName": "wet van 7 november 1987 (B.S. 17.11.1987)",
+        "parentActDate": "1987-11-07",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-023",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+        "provisionNumber": "artikel 1017, 4de lid",
+        "provisionNumberKey": "1017",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-024",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-009",
+        "provisionNumber": "artikel 10",
+        "provisionNumberKey": "10",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet (Constitutie)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-025",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-009",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet (Constitutie)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-026",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-010",
+        "provisionNumber": "artikel 16, § 2",
+        "provisionNumberKey": "16",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "KB nr. 38 (inzake invordering van gewone bijdragen zelfstandigen)",
+        "parentActDate": null,
+        "parentActNumber": "nr. 38",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-027",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2010:JUG.20100205.2-011",
+        "provisionNumber": "artikel 42",
+        "provisionNumberKey": "42",
+        "parentActType": "WET",
+        "parentActName": "RSZ-wet van 27 juni 1969",
+        "parentActDate": "1969-06-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "vijfde kamer van de arbeidsrechtbank te Dendermonde, afdeling Dendermonde",
+        "date": "2008-12-10",
+        "caseNumber": "A.R. 07/54152/A",
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "arbeidshof te Gent, afdeling Gent",
+        "date": "2009-01-16",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "arbeidshof te Gent, afdeling Gent",
+        "date": "2009-11-06",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep van Gent",
+        "date": "2005-03-23",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "1995-02-27",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "DISTINGUISHED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "1995-03-06",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "DISTINGUISHED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-006"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 7,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbitragehof",
+        "date": "2004-05-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-007"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 8,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Gent, afd. Brugge",
+        "date": "1994-04-14",
+        "caseNumber": "A.R. 93/050",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-008"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 9,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Gent, afd. Gent",
+        "date": "2006-12-15",
+        "caseNumber": "A.R. 152/05",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-009"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 10,
+        "courtJurisdictionCode": "BE",
+        "courtName": "het Grondwettelijk Hof",
+        "date": "2009-11-12",
+        "caseNumber": "nr. 177/2009",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-010"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 11,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1995-02-25",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "DISTINGUISHED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-011"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 12,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1998-11-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-012"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Socialezekerheidsrecht",
+      "Bijzondere bijdrage",
+      "Provisionele storting",
+      "Definitieve fiscale vaststelling",
+      "Toerekening betaling",
+      "Aanvang verjaring",
+      "Duur van verjaring",
+      "Verjaring van intresten",
+      "Afstand door betaling",
+      "Grondwettelijk Hof-uitspraak"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+        "text": "De verjaring van de vordering tot invordering van de bijzondere bijdrage voor sociale zekerheid begint pas te lopen wanneer de vordering voor de RVA zeker, vaststaand en opeisbaar is; concreet veronderstelt dit dat de fiscale grondslag definitief is vastgesteld en aan de RVA is meegedeeld en dat het definitieve berekeningsblad is opgemaakt en de daaropvolgende betaaltermijn verstreken is.",
+        "courtVerbatim": "De verjaringstermijn begint pas te lopen vanaf de dag waarop voor de geïntimeerde het recht ontstond om de rechtsvordering in te stellen (H. De Page, Traité VII, nr. 1147 en 1329; A. Van Oevelen, \"Algemeen overzicht ...\");\n\nPas op het ogenblik dat het belastbaar inkomen door de belastingsadministratie definitief werd vastgesteld, kan uitgemaakt worden of de bijzondere bijdrage voor sociale zekerheid verschuldigd is.\n\nDe verjaringstermijn kan slechts een aanvang nemen op datum van het door geïntimeerde opgestelde definitieve berekeningsblad van 12 september 2005.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de invordering van een wettelijke bijzondere bijdrage afhankelijk is van de definitieve vaststelling van een fiscale grondslag en de ontvangst door de inninginstantie van de daartoe vereiste gegevens.",
+        "relevantFactualContext": "In deze zaak werd de fiscale procedure afgesloten met een arrest van het Hof van Beroep van Gent d.d. 23-03-2005 (definitief 24-06-2005); de RVA stelde daarop op 12-09-2005 een berekeningsblad op, waarna de verjaring kon aanvang nemen.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-007",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-008",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-013"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-008",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-009",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-010"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2010:JUG.20100205.2-002",
+        "text": "Bij ontbreken van een bijzondere verjaringstermijn in de lex specialis (artikelen 60-73 W. 28 dec. 1983) is de vordering tot invordering van de bijzondere bijdrage een persoonlijke rechtsvordering en verjaart zij overeenkomstig het gemeen recht; sedert de wetswijziging geldt daarvoor de tienjarige termijn van artikel 2262bis §1 B.W.",
+        "courtVerbatim": "De artikelen 60 tot 73 van de wet van 28 december 1983 voorzien niet in een verjaringstermijn voor de vordering tot invordering van de bijzondere bijdrage voor sociale zekerheid.\n\nWegens ontstentenis van een andere tekst die de persoonlijke rechtsvordering aan een bijzondere verjaring onderwerpt, verjaart zij overeenkomstig het gemeen recht, met andere woorden: na verloop van de termijn van tien jaar bepaald in artikel 2262bis, § 1, eerste lid, van het Burgerlijk Wetboek, ingevoegd bij artikel 5 van de wet van 10 juni 1998 ...",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een wet betreffende een specifieke bijdrage geen eigen verjaringstermijn bepaalt voor de invorderingsvordering.",
+        "relevantFactualContext": "Aangezien de wetgeving rond de bijzondere bijdrage geen eigen termijn bepaalt en het berekeningsblad dateert van 12-09-2005, oordeelde het hof dat de vordering niet verjaard was op basis van de gemeenrechtelijke tienjarige termijn.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-015"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-011",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-012",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-010"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+        "text": "Een provisionele storting en de wettelijke verwijlintresten op die provisie zijn een voorschotregeling; de uiterste datum voor die provisionele storting en de verschuldigde intresten maken het definitieve bedrag niet 'opeisbaar' voor zover de voorwaarden van de onderwerping aan de bijzondere bijdrage niet vervuld zijn; de datum van de provisionele storting kan daarom niet het begin van de verjaring van de definitieve invorderingsvordering bepalen.",
+        "courtVerbatim": "Artikel 62 van de wet van 28 december 1983 voorziet dat de bijdrage het voorwerp moet uitmaken van een provisionele storting ... De term 'provisionele storting' wijst erop dat het definitief bedrag op dat ogenblik nog niet is gekend.\n\nDe verplichting om voorschotten te betalen heeft niet tot gevolg dat de bijdrage opeisbaar wordt, zolang de voorwaarden van de onderwerping aan de bijzondere bijdrage niet zijn vervuld. ...\n\nDe datum van de provisionele storting kan derhalve onmogelijk de datum zijn waarop de verjaringstermijn begint te lopen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een bijdrageregeling voorziet in provisionele stortingen voorafgaand aan de definitieve berekening van de verschuldigde bijdrage.",
+        "relevantFactualContext": "Voor inkomstenjaar 1988 gold de uiterste datum van 1 februari 1989 voor de provisionele storting; er werden geen provisionele stortingen verricht, maar de RVA kon pas na ontvangst van de definitieve fiscale gegevens het berekeningsblad opmaken (12-09-2005).",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-008"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-010"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+        "text": "Een betaling zonder voorbehoud geldt als afstand van een verworven verjaringsmiddel ten aanzien van het betaalde gedeelte en moet volgens artikel 1254 B.W. verhoudingsgewijs worden toegerekend op hoofdsom en intresten; stilzwijgende afstand moet ondubbelzinnig blijken uit gedragingen waaruit de wil tot afstand volgt.",
+        "courtVerbatim": "Door te betalen is er duidelijk en ondubbelzinnig verzaakt aan de verjaring van de schuldvordering die betaald is.\n\nOp 18 januari 2006 heeft H.J.S. kennelijk dit bedrag zonder voorbehoud betaald, zodat de betaling verhoudingsgewijs toegerekend wordt op de verschuldigde hoofdsom voor 6.855,64 euro en op intresten voor 11.237,39 euro, zodat het saldo hoofdsom wordt herleid tot 4.219,15 euro.\n\nHet hof verwijst naar artikel 2257 B.W. en artikel 1254 B.W.; artikel 2220 en 2221 B.W. geven aan dat afstand van verjaring uitdrukkelijk of stilzwijgend kan gebeuren en dat stilzwijgende afstand ondubbelzinnig moet zijn.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing zodra een debiteur een betaling doet zonder bewaarde voorbehouden en de vraag rijst of daarmee verjaring is opgegeven en hoe de betaling moet worden toegerekend.",
+        "relevantFactualContext": "Op 18-01-2006 werd een storting van 18.123,02 EUR gedaan; het hof oordeelde dat deze storting zonder voorbehoud was en overeenkomstig art. 1254 B.W. verhoudingsgewijs op intresten en hoofdsom werd toegerekend, met vermindering van de resterende hoofdsom.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-013",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-017",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-018"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 3,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 4,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De Rijksdienst voor Arbeidsvoorziening vordert van de erfgenamen de betaling van een bijzondere bijdrage voor sociale zekerheid en bijbehorende nalatigheidsintresten voor aanslagjaar 1989. Het Arbeidshof verklaart het hoger beroep gedeeltelijk gegrond, vernietigt het vonnis van eerste aanleg en veroordeelt de erfgenamen solidair tot betaling van €6.244,34, te vermeerderen met wettelijke intresten op het saldo van €4.219,15 vanaf 1 oktober 2007. Het hof stelt als kernregel vast dat de verjaring van de invorderingsvordering pas begint te lopen zodra de RVA over de definitieve fiscale gegevens beschikt, dat nalatigheidsintresten op provisionele stortingen niet door een fiscaal bezwaar worden geschorst, en dat een betaling afstand van het verjaringsmiddel kan betekenen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de beschikking d.d. 3 april 2009, overeenkomstig artikel 747, § 2 van het Gerechtelijk Wetboek, tot bepaling van de conclusietermijnen en de rechtsdag.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Rechtsprekend op tegenspraak, gelet op de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken en inzonderheid op artikel 24 van deze wet, verwerpt alle andere, ruimere of strijdige conclusies.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 60 van de wet van 28 december 1983 bepaalt dat wanneer het gezamenlijk belastbaar inkomen van de belastingplichtige meer bedraagt dat 3.000.000 BEF, de bijzondere bijdrage verschuldigd is voor de aanslagjaren 1983 tot 1989. Deze bijdrage is gelijk aan:</p>",
+          "<p class=\"case-section__paragraph\">Uit de feitelijke gegevens blijkt dat eerste appellante, samen met haar echtgenoot de heer H.J.S., overleden op 6 maart 2006, voor het jaartal 1988 (aanslagjaar 1989) een gezamenlijk belastbaar inkomen had van 5.027.865 BEF of 124.637,52 euro. Ingevolge artikel 60 e.v. van de wet van 28 december 1983, houdende fiscale – en begrotings-bepalingen (BS 30.12.1983), zoals gewijzigd door de herstelwet van 31 juli 1984 (BS 10 augustus 1984), door de wet van 4 augustus 1986 houdende fiscale bepalingen (BS 20 juni 1986), door de wet van 7 november 1987 (BS 17 november 1987) en door de programmawet van 30 december 1988(BS 5 januari 1989), zijn zij bijgevolg de bijzondere bijdrage voor de sociale zekerheid verschuldigd, voor een bedrag van</p>",
+          "<p class=\"case-section__paragraph\">Krachtens artikel 60 van de meermaals gewijzigde wet van 28 december 1983, houdende fiscale en begrotingsbepalingen, zijn de personen die onderworpen zijn aan om het even welk stelsel van sociale zekerheid of onder enig opzicht gerechtigd zijn op ten minste één van de prestaties van de sociale zekerheid en van wie het netto bedrag van de gezamenlijk belastbare inkomsten in de personenbelasting meer dan drie miljoen frank bedraagt, jaarlijks gehouden tot betaling van een bijzondere bijdrage voor sociale zekerheid voor de aanslagjaren (1983 tot 1989).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-005",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-007",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De artikelen 60 tot 73 van de wet van 28 december 1983 voorzien niet in een verjaringstermijn voor de vordering tot invordering van de bijzondere bijdrage voor sociale zekerheid.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-005",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Krachtens artikel 61, § 1, tweede lid, van de wet van 28 december 1983, wordt, wanneer het inkomen lager ligt dan 5 miljoen frank, het bedrag van de bijdrage bepaald op 25 % van het deel van het inkomen dat 3 miljoen frank overtreft.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-005",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Ingevolge artikel 62 van de wet van 28 december 1983, diende deze bijdrage het voorwerp uit te maken van een provisionele storting voor 1 februari 1989, bij gebreke waarvan een nalatigheidsintrest verschuldigd is vanaf deze datum, aan een rentevoet van 0,8 % per maand tot en met de maand van de betaling.</p>",
+          "<p class=\"case-section__paragraph\">Krachtens artikel 62 eerste lid van de wet van 28 december 1983 moet de bijdrage (voor 1987) het voorwerp uitmaken van een provisionele storting te verrichten vóór 1 december van het jaar voorafgaand aan het aanslagjaar.</p>",
+          "<p class=\"case-section__paragraph\">Krachtens artikel 62, derde lid van de wet van 28 december 1983, is bij gebrek aan, of in geval van ontoereikendheid van provisionele storting (op de voorgeschreven datum), een nalatigheidinterest verschuldigd ingaand op deze datum tegen een rentevoet van 1,25 % en vanaf 1 februari 1988 van 0,8 %, krachtens art. 57 en art. 59 van de wet van 7 november 1987 waarbij voorlopige kredieten worden geopend voor de begrotingsjaren 1987 en 1988 en houdende financiële en diverse bepalingen, (B.S. 17 november 1987, 16857, 16869), per maand tot en met de maand waarin de betaling geschiedt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-008",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-021",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-022",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-012"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Krachtens artikel 2 K.B. 4 juli 1984 tot uitvoering van Hoofdstuk III Bijzondere bijdrage voor sociale zekerheid van de Wet 28 december 1983 houdende fiscale en begrotingsbepalingen, zendt de Rijksdienst voor Arbeidsvoorziening, aan de hand van de inlichtingen verstrekt door de in artikel 66 van de wet bedoelde openbare besturen, aan de tot betaling van de bijzondere bijdrage gehouden personen een berekeningsblad met vermelding van het bedrag der verschuldigde bijdrage, de elementen op basis waarvan de bijdrage is vastgesteld, het eventueel saldo dat door de Rijksdienst voor Arbeidsvoorziening geïnd of teruggegeven moet worden en de verwijlintresten betreffende dit saldo. Het saldo moet door de tot betaling van de bijzondere bijdrage gehouden personen uiterlijk worden gestort de laatste dag van de maand volgend op die van de toezending van het berekeningsblad.</p>",
+          "<p class=\"case-section__paragraph\">Het is pas nadat die betalingstermijn is verstreken dat de verjaringstermijn van de vordering tot invordering begint te lopen voor diegene die de bijzondere bijdrage voor sociale zekerheid verschuldigd is” (BS 30 december 2009).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-007",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-008",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-010",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Krachtens artikel 2 K.B. 4 juli 1984 tot uitvoering van Hoofdstuk III Bijzondere bijdrage voor sociale zekerheid van de Wet 28 december 1983 houdende fiscale en begrotingsbepalingen, zendt de Rijksdienst voor Arbeidsvoorziening, aan de hand van de inlichtingen verstrekt door de in artikel 66 van de wet bedoelde openbare besturen, aan de tot betaling van de bijzondere bijdrage gehouden personen een berekeningsblad met vermelding van het bedrag der verschuldigde bijdrage, de elementen op basis waarvan de bijdrage is vastgesteld, het eventueel saldo dat door de Rijksdienst voor Arbeidsvoorziening geïnd of teruggegeven moet worden en de verwijlintresten betreffende dit saldo. Het saldo moet door de tot betaling van de bijzondere bijdrage gehouden personen uiterlijk worden gestort de laatste dag van de maand volgend op die van de toezending van het berekeningsblad.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-008",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-007",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Krachtens artikel 3 K.B. 4 juli 1984 zijn de personen die de aanslag betwisten welke de verplichting tot betaling van de bijzondere bijdrage meebrengt, ertoe gehouden aan de Rijksdienst voor Arbeidsvoorziening het bewijs te leveren dat zij tegen deze aanslag een bezwaarschrift hebben ingediend of een beroep hebben ingesteld door hem een afschrift te doen toekomen van het ontvangstbewijs van het bezwaarschrift bedoeld in artikel 271 W.I.B. of een afschrift van de kennisgeving van neerlegging bedoeld in de artikelen 281 en 290 W.I.B. De indiening van een bezwaar- of van een beroepschrift schort de periode niet gedurende dewelke de verwijlintresten lopen.</p>",
+          "<p class=\"case-section__paragraph\">De intresten zijn van rechtswege verschuldigd en worden trouwens krachtens artikel 3 K.B. 4 juli 1984 niet opgeschort door het indienen van een fiscaal bezwaarschrift, zoals de R.V.A. terecht betoogt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-009",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-010",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Krachtens artikel 3 K.B. 4 juli 1984 zijn de personen die de aanslag betwisten welke de verplichting tot betaling van de bijzondere bijdrage meebrengt, ertoe gehouden aan de Rijksdienst voor Arbeidsvoorziening het bewijs te leveren dat zij tegen deze aanslag een bezwaarschrift hebben ingediend of een beroep hebben ingesteld door hem een afschrift te doen toekomen van het ontvangstbewijs van het bezwaarschrift bedoeld in artikel 271 W.I.B. of een afschrift van de kennisgeving van neerlegging bedoeld in de artikelen 281 en 290 W.I.B. De indiening van een bezwaar- of van een beroepschrift schort de periode niet gedurende dewelke de verwijlintresten lopen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-010",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-011",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Krachtens artikel 3 K.B. 4 juli 1984 zijn de personen die de aanslag betwisten welke de verplichting tot betaling van de bijzondere bijdrage meebrengt, ertoe gehouden aan de Rijksdienst voor Arbeidsvoorziening het bewijs te leveren dat zij tegen deze aanslag een bezwaarschrift hebben ingediend of een beroep hebben ingesteld door hem een afschrift te doen toekomen van het ontvangstbewijs van het bezwaarschrift bedoeld in artikel 271 W.I.B. of een afschrift van de kennisgeving van neerlegging bedoeld in de artikelen 281 en 290 W.I.B. De indiening van een bezwaar- of van een beroepschrift schort de periode niet gedurende dewelke de verwijlintresten lopen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-011",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-010",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Krachtens artikel 3 K.B. 4 juli 1984 zijn de personen die de aanslag betwisten welke de verplichting tot betaling van de bijzondere bijdrage meebrengt, ertoe gehouden aan de Rijksdienst voor Arbeidsvoorziening het bewijs te leveren dat zij tegen deze aanslag een bezwaarschrift hebben ingediend of een beroep hebben ingesteld door hem een afschrift te doen toekomen van het ontvangstbewijs van het bezwaarschrift bedoeld in artikel 271 W.I.B. of een afschrift van de kennisgeving van neerlegging bedoeld in de artikelen 281 en 290 W.I.B. De indiening van een bezwaar- of van een beroepschrift schort de periode niet gedurende dewelke de verwijlintresten lopen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-012",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-010",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-013",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">B. Nopens de aanrekening aan de afbetaling:</h3>",
+          "<p class=\"case-section__paragraph\">Geïntimeerde heeft correct de laatste zin van artikel 1254 B.W. toegepast, doordat men de betaling verhoudingsgewijs (aandeel hoofdsom/aandeel intresten) heeft toegerekend op de verschuldigde hoofdsom (6.885,64 euro) en intresten (11.237,39 euro).</p>",
+          "<p class=\"case-section__paragraph\">Op 18 januari 2006 heeft H.J.S. kennelijk dit bedrag zonder voorbehoud betaald, zodat de betaling verhoudingsgewijs toegerekend wordt op de verschuldigde hoofdsom voor 6.855,64 euro en op intresten voor 11.237,39 euro, zodat het saldo hoofdsom wordt herleid tot 4.219,15 euro (stuk 8 geïntimeerde).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-013",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-017",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-018"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-012"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verder dient verwezen te worden naar artikel 2257 B.W., dat voorziet dat de verjaring niet loopt ten aanzien van een schuldvordering die van een voorwaarde afhangt, zolang die voorwaarde niet vervuld is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-014",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Wegens ontstentenis van een andere tekst die de persoonlijke rechtsvordering aan een bijzondere verjaring onderwerpt, verjaart zij overeenkomstig het gemeen recht, met andere woorden: na verloop van de termijn van tien jaar bepaald in artikel 2262bis, § 1, eerste lid, van het Burgerlijk Wetboek, ingevoegd bij artikel 5 van de wet van 10 juni 1998 tot wijziging van sommige bepalingen betreffende de verjaring, in werking getreden op 27 juli 1998, datum van bekendmaking ervan in het Belgisch Staatsblad.</p>",
+          "<blockquote class=\"case-quote\">\n            <p class=\"case-section__paragraph\">“B.6.3. Doordat bovendien de vordering tot invordering van de bijzondere bijdrage voor sociale zekerheid een persoonlijke rechtsvordering is in de zin van artikel 2262 bis, § 1, eerste lid van het Burgerlijk Wetboek, begint de verjaring slechts te lopen op de dag waarop de verplichting tot betaling van die bijdrage eisbaar wordt.</p>\n            <p class=\"case-section__paragraph\">De RVA kan het bestaan van een schuldvordering met betrekking tot die bijdrage en het bedrag ervan pas vaststellen wanneer bepaalde openbare besturen hem de nodige inlichtingen hebben verstrekt (artikel 66 van de wet van 29 december 1983).</p>\n            <p class=\"case-section__paragraph\">En het is slechts ‘aan de hand van (die) inlichtingen’ dat hij ‘aan de tot betaling van de bijzondere bijdrage gehouden personen een berekeningsblad (zendt) met vermelding van het bedrag der verschuldigde bijdrage, de elementen op basis waarvan de bijdrage is vastgesteld, het eventueel saldo dat door de Rijksdienst voor Arbeidsvoorziening geïnd of teruggegeven moet worden en de verwijl- intresten betreffende het saldo’ dat ‘uiterlijk (moet) worden gestort de laatste dag van de maand volgend op die van de toezending van het berekeningsblad’ (artikel 2 KB 4 juli 1984 ‘tot uitvoering van Hoofdstuk III – Bijzondere bijdrage voor sociale zekerheid – van de wet van 28 december 1983 houdende fiscale en begrotingsbepalingen’).</p>\n            <p class=\"case-section__paragraph\">Het is pas nadat die betalingstermijn is verstreken dat de verjaringstermijn van de vordering tot invordering begint te lopen voor diegene die de bijzondere bijdrage voor sociale zekerheid verschuldigd is” (BS 30 december 2009).</p>\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-015",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-010",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-005",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-006"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Tot die datum bedroeg de gemeenrechtelijke verjaringstermijn van de persoonlijke rechtsvorderingen – vastgesteld bij artikel 2262 B.W., in de bewoordingen vóór de vervanging ervan bij artikel 4 van de wet van 10 juni 1998 – dertig jaar (Cass. 25 februari 1995, J.T.T. 1995, 300; Cass. 6 maart 1995, J.T.T. 1995, 298).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-016",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-005",
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-006"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-017",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Nu mag het zo zijn dat de instelling van de bevrijdende verjaring de openbare orde raakt (A. Van Oevelen, “Algemeen overzicht van de bevrijdende verjaring en de vervaltermijnen in het Belgische Privaatrecht”, TPR 1987, 1763, nr. 10), dit neemt niet weg en het staat met zoveel woorden in artikel 2220 van het Burgerlijk Wetboek dat men wel afstand kan doen van het middel van een verkregen verjaring.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-017",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-018",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Zo’n afstand van verjaring geschiedt uitdrukkelijk of stilzwijgend. De stilzwijgende afstand wordt afgeleid uit een daad die doet veronderstellen dat men zijn verkregen recht heeft laten varen (art. 2221 Burgerlijk Wetboek). Een stilzwijgende afstand van recht moet klaar en duidelijk zijn en mag enkel worden afgeleid uit handelingen die niet anders kunnen worden uitgelegd dan als de wil zich niet op de verjaring te beroepen (A. Van Oevelen, “Conventionele bedingen inzake verjaring” in I. Claeys (ed.), Verjaring in het privaatrecht. Weet de avond wat de morgen brengt?, Mechelen, Wolters Kluwer, 2005, 125, nr. 6).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-018",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-017",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-019",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De nalatigheidintrest in geval van ontoereikendheid van de provisionele storting vóór 1 december van het jaar voorafgaand aan het aanslagjaar, is een wettelijke intrest waarvoor de regel van artikel 2277 B.W. geldt (vijfjarige verjaring) (cfr. Cass. 2 november 1998, o.c.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-019",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-012"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dit systeem is vergelijkbaar met de voorafbetalingen, welke sommige belastingplichtigen dienen uit te voeren als ‘voorschot’ op de belasting op winsten, op baten en op bezoldigingen van bedrijfsleiders, op straffe waarvan zij hun belastingen verhoogd zullen zien met vermeerderingen (zie artikel 157 e.v. W.B. 1992).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-020",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Krachtens artikel 62, derde lid van de wet van 28 december 1983, is bij gebrek aan, of in geval van ontoereikendheid van provisionele storting (op de voorgeschreven datum), een nalatigheidinterest verschuldigd ingaand op deze datum tegen een rentevoet van 1,25 % en vanaf 1 februari 1988 van 0,8 %, krachtens art. 57 en art. 59 van de wet van 7 november 1987 waarbij voorlopige kredieten worden geopend voor de begrotingsjaren 1987 en 1988 en houdende financiële en diverse bepalingen, (B.S. 17 november 1987, 16857, 16869), per maand tot en met de maand waarin de betaling geschiedt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-021",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-022",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-022",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Krachtens artikel 62, derde lid van de wet van 28 december 1983, is bij gebrek aan, of in geval van ontoereikendheid van provisionele storting (op de voorgeschreven datum), een nalatigheidinterest verschuldigd ingaand op deze datum tegen een rentevoet van 1,25 % en vanaf 1 februari 1988 van 0,8 %, krachtens art. 57 en art. 59 van de wet van 7 november 1987 waarbij voorlopige kredieten worden geopend voor de begrotingsjaren 1987 en 1988 en houdende financiële en diverse bepalingen, (B.S. 17 november 1987, 16857, 16869), per maand tot en met de maand waarin de betaling geschiedt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-022",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-021",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-023",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Veroordeelt appellanten enerzijds en geïntimeerde anderzijds, overeenkomstig artikel 1017, 4ᵈᵉ lid van het Gerechtelijk Wetboek elk tot de helft van de kosten van beide aanleggen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-023"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-024",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het Arbitragehof heeft echter bij arrest van 5 mei 2004 overwogen dat de toepassing van de gewone verjaringstermijn op de bijzondere bijdrage de artikelen 10 en 11 van de Grondwet schendt. Met andere woorden: de verjaringstermijn bedraagt drie of vijf jaar, naargelang de belastingsplichtige onderworpen is aan de sociale zekerheid der werknemers of zelfstandigen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-024",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-025"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-007"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-025",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het Arbitragehof heeft echter bij arrest van 5 mei 2004 overwogen dat de toepassing van de gewone verjaringstermijn op de bijzondere bijdrage de artikelen 10 en 11 van de Grondwet schendt. Met andere woorden: de verjaringstermijn bedraagt drie of vijf jaar, naargelang de belastingsplichtige onderworpen is aan de sociale zekerheid der werknemers of zelfstandigen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-025",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-024"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-007"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-026",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Volgens appellanten bedraagt de verjaringstermijn drie jaar, refererend aan artikel 16, § 2 KB nr. 38 inzake invordering van de gewone bijdragen in het kader van het sociaal statuut (zelfstandigen) of vijf jaar, refererend aan artikel 42 van de RSZ-wet van 27 juni 1969 inzake de gewone bijdragen voor sociale zekerheid die voor de tewerkstelling van werknemers verschuldigd is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-026",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-027"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-027",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Volgens appellanten bedraagt de verjaringstermijn drie jaar, refererend aan artikel 16, § 2 KB nr. 38 inzake invordering van de gewone bijdragen in het kader van het sociaal statuut (zelfstandigen) of vijf jaar, refererend aan artikel 42 van de RSZ-wet van 27 juni 1969 inzake de gewone bijdragen voor sociale zekerheid die voor de tewerkstelling van werknemers verschuldigd is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-027",
+          "ART-ECLI:BE:AHGNT:2010:JUG.20100205.2-026"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 27,
+      "citationStatistics": {
+        "totalCitations": 35,
+        "avgCitationsPerProvision": 1.2962962962962963,
+        "provisionsWithMinimalCitations": 25,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.6666666666666665,
+        "avgDecisionsPerProvision": 0.7407407407407407,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2010:JUG.20100205.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De verjaringstermijn begint pas te lopen vanaf de dag waarop voor de geïntimeerde het recht ontstond om de rechtsvordering in te stellen (H. De Page, Traité VII, nr. 1147 en 1329; A. Van Oevelen, “Algemeen overzicht van de bevrijdende verjaring en de vervaltermijnen in het Belgische Privaatrecht”, T.P.R., 1987, deel 4, p. 1781 nr. 24);</p>",
+          "<p class=\"case-section__paragraph\">De bijzondere bijdrage voor sociale zekerheid is verschuldigd indien het netto bedrag van de gezamenlijke belastbare inkomsten in de personenbelasting meer dan 3 miljoen bedraagt. Pas op het ogenblik dat het belastbaar inkomen door de belastingsadministratie definitief werd vastgesteld, kan uitgemaakt worden of de bijzondere bijdrage voor sociale zekerheid verschuldigd is.</p>",
+          "<p class=\"case-section__paragraph\">De verjaringstermijn kan slechts een aanvang nemen op datum van het door geïntimeerde opgestelde definitieve berekeningsblad van 12 september 2005. De redenering dat de verjaring bereikt is (vijf jaar) nadat de verplichting tot betaling vastgesteld is, kan niet worden gevolgd.</p>",
+          "<blockquote class=\"case-quote\">\n            <p class=\"case-section__paragraph\">“B.6.3. Doordat bovendien de vordering tot invordering van de bijzondere bijdrage voor sociale zekerheid een persoonlijke rechtsvordering is in de zin van artikel 2262 bis, § 1, eerste lid van het Burgerlijk Wetboek, begint de verjaring slechts te lopen op de dag waarop de verplichting tot betaling van die bijdrage eisbaar wordt.</p>\n            <p class=\"case-section__paragraph\">De RVA kan het bestaan van een schuldvordering met betrekking tot die bijdrage en het bedrag ervan pas vaststellen wanneer bepaalde openbare besturen hem de nodige inlichtingen hebben verstrekt (artikel 66 van de wet van 29 december 1983).</p>\n            <p class=\"case-section__paragraph\">En het is slechts ‘aan de hand van (die) inlichtingen’ dat hij ‘aan de tot betaling van de bijzondere bijdrage gehouden personen een berekeningsblad (zendt) met vermelding van het bedrag der verschuldigde bijdrage, de elementen op basis waarvan de bijdrage is vastgesteld, het eventueel saldo dat door de Rijksdienst voor Arbeidsvoorziening geïnd of teruggegeven moet worden en de verwijl- intresten betreffende het saldo’ dat ‘uiterlijk (moet) worden gestort de laatste dag van de maand volgend op die van de toezending van het berekeningsblad’ (artikel 2 KB 4 juli 1984 ‘tot uitvoering van Hoofdstuk III – Bijzondere bijdrage voor sociale zekerheid – van de wet van 28 december 1983 houdende fiscale en begrotingsbepalingen’).</p>\n            <p class=\"case-section__paragraph\">Het is pas nadat die betalingstermijn is verstreken dat de verjaringstermijn van de vordering tot invordering begint te lopen voor diegene die de bijzondere bijdrage voor sociale zekerheid verschuldigd is” (BS 30 december 2009).</p>\n        </blockquote>",
+          "<p class=\"case-section__paragraph\">Overeenkomstig het verslag van de RVA bedroeg de schuld op 27 januari 2006 29.227,81 euro, zijnde 11.104,79 euro hoofdsom en 18.123,02 euro intresten. Wanneer appellanten op 18 januari 2006 een bedrag van 18.123,02 euro betaald hebben, dan moet dit bedrag toegerekend worden; dit bedrag is gelijk aan de verschuldigde intresten op dat moment, maar dit betekent niet dat de schuldenaars kunnen beslissen dat deze betaling op de intresten moet worden toegerekend. Geïntimeerde heeft correct de laatste zin van artikel 1254 B.W. toegepast, doordat men de betaling verhoudingsgewijs (aandeel hoofdsom/aandeel intresten) heeft toegerekend op de verschuldigde hoofdsom (6.885,64 euro) en intresten (11.237,39 euro).</p>",
+          "<p class=\"case-section__paragraph\">Krachtens artikel 60 van de meermaals gewijzigde wet van 28 december 1983, houdende fiscale en begrotings-bepalingen, zijn de personen die onderworpen zijn aan om het even welk stelsel van sociale zekerheid of onder enig opzicht gerechtigd zijn op ten minste één van de prestaties van de sociale zekerheid en van wie het netto bedrag van de gezamenlijk belastbare inkomsten in de personenbelasting meer dan drie miljoen frank bedraagt, jaarlijks gehouden tot betaling van een bijzondere bijdrage voor sociale zekerheid voor de aanslagjaren (1983 tot 1989).</p>",
+          "<p class=\"case-section__paragraph\">Krachtens artikel 62 eerste lid van de wet van 28 december 1983 moet de bijdrage (voor 1987) het voorwerp uit te maken van een provisionele storting te verrichten vóór 1 december van het jaar voorafgaand aan het aanslagjaar.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 5,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-003"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2010:JUG.20100205.2-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De artikelen 60 tot 73 van de wet van 28 december 1983 voorzien niet in een verjaringstermijn voor de vordering tot invordering van de bijzondere bijdrage voor sociale zekerheid.</p>",
+          "<p class=\"case-section__paragraph\">Wegens ontstentenis van een andere tekst die de persoonlijke rechtsvordering aan een bijzondere verjaring onderwerpt, verjaart zij overeenkomstig het gemeen recht, met andere woorden: na verloop van de termijn van tien jaar bepaald in artikel 2262bis, § 1, eerste lid, van het Burgerlijk Wetboek, ingevoegd bij artikel 5 van de wet van 10 juni 1998 tot wijziging van sommige bepalingen betreffende de verjaring, in werking getreden op 27 juli 1998, datum van bekendmaking ervan in het Belgisch Staatsblad.</p>",
+          "<p class=\"case-section__paragraph\">Tot die datum bedroeg de gemeenrechtelijke verjaringstermijn van de persoonlijke rechtsvorderingen – vastgesteld bij artikel 2262 B.W., in de bewoordingen vóór de vervanging ervan bij artikel 4 van de wet van 10 juni 1998 – dertig jaar (Cass. 25 februari 1995, J.T.T. 1995, 300; Cass. 6 maart 1995, J.T.T. 1995, 298).</p>",
+          "<p class=\"case-section__paragraph\">In het hierboven geciteerde arrest van 12 november 2009 van het Grondwettelijk Hof, wordt gezegd dat de artikelen 60 tot 73 van de wet van 28 december 1983 houdende fiscale en begrotingsbepalingen, de artikelen 10 en 11 schenden in zoverre daarin geen specifieke termijn is bepaald voor de verjaring van de vordering tot invordering van de bijzondere bijdrage voor de sociale zekerheid.</p>",
+          "<p class=\"case-section__paragraph\">Het arbeidshof stelt vast dat, gelet op de datum van het opstellen van het berekeningsblad d.d. 12 september 2005 en de datum waarop de inleidende dagvaarding werd betekend d.d. 26 september 2007, de vordering in elk geval niet was verjaard op basis van de vijfjarige termijn en ook niet op basis van de driejarige termijn.</p>",
+          "<p class=\"case-section__paragraph\">De in artikel 62 derde lid Wet 28 december 1983 bepaalde rente maakt een vergoeding uit voor de vertraging in de uitvoering van de uitbetaling van de provisie op de bijdrage (Cass. 2 november 1998, J.T.T. 1999, 92) en dus niet op de bijdrage zelf.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2010:JUG.20100205.2-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 62 van de wet van 28 december 1983 voorziet dat de bijdrage het voorwerp moet uitmaken van een provisionele storting voor 1 februari 1989, bij gebreke waarvan een nalatigheidinterest verschuldigd is vanaf deze datum tegen een rentevoet van 0,8 % per maand tot en met de maand van de betaling.</p>",
+          "<p class=\"case-section__paragraph\">De verplichting om voorschotten te betalen heeft niet tot gevolg dat de bijdrage opeisbaar wordt, zolang de voorwaarden van de onderwerping aan de bijzondere bijdrage niet zijn vervuld. De sanctie voor het niet of niet voldoende uitvoeren van de provisionele storting bestaat in het verschuldigd zijn van intresten aan een welbepaalde rentevoet. Deze intrestvoet werd aldus bepaald ten einde de bijdrageplichtigen aan te zetten om de provisionele storting uit te voeren.</p>",
+          "<p class=\"case-section__paragraph\">De datum van de provisionele storting kan derhalve onmogelijk de datum zijn waarop de verjaringstermijn begint te lopen. Men kan evenmin stellen dat de verjaringstermijn was beginnen lopen na de aanvangelijke fiscale aanslag (datum onbekend), waartegen appellanten op 29 april 1991 een bezwaarschrift hadden ingediend.</p>",
+          "<p class=\"case-section__paragraph\">Krachtens artikel 60 van de meermaals gewijzigde wet van 28 december 1983, houdende fiscale en begrotings-bepalingen, zijn de personen die onderworpen zijn aan om het even welk stelsel van sociale zekerheid of onder enig opzicht gerechtigd zijn op ten minste één van de prestaties van de sociale zekerheid en van wie het netto bedrag van de gezamenlijk belastbare inkomsten in de personenbelasting meer dan drie miljoen frank bedraagt, jaarlijks gehouden tot betaling van een bijzondere bijdrage voor sociale zekerheid voor de aanslagjaren (1983 tot 1989).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-003"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2010:JUG.20100205.2-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig het verslag van de RVA bedroeg de schuld op 27 januari 2006 29.227,81 euro, zijnde 11.104,79 euro hoofdsom en 18.123,02 euro intresten. Wanneer appellanten op 18 januari 2006 een bedrag van 18.123,02 euro betaald hebben, dan moet dit bedrag toegerekend worden; dit bedrag is gelijk aan de verschuldigde intresten op dat moment, maar dit betekent niet dat de schuldenaars kunnen beslissen dat deze betaling op de intresten moet worden toegerekend. Geïntimeerde heeft correct de laatste zin van artikel 1254 B.W. toegepast, doordat men de betaling verhoudingsgewijs (aandeel hoofdsom/aandeel intresten) heeft toegerekend op de verschuldigde hoofdsom (6.885,64 euro) en intresten (11.237,39 euro).</p>",
+          "<p class=\"case-section__paragraph\">Door te betalen is er duidelijk en ondubbelzinnig verzaakt aan de verjaring van de schuldvordering die betaald is.</p>",
+          "<p class=\"case-section__paragraph\">Op 18 januari 2006 heeft H.J.S. kennelijk dit bedrag zonder voorbehoud betaald, zodat de betaling verhoudingsgewijs toegerekend wordt op de verschuldigde hoofdsom voor 6.855,64 euro en op intresten voor 11.237,39 euro, zodat het saldo hoofdsom wordt herleid tot 4.219,15 euro (stuk 8 geïntimeerde).</p>",
+          "<p class=\"case-section__paragraph\">Nu mag het zo zijn dat de instelling van de bevrijdende verjaring de openbare orde raakt (A. Van Oevelen, “Algemeen overzicht van de bevrijdende verjaring en de vervaltermijnen in het Belgisch Privaatrecht”, TPR 1987, 1763, nr. 10), dit neemt niet weg en het staat met zoveel woorden in artikel 2220 van het Burgerlijk Wetboek dat men wel afstand kan doen van het middel van een verkregen verjaring.</p>",
+          "<p class=\"case-section__paragraph\">Zo’n afstand van verjaring geschiedt uitdrukkelijk of stilzwijgend. De stilzwijgende afstand wordt afgeleid uit een daad die doet veronderstellen dat men zijn verkregen recht heeft laten varen (art. 2221 Burgerlijk Wetboek). Een stilzwijgende afstand van recht moet klaar en duidelijk zijn en mag enkel worden afgeleid uit handelingen die niet anders kunnen worden uitgelegd dan als de wil zich niet op de verjaring te beroepen (A. Van Oevelen, “Conventionele bedingen inzake verjaring” in I. Claeys (ed.), Verjaring in het privaatrecht. Weet de avond wat de morgen brengt?, Mechelen, Wolters Kluwer, 2005, 125, nr. 6).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 22,
+        "avgCitationsPerTeaching": 5.5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 13,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 7,
+        "totalDecisionsNotFound": 2
+      },
+      "extractionNotes": [
+        "Some claimed decision IDs were not found in extracted reasoning passages: DEC-ECLI:BE:AHGNT:2010:JUG.20100205.2-003 appears not cited in the extracted reasoning paragraphs and was flagged for TEACH-001 and TEACH-003."
+      ]
+    }
+  }
+}

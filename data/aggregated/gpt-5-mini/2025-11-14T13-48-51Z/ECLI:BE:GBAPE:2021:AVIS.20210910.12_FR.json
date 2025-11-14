@@ -1,0 +1,843 @@
+{
+  "decision_id": "ECLI:BE:GBAPE:2021:AVIS.20210910.12",
+  "language": "FR",
+  "metadata": {
+    "id": 128104,
+    "court_ecli_code": "GBAPE",
+    "decision_date": "2021-09-10",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Avis",
+    "md_length": 10595,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Autorité de protection des données, 10 septembre 2021, Avis 152/2021, ECLI:BE:GBAPE:2021:AVIS.20210910.12"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001",
+        "name": "Caroline Désir",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+        "name": "Autorité de protection des données (Centre de Connaissances de l'Autorité)",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "La Ministre de l'Education en Fédération Wallonie-Bruxelles, Madame Caroline Désir, a sollicité, le 24 juin 2021, l'avis de l'Autorité de protection des données concernant un projet d'arrêté du Gouvernement de la Communauté française déterminant les modalités de création de la plateforme éducative visée à l'article 5 du décret du 25 avril 2019 relatif à la gouvernance numérique du système scolaire et à la transmission des données numériques dans l'enseignement obligatoire. Le Centre de Connaissances a reçu la demande et établi un rapport (rapport d'Alexandra Jaspar). L'Autorité a examiné sa compétence à rendre cet avis au regard de la LCA et du RGPD et a rappelé ses observations antérieures sur la gouvernance numérique (avis 62/2019, avis 108/2020), en particulier la nécessité de définir les rôles des intervenants, les finalités, les catégories de données traitées, les durées de conservation, l'anonymisation et la gestion des bases de données, ainsi que l'obligation d'associer le délégué à la protection des données (DPO). L'Autorité estime néanmoins qu'elle n'est pas compétente pour analyser la cohérence globale des arrêtés ne comportant pas de dispositions relatives à un traitement de données à caractère personnel et se limite à rappeler ses observations antérieures et à attirer l'attention sur l'association du DPO.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001",
+          "requests": "Demande d'avis concernant un projet d'arrêté du Gouvernement de la Communauté française déterminant les modalités de création de la plateforme éducative visée à l'article 5 du décret du 25 avril 2019 relatif à la gouvernance numérique du système scolaire et à la transmission des données numériques dans l'enseignement obligatoire."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "PAR CES MOTIFS, L'Autorité\n\nse déclare incompétente\n\nattire l'attention du demandeur quant :\n\n- aux observations antérieurement formulées au sujet des projets ayant trait à la gouvernance numérique du système scolaire et à la transmission des données numériques dans l'enseignement obligatoire en Fédération Wallonie-Bruxelles (points 6 à 9) ;\n- à l'obligation d'associer le DPO, dès l'entame et tout au long de la mise en œuvre des initiatives relatives à la gouvernance numérique en général et l'utilisation de la plateforme de ressources éducatives en particulier (point 11).",
+      "outcome": "DESSAISISSEMENT"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001",
+        "provisionNumber": "article 23",
+        "provisionNumberKey": "23",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 décembre 2017 portant création de l'Autorité de protection des données (LCA)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "L'article 23 de la LCA, lu en combinaison avec l'article 36.4 du RGPD, organise la compétence d'avis de l'Autorité : elle peut rendre des avis sur des projets législatifs ou réglementaires et sur des questions de portée générale relatives aux traitements de données à caractère personnel, sans fournir de conseils juridiques individualisés destinés aux responsables ou sous‑traitants.",
+        "relevantFactualContext": "La Ministre de l'Education a sollicité l'avis de l'Autorité sur un projet d'arrêté instituant une plateforme éducative ; l'Autorité rappelle que, en vertu de l'art.23, elle peut émettre un avis général sur ce projet mais ne peut remplacer les conseils personnalisés demandés aux responsables ou DPO."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001",
+        "provisionNumber": "article 26",
+        "provisionNumberKey": "26",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 décembre 2017 portant création de l'Autorité de protection des données (LCA)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+        "provisionNumber": "article 5",
+        "provisionNumberKey": "5",
+        "parentActType": "DECRET",
+        "parentActName": "décret du 25 avril 2019 relatif à la gouvernance numérique du système scolaire et à la transmission des données numériques dans l'enseignement obligatoire",
+        "parentActDate": "2019-04-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-004",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 13",
+        "provisionNumberKey": "13",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-005",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 36, paragraphe 4",
+        "provisionNumberKey": "36.4",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "L'article 36.4 du RGPD, combiné avec l'article 23 de la LCA, confère aux autorités de contrôle un rôle consultatif : il autorise l'Autorité à émettre des avis sur projets normatifs ou questions générales concernant des traitements de données à caractère personnel, tout en limitant ces avis à des observations générales et non à des conseils juridiques individualisés.",
+        "relevantFactualContext": "La demande d'avis porte sur un projet d'arrêté relatif à la création d'une plateforme éducative ; l'Autorité invoque l'art.36.4 pour délimiter sa compétence d'avis et rappeler qu'elle n'émettra pas de conseils personnalisés aux responsables ou sous‑traitants."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-006",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 35",
+        "provisionNumberKey": "35",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "L'article 35 du RGPD impose au responsable du traitement de réaliser une analyse d'impact relative à la protection des données lorsque les traitements sont susceptibles d'engendrer un risque élevé pour les droits et libertés des personnes ; l'Autorité rappelle qu'elle est compétente pour analyser cette analyse d'impact (AIPD).",
+        "relevantFactualContext": "L'Autorité indique que les traitements liés à la gouvernance numérique et à la plateforme éducative peuvent nécessiter une AIPD et rappelle sa compétence pour en analyser le contenu conformément à l'article 35 du RGPD."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-007",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 24.1",
+        "provisionNumberKey": "24.1",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-008",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 26",
+        "provisionNumberKey": "26",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-009",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 28",
+        "provisionNumberKey": "28",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-010",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 12",
+        "provisionNumberKey": "12",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-011",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 22",
+        "provisionNumberKey": "22",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-012",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 5, paragraphe 1, point b)",
+        "provisionNumberKey": "5.1",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-013",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 9",
+        "provisionNumberKey": "9",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-014",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "provisionNumber": "article 4, paragraphe 1",
+        "provisionNumberKey": "4.1",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "règlement (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes (RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-015",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-004",
+        "provisionNumber": "article 198",
+        "provisionNumberKey": "198",
+        "parentActType": "LOI",
+        "parentActName": "loi du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel (LTD)",
+        "parentActDate": "2018-07-30",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-016",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-004",
+        "provisionNumber": "article 104",
+        "provisionNumberKey": "104",
+        "parentActType": "LOI",
+        "parentActName": "loi du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel (LTD)",
+        "parentActDate": "2018-07-30",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-017",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+        "provisionNumber": "article 6",
+        "provisionNumberKey": "6",
+        "parentActType": "DECRET",
+        "parentActName": "décret du 25 avril 2019 relatif à la gouvernance numérique du système scolaire et à la transmission des données numériques dans l'enseignement obligatoire",
+        "parentActDate": "2019-04-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-018",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+        "provisionNumber": "article 11",
+        "provisionNumberKey": "11",
+        "parentActType": "DECRET",
+        "parentActName": "décret du 25 avril 2019 relatif à la gouvernance numérique du système scolaire et à la transmission des données numériques dans l'enseignement obligatoire",
+        "parentActDate": "2019-04-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-019",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2021:AVIS.20210910.12-005",
+        "provisionNumber": "article 4, alinéa 2, 1°",
+        "provisionNumberKey": "4",
+        "parentActType": "ARRETE_GOUVERNEMENT",
+        "parentActName": "projet d'arrêté du Gouvernement de la Communauté française déterminant les catégories de données à caractère personnel faisant l'objet d'un traitement (projet d'arrêté sans date précisée)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "EU",
+        "courtName": "Commission européenne",
+        "date": "2018-01-24",
+        "caseNumber": "DOC COM(2018) 43 final",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Autorité de protection des données",
+        "date": null,
+        "caseNumber": "Recommandation 01/2018",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Autorité de protection des données",
+        "date": "2019-02-27",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Autorité de protection des données",
+        "date": "2020-11-05",
+        "caseNumber": "Avis 108/2020",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Protection des données",
+      "Plateforme éducative",
+      "Gouvernance numérique",
+      "Transmission données scolaires",
+      "Notice vie privée",
+      "Conformité RGPD",
+      "Délimitation des responsabilités",
+      "Durée de conservation",
+      "Gestion des accès",
+      "Association DPO obligatoire"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001",
+        "text": "L'Autorité de protection des données est compétente pour rendre des avis sur des projets législatifs ou réglementaires et sur des questions de portée générale relatives aux traitements de données à caractère personnel; cette compétence ne saurait être interprétée comme autorisant la fourniture de conseils juridiques personnalisés et individualisés destinés aux responsables du traitement ou aux sous‑traitants.",
+        "courtVerbatim": "L'article 23 de la LCA, lu en combinaison avec l'article 36.4 du RGPD, prévoit que l'Autorité rend des avis sur des projets (ou des propositions) de normes législatives ou réglementaires se rapportant à des traitements de données à caractère personnel ou sur des questions de portée générale posées par un Gouvernement ou un Parlement. Comme l'a rappelé la Commission européenne, les compétences d'avis des autorités de contrôle ne doivent pas être interprétées en ce sens que «les responsables du traitement et les sous-traitants doivent s'attendre à recevoir de la part des autorités chargées de la protection des données le type de conseils juridiques personnalisés et individualisés que seul un avocat ou un délégué à la protection des données peut fournir ». Le Centre de connaissances n'est donc pas compétent pour rendre un avis dans d'autres circonstances.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une autorité de contrôle est saisie pour rendre un avis sur un projet normatif ou une question générale et que la demande vise des conseils juridiques individualisés aux responsables ou sous‑traitants.",
+        "relevantFactualContext": "La Ministre de l'Education a sollicité l'avis de l'Autorité sur un projet d'arrêté instituant une plateforme éducative; l'Autorité rappelle, s'appuyant sur l'article 23 LCA et l'article 36.4 RGPD, qu'elle peut émettre un avis général mais ne peut remplacer les conseils personnalisés demandés aux responsables ou DPO.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-005"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+        "text": "Lorsque les traitements envisagés sont susceptibles d'engendrer un risque élevé pour les droits et libertés des personnes, l'Autorité est compétente pour analyser l'analyse d'impact relative à la protection des données (AIPD) que le responsable du traitement doit réaliser; l'obligation de mener l'AIPD demeure à la charge du responsable, tandis que l'Autorité peut en contrôler et commenter le contenu.",
+        "courtVerbatim": "Au risque notamment de se substituer aux acteurs à qui le RGPD a confié certaines taches (responsable du traitement et DPO) ; L'Autorité serait en revanche compétente pour analyser l'analyse d'impact relative à la protection des données qu'il appartient au responsable du traitement de réaliser, conformément à l'article 35 du RGPD, lorsque les traitements de données. L'Autorité indique que les traitements liés à la gouvernance numérique et à la plateforme éducative peuvent nécessiter une AIPD et rappelle sa compétence pour en analyser le contenu conformément à l'article 35 du RGPD.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un projet de traitement est susceptible d'engendrer un risque élevé pour les droits et libertés et qu'une AIPD a été ou doit être réalisée par le responsable du traitement.",
+        "relevantFactualContext": "La demande d'avis portait sur un projet d'arrêté relatif à la création d'une plateforme éducative; l'Autorité note que les traitements liés à la gouvernance numérique et à la plateforme peuvent nécessiter une AIPD et rappelle sa compétence pour analyser cette AIPD conformément à l'article 35 du RGPD.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-006"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "text": "Les autorités et autorités demandeuses doivent associer le délégué à la protection des données (DPO) de manière appropriée et en temps utile à toutes les questions relatives à la protection des données générées par des initiatives de gouvernance numérique et par l'utilisation d'une plateforme éducative; le DPO doit notamment être impliqué dans l'élaboration et l'adaptation des normes réglementaires et des mesures d'information.",
+        "courtVerbatim": "Toutefois l'Autorité rappelle l'obligation d'associer le délégué à la protection des données (DPO), d'une manière appropriée et en temps utile, à toutes les questions relatives à la protection des données à caractère personnel que génèrent les traitements relatifs à la gouvernance numérique en général et I'utilisation de la plateforme de ressources éducatives en particulier. Dans ce cadre, ce délégué sera utilement associé notamment à l'élaboration et à l'adaptation des normes règlementaires ainsi qu'à l'élaboration des mesures d'information quant à son utilisation.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors de l'élaboration, de l'adoption ou de la mise en œuvre de mesures de gouvernance numérique ou d'une plateforme impliquant des traitements de données personnelles.",
+        "relevantFactualContext": "L'Autorité attire l'attention du demandeur sur l'obligation d'associer le DPO, dès l'entame et tout au long de la mise en œuvre des initiatives relatives à la gouvernance numérique et à l'utilisation de la plateforme de ressources éducatives, notamment pour l'élaboration des normes et des mesures d'information.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-004"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "MEDIUM",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, la Ministre de l'Éducation en Fédération Wallonie‑Bruxelles, a sollicité l'avis de l'Autorité sur un projet d'arrêté relatif à la création d'une plateforme éducative et aux modalités de traitement des données. L'Autorité se déclare incompétente pour rendre un avis sur des arrêtés qui n'établissent pas de traitements au sens du RGPD, en rappelant la portée limitée de sa compétence d'avis au regard de l'article 23 de la LCA et de l'article 36.4 du RGPD. Elle attire néanmoins l'attention sur ses observations antérieures concernant la gouvernance numérique (définition des rôles, finalités, catégories de données, durées de conservation, anonymisation, AIPD) et rappelle l'obligation d'associer le DPO dès l'élaboration et la mise en œuvre."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vu la loi du 3 décembre 2017 portant création de l'Autorité de protection des données , en particulier les articles 23 et 26 (ci-après « LCA »);</p>",
+          "<p class=\"case-section__paragraph\">4. L’article 23 de la LCA, lu en combinaison avec l’article 36.4 du RGPD, prévoit que l’Autorité rend des avis sur des projets (ou des propositions) de normes législatives ou réglementaires se rapportant à des traitements de données à caractère personnel ou sur des questions de portée générale posées par un Gouvernement ou un Parlement. Comme l’a rappelé la Commission européenne, les compétences d’avis des autorités de contrôle ne doivent pas être interprétées en ce sens que « les responsables du traitement et les sous-traitants doivent s'attendre à recevoir de la part des autorités chargées de la protection des données le type de conseils juridiques personnalisés et individualisés que seul un avocat ou un délégué à la protection des données peut fournir »1. Le Centre de connaissances n’est donc pas compétent pour rendre un avis dans d’autres circonstances2.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vu la loi du 3 décembre 2017 portant création de l'Autorité de protection des données , en particulier les articles 23 et 26 (ci-après « LCA »);</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">1/5 n° 152/2021 Objet: Demande d’avis concernant un projet d'arrêté du Gouvernement de la Communauté française déterminant les modalités de création de la plateforme éducative visée à l'article 5 du décret 25 avril 2019 relatif à la gouvernance numérique du système scolaire et à la transmission des données numériques dans l'enseignement obligatoire (CO-A-2021-136)</p>",
+          "<p class=\"case-section__paragraph\">1. La Ministre de l’Education en Fédération Wallonie-Bruxelles, Madame Caroline Désir (ci-après « la demanderesse ») a sollicité, le 24 juin 2021, l’avis de l’Autorité concernant un projet d'arrêté du Gouvernement de la Communauté française déterminant les modalités de création de la plateforme éducative visée à l'article 5 du décret 25 avril 2019 relatif à la gouvernance numérique du système scolaire et à la transmission des données numériques dans l'enseignement obligatoire (ci-après « le projet »).</p>",
+          "<p class=\"case-section__paragraph\">2. L’article 5 du décret du 25 avril 2019 relatif à la gouvernance numérique du système scolaire et à la transmission des données numériques dans l'enseignement obligatoire (ci-après le « décret gouvernance numérique ») habilite le Gouvernement à déterminer « dans le respect de l'autonomie et de la liberté des méthodes pédagogiques » les modalités de création de la « plateforme de ressources éducatives destinée à l'ensemble des acteurs scolaires ».</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">3. A l’occasion de l’introduction de sa demande d’avis, le fonctionnaire délégué a précisé que « les termes de l'habilitation ne permettent pas au gouvernement de pouvoir fixer les éléments relatifs à la protection des données dans cet arrêté. Ces informations se retrouvent dans la notice vie privée de la plateforme e-classe. Cette notice comprend l'ensemble des informations prévues à l'article 13 du RGPD. Malgré tout, le Ministère souhaite solliciter l'avis de l'APD pour tous les AGCF en application du décret sur la gouvernance numérique, afin d'en examiner la cohérence globale au regard du RGPD ».</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">4. L’article 23 de la LCA, lu en combinaison avec l’article 36.4 du RGPD, prévoit que l’Autorité rend des avis sur des projets (ou des propositions) de normes législatives ou réglementaires se rapportant à des traitements de données à caractère personnel ou sur des questions de portée générale posées par un Gouvernement ou un Parlement. Comme l’a rappelé la Commission européenne, les compétences d’avis des autorités de contrôle ne doivent pas être interprétées en ce sens que « les responsables du traitement et les sous-traitants doivent s'attendre à recevoir de la part des autorités chargées de la protection des données le type de conseils juridiques personnalisés et individualisés que seul un avocat ou un délégué à la protection des données peut fournir »1. Le Centre de connaissances n’est donc pas compétent pour rendre un avis dans d’autres circonstances2.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-005",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2 Au risque notamment de se substituer aux acteurs à qui le RGPD a confié certaines taches (responsable du traitement et DPO) ; L’Autorité serait en revanche compétente pour analyser l’analyse d’impact relative à la protection des données qu'il appartient au responsable du traitement de réaliser, conformément à l’article 35 du RGPD, lorsque les traitements de données Avis 152/2021- 3/5 à caractère personnel doivent être considérés comme à risque élevé pour les droits et libertés des personnes concernées dans la mesure où ils cumulent plusieurs critères édictés par le Comité européen à la protection des données (concernant cette notion de risque élevé pour les personnes concernées et les critères de détermination, il est renvoyé au point 1.b du guide AIPD disponible sur le site web de l’APD à l’adresse suivante https://www.autoriteprotectiondonnees.be/sites/privacycommission/files/documents/Guide_AIPD_18012019.pdf ainsi qu’au point 3.A de la Recommandation 01/2018 de l’APD disponible à l’adresse suivante https://www.autoriteprotectiondonnees.be/sites/privacycommission/files/documents/recommandation_01_2018.pdf).</p>",
+          "      <li>Définir et délimiter avec précision le rôle de chaque intervenant dans le respect des articles 24.1, 26, 28 et 35 du RGPD (considérants 7 à 12);</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-006",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-007",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-008",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+          "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-007",
+        "relatedFullTextCitations": [
+          "      <li>Définir et délimiter avec précision le rôle de chaque intervenant dans le respect des articles 24.1, 26, 28 et 35 du RGPD (considérants 7 à 12);</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-007",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-008",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-009",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-008",
+        "relatedFullTextCitations": [
+          "      <li>Définir et délimiter avec précision le rôle de chaque intervenant dans le respect des articles 24.1, 26, 28 et 35 du RGPD (considérants 7 à 12);</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-008",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-007",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-009",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-009",
+        "relatedFullTextCitations": [
+          "      <li>Définir et délimiter avec précision le rôle de chaque intervenant dans le respect des articles 24.1, 26, 28 et 35 du RGPD (considérants 7 à 12);</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-009",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-007",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-008",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-010",
+        "relatedFullTextCitations": [
+          "      <li>Veiller au respect des droits et obligations établis par les articles 12 à 22 du RGPD (considérant 12);</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-010",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-011",
+        "relatedFullTextCitations": [
+          "      <li>Veiller au respect des droits et obligations établis par les articles 12 à 22 du RGPD (considérant 12);</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-011",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-012",
+        "relatedFullTextCitations": [
+          "      <li>Reformuler les finalités poursuivies afin d’être conforme à l’article 5.1, b) du RGPD (considérant 16);</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-013",
+        "relatedFullTextCitations": [
+          "      <li>Préciser les données traitées ainsi que celles relevant de la catégorie des données sensibles de l’article 9 du RGPD et se conformer au prescrit de ce dernier (considérants 17 et 21);</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-014",
+        "relatedFullTextCitations": [
+          "      <li>Préciser quelles données doivent être anonymisées conformément à l’article 4.1 du RGPD et son considérant 26 (considérants 26 et 27);</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-015",
+        "relatedFullTextCitations": [
+          "      <li>Veiller au respect des articles 198 à 104 de la LTD en terme de traitement statistique des données à caractère personnel (considérants 28 à 32).</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-015",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-016",
+        "relatedFullTextCitations": [
+          "      <li>Veiller au respect des articles 198 à 104 de la LTD en terme de traitement statistique des données à caractère personnel (considérants 28 à 32).</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-016",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-017",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">au regard des finalités des espaces numériques en application des articles 6 et 11 du décret du 25 avril 2019 portant sur la gouvernance numérique du système scolaire et à la transmission des données numériques dans l’enseignement obligatoire 4.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-017",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-018"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">au regard des finalités des espaces numériques en application des articles 6 et 11 du décret du 25 avril 2019 portant sur la gouvernance numérique du système scolaire et à la transmission des données numériques dans l’enseignement obligatoire 4.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-018",
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-019",
+        "relatedFullTextCitations": [
+          "      <li>la formulation de l’article 4, al. 2, 1° devait être améliorée conformément au considérant 31;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2021:AVIS.20210910.12-019"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 19,
+      "citationStatistics": {
+        "totalCitations": 23,
+        "avgCitationsPerProvision": 1.2105263157894737,
+        "provisionsWithMinimalCitations": 18,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.1578947368421053,
+        "avgDecisionsPerProvision": 0.3684210526315789,
+        "provisionsWithNoRelationships": 6
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2021:AVIS.20210910.12-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">4. L’article 23 de la LCA, lu en combinaison avec l’article 36.4 du RGPD, prévoit que l’Autorité rend des avis sur des projets (ou des propositions) de normes législatives ou réglementaires se rapportant à des traitements de données à caractère personnel ou sur des questions de portée générale posées par un Gouvernement ou un Parlement. Comme l’a rappelé la Commission européenne, les compétences d’avis des autorités de contrôle ne doivent pas être interprétées en ce sens que « les responsables du traitement et les sous-traitants doivent s'attendre à recevoir de la part des autorités chargées de la protection des données le type de conseils juridiques personnalisés et individualisés que seul un avocat ou un délégué à la protection des données peut fournir »1. Le Centre de connaissances n’est donc pas compétent pour rendre un avis dans d’autres circonstances2.</p>",
+          "<p class=\"case-section__paragraph\">1 DOC COM(2018) 43 final dd. 24 januari 2018: COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND THE COUNCIL Stronger protection, new opportunities - Commission guidance on the direct application of the General Data Protection Regulation as of 25 May 2018, p. 11</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2021:AVIS.20210910.12-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2 Au risque notamment de se substituer aux acteurs à qui le RGPD a confié certaines taches (responsable du traitement et DPO) ; L’Autorité serait en revanche compétente pour analyser l’analyse d’impact relative à la protection des données qu’il appartient au responsable du traitement de réaliser, conformément à l’article 35 du RGPD, lorsque les traitements de données Avis 152/2021- 3/5 à caractère personnel doivent être considérés comme à risque élevé pour les droits et libertés des personnes concernées dans la mesure où ils cumulent plusieurs critères édictés par le Comité européen à la protection des données (concernant cette notion de risque élevé pour les personnes concernées et les critères de détermination, il est renvoyé au point 1.b du guide AIPD disponible sur le site web de l’APD à l’adresse suivante https://www.autoriteprotectiondonnees.be/sites/privacycommission/files/documents/Guide_AIPD_18012019.pdf ainsi qu’au point 3.A de la Recommandation 01/2018 de l’APD disponible à l’adresse suivante https://www.autoriteprotectiondonnees.be/sites/privacycommission/files/documents/recommandation_01_2018.pdf).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2021:AVIS.20210910.12-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">11. Toutefois l’Autorité rappelle l’obligation d’associer le délégué à la protection des données (DPO), d’une manière appropriée et en temps utile, à toutes les questions relatives à la protection des données à caractère personnel que génèrent les traitements relatifs à la gouvernance numérique en général et l’utilisation de la plateforme de ressources éducatives en particulier. Dans ce cadre, ce délégué sera utilement associé notamment à l’élaboration et à l’adaptation des normes règlementaires ainsi qu’à l’élaboration des mesures d’information quant à son utilisation.</p>",
+          "<p class=\"case-section__paragraph\">4 Avis 108/2020 du 5 novembre 2020 (https://www.autoriteprotectiondonnees.be/publications/avis-n-108-2020.pdf)</p>",
+          "<li>à l’obligation d’associer le DPO, dès l’entame et tout au long de la mise en œuvre des initiatives relatives à la gouvernance numérique en général et l’utilisation de la plateforme de ressources éducatives en particulier (point 11).</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 6,
+        "avgCitationsPerTeaching": 2,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 3,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 3,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

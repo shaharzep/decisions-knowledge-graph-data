@@ -1,0 +1,1066 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:2018:AVIS.20180926.9",
+  "language": "NL",
+  "metadata": {
+    "id": 166550,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+    "decision_date": "2018-09-26",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Advies",
+    "md_length": 21827,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Gegevensbeschermingsautoriteit, 26 september 2018, Advies nr. 91/2018, ECLI:BE:COPRIV:2018:AVIS.20180926.9"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001",
+        "name": "Vlaams minister van welzijn, volksgezondheid en gezin, Jo Vandeurzen",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+        "name": "Gegevensbeschermingsautoriteit",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+        "name": "Agentschap Zorg en Gezondheid",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004",
+        "name": "Agentschap Vlaamse Sociale Bescherming",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "name": "Rijksinstituut voor ziekte- en invaliditeitsverzekering (RIZIV)",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-006",
+        "name": "Federale Overheidsdienst Volksgezondheid",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-007",
+        "name": "Intermutualistisch Agentschap",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-008",
+        "name": "Verzekeringsinstellingen",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-009",
+        "name": "Zorgvoorzieningen (psychiatrische verzorgingstehuizen en initiatieven beschut wonen)",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-010",
+        "name": "Zorgkassencommissie",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-011",
+        "name": "Expertencommissie",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De Vlaams minister van welzijn, volksgezondheid en gezin (aanvrager, Dhr. Jo Vandeurzen) verzocht op 25 juli 2018 de Gegevensbeschermingsautoriteit om advies over een ontwerp van besluit tot uitvoering van het overnamedecreet betreffende de overname van psychiatrische verzorgingstehuizen, initiatieven beschut wonen, revalidatieovereenkomsten, revalidatieziekenhuizen en multidisciplinaire begeleidingsequipes voor palliatieve verzorging. Het overnamedecreet treedt in werking op 1 januari 2019 en regelt de gefaseerde inschakeling van vijf nieuwe pijlers in de Vlaamse sociale bescherming; tijdens de overgangsfase blijven federale verzekerbaarheid en verzekeringsinstellingen voor de uitbetaling instaan. Het ontwerpbesluit beoogt uitvoering van het decreet en herneemt grotendeels federale uitvoeringsregels. De Autoriteit beperkte haar analyse tot verwerkingen van persoonsgegevens en onderzocht doeleinde en rechtsgrondslag (artikel 9.2.h AVG voor gezondheidsgegevens), proportionaliteit en specificatie van categorieën persoonsgegevens (artikel 4 van het ontwerpbesluit somt gegevenscategorieën voor zorgkassencommissie, expertencommissie, zorgvoorzieningen en verzekeringsinstellingen), de doorgifte en pseudonimisering (bijlagen met behandelingsnummer), de gegevensstromen naar Agentschap Zorg en Gezondheid en Agentschap Vlaamse Sociale Bescherming, de rol van een Trusted Third Party voor aggregatie, en bewaartermijnen (artikel 315 §4: patiëntendossier maximaal tien jaar voor palliatieve zorg; voor andere pijlers ontbreken concrete bewaartermijnen). De Autoriteit verwijst naar eerdere adviezen (o.a. advies 55/2017) en nam opmerkingen van Raad van State en memorie van toelichting in overweging.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001",
+          "requests": "De aanvrager verzoekt het advies van de Autoriteit over het voorontwerp van besluit tot uitvoering van het overnamedecreet betreffende de overname van diverse zorgsectoren en de daarbij horende verwerking van persoonsgegevens."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001",
+          "argument": "De aanvrager geeft als motivering dat het essentieel is de continuïteit van de dienstverlening te verzekeren en dat het praktisch onmogelijk zou zijn een exhaustieve lijst van persoonsgegevens in het decreet zelf op te nemen; in de memorie van toelichting wordt aangevoerd dat daarom in het uitvoeringsbesluit en via besluiten van de Vlaamse regering nadere uitwerking en specificatie zal volgen, en dat artikel 13, §2 van het overnamedecreet is aangepast om per actor wettelijke opdrachten op te sommen en verwerking te beperken tot wat noodzakelijk is.",
+          "treatment": "GEDEELTELIJK_AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+          "argument": "De Autoriteit oordeelt op basis van haar onderzoek dat het ontwerpbesluit op veel punten voldoende waarborgen bevat maar dat verbeteringen nodig zijn: zij verwelkomt de uitwerking van gegevenscategorieën voor diverse actoren en de pseudonimisering via behandelingsnummer voor bepaalde bijlagen, maar vraagt expliciet om een betere omschrijving van de gegevensstromen naar en van het Agentschap Zorg en Gezondheid, om vastlegging van wijze en periodiciteit van uitwisseling met het Intermutualistisch Agentschap, om implementatie van artikel 13, §4 van het overnamedecreet voor toetsing van bewaartermijnen op proportionaliteit, en om beoordeling of de oprichting van de in artikelen 5-8 bedoelde gegevensbank noodzakelijk is en zonodig een strikte omkadering van doeleinden, toegang, gegevens en verantwoordelijkheden voor die bank.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN\n\nBrengt de Autoriteit een ongunstig advies uit over de artikelen 5 tot en met 8 van het ontwerpbesluit en een gunstig advies voor de overige bepalingen van het ontwerpbesluit onder naleving van de voorwaarden vermeld in randnummer 32.",
+      "outcome": "ANDERE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001",
+        "provisionNumber": "artikel 23",
+        "provisionNumberKey": "23",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 23, §1, 1° van de oprichtingswet geeft de Autoriteit bevoegdheid om haar analyse te beperken tot wetsbepalingen die betrekking hebben op de verwerking van persoonsgegevens; de Autoriteit past deze begrenzing toe bij de toetsing van het voorontwerp en geeft daarmee haar onderzoeksomvang juridisch draagvlak.",
+        "relevantFactualContext": "Aanvraag van de Vlaams minister over het ontwerpbesluit CO‑A‑2018‑075; de Autoriteit verklaart haar advies begrensd tot bepalingen inzake verwerking van persoonsgegevens in het ontwerpbesluit."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001",
+        "provisionNumber": "artikel 26",
+        "provisionNumberKey": "26",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+        "provisionNumber": "artikel 5, lid 1, sub b)",
+        "provisionNumberKey": "5",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 5, lid 1, sub b) AVG vereist dat persoonsgegevens slechts worden verwerkt voor welbepaalde, uitdrukkelijk omschreven en gerechtvaardigde doeleinden; de Autoriteit gebruikt deze norm om te toetsen of het ontwerpbesluit nieuwe of onvoldoende gelegitimeerde finaliteiten invoert.",
+        "relevantFactualContext": "Toegepast op het overnamedecreet en het ontwerpbesluit: beoordeling of het ontwerpbesluit geen nieuwe autonome doelstellingen creëert buiten de doeleinden die in het decreet zijn vastgelegd."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 6 AVG vereist voor elke verwerking een rechtsgrondslag; de Autoriteit stelt dat de verwerkingen voorzien in het ontwerpbesluit op een geldige rechtsgrondslag moeten steunen en toetst het ontwerp aan die vereiste.",
+        "relevantFactualContext": "Beoordeling van de rechtsgrondslag voor de verwerking van persoonsgegevens in het kader van de overdracht van bevoegdheden en de uitvoering van het overnamedecreet; verwijzing naar de noodzaak van een specifieke grondslag voor gezondheidsgegevens."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+        "provisionNumber": "artikel 9, lid 1",
+        "provisionNumberKey": "9",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 9, lid 1 AVG stelt een algemeen verbod op de verwerking van bijzondere categorieën van persoonsgegevens, waaronder gezondheidsgegevens, tenzij een specifieke uitzondering uit artikel 9.2 van toepassing is; de Autoriteit controleert of de verwerkingen onder de uitzondering uit artikel 9.2.h kunnen vallen.",
+        "relevantFactualContext": "Aanpak van verwerking van gezondheidsgegevens in het overnamedecreet en het ontwerpbesluit; de Autoriteit neemt akte dat het overnamedecreet steunt op artikel 9.2.h AVG."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-006",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+        "provisionNumber": "artikel 22",
+        "provisionNumberKey": "22",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet (Belgische Grondwet)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 22 van de Grondwet vereist dat de nagestreefde doeleinden als essentiële elementen in de formele wet of het decreet zelf worden vastgelegd; de Autoriteit oordeelt dat het overnamedecreet deze doeleinden afbakent zodat het uitvoeringsbesluit geen zelfstandige nieuwe doeleinden kan creëren.",
+        "relevantFactualContext": "Toegepast op het overnamedecreet en het ontwerpbesluit: noodzaak dat finaliteiten van gegevensverwerking in het decreet zelf worden verankerd, niet louter in een uitvoeringsbesluit."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-007",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004",
+        "provisionNumber": "artikel 13, §2",
+        "provisionNumberKey": "13",
+        "parentActType": "DECREET",
+        "parentActName": "het decreet betreffende de overname van de sectoren psychiatrische verzorgingstehuizen, initiatieven beschut wonen, revalidatieovereenkomsten, revalidatieziekenhuizen en multidisciplinaire begeleidingsequipes voor palliatieve verzorging (overnamedecreet), aangenomen door het Vlaams Parlement op 27 juni 2018",
+        "parentActDate": "2018-06-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 13, §2 verplicht dat voor elke actor alle wettelijke opdrachten worden opgesomd en dat zij slechts die persoonsgegevens mogen verwerken die noodzakelijk zijn voor die opdrachten; de Autoriteit beschouwt de aangepaste formulering als een maatregel om de proportionaliteit van verwerking te waarborgen.",
+        "relevantFactualContext": "Wijziging van artikel 13 §2 ingevolge opmerkingen in advies 55/2017 en Raad van State; de memorie van toelichting wijst op moeilijkheid om een exhaustieve lijst van persoonsgegevens in het decreet op te nemen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-008",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "provisionNumber": "artikel 4, §1",
+        "provisionNumberKey": "4",
+        "parentActType": "BESLUIT_VAN_DE_REGERING",
+        "parentActName": "ontwerpbesluit (voorontwerp van besluit van de Vlaamse Regering ter uitvoering van het overnamedecreet, CO‑A‑2018‑075, 2018)",
+        "parentActDate": null,
+        "parentActNumber": "CO‑A‑2018‑075",
+        "provisionInterpretation": "Artikel 4, §1 heeft tot doel de nadere omschrijving van de te verwerken persoonsgegevens per actor bij besluit van de Vlaamse Regering te regelen; het ontwerpbesluit somt in §1 per actor specifieke categorieën op, waarmee de Autoriteit deze delegatie en de volledigheid ervan toetst.",
+        "relevantFactualContext": "Het ontwerpbesluit bevat lijsten met te verwerken gegevens voor zorgkassencommissie, expertencommissie, zorgvoorzieningen en verzekeringsinstellingen (randnummer 14), maar laat onduidelijkheid over Agentschap Zorg en Gezondheid."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-009",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "provisionNumber": "artikel 90",
+        "provisionNumberKey": "90",
+        "parentActType": "BESLUIT_VAN_DE_REGERING",
+        "parentActName": "ontwerpbesluit (voorontwerp van besluit van de Vlaamse Regering ter uitvoering van het overnamedecreet, CO‑A‑2018‑075, 2018)",
+        "parentActDate": null,
+        "parentActNumber": "CO‑A‑2018‑075",
+        "provisionInterpretation": "Artikel 90 legt op dat zorgvoorzieningen jaarlijks de persoonsgegevens van zorggebruikers zoals vermeld in de bijlagen aan het Agentschap Zorg en Gezondheid bezorgen; de Autoriteit benadrukt dat die bijlagen gepseudonimiseerde gegevens bevatten en dat de agentschappen zelf doorgaans geen persoonsgegevens ontvangen voor statistische stromen.",
+        "relevantFactualContext": "Jaarlijkse aanlevering door psychiatrische verzorgingstehuizen en initiatieven beschut wonen van een lijst van twintig gepseudonimiseerde persoonsgegevens gekoppeld aan een behandelingsnummer (randnummer 18)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-010",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "provisionNumber": "artikel 145",
+        "provisionNumberKey": "145",
+        "parentActType": "BESLUIT_VAN_DE_REGERING",
+        "parentActName": "ontwerpbesluit (voorontwerp van besluit van de Vlaamse Regering ter uitvoering van het overnamedecreet, CO‑A‑2018‑075, 2018)",
+        "parentActDate": null,
+        "parentActNumber": "CO‑A‑2018‑075",
+        "provisionInterpretation": "Artikel 145 verplicht eveneens de jaarlijkse bezorging van bepaalde persoonsgegevens door zorgvoorzieningen aan het Agentschap Zorg en Gezondheid conform de bijlagen; de Autoriteit kwalificeert deze overdrachten als gegevensstromen die gepseudonimiseerd zijn en ziet erop toe dat ze beperkt blijven tot wat nodig is.",
+        "relevantFactualContext": "Betreft jaarlijkse verzending van gepseudonimiseerde persoonsgegevens uit bijlagen 1 en 2 door psychiatrische verzorgingstehuizen en initiatieven beschut wonen richting Agentschap Zorg en Gezondheid."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-011",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "provisionNumber": "artikel 315, §1",
+        "provisionNumberKey": "315",
+        "parentActType": "BESLUIT_VAN_DE_REGERING",
+        "parentActName": "ontwerpbesluit (voorontwerp van besluit van de Vlaamse Regering ter uitvoering van het overnamedecreet, CO‑A‑2018‑075, 2018)",
+        "parentActDate": null,
+        "parentActNumber": "CO‑A‑2018‑075",
+        "provisionInterpretation": "Artikel 315, §1 specificeert welke persoonsgegevens deel uitmaken van het patiëntendossier dat de multidisciplinaire begeleidingsequipe bijhoudt voor palliatieve personen; de Autoriteit bespreekt deze bepaling in het kader van bewaartermijnen en proportionaliteit.",
+        "relevantFactualContext": "Het patiëntendossier bevat opgesomde persoonsgegevens per palliatieve persoon; artikel 315 §4 bepaalt dat dit dossier maximaal tien jaar wordt bewaard na laatste contact."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-012",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "provisionNumber": "artikel 5",
+        "provisionNumberKey": "5",
+        "parentActType": "BESLUIT_VAN_DE_REGERING",
+        "parentActName": "ontwerpbesluit (voorontwerp van besluit van de Vlaamse Regering ter uitvoering van het overnamedecreet, CO‑A‑2018‑075, 2018)",
+        "parentActDate": null,
+        "parentActNumber": "CO‑A‑2018‑075",
+        "provisionInterpretation": "Artikel 5 van het ontwerpbesluit verleent bewijskracht aan Rijksregistergegevens onder bepaalde technische voorwaarden (gedateerd en gevalideerd elektronisch bestand); de Autoriteit oordeelt dat deze afzonderlijke regeling overbodig is omdat de Rijksregisterwet reeds bewijskracht toekent en dat de regeling risico's op duplicatie en gegevensintegratie met zich meebrengt.",
+        "relevantFactualContext": "Ontwerpregelgeving geïnspireerd op koninklijk besluit van 1994 beoogt bewijswaarde van Rijksregistergegevens tussen verzekeringsinstellingen, Agentschap Zorg en Gezondheid en derden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-013",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "provisionNumber": "artikel 8",
+        "provisionNumberKey": "8",
+        "parentActType": "BESLUIT_VAN_DE_REGERING",
+        "parentActName": "ontwerpbesluit (voorontwerp van besluit van de Vlaamse Regering ter uitvoering van het overnamedecreet, CO‑A‑2018‑075, 2018)",
+        "parentActDate": null,
+        "parentActNumber": "CO‑A‑2018‑075",
+        "provisionInterpretation": "Artikel 8 maakt deel uit van de uitgebreide regeling inzake bewijswaarde van Rijksregistergegevens; de Autoriteit stelt dat deze regeling niet noodzakelijke juridische duplicatie kan veroorzaken en dat de noodzaak tot oprichting van bijkomende instrumenten of databanken kritisch moet worden geëvalueerd.",
+        "relevantFactualContext": "Regeling beoogt bewijsregels tussen verschillende actoren; Autoriteit wijst op bestaande wetswijziging (2007) die bewijskracht van Rijksregistergegevens al regelt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-014",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "BESLUIT_VAN_DE_REGERING",
+        "parentActName": "ontwerpbesluit (voorontwerp van besluit van de Vlaamse Regering ter uitvoering van het overnamedecreet, CO‑A‑2018‑075, 2018)",
+        "parentActDate": null,
+        "parentActNumber": "CO‑A‑2018‑075",
+        "provisionInterpretation": "Artikel 6 bepaalt dat Rijksregistergegevens in onderlinge betrekkingen bewijswaarde hebben indien ze voorkomen in een gegevensbank met historiek; de Autoriteit geeft aan dat oprichting van een dergelijke gegevensbank de noodzaak ervan moet evalueren en risico’s op onnodige duplicatie van authentieke bronnen kan inhouden.",
+        "relevantFactualContext": "Ontwerp voorziet in een nieuwe gegevensbank die historiek bijhoudt van mededelingen uit het Rijksregister; Autoriteit vraagt te onderzoeken of deze databank echt noodzakelijk is."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-015",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "provisionNumber": "artikel 110",
+        "provisionNumberKey": "110",
+        "parentActType": "BESLUIT_VAN_DE_REGERING",
+        "parentActName": "ontwerpbesluit (voorontwerp van besluit van de Vlaamse Regering ter uitvoering van het overnamedecreet, CO‑A‑2018‑075, 2018)",
+        "parentActDate": null,
+        "parentActNumber": "CO‑A‑2018‑075",
+        "provisionInterpretation": "Artikel 110 verplicht psychiatrische verzorgingstehuizen een reglement aan te nemen en de zorggebruikers te informeren over de verwerking van persoonsgegevens; de Autoriteit verwelkomt deze maatregel als een passende aanvulling op artikel 13 AVG zonder verdere opmerkingen.",
+        "relevantFactualContext": "Verplichting voor psychiatrische verzorgingstehuizen om reglementen aan te nemen en informatie te verschaffen aan zorggebruikers over persoonsgegevensverwerking (randnummer 27)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-016",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "provisionNumber": "artikel 153",
+        "provisionNumberKey": "153",
+        "parentActType": "BESLUIT_VAN_DE_REGERING",
+        "parentActName": "ontwerpbesluit (voorontwerp van besluit van de Vlaamse Regering ter uitvoering van het overnamedecreet, CO‑A‑2018‑075, 2018)",
+        "parentActDate": null,
+        "parentActNumber": "CO‑A‑2018‑075",
+        "provisionInterpretation": "Artikel 153 legt analoog aan artikel 110 op dat initiatieven beschut wonen een reglement moeten aannemen en zorggebruikers moeten informeren over gegevensverwerking; de Autoriteit beschouwt dit als een positieve aanvulling op de informatieverplichtingen onder de AVG.",
+        "relevantFactualContext": "Reglementerings- en informatieplicht voor initiatieven beschut wonen met betrekking tot verwerking van persoonsgegevens richting zorggebruikers."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-017",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-006",
+        "provisionNumber": "artikel 2",
+        "provisionNumberKey": "2",
+        "parentActType": "WET",
+        "parentActName": "wet van 5 september 2018 tot oprichting van het informatieveiligheidscomité en tot wijziging van diverse wetten betreffende de uitvoering van verordening (EU) 2016/679 (BS 10 september 2018)",
+        "parentActDate": "2018-09-05",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-018",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-006",
+        "provisionNumber": "artikel 18",
+        "provisionNumberKey": "18",
+        "parentActType": "WET",
+        "parentActName": "wet van 5 september 2018 tot oprichting van het informatieveiligheidscomité en tot wijziging van diverse wetten betreffende de uitvoering van verordening (EU) 2016/679 (BS 10 september 2018)",
+        "parentActDate": "2018-09-05",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-019",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180926.9-007",
+        "provisionNumber": "artikel 4, derde lid",
+        "provisionNumberKey": "4",
+        "parentActType": "WET",
+        "parentActName": "Wet van 8 augustus 1983 tot regeling van een Rijksregister van de natuurlijke personen",
+        "parentActDate": "1983-08-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 4, derde lid van de Rijksregisterwet bepaalt dat de daarin opgenomen gegevens gelden tot bewijs van het tegendeel; de Autoriteit heeft dit als bindende wettelijke bewijskracht geïnterpreteerd en concludeert dat dat de noodzaak wegneemt om in het ontwerpbesluit afzonderlijke regelingen te treffen ter verkrijging van bewijskracht.",
+        "relevantFactualContext": "Behandeld in aansluiting op discussie over artikelen 5–8 van het ontwerpbesluit: wijziging door wet van 25 april 2007 en memorie van toelichting worden aangehaald ter onderbouwing van de bestaande bewijskracht van Rijksregistergegevens."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "de Autoriteit",
+        "date": null,
+        "caseNumber": "advies 63/2018",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "de Commissie",
+        "date": "2017-09-20",
+        "caseNumber": "Advies 55/2017",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "de Commissie",
+        "date": "2018-04-11",
+        "caseNumber": "Advies 34/2018",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Raad van State",
+        "date": "2018-02-19",
+        "caseNumber": "Advies 62.477/1",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "de Commissie",
+        "date": "2010-03-31",
+        "caseNumber": "Aanbeveling nr. 02/2010",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Overname zorgsectoren",
+      "Psychiatrische verzorgingstehuizen",
+      "Revalidatieziekenhuizen",
+      "Pseudonimisering patiëntgegevens",
+      "Rechtsgrondslag gezondheidsgegevens",
+      "Proportionaliteit gegevensverwerking",
+      "Ontbrekende bewaartermijnen",
+      "Duplicatie Rijksregistergegevens",
+      "Ongunstig advies"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001",
+        "text": "De Gegevensbeschermingsautoriteit beperkt haar toetsing tot wetsbepalingen die betrekking hebben op de verwerking van persoonsgegevens; haar adviesfunctie strekt zich niet uit tot andere, niet‑privacygerelateerde rechtsgronden. Deze begrenzing moet worden toegepast bij de beoordeling van uitvoeringsbesluiten zodat de juridische reikwijdte van het onderzoek verankerd blijft in de bevoegdheidsbepaling van artikel 23 van de oprichtingswet.",
+        "courtVerbatim": "In overeenstemming met artikel 23, § 1,1° wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit beperkt de Autoriteit haar analyse tot de wetsbepalingen die betrekking hebben op de verwerking van persoonsgegevens.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de Autoriteit of een vergelijkbare toezichthoudende instantie gevraagd wordt advies te verlenen over een ontwerpbesluit of uitvoeringsmaatregel.",
+        "relevantFactualContext": "De aanvrager vroeg advies over een ontwerpbesluit (CO‑A‑2018‑075); de Autoriteit verklaart haar advies begrensd tot bepalingen inzake verwerking van persoonsgegevens conform artikel 23 van haar oprichtingswet.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+        "text": "Verwerkingsdoeleinden moeten welbepaald, uitdrukkelijk omschreven en gerechtvaardigd zijn en elke verwerking moet een rechtsgrondslag hebben; overeenkomstig artikel 22 Grondwet dienen essentiële doeleinden in de formele wet of het decreet zelf te worden vastgelegd, zodat een uitvoeringsbesluit geen zelfstandige, nieuwe doeleinden kan invoeren zonder formele wetsgrondslag.",
+        "courtVerbatim": "Volgens artikel 5.1.b) AVG is de verwerking van persoonsgegevens enkel toegestaan voor welbepaalde uitdrukkelijk omschreven en gerechtvaardigde doeleinden. Elke verwerking van persoonsgegevens moet bovendien steunen op een rechtsgrondslag in de zin van artikel 6 AVG. Krachtens artikel 22 van de Grondwet zijn de nagestreefde doeleinden essentiële elementen die de formele wet of het decreet zelf moeten vastleggen. Het overnamedecreet bakent deze doelstellingen af waardoor het ontwerpbesluit - zonder formele wetsgrondslag - geen nieuwe, autonome doelstellingen in het leven kan roepen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij toetsing of een uitvoeringsbesluit of ander lager regelgeving nieuwe verwerkingsdoeleinden introduceert buiten de doeleinden verankerd in de formele wet/decreet.",
+        "relevantFactualContext": "Het overnamedecreet bevat afgebakende doelstellingen en het ontwerpbesluit beoogt uitvoering; de Autoriteit oordeelt dat het uitvoeringsbesluit geen autonome nieuwe doeleinden mag creëren en wijst op de noodzaak van een geldige rechtsgrondslag voor verwerking van gezondheidsgegevens.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-006"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+        "text": "De proportionaliteit en gegevensminimalisatie vereisen dat per actor concreet wordt omschreven welke categorieën persoonsgegevens worden verwerkt en dat statistische doorleveringen gepseudonimiseerd en adequaat omkaderd worden; daarbij moet worden aangegeven welke entiteit fungeert als aggregatie‑mechanisme (TTP) of aantonen dat actoren zelf voldoende aggregatie toepassen zodat een externe TTP niet strikt noodzakelijk is.",
+        "courtVerbatim": "Artikel 5.1.c) AVG bepaalt dat persoonsgegevens beperkt moeten zijn tot wat noodzakelijk is voor de doeleinden waarvoor zij worden verwerkt (\"minimale gegevensverwerking\"). De Autoriteit verwelkomt deze uitwerking van de te verwerken gegevenscategorieën en merkt op dat een nadere omschrijving van de uitgewisselde gezondheidsgegevens plaats kan vinden door een beraadslaging van de kamer sociale zekerheid en gezondheid van het informatieveiligheidscomité. De Autoriteit merkt echter op dat het ontwerpbesluit niet op dezelfde manier aangeeft welke gegevenscategorieën het Agentschap Zorg en Gezondheid zal verwerken. De Autoriteit benadrukt het belang om de entiteiten aan te duiden die de onderliggende persoonsgegevens zullen aggregeren als Trusted Third Party (TTP). Indien deze actoren zelf de persoonsgegevens voldoende aggregeren vooraleer zij de statistische gegevens overmaken aan de agentschappen, is de tussenkomst van een TTP strikt genomen niet noodzakelijk.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij ontwerpregelgeving die lijsten met categorieën persoonsgegevens per actor bevat en voorziet in statistische/beleidsmatige doorleveringen aan agentschappen.",
+        "relevantFactualContext": "Artikel 4 §1 van het ontwerpbesluit somt per actor lijsten van te verwerken gegevens op; de Autoriteit wijst op lacunes omtrent welke gegevens het Agentschap Zorg en Gezondheid zal verwerken en op de rol van pseudonimisering en eventueel TTP voor statistische stromen.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-008",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-009",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-010"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004",
+        "text": "Bewaartermijnen moeten voor iedere afzonderlijke finaliteit worden vastgesteld zodat toetsing op noodzakelijkheid en proportionaliteit mogelijk is; een algemene herhaling van artikel 5.1.e) AVG in een uitvoeringsmaatregel biedt geen juridische meerwaarde en kan het verbod op overschrijven van de AVG schenden. De wetgever/regering moet de maximale bewaartermijnen bepalen en laten toetsen door het advies- of toezichtsmechanisme.",
+        "courtVerbatim": "Volgens artikel 5.1.e) AVG mogen persoonsgegevens niet langer worden bewaard, in een vorm die het mogelijk maakt de betrokkenen te identificeren, dan noodzakelijk voor de verwezenlijking van de doeleinden waarvoor zij worden verwerkt. Artikel 13, §4 van het overnamedecreet bepaalt dat de Vlaamse Regering, na advies van de Autoriteit, de maximale bewaartermijn zal bepalen van de verwerkte persoonsgegevens. Door artikel 5.1.e) AVG eenvoudigweg te herhalen biedt dit artikel geen juridische toegevoegde waarde en schendt het bovendien het overschrijfverbod van de AVG. Het ontwerpbesluit bepaalt dus niet voor elke afzonderlijke finaliteit een maximale bewaartermijn. De Autoriteit dringt er bij de aanvrager op aan om artikel 13, §4 van het overnamedecreet uit te voeren zodat het mogelijk wordt de bewaartermijnen te toetsen op hun proportionaliteit.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een uitvoeringsbesluit algemene bepalingen over bewaartermijnen bevat zonder per finaliteit maximale termijnen te specificeren.",
+        "relevantFactualContext": "Het ontwerpbesluit bevat alleen voor het patiëntendossier (artikel 315 §4) een maximale termijn van tien jaar; voor andere pijlers ontbreekt concrete bepaling, waardoor toetsing van proportionaliteit volgens de Autoriteit onmogelijk is.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-007"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "text": "Wanneer bestaande wettelijke regelingen (zoals het Rijksregisterartikel dat bewijskracht toekent) reeds een rechtsgevolg regelen, is het niet noodzakelijk en kan het zelfs schadelijk zijn om diezelfde rechtsgevolg in uitvoeringsbesluiten te dupliceren of een nieuwe gegevensbank daartoe op te richten; een dergelijke duplicatie verhoogt risico's op onnodige gegevensintegratie en gaat in tegen het beginsel van raadpleging van authentieke bronnen.",
+        "courtVerbatim": "De Autoriteit wijst erop dat deze uitgebreide regeling - geïnspireerd op een koninklijk besluit van 10 oktober 1994 - niet nodig is om de bewijswaarde van informatiegegevens afkomstig uit het Rijksregister te garanderen. Na aanpassing door de wet van 25 april 2007 stelt artikel 4, derde lid van de Rijksregisterwet immers dat: \"De gegevens die het Rijksregister opneemt en bewaart [...], gelden tot bewijs van het tegendeel'. Het verlenen van bewijswaarde aan Rijksregistergegevens is geen legitieme doelstelling om deze gegevensbank op te richten aangezien artikel 4, derde lid van de Rijksregisterwet dit doeleinde al vervult. Bovendien zouden deze bepalingen van het ontwerpbesluit aanleiding kunnen geven tot een nodeloze duplicatie van Rijksregistergegevens - een vorm van gegevensintegratie - wat ingaat tegen het principe dat overheidsinstanties in de eerste plaats de authentieke bronnen zelf, in casu het Rijksregister, moeten raadplegen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij voorstellen tot invoering van aparte regelingen of databanken om de bewijskracht van Rijksregistergegevens te regelen terwijl een bestaande wetsbepaling die bewijskracht al regelt.",
+        "relevantFactualContext": "De artikelen 5–8 van het ontwerpbesluit regelen de bewijswaarde van Rijksregistergegevens en voorzien in een nieuwe gegevensbank; de Autoriteit oordeelt dat artikel 4 derde lid van de Rijksregisterwet reeds bewijskracht regelt en dat oprichting van de databank mogelijk onnodige duplicatie en integratie veroorzaakt.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-019",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-012",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-013"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 5,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 2,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 5
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De aanvrager, vertegenwoordigd door de Vlaamse minister van welzijn, volksgezondheid en gezin, vroeg advies aan de Gegevensbeschermingsautoriteit over een ontwerpbesluit dat de overname van vijf zorgpijlers regelt en de bijbehorende verwerking van persoonsgegevens, waaronder gezondheidsgegevens. De Autoriteit geeft een gunstig advies voor de meeste bepalingen onder voorwaarden dat de aanvrager de categorieën persoonsgegevens die het Agentschap Zorg en Gezondheid verwerkt nader specificeert, de wijze en periodiciteit van de uitwisseling met het Intermutualistisch Agentschap vastlegt en bewaartermijnen per finaliteit bepaalt; zij brengt een ongunstig advies uit over artikelen 5–8 omdat de noodzaak en omkadering van de voorgenomen Rijksregister‑gegevensbank niet zijn aangetoond. Cruciaal juridisch uitgangspunt is dat verwerking van bijzondere persoonsgegevens steunt op een geldige rechtsgrondslag en voldoet aan proportionaliteit, dataminimalisatie en het verbod op onnodige duplicatie van Rijksregistergegevens."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, inzonderheid de artikelen 23 en 26;</p>",
+          "<p class=\"case-section__paragraph\">In overeenstemming met artikel 23, §1, 1° wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit beperkt de Autoriteit haar analyse tot de wetsbepalingen die betrekking hebben op de verwerking van persoonsgegevens.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, inzonderheid de artikelen 23 en 26;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Volgens artikel 5.1.b) AVG is de verwerking van persoonsgegevens enkel toegestaan voor welbepaalde uitdrukkelijk omschreven en gerechtvaardigde doeleinden. Elke verwerking van persoonsgegevens moet bovendien steunen op een rechtsgrondslag in de zin van artikel 6 AVG. De verwerking van bijzondere categorieën van persoonsgegevens, waaronder gegevens over gezondheid, is volgens artikel 9.1 AVG principieel verboden, tenzij de verantwoordelijke van de verwerking zich kan beroepen op één van de rechtvaardigingsgronden van artikel 9.2 AVG.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 5.1.c) AVG bepaalt dat persoonsgegevens beperkt moeten zijn tot wat noodzakelijk is voor de doeleinden waarvoor zij worden verwerkt („minimale gegevensverwerking”).</p>",
+          "<p class=\"case-section__paragraph\">Volgens artikel 5.1.e) AVG mogen persoonsgegevens niet langer worden bewaard, in een vorm die het mogelijk maakt de betrokkenen te identificeren, dan noodzakelijk voor de verwezenlijking van de doeleinden waarvoor zij worden verwerkt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Volgens artikel 5.1.b) AVG is de verwerking van persoonsgegevens enkel toegestaan voor welbepaalde uitdrukkelijk omschreven en gerechtvaardigde doeleinden. Elke verwerking van persoonsgegevens moet bovendien steunen op een rechtsgrondslag in de zin van artikel 6 AVG. De verwerking van bijzondere categorieën van persoonsgegevens, waaronder gegevens over gezondheid, is volgens artikel 9.1 AVG principieel verboden, tenzij de verantwoordelijke van de verwerking zich kan beroepen op één van de rechtvaardigingsgronden van artikel 9.2 AVG.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Volgens artikel 5.1.b) AVG is de verwerking van persoonsgegevens enkel toegestaan voor welbepaalde uitdrukkelijk omschreven en gerechtvaardigde doeleinden. Elke verwerking van persoonsgegevens moet bovendien steunen op een rechtsgrondslag in de zin van artikel 6 AVG. De verwerking van bijzondere categorieën van persoonsgegevens, waaronder gegevens over gezondheid, is volgens artikel 9.1 AVG principieel verboden, tenzij de verantwoordelijke van de verwerking zich kan beroepen op één van de rechtvaardigingsgronden van artikel 9.2 AVG.</p>",
+          "<p class=\"case-section__paragraph\">In verband met de rechtsgrondslag voor de verwerking van gezondheidsgegevens neemt de Autoriteit er akte van dat het overnamedecreet deze steunt op artikel 9.2.h) AVG<sup>7</sup>.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-006",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Krachtens artikel 22 van de Grondwet zijn de nagestreefde doeleinden essentiële elementen die de formele wet of het decreet zelf moeten vastleggen<sup>5</sup>. Het overnamedecreet bakent deze</p></li>",
+          "<p class=\"case-section__paragraph\">In haar advies 55/2017 was de Commissie van mening dat de toenmalige omschrijving van de categorieën van gegevens in het overnamedecreet niet toeliet om de proportionaliteit van de gegevensverwerking te beoordelen. Bovendien merkte de Raad van State op dat krachtens het legaliteitsbeginsel vervat in artikel 22 van de Grondwet, de verwerkte persoonsgegevens in het decreet zelf moesten worden omschreven<sup>8</sup>. In antwoord op deze bemerkingen besloot de aanvrager om artikel 13, §2 van het overnamedecreet aan te passen door voor elke actor alle wettelijke opdrachten op te sommen en te bepalen dat zij slechts de persoonsgegevens mogen verwerken die voor deze opdrachten noodzakelijk zijn. In de memorie van toelichting geeft de aanvrager aan dat het onmogelijk is om een exhaustieve lijst van persoonsgegevens vast te leggen in het decreet<sup>9</sup>.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-006",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-007",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In haar advies 55/2017 was de Commissie van mening dat de toenmalige omschrijving van de categorieën van gegevens in het overnamedecreet niet toeliet om de proportionaliteit van de gegevensverwerking te beoordelen. Bovendien merkte de Raad van State op dat krachtens het legaliteitsbeginsel vervat in artikel 22 van de Grondwet, de verwerkte persoonsgegevens in het decreet zelf moesten worden omschreven<sup>8</sup>. In antwoord op deze bemerkingen besloot de aanvrager om artikel 13, §2 van het overnamedecreet aan te passen door voor elke actor alle wettelijke opdrachten op te sommen en te bepalen dat zij slechts de persoonsgegevens mogen verwerken die voor deze opdrachten noodzakelijk zijn. In de memorie van toelichting geeft de aanvrager aan dat het onmogelijk is om een exhaustieve lijst van persoonsgegevens vast te leggen in het decreet<sup>9</sup>.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-007",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-006",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Uit artikel 4 van het ontwerpbesluit blijkt de keuze van de aanvrager om de persoonsgegevens die de verzekeringsinstellingen, de zorgkassencommissie, de expertencommissie en de zorgvoorzieningen verwerken, nader te bepalen bij besluit van de Vlaamse regering. Artikel 4, §1 somt voor elk van deze actoren een specifieke lijst van gegevenscategorieën op:</p>",
+          "<ul>\n            <li>A) de zorgkassencommissie : voornaam, achternaam, leeftijd, geslacht, rijksregister- nummer, woon- en verblijfplaats, verzekeringsstatus en gezondheidsgegevens.</li>\n        </ul>",
+          "<ul>\n            <li>B) de expertencommissie: dezelfde persoonsgegevens als vermeld in punt A) en de naam en de kwalificatie van de leidinggevenden van de revalidatievoorziening.</li>\n            <li>C) de zorgvoorzieningen: dezelfde persoonsgegevens als vermeld in punt A) en de nationaliteit van de zorggebruiker.</li>\n            <li>D) verzekeringsinstellingen: dezelfde persoonsgegevens als vermeld in punt C), de gezinssamenstelling, het gezinsinkomen, de loongegevens, het sociaal statuut en het attest van gevangenschap.</li>\n        </ul>",
+          "<p class=\"case-section__paragraph\">In uitvoering van artikel 13, §6 van het overnamedecreet bepalen de artikelen 4, §3 en §4 de wijze voor de doorgifte van bepaalde persoonsgegevens met het oog op het voeden van evidence-based beleidsvoering. De verzekeringsinstellingen, de expertencommissie en de zorgkassencommissie bezorgen uitsluitend statistische informatie aan het Agentschap Zorg en Gezondheid en het Agentschap Vlaamse Sociale Bescherming. Binnen het kader van deze drie gegevensstromen ontvangen deze agentschappen dus zelf geen persoonsgegevens.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-008",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-009",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-009",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Krachtens de artikelen 4, §4, eerste lid, 90 en 145 van het ontwerpbesluit bezorgen de zorgvoorzieningen (psychiatrische verzorgingstehuizen en initiatieven beschut wonen) jaarlijks aan het Agentschap Zorg en Gezondheid de persoonsgegevens van de zorggebruikers vermeld in bijlagen 1 of 2 van het ontwerpbesluit. Beide bijlagen bevatten een lijst van twintig persoons-</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.20180926.9-009",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-010",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-010",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Krachtens de artikelen 4, §4, eerste lid, 90 en 145 van het ontwerpbesluit bezorgen de zorgvoorzieningen (psychiatrische verzorgingstehuizen en initiatieven beschut wonen) jaarlijks aan het Agentschap Zorg en Gezondheid de persoonsgegevens van de zorggebruikers vermeld in bijlagen 1 of 2 van het ontwerpbesluit. Beide bijlagen bevatten een lijst van twintig persoons-</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-010",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-009",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-011",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Artikel 315, §1 van het ontwerpbesluit somt de persoonsgegevens op die deel uitmaken van het patiëntendossier dat de multidisciplinaire begeleidingsequipe bijhoudt van elke palliatieve persoon.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Artikel 315, §4 van het ontwerpbesluit bepaalt dat het patiëntendossier ten hoogste tien jaar wordt bewaard na het laatste contact met de palliatieve persoon in kwestie.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-011",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.20180926.9-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-012",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">De artikelen 5 tot en met 8 van het voorontwerp regelen de bewijswaarde van persoonsgegevens verkregen bij het Rijksregister van de natuurlijke personen. Deze regeling laat zich samenvatten als volgt:</p>",
+          "<ul>\n                    <li>in de betrekkingen tussen enerzijds de verzekeringsinstellingen en het Agentschap Zorg en Gezondheid en anderzijds derden, hebben deze persoonsgegevens bewijswaarde op voorwaarde dat zij worden opgetekend op een gedateerd en gevalideerd elektronisch bestand (artikel 5 ontwerpbesluit);</li>\n                    <li>in de onderlinge betrekkingen tussen de verzekeringsinstellingen en het Agentschap Zorg en Gezondheid, hebben deze persoonsgegevens bewijswaarde indien ze voorkomen in een gegevensbank die een historiek bijhoudt van alle mededelingen van die gegevens vanuit het Rijksregister voor natuurlijke personen (artikel 6 ontwerpbesluit);</li>\n                    <li>in afwachting van de oprichting van die gegevensbank is artikel 5 van het ontwerpbesluit van toepassing tussen de verzekeringsinstellingen en het Agentschap Zorg en Gezondheid onderling.</li>\n                </ul>",
+          "<li><p class=\"case-section__paragraph\">Het verlenen van bewijswaarde aan Rijksregistergegevens is geen legitieme doelstelling om deze gegevensbank op te richten aangezien artikel 4, derde lid van de Rijksregisterwet dit doeleinde al vervult. Bovendien zouden deze bepalingen van het ontwerpbesluit aanleiding kunnen geven tot een nodeloze duplicatie van Rijksregistergegevens – een vorm van gegevensintegratie – wat ingaat tegen het principe dat overheidsinstanties in de eerste plaats de authentieke bronnen zelf, in casu het Rijksregister, moeten raadplegen<sup>19</sup>.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-012",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.20180926.9-013",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-014",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-019"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-013",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">De artikelen 5 tot en met 8 van het voorontwerp regelen de bewijswaarde van persoonsgegevens verkregen bij het Rijksregister van de natuurlijke personen. Deze regeling laat zich samenvatten als volgt:</p>",
+          "<li><p class=\"case-section__paragraph\">Samengevat moet de aanvrager – in het licht van de randnummers 28 en 29 – nagaan of het überhaupt nog noodzakelijk is om deze gegevensbank op te richten en zo ja (indien er dus een andere finaliteit bestaat dan het verlenen van bewijskracht aan Rijksregistergegevens), voorzien in een omkadering van de doeleinden, toegang, gegevens en verantwoordelijkheid van deze gegevensbank.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-013",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-012",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-014",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-019"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-014",
+        "relatedFullTextCitations": [
+          "<ul>\n                    <li>in de betrekkingen tussen enerzijds de verzekeringsinstellingen en het Agentschap Zorg en Gezondheid en anderzijds derden, hebben deze persoonsgegevens bewijswaarde op voorwaarde dat zij worden opgetekend op een gedateerd en gevalideerd elektronisch bestand (artikel 5 ontwerpbesluit);</li>\n                    <li>in de onderlinge betrekkingen tussen de verzekeringsinstellingen en het Agentschap Zorg en Gezondheid, hebben deze persoonsgegevens bewijswaarde indien ze voorkomen in een gegevensbank die een historiek bijhoudt van alle mededelingen van die gegevens vanuit het Rijksregister voor natuurlijke personen (artikel 6 ontwerpbesluit);</li>\n                    <li>in afwachting van de oprichting van die gegevensbank is artikel 5 van het ontwerpbesluit van toepassing tussen de verzekeringsinstellingen en het Agentschap Zorg en Gezondheid onderling.</li>\n                </ul>",
+          "<li><p class=\"case-section__paragraph\">De Autoriteit brengt echter een ongunstig advies uit over de artikelen 5 tot en met 8 van het ontwerpbesluit aangezien de aanvrager de noodzaak om de gegevensbank in artikel 6 van het ontwerpbesluit op te richten moet evalueren. Indien deze toch noodzakelijk zou zijn moet de aanvrager voorzien in een omkadering van de doeleinden, toegang, persoonsgegevens en verantwoordelijkheid van deze gegevensbank (randnummer 31).</p></li>",
+          "<li><p class=\"case-section__paragraph\">Samengevat stelt de Autoriteit vast dat de persoonsgegevens vermeld in randnummers 14 tot en met 20 van dit advies, relevant en niet overmatig zijn om het beoogde doel te bereiken. De aanvrager moet echter de persoonsgegevens die het Agentschap Zorg en Gezondheid zal verwerken beter omschrijven en de wijze en periodiciteit van de gegevensuitwisseling met het Intermutualistisch Agentschap bepalen.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-014",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-012",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-013",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-019"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-015",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">De artikelen 110 en 153 van het ontwerpbesluit bepalen dat respectievelijk de psychiatrische verzorgingstehuizen en de initiatieven beschut wonen, een reglement moeten aannemen en meedelen aan de zorggebruikers over de verwerking van persoonsgegevens. Dit reglement is een verdere aanvulling op artikel 13 van de AVG. De Autoriteit verwelkomt dit initiatief dat verder geen aanleiding tot opmerkingen geeft.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-015",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-016",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">De artikelen 110 en 153 van het ontwerpbesluit bepalen dat respectievelijk de psychiatrische verzorgingstehuizen en de initiatieven beschut wonen, een reglement moeten aannemen en meedelen aan de zorggebruikers over de verwerking van persoonsgegevens. Dit reglement is een verdere aanvulling op artikel 13 van de AVG. De Autoriteit verwelkomt dit initiatief dat verder geen aanleiding tot opmerkingen geeft.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-016",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-017",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\"><sup>10</sup> Zie artikel 2 en 18 van de wet van 5 september 2018 tot oprichting van het informatieveiligheidscomité en tot wijziging van diverse wetten betreffende de uitvoering van verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van richtlijn 95/46/EG, BS 10 september 2018.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-017",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-018"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\"><sup>10</sup> Zie artikel 2 en 18 van de wet van 5 september 2018 tot oprichting van het informatieveiligheidscomité en tot wijziging van diverse wetten betreffende de uitvoering van verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van richtlijn 95/46/EG, BS 10 september 2018.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-018",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-019",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">De Autoriteit wijst erop dat deze uitgebreide regeling – geïnspireerd op een koninklijk besluit van 10 oktober 1994<sup>14</sup> – niet nodig is om de bewijswaarde van informatiegegevens afkomstig uit het Rijksregister te garanderen. Na aanpassing door de wet van 25 april 2007<sup>15</sup> stelt artikel 4, derde lid van de Rijksregisterwet<sup>16</sup> immers dat: “De gegevens die het Rijksregister opneemt en bewaart […], gelden tot bewijs van het tegendeel”. Uit de memorie van toelichting blijkt uitdrukkelijk de intentie van de wetgever om door dit wetsartikel de bewijskracht te regelen “zowel ten aanzien van de betrokkene die zijn eigen gegevens raadpleegt als met betrekking tot andere gemachtigde gebruikers (Belgische overheidsdiensten, […])”<sup>17</sup>. Deze aanpassing nam de noodzaak weg om de bewijswaarde van Rijksregistergegevens te regelen in afzonderlijke besluiten<sup>18</sup>.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Het verlenen van bewijswaarde aan Rijksregistergegevens is geen legitieme doelstelling om deze gegevensbank op te richten aangezien artikel 4, derde lid van de Rijksregisterwet dit doeleinde al vervult. Bovendien zouden deze bepalingen van het ontwerpbesluit aanleiding kunnen geven tot een nodeloze duplicatie van Rijksregistergegevens – een vorm van gegevensintegratie – wat ingaat tegen het principe dat overheidsinstanties in de eerste plaats de authentieke bronnen zelf, in casu het Rijksregister, moeten raadplegen<sup>19</sup>.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-019",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-012",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-013",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180926.9-014"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 19,
+      "citationStatistics": {
+        "totalCitations": 34,
+        "avgCitationsPerProvision": 1.7894736842105263,
+        "provisionsWithMinimalCitations": 15,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.9473684210526314,
+        "avgDecisionsPerProvision": 0.42105263157894735,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180926.9-001",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">In overeenstemming met artikel 23, §1, 1° wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit beperkt de Autoriteit haar analyse tot de wetsbepalingen die betrekking hebben op de verwerking van persoonsgegevens.</p></li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Volgens artikel 5.1.b) AVG is de verwerking van persoonsgegevens enkel toegestaan voor welbepaalde uitdrukkelijk omschreven en gerechtvaardigde doeleinden. Elke verwerking van persoonsgegevens moet bovendien steunen op een rechtsgrondslag in de zin van artikel 6 AVG. De verwerking van bijzondere categorieën van persoonsgegevens, waaronder gegevens over gezondheid, is volgens artikel 9.1 AVG principieel verboden, tenzij de verantwoordelijke van de verwerking zich kan beroepen op één van de rechtvaardigingsgronden van artikel 9.2 AVG.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Krachtens artikel 22 van de Grondwet zijn de nagestreefde doeleinden essentiële elementen die de formele wet of het decreet zelf moeten vastleggen<sup>5</sup>. Het overnamedecreet bakent deze</p></li>",
+          "<p class=\"case-section__paragraph\">doelstellingen af waardoor het ontwerpbesluit - zonder formele wetsgrondslag - geen nieuwe, autonome doelstellingen in het leven kan roepen. In advies 55/2017 stelde de Commissie vast dat de doelstellingen van het overnamedecreet welbepaald, uitdrukkelijk omschreven en gerechtvaardigd zijn<sup>6</sup>.</p>",
+          "<p class=\"case-section__paragraph\">In verband met de rechtsgrondslag voor de verwerking van gezondheidsgegevens neemt de Autoriteit er akte van dat het overnamedecreet deze steunt op artikel 9.2.h) AVG<sup>7</sup>.</p>",
+          "<p class=\"case-section__paragraph\"><sup>4</sup> Advies 55/2017 van de Commissie van 20 september 2017, te raadplegen via de link https://www.gegevensbeschermingsautoriteit.be/sites/privacycommission/files/documents/advies_55_2017.pdf.</p>",
+          "<p class=\"case-section__paragraph\"><sup>5</sup> Advies 34/2018 van de Commissie van 11 april 2018, randnummer 31, te raadplegen via de link https://www.gegevensbeschermingsautoriteit.be/sites/privacycommission/files/documents/advies_34_2018.pdf.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180926.9-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 5.1.c) AVG bepaalt dat persoonsgegevens beperkt moeten zijn tot wat noodzakelijk is voor de doeleinden waarvoor zij worden verwerkt („minimale gegevensverwerking”).</p>",
+          "<p class=\"case-section__paragraph\">In haar advies 55/2017 was de Commissie van mening dat de toenmalige omschrijving van de categorieën van gegevens in het overnamedecreet niet toeliet om de proportionaliteit van de gegevensverwerking te beoordelen. Bovendien merkte de Raad van State op dat krachtens het legaliteitsbeginsel vervat in artikel 22 van de Grondwet, de verwerkte persoonsgegevens in het decreet zelf moesten worden omschreven<sup>8</sup>. In antwoord op deze bemerkingen besloot de aanvrager om artikel 13, §2 van het overnamedecreet aan te passen door voor elke actor alle wettelijke opdrachten op te sommen en te bepalen dat zij slechts de persoonsgegevens mogen verwerken die voor deze opdrachten noodzakelijk zijn. In de memorie van toelichting geeft de aanvrager aan dat het onmogelijk is om een exhaustieve lijst van persoonsgegevens vast te leggen in het decreet<sup>9</sup>.</p>",
+          "<p class=\"case-section__paragraph\">Uit artikel 4 van het ontwerpbesluit blijkt de keuze van de aanvrager om de persoonsgegevens die de verzekeringsinstellingen, de zorgkassencommissie, de expertencommissie en de zorgvoorzieningen verwerken, nader te bepalen bij besluit van de Vlaamse regering. Artikel 4, §1 somt voor elk van deze actoren een specifieke lijst van gegevenscategorieën op:</p>",
+          "<ul>\n            <li>A) de zorgkassencommissie : voornaam, achternaam, leeftijd, geslacht, rijksregister- nummer, woon- en verblijfplaats, verzekeringsstatus en gezondheidsgegevens.</li>\n        </ul>",
+          "<li><p class=\"case-section__paragraph\">Krachtens de artikelen 4, §4, eerste lid, 90 en 145 van het ontwerpbesluit bezorgen de zorgvoorzieningen (psychiatrische verzorgingstehuizen en initiatieven beschut wonen) jaarlijks aan het Agentschap Zorg en Gezondheid de persoonsgegevens van de zorggebruikers vermeld in bijlagen 1 of 2 van het ontwerpbesluit. Beide bijlagen bevatten een lijst van twintig persoons-</p></li>",
+          "<p class=\"case-section__paragraph\">gegevens die uitsluitend gekoppeld zijn aan het behandelingsnummer<sup>11</sup> van de zorggebruiker. Het gaat om gepseudonimiseerde persoonsgegevens.</p>",
+          "<li><p class=\"case-section__paragraph\">Voor de verwerking van persoonsgegevens voor statistische doelen en beleidsondersteunend onderzoek zullen de verzekeringsinstellingen, de zorgvoorzieningen, de expertencommissie en de zorgkassencommissie rekening moeten houden met Titel 4 van de wet betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens <sup>12</sup>. Gelet op het advies 55/2017 van de Commissie benadrukt de Autoriteit het belang om de entiteiten aan te duiden die de onderliggende persoonsgegevens zullen aggregeren als Trusted Third Party (TTP)<sup>13</sup>. Indien deze actoren zelf de persoonsgegevens voldoende aggregeren vooraleer zij de statistische gegevens overmaken aan de agentschappen, is de tussenkomst van een TTP strikt genomen niet noodzakelijk.</p></li>",
+          "<p class=\"case-section__paragraph\"><sup>13</sup> Zie ook Aanbeveling nr. 02/2010 van de Commissie van 31 maart 2010 omtrent de privacybeschermende rol van Trusted Third Parties (TTP) bij gegevensuitwisseling, te raadplegen via de link: hier.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180926.9-004",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Volgens artikel 5.1.e) AVG mogen persoonsgegevens niet langer worden bewaard, in een vorm die het mogelijk maakt de betrokkenen te identificeren, dan noodzakelijk voor de verwezenlijking van de doeleinden waarvoor zij worden verwerkt.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Artikel 13, §4 van het overnamedecreet bepaalt dat de Vlaamse Regering, na advies van de Autoriteit, de maximale bewaartermijn zal bepalen van de verwerkte persoonsgegevens.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Artikel 315, §4 van het ontwerpbesluit bepaalt dat het patiëntendossier ten hoogste tien jaar wordt bewaard na het laatste contact met de palliatieve persoon in kwestie.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Voor de overige pijlers voorziet het ontwerpbesluit in geen enkele bewaartermijn. Artikel 4, §3 van het ontwerpbesluit bepaalt dat persoonsgegevens die verwerkt worden in het kader van het overnamedecreet niet langer mogen bewaard worden dan noodzakelijk. Door artikel 5.1.e) AVG eenvoudigweg te herhalen biedt dit artikel geen juridische toegevoegde waarde en schendt het bovendien het overschrijfverbod van de AVG. Het ontwerpbesluit bepaalt dus niet voor elke afzonderlijke finaliteit een maximale bewaartermijn.</p></li>",
+          "<li><p class=\"case-section__paragraph\">De Autoriteit dringt er bij de aanvrager op aan om artikel 13, §4 van het overnamedecreet uit te voeren zodat het mogelijk wordt de bewaartermijnen te toetsen op hun proportionaliteit.</p></li>",
+          "<p class=\"case-section__paragraph\">In haar advies 55/2017 was de Commissie van mening dat de toenmalige omschrijving van de categorieën van gegevens in het overnamedecreet niet toeliet om de proportionaliteit van de gegevensverwerking te beoordelen. Bovendien merkte de Raad van State op dat krachtens het legaliteitsbeginsel vervat in artikel 22 van de Grondwet, de verwerkte persoonsgegevens in het decreet zelf moesten worden omschreven<sup>8</sup>. In antwoord op deze bemerkingen besloot de aanvrager om artikel 13, §2 van het overnamedecreet aan te passen door voor elke actor alle wettelijke opdrachten op te sommen en te bepalen dat zij slechts de persoonsgegevens mogen verwerken die voor deze opdrachten noodzakelijk zijn. In de memorie van toelichting geeft de aanvrager aan dat het onmogelijk is om een exhaustieve lijst van persoonsgegevens vast te leggen in het decreet<sup>9</sup>.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">De artikelen 5 tot en met 8 van het voorontwerp regelen de bewijswaarde van persoonsgegevens verkregen bij het Rijksregister van de natuurlijke personen. Deze regeling laat zich samenvatten als volgt:</p>",
+          "<ul>\n                    <li>in de betrekkingen tussen enerzijds de verzekeringsinstellingen en het Agentschap Zorg en Gezondheid en anderzijds derden, hebben deze persoonsgegevens bewijswaarde op voorwaarde dat zij worden opgetekend op een gedateerd en gevalideerd elektronisch bestand (artikel 5 ontwerpbesluit);</li>\n                    <li>in de onderlinge betrekkingen tussen de verzekeringsinstellingen en het Agentschap Zorg en Gezondheid, hebben deze persoonsgegevens bewijswaarde indien ze voorkomen in een gegevensbank die een historiek bijhoudt van alle mededelingen van die gegevens vanuit het Rijksregister voor natuurlijke personen (artikel 6 ontwerpbesluit);</li>\n                    <li>in afwachting van de oprichting van die gegevensbank is artikel 5 van het ontwerpbesluit van toepassing tussen de verzekeringsinstellingen en het Agentschap Zorg en Gezondheid onderling.</li>\n                </ul>",
+          "<li><p class=\"case-section__paragraph\">De Autoriteit wijst erop dat deze uitgebreide regeling – geïnspireerd op een koninklijk besluit van 10 oktober 1994<sup>14</sup> – niet nodig is om de bewijswaarde van informatiegegevens afkomstig uit het Rijksregister te garanderen. Na aanpassing door de wet van 25 april 2007<sup>15</sup> stelt artikel 4, derde lid van de Rijksregisterwet<sup>16</sup> immers dat: “De gegevens die het Rijksregister opneemt en bewaart […], gelden tot bewijs van het tegendeel”. Uit de memorie van toelichting blijkt uitdrukkelijk de intentie van de wetgever om door dit wetsartikel de bewijskracht te regelen “zowel ten aanzien van de betrokkene die zijn eigen gegevens raadpleegt als met betrekking tot andere gemachtigde gebruikers (Belgische overheidsdiensten, […])”<sup>17</sup>. Deze aanpassing nam de noodzaak weg om de bewijswaarde van Rijksregistergegevens te regelen in afzonderlijke besluiten<sup>18</sup>.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Het verlenen van bewijswaarde aan Rijksregistergegevens is geen legitieme doelstelling om deze gegevensbank op te richten aangezien artikel 4, derde lid van de Rijksregisterwet dit doeleinde al vervult. Bovendien zouden deze bepalingen van het ontwerpbesluit aanleiding kunnen geven tot een nodeloze duplicatie van Rijksregistergegevens – een vorm van gegevensintegratie – wat ingaat tegen het principe dat overheidsinstanties in de eerste plaats de authentieke bronnen zelf, in casu het Rijksregister, moeten raadplegen<sup>19</sup>.</p></li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-002",
+            "DEC-ECLI:BE:COPRIV:2018:AVIS.20180926.9-005"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 5,
+      "citationStatistics": {
+        "totalCitations": 25,
+        "avgCitationsPerTeaching": 5,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 13,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 5,
+        "totalDecisionsNotFound": 2
+      },
+      "extractionNotes": []
+    }
+  }
+}

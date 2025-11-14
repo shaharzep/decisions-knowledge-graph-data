@@ -1,0 +1,523 @@
+{
+  "decision_id": "ECLI:BE:GBAPD:2025:DEC.20250324.2",
+  "language": "FR",
+  "metadata": {
+    "id": 158039,
+    "court_ecli_code": "GBAPD",
+    "court_name": "Autorité de protection des données",
+    "decision_date": "2025-03-24",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Décision",
+    "md_length": 9631,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Autorité de protection des données, Chambre Contentieuse, 24 mars 2025, DOS-2023-03283, Décision de retrait d'acte administratif, ECLI:BE:GBAPD:2025:DEC.20250324.2"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2025:DEC.20250324.2-001",
+        "name": "X (représentée par noyb - European Center for Digital Rights)",
+        "type": "UNCLEAR",
+        "proceduralRole": "PLAIGNANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2025:DEC.20250324.2-002",
+        "name": "RTL Belgium",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "DEFENDEUR"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Par décision n°131/2024 du 11 octobre 2024, la Chambre Contentieuse avait ordonné notamment à la défenderesse l'ajout d'un bouton permettant clairement de refuser le dépôt des cookies en un seul clic à chaque niveau de la bannière cookies contenant un bouton d'acceptation en un seul clic, imposant également l'usage de couleurs et contrastes non manifestement trompeurs, et assorti ces injonctions d'astreintes de 20.000 EUR par jour de retard; elle a par ailleurs classé sans suite le troisième grief relatif aux modalités de retrait du consentement. La décision 131/2024 a fait l'objet d'une requête d'appel du 8 novembre 2024 (enrôlée 2024/AR/1848). La Cour des marchés, par arrêt du 19 mars 2025 (2024/AR/1690), a annulé la décision 113/2024 du 6 septembre 2024 au motif que celle-ci violait l'obligation de motivation, le principe de prudence et le principe d'interdiction de l'abus de droit, et a estimé que la Chambre Contentieuse avait commis une erreur manifeste d'appréciation en ne vérifiant pas adéquatement si le plaignant n'avait pas commis un abus de droit et si celui-ci disposait d'un intérêt à agir conformément à la politique relative à la position du plaignant; la Cour a relevé que les faits à l'origine de la décision 113/2024 étaient presque identiques à ceux ayant conduit à la décision 131/2024 et que, pour ces motifs, la décision 131/2024 pouvait être entachée des mêmes vices. En conséquence, la Chambre Contentieuse a décidé de retirer sa décision 131/2024.",
+      "requests": [],
+      "arguments": [],
+      "courtOrder": "PAR CES MOTIFS,\n\nla Chambre Contentieuse de l'Autorité de protection des données décide de retirer la décision 131/2024 du 11 octobre 2024.\n\nConformément à l'article 108, § 1 de la LCA, un recours contre cette décision peut être introduit, dans un délai de trente jours à compter de sa notification, auprès de la Cour des Marchés (cour d'appel de Bruxelles), avec l'Autorité de protection des données comme partie défenderesse.\n\nUn tel recours peut être introduit au moyen d'une requête interlocutoire qui doit contenir les informations énumérées à l'article 1034ter du Code judiciaire. La requête interlocutoire doit être déposée au greffe de la Cour des Marchés conformément à l'article 1034quinquies du C. jud., ou via le système d'information e-Deposit du Ministère de la Justice (article 32ter du C. jud.).",
+      "outcome": "RETRAIT"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-001",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2025:DEC.20250324.2-001",
+        "provisionNumber": "article 6",
+        "provisionNumberKey": "6",
+        "parentActType": "REGLEMENT_UE",
+        "parentActName": "Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 (Règlement général sur la protection des données, RGPD)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-002",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2025:DEC.20250324.2-002",
+        "provisionNumber": "article 10/2",
+        "provisionNumberKey": "10/2",
+        "parentActType": "LOI",
+        "parentActName": "Loi-cadre (mentionnée dans la décision comme «Loi-cadre»)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-003",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2025:DEC.20250324.2-003",
+        "provisionNumber": "article 100, § 1er, 9°",
+        "provisionNumberKey": "100",
+        "parentActType": "LOI",
+        "parentActName": "Loi du 3 décembre 2017 portant création de l'Autorité de protection des données (LCA)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-004",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2025:DEC.20250324.2-003",
+        "provisionNumber": "article 108, § 1",
+        "provisionNumberKey": "108",
+        "parentActType": "LOI",
+        "parentActName": "Loi du 3 décembre 2017 portant création de l'Autorité de protection des données (LCA)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-005",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2025:DEC.20250324.2-004",
+        "provisionNumber": "article 56",
+        "provisionNumberKey": "56",
+        "parentActType": "LOI",
+        "parentActName": "loi du 25 décembre 2023 (modifiant la Loi du 3 décembre 2017)",
+        "parentActDate": "2023-12-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-006",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2025:DEC.20250324.2-005",
+        "provisionNumber": "article 1034ter",
+        "provisionNumberKey": "1034ter",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-007",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2025:DEC.20250324.2-005",
+        "provisionNumber": "article 1034quinquies",
+        "provisionNumberKey": "1034quinquies",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-008",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2025:DEC.20250324.2-005",
+        "provisionNumber": "article 32ter",
+        "provisionNumberKey": "32ter",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour d'appel de Bruxelles (section Cour des marchés, 19e Ch. A.)",
+        "date": "2025-03-19",
+        "caseNumber": "2024/AR/1690",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Chambre Contentieuse de l'Autorité de protection des données",
+        "date": "2024-10-11",
+        "caseNumber": "131/2024",
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour des marchés",
+        "date": "2024-11-08",
+        "caseNumber": "2024/AR/1848",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Chambre Contentieuse de l'Autorité de protection des données",
+        "date": "2024-09-06",
+        "caseNumber": "113/2024",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Protection des données",
+      "Bannière cookies",
+      "Consentement en ligne",
+      "Refuser en un clic",
+      "Affichage et contrastes",
+      "Conformité au RGPD",
+      "Injonction et astreinte",
+      "Obligation de motivation",
+      "Abus de droit",
+      "Retrait d'acte administratif"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2025:DEC.20250324.2-001",
+        "text": "Une autorité administrative peut procéder au retrait rétroactif d'une de ses décisions lorsque l'annulation d'une décision similaire par une juridiction supérieure met en évidence des vices de motivation, un manquement au principe de prudence ou un abus de droit, et que les faits des deux décisions sont quasi identiques de sorte que la décision initiale est vraisemblablement entachée des mêmes vices.",
+        "courtVerbatim": "En ce que la Cour des marchés, dans son arrêt du 19 mars 2025, a annulé la décision 113/2024 du 6 septembre 2024 au motif que (i) celle-ci viole l'obligation de motivation, le principe de prudence et le principe d'interdiction de l'abus de droit (tant sous l'angle du droit européen que du droit belge) et que la Chambre Contentieuse a commis une erreur manifeste d'appréciation en ne vérifiant pas adéquatement si le plaignant n'avait pas commis un abus de droit dans le cadre de l'introduction de sa plainte, et aussi que (ii) la décision 113/2024 viole les principes de prudence et de sécurité juridique étant entendu que la Chambre Contentieuse n'a pas adéquatement examiné si le plaignant disposait d'un intérêt à agir conformément à la politique relative à la position du plaignant ; que les faits à l'origine de la plainte ayant conduit à la décision 113/2024 sont presque identiquement les mêmes que ceux à l'origine de la plainte ayant conduit à la décision 131/2024 étant entendu que le plaignant dans la décision 113/2024 a travaillé de concert avec la plaignante dans la décision 131/2024 pour le dépôt des plaintes respectives ; qu'il n'y a pas de différence objective entre le contenu des deux décisions qui permettrait de conclure que la décision 131/2024 n'est pas entachée au même titre que la décision 113/2024 (i) d'une violation à l'obligation de motivation, au principe de prudence et au principe de l'interdiction de l'abus de droit (tant sous l'angle du droit européen que du droit belge) et que cette raison est déjà suffisante pour procéder au retrait de la décision 131/2024, et (ii) d'une violation aux principes de prudence et de sécurité juridique, étant entendu que comme l'une pour l'autre violation la décision 131/2024 n'aborde pas plus spécifiquement que la décision 113/2024 les aspects qui y sont relatifs ; la Chambre Contentieuse décide de retirer sa décision 131/2024.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une autorité administrative constate qu'une juridiction supérieure a annulé une décision similaire pour défaut de motivation, manquement au principe de prudence ou abus de droit, et que les faits des deux décisions sont quasi identiques.",
+        "relevantFactualContext": "La Cour des marchés a annulé la décision 113/2024 pour violation de l'obligation de motivation, du principe de prudence et de l'interdiction de l'abus de droit; les faits à l'origine des deux plaintes sont presque identiques, ce qui conduit la Chambre Contentieuse à retirer la décision 131/2024.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2025:DEC.20250324.2-002",
+        "text": "Le retrait par une autorité administrative d'une décision antérieure ne vaut pas reconnaissance préjudiciable d'une erreur de droit ou de fait et ne préjuge pas de la possibilité d'introduire des recours ultérieurs (y compris un pourvoi), de sorte que l'administration peut retirer sans que ce retrait n'équivoque en admission de responsabilité ou n'empêche la voie de recours appropriée.",
+        "courtVerbatim": "En tout état de cause, la présente décision ne vaut nullement comme une reconnaissance préjudiciable d'une quelconque erreur de droit ou de fait, ou comme un présage quant à la possibilité d'introduire ou non un pourvoi en cassation contre l'arrêt du 19 mars 2025 de la Cour des marchés ou sur le fait de prendre une nouvelle décision sur les violations prétendues.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une autorité administrative retire une décision antérieure à la suite d'un examen ou d'une annulation judiciaire, mais souhaite préciser les effets juridiques et procéduraux de ce retrait.",
+        "relevantFactualContext": "La Chambre retire la décision 131/2024 après l'arrêt de la Cour des marchés du 19 mars 2025, tout en précisant que ce retrait ne constitue pas une reconnaissance d'erreur de droit ou de fait et n'indique rien sur la possibilité d'un pourvoi contre l'arrêt de la Cour des marchés.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, un organisme de défense des droits numériques, a contesté les modalités de consentement aux cookies mises en œuvre par la société. La Chambre Contentieuse a décidé de retirer la décision 131/2024 après que la Cour des marchés a annulé une décision analogue pour défaut de motivation et violation des principes de prudence et d'interdiction de l'abus de droit, le retrait emportant effet rétroactif. Cette décision n'implique pas reconnaissance d'une erreur et peut être portée en appel."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vu le règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE (Règlement général sur la protection des données), ci-après « RGPD » ;</p>",
+          "<li>En vertu de l’article 100, §1er, 9° de la LCA, d’ordonner à la défenderesse l’ajout d’un bouton permettant clairement de refuser le dépôt des cookies en un seul clic, et ce à chaque niveau de la bannière cookies dans lequel se trouve un bouton permettant d’accepter le dépôt des cookies en seul clic, conformément à l’article 6 du RGPD et de l’article 10/2 de la loi-cadre, et de fournir à la plaignante ainsi qu’à la Chambre Contentieuse la documentation relative aux actes pris en vue de satisfaire à cette ordonnance (injonction 1). De surcroît, la Chambre Contentieuse impose à la défenderesse l’usage de couleurs et contrastes qui ne sont pas manifestement trompeurs. Le bouton permettant clairement de refuser le dépôt des cookies doit ainsi faire l’objet d’un affichage au moins équivalent à celui qui permet de l’accepter (injonction 2) ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-001",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-002",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-002",
+        "relatedFullTextCitations": [
+          "<li>En vertu de l’article 100, §1er, 9° de la LCA, d’ordonner à la défenderesse l’ajout d’un bouton permettant clairement de refuser le dépôt des cookies en un seul clic, et ce à chaque niveau de la bannière cookies dans lequel se trouve un bouton permettant d’accepter le dépôt des cookies en seul clic, conformément à l’article 6 du RGPD et de l’article 10/2 de la loi-cadre, et de fournir à la plaignante ainsi qu’à la Chambre Contentieuse la documentation relative aux actes pris en vue de satisfaire à cette ordonnance (injonction 1). De surcroît, la Chambre Contentieuse impose à la défenderesse l’usage de couleurs et contrastes qui ne sont pas manifestement trompeurs. Le bouton permettant clairement de refuser le dépôt des cookies doit ainsi faire l’objet d’un affichage au moins équivalent à celui qui permet de l’accepter (injonction 2) ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-002",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-001",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-003",
+        "relatedFullTextCitations": [
+          "<li>En vertu de l’article 100, §1er, 9° de la LCA, d’ordonner à la défenderesse l’ajout d’un bouton permettant clairement de refuser le dépôt des cookies en un seul clic, et ce à chaque niveau de la bannière cookies dans lequel se trouve un bouton permettant d’accepter le dépôt des cookies en seul clic, conformément à l’article 6 du RGPD et de l’article 10/2 de la loi-cadre, et de fournir à la plaignante ainsi qu’à la Chambre Contentieuse la documentation relative aux actes pris en vue de satisfaire à cette ordonnance (injonction 1). De surcroît, la Chambre Contentieuse impose à la défenderesse l’usage de couleurs et contrastes qui ne sont pas manifestement trompeurs. Le bouton permettant clairement de refuser le dépôt des cookies doit ainsi faire l’objet d’un affichage au moins équivalent à celui qui permet de l’accepter (injonction 2) ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-003",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-001",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Conformément à l'article 108, § 1 de la LCA, un recours contre cette décision peut être introduit, dans un délai de trente jours à compter de sa notification, auprès de la Cour des Marchés (cour d'appel de Bruxelles), avec l'Autorité de protection des données comme partie défenderesse. Un tel recours peut être introduit au moyen d'une requête interlocutoire qui doit contenir les informations énumérées à l'article 1034ter du Code judiciaire6. La requête interlocutoire doit être déposée au greffe de la Cour des Marchés conformément à l'article 1034quinquies du C. jud. 7 , ou via le système d'information e-Deposit du Ministère de la Justice (article 32ter du C. jud.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-004",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-006",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-007",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vu la Loi du 3 décembre 2017 portant création de l'Autorité de protection des données, ci-après « LCA » ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Conformément à l'article 108, § 1 de la LCA, un recours contre cette décision peut être introduit, dans un délai de trente jours à compter de sa notification, auprès de la Cour des Marchés (cour d'appel de Bruxelles), avec l'Autorité de protection des données comme partie défenderesse. Un tel recours peut être introduit au moyen d'une requête interlocutoire qui doit contenir les informations énumérées à l'article 1034ter du Code judiciaire6. La requête interlocutoire doit être déposée au greffe de la Cour des Marchés conformément à l'article 1034quinquies du C. jud. 7 , ou via le système d'information e-Deposit du Ministère de la Justice (article 32ter du C. jud.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-006",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-007",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-008",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Conformément à l'article 108, § 1 de la LCA, un recours contre cette décision peut être introduit, dans un délai de trente jours à compter de sa notification, auprès de la Cour des Marchés (cour d'appel de Bruxelles), avec l'Autorité de protection des données comme partie défenderesse. Un tel recours peut être introduit au moyen d'une requête interlocutoire qui doit contenir les informations énumérées à l'article 1034ter du Code judiciaire6. La requête interlocutoire doit être déposée au greffe de la Cour des Marchés conformément à l'article 1034quinquies du C. jud. 7 , ou via le système d'information e-Deposit du Ministère de la Justice (article 32ter du C. jud.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-007",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-006",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-008",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Conformément à l'article 108, § 1 de la LCA, un recours contre cette décision peut être introduit, dans un délai de trente jours à compter de sa notification, auprès de la Cour des Marchés (cour d'appel de Bruxelles), avec l'Autorité de protection des données comme partie défenderesse. Un tel recours peut être introduit au moyen d'une requête interlocutoire qui doit contenir les informations énumérées à l'article 1034ter du Code judiciaire6. La requête interlocutoire doit être déposée au greffe de la Cour des Marchés conformément à l'article 1034quinquies du C. jud. 7 , ou via le système d'information e-Deposit du Ministère de la Justice (article 32ter du C. jud.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-008",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-006",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-007",
+          "ART-ECLI:BE:GBAPD:2025:DEC.20250324.2-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2025:DEC.20250324.2-003"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 8,
+      "citationStatistics": {
+        "totalCitations": 9,
+        "avgCitationsPerProvision": 1.125,
+        "provisionsWithMinimalCitations": 8,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.25,
+        "avgDecisionsPerProvision": 0.75,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2025:DEC.20250324.2-001",
+        "relatedFullTextCitations": [
+          "<h2 class=\"case-section__title case-section__title--centered\">I. Motivation de la décision du retrait d’acte administratif</h2>",
+          "<p class=\"case-section__paragraph\">1. Dans un arrêt du 30 juin 2021, la Cour des marchés a jugé que : « Une autorité administrative peut « retirer » ses décisions. Le retrait a pour effet que la décision disparaît de l’ordonnancement juridique, et ce avec effet rétroactif. »2.</p>",
+          "<p class=\"case-section__paragraph\">3. Cette décision a fait l'objet d'une requête d'appel le 8 novembre2O24, laquelle est enrôlée comme suit : 2O24/AR/1848.</p>",
+          "<p class=\"case-section__paragraph\">4. En ce que la Cour des marchés, dans son arrêt du 19 mars 2025 4, a annulé la décision 113/2O24 du 6 septembre 2024 5 au motif que (i) celle-ci viole l'obligation de motivation, le principe de prudence et le principe d'interdiction de l'abus de droit (tant sous l'angle du droit européen que du droit belge) et que la Chambre Contentieuse a commis une erreur manifeste d'appréciation en ne vérifiant pas adéquatement si le plaignant n'avait pas commis un abus de droit dans le cadre de l'introduction de sa plainte, et aussi que (ii) la décision 113/2024 viole les principes de prudence et de sécurité juridique étant entendu que la Chambre Contentieuse n’a pas adéquatement examiné si le plaignant disposait d'un intérêt à agir conformément à la politique relative à la position du plaignant ; que les faits à l'origine de la plainte ayant conduit à la décision 113/2024 sont presque identiquement les mêmes que ceux à l'origine de la plainte ayant conduit à la décision 131/2024 étant entendu que le plaignant dans la décision 113/2024 a travaillé de concert avec la plaignante dans la décision 131/2024 pour le dépôt des plaintes respectives ; qu'il n'y a pas de différence objective entre le contenu des deux décisions qui permettrait de conclure que la décision 131/2024 n'est pas entachée au même titre que la décision 113/2024 (i) d'une violation à l'obligation de motivation, au principe de prudence et au principe de l'interdiction de l'abus de droit (tant sous l'angle du droit européen que du droit belge) et que cette raison est déjà suffisante pour procéder au retrait de la décision 131/2024, et (ii) d'une violation aux principes de prudence et de sécurité juridique, étant entendu que comme l'une pour l'autre violation la décision 131/2024 n'aborde pas plus spécifiquement que la décision 113/2024 les aspects qui y sont relatifs ; la Chambre Contentieuse décide de retirer sa décision 131/2024.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2025:DEC.20250324.2-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">3. Cette décision a fait l'objet d'une requête d'appel le 8 novembre2O24, laquelle est enrôlée comme suit : 2O24/AR/1848.</p>",
+          "<p class=\"case-section__paragraph\">5. En tout état de cause, la présente décision ne vaut nullement comme une reconnaissance préjudiciable d'une quelconque erreur de droit ou de fait, ou comme un présage quant à la possibilité d'introduire ou non un pourvoi en cassation contre l'arrêt du 19 mars 2O25 de la Cour des marchés ou sur le fait de prendre une nouvelle décision sur les violations prétendues.</p>",
+          "<p class=\"case-footer__paragraph\">Conformément à l'article 108, § 1 de la LCA, un recours contre cette décision peut être introduit, dans un délai de trente jours à compter de sa notification, auprès de la Cour des Marchés (cour d'appel de Bruxelles), avec l'Autorité de protection des données comme partie défenderesse. Un tel recours peut être introduit au moyen d'une requête interlocutoire qui doit contenir les informations énumérées à l'article 1034ter du Code judiciaire6. La requête interlocutoire doit être déposée au greffe de la Cour des Marchés conformément à l'article 1034quinquies du C. jud. 7 , ou via le système d'information e-Deposit du Ministère de la Justice (article 32ter du C. jud.).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 3.5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 0,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

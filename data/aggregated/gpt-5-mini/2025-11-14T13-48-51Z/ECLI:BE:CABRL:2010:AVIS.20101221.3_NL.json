@@ -1,0 +1,531 @@
+{
+  "decision_id": "ECLI:BE:CABRL:2010:AVIS.20101221.3",
+  "language": "NL",
+  "metadata": {
+    "id": 120884,
+    "court_ecli_code": "CABRL",
+    "court_name": "Hof van Beroep te Brussel",
+    "decision_date": "2010-12-21",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Advies",
+    "md_length": 8838,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Hof van Beroep te Brussel, 21 december 2010, A.R. Nr. 2008/AR/1202, ECLI:BE:CABRL:2010:AVIS.20101221.3"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2010:AVIS.20101221.3-001",
+        "name": "C. S.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2010:AVIS.20101221.3-002",
+        "name": "P. L.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "GEÏNTIMEERDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2010:AVIS.20101221.3-003",
+        "name": "MERCATOR VERZEKERINGEN N.V.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Appellante consulteerde op 18 november 2003 tandarts P. wegens pijn aan tand 36. Op 24 november 2003 werd zij door eerste geïntimeerde behandeld; daarbij braken twee medische instrumenten af in de mesiale zenuwkanalen van tand 36, waarna appellante aanhoudende pijnklachten ondervond. Tand 36 werd op 6 september 2004 geëxtraheerd. Appellante stelde een vordering in kort geding in; bij beschikking van 13 september 2004 werd de deskundige Van de Vijver aangesteld, later bij beschikking van 25 oktober 2004 vervangen door deskundige Guy Willems. In zijn verslag van 18 januari 2005 besloot de deskundige onder meer dat tandarts P. gehandeld had als een goede huisvader en hem geen professionele fout kon worden aangerekend.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:AVIS.20101221.3-001",
+          "requests": "Appellante vordert met hervorming van het bestreden vonnis dat haar oorspronkelijke vordering ontvankelijk en gegrond wordt verklaard en dat de geïntimeerden solidair veroordeeld worden tot betaling van €10.000, te vermeerderen met vergoedende interest vanaf 30 augustus 2004 en de gerechtskosten; in subsidiaire orde de aanstelling van een deskundige met de omschreven onderzoeksopdrachten."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:AVIS.20101221.3-002",
+          "requests": "Eerste geïntimeerde vordert dat het hoger beroep ongegrond wordt verklaard; hij stelt incidenteel een tegenvordering tot veroordeling van appellante tot betaling van €750 wegens tergend en roekeloos geding en de gerechtskosten van beide aanleggen."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:AVIS.20101221.3-003",
+          "requests": "Tweede geïntimeerde verzoekt het hoger beroep ongegrond te verklaren en vordert, voor zover het bestreden vonnis de gerechtskosten omslaat, de gerechtskosten van beide aanleggen, minstens 4/5 van deze kosten."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:AVIS.20101221.3-001",
+          "argument": "Appellante stelt zich niet op contractuele aansprakelijkheid maar steunt haar vordering uitsluitend op artikel 1382 BW (onrechtmatige daad) en stelt dat eerste geïntimeerde een misdrijf van onvrijwillige slagen en verwondingen heeft begaan door het breken van instrumenten tijdens de behandeling, met blijvende klachten als gevolg. Zij betwist de bevindingen van de gerechtsdeskundige Willems en voert aan dat diens antwoorden ontwijkend zijn en dat het feit dat na het afbreken van een eerste instrument alsnog een tweede instrument brak, wijst op een beroepsfout en op onvoldoende zorgvuldigheid bij de behandeling; zij beschouwt het deskundigenverslag als ontoereikend om de aansprakelijkheid van de tandarts uit te sluiten en vraagt hervorming van het bestreden vonnis en schadevergoeding.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:AVIS.20101221.3-002",
+          "argument": "Eerste geïntimeerde voert te verweer dat hij geen professionele fout heeft begaan en dat het gerechtsdeskundigenverslag van Guy Willems, waarin wordt geconcludeerd dat hij als een goede huisvader heeft gehandeld, zijn handelen dekt. Hij betoogt dat het afbreken van fijne instrumentjes in kanalen zich vaak voordoet en dat de beschreven handelwijze en genomen maatregelen binnen de regels der kunst vielen. Voorts stelt hij incidenteel dat appellante tergend en roekeloos heeft gehandeld door de procedure te voeren en vordert om die reden een schadevergoeding van €750 en de gerechtskosten; deze tegenvordering steunt op het stelselmatig onhoudbaar en misleidend voeren van het geding door appellante.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:AVIS.20101221.3-003",
+          "argument": "Tweede geïntimeerde betoogt dat het hoger beroep ongegrond moet worden verklaard en richt zich voornamelijk tegen de omslag van de gerechtskosten door de eerste rechter; hij vordert dat de gerechtskosten van beide aanleggen ten laste van appellante worden gelegd, bij voorkeur voor ten minste 4/5 van de kosten. Zijn grondslag is dat de eerste rechter terecht de hoofdvordering en tegenvorderingen ongegrond heeft verklaard en dat, gelet op artikel 1017 Ger. W., de gerechtskosten overeenkomstig de gedragslijn moeten worden toegewezen ten laste van de partij die de procedure onnodig heeft verlengd. Hij legt daarmee een kostenveroordeling aan appellante voor.",
+          "treatment": "GEDEELTELIJK_AANVAARD"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN, HET HOF,\n\nRechtsprekende na tegenspraak,\n\nGelet op art. 24 van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken;\n\nVerklaart het hoger beroep en de incidentele beroepen ontvankelijk doch ongegrond.\n\nZegt dat de gerechtskosten van het hoger beroep tussen partijen worden omgeslagen en begroot deze kosten in hoofde van appellante op 186 euro + 1.100 euro rechtsplegingsvergoeding, in hoofde van eerste geïntimeerde op 1.100 euro rechtsplegingsvergoeding en in hoofde van tweede geïntimeerde op 1.100 euro rechtsplegingsvergoeding.",
+      "outcome": "ONGEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-001",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:AVIS.20101221.3-001",
+        "provisionNumber": "artikel 1382",
+        "provisionNumberKey": "1382",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "Appellante steunt haar vordering uitsluitend op artikel 1382 en beweert dat eerste geïntimeerde een onvrijwillig slagen/verwondingen heeft begaan; tijdens de endodontische behandeling van tand 36 braken op 24-11-2003 twee instrumenten af, bleef pijn bestaan en werd de tand op 06-09-2004 getrokken; de gerechtsdeskundige oordeelde dat de tandarts als een goede huisvader handelde en geen professionele fout beging."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-002",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:AVIS.20101221.3-002",
+        "provisionNumber": "artikel 875bis",
+        "provisionNumberKey": "875bis",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "Er is een gerechtsdeskundige benoemd en diens verslag van 18-01-2005 concludeert dat geen beroepsfout is vastgesteld; het hof oordeelt dat, mede gelet op artikel 875bis Ger.W., een bijkomend deskundig onderzoek voor de oplossing van het geschil overbodig is."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-003",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:AVIS.20101221.3-002",
+        "provisionNumber": "artikel 1017, vierde lid",
+        "provisionNumberKey": "1017",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "De eerste rechter wees zowel de hoofdvordering van appellante als de tegenvordering van de geïntimeerden ongegrond en kon op grond van artikel 1017, vierde lid, de gerechtskosten naar eigen oordeel omslaan; het hof bevestigt dat de kosten aldus zijn toegewezen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-004",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:AVIS.20101221.3-003",
+        "provisionNumber": "art. 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-005",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:AVIS.20101221.3-002",
+        "provisionNumber": "art. 1022",
+        "provisionNumberKey": "1022",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "Bij begroting van de rechtsplegingsvergoeding in hoger beroep past het hof art.1022 Ger.W. toe en stelt het basistarief vast overeenkomstig het K.B. van 26-10-2007; het basisbedrag wordt voor deze zaak bepaald op 1.100 euro."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-006",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:AVIS.20101221.3-004",
+        "provisionNumber": "artikel 1",
+        "provisionNumberKey": "1",
+        "parentActType": "WET",
+        "parentActName": "de wet van 21 april 2007 betreffende de verhaalbaarheid van de erelonen en de kosten verbonden aan de bijstand van de advocaat",
+        "parentActDate": "2007-04-21",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-007",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:AVIS.20101221.3-004",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "WET",
+        "parentActName": "de wet van 21 april 2007 betreffende de verhaalbaarheid van de erelonen en de kosten verbonden aan de bijstand van de advocaat",
+        "parentActDate": "2007-04-21",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van eerste aanleg te Leuven (9de kamer)",
+        "date": "2008-03-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:AVIS.20101221.3-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van eerste aanleg",
+        "date": "2004-09-13",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:AVIS.20101221.3-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van eerste aanleg",
+        "date": "2004-10-25",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:AVIS.20101221.3-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Aansprakelijkheidsrecht",
+      "Tandheelkundige behandeling",
+      "Endodontische behandeling",
+      "Afgebroken instrumenten",
+      "Tandextractie",
+      "Onrechtmatige daad",
+      "Deskundigenrapport",
+      "Schadevergoeding",
+      "Professionele fout",
+      "Geen aanvullend deskundigenonderzoek"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:AVIS.20101221.3-001",
+        "text": "Wanneer een gerechtsdeskundige een objectief en omstandig gemotiveerd verslag heeft uitgebracht dat niet wordt ontkracht door enig objectief element uit het dossier, kan het hof, mede gelet op artikel 875bis Ger.W., besluiten dat een bijkomend deskundig onderzoek voor de oplossing van het geschil overbodig is.",
+        "courtVerbatim": "Het advies van de deskundige is objectief en omstandig gemotiveerd. Het wordt niet ontkracht door enig objectief element uit het dossier van appellante. Het verslag van mevrouw Willemyns van 23 augustus 2004 besluit niet tot een beroepsfout in hoofde van eerste geïntimeerde. De opmerkingen van de heer Dierickx, technische raadgever van appellante, werden door de deskundige op overtuigende wijze weerlegd. Een bijkomend deskundig onderzoek is, mede gelet op artikel 875bis van het Gerechtelijk Wetboek, voor de oplossing van het geschil overbodig.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer er een gerechtsdeskundigenverslag bestaat dat objectief en omstandig gemotiveerd is en niet door objectieve dossierstukken wordt weerlegd.",
+        "relevantFactualContext": "Een gerechtsdeskundige onderzocht appellante (na extractie van de tand) en concludeerde in zijn verslag van 18-01-2005 dat tandarts P. als een goede huisvader had gehandeld en geen beroepsfout kon worden aangerekend; het hof achtte nadere deskundigheid overbodig.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:AVIS.20101221.3-002",
+        "text": "Voor een veroordeling wegens tergend of roekeloos geding vereist het hof dat vaststaat dat de eiser in zodanige omstandigheden heeft gehandeld dat iedere redelijke rechtsonderhorige in dezelfde concrete omstandigheden zich zou hebben onthouden de zaak aan de rechtbank voor te leggen of dat de eiser op foutieve wijze heeft gehandeld.",
+        "courtVerbatim": "De incidentele beroepen komen ongegrond voor. Het staat immers niet vast dat appellante, nu de tandarts tijdens de behandeling twee instrumenten in de zenuwkanalen afgebroken heeft, haar vordering ingesteld heeft in zulke omstandigheden dat iedere rechtsonderhorige, in dezelfde concrete omstandigheden als appellante geplaatst, zich zou onthouden hebben de zaak ter beoordeling van de rechtbank voor te leggen of dat zij op foutieve wijze gehandeld heeft.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij vorderingen tot vergoeding wegens tergend of roekeloos geding waarin wordt betoogd dat de eis onredelijk of misplaatst was.",
+        "relevantFactualContext": "Appellante startte procedure nadat tijdens een endodontische behandeling twee instrumenten in de zenuwkanalen afbraken; het hof oordeelt dat die gebeurtenis niet aantoont dat haar vordering zodanig misplaatst was dat sprake is van tergend of roekeloos geding.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:AVIS.20101221.3-003",
+        "text": "Wanneer de eerste rechter zowel de hoofdvordering als de tegenvorderingen ongegrond verklaart, kan hij op grond van artikel 1017, vierde lid, van het Gerechtelijk Wetboek de gerechtskosten naar eigen beoordeling tussen partijen omslaan; het hof kan die toewijzing in hoger beroep bevestigen.",
+        "courtVerbatim": "De eerste rechter die zowel de hoofdvordering van appellante als de tegenvordering van beide geïntimeerde partijen als ongegrond afwees heeft op grond van artikel 1017, vierde lid, van het Gerechtelijk Wetboek de gerechtskosten kunnen omslaan zoals hij het raadzaam oordeelde. Om dezelfde redenen worden de gerechtskosten in hoger beroep tussen partijen omgeslagen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de eerste rechter zowel hoofd- als tegenvorderingen ongegrond verklaart en de verdeling van gerechtskosten ter beoordeling staat.",
+        "relevantFactualContext": "De eerste rechter wees zowel de hoofdvordering van appellante als de tegenvorderingen van de geïntimeerden af; het hof bevestigde dat de gerechtskosten konden worden omgeslagen conform art.1017, vierde lid Ger.W.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 3,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 3,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser vordert vergoeding omdat tijdens een endodontische behandeling twee instrumenten in een kies afbraken en baseert haar vordering op een onrechtmatige daad tegen de verweerder (tandarts) en de vennootschap. Het hof verklaart het hoger beroep en de incidentele beroepen ongegrond, bevestigt het deskundigenverslag dat geen beroepsfout vaststelt en oordeelt dat aanvullend deskundigenonderzoek niet nodig is; proceskosten worden tussen partijen omgeslagen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-001",
+        "relatedFullTextCitations": [
+          "<li>Het hof stelt in de eerste plaats vast dat appellante uitdrukkelijk verklaart zich niet te beroepen op enige contractuele aansprakelijkheid van geïntimeerde P.. Zij verklaart haar vordering uitsluitend op artikel 1382 van het Burgerlijk Wetboek te steunen. Eerste geïntimeerde P. zou immers een misdrijf van onvrijwillige slagen en verwondingen hebben gepleegd.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-002",
+        "relatedFullTextCitations": [
+          "<li>Appellante betwist de besluiten van gerechtsdeskundige Willems die op ontwijkende wijze zou hebben geantwoord op de vraag waarom er, na het afbreken van het eerste instrument, nog een tweede instrument is afgebroken in een ander tandkanaal van tand 36. De deskundige heeft appellante klinisch onderzocht en kennis genomen van de medische stukken, o.m. de beschikbare radiologische onderzoeken. Het onderzoek gebeurde evenwel na de extractie - op 6 september 2004 - van de tand 36. Hij beschreef \"dat op 24 november 2003, in een poging om een endodontische behandeling door te voeren op tand 36 van mevrouw C., 2 vijlen afbreken in de mesiale tandkanalen van tand 36. Hieraan wordt toegevoegd dat het wel vaker voorkomt dat dergelijke fijne instrumentjes afbreken en in het kanaal vastlopen.\" Verder heeft de deskundige de chronologie overlopen en de maatregelen onderzocht die de tandarts had genomen om te besluiten dat \"tandarts P. geen fout treft\" De verdere behandeling na het afbreken van het eerste instrument en het feit dat een tweede instrument afgebroken is, oordeelt de deskundige \"niet zo onlogisch\". De deskundige motiveerde in zijn antwoord op de opmerkingen van appellante verder: \"Alhoewel dat during het deskundig onderzoek niet ter sprake is gekomen, kan tandarts P. ook een poging gedaan hebben om het eerst afgebroken instrument te verwijderen. Vaak zijn er anastomoses tussen beide mesiale kanalen en in een poging deze te ruimen en zo de afgebroken vijl te passeren om vervolgens in vullingsmateriaal in te bedden, kan het tweede instrument zijn afgebroken. Het lijkt mij dan ook zeer voorbarig, het feit dat er een tweede instrument is afgebroken, nu te benutten als element in om het even welke argumentatie.\" Om deze reden bevestigde de deskundige in zijn besluiten dat eerste geïntimeerde als een goede huisvader had gehandeld en hem geen professionele fout kan ten laste gelegd worden. Het advies van de deskundige is objectief en omstandig gemotiveerd. Het wordt niet ontkracht door enig objectief element uit het dossier van appellante. Het verslag van mevrouw Willemyns van 23 augustus 2004 besluit niet tot een beroepsfout in hoofde van eerste geïntimeerde. De opmerkingen van de heer Dierickx, technische raadgever van appellante, werden door de deskundige op overtuigende wijze weerlegd. Een bijkomend deskundig onderzoek is, mede gelet op artikel 875bis van het Gerechtelijk Wetboek, voor de oplossing van het geschil overbodig. Het hoger beroep is bijgevolg ongegrond.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-003",
+        "relatedFullTextCitations": [
+          "<li>De incidentele beroepen komen ongegrond voor. Het staat immers niet vast dat appellante, nu de tandarts tijdens de behandeling twee instrumenten in de zenuwkanalen afgebroken heeft, haar vordering ingesteld heeft in zulke omstandigheden dat iedere rechtsonderhorige, in dezelfde concrete omstandigheden als appellante geplaatst, zich zou onthouden hebben de zaak ter beoordeling van de rechtbank voor te leggen of dat zij op foutieve wijze gehandeld heeft. De eerste rechter die zowel de hoofdvordering van appellante als de tegenvordering van beide geïntimeerde partijen als ongegrond afwees heeft op grond van artikel 1017, vierde lid, van het Gerechtelijk Wetboek de gerechtskosten kunnen omslaan zoals hij het raadzaam oordeelde. Om dezelfde redenen worden de gerechtskosten in hoger beroep tussen partijen omgeslagen.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Gelet op art. 24 van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">19. De rechtsplegingsvergoeding in hoger beroep wordt begroot op het basistarief zoals vastgesteld bij het K.B. van 26 oktober 2007 tot vaststelling van het tarief van de rechtsplegingsvergoeding bedoeld in art. 1022 Ger. W. en tot vaststelling van de datum van inwerkingtreding van de artikelen 1 tot 13 van de wet van 21 april 2007 betreffende de verhaalbaarheid van de erelonen en de kosten verbonden aan de bijstand van de advocaat. Te dezen bedraagt het basisbedrag 1.100 euro .</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-005",
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-006",
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">19. De rechtsplegingsvergoeding in hoger beroep wordt begroot op het basistarief zoals vastgesteld bij het K.B. van 26 oktober 2007 tot vaststelling van het tarief van de rechtsplegingsvergoeding bedoeld in art. 1022 Ger. W. en tot vaststelling van de datum van inwerkingtreding van de artikelen 1 tot 13 van de wet van 21 april 2007 betreffende de verhaalbaarheid van de erelonen en de kosten verbonden aan de bijstand van de advocaat. Te dezen bedraagt het basisbedrag 1.100 euro .</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-006",
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-005",
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">19. De rechtsplegingsvergoeding in hoger beroep wordt begroot op het basistarief zoals vastgesteld bij het K.B. van 26 oktober 2007 tot vaststelling van het tarief van de rechtsplegingsvergoeding bedoeld in art. 1022 Ger. W. en tot vaststelling van de datum van inwerkingtreding van de artikelen 1 tot 13 van de wet van 21 april 2007 betreffende de verhaalbaarheid van de erelonen en de kosten verbonden aan de bijstand van de advocaat. Te dezen bedraagt het basisbedrag 1.100 euro .</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-007",
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-005",
+          "ART-ECLI:BE:CABRL:2010:AVIS.20101221.3-006"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 7,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 7,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.8571428571428572,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 4
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:AVIS.20101221.3-001",
+        "relatedFullTextCitations": [
+          "<li>Appellante betwist de besluiten van gerechtsdeskundige Willems die op ontwijkende wijze zou hebben geantwoord op de vraag waarom er, na het afbreken van het eerste instrument, nog een tweede instrument is afgebroken in een ander tandkanaal van tand 36. De deskundige heeft appellante klinisch onderzocht en kennis genomen van de medische stukken, o.m. de beschikbare radiologische onderzoeken. Het onderzoek gebeurde evenwel na de extractie - op 6 september 2004 - van de tand 36. Hij beschreef \"dat op 24 november 2003, in een poging om een endodontische behandeling door te voeren op tand 36 van mevrouw C., 2 vijlen afbreken in de mesiale tandkanalen van tand 36. Hieraan wordt toegevoegd dat het wel vaker voorkomt dat dergelijke fijne instrumentjes afbreken en in het kanaal vastlopen.\" Verder heeft de deskundige de chronologie overlopen en de maatregelen onderzocht die de tandarts had genomen om te besluiten dat \"tandarts P. geen fout treft\" De verdere behandeling na het afbreken van het eerste instrument en het feit dat een tweede instrument afgebroken is, oordeelt de deskundige \"niet zo onlogisch\". De deskundige motiveerde in zijn antwoord op de opmerkingen van appellante verder: \"Alhoewel dat tijdens het deskundig onderzoek niet ter sprake is gekomen, kan tandarts P. ook een poging gedaan hebben om het eerst afgebroken instrument te verwijderen. Vaak zijn er anastomoses tussen beide mesiale kanalen en in een poging deze te ruimen en zo de afgebroken vijl te passeren om vervolgens in vullingsmateriaal in te bedden, kan het tweede instrument zijn afgebroken. Het lijkt mij dan ook zeer voorbarig, het feit dat er een tweede instrument is afgebroken, nu te benutten als element in om het even welke argumentatie.\" Om deze reden bevestigde de deskundige in zijn besluiten dat eerste geïntimeerde als een goede huisvader had gehandeld en hem geen professionele fout kan ten laste gelegd worden. Het advies van de deskundige is objectief en omstandig gemotiveerd. Het wordt niet ontkracht door enig objectief element uit het dossier van appellante. Het verslag van mevrouw Willemyns van 23 augustus 2004 besluit niet tot een beroepsfout in hoofde van eerste geïntimeerde. De opmerkingen van de heer Dierickx, technische raadgever van appellante, werden door de deskundige op overtuigende wijze weerlegd. Een bijkomend deskundig onderzoek is, mede gelet op artikel 875bis van het Gerechtelijk Wetboek, voor de oplossing van het geschil overbodig. Het hoger beroep is bijgevolg ongegrond.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:AVIS.20101221.3-002",
+        "relatedFullTextCitations": [
+          "<li>De incidentele beroepen komen ongegrond voor. Het staat immers niet vast dat appellante, nu de tandarts tijdens de behandeling twee instrumenten in de zenuwkanalen afgebroken heeft, haar vordering ingesteld heeft in zulke omstandigheden dat iedere rechtsonderhorige, in dezelfde concrete omstandigheden als appellante geplaatst, zich zou onthouden hebben de zaak ter beoordeling van de rechtbank voor te leggen of dat zij op foutieve wijze gehandeld heeft. De eerste rechter die zowel de hoofdvordering van appellante als de tegenvordering van beide geïntimeerde partijen als ongegrond afwees heeft op grond van artikel 1017, vierde lid, van het Gerechtelijk Wetboek de gerechtskosten kunnen omslaan zoals hij het raadzaam oordeelde. Om dezelfde redenen worden de gerechtskosten in hoger beroep tussen partijen omgeslagen.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:AVIS.20101221.3-003",
+        "relatedFullTextCitations": [
+          "<li>De incidentele beroepen komen ongegrond voor. Het staat immers niet vast dat appellante, nu de tandarts tijdens de behandeling twee instrumenten in de zenuwkanalen afgebroken heeft, haar vordering ingesteld heeft in zulke omstandigheden dat iedere rechtsonderhorige, in dezelfde concrete omstandigheden als appellante geplaatst, zich zou onthouden hebben de zaak ter beoordeling van de rechtbank voor te leggen of dat zij op foutieve wijze gehandeld heeft. De eerste rechter die zowel de hoofdvordering van appellante als de tegenvordering van beide geïntimeerde partijen als ongegrond afwees heeft op grond van artikel 1017, vierde lid, van het Gerechtelijk Wetboek de gerechtskosten kunnen omslaan zoals hij het raadzaam oordeelde. Om dezelfde redenen worden de gerechtskosten in hoger beroep tussen partijen omgeslagen.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

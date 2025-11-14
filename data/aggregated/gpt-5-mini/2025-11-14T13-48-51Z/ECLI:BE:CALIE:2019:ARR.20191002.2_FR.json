@@ -1,0 +1,605 @@
+{
+  "decision_id": "ECLI:BE:CALIE:2019:ARR.20191002.2",
+  "language": "FR",
+  "metadata": {
+    "id": 141202,
+    "court_ecli_code": "CALIE",
+    "court_name": "Cour d'appel du ressort de Liège",
+    "decision_date": "2019-10-02",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 7643,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour d'appel de Liège, 02 octobre 2019, 2018/RG/56, ECLI:BE:CALIE:2019:ARR.20191002.2"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "name": "S. Laurent",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+        "name": "BAETENS Véronique",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+        "name": "ETAT BELGE",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "INTIME"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Les appelants S. Laurent et BAETENS Véronique contestent deux cotisations à l'impôt des personnes physiques des exercices d'imposition 2008 et 2008 spécial établies à leur charge sous les numéros 795.106.119 et 794.940.232 du rôle de la commune de Philippeville. Les réclamations introduites par deux courriers du 24 septembre 2009 ont été rejetées par décision directoriale du 4 novembre 2011. Les appelants ont saisi le tribunal de première instance de Namur par requête reçue le 1er décembre 2011. Par jugement du 26 octobre 2017, le premier juge a déclaré la demande recevable et partiellement fondée, ramenant les accroissements au taux de 10 %, confirmant les cotisations pour le surplus et compensant les dépens. Les appelants soutiennent que la procédure de taxation d'office et la fixation forfaitaire de la base imposable, ainsi que l'application d'accroissements au taux de 200 %, étaient irrégulières. Après notification des avis d'imposition d'office, les appelants ont déposé des déclarations mentionnant des revenus de dirigeant que l'administration a ensuite pris en compte dans la décision de taxation et les cotisations litigieuses, sans adresser un nouvel avis d'imposition d'office reprenant ces éléments.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "requests": "Les appelants demandent l'annulation des deux cotisations litigieuses et la condamnation de l'intimé aux dépens des deux instances liquidés à 3.000 euros par instance."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+          "requests": "L'intimé conclut à la recevabilité mais au non-fondement de l'appel et demande la confirmation du jugement déféré et des deux cotisations litigieuses ainsi que la condamnation des appelants aux dépens des deux instances non liquidés."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "argument": "Les appelants soutiennent que l'administration, en matière de taxation d'office, était tenue par l'article 351 du CIR 92 de notifier au contribuable les motifs du recours à la taxation d'office, le montant et les éléments sur lesquels la taxation serait basée ainsi que le mode de détermination de ces éléments, et qu'en ajoutant des revenus complémentaires issus des déclarations ultérieures sans adresser un nouvel avis d'imposition d'office, l'administration a méconnu cette obligation procédurale rendant les cotisations établies irrégulières.",
+          "treatment": "ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+          "argument": "L'intimé allègue que l'appel est non fondé et soutient que les décisions de taxation d'office et les cotisations sont régulières, demandant la confirmation du jugement déféré et le maintien des cotisations; en substance, l'intimé conteste les griefs des appelants relatifs à la procédure et au montant des cotisations et sollicite le rejet de leurs conclusions.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "Vu l'article 24 de la loi du 15 juin 1935,\n\nLa Cour,\nStatuant contradictoirement,\nDit l'appel recevable et fondé en ce qu'il tend à l'annulation des deux cotisations litigieuses.\n\nAnnule les deux cotisations litigieuses des exercices d'imposition 2008 et 2008 spécial établies à charge des appelants respectivement sous les articles portant les numéros 795.106 .119 et 794.940 .232 du rôle formé pour la commune de Philippeville.\n\nRéserve à statuer sur les dépens.",
+      "outcome": "ANNULATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "provisionNumber": "article 351",
+        "provisionNumberKey": "351",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (CIR 92)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 351 du CIR 92 comme imposant, avant toute taxation d'office, une notification par lettre recommandée mentionnant le montant et les éléments sur lesquels la taxation se fonde ainsi que le mode de détermination. Cette obligation s'applique notamment en cas de déclaration remise tardivement et oblige l'administration à adresser un nouvel avis d'imposition d'office si elle entend prendre en compte des éléments complémentaires non indiqués dans l'avis initial.",
+        "relevantFactualContext": "Les appelants ont déposé des déclarations après réception des avis d'imposition d'office; l'administration a néanmoins ajouté des revenus complémentaires (revenus de dirigeant) qui n'étaient pas mentionnés dans les avis initiaux et les a intégrés aux cotisations litigieuses."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "provisionNumber": "article 307",
+        "provisionNumberKey": "307",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (CIR 92)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "provisionNumber": "article 311",
+        "provisionNumberKey": "311",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (CIR 92)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-004",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "provisionNumber": "article 312",
+        "provisionNumberKey": "312",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (CIR 92)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-005",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "provisionNumber": "article 315",
+        "provisionNumberKey": "315",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (CIR 92)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-006",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "provisionNumber": "article 315bis",
+        "provisionNumberKey": "315bis",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (CIR 92)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-007",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "provisionNumber": "article 316",
+        "provisionNumberKey": "316",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (CIR 92)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "provisionNumber": "article 346",
+        "provisionNumberKey": "346",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (CIR 92)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour précise que l'exemption prévue à l'article 346 (dispense d'adresser un avis de rectification lorsque la taxation s'en tient aux éléments déclarés ou admis par écrit) n'est pas applicable lorsque l'administration utilise la procédure d'imposition d'office. Autrement dit, l'article 346 ne permet pas à l'administration d'éviter une nouvelle notification si elle modifie les éléments retenus dans le cadre d'une taxation d'office.",
+        "relevantFactualContext": "En l'espèce, l'administration a ajouté des revenus complémentaires dans la décision de taxation d'office et dans les cotisations litigieuses sans que ces éléments figurent dans les avis d'imposition d'office initiaux, ce qui exclut l'application de l'article 346."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-009",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "provisionNumber": "article 356",
+        "provisionNumberKey": "356",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (CIR 92)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-010",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 relative à l'emploi des langues en matière judiciaire",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Tribunal de première instance de Namur, division Namur",
+        "date": "2017-10-26",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CALIE:2019:ARR.20191002.2-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Namur",
+        "date": "2011-12-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CALIE:2019:ARR.20191002.2-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit fiscal",
+      "Taxation d'office",
+      "Cotisations IPP",
+      "Revenus de dirigeant",
+      "Fixation forfaitaire",
+      "Défaut de notification",
+      "Fixation forfaitaire contestée",
+      "Accroissements d'impôt contestés",
+      "Annulation des cotisations",
+      "Précision sur notification"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "text": "L'article 351 du CIR 92 impose, avant toute taxation d'office, une notification par lettre recommandée mentionnant le montant, les éléments retenus et le mode de détermination; si l'administration entend prendre en compte des éléments complémentaires non indiqués dans l'avis initial, elle doit adresser un nouvel avis d'imposition d'office.",
+        "courtVerbatim": "Il résulte des termes soulignés par la cour que la notification d'imposition d'office doit notamment reprendre le montant et les autres éléments sur lesquels la taxation est basée, ainsi que le mode de détermination de ces revenus et éléments.\n\nCette obligation est d'application lorsque l'administration procède à une taxation d'office notamment en cas de remise tardive d'une déclaration même si ce sont simplement les éléments déclarés tardivement qui sont pris en compte.\n\nElle était cependant tenue en application de l'article 351 du CIR 92 d'adresser un nouvel avis d'imposition d'office si elle comptait tenir compte de ces éléments complémentaires dans le cadre des impositions d'office.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque l'administration procède à une taxation d'office et/ou entend intégrer dans la taxation des éléments qui n'étaient pas mentionnés dans l'avis d'imposition d'office initial.",
+        "relevantFactualContext": "Les appelants ont déposé des déclarations après réception des avis d'imposition d'office faisant état de revenus de dirigeant que l'administration a néanmoins intégrés dans la décision de taxation et dans les cotisations litigieuses sans adresser de nouvel avis.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CALIE:2019:ARR.20191002.2-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+        "text": "L'exemption prévue à l'article 346 du CIR 92 — qui dispense l'administration d'adresser un avis de rectification lorsque la taxation s'en tient aux éléments déclarés ou admis par écrit — n'est pas applicable lorsque l'administration utilise la procédure d'imposition d'office; en conséquence, l'administration ne peut se prévaloir de l'article 346 pour éviter une nouvelle notification dans le cadre d'une taxation d'office.",
+        "courtVerbatim": "La disposition de l'article 346 du CIR 92 qui dispense l'administration d'adresser un avis de rectification lorsque la taxation s'en tient aux éléments déclarés ou admis par écrit n'est pas d'application lorsque l'administration, comme en l'espèce, utilise la procédure d'imposition d'office.\n\nEn ajoutant des revenus complémentaires dans la décision de taxation, puis dans les cotisations litigieuses, dont les avis d'imposition d'office ne faisaient pas état, l'intimé n'a pas respecté l'article 351 du CIR 92.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'on discute de la portée de l'article 346 en présence d'une taxation d'office engagée par l'administration.",
+        "relevantFactualContext": "L'administration a ajouté des revenus complémentaires dans la décision de taxation et dans les cotisations litigieuses alors que ces éléments n'apparaissaient pas dans les avis d'imposition d'office initiaux, sans adresser un nouvel avis ni un avis de rectification.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": "TEACH-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 1,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 2,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur a contesté des cotisations d'impôt des personnes physiques pour 2008 et 2008 spécial, contestant la régularité d'une taxation d'office et l'ajout de revenus complémentaires par l'administration. La Cour accueille l'appel et annule les deux cotisations, retenant que l'administration a violé l'article 351 du CIR 92 en tenant compte d'éléments non prévus dans l'avis de taxation d'office sans nouvelle notification permettant au contribuable de présenter ses observations. La Cour réserve sa décision sur les dépens."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">Quant à la violation de l'article 351 du CIR 92</h3>",
+          "<blockquote class=\"case-quote\">\n            L'administration peut procéder à la taxation d'office en raison du montant des revenus imposables qu'elle peut présumer eu égard aux éléments dont elle dispose, dans les cas où le contribuable s'est abstenu:\n            <ul>\n                <li>soit de remettre une déclaration dans les délais prévus par les articles 307 à 311 ou par les dispositions prises en exécution de l'article 312;</li>\n                <li>soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme dont serait entachée sa déclaration;</li>\n                <li>soit de communiquer les livres, documents ou registres visés à l'article 315 ou les dossiers, supports ou données visés à l'article 315bis;</li>\n                <li>soit de fournir dans le délai les renseignements qui lui ont été demandés en vertu de l'article 316;</li>\n                <li>soit de répondre dans le délai fixé à l'article 346 à l'avis dont il y est question.</li>\n            </ul>\n            Avant de procéder à la taxation d'office, l'administration notifie au contribuable, par lettre recommandée à la poste, les motifs du recours à cette procédure, le montant des revenus et les autres éléments sur lesquels la taxation sera basée, ainsi que le mode de détermination de ces revenus et éléments. Sauf dans la dernière éventualité visée à l'alinéa 1er ou si les droits du Trésor sont en péril pour une cause autre que l'expiration des délais d'imposition ou s'il s'agit de précomptes mobilier ou professionnel, un délai d'un mois à compter de l'envoi de cette notification est laissé au contribuable pour faire valoir ses observations par écrit et la cotisation ne peut être établie avant l'expiration de ce délai ».\n        </blockquote>",
+          "<p class=\"case-section__paragraph\">Il résulte des termes soulignés par la cour que la notification d'imposition d'office doit notamment reprendre le montant et les autres éléments sur lesquels la taxation est basée, ainsi que le mode de détermination de ces revenus et éléments. Cette obligation est d'application lorsque l'administration procède à une taxation d'office notamment en cas de remise tardive d'une déclaration même si ce sont simplement les éléments déclarés tardivement qui sont pris en compte. En l'espèce, les appelants ont déposé des déclarations suite à la réception des avis d'imposition d'office dans lesquels ils font état de revenus de dirigeant d'entreprise dans le chef de l'appelant (cf. pièces 3 et 4 du dossier administratif) dont l'administration a tenu compte dans la décision de taxation et les cotisations litigieuses (cf. pièces 5, 6 et 7 du dossier administratif). Elle était cependant tenue en application de l'article 351 du CIR 92 d'adresser un nouvel avis d'imposition d'office si elle comptait tenir compte de ces éléments complémentaires dans le cadre des impositions d'office. La disposition de l'article 346 du CIR 92 qui dispense l'administration d'adresser un avis de rectification lorsque la taxation s'en tient aux éléments déclarés ou admis par écrit n'est pas d'application lorsque l'administration, comme en l'espèce, utilise la procédure d'imposition d'office. En ajoutant des revenus complémentaires dans la décision de taxation, puis dans les cotisations litigieuses, dont les avis d'imposition d'office ne faisaient pas état, l'intimé n'a pas respecté l'article 351 du CIR 92. Il en résulte que les deux cotisations établies en violation de l'article 351 du CIR 92 doivent être annulées. Il sera réservé à statuer sur les dépens dès lors que la cause reste inscrite au rôle pendant six mois en application de l'article 356 du CIR 92.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-004",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-005",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-006",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-007",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            L'administration peut procéder à la taxation d'office en raison du montant des revenus imposables qu'elle peut présumer eu égard aux éléments dont elle dispose, dans les cas où le contribuable s'est abstenu:\n            <ul>\n                <li>soit de remettre une déclaration dans les délais prévus par les articles 307 à 311 ou par les dispositions prises en exécution de l'article 312;</li>\n                <li>soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme dont serait entachée sa déclaration;</li>\n                <li>soit de communiquer les livres, documents ou registres visés à l'article 315 ou les dossiers, supports ou données visés à l'article 315bis;</li>\n                <li>soit de fournir dans le délai les renseignements qui lui ont été demandés en vertu de l'article 316;</li>\n                <li>soit de répondre dans le délai fixé à l'article 346 à l'avis dont il y est question.</li>\n            </ul>\n            Avant de procéder à la taxation d'office, l'administration notifie au contribuable, par lettre recommandée à la poste, les motifs du recours à cette procédure, le montant des revenus et les autres éléments sur lesquels la taxation sera basée, ainsi que le mode de détermination de ces revenus et éléments. Sauf dans la dernière éventualité visée à l'alinéa 1er ou si les droits du Trésor sont en péril pour une cause autre que l'expiration des délais d'imposition ou s'il s'agit de précomptes mobilier ou professionnel, un délai d'un mois à compter de l'envoi de cette notification est laissé au contribuable pour faire valoir ses observations par écrit et la cotisation ne peut être établie avant l'expiration de ce délai ».\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-004",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-005",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-006",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-007",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            L'administration peut procéder à la taxation d'office en raison du montant des revenus imposables qu'elle peut présumer eu égard aux éléments dont elle dispose, dans les cas où le contribuable s'est abstenu:\n            <ul>\n                <li>soit de remettre une déclaration dans les délais prévus par les articles 307 à 311 ou par les dispositions prises en exécution de l'article 312;</li>\n                <li>soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme dont serait entachée sa déclaration;</li>\n                <li>soit de communiquer les livres, documents ou registres visés à l'article 315 ou les dossiers, supports ou données visés à l'article 315bis;</li>\n                <li>soit de fournir dans le délai les renseignements qui lui ont été demandés en vertu de l'article 316;</li>\n                <li>soit de répondre dans le délai fixé à l'article 346 à l'avis dont il y est question.</li>\n            </ul>\n            Avant de procéder à la taxation d'office, l'administration notifie au contribuable, par lettre recommandée à la poste, les motifs du recours à cette procédure, le montant des revenus et les autres éléments sur lesquels la taxation sera basée, ainsi que le mode de détermination de ces revenus et éléments. Sauf dans la dernière éventualité visée à l'alinéa 1er ou si les droits du Trésor sont en péril pour une cause autre que l'expiration des délais d'imposition ou s'il s'agit de précomptes mobilier ou professionnel, un délai d'un mois à compter de l'envoi de cette notification est laissé au contribuable pour faire valoir ses observations par écrit et la cotisation ne peut être établie avant l'expiration de ce délai ».\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-004",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-005",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-006",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-007",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-004",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            L'administration peut procéder à la taxation d'office en raison du montant des revenus imposables qu'elle peut présumer eu égard aux éléments dont elle dispose, dans les cas où le contribuable s'est abstenu:\n            <ul>\n                <li>soit de remettre une déclaration dans les délais prévus par les articles 307 à 311 ou par les dispositions prises en exécution de l'article 312;</li>\n                <li>soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme dont serait entachée sa déclaration;</li>\n                <li>soit de communiquer les livres, documents ou registres visés à l'article 315 ou les dossiers, supports ou données visés à l'article 315bis;</li>\n                <li>soit de fournir dans le délai les renseignements qui lui ont été demandés en vertu de l'article 316;</li>\n                <li>soit de répondre dans le délai fixé à l'article 346 à l'avis dont il y est question.</li>\n            </ul>\n            Avant de procéder à la taxation d'office, l'administration notifie au contribuable, par lettre recommandée à la poste, les motifs du recours à cette procédure, le montant des revenus et les autres éléments sur lesquels la taxation sera basée, ainsi que le mode de détermination de ces revenus et éléments. Sauf dans la dernière éventualité visée à l'alinéa 1er ou si les droits du Trésor sont en péril pour une cause autre que l'expiration des délais d'imposition ou s'il s'agit de précomptes mobilier ou professionnel, un délai d'un mois à compter de l'envoi de cette notification est laissé au contribuable pour faire valoir ses observations par écrit et la cotisation ne peut être établie avant l'expiration de ce délai ».\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-004",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-005",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-006",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-007",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-005",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            L'administration peut procéder à la taxation d'office en raison du montant des revenus imposables qu'elle peut présumer eu égard aux éléments dont elle dispose, dans les cas où le contribuable s'est abstenu:\n            <ul>\n                <li>soit de remettre une déclaration dans les délais prévus par les articles 307 à 311 ou par les dispositions prises en exécution de l'article 312;</li>\n                <li>soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme dont serait entachée sa déclaration;</li>\n                <li>soit de communiquer les livres, documents ou registres visés à l'article 315 ou les dossiers, supports ou données visés à l'article 315bis;</li>\n                <li>soit de fournir dans le délai les renseignements qui lui ont été demandés en vertu de l'article 316;</li>\n                <li>soit de répondre dans le délai fixé à l'article 346 à l'avis dont il y est question.</li>\n            </ul>\n            Avant de procéder à la taxation d'office, l'administration notifie au contribuable, par lettre recommandée à la poste, les motifs du recours à cette procédure, le montant des revenus et les autres éléments sur lesquels la taxation sera basée, ainsi que le mode de détermination de ces revenus et éléments. Sauf dans la dernière éventualité visée à l'alinéa 1er ou si les droits du Trésor sont en péril pour une cause autre que l'expiration des délais d'imposition ou s'il s'agit de précomptes mobilier ou professionnel, un délai d'un mois à compter de l'envoi de cette notification est laissé au contribuable pour faire valoir ses observations par écrit et la cotisation ne peut être établie avant l'expiration de ce délai ».\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-005",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-004",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-006",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-007",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-006",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            L'administration peut procéder à la taxation d'office en raison du montant des revenus imposables qu'elle peut présumer eu égard aux éléments dont elle dispose, dans les cas où le contribuable s'est abstenu:\n            <ul>\n                <li>soit de remettre une déclaration dans les délais prévus par les articles 307 à 311 ou par les dispositions prises en exécution de l'article 312;</li>\n                <li>soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme dont serait entachée sa déclaration;</li>\n                <li>soit de communiquer les livres, documents ou registres visés à l'article 315 ou les dossiers, supports ou données visés à l'article 315bis;</li>\n                <li>soit de fournir dans le délai les renseignements qui lui ont été demandés en vertu de l'article 316;</li>\n                <li>soit de répondre dans le délai fixé à l'article 346 à l'avis dont il y est question.</li>\n            </ul>\n            Avant de procéder à la taxation d'office, l'administration notifie au contribuable, par lettre recommandée à la poste, les motifs du recours à cette procédure, le montant des revenus et les autres éléments sur lesquels la taxation sera basée, ainsi que le mode de détermination de ces revenus et éléments. Sauf dans la dernière éventualité visée à l'alinéa 1er ou si les droits du Trésor sont en péril pour une cause autre que l'expiration des délais d'imposition ou s'il s'agit de précomptes mobilier ou professionnel, un délai d'un mois à compter de l'envoi de cette notification est laissé au contribuable pour faire valoir ses observations par écrit et la cotisation ne peut être établie avant l'expiration de ce délai ».\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-006",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-004",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-005",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-007",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-007",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            L'administration peut procéder à la taxation d'office en raison du montant des revenus imposables qu'elle peut présumer eu égard aux éléments dont elle dispose, dans les cas où le contribuable s'est abstenu:\n            <ul>\n                <li>soit de remettre une déclaration dans les délais prévus par les articles 307 à 311 ou par les dispositions prises en exécution de l'article 312;</li>\n                <li>soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme dont serait entachée sa déclaration;</li>\n                <li>soit de communiquer les livres, documents ou registres visés à l'article 315 ou les dossiers, supports ou données visés à l'article 315bis;</li>\n                <li>soit de fournir dans le délai les renseignements qui lui ont été demandés en vertu de l'article 316;</li>\n                <li>soit de répondre dans le délai fixé à l'article 346 à l'avis dont il y est question.</li>\n            </ul>\n            Avant de procéder à la taxation d'office, l'administration notifie au contribuable, par lettre recommandée à la poste, les motifs du recours à cette procédure, le montant des revenus et les autres éléments sur lesquels la taxation sera basée, ainsi que le mode de détermination de ces revenus et éléments. Sauf dans la dernière éventualité visée à l'alinéa 1er ou si les droits du Trésor sont en péril pour une cause autre que l'expiration des délais d'imposition ou s'il s'agit de précomptes mobilier ou professionnel, un délai d'un mois à compter de l'envoi de cette notification est laissé au contribuable pour faire valoir ses observations par écrit et la cotisation ne peut être établie avant l'expiration de ce délai ».\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-007",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-004",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-005",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-006",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            L'administration peut procéder à la taxation d'office en raison du montant des revenus imposables qu'elle peut présumer eu égard aux éléments dont elle dispose, dans les cas où le contribuable s'est abstenu:\n            <ul>\n                <li>soit de remettre une déclaration dans les délais prévus par les articles 307 à 311 ou par les dispositions prises en exécution de l'article 312;</li>\n                <li>soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme dont serait entachée sa déclaration;</li>\n                <li>soit de communiquer les livres, documents ou registres visés à l'article 315 ou les dossiers, supports ou données visés à l'article 315bis;</li>\n                <li>soit de fournir dans le délai les renseignements qui lui ont été demandés en vertu de l'article 316;</li>\n                <li>soit de répondre dans le délai fixé à l'article 346 à l'avis dont il y est question.</li>\n            </ul>\n            Avant de procéder à la taxation d'office, l'administration notifie au contribuable, par lettre recommandée à la poste, les motifs du recours à cette procédure, le montant des revenus et les autres éléments sur lesquels la taxation sera basée, ainsi que le mode de détermination de ces revenus et éléments. Sauf dans la dernière éventualité visée à l'alinéa 1er ou si les droits du Trésor sont en péril pour une cause autre que l'expiration des délais d'imposition ou s'il s'agit de précomptes mobilier ou professionnel, un délai d'un mois à compter de l'envoi de cette notification est laissé au contribuable pour faire valoir ses observations par écrit et la cotisation ne peut être établie avant l'expiration de ce délai ».\n        </blockquote>",
+          "<p class=\"case-section__paragraph\">Il résulte des termes soulignés par la cour que la notification d'imposition d'office doit notamment reprendre le montant et les autres éléments sur lesquels la taxation est basée, ainsi que le mode de détermination de ces revenus et éléments. Cette obligation est d'application lorsque l'administration procède à une taxation d'office notamment en cas de remise tardive d'une déclaration même si ce sont simplement les éléments déclarés tardivement qui sont pris en compte. En l'espèce, les appelants ont déposé des déclarations suite à la réception des avis d'imposition d'office dans lesquels ils font état de revenus de dirigeant d'entreprise dans le chef de l'appelant (cf. pièces 3 et 4 du dossier administratif) dont l'administration a tenu compte dans la décision de taxation et les cotisations litigieuses (cf. pièces 5, 6 et 7 du dossier administratif). Elle était cependant tenue en application de l'article 351 du CIR 92 d'adresser un nouvel avis d'imposition d'office si elle comptait tenir compte de ces éléments complémentaires dans le cadre des impositions d'office. La disposition de l'article 346 du CIR 92 qui dispense l'administration d'adresser un avis de rectification lorsque la taxation s'en tient aux éléments déclarés ou admis par écrit n'est pas d'application lorsque l'administration, comme en l'espèce, utilise la procédure d'imposition d'office. En ajoutant des revenus complémentaires dans la décision de taxation, puis dans les cotisations litigieuses, dont les avis d'imposition d'office ne faisaient pas état, l'intimé n'a pas respecté l'article 351 du CIR 92. Il en résulte que les deux cotisations établies en violation de l'article 351 du CIR 92 doivent être annulées. Il sera réservé à statuer sur les dépens dès lors que la cause reste inscrite au rôle pendant six mois en application de l'article 356 du CIR 92.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-003",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-004",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-005",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-006",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-007",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Il résulte des termes soulignés par la cour que la notification d'imposition d'office doit notamment reprendre le montant et les autres éléments sur lesquels la taxation est basée, ainsi que le mode de détermination de ces revenus et éléments. Cette obligation est d'application lorsque l'administration procède à une taxation d'office notamment en cas de remise tardive d'une déclaration même si ce sont simplement les éléments déclarés tardivement qui sont pris en compte. En l'espèce, les appelants ont déposé des déclarations suite à la réception des avis d'imposition d'office dans lesquels ils font état de revenus de dirigeant d'entreprise dans le chef de l'appelant (cf. pièces 3 et 4 du dossier administratif) dont l'administration a tenu compte dans la décision de taxation et les cotisations litigieuses (cf. pièces 5, 6 et 7 du dossier administratif). Elle était cependant tenue en application de l'article 351 du CIR 92 d'adresser un nouvel avis d'imposition d'office si elle comptait tenir compte de ces éléments complémentaires dans le cadre des impositions d'office. La disposition de l'article 346 du CIR 92 qui dispense l'administration d'adresser un avis de rectification lorsque la taxation s'en tient aux éléments déclarés ou admis par écrit n'est pas d'application lorsque l'administration, comme en l'espèce, utilise la procédure d'imposition d'office. En ajoutant des revenus complémentaires dans la décision de taxation, puis dans les cotisations litigieuses, dont les avis d'imposition d'office ne faisaient pas état, l'intimé n'a pas respecté l'article 351 du CIR 92. Il en résulte que les deux cotisations établies en violation de l'article 351 du CIR 92 doivent être annulées. Il sera réservé à statuer sur les dépens dès lors que la cause reste inscrite au rôle pendant six mois en application de l'article 356 du CIR 92.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-009",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu l'article 24 de la loi du 15 juin 1935,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2019:ARR.20191002.2-010"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 10,
+      "citationStatistics": {
+        "totalCitations": 13,
+        "avgCitationsPerProvision": 1.3,
+        "provisionsWithMinimalCitations": 9,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 7,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2019:ARR.20191002.2-001",
+        "relatedFullTextCitations": [
+          "        <h3 class=\"case-section__subtitle\">Quant à la violation de l'article 351 du CIR 92</h3>",
+          "        <blockquote class=\"case-quote\">\n            L'administration peut procéder à la taxation d'office en raison du montant des revenus imposables qu'elle peut présumer eu égard aux éléments dont elle dispose, dans les cas où le contribuable s'est abstenu:\n            <ul>\n                <li>soit de remettre une déclaration dans les délais prévus par les articles 307 à 311 ou par les dispositions prises en exécution de l'article 312;</li>\n                <li>soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme dont serait entachée sa déclaration;</li>\n                <li>soit de communiquer les livres, documents ou registres visés à l'article 315 ou les dossiers, supports ou données visés à l'article 315bis;</li>\n                <li>soit de fournir dans le délai les renseignements qui lui ont été demandés en vertu de l'article 316;</li>\n                <li>soit de répondre dans le délai fixé à l'article 346 à l'avis dont il y est question.</li>\n            </ul>\n            Avant de procéder à la taxation d'office, l'administration notifie au contribuable, par lettre recommandée à la poste, les motifs du recours à cette procédure, le montant des revenus et les autres éléments sur lesquels la taxation sera basée, ainsi que le mode de détermination de ces revenus et éléments. Sauf dans la dernière éventualité visée à l'alinéa 1er ou si les droits du Trésor sont en péril pour une cause autre que l'expiration des délais d'imposition ou s'il s'agit de précomptes mobilier ou professionnel, un délai d'un mois à compter de l'envoi de cette notification est laissé au contribuable pour faire valoir ses observations par écrit et la cotisation ne peut être établie avant l'expiration de ce délai ».\n        </blockquote>",
+          "        <p class=\"case-section__paragraph\">Il résulte des termes soulignés par la cour que la notification d'imposition d'office doit notamment reprendre le montant et les autres éléments sur lesquels la taxation est basée, ainsi que le mode de détermination de ces revenus et éléments. Cette obligation est d'application lorsque l'administration procède à une taxation d'office notamment en cas de remise tardive d'une déclaration même si ce sont simplement les éléments déclarés tardivement qui sont pris en compte. En l'espèce, les appelants ont déposé des déclarations suite à la réception des avis d'imposition d'office dans lesquels ils font état de revenus de dirigeant d'entreprise dans le chef de l'appelant (cf. pièces 3 et 4 du dossier administratif) dont l'administration a tenu compte dans la décision de taxation et les cotisations litigieuses (cf. pièces 5, 6 et 7 du dossier administratif). Elle était cependant tenue en application de l'article 351 du CIR 92 d'adresser un nouvel avis d'imposition d'office si elle comptait tenir compte de ces éléments complémentaires dans le cadre des impositions d'office. La disposition de l'article 346 du CIR 92 qui dispense l'administration d'adresser un avis de rectification lorsque la taxation s'en tient aux éléments déclarés ou admis par écrit n'est pas d'application lorsque l'administration, comme en l'espèce, utilise la procédure d'imposition d'office. En ajoutant des revenus complémentaires dans la décision de taxation, puis dans les cotisations litigieuses, dont les avis d'imposition d'office ne faisaient pas état, l'intimé n'a pas respecté l'article 351 du CIR 92. Il en résulte que les deux cotisations établies en violation de l'article 351 du CIR 92 doivent être annulées. Il sera réservé à statuer sur les dépens dès lors que la cause reste inscrite au rôle pendant six mois en application de l'article 356 du CIR 92.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2019:ARR.20191002.2-002",
+        "relatedFullTextCitations": [
+          "        <h3 class=\"case-section__subtitle\">Quant à la violation de l'article 351 du CIR 92</h3>",
+          "        <blockquote class=\"case-quote\">\n            L'administration peut procéder à la taxation d'office en raison du montant des revenus imposables qu'elle peut présumer eu égard aux éléments dont elle dispose, dans les cas où le contribuable s'est abstenu:\n            <ul>\n                <li>soit de remettre une déclaration dans les délais prévus par les articles 307 à 311 ou par les dispositions prises en exécution de l'article 312;</li>\n                <li>soit d'éliminer, dans le délai consenti à cette fin, le ou les vices de forme dont serait entachée sa déclaration;</li>\n                <li>soit de communiquer les livres, documents ou registres visés à l'article 315 ou les dossiers, supports ou données visés à l'article 315bis;</li>\n                <li>soit de fournir dans le délai les renseignements qui lui ont été demandés en vertu de l'article 316;</li>\n                <li>soit de répondre dans le délai fixé à l'article 346 à l'avis dont il y est question.</li>\n            </ul>\n            Avant de procéder à la taxation d'office, l'administration notifie au contribuable, par lettre recommandée à la poste, les motifs du recours à cette procédure, le montant des revenus et les autres éléments sur lesquels la taxation sera basée, ainsi que le mode de détermination de ces revenus et éléments. Sauf dans la dernière éventualité visée à l'alinéa 1er ou si les droits du Trésor sont en péril pour une cause autre que l'expiration des délais d'imposition ou s'il s'agit de précomptes mobilier ou professionnel, un délai d'un mois à compter de l'envoi de cette notification est laissé au contribuable pour faire valoir ses observations par écrit et la cotisation ne peut être établie avant l'expiration de ce délai ».\n        </blockquote>",
+          "        <p class=\"case-section__paragraph\">Il résulte des termes soulignés par la cour que la notification d'imposition d'office doit notamment reprendre le montant et les autres éléments sur lesquels la taxation est basée, ainsi que le mode de détermination de ces revenus et éléments. Cette obligation est d'application lorsque l'administration procède à une taxation d'office notamment en cas de remise tardive d'une déclaration même si ce sont simplement les éléments déclarés tardivement qui sont pris en compte. En l'espèce, les appelants ont déposé des déclarations suite à la réception des avis d'imposition d'office dans lesquels ils font état de revenus de dirigeant d'entreprise dans le chef de l'appelant (cf. pièces 3 et 4 du dossier administratif) dont l'administration a tenu compte dans la décision de taxation et les cotisations litigieuses (cf. pièces 5, 6 et 7 du dossier administratif). Elle était cependant tenue en application de l'article 351 du CIR 92 d'adresser un nouvel avis d'imposition d'office si elle comptait tenir compte de ces éléments complémentaires dans le cadre des impositions d'office. La disposition de l'article 346 du CIR 92 qui dispense l'administration d'adresser un avis de rectification lorsque la taxation s'en tient aux éléments déclarés ou admis par écrit n'est pas d'application lorsque l'administration, comme en l'espèce, utilise la procédure d'imposition d'office. En ajoutant des revenus complémentaires dans la décision de taxation, puis dans les cotisations litigieuses, dont les avis d'imposition d'office ne faisaient pas état, l'intimé n'a pas respecté l'article 351 du CIR 92. Il en résulte que les deux cotisations établies en violation de l'article 351 du CIR 92 doivent être annulées. Il sera réservé à statuer sur les dépens dès lors que la cause reste inscrite au rôle pendant six mois en application de l'article 356 du CIR 92.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 6,
+        "avgCitationsPerTeaching": 3,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 3,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

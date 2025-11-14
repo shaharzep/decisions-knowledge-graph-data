@@ -1,0 +1,300 @@
+{
+  "decision_id": "ECLI:BE:HBANT:2001:ARR.20010926.2",
+  "language": "NL",
+  "metadata": {
+    "id": 98907,
+    "court_ecli_code": "HBANT",
+    "decision_date": "2001-09-26",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 3257,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Hof van Beroep Antwerpen, 26 september 2001, ECLI:BE:HBANT:2001:ARR.20010926.2"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:HBANT:2001:ARR.20010926.2-001",
+        "name": "N.M.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:HBANT:2001:ARR.20010926.2-002",
+        "name": "N. K.V.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Het hoger beroep werd ingesteld bij verzoekschrift neergelegd op 08.08.2001. Appellanten vorderen de echtscheiding door onderlinge toestemming. Bij akten d.d. 08.11.2000 (notaris T. V. te Geel), gewijzigd bij akte d.d. 14.05.2001 en gewijzigd op voorstel van het Hof bij onderhandse akte d.d. 14.09.2001 (neergelegd ter griffie op 18.09.2001), werden tussen partijen overeenkomsten getroffen krachtens artikel 1287 en 1288 Ger.W., betreffende onder meer de minderjarige kinderen van partijen. De rechtbank wees de vordering tot echtscheiding door onderlinge toestemming af met het motief dat een clausule die wijziging van onderhoudsbijdragen in onderling overleg mogelijk maakt zou indruisen tegen het definitieve karakter van de overeenkomst onder artikel 1288 Ger.W.; het Hof overweegt evenwel dat geen wettelijk beletsel bestaat voor wederzijdse wijziging na ontbinding van het huwelijk, dat artikel 1288 Ger.W. ziet op wijziging op vraag van één der echtgenoten en niet op wijziging bij onderling akkoord, en dat partijen aan de wettelijke voorwaarden en formaliteiten hebben voldaan.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:HBANT:2001:ARR.20010926.2-001",
+          "requests": "Appellanten vorderen dat bij hervorming van het bestreden vonnis de vordering tot echtscheiding door onderlinge toestemming wordt ingewilligd."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBANT:2001:ARR.20010926.2-002",
+          "requests": "Appellanten vorderen dat bij hervorming van het bestreden vonnis de vordering tot echtscheiding door onderlinge toestemming wordt ingewilligd."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "OM DIE REDENEN\n\nHET HOF, na beraad,\nRecht sprekend na verzoekers te hebben gehoord in raadkamer;\nGelet op art. 24 van de wet van 15 juni 1935;\nGehoord Advocaat-generaal J.F. MISSAL in zijn gelijkluidend advies ter terechtzitting van 19.09.2001;\nOntvangt het hoger beroep en verklaart dit gegrond;\nDoet het bestreden vonnis teniet;\nOpnieuw wijzend :\nOntvangt de vordering en verklaart deze gegrond;\n\n---\n\nSpreekt de echtscheiding door onderlinge toestemming uit tussen :\n\n# N.M. \n\ngeboren te\nwonende te\nen :\n\n## N. K.V.\n\ngeboren te\nwonende te\ngehuwd te Praag (Tsjecho-Slowakije) op 4 juni 1988;\nHomologeert de hierboven vermelde overeenkomsten met betrekking tot de minderjarige kinderen van partijen;\n\nLaat de kosten van het hoger beroep ten laste van appellanten;",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-001",
+        "internalParentActId": "ACT-ECLI:BE:HBANT:2001:ARR.20010926.2-001",
+        "provisionNumber": "artikel 1287",
+        "provisionNumberKey": "1287",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-002",
+        "internalParentActId": "ACT-ECLI:BE:HBANT:2001:ARR.20010926.2-001",
+        "provisionNumber": "artikel 1288",
+        "provisionNumberKey": "1288",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof overweegt dat artikel 1288 Ger.W. niet meebrengt dat overeenkomsten omtrent onderhoudsbijdragen absoluut definitief en onveranderlijk zijn. De modaliteiten en voorwaarden van artikel 1288 hebben betrekking op wijzigingsverzoeken door één der echtgenoten; een wijziging die in onderling akkoord gebeurt valt niet onder die beperking en is niet wettelijk verboden.",
+        "relevantFactualContext": "Partijen hadden in notariële akten opgenomen dat de onderhoudsbijdragen voor de kinderen steeds in onderling overleg konden worden gewijzigd; deze akten (08.11.2000, gewijzigd 14.05.2001 en 14.09.2001) werden bij het verzoekschrift gevoegd en voldeden volgens het Hof aan de wettelijke formaliteiten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-003",
+        "internalParentActId": "ACT-ECLI:BE:HBANT:2001:ARR.20010926.2-002",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 betreffende het gebruik der talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "raadkamer",
+        "date": "2001-09-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:HBANT:2001:ARR.20010926.2-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Familierecht",
+      "Echtscheiding door onderlinge toestemming",
+      "Overeenkomsten minderjarige kinderen",
+      "Onderhoudsbijdragen kinderen",
+      "Notariële akten",
+      "Wijziging bij wederzijds akkoord",
+      "Definitief karakter overeenkomst",
+      "Homologatie overeenkomsten kinderen",
+      "Toelaatbaarheid wijziging na echtscheiding",
+      "Interpretatie wijzigingsclausule"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:HBANT:2001:ARR.20010926.2-001",
+        "text": "Artikel 1288 Ger.W. maakt overeenkomsten omtrent onderhoudsbijdragen voor minderjarige kinderen niet absoluut definitief en onveranderlijk. De modaliteiten en voorwaarden in artikel 1288 hebben betrekking op een wijzigingsverzoek door één der echtgenoten; een wijziging die door wederzijds akkoord tot stand komt, valt niet onder die beperking en is niet wettelijk verboden. Dergelijke clausules bevestigen enkel de gemeenrechtelijke regeling en verhinderen niet dat ex-echtgenoten hun overeenkomst bij onderling goedvinden wijzigen en laten homologatie door de rechter toe.",
+        "courtVerbatim": "Overwegende dat de eerste rechter in het bestreden vonnis de vordering tot echtscheiding door onderlinge toestemming van appellanten afwees, op grond van de overweging dat partijen overeenkwamen dat de onderhoudsbijdragen voor de kinderen steeds in onderling overleg zouden kunnen worden gewijzigd en dit zou indruisen tegen het definitief en onveranderlijk karakter van deze overeenkomst dat zou voortspruiten uit artikel 1288 Ger.W.; dat er evenwel geen enkel wettelijk beletsel is, van zodra de echtscheidingsprocedure afgelopen is en het huwelijk ontbonden, dat de ex-echtgenoten met wederzijdse toestemming hun overeenkomsten zouden wijzigen (zie o.m. Senaeve P., Compendium van het personen- en familierecht, Acco, 2000, p. 696, nr. 2006); dat de modaliteiten en voorwaarden voor een wijziging voorzien in artikel 1288 Ger.W. betrekking hebben op een wijziging op vraag van één der echtgenoten, niet voor een wijziging in onderling akkoord; dat de clausule die appellanten dienaangaande opnamen in de voormelde akten slechts een bevestiging inhoudt van de gemeenrechtelijke regeling en geenszins afbreuk doet aan de vereisten van artikel 1288 Ger.W.;",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer echtgenoten in notariële of onderhandse akten bedingen dat onderhoudsbijdragen voor minderjarige kinderen in onderling overleg gewijzigd kunnen worden en die clausule wordt aangevochten met een beroep op artikel 1288 Ger.W.",
+        "relevantFactualContext": "Partijen legden notariële akten (08.11.2000, gewijzigd 14.05.2001 en 14.09.2001) neer waarin was opgenomen dat de onderhoudsbijdragen voor de kinderen steeds in onderling overleg konden worden gewijzigd; deze akten werden bij het verzoekschrift gevoegd, voldeden volgens het Hof aan de wettelijke formaliteiten en werden door het Hof gehomologeerd.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "FAMILY_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 1,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De echtgenoten vorderen echtscheiding door onderlinge toestemming nadat de eerste rechter dit verweigerde vanwege een clausule omtrent wijziging van kinderbijdragen. Het Hof verklaart het hoger beroep gegrond, vernietigt het bestreden vonnis, wijst de echtscheiding toe en homologeert de afspraken over de minderjarige kinderen. Kernpunt: artikel 1288 Ger.W. sluit een wijziging bij wederzijds akkoord niet uit; de definitiviteit van de regel ziet op eenzijdige verzoeken en partijen voldeden aan de vormvereisten."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de in toepassing van de artikelen 1287 en 1288 van het Gerechtelijk Wetboek door verzoekers getroffen overeenkomsten vastgelegd bij akte d.d. 08.11.2000, verleden voor notaris T. V. te Geel, gewijzigd bij akte d.d. 14.05.2001 verleden voor dezelfde notaris, waarvan eensluidende afschriften bij het verzoekschrift werden gevoegd en gewijzigd op voorstel van het Hof bij onderhandse akte d.d. 14.09.2001, neergelegd ter griffie van dit Hof op 18.09.2001;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-001",
+          "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de in toepassing van de artikelen 1287 en 1288 van het Gerechtelijk Wetboek door verzoekers getroffen overeenkomsten vastgelegd bij akte d.d. 08.11.2000, verleden voor notaris T. V. te Geel, gewijzigd bij akte d.d. 14.05.2001 verleden voor dezelfde notaris, waarvan eensluidende afschriften bij het verzoekschrift werden gevoegd en gewijzigd op voorstel van het Hof bij onderhandse akte d.d. 14.09.2001, neergelegd ter griffie van dit Hof op 18.09.2001;</p>",
+          "<p class=\"case-section__paragraph\">Overwegende dat de eerste rechter in het bestreden vonnis de vordering tot echtscheiding door onderlinge toestemming van appellanten afwees, op grond van de overweging dat partijen overeenkwamen dat de onderhoudsbijdragen voor de kinderen steeds in onderling overleg zouden kunnen worden gewijzigd en dit zou indruisen tegen het definitief en onveranderlijk karakter van deze overeenkomst dat zou voortspruiten uit artikel 1288 Ger.W.; dat er evenwel geen enkel wettelijk beletsel is, van zodra de echtscheidingsprocedure afgelopen is en het huwelijk ontbonden, dat de ex-echtgenoten met wederzijdse toestemming hun overeenkomsten zouden wijzigen (zie o.m. Senaeve P., Compendium van het personen- en familierecht, Acco, 2000, p. 696, nr. 2006); dat de modaliteiten en voorwaarden voor een wijziging voorzien in artikel 1288 Ger.W. betrekking hebben op een wijziging op vraag van één der echtgenoten, niet voor een wijziging in onderling akkoord; dat de clausule die appellanten dienaangaande opnamen in de voormelde akten slechts een bevestiging inhoudt van de gemeenrechtelijke regeling en geenszins afbreuk doet aan de vereisten van artikel 1288 Ger.W.;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-002",
+          "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">HET HOF, na beraad, Recht sprekend na verzoekers te hebben gehoord in raadkamer; Gelet op art. 24 van de wet van 15 juni 1935; Gehoord Advocaat-generaal J.F. MISSAL in zijn gelijkluidend advies ter terechtzitting van 19.09.2001; Ontvangt het hoger beroep en verklaart dit gegrond; Doet het bestreden vonnis teniet; Opnieuw wijzend : Ontvangt de vordering en verklaart deze gegrond; Spreekt de echtscheiding door onderlinge toestemming uit tussen : N.M. geboren te wonende te en : N. K.V. geboren te wonende te gehuwd te Praag (Tsjecho-Slowakije) op 4 juni 1988; Homologeert de hierboven vermelde overeenkomsten met betrekking tot de minderjarige kinderen van partijen; Laat de kosten van het hoger beroep ten laste van appellanten;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBANT:2001:ARR.20010926.2-003"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 3,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerProvision": 1.3333333333333333,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.6666666666666667,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:HBANT:2001:ARR.20010926.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overwegende dat het hoger beroep ertoe strekt, bij hervorming van het bestreden vonnis, de vordering van appellanten tot echtscheiding door onderlinge toestemming in te willigen;</p>",
+          "<p class=\"case-section__paragraph\">Overwegende dat de eerste rechter in het bestreden vonnis de vordering tot echtscheiding door onderlinge toestemming van appellanten afwees, op grond van de overweging dat partijen overeenkwamen dat de onderhoudsbijdragen voor de kinderen steeds in onderling overleg zouden kunnen worden gewijzigd en dit zou indruisen tegen het definitief en onveranderlijk karakter van deze overeenkomst dat zou voortspruiten uit artikel 1288 Ger.W.; dat er evenwel geen enkel wettelijk beletsel is, van zodra de echtscheidingsprocedure afgelopen is en het huwelijk ontbonden, dat de ex-echtgenoten met wederzijdse toestemming hun overeenkomsten zouden wijzigen (zie o.m. Senaeve P., Compendium van het personen- en familierecht, Acco, 2000, p. 696, nr. 2006); dat de modaliteiten en voorwaarden voor een wijziging voorzien in artikel 1288 Ger.W. betrekking hebben op een wijziging op vraag van één der echtgenoten, niet voor een wijziging in onderling akkoord; dat de clausule die appellanten dienaangaande opnamen in de voormelde akten slechts een bevestiging inhoudt van de gemeenrechtelijke regeling en geenszins afbreuk doet aan de vereisten van artikel 1288 Ger.W.;</p>",
+          "<p class=\"case-section__paragraph\">Overwegende dat uit de processtukken blijkt dat partijen aan de wettelijke voorwaarden hebben voldaan en de door de wet bepaalde formaliteiten hebben in acht genomen;</p>",
+          "<p class=\"case-section__paragraph\">Overwegende dat het bestreden vonnis bijgevolg dient hervormd en de vordering tot echtscheiding door onderlinge toestemming dient ingewilligd;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerTeaching": 4,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

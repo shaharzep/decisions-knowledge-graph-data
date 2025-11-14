@@ -1,0 +1,538 @@
+{
+  "decision_id": "ECLI:BE:GHCC:2019:ARR.075",
+  "language": "NL",
+  "metadata": {
+    "id": 38971,
+    "court_ecli_code": "NTRCND",
+    "decision_date": "2019-05-23",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 21644,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Grondwettelijk Hof, 23 mei 2019, ECLI:BE:GHCC:2019:ARR.075"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GHCC:2019:ARR.075-001",
+        "name": "bvba «Ahtco»",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GHCC:2019:ARR.075-002",
+        "name": "Belgische Staat",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "VERWEERDER"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De bvba «Ahtco», bestaande uit één enkele persoon en opgericht op 28 januari 1987, heeft bij de Rechtbank van eerste aanleg Luik een vordering ingesteld tot betwisting van zeven roerende voorheffingen die te haren laste door de administratie zijn ingekohierd voor de aanslagjaren 2008 tot 2012. De verzoekende partij heeft dividenden uitgekeerd waarop zij een roerende voorheffing van 15% heeft ingehouden met toepassing van artikel 269, derde lid, b), van het WIB 1992. De administratie oordeelde dat de voorwaarden voor de toepassing van het tarief van 15% niet vervuld waren en dat de aanslagvoet 25% moest bedragen, waarop de aangiften werden gewijzigd. Bij een kapitaalsverhoging op 4 december 2002 waren geen nieuwe aandelen uitgegeven, hetgeen de administratie en het verwijzende rechtscollege reden gaven te stellen dat 25% van toepassing is. Na heropening van de debatten inzake de aanvangsdatum van de controle (artikel 358, §2, 1° WIB 1992) heeft het verwijzende rechtscollege vastgesteld dat er geen verjaring is en heeft het tevens de prejudiciële vraag gesteld omtrent de verenigbaarheid van artikel 269, derde lid, b), WIB 1992 met de artikelen 10, 11 en 172 van de Grondwet, in zoverre dat artikel het voordeel van de verlaagde aanslagvoet afhankelijk stelt van de uitgifte van nieuwe effecten bij kapitaalsverhoging na 1 januari 1994 terwijl geen verlaagde aanslagvoet zou gelden wanneer hetzelfde kapitaal wordt verhoogd zonder uitgifte van nieuwe effecten.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:GHCC:2019:ARR.075-001",
+          "argument": "De verzoekende partij betoogt dat artikel 269, derde lid, b), WIB 1992 het gelijkheidsbeginsel (artikels 10 en 11 Grondwet) en artikel 172 Grondwet schendt door bij een kapitaalsverhoging onderscheid te maken tussen vennootschappen waar wel nieuwe effecten werden uitgegeven en vennootschappen waar eenzelfde kapitaalsverhoging plaatsvond zonder uitgifte van nieuwe effecten. Zij stelt dat die verplichting om nieuwe aandelen uit te geven discriminerend werkt jegens een eenpersoons-bvba zoals de hare en dat het onderscheid niet relevant is voor het nagestreefde doel van het stimuleren van beleggingen in risicokapitaal; bovendien bestaan er minder ingrijpende middelen (notariële akten) om het nieuwe kapitaal te identificeren, zodat de maatregel onevenredig zou zijn.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:GHCC:2019:ARR.075-002",
+          "argument": "De Ministerraad voert aan dat de verlaging van de roerende voorheffing tot doel heeft het beleggen in risicokapitaal te stimuleren en zoveel mogelijk personen aan te zetten aandelen te verwerven. De wetgever heeft daartoe een nieuwe categorie aandelen (VVPR) geschapen zodat alleen dividenden van vanaf 1 januari 1994 uitgegeven nieuwe aandelen van het verlaagde tarief kunnen genieten. De eis van uitgifte van nieuwe aandelen maakt identificatie en controle door de administratie mogelijk en voorkomt misbruik; zij is tevens een middel om de tweede doelstelling (breder uitnodigen van beleggers tot inschrijving op kapitaalsverhogingen) te bevorderen. Volgens de Ministerraad is het onderscheid objectief, relevant en evenredig en geldt het voor alle vennootschapsvormen zonder ongerechtvaardigde discriminatie ten opzichte van specifieke persoonlijke situaties.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "Om die redenen,\nhet Hof\nzegt voor recht :\n\nArtikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992, zoals het van toepassing is op de aanslagjaren 2008 tot 2012, schendt de artikelen 10, 11 en 172 van de Grondwet niet.",
+      "outcome": "ONGEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-001",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:2019:ARR.075-001",
+        "provisionNumber": "artikel 269, derde lid, b)",
+        "provisionNumberKey": "269",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van de inkomstenbelastingen 1992 (WIB 1992)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof leest artikel 269, derde lid, b) aldus dat de verlaagde aanslagvoet (15%) slechts van toepassing is op dividenden van aandelen uitgegeven vanaf 1 januari 1994 die voldoen aan de in die bepaling vermelde identificatievoorwaarden. Bij een kapitaalsverhoging mag de wetgever de uitgifte van nieuwe aandelen als voorwaarde stellen teneinde de betreffende aandelen identificeerbaar te maken, controles mogelijk te maken en misbruik tegen te gaan; dit onderscheid valt binnen de ruime beoordelingsmarge van de wetgever en is niet onevenredig.",
+        "relevantFactualContext": "De verwijzende bvba voerde op 4 december 2002 een kapitaalsverhoging door zonder uitgifte van nieuwe effecten (door wijziging van nominale waarde), waarna de administratie de verlaagde aanslagvoet van 15% weigerde en 25% toepaste."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-002",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:2019:ARR.075-001",
+        "provisionNumber": "artikel 358, § 2, 1°",
+        "provisionNumberKey": "358",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van de inkomstenbelastingen 1992 (WIB 1992)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-003",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:2019:ARR.075002-002",
+        "provisionNumber": "artikel 10",
+        "provisionNumberKey": "10",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet (Belgische Grondwet)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 10 (gelijkheidsbeginsel) garandeert dat verschillen in behandeling toelaten zijn wanneer de wetgever daarvoor een redelijke verantwoording heeft. In fiscale zaken heeft de wetgever een ruime beoordelingsmarge; het Hof toetst of een verschil in behandeling objectief en evenredig gerechtvaardigd is ten opzichte van de nagestreefde doelstelling.",
+        "relevantFactualContext": "De prejudiciële vraag betreft de vraag of de voorwaarde van uitgifte van nieuwe aandelen bij een kapitaalsverhoging onredelijk onderscheid vormt tussen een bvba die geen nieuwe aandelen uitgaf en een bvba die dat wel deed (aanslagjaren 2008–2012, feiten rond kapitaalsverhoging 2002)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-004",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:2019:ARR.075002-002",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet (Belgische Grondwet)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof benadrukt dat artikel 11 het non-discriminatiebeginsel bevestigt en, samen met artikel 10, toelaat dat de wetgever fiscale voordelen aan bepaalde categorieën toekent voor zover het verschil in behandeling een objectieve en redelijke rechtvaardiging heeft; toetsing omvat relevantie en evenredigheid ten opzichte van het beoogde doel.",
+        "relevantFactualContext": "De zaak draait om de toepassing van artikel 269, lid 3, b) op dividenden na een kapitaalsverhoging zonder uitgifte van nieuwe aandelen, hetgeen door de administratie als reden werd aangevoerd om de hogere aanslagvoet van 25% toe te passen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-005",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:2019:ARR.075002-002",
+        "provisionNumber": "artikel 172",
+        "provisionNumberKey": "172",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet (Belgische Grondwet)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof merkt op dat artikel 172 een bijzondere toepassing van het gelijkheidsbeginsel in fiscale aangelegenheden is: het verbiedt arbitraire fiscale discriminatie maar laat verschillen toe indien zij door de wetgever redelijk worden verantwoord en evenredig zijn in verhouding tot de nagestreefde fiscale en socio-economische doelstellingen.",
+        "relevantFactualContext": "Toetsing van artikel 269, derde lid, b) vond plaats in het kader van fiscale gelijkheid: of het beperken van de verlaagde roerende voorheffing tot nieuw uitgegeven aandelen een redelijke fiscale maatregel is in het concrete geval van de verwijzende bvba."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-006",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:2019:ARR.075-003",
+        "provisionNumber": "artikel 20",
+        "provisionNumberKey": "20",
+        "parentActType": "WET",
+        "parentActName": "wet van 30 maart 1994 tot uitvoering van het globaal plan op het stuk van de fiscaliteit (wet van 30/03/1994)",
+        "parentActDate": "1994-03-30",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verwijst naar artikel 20 van de wet van 30 maart 1994 en de parlementaire voorbereiding om te duiden dat de in artikel 269 ingevoerde verlaging van de roerende voorheffing tot doel had het beleggen in risicokapitaal te stimuleren en zoveel mogelijk personen aan te zetten aandelen te verwerven. De invoering van de VVPR-categorie en de beperking tot nieuw uitgegeven aandelen dienden identificatie, controle en misbruikspreventie.",
+        "relevantFactualContext": "De wetshistorie en het doel van de wijziging zijn relevante maatstaven; in casu ging het om toepassing van die regeling op een kapitaalsverhoging van 2002 waarbij geen nieuwe aandelen werden uitgegeven, waardoor de administratieve controle en identificatievragen centraal stonden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-007",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:2019:ARR.075-004",
+        "provisionNumber": "artikel 65",
+        "provisionNumberKey": "65",
+        "parentActType": "ANDERE",
+        "parentActName": "bijzondere wet van 6 januari 1989 op het Grondwettelijk Hof (bijzondere wet 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Rechtbank van eerste aanleg Luik, afdeling Luik",
+        "date": "2018-02-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GHCC:2019:ARR.075-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Het Grondwettelijk Hof",
+        "date": "2018-03-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GHCC:2019:ARR.075-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "het Grondwettelijk Hof",
+        "date": "2019-02-27",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GHCC:2019:ARR.075-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "het Grondwettelijk Hof",
+        "date": "2019-03-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GHCC:2019:ARR.075-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Belastingrecht",
+      "Kapitaalverhoging",
+      "Uitgifte nieuwe aandelen",
+      "Eenpersoonsvennootschap",
+      "Roerende voorheffing",
+      "Gelijkheidsbeginsel",
+      "Discriminatie",
+      "Antimisbruikmaatregel",
+      "Evenredigheidstoets",
+      "Prejudiciële vraag"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GHCC:2019:ARR.075-001",
+        "text": "In fiscale aangelegenheden beschikt de wetgever over een ruime beoordelingsmarge; een verschil in behandeling is toelaatbaar zolang het een objectieve en redelijke verantwoording heeft en relevant en evenredig is ten opzichte van de nagestreefde fiscale doelstelling (relevantie en evenredigheidstoets).",
+        "courtVerbatim": "De artikelen 10 en 11 van de Grondwet waarborgen het beginsel van gelijkheid en niet-discriminatie. Artikel 172 van de Grondwet is een bijzondere toepassing van dat beginsel in fiscale aangelegenheden. Het gelijkheidsbeginsel in fiscale zaken verbiedt de wetgever niet een fiscaal voordeel toe te kennen aan sommige belastingplichtigen, op voorwaarde dat het aldus ingevoerde verschil in behandeling redelijk kan worden verantwoord. Het komt de wetgever toe het tarief van de belasting vast te stellen. Hij beschikt ter zake over een ruime beoordelingsmarge. Fiscale maatregelen maken immers een wezenlijk onderdeel uit van het sociaaleconomische beleid.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een fiscale regel een verschil in behandeling introduceert en het gelijkheidsbeginsel (art.10/11/172 Gw.) ter toetsing wordt aangeroepen.",
+        "relevantFactualContext": "De prejudiciële vraag betrof de verenigbaarheid van artikel 269, derde lid, b), WIB 1992 met de artikelen 10, 11 en 172 van de Grondwet in het kader van dividenden na een kapitaalsverhoging.",
+        "principleType": "BALANCING_TEST",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:GHCC:2019:ARR.075-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GHCC:2019:ARR.075-003",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-004",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-005"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GHCC:2019:ARR.075-002",
+        "text": "Artikel 269, derde lid, b), WIB 1992 moet aldus worden gelezen dat de verlaagde aanslagvoet van 15% slechts toepasselijk is op dividenden van aandelen uitgegeven vanaf 1 januari 1994 die voldoen aan de identificatievoorwaarden; de wetgever mag bij kapitaalsverhoging de uitgifte van nieuwe aandelen als voorwaarde stellen om identificatie, controle en misbruikspreventie mogelijk te maken, mits die maatregel relevant en evenredig is ten opzichte van het nagestreefde doel.",
+        "courtVerbatim": "Dat verschil vindt een evidente verantwoording in de noodzaak om de aandelen te kunnen identificeren die dat voordeel kunnen genieten, en, bijgevolg, een controle, door de administratie, mogelijk te maken van het gedeelte van de roerende voorheffing dat aan de verlaagde aanslagvoet is onderworpen. Dat maakt het mogelijk te verantwoorden dat bij de ontstentenis van uitgifte van nieuwe aandelen bij een vanaf 1 januari 1994 doorgevoerde kapitaalsverhoging, de verlaagde aanslagvoet niet kan worden toegepast op de dividenden van de daarop betrekking hebbende aandelen. Tot slot is het in het geding zijnde verschil in behandeling niet onevenredig gelet op de door de wetgever nagestreefde doelstellingen. Elke vennootschap, ongeacht de vorm ervan, die tot een kapitaalsverhoging overgaat, kan immers beslissen nieuwe aandelen uit te geven en aldus aan de bij artikel 269, derde lid, b), van het WIB 1992 voorgeschreven voorwaarden voldoen om het voordeel van de verlaagde aanslagvoet van de roerende voorheffing te genieten.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij de interpretatie en toetsing van artikel 269, derde lid, b), WIB 1992 betreffende de toekenning van de verlaagde roerende voorheffing na een kapitaalsverhoging.",
+        "relevantFactualContext": "In het bodemgeschil voerde de verweerder op 4 december 2002 een kapitaalsverhoging door zonder uitgifte van nieuwe effecten (aanpassing nominale waarde); de administratie weigerde daarop de 15%-aanslagvoet en paste 25% toe.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GHCC:2019:ARR.075-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GHCC:2019:ARR.075-001",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-006"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 1,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 2,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De vennootschap betoogde dat artikel 269, derde lid, b), WIB 1992 ongrondwettig is omdat bij een kapitaalsverhoging alleen dividenden verbonden aan nieuw uitgegeven aandelen van na 1 januari 1994 van het verlaagde tarief van de roerende voorheffing mochten genieten, wat volgens haar discriminatoir was tegenover verhogingen zonder uitgifte van nieuwe effecten. Het Grondwettelijk Hof verklaart die klacht ongegrond en oordeelt dat artikel 269, derde lid, b), voor de aanslagjaren 2008‑2012 de artikelen 10, 11 en 172 van de Grondwet niet schendt. Het Hof stelt dat het verschil in behandeling op een objectief criterium berust en redelijk is te verantwoorden wegens de noodzaak identificatie en controle mogelijk te maken, misbruik tegen te gaan en deelname aan kapitaalsverhogingen te bevorderen, waarbij de wetgever een ruime beoordelingsmarge heeft."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Rolnummer 6865 In zake : de prejudiciële vraag betreffende artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992, gesteld door de Rechtbank van eerste aanleg Luik, afdeling Luik. Het Grondwettelijk Hof, samengesteld uit de voorzitters F. Daoût en A. Alen, en de rechters L. Lavrysen, J.-P. Snappe, J.-P. Moerman, E. Derycke en P. Nihoul, bijgestaan door de griffier P.-Y. Dutilleux, onder voorzitterschap van voorzitter F. Daoût, wijst na beraad het volgende arrest : 2</p>",
+          "<p class=\"case-section__paragraph\">« Schendt artikel 269, derde lid, b), van het WIB 1992, zoals van toepassing op de in het geding zijnde aanslagjaren, de artikelen 10, 11 en 172 van de Grondwet, in zoverre het vereist, bij een kapitaalsverhoging na 1 januari 1994, dat nieuwe effecten worden uitgegeven teneinde de verlaagde aanslagvoet van de roerende voorheffing op die effecten te kunnen genieten, terwijl die verlaagde aanslagvoet niet van toepassing is wanneer hetzelfde kapitaal het voorwerp uitmaakt van eenzelfde verhoging zonder dat nieuwe effecten worden uitgegeven ? ».</p>",
+          "<p class=\"case-section__paragraph\">Bij de Rechtbank van eerste aanleg Luik, afdeling Luik, is door de bvba « Ahtco » een vordering ingesteld tot betwisting van zeven roerende voorheffingen die te haren laste door de administratie zijn ingekohierd voor de aanslagjaren 2008 tot 2012. De bvba « Ahtco », bestaande uit één enkele persoon, is opgericht op 28 januari 1987. De verzoekende partij heeft dividenden uitgekeerd waarop zij een roerende voorheffing van 15 % heeft ingehouden, met toepassing van artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992 (hierna : WIB 1992). Volgens de administratie zijn de voorwaarden voor de toepassing van de aanslagvoet van 15 % waarin is voorzien bij de voormelde bepaling niet vervuld en diende de in aanmerking genomen aanslagvoet 25 % te bedragen. De aangiften van de verzoekende partij zijn in die zin gewijzigd. Na een heropening van de debatten met betrekking tot het aanvangspunt van de termijn bepaald in artikel 358, § 2, 1°, van het WIB 1992 is de zaak opnieuw bij het verwijzende rechtscollege aanhangig gemaakt. De heropening van de debatten had ten doel de administratie de mogelijkheid te bieden de stukken neer te leggen die de datum van het begin van de controle aantonen. Na die stukken te hebben onderzocht, stelt het verwijzende 3 rechtscollege vast dat er geen verjaring is. Het oordeelt ook dat, in tegenstelling tot hetgeen de verzoekende partij betoogt, het wel degelijk de aanslagvoet van 25 % is die moet worden toegepast, aangezien de aanslagvoet van 15 % enkel had kunnen worden toegepast indien de op 4 december 2002 doorgevoerde kapitaalsverhoging aanleiding had gegeven tot de aanmaak van nieuwe aandelen, hetgeen niet het geval is. Blijft dan nog de prejudiciële vraag waarvan de verzoekende partij vraagt haar aan het Hof te stellen en die betrekking heeft op de bestaanbaarheid van artikel 269, derde lid, b), van het WIB 1992 met de artikelen 10, 11 en 172 van de Grondwet, vraag die de Rechtbank heeft overgenomen en die hiervoor is weergegeven.</p>",
+          "<p class=\"case-section__paragraph\">De verzoekende partij voor de verwijzende rechter betoogt dat het in het geding zijnde artikel 269, derde lid, b), van het WIB 1992 het beginsel van gelijkheid en niet-discriminatie schendt, in zoverre het bij een kapitaalsverhoging voor vennootschappen die, zoals de hare, één enkele vennoot omvatten, van het voordeel van de verlaagde aanslagvoet van de roerende voorheffing de dividenden uitsluit die geen nieuwe inbrengen vergoeden. De in het geding zijnde bepaling zou aldus de enige vennoot van een bvba die bij de op 4 december 2002 doorgevoerde kapitaalsverhoging geen nieuwe effecten heeft uitgegeven en de enige vennoot van een bvba die dat wel zou hebben gedaan, verschillend behandelen. Met artikel 269 van het WIB 1992 wordt, door te voorzien in een tot 15 % verlaagde aanslagvoet, weliswaar een wettig doel nagestreefd dat erin bestaat investeringen in geld in het risicokapitaal van vennootschappen, ongeacht of die al dan niet beursgenoteerd zijn, te bevorderen. Parallel daarmee neemt de wetgever een reeks « antimisbruik »-maatregelen aan teneinde gesimuleerde kapitaalsverhogingen te bestrijden. Het is echter juist de grondwettigheid van een van die maatregelen die de verzoekende partij betwist, namelijk de verplichting om bij een kapitaalsverhoging nieuwe aandelen aan te maken om het voordeel van de verlaagde aanslagvoet te kunnen genieten. Hooguit zou de vereiste van het aanmaken van nieuwe aandelen bij een kapitaalsverhoging kunnen worden verantwoord door de bedoeling om het mogelijk te maken het bestaande kapitaal en het nieuwe kapitaal van elkaar te onderscheiden. Indien zulks wel degelijk de door de wetgever nagestreefde doelstelling is, is die doelstelling niet redelijk verantwoord. Allereerst is het onderscheid niet relevant ten opzichte van het nagestreefde doel om beleggingen in risicokapitaal te bevorderen. Indien de specifieke doelstelling in werkelijkheid erin bestaat het « goede (nieuwe) kapitaal » van het « slechte (bestaande) kapitaal » te onderscheiden, zijn er andere manieren om dat te doen dan de verplichting op te leggen om bij de kapitaalsverhoging nieuwe aandelen aan te maken. De twee notariële akten die vereist zijn, enerzijds, bij de oprichting van de vennootschap en, anderzijds, bij de verhoging van het kapitaal volstaan om dat aan te tonen, inclusief om te preciseren welke bedragen afkomstig zijn van een inbreng in geld na 1 januari 1994. Er bestaat evenmin een verband van evenredigheid tussen de gevolgen van dat onderscheid en de nagestreefde doelstelling. Na eerst te hebben overwogen de verlaging van de roerende voorheffing enkel toe te passen op de dividenden van aandelen uitgegeven door een openbaar beroep op het spaarwezen, heeft de wetgever, volgens de parlementaire voorbereiding, die verlaging uitgebreid tot de ondernemingen die geen dergelijk beroep op spaargelden doen en dat is de reden waarom hij antimisbruikmaatregelen heeft genomen. De verzoekende partij is van oordeel dat het bij een kapitaalsverhoging vereiste aanmaken van nieuwe aandelen bijzonder onevenredig is wanneer het, zoals in haar geval, gaat om een eenpersoonsvennootschap.</p>",
+          "<p class=\"case-section__paragraph\">De Ministerraad herinnert eraan dat de doelstelling van de verlaging van de roerende voorheffing op de dividenden van aandelen uitgegeven vanaf 1 januari 1994 ter gelegenheid van een kapitaalsverhoging door 4 inbreng in geld ertoe strekt het beleggen in risicokapitaal aan te moedigen en zoveel mogelijk personen ertoe aan te zetten aandelen te verwerven. Terwijl de wetgever het idee opgaf één enkel tarief in te voeren voor alle roerende inkomsten, aangezien die optie het niet mogelijk maakte de tweede doelstelling te bereiken, heeft hij in het verlengde daarvan ook beslist dat de verlaagde aanslagvoet enkel van toepassing zou zijn op dividenden verbonden aan aandelen uitgegeven vanaf 1 januari 1994. Het in het leven roepen van de nieuwe categorie van aandelen « verminderde voorheffing - précompte réduit », « VVPR » genaamd, heeft tot gevolg dat alleen de kapitaalsverhogingen met uitgifte van nieuwe aandelen bij de verlaging van de roerende voorheffing worden beoogd. Dat verschil vindt een evidente verantwoording in de noodzaak om de aandelen te kunnen identificeren die dat voordeel kunnen genieten en, bijgevolg, een controle, door de administratie, mogelijk te maken van het gedeelte van de roerende voorheffing dat aan de verlaagde aanslagvoet is onderworpen. Zoals het Hof reeds heeft doen opmerken, vermag de wetgever bij het bepalen van de nadere voorwaarden van een fiscale maatregel, te kiezen voor die voorwaarden die het minst aanleiding kunnen geven tot misbruiken. Dat maakt het mogelijk te verantwoorden dat bij de ontstentenis van uitgifte van nieuwe aandelen bij een vanaf 1 januari 1994 doorgevoerde kapitaalsverhoging, de verlaagde aanslagvoet niet kan worden toegepast op de dividenden van de daarop betrekking hebbende aandelen. Daarenboven maakt de vereiste in verband met de uitgifte van nieuwe aandelen het ook mogelijk tegemoet te komen aan de tweede doelstelling van de wetgever, namelijk zoveel mogelijk personen aanmoedigen om deel te nemen aan de kapitaalsverhoging. Voor het overige, voegt de Ministerraad eraan toe, is het verschil in behandeling evenredig in zoverre elke vennootschap die een kapitaalsverhoging doorvoert, zonder enig bijzonder formalisme, gemakkelijk kan beslissen nieuwe aandelen uit te geven en kan voldoen aan de voorwaarden voorgeschreven bij artikel 269, derde lid, b), van het WIB 1992. De keuze van de bvba « Ahtco » om geen nieuwe aandelen uit te geven, is dus een na rijp beraad gemaakte keuze waaruit zij in het voorliggende geval de gevolgen moet trekken.</p>",
+          "<p class=\"case-section__paragraph\">De Ministerraad wenst in zijn memorie van antwoord te onderstrepen dat artikel 269, derde lid, b), van het WIB 1992 van toepassing is op alle kapitaalsverhogingen, zonder een onderscheid te maken dat is gebaseerd op de vorm van de vennootschap die daartoe overgaat. Bijgevolg, ook al is voor de aangiften van kapitaalsverhoging de controle eenvoudiger wanneer er maar één vennoot is, is zij veel complexer voor alle andere vennootschapsvormen. De wetgever vermag redelijkerwijze niet, zoals de bvba « Ahtco » dat doet, rekening te houden met de persoonlijke situatie van een specifieke vennootschap op een gegeven ogenblik. Daarenboven, indien de wetgever een verschil in behandeling had gemaakt tussen de vennootschappen met één enkele vennoot en de andere vennootschappen, zou hij een niet-verantwoorde discriminatie in het leven hebben geroepen ten aanzien van de in hoofdzaak nagestreefde doelstelling, die te dezen erin bestaat zoveel mogelijk personen de mogelijkheid te bieden aan een geplande kapitaalsverhoging deel te nemen.</p>",
+          "<p class=\"case-section__paragraph\">In de prejudiciële vraag wordt het Hof verzocht zich uit te spreken over de bestaanbaarheid, met de artikelen 10, 11 en 172 van de Grondwet, van artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992 (hierna : WIB 1992), in zoverre het, bij een kapitaalsverhoging na 1 januari 1994, het voordeel van de verlaagde aanslagvoet van 5 de roerende voorheffing op die effecten afhankelijk stelt van de uitgifte van nieuwe effecten, terwijl die verlaagde aanslagvoet niet van toepassing is wanneer hetzelfde kapitaal het voorwerp uitmaakt van eenzelfde verhoging zonder dat nieuwe effecten worden uitgegeven.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 269, derde lid, van het WIB 1992, in de versie ervan die van toepassing is op het aan de verwijzende rechter voorgelegde geschil, bepaalde :</p>",
+          "<p class=\"case-section__paragraph\">« Voor zover de vennootschap die de inkomsten uitkeert niet onherroepelijk verzaakt aan het voordeel van deze verlaging, wordt de aanslagvoet van 25 pct. eveneens verlaagd tot 15 pct. voor de volgende dividenden :</p>",
+          "<li><p class=\"case-section__paragraph\">a) dividenden van aandelen uitgegeven vanaf 1 januari 1994 door het openbaar aantrekken van spaargelden;</p></li>",
+          "<li><p class=\"case-section__paragraph\">b) dividenden van aandelen die vanaf hun uitgifte :</p></li>",
+          "<li><p class=\"case-section__paragraph\">het voorwerp hebben uitgemaakt van een inschrijving op naam bij de uitgever, indien het gaat om aandelen op naam,</p></li>",
+          "<p class=\"case-section__paragraph\">wanneer die aandelen werden uitgegeven vanaf 1 januari 1994 ter vertegenwoordiging van maatschappelijk kapitaal en overeenstemmen met inbrengen in geld. […] ».</p>",
+          "<p class=\"case-section__paragraph\">Uit de in de verwijzingsbeslissing uiteengezette feiten blijkt dat de verzoekende bvba voor de verwijzende rechter tot een kapitaalsverhoging is overgegaan zonder nieuwe effecten op naam uit te geven, in het kader van een juridische constructie die erin bestond de nominale waarde van de bestaande aandelen te schrappen, hetgeen een verhoging van hun fractiewaarde mogelijk maakte. Zij had het voordeel van de verlaging kunnen genieten indien zij nieuwe aandelen had uitgegeven overeenkomstig artikel 269, derde lid, b), van het WIB 1992, hetgeen zij zelf erkent, aangezien zij haar situatie vergelijkt met die van een uit één enkele persoon bestaande bvba die, in tegenstelling tot haar, tot een kapitaalsverhoging zou zijn overgegaan onder de bij de in het geding zijnde bepaling voorgeschreven voorwaarden. 9 Er dient te worden aangenomen dat een vennootschap die beslist tot een kapitaalsverhoging over te gaan onder dezelfde omstandigheden als de verzoekende bvba voor de verwijzende rechter, de voor- en nadelen ervan heeft afgewogen. De in het geding zijnde bepaling kan bijgevolg niet worden verweten dat zij tot gevolg heeft de voormelde bvba op discriminatoire wijze uit te sluiten van het recht op de belastingvermindering.</p>",
+          "<p class=\"case-footer__paragraph\">Artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992, zoals het van toepassing is op de aanslagjaren 2008 tot 2012, schendt de artikelen 10, 11 en 172 van de Grondwet niet.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:2019:ARR.075-001",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-002",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-003",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-004",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-005",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:2019:ARR.075-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de Rechtbank van eerste aanleg Luik, afdeling Luik, is door de bvba « Ahtco » een vordering ingesteld tot betwisting van zeven roerende voorheffingen die te haren laste door de administratie zijn ingekohierd voor de aanslagjaren 2008 tot 2012. De bvba « Ahtco », bestaande uit één enkele persoon, is opgericht op 28 januari 1987. De verzoekende partij heeft dividenden uitgekeerd waarop zij een roerende voorheffing van 15 % heeft ingehouden, met toepassing van artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992 (hierna : WIB 1992). Volgens de administratie zijn de voorwaarden voor de toepassing van de aanslagvoet van 15 % waarin is voorzien bij de voormelde bepaling niet vervuld en diende de in aanmerking genomen aanslagvoet 25 % te bedragen. De aangiften van de verzoekende partij zijn in die zin gewijzigd. Na een heropening van de debatten met betrekking tot het aanvangspunt van de termijn bepaald in artikel 358, § 2, 1°, van het WIB 1992 is de zaak opnieuw bij het verwijzende rechtscollege aanhangig gemaakt. De heropening van de debatten had ten doel de administratie de mogelijkheid te bieden de stukken neer te leggen die de datum van het begin van de controle aantonen. Na die stukken te hebben onderzocht, stelt het verwijzende 3 rechtscollege vast dat er geen verjaring is. Het oordeelt ook dat, in tegenstelling tot hetgeen de verzoekende partij betoogt, het wel degelijk de aanslagvoet van 25 % is die moet worden toegepast, aangezien de aanslagvoet van 15 % enkel had kunnen worden toegepast indien de op 4 december 2002 doorgevoerde kapitaalsverhoging aanleiding had gegeven tot de aanmaak van nieuwe aandelen, hetgeen niet het geval is. Blijft dan nog de prejudiciële vraag waarvan de verzoekende partij vraagt haar aan het Hof te stellen en die betrekking heeft op de bestaanbaarheid van artikel 269, derde lid, b), van het WIB 1992 met de artikelen 10, 11 en 172 van de Grondwet, vraag die de Rechtbank heeft overgenomen en die hiervoor is weergegeven.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:2019:ARR.075-002",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:2019:ARR.075-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">« Schendt artikel 269, derde lid, b), van het WIB 1992, zoals van toepassing op de in het geding zijnde aanslagjaren, de artikelen 10, 11 en 172 van de Grondwet, in zoverre het vereist, bij een kapitaalsverhoging na 1 januari 1994, dat nieuwe effecten worden uitgegeven teneinde de verlaagde aanslagvoet van de roerende voorheffing op die effecten te kunnen genieten, terwijl die verlaagde aanslagvoet niet van toepassing is wanneer hetzelfde kapitaal het voorwerp uitmaakt van eenzelfde verhoging zonder dat nieuwe effecten worden uitgegeven ? ».</p>",
+          "<p class=\"case-section__paragraph\">In de prejudiciële vraag wordt het Hof verzocht zich uit te spreken over de bestaanbaarheid, met de artikelen 10, 11 en 172 van de Grondwet, van artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992 (hierna : WIB 1992), in zoverre het, bij een kapitaalsverhoging na 1 januari 1994, het voordeel van de verlaagde aanslagvoet van 5 de roerende voorheffing op die effecten afhankelijk stelt van de uitgifte van nieuwe effecten, terwijl die verlaagde aanslagvoet niet van toepassing is wanneer hetzelfde kapitaal het voorwerp uitmaakt van eenzelfde verhoging zonder dat nieuwe effecten worden uitgegeven.</p>",
+          "<p class=\"case-section__paragraph\">De artikelen 10 en 11 van de Grondwet waarborgen het beginsel van gelijkheid en niet-discriminatie. Artikel 172 van de Grondwet is een bijzondere toepassing van dat beginsel in fiscale aangelegenheden. Het gelijkheidsbeginsel in fiscale zaken verbiedt de wetgever niet een fiscaal voordeel toe te kennen aan sommige belastingplichtigen, op voorwaarde dat het aldus ingevoerde verschil in behandeling redelijk kan worden verantwoord. 6</p>",
+          "<p class=\"case-footer__paragraph\">Artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992, zoals het van toepassing is op de aanslagjaren 2008 tot 2012, schendt de artikelen 10, 11 en 172 van de Grondwet niet.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:2019:ARR.075-003",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-004",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-005",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:2019:ARR.075-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">« Schendt artikel 269, derde lid, b), van het WIB 1992, zoals van toepassing op de in het geding zijnde aanslagjaren, de artikelen 10, 11 en 172 van de Grondwet, in zoverre het vereist, bij een kapitaalsverhoging na 1 januari 1994, dat nieuwe effecten worden uitgegeven teneinde de verlaagde aanslagvoet van de roerende voorheffing op die effecten te kunnen genieten, terwijl die verlaagde aanslagvoet niet van toepassing is wanneer hetzelfde kapitaal het voorwerp uitmaakt van eenzelfde verhoging zonder dat nieuwe effecten worden uitgegeven ? ».</p>",
+          "<p class=\"case-section__paragraph\">In de prejudiciële vraag wordt het Hof verzocht zich uit te spreken over de bestaanbaarheid, met de artikelen 10, 11 en 172 van de Grondwet, van artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992 (hierna : WIB 1992), in zoverre het, bij een kapitaalsverhoging na 1 januari 1994, het voordeel van de verlaagde aanslagvoet van 5 de roerende voorheffing op die effecten afhankelijk stelt van de uitgifte van nieuwe effecten, terwijl die verlaagde aanslagvoet niet van toepassing is wanneer hetzelfde kapitaal het voorwerp uitmaakt van eenzelfde verhoging zonder dat nieuwe effecten worden uitgegeven.</p>",
+          "<p class=\"case-section__paragraph\">De artikelen 10 en 11 van de Grondwet waarborgen het beginsel van gelijkheid en niet-discriminatie. Artikel 172 van de Grondwet is een bijzondere toepassing van dat beginsel in fiscale aangelegenheden. Het gelijkheidsbeginsel in fiscale zaken verbiedt de wetgever niet een fiscaal voordeel toe te kennen aan sommige belastingplichtigen, op voorwaarde dat het aldus ingevoerde verschil in behandeling redelijk kan worden verantwoord. 6</p>",
+          "<p class=\"case-footer__paragraph\">Artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992, zoals het van toepassing is op de aanslagjaren 2008 tot 2012, schendt de artikelen 10, 11 en 172 van de Grondwet niet.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:2019:ARR.075-004",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-003",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-005",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:2019:ARR.075-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">« Schendt artikel 269, derde lid, b), van het WIB 1992, zoals van toepassing op de in het geding zijnde aanslagjaren, de artikelen 10, 11 en 172 van de Grondwet, in zoverre het vereist, bij een kapitaalsverhoging na 1 januari 1994, dat nieuwe effecten worden uitgegeven teneinde de verlaagde aanslagvoet van de roerende voorheffing op die effecten te kunnen genieten, terwijl die verlaagde aanslagvoet niet van toepassing is wanneer hetzelfde kapitaal het voorwerp uitmaakt van eenzelfde verhoging zonder dat nieuwe effecten worden uitgegeven ? ».</p>",
+          "<p class=\"case-section__paragraph\">In de prejudiciële vraag wordt het Hof verzocht zich uit te spreken over de bestaanbaarheid, met de artikelen 10, 11 en 172 van de Grondwet, van artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992 (hierna : WIB 1992), in zoverre het, bij een kapitaalsverhoging na 1 januari 1994, het voordeel van de verlaagde aanslagvoet van 5 de roerende voorheffing op die effecten afhankelijk stelt van de uitgifte van nieuwe effecten, terwijl die verlaagde aanslagvoet niet van toepassing is wanneer hetzelfde kapitaal het voorwerp uitmaakt van eenzelfde verhoging zonder dat nieuwe effecten worden uitgegeven.</p>",
+          "<p class=\"case-section__paragraph\">De artikelen 10 en 11 van de Grondwet waarborgen het beginsel van gelijkheid en niet-discriminatie. Artikel 172 van de Grondwet is een bijzondere toepassing van dat beginsel in fiscale aangelegenheden. Het gelijkheidsbeginsel in fiscale zaken verbiedt de wetgever niet een fiscaal voordeel toe te kennen aan sommige belastingplichtigen, op voorwaarde dat het aldus ingevoerde verschil in behandeling redelijk kan worden verantwoord. 6</p>",
+          "<p class=\"case-footer__paragraph\">Artikel 269, derde lid, b), van het Wetboek van de inkomstenbelastingen 1992, zoals het van toepassing is op de aanslagjaren 2008 tot 2012, schendt de artikelen 10, 11 en 172 van de Grondwet niet.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:2019:ARR.075-005",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-003",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-004",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:2019:ARR.075-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De in het geding zijnde bepaling is in het WIB 1992 ingevoegd bij artikel 20 van de wet van 30 maart 1994 tot uitvoering van het globaal plan op het stuk van de fiscaliteit. In de parlementaire voorbereiding wordt vermeld dat de aan artikel 269 van het WIB 1992 aangebrachte wijzigingen tot doel hebben « het beleggen in risicokapitaal aan te moedigen door het tarief van de roerende voorheffing van 25 % of van 20 % op 13 % [later : 15 %] terug te brengen voor […] dividenden » die aan een aantal voorwaarden voldoen (Parl. St., Kamer, 1993-1994, nr. 1290/3, p. 8) en « een zo groot mogelijk aantal mensen tot het aanhouden van aandelen aan te zetten » (Parl. St., Senaat, 1993-1994, nr. 1002-2, p. 12). In het verslag van de commissie voor de Financiën van de Senaat wordt gepreciseerd : « dat het niet alleen gaat om een stimulans voor de emitterende vennootschap maar ook voor de belegger want deze laatste wordt ertoe aangezet zijn portefeuille te diversifiëren en in te schrijven op kapitaalsverhogingen » (ibid., p. 14). Daaruit blijkt dat de door de wetgever nagestreefde doelstelling tweevoudig is : enerzijds, de vennootschappen ertoe aan te zetten hun kapitaal te verhogen door een inbreng in geld en aldus het voordeel van nieuwe middelen te genieten om hun activiteiten te ontwikkelen en, anderzijds, zoveel mogelijk personen de mogelijkheid bieden aandelen te verwerven en aldus hun portefeuille te diversifiëren door op die kapitaalsverhoging in te schrijven. 7</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:2019:ARR.075-006",
+          "ART-ECLI:BE:GHCC:2019:ARR.075-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:2019:ARR.075-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Aldus gewezen in het Frans en het Nederlands, overeenkomstig artikel 65 van de bijzondere wet van 6 januari 1989 op het Grondwettelijk Hof, op 23 mei 2019. De griffier, De voorzitter, P.-Y. Dutilleux F. Daoût</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:2019:ARR.075-007"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 7,
+      "citationStatistics": {
+        "totalCitations": 30,
+        "avgCitationsPerProvision": 4.285714285714286,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.2857142857142856,
+        "avgDecisionsPerProvision": 0.7142857142857143,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GHCC:2019:ARR.075-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De artikelen 10 en 11 van de Grondwet waarborgen het beginsel van gelijkheid en niet-discriminatie. Artikel 172 van de Grondwet is een bijzondere toepassing van dat beginsel in fiscale aangelegenheden. Het gelijkheidsbeginsel in fiscale zaken verbiedt de wetgever niet een fiscaal voordeel toe te kennen aan sommige belastingplichtigen, op voorwaarde dat het aldus ingevoerde verschil in behandeling redelijk kan worden verantwoord. 6</p>",
+          "<p class=\"case-section__paragraph\">Het komt de wetgever toe het tarief van de belasting vast te stellen. Hij beschikt ter zake over een ruime beoordelingsmarge. Fiscale maatregelen maken immers een wezenlijk onderdeel uit van het sociaaleconomische beleid. Zij zorgen niet alleen voor een substantieel deel van de inkomsten die de verwezenlijking van dat beleid mogelijk moeten maken, maar zij laten de wetgever ook toe om sturend en corrigerend op te treden en op die manier het sociale en economische beleid vorm te geven. De maatschappelijke keuzen die bij het inzamelen en het inzetten van middelen moeten worden gemaakt, behoren derhalve tot de beoordelingsvrijheid van de wetgever. Wanneer bij die keuze een verschil in behandeling blijkt, dient het Hof evenwel na te gaan of dat verschil berust op een redelijke verantwoording.</p>",
+          "<p class=\"case-section__paragraph\">Tot slot is het in het geding zijnde verschil in behandeling niet onevenredig gelet op de door de wetgever nagestreefde doelstellingen. Elke vennootschap, ongeacht de vorm ervan, die tot een kapitaalsverhoging overgaat, kan immers beslissen nieuwe aandelen uit te geven en aldus aan de bij artikel 269, derde lid, b), van het WIB 1992 voorgeschreven voorwaarden voldoen om het voordeel van de verlaagde aanslagvoet van de roerende voorheffing te genieten.</p>",
+          "<p class=\"case-section__paragraph\">Uit de in de verwijzingsbeslissing uiteengezette feiten blijkt dat de verzoekende bvba voor de verwijzende rechter tot een kapitaalsverhoging is overgegaan zonder nieuwe effecten op naam uit te geven, in het kader van een juridische constructie die erin bestond de nominale waarde van de bestaande aandelen te schrappen, hetgeen een verhoging van hun fractiewaarde mogelijk maakte. Zij had het voordeel van de verlaging kunnen genieten indien zij nieuwe aandelen had uitgegeven overeenkomstig artikel 269, derde lid, b), van het WIB 1992, hetgeen zij zelf erkent, aangezien zij haar situatie vergelijkt met die van een uit één enkele persoon bestaande bvba die, in tegenstelling tot haar, tot een kapitaalsverhoging zou zijn overgegaan onder de bij de in het geding zijnde bepaling voorgeschreven voorwaarden. 9 Er dient te worden aangenomen dat een vennootschap die beslist tot een kapitaalsverhoging over te gaan onder dezelfde omstandigheden als de verzoekende bvba voor de verwijzende rechter, de voor- en nadelen ervan heeft afgewogen. De in het geding zijnde bepaling kan bijgevolg niet worden verweten dat zij tot gevolg heeft de voormelde bvba op discriminatoire wijze uit te sluiten van het recht op de belastingvermindering.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GHCC:2019:ARR.075-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Ministerraad herinnert eraan dat de doelstelling van de verlaging van de roerende voorheffing op de dividenden van aandelen uitgegeven vanaf 1 januari 1994 ter gelegenheid van een kapitaalsverhoging door 4 inbreng in geld ertoe strekt het beleggen in risicokapitaal aan te moedigen en zoveel mogelijk personen ertoe aan te zetten aandelen te verwerven. Terwijl de wetgever het idee opgaf één enkel tarief in te voeren voor alle roerende inkomsten, aangezien die optie het niet mogelijk maakte de tweede doelstelling te bereiken, heeft hij in het verlengde daarvan ook beslist dat de verlaagde aanslagvoet enkel van toepassing zou zijn op dividenden verbonden aan aandelen uitgegeven vanaf 1 januari 1994. Het in het leven roepen van de nieuwe categorie van aandelen « verminderde voorheffing - précompte réduit », « VVPR » genaamd, heeft tot gevolg dat alleen de kapitaalsverhogingen met uitgifte van nieuwe aandelen bij de verlaging van de roerende voorheffing worden beoogd. Dat verschil vindt een evidente verantwoording in de noodzaak om de aandelen te kunnen identificeren die dat voordeel kunnen genieten en, bijgevolg, een controle, door de administratie, mogelijk te maken van het gedeelte van de roerende voorheffing dat aan de verlaagde aanslagvoet is onderworpen. Zoals het Hof reeds heeft doen opmerken, vermag de wetgever bij het bepalen van de nadere voorwaarden van een fiscale maatregel, te kiezen voor die voorwaarden die het minst aanleiding kunnen geven tot misbruiken. Dat maakt het mogelijk te verantwoorden dat bij de ontstentenis van uitgifte van nieuwe aandelen bij een vanaf 1 januari 1994 doorgevoerde kapitaalsverhoging, de verlaagde aanslagvoet niet kan worden toegepast op de dividenden van de daarop betrekking hebbende aandelen. Daarenboven maakt de vereiste in verband met de uitgifte van nieuwe aandelen het ook mogelijk tegemoet te komen aan de tweede doelstelling van de wetgever, namelijk zoveel mogelijk personen aanmoedigen om deel te nemen aan de kapitaalsverhoging. Voor het overige, voegt de Ministerraad eraan toe, is het verschil in behandeling evenredig in zoverre elke vennootschap die een kapitaalsverhoging doorvoert, zonder enig bijzonder formalisme, gemakkelijk kan beslissen nieuwe aandelen uit te geven en kan voldoen aan de voorwaarden voorgeschreven bij artikel 269, derde lid, b), van het WIB 1992. De keuze van de bvba « Ahtco » om geen nieuwe aandelen uit te geven, is dus een na rijp beraad gemaakte keuze waaruit zij in het voorliggende geval de gevolgen moet trekken.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 269, derde lid, van het WIB 1992, in de versie ervan die van toepassing is op het aan de verwijzende rechter voorgelegde geschil, bepaalde :</p>",
+          "<p class=\"case-section__paragraph\">« Voor zover de vennootschap die de inkomsten uitkeert niet onherroepelijk verzaakt aan het voordeel van deze verlaging, wordt de aanslagvoet van 25 pct. eveneens verlaagd tot 15 pct. voor de volgende dividenden :</p>",
+          "<p class=\"case-section__paragraph\">a) dividenden van aandelen uitgegeven vanaf 1 januari 1994 door het openbaar aantrekken van spaargelden;</p>",
+          "<p class=\"case-section__paragraph\">b) dividenden van aandelen die vanaf hun uitgifte :</p>",
+          "<p class=\"case-section__paragraph\">het voorwerp hebben uitgemaakt van een inschrijving op naam bij de uitgever, indien het gaat om aandelen op naam,</p>",
+          "<p class=\"case-section__paragraph\">in België in open bewaargeving zijn gegeven, waarvan de Koning de voorwaarden en de wijze van toepassing bepaalt, bij een bank, een openbare kredietinstelling, een beursvennootschap of een spaarkas die aan de controle van de Commissie voor het Bank-, Financie- en Assurantiewezen is onderworpen, indien het gaat om aandelen aan toonder,</p>",
+          "<p class=\"case-section__paragraph\">in België op een effectenrekening zijn ingeschreven op naam van de eigenaar of de houder bij een vereffeningsinstelling of erkende rekeninghouder die gemachtigd is dergelijke effecten aan te houden, en waarbij de Koning de voorwaarden en de wijze van toepassing bepaalt, indien het gaat om gedematerialiseerde aandelen,</p>",
+          "<p class=\"case-section__paragraph\">wanneer die aandelen werden uitgegeven vanaf 1 januari 1994 ter vertegenwoordiging van maatschappelijk kapitaal en overeenstemmen met inbrengen in geld. […] ».</p>",
+          "<p class=\"case-section__paragraph\">De in het geding zijnde bepaling is in het WIB 1992 ingevoegd bij artikel 20 van de wet van 30 maart 1994 tot uitvoering van het globaal plan op het stuk van de fiscaliteit. In de parlementaire voorbereiding wordt vermeld dat de aan artikel 269 van het WIB 1992 aangebrachte wijzigingen tot doel hebben « het beleggen in risicokapitaal aan te moedigen door het tarief van de roerende voorheffing van 25 % of van 20 % op 13 % [later : 15 %] terug te brengen voor […] dividenden » die aan een aantal voorwaarden voldoen (Parl. St., Kamer, 1993-1994, nr. 1290/3, p. 8) en « een zo groot mogelijk aantal mensen tot het aanhouden van aandelen aan te zetten » (Parl. St., Senaat, 1993-1994, nr. 1002-2, p. 12). In het verslag van de commissie voor de Financiën van de Senaat wordt gepreciseerd : « dat het niet alleen gaat om een stimulans voor de emitterende vennootschap maar ook voor de belegger want deze laatste wordt ertoe aangezet zijn portefeuille te diversifiëren en in te schrijven op kapitaalsverhogingen » (ibid., p. 14). Daaruit blijkt dat de door de wetgever nagestreefde doelstelling tweevoudig is : enerzijds, de vennootschappen ertoe aan te zetten hun kapitaal te verhogen door een inbreng in geld en aldus het voordeel van nieuwe middelen te genieten om hun activiteiten te ontwikkelen en, anderzijds, zoveel mogelijk personen de mogelijkheid bieden aandelen te verwerven en aldus hun portefeuille te diversifiëren door op die kapitaalsverhoging in te schrijven. 7</p>",
+          "<p class=\"case-section__paragraph\">Aldus heeft de wetgever, teneinde de nagestreefde doelstellingen te bereiken, een nieuwe categorie van aandelen in het leven geroepen waaraan een verlaagde roerende voorheffing is verbonden, namelijk de aandelen « verminderde voorheffing - précompte réduit », « VVPR » genaamd, waarbij hij de vanaf 1 januari 1994 uitgegeven aandelen aldus aanmerkt voor zover zij aan de in artikel 269, derde lid, b), van het WIB 1992 vermelde voorwaarden voldoen.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 15,
+        "avgCitationsPerTeaching": 7.5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

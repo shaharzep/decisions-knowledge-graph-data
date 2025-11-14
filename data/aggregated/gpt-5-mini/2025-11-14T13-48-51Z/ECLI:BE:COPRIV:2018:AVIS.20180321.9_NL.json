@@ -1,0 +1,1537 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:2018:AVIS.20180321.9",
+  "language": "NL",
+  "metadata": {
+    "id": 166545,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+    "decision_date": "2018-03-21",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Advies",
+    "md_length": 38813,
+    "length_category": "very_long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commissie voor de bescherming van de persoonlijke levenssfeer, 21 maart 2018, Advies 29/2018, ECLI:BE:COPRIV:2018:AVIS.20180321.9"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "name": "Federale Overheidsdienst Financiën",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "name": "De Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De Federale Overheidsdienst Financiën verzocht op 1 augustus 2017 advies aan de Commissie voor de bescherming van de persoonlijke levenssfeer over een voorontwerp van koninklijk besluit betreffende het aanleggen en bijhouden van de kadastrale documentatie en een voorontwerp van ministerieel besluit tot vaststelling van modaliteiten voor het afleveren van kadastrale uittreksels (CO-2017-057). De Commissie formuleerde tijdens de zitting van 20 september 2017 vragen; aanvullende informatie werd verstrekt op 27 oktober 2017 en 19 januari 2018. In haar verslag (door de heer Stefan Verschuere) en dit advies van 21 maart 2018 onderzoekt de Commissie de toepasselijkheid van de wet van 8 december 1992 (WVP) en de gevolgen van de naderende inwerkingtreding van de AVG (algemene verordening gegevensbescherming) per 25 mei 2018, de definitie en inhoud van de kadastrale documentatie, de voorgestelde doeleinden en modaliteiten voor terbeschikkingstelling aan het publiek, en praktische onderwerpen zoals aanduiding van de verantwoordelijke voor de verwerking, veiligheids- en organisatorische maatregelen, register van raadplegingen, bewaartermijnen, transparantie en de rol van het Sectoraal comité voor de Federale Overheid bij machtigingen.",
+      "requests": [],
+      "arguments": [],
+      "courtOrder": "OM DEZE REDENEN,\nbrengt de Commissie, een gunstig advies uit op voorwaarde dat als volgt rekening wordt gehouden met de opmerkingen als omschreven onder de punten 7, 15, 27, 28, 31, 32 en 33-35 in dit advies:\n\n- Het ontwerp van Wetboek van de Patrimoniumdocumentatie voor advies aan de Commissie voorleggen (considerans 7);\n- Een effectbeoordeling uitvoeren, zowel voor de verwerking van de gegevens opgesomd in artikel 46 als deze opgesomd in artikel 44 (considerans 15);\n- De verwerkingen identificeren die moeten opgevolgd worden door een toezichtscomité, zoals onder meer de terbeschikkingstelling van gegevens op basis van het gerechtvaardigde belang van de aanvrager, of de gegevensverwerkingen die afwijken van de beschermingsmodaliteiten van het besluit (consideransen 27 en 33-35).\n\n- In de mate van het mogelijke voorzien in de codering en/of anonimisering van de ter beschikking van het publiek gestelde persoonsgegevens alsook een efficiënte informatieverstrekking aan de betrokkenen over de modaliteiten van de uitoefening van hun rechten (consideransen 28 en 32);\n- Een bewaringstermijn bepalen voor de gegevens (considerans 31).\n\nDe Commissie formuleert eveneens de volgende suggestie met het oog op meer duidelijkheid:\n\n- Expliciet preciseren dat de FOD Financiën de verantwoordelijke voor de verwerking is (considerans 5).\n\nDe Wnd. Administrateur, De Voorzitter,",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "provisionNumber": "artikel 29",
+        "provisionNumberKey": "29",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 2",
+        "provisionNumberKey": "2",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit betreffende het aanleggen en bijhouden van de kadastrale documentatie",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie leest artikel 2 van het voorontwerp als de definitiesector: het bepaalt welke stukken tot de ‘kadastrale documentatie’ behoren en maakt daarmee duidelijk dat het geheel persoonsgegevens kan omvatten en onder de WVP/AVG valt. Artikel 2 wordt aldus gebruikt om de toepasselijkheid van privacyregels op deze documentatie vast te leggen.",
+        "relevantFactualContext": "Het voorontwerp definieert de kadastrale documentatie als het geheel van documenten, plannen en databanken die de AAPD bijhoudt; deze hebben rechtstreeks of onrechtstreeks betrekking op eigenaars van percelen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "provisionNumber": "artikel 1, §1",
+        "provisionNumberKey": "1",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 1 §1 WVP als bepalend voor het toepassingsbereik: gegevens in de kadastrale documentatie betreffen persoonsgegevens in de zin van artikel 1 §1 omdat zij betrekking hebben op rechtstreeks of onrechtstreeks identificeerbare natuurlijke personen (o.a. eigenaars). Hierdoor vallen die verwerkingen onder de verplichtingen van de WVP/AVG.",
+        "relevantFactualContext": "De kadastrale documentatie bevat identificerende informatie over eigenaars en andere betrokkenen van percelen, waarmee de Commissie de kwalificatie als persoonsgegevens onder artikel 1 §1 motiveert."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "provisionNumber": "artikel 4.1",
+        "provisionNumberKey": "4.1",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (Algemene Verordening Gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie stelt artikel 4.1 AVG gelijk aan de WVP-definitie en benadrukt dat gegevens in de kadastrale documentatie persoonsgegevens zijn in de zin van artikel 4.1 AVG; zij interpreteert deze bepaling als maatgevend voor de toepasselijkheid van de AVG-verplichtingen op de beschreven verwerkingen.",
+        "relevantFactualContext": "Toepassing van de AVG op de kadastrale bestanden wordt onderstreept omdat de gegevens rechtstreeks of onrechtstreeks identificatie van natuurlijke personen mogelijk maken."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-005",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 41",
+        "provisionNumberKey": "41",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-006",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "provisionNumber": "artikel 16, §4",
+        "provisionNumberKey": "16",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie wijst erop dat de organisatorische en beveiligingsmaatregelen die artikel 16, §4 WVP oplegt, een blijvende verplichting vormen voor elke verwerking; zij interpreteert deze bepaling als verplichtend en van toepassing op de verwerkingen opgenomen in het voorontwerp, ook tijdens de overgangsperiode naar de AVG.",
+        "relevantFactualContext": "Bij beoordeling van het voorontwerp benadrukt de Commissie dat de voorgestelde verwerkingen van kadastrale gegevens moeten voldoen aan organisatorische en technische beveiligingsvereisten zoals opgelegd door artikel 16, §4."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-007",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "provisionNumber": "artikel 32",
+        "provisionNumberKey": "32",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 32 AVG als de Europese norm voor technische en organisatorische beveiligingsmaatregelen; dergelijke maatregelen moeten volgens de Commissie worden toegepast op de verwerkingen die het voorontwerp beoogt en blijven onverkort gelden tijdens de overgangsperiode.",
+        "relevantFactualContext": "De Commissie koppelt de in het voorontwerp voorziene verwerkingen van kadastrale gegevens expliciet aan de beveiligingseisen van artikel 32 AVG en vraagt duidelijkheid over de concrete maatregelen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-008",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "provisionNumber": "artikel 4, §7",
+        "provisionNumberKey": "4",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie leest artikel 4 §7 AVG als bepalend voor de rol van de verwerkingsverantwoordelijke; zij stelt dat het voorontwerp duidelijk moet aangeven welke instantie(n) die verantwoordelijkheid dragen, aangezien die rol juridische verplichtingen en aansprakelijkheden met zich meebrengt.",
+        "relevantFactualContext": "In het voorontwerp wordt enkel de AAPD genoemd; de Commissie adviseert expliciet te vermelden of en in hoeverre de FOD Financiën als verantwoordelijke optreedt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-009",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004",
+        "provisionNumber": "artikel 2",
+        "provisionNumberKey": "2",
+        "parentActType": "WET",
+        "parentActName": "de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de FOD Financiën",
+        "parentActDate": "2012-08-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie wijst op artikel 2 van de wet van 3 augustus 2012 als rechtsgrond die de FOD Financiën aanwijst als verantwoordelijke voor verwerkingen binnen haar opdrachten; zij interpreteert die bepaling als relevant bewijs dat de FOD als formele verantwoordelijke moet worden vermeld ter verduidelijking van de aansprakelijkheid.",
+        "relevantFactualContext": "De memorie verwijst naar de wet van 3 augustus 2012; het voorontwerp benoemt enkel de AAPD, waardoor de Commissie aanbeveelt expliciet de FOD Financiën als verantwoordelijke te preciseren."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-010",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-005",
+        "provisionNumber": "artikel 504",
+        "provisionNumberKey": "504",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Wetboek van de Inkomstenbelastingen (WIB 1992)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie beschouwt artikel 504 WIB als de primaire wettelijke grondslag voor het ter beschikking stellen van kadastrale uittreksels: het geeft de AAPD de bevoegdheid tot bewaren en uitreiken van kadastrale bescheiden en regelt dat uittreksels volgens door de Koning vastgestelde regels mogen worden verstrekt.",
+        "relevantFactualContext": "Het voorontwerp baseert zich expliciet op artikel 504 WIB om levering van uittreksels en openbaarmaking van bepaalde kadastrale informatie mogelijk te maken."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-011",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-005",
+        "provisionNumber": "artikel 337",
+        "provisionNumberKey": "337",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Wetboek van de Inkomstenbelastingen (WIB 1992)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie wijst erop dat artikel 337 WIB algemene beroepsgeheimregels voor ambtenaren bevat, maar dat dit artikel zelf uitzonderingen kent waarbij onder toepassing van artikel 504 WIB kadastrale informatie mag worden verstrekt; zij interpreteert artikel 337 als begrenzend, met door artikel 504 voorziene uitzonderingen.",
+        "relevantFactualContext": "Artikel 337 regelt geheimhouding van administratiepersoneel; de Commissie noteert dat het voorontwerp de uitzondering toepast om informatie te verstrekken krachtens artikel 504."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-012",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-005",
+        "provisionNumber": "artikel 329",
+        "provisionNumberKey": "329",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Wetboek van de Inkomstenbelastingen (WIB 1992)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-013",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-005",
+        "provisionNumber": "artikel 320",
+        "provisionNumberKey": "320",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Wetboek van de Inkomstenbelastingen (WIB 1992)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-014",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-005",
+        "provisionNumber": "artikel 321",
+        "provisionNumberKey": "321",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Wetboek van de Inkomstenbelastingen (WIB 1992)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-015",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-006",
+        "provisionNumber": "artikel 6, §1, 1°",
+        "provisionNumberKey": "6",
+        "parentActType": "DECREET",
+        "parentActName": "het decreet van 18 juli 2008 betreffende het elektronische bestuurlijke gegevensverkeer",
+        "parentActDate": "2008-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-016",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "provisionNumber": "artikel 4, §2, 2°",
+        "provisionNumberKey": "4",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie benadrukt dat artikel 4 §2 2° WVP het finaliteitsbeginsel verankert: persoonsgegevens mogen alleen worden verwerkt voor uitdrukkelijk omschreven en gerechtvaardigde doeleinden die in het ontwerp zijn vastgelegd. Zij interpreteert deze norm als toets voor de doelomschrijving in het voorontwerp en als vereiste voor rechtsmatigheid van verwerkingen.",
+        "relevantFactualContext": "In de beoordeling van de doeleindenlijst van het voorontwerp waarschuwt de Commissie dat elke terbeschikkingstelling van gegevens moet beantwoorden aan het finaliteitsbeginsel zoals in artikel 4 §2 2° is voorgeschreven."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-017",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-007",
+        "provisionNumber": "artikel 577-2",
+        "provisionNumberKey": "577-2",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek (Burgerlijk Wetboek)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-018",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-007",
+        "provisionNumber": "artikel 577-3",
+        "provisionNumberKey": "577-3",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek (Burgerlijk Wetboek)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-019",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 46",
+        "provisionNumberKey": "46",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 46 als een opsomming van geografische onderdelen van de kadastrale documentatie (o.m. kadastraal perceelplan, mutatieschetsen, coördinatenlijsten, historieken, hermetings- en ruilverkavelingsdocumenten, processen-verbaal) die onder de INSPIRE-regels kunnen vallen en waarvoor een gegevensbeschermingseffectbeoordeling (DPIA) vereist is bij terbeschikkingstelling aan het publiek.",
+        "relevantFactualContext": "Artikel 46 somt concrete geografische datasets op die openbaarmaking of hergebruik kunnen toelaten; de Commissie adviseert een DPIA te verrichten voor deze items vanwege risico op heridentificatie en breed publiek bereik."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-020",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 44",
+        "provisionNumberKey": "44",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie leest artikel 44 als de limitatieve opsomming van kadastrale gegevens die op beperkte wijze ter beschikking mogen worden gesteld (o.m. kadastraal patrimoniumperceel, fiscale gegevens, eigendomstoestand, eigenaarsgegevens, kadastrale legger). Zij benadrukt dat deze gegevens in principe alleen voor betrokkenen bestemd zijn en dat openbaarmaking een bijzondere toetsing vereist, inclusief een mogelijke DPIA.",
+        "relevantFactualContext": "In het voorontwerp worden deze gegevens bedoeld voor beperkte terbeschikkingstelling; de Commissie signaleert dat sommige gevallen toch publiek gebruik kunnen toelaten en dat daar extra beoordeling voor nodig is."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-021",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 42",
+        "provisionNumberKey": "42",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie beschouwt artikel 42 als de kernbepaling die de toegestane doeleinden opsomt (twaalf categorieën) voor welke kadastrale data mogen worden verstrekt; zij beoordeelt deze opsomming als in belangrijke mate welbepaald maar vraagt verduidelijking en afbakening tussen de categorieën en hun toepassingsvoorwaarden om rechtszekerheid en proportionaliteit te waarborgen.",
+        "relevantFactualContext": "Artikel 42 bevat een uitgewerkt lijststelsel van doeleinden (o.a. wettelijke verplichtingen, beheer onroerend goed, statistiek, gerechtvaardigd belang) waarop het voorontwerp steunt; de Commissie vraagt nadere precisering bij toepassing."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-022",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 43",
+        "provisionNumberKey": "43",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 43 als limiterend kader voor publieke toegang tot geografische verzamelingen: het verwijst expliciet naar Hoofdstuk 4 van de INSPIRE-omzettingswet en legt daarmee beperkingen en uitzonderingen vast (o.a. veiligheid, nationale defensie, vertrouwelijkheid), waardoor dit artikel de grens vormt voor welke gegevens van artikel 46 publiek kunnen worden gemaakt.",
+        "relevantFactualContext": "Artikel 43 regelt dat publieke toegang tot geografische gegevens beperkt wordt conform INSPIRE, hetgeen gevolgen heeft voor welke kadastrale datasets openbaar toegankelijk mogen zijn."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-023",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 45",
+        "provisionNumberKey": "45",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 45 als een expliciet verbod op het afleveren of gebruik van de in artikel 44 bedoelde kadastrale informatie voor commerciële, politieke of verkiezingsdoeleinden; zij merkt op dat dit impliciet suggereert dat dergelijke doeleinden voor de in artikel 46 bedoelde geografische gegevens niet per definitie verboden zijn, maar dat hierover een effectbeoordeling dient te beslissen.",
+        "relevantFactualContext": "Het voorontwerp bevat in artikel 45 een verbod voor bepaalde doeleinden bij artikel 44-gegevens; de Commissie houdt zich voor wat betreft artikel 46-data voorbehouden tot na een DPIA."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-024",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-008",
+        "provisionNumber": "artikel 9",
+        "provisionNumberKey": "9",
+        "parentActType": "WET",
+        "parentActName": "de wet van 15 december 2011 tot omzetting van Richtlijn 2007/2/EG (INSPIRE)",
+        "parentActDate": "2011-12-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-025",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-009",
+        "provisionNumber": "artikel 7",
+        "provisionNumberKey": "7",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het koninklijk besluit van 20 september 2002 tot vaststelling van de vergelding en nadere regels voor afgifte van kadastrale uittreksels",
+        "parentActDate": "2002-09-20",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie herinnert eraan dat artikel 7 van het huidige KB vereist dat bij een aanvraag een afweging wordt gemaakt tussen openbaarheid en de bescherming van de fundamentele rechten van de eigenaar; zij interpreteert dit als een toetsing op belangenafweging die door het nieuwe voorontwerp in ruimere zin door een limitatieve doeleindenlijst wordt vervangen, waardoor transparantie over die afwegingen nodig blijft.",
+        "relevantFactualContext": "Het bestaande KB van 2002 bevatte een algemene afwegingsregel bij verzoeken om kadastrale informatie; het voorontwerp kiest voor een limitatieve opsomming van doeleinden en de Commissie vergelijkt beide regimes."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-026",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 47, 2de lid",
+        "provisionNumberKey": "47",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie leest artikel 47, tweede lid, als een waarborgmaatregel: verzoeken om uittreksels moeten gemotiveerd worden zodat kan worden nagegaan of de aanvraag beantwoordt aan de doelstellingen uit artikel 42; artikel 47 fungeert aldus als een controle op de rechtmatigheid van individuele toegangsvragen.",
+        "relevantFactualContext": "Het voorontwerp verplicht aanvragers een motivatie te geven bij verzoeken om uittreksels; de Commissie ziet dit als een belangrijke waarborg voor toetsing aan de toegestane doeleinden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-027",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 49",
+        "provisionNumberKey": "49",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie merkt op dat artikel 49 de toepassingsvoorwaarden van de WVP bij online raadpleging regelt en interpreteert de verwijzing naar een 'machtiging' als een regime dat nadere toelichting behoeft; zij verzoekt duidelijkheid over de aard en voorwaarden van die machtiging bij webservices en gerichte zoekopdrachten.",
+        "relevantFactualContext": "Artikel 49 vermeldt dat bij directe webservice raadpleging enkel gerichte zoekopdrachten zijn toegelaten onder de voorwaarden van een machtiging; de Commissie vraagt verduidelijking van die machtigingsvoorwaarden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-028",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 50",
+        "provisionNumberKey": "50",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 50 als een verplichting tot registratie van raadplegingen: de AAPD moet een register bijhouden met identiteit van ontvangers, doeleinden, datum en overzicht van geraadpleegde of afgeleverde gegevens, hetgeen een essentieel instrument is voor toezicht en proportionaliteitstoetsing.",
+        "relevantFactualContext": "Het voorontwerp voorziet een register van raadplegingen en afgeleverde gegevens; de FOD Financiën heeft volgens haar informatie reeds een toegangsbeheersysteem ingevoerd."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-029",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004",
+        "provisionNumber": "artikel 8",
+        "provisionNumberKey": "8",
+        "parentActType": "WET",
+        "parentActName": "de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de FOD Financiën",
+        "parentActDate": "2012-08-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie verwijst naar artikel 8 als grondslag voor de oprichting van een Dienst voor Informatieveiligheid en Bescherming van de Persoonlijke Levenssfeer binnen de FOD; zij interpreteert dit als een aanwijzing dat bepaalde verwerkingen door een gespecialiseerde interne dienst moeten worden opgevolgd en gecontroleerd.",
+        "relevantFactualContext": "De FOD Financiën heeft op grond van de wet een dienst voor informatieveiligheid en privacy die volgens de Commissie betrokken moet zijn bij toezicht op risicovolle kadastrale verwerkingen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-030",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004",
+        "provisionNumber": "artikel 9",
+        "provisionNumberKey": "9",
+        "parentActType": "WET",
+        "parentActName": "de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de FOD Financiën",
+        "parentActDate": "2012-08-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie ziet artikel 9 als aanvullend op artikel 8 en interpreteert het als toewijzing van taken en verantwoordelijkheden aan de interne beveiligings- en privacydienst, waaronder toezicht op verwerkingen die bijzondere risico's inhouden en het formuleren van interne regels voor controle.",
+        "relevantFactualContext": "Advies vraagt dat de verantwoordelijke binnen de administratie de verwerkingen identificeert die door deze diensten moeten worden gevolgd, zoals verwerkingen op basis van gerechtvaardigd belang of afwijkende akkoorden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-031",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004",
+        "provisionNumber": "artikel 10",
+        "provisionNumberKey": "10",
+        "parentActType": "WET",
+        "parentActName": "de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de FOD Financiën",
+        "parentActDate": "2012-08-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 10 als verplichting tot toegangsbeperking en logging: ambtenaren en gemachtigden mogen slechts toegang hebben voor taken die noodzakelijk zijn en elke toegang of poging wordt automatisch geregistreerd met daarin inhoud en bewaartermijn volgens een intern reglement, wat een belangrijk controle-instrument is.",
+        "relevantFactualContext": "Bij de implementatie van het toegangsbeheer binnen de AAPD werd volgens de FOD Financiën een systeem ingevoerd dat toegang en raadplegingen registreert conform artikel 10."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-032",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "provisionNumber": "artikel 57",
+        "provisionNumberKey": "57",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van koninklijk besluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 57 als een bepaling die de AAPD de mogelijkheid verleent bijzondere akkoorden te sluiten die kunnen afwijken van de in het besluit bepaalde modaliteiten, doch stelt zij dat dergelijke afwijkingen slechts toelaatbaar zijn onder voorwaarde van voorafgaande machtiging door het Comité FO of een gelijkwaardig toezichtsorgaan om doeleinden en proportionaliteit te controleren.",
+        "relevantFactualContext": "Het voorontwerp laat toe dat de AAPD afwijkende akkoorden sluit met derden; de Commissie waarschuwt dat dit toezicht en voorafgaande machtiging vergt om privacyrisico's te beperken."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-033",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "provisionNumber": "artikel 5.1.b",
+        "provisionNumberKey": "5.1",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie herinnert eraan dat artikel 5.1.b AVG het bewaarbeperkingsprincipe verwoordt: persoonsgegevens mogen niet langer worden bewaard dan noodzakelijk voor de doeleinden waarvoor zij zijn verzameld. Zij interpreteert dit als eis die zowel voor de AAPD als voor derden die gegevens ontvangen moet worden uitgewerkt en vastgelegd in concrete termijnen.",
+        "relevantFactualContext": "Bij het voorontwerp merkt de Commissie op dat bewaartermijnen voor kadastrale gegevens en archieven nog nader moeten worden omschreven en afgestemd op wettelijke grondslagen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-034",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "provisionNumber": "artikel 9, §2",
+        "provisionNumberKey": "9",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 9 §2 WVP als een regeling die in bepaalde gevallen vrijstelling van de informatieplicht toelaat wanneer verwerking plaatsvindt krachtens wet, maar benadrukt dat deze vrijstelling niet ontslaat van het bestaan van passende waarborgen en van verplichtingen tot algemene transparantie richting betrokkenen waar dat redelijkerwijs mogelijk is.",
+        "relevantFactualContext": "Het voorontwerp voorziet verwerkingen krachtens wettelijke bepalingen, waarvoor artikel 9 §2 een mogelijke vrijstelling van informatieplicht biedt; de Commissie vraagt aanvullende garanties voor betrokkenen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-035",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "provisionNumber": "artikel 13.4",
+        "provisionNumberKey": "13.4",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie erkent artikel 13.4 AVG als de Europese tegenhanger van de nationale vrijstelling van de informatieplicht: ook hier geldt dat formele vrijstelling niet wegneemt dat de administratie passende garanties moet treffen en betrokkenen, waar relevant, geïnformeerd moeten worden over hun rechten en de modaliteiten van gegevensverwerking.",
+        "relevantFactualContext": "In de context van verwerkingen op grond van wetgeving (voorontwerp) wijst de Commissie op het toepassingsgebied van artikel 13.4 en vraagt nadere waarborgen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-036",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "provisionNumber": "artikel 15bis",
+        "provisionNumberKey": "15bis",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-037",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-038",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "provisionNumber": "artikel 36bis",
+        "provisionNumberKey": "36bis",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie verwijst naar artikel 36bis als grondslag voor machtigingen uitgegeven door het Sectoraal Comité van de Federale Overheid voor elektronische mededelingen: zij interpreteert deze bepaling als relevant voor de vraag of webservice-raadplegingen een voorafgaande machtiging behoeven en benadrukt dat in het voorontwerp verwezen wordt naar dergelijke machtigingen.",
+        "relevantFactualContext": "Bij de behandeling van online aflevering van uittreksels merkt de Commissie op dat machtigingen krachtens artikel 36bis van belang zijn en dat het onderscheid tussen 'machtiging' en 'volmacht' verduidelijkt moet worden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-039",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "WET",
+        "parentActName": "de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de FOD Financiën",
+        "parentActDate": "2012-08-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie benadrukt dat artikel 6 van de wet van 3 augustus 2012 beperkt is in werking: het betreft de uitwisseling van persoonsgegevens door de FOD Financiën naar een andere overheidsdienst of publiekrechtelijke rechtspersoon; daarom is verwijzing naar artikel 6 in de context van algemene externe openbaarmaking niet relevant.",
+        "relevantFactualContext": "De FOD verwees in haar toelichting naar artikel 6, maar de Commissie merkt op dat deze bepaling slechts ziet op uitwisseling tussen overheidsdiensten en niet op algemene terbeschikkingstelling aan derden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-040",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "provisionNumber": "artikel 35",
+        "provisionNumberKey": "35",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 35 AVG als verplichting om een gegevensbeschermingseffectbeoordeling (DPIA) uit te voeren wanneer de voorgenomen verwerking, zoals de terbeschikkingstelling van grote hoeveelheden kadastrale persoonsgegevens aan het publiek, waarschijnlijk een hoog risico inhoudt voor de rechten en vrijheden van betrokkenen; zij beveelt een DPIA aan voor de gegevens opgesomd in artikel 46 en ook voor die in artikel 44 wanneer publiek toegankelijk gemaakt.",
+        "relevantFactualContext": "In het advies beveelt de Commissie aan dat de FOD Financiën een DPIA uitvoert voor de geplande openstelling of hergebruik van kadastrale datasets vanwege het verhoogde risico op heridentificatie en omvang van betrokkenen."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "date": "2008-09-24",
+        "caseNumber": "Advies nr. 32/2008",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "date": "2015-09-23",
+        "caseNumber": "Advies nr. 43/2015",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Kadastrale documentatie",
+      "Aflevering kadastrale uittreksels",
+      "Openbare toegang gegevens",
+      "Herbruik overheidsinformatie",
+      "Finaliteitsbeginsel",
+      "Proportionaliteit",
+      "Verantwoordelijke verwerking",
+      "Gegevensbeschermingseffectbeoordeling",
+      "Machtiging Sectoraal comité"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "text": "Kadastrale documentatie die rechtstreeks of onrechtstreeks verband houdt met natuurlijke personen kwalificeert als persoonsgegevens en valt daardoor onder de verplichtingen van de WVP en de AVG; definities in het ontwerp (artikel 2) bevestigen dat het geheel van documenten, plannen en databanken persoonsgegevens kan omvatten.",
+        "courtVerbatim": "Deze kadastrale documentatie houdt rechtstreeks of onrechtstreeks verband met natuurlijke personen, eigenaars van het betrokken goed. Deze documentatie bevat dus persoonsgegevens als bedoeld in artikel 1 §1 van de WVP, (artikel 4.1 AVG), namelijk gegevens betreffende een rechtstreeks of onrechtstreeks geïdentificeerde of identificeerbare, natuurlijke persoon.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer kadastrale documenten, plannen of databanken informatie bevatten waarmee natuurlijke personen rechtstreeks of onrechtstreeks geïdentificeerd kunnen worden.",
+        "relevantFactualContext": "De FOD Financiën legt een voorontwerp voor waarin artikel 2 de kadastrale documentatie definieert als documenten, stukken, plannen, databanken en informatie die de AAPD bijhoudt en die rechtstreeks of onrechtstreeks betrekking kunnen hebben op eigenaars van percelen.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "text": "Het finaliteitsbeginsel vereist dat persoonsgegevens slechts voor uitdrukkelijk omschreven en gerechtvaardigde doeleinden worden verwerkt; een limitatieve doeleindenlijst in regelgeving moet voldoende precisering en afbakening bevatten om rechtszekerheid en proportionaliteit bij terbeschikkingstelling van kadastrale gegevens te waarborgen.",
+        "courtVerbatim": "Het finaliteitsbeginsel verplicht de verantwoordelijke voor de verwerking om de bedoelde gegevens slechts te verwerken voor (een) welbepaald(e) doeleinde(n), dat/die uitdrukkelijk omschreven moet(en) zijn en gerechtvaardigd (art. 4, §2, 2° van de WVP).",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Toepasbaar wanneer een regeling een limitatieve lijst van doeleinden bevat voor de terbeschikkingstelling van persoonsgegevens en rechtszekerheid/proportionaliteit moet worden gewaarborgd.",
+        "relevantFactualContext": "Het voorontwerp bevat artikel 42 als limitatieve opsomming van doeleinden waarvoor kadastrale informatie ter beschikking mag worden gesteld; de Commissie vraagt verduidelijking en afbakening tussen categorieën om rechtmatigheid en proportionaliteit te garanderen.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-016",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-021"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "text": "Voor verwerkingen die waarschijnlijk een hoog risico inhouden (met name grootschalige terbeschikkingstelling aan het publiek van kadastrale datasets) moet een gegevensbeschermingseffectbeoordeling (DPIA) worden uitgevoerd; de DPIA dient zowel voor de in artikel 46 opgesomde geografische datasets als voor artikel 44-gegevens te worden overwogen wanneer publieke beschikbaarstelling risico's op heridentificatie inhoudt.",
+        "courtVerbatim": "Bijgevolg, aangezien de in artikel 44 opgesomde gegevens ter beschikking van het publiek kunnen gesteld worden in het raam van de doeleinden verbonden aan de Infrastructuur voor ruimtelijke informatie, beveelt de Commissie aan de gegevensbeschermingseffectbeoordeling eveneens uit te breiden tot die gegevens. Zo is bijvoorbeeld altijd een GEB vereist wanneer de verwerking aanleiding geeft tot een mededeling of terbeschikkingstelling aan het publiek van persoonsgegevens die betrekking hebben op een groot aantal betrokkenen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer terbeschikkingstelling van kadastrale datasets aan het publiek grootschalig of met hoog re-identificatierisico is, of wanneer geografische datasets onder INSPIRE vallen.",
+        "relevantFactualContext": "Het voorontwerp somt in artikel 46 geografische datasets op die publiek beschikbaar kunnen worden gemaakt; de Commissie beveelt een DPIA aan voor deze datasets en voor artikel 44-gegevens wanneer publiek toegankelijk gemaakt.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-040",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-020",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-032"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004",
+        "text": "Organisatorische en technische beveiligingsmaatregelen blijven verplicht voor alle verwerkingen van kadastrale persoonsgegevens; de nationale verplichtingen (artikel 16 §4 WVP) moeten overeenstemmen met de Europese norm (artikel 32 AVG) en gelden ook tijdens overgangsperioden.",
+        "courtVerbatim": "overeenkomstig de WVP en de toekomstige AVG, zoals bijvoorbeeld de organisatorische en beveiligingsmaatregelen opgelegd krachtens artikel 16, § 4 van de WVP (artikel 32 AVG) voor iedere gegevensverwerking en die niettemin van toepassing blijven op de verwerkingen bedoeld in het voorontwerp van koninklijk besluit.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing op elke verwerking van kadastrale persoonsgegevens, inclusief tijdens overgangsperioden tussen nationale en Europese regels.",
+        "relevantFactualContext": "Bij beoordeling van het voorontwerp benadrukt de Commissie dat de voorgestelde verwerkingen van kadastrale gegevens moeten voldoen aan organisatorische en technische beveiligingsvereisten zoals opgelegd door artikel 16 §4 WVP en artikel 32 AVG.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-006",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-007"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-005",
+        "text": "Het ontwerp moet expliciet aangeven wie de verwerkingsverantwoordelijke is: de rol en aansprakelijkheden van de verantwoordelijke zijn essentieel voor toepassing van de WVP/AVG en het ontbreken van een duidelijke aanduiding vermindert rechtszekerheid; de memorie van toelichting kan hiervoor worden gebruikt.",
+        "courtVerbatim": "De Commissie acht het noodzakelijk, gelet op artikel 1 § 4 van de WVP (artikel 4 § 7 AVG) en de belangrijke rol die is toevertrouwd aan de \"verantwoordelijke voor de verwerking\" in de WVP, om duidelijk in het ontwerp aan te duiden welke instantie(s) deze opdracht van verantwoordelijke voor de verwerking zal/zullen vervullen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij wetgevende ontwerpen of regelingen die verwerken toestaan maar niet expliciet de verwerkingsverantwoordelijke aanwijzen.",
+        "relevantFactualContext": "Het voorontwerp vermeldt enkel de Algemene Administratie Patrimoniumdocumentatie (AAPD) en niet expliciet de FOD Financiën als verantwoordelijke; de Commissie adviseert expliciet de verantwoordelijke te preciseren, onder verwijzing naar de wet van 3 augustus 2012.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-008",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-009"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-006",
+        "text": "Afwijkende overeenkomsten die de in het besluit bepaalde modaliteiten wijzigen mogen slechts worden toegestaan na voorafgaande toetsing en machtiging door het bevoegde toezichtsorgaan (Sectoraal Comité FO of gelijkwaardig toezichtsorgaan); voorzieningen die afwijkingen toelaten moeten een voorafgaande machtiging voorzien om privacyrisico's en proportionaliteit te waarborgen.",
+        "courtVerbatim": "Dergelijke afwijkingen kunnen dus slechts voorkomen op voorwaarde dat is voorzien in een voorafgaande machtiging van het Comité FO, of in het geval dit Comité niet langer in werking is onder de AVG, op voorwaarde dat een voorafgaande machtiging wordt verkregen bij elke ander orgaan dat bevoegd is voor het toezicht op de verwerking van de patrimoniumdocumentatie, met name met het oog op de voorafgaande controle van de doeleinden en de proportionaliteit van de betrokken gegevensstroo.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer het bestuur of de verantwoordelijke contractuele of bijzondere akkoorden wil sluiten die afwijken van de openbaarheidsmodaliteiten van het besluit.",
+        "relevantFactualContext": "Artikel 57 van het voorontwerp machtigt de AAPD om bijzondere akkoorden te sluiten die van de modaliteiten kunnen afwijken; de Commissie vraagt dat zulke afwijkingen onderworpen worden aan voorafgaande machtiging van het Comité FO of gelijkwaardig toezichtsorgaan.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-032",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-036",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-057"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-007",
+        "text": "Toegang tot kadastrale gegevens via de administratie moet worden gelogd en er moet een register worden bijgehouden met identiteit van ontvangers, doeleinden, datum en overzicht van geraadpleegde of afgeleverde gegevens; toegangsbeperkingen en logging dienen deel uit te maken van de interne reglementen en toezichtsmiddelen.",
+        "courtVerbatim": "Een register van de uitgevoerde raadplegingen en de afgeleverde gegevens wordt inderdaad bewaard binnen de AAPD, met vermelding van de identiteit of benaming van degene aan wie de informatie werd verstrekt, de doeleinden op grond waarvan de inlichtingen werden ter beschikking gesteld of verstrekt, de datum waarop dit is gebeurd en een overzicht van de gegevens die werden geraadpleegd of afgeleverd (artikel 50).",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij online raadplegingen of aflevering van kadastrale uittreksels door de AAPD aan derden en intern gebruik door ambtenaren.",
+        "relevantFactualContext": "Het voorontwerp voorziet een register van raadplegingen (artikel 50) en de FOD Financiën meldt dat een toegangsbeheersysteem en automatische registratie van toegangspogingen werd ingevoerd conform interne regels en artikel 10 van de wet van 3 augustus 2012.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-030",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-010"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 7,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "MEDIUM",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 4,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 7
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De FOD Financiën verzocht advies over een voorontwerp van koninklijk en een voorontwerp van ministerieel besluit betreffende het aanleggen, bijhouden en elektronisch afleveren van kadastrale documentatie en de ter zake geldende retributies. De Commissie verleent een gunstig advies onder voorwaarden: expliciete aanwijzing van de FOD Financiën als verantwoordelijke voor de verwerking, uitvoering van gegevensbeschermingseffectbeoordelingen voor de in artikels 44 en 46 genoemde gegevens, voorafgaande toetsing door het bevoegde toezichtscomité bij afwijkingen, vastlegging van bewaartermijnen en adequate transparantie- en beveiligingsmaatregelen. Kernpunt is dat openbaarmaking en hergebruik van gedetailleerde kadastrale en geografische persoonsgegevens aanzienlijke privacyrisico's opleveren en enkel toelaatbaar zijn mits DPIA, proportionaliteits- en waarborgmaatregelen conform WVP/AVG."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (hierna WVP), inzonderheid artikel 29;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">wordt gedefinieerd in artikel 2 van het voorontwerp van koninklijk besluit: het gaat om « het geheel van de documenten, stukken, plannen, databanken en informatie waarover de AAPD (Algemene Administratie van de Patrimoniumdocumentatie) beschikt in het kader van de haar, in uitvoering van Titel IX van het Wetboek van de inkomstenbelastingen 1992, opgedragen taken ». Deze kadastrale documentatie houdt rechtstreeks of onrechtstreeks1 verband met natuurlijke personen, eigenaars van het betrokken goed. Deze documentatie bevat dus persoonsgegevens als bedoeld in artikel 1 §1 van de WVP, (artikel 4.1 AVG), namelijk gegevens betreffende een rechtstreeks of onrechtstreeks geïdentificeerde of identificeerbare, natuurlijke persoon.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">wordt gedefinieerd in artikel 2 van het voorontwerp van koninklijk besluit: het gaat om « het geheel van de documenten, stukken, plannen, databanken en informatie waarover de AAPD (Algemene Administratie van de Patrimoniumdocumentatie) beschikt in het kader van de haar, in uitvoering van Titel IX van het Wetboek van de inkomstenbelastingen 1992, opgedragen taken ». Deze kadastrale documentatie houdt rechtstreeks of onrechtstreeks1 verband met natuurlijke personen, eigenaars van het betrokken goed. Deze documentatie bevat dus persoonsgegevens als bedoeld in artikel 1 §1 van de WVP, (artikel 4.1 AVG), namelijk gegevens betreffende een rechtstreeks of onrechtstreeks geïdentificeerde of identificeerbare, natuurlijke persoon.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">wordt gedefinieerd in artikel 2 van het voorontwerp van koninklijk besluit: het gaat om « het geheel van de documenten, stukken, plannen, databanken en informatie waarover de AAPD (Algemene Administratie van de Patrimoniumdocumentatie) beschikt in het kader van de haar, in uitvoering van Titel IX van het Wetboek van de inkomstenbelastingen 1992, opgedragen taken ». Deze kadastrale documentatie houdt rechtstreeks of onrechtstreeks1 verband met natuurlijke personen, eigenaars van het betrokken goed. Deze documentatie bevat dus persoonsgegevens als bedoeld in artikel 1 §1 van de WVP, (artikel 4.1 AVG), namelijk gegevens betreffende een rechtstreeks of onrechtstreeks geïdentificeerde of identificeerbare, natuurlijke persoon.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">dat zowel in de memorie van toelichting als in de tekst van het voorontwerp, uitdrukkelijk wordt verwezen naar de toepassing van de WVP (artikel 41). In de memorie van toelichting wordt eveneens verwezen naar de nakende toepassing van de AVG. De raadpleging en de aflevering van kadastrale uittreksels gebeurt niet alleen op grond van de voorwaarden als vastgesteld in het voorontwerp van koninklijk besluit maar ook</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">overeenkomstig de WVP en de toekomstige AVG, zoals bijvoorbeeld de organisatorische en beveiligingsmaatregelen opgelegd krachtens artikel 16, § 4 van de WVP (artikel 32 AVG) voor iedere gegevensverwerking en die niettemin van toepassing blijven op de verwerkingen bedoeld in het voorontwerp van koninklijk besluit².</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-006",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">overeenkomstig de WVP en de toekomstige AVG, zoals bijvoorbeeld de organisatorische en beveiligingsmaatregelen opgelegd krachtens artikel 16, § 4 van de WVP (artikel 32 AVG) voor iedere gegevensverwerking en die niettemin van toepassing blijven op de verwerkingen bedoeld in het voorontwerp van koninklijk besluit².</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-007",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Commissie acht het noodzakelijk, gelet op artikel 1 § 4 van de WVP (artikel 4 § 7 AVG) en de belangrijke rol die is toevertrouwd aan de \"verantwoordelijke voor de verwerking\" in de WVP, om duidelijk in het ontwerp aan te duiden welke instantie(s) deze opdracht van verantwoordelijke voor de verwerking zal/zullen vervullen³. De Commissie merkt in dit verband op dat in de Memorie van Toelichting wordt verwezen naar de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de FOD Financiën in het kader van zijn opdrachten. Artikel 2 van deze wet duidt de FOD Financiën aan als verantwoordelijke voor de verwerking. De Commissie is van oordeel dat voor meer duidelijkheid, een meer expliciete aanduiding van de verantwoordelijke voor de verwerking zou kunnen worden overwogen, bijvoorbeeld in de memorie van toelichting, aangezien het voorontwerp van Koninklijk besluit enkel gewag maakt van de Algemene administratie Patrimoniumdocumentatie (« AAPD») en niet van de FOD Financiën als dusdanig.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-008",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Commissie acht het noodzakelijk, gelet op artikel 1 § 4 van de WVP (artikel 4 § 7 AVG) en de belangrijke rol die is toevertrouwd aan de \"verantwoordelijke voor de verwerking\" in de WVP, om duidelijk in het ontwerp aan te duiden welke instantie(s) deze opdracht van verantwoordelijke voor de verwerking zal/zullen vervullen³. De Commissie merkt in dit verband op dat in de Memorie van Toelichting wordt verwezen naar de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de FOD Financiën in het kader van zijn opdrachten. Artikel 2 van deze wet duidt de FOD Financiën aan als verantwoordelijke voor de verwerking. De Commissie is van oordeel dat voor meer duidelijkheid, een meer expliciete aanduiding van de verantwoordelijke voor de verwerking zou kunnen worden overwogen, bijvoorbeeld in de memorie van toelichting, aangezien het voorontwerp van Koninklijk besluit enkel gewag maakt van de Algemene administratie Patrimoniumdocumentatie (« AAPD») en niet van de FOD Financiën als dusdanig.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-009",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">a. Het voorontwerp van koninklijk besluit is inderdaad genomen in toepassing van het artikel 504 WIB4. Overeenkomstig het tweede lid van dit artikel is de Algemene Administratie van de Patrimoniumdocumentatie gemachtigd om uittreksels of kopieën van de kadastrale documentatie af te leveren volgens de door de koning vastgestelde tarieven. De Commissie merkt op dat dit artikel wordt aangevuld door artikel 337 WIB5 dat handelt over het beroepsgeheim van de personeelsleden van de AAPD en voorziet het in een</p>",
+          "<p class=\"case-section__paragraph\">4 Artikel 504 WIB «De Algemene Administratie van de Patrimoniumdocumentatie staat in voor het bewaren en het bijhouden van de kadastrale bescheiden volgens de regelen die de Koning bepaalt. Enkel de Algemene Administratie van de Patrimoniumdocumentatie is ertoe gemachtigd, volgens de regels en de tarieven bepaald door de Koning, uittreksels of afschriften van de kadastrale bescheiden te vervaardigen en uit te reiken. Behoudens uitdrukkelijke toestemming van de Algemene Administratie van de Patrimoniumdocumentatie, is de nadruk van voormelde uittreksels of afschriften verboden, evenals de verwerking ervan volgens een op informatica gebaseerde of andere werkwijze. »</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-010",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5 Artikel 337 WIB: «Hij die, uit welken hoofde ook, optreedt bij de toepassing van de belastingwetten of die toegang heeft tot de ambtsvertrekken van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen, is, buiten het uitoefenen van zijn ambt, verplicht tot de meest volstrekte geheimhouding aangaande alle zaken waarvan hij wegens de uitvoering van zijn opdracht kennis heeft. De ambtenaren van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen en van de Algemene Administratie van de Patrimoniumdocumentatie oefenen hun ambt uit wanneer zij aan andere administratieve diensten van de Staat, daaronder begrepen de parketten en de griffies van de hoven en van alle rechtsmachten, en van de Gemeenschappen en de Gewesten en aan de in artikel 329 bedoelde openbare instellingen of inrichtingen, inlichtingen verstrekken welke voor die diensten, instellingen of inrichtingen nodig zijn voor de hun opgedragen uitvoering van wettelijke of reglementaire bepalingen. De ambtenaren van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen oefenen eveneens hun ambt uit wanneer zij met betrekking tot de fiscale toestand van een belastingplichtige een vraag om raadpleging, uitleg of mededeling inwilligen van de echtgenoot op wiens goederen de aanslag wordt ingevorderd. Personen die deel uitmaken van diensten waaraan de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen of Algemene Administratie van de Patrimoniumdocumentatie ingevolge het tweede lid inlichtingen van fiscale aard heeft verstrekt, zijn tot dezelfde geheimhouding verplicht en mogen de bekomen inlichtingen niet gebruiken buiten het kader van de wettelijke bepalingen voor de uitvoering waarvan zij zijn verstrekt. De bepalingen van het vierde lid zijn eveneens toepasselijk op de personen die behoren tot diensten waaraan ingevolge de controle georganiseerd ter uitvoering van de artikelen 320 en 321, inlichtingen van fiscale aard zouden worden verstrekt. De ambtenaren van de Algemene Administratie van de Patrimoniumdocumentatie oefenen eveneens hun ambt uit wanneer zij inlichtingen, uittreksels of afschriften uit de kadastrale bescheiden verstrekken in uitvoering van de bepalingen van artikel 504, tweede en derde lid. »</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-011",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-010",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-012",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-013",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5 Artikel 337 WIB: «Hij die, uit welken hoofde ook, optreedt bij de toepassing van de belastingwetten of die toegang heeft tot de ambtsvertrekken van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen, is, buiten het uitoefenen van zijn ambt, verplicht tot de meest volstrekte geheimhouding aangaande alle zaken waarvan hij wegens de uitvoering van zijn opdracht kennis heeft. De ambtenaren van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen en van de Algemene Administratie van de Patrimoniumdocumentatie oefenen hun ambt uit wanneer zij aan andere administratieve diensten van de Staat, daaronder begrepen de parketten en de griffies van de hoven en van alle rechtsmachten, en van de Gemeenschappen en de Gewesten en aan de in artikel 329 bedoelde openbare instellingen of inrichtingen, inlichtingen verstrekken welke voor die diensten, instellingen of inrichtingen nodig zijn voor de hun opgedragen uitvoering van wettelijke of reglementaire bepalingen. De ambtenaren van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen oefenen eveneens hun ambt uit wanneer zij met betrekking tot de fiscale toestand van een belastingplichtige een vraag om raadpleging, uitleg of mededeling inwilligen van de echtgenoot op wiens goederen de aanslag wordt ingevorderd. Personen die deel uitmaken van diensten waaraan de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen of Algemene Administratie van de Patrimoniumdocumentatie ingevolge het tweede lid inlichtingen van fiscale aard heeft verstrekt, zijn tot dezelfde geheimhouding verplicht en mogen de bekomen inlichtingen niet gebruiken buiten het kader van de wettelijke bepalingen voor de uitvoering waarvan zij zijn verstrekt. De bepalingen van het vierde lid zijn eveneens toepasselijk op de personen die behoren tot diensten waaraan ingevolge de controle georganiseerd ter uitvoering van de artikelen 320 en 321, inlichtingen van fiscale aard zouden worden verstrekt. De ambtenaren van de Algemene Administratie van de Patrimoniumdocumentatie oefenen eveneens hun ambt uit wanneer zij inlichtingen, uittreksels of afschriften uit de kadastrale bescheiden verstrekken in uitvoering van de bepalingen van artikel 504, tweede en derde lid. »</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-012",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-013",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5 Artikel 337 WIB: «Hij die, uit welken hoofde ook, optreedt bij de toepassing van de belastingwetten of die toegang heeft tot de ambtsvertrekken van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen, is, buiten het uitoefenen van zijn ambt, verplicht tot de meest volstrekte geheimhouding aangaande alle zaken waarvan hij wegens de uitvoering van zijn opdracht kennis heeft. De ambtenaren van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen en van de Algemene Administratie van de Patrimoniumdocumentatie oefenen hun ambt uit wanneer zij aan andere administratieve diensten van de Staat, daaronder begrepen de parketten en de griffies van de hoven en van alle rechtsmachten, en van de Gemeenschappen en de Gewesten en aan de in artikel 329 bedoelde openbare instellingen of inrichtingen, inlichtingen verstrekken welke voor die diensten, instellingen of inrichtingen nodig zijn voor de hun opgedragen uitvoering van wettelijke of reglementaire bepalingen. De ambtenaren van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen oefenen eveneens hun ambt uit wanneer zij met betrekking tot de fiscale toestand van een belastingplichtige een vraag om raadpleging, uitleg of mededeling inwilligen van de echtgenoot op wiens goederen de aanslag wordt ingevorderd. Personen die deel uitmaken van diensten waaraan de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen of Algemene Administratie van de Patrimoniumdocumentatie ingevolge het tweede lid inlichtingen van fiscale aard heeft verstrekt, zijn tot dezelfde geheimhouding verplicht en mogen de bekomen inlichtingen niet gebruiken buiten het kader van de wettelijke bepalingen voor de uitvoering waarvan zij zijn verstrekt. De bepalingen van het vierde lid zijn eveneens toepasselijk op de personen die behoren tot diensten waaraan ingevolge de controle georganiseerd ter uitvoering van de artikelen 320 en 321, inlichtingen van fiscale aard zouden worden verstrekt. De ambtenaren van de Algemene Administratie van de Patrimoniumdocumentatie oefenen eveneens hun ambt uit wanneer zij inlichtingen, uittreksels of afschriften uit de kadastrale bescheiden verstrekken in uitvoering van de bepalingen van artikel 504, tweede en derde lid. »</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-013",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5 Artikel 337 WIB: «Hij die, uit welken hoofde ook, optreedt bij de toepassing van de belastingwetten of die toegang heeft tot de ambtsvertrekken van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen, is, buiten het uitoefenen van zijn ambt, verplicht tot de meest volstrekte geheimhouding aangaande alle zaken waarvan hij wegens de uitvoering van zijn opdracht kennis heeft. De ambtenaren van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen en van de Algemene Administratie van de Patrimoniumdocumentatie oefenen hun ambt uit wanneer zij aan andere administratieve diensten van de Staat, daaronder begrepen de parketten en de griffies van de hoven en van alle rechtsmachten, en van de Gemeenschappen en de Gewesten en aan de in artikel 329 bedoelde openbare instellingen of inrichtingen, inlichtingen verstrekken welke voor die diensten, instellingen of inrichtingen nodig zijn voor de hun opgedragen uitvoering van wettelijke of reglementaire bepalingen. De ambtenaren van de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen oefenen eveneens hun ambt uit wanneer zij met betrekking tot de fiscale toestand van een belastingplichtige een vraag om raadpleging, uitleg of mededeling inwilligen van de echtgenoot op wiens goederen de aanslag wordt ingevorderd. Personen die deel uitmaken van diensten waaraan de administratie belast met de vestiging, of deze belast met de inning en de invordering, van de inkomstenbelastingen of Algemene Administratie van de Patrimoniumdocumentatie ingevolge het tweede lid inlichtingen van fiscale aard heeft verstrekt, zijn tot dezelfde geheimhouding verplicht en mogen de bekomen inlichtingen niet gebruiken buiten het kader van de wettelijke bepalingen voor de uitvoering waarvan zij zijn verstrekt. De bepalingen van het vierde lid zijn eveneens toepasselijk op de personen die behoren tot diensten waaraan ingevolge de controle georganiseerd ter uitvoering van de artikelen 320 en 321, inlichtingen van fiscale aard zouden worden verstrekt. De ambtenaren van de Algemene Administratie van de Patrimoniumdocumentatie oefenen eveneens hun ambt uit wanneer zij inlichtingen, uittreksels of afschriften uit de kadastrale bescheiden verstrekken in uitvoering van de bepalingen van artikel 504, tweede en derde lid. »</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-014",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2 Cf. Advies 32/2008 van 24 september 2008, punt 11 («De Commissie acht het aangewezen om – in navolging van artikel 6, § 1, 1°, van het decreet van 18 juli 2008 betreffende het elektronische bestuurlijke gegevensverkeer – in het ontwerp een algemeen artikel op te nemen dat onderstreept dat alle deelnemende instanties verplicht zijn om, inzoverre persoonsgegevens worden verwerkt, deze overeenkomstig de WVP te verwerken »).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">8. Het finaliteitsbeginsel verplicht de verantwoordelijke voor de verwerking om de bedoelde gegevens slechts te verwerken voor (een) welbepaald(e) doeleinde(n), dat/die uitdrukkelijk omschreven moet(en) zijn en gerechtvaardigd (art. 4, §2, 2° van de WVP).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-017",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            <p class=\"case-section__paragraph\">« Artikel 42 - de kadastrale documentatie wordt ter beschikking gesteld voor de volgende doeleinden:</p>\n            <ol>\n                <li>om te kunnen voldoen aan een door de aanvrager nader te specificeren wettelijke of reglementaire verplichting;</li>\n                <li>met het oog op het beheer van een bepaald onroerend goed waarop de aanvrager een zakelijk of persoonlijk recht uitoefent;</li>\n                <li>met het oog op het beheer van een onroerende mede-eigendom als bedoeld in de artikelen 577-2 en 577-3 van het Burgerlijk Wetboek;</li>\n                <li>wanneer de gevraagde informatie betrekking heeft op een onroerend goed dat het voorwerp uitmaakt van een overeenkomst waarbij de aanvrager betrokken partij is;</li>\n                <li>om te dienen als essentiële informatie vereist voor de afhandeling van een bepaald dossier waarmee de aanvrager beoefenaar van een gereglementeerd beroep, gebonden door het in dat kader opgelegde beroepsgeheim, is belast;</li>\n                <li>voor de instelling, uitoefening of onderbouwing van een rechtsvordering in een gerechtelijke, administratieve of buitengerechtelijke procedure;</li>\n                <li>met het oog op het verzamelen van geografische gegevens en het verstrekken van diensten met betrekking tot geografische gegevens;</li>\n                <li>om te worden gebruikt door een openbare overheid of een ministeriële ambtenaar in de zin van het Gerechtelijk Wetboek, wanneer de informatie noodzakelijk is voor de vervulling van een taak van algemeen belang of die deel uitmaakt van de uitoefening van het openbaar gezag;</li>\n                <li>met het oog op de strafrechtelijke opsporing en vervolging van misdaden, wanbedrijven en overtredingen.</li>\n            </ol>\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-017",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-021"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-018",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            <p class=\"case-section__paragraph\">« Artikel 42 - de kadastrale documentatie wordt ter beschikking gesteld voor de volgende doeleinden:</p>\n            <ol>\n                <li>om te kunnen voldoen aan een door de aanvrager nader te specificeren wettelijke of reglementaire verplichting;</li>\n                <li>met het oog op het beheer van een bepaald onroerend goed waarop de aanvrager een zakelijk of persoonlijk recht uitoefent;</li>\n                <li>met het oog op het beheer van een onroerende mede-eigendom als bedoeld in de artikelen 577-2 en 577-3 van het Burgerlijk Wetboek;</li>\n                <li>wanneer de gevraagde informatie betrekking heeft op een onroerend goed dat het voorwerp uitmaakt van een overeenkomst waarbij de aanvrager betrokken partij is;</li>\n                <li>om te dienen als essentiële informatie vereist voor de afhandeling van een bepaald dossier waarmee de aanvrager beoefenaar van een gereglementeerd beroep, gebonden door het in dat kader opgelegde beroepsgeheim, is belast;</li>\n                <li>voor de instelling, uitoefening of onderbouwing van een rechtsvordering in een gerechtelijke, administratieve of buitengerechtelijke procedure;</li>\n                <li>met het oog op het verzamelen van geografische gegevens en het verstrekken van diensten met betrekking tot geografische gegevens;</li>\n                <li>om te worden gebruikt door een openbare overheid of een ministeriële ambtenaar in de zin van het Gerechtelijk Wetboek, wanneer de informatie noodzakelijk is voor de vervulling van een taak van algemeen belang of die deel uitmaakt van de uitoefening van het openbaar gezag;</li>\n                <li>met het oog op de strafrechtelijke opsporing en vervolging van misdaden, wanbedrijven en overtredingen.</li>\n            </ol>\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-018",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-021"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-019",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">11. Enerzijds zijn sommige gegevens die opgesomd zijn in artikel 46 van het voorontwerp immers bedoeld om ter beschikking gesteld te worden van het publiek op basis van de wetgeving infrastructuur voor ruimtelijke informatie in de Europese Gemeenschap (INSPIRE). Deze gegevens zijn:</p>",
+          "<ol>\n            <li>het kadastraal perceelplan,</li>\n            <li>de mutatieschetsen</li>\n            <li>de lijst van de coördinaten van trigometrische punten (x, y, z) of van de hoekpunten van een planperceel</li>\n            <li>de kadastrale historiek van een bepaald plan of patrimoniumperceel documenten aangelegd ter gelegenheid van een hermeting of een ruilverkaveling (coördinatenlijst - ruilverkaveling) en</li>\n            <li>processen-verbaal van grensbepaling van een gemeentegrens.</li>\n        </ol>",
+          "<p class=\"case-section__paragraph\">12. De memorie van toelichting preciseert overigens dat de in artikel 46 bedoelde gegevens \"De geografische component vormen van de kadastrale documentatie\" en dat deze gegevens (lees hun verwerking) zullen (zal) niettemin worden onderworpen \"aan een gegevens-beschermingseffectbeoordeling zoals bedoeld in artikel 35 van de Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 “.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-019",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-040",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-020"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">13. Anderzijds zijn de in artikel 44 van het voorontwerp opgesomde gegevens bedoeld om op beperkte wijze ter beschikking van het publiek gesteld te worden. Het gaat om:</p>",
+          "<ul>\n            <li>(a) het kadastraal patrimoniumperceel en zijn fiscale gegevens;</li>\n            <li>(b) de eigendomstoestand;</li>\n            <li>(c) de eigenaarsgegevens;</li>\n            <li>(d) de kadastrale legger.</li>\n        </ul>",
+          "<p class=\"case-section__paragraph\">14. Deze kadastrale gegevens worden in principe uitsluitend ter beschikking gesteld van de natuurlijke en rechtspersonen op wie de informatie betrekking heeft. De Commissie leest echter in het voorontwerp dat deze gegevens kunnen worden meegedeeld aan derden op grond van de doeleinden bepaald in artikel 42 maar eveneens met het oog op het verzamelen van geografische gegevens bedoeld in artikel 43 (artikel 42, 7° van het voorontwerp).</p>",
+          "<p class=\"case-section__paragraph\">15. Bijgevolg, aangezien de in artikel 44 opgesomde gegevens ter beschikking van het publiek kunnen gesteld worden in het raam van de doeleinden verbonden aan de Infrastructuur voor ruimtelijke informatie, beveelt de Commissie aan de gegevensbeschermingseffectbeoordeling eveneens uit te breiden tot die gegevens. Zo is bijvoorbeeld altijd een GEB vereist wanneer de verwerking aanleiding geeft tot een mededeling of terbeschikkingstelling aan het publiek van persoonsgegevens die betrekking hebben op een groot aantal betrokkenen⁶. In dit verband verwijst de Commissie de aanvrager naar het advies van de Groep 29₁₂ alsook naar het recent ontwerp van aanbeveling van de Commissie 13, waarin in het licht van de AVG, de criteria werden vastgelegd ter identificatie van een verhoogd risico voor de rechten en vrijheden van de betrokkenen⁷.</p>",
+          "<p class=\"case-section__paragraph\">16. Tot slot merkt de Commissie op dat volgens het voorontwerp van koninklijk besluit, \"Het afleveren of het gebruik van de in artikel 44\" van dit besluit bepaalde kadastrale informatie \"voor commerciële, politieke of verkiezingsdoeleinden is verboden\" (artikel 45 van het voorontwerp van koninklijk besluit). De Commissie leidt hieruit af dat dergelijke doeleinden wel geoorloofd zouden zijn voor de gegevens bedoeld in artikel 46 van het voorontwerp van koninklijk besluit. Eveneens in dit opzicht reserveert de Commissie haar advies in afwachting van een effectbeoordeling van de terbeschikkingstelling van het publiek van deze gegevens voor dergelijke doeleinden.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-020",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-019",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-023"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">20. De doeleinden, opgesomd in artikel 44 waarvoor de aanvrager kadastrale informatie mag verwerken, worden als volgt uiteengezet in artikel 42 van het voorontwerp van koninklijk besluit:</p>",
+          "<blockquote class=\"case-quote\">\n            <p class=\"case-section__paragraph\">« Artikel 42 - de kadastrale documentatie wordt ter beschikking gesteld voor de volgende doeleinden:</p>\n            <ol>\n                <li>om te kunnen voldoen aan een door de aanvrager nader te specificeren wettelijke of reglementaire verplichting;</li>\n                <li>met het oog op het beheer van een bepaald onroerend goed waarop de aanvrager een zakelijk of persoonlijk recht uitoefent;</li>\n                <li>met het oog op het beheer van een onroerende mede-eigendom als bedoeld in de artikelen 577-2 en 577-3 van het Burgerlijk Wetboek;</li>\n                <li>wanneer de gevraagde informatie betrekking heeft op een onroerend goed dat het voorwerp uitmaakt van een overeenkomst waarbij de aanvrager betrokken partij is;</li>\n                <li>om te dienen als essentiële informatie vereist voor de afhandeling van een bepaald dossier waarmee de aanvrager beoefenaar van een gereglementeerd beroep, gebonden door het in dat kader opgelegde beroepsgeheim, is belast;</li>\n                <li>voor de instelling, uitoefening of onderbouwing van een rechtsvordering in een gerechtelijke, administratieve of buitengerechtelijke procedure;</li>\n                <li>met het oog op het verzamelen van geografische gegevens en het verstrekken van diensten met betrekking tot geografische gegevens;</li>\n                <li>om te worden gebruikt door een openbare overheid of een ministeriële ambtenaar in de zin van het Gerechtelijk Wetboek, wanneer de informatie noodzakelijk is voor de vervulling van een taak van algemeen belang of die deel uitmaakt van de uitoefening van het openbaar gezag;</li>\n                <li>met het oog op de strafrechtelijke opsporing en vervolging van misdaden, wanbedrijven en overtredingen.</li>\n            </ol>\n        </blockquote>",
+          "<blockquote class=\"case-quote\">\n            <ol start=\"10\">\n                <li>met het oog op het opmaken van algemene en naamloze statistieken door de FOD Economie, K.M.O., Middenstand en Energie;</li>\n                <li>voor wetenschappelijke, statistische, historische of opvoedkundige doeleinden of voor een erkend algemeen belang zonder winstoogmerk;</li>\n                <li>om te voldoen aan een door de aanvrager ingeroepen gerechtvaardigd belang, mits het belang of de fundamentele rechten en vrijheden van de betrokkene op grond van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens, niet zwaarder doorwegen.</li>\n            </ol>\n        </blockquote>",
+          "<ol type=\"a\">\n            <li>wanneer de terbeschikkingstelling van de kadastrale gegevens gebaseerd is op een gerechtvaardigd belang van de aanvrager en dit ten behoeve van een gecoördineerd beoordelingsbeleid en afweging van dit gerechtvaardigd belang met de fundamentele rechten en vrijheden van de betrokkene (artikel 42, 12° van het voorontwerp van koninklijk besluit).</li>\n            <li>voor elke verwerking die zou afwijken van onderhavig voorontwerp van koninklijk besluit op basis van artikel 57 dat immers bepaalt dat de AAPD gemachtigd is om bijzondere akkoorden af te sluiten met derden die « kunnen afwijken van de in dit besluit bepaalde modaliteiten (zie titel 7 hierna \"Machtiging van het Comité FO\").</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-021",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-020",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-017",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-018",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-032"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-022",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">21. Deze doeleinden worden evenwel beperkt door artikel 43 dat betrekking heeft op de publieke toegang tot de verzamelingen geografische gegevens (cf. doeleinde vervat in artikel 42, 7° van het voorontwerp van koninklijk besluit). Artikel 43 bepaalt immers dat \"In afwijking op artikel 42, wordt de publieke toegang tot de verzamelingen geografische gegevens en diensten met betrekking tot geografische gegevens beperkt overeenkomstig de bepalingen van Hoofdstuk 4 van de Wet van 15 december 2011 tot omzetting van de Richtlijn 2007/2/EG van het Europees Parlement en de Raad van 14 maart 2007 tot oprichting van een infrastructuur voor ruimtelijke informatie in de Gemeenschap (INSPIRE)₈.</p>",
+          "<p class=\"case-section__paragraph\">22. Het voormelde artikel 43 vormt eveneens de grens voor de terbeschikkingstelling van het publiek van de in artikel 46 opgesomde gegevens.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-022",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-021",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-024"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-023",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">16. Tot slot merkt de Commissie op dat volgens het voorontwerp van koninklijk besluit, \"Het afleveren of het gebruik van de in artikel 44\" van dit besluit bepaalde kadastrale informatie \"voor commerciële, politieke of verkiezingsdoeleinden is verboden\" (artikel 45 van het voorontwerp van koninklijk besluit). De Commissie leidt hieruit af dat dergelijke doeleinden wel geoorloofd zouden zijn voor de gegevens bedoeld in artikel 46 van het voorontwerp van koninklijk besluit. Eveneens in dit opzicht reserveert de Commissie haar advies in afwachting van een effectbeoordeling van de terbeschikkingstelling van het publiek van deze gegevens voor dergelijke doeleinden.</p>",
+          "<p class=\"case-section__paragraph\">23. Er wordt overigens gepreciseerd dat \"Het afleveren of het gebruik van de in artikel 44 van dit besluit bepaalde kadastrale informatie voor commerciële, politieke of verkiezingsdoeleinden is verboden\" (Artikel 45 van het voorontwerp van koninklijk besluit).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-023",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-020"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-024",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            <p class=\"case-section__paragraph\">« Art. 9. §1. De entiteiten bedoeld in artikel 4, § 1, beperken de publieke toegang tot verzamelingen geografische gegevens en diensten met betrekking tot geografische gegevens via de in artikel 11, § 1, a), van de INSPIRE-Richtlijn bedoelde diensten, indien de toegang afbreuk zou doen aan :</p>\n            <ol>\n                <li>de openbare veiligheid, of</li>\n                <li>de nationale defensie, of</li>\n                <li>het vertrouwelijke karakter van : de federale internationale betrekkingen van België, of - de betrekkingen van België met de supranationale instellingen.</li>\n            </ol>\n            <p class=\"case-section__paragraph\">De entiteiten bedoeld in artikel 4, § 1, beperken de publieke toegang tot verzamelingen geografische gegevens en diensten met betrekking tot geografische gegevens via de in artikel 11, § 1, b) tot e), van de INSPIRE-Richtlijn vermelde diensten of tot de in artikel 14, § 3, van de INSPIRE-Richtlijn vermelde e-commercediensten, indien de toegang afbreuk zou doen aan een van de belangen bedoeld in het eerste lid of aan een van volgende belangen :</p>\n            <ol>\n                <li>het vertrouwelijke karakter van handelingen van de overheidsinstanties die onder de federale overheid vallen, indien deze vertrouwelijkheid bij wet is voorzien;</li>\n                <li>de rechtsgang, de mogelijkheid voor een persoon een eerlijk proces te krijgen of de mogelijkheid voor een overheid die onder de federale overheid valt om een onderzoek van strafrechtelijke of disciplinaire aard in te stellen;</li>\n                <li>de vertrouwelijkheid van commerciële of industriële informatie, wanneer deze vertrouwelijkheid in de Belgische wetgeving of die van de Europese Unie geboden wordt om een gewettigd economisch belang te beschermen, met inbegrip van het algemeen belang dat met statistische en fiscale geheimhouding is gediend;</li>\n                <li>intellectuele eigendomsrechten;</li>\n                <li>de vertrouwelijkheid van persoonsgegevens en/of -dossiers met betrekking tot een natuurlijke persoon wanneer die persoon niet heeft ingestemd met bekendmaking van de informatie aan het publiek, wanneer in deze vertrouwelijkheid is voorzien in de Belgische wetgeving of die van de Europese Unie;</li>\n                <li>de belangen of de bescherming van diegene die de verzochte informatie op vrijwillige basis heeft verstrekt zonder daartoe wettelijk verplicht te zijn of te kunnen worden, tenzij die persoon ermee heeft ingestemd dat de betrokken informatie wordt vrijgegeven;</li>\n                <li>de bescherming van het milieu waarop die informatie betrekking heeft;</li>\n                <li>het vertrouwelijke karakter van de betrekking van de federale overheid met de Gemeenschappen en Gewesten.</li>\n            </ol>\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-024",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-022"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-025",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">19. Het huidig koninklijk besluit van 20 september 2002 verplicht vandaag iedere dienst die betrokken is bij een raadplegingsverzoek van kadastrale documentatie een afweging te maken tussen de bekendmaking van de informatie en de bescherming van de fundamentele rechten en vrijheden van de eigenaar van het betrokken goed. Artikel 7 van dit KB bepaalt immers: « De aanvraag om kadastrale informatie wordt afgewezen als uit het nagestreefd doel blijkt dat het belang van de openbaarheid niet opweegt tegen de bescherming van de fundamentele rechten en vrijheden van de eigenaar of zijn persoonlijke levenssfeer ». Het voorontwerp van besluit voorziet nu in een limitatieve opsomming van doeleinden waarvoor kadastrale documentatie « ter beschikking mag worden gesteld» van de aanvragers die om informatie verzoeken.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-025",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-021"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-026",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">9 De Commissie stelt overigens vast dat er waarborgen zijn voorzien zodat de eerbiediging van de doeleinden als opgesomd onder artikel 42, is verzekerd. Zo moet een verzoek om een uittreksel van de kadastrale documentatie met redenen omkleed zijn door de verzoeker en die motivatie moet toelaten « na te gaan of de aanvraag beantwoordt aan de doelstellingen waarvoor de kadastrale documentatie ter beschikking wordt gesteld» (artikel 47, 2de lid).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-026",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-021"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-027",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">18. Overigens moeten ook de toepassingsvoorwaarden van de de WVP, zoals vermeld onder artikel 49 van het voorontwerp, opgehelderd worden. Daarin wordt immers vermeld dat in de gevallen waarin de kadastrale documentatie rechtstreeks kan worden bevraagd via web-services enkel gerichte zoekopdrachten toegelaten zijn « onder de voorwaarden van de machtiging aan de aanvrager verleend in toepassing van de Wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens». De Commissie verzoekt om op te helderen waaruit een dergelijke volmacht (procuration in de Franse versie en in het Nederlands vertaald als een ander begrip \"autorisation/machtiging\") bestaat en welke de voorwaarden zijn (de Commissie houdt haar opmerkingen hierover open). De Commissie merkt op dat het volgens de bijkomende uitleg van de FOD Financiën gaat om een \"machtiging\" en niet om een \"volmacht”, door te verwijzen naar de machtigingen toegekend door het Sectoraal comité voor de Federale Overheid krachtens artikel 36bis van de WVP voor alle elektronische mededelingen van persoonsgegevens door een federale overheid. De Commissie verduidelijkt evenwel dat het irrelevant zou zijn om te verwijzen naar artikel 6 van de voormelde wet van 3 augustus 2012 betreffende de verwerking van persoonsgegevens door de Federale Overheidsdienst Financiën in het kader van zijn opdrachten, omdat deze bepaling slechts betrekking heeft op de uitwisseling van persoonsgegevens door de FOD Financiën \"naar een andere overheidsdienst of rechtspersoon van publiek recht\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-027",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-038",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-039"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-028",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">29. De Commissie stelt bovendien vast dat bij het afleveren van patrimoniale informatie, rekening is gehouden met een beperkte toegang in functie van door het voorontwerp van koninklijk besluit toegestane doeleinden (artikel 49). Een register van de uitgevoerde raadplegingen en de afgeleverde gegevens wordt inderdaad bewaard binnen de AAPD, met vermelding van de identiteit of benaming van degene aan wie de informatie werd verstrekt, de doeleinden op grond waarvan de inlichtingen werden ter beschikking gesteld of verstrekt, de datum waarop dit is gebeurd en een overzicht van de gegevens die werden geraadpleegd of afgeleverd (artikel 50).</p>",
+          "<p class=\"case-section__paragraph\">30. De Commissie benadrukt dat ook vooraf in een register van de raadplegingen is voorzien om te garanderen dat de raadplegingen gebeuren binnen de administratie van het kadaster door personen die de informatie moeten kennen. De Commissie neemt in dit verband nota van de informatie die de FOD Financiën heeft verstrekt volgens welke een dergelijke dergelijk systeem voor toegangsbeheer wel degelijk werd ingevoerd en dit overeenkomstig artikel 10 van de wet van 3 augustus 2012 houdende de bepalingen betreffende de verwerkingen van persoonsgegeven verwerkt door de Federale Overheidsdienst Financiën binnen het kader van haar opdrachten¹⁰.</p>",
+          "<blockquote class=\"case-quote\">\n            <p class=\"case-section__paragraph\">\" § 1. De ambtenaren van de Federale Overheidsdienst Financiën en de personeelsleden van derden die daartoe behoorlijk gemachtigd zijn, hebben slechts toegang tot de dossiers, de gegevens en de elektronische toepassingen voor zover die toegang toereikend, ter zake dienend en niet overmatig is voor het uitvoeren van de taken die hun zijn toegewezen […] § 4 Elke toegang of toegangspoging tot de dossiers, tot de gegevens of tot de elektronische toepassingen wordt automatisch geregistreerd waarbij de inhoud en de bewaringstermijn zijn vastgesteld in een intern reglement dat voor advies aan het Sectoraal Comité voor de Federale Overheid zal worden voorgelegd\".</p>\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-028",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-031"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-029",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">27. Gelet op het bestaan binnen de FOD Financiën van een Dienst voor Informatieveiligheid en Bescherming van de Persoonlijke Levenssfeer, opgericht bij wet van 3 augustus 2012 (artikel 8 en 9 van deze wet), verzoekt de Commissie aan de verantwoordelijke voor de verwerking om de soorten verwerkingen te identificeren die moeten worden opgevolgd door deze diensten of gelijkaardige nog op te richten diensten binnen de Administratie van het Kadaster. Zo moet bijvoorbeeld in de volgende gevallen worden voorzien in een voorafgaande controle:</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-029",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-030"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-030",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">27. Gelet op het bestaan binnen de FOD Financiën van een Dienst voor Informatieveiligheid en Bescherming van de Persoonlijke Levenssfeer, opgericht bij wet van 3 augustus 2012 (artikel 8 en 9 van deze wet), verzoekt de Commissie aan de verantwoordelijke voor de verwerking om de soorten verwerkingen te identificeren die moeten worden opgevolgd door deze diensten of gelijkaardige nog op te richten diensten binnen de Administratie van het Kadaster. Zo moet bijvoorbeeld in de volgende gevallen worden voorzien in een voorafgaande controle:</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-030",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-029"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-031",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            <p class=\"case-section__paragraph\">\" § 1. De ambtenaren van de Federale Overheidsdienst Financiën en de personeelsleden van derden die daartoe behoorlijk gemachtigd zijn, hebben slechts toegang tot de dossiers, de gegevens en de elektronische toepassingen voor zover die toegang toereikend, ter zake dienend en niet overmatig is voor het uitvoeren van de taken die hun zijn toegewezen […] § 4 Elke toegang of toegangspoging tot de dossiers, tot de gegevens of tot de elektronische toepassingen wordt automatisch geregistreerd waarbij de inhoud en de bewaringstermijn zijn vastgesteld in een intern reglement dat voor advies aan het Sectoraal Comité voor de Federale Overheid zal worden voorgelegd\".</p>\n        </blockquote>",
+          "<p class=\"case-section__paragraph\">30. De Commissie benadrukt dat ook vooraf in een register van de raadplegingen is voorzien om te garanderen dat de raadplegingen gebeuren binnen de administratie van het kadaster door personen die de informatie moeten kennen. De Commissie neemt in dit verband nota van de informatie die de FOD Financiën heeft verstrekt volgens welke een dergelijke dergelijk systeem voor toegangsbeheer wel degelijk werd ingevoerd en dit overeenkomstig artikel 10 van de wet van 3 augustus 2012 houdende de bepalingen betreffende de verwerkingen van persoonsgegeven verwerkt door de Federale Overheidsdienst Financiën binnen het kader van haar opdrachten¹⁰.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-031",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-028"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-032",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">34. De Commissie leidt hieruit af dat omgekeerd elke afwijking van de voorwaarden een voorafgaande machtiging vereist van het Comité FO. Welnu, het voorontwerp van koninklijk besluit regelt de mogelijkheid om af te wijken van Titel 3 van het voorontwerp van koninklijk besluit: Artikel 57 bepaalt immers dat de AAPD gemachtigd is om bijzondere akkoorden af te sluiten met derden die « kunnen afwijken van de in dit besluit bepaalde modaliteiten ».</p>",
+          "<p class=\"case-section__paragraph\">35. Dergelijke afwijkingen kunnen dus slechts voorkomen op voorwaarde dat is voorzien in een voorafgaande machtiging van het Comité FO, of in het geval dit Comité niet langer in werking is onder de AVG, op voorwaarde dat een voorafgaande machtiging wordt verkregen bij elke ander orgaan dat bevoegd is voor het toezicht op de verwerking van de patrimoniumdocumentatie, met name met het oog op de voorafgaande controle van de doeleinden en de proportionaliteit van de betrokken gegevensstroo.11</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-032",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-021"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-033",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Betreffende de bewaartermijn van de gegevens, herinnert het Comité eraan dat de gegevens niet langer mogen bewaard worden dan de tijd die noodzakelijk is om de doeleinden te verwezenlijken waarvoor zij werden ingezameld (artikel 4, § 1, 5° van de WVP; artikel 5.1.b AVG). Dit principe geldt zowel voor de administratie financiën als voor de aanvragers van kadastrale informatie. De Commissie beveelt dus aan om de bewaartermijn van de kadastrale gegevens en hun archieven nader te omschrijven of op zijn minst ter verwijzen naar de wettelijke grondslagen waarin deze termijnen kunnen worden nagekeken.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-033"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-034",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Commissie herinnert eraan dat een eerlijke gegevensverwerking een transparante verwerking is (artikelen 4 §1, 1° en 9 tot 15bis van de WVP, zie artikelen 12 en volgende AVG). De Commissie herhaalt eveneens dat de informatieplicht als bedoeld in artikel 9, § 2 van de WVP (zie artikelen 12 en volgende AVG) een van de hoekstenen vormt van een transparante verwerking. In dit geval zullen de geplande gegevensverwerkingen worden verricht in toepassing van de voorgeschreven bepalingen door of krachtens een wet, decreet of ordonnantie. In een dergelijke situatie is een vrijstelling van informatieplicht van toepassing (artikel 9, §2, 2ᵈᵉ lid, b) van de WVP; artikel 13.4 AVG). Deze vrijstelling verhindert echter niet dat de administratie van het kadaster er moet voorstaan dat er gepaste garanties bestaan die de fundamentele rechten van de betrokkenen beschermen, met name, een gepaste informatie over het bestaan van hun rechten inzake de bescherming van hun persoonsgegevens en over de manier waarop ze dit recht kunnen uitoefenen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-034",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-035"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-035",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Commissie herinnert eraan dat een eerlijke gegevensverwerking een transparante verwerking is (artikelen 4 §1, 1° en 9 tot 15bis van de WVP, zie artikelen 12 en volgende AVG). De Commissie herhaalt eveneens dat de informatieplicht als bedoeld in artikel 9, § 2 van de WVP (zie artikelen 12 en volgende AVG) een van de hoekstenen vormt van een transparante verwerking. In dit geval zullen de geplande gegevensverwerkingen worden verricht in toepassing van de voorgeschreven bepalingen door of krachtens een wet, decreet of ordonnantie. In een dergelijke situatie is een vrijstelling van informatieplicht van toepassing (artikel 9, §2, 2ᵈᵉ lid, b) van de WVP; artikel 13.4 AVG). Deze vrijstelling verhindert echter niet dat de administratie van het kadaster er moet voorstaan dat er gepaste garanties bestaan die de fundamentele rechten van de betrokkenen beschermen, met name, een gepaste informatie over het bestaan van hun rechten inzake de bescherming van hun persoonsgegevens en over de manier waarop ze dit recht kunnen uitoefenen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-035",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-034"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-036",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Commissie herinnert eraan dat een eerlijke gegevensverwerking een transparante verwerking is (artikelen 4 §1, 1° en 9 tot 15bis van de WVP, zie artikelen 12 en volgende AVG). De Commissie herhaalt eveneens dat de informatieplicht als bedoeld in artikel 9, § 2 van de WVP (zie artikelen 12 en volgende AVG) een van de hoekstenen vormt van een transparante verwerking. In dit geval zullen de geplande gegevensverwerkingen worden verricht in toepassing van de voorgeschreven bepalingen door of krachtens een wet, decreet of ordonnantie. In een dergelijke situatie is een vrijstelling van informatieplicht van toepassing (artikel 9, §2, 2ᵈᵉ lid, b) van de WVP; artikel 13.4 AVG). Deze vrijstelling verhindert echter niet dat de administratie van het kadaster er moet voorstaan dat er gepaste garanties bestaan die de fundamentele rechten van de betrokkenen beschermen, met name, een gepaste informatie over het bestaan van hun rechten inzake de bescherming van hun persoonsgegevens en over de manier waarop ze dit recht kunnen uitoefenen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-036"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-037",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Commissie herinnert eraan dat een eerlijke gegevensverwerking een transparante verwerking is (artikelen 4 §1, 1° en 9 tot 15bis van de WVP, zie artikelen 12 en volgende AVG). De Commissie herhaalt eveneens dat de informatieplicht als bedoeld in artikel 9, § 2 van de WVP (zie artikelen 12 en volgende AVG) een van de hoekstenen vormt van een transparante verwerking. In dit geval zullen de geplande gegevensverwerkingen worden verricht in toepassing van de voorgeschreven bepalingen door of krachtens een wet, decreet of ordonnantie. In een dergelijke situatie is een vrijstelling van informatieplicht van toepassing (artikel 9, §2, 2ᵈᵉ lid, b) van de WVP; artikel 13.4 AVG). Deze vrijstelling verhindert echter niet dat de administratie van het kadaster er moet voorstaan dat er gepaste garanties bestaan die de fundamentele rechten van de betrokkenen beschermen, met name, een gepaste informatie over het bestaan van hun rechten inzake de bescherming van hun persoonsgegevens en over de manier waarop ze dit recht kunnen uitoefenen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-037"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-038",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">18. Overigens moeten ook de toepassingsvoorwaarden van de de WVP, zoals vermeld onder artikel 49 van het voorontwerp, opgehelderd worden. Daarin wordt immers vermeld dat in de gevallen waarin de kadastrale documentatie rechtstreeks kan worden bevraagd via web-services enkel gerichte zoekopdrachten toegelaten zijn « onder de voorwaarden van de machtiging aan de aanvrager verleend in toepassing van de Wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens». De Commissie verzoekt om op te helderen waaruit een dergelijke volmacht (procuration in de Franse versie en in het Nederlands vertaald als een ander begrip \"autorisation/machtiging\") bestaat en welke de voorwaarden zijn (de Commissie houdt haar opmerkingen hierover open). De Commissie merkt op dat het volgens de bijkomende uitleg van de FOD Financiën gaat om een \"machtiging\" en niet om een \"volmacht”, door te verwijzen naar de machtigingen toegekend door het Sectoraal comité voor de Federale Overheid krachtens artikel 36bis van de WVP voor alle elektronische mededelingen van persoonsgegevens door een federale overheid. De Commissie verduidelijkt evenwel dat het irrelevant zou zijn om te verwijzen naar artikel 6 van de voormelde wet van 3 augustus 2012 betreffende de verwerking van persoonsgegevens door de Federale Overheidsdienst Financiën in het kader van zijn opdrachten, omdat deze bepaling slechts betrekking heeft op de uitwisseling van persoonsgegevens door de FOD Financiën \"naar een andere overheidsdienst of rechtspersoon van publiek recht\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-038",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-027"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-039",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">18. Overigens moeten ook de toepassingsvoorwaarden van de de WVP, zoals vermeld onder artikel 49 van het voorontwerp, opgehelderd worden. Daarin wordt immers vermeld dat in de gevallen waarin de kadastrale documentatie rechtstreeks kan worden bevraagd via web-services enkel gerichte zoekopdrachten toegelaten zijn « onder de voorwaarden van de machtiging aan de aanvrager verleend in toepassing van de Wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens». De Commissie verzoekt om op te helderen waaruit een dergelijke volmacht (procuration in de Franse versie en in het Nederlands vertaald als een ander begrip \"autorisation/machtiging\") bestaat en welke de voorwaarden zijn (de Commissie houdt haar opmerkingen hierover open). De Commissie merkt op dat het volgens de bijkomende uitleg van de FOD Financiën gaat om een \"machtiging\" en niet om een \"volmacht”, door te verwijzen naar de machtigingen toegekend door het Sectoraal comité voor de Federale Overheid krachtens artikel 36bis van de WVP voor alle elektronische mededelingen van persoonsgegevens door een federale overheid. De Commissie verduidelijkt evenwel dat het irrelevant zou zijn om te verwijzen naar artikel 6 van de voormelde wet van 3 augustus 2012 betreffende de verwerking van persoonsgegevens door de Federale Overheidsdienst Financiën in het kader van zijn opdrachten, omdat deze bepaling slechts betrekking heeft op de uitwisseling van persoonsgegevens door de FOD Financiën \"naar een andere overheidsdienst of rechtspersoon van publiek recht\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-039",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-027"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-040",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">12. De memorie van toelichting preciseert overigens dat de in artikel 46 bedoelde gegevens \"De geografische component vormen van de kadastrale documentatie\" en dat deze gegevens (lees hun verwerking) zullen (zal) niettemin worden onderworpen \"aan een gegevens-beschermingseffectbeoordeling zoals bedoeld in artikel 35 van de Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 “.</p>",
+          "<p class=\"case-section__paragraph\">15. Bijgevolg, aangezien de in artikel 44 opgesomde gegevens ter beschikking van het publiek kunnen gesteld worden in het raam van de doeleinden verbonden aan de Infrastructuur voor ruimtelijke informatie, beveelt de Commissie aan de gegevensbeschermingseffectbeoordeling eveneens uit te breiden tot die gegevens. Zo is bijvoorbeeld altijd een GEB vereist wanneer de verwerking aanleiding geeft tot een mededeling of terbeschikkingstelling aan het publiek van persoonsgegevens die betrekking hebben op een groot aantal betrokkenen⁶. In dit verband verwijst de Commissie de aanvrager naar het advies van de Groep 29₁₂ alsook naar het recent ontwerp van aanbeveling van de Commissie 13, waarin in het licht van de AVG, de criteria werden vastgelegd ter identificatie van een verhoogd risico voor de rechten en vrijheden van de betrokkenen⁷.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-040",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-019",
+          "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-020"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 40,
+      "citationStatistics": {
+        "totalCitations": 57,
+        "avgCitationsPerProvision": 1.425,
+        "provisionsWithMinimalCitations": 36,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.15,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 7
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">wordt gedefinieerd in artikel 2 van het voorontwerp van koninklijk besluit: het gaat om « het geheel van de documenten, stukken, plannen, databanken en informatie waarover de AAPD (Algemene Administratie van de Patrimoniumdocumentatie) beschikt in het kader van de haar, in uitvoering van Titel IX van het Wetboek van de inkomstenbelastingen 1992, opgedragen taken ». Deze kadastrale documentatie houdt rechtstreeks of onrechtstreeks1 verband met natuurlijke personen, eigenaars van het betrokken goed. Deze documentatie bevat dus persoonsgegevens als bedoeld in artikel 1 §1 van de WVP, (artikel 4.1 AVG), namelijk gegevens betreffende een rechtstreeks of onrechtstreeks geïdentificeerde of identificeerbare, natuurlijke persoon.</p>",
+          "<p class=\"case-section__paragraph\">1 Zie advies nr. 32/2008 van 24 september 2008, punt 6 (“ De Commissie is van oordeel dat geografische gegevens in bepaalde gevallen effectief persoonsgegevens kunnen betreffen. Ter illustratie kan verwezen worden naar een situatie waarin de GDI aangeeft dat voor perceel X een bouw –en/of milieuvergunning werd toegekend. Het betrokken perceel kan dan herkend worden aan de hand van de situatie, door zich ter plaatse te begeven of door ze te koppelen aan een plan met de huisnummers. Nadat men in het bezit is gekomen van het adres van het perceel zal men vrij makkelijk via de diensten van het kadaster de eigenaar kunnen identificeren ”).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">8. Het finaliteitsbeginsel verplicht de verantwoordelijke voor de verwerking om de bedoelde gegevens slechts te verwerken voor (een) welbepaald(e) doeleinde(n), dat/die uitdrukkelijk omschreven moet(en) zijn en gerechtvaardigd (art. 4, §2, 2° van de WVP).</p>",
+          "<blockquote class=\"case-quote\">\n            <p class=\"case-section__paragraph\">« Artikel 42 - de kadastrale documentatie wordt ter beschikking gesteld voor de volgende doeleinden:</p>\n            <ol>\n                <li>om te kunnen voldoen aan een door de aanvrager nader te specificeren wettelijke of reglementaire verplichting;</li>\n                <li>met het oog op het beheer van een bepaald onroerend goed waarop de aanvrager een zakelijk of persoonlijk recht uitoefent;</li>\n                <li>met het oog op het beheer van een onroerende mede-eigendom als bedoeld in de artikelen 577-2 en 577-3 van het Burgerlijk Wetboek;</li>\n                <li>wanneer de gevraagde informatie betrekking heeft op een onroerend goed dat het voorwerp uitmaakt van een overeenkomst waarbij de aanvrager betrokken partij is;</li>\n                <li>om te dienen als essentiële informatie vereist voor de afhandeling van een bepaald dossier waarmee de aanvrager beoefenaar van een gereglementeerd beroep, gebonden door het in dat kader opgelegde beroepsgeheim, is belast;</li>\n                <li>voor de instelling, uitoefening of onderbouwing van een rechtsvordering in een gerechtelijke, administratieve of buitengerechtelijke procedure;</li>\n                <li>met het oog op het verzamelen van geografische gegevens en het verstrekken van diensten met betrekking tot geografische gegevens;</li>\n                <li>om te worden gebruikt door een openbare overheid of een ministeriële ambtenaar in de zin van het Gerechtelijk Wetboek, wanneer de informatie noodzakelijk is voor de vervulling van een taak van openbaar belang of die deel uitmaakt van de uitoefening van het openbaar gezag;</li>\n                <li>met het oog op de strafrechtelijke opsporing en vervolging van misdaden, wanbedrijven en overtredingen.</li>\n            </ol>\n        </blockquote>",
+          "<blockquote class=\"case-quote\">\n            <ol start=\"10\">\n                <li>met het oog op het opmaken van algemene en naamloze statistieken door de FOD Economie, K.M.O., Middenstand en Energie;</li>\n                <li>voor wetenschappelijke, statistische, historische of opvoedkundige doeleinden of voor een erkend algemeen belang zonder winstoogmerk;</li>\n                <li>om te voldoen aan een door de aanvrager ingeroepen gerechtvaardigd belang, mits het belang of de fundamentele rechten en vrijheden van de betrokkene op grond van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens, niet zwaarder doorwegen.</li>\n            </ol>\n        </blockquote>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">12. De memorie van toelichting preciseert overigens dat de in artikel 46 bedoelde gegevens \"De geografische component vormen van de kadastrale documentatie\" en dat deze gegevens (lees hun verwerking) zullen (zal) niettemin worden onderworpen \"aan een gegevens-beschermingseffectbeoordeling zoals bedoeld in artikel 35 van de Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 “.</p>",
+          "<p class=\"case-section__paragraph\">15. Bijgevolg, aangezien de in artikel 44 opgesomde gegevens ter beschikking van het publiek kunnen gesteld worden in het raam van de doeleinden verbonden aan de Infrastructuur voor ruimtelijke informatie, beveelt de Commissie aan de gegevensbeschermingseffectbeoordeling eveneens uit te breiden tot die gegevens. Zo is bijvoorbeeld altijd een GEB vereist wanneer de verwerking aanleiding geeft tot een mededeling of terbeschikkingstelling aan het publiek van persoonsgegevens die betrekking hebben op een groot aantal betrokkenen⁶. In dit verband verwijst de Commissie de aanvrager naar het advies van de Groep 29₁₂ alsook naar het recent ontwerp van aanbeveling van de Commissie 13, waarin in het licht van de AVG, de criteria werden vastgelegd ter identificatie van een verhoogd risico voor de rechten en vrijheden van de betrokkenen⁷.</p>",
+          "<p class=\"case-section__paragraph\">34. De Commissie leidt hieruit af dat omgekeerd elke afwijking van de voorwaarden een voorafgaande machtiging vereist van het Comité FO. Welnu, het voorontwerp van koninklijk besluit regelt de mogelijkheid om af te wijken van Titel 3 van het voorontwerp van koninklijk besluit: Artikel 57 bepaalt immers dat de AAPD gemachtigd is om bijzondere akkoorden af te sluiten met derden die « kunnen afwijken van de in dit besluit bepaalde modaliteiten ».</p>",
+          "<li>Een doeltreffende informatieverstrekking aan de betrokkenen over de modaliteiten van de uitoefening van hun recht op toegang, rectificatie of bezwaar in het geval derden hun persoonsgegevens zouden verwerken voor direct marketingdoeleinden (Advies nr. 43/2015 van 23 september 2015 op het voorontwerp van wet inzake het hergebruik van overheidsinformatie).</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">overeenkomstig de WVP en de toekomstige AVG, zoals bijvoorbeeld de organisatorische en beveiligingsmaatregelen opgelegd krachtens artikel 16, § 4 van de WVP (artikel 32 AVG) voor iedere gegevensverwerking en die niettemin van toepassing blijven op de verwerkingen bedoeld in het voorontwerp van koninklijk besluit².</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Commissie acht het noodzakelijk, gelet op artikel 1 § 4 van de WVP (artikel 4 § 7 AVG) en de belangrijke rol die is toevertrouwd aan de \"verantwoordelijke voor de verwerking\" in de WVP, om duidelijk in het ontwerp aan te duiden welke instantie(s) deze opdracht van verantwoordelijke voor de verwerking zal/zullen vervullen³. De Commissie merkt in dit verband op dat in de Memorie van Toelichting wordt verwezen naar de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de FOD Financiën in het kader van zijn opdrachten. Artikel 2 van deze wet duidt de FOD Financiën aan als verantwoordelijke voor de verwerking. De Commissie is van oordeel dat voor meer duidelijkheid, een meer expliciete aanduiding van de verantwoordelijke voor de verwerking zou kunnen worden overwogen, bijvoorbeeld in de memorie van toelichting, aangezien het voorontwerp van Koninklijk besluit enkel gewag maakt van de Algemene administratie Patrimoniumdocumentatie (« AAPD») en niet van de FOD Financiën als dusdanig.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">34. De Commissie leidt hieruit af dat omgekeerd elke afwijking van de voorwaarden een voorafgaande machtiging vereist van het Comité FO. Welnu, het voorontwerp van koninklijk besluit regelt de mogelijkheid om af te wijken van Titel 3 van het voorontwerp van koninklijk besluit: Artikel 57 bepaalt immers dat de AAPD gemachtigd is om bijzondere akkoorden af te sluiten met derden die « kunnen afwijken van de in dit besluit bepaalde modaliteiten ».</p>",
+          "<p class=\"case-section__paragraph\">35. Dergelijke afwijkingen kunnen dus slechts voorkomen op voorwaarde dat is voorzien in een voorafgaande machtiging van het Comité FO, of in het geval dit Comité niet langer in werking is onder de AVG, op voorwaarde dat een voorafgaande machtiging wordt verkregen bij elke ander orgaan dat bevoegd is voor het toezicht op de verwerking van de patrimoniumdocumentatie, met name met het oog op de voorafgaande controle van de doeleinden en de proportionaliteit van de betrokken gegevensstroo.11</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-036",
+            "ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-057"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">27. Gelet op het bestaan binnen de FOD Financiën van een Dienst voor Informatieveiligheid en Bescherming van de Persoonlijke Levenssfeer, opgericht bij wet van 3 augustus 2012 (artikel 8 en 9 van deze wet), verzoekt de Commissie aan de verantwoordelijke voor de verwerking om de soorten verwerkingen te identificeren die moeten worden opgevolgd door deze diensten of gelijkaardige nog op te richten diensten binnen de Administratie van het Kadaster. Zo moet bijvoorbeeld in de volgende gevallen worden voorzien in een voorafgaande controle:</p>",
+          "<p class=\"case-section__paragraph\">a. Het voorontwerp van koninklijk besluit is inderdaad genomen in toepassing van het artikel 504 WIB4. Overeenkomstig het tweede lid van dit artikel is de Algemene Administratie van de Patrimoniumdocumentatie gemachtigd om uittreksels of kopieën van de kadastrale documentatie af te leveren volgens de door de koning vastgestelde tarieven. De Commissie merkt op dat dit artikel wordt aangevuld door artikel 337 WIB5 dat handelt over het beroepsgeheim van de personeelsleden van de AAPD en voorziet het in een</p>",
+          "<p class=\"case-section__paragraph\">29. De Commissie stelt bovendien vast dat bij het afleveren van patrimoniale informatie, rekening is gehouden met een beperkte toegang in functie van door het voorontwerp van koninklijk besluit toegestane doeleinden (artikel 49). Een register van de uitgevoerde raadplegingen en de afgeleverde gegevens wordt inderdaad bewaard binnen de AAPD, met vermelding van de identiteit of benaming van degene aan wie de informatie werd verstrekt, de doeleinden op grond waarvan de inlichtingen werden ter beschikking gesteld of verstrekt, de datum waarop dit is gebeurd en een overzicht van de gegevens die werden geraadpleegd of afgeleverd (artikel 50).</p>",
+          "<blockquote class=\"case-quote\">\n            <p class=\"case-section__paragraph\">\" § 1. De ambtenaren van de Federale Overheidsdienst Financiën en de personeelsleden van derden die daartoe behoorlijk gemachtigd zijn, hebben slechts toegang tot de dossiers, de gegevens en de elektronische toepassingen voor zover die toegang toereikend, ter zake dienend en niet overmatig is voor het uitvoeren van de taken die hun zijn toegewezen […] § 4 Elke toegang of toegangspoging tot de dossiers, tot de gegevens of tot de elektronische toepassingen wordt automatisch geregistreerd waarbij de inhoud en de bewaringstermijn zijn vastgesteld in een intern reglement dat voor advies aan het Sectoraal Comité voor de Federale Overheid zal worden voorgelegd\".</p>\n        </blockquote>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 7,
+      "citationStatistics": {
+        "totalCitations": 17,
+        "avgCitationsPerTeaching": 2.4285714285714284,
+        "teachingsWithMinimalCitations": 4,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 15,
+        "totalProvisionsNotFound": 2,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": [
+        "Two related provision IDs from teaching TEACH-ECLI:BE:COPRIV:2018:AVIS.20180321.9-006 were not found in the extracted reasoning passages: ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-036, ART-ECLI:BE:COPRIV:2018:AVIS.20180321.9-057"
+      ]
+    }
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "decision_id": "ECLI:BE:CTBRL:2001:ARR.20010418.14",
+  "language": "FR",
+  "metadata": {
+    "id": 46912,
+    "court_ecli_code": "CTBRL",
+    "court_name": "Cour du travail de Bruxelles",
+    "decision_date": "2001-04-18",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 19244,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour du Travail de Bruxelles, 18 avril 2001, ECLI:BE:CTBRL:2001:ARR.20010418.14"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2001:ARR.20010418.14-001",
+        "name": "Monsieur P. V.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2001:ARR.20010418.14-002",
+        "name": "Institut J. B.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2001:ARR.20010418.14-003",
+        "name": "C.P.A.S. de Bruxelles",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Par contrat du 1er octobre 1993, Monsieur P. V. a été engagé par le C.P.A.S. de Bruxelles en qualité de médecin-spécialiste à plein temps à l'Institut J.B. Le contrat, conclu pour une durée indéterminée, pouvait être résilié par l'une ou l'autre partie conformément à la loi du 3 juillet 1978. Par lettre du 11 janvier 1994, le C.P.A.S. confirmait qu'il s'agissait d'un contrat à durée indéterminée. Le mandat de M. P. V. a été renouvelé administrativement en octobre 1995; l'Institut J.B. est devenu une personne juridique distincte et le personnel a été repris par l'association hospitalière gestionnaire au 1er janvier 1996 avec maintien des droits et obligations. Par décision du conseil d'administration du 7 mai 1997 l'Institut J.B. a décidé de ne pas renouveler le mandat de M. P. V. expirant le 30 septembre 1997; ses activités ont pris fin à cette date. M. P. V. a demandé une indemnité compensatoire de préavis et le paiement d'arriérés de rémunération (fixe et variable). Par citation du 5 août 1998 il a saisi le Tribunal du Travail réclamant notamment 642.962 F (ultérieurement porté à 793.049 F) à titre d'indemnité compensatoire de préavis, ainsi que des arriérés de rémunération et la délivrance de documents relatifs à sa rémunération variable. Le Tribunal du Travail a condamné l'Institut J.B. à payer 793.049 F d'indemnité compensatoire de préavis, 388.785 F d'arriérés de rémunération fixe, 1 F à titre provisionnel sur la rémunération variable et à remettre les documents sociaux; l'affaire a été renvoyée pour le surplus. En appel, l'Institut J.B. soutient que le régime statutaire s'est substitué au contrat (nominations triennales/mandats) et que, partant, l'indemnité de préavis n'était pas due; il conteste aussi la créance relative à l'indemnité clinique et la rémunération variable. M. P. V. soutient au contraire que aucune nomination n'a été effectuée, qu'il est resté lié par un contrat de travail à durée indéterminée et qu'il a droit aux indemnités et aux arriérés variables réclamés.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2001:ARR.20010418.14-001",
+          "requests": "Demande la confirmation du jugement attaqué en ce qu'il a condamné l'appelant au paiement de l'indemnité compensatoire de préavis, des arriérés de rémunération fixe et des intérêts, et sollicite en outre la condamnation de l'appelant au paiement de 333.316 francs à titre d'arriérés de rémunération variable, majorés des intérêts légaux et judiciaires."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2001:ARR.20010418.14-002",
+          "requests": "Demande que l'appel principal soit déclaré recevable et fondé, que le jugement attaqué soit réformé et que la demande originaire de M. P. V. soit déclarée non fondée (notamment suppression de l'indemnité compensatoire de préavis et rejet des arriérés réclamés)."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2001:ARR.20010418.14-002",
+          "argument": "L'appelant soutient que, dès l'expiration de la première période de deux ans, un régime statutaire s'est substitué au régime contractuel: le statut administratif du médecin hospitalier prévoirait la nomination pour un terme de deux ans renouvelable, et il affirme qu'un acte de nomination a pris effet ou que les parties ont implicitement mis fin au contrat. Sur ce fondement, il estime que la loi sur le contrat de travail n'est pas applicable et qu'aucune indemnité compensatoire de préavis n'est due. Il fait valoir en outre que l'intéressé, postant sa nomination à deux reprises, connaissait le régime statutaire et que l'indemnité clinique a été perçue indûment en raison d'un passage à un barème supérieur à partir d'octobre 1994; il demande donc la réforme du jugement quant aux arriérés de rémunération.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2001:ARR.20010418.14-001",
+          "argument": "L'intimé fait valoir que son engagement initial du 1er octobre 1993 constituait un contrat de travail à durée indéterminée soumis à la loi du 3 juillet 1978; il soutient que, faute d'un acte de nomination émanant de l'autorité compétente et compte tenu de l'article 34 du statut (condition linguistique non remplie), il n'y a pas eu substitution du régime statutaire au régime contractuel. En conséquence, la rupture de son engagement par l'appelant sans préavis est irrégulière et donne droit à une indemnité compensatoire de préavis équivalente à cinq mois de rémunération; il réclame en outre le paiement d'arriérés de rémunération fixe et variable sur la base des pièces et clefs de répartition produites.",
+          "treatment": "ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS,\n\nLa Cour,\nStatuant contradictoirement,\n\nVu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire,\n\nDéclare l'appel principal recevable, mais non fondé sauf en ce qu'il tend à entendre dire que les intérêts ne sont dus que sur les montant nets,\n\nDéclare l'appel incident recevable et fondé,\n\nEn conséquence, confirme le jugement a quo en ce qu'il condamne l'appelant à payer à Monsieur P. V. les sommes suivantes :\n\n- 793.049 francs (SEPT CENT NONANTE-TROIS MILLE QUARANTE-NEUF FRANCS) à titre d'indemnité compensatoire de préavis,\n- 388.785 francs (TROIS CENT QUATRE-VINGT-HUIT MILLE SEPT CENT QUATRE-VINGT-CINQ FRANCS) à titre d'arriérés de rémunération fixe,\net en ce qu'il condamne l'appelant à la remise des documents sociaux.\nCompte tenu du caractère dévolutif de l'appel et statuant sur l'appel incident,\n\nCondamne en outre l'appelant à payer à Monsieur P. V. la somme de 333.316 francs (TROIS CENT TRENTE-TROIS MILLE TROIS CENT SEIZE FRANCS) à titre d'arriérés de rémunérations variables,\n\nCondamne en outre lappelant au paiement des intérêts légaux judiciaires sur les montants nets des condamnations prononcées tant par le jugement dont appel que par le présent arrêt (à partir du premier octobre 1997?????).\n\nCondamne l'appelant aux dépens d'appel`",
+      "outcome": "CONFIRMATION_PARTIELLE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-001",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2001:ARR.20010418.14-001",
+        "provisionNumber": "article 1er",
+        "provisionNumberKey": "1er",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 juillet 1978 sur les contrats de travail (loi relative aux contrats de travail)",
+        "parentActDate": "1978-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 1er comme délimitant le champ d'application personnel de la loi du 3 juillet 1978: la loi s'applique notamment aux membres du personnel des institutions publiques qui ne sont pas régis par un statut. Elle précise que le maintien d'un contrat de travail dans une institution publique ne peut être retenu que si des éléments non équivoques établissent l'intention des parties de rester soumises au régime contractuel plutôt qu'au régime statutaire.",
+        "relevantFactualContext": "Monsieur P. V. a été engagé par le C.P.A.S. de Bruxelles par un contrat écrit à durée indéterminée du 1er octobre 1993, confirmé par lettre du 11 janvier 1994; l'avenant de reprise du personnel au 1er janvier 1996 stipule la reprise des droits et obligations issus du contrat de travail."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-002",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2001:ARR.20010418.14-001",
+        "provisionNumber": "article 39",
+        "provisionNumberKey": "39",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 juillet 1978 sur les contrats de travail",
+        "parentActDate": "1978-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour applique l'article 39 en retenant qu'en cas de rupture unilatérale du contrat de travail l'employeur est tenu soit de signifier un préavis, soit de payer une indemnité compensatoire de préavis. Ainsi, l'absence de notification de préavis emporte l'obligation de verser l'indemnité de préavis réclamée par le travailleur.",
+        "relevantFactualContext": "L'Institut J. B. a mis fin unilatéralement au contrat de M. P. V. par courrier du 24 septembre 1997 sans signifier de préavis ; les activités ont pris fin le 30 septembre 1997 et M. P. V. a demandé une indemnité compensatoire de préavis équivalente à cinq mois de rémunération."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-003",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2001:ARR.20010418.14-002",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire (loi relative à l'emploi des langues dans les procédures judiciaires)",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-004",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2001:ARR.20010418.14-003",
+        "provisionNumber": "article 34",
+        "provisionNumberKey": "34",
+        "parentActType": "AUTRE",
+        "parentActName": "règlement général concernant la situation administrative du médecin hospitalier (le «statut administratif du médecin hospitalier»)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour relève que l'article 34 du statut administratif impose comme condition d'admissibilité au cadre la réussite de l'épreuve linguistique; en l'absence d'un acte de nomination et sans la réussite de cet examen, la simple utilisation d'une terminologie administrative ne suffit pas à faire naître un statut et à soustraire la relation au régime contractuel.",
+        "relevantFactualContext": "Les pièces montrent que M. P. V. n'avait pas réussi l'examen linguistique exigé ; aucune nomination émanant de l'autorité compétente n'a été produite, de sorte que la substitution au régime contractuel par le statut n'était pas établie."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-005",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2001:ARR.20010418.14-003",
+        "provisionNumber": "article 48",
+        "provisionNumberKey": "48",
+        "parentActType": "AUTRE",
+        "parentActName": "règlement général concernant la situation administrative du médecin hospitalier (statut administratif du médecin hospitalier)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 48 comme permettant la désignation, à titre intérimaire, de membres du personnel médical dans les liens d'un contrat d'emploi sans suivre la procédure complète de nomination statutaire ; cet article autorise donc un engagement temporaire sans qu'il en résulte automatiquement l'application du régime statutaire sans acte de nomination formel.",
+        "relevantFactualContext": "Le renouvellement du mandat et l'usage de termes administratifs figuraient dans la correspondance et la demande de renouvellement, mais aucun acte de nomination (même temporaire) n'a été produit, ce qui conduit la Cour à maintenir l'existence d'un contrat de travail."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-006",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2001:ARR.20010418.14-004",
+        "provisionNumber": "article 5bis",
+        "provisionNumberKey": "5bis",
+        "parentActType": "AUTRE",
+        "parentActName": "convention concernant l'indemnité clinique, arrêtée le 17 août 1983",
+        "parentActDate": "1983-08-17",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour retient la portée de l'article 5bis de la convention du 17 août 1983 en ce qu'il précise l'éligibilité et les plafonds de l'indemnité clinique pour le médecin résidant ou spécialiste visé à l'article 48; elle en déduit que, selon les pièces produites, le droit à l'indemnité clinique subsistait et que les augmentations de rémunération invoquées par l'appelant n'ont pas emporté suppression de ce droit.",
+        "relevantFactualContext": "Le demandeur a produit une fiche carrière et des pièces montrant qu'il percevait l'indemnité clinique; l'appelant n'a pas réfuté que l'indemnité était due et la Cour constate que les hausses salariales n'étaient pas de nature à compenser la suppression de l'indemnité."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Tribunal du Travail",
+        "date": "1997-10-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "C.E",
+        "date": "1979-07-13",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "C.E",
+        "date": "1980-04-18",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "C.E",
+        "date": "1993-03-30",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "C.E",
+        "date": "1988-05-09",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cassation",
+        "date": "1973-06-13",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-006"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit du travail",
+      "Contrat à durée indéterminée",
+      "Médecin hospitalier",
+      "Transfert du personnel",
+      "Non-renouvellement de mandat",
+      "Régime statutaire ou contractuel",
+      "Indemnité compensatoire de préavis",
+      "Arriérés de rémunération fixe",
+      "Rémunération variable",
+      "Exigence linguistique"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2001:ARR.20010418.14-001",
+        "text": "Dans les institutions publiques le régime statutaire est la règle et le contrat de travail l'exception; la qualification d'une relation comme contractuelle requiert des éléments non équivoques établissant l'intention des parties de rester soumises au régime contractuel plutôt qu'au régime statutaire.",
+        "courtVerbatim": "Le régime statutaire est la règle dans les institutions de droit public, le contrat de travail est l'exception. Dès lors lorsqu'une institution de droit public engage du personnel sous contrat d'emploi, cette situation particulière doit résulter d'éléments non équivoques établissant que tel était l'intention des parties (C.E., 13 juillet 1979 ...). Il est ainsi établi, de façon claire et non équivoque que les parties entendaient soumettre leurs relations à la loi du 3 juillet 1978.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque du personnel est engagé par une institution publique et que se pose la question de savoir si la relation relève du statut ou du contrat.",
+        "relevantFactualContext": "Le travailleur avait été engagé par un organisme public par un contrat écrit à durée indéterminée; la correspondance et un avenant au transfert du personnel témoignent, selon la Cour, d'une intention claire de maintenir la relation contractuelle.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CTBRL:2001:ARR.20010418.14-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-002",
+          "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-003",
+          "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-004",
+          "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-005",
+          "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-006"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2001:ARR.20010418.14-002",
+        "text": "La substitution du régime statutaire au régime contractuel suppose un acte de nomination émanant de l'autorité compétente; à défaut d'un tel acte, l'usage d'une terminologie administrative ou la simple demande de renouvellement ne suffisent pas à faire naître le statut. L'exigence de réussite des conditions d'admissibilité prévues par le statut (ex. épreuve linguistique) fait partie des conditions substantielles d'application du statut.",
+        "courtVerbatim": "Un acte de nomination émanant de l'autorité compétente, en l'occurrence le Conseil de l'Aide Sociale est une condition substantielle pour l'application du statut. A défaut d'acte de nomination, il ne peut être conclu que les parties auraient mis fin à leur relation contractuelle pour y substituer une relation statutaire. L'usage d'une terminologie empruntée au jargon administratif peut certes créer une confusion quant à la nature des rapports entre parties mais n'est pas de nature à pouvoir altérer les conditions juridiques. L'article 34 du statut administratif prévoit par ailleurs explicitement cette condition comme condition d'admissibilité dans le cadre. L'article 48 du statut administratif prévoit en effet la possibilité d'engager un médecin \"intérimaire\" dans les liens d'un contrat d'emploi.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'il est allégué qu'une relation contractuelle a été remplacée par un statut administratif en raison d'actes administratifs, d'un usage de terminologie ou de décisions locales.",
+        "relevantFactualContext": "La Cour constate l'absence d'acte de nomination et le défaut de réussite de l'épreuve linguistique exigée; l'avenant et la correspondance ne constituent pas une nomination et ne suffisent pas à substituer le régime statutaire au contrat.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CTBRL:2001:ARR.20010418.14-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-003",
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2001:ARR.20010418.14-003",
+        "text": "En cas de rupture unilatérale du contrat de travail, l'employeur est tenu soit de signifier un préavis, soit de payer une indemnité compensatoire de préavis; l'absence de notification d'un préavis emporte l'obligation de verser l'indemnité de préavis réclamée par le travailleur.",
+        "courtVerbatim": "que dans ces circonstances, l'Institut avait l'obligation soit de signifier un préavis, soit de payer une indemnité compensatoire de préavis, conformément aux dispositions de la loi sur le contrat de travail. En application de l'article 39 de la loi du 3 juillet 1978 il est dès lors redevable d'une indemnité de préavis.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un employeur met fin unilatéralement à un contrat de travail sans avoir signifié le préavis légalement requis.",
+        "relevantFactualContext": "L'employeur a mis fin unilatéralement au contrat par courrier sans signifier de préavis; la Cour a retenu que, faute de préavis, l'employeur devait verser l'indemnité compensatoire de préavis réclamée.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "MEDIUM",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 3,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, médecin engagé par un organisme public et repris par l'Institut, conteste la cessation de ses fonctions et réclame une indemnité de préavis ainsi que des arriérés de rémunération fixe et variable. La Cour confirme le jugement qui retient que la relation restait régie par un contrat de travail (la substitution au régime statutaire n'ayant pas été matérialisée par un acte de nomination) et condamne l'employeur au paiement de l'indemnité compensatoire de préavis, des arriérés fixes et variables, à la remise des documents sociaux et aux intérêts. Principe clé : le régime statutaire n'est applicable que si un acte de nomination non équivoque existe, faute de quoi le contrat et ses garanties subsistent."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 1er de la loi du 3 juillet 1978 sur les contrats de travail, délimitant son champ d'application personnel, dispose qu'elle est également applicable notamment au membres du personnel des institutions publiques qui ne sont pas regis par un statut. Le régime statutaire est la règle dans les institutions de droit public, le contrat de travail est l'exception. Dès lors lorsqu'une institution de droit public engage du personnel sous contrat d'emploi, cette situation particulière doit résulter d'éléments non équivoques établissant que tel était l'intention des parties (C.E., 13 juillet 1979 (Solon), R.A.C.E. 1979, n° 19.754, 18 avril 1980 (Ceulemans), R.A.C.E. 1980, n° 20.261, 30 mars 1993 (Mottar), J.T.T. 1994, 234; Cassation, 9 mai 1988, R.D.S. 1988, 2987). Le statut est un ensemble de règles générales et impersonnelles rendues applicables au personnel par une désignation unilatérale de l'autorité publique et non par une convention (Cassation, 13 juin 1973, Pas. 1973, I, p. 949). Il résulte des pièces déposées et il n'est d'ailleurs pas contesté que Monsieur P. V. a été engagé par le C.P.A.S. de Bruxelles, institution de droit public, avec un contrat écrit conclu pour une durée indéterminée en date du premier octobre 1993 soumis à la signature de Monsieur P. V. le 10 janvier 1994. Aux termes de la lettre du 11 janvier 1994 du C.P.A.S. adressée à Monsieur P. V. , il était soumis au statut administratif du médecin hospitalier, au règlement d'ordre intérieur et au règlement de travail pour le surplus. Il est ainsi établi, de façon claire et non équivoque que les parties entendaient soumettre leurs relations à la loi du 3 juillet 1978. La question qui doit être résolue est celle de savoir si les parties ont entendu substituer le régime statutaire au régime contractuel à partir du premier octobre 1995. Le premier juge a analysé de manière fort complète les intentions des parties à partir de la correspondance échangée et des rapports internes, précisant</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-002",
+          "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-003",
+          "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-004",
+          "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-005",
+          "DEC-ECLI:BE:CTBRL:2001:ARR.20010418.14-006"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Les parties étaient donc bien liées par un contrat d'emploi auquel l'appelant a mis fin unilatéralement par courrier du 24 septembre 1997 sans préavis. Monsieur P. V. a pris note de cette décision, sans toutefois marquer son accord avec celle-ci ainsi qu'en témoignent ses mises en demeure ultérieures. En application de l'article 39 de la loi du 3 juillet 1978 il est dès lors redevable d'une indemnité de préavis. Le premier juge a considéré à juste titre que l'indemnité réclamée par Monsieur P. V. , équivalant à 5 mois de rémunération était raisonnable, ce qui ne fait d'ailleurs pas l'objet 'une contestation dans le chef de l'appelant.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">La Cour, Statuant contradictoirement, Vu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire, Déclare l'appel principal recevable, mais non fondé sauf en ce qu'il tend à entendre dire que les intérêts ne sont dus que sur les montant nets, Déclare l'appel incident recevable et fondé, En conséquence, confirme le jugement a quo en ce qu'il condamne l'appelant à payer à Monsieur P. V. les sommes suivantes :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'Institut J. B. est intervenu auprès du C.P.A.S. pour appuyer le renouvellement du mandat et Monsieur P. V. aurait articulé la même demande. Cette demande a été accueillie favorablement, mais il est clair que Monsieur P. V. n'a pas fait l'objet d'une nomination, même pas à titre temporaire, à défaut de remplir la condition de réussite de l'examen linguistique, ainsi qu'il a été expressément souligné dans la lettre du 30 août 1995. L'article 34 du statut administratif prévoit par ailleurs explicitement cette condition comme condition d'admissibilité dans le cadre. Un acte de nomination émanant de l'autorité compétente, en l'occurrence le Conseil de l'Aide Sociale est une condition substantielle pour l'application du statut. A défaut d'acte de nomination, il ne peut être conclu que les parties auraient mis fin à leur relation contractuelle pour y substituer une relation statutaire. L'usage d'une terminologie empruntée au jargon administratif peut certes créer une confusion quant à la nature des rapports entre parties mais n'est pas de nature à pouvoir altérer les conditions juridiques. La demande de renouvellement du mandat s'explique par l'intention que le C.P.A.S. avait manifesté dans son courrier du 10 janvier 1994, d'envisager la rupture du contrat à l'expiration d'une période de deux ans, si Monsieur P. V. n'avait pas réussi l'examen linguistique. Elle visait dès lors à demander au C.P.A.S. de reconsidérer la situation et de maintenir Monsieur P. V. dans ses fonctions et ne peut être interprétée comme l'expression de sa volonté de Monsieur P. V. de mettre fin aux relations contractuelles. L'article 48 du statut administratif prévoit en effet la possibilité d'engager un médecin \" intérimaire \" dans les liens d'un contrat d'emploi. L'avenant au contrat de travail établi lors du transfert du personnel du C.P.A.S. à l'Association Hospitalière gérant l'Institut J. B. démontre clairement que les parties n'avaient pas mis fin à leurs relations contractuelles, ainsi que le premier juge l'a souligné à juste titre. Il stipule en effet que :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-004",
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'Institut J. B. est intervenu auprès du C.P.A.S. pour appuyer le renouvellement du mandat et Monsieur P. V. aurait articulé la même demande. Cette demande a été accueillie favorablement, mais il est clair que Monsieur P. V. n'a pas fait l'objet d'une nomination, même pas à titre temporaire, à défaut de remplir la condition de réussite de l'examen linguistique, ainsi qu'il a été expressément souligné dans la lettre du 30 août 1995. L'article 34 du statut administratif prévoit par ailleurs explicitement cette condition comme condition d'admissibilité dans le cadre. Un acte de nomination émanant de l'autorité compétente, en l'occurrence le Conseil de l'Aide Sociale est une condition substantielle pour l'application du statut. A défaut d'acte de nomination, il ne peut être conclu que les parties auraient mis fin à leur relation contractuelle pour y substituer une relation statutaire. L'usage d'une terminologie empruntée au jargon administratif peut certes créer une confusion quant à la nature des rapports entre parties mais n'est pas de nature à pouvoir altérer les conditions juridiques. La demande de renouvellement du mandat s'explique par l'intention que le C.P.A.S. avait manifesté dans son courrier du 10 janvier 1994, d'envisager la rupture du contrat à l'expiration d'une période de deux ans, si Monsieur P. V. n'avait pas réussi l'examen linguistique. Elle visait dès lors à demander au C.P.A.S. de reconsidérer la situation et de maintenir Monsieur P. V. dans ses fonctions et ne peut être interprétée comme l'expression de sa volonté de Monsieur P. V. de mettre fin aux relations contractuelles. L'article 48 du statut administratif prévoit en effet la possibilité d'engager un médecin \" intérimaire \" dans les liens d'un contrat d'emploi. L'avenant au contrat de travail établi lors du transfert du personnel du C.P.A.S. à l'Association Hospitalière gérant l'Institut J. B. démontre clairement que les parties n'avaient pas mis fin à leurs relations contractuelles, ainsi que le premier juge l'a souligné à juste titre. Il stipule en effet que :</p>",
+          "<blockquote class=\"case-quote\">\" le médecin résidant et le médecin spécialiste au sens de l'article 48 du règlement général concernant la situation administrative du médecin hospitalier qui a opté pour le statut d'indépendant perçoit une indemnité clinique ne pouvant excéder 395.683,-FB. ou 456.570,-FB. selon que son ancienneté pécuniaire dans le barème 11/6 est ou non inférieure à 8/1 \".</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-005",
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-004",
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Il résulte des pièces déposées et il n'est d'ailleurs pas contesté par l'appelant qu'il a réduit unilatéralement la rémunération fixe de 136.954,- F. à 111.035,-F. par mois à partir de juillet 1996. L'appelant en donne pour explication que Monsieur P. V. n'aurait plus droit à l'indemnité clinique en raison du passage à un barème supérieur, et ce depuis le premier octobre 1994. Monsieur P. V. fait observer que cette thèse est contredite par l'article 5bis de la convention concernant l'indemnité clinique arrêté le 17 août 1983 qui précise que :</p>",
+          "<blockquote class=\"case-quote\">\" le médecin résidant et le médecin spécialiste au sens de l'article 48 du règlement général concernant la situation administrative du médecin hospitalier qui a opté pour le statut d'indépendant perçoit une indemnité clinique ne pouvant excéder 395.683,-FB. ou 456.570,-FB. selon que son ancienneté pécuniaire dans le barème 11/6 est ou non inférieure à 8/1 \".</blockquote>",
+          "<p class=\"case-section__paragraph\">Il dépose en outre une fiche carrière qui était annexée au courrier du C.P.A.S. du 11 janvier 1994 dont il résulte que l'indemnité clinique était prévue, nonobstant les augmentations de rémunérations prévues à tout le moins jusqu'en 2008. L'appelant n'a pas réfuté cette argumentation. La Cour constate par ailleurs que l'augmentation du salaire accordée depuis le mois d'octobre 1994 ou même depuis le mois de juillet 1996 n'était pas telle qu'elle pouvait compenser la suppression de l'indemnité clinique en sorte que celle- ci résultait en réalité en une diminution de la rémunération, ce qui ne peut être admis. La demande de Monsieur P. V. paraît dès lors fondée sur ce point.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-006",
+          "ART-ECLI:BE:CTBRL:2001:ARR.20010418.14-005"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 6,
+      "citationStatistics": {
+        "totalCitations": 9,
+        "avgCitationsPerProvision": 1.5,
+        "provisionsWithMinimalCitations": 5,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.6666666666666667,
+        "avgDecisionsPerProvision": 0.8333333333333334,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2001:ARR.20010418.14-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 1er de la loi du 3 juillet 1978 sur les contrats de travail, délimitant son champ d'application personnel, dispose qu'elle est également applicable notamment au membres du personnel des institutions publiques qui ne sont pas regis par un statut. Le régime statutaire est la règle dans les institutions de droit public, le contrat de travail est l'exception. Dès lors lorsqu'une institution de droit public engage du personnel sous contrat d'emploi, cette situation particulière doit résulter d'éléments non équivoques établissant que tel était l'intention des parties (C.E., 13 juillet 1979 (Solon), R.A.C.E. 1979, n° 19.754, 18 avril 1980 (Ceulemans), R.A.C.E. 1980, n° 20.261, 30 mars 1993 (Mottar), J.T.T. 1994, 234; Cassation, 9 mai 1988, R.D.S. 1988, 2987). Le statut est un ensemble de règles générales et impersonnelles rendues applicables au personnel par une désignation unilatérale de l'autorité publique et non par une convention (Cassation, 13 juin 1973, Pas. 1973, I, p. 949). Il résulte des pièces déposées et il n'est d'ailleurs pas contesté que Monsieur P. V. a été engagé par le C.P.A.S. de Bruxelles, institution de droit public, avec un contrat écrit conclu pour une durée indéterminée en date du premier octobre 1993 soumis à la signature de Monsieur P. V. le 10 janvier 1994. Aux termes de la lettre du 11 janvier 1994 du C.P.A.S. adressée à Monsieur P. V. , il était soumis au statut administratif du médecin hospitalier, au règlement d'ordre intérieur et au règlement de travail pour le surplus. Il est ainsi établi, de façon claire et non équivoque que les parties entendaient soumettre leurs relations à la loi du 3 juillet 1978. La question qui doit être résolue est celle de savoir si les parties ont entendu substituer le régime statutaire au régime contractuel à partir du premier octobre 1995. Le premier juge a analysé de manière fort complète les intentions des parties à partir de la correspondance échangée et des rapports internes, précisant</p>",
+          "<p class=\"case-section__paragraph\">L'Institut J. B. est intervenu auprès du C.P.A.S. pour appuyer le renouvellement du mandat et Monsieur P. V. aurait articulé la même demande. Cette demande a été accueillie favorablement, mais il est clair que Monsieur P. V. n'a pas fait l'objet d'une nomination, même pas à titre temporaire, à défaut de remplir la condition de réussite de l'examen linguistique, ainsi qu'il a été expressément souligné dans la lettre du 30 août 1995. L'article 34 du statut administratif prévoit par ailleurs explicitement cette condition comme condition d'admissibilité dans le cadre. Un acte de nomination émanant de l'autorité compétente, en l'occurrence le Conseil de l'Aide Sociale est une condition substantielle pour l'application du statut. A défaut d'acte de nomination, il ne peut être conclu que les parties auraient mis fin à leur relation contractuelle pour y substituer une relation statutaire. L'usage d'une terminologie empruntée au jargon administratif peut certes créer une confusion quant à la nature des rapports entre parties mais n'est pas de nature à pouvoir altérer les conditions juridiques. La demande de renouvellement du mandat s'explique par l'intention que le C.P.A.S. avait manifesté dans son courrier du 10 janvier 1994, d'envisager la rupture du contrat à l'expiration d'une période de deux ans, si Monsieur P. V. n'avait pas réussi l'examen linguistique. Elle visait dès lors à demander au C.P.A.S. de reconsidérer la situation et de maintenir Monsieur P. V. dans ses fonctions et ne peut être interprétée comme l'expression de sa volonté de Monsieur P. V. de mettre fin aux relations contractuelles. L'article 48 du statut administratif prévoit en effet la possibilité d'engager un médecin \" intérimaire \" dans les liens d'un contrat d'emploi. L'avenant au contrat de travail établi lors du transfert du personnel du C.P.A.S. à l'Association Hospitalière gérant l'Institut J. B. démontre clairement que les parties n'avaient pas mis fin à leurs relations contractuelles, ainsi que le premier juge l'a souligné à juste titre. Il stipule en effet que :</p>",
+          "<blockquote class=\"case-quote\">\" A partir du premier janvier 1996 les droits et obligations du contrat de travail conclu entre le C.P.A.S. de Bruxelles et la 3ème partie (V.)... sont repris par l'Association Hospitalière gérant l'Institut J. B. \".</blockquote>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 5,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2001:ARR.20010418.14-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'Institut J. B. est intervenu auprès du C.P.A.S. pour appuyer le renouvellement du mandat et Monsieur P. V. aurait articulé la même demande. Cette demande a été accueillie favorablement, mais il est clair que Monsieur P. V. n'a pas fait l'objet d'une nomination, même pas à titre temporaire, à défaut de remplir la condition de réussite de l'examen linguistique, ainsi qu'il a été expressément souligné dans la lettre du 30 août 1995. L'article 34 du statut administratif prévoit par ailleurs explicitement cette condition comme condition d'admissibilité dans le cadre. Un acte de nomination émanant de l'autorité compétente, en l'occurrence le Conseil de l'Aide Sociale est une condition substantielle pour l'application du statut. A défaut d'acte de nomination, il ne peut être conclu que les parties auraient mis fin à leur relation contractuelle pour y substituer une relation statutaire. L'usage d'une terminologie empruntée au jargon administratif peut certes créer une confusion quant à la nature des rapports entre parties mais n'est pas de nature à pouvoir altérer les conditions juridiques. La demande de renouvellement du mandat s'explique par l'intention que le C.P.A.S. avait manifesté dans son courrier du 10 janvier 1994, d'envisager la rupture du contrat à l'expiration d'une période de deux ans, si Monsieur P. V. n'avait pas réussi l'examen linguistique. Elle visait dès lors à demander au C.P.A.S. de reconsidérer la situation et de maintenir Monsieur P. V. dans ses fonctions et ne peut être interprétée comme l'expression de sa volonté de Monsieur P. V. de mettre fin aux relations contractuelles. L'article 48 du statut administratif prévoit en effet la possibilité d'engager un médecin \" intérimaire \" dans les liens d'un contrat d'emploi. L'avenant au contrat de travail établi lors du transfert du personnel du C.P.A.S. à l'Association Hospitalière gérant l'Institut J. B. démontre clairement que les parties n'avaient pas mis fin à leurs relations contractuelles, ainsi que le premier juge l'a souligné à juste titre. Il stipule en effet que :</p>",
+          "<blockquote class=\"case-quote\">\" A partir du premier janvier 1996 les droits et obligations du contrat de travail conclu entre le C.P.A.S. de Bruxelles et la 3ème partie (V.)... sont repris par l'Association Hospitalière gérant l'Institut J. B. \".</blockquote>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2001:ARR.20010418.14-003",
+        "relatedFullTextCitations": [
+          "<li>que dans ces circonstances, l'Institut avait l'obligation soit de signifier un préavis, soit de payer une indemnité compensatoire de préavis, conformément aux dispositions de la loi sur le contrat de travail.</li>",
+          "<p class=\"case-section__paragraph\">Les parties étaient donc bien liées par un contrat d'emploi auquel l'appelant a mis fin unilatéralement par courrier du 24 septembre 1997 sans préavis. Monsieur P. V. a pris note de cette décision, sans toutefois marquer son accord avec celle-ci ainsi qu'en témoignent ses mises en demeure ultérieures. En application de l'article 39 de la loi du 3 juillet 1978 il est dès lors redevable d'une indemnité de préavis. Le premier juge a considéré à juste titre que l'indemnité réclamée par Monsieur P. V. , équivalant à 5 mois de rémunération était raisonnable, ce qui ne fait d'ailleurs pas l'objet 'une contestation dans le chef de l'appelant.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 2.3333333333333335,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 4,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 5,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

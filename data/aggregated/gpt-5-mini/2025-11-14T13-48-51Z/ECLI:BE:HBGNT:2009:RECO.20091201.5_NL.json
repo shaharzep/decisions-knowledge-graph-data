@@ -1,0 +1,400 @@
+{
+  "decision_id": "ECLI:BE:HBGNT:2009:RECO.20091201.5",
+  "language": "NL",
+  "metadata": {
+    "id": 169004,
+    "court_ecli_code": "HBGNT",
+    "decision_date": "2009-12-01",
+    "decision_type_ecli_code": "RECO",
+    "decision_type_name": "Aanbeveling",
+    "md_length": 18438,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Hof van beroep te Gent, 1 december 2009, 2006/AR/2029, ECLI:BE:HBGNT:2009:RECO.20091201.5"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+        "name": "KIREMKO CATERING EQUIPMENT BELGIUM N.V. (voorheen Ciers Dirk N.V.)",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:HBGNT:2009:RECO.20091201.5-002",
+        "name": "EMELDIMA N.V.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:HBGNT:2009:RECO.20091201.5-003",
+        "name": "BELGISCHE ARBITRAGE INSTELLING V.Z.W.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Appellante, gespecialiseerd in frituuruitrusting, stelde op 17 april 2003 een factuur nr.0101342 uit op naam van mevrouw E. G. voor een tussenkomst van 177,87 EUR die op 29 april 2003 werd betaald. Op 23 april 2003 plaatste appellante een nieuwe afzuigmotor en maakte zij op 3 juni 2003 factuur nr.0101404 op naam van eerste geïntimeerde voor 1.226,79 EUR; het servicerapport vermeldt als opdrachtgever N.V. EMELDIMA maar noteert onder opmerkingen dat de klant geen eigenaar is van de apparatuur en niet wil tussenkomen in de kosten. Eerste geïntimeerde protesteerde de factuur per aangetekend schrijven van 5 juni 2003 en stuurde de factuur terug met de stelling dat moest worden gefactureerd aan de uitbaters (VOF 't Ajuintje). Appellante sommeerde alsnog en kondigde overmaking aan de Belgische Arbitrage Instelling (tweede geïntimeerde) aan; bij arbitrage vordering van appellante werd bij uitspraak van 8 januari 2004 de vordering toegewezen en EMELDIMA veroordeeld tot betaling van 1.391,59 EUR plus intresten en tot betaling van 420,82 EUR arbitrage- en administratiekosten aan tweede geïntimeerde. Eerste geïntimeerde vorderde op 4 maart 2004 nietigverklaring van die scheidsrechterlijke beslissing en stelde dat door het protest en de terugzending van de factuur geen arbitrage-overeenkomst bestond en dat zij geen opdracht gaf tot plaatsing van de motor; de rechtbank van eerste aanleg te Brugge verklaarde die vordering ontvankelijk en gegrond en wees de tegeneis van appellante af. Appellante en tweede geïntimeerde kwamen in hoger beroep tegen dat vonnis.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+          "requests": "Appellante vordert in hoger beroep haar oorspronkelijke tegeneis ontvankelijk en gegrond te verklaren en eerste geïntimeerde te veroordelen tot betaling van 1.485,72 EUR, meer de gerechtelijke rente op 1.226,79 EUR vanaf 05.03.2004 tot betaling; in latere conclusies verzoekt zij bevestiging van de scheidsrechterlijke uitspraak van 08.01.2004 of bij wijze van ondergeschikte vordering de tegenvordering ontvankelijk en gegrond te verklaren."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2009:RECO.20091201.5-002",
+          "requests": "Eerste geïntimeerde verzoekt de bevestiging van het bestreden vonnis in al zijn onderdelen en de veroordeling van appellante tot de kosten van het geding in beide aanleggeren."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2009:RECO.20091201.5-003",
+          "requests": "Tweede geïntimeerde sluit zich aan bij appellante en verzoekt het hoger beroep ontvankelijk en gegrond te verklaren en, in hoofdberoep, de hervorming van het eerste vonnis voor zover daarin de scheidsrechterlijke uitspraak werd vernietigd en eerste geïntimeerde werd vrijgesteld van betaling van de arbitragekosten."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+          "argument": "Appellante stelt dat het arbitragbeding was vervat in de algemene factuurvoorwaarden die op de facturen vermeld stonden en dat deze voorwaarden stilzwijgend door eerste geïntimeerde zijn aanvaard, waardoor het geschil rechtsgeldig aan tweede geïntimeerde kon worden voorgelegd. Zij betoogt tevens dat uit het servicerapport en de gedragingen van partijen volgt dat eerste geïntimeerde opdracht heeft gegeven of zich toch aansprakelijk heeft gesteld voor de plaatsing van de afzuigmotor, zodat zij tot betaling gehouden zou zijn en haar tegenvordering gegrond is.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2009:RECO.20091201.5-002",
+          "argument": "Eerste geïntimeerde voert aan dat de onmiddellijke weigering en terugzending van de factuur per aangetekend schrijven moet worden beschouwd als een algemeen protest tegen het bestaan van enige overeenkomst en dus ook tegen de toepasselijkheid van de algemene voorwaarden en het arbitragbeding; zij betwist dat er een contractuele verbintenis met appellante tot plaatsing van de motor bestond en beroept zich op gebrek aan opdrac htverlening door haarzelf.",
+          "treatment": "AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2009:RECO.20091201.5-003",
+          "argument": "Tweede geïntimeerde verdedigt de geldigheid van de arbitrageregeling vervat in de algemene voorwaarden van appellante en stelt dat, gelet op het gebruik van die voorwaarden en de verwijzing op de factuur, stilzwijgende aanvaarding kan worden aangenomen zodat de arbitraal college bevoegd was; zij verzoekt de vernietiging van het vonnis dat de scheidsrechterlijke uitspraak vernietigde en bekrachtiging van de arbitrale beslissing.",
+          "treatment": "VERWORPEN"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN HET HOF\n\nVerklaart het hoger beroep van appellante en van tweede geïntimeerde toelaatbaar, doch ongegrond;\n\nBevestigt het bestreden vonnis in al zijn onderdelen;\n\nVeroordeelt appellante en tweede geïntimeerde elk tot de helft van de kosten van het geding in hoger beroep, aan hun zijde niet nader te begroten, omdat zij ten hunnen laste blijven en aan de zijde van eerste geïntimeerde begroot als volgt: rechtsplegingsvergoeding: 1.200,00 EUR",
+      "outcome": "ONGEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 op het gebruik der talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-002",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2009:RECO.20091201.5-002",
+        "provisionNumber": "artikel 1677",
+        "provisionNumberKey": "1677",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof leest artikel 1677 Ger.W. aldus dat een arbitrageovereenkomst moet blijken uit een door partijen ondertekend geschrift of uit andere hen bindende stukken waaruit ontegensprekelijk hun wil tot arbitrage blijkt. Een arbitragebeding is een ongebruikelijk beding waarvan stilzwijgende aanvaarding niet zomaar mag worden aangenomen; de weigering of terugzending van een factuur geldt als algemeen protest dat stilzwijgende aanvaarding van een arbitrageclausule uitsluit.",
+        "relevantFactualContext": "De factuur van 3 juni 2003 werd door eerste geïntimeerde onmiddellijk geprotesteerd en per aangetekend schrijven teruggestuurd (05.06.2003), zij betwistte elke contractuele relatie en weigerde later medewerking aan de arbitrageprocedure."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-003",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2009:RECO.20091201.5-003",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "ANDERE",
+        "parentActName": "algemene factuurvoorwaarden van appellante (vermeld op de keerzijde van haar facturen)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof oordeelt dat het arbitragebeding in artikel 12 van de algemene factuurvoorwaarden alleen werkt indien het door de wederpartij is aanvaard; de eenvoudige aanwezigheid van het beding op de factuur of een verwijzing op de voorzijde impliceert geen stilzwijgende aanvaarding. De terugzending en het protest van de factuur verhinderen toepassing van het arbitragebeding.",
+        "relevantFactualContext": "Appellante verwees naar artikel 12 op de keerzijde van haar facturen om arbitrage in te roepen; eerste geïntimeerde stuurde de factuur terug en verwees in aangetekende brieven naar het ontbreken van contractuele relatie en weigerde medewerking aan de arbitrageprocedure."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "eerste kamer van de Rechtbank van Eerste Aanleg te Brugge",
+        "date": "2006-04-11",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "BELGISCHE ARBITRAGE INSTELLING V.Z.W.",
+        "date": "2004-01-08",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Handelsrecht",
+      "Installatie afzuigmotor",
+      "Frituurinstallatie",
+      "Facturering leverancier",
+      "Opdracht door uitbaters",
+      "Arbitrageclausule betwist",
+      "Bestaan overeenkomst",
+      "Nietigheid scheidsrechterlijke uitspraak",
+      "Betalingsverplichting betwist",
+      "Factuurweigering als protest"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+        "text": "Artikel 1677 Ger.W. vereist dat een arbitrageovereenkomst blijkt uit een door partijen ondertekend geschrift of uit andere tussen partijen bindende stukken waaruit onomstotelijk hun wil tot arbitrage blijkt. Een arbitrageclausule moet worden opgevat als een ongebruikelijk beding; stilzwijgende aanvaarding mag niet zonder meer worden aangenomen.",
+        "courtVerbatim": "Overeenkomstig artikel 1677 Ger.W. behoort een overeenkomst tot arbitrage te zijn vervat in een door partijen ondertekend geschrift, of in andere hen bindende stukken, waarin zij blijk hebben gegeven van hun wil om het geschil aan arbitrage te onderwerpen. Een arbitrageclausule moet worden opgevat als een ongebruikelijk beding, waarvan de stilzwijgende aanvaarding niet zonder meer mag worden vermoed. Ook al kan een arbitrageovereenkomst vervat zijn in niet-ondertekende stukken, die de wilsovereenstemming tussen partijen om hun geschil aan arbitrage te onderwerpen duidelijk maken, toch moet uit de stukken, die tussen partijen zijn uitgewisseld, met zekerheid kunnen worden afgeleid dat partijen ontegensprekelijk voor arbitrage hebben gekozen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de vraag rijst of tussen partijen een geldige arbitrageovereenkomst bestaat, met name wanneer het beding voorkomt in niet-ondertekende stukken of in algemene voorwaarden/facturen.",
+        "relevantFactualContext": "In deze zaak was het geschil of een arbitrageclausule in de algemene factuurvoorwaarden tussen partijen was aanvaard; relevante feiten: factuur van 3 juni 2003 werd onmiddellijk geprotesteerd en per aangetekend schrijven teruggestuurd en de wederpartij betwistte elke contractuele relatie.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+          "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2009:RECO.20091201.5-002",
+        "text": "Een arbitragebeding vervat in algemene factuurvoorwaarden bindt de wederpartij slechts indien die wederpartij het beding heeft aanvaard; de loutere aanwezigheid van het beding op de factuur of een verwijzing impliceert geen stilzwijgende aanvaarding. De weigering of terugzending van een factuur moet als een algemeen protest worden beschouwd en sluit stilzwijgende aanvaarding van een arbitrageclausule uit; wie de arbitrage inroept moet de aanvaarding door de wederpartij bewijzen.",
+        "courtVerbatim": "Het arbitragebeding, dat vervat is in de algemene factuurvoorwaarden van appellante, nooit door eerste geïntimeerde aanvaard is geweest, ook niet stilzwijgend. Eerste geïntimeerde heeft de factuur van 3 juni 2003 onmiddellijk geprotesteerd en teruggestuurd bij aangetekend schrijven van 5 juni 2003, met de mededeling dat volgens haar diende gefactureerd te worden aan de opdrachtgever en niet aan haar en dat zij elke contractuele relatie met appellante betwistte. Het spreekt voor zich dat eerste geïntimeerde, door dit protest van de factuur, zich ook verzette tegen de toepassing van de arbitrageclausule die op de factuur is vermeld. Appellante, die de toepassing van het arbitragebeding inroept, moet bewijzen dat dit beding door eerste geïntimeerde werd aanvaard.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een partij arbitrage inroept op grond van algemene factuurvoorwaarden en de wederpartij de factuur heeft geweigerd, geprotesteerd of teruggezonden of anderszins de toepasselijkheid betwist.",
+        "relevantFactualContext": "Appellante verwees naar een arbitrageclausule op de keerzijde van haar facturen; de wederpartij stuurde de factuur terug en protesteerde per aangetekend schrijven dat de factuur aan een derde diende te worden gericht, betwistte iedere contractuele relatie en weigerde medewerking aan de arbitrageprocedure.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-003",
+          "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+          "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 2,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De vennootschap appellante vordert betaling van een factuur na installatie van een afzuigmotor en beriep zich op een arbitragebeding, terwijl de onderneming verweerder de contractuele relatie betwistte en de factuur onmiddellijk per aangetekend schrijven terugstuurde; daarnaast is een arbitrage-instelling betrokken. Het hof bevestigt het bestreden vonnis en verklaart dat er geen geldige arbitrage-overeenkomst tot stand kwam omdat de verweerder de factuur en daarmee de algemene voorwaarden en arbitrageclausule heeft geprotesteerd en niet stilzwijgend heeft aanvaard. Voorts oordeelt het hof dat de opdracht uitging van de uitbaters/huurders volgens het servicerapport zodat de vennootschap geen betaling van de eigenaar kan vorderen, en bevestigt het vonnis inclusief kostenverdeling."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Wijst het Hof volgend arrest : Het Hof nam kennis van het op 11 april 2006 door de eerste kamer van de Rechtbank van Eerste Aanleg te Brugge verleende vonnis, waartegen appellante, met haar op 31 juli 2006 ter griffie neergelegd verzoekschrift, tijdig en op regelmatige wijze hoger beroep heeft ingesteld. De partijen werden gehoord in openbare terechtzitting en de neergelegde conclusies en stukken werden ingezien. Artikel 24 van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken werd in acht genomen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">3.2. Overeenkomstig artikel 1677 Ger.W. behoort een overeenkomst tot arbitrage te zijn vervat in een door partijen ondertekend geschrift, of in andere hen bindende stukken, waarin zij blijk hebben gegeven van hun wil om het geschil aan arbitrage te onderwerpen. Een arbitrageclausule moet worden opgevat als een ongebruikelijk beding, waarvan de stilzwijgende aanvaarding niet zonder meer mag worden vermoed. Ook al kan een arbitrageovereenkomst vervat zijn in niet-ondertekende stukken, die de wilsovereenstemming tussen partijen om hun geschil aan arbitrage te onderwerpen duidelijk maken, toch moet uit de stukken, die tussen partijen zijn uitgewisseld, met zekerheid kunnen worden afgeleid dat partijen ontegensprekelijk voor arbitrage hebben gekozen. Het zonder meer weigeren van de factuur of de terugzending ervan moet worden opgevat als een algemeen protest, gericht tegen het bestaan zelf van de overeenkomst. Het protest van een factuur strekt zich uit tot alle vermeldingen van de factuur en dus ook tot de algemene verkoopsvoorwaarden. Wanneer een factuur door de geadresseerde wordt geweigerd met de bewering dat hij niet contractueel gebonden is met de verzender, kan het op de factuur voorkomende arbitrageclausule geen gevolg hebben en dit geldt ook voor de overige bedingen. Appellante, die de toepassing van het arbitragebeding inroept, moet bewijzen dat dit beding door eerste geïntimeinde werd aanvaard.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">1.2. Bij aangetekend schrijven van 31.07.2003 werd aan eerste geïntimeerde nog een laatste termijn gegeven van acht dagen om de factuur te betalen, bij gebreke waaraan het dossier zou worden overgemaakt aan tweede geïntimeerde. Eerste geïntimeerde antwoordde hierop dat zij de factuur heeft teruggestuurd en verwijst naar haar aangetekend schrijven van 05.06.2003. Uiteindelijk heeft appellante het geschil voorgelegd aan de Belgische Arbitrage Instelling V.Z.W., huidige tweede geïntimeerde, op grond van artikel 12 van haar algemene voorwaarden, waarbij zij betaling eist van de factuur lastens eerste geïntimeerde. Op 16 september 2003 krijgt eerste geïntimeerde kennis van de ingestelde vordering bij tweede geïntimeerde. Bij schrijven van 30.09.2003 laat de raadsman van eerste geïntimeerde aan tweede geïntimeerde weten dat zij weigert mee te werken aan de arbitrageprocedure, waarop geantwoord wordt dat deze brief aan de aangestelde scheidsrechter en appellante zal worden overgemaakt. Bij de arbitrale uitspraak van 8 januari 2004 wordt de vordering van appellante gegrond verklaard. Eerste geïntimeerde werd veroordeeld om aan appellante een bedrag te betalen van 1.391,59 EUR, meer de gerechtelijke rente aan 7% op de som van 1.226,79 EUR vanaf 17.09.2003 tot de dag der algehele betaling. Daarnaast wordt eerste geïntimeerde veroordeeld om aan tweede geïntimeerde een bedrag te betalen van 420,82 EUR hoofdens arbitrage- en administratiekosten, meer de gerechtelijke intresten aan 7% vanaf 08.01.2004 tot de dag der algehele betaling. Geoordeeld wordt dat eerste geïntimeerde, ook al betwistte zij de factuur om reden dat er diende gefactureerd te worden aan de uitbaters van de frituur, toch dient in te staan voor de herstellingskost, aangezien appellante stelt dat zij telefonisch opdracht heeft gekregen vanwege eerste geïntimeinde en de factuur bovendien structurele herstellingen en geen onderhoudsherstellingen betreft aan apparatuur, waarvan eerste geïntimeinde eigenaar is.</p>",
+          "<p class=\"case-section__paragraph\">3.3. Appellante heeft het geschil aan tweede geïntimeinde voorgelegd conform artikel 12 van haar algemene voorwaarden, die volgens haar stilzwijgend door eerste geïntimeinde werden aanvaard. Deze voorwaarde, vermeld op de keerzijde van de facturen van appellante, bevat een arbitrageclausule die tweede geïntimeinde belast met de aanstelling van scheidsrechters, welke bevoegd zullen zijn elk geschil definitief te beslechten conform haar werkingsreglement. Verder verwijst appellante naar de vermelding op de voorzijde van de factuur, waarin staat dat een wederzijdse garantie tot snelle geschillenregeling door arbitrage deel uitmaakt van de algemene verkoopsvoorwaarden, op de keerzijde vermeld. Op grond van de voorliggende stukken is het Hof van oordeel dat het arbitragebeding, dat vervat is in de algemene factuurvoorwaarden van appellante, nooit door eerste geïntimeinde aanvaard is geweest, ook niet stilzwijgend. Eerste geïntimeinde heeft de factuur van 3 juni 2003 onmiddellijk geprotesteerd en teruggestuurd bij aangetekend schrijven van 5 juni 2003, met de mededeling dat volgens haar diende gefactureerd te worden aan de opdrachtgever en niet aan haar en dat zij elke contractuele relatie met appellante betwistte. Bovendien heeft eerste geïntimeinde na de tweede ingebrekestelling van appellante van 31 juli 2003, opnieuw bij aangetekend schrijven dd.4 augustus 2003 gemeld dat de factuur is teruggestuurd, onder verwijzing naar haar protestbrief van 5 juni 2003 (stuk 6 appellante). Het spreekt voor zich dat eerste geïntimeinde, door dit protest van de factuur, zich ook verzette tegen de toepassing van de arbitrageclausule die op de factuur is vermeld. Toen eerste geïntimeinde op 16 september 2003 in kennis werd gesteld van het feit dat appellante de arbitrageprocedure opstartte, liet zij via haar raadsman op 30 september 2003 weten dat zij hieraan weigerde mee te werken (stukken 8 en 12 eerste geïntimeinde). De omstandigheid dat eerste geïntimeinde niet is overgegaan tot betaling van de factuur, ondanks de aanmaningen van 13 juni en 31 juli 2003, en op 16 september 2003 op de hoogte is gebracht van de inwerkingstelling van de arbitrageprocedure, kan gelet op het voorgaande niet worden beschouwd als een vermoeden van stilzwijgende aanvaarding van de arbitrage. Ook de omstandigheid dat de zaakvoerster van eerste geïntimeinde, op wiens persoonlijke naam een eerdere onderhoudsfactuur is opgemaakt en betaald, houdt geen stilzwijgende aanvaarding in van het arbitragebeding. Ten onrechte stelt appellante dat eerste geïntimeinde enkel haar betalingsverplichting zou hebben geprotesteerd, niet de factuurvoorwaarden. Het spreekt voor zich dat eerste geïntimeinde, die onmiddellijk na ontvangst van de factuur per aangetekend schrijven de totstandkoming heeft betwist van enige overeenkomst met appellante, ook niet kan gehouden zijn door een arbitrageclausule in de factuur die in uitvoering van deze betwiste overeenkomst werd opgesteld. De rechtspraak en rechtsleer die tweede geïntimeinde aanhaalt in verband met het stilzwijgend aanvaarden van factuurvoor-waarden, is gelet op het voorgaande irrelevant. Het Hof is zoals de eerste rechter van oordeel dat geen geldige arbitrageovereenkomst tot stand kwam. Het hoger beroep van appellante en tweede geïntimeinde op dit punt is ongegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-003",
+          "ART-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 3,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerProvision": 1.3333333333333333,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.3333333333333333,
+        "avgDecisionsPerProvision": 0.6666666666666666,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">3.2. Overeenkomstig artikel 1677 Ger.W. behoort een overeenkomst tot arbitrage te zijn vervat in een door partijen ondertekend geschrift, of in andere hen bindende stukken, waarin zij blijk hebben gegeven van hun wil om het geschil aan arbitrage te onderwerpen. Een arbitrageclausule moet worden opgevat als een ongebruikelijk beding, waarvan de stilzwijgende aanvaarding niet zonder meer mag worden vermoed. Ook al kan een arbitrageovereenkomst vervat zijn in niet-ondertekende stukken, die de wilsovereenstemming tussen partijen om hun geschil aan arbitrage te onderwerpen duidelijk maken, toch moet uit de stukken, die tussen partijen zijn uitgewisseld, met zekerheid kunnen worden afgeleid dat partijen ontegensprekelijk voor arbitrage hebben gekozen. Het zonder meer weigeren van de factuur of de terugzending ervan moet worden opgevat als een algemeen protest, gericht tegen het bestaan zelf van de overeenkomst. Het protest van een factuur strekt zich uit tot alle vermeldingen van de factuur en dus ook tot de algemene verkoopsvoorwaarden. Wanneer een factuur door de geadresseerde wordt geweigerd met de bewering dat hij niet contractueel gebonden is met de verzender, kan het op de factuur voorkomende arbitrageclausule geen gevolg hebben en dit geldt ook voor de overige bedingen. Appellante, die de toepassing van het arbitragebeding inroept, moet bewijzen dat dit beding door eerste geïntimeerde werd aanvaard.</p>",
+          "        <p class=\"case-section__paragraph\">3.3. Appellante heeft het geschil aan tweede geïntimeerde voorgelegd conform artikel 12 van haar algemene voorwaarden, die volgens haar stilzwijgend door eerste geïntimeerde werden aanvaard. Deze voorwaarde, vermeld op de keerzijde van de facturen van appellante, bevat een arbitrageclausule die tweede geïntimeerde belast met de aanstelling van scheidsrechters, welke bevoegd zullen zijn elk geschil definitief te beslechten conform haar werkingsreglement. Verder verwijst appellante naar de vermelding op de voorzijde van de factuur, waarin staat dat een wederzijdse garantie tot snelle geschillenregeling door arbitrage deel uitmaakt van de algemene verkoopsvoorwaarden, op de keerzijde vermeld. Op grond van de voorliggende stukken is het Hof van oordeel dat het arbitragebeding, dat vervat is in de algemene factuurvoorwaarden van appellante, nooit door eerste geïntimeerde aanvaard is geweest, ook niet stilzwijgend. Eerste geïntimeerde heeft de factuur van 3 juni 2003 onmiddellijk geprotesteerd en teruggestuurd bij aangetekend schrijven van 5 juni 2003, met de mededeling dat volgens haar diende gefactureerd te worden aan de opdrachtgever en niet aan haar en dat zij elke contractuele relatie met appellante betwistte. Bovendien heeft eerste geïntimeerde na de tweede ingebrekestelling van appellante van 31 juli 2003, opnieuw bij aangetekend schrijven dd.4 augustus 2003 gemeld dat de factuur is teruggestuurd, onder verwijzing naar haar protestbrief van 5 juni 2003 (stuk 6 appellante). Het spreekt voor zich dat eerste geïntimeerde, door dit protest van de factuur, zich ook verzette tegen de toepassing van de arbitrageclausule die op de factuur is vermeld. Toen eerste geïntimeerde op 16 september 2003 in kennis werd gesteld van het feit dat appellante de arbitrageprocedure opstartte, liet zij via haar raadsman op 30 september 2003 weten dat zij hieraan weigerde mee te werken (stukken 8 en 12 eerste geïntimeerde). De omstandigheid dat eerste geïntimeerde niet is overgegaan tot betaling van de factuur, ondanks de aanmaningen van 13 juni en 31 juli 2003, en op 16 september 2003 op de hoogte is gebracht van de inwerkingstelling van de arbitrageprocedure, kan gelet op het voorgaande niet worden beschouwd als een vermoeden van stilzwijgende aanvaarding van de arbitrage. Ook de omstandigheid dat de zaakvoerster van eerste geïntimeerde, op wiens persoonlijke naam een eerdere onderhoudsfactuur is opgemaakt en betaald, houdt geen stilzwijgende aanvaarding in van het arbitragebeding. Ten onrechte stelt appellante dat eerste geïntimeerde enkel haar betalingsverplichting zou hebben geprotesteerd, niet de factuurvoorwaarden. Het spreekt voor zich dat eerste geïntimeerde, die onmiddellijk na ontvangst van de factuur per aangetekend schrijven de totstandkoming heeft betwist van enige overeenkomst met appellante, ook niet kan gehouden zijn door een arbitrageclausule in de factuur die in uitvoering van deze betwiste overeenkomst werd opgesteld. De rechtspraak en rechtsleer die tweede geïntimeerde aanhaalt in verband met het stilzwijgend aanvaarden van factuurvoor-waarden, is gelet op het voorgaande irrelevant. Het Hof is zoals de eerste rechter van oordeel dat geen geldige arbitrageovereenkomst tot stand kwam. Het hoger beroep van appellante en tweede geïntimeerde op dit punt is ongegrond.</p>",
+          "        <p class=\"case-section__paragraph\">3.4. Nu werd vastgesteld dat geen geldige arbitrageovereen-komst tot stand kwam, dient te worden nagegaan of de tegeneis van appellante kan worden ingewilligd. In tegenstelling tot wat appellante voorhoudt, kan op grond van de voorliggende stukken niet worden vastgesteld dat tussen partijen een overeenkomst tot stand is gekomen, waarbij eerste geïntimeerde opdracht zou hebben gegeven aan appellante om een nieuwe afzuigmotor te installeren. Het enige wat duidelijk vaststaat, is dat mevrouw G. begin april 2004 de frituurinstallatie door appellante liet nakijken en onderhouden en dat daarbij werd vastgesteld dat de afzuigmotor van de installatie ontbrak. De kosten voor deze tussenkomst werden betaald door mevrouw G. persoonlijk. Appellante bewijst evenwel op geen enkele wijze dat zij vervolgens van eerste geïntimeerde persoonlijk telefonisch opdracht zou hebben ontvangen tot het uitvoeren van de depannage, zoals zij later in haar aanmaningsbrief van 13 juni 2003 schrijft. Wel blijkt uit het servicerapport van haar monteur dd.23 april 2003, waarop als opdrachtgever de naam van eerste geïntimeerde vermeld wordt, dat de installatie van de nieuwe motor is gebeurd in uitsluitende aanwezigheid van de uitbaters van de frituur ‘ Ajuintje, hetgeen door appellante uitdrukkelijk wordt erkend. Bovendien vermeldt dit rapport onder de opmerkingen uitdrukkelijk dat de kosten van de installatie voor eerste geïntimeerde zijn, met de toevoeging \"klant is geen eigenaar van apparatuur en wil niet tussen komen in de kosten\". Deze vermelding toont aan dat niet eerste geïntimeinde, maar de uitbaters van de frituur aan appellante opdracht hebben gegeven om een nieuwe motor te plaatsen, maar gevraagd hebben de kostprijs hiervan te factureren aan de eigenaar/ver-huurder, zijnde eerste geïntimeinde. Appellante kan echter niet betaling eisen van eerste geïntimeinde, met wie geen overeenkomst tot stand is gekomen. Dat de installatie betrekking heeft op een structurele herstelling en geen onderhoudsherstelling, die ten laste is van de eigenaar van de apparatuur, is een punt van betwisting in de onderlinge verhouding tussen eerste geïntimeinde en haar huurders, die geen partij zijn bij huidig geschil. Appellante is evenwel vreemd aan de rechtsverhouding tussen eerste geïntimeinde en haar huurders. Deze huurders en niet eerste geïntimeinde waren evenwel de klant, die blijkens het servicerapport, opdracht aan appellante hebben gegeven en die ten aanzien van appellante tot betaling gehouden zijn. Appellante kan haar vordering lastens eerste geïntimeinde niet steunen op de verplichtingen van deze laatste om aan haar huurders het rustig genot te verschaffen van het gehuurde goed en de nodige structurele herstellingen ten laste te nemen. Het is niet omdat de huurders op het servicerapport een voorbehoud hebben laten akteren dat zij niet willen tussenkomen in de kosten, dat deze door appellante kunnen worden gevorderd van eerste geïntimeinde, met wie geen contractuele relatie tot stand is gekomen. Ook de bewering dat de factuur \"bijkomende werken\" betrof en geen nieuwe opdracht uitmaakte, maar kaderde in de initiële opdracht die door de afwezigheid van de afzuigmotor niet volledig kon worden afgewerkt, raakt kant noch wal. De tegenvordering van appellante is ongegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+            "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2009:RECO.20091201.5-002",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">3.2. Overeenkomstig artikel 1677 Ger.W. behoort een overeenkomst tot arbitrage te zijn vervat in een door partijen ondertekend geschrift, of in andere hen bindende stukken, waarin zij blijk hebben gegeven van hun wil om het geschil aan arbitrage te onderwerpen. Een arbitrageclausule moet worden opgevat als een ongebruikelijk beding, waarvan de stilzwijgende aanvaarding niet zonder meer mag worden vermoed. Ook al kan een arbitrageovereenkomst vervat zijn in niet-ondertekende stukken, die de wilsovereenstemming tussen partijen om hun geschil aan arbitrage te onderwerpen duidelijk maken, toch moet uit de stukken, die tussen partijen zijn uitgewisseld, met zekerheid kunnen worden afgeleid dat partijen ontegensprekelijk voor arbitrage hebben gekozen. Het zonder meer weigeren van de factuur of de terugzending ervan moet worden opgevat als een algemeen protest, gericht tegen het bestaan zelf van de overeenkomst. Het protest van een factuur strekt zich uit tot alle vermeldingen van de factuur en dus ook tot de algemene verkoopsvoorwaarden. Wanneer een factuur door de geadresseerde wordt geweigerd met de bewering dat hij niet contractueel gebonden is met de verzender, kan het op de factuur voorkomende arbitrageclausule geen gevolg hebben en dit geldt ook voor de overige bedingen. Appellante, die de toepassing van het arbitragebeding inroept, moet bewijzen dat dit beding door eerste geïntimeerde werd aanvaard.</p>",
+          "        <p class=\"case-section__paragraph\">3.3. Appellante heeft het geschil aan tweede geïntimeerde voorgelegd conform artikel 12 van haar algemene voorwaarden, die volgens haar stilzwijgend door eerste geïntimeerde werden aanvaard. Deze voorwaarde, vermeld op de keerzijde van de facturen van appellante, bevat een arbitrageclausule die tweede geïntimeerde belast met de aanstelling van scheidsrechters, welke bevoegd zullen zijn elk geschil definitief te beslechten conform haar werkingsreglement. Verder verwijst appellante naar de vermelding op de voorzijde van de factuur, waarin staat dat een wederzijdse garantie tot snelle geschillenregeling door arbitrage deel uitmaakt van de algemene verkoopsvoorwaarden, op de keerzijde vermeld. Op grond van de voorliggende stukken is het Hof van oordeel dat het arbitragebeding, dat vervat is in de algemene factuurvoorwaarden van appellante, nooit door eerste geïntimeerde aanvaard is geweest, ook niet stilzwijgend. Eerste geïntimeerde heeft de factuur van 3 juni 2003 onmiddellijk geprotesteerd en teruggestuurd bij aangetekend schrijven van 5 juni 2003, met de mededeling dat volgens haar diende gefactureerd te worden aan de opdrachtgever en niet aan haar en dat zij elke contractuele relatie met appellante betwistte. Bovendien heeft eerste geïntimeerde na de tweede ingebrekestelling van appellante van 31 juli 2003, opnieuw bij aangetekend schrijven dd.4 augustus 2003 gemeld dat de factuur is teruggestuurd, onder verwijzing naar haar protestbrief van 5 juni 2003 (stuk 6 appellante). Het spreekt voor zich dat eerste geïntimeerde, door dit protest van de factuur, zich ook verzette tegen de toepassing van de arbitrageclausule die op de factuur is vermeld. Toen eerste geïntimeerde op 16 september 2003 in kennis werd gesteld van het feit dat appellante de arbitrageprocedure opstartte, liet zij via haar raadsman op 30 september 2003 weten dat zij hieraan weigerde mee te werken (stukken 8 en 12 eerste geïntimeerde). De omstandigheid dat eerste geïntimeerde niet is overgegaan tot betaling van de factuur, ondanks de aanmaningen van 13 juni en 31 juli 2003, en op 16 september 2003 op de hoogte is gebracht van de inwerkingstelling van de arbitrageprocedure, kan gelet op het voorgaande niet worden beschouwd als een vermoeden van stilzwijgende aanvaarding van de arbitrage. Ook de omstandigheid dat de zaakvoerster van eerste geïntimeerde, op wiens persoonlijke naam een eerdere onderhoudsfactuur is opgemaakt en betaald, houdt geen stilzwijgende aanvaarding in van het arbitragebeding. Ten onrechte stelt appellante dat eerste geïntimeerde enkel haar betalingsverplichting zou hebben geprotesteerd, niet de factuurvoorwaarden. Het spreekt voor zich dat eerste geïntimeerde, die onmiddellijk na ontvangst van de factuur per aangetekend schrijven de totstandkoming heeft betwist van enige overeenkomst met appellante, ook niet kan gehouden zijn door een arbitrageclausule in de factuur die in uitvoering van deze betwiste overeenkomst werd opgesteld. De rechtspraak en rechtsleer die tweede geïntimeerde aanhaalt in verband met het stilzwijgend aanvaarden van factuurvoor-waarden, is gelet op het voorgaande irrelevant. Het Hof is zoals de eerste rechter van oordeel dat geen geldige arbitrageovereenkomst tot stand kwam. Het hoger beroep van appellante en tweede geïntimeerde op dit punt is ongegrond.</p>",
+          "        <p class=\"case-section__paragraph\">3.4. Nu werd vastgesteld dat geen geldige arbitrageovereen-komst tot stand kwam, dient te worden nagegaan of de tegeneis van appellante kan worden ingewilligd. In tegenstelling tot wat appellante voorhoudt, kan op grond van de voorliggende stukken niet worden vastgesteld dat tussen partijen een overeenkomst tot stand is gekomen, waarbij eerste geïntimeerde opdracht zou hebben gegeven aan appellante om een nieuwe afzuigmotor te installeren. Het enige wat duidelijk vaststaat, is dat mevrouw G. begin april 2004 de frituurinstallatie door appellante liet nakijken en onderhouden en dat daarbij werd vastgesteld dat de afzuigmotor van de installatie ontbrak. De kosten voor deze tussenkomst werden betaald door mevrouw G. persoonlijk. Appellante bewijst evenwel op geen enkele wijze dat zij vervolgens van eerste geïntimeinde persoonlijk telefonisch opdracht zou hebben ontvangen tot het uitvoeren van de depannage, zoals zij later in haar aanmaningsbrief van 13 juni 2003 schrijft. Wel blijkt uit het servicerapport van haar monteur dd.23 april 2003, waarop als opdrachtgever de naam van eerste geïntimeerde vermeld wordt, dat de installatie van de nieuwe motor is gebeurd in uitsluitende aanwezigheid van de uitbaters van de frituur ‘ Ajuintje, hetgeen door appellante uitdrukkelijk wordt erkend. Bovendien vermeldt dit rapport onder de opmerkingen uitdrukkelijk dat de kosten van de installatie voor eerste geïntimeerde zijn, met de toevoeging \"klant is geen eigenaar van apparatuur en wil niet tussen komen in de kosten\". Deze vermelding toont aan dat niet eerste geïntimeinde, maar de uitbaters van de frituur aan appellante opdracht hebben gegeven om een nieuwe motor te plaatsen, maar gevraagd hebben de kostprijs hiervan te factureren aan de eigenaar/ver-huurder, zijnde eerste geïntimeinde. Appellante kan echter niet betaling eisen van eerste geïntimeinde, met wie geen overeenkomst tot stand is gekomen. Dat de installatie betrekking heeft op een structurele herstelling en geen onderhoudsherstelling, die ten laste is van de eigenaar van de apparatuur, is een punt van betwisting in de onderlinge verhouding tussen eerste geïntimeinde en haar huurders, die geen partij zijn bij huidig geschil. Appellante is evenwel vreemd aan de rechtsverhouding tussen eerste geïntimeinde en haar huurders. Deze huurders en niet eerste geïntimeinde waren evenwel de klant, die blijkens het servicerapport, opdracht aan appellante hebben gegeven en die ten aanzien van appellante tot betaling gehouden zijn. Appellante kan haar vordering lastens eerste geïntimeinde niet steunen op de verplichtingen van deze laatste om aan haar huurders het rustig genot te verschaffen van het gehuurde goed en de nodige structurele herstellingen ten laste te nemen. Het is niet omdat de huurders op het servicerapport een voorbehoud hebben laten akteren dat zij niet willen tussenkomen in de kosten, dat deze door appellante kunnen worden gevorderd van eerste geïntimeinde, met wie geen contractuele relatie tot stand is gekomen. Ook de bewering dat de factuur \"bijkomende werken\" betrof en geen nieuwe opdracht uitmaakte, maar kaderde in de initiële opdracht die door de afwezigheid van de afzuigmotor niet volledig kon worden afgewerkt, raakt kant noch wal. De tegenvordering van appellante is ongegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-001",
+            "DEC-ECLI:BE:HBGNT:2009:RECO.20091201.5-002"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 6,
+        "avgCitationsPerTeaching": 3,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 3,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 4
+      },
+      "extractionNotes": []
+    }
+  }
+}

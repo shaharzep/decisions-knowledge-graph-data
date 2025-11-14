@@ -1,0 +1,955 @@
+{
+  "decision_id": "ECLI:BE:GBAPE:2020:DEC.20200709.7",
+  "language": "NL",
+  "metadata": {
+    "id": 108151,
+    "court_ecli_code": "GBAPE",
+    "decision_date": "2020-07-09",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Rechterlijke beslissing",
+    "md_length": 28997,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Geschillenkamer van de Gegevensbeschermingsautoriteit, 9 juli 2020, Beslissing ten gronde 36/2020, Dossier D05-2019-02649, ECLI:BE:GBAPE:2020:DEC.20200709.7"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "name": "mevrouw $X",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "name": "mevrouw $X",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-003",
+        "name": "de heer $X",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-004",
+        "name": "de heer $X",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-005",
+        "name": "de heer $X",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-006",
+        "name": "mevrouw $X",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-007",
+        "name": "de heer $X",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-008",
+        "name": "$Y",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "VERWEERDER"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op 9 mei 2019 dienden zeven klagers een klacht in bij de Gegevensbeschermingsautoriteit tegen verweerder met betrekking tot het gebruik van bewakingscamera's geplaatst in appartementsblok \"Residentie Z A\" (12 appartementen, 3 toebehorend aan de verweerder, 9 aan andere mede-eigenaars). De klagers stellen dat de verweerder als enige natuurlijke persoon toegang heeft tot de camerabeelden en deze tegen mede-eigenaars aanwendt, dat hij weigert plannen inzake plaatsing van de bewakingscamera's en de login code over te maken aan mede-eigenaars en de syndicus, en dat bijkomende camera's zijn geplaatst (o.a. gericht op binnentuin, inrit ondergrondse garage, meterlokaal) zonder hun toestemming. De klacht werd ontvankelijk verklaard op 13 juni 2019 en overgemaakt aan de Geschillenkamer. De verweerder stelde in zijn conclusie van antwoord (23/08/2019) dat hij als bouwheer handelde en dat camerabewaking contractueel voorzien was in het huisreglement en de notariële verkoopsovereenkomsten, en dat camerabewaking noodzakelijk was voor de beveiliging van het gebouw. De klagers weerlegden dit en stelden dat A 12 appartementen telt, dat er bij oplevering geen camera-installatie was en dat camera's pas vanaf 2016 en later zonder goedkeuring zijn geplaatst (opsomming: 2 zicht op tuin/privéterrassen, 1 in meterlokaal april 2019, 3 buiten gevels die omliggende straten tonen, 3 in kelder/garage). De verweerder gaf aan dat sommige camera's sinds 2016 geplaatst waren en dat bepaalde camera's op 16 oktober 2019 op vraag van VME A aan de buitengevels werden verwijderd, en dat nog camera's in de ondergrondse parking en technische ruimtes aanwezig zouden zijn. De partijen werden gehoord op 20 mei 2020; de Geschillenkamer verzocht de verweerder om de basisakte betreffende A te bezorgen, maar deze stukken werden niet tijdig overgelegd. Op 12 juni 2020 deelde de Geschillenkamer het voornemen mee om een administratieve geldboete op te leggen; de verweerder reageerde niet binnen drie weken.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+          "requests": "De klagers vorderen dat de verweerder als natuurlijke persoon geen toegang meer heeft tot de camerabeelden die betrekking hebben op appartementsblok Residentie Z A, dat hij deze beelden niet langer voor persoonlijk gebruik aanwendt, en dat de plannen inzake plaatsing van de bewakingscamera's en de login code worden verstrekt aan de Vereniging van Mede-eigenaars van het gebouw Residentie Z A en/of de syndicus."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-008",
+          "argument": "De verweerder voert aan dat hij optreedt als bouwheer/promotor van het bouwproject en dat camerabewaking contractueel verplicht was ingevolge het huisreglement en notariële verkoopsovereenkomsten (waarbij kopers zouden zijn ingelicht en akkoord zouden zijn gegaan), dat camerabewaking deel uitmaakt van het bewakingssysteem van het gehele project en noodzakelijk is voor de beveiliging van het gebouw en de appartementen en dat de camera's reeds sinds 2016 geplaatst zijn en goedgekeurd zouden zijn door de algemene vergadering van de VME.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+          "argument": "De klagers stellen dat zij nooit hun vrije, specifieke, geïnformeerde en ondubbelzinnige toestemming hebben gegeven voor de verwerking door middel van de bewakingscamera's in Residentie Z A, dat bepaalde camera's pas na oplevering en zonder goedkeuring van de VME A zijn geplaatst (o.a. tuin, privéterrassen, meterlokaal, gevels, kelder/garage), en dat eventuele clausules in notariële akten waarop de verweerder zich beroept betrekking hebben op een ander gebouw (Z B) zodat vrije toestemming niet kan worden aangenomen en ook een belangenafweging (art. 6.1.f AVG) in het voordeel van de klagers uitvalt.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN,\n\nbeslist de Geschillenkamer van de Gegevensbeschermingsautoriteit, na beraadslaging, om:\n\n- op grond van artikel 58.2. f) en artikel 100, §1, $8^{\u00176}$ WOG, de verweerder te bevelen dat de verwerking door middel van bewakingscamera's die betrekking hebben op het appartementsblok Z A in zijnen hoofde definitief wordt verboden en de verwerking door middel van bewakingscamera's die betrekking hebben op zowel A als B tijdelijk wordt verboden totdat VME A en VME B gezamenlijk een beslissing hebben genomen over het gebruik van deze bewakingscamera's;\n- op grond van artikel 58.2. d) AVG en artikel 100, §1, $9^{\u00176}$ WOG, de verweerder te bevelen dat de verwerking in overeenstemming wordt gebracht met artikel 6.1. AVG door de verstrekking van de vereiste documenten, waaronder de plannen inzake plaatsing van de bewakingscamera's en de login code, aan de \"Vereniging van Mede-eigenaars van het gebouw Residentie Z A\" aan wie de hoedanigheid van verwerkingsverantwoordelijke toekomt,.\n- op grond van art. 100, §1, $13^{\u00176}$ WOG en art. 101 WOG een administratieve geldboete op te leggen van 5000 EUR.\n\nTegen deze beslissing kan op grond van art. 108, §1 WOG, beroep worden aangetekend binnen een termijn van dertig dagen, vanaf de kennisgeving, bij het Marktenhof, met de Gegevensbeschermingsautoriteit als verweerder.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "provisionNumber": "artikelen 58",
+        "provisionNumberKey": "58",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "provisionNumber": "artikel 60",
+        "provisionNumberKey": "60",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-003",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "provisionNumber": "artikel 61",
+        "provisionNumberKey": "61",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-004",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "provisionNumber": "artikel 62, §1",
+        "provisionNumberKey": "62",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-005",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "provisionNumber": "artikel 95, §1, 1°",
+        "provisionNumberKey": "95",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-006",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "provisionNumber": "artikel 98",
+        "provisionNumberKey": "98",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-007",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "provisionNumber": "artikel 99",
+        "provisionNumberKey": "99",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-008",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "provisionNumber": "artikel 4, lid 7",
+        "provisionNumberKey": "4",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer interpreteert artikel 4, lid 7 AVG als de definitie van 'verwerkingsverantwoordelijke': degene die het doel en de middelen van de verwerking bepaalt. Zij oordeelt dat de verweerder als bouwheer aanvankelijk beslissingen nam over plaatsing en gebruik en aldus als verwerkingsverantwoordelijke optrad, maar dat na eigendomsoverdracht de VME het doel en de middelen moet bepalen voor Residentie Z A.",
+        "relevantFactualContext": "Verweerder nam beslissingen over plaatsing en gebruik van camera's als bouwheer; na overdracht werden kopers eigenaar en werd VME A opgericht; verweerder behield toegang tot beelden en weigerde plannen en logincodes over te dragen; VME A gaf opdracht tot verwijdering van buitencamera's op 16/10/2019."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-009",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "provisionNumber": "artikel 6, lid 1",
+        "provisionNumberKey": "6",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer stelt dat artikel 6.1 AVG vereist dat verwerking slechts rechtmatig is indien aan één van de opgesomde rechtsgronden is voldaan. Zij benadrukt dat toestemming vrij, specifiek, geïnformeerd en ondubbelzinnig moet zijn; in casu oordeelt zij dat de door verweerder genoemde 'toestemming' niet vrijelijk is gegeven. De Kamer merkt tevens op dat een belangenafweging voor art.6.1.f vereist is en dat die hier in het voordeel van de klagers uitvalt.",
+        "relevantFactualContext": "Camera's werden geplaatst in en rond gebouw A; verweerder verwees naar een clausule in de basisakte voor complex B maar kon niet aantonen dat een gelijkaardige clausule bestond voor Residentie Z A; toestemming zou als voorwaarde bij aankoop zijn gegeven, en verweerder hield toegang tot beelden en weigerde technische gegevens over te dragen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-010",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "provisionNumber": "artikel 7, lid 4",
+        "provisionNumberKey": "7",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 7.4 AVG wordt door de Kamer gebruikt om te benadrukken dat toestemming in een contractuele context niet als 'vrij' kan worden beschouwd indien die toestemming noodzakelijk wordt geacht voor de uitvoering van een overeenkomst terwijl de verwerking daarvoor niet noodzakelijk is; verplichte of gebundelde toestemming is ongeldig.",
+        "relevantFactualContext": "De verweerder stelt dat toestemming was opgenomen in de notariële akte en huisreglement als voorwaarde voor aankoop (clausule aangetroffen voor complex B); voor Residentie Z A kon de verweerder die clausule niet aantonen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-011",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "provisionNumber": "overweging 43",
+        "provisionNumberKey": "43",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Overweging 43 wordt aangehaald om te verduidelijken dat toestemming niet vrijelijk is verleend indien geen afzonderlijke toestemming kan worden gegeven of wanneer toestemming wordt samengevoegd met andere voorwaarden; dit ondersteunt de ongeldigheid van de in de verkoopakte veronderstelde toestemming.",
+        "relevantFactualContext": "De vermeende toestemming was opgenomen als onderdeel van het huisreglement/notariële akte en werd gekoppeld aan de aankoopvoorwaarden, waardoor kopers geen reële keuze hadden om toestemming afzonderlijk te weigeren."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-012",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "provisionNumber": "overweging 148",
+        "provisionNumberKey": "148",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Overweging 148 wordt door de Kamer aangehaald om te onderbouwen dat bij ernstige inbreuken op de AVG ook straffen, waaronder administratieve geldboeten, passend zijn; deze overweging ondersteunt het opleggen van een geldboete naast corrigerende maatregelen.",
+        "relevantFactualContext": "De Kamer constateert een ernstige inbreuk op het rechtmatigheidsbeginsel door de verweerder: voortdurende toegang tot beelden zonder geldige rechtsgrond, slechts gedeeltelijke verwijdering van camera's en ernstige nalatigheid."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-013",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "provisionNumber": "artikel 58, lid 2, sub i)",
+        "provisionNumberKey": "58",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 58, lid 2, sub i) AVG geeft de toezichthouder de bevoegdheid administratieve geldboeten op te leggen; de Kamer baseert de toepassing van een geldboete op deze bevoegdheid in samenhang met de vastgestelde ernst van de inbreuk.",
+        "relevantFactualContext": "Gezien de vastgestelde onrechtmatige verwerking van camerabeelden door verweerder en het ontbreken van een geldige rechtsgrond, legt de Kamer een administratieve geldboete op."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-014",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "provisionNumber": "artikel 83",
+        "provisionNumberKey": "83",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 83 AVG bevat de criteria en het kader voor het opleggen van administratieve geldboeten; de Kamer past deze criteria (ernst van de inbreuk, duur, afschrikwekkende werking, eventuele nalatigheid) toe bij de bepaling van de hoogte van de boete en motiveert waarom een doeltreffende, evenredige en afschrikwekkende sanctie vereist is.",
+        "relevantFactualContext": "De Kamer houdt rekening met de ernst van de inbreuk, de duur (voortgezet tot ten minste 20/05/2020), de gedeeltelijke verwijdering van camera's nadat debatten gesloten waren, en de vastgestelde ernstige nalatigheid van de verweerder."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-015",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "provisionNumber": "artikel 5",
+        "provisionNumberKey": "5",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 5 AVG bevat de fundamentele verwerkingsbeginselen, waaronder het rechtmatigheidsbeginsel; de Kamer benadrukt dat naleving van deze beginselen essentieel is en dat de schending van het rechtmatigheidsbeginsel (artikel 6) hier een ernstige overtreding vormt.",
+        "relevantFactualContext": "In casu werd het rechtmatigheidsbeginsel geschonden omdat de verweerder geen geldige rechtsgrond voor de verwerking van camerabeelden kon aantonen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-016",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "provisionNumber": "artikel 100, §1, 8°",
+        "provisionNumberKey": "100",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer gebruikt artikel 100, §1, 8° WOG als nationale grondslag voor het opleggen van corrigerende maatregelen; concreet biedt deze bepaling de bevoegdheid om bevelen te geven zoals het definitief of tijdelijk verbieden van verwerking.",
+        "relevantFactualContext": "Op grond hiervan beveelt de Kamer het definitief verbod op verwerking door verweerder voor appartementsblok A en een tijdelijk verbod voor beelden die A en B samen betreffen, totdat VME A en VME B gezamenlijk beslissen over het gebruik."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-017",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "provisionNumber": "artikel 101",
+        "provisionNumberKey": "101",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 101 WOG wordt door de Kamer aangewend als wettelijke grondslag om administratieve geldboeten op te leggen binnen het kader van de WOG, in samenhang met de corrigerende bevoegdheden van artikel 100 WOG.",
+        "relevantFactualContext": "De Kamer legt op grond van deze bevoegdheid en de vastgestelde inbreuk een administratieve geldboete van €5.000 op aan de verweerder."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-018",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "provisionNumber": "artikel 108, §1",
+        "provisionNumberKey": "108",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2019-07-09",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200709.7-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2019-09-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200709.7-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2019-10-23",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200709.7-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2020-05-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200709.7-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2020-05-29",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200709.7-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2020-06-04",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200709.7-006"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Camerabewaking appartementsblok",
+      "Alleen toegang camerabeelden",
+      "Weigering plannen en login",
+      "Camera's binnentuin en garage",
+      "VME als verwerkingsverantwoordelijke",
+      "Onvrije toestemming",
+      "Geen rechtsgrond verwerking",
+      "Bevel overdracht plannen login",
+      "Bouwheer bleef toegang"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "text": "Wanneer de beslissingen over plaatsing en gebruik van camerabewaking door de bouwheer worden genomen, geldt deze bouwheer aanvankelijk als verwerkingsverantwoordelijke (art. 4, lid 7 AVG). Zodra de eigendomsoverdracht heeft plaatsgevonden en een vereniging van mede-eigenaars (VME) is opgericht, behoort het tot de VME om het doel en de middelen van de verwerking te bepalen; de voormalige bouwheer kan niet langer het statuut van verwerkingsverantwoordelijke voor die delen blijven opeisen enkel door eerder infrastructuur te hebben voorzien.",
+        "courtVerbatim": "De Geschillenkamer stelt vast dat de beslissingen over de camera's, met name de plaatsing en het gebruik ervan, zoals verklaard door de verweerder tijdens de hoorzitting, worden genomen door de bouwheer en dit reeds van bij het begin met het oog op de bouw van het appartementencomplex, stelt de Geschillenkamer vast dat de verweerder dient te worden beschouwd als verwerkingsverantwoordelijke in de zin van artikel 4. 7) AVG, aangezien de verweerder aldus het doel van en de middelen voor de gegevensverwerking van de camerabeelden bepaalt. ... Op het ogenblik dat de kopers eigenaar worden en de vereniging van mede-eigenaars (VME) is opgericht, dienen het doel en de middelen voor de verwerking van de beelden verkregen door middel van de bewakingscamera's te kunnen worden bepaald door de VME. De Geschillenkamer stelt aldus vast dat het toekomt aan de VME om te beslissen over het gebruik van de bewakingscamera's en de verwerking van de verkregen beelden voor wat betreft Residentie Z A.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een bouwheer eerder besliste over installatie/gebruik van camerabewaking en later eigendomsoverdracht en oprichting van een VME plaatsvinden.",
+        "relevantFactualContext": "Verweerder handelde als bouwheer die besliste over plaatsing en gebruik van camera's; na verkoop werden kopers eigenaar en werd VME A opgericht; verweerder behield toegang tot beelden maar VME A moet beslissen over gebruik voor Residentie Z A.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-008"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "text": "Toestemming als rechtsgrond (art. 6.1.a AVG) is ongeldig wanneer zij niet vrij is gegeven; toestemming die als dwingende voorwaarde voor aankoop of als niet-onderhandelbaar onderdeel van een contract wordt opgenomen, kan niet worden aangemerkt als \"vrij\" in de zin van de AVG (artikel 7.4 en overweging 43).",
+        "courtVerbatim": "De Geschillenkamer merkt op dat deze toestemming geenszins beantwoordt aan de vereisten zoals vastgelegd in artikel 4, 11) AVG ... Dit betekent dat van zodra de betrokkene overgaat tot de aankoop van een appartement, deze ertoe wordt verplicht om zijn toestemming te geven tot de gegevensverwerking door middel van de bewakingscamera's. Er is aldus niet voldaan aan de vereiste van vrije toestemming. ... Bij de beoordeling of toestemming vrij is gegeven, moet ook rekening worden gehouden met de specifieke situatie van het opnemen van toestemming in contracten voor de verwerking van persoonsgegevens die niet noodzakelijk is voor de uitvoering van die overeenkomst (artikel 7.4. AVG) ... Bijgevolg wordt toestemming niet geacht vrij gegeven te zijn indien de betrokkene zijn of haar toestemming niet zonder nadelige gevolgen kan weigeren of intrekken.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer toestemming voor gegevensverwerking gekoppeld is aan een contractuele voorwaarde of de aankoop van een goed/dienst waardoor reële keuze ontbreekt.",
+        "relevantFactualContext": "Verweerder verwees naar clausules in een notariële akte/huisreglement als vermeende toestemming; die clausules golden evenwel voor ander complex (B) en kopers van Residentie Z A waren feitelijk gedwongen tot instemming bij aankoop.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-009",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-011"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200709.7-003",
+        "text": "Voor een beroep op artikel 6.1.f AVG (gerechtvaardigde belangen) moet een belangenafweging worden gemaakt waarbij het belang van de verwerkingsverantwoordelijke tegenover de rechten en vrijheden van betrokkenen wordt gewogen; indien na afweging de belangen van betrokkenen zwaarder wegen of de verwerking niet noodzakelijk is, kan art. 6.1.f niet worden ingeroepen.",
+        "courtVerbatim": "Hoewel de verweerder zich daar niet op beroept, heeft de Geschillenkamer onderzocht in hoeverre de verwerking mogelijk zou kunnen worden gebaseerd op art. 6.1. f) AVG en de verwerking noodzakelijk zou kunnen zijn voor de behartiging van zijn gerechtvaardigd belang, merkt de Geschillenkamer op dat daartoe een afweging moet worden gemaakt met het belang van de betrokkene teneinde te beoordelen welk belang zwaarder doorweegt. Ook voor wat betreft deze rechtsgrond stelt de Geschillenkamer dat dergelijke belangenafweging, in voorliggend geval, leidt tot het besluit dat het belang van de klagers primeert.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de verwerkingsverantwoordelijke een beroep doet op gerechtvaardigde belangen (art. 6.1.f) en moet aantonen dat verwerking noodzakelijk is en dat zijn belangen opwegen tegen de rechten van betrokkenen.",
+        "relevantFactualContext": "Verweerder stelde beveiligings- en contractuele belangen aan; de Kamer voerde de belangenafweging uit en oordeelde dat de belangen van de bewoners (klagers) zwaarder wegen, zodat art. 6.1.f niet rechtvaardigt de verwerking door verweerder.",
+        "principleType": "BALANCING_TEST",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-009",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-015"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200709.7-004",
+        "text": "Bij bepaling van corrigerende maatregelen en administratieve geldboeten past de toezichthouder de criteria van artikel 83 AVG toe (ernst van de inbreuk, duur, afschrikwekkende werking, eventuele nalatigheid). De duur wordt beoordeeld op basis van de periode tot sluiting van het debat; latere aanpassingen verricht na sluiting van de debatten worden daarbij in beginsel niet in aanmerking genomen.",
+        "courtVerbatim": "De Geschillenkamer doet dit in toepassing van artikel 58.2 i) AVG. Het instrument van administratieve boete heeft dus geenszins tot doel inbreuken te beëindigen. Daartoe voorzien de AVG en de WOG in een aantal corrigerende maatregelen, waaronder de bevelen genoemd in artikel 100, $\u0000 1,8^{\u0000}$ en $9^{\u0000} \u0000$ WOG. Rekening houdend met artikel 83 AVG en de rechtspraak van het Marktenhof, motiveert de Geschillenkamer het opleggen van een administratieve sanctie in concreto: - De ernst van de inbreuk: uit de voorgaande motivering blijkt de ernst van de inbreuk. - De duur van de inbreuk: uit hetgeen verweerder naar voren heeft gebracht in de procedure voor de Geschillenkamer blijkt niet dat de inbreuk is beëindigd en dus voort heeft geduurd tot 20 mei 2020. Daarbij houdt de Geschillenkamer geen rekening met aanpassingen verricht nadat de debatten omtrent de vaststellingen zijn gesloten.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer toezichthouder sancties vaststelt voor AVG-inbreuken en moet bepalen hoogte/karakter van corrigerende maatregel of boete op basis van art.83-criteria.",
+        "relevantFactualContext": "Gezien de vastgestelde onrechtmatige verwerking door verweerder, de voortduring tot minstens 20/05/2020 en ernstige nalatigheid, legde de Kamer zowel een verbod als een administratieve geldboete op en motiveerde zij hoogte van de boete aan de hand van art.83-criteria.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-013",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-014",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-016",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-017"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 1,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eisers, mede-eigenaars van appartementsblok Z A, klaagden tegen de verweerder wegens plaatsing en exclusief gebruik van bewakingscamera’s en het onthouden van plannen en logingegevens. De Geschillenkamer oordeelt dat de verweerder zich als verwerkingsverantwoordelijke heeft voorgedaan maar dat de hoedanigheid van verwerkingsverantwoordelijke voor de beelden van A toekomt aan de Vereniging van Mede-eigenaars (VME A); verwerking door de verweerder ontbreekt aan een rechtsgrond op grond van artikel 6.1 AVG en is onrechtmatig. De kamer verbiedt definitief verwerking door de verweerder voor A, legt een tijdelijk verbod op voor beelden die A en B betreffen tot gezamenlijke beslissing van VME A en VME B, beveelt overdracht van plannen en logingegevens aan VME A en legt een administratieve geldboete van €5.000 op; kernpunt: vooraf in koopaktes gegeven „toestemming\" is niet vrijelijk en kan geen rechtsgrond vormen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "relatedFullTextCitations": [
+          "<li>Op 13 juni 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG, wordt de klager hiervan in kennis gesteld op grond van art. 61 WOG en wordt de klacht op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-003",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "relatedFullTextCitations": [
+          "<li>Op 13 juni 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG, wordt de klager hiervan in kennis gesteld op grond van art. 61 WOG en wordt de klacht op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-003",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-003",
+        "relatedFullTextCitations": [
+          "<li>Op 13 juni 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG, wordt de klager hiervan in kennis gesteld op grond van art. 61 WOG en wordt de klacht op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-003",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-004",
+        "relatedFullTextCitations": [
+          "<li>Op 13 juni 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG, wordt de klager hiervan in kennis gesteld op grond van art. 61 WOG en wordt de klacht op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-004",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-005",
+        "relatedFullTextCitations": [
+          "<li>Op 9 juli 2019 beslist de Geschillenkamer op grond van art. 95, §1, 1° en art. 98 WOG dat het dossier gereed is voor behandeling ten gronde.</li>",
+          "<li>Op 12 juli 2019 worden de betrokken partijen per aangetekende zending in kennis gesteld van de bepalingen zoals vermeld in artikel 95, §2, alsook van deze in art. 98 WOG. Tevens worden zij op grond van art. 99 WOG in kennis gesteld van de termijnen om hun verweermiddelen in te dienen. De uiterste datum voor ontvangst van de conclusie van antwoord van de verweerder werd daarbij vastgelegd op 23 augustus 2019, deze voor de conclusie van repliek van de klager op 23 september 2019 en deze voor de conclusie van repliek van de verweerder op 23 oktober 2019.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-005",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-006",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-006",
+        "relatedFullTextCitations": [
+          "<li>Op 9 juli 2019 beslist de Geschillenkamer op grond van art. 95, §1, 1° en art. 98 WOG dat het dossier gereed is voor behandeling ten gronde.</li>",
+          "<li>Op 12 juli 2019 worden de betrokken partijen per aangetekende zending in kennis gesteld van de bepalingen zoals vermeld in artikel 95, §2, alsook van deze in art. 98 WOG. Tevens worden zij op grond van art. 99 WOG in kennis gesteld van de termijnen om hun verweermiddelen in te dienen. De uiterste datum voor ontvangst van de conclusie van antwoord van de verweerder werd daarbij vastgelegd op 23 augustus 2019, deze voor de conclusie van repliek van de klager op 23 september 2019 en deze voor de conclusie van repliek van de verweerder op 23 oktober 2019.</li>",
+          "<li>Op 20 juli 2019 melden de klagers, dhr. X en dhr. X, dat de communicatie via hen zal verlopen en dit mede in opdracht van de andere klagers, aanvaarden zij elektronisch alle communicatie omtrent de zaak (art. 98, 1° van de wet van 3 december 2017) en geven zij te kennen gebruik te willen maken van de mogelijkheid om te worden gehoord (artikel 98, 2° WOG).</li>",
+          "<li>Op 23 oktober 2019 ontvangt de Geschillenkamer de conclusie van repliek van de verweerder. Daarin geeft deze te kennen gebruik te willen maken van de mogelijkheid om te worden gehoord (artikel 98, 2° WOG). Verder herneemt de verweerder de elementen van de conclusie van antwoord en voegt daaraan toe dat de camera’s reeds zijn geplaatst sinds 2016, dus voor de verkoop van de appartementen van A, dewelke zouden zijn goedgekeurd bij algemene vergadering van de VME, en vervolgens zijn uitgebreid naar B van het bouwproject, voor welke fase de gedelegeerd bestuurder van de vastgoedvennootschap nog syndicus zou zijn. Volgens de verweerder zouden de klagers ook zijn ingelicht over het feit dat de gemeenschappelijke delen waaronder binnentuin, inrit garages en garages – dewelke niet als limitatieve lijst wordt bestempeld – worden bewaakt door middel van camera’s. De verweerder vermeldt ook dat op 16 oktober 2019 in opdracht van de VME A de camera’s aan de buitengevels werden verwijderd. De enige camera’s die er nog zouden zijn, zijn deze in de ondergrondse parking ter beveiliging van de inkompoort en de gemeenschappelijke toegang voor A en B. In A zouden nog enkel 2 camera’s aanwezig zijn in de technische ruimte en aan de inkom van de garagepoort voor A en B.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-006",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-005",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-007",
+        "relatedFullTextCitations": [
+          "<li>Op 12 juli 2019 worden de betrokken partijen per aangetekende zending in kennis gesteld van de bepalingen zoals vermeld in artikel 95, §2, alsook van deze in art. 98 WOG. Tevens worden zij op grond van art. 99 WOG in kennis gesteld van de termijnen om hun verweermiddelen in te dienen. De uiterste datum voor ontvangst van de conclusie van antwoord van de verweerder werd daarbij vastgelegd op 23 augustus 2019, deze voor de conclusie van repliek van de klager op 23 september 2019 en deze voor de conclusie van repliek van de verweerder op 23 oktober 2019.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-007",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-005",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 4. 7) AVG</p>",
+          "<p class=\"case-section__paragraph\">Voor de toepassing van deze verordening wordt verstaan onder:</p>",
+          "<p class=\"case-section__paragraph\">7) „verwerkingsverantwoordelijke”: een natuurlijke persoon of rechtspersoon, een overheidsinstantie, een dienst of een ander orgaan die/dat, alleen of samen met anderen, het doel van en de middelen voor de verwerking van persoonsgegevens vaststelt; wanneer de doelstellingen van en de middelen voor deze verwerking in het Unierecht of het lidstatelijke recht worden vastgesteld, kan daarin worden bepaald wie de verwerkingsverantwoordelijke is of volgens welke criteria deze wordt aangewezen;</p>",
+          "<li>Vooreerst is het van belang te bepalen wie de verwerkingsverantwoordelijke is van de beelden vastgelegd door de bewakingscamera’s. Gelet op het feit dat de beslissingen over de camera’s, met name de plaatsing en het gebruik ervan, zoals verklaard door de verweerder tijdens de hoorzitting, worden genomen door de bouwheer en dit reeds van bij het begin met het oog op de bouw van het appartementencomplex, stelt de Geschillenkamer vast dat de verweerder dient te worden beschouwd als verwerkingsverantwoordelijke in de zin van artikel 4. 7) AVG, aangezien de verweerder aldus het doel van en de middelen voor de gegevensverwerking van de camerabeelden bepaalt.</li>",
+          "<li>De Geschillenkamer stelt ook vast dat de verplichting tot uitrusting van een gebouw met camerabewaking en het daartoe voorzien in de plaatsing van bewakingscamera’s op de plaatsen zoals vermeld in het huisreglement niet inhoudt dat de bouwheer/-promotor zichzelf op het ogenblik van het verlijden van de notariële verkoopsakte, nog kan bestempelen als verwerkingsverantwoordelijke in de zin van artikel 4. 7) AVG. Op het ogenblik dat de kopers eigenaar worden en de vereniging van mede-eigenaars (hierna VME) is opgericht, hetwelk gebeurde door middel van de statuten van het appartementsgebouw “Residentie Z”, dienen het doel en de middelen voor de verwerking van de beelden verkregen door middel van de bewakingscamera’s te kunnen worden bepaald door de VME. De Geschillenkamer stelt aldus vast dat het toekomt aan de VME om te beslissen over het gebruik van de bewakingscamera’s en de verwerking van de verkregen beelden voor wat betreft Residentie Z A. Dit wordt overigens niet betwist door de verweerder, aangezien deze uitdrukkelijk stelt dat de beslissing om de camera-installatie al dan niet te verwijderen, toekomt aan de VME. De verweerder bevestigt dat de algemene vergadering van de VME, als beslissingsorgaan, een beslissing dient te nemen omtrent het verwijderen van de camera-installatie, dewelke daarna dient te worden uitgevoerd door de syndicus van het gebouw. Aldus werd op 16 oktober 2019 de camera’s verwijderd aan de buitengevels in opdracht van de VME A. De Geschillenkamer volgt deze stelling in die zin dat de VME niet alleen beslist over de eventuele verwijdering van de bewakingscamera’s, maar ook dient te kunnen beslissen over de plaatsing en het gebruik ervan.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Art. 6.1. AVG</p>",
+          "<ol>\n            <li>De verwerking is alleen rechtmatig indien en voor zover aan ten minste een van de onderstaande voorwaarden is voldaan:\n                <ul>\n                    <li>a) de betrokkene heeft toestemming gegeven voor de verwerking van zijn persoonsgegevens voor een of meer specifieke doeleinden;</li>\n                    <li>b) de verwerking is noodzakelijk voor de uitvoering van een overeenkomst waarbij de betrokkene partij is, of om op verzoek van de betrokkene vóór de sluiting van een overeenkomst maatregelen te nemen;</li>\n                    <li>c) de verwerking is noodzakelijk om te voldoen aan een wettelijke verplichting die op de verwerkingsverantwoordelijke rust;</li>\n                    <li>d) de verwerking is noodzakelijk om de vitale belangen van de betrokkene of van een andere natuurlijke persoon te beschermen;</li>\n                    <li>e) de verwerking is noodzakelijk voor de vervulling van een taak van algemeen belang of van een taak in het kader van de uitoefening van het openbaar gezag dat aan de verwerkingsverantwoordelijke is opgedragen;</li>\n                    <li>f) de verwerking is noodzakelijk voor de behartiging van de gerechtvaardigde belangen van de verwerkingsverantwoordelijke of van een derde, behalve wanneer de belangen of de grondrechten en de fundamentele vrijheden van de betrokkene die tot bescherming van persoonsgegevens nopen, zwaarder wegen dan die belangen, met name wanneer de betrokkene een kind is.</li>\n                </ul>\n            </li>\n        </ol>",
+          "<p class=\"case-section__paragraph\">De eerste alinea, punt f), geldt niet voor de verwerking door overheidsinstanties in het kader van de uitoefening van hun taken.</p>",
+          "<li>De verweerder toont niet aan dat dergelijke clausule ook was opgenomen in de notariële overeenkomst gesloten met de klagers van Residentie Z A. Aangaande de toestemming waarop de verweerder zich in zijn hoedanigheid van verwerkingsverantwoordelijke beroept, als rechtsgrond om de verwerking van de camerabeelden te rechtvaardigen, merkt de Geschillenkamer op dat deze toestemming geenszins beantwoordt aan de vereisten zoals vastgelegd in artikel 4, 11) AVG waarin is opgenomen dat onder toestemming van de betrokkene wordt verstaan: “elke vrije, specifieke, geïnformeerde en ondubbelzinnige wilsuiting waarmee de betrokkene door middel van een verklaring of een ondubbelzinnige actieve handeling hem betreffende verwerking van persoonsgegevens aanvaardt”. De eigenaar/gebruiker dient volgens de verweerder de bewaking door middel van camera’s te respecteren en dient uitdrukkelijk zijn akkoord te geven inzake privacymeldingen. Dit betekent dat van zodra de betrokkene overgaat tot de aankoop van een appartement, deze ertoe wordt verplicht om zijn toestemming te geven tot de gegevensverwerking door middel van de bewakingscamera’s. Er is aldus niet voldaan aan de vereiste van vrije toestemming.</li>",
+          "<blockquote class=\"case-quote\">“CAMERABEWAKING De gemeenschappelijke delen (binnentuin, inrit garages en garages – deze lijst is niet beperkend) zullen bewaakt worden door middel van camera’s. Elke eigenaar/gebruiker dient deze vorm van bewaking te respecteren en zal uitdrukkelijk zijn akkoord dienen te geven inzake de privacymeldingen hiertoe.”</blockquote>",
+          "<p class=\"case-section__paragraph\">1 Richtsnoeren inzake toestemming overeenkomstig Verordening 2016/679, vastgesteld op 28 november 2017, laatstelijk herzien en vastgesteld op 10 april 2018.</p>",
+          "<p class=\"case-section__paragraph\">2 Artikel 7.4. AVG: “Bij de beoordeling van de vraag of de toestemming vrijelijk kan worden gegeven, wordt onder meer ten sterkste rekening gehouden met de vraag of voor de uitvoering van een overeenkomst, met inbegrip van een dienstenovereenkomst, toestemming vereist is voor een verwerking van persoonsgegevens die niet noodzakelijk is voor de uitvoering van die overeenkomst.” Zie ook overweging 43, AVG, die luidt: \"[…]De toestemming wordt geacht niet vrijelijk te zijn verleend indien geen afzonderlijke toestemming kan worden gegeven voor verschillende persoonsgegevensverwerkingen ondanks het feit dat dit in het individuele geval passend is, of indien de uitvoering van een overeenkomst, daaronder begrepen het verlenen van een dienst, afhankelijk is van de toestemming ondanks het feit dat dergelijke toestemming niet noodzakelijk is voor die uitvoering.\"</p>",
+          "<p class=\"case-section__paragraph\">huisreglement waarin een bepaling omtrent beeldverwerking door middel van bewakingscamera’s is opgenomen, is het duidelijk dat er geen sprake is van vrije toestemming.</p>",
+          "<ol start=\"26\">\n            <li>Hoewel de verweerder zich daar niet op beroept, heeft de Geschillenkamer onderzocht in hoeverre de verwerking mogelijk zou kunnen worden gebaseerd op art. 6.1. f) AVG en de verwerking noodzakelijk zou kunnen zijn voor de behartiging van zijn gerechtvaardigd belang, merkt de Geschillenkamer op dat daartoe een afweging moet worden gemaakt met het belang van de betrokkene teneinde te beoordelen welk belang zwaarder doorweegt. Ook voor wat betreft deze rechtsgrond stelt de Geschillenkamer dat dergelijke belangenafweging, in voorliggend geval, leidt tot het besluit dat het belang van de klagers primeert.</li>\n        </ol>",
+          "<li>Al deze vaststellingen hebben tot gevolg dat de Geschillenkamer oordeelt dat de verweerder zich de macht toe-eigent om het doel en de middelen van de gegevensverwerking te bepalen en derhalve als verwerkingsverantwoordelijke optreedt, maar de hoedanigheid van verwerkingsverantwoordelijke toekomt aan de VME A voor wat betreft de verwerking van de camerabeelden in het appartementsblok Residentie Z A. De verweerder kan zich niet beroepen op enige rechtsgrond zoals bepaald in artikel 6.1 AVG waardoor de verwerking in zijnen hoofde dan ook niet als rechtmatig kan worden beschouwd.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-009",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-011",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-014",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2 Artikel 7.4. AVG: “Bij de beoordeling van de vraag of de toestemming vrijelijk kan worden gegeven, wordt onder meer ten sterkste rekening gehouden met de vraag of voor de uitvoering van een overeenkomst, met inbegrip van een dienstenovereenkomst, toestemming vereist is voor een verwerking van persoonsgegevens die niet noodzakelijk is voor de uitvoering van die overeenkomst.” Zie ook overweging 43, AVG, die luidt: \"[…]De toestemming wordt geacht niet vrijelijk te zijn verleend indien geen afzonderlijke toestemming kan worden gegeven voor verschillende persoonsgegevensverwerkingen ondanks het feit dat dit in het individuele geval passend is, of indien de uitvoering van een overeenkomst, daaronder begrepen het verlenen van een dienst, afhankelijk is van de toestemming ondanks het feit dat dergelijke toestemming niet noodzakelijk is voor die uitvoering.\"</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-011",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2 Artikel 7.4. AVG: “Bij de beoordeling van de vraag of de toestemming vrijelijk kan worden gegeven, wordt onder meer ten sterkste rekening gehouden met de vraag of voor de uitvoering van een overeenkomst, met inbegrip van een dienstenovereenkomst, toestemming vereist is voor een verwerking van persoonsgegevens die niet noodzakelijk is voor de uitvoering van die overeenkomst.” Zie ook overweging 43, AVG, die luidt: \"[…]De toestemming wordt geacht niet vrijelijk te zijn verleend indien geen afzonderlijke toestemming kan worden gegeven voor verschillende persoonsgegevensverwerkingen ondanks het feit dat dit in het individuele geval passend is, of indien de uitvoering van een overeenkomst, daaronder begrepen het verlenen van een dienst, afhankelijk is van de toestemming ondanks het feit dat dergelijke toestemming niet noodzakelijk is voor die uitvoering.\"</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-011",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-012",
+        "relatedFullTextCitations": [
+          "<ol start=\"30\">\n            <li>Naast de corrigerende maatregel tot definitief verbod van de beeldverwerking door middel van de bewakingscamera’s die betrekking hebben op het appartementsblok A, tot tijdelijk verbod van de beeldverwerking door middel van de bewakingscamera’s die betrekking hebben op zowel A als B, alsook het bevel om de verwerking in overeenstemming te brengen met artikel 6.1 AVG, beslist de Geschillenkamer ook tot het opleggen van een administratieve geldboete die er niet toe strekt om een gemaakte overtreding te beëindigen, maar wel met het oog op een krachtige handhaving van de regels van de AVG. Zoals blijkt uit Overweging 148, verlangt de AVG dat bij serieuze inbreuken straffen, met inbegrip van administratieve geldboeten, naast of in plaats van passende maatregelen die worden opgelegd. De Geschillenkamer doet dit in toepassing van artikel 58.2 i) AVG. Het instrument van administratieve boete heeft dus geenszins tot doel inbreuken te beëindigen. Daartoe voorzien de AVG en de WOG in een aantal corrigerende maatregelen, waaronder de bevelen genoemd in artikel 100, §1, 8° en 9° WOG.</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-012",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-013",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-013",
+        "relatedFullTextCitations": [
+          "<ol start=\"30\">\n            <li>Naast de corrigerende maatregel tot definitief verbod van de beeldverwerking door middel van de bewakingscamera’s die betrekking hebben op het appartementsblok A, tot tijdelijk verbod van de beeldverwerking door middel van de bewakingscamera’s die betrekking hebben op zowel A als B, alsook het bevel om de verwerking in overeenstemming te brengen met artikel 6.1 AVG, beslist de Geschillenkamer ook tot het opleggen van een administratieve geldboete die er niet toe strekt om een gemaakte overtreding te beëindigen, maar wel met het oog op een krachtige handhaving van de regels van de AVG. Zoals blijkt uit Overweging 148, verlangt de AVG dat bij serieuze inbreuken straffen, met inbegrip van administratieve geldboeten, naast of in plaats van passende maatregelen die worden opgelegd. De Geschillenkamer doet dit in toepassing van artikel 58.2 i) AVG. Het instrument van administratieve boete heeft dus geenszins tot doel inbreuken te beëindigen. Daartoe voorzien de AVG en de WOG in een aantal corrigerende maatregelen, waaronder de bevelen genoemd in artikel 100, §1, 8° en 9° WOG.</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-013",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-012",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-014",
+        "relatedFullTextCitations": [
+          "<li>Rekening houdend met artikel 83 AVG en de rechtspraak van het Marktenhof, motiveert de Geschillenkamer het opleggen van een administratieve sanctie in concreto:\n                <ul>\n                    <li>De ernst van de inbreuk: uit de voorgaande motivering blijkt de ernst van de inbreuk.</li>\n                    <li>De duur van de inbreuk: uit hetgeen verweerder naar voren heeft gebracht in de procedure voor de Geschillenkamer blijkt niet dat de inbreuk is beëindigd en dus voort heeft geduurd tot 20 mei 2020. Daarbij houdt de Geschillenkamer geen rekening met aanpassingen verricht nadat de debatten omtrent de vaststellingen zijn gesloten.</li>\n                    <li>De nodige afschrikwekkende werking om verdere inbreuken te voorkomen.</li>\n                </ul>\n            </li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-015",
+        "relatedFullTextCitations": [
+          "<li>Wat de aard en de ernst van de inbreuk betreft (art. 83.2 a) AVG) benadrukt de Geschillenkamer dat de naleving van de beginselen bepaald in art. 5 AVG – in voorliggend geval inzonderheid het rechtmatigheidsbeginsel – essentieel is, omdat het fundamentele beginselen van gegevensbescherming betreft. De Geschillenkamer beschouwt de inbreuk van de verweerder op het rechtmatigheidsbeginsel dat wordt gepreciseerd in art. 6 AVG, dan ook als een ernstige schending.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-015",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-014",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-016",
+        "relatedFullTextCitations": [
+          "<ol start=\"30\">\n            <li>Naast de corrigerende maatregel tot definitief verbod van de beeldverwerking door middel van de bewakingscamera’s die betrekking hebben op het appartementsblok A, tot tijdelijk verbod van de beeldverwerking door middel van de bewakingscamera’s die betrekking hebben op zowel A als B, alsook het bevel om de verwerking in overeenstemming te brengen met artikel 6.1 AVG, beslist de Geschillenkamer ook tot het opleggen van een administratieve geldboete die er niet toe strekt om een gemaakte overtreding te beëindigen, maar wel met het oog op een krachtige handhaving van de regels van de AVG. Zoals blijkt uit Overweging 148, verlangt de AVG dat bij serieuze inbreuken straffen, met inbegrip van administratieve geldboeten, naast of in plaats van passende maatregelen die worden opgelegd. De Geschillenkamer doet dit in toepassing van artikel 58.2 i) AVG. Het instrument van administratieve boete heeft dus geenszins tot doel inbreuken te beëindigen. Daartoe voorzien de AVG en de WOG in een aantal corrigerende maatregelen, waaronder de bevelen genoemd in artikel 100, §1, 8° en 9° WOG.</li>\n        </ol>",
+          "<li>op grond van artikel 58.2. f) en artikel 100, §1, 8° WOG, de verweerder te bevelen dat de verwerking door middel van bewakingscamera’s die betrekking hebben op het appartementsblok Z A in zijnen hoofde definitief wordt verboden en de verwerking door middel van bewakingscamera’s die betrekking hebben op zowel A als B tijdelijk wordt verboden totdat VME A en VME B gezamenlijk een beslissing hebben genomen over het gebruik van deze bewakingscamera’s;</li>",
+          "<li>op grond van artikel 58.2. d) AVG en artikel 100, §1, 9° WOG, de verweerder te bevelen dat de verwerking in overeenstemming wordt gebracht met artikel 6.1. AVG door de verstrekking van de vereiste documenten, waaronder de plannen inzake plaatsing van de bewakingscamera’s en de login code, aan de “Vereniging van Mede-eigenaars van het gebouw Residentie Z A” aan wie de hoedanigheid van verwerkingsverantwoordelijke toekomt;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-016",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-013",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-017",
+        "relatedFullTextCitations": [
+          "<li>op grond van art. 100, §1, 13° WOG en art. 101 WOG een administratieve geldboete op te leggen van 5000 EUR.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-017",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Tegen deze beslissing kan op grond van art. 108, §1 WOG, beroep worden aangetekend binnen een termijn van dertig dagen, vanaf de kennisgeving, bij het Marktenhof, met de Gegevensbeschermingsautoriteit als verweerder.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200709.7-018"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 18,
+      "citationStatistics": {
+        "totalCitations": 36,
+        "avgCitationsPerProvision": 2,
+        "provisionsWithMinimalCitations": 14,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.9444444444444446,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200709.7-001",
+        "relatedFullTextCitations": [
+          "<li>Vooreerst is het van belang te bepalen wie de verwerkingsverantwoordelijke is van de beelden vastgelegd door de bewakingscamera’s. Gelet op het feit dat de beslissingen over de camera’s, met name de plaatsing en het gebruik ervan, zoals verklaard door de verweerder tijdens de hoorzitting, worden genomen door de bouwheer en dit reeds van bij het begin met het oog op de bouw van het appartementencomplex, stelt de Geschillenkamer vast dat de verweerder dient te worden beschouwd als verwerkingsverantwoordelijke in de zin van artikel 4. 7) AVG, aangezien de verweerder aldus het doel van en de middelen voor de gegevensverwerking van de camerabeelden bepaalt.</li>",
+          "<li>De Geschillenkamer stelt ook vast dat de verplichting tot uitrusting van een gebouw met camerabewaking en het daartoe voorzien in de plaatsing van bewakingscamera’s op de plaatsen zoals vermeld in het huisreglement niet inhoudt dat de bouwheer/-promotor zichzelf op het ogenblik van het verlijden van de notariële verkoopsakte, nog kan bestempelen als verwerkingsverantwoordelijke in de zin van artikel 4. 7) AVG. Op het ogenblik dat de kopers eigenaar worden en de vereniging van mede-eigenaars (hierna VME) is opgericht, hetwelk gebeurde door middel van de statuten van het appartementsgebouw “Residentie Z”, dienen het doel en de middelen voor de verwerking van de beelden verkregen door middel van de bewakingscamera’s te kunnen worden bepaald door de VME. De Geschillenkamer stelt aldus vast dat het toekomt aan de VME om te beslissen over het gebruik van de bewakingscamera’s en de verwerking van de verkregen beelden voor wat betreft Residentie Z A. Dit wordt overigens niet betwist door de verweerder, aangezien deze uitdrukkelijk stelt dat de beslissing om de camera-installatie al dan niet te verwijderen, toekomt aan de VME. De verweerder bevestigt dat de algemene vergadering van de VME, als beslissingsorgaan, een beslissing dient te nemen omtrent het verwijderen van de camera-installatie, dewelke daarna dient te worden uitgevoerd door de syndicus van het gebouw. Aldus werd op 16 oktober 2019 de camera’s verwijderd aan de buitengevels in opdracht van de VME A. De Geschillenkamer volgt deze stelling in die zin dat de VME niet alleen beslist over de eventuele verwijdering van de bewakingscamera’s, maar ook dient te kunnen beslissen over de plaatsing en het gebruik ervan.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200709.7-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Art. 6.1. AVG</p>",
+          "<ol>\n            <li>De verwerking is alleen rechtmatig indien en voor zover aan ten minste een van de onderstaande voorwaarden is voldaan:\n                <ul>\n                    <li>a) de betrokkene heeft toestemming gegeven voor de verwerking van zijn persoonsgegevens voor een of meer specifieke doeleinden;</li>\n                    <li>b) de verwerking is noodzakelijk voor de uitvoering van een overeenkomst waarbij de betrokkene partij is, of om op verzoek van de betrokkene vóór de sluiting van een overeenkomst maatregelen te nemen;</li>\n                    <li>c) de verwerking is noodzakelijk om te voldoen aan een wettelijke verplichting die op de verwerkingsverantwoordelijke rust;</li>\n                    <li>d) de verwerking is noodzakelijk om de vitale belangen van de betrokkene of van een andere natuurlijke persoon te beschermen;</li>\n                    <li>e) de verwerking is noodzakelijk voor de vervulling van een taak van algemeen belang of van een taak in het kader van de uitoefening van het openbaar gezag dat aan de verwerkingsverantwoordelijke is opgedragen;</li>\n                    <li>f) de verwerking is noodzakelijk voor de behartiging van de gerechtvaardigde belangen van de verwerkingsverantwoordelijke of van een derde, behalve wanneer de belangen of de grondrechten en de fundamentele vrijheden van de betrokkene die tot bescherming van persoonsgegevens nopen, zwaarder wegen dan die belangen, met name wanneer de betrokkene een kind is.</li>\n                </ul>\n            </li>\n        </ol>",
+          "<li>De verweerder toont niet aan dat dergelijke clausule ook was opgenomen in de notariële overeenkomst gesloten met de klagers van Residentie Z A. Aangaande de toestemming waarop de verweerder zich in zijn hoedanigheid van verwerkingsverantwoordelijke beroept, als rechtsgrond om de verwerking van de camerabeelden te rechtvaardigen, merkt de Geschillenkamer op dat deze toestemming geenszins beantwoordt aan de vereisten zoals vastgelegd in artikel 4, 11) AVG waarin is opgenomen dat onder toestemming van de betrokkene wordt verstaan: “elke vrije, specifieke, geïnformeerde en ondubbelzinnige wilsuiting waarmee de betrokkene door middel van een verklaring of een ondubbelzinnige actieve handeling hem betreffende verwerking van persoonsgegevens aanvaardt”. De eigenaar/gebruiker dient volgens de verweerder de bewaking door middel van camera’s te respecteren en dient uitdrukkelijk zijn akkoord te geven inzake privacymeldingen. Dit betekent dat van zodra de betrokkene overgaat tot de aankoop van een appartement, deze ertoe wordt verplicht om zijn toestemming te geven tot de gegevensverwerking door middel van de bewakingscamera’s. Er is aldus niet voldaan aan de vereiste van vrije toestemming.</li>",
+          "<li>De Geschillenkamer verwijst in dat verband ook naar de Richtsnoeren van de Groep 29 inzake toestemming overeenkomstig Verordening 2016/6791 waarin wordt gesteld dat het element \"vrij\" werkelijke keuze en controle voor betrokkenen impliceert. Als algemene regel schrijft de AVG voor dat als een betrokkene geen werkelijke keuze heeft, zich gedwongen voelt om toestemming te geven of het voor hem negatieve gevolgen zal hebben als hij of zij niet toestemt, de toestemming niet geldig is. Indien toestemming wordt samengevoegd als een niet-onderhandelbaar onderdeel van voorwaarden, wordt deze verondersteld niet vrij gegeven te zijn. Bijgevolg wordt toestemming niet geacht vrij gegeven te zijn indien de betrokkene zijn of haar toestemming niet zonder nadelige gevolgen kan weigeren of intrekken. Bij het beoordelen of toestemming vrij is gegeven, moet ook rekening worden gehouden met de specifieke situatie van het opnemen van toestemming in contracten voor de verwerking van persoonsgegevens die niet noodzakelijk is voor de uitvoering van die overeenkomst (artikel 7.4. AVG)2. Elk element dat ongepaste druk of invloed op de betrokkene inhoudt waardoor een betrokkene zijn of haar vrije wil niet kan uitoefenen, maakt de toestemming ongeldig. Doordat in voorliggend geval de klagers, zoals de verweerder stelt, enkel tot de aankoop van een appartement zijn kunnen overgaan op voorwaarde dat meteen ook werd ingestemd met de bepaling in de notariële akte waarbij akkoord werd gegeven voor het</li>",
+          "<p class=\"case-section__paragraph\">1 Richtsnoeren inzake toestemming overeenkomstig Verordening 2016/679, vastgesteld op 28 november 2017, laatstelijk herzien en vastgesteld op 10 april 2018.</p>",
+          "<p class=\"case-section__paragraph\">2 Artikel 7.4. AVG: “Bij de beoordeling van de vraag of de toestemming vrijelijk kan worden gegeven, wordt onder meer ten sterkste rekening gehouden met de vraag of voor de uitvoering van een overeenkomst, met inbegrip van een dienstenovereenkomst, toestemming vereist is voor een verwerking van persoonsgegevens die niet noodzakelijk is voor de uitvoering van die overeenkomst.” Zie ook overweging 43, AVG, die luidt: \"[...]De toestemming wordt geacht niet vrijelijk te zijn verleend indien geen afzonderlijke toestemming kan worden gegeven voor verschillende persoonsgegevensverwerkingen ondanks het feit dat dit in het individuele geval passend is, of indien de uitvoering van een overeenkomst, daaronder begrepen het verlenen van een dienst, afhankelijk is van de toestemming ondanks het feit dat dergelijke toestemming niet noodzakelijk is voor die uitvoering.\"</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200709.7-003",
+        "relatedFullTextCitations": [
+          "<li>Hoewel de verweerder zich daar niet op beroept, heeft de Geschillenkamer onderzocht in hoeverre de verwerking mogelijk zou kunnen worden gebaseerd op art. 6.1. f) AVG en de verwerking noodzakelijk zou kunnen zijn voor de behartiging van zijn gerechtvaardigd belang, merkt de Geschillenkamer op dat daartoe een afweging moet worden gemaakt met het belang van de betrokkene teneinde te beoordelen welk belang zwaarder doorweegt. Ook voor wat betreft deze rechtsgrond stelt de Geschillenkamer dat dergelijke belangenafweging, in voorliggend geval, leidt tot het besluit dat het belang van de klagers primeert.</li>",
+          "<li>Wat de aard en de ernst van de inbreuk betreft (art. 83.2 a) AVG) benadrukt de Geschillenkamer dat de naleving van de beginselen bepaald in art. 5 AVG – in voorliggend geval inzonderheid het rechtmatigheidsbeginsel – essentieel is, omdat het fundamentele beginselen van gegevensbescherming betreft. De Geschillenkamer beschouwt de inbreuk van de verweerder op het rechtmatigheidsbeginsel dat wordt gepreciseerd in art. 6 AVG, dan ook als een ernstige schending.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200709.7-004",
+        "relatedFullTextCitations": [
+          "<li>Naast de corrigerende maatregel tot definitief verbod van de beeldverwerking door middel van de bewakingscamera’s die betrekking hebben op het appartementsblok A, tot tijdelijk verbod van de beeldverwerking door middel van de bewakingscamera’s die betrekking hebben op zowel A als B, alsook het bevel om de verwerking in overeenstemming te brengen met artikel 6.1. AVG, beslist de Geschillenkamer ook tot het opleggen van een administratieve geldboete die er niet toe strekt om een gemaakte overtreding te beëindigen, maar wel met het oog op een krachtige handhaving van de regels van de AVG. Zoals blijkt uit Overweging 148, verlangt de AVG dat bij serieuze inbreuken straffen, met inbegrip van administratieve geldboeten, naast of in plaats van passende maatregelen die worden opgelegd. De Geschillenkamer doet dit in toepassing van artikel 58.2 i) AVG. Het instrument van administratieve boete heeft dus geenszins tot doel inbreuken te beëindigen. Daartoe voorzien de AVG en de WOG in een aantal corrigerende maatregelen, waaronder de bevelen genoemd in artikel 100, §1, 8° en 9° WOG.</li>",
+          "<li>Rekening houdend met artikel 83 AVG en de rechtspraak van het Marktenhof, motiveert de Geschillenkamer het opleggen van een administratieve sanctie in concreto:\n                <ul>\n                    <li>De ernst van de inbreuk: uit de voorgaande motivering blijkt de ernst van de inbreuk.</li>\n                    <li>De duur van de inbreuk: uit hetgeen verweerder naar voren heeft gebracht in de procedure voor de Geschillenkamer blijkt niet dat de inbreuk is beëindigd en dus voort heeft geduurd tot 20 mei 2020. Daarbij houdt de Geschillenkamer geen rekening met aanpassingen verricht nadat de debatten omtrent de vaststellingen zijn gesloten.</li>\n                    <li>De nodige afschrikwekkende werking om verdere inbreuken te voorkomen.</li>\n                </ul>\n            </li>",
+          "<li>op grond van art. 100, §1, 13° WOG en art. 101 WOG een administratieve geldboete op te leggen van 5000 EUR.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 13,
+        "avgCitationsPerTeaching": 3.25,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 10,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "decision_id": "ECLI:BE:AHANT:2008:AVIS.20080624.13",
+  "language": "NL",
+  "metadata": {
+    "id": 40175,
+    "court_ecli_code": "AHANT",
+    "court_name": "Arbeidshof te Antwerpen",
+    "decision_date": "2008-06-24",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Advies",
+    "md_length": 14790,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidshof te Antwerpen, 24 juni 2008, A.R. 2070421, ECLI:BE:AHANT:2008:AVIS.20080624.13"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2008:AVIS.20080624.13-001",
+        "name": "RIJKSDIENST VOOR ARBEIDSVOORZIENING",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "name": "H. B.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "GEÏNTIMEERDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2008:AVIS.20080624.13-003",
+        "name": "P. Van Den Bon, advocaat-generaal (Openbaar Ministerie)",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "OPENBAAR_MINISTERIE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Mevrouw H. B. diende op 12 december 2006 bij de Rijksdienst voor Arbeidsvoorziening een aanvraag in tot definitieve vrijstelling van de bepalingen inzake het actieve zoekgedrag naar werk en afwijking van de overgang naar de forfaitaire uitkering (formulier C47 van 12 december 2006). Na een medisch onderzoek van 27 december 2006 werd deze aanvraag geweigerd bij beslissing van 5 januari 2007 door de directeur van het werkloosheidsbureau te Antwerpen, gemotiveerd door vaststelling door de voor het werkloosheidsbureau aangewezen geneesheer dat de blijvende arbeidsongeschiktheid minder dan 33% bedroeg. Met verzoekschrift ontvangen op 15 februari 2007 tekende H. B. beroep aan bij de arbeidsrechtbank te Antwerpen. Bij vonnis van 25 juni 2007 verklaarde de zevende kamer van die rechtbank de vordering van H. B. ontvankelijk en stelde zij dokter M. D. K. aan als deskundige met opdracht te onderzoeken of betrokkene vanaf 14 december 2006 een blijvende arbeidsongeschiktheid van minstens 33% vertoonde. De Rijksdienst voor Arbeidsvoorziening liet op 12 juli 2007 hoger beroep aantekenen bij het arbeidshof te Antwerpen tegen dat vonnis. In het dossier is verder vermeld dat artikel 59bis van het Werkloosheidsbesluit betrekking heeft op de verplichting tot actief zoekgedrag en artikel 114 op de berekening van het dagbedrag, en dat krachtens een wijziging (KB van 4 juli 2004) de activeringsprocedure slechts van toepassing is op wie op 1 juli 2006 tussen 40 en 49 jaar was; geïntimeerde is geboren op 1 januari 1956 en kwam derhalve op 1/7/2006 niet in aanmerking voor de activeringsprocedure.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2008:AVIS.20080624.13-001",
+          "requests": "Het hoger beroep toelaatbaar en gegrond verklaren; het bestreden vonnis hervormen en, opnieuw rechtdoende, de oorspronkelijke vordering zonder voorwerp verklaren."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+          "requests": "Het hoger beroep onontvankelijk, minstens ongegrond verklaren; het vonnis a quo bevestigen en de zaak terug te zenden naar de eerste rechter; de Rijksdienst voor Arbeidsvoorziening veroordelen tot de kosten van het geding, tot op heden begroot aan de zijde van geïntimeerde op 4,86 euro aantekenrecht, 129,32 euro rechtsplegingsvergoeding eerste aanleg en 148,75 rechtsplegingsvergoeding beroep."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "OP DIE GRONDEN,\n\nHET HOF,\n\nGelet op de bepalingen van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken.\n\nGehoord P. Van Den Bon, advocaat-generaal, in zijn eensluidend mondeling advies op de openbare terechtzitting van 27 mei 2008. Partijen verklaarden geen opmerkingen te hebben over het advies.\n\nDoet uitspraak op tegenspraak.\nVerklaart het hoger beroep ontvankelijk en gegrond.\n\nVernietigt het bestreden vonnis gewezen en uitgesproken op 25 juni 2007 in de openbare zitting van de zevende kamer van de arbeidsrechtbank te Antwerpen\n\n---\n\n(A.R. 395.659).\n\nDe zaak naar zich trekkend in toepassing van artikel 1068 van het Gerechtelijk Wetboek.\n\nVerklaart de initiële vordering van mevrouw H. B. ontvankelijk en gegrond.\nVernietigt de beslissing van de directeur van het werkloosheidsbureau van de Rijksdienst voor Arbeidsvoorziening te Antwerpen van 5 januari 2007.\n\nOpnieuw recht doende, verklaart de aanvraag van 12 december 2006 van mevrouw H. B. tot vaststelling van een arbeidsongeschiktheid van $33 \\%$ of meer, zonder voorwerp.\n\nVeroordeelt de Rijksdienst voor Arbeidsvoorziening, overeenkomstig artikel 1017, tweede lid van het Gerechtelijk Wetboek, in de kosten van beide aanleggen.\n\nVereffent deze kosten aan de zijde van H. B. op 4,82 euro aantekenrecht eerste aanleg, op 109,32 euro rechtsplegingsvergoeding eerste aanleg en op 145,78 euro rechtsplegingsvergoeding hoger beroep (basisbedrag - toepassing K.B. 26 oktober 2007 - B.S. 9 november 2007).\nAan de zijde van Rijksdienst voor Arbeidsvoorziening worden de kosten niet vereffend daar er geen kostenopgave wordt ingediend.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-001",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-001",
+        "provisionNumber": "artikel 792, tweede lid",
+        "provisionNumberKey": "792",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 59bis e.v.",
+        "provisionNumberKey": "59bis",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 59bis, gelezen in samenhang met artikel 10 van het KB van 4 juli 2004, beperkt is tot de activeringsprocedure voor volledig werklozen die op 1 juli 2006 tussen 40 en 49 jaar waren. Het Hof oordeelt dat artikel 59bis aldus niet van toepassing is op een persoon die op die peildatum ouder was dan 49 jaar en dat zij daarom geen belang had bij een vaststelling van minstens 33% arbeidsongeschiktheid met het oog op de toepassing van artikel 59bis.",
+        "relevantFactualContext": "Geïntimeerde is geboren op 1 januari 1956 en was op 1 juli 2006 ouder dan 49 jaar; zij diende op 12 december 2006 een aanvraag in tot vaststelling van een blijvende arbeidsongeschiktheid van 33% of meer."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-003",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 59quater",
+        "provisionNumberKey": "59quater",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-004",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 90",
+        "provisionNumberKey": "90",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-005",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 91",
+        "provisionNumberKey": "91",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-006",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 92",
+        "provisionNumberKey": "92",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-007",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 93",
+        "provisionNumberKey": "93",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-008",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 94",
+        "provisionNumberKey": "94",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-009",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 96",
+        "provisionNumberKey": "96",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-010",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 97",
+        "provisionNumberKey": "97",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-011",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 79, §4bis",
+        "provisionNumberKey": "79",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 114, §2, eerste lid",
+        "provisionNumberKey": "114",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat de regels van artikel 114 betreffende het basisdagbedrag, de verhogingen en de mogelijke beperking tot het forfaitair dagbedrag relevant zijn voor het praktische belang van een vaststelling van een blijvende arbeidsongeschiktheid van 33%. Het Hof oordeelt evenwel dat wanneer de activeringsbepalingen niet op de betrokkene van toepassing zijn en haar uitkering niet tot het forfaitaire bedrag wordt verminderd, de werking van artikel 114 geen nadelige financiële consequentie voor haar heeft en dus geen grond voor een belang bij die vaststelling vormt.",
+        "relevantFactualContext": "Geïntimeerde vreesde een vermindering van haar werkloosheidsuitkering naar het forfaitair dagbedrag bij wijziging van haar gezinssituatie en vroeg daarom een vaststelling van 33% arbeidsongeschiktheid; het Hof oordeelt dat doordat de activeringsregels niet op haar van toepassing zijn, een dergelijke vermindering niet volgt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-013",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 116, §1",
+        "provisionNumberKey": "116",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-014",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 141",
+        "provisionNumberKey": "141",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-015",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 28, §3",
+        "provisionNumberKey": "28",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-016",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 27, 4°",
+        "provisionNumberKey": "27",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-017",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 110, §1, tweede lid",
+        "provisionNumberKey": "110",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-018",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.2008-003",
+        "provisionNumber": "artikel 10",
+        "provisionNumberKey": "10",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 4 juli 2004 houdende de wijziging van de werkloosheidsreglementering ten aanzien van volledig werklozen die actief moeten zoeken naar werk (B.S. 9 juli 2004)",
+        "parentActDate": "2004-07-04",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof leest artikel 10 van het KB van 4 juli 2004 als limiterend: de procedure van activering van het actieve zoekgedrag is slechts van toepassing op werklozen die op 1 juli 2006 minstens 40 en hoogstens 49 jaar waren. Die uitlegging bepaalt rechtstreeks de toepasselijkheid van artikel 59bis ten aanzien van leeftijd en peildatum.",
+        "relevantFactualContext": "Artikel 10 legt de leeftijdsgrenzen vast per 1 juli 2006; geïntimeerde, geboren op 1 januari 1956, was op die peildatum ouder dan 49 jaar en viel dus buiten de toepassingsgroep."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-019",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "provisionNumber": "artikel 89",
+        "provisionNumberKey": "89",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "koninklijk besluit van 25 november 1991 houdende werkloosheidsreglementering (Werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof oordeelt dat de verwijzing naar artikel 89 niet relevant is voor de vraag van activering: beschikbaarheid voor de arbeidsmarkt als bedoeld in artikel 89 impliceert niet automatisch de verplichting tot actief zoeken naar werk zoals bedoeld in artikel 59bis. Met andere woorden, artikel 89 schept niet zonder meer het toepassingsbereik van de activeringsverplichting.",
+        "relevantFactualContext": "Geïntimeerde verwees naar artikel 89 als grond voor vrijstelling of toepassing van activeringsmaatregelen, maar het Hof stelt dat beschikbaarheidsverplichting niet gelijkvalt met de verplichting tot actief zoeken en dat artikel 89 daarom niet beslissend is."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-020",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-001",
+        "provisionNumber": "artikel 1068",
+        "provisionNumberKey": "1068",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-021",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2008:AVIS.20080624.13-001",
+        "provisionNumber": "artikel 1017, tweede lid",
+        "provisionNumberKey": "1017",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Het arbeidshof",
+        "date": "2008-05-27",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2008:AVIS.20080624.13-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "het arbeidshof te Antwerpen",
+        "date": "2007-07-12",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "zevende kamer van de arbeidsrechtbank te Antwerpen",
+        "date": "2007-06-25",
+        "caseNumber": "A.R. 395.659",
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2008:AVIS.20080624.13-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "directeur van het werkloosheidsbureau van de Rijksdienst voor Arbeidsvoorziening te Antwerpen",
+        "date": "2007-01-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2008:AVIS.20080624.13-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Arbeidsrecht",
+      "Werkloosheidsuitkering",
+      "Aanvraag arbeidsongeschiktheid",
+      "Vrijstelling actief zoekgedrag",
+      "Forfaitaire uitkering",
+      "33% arbeidsongeschiktheid",
+      "Belang bij vaststelling",
+      "Onnodig medisch onderzoek",
+      "Vernietiging administratieve beslissing",
+      "Leeftijdscriterium activering"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2008:AVIS.20080624.13-001",
+        "text": "Het Hof leest artikel 59bis van het Werkloosheidsbesluit, gelezen in samenhang met artikel 10 van het KB van 4 juli 2004, beperkend: de activeringsprocedure voor actief zoekgedrag is slechts van toepassing op volledig werklozen die op de peildatum 1 juli 2006 minstens 40 en hoogstens 49 jaar waren. Personen die op die peildatum ouder waren dan 49 jaar vallen buiten het toepassingsbereik van artikel 59bis en kunnen daaruit geen recht afleiden.",
+        "courtVerbatim": "Artikel 10 van het koninklijk besluit van 4 juli 2004 ... bepaalt dat de procedure van activering van het zoekgedrag slechts van toepassing is voor werklozen die op datum van 1 juli 2006 minstens 40 jaar en hoogstens 49 jaar is. Geïntimeerde, geboren op 1 januari 1956, komt dienvolgens voor de procedure voor activering van het zoekgedrag in toepassing van artikel 59bis van het Werkloosheidsbesluit niet in aanmerking gelet op haar leeftijd (+50 jaar op 1/07/2006). De verplichting actief te zoeken naar werk geldt tot op heden slechts voor werklozen tot de leeftijd van 49 jaar en slechts wanneer de 'activering' zou uitgebreid worden naar werklozen ouder dan 49 jaar, wat tot op heden nog niet het geval is, heeft geïntimeerde belang bij de vaststelling van haar arbeidsongeschiktheid.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer artikel 59bis wordt gelezen samen met artikel 10 van het KB van 4 juli 2004 en de betrokkene op peildatum 1 juli 2006 buiten de leeftijdscategorie 40–49 jaar valt.",
+        "relevantFactualContext": "Geïntimeerde was geboren op 1 januari 1956 en was op 1 juli 2006 ouder dan 49 jaar; zij diende op 12 december 2006 een aanvraag in tot vaststelling van een blijvende arbeidsongeschiktheid van 33% of meer met het oog op toepassing van artikel 59bis.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-018",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-019"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "text": "Wanneer de activeringsbepalingen (artikelen 59bis e.v.) niet op een aanvrager van toepassing zijn en de werkloosheidsuitkering niet wordt verminderd tot het forfaitair dagbedrag, leidt een latere vaststelling van minstens 33% arbeidsongeschiktheid niet tot nadelige financiële gevolgen; in die situatie ontbreekt het aan een belang bij die vaststelling, is een door het werkloosheidsbureau gelast medisch onderzoek overbodig en dient de aanvraag als zonder voorwerp te worden verklaard in plaats van te worden geweigerd na een onnodig uitgevoerd medisch onderzoek.",
+        "courtVerbatim": "Aangezien de bepalingen inzake het actieve zoekgedrag naar werk niet van toepassing zijn op geïntimeerde en haar uitkeringen evenmin verminderd worden tot een forfaitaire uitkering heeft geïntimeerde er dus geen belang bij een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen. Er is bijgevolg geen nood aan een medische expertise zodat het bestreden vonnis van de arbeidsrechtbank te Antwerpen van 25 juni 2007 dient vernietigd te worden. De bestreden administratieve beslissing dient vernietigd te worden daar de directeur de initiële aanvraag tot vaststelling van arbeidsongeschiktheid van 33% of meer onmiddellijk zonder voorwerp hadden moeten verklaren in plaats van deze te weigeren op grond van een overbodig uitgevoerd medisch onderzoek door een geneesheer aangesteld door het werkloosheidsbureau.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de activeringsregels niet op de aanvrager slaan en diens uitkering niet tot het forfaitair bedrag wordt beperkt, zodat vaststelling van 33% geen nadelige financiële consequenties meebrengt.",
+        "relevantFactualContext": "Geïntimeerde vroeg een vaststelling van 33% arbeidsongeschiktheid om vrijstelling van activeringsregels en beperking naar het forfaitair dagbedrag te voorkomen; het Hof stelde vast dat de activeringsregels niet op haar van toepassing waren en dat haar uitkering niet zou worden verminderd, zodat er geen belang bestond en het medisch onderzoek overbodig was.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:AHANT:2008:AVIS.20080624.13-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-018"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 2,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De overheid (Rijksdienst voor Arbeidsvoorziening) tekende hoger beroep tegen een vonnis dat een geneesheer-deskundige aanstelde na de aanvraag van de eiser tot vaststelling van een blijvende arbeidsongeschiktheid van ten minste 33% met het oog op vrijstelling van activeringsverplichtingen en voorkoming van een forfaitaire uitkering. Het Arbeidshof verklaart het hoger beroep ontvankelijk en gegrond, vernietigt het vonnis van de arbeidsrechtbank en de beslissing van 5 januari 2007 en oordeelt dat de eiser destijds geen belang had bij de vaststelling van 33% omdat de activeringsregels niet op haar van toepassing waren, zodat geen medische expertise nodig was en de aanvraag zonder voorwerp is. De overheid wordt in de proceskosten veroordeeld."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Met een verzoekschrift, neergelegd op de griffie van het arbeidshof te Antwerpen op 12 juli 2007, tekende de Rijksdienst voor Arbeidsvoorziening hoger beroep aan tegen een vonnis gewezen door de zevende kamer van de arbeidsrechtbank te Antwerpen op 25 juni 2007 (A.R. 395.659). Overeenkomstig artikel 792, tweede lid van het Gerechtelijk Wetboek werd een afschrift van het vonnis ter kennis gebracht aan partijen bij gerechtsbrief van 26 juni 2007. Het hoger beroep werd tijdig ingesteld, is regelmatig naar de vorm en ontvankelijk.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2008:AVIS.20080624.13-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Mevrouw H. B. diende op 12 december 2006 bij de Rijksdienst voor Arbeidsvoorziening een aanvraag in tot definitieve vrijstelling van de bepalingen inzake het actieve zoekgedrag naar werk (artikelen 59bis e.v. van het koninklijk besluit van 25 november 1991) en afwijking van de overgang naar de forfaitaire uitkering (stuk 4 administratief dossier: formulier C47 van 12 december 2007). Na een medisch onderzoek van 27 december 2006 werd voormelde aanvraag geweigerd bij beslissing van 5 januari 2007 van de directeur van het werkloosheidsbureau te Antwerpen op grond van de motivering dat de voor het werkloosheidsbureau aangewezen geneesheer de blijvende arbeidsonge-schiktheid in hoofde H. B. heeft vastgesteld op minder dan 33%. Met verzoekschrift, ontvangen op 15 februari 2007 op de griffie van de arbeidsrechtbank te Antwerpen, tekende H. B. beroep aan tegen voormelde administratieve beslissing van 5 januari 2007. Bij vonnis van de zevende kamer van de arbeidsrechtbank te Antwerpen van 25 juni 2007 werd de vordering van H. B. ontvankelijk verklaard, doch vooraleer recht te doen ten gronde, dokter M. D. K. aangesteld als deskundige met opdracht mevrouw H. B. te onderzoeken teneinde na te gaan of betrokkene een blijvende arbeidsongeschiktheid vertoont van ten minste 33 procent vanaf 14 december 2006. Met een verzoekschrift tot hoger beroep, neergelegd ter griffie van dit hof op 12 juli 2007, tekende de Rijksdienst voor Arbeidsvoorziening hoger beroep aan tegen voornoemd vonnis.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 59bis van het koninklijk besluit van 25 november 1991 houdende de werkloosheidsreglementering (hierna Werkloosheidsbesluit) bepaalt: \"§ 1. Onverminderd de bepalingen van artikel 58, volgt de directeur het actieve zoekgedrag naar werk op van de volledig werkloze die, op de dag van ontvangst van de oproeping bedoeld in artikel 59quater, tegelijkertijd aan de volgende voorwaarden voldoet :</p>",
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>",
+          "<p class=\"case-section__paragraph\">Teneinde definitief vrijgesteld te worden van de bepalingen inzake het actieve zoekgedrag naar werk en om te ontsnappen aan de vermindering van haar werkloosheidsuitkering tot het forfaitair bedrag ingeval van wijziging van haar gezinssituatie deed geïntimeerde op 12 december 2006 een aanvraag tot vaststelling van blijvende arbeidsongeschiktheid van 33% of meer. Samen met appellant stelt het arbeidshof vast dat geïntimeerde, op het ogenblik van haar aanvraag, geen belang had om een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen in het kader van artikel 59bis en artikel 114 van het Werkloosheidsbesluit. Artikel 10 van het koninklijk besluit van 4 juli 2004 houdende de wijziging van de werkloosheidsreglementering ten aanzien van volledig werklozen die actief moeten zoeken naar werk (B.S. 9 juli 2004, 2° editie, pag. 54776) bepaalt dat de procedure van activering van het zoekgedrag slechts van toepassing is voor werklozen die op datum van 1 juli 2006 minstens 40 jaar en hoogstens 49 jaar is. Geïntimeerde, geboren op 1 januari 1956, komt dienvolgens voor de procedure voor activering van het zoekgedrag in toepassing van artikel 59bis van het Werkloosheidsbesluit niet in aanmerking gelet op haar leeftijd (+50 jaar op 1/07/2006). De verplichting actief te zoeken naar werk geldt tot op heden slechts voor werklozen tot de leeftijd van 49 jaar en slechts wanneer de 'activering' zou uitgebreid worden naar werklozen ouder dan 49 jaar, wat tot op heden nog niet het geval is, heeft geïntimeerde belang bij de vaststelling van haar arbeidsonge-schiktheid. De verwijzing door geïntimeerde naar de vrijstelling in toepassing van artikel 89 van het Werkloosheidsbesluit is niet relevant. De verplichting beschikbaar te zijn voor de arbeidsmarkt houdt niet automatisch in dat er ook actief moet gezocht worden naar werk. In verband met het bedrag van de werkloosheidsuitkering bestaat er tussen partijen blijkbaar geen betwisting dat geïntimeerde een beroepsverleden als loontrekkende van 20 jaar heeft zodat, in toepassing van artikel 114, §4, tweede lid, 1° van het Werkloosheidsbesluit, de overgang naar het forfaitair dagbedrag van de werkloosheidsuitkering ten deze niet van toepassing is. Aangezien de bepalingen inzake het actieve zoekgedrag naar werk niet van toepassing zijn op geïntimeerde en haar uitkeringen evenmin verminderd worden tot een forfaitaire uitkering heeft geïntimeerde er dus geen belang bij een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen. Er is bijgevolg geen nood aan een medische expertise zodat het bestreden vonnis van de arbeidsrechtbank te Antwerpen van 25 juni 2007 dient vernietigd te worden. Ingevolge de devolutieve kracht van het hoger beroep dient het arbeidshof te onderzoeken of de oorspronkelijke vordering van geïntimeerde tot vernietiging van de bestreden administratieve beslissing van 5 januari 2007 ontvankelijk en gegrond is. Geïntimeerde had op het ogenblik van het instellen van haar vordering bij de arbeidsrechtbank te Antwerpen ongetwijfeld een reeds verkregen en dadelijk belang om de vernietiging van de bestreden administratieve beslissing te vorderen daar hierin, zij het onrechtstreeks, uitspraak wordt gedaan over haar graad van blijvende arbeidsongeschiktheid. Haar initiële vordering is derhalve ontvankelijk. De bestreden administratieve beslissing dient vernietigd te worden daar de directeur de initiële aanvraag tot vaststelling van arbeidsongeschiktheid van 33% of meer onmiddellijk zonder voorwerp hadden moeten verklaren in plaats van deze te weigeren op grond van een overbodig uitgevoerd medisch onderzoek door een geneesheer aangesteld door het werkloosheidsbureau. De initiële vordering van geïntimeerde is dienvolgens gegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-003",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-004",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-005",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-006",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-007",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-008",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-009",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-010",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-011",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-013",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-014",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-015",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-018",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-019"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 59bis van het koninklijk besluit van 25 november 1991 houdende de werkloosheidsreglementering (hierna Werkloosheidsbesluit) bepaalt: \"§ 1. Onverminderd de bepalingen van artikel 58, volgt de directeur het actieve zoekgedrag naar werk op van de volledig werkloze die, op de dag van ontvangst van de oproeping bedoeld in artikel 59quater, tegelijkertijd aan de volgende voorwaarden voldoet :</p>",
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-003",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-004",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-004",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-005",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-005",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-006",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-006",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-007",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-007",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-008",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-008",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-009",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-009",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-010",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-010",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-011",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-011",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 114, §4, tweede lid van het Werkloosheidsbesluit bepaalt: \"§ 1. Het basisdagbedrag van de werkloosheidsuitkering wordt vastgesteld op 40 pct. van het gemiddeld dagloon. § 2. Het basisdagbedrag van de werkloosheidsuitkering wordt tijdens de eerste twaalf maanden van werkloosheid verhoogd met een aanpassingstoeslag, vastgesteld op :</p>",
+          "<ul>\n            <li>15 pct. van het gemiddeld dagloon voor de werknemer met gezinslast en voor de alleenwonende werknemer;</li>\n            <li>18 pct. van het gemiddeld dagloon voor de samenwonende werknemer;</li>\n        </ul>",
+          "<p class=\"case-section__paragraph\">Na deze eerste twaalf maanden wordt dit basisbedrag voor de werknemer met gezinslast verhoogd met een toeslag voor gezinslast, vastgesteld op 15 pct. van het gemiddeld dagloon. § 3. Het basisbedrag van de werkloosheidsuitkering wordt voor de werknemer met gezinslast gedurende de gehele duur van de werkloosheid verhoogd met een toeslag voor het verlies van een enig inkomen, vastgesteld op 5 pct. van het gemiddeld dagloon. Het basisdagbedrag van de werkloosheidsuitkering wordt voor de alleenwonende werknemer verhoogd met een toeslag voor het verlies van een enig inkomen, vastgesteld op 5 pct . van het gemiddeld dagloon, gedurende de eerste twaalf maanden van de werkloosheid, en op (13 pct.) na deze periode. § 4. In afwijking van § 1 wordt, na de eerste vijftien maanden van werkloosheid, het dagbedrag van de werkloosheidsuitkering van de samenwonende werknemer bepaald op [13,83 EUR]. Deze periode van vijftien maanden wordt verlengd met drie maanden per jaar beroepsverleden als loontrekkende. Deze afwijking is niet van toepassing op de werknemer die op het einde van de in het eerste lid bedoelde periode:</p>",
+          "<ol>\n            <li>hetzij een beroepsverleden als loontrekkende van 20 jaar heeft;</li>\n            <li>hetzij een blijvende graad van arbeidsongeschiktheid van ten minste 33 pct. heeft; het percentage van arbeidsongeschiktheid wordt vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer overeenkomstig de procedure voorzien in artikel 141.</li>\n        </ol>",
+          "<p class=\"case-section__paragraph\">Wanneer twee samenwonende echtgenoten in de loop van een kalendermaand slechts beschikken over uitkeringen in de zin van artikel 27, 4° en het dagbedrag van elke uitkering het maximum dagbedrag van de werkloosheidsuitkering vastgesteld overeenkomstig dit artikel voor de samenwonende werknemer na de eerste twaalf maanden van werkloosheid niet overschrijdt, wordt elke werkloosheidsuitkering van (13,83 EUR) met een toeslag van (4,32 EUR) verhoogd. Voor de toepassing van het voorgaande lid wordt de persoon bedoeld in artikel 110, § 1, tweede lid met de echtgeno(o)t(e) gelijkgesteld.). §5 (...) § 6...)\".</p>",
+          "<p class=\"case-section__paragraph\">Teneinde definitief vrijgesteld te worden van de bepalingen inzake het actieve zoekgedrag naar werk en om te ontsnappen aan de vermindering van haar werkloosheidsuitkering tot het forfaitair bedrag ingeval van wijziging van haar gezinssituatie deed geïntimeerde op 12 december 2006 een aanvraag tot vaststelling van blijvende arbeidsongeschiktheid van 33% of meer. Samen met appellant stelt het arbeidshof vast dat geïntimeerde, op het ogenblik van haar aanvraag, geen belang had om een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen in het kader van artikel 59bis en artikel 114 van het Werkloosheidsbesluit. Artikel 10 van het koninklijk besluit van 4 juli 2004 houdende de wijziging van de werkloosheidsreglementering ten aanzien van volledig werklozen die actief moeten zoeken naar werk (B.S. 9 juli 2004, 2° editie, pag. 54776) bepaalt dat de procedure van activering van het zoekgedrag slechts van toepassing is voor werklozen die op datum van 1 juli 2006 minstens 40 jaar en hoogstens 49 jaar is. Geïntimeerde, geboren op 1 januari 1956, komt dienvolgens voor de procedure voor activering van het zoekgedrag in toepassing van artikel 59bis van het Werkloosheidsbesluit niet in aanmerking gelet op haar leeftijd (+50 jaar op 1/07/2006). De verplichting actief te zoeken naar werk geldt tot op heden slechts voor werklozen tot de leeftijd van 49 jaar en slechts wanneer de 'activering' zou uitgebreid worden naar werklozen ouder dan 49 jaar, wat tot op heden nog niet het geval is, heeft geïntimeerde belang bij de vaststelling van haar arbeidsonge-schiktheid. De verwijzing door geïntimeerde naar de vrijstelling in toepassing van artikel 89 van het Werkloosheidsbesluit is niet relevant. De verplichting beschikbaar te zijn voor de arbeidsmarkt houdt niet automatisch in dat er ook actief moet gezocht worden naar werk. In verband met het bedrag van de werkloosheidsuitkering bestaat er tussen partijen blijkbaar geen betwisting dat geïntimeerde een beroepsverleden als loontrekkende van 20 jaar heeft zodat, in toepassing van artikel 114, §4, tweede lid, 1° van het Werkloosheidsbesluit, de overgang naar het forfaitair dagbedrag van de werkloosheidsuitkering ten deze niet van toepassing is. Aangezien de bepalingen inzake het actieve zoekgedrag naar werk niet van toepassing zijn op geïntimeerde en haar uitkeringen evenmin verminderd worden tot een forfaitaire uitkering heeft geïntimeerde er dus geen belang bij een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen. Er is bijgevolg geen nood aan een medische expertise zodat het bestreden vonnis van de arbeidsrechtbank te Antwerpen van 25 juni 2007 dient vernietigd te worden. Ingevolge de devolutieve kracht van het hoger beroep dient het arbeidshof te onderzoeken of de oorspronkelijke vordering van geïntimeerde tot vernietiging van de bestreden administratieve beslissing van 5 januari 2007 ontvankelijk en gegrond is. Geïntimeerde had op het ogenblik van het instellen van haar vordering bij de arbeidsrechtbank te Antwerpen ongetwijfeld een reeds verkregen en dadelijk belang om de vernietiging van de bestreden administratieve beslissing te vorderen daar hierin, zij het onrechtstreeks, uitspraak wordt gedaan over haar graad van blijvende arbeidsongeschiktheid. Haar initiële vordering is derhalve ontvankelijk. De bestreden administratieve beslissing dient vernietigd te worden daar de directeur de initiële aanvraag tot vaststelling van arbeidsongeschiktheid van 33% of meer onmiddellijk zonder voorwerp hadden moeten verklaren in plaats van deze te weigeren op grond van een overbodig uitgevoerd medisch onderzoek door een geneesheer aangesteld door het werkloosheidsbureau. De initiële vordering van geïntimeerde is dienvolgens gegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-013",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-014",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-016",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-017",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-018",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-019"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-013",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-013",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-014",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-014",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-015",
+        "relatedFullTextCitations": [
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-015",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Wanneer twee samenwonende echtgenoten in de loop van een kalendermaand slechts beschikken over uitkeringen in de zin van artikel 27, 4° en het dagbedrag van elke uitkering het maximum dagbedrag van de werkloosheidsuitkering vastgesteld overeenkomstig dit artikel voor de samenwonende werknemer na de eerste twaalf maanden van werkloosheid niet overschrijdt, wordt elke werkloosheidsuitkering van (13,83 EUR) met een toeslag van (4,32 EUR) verhoogd. Voor de toepassing van het voorgaande lid wordt de persoon bedoeld in artikel 110, § 1, tweede lid met de echtgeno(o)t(e) gelijkgesteld.). §5 (...) § 6...)\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-016",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-017",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Wanneer twee samenwonende echtgenoten in de loop van een kalendermaand slechts beschikken over uitkeringen in de zin van artikel 27, 4° en het dagbedrag van elke uitkering het maximum dagbedrag van de werkloosheidsuitkering vastgesteld overeenkomstig dit artikel voor de samenwonende werknemer na de eerste twaalf maanden van werkloosheid niet overschrijdt, wordt elke werkloosheidsuitkering van (13,83 EUR) met een toeslag van (4,32 EUR) verhoogd. Voor de toepassing van het voorgaande lid wordt de persoon bedoeld in artikel 110, § 1, tweede lid met de echtgeno(o)t(e) gelijkgesteld.). §5 (...) § 6...)\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-017",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Teneinde definitief vrijgesteld te worden van de bepalingen inzake het actieve zoekgedrag naar werk en om te ontsnappen aan de vermindering van haar werkloosheidsuitkering tot het forfaitair bedrag ingeval van wijziging van haar gezinssituatie deed geïntimeerde op 12 december 2006 een aanvraag tot vaststelling van blijvende arbeidsongeschiktheid van 33% of meer. Samen met appellant stelt het arbeidshof vast dat geïntimeerde, op het ogenblik van haar aanvraag, geen belang had om een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen in het kader van artikel 59bis en artikel 114 van het Werkloosheidsbesluit. Artikel 10 van het koninklijk besluit van 4 juli 2004 houdende de wijziging van de werkloosheidsreglementering ten aanzien van volledig werklozen die actief moeten zoeken naar werk (B.S. 9 juli 2004, 2° editie, pag. 54776) bepaalt dat de procedure van activering van het zoekgedrag slechts van toepassing is voor werklozen die op datum van 1 juli 2006 minstens 40 jaar en hoogstens 49 jaar is. Geïntimeerde, geboren op 1 januari 1956, komt dienvolgens voor de procedure voor activering van het zoekgedrag in toepassing van artikel 59bis van het Werkloosheidsbesluit niet in aanmerking gelet op haar leeftijd (+50 jaar op 1/07/2006). De verplichting actief te zoeken naar werk geldt tot op heden slechts voor werklozen tot de leeftijd van 49 jaar en slechts wanneer de 'activering' zou uitgebreid worden naar werklozen ouder dan 49 jaar, wat tot op heden nog niet het geval is, heeft geïntimeerde belang bij de vaststelling van haar arbeidsonge-schiktheid. De verwijzing door geïntimeerde naar de vrijstelling in toepassing van artikel 89 van het Werkloosheidsbesluit is niet relevant. De verplichting beschikbaar te zijn voor de arbeidsmarkt houdt niet automatisch in dat er ook actief moet gezocht worden naar werk. In verband met het bedrag van de werkloosheidsuitkering bestaat er tussen partijen blijkbaar geen betwisting dat geïntimeerde een beroepsverleden als loontrekkende van 20 jaar heeft zodat, in toepassing van artikel 114, §4, tweede lid, 1° van het Werkloosheidsbesluit, de overgang naar het forfaitair dagbedrag van de werkloosheidsuitkering ten deze niet van toepassing is. Aangezien de bepalingen inzake het actieve zoekgedrag naar werk niet van toepassing zijn op geïntimeerde en haar uitkeringen evenmin verminderd worden tot een forfaitaire uitkering heeft geïntimeerde er dus geen belang bij een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen. Er is bijgevolg geen nood aan een medische expertise zodat het bestreden vonnis van de arbeidsrechtbank te Antwerpen van 25 juni 2007 dient vernietigd te worden. Ingevolge de devolutieve kracht van het hoger beroep dient het arbeidshof te onderzoeken of de oorspronkelijke vordering van geïntimeerde tot vernietiging van de bestreden administratieve beslissing van 5 januari 2007 ontvankelijk en gegrond is. Geïntimeerde had op het ogenblik van het instellen van haar vordering bij de arbeidsrechtbank te Antwerpen ongetwijfeld een reeds verkregen en dadelijk belang om de vernietiging van de bestreden administratieve beslissing te vorderen daar hierin, zij het onrechtstreeks, uitspraak wordt gedaan over haar graad van blijvende arbeidsongeschiktheid. Haar initiële vordering is derhalve ontvankelijk. De bestreden administratieve beslissing dient vernietigd te worden daar de directeur de initiële aanvraag tot vaststelling van arbeidsongeschiktheid van 33% of meer onmiddellijk zonder voorwerp hadden moeten verklaren in plaats van deze te weigeren op grond van een overbodig uitgevoerd medisch onderzoek door een geneesheer aangesteld door het werkloosheidsbureau. De initiële vordering van geïntimeerde is dienvolgens gegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-018",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-019",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Teneinde definitief vrijgesteld te worden van de bepalingen inzake het actieve zoekgedrag naar werk en om te ontsnappen aan de vermindering van haar werkloosheidsuitkering tot het forfaitair bedrag ingeval van wijziging van haar gezinssituatie deed geïntimeerde op 12 december 2006 een aanvraag tot vaststelling van blijvende arbeidsongeschiktheid van 33% of meer. Samen met appellant stelt het arbeidshof vast dat geïntimeerde, op het ogenblik van haar aanvraag, geen belang had om een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen in het kader van artikel 59bis en artikel 114 van het Werkloosheidsbesluit. Artikel 10 van het koninklijk besluit van 4 juli 2004 houdende de wijziging van de werkloosheidsreglementering ten aanzien van volledig werklozen die actief moeten zoeken naar werk (B.S. 9 juli 2004, 2° editie, pag. 54776) bepaalt dat de procedure van activering van het zoekgedrag slechts van toepassing is voor werklozen die op datum van 1 juli 2006 minstens 40 jaar en hoogstens 49 jaar is. Geïntimeerde, geboren op 1 januari 1956, komt dienvolgens voor de procedure voor activering van het zoekgedrag in toepassing van artikel 59bis van het Werkloosheidsbesluit niet in aanmerking gelet op haar leeftijd (+50 jaar op 1/07/2006). De verplichting actief te zoeken naar werk geldt tot op heden slechts voor werklozen tot de leeftijd van 49 jaar en slechts wanneer de 'activering' zou uitgebreid worden naar werklozen ouder dan 49 jaar, wat tot op heden nog niet het geval is, heeft geïntimeerde belang bij de vaststelling van haar arbeidsonge-schiktheid. De verwijzing door geïntimeerde naar de vrijstelling in toepassing van artikel 89 van het Werkloosheidsbesluit is niet relevant. De verplichting beschikbaar te zijn voor de arbeidsmarkt houdt niet automatisch in dat er ook actief moet gezocht worden naar werk. In verband met het bedrag van de werkloosheidsuitkering bestaat er tussen partijen blijkbaar geen betwisting dat geïntimeerde een beroepsverleden als loontrekkende van 20 jaar heeft zodat, in toepassing van artikel 114, §4, tweede lid, 1° van het Werkloosheidsbesluit, de overgang naar het forfaitair dagbedrag van de werkloosheidsuitkering ten deze niet van toepassing is. Aangezien de bepalingen inzake het actieve zoekgedrag naar werk niet van toepassing zijn op geïntimeerde en haar uitkeringen evenmin verminderd worden tot een forfaitaire uitkering heeft geïntimeerde er dus geen belang bij een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen. Er is bijgevolg geen nood aan een medische expertise zodat het bestreden vonnis van de arbeidsrechtbank te Antwerpen van 25 juni 2007 dient vernietigd te worden. Ingevolge de devolutieve kracht van het hoger beroep dient het arbeidshof te onderzoeken of de oorspronkelijke vordering van geïntimeerde tot vernietiging van de bestreden administratieve beslissing van 5 januari 2007 ontvankelijk en gegrond is. Geïntimeerde had op het ogenblik van het instellen van haar vordering bij de arbeidsrechtbank te Antwerpen ongetwijfeld een reeds verkregen en dadelijk belang om de vernietiging van de bestreden administratieve beslissing te vorderen daar hierin, zij het onrechtstreeks, uitspraak wordt gedaan over haar graad van blijvende arbeidsongeschiktheid. Haar initiële vordering is derhalve ontvankelijk. De bestreden administratieve beslissing dient vernietigd te worden daar de directeur de initiële aanvraag tot vaststelling van arbeidsongeschiktheid van 33% of meer onmiddellijk zonder voorwerp hadden moeten verklaren in plaats van deze te weigeren op grond van een overbodig uitgevoerd medisch onderzoek door een geneesheer aangesteld door het werkloosheidsbureau. De initiële vordering van geïntimeerde is dienvolgens gegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-019",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De zaak naar zich trekkend in toepassing van artikel 1068 van het Gerechtelijk Wetboek.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-020"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Veroordeelt de Rijksdienst voor Arbeidsvoorziening, overeenkomstig artikel 1017, tweede lid van het Gerechtelijk Wetboek, in de kosten van beide aanleggen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2008:AVIS.20080624.13-021"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 21,
+      "citationStatistics": {
+        "totalCitations": 30,
+        "avgCitationsPerProvision": 1.4285714285714286,
+        "provisionsWithMinimalCitations": 19,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.0952380952380953,
+        "avgDecisionsPerProvision": 0.047619047619047616,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2008:AVIS.20080624.13-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 59bis van het koninklijk besluit van 25 november 1991 houdende de werkloosheidsreglementering (hierna Werkloosheidsbesluit) bepaalt: \"§ 1. Onverminderd de bepalingen van artikel 58, volgt de directeur het actieve zoekgedrag naar werk op van de volledig werkloze die, op de dag van ontvangst van de oproeping bedoeld in artikel 59quater, tegelijkertijd aan de volgende voorwaarden voldoet :</p>",
+          "<ol>\n            <li>een werkloosheidsduur van ten minste 15 maanden bereikt hebben, indien hij jonger is dan 25 jaar of van ten minste 21 maanden, indien hij 25 jaar of ouder is; De Minister bepaalt, na advies van het Beheerscomité, de berekeningswijze van de werkloosheidsduur.</li>\n            <li>niet vrijgesteld zijn van de verplichting om ingeschreven te zijn als werkzoekende met toepassing van de artikelen 90, 91, 92, 93, 94, 96 of 97, § 2 of § 3 en niet vrijgesteld zijn in toepassing van artikel 79, § 4bis;</li>\n            <li>niet tewerkgesteld zijn als deeltijdse werknemer met behoud van rechten;</li>\n            <li>zich niet meer bevinden in de periode van de eerste twaalf maanden werkloosheid, bedoeld in artikel 114, § 2, eerste lid, in voorkomend geval vernieuwd overeenkomstig de bepalingen van artikel 116, § 1 of verlengd overeenkomstig de bepalingen van artikel 116, § 2, eerste lid, 1°;</li>\n            <li>geen blijvende arbeidsongeschiktheid van ten minste 33 % vertonen, vastgesteld door de voor het werkloosheidsbureau aangewezen geneesheer, overeenkomstig de procedure voorzien in artikel 141;</li>\n            <li>geen werknemer zijn bedoeld in artikel 28, § 3.\"</li>\n        </ol>",
+          "<p class=\"case-section__paragraph\">Teneinde definitief vrijgesteld te worden van de bepalingen inzake het actieve zoekgedrag naar werk en om te ontsnappen aan de vermindering van haar werkloosheidsuitkering tot het forfaitair bedrag ingeval van wijziging van haar gezinssituatie deed geïntimeerde op 12 december 2006 een aanvraag tot vaststelling van blijvende arbeidsongeschiktheid van 33% of meer. Samen met appellant stelt het arbeidshof vast dat geïntimeerde, op het ogenblik van haar aanvraag, geen belang had om een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen in het kader van artikel 59bis en artikel 114 van het Werkloosheidsbesluit. Artikel 10 van het koninklijk besluit van 4 juli 2004 houdende de wijziging van de werkloosheidsreglementering ten aanzien van volledig werklozen die actief moeten zoeken naar werk (B.S. 9 juli 2004, 2° editie, pag. 54776) bepaalt dat de procedure van activering van het zoekgedrag slechts van toepassing is voor werklozen die op datum van 1 juli 2006 minstens 40 jaar en hoogstens 49 jaar is. Geïntimeerde, geboren op 1 januari 1956, komt dienvolgens voor de procedure voor activering van het zoekgedrag in toepassing van artikel 59bis van het Werkloosheidsbesluit niet in aanmerking gelet op haar leeftijd (+50 jaar op 1/07/2006). De verplichting actief te zoeken naar werk geldt tot op heden slechts voor werklozen tot de leeftijd van 49 jaar en slechts wanneer de 'activering' zou uitgebreid worden naar werklozen ouder dan 49 jaar, wat tot op heden nog niet het geval is, heeft geïntimeerde belang bij de vaststelling van haar arbeidsonge-schiktheid. De verwijzing door geïntimeerde naar de vrijstelling in toepassing van artikel 89 van het Werkloosheidsbesluit is niet relevant. De verplichting beschikbaar te zijn voor de arbeidsmarkt houdt niet automatisch in dat er ook actief moet gezocht worden naar werk. In verband met het bedrag van de werkloosheidsuitkering bestaat er tussen partijen blijkbaar geen betwisting dat geïntimeerde een beroepsverleden als loontrekkende van 20 jaar heeft zodat, in toepassing van artikel 114, §4, tweede lid, 1° van het Werkloosheidsbesluit, de overgang naar het forfaitair dagbedrag van de werkloosheidsuitkering ten deze niet van toepassing is. Aangezien de bepalingen inzake het actieve zoekgedrag naar werk niet van toepassing zijn op geïntimeerde en haar uitkeringen evenmin verminderd worden tot een forfaitaire uitkering heeft geïntimeerde er dus geen belang bij een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen. Er is bijgevolg geen nood aan een medische expertise zodat het bestreden vonnis van de arbeidsrechtbank te Antwerpen van 25 juni 2007 dient vernietigd te worden. Ingevolge de devolutieve kracht van het hoger beroep dient het arbeidshof te onderzoeken of de oorspronkelijke vordering van geïntimeerde tot vernietiging van de bestreden administratieve beslissing van 5 januari 2007 ontvankelijk en gegrond is. Geïntimeerde had op het ogenblik van het instellen van haar vordering bij de arbeidsrechtbank te Antwerpen ongetwijfeld een reeds verkregen en dadelijk belang om de vernietiging van de bestreden administratieve beslissing te vorderen daar hierin, zij het onrechtstreeks, uitspraak wordt gedaan over haar graad van blijvende arbeidsongeschiktheid. Haar initiële vordering is derhalve ontvankelijk. De bestreden administratieve beslissing dient vernietigd te worden daar de directeur de initiële aanvraag tot vaststelling van arbeidsongeschiktheid van 33% of meer onmiddellijk zonder voorwerp hadden moeten verklaren in plaats van deze te weigeren op grond van een overbodig uitgevoerd medisch onderzoek door een geneesheer aangesteld door het werkloosheidsbureau. De initiële vordering van geïntimeerde is dienvolgens gegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2008:AVIS.20080624.13-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Teneinde definitief vrijgesteld te worden van de bepalingen inzake het actieve zoekgedrag naar werk en om te ontsnappen aan de vermindering van haar werkloosheidsuitkering tot het forfaitair bedrag ingeval van wijziging van haar gezinssituatie deed geïntimeerde op 12 december 2006 een aanvraag tot vaststelling van blijvende arbeidsongeschiktheid van 33% of meer. Samen met appellant stelt het arbeidshof vast dat geïntimeerde, op het ogenblik van haar aanvraag, geen belang had om een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen in het kader van artikel 59bis en artikel 114 van het Werkloosheidsbesluit. Artikel 10 van het koninklijk besluit van 4 juli 2004 houdende de wijziging van de werkloosheidsreglementering ten aanzien van volledig werklozen die actief moeten zoeken naar werk (B.S. 9 juli 2004, 2° editie, pag. 54776) bepaalt dat de procedure van activering van het zoekgedrag slechts van toepassing is voor werklozen die op datum van 1 juli 2006 minstens 40 jaar en hoogstens 49 jaar is. Geïntimeerde, geboren op 1 januari 1956, komt dienvolgens voor de procedure voor activering van het zoekgedrag in toepassing van artikel 59bis van het Werkloosheidsbesluit niet in aanmerking gelet op haar leeftijd (+50 jaar op 1/07/2006). De verplichting actief te zoeken naar werk geldt tot op heden slechts voor werklozen tot de leeftijd van 49 jaar en slechts wanneer de 'activering' zou uitgebreid worden naar werklozen ouder dan 49 jaar, wat tot op heden nog niet het geval is, heeft geïntimeerde belang bij de vaststelling van haar arbeidsonge-schiktheid. De verwijzing door geïntimeerde naar de vrijstelling in toepassing van artikel 89 van het Werkloosheidsbesluit is niet relevant. De verplichting beschikbaar te zijn voor de arbeidsmarkt houdt niet automatisch in dat er ook actief moet gezocht worden naar werk. In verband met het bedrag van de werkloosheidsuitkering bestaat er tussen partijen blijkbaar geen betwisting dat geïntimeerde een beroepsverleden als loontrekkende van 20 jaar heeft zodat, in toepassing van artikel 114, §4, tweede lid, 1° van het Werkloosheidsbesluit, de overgang naar het forfaitair dagbedrag van de werkloosheidsuitkering ten deze niet van toepassing is. Aangezien de bepalingen inzake het actieve zoekgedrag naar werk niet van toepassing zijn op geïntimeerde en haar uitkeringen evenmin verminderd worden tot een forfaitaire uitkering heeft geïntimeerde er dus geen belang bij een blijvende arbeidsongeschiktheid van ten minste 33% te laten vaststellen. Er is bijgevolg geen nood aan een medische expertise zodat het bestreden vonnis van de arbeidsrechtbank te Antwerpen van 25 juni 2007 dient vernietigd te worden. Ingevolge de devolutieve kracht van het hoger beroep dient het arbeidshof te onderzoeken of de oorspronkelijke vordering van geïntimeerde tot vernietiging van de bestreden administratieve beslissing van 5 januari 2007 ontvankelijk en gegrond is. Geïntimeerde had op het ogenblik van het instellen van haar vordering bij de arbeidsrechtbank te Antwerpen ongetwijfeld een reeds verkregen en dadelijk belang om de vernietiging van de bestreden administratieve beslissing te vorderen daar hierin, zij het onrechtstreeks, uitspraak wordt gedaan over haar graad van blijvende arbeidsongeschiktheid. Haar initiële vordering is derhalve ontvankelijk. De bestreden administratieve beslissing dient vernietigd te worden daar de directeur de initiële aanvraag tot vaststelling van arbeidsongeschiktheid van 33% of meer onmiddellijk zonder voorwerp hadden moeten verklaren in plaats van deze te weigeren op grond van een overbodig uitgevoerd medisch onderzoek door een geneesheer aangesteld door het werkloosheidsbureau. De initiële vordering van geïntimeerde is dienvolgens gegrond.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 114, §4, tweede lid van het Werkloosheidsbesluit bepaalt: \"§ 1. Het basisdagbedrag van de werkloosheidsuitkering wordt vastgesteld op 40 pct. van het gemiddeld dagloon. § 2. Het basisdagbedrag van de werkloosheidsuitkering wordt tijdens de eerste twaalf maanden van werkloosheid verhoogd met een aanpassingstoeslag, vastgesteld op :</p>",
+          "<ul>\n            <li>15 pct. van het gemiddeld dagloon voor de werknemer met gezinslast en voor de alleenwonende werknemer;</li>\n            <li>18 pct. van het gemiddeld dagloon voor de samenwonende werknemer;</li>\n        </ul>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 6,
+        "avgCitationsPerTeaching": 3,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 6,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:1992:DEC.19921021.1",
+  "language": "NL",
+  "metadata": {
+    "id": 96461,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+    "decision_date": "1992-10-21",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Rechterlijke beslissing",
+    "md_length": 4122,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commissie voor de Bescherming van de Persoonlijke Levenssfeer, 21 oktober 1992, Beslissing Nr 05/92, ECLI:BE:COPRIV:1992:DEC.19921021.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1992:DEC.19921021.1-001",
+        "name": "de Heer $\\mathbf{X}$",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1992:DEC.19921021.1-002",
+        "name": "COMMISSIE VOOR DE BESCHERMING VAN DE PERSOONLIJKE LEVENSSFEER",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De Commissie ontving een klacht van de Heer $\\mathbf{X}$ gedateerd 28 mei 1992 en ontvangen op 2 juni 1992. De klager stelt vast dat zijn pas meerderjarig geworden zoon wordt overstelpt met publicitaire folders van onderwijsinstellingen en trekt daaruit de conclusie dat deze instellingen over de meerderjarigheid en de naam/adresgegevens van zijn zoon geïnformeerd konden zijn via listings verstrekt door het Ministerie van Binnenlandse Zaken, door een politieke partij (kiezerslijsten) of door het Ministerie van Onderwijs (lijsten leerplichtcontrole). Hij vermeldde tevens de mogelijkheid om met verstrekking van geboortedatum, naam en voornaam via een telex bij het Rijksregister verdere informatie over een burger te verkrijgen. De door de Commissie aangeduide verslaggever verzocht schriftelijk meer concrete stukken van de indiener en kreeg meerdere folders in handen. Op basis van de op de folders vermelde adreslabels werden de betrokken onderwijsinstellingen aangeschreven om inlichtingen over de wijze waarop zij in kennis worden gesteld van naam en adres van leerlingen in het laatste jaar van het secundair onderwijs. De scholen gaven aan dat het algemeen gangbare praktijk is dat instellingen van hoger onderwijs jaarlijks de instellingen van secundair onderwijs aanschrijven met het verzoek de naam en het adres van de laatstejaarsstudenten mee te delen om hen bij te staan in hun studiekeuze. De Commissie bracht de klager schriftelijk op de hoogte dat, behoudens binnen vijftien dagen nieuwe bewijzen die een inbreuk op de wet van 8 augustus 1983 zouden rechtvaardigen, zij zich in casu genoodzaakt zal zien zich onbevoegd te verklaren; er werden binnen die termijn geen nieuwe bewijsstukken aangebracht. Voorts wees de tekst er op dat de feiten niet binnen het toepassingsgebied vallen van een aantal wetten die de bevoegdheid van de Commissie beperken (opsomming van vijf koninklijke besluiten/wetten zoals in het dossier).",
+      "requests": [],
+      "arguments": [],
+      "courtOrder": "OM DEZE REDENEN,\nGelet op artikel 92 van de wet van 15 januari 1990 houdende oprichting en organisatie van een Kruispuntbank van de sociale zekerheid;\nGelet op de wet van 8 augustus 1983 tot regeling van een Rijksregister van de natuurlijke personen,\n\nDe Commissie,\nVerklaart de klacht onontvankelijk,\nBeveelt dat deze beslissing wordt betekend aan de klager, de Heer $\\mathbf{X}$.",
+      "outcome": "NIET_ONTVANKELIJKHEID"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1992:DEC.19921021.1-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1992:DEC.19921021.1-001",
+        "provisionNumber": "artikel 92",
+        "provisionNumberKey": "92",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 januari 1990 houdende oprichting en organisatie van een Kruispuntbank van de sociale zekerheid (B.S., 22 februari 1990)",
+        "parentActDate": "1990-01-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": []
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Reclamefolders onderwijsinstellingen",
+      "Meerderjarige zoon",
+      "Adreslabels op folders",
+      "Doorgeven leerlinggegevens",
+      "Doorgifte persoonsgegevens",
+      "Toegang Rijksregister",
+      "Klacht onontvankelijk",
+      "Bevoegdheidsbeperking",
+      "Jaarlijkse gegevensuitwisseling"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1992:DEC.19921021.1-001",
+        "text": "De Commissie voor de Bescherming van de Persoonlijke Levenssfeer verklaart een klacht onontvankelijk of haar bevoegdheid ontbreekt wanneer de aangifte feiten betreft die niet binnen het toepassingsgebied van de wettelijk begrensde databanken of registers vallen; indien de klager binnen de door de Commissie gestelde termijn geen aanvullende bewijzen levert die een inbreuk op de toepasselijke wetgeving aannemelijk maken, behoeft de Commissie niet verder te onderzoeken en kan zij zich onbevoegd verklaren.",
+        "courtVerbatim": "Verder werd de klager schriftelijk op de hoogte gebracht van het feit dat de Commissie, tenzij er binnen de 15 dagen nieuwe bewijzen werden aangebracht die de inbreuk op de wet van 1983 tot regeling van een Rijksregister van de natuurlijke personen voldoende zouden kunnen rechtvaardigen, genoodzaakt zal zijn zich in casu onbevoegd te verklaren. Geen nieuwe bewijsstukken werden (binnen deze termijn) aangebracht.\n\nBovendien vallen voormelde feiten niet binnen het toepassingsgebied van de wetten die de bevoegdheid van de Commissie beperken, zijnde :\n\n1. het koninklijk besluit Nr. 141 van 30 december 1982 tot oprichting van een databank betreffende de personeelsleden van de overheidssector (B.S., 13 januari 1983);\n2. de wet van 8 augustus 1983 tot regeling van een rijksregister van de natuurlijke personen (B.S., 21 april 1984);\n3. de wet van 15 januari 1990 houdende oprichting en organisatie van een Kruispuntbank van de sociale zekerheid (B.S., 22 februari 1990);\n4. de wet van 18 juli 1990 tot wijziging van de wet betreffende de politie over het wegverkeer, gecoördineerd op 16 maart 1968 en van de wet van 21 juni 1985 betreffende de technische eisen waaraan elk voertuig voor vervoer te land, de onderdelen ervan, evenals het veiligheidstoebehoren moeten voldoen (B.S., 8 november 1990);\n5. de wet van 12 juni 1991 op het consumentenkrediet (B.S., 9 juli 1991).",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een privacyklacht feiten betreft die mogelijk voortvloeien uit gegevensverwerking via openbare registers of derdenlijsten, maar zonder bewijs dat de feiten binnen het toepassingsgebied van de voor de Commissie relevante wettelijke databanken vallen.",
+        "relevantFactualContext": "Klager meldde dat zijn meerderjarige zoon publicitaire folders van onderwijsinstellingen ontving en vermoedde dat gegevens afkomstig waren van rijksregisters, kiezerslijsten of onderwijsadministraties; de Commissie onderzocht, verzocht om bijkomende bewijsstukken en verklaarde de klacht onontvankelijk nadat binnen de gestelde 15 dagen geen aanvullende bewijzen werden aangeleverd.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1992:DEC.19921021.1-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 1
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser klaagt dat zijn pas meerderjarige zoon wordt bestookt met publicitaire folders en vermoedt dat onderwijsinstellingen persoonsgegevens hebben verkregen via het Rijksregister, kiezerslijsten of lijsten van het ministerie van Onderwijs. De Commissie stelde vast dat scholen routinematig namen en adressen van laatstejaars aan instellingen voor hoger onderwijs doorgeven voor studiekeuzevoorlichting, vond geen bewijs van onrechtmatige raadpleging van het rijksregister en verklaart de klacht onontvankelijk wegens ontbreken van bevoegdheid."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1992:DEC.19921021.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Gelet op artikel 92 van de wet van 15 januari 1990 houdende oprichting en organisatie van een Kruispuntbank van de sociale zekerheid; Gelet op de wet van 8 augustus 1983 tot regeling van een Rijksregister van de natuurlijke personen, De Commissie, Verklaart de klacht onontvankelijk, Beveelt dat deze beslissing wordt betekend aan de klager, de Heer X.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1992:DEC.19921021.1-001"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 1,
+      "citationStatistics": {
+        "totalCitations": 1,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 1,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1992:DEC.19921021.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Commissie, Gelet op de klacht op datum van 28 mei 1992, en door de Commissie ontvangen op 2 juni 1992 van de Heer X, Heeft de volgende beslissing genomen : De klager stelt vast dat zijn pas meerderjarig geworden zoon wordt overstelpt met publicitaire folders van onderwijsinstellingen. Hij trekt hieruit de conclusie dat deze instellingen van de meerderjarigheid van zijn zoon enkel op de hoogte konden zijn gebracht via listings verstrekt ofwel door het Ministerie van Binnenlandse Zaken, ofwel door een politieke partij (kiezerslijsten), ofwel, door het Ministerie van Onderwijs (lijsten leerplichtcontrole). Verder maakte hij ook gewag van de mogelijkheid om na het verstrekken van de geboortedatum, de naam en de voornaam van een burger met een telex bij het Rijksregister verdere informatie over deze burger te verkrijgen. De verslaggever, die met betrekking tot deze zaak door de Commissie werd aangeduid ondervroeg schriftelijk de indiener van de klacht, teneinde over meer concrete stukken te beschikken. Tengevolge hiervan werd de verslaggever in het bezit gesteld van meerdere folders. Op basis van het op deze folders vermelde adreslabel werden dan ook al deze onderwijsinstellingen aangeschreven met als doel inlichtingen te bekomen over de wijze waarop de diverse onderwijsinstellingen in kennis worden gesteld van de naam en het adres van de leerlingen in het laatste jaar van het secundair onderwijs. Op basis van de door de scholen verstrekte gegevens werd de Heer X door de verslaggever schriftelijk in kennis gesteld van de algemeen gangbare praktijk dat ieder jaar de instellingen die secundair onderwijs organiseren, door de instellingen van hoger onderwijs worden aangeschreven met het verzoek de naam en het adres van de laatstejaarsstudenten mede te delen, teneinde hen bij te staan bij hun studiekeuze en hen in te lichten over de diverse studiemogelijkheden na het hoger secundair onderwijs. Verder werd de klager schriftelijk op de hoogte gebracht van het feit dat de Commissie, tenzij er binnen de 15 dagen nieuwe bewijzen werden aangebracht die de inbreuk op de wet van 1983 tot regeling van een Rijksregister van de natuurlijke personen voldoende zouden kunnen rechtvaardigen, genoodzaakt zal zijn zich in casu onbevoegd te verklaren. Geen nieuwe bewijsstukken werden (binnen deze termijn) aangebracht. Bovendien vallen voormelde feiten niet binnen het toepassingsgebied van de wetten die de bevoegdheid van de Commissie beperken, zijnde :</p>",
+          "<ol>\n            <li>het koninklijk besluit Nr. 141 van 30 december 1982 tot oprichting van een databank betreffende de personeelsleden van de overheidssector (B.S., 13 januari 1983);</li>\n            <li>de wet van 8 augustus 1983 tot regeling van een rijksregister van de natuurlijke personen (B.S., 21 april 1984);</li>\n            <li>de wet van 15 januari 1990 houdende oprichting en organisatie van een Kruispuntbank van de sociale zekerheid (B.S., 22 februari 1990);</li>\n            <li>de wet van 18 juli 1990 tot wijziging van de wet betreffende de politie over het wegverkeer, geco|rdineerd op 16 maart 1968 en van de wet van 21 juni 1985 betreffende de technische eisen waaraan elk voertuig voor vervoer te land, de onderdelen ervan, evenals het veiligheidstoebehoren moeten voldoen (B.S., 8 november 1990);</li>\n            <li>de wet van 12 juni 1991 op het consumentenkrediet (B.S., 9 juli 1991).</li>\n        </ol>",
+          "<p class=\"case-footer__paragraph\">Gelet op artikel 92 van de wet van 15 januari 1990 houdende oprichting en organisatie van een Kruispuntbank van de sociale zekerheid; Gelet op de wet van 8 augustus 1983 tot regeling van een Rijksregister van de natuurlijke personen, De Commissie, Verklaart de klacht onontvankelijk, Beveelt dat deze beslissing wordt betekend aan de klager, de Heer X.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerTeaching": 3,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

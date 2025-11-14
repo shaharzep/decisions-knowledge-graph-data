@@ -1,0 +1,489 @@
+{
+  "decision_id": "ECLI:BE:CASS:2010:AVIS.20100311.9",
+  "language": "NL",
+  "metadata": {
+    "id": 144379,
+    "court_ecli_code": "CASS",
+    "court_name": "Hof van Cassatie",
+    "decision_date": "2010-03-11",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Advies",
+    "md_length": 18752,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cass., 11 maart 2010, Nr. F.09.0069.N, ECLI:BE:CASS:2010:AVIS.20100311.9"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+        "name": "STAD ANTWERPEN, vertegenwoordigd door het College van Burgemeester en Schepenen",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "EISER_IN_CASSATIE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+        "name": "V. A.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "VERWEERDER_IN_CASSATIE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Het cassatieberoep betreft een geschil over de vestiging van provincie- en gemeentebelastingen ingevolge de wet van 24 december 1996. De eiseres is Stad Antwerpen; de verweerder is aangeduid als V. A. De zaak werd verwezen na een arrest van het Hof van Cassatie van 19 januari 2007 en het bestreden arrest werd gewezen door het hof van beroep te Brussel op 28 januari 2009. Kern van het geschil is dat (de verweerder) een laattijdige aangifte indiende en dat de terzake bevoegde overheid (de eiseres) al dan niet de aanslag ambtshalve moest vestigen en daarbij de in artikel 6, tweede en derde lid, voorziene betekening en termijn moest naleven. De eerste rechter oordeelde dat de betekening een substantiële regel van de procedure van ambtshalve inkohiering uitmaakt en dat de niet-naleving ervan de absolute nietigheid van de aanslag met zich meebracht. Het hof van beroep verklaarde het hoger beroep ontvankelijk doch ongegrond en veroordeelde (de eiseres) tot de kosten. Het geschil omvat tevens discussie over de interpretatie van artikel 6 en de vraag of een laattijdige aangifte door het bestuur als regelmatige grondslag voor de belastbare grondslag kan worden aanvaard, waardoor de ambtshalve procedure achterwege kan blijven.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+          "argument": "De eiseres voert aan dat het hof van beroep de wetsbepalingen (artikelen 4, 5 en 6 van de wet van 24 december 1996) heeft geschonden door te oordelen dat zij, gelet op de laattijdigheid van de aangifte, gehouden was de belasting ambtshalve in te kohieren en niet mocht afzien van de ambtshalve vestiging. De eiseres betoogt dat uit de samenhang van de bepalingen volgt dat de bevoegde overheid de mogelijkheid heeft te oordelen dat er motieven bestaan om bij gebrek aan aangifte toch niet ambtshalve te vestigen, met name wanneer de aanslag alsnog kan worden ingesteld op grond van een laattijdige aangifte die toelaat de belastbare grondslag te bepalen. Aldus zou de overheid kunnen aannemen dat de laattijdige aangifte toereikend is voor de bepaling van de belastbare grondslag en is het verzenden van de betekening ex artikel 6, tweede lid, niet steeds vereist.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "Het Hof, verenigde kamers,\n\nVernietigt het bestreden arrest.\n\nBeveelt dat van dit arrest melding zal worden gemaakt op de kant van het vernietigde arrest.\n\nHoudt de kosten aan en laat de uitspraak daaromtrent aan de feitenrechter over.\n\nVerwijst de zaak naar het hof van beroep te Gent.\n\nZegt dat, krachtens artikel 1120 van het Gerechtelijk Wetboek, genoemd rechtscollege zich moet voegen naar de beslissing betreffende het door het Hof beslechte rechtspunt.",
+      "outcome": "CASSATIE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+        "provisionNumber": "artikel 4",
+        "provisionNumberKey": "4",
+        "parentActType": "WET",
+        "parentActName": "de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie- en gemeentebelastingen",
+        "parentActDate": "1996-12-24",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+        "provisionNumber": "artikel 5",
+        "provisionNumberKey": "5",
+        "parentActType": "WET",
+        "parentActName": "de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie- en gemeentebelastingen",
+        "parentActDate": "1996-12-24",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-003",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "WET",
+        "parentActName": "de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie- en gemeentebelastingen",
+        "parentActDate": "1996-12-24",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verklaart dat artikel 6 inhoudt dat bij gebrek aan aangifte of bij onjuiste/onvolledige aangifte de overheid terecht de belasting ambtshalve kan vaststellen, maar dat zij bij het uitoefenen van die bevoegdheid de in lid 2 en 3 voorgeschreven betekening en termijn moet naleven ter bescherming van het verdedigingsrecht. Tegelijk oordeelt het Hof dat de overheid in bepaalde gevallen kan besluiten geen ambtshalve aanslag op te leggen en de laattijdige aangifte als grondslag te aanvaarden, zodat de betekening niet in alle gevallen absoluut verplicht is.",
+        "relevantFactualContext": "Betwist was dat de verweerder een laattijdige aangifte indiende en dat het bevoegde bestuur geen aangetekende betekening overeenkomstig artikel 6, tweede lid, verzond; de eerste rechter verklaarde de aanslag nietig wegens niet-naleving van die betekening, hetgeen het Hof beoordeelde in het licht van artikel 6."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-004",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+        "provisionNumber": "artikel 351, eerste lid",
+        "provisionNumberKey": "351",
+        "parentActType": "WET",
+        "parentActName": "het Wetboek van Inkomstenbelastingen 1992 (W.I.B. 1992)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof leest artikel 351, eerste lid, W.I.B. 1992 aldus dat de administratie in materie van inkomstenbelasting facultatief ambtshalve kan vestigen: de gebruikte formulering 'kan' geeft duidelijk aan dat de ambtshalve vestiging niet verplicht is. Het Hof gebruikt deze uitleg als tegenvoorbeeld bij de interpretatie van artikel 6 van de lokale belastingwet.",
+        "relevantFactualContext": "Artikel 351 wordt door het Hof aangehaald als vergelijking: in de inkomstenbelasting staat expliciet 'kan', waardoor daar de ambtshalve vestiging facultatief is, in tegenstelling tot de formulering van artikel 6 van de lokale belastingwet."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-005",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2010:AVIS.20100311.9-003",
+        "provisionNumber": "artikel 7, §1",
+        "provisionNumberKey": "7",
+        "parentActType": "DECREET",
+        "parentActName": "het Decreet van 30 mei 2008 betreffende de vestiging, de invordering en de geschillenprocedure van provincie- en gemeentebelastingen (Flaams decreet, B.S. 4 juli 2008)",
+        "parentActDate": "2008-05-30",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof wijst erop dat het Vlaamse Decreet van 30 mei 2008 in artikel 7, §1 uitdrukkelijk bepaalt dat de ambtshalve aanslag inzake lokale belastingen een facultatief karakter krijgt; het beschouwt deze wettelijke wijziging als bevestiging dat de overheid bevoegd is af te zien van ambtshalve vestiging en de laattijdige aangifte als grondslag te aanvaarden.",
+        "relevantFactualContext": "Het decreet wordt aangehaald als wetgevend voorbeeld dat in het Vlaamse Gewest expliciet de facultatieve aard van de ambtshalve aanslag invoerde, ter ondersteuning van de door het Hof geformuleerde interpretatie."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-006",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2010:AVIS.20100311.9-004",
+        "provisionNumber": "artikel 1120",
+        "provisionNumberKey": "1120",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek (G.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "2007-01-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "het Grondwettelijk Hof",
+        "date": "2007-06-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1997-11-10",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Belastingrecht",
+      "Lokale belastingen",
+      "Laattijdige aangifte",
+      "Ambtshalve aanslag",
+      "Aangetekende betekening",
+      "Verplichting ambtshalve aanslag",
+      "Recht van verdediging",
+      "Absolute nietigheid",
+      "Betekeningsvereiste",
+      "Interpretatieconflict"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+        "text": "Indien de bevoegde overheid overgaat tot de ambtshalve vaststelling van de belastingaanslag op grond van artikel 6 van de wet van 24 december 1996, is zij verplicht de in artikel 6, tweede en derde lid bedoelde betekening per aangetekend schrijven en de daaropvolgende termijn van dertig dagen na te leven ter vrijwaring van het recht van verdediging; de niet-naleving van deze substantiële procedurebepaling kan de absolute nietigheid van de aanslag tot gevolg hebben.",
+        "courtVerbatim": "Wanneer de overheid hiertoe overgaat, is zij gehouden de in voormeld artikel 6, tweede lid, bepaalde procedure na te leven teneinde het recht van verdediging van de belastingplichtige te vrijwaren. Dit recht van verdediging wordt geëerbiedigd wanneer de bevoegde overheid er zich toe beperkt de aanslag te vestigen overeenkomstig de aangifte die niet tijdig werd ingediend. Nu de betekening in kwestie een substantiële regel van de procedure van ambtshalve inkohiering uitmaakt, besliste de eerste rechter terecht dat de niet-naleving ervan de absolute nietigheid van de bestreden aanslag met zich meebracht.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de bevoegde overheid ambtshalve een aanslag vaststelt nadat de belastingplichtige geen, een laattijdige of een onregelmatige aangifte heeft ingediend.",
+        "relevantFactualContext": "In geschil was dat de verweerder een laattijdige aangifte indiende en dat het bevoegde bestuur geen aangetekende betekening overeenkomstig artikel 6, tweede lid, verzond; de eerste rechter had de aanslag nietig verklaard wegens niet-naleving van die betekening, wat het Hof beoordeelde in het licht van artikel 6.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CASS:2010:AVIS.20100311.9-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [
+            "TEACH-ECLI:BE:CASS:2010:AVIS.20100311.9-002"
+          ],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": true
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+        "text": "De samenhang van artikel 6, eerste tot derde lid, laat de bevoegde overheid toe in gevallen van laattijdige of onregelmatige aangifte te oordelen dat er geen redenen bestaan om een aanslag ambtshalve te vestigen en in plaats daarvan de laattijdige aangifte als grondslag voor de aanslag te aanvaarden; in dat geval is de betekening uit artikel 6, tweede lid, niet in alle gevallen absoluut verplicht.",
+        "courtVerbatim": "Uit de samenhang van voormelde bepaling volgt dat wanneer de belastingplichtige zijn aangifteplicht niet nakomt omdat de aangifte niet tijdig wordt ingediend, dan wel onjuist, onvolledig of onnauwkeurig is, de overheid de mogelijkheid heeft om vooralsnog tot inning van de belasting over te gaan door middel van een aanslag van ambtswege. Uit de samenhang van voormelde aangehaalde bepalingen volgt noodzakelijk dat de ter zake bevoegde overheid over de mogelijkheid beschikt te oordelen dat er motieven bestaan om bij gebrek aan aangifte binnen de gestelde termijn toch niet de belasting van ambtswege te vestigen, met name omdat het mogelijk is de aanslag alsnog te vestigen op grond van een laattijdige aangifte. Hieruit volgt dat die overheid gerechtigd is te beslissen dat er in dat geval geen redenen zijn om de aanslag ambtshalve te vestigen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een belastingplichtige een laattijdige of onregelmatige aangifte indient en de administratie moet kiezen tussen ambtshalve vaststelling of aanvaarding van de laattijdige aangifte als grondslag.",
+        "relevantFactualContext": "Het geschil betrof of de administratie, ondanks een laattijdige aangifte, de betekening en termijn van artikel 6 moest toepassen of kon volstaan met de laattijdige aangifte als grondslag; het Hof beoordeelde of het bestuur daartoe bevoegd was en verwees naar het Grondwettelijk Hof en gewijzigde regelgeving.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": "TEACH-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": true
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-003",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-004",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-005"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 1,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 2,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De overheid vordert tegen de verweerder inzake de toepassing van artikel 6 van de wet van 24 december 1996 betreffende laattijdige aangifte bij lokale belastingen. Het Hof oordeelt dat de bevoegde overheid bevoegd is te beslissen de laattijdige aangifte als regelmatige grondslag te aanvaarden en bijgevolg van ambtshalve vestiging af te zien, maar dat zij indien zij toch een ambtshalve aanslag uitvaardigt verplicht is de in artikel 6 voorziene betekening en de termijn van dertig dagen na te leven ter waarborg van het recht van verdediging. Het bestreden arrest wordt vernietigd en de zaak verwezen naar het hof van beroep te Gent."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+        "relatedFullTextCitations": [
+          "      <li>de artikelen 4, 5 en 6 van de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie - en gemeentebelastingen.</li>",
+          "      <li>Artikel 4 van de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie- en gemeentebelastingen bepaalt dat voor de bij wege van kohieren ingevorderde belastingen \"De kohieren worden vastgesteld en uitvoerbaar verklaard ten laatste op 30 juni van het jaar dat volgt op het dienstjaar door - het college van burgemeester en schepenen voor de gemeentebelastingen\". Artikel 6, eerste lid, van voormelde wet bepaalt dat \"Indien de belastingverordening voorziet in de verplichting van aangifte, (...) bij gebrek aan aangifte binnen de in de verordening gestelde termijn, of in geval van onjuiste, onvolledige of onnauwkeurige aangifte vanwege de belastingplichtige, de belasting ambtshalve ingekohierd (wordt)\". Artikel 6, tweede lid, van voormelde wet schrijft voor dat \"Vooraleer wordt overgegaan tot de ambtshalve vaststelling van de belastingaanslag, (...) de overheid die krachtens artikel 4 bevoegd is om het kohier vast te stellen, aan de belastingplichtige, per aangetekend schrijven, de motieven (betekent) om gebruik te maken van deze procedure, de elementen waarop de aanslag is gebaseerd evenals de wijze van bepaling van deze elementen en het bedrag van de belasting\". Artikel 6, derde lid, van voormelde wet voegt daar aan toe dat \"De belastingplichtige (...) over een termijn (beschikt) van dertig dagen volgend op de datum van verzending van de betekening om zijn opmerkingen schriftelijk voor te dragen\".</li>",
+          "      <li>Hieruit volgt dat het bestreden arrest onwettig beslist dat \"Nu de betekening in kwestie (nl. de voorafgaandelijke kennisgeving van aanslag van ambtswege voorzien in het aangehaald artikel 6, tweede lid) een substantiële regel van de procedure van ambtshalve inkohiering uitmaakt, besliste de eerste rechter terecht dat de niet-naleving ervan de absolute nietigheid van de bestreden aanslag met zich meebracht\", omdat \"(...) de terzake bevoegde overheid er immers toe verplicht is de (...) procedure voorafgaand aan de ambtshalve aanslag na te leven, zelfs indien zij de aanslag vestigt volgens de laattijdig overgelegde aangifte\", terwijl de eiseres niet altijd verplicht is die procedure voorzien in artikel 6, tweede en derde lid, van de aangehaalde wet van 24 december 1996 toe te passen, maar van de ambtshalve vaststelling van de belastingaanslag vermag af te zien door het bestaan van de laattijdige aangifte aan te nemen en de belasting te vestigen op een wijze die niet afwijkt van die aldus als bestaand aanzien zijnde aangifte, hetgeen het verzenden bij aangetekende brief van een kennisgeving van aanslag van ambtswege overbodig maakt (schending van de aangehaalde artikelen 4, 5 en 6 van de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie- en gemeentebelastingen).</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+        "relatedFullTextCitations": [
+          "      <li>de artikelen 4, 5 en 6 van de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie - en gemeentebelastingen.</li>",
+          "      <li>Hieruit volgt dat het bestreden arrest onwettig beslist dat \"Nu de betekening in kwestie (nl. de voorafgaandelijke kennisgeving van aanslag van ambtswege voorzien in het aangehaald artikel 6, tweede lid) een substantiële regel van de procedure van ambtshalve inkohiering uitmaakt, besliste de eerste rechter terecht dat de niet-naleving ervan de absolute nietigheid van de bestreden aanslag met zich meebracht\", omdat \"(...) de terzake bevoegde overheid er immers toe verplicht is de (...) procedure voorafgaand aan de ambtshalve aanslag na te leven, zelfs indien zij de aanslag vestigt volgens de laattijdig overgelegde aangifte\", terwijl de eiseres niet altijd verplicht is die procedure voorzien in artikel 6, tweede en derde lid, van de aangehaalde wet van 24 december 1996 toe te passen, maar van de ambtshalve vaststelling van de belastingaanslag vermag af te zien door het bestaan van de laattijdige aangifte aan te nemen en de belasting te vestigen op een wijze die niet afwijkt van die aldus als bestaand aanzien zijnde aangifte, hetgeen het verzenden bij aangetekende brief van een kennisgeving van aanslag van ambtswege overbodig maakt (schending van de aangehaalde artikelen 4, 5 en 6 van de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie- en gemeentebelastingen).</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-003",
+        "relatedFullTextCitations": [
+          "      <li>de artikelen 4, 5 en 6 van de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie - en gemeentebelastingen.</li>",
+          "      <li>In zijn arrest van 19 januari 2007 besliste het Hof van Cassatie dat uit de samenhang van de bepalingen van artikel 6, eerste, tweede en derde lid, van voornoemde wet van 24 december 1996 noodzakelijk volgt dat de ter zake bevoegde overheid over de mogelijkheid beschikt te oordelen dat er motieven bestaan om, bij gebrek aan aangifte binnen de gestelde termijn, toch niet de belasting van ambtswege te vestigen, met name omdat het mogelijk is de aanslag alsnog te vestigen op grond van een laattijdige aangifte.</li>",
+          "      <li>M. Maus en A. Delafonteyne (‘De ambtshalve aanslag bij het miskennen van de aangifteverplichting in de lokale belastingsfeer. Het Hof van Cassatie versus het Grondwettelijk Hof', noot onder Cass. 19 januari 2007 en Grondwettelijk Hof 20 juni 2007, T.F.R. 2008, 32) stellen dat het hier gaat om een summier gemotiveerd arrest. De enige grond waarop het Hof van Cassatie zijn beslissing steunt, is de ‘samenhang van de bepalingen van artikel 6, eerste, tweede en derde lid, van de wet van 24 december 1996' waaruit de conclusie van het Hof ‘noodzakelijk volgt'. Het hof merkt evenwel op dat in de aangehaalde bepalingen met geen woord wordt gerept over de mogelijkheid om de aanslag alsnog op grond van de laattijdige aangifte te vestigen, of anders uitgedrukt - over het facultatieve karakter van de ambtshalve vestiging van de aanslag. Het artikel 6 in kwestie is immers exclusief gewijd aan de ambtshalve vestiging van de aanslag. Verder stelt het hof zich ook vragen bij de beslissing dat uit de samenhang van de bepalingen van artikel 6 ‘noodzakelijk volgt dat', als ware de zienswijze van het Hof van Cassatie de enige mogelijke interpretatie. Dit wordt trouwens ontkracht door het feit dat het Grondwettelijk Hof tot een andere interpretatie van dezelfde wetsbepaling is gekomen.</li>",
+          "      <li>Zo was het Grondwettelijk Hof in zijn arrest van 20 juni 2007 van oordeel dat de terzake bevoegde overheid in rechte niet over de mogelijkheid beschikt om te kiezen voor het al dan niet opleggen van een ambtshalve aanslag (volgens het Grondwettelijk Hof is zij daartoe verplicht), maar dat zij dit de facto wel kan doen door rekening te houden met de inhoud van de laattijdige aangifte bij het opleggen van de ambtshalve aanslag (zie: M. Maus en A. Delafonteyne o. c., 32).</li>",
+          "      <li>De interpretatie van het Grondwettelijk Hof valt volgens het hof te verkiezen. Zij is in overeenstemming met de tekst zelf van artikel 6, eerste lid, van voornoemde wet van 24 december 1996, waarin wordt bepaald dat, indien de belastingverordening voorziet in de verplichting van aangifte (hetgeen in deze onmiskenbaar het geval is), de belasting ambtshalve wordt ingekohierd, bij gebrek aan aangifte binnen de gestelde termijn of in geval van onjuiste, onvolledige of onnauwkeurige aangifte vanwege de belastingplichtige. Met reden verwees het Grondwettelijk Hof naar de andersluidende formulering van artikel 351, eerste lid, W.I.B. 1992 in verband met de ambtshalve aanslag inzake inkomstenbelasting. Dit artikel bepaalt dat de administratie de aanslag ambtshalve kan vestigen op het bedrag van de belastbare inkomsten die zij kan vermoeden op grond van de gegevens waarover zij beschikt, onder meer wanneer de belastingplichtige nagelaten heeft een aangifte te doen binnen de wettelijke termijnen. Inzake inkomstenbelasting is de vestiging van de ambtshalve aanslag bijgevolg facultatief. Het woord ‘kan' dat voorkomt in artikel 351, eerste lid, W.I.B. 1992 laat daarover niet de minste twijfel bestaan. Een dergelijke formulering komt niet voor in artikel 6 van voornoemde wet van 24 december 1996, waarin staat te lezen dat de belasting ambtshalve ‘wordt' ingekohierd. In tegenstelling tot artikel 351 W.I.B. 1992 voorziet de tekst van dit artikel 6 niet in de mogelijkheid van het opleggen van een aanslag van ambtswege (zie M. Maus en A. Delafonteyne, o. c., 33). Stellen dat in dit laatste geval de ter zake bevoegde overheid wel over een keuzemogelijkheid zou beschikken, wordt door de auteurs (met name M. Maus en A. Delafonteyne, o.c., ibid.) beschouwd als een interpretatie die haaks staat op het openbare orde-karakter van de wet van 24 december 1996 en op het algemeen rechtsbeginsel, zoals geconsacreerd door het Hof van Cassatie (zie: Cass. 10 november 1997, Arr. Cass. 1997, 1106; F.J.F. 1997, 623; J.D.F. 1998, 110), volgens hetwelk de belastingwetten strikt moeten worden uitgelegd. Met reden merkte advocaat-generaal Thijs in zijn conclusie bij het arrest van het Hof van Cassatie van 19 januari 2007 op dat voormelde door het Hof van Cassatie aangenomen interpretatie een aantal gevaren in zich draagt. Niet alleen brengt het miskennen van de in artikel 6 van voornoemde wet van 24 december 1996 voorgeschreven procedure in geval van ambtshalve vestiging van de aanslag de rechten van verdediging van de belastingplichtige in het gedrang. Maar bovendien bestaat het gevaar voor proceduremisbruik, met name indien de verjaring nakende is en de ter zake bevoegde overheid alleen nog tijdig een aanslag kan vestigen door de procedure voorafgaand aan de ambtshalve aanslag over te slaan. De door advocaat-generaal Thijs gesignaleerde gevaren kunnen zich niet voordoen in de interpretatie die het Grondwettelijk Hof aan artikel 6 van de wet van 24 december 1996 geeft. Deze interpretatie was, zoals hiervoor gezegd, dat de terzake bevoegde overheid in rechte niet over de mogelijkheid beschikt om te kiezen voor het al dan niet opleggen van een ambtshalve aanslag (volgens het Grondwettelijk Hof is zij daartoe verplicht), maar dat zij dit de facto wel kan doen door rekening te houden met de inhoud van de laattijdige aangifte bij het opleggen van de ambtshalve aanslag. In deze interpretatie is de terzake bevoegde overheid er immers toe verplicht de in de leden 2 en 3 van artikel 6 uitgewerkte procedure voorafgaand aan de ambtshalve aanslag na te leven, zelfs indien zij de aanslag vestigt volgens de laattijdig overgelegde aangifte. Ten overvloede wijst het hof er nog op dat inmiddels in het Vlaamse Gewest het Decreet van 30 mei 2008 betreffende de vestiging, de invordering en de geschillenprocedure van provincie- en gemeentebelastingen (B.S. 4 juli 2008) werd goedgekeurd, waarin in artikel 7, §1, uitdrukkelijk is bepaald dat de ambtshalve aanslag inzake lokale belastingen, naar het voorbeeld van de inkomstenbelasting, een facultatief karakter krijgt.</li>",
+          "      <li>De door (de eiseres) voor het Hof van Cassatie ingeroepen grieven, in de zaak die aanleiding heeft gegeven tot het cassatiearrest van 19 januari 2007, overtuigen niet. Uiteraard maakt het laattijdig indienen van de aangifte deze niet absoluut onbestaande. Maar de wet van 24 december 1996 stelt in dat geval de procedure van ambtshalve aanslag (met de daaraan gekoppelde formaliteiten ter bescherming van de belastingplichtige) in werking. De wet voorziet niet in de mogelijkheid voor het terzake bevoegde bestuur om de laattijdige aangifte regelmatig te aanzien voor wat de bepaling van de belastbare grondslag betreft. Hier maakt de eiseres in cassatie een onderscheid tussen de termijn (terzake waarvan de aangifte onregelmatig zou zijn) en de belastbare grondslag (terzake waarvan de aangifte regelmatig zou zijn), onderscheid dat de wet niet maakt.</li>",
+          "      <li>Derhalve komt het hof tot het besluit dat de eerste rechter terecht heeft geoordeeld dat (de eiseres), ingevolge het niet-naleven van de in het tweede lid van artikel 6 van de wet van 24 december 1996 bepaalde betekening, (de verweerder) niet de mogelijkheid heeft geboden om zijn opmerkingen schriftelijk voor te dragen conform het derde lid van hetzelfde artikel 6. Nu de betekening in kwestie een substantiële regel van de procedure van ambtshalve inkohiering uitmaakt, besliste de eerste rechter terecht dat de niet-naleving ervan de absolute nietigheid van de bestreden aanslag met zich meebracht. Derhalve dient het hoger beroep van appellante te worden afgewezen\".</li>",
+          "      <li>Artikel 6, eerste, tweede en derde lid, van de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie- en gemeente-belastingen bepaalt: \"Indien de belastingverordening voorziet in de verplichting van aangifte, wordt, bij gebrek aan aangifte binnen de gestelde termijn, of in geval van onjuiste, onvolledige of onnauwkeurige aangifte vanwege de belastingplichtige, de belasting ambtshalve ingekohierd. Vooraleer wordt overgegaan tot de ambtshalve vaststelling van de belastingaanslag, betekent de overheid die krachtens artikel 4 bevoegd is om het kohier vast te stellen, aan de belastingplichtige, per aangetekend schrijven, de motieven om gebruik te maken van deze procedure, de elementen waarop de aanslag is gebaseerd evenals de wijze van bepaling van deze elementen en het bedrag van de belasting. De belastingplichtige beschikt over een termijn van dertig dagen volgend op de datum van verzending van de betekening om zijn opmerkingen schriftelijk voor te dragen.\"</li>",
+          "      <li>Uit voormelde bepalingen volgt dat wanneer de belastingplichtige zijn aangifteplicht niet nakomt omdat de aangifte niet tijdig wordt ingediend, dan wel onjuist, onvolledig of onnauwkeurig is, de overheid de mogelijkheid heeft om vooralsnog tot inning van de belasting over te gaan door middel van een aanslag van ambtswege. Wanneer de overheid hiertoe overgaat, is zij gehouden de in voormeld artikel 6, tweede lid, bepaalde procedure na te leven teneinde het recht van verdediging van de belastingplichtige te vrijwaren. Dit recht van verdediging wordt geëerbiedigd wanneer de bevoegde overheid er zich toe beperkt de aanslag te vestigen overeenkomstig de aangifte die niet tijdig werd ingediend.</li>",
+          "      <li>Hieruit volgt dat die overheid gerechtigd is te beslissen dat er in dat geval geen redenen zijn om de aanslag ambtshalve te vestigen.</li>",
+          "      <li>De appelrechter die oordeelt dat de eiseres, gelet op de laattijdigheid van de aangifte, niet vermocht vooralsnog de aanslag te vestigen op basis van de door de verweerder verstrekte gegevens maar gehouden was de belasting ambtshalve in te kohieren, schendt de in het middel aangewezen wetsbepalingen. Het middel is gegrond.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-003",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-004",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-004",
+        "relatedFullTextCitations": [
+          "      <li>De interpretatie van het Grondwettelijk Hof valt volgens het hof te verkiezen. Zij is in overeenstemming met de tekst zelf van artikel 6, eerste lid, van voornoemde wet van 24 december 1996, waarin wordt bepaald dat, indien de belastingverordening voorziet in de verplichting van aangifte (hetgeen in deze onmiskenbaar het geval is), de belasting ambtshalve wordt ingekohierd, bij gebrek aan aangifte binnen de gestelde termijn of in geval van onjuiste, onvolledige of onnauwkeurige aangifte vanwege de belastingplichtige. Met reden verwees het Grondwettelijk Hof naar de andersluidende formulering van artikel 351, eerste lid, W.I.B. 1992 in verband met de ambtshalve aanslag inzake inkomstenbelasting. Dit artikel bepaalt dat de administratie de aanslag ambtshalve kan vestigen op het bedrag van de belastbare inkomsten die zij kan vermoeden op grond van de gegevens waarover zij beschikt, onder meer wanneer de belastingplichtige nagelaten heeft een aangifte te doen binnen de wettelijke termijnen. Inzake inkomstenbelasting is de vestiging van de ambtshalve aanslag bijgevolg facultatief. Het woord ‘kan' dat voorkomt in artikel 351, eerste lid, W.I.B. 1992 laat daarover niet de minste twijfel bestaan. Een dergelijke formulering komt niet voor in artikel 6 van voornoemde wet van 24 december 1996, waarin staat te lezen dat de belasting ambtshalve ‘wordt' ingekohierd. In tegenstelling tot artikel 351 W.I.B. 1992 voorziet de tekst van dit artikel 6 niet in de mogelijkheid van het opleggen van een aanslag van ambtswege (zie M. Maus en A. Delafonteyne, o. c., 33). Stellen dat in dit laatste geval de ter zake bevoegde overheid wel over een keuzemogelijkheid zou beschikken, wordt door de auteurs (met name M. Maus en A. Delafonteyne, o.c., ibid.) beschouwd als een interpretatie die haaks staat op het openbare orde-karakter van de wet van 24 december 1996 en op het algemeen rechtsbeginsel, zoals geconsacreerd door het Hof van Cassatie (zie: Cass. 10 november 1997, Arr. Cass. 1997, 1106; F.J.F. 1997, 623; J.D.F. 1998, 110), volgens hetwelk de belastingwetten strikt moeten worden uitgelegd. Met reden merkte advocaat-generaal Thijs in zijn conclusie bij het arrest van het Hof van Cassatie van 19 januari 2007 op dat voormelde door het Hof van Cassatie aangenomen interpretatie een aantal gevaren in zich draagt. Niet alleen brengt het miskennen van de in artikel 6 van voornoemde wet van 24 december 1996 voorgeschreven procedure in geval van ambtshalve vestiging van de aanslag de rechten van verdediging van de belastingplichtige in het gedrang. Maar bovendien bestaat het gevaar voor proceduremisbruik, met name indien de verjaring nakende is en de ter zake bevoegde overheid alleen nog tijdig een aanslag kan vestigen door de procedure voorafgaand aan de ambtshalve aanslag over te slaan. De door advocaat-generaal Thijs gesignaleerde gevaren kunnen zich niet voordoen in de interpretatie die het Grondwettelijk Hof aan artikel 6 van de wet van 24 december 1996 geeft. Deze interpretatie was, zoals hiervoor gezegd, dat de terzake bevoegde overheid in rechte niet over de mogelijkheid beschikt om te kiezen voor het al dan niet opleggen van een ambtshalve aanslag (volgens het Grondwettelijk Hof is zij daartoe verplicht), maar dat zij dit de facto wel kan doen door rekening te houden met de inhoud van de laattijdige aangifte bij het opleggen van de ambtshalve aanslag. In deze interpretatie is de terzake bevoegde overheid er immers toe verplicht de in de leden 2 en 3 van artikel 6 uitgewerkte procedure voorafgaand aan de ambtshalve aanslag na te leven, zelfs indien zij de aanslag vestigt volgens de laattijdig overgelegde aangifte. Ten overvloede wijst het hof er nog op dat inmiddels in het Vlaamse Gewest het Decreet van 30 mei 2008 betreffende de vestiging, de invordering en de geschillenprocedure van provincie- en gemeentebelastingen (B.S. 4 juli 2008) werd goedgekeurd, waarin in artikel 7, §1, uitdrukkelijk is bepaald dat de ambtshalve aanslag inzake lokale belastingen, naar het voorbeeld van de inkomstenbelasting, een facultatief karakter krijgt.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-004",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-003",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+          "DEC-ECLI:BE:CASS:2010:AVIS.20100311.9-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-005",
+        "relatedFullTextCitations": [
+          "      <li>De interpretatie van het Grondwettelijk Hof valt volgens het hof te verkiezen. Zij is in overeenstemming met de tekst zelf van artikel 6, eerste lid, van voornoemde wet van 24 december 1996, waarin wordt bepaald dat, indien de belastingverordening voorziet in de verplichting van aangifte (hetgeen in deze onmiskenbaar het geval is), de belasting ambtshalve wordt ingekohierd, bij gebrek aan aangifte binnen de gestelde termijn of in geval van onjuiste, onvolledige of onnauwkeurige aangifte vanwege de belastingplichtige. Met reden verwees het Grondwettelijk Hof naar de andersluidende formulering van artikel 351, eerste lid, W.I.B. 1992 in verband met de ambtshalve aanslag inzake inkomstenbelasting. Dit artikel bepaalt dat de administratie de aanslag ambtshalve kan vestigen op het bedrag van de belastbare inkomsten die zij kan vermoeden op grond van de gegevens waarover zij beschikt, onder meer wanneer de belastingplichtige nagelaten heeft een aangifte te doen binnen de wettelijke termijnen. Inzake inkomstenbelasting is de vestiging van de ambtshalve aanslag bijgevolg facultatief. Het woord ‘kan' dat voorkomt in artikel 351, eerste lid, W.I.B. 1992 laat daarover niet de minste twijfel bestaan. Een dergelijke formulering komt niet voor in artikel 6 van voornoemde wet van 24 december 1996, waarin staat te lezen dat de belasting ambtshalve ‘wordt' ingekohierd. In tegenstelling tot artikel 351 W.I.B. 1992 voorziet de tekst van dit artikel 6 niet in de mogelijkheid van het opleggen van een aanslag van ambtswege (zie M. Maus en A. Delafonteyne, o. c., 33). Stellen dat in dit laatste geval de ter zake bevoegde overheid wel over een keuzemogelijkheid zou beschikken, wordt door de auteurs (met name M. Maus en A. Delafonteyne, o.c., ibid.) beschouwd als een interpretatie die haaks staat op het openbare orde-karakter van de wet van 24 december 1996 en op het algemeen rechtsbeginsel, zoals geconsacreerd door het Hof van Cassatie (zie: Cass. 10 november 1997, Arr. Cass. 1997, 1106; F.J.F. 1997, 623; J.D.F. 1998, 110), volgens hetwelk de belastingwetten strikt moeten worden uitgelegd. Met reden merkte advocaat-generaal Thijs in zijn conclusie bij het arrest van het Hof van Cassatie van 19 januari 2007 op dat voormelde door het Hof van Cassatie aangenomen interpretatie een aantal gevaren in zich draagt. Niet alleen brengt het miskennen van de in artikel 6 van voornoemde wet van 24 december 1996 voorgeschreven procedure in geval van ambtshalve vestiging van de aanslag de rechten van verdediging van de belastingplichtige in het gedrang. Maar bovendien bestaat het gevaar voor proceduremisbruik, met name indien de verjaring nakende is en de terzake bevoegde overheid alleen nog tijdig een aanslag kan vestigen door de procedure voorafgaand aan de ambtshalve aanslag over te slaan. De door advocaat-generaal Thijs gesignaleerde gevaren kunnen zich niet voordoen in de interpretatie die het Grondwettelijk Hof aan artikel 6 van de wet van 24 december 1996 geeft. Deze interpretatie was, zoals hiervoor gezegd, dat de terzake bevoegde overheid in rechte niet over de mogelijkheid beschikt om te kiezen voor het al dan niet opleggen van een ambtshalve aanslag (volgens het Grondwettelijk Hof is zij daartoe verplicht), maar dat zij dit de facto wel kan doen door rekening te houden met de inhoud van de laattijdige aangifte bij het opleggen van de ambtshalve aanslag. In deze interpretatie is de terzake bevoegde overheid er immers toe verplicht de in de leden 2 en 3 van artikel 6 uitgewerkte procedure voorafgaand aan de ambtshalve aanslag na te leven, zelfs indien zij de aanslag vestigt volgens de laattijdig overgelegde aangifte. Ten overvloede wijst het hof er nog op dat inmiddels in het Vlaamse Gewest het Decreet van 30 mei 2008 betreffende de vestiging, de invordering en de geschillenprocedure van provincie- en gemeentebelastingen (B.S. 4 juli 2008) werd goedgekeurd, waarin in artikel 7, §1, uitdrukkelijk is bepaald dat de ambtshalve aanslag inzake lokale belastingen, naar het voorbeeld van de inkomstenbelasting, een facultatief karakter krijgt.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-005",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-003",
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-006",
+        "relatedFullTextCitations": [
+          "    <p class=\"case-section__paragraph\">Het Hof, verenigde kamers, Vernietigt het bestreden arrest. Beveelt dat van dit arrest melding zal worden gemaakt op de kant van het vernietigde arrest. Houdt de kosten aan en laat de uitspraak daaromtrent aan de feitenrechter over. Verwijst de zaak naar het hof van beroep te Gent. Zegt dat, krachtens artikel 1120 van het Gerechtelijk Wetboek, genoemd rechtscollege zich moet voegen naar de beslissing betreffende het door het Hof beslechte rechtspunt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2010:AVIS.20100311.9-006"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 6,
+      "citationStatistics": {
+        "totalCitations": 22,
+        "avgCitationsPerProvision": 3.6666666666666665,
+        "provisionsWithMinimalCitations": 4,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3,
+        "avgDecisionsPerProvision": 1,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2010:AVIS.20100311.9-001",
+        "relatedFullTextCitations": [
+          "      <li>In zijn arrest van 19 januari 2007 besliste het Hof van Cassatie dat uit de samenhang van de bepalingen van artikel 6, eerste, tweede en derde lid, van voornoemde wet van 24 december 1996 noodzakelijk volgt dat de ter zake bevoegde overheid over de mogelijkheid beschikt te oordelen dat er motieven bestaan om, bij gebrek aan aangifte binnen de gestelde termijn, toch niet de belasting van ambtswege te vestigen, met name omdat het mogelijk is de aanslag alsnog te vestigen op grond van een laattijdige aangifte.</li>",
+          "      <li>Zo was het Grondwettelijk Hof in zijn arrest van 20 juni 2007 van oordeel dat de terzake bevoegde overheid in rechte niet over de mogelijkheid beschikt om te kiezen voor het al dan niet opleggen van een ambtshalve aanslag (volgens het Grondwettelijk Hof is zij daartoe verplicht), maar dat zij dit de facto wel kan doen door rekening te houden met de inhoud van de laattijdige aangifte bij het opleggen van de ambtshalve aanslag (zie: M. Maus en A. Delafonteyne o. c., 32).</li>",
+          "      <li>De interpretatie van het Grondwettelijk Hof valt volgens het hof te verkiezen. Zij is in overeenstemming met de tekst zelf van artikel 6, eerste lid, van voornoemde wet van 24 december 1996, waarin wordt bepaald dat, indien de belastingverordening voorziet in de verplichting van aangifte (hetgeen in deze onmiskenbaar het geval is), de belasting ambtshalve wordt ingekohierd, bij gebrek aan aangifte binnen de gestelde termijn of in geval van onjuiste, onvolledige of onnauwkeurige aangifte vanwege de belastingplichtige. Met reden verwees het Grondwettelijk Hof naar de andersluidende formulering van artikel 351, eerste lid, W.I.B. 1992 in verband met de ambtshalve aanslag inzake inkomstenbelasting. Dit artikel bepaalt dat de administratie de aanslag ambtshalve kan vestigen op het bedrag van de belastbare inkomsten die zij kan vermoeden op grond van de gegevens waarover zij beschikt, onder meer wanneer de belastingplichtige nagelaten heeft een aangifte te doen binnen de wettelijke termijnen. Inzake inkomstenbelasting is de vestiging van de ambtshalve aanslag bijgevolg facultatief. Het woord ‘kan' dat voorkomt in artikel 351, eerste lid, W.I.B. 1992 laat daarover niet de minste twijfel bestaan. Een dergelijke formulering komt niet voor in artikel 6 van voornoemde wet van 24 december 1996, waarin staat te lezen dat de belasting ambtshalve ‘wordt' ingekohierd. In tegenstelling tot artikel 351 W.I.B. 1992 voorziet de tekst van dit artikel 6 niet in de mogelijkheid van het opleggen van een aanslag van ambtswege (zie M. Maus en A. Delafonteyne, o. c., 33). Stellen dat in dit laatste geval de ter zake bevoegde overheid wel over een keuzemogelijkheid zou beschikken, wordt door de auteurs (met name M. Maus en A. Delafonteyne, o.c., ibid.) beschouwd als een interpretatie die haaks staat op het openbare orde-karakter van de wet van 24 december 1996 en op het algemeen rechtsbeginsel, zoals geconsacreerd door het Hof van Cassatie (zie: Cass. 10 november 1997, Arr. Cass. 1997, 1106; F.J.F. 1997, 623; J.D.F. 1998, 110), volgens hetwelk de belastingwetten strikt moeten worden uitgelegd. Met reden merkte advocaat-generaal Thijs in zijn conclusie bij het arrest van het Hof van Cassatie van 19 januari 2007 op dat voormelde door het Hof van Cassatie aangenomen interpretatie een aantal gevaren in zich draagt. Niet alleen brengt het miskennen van de in artikel 6 van voornoemde wet van 24 december 1996 voorgeschreven procedure in geval van ambtshalve vestiging van de aanslag de rechten van verdediging van de belastingplichtige in het gedrang. Maar bovendien bestaat het gevaar voor proceduremisbruik, met name indien de verjaring nakende is en de ter zake bevoegde overheid alleen nog tijdig een aanslag kan vestigen door de procedure voorafgaand aan de ambtshalve aanslag over te slaan. De door advocaat-generaal Thijs gesignaleerde gevaren kunnen zich niet voordoen in de interpretatie die het Grondwettelijk Hof aan artikel 6 van de wet van 24 december 1996 geeft. Deze interpretatie was, zoals hiervoor gezegd, dat de terzake bevoegde overheid in rechte niet over de mogelijkheid beschikt om te kiezen voor het al dan niet opleggen van een ambtshalve aanslag (volgens het Grondwettelijk Hof is zij daartoe verplicht), maar dat zij dit de facto wel kan doen door rekening te houden met de inhoud van de laattijdige aangifte bij het opleggen van de ambtshalve aanslag. In deze interpretatie is de terzake bevoegde overheid er immers toe verplicht de in de leden 2 en 3 van artikel 6 uitgewerkte procedure voorafgaand aan de ambtshalve aanslag na te leven, zelfs indien zij de aanslag vestigt volgens de laattijdig overgelegde aangifte. Ten overvloede wijst het hof er nog op dat inmiddels in het Vlaamse Gewest het Decreet van 30 mei 2008 betreffende de vestiging, de invordering en de geschillenprocedure van provincie- en gemeentebelastingen (B.S. 4 juli 2008) werd goedgekeurd, waarin in artikel 7, §1, uitdrukkelijk is bepaald dat de ambtshalve aanslag inzake lokale belastingen, naar het voorbeeld van de inkomstenbelasting, een facultatief karakter krijgt.</li>",
+          "      <li>De door (de eiseres) voor het Hof van Cassatie ingeroepen grieven, in de zaak die aanleiding heeft gegeven tot het cassatiearrest van 19 januari 2007, overtuigen niet. Uiteraard maakt het laattijdig indienen van de aangifte deze niet absoluut onbestaande. Maar de wet van 24 december 1996 stelt in dat geval de procedure van ambtshalve aanslag (met de daaraan gekoppelde formaliteiten ter bescherming van de belastingplichtige) in werking. De wet voorziet niet in de mogelijkheid voor het terzake bevoegde bestuur om de laattijdige aangifte regelmatig te aanzien voor wat de bepaling van de belastbare grondslag betreft. Hier maakt de eiseres in cassatie een onderscheid tussen de termijn (terzake waarvan de aangifte onregelmatig zou zijn) en de belastbare grondslag (terzake waarvan de aangifte regelmatig zou zijn), onderscheid dat de wet niet maakt.</li>",
+          "      <li>Derhalve komt het hof tot het besluit dat de eerste rechter terecht heeft geoordeeld dat (de eiseres), ingevolge het niet-naleven van de in het tweede lid van artikel 6 van de wet van 24 december 1996 bepaalde betekening, (de verweerder) niet de mogelijkheid heeft geboden om zijn opmerkingen schriftelijk voor te dragen conform het derde lid van hetzelfde artikel 6. Nu de betekening in kwestie een substantiële regel van de procedure van ambtshalve inkohiering uitmaakt, besliste de eerste rechter terecht dat de niet-naleving ervan de absolute nietigheid van de bestreden aanslag met zich meebracht. Derhalve dient het hoger beroep van appellante te worden afgewezen\".</li>",
+          "      <li>Artikel 6, eerste, tweede en derde lid, van de wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie- en gemeente-belastingen bepaalt: \"Indien de belastingverordening voorziet in de verplichting van aangifte, wordt, bij gebrek aan aangifte binnen de gestelde termijn, of in geval van onjuiste, onvolledige of onnauwkeurige aangifte vanwege de belastingplichtige, de belasting ambtshalve ingekohierd. Vooraleer wordt overgegaan tot de ambtshalve vaststelling van de belastingaanslag, betekent de overheid die krachtens artikel 4 bevoegd is om het kohier vast te stellen, aan de belastingplichtige, per aangetekend schrijven, de motieven om gebruik te maken van deze procedure, de elementen waarop de aanslag is gebaseerd evenals de wijze van bepaling van deze elementen en het bedrag van de belasting. De belastingplichtige beschikt over een termijn van dertig dagen volgend op de datum van verzending van de betekening om zijn opmerkingen schriftelijk voor te dragen.\"</li>",
+          "      <li>Uit voormelde bepalingen volgt dat wanneer de belastingplichtige zijn aangifteplicht niet nakomt omdat de aangifte niet tijdig wordt ingediend, dan wel onjuist, onvolledig of onnauwkeurig is, de overheid de mogelijkheid heeft om vooralsnog tot inning van de belasting over te gaan door middel van een aanslag van ambtswege. Wanneer de overheid hiertoe overgaat, is zij gehouden de in voormeld artikel 6, tweede lid, bepaalde procedure na te leven teneinde het recht van verdediging van de belastingplichtige te vrijwaren. Dit recht van verdediging wordt geëerbiedigd wanneer de bevoegde overheid er zich toe beperkt de aanslag te vestigen overeenkomstig de aangifte die niet tijdig werd ingediend.</li>",
+          "      <li>Hieruit volgt dat die overheid gerechtigd is te beslissen dat er in dat geval geen redenen zijn om de aanslag ambtshalve te vestigen.</li>",
+          "      <li>De appelrechter die oordeelt dat de eiseres, gelet op de laattijdigheid van de aangifte, niet vermocht vooralsnog de aanslag te vestigen op basis van de door de verweerder verstrekte gegevens maar gehouden was de belasting ambtshalve in te kohieren, schendt de in het middel aangewezen wetsbepalingen. Het middel is gegrond.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2010:AVIS.20100311.9-002",
+        "relatedFullTextCitations": [
+          "      <li>Uit de samenhang van voormelde aangehaalde bepalingen volgt noodzakelijk dat de ter zake bevoegde overheid over de mogelijkheid beschikt te oordelen dat er motieven bestaan om bij gebrek aan aangifte binnen de gestelde termijn toch niet de belasting van ambtswege te vestigen, met name omdat het mogelijk is de aanslag alsnog te vestigen op grond van een laattijdige aangifte.</li>",
+          "      <li>De interpretatie van het Grondwettelijk Hof valt volgens het hof te verkiezen. Zij is in overeenstemming met de tekst zelf van artikel 6, eerste lid, van voornoemde wet van 24 december 1996, waarin wordt bepaald dat, indien de belastingverordening voorziet in de verplichting van aangifte (hetgeen in deze onmiskenbaar het geval is), de belasting ambtshalve wordt ingekohierd, bij gebrek aan aangifte binnen de gestelde termijn of in geval van onjuiste, onvolledige of onnauwkeurige aangifte vanwege de belastingplichtige. Met reden verwees het Grondwettelijk Hof naar de andersluidende formulering van artikel 351, eerste lid, W.I.B. 1992 in verband met de ambtshalve aanslag inzake inkomstenbelasting. Dit artikel bepaalt dat de administratie de aanslag ambtshalve kan vestigen op het bedrag van de belastbare inkomsten die zij kan vermoeden op grond van de gegevens waarover zij beschikt, onder meer wanneer de belastingplichtige nagelaten heeft een aangifte te doen binnen de wettelijke termijnen. Inzake inkomstenbelasting is de vestiging van de ambtshalve aanslag bijgevolg facultatief. Het woord ‘kan' dat voorkomt in artikel 351, eerste lid, W.I.B. 1992 laat daarover niet de minste twijfel bestaan. Een dergelijke formulering komt niet voor in artikel 6 van voornoemde wet van 24 december 1996, waarin staat te lezen dat de belasting ambtshalve ‘wordt' ingekohierd. In tegenstelling tot artikel 351 W.I.B. 1992 voorziet de tekst van dit artikel 6 niet in de mogelijkheid van het opleggen van een aanslag van ambtswege (zie M. Maus en A. Delafonteyne, o. c., 33). Stellen dat in dit laatste geval de ter zake bevoegde overheid wel over een keuzemogelijkheid zou beschikken, wordt door de auteurs (met name M. Maus en A. Delafonteyne, o.c., ibid.) beschouwd als een interpretatie die haaks staat op het openbare orde-karakter van de wet van 24 december 1996 en op het algemeen rechtsbeginsel, zoals geconsacreerd door het Hof van Cassatie (zie: Cass. 10 november 1997, Arr. Cass. 1997, 1106; F.J.F. 1997, 623; J.D.F. 1998, 110), volgens hetwelk de belastingwetten strikt moeten worden uitgelegd. Met reden merkte advocaat-generaal Thijs in zijn conclusie bij het arrest van het Hof van Cassatie van 19 januari 2007 op dat voormelde door het Hof van Cassatie aangenomen interpretatie een aantal gevaren in zich draagt. Niet alleen brengt het miskennen van de in artikel 6 van voornoemde wet van 24 december 1996 voorgeschreven procedure in geval van ambtshalve vestiging van de aanslag de rechten van verdediging van de belastingplichtige in het gedrang. Maar bovendien bestaat het gevaar voor proceduremisbruik, met name indien de verjaring nakende is en de ter zake bevoegde overheid alleen nog tijdig een aanslag kan vestigen door de procedure voorafgaand aan de ambtshalve aanslag over te slaan. De door advocaat-generaal Thijs gesignaleerde gevaren kunnen zich niet voordoen in de interpretatie die het Grondwettelijk Hof aan artikel 6 van de wet van 24 december 1996 geeft. Deze interpretatie was, zoals hiervoor gezegd, dat de terzake bevoegde overheid in rechte niet over de mogelijkheid beschikt om te kiezen voor het al dan niet opleggen van een ambtshalve aanslag (volgens het Grondwettelijk Hof is zij daartoe verplicht), maar dat zij dit de facto wel kan doen door rekening te houden met de inhoud van de laattijdige aangifte bij het opleggen van de ambtshalve aanslag. In deze interpretatie is de terzake bevoegde overheid er immers toe verplicht de in de leden 2 en 3 van artikel 6 uitgewerkte procedure voorafgaand aan de ambtshalve aanslag na te leven, zelfs indien zij de aanslag vestigt volgens de laattijdig overgelegde aangifte. Ten overvloede wijst het hof er nog op dat inmiddels in het Vlaamse Gewest het Decreet van 30 mei 2008 betreffende de vestiging, de invordering en de geschillenprocedure van provincie- en gemeentebelastingen (B.S. 4 juli 2008) werd goedgekeurd, waarin in artikel 7, §1, uitdrukkelijk is bepaald dat de ambtshalve aanslag inzake lokale belastingen, naar het voorbeeld van de inkomstenbelasting, een facultatief karakter krijgt.</li>",
+          "      <li>Uit voormelde bepalingen volgt dat wanneer de belastingplichtige zijn aangifteplicht niet nakomt omdat de aangifte niet tijdig wordt ingediend, dan wel onjuist, onvolledig of onnauwkeurig is, de overheid de mogelijkheid heeft om vooralsnog tot inning van de belasting over te gaan door middel van een aanslag van ambtswege. Wanneer de overheid hiertoe overgaat, is zij gehouden de in voormeld artikel 6, tweede lid, bepaalde procedure na te leven teneinde het recht van verdediging van de belastingplichtige te vrijwaren. Dit recht van verdediging wordt geëerbiedigd wanneer de bevoegde overheid er zich toe beperkt de aanslag te vestigen overeenkomstig de aangifte die niet tijdig werd ingediend.</li>",
+          "      <li>Hieruit volgt dat die overheid gerechtigd is te beslissen dat er in dat geval geen redenen zijn om de aanslag ambtshalve te vestigen.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 12,
+        "avgCitationsPerTeaching": 6,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 4,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 6,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

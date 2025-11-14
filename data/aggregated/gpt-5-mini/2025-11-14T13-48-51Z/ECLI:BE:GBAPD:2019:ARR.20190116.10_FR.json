@@ -1,0 +1,434 @@
+{
+  "decision_id": "ECLI:BE:GBAPD:2019:ARR.20190116.10",
+  "language": "FR",
+  "metadata": {
+    "id": 157908,
+    "court_ecli_code": "GBAPD",
+    "court_name": "Autorité de protection des données",
+    "decision_date": "2019-01-16",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 7512,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Autorité de protection des données, 16 janvier 2019, Avis n° 07/2019, ECLI:BE:GBAPD:2019:ARR.20190116.10"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2019:ARR.20190116.10-001",
+        "name": "Autorité de protection des données",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2019:ARR.20190116.10-002",
+        "name": "Monsieur Jo Vandeurzen, Ministre flamand du Bien-être, de la Santé publique et de la Famille",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2019:ARR.20190116.10-003",
+        "name": "Commission de la protection de la vie privée",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2019:ARR.20190116.10-004",
+        "name": "Agentschap Zorg en Gezondheid",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2019:ARR.20190116.10-005",
+        "name": "Vlaams Instituut voor Kwaliteit van Zorg",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2019:ARR.20190116.10-006",
+        "name": "Willem Debeuckelaere",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2019:ARR.20190116.10-007",
+        "name": "An Machtens",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Le 12 novembre 2018, le Ministre flamand du Bien-être, de la Santé publique et de la Famille a sollicité l'avis de l'Autorité de protection des données au sujet d'un avant-projet d'arrêté du Gouvernement flamand modifiant l'article 3 de l'arrêté du 24 mai 2013 fixant des normes supplémentaires auxquelles les programmes de soins pathologie cardiaque B doivent répondre pour être agréés. L'arrêté du 24 mai 2013 impose notamment aux hôpitaux d'enregistrer plusieurs données permettant à l'Agentschap Zorg en Gezondheid d'évaluer la qualité des soins et la sécurité des patients; une sélection de ces données doit être publiée par l'hôpital. Le prédécesseur de l'Autorité, la Commission de la protection de la vie privée, a rendu en 2017 un avis défavorable (n° 59/2017) à un projet d'arrêté ministériel similaire au motif que la délégation au ministre n'était pas suffisamment claire pour établir par arrêté ministériel des éléments essentiels du traitement des données. Le Projet vise à adapter la délégation en reformulant le dernier alinéa de l'article 3 pour préciser quelles données doivent être enregistrées et fournies sous forme pseudonymisée, les conditions et modalités d'enregistrement, la manière de pseudonymiser et de fournir les données, et la durée de conservation. La finalité est un traitement statistique pour donner un feed-back aux hôpitaux et évaluer la qualité et la sécurité des soins; l'agence est désignée responsable du traitement pseudonymisé et peut collaborer avec le Vlaams Instituut voor Kwaliteit van Zorg. L'Autorité constate que le texte proposé est plus précis que l'actuel et reprend plusieurs éléments essentiels du traitement, mais demande de préciser la phrase relative à la possible collaboration entre l'agence et le Vlaams Instituut, et rappelle l'obligation, en vertu du décret d'adapter les protocoles d'accord encadrant les échanges de données.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPD:2019:ARR.20190116.10-002",
+          "requests": "Demande d'avis de l'Autorité au sujet d'un avant-projet d'arrêté du Gouvernement flamand modifiant l'article 3 de l'arrêté du 24 mai 2013 relatif aux normes supplémentaires pour les programmes de soins pathologie cardiaque B."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPD:2019:ARR.20190116.10-003",
+          "argument": "Dans son avis n° 59/2017 du 11 octobre 2017, la Commission de la protection de la vie privée estimait que l'établissement d'éléments essentiels d'un traitement de données par arrêté ministériel dépassait les limites de la délégation prévue dans l'arrêté du 24 mai 2013. La Commission relevait notamment que l'arrêté du 24 mai 2013 ne prévoyait pas une délégation au ministre suffisamment claire pour que tous les éléments essentiels du traitement de données puissent être établis par arrêté ministériel, et contestait la portée de la formulation selon laquelle «Le Ministre peut préciser l'enregistrement (...) et peut fixer les conditions minimales et les modalités».",
+          "treatment": "ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPD:2019:ARR.20190116.10-001",
+          "argument": "L'Autorité, sur base du rapport de Willem Debeuckelaere, estime que le Projet adapte de manière appropriée la délégation en reprenant d'emblée plusieurs éléments essentiels du traitement (finalité, responsable du traitement, spécification des données pseudonymisées, modalités de fourniture et durée de conservation) et prévoit une délégation explicite au ministre pour la détermination des autres éléments. Elle juge donc le Projet globalement positif mais demande une précision quant à la formulation relative à la collaboration entre l'Agence Soins et Santé et le Vlaams Instituut voor Kwaliteit van Zorg afin d'assurer légalité et transparence.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS, \n\nI'Autorité estime que le Projet répond aux remarques formulées par la Commission au point 39 de I'avis $n^{\\circ}$ 59/2017, à condition qu'une phrase du Projet soit précisée (voir le point 7).",
+      "outcome": "FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-001",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2019:ARR.20190116.10-001",
+        "provisionNumber": "article 23",
+        "provisionNumberKey": "23",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 décembre 2017 portant création de l'Autorité de protection des données (LCA)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-002",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2019:ARR.20190116.10-001",
+        "provisionNumber": "article 26",
+        "provisionNumberKey": "26",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 décembre 2017 portant création de l'Autorité de protection des données (LCA)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-003",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2019:ARR.20190116.10-002",
+        "provisionNumber": "article 3",
+        "provisionNumberKey": "3",
+        "parentActType": "ARRETE_GOUVERNEMENT",
+        "parentActName": "arrêté du Gouvernement flamand du 24 mai 2013 fixant des normes supplémentaires auxquelles les programmes de soins pathologie cardiaque B doivent répondre",
+        "parentActDate": "2013-05-24",
+        "parentActNumber": null,
+        "provisionInterpretation": "L'Autorité estime que la rédaction proposée de l'article 3 est substantiellement plus précise que le texte actuel et reprend d'emblée plusieurs éléments essentiels du traitement (notamment la finalité et l'identification du responsable du traitement). Elle admet que d'autres éléments peuvent être déterminés par délégation ministérielle à la condition que celle-ci soit explicite et limitée, et demande que soit clarifiée la nature et l'étendue de la collaboration entre l'Agence et le Vlaams Instituut pour garantir légalité et transparence.",
+        "relevantFactualContext": "Le Ministre flamand a demandé un avis sur un projet modifiant l'article 3 pour préciser quelles données doivent être enregistrées, les conditions et modalités d'enregistrement, la pseudonymisation, la fourniture à l'agence et la durée de conservation; la Commission avait auparavant émis un avis défavorable estimant la délégation insuffisamment claire."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-004",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2019:ARR.20190116.10-003",
+        "provisionNumber": "article 16",
+        "provisionNumberKey": "16",
+        "parentActType": "DECRET",
+        "parentActName": "décret contenant l'ajustement des décrets au règlement (UE) 2016/679 du 27 avril 2016 (décret d'ajustement au RGPD)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "L'Autorité rappelle que l'article 16 du décret d'ajustement au RGPD impose aux autorités flamandes l'obligation de conclure des protocoles d'accord encadrant les échanges de données. Elle en déduit que toute collaboration entre l'Agence Soins et Santé et des tiers (p.ex. le Vlaams Instituut) impliquant échanges de données doit être formalisée et encadrée par un protocole garantissant la séparation des informations supplémentaires, des mesures techniques et organisationnelles et la transparence.",
+        "relevantFactualContext": "Lors de l'examen du Projet, l'Autorité demande de préciser la phrase relative à la collaboration entre l'Agence et le Vlaams Instituut et rappelle qu'en vertu de l'article 16 toute collaboration donnant lieu à échanges de données doit être régie par un protocole d'accord."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Commission de la protection de la vie privée",
+        "date": "2017-10-11",
+        "caseNumber": "avis n° 59/2017",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2019:ARR.20190116.10-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Protection des données",
+      "Collecte de données hospitalières",
+      "Programmes pathologie cardiaque B",
+      "Publication de données",
+      "Fourniture pseudonymisée à l'agence",
+      "Délégation au ministre",
+      "Éléments essentiels du traitement",
+      "Pseudonymisation des données",
+      "Durée de conservation",
+      "Avis antérieur défavorable"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2019:ARR.20190116.10-001",
+        "text": "La délégation au ministre de la détermination d'éléments relatifs à un traitement de données à caractère personnel doit être explicite et limitée : les éléments essentiels du traitement (p.ex. la finalité et l'identification du responsable du traitement) doivent figurer dans le texte de l'acte, tandis que d'autres éléments peuvent être renvoyés à un acte ministériel uniquement si la délégation est claire et circonscrite.",
+        "courtVerbatim": "L'Autorité constate que la disposition citée est effectivement bien plus précise que le texte actuel de l'article 3 de l'arrêté du 24 mai 2013. Plusieurs éléments essentiels du traitement de données y sont repris d'emblée (par exemple la finalité, le responsable du traitement), tandis que pour la détermination des autres éléments, une délégation explicite au ministre est prévue. L'Autorité est dès lors globalement positive à l'égard du Projet.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un texte normatif délègue au ministre la fixation de modalités d'un traitement de données à caractère personnel et qu'il convient d'apprécier si la délégation porte sur des éléments essentiels du traitement.",
+        "relevantFactualContext": "Le Projet reformule l'article 3 de l'arrêté du 24 mai 2013 en reprenant d'emblée plusieurs éléments essentiels du traitement (finalité, responsable) et prévoit que d'autres éléments seront déterminés par arrêté ministériel; l'Autorité évalue la suffisance et la clarté de cette délégation.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2019:ARR.20190116.10-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2019:ARR.20190116.10-002",
+        "text": "Toute collaboration entre une autorité publique et un tiers impliquant des échanges de données à caractère personnel doit être formalisée par un protocole d'accord précisant la nature et l'étendue de la collaboration, les modalités de séparation des informations supplémentaires, ainsi que les mesures techniques et organisationnelles et les modalités de transparence applicables.",
+        "courtVerbatim": "On ne peut en effet pas déduire de la formulation actuelle ce que cette collaboration implique exactement et pour des raisons de légalité et de transparence, il convient d'éviter un tel manque de précision. Par souci d'exhaustivité, l'Autorité souligne également que l'article 16 du décret contenant l'ajustement des décrets au règlement (UE) 2016/679 (...) impose aux autorités flamandes l'obligation de conclure des protocoles d'accord afin d'encadrer les échanges de données.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une agence publique envisage une collaboration avec un tiers (p.ex. institut) entraînant des échanges ou des traitements de données personnelles devant être encadrés.",
+        "relevantFactualContext": "Le Projet prévoit que l'Agence Soins et Santé puisse collaborer avec le Vlaams Instituut voor Kwaliteit van Zorg pour le traitement de données pseudonymisées; l'Autorité demande de préciser la nature et l'étendue de cette collaboration et rappelle l'obligation de conclure un protocole d'accord en vertu de l'article 16.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur (le Ministre flamand) a sollicité l'avis de l'Autorité concernant un projet d'arrêté modifiant l'article 3 pour préciser la délégation ministérielle relative à l'enregistrement et à la pseudonymisation de données hospitalières à des fins statistiques. L'Autorité juge le Projet globalement conforme aux remarques antérieures mais exige la clarification de la clause de collaboration entre l'Agence et l'Institut; principe clé: la délégation au ministre est licite uniquement si les éléments essentiels du traitement (finalité, responsable, modalités de pseudonymisation et durée de conservation) sont clairement définis."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vu la loi du 3 décembre 2017 portant création de l'Autorité de protection des données, en particulier les articles 23 et 26 (ci-après \"la LCA\") ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-001",
+          "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vu la loi du 3 décembre 2017 portant création de l'Autorité de protection des données, en particulier les articles 23 et 26 (ci-après \"la LCA\") ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-002",
+          "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">avant-projet d'arrêté du Gouvernement flamand modifiant l'article 3 de l'arrêté du Gouvernement flamand du 24 mai 2013 fixant des normes supplémentaires auxquelles les programmes de soins pathologie cardiaque B doivent répondre pour être agréés (CO-A-2018-186)</p>",
+          "<li>Le 12 novembre 2018, le Ministre flamand du Bien-être, de la Santé publique et de la Famille (ci-après \"le demandeur\") a sollicité l'avis de l'Autorité au sujet d'un avant-projet d'arrêté du Gouvernement flamand modifiant l'article 3 de l'arrêté du Gouvernement flamand du 24 mai 2013 fixant des normes supplémentaires auxquelles les programmes de soins pathologie cardiaque B doivent répondre pour être agréés (ci-après \"le Projet\").</li>",
+          "<li>L'arrêté précité du Gouvernement flamand du 24 mai 2013 (ci-après \"l'arrêté du 24 mai 2013\") a établi des normes supplémentaires auxquelles les programmes de soins pathologie cardiaque B doivent répondre pour être et rester agréés. L'arrêté impose notamment aux hôpitaux d'enregistrer plusieurs données qui doivent permettre à l'Agentschap Zorg en Gezondheid (Agence Soins et Santé) d'évaluer la qualité des soins et la sécurité des patients¹. Une sélection de ces données - à déterminer par arrêté ministériel - doit être publiée par l'hôpital.</li>",
+          "<li>Le prédécesseur en droit de l'Autorité – à savoir la Commission de la protection de la vie privée (ci-après \"la Commission\") – a émis un avis défavorable concernant un projet d'arrêté ministériel rédigé en 2017 qui détaillait la manière dont l'enregistrement de ces données devait se faire et quelles données devaient être publiées. Dans cet avis n° 59/2017 du 11 octobre 2017, la Commission affirmait notamment que l'arrêté du 24 mai 2013 ne prévoyait pas une délégation au ministre suffisamment claire pour que tous les éléments essentiels du traitement de données puissent être établis via un arrêté ministériel. L'article 3 de l'arrêté du 24 mai 2013 est en effet énoncé comme suit : \"Le Ministre peut préciser l'enregistrement (…) et peut fixer les conditions minimales et les modalités auxquelles doivent répondre l'enregistrement et la remise des données enregistrées.\"</li>",
+          "<li>Le Projet vise à donner une suite appropriée à ce point de vue de la Commission.</li>",
+          "<li>Comme indiqué plus haut, la Commission a émis son avis défavorable n° 59/2017 notamment du fait que l'établissement d'éléments essentiels d'un traitement de données via un arrêté ministériel dépassait les limites de la délégation prévue dans l'arrêté du 24 mai 2013².</li>",
+          "<p class=\"case-section__paragraph\">Le Projet vise à adapter ladite délégation dans l'arrêté du 24 mai 2013, notamment en reformulant comme suit le dernier alinéa de l'article 3 de cet arrêté : \"Le ministre précise:</p>",
+          "<li>quelles données, mentionnées à l'alinéa premier, doivent être enregistrées par les hôpitaux dans le cadre de l'enregistrement et doivent être fournies à l'agence sous forme pseudonymisée ;</li>",
+          "<li>les conditions minimales et les modalités selon lesquelles l'enregistrement doit se faire ;</li>",
+          "<li>la manière dont les données doivent être pseudonymisées ;</li>",
+          "<li>la manière dont les données pseudonymisées doivent être fournies à l'agence ;</li>",
+          "<li>la durée de conservation des données pseudonymisées.</li>",
+          "<p class=\"case-section__paragraph\">La finalité de l'enregistrement et de la fourniture des données précitées est un traitement statistique en vue de donner un feed-back aux hôpitaux généraux et d'évaluer la qualité des soins et la sécurité des patients au sein de ces derniers.</p>",
+          "<p class=\"case-section__paragraph\">Le responsable du traitement des données pseudonymisées est l'agence. Pour le traitement, l'agence peut collaborer avec le Vlaams Instituut voor Kwaliteit van Zorg (Institut flamand de la Qualité des Soins), mentionné au chapitre 2, section 1 du décret du 15 juillet 2016 portant diverses dispositions relatives au domaine politique de l'Aide sociale, Santé publique et Famille.</p>",
+          "<p class=\"case-section__paragraph\">Dans cet article, on entend par données pseudonymisées : les données à caractère personnel qui ont été traitées de telle façon que celles-ci ne puissent plus être reliées à une personne concernée précise sans avoir recours à des informations supplémentaires, à condition que ces informations supplémentaires soient conservées séparément et soumises à des mesures techniques et organisationnelles afin de garantir que les données à caractère personnel ne soient pas reliées à une personne physique identifiée ou identifiable.</p>",
+          "<p class=\"case-section__paragraph\">L'Autorité constate que la disposition citée est effectivement bien plus précise que le texte actuel de l'article 3 de l'arrêté du 24 mai 2013. Plusieurs éléments essentiels du traitement de données y sont repris d'emblée (par exemple la finalité, le responsable du traitement), tandis que pour la détermination des autres éléments, une délégation explicite au ministre est prévue. L'Autorité est dès lors globalement positive à l'égard du Projet.</p>",
+          "<p class=\"case-section__paragraph\">Dans la foulée, l'Autorité demande de préciser la phrase relative à l'éventuelle collaboration entre l'Agence Soins et Santé et le Vlaams Instituut voor Kwaliteit van Zorg (Institut flamand de la Qualité des Soins) (voir passage souligné au point 5). On ne peut en effet pas déduire de la formulation actuelle ce que cette collaboration implique exactement et pour des raisons de légalité et de transparence, il convient d'éviter un tel manque de précision. Par souci d'exhaustivité, l'Autorité souligne également que l'article 16 du décret contenant l'ajustement des décrets au règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive.</p>",
+          "<p class=\"case-footer__paragraph\">l'Autorité estime que le Projet répond aux remarques formulées par la Commission au point 39 de l'avis n° 59/2017, à condition qu'une phrase du Projet soit précisée (voir le point 7).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-003",
+          "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2019:ARR.20190116.10-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dans la foulée, l'Autorité demande de préciser la phrase relative à l'éventuelle collaboration entre l'Agence Soins et Santé et le Vlaams Instituut voor Kwaliteit van Zorg (Institut flamand de la Qualité des Soins) (voir passage souligné au point 5). On ne peut en effet pas déduire de la formulation actuelle ce que cette collaboration implique exactement et pour des raisons de légalité et de transparence, il convient d'éviter un tel manque de précision. Par souci d'exhaustivité, l'Autorité souligne également que l'article 16 du décret contenant l'ajustement des décrets au règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-004",
+          "ART-ECLI:BE:GBAPD:2019:ARR.20190116.10-003"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 4,
+      "citationStatistics": {
+        "totalCitations": 21,
+        "avgCitationsPerProvision": 5.25,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2,
+        "avgDecisionsPerProvision": 0.25,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2019:ARR.20190116.10-001",
+        "relatedFullTextCitations": [
+          "<li>Le prédécesseur en droit de l'Autorité – à savoir la Commission de la protection de la vie privée (ci-après \"la Commission\") – a émis un avis défavorable concernant un projet d'arrêté ministériel rédigé en 2017 qui détaillait la manière dont l'enregistrement de ces données devait se faire et quelles données devaient être publiées. Dans cet avis n° 59/2017 du 11 octobre 2017, la Commission affirmait notamment que l'arrêté du 24 mai 2013 ne prévoyait pas une délégation au ministre suffisamment claire pour que tous les éléments essentiels du traitement de données puissent être établis via un arrêté ministériel. L'article 3 de l'arrêté du 24 mai 2013 est en effet énoncé comme suit : \"Le Ministre peut préciser l'enregistrement (…) et peut fixer les conditions minimales et les modalités auxquelles doivent répondre l'enregistrement et la remise des données enregistrées.\"</li>",
+          "<p class=\"case-section__paragraph\">Le Projet vise à adapter ladite délégation dans l'arrêté du 24 mai 2013, notamment en reformulant comme suit le dernier alinéa de l'article 3 de cet arrêté : \"Le ministre précise:</p>",
+          "<ol>\n<li>quelles données, mentionnées à l'alinéa premier, doivent être enregistrées par les hôpitaux dans le cadre de l'enregistrement et doivent être fournies à l'agence sous forme pseudonymisée ;</li>\n<li>les conditions minimales et les modalités selon lesquelles l'enregistrement doit se faire ;</li>\n<li>la manière dont les données doivent être pseudonymisées ;</li>\n<li>la manière dont les données pseudonymisées doivent être fournies à l'agence ;</li>\n<li>la durée de conservation des données pseudonymisées.</li>\n</ol>",
+          "<p class=\"case-section__paragraph\">La finalité de l'enregistrement et de la fourniture des données précitées est un traitement statistique en vue de donner un feed-back aux hôpitaux généraux et d'évaluer la qualité des soins et la sécurité des patients au sein de ces derniers.</p>",
+          "<p class=\"case-section__paragraph\">Le responsable du traitement des données pseudonymisées est l'agence. Pour le traitement, l'agence peut collaborer avec le Vlaams Instituut voor Kwaliteit van Zorg (Institut flamand de la Qualité des Soins), mentionné au chapitre 2, section 1 du décret du 15 juillet 2016 portant diverses dispositions relatives au domaine politique de l'Aide sociale, Santé publique et Famille.</p>",
+          "<p class=\"case-section__paragraph\">Dans cet article, on entend par données pseudonymisées : les données à caractère personnel qui ont été traitées de telle façon que celles-ci ne puissent plus être reliées à une personne concernée précise sans avoir recours à des informations supplémentaires, à condition que ces informations supplémentaires soient conservées séparément et soumises à des mesures techniques et organisationnelles afin de garantir que les données à caractère personnel ne soient pas reliées à une personne physique identifiée ou identifiable.</p>",
+          "<h2 class=\"case-section__title\">6.</h2>",
+          "<p class=\"case-section__paragraph\">L'Autorité constate que la disposition citée est effectivement bien plus précise que le texte actuel de l'article 3 de l'arrêté du 24 mai 2013. Plusieurs éléments essentiels du traitement de données y sont repris d'emblée (par exemple la finalité, le responsable du traitement), tandis que pour la détermination des autres éléments, une délégation explicite au ministre est prévue. L'Autorité est dès lors globalement positive à l'égard du Projet.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2019:ARR.20190116.10-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le responsable du traitement des données pseudonymisées est l'agence. Pour le traitement, l'agence peut collaborer avec le Vlaams Instituut voor Kwaliteit van Zorg (Institut flamand de la Qualité des Soins), mentionné au chapitre 2, section 1 du décret du 15 juillet 2016 portant diverses dispositions relatives au domaine politique de l'Aide sociale, Santé publique et Famille.</p>",
+          "<h2 class=\"case-section__title\">7.</h2>",
+          "<p class=\"case-section__paragraph\">Dans la foulée, l'Autorité demande de préciser la phrase relative à l'éventuelle collaboration entre l'Agence Soins et Santé et le Vlaams Instituut voor Kwaliteit van Zorg (Institut flamand de la Qualité des Soins) (voir passage souligné au point 5). On ne peut en effet pas déduire de la formulation actuelle ce que cette collaboration implique exactement et pour des raisons de légalité et de transparence, il convient d'éviter un tel manque de précision. Par souci d'exhaustivité, l'Autorité souligne également que l'article 16 du décret contenant l'ajustement des décrets au règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive.</p>",
+          "<p class=\"case-section__paragraph\">95/46/CE (règlement général sur la protection des données) impose aux autorités flamandes l'obligation de conclure des protocoles d'accord afin d'encadrer les échanges de données.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 10,
+        "avgCitationsPerTeaching": 5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 1,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

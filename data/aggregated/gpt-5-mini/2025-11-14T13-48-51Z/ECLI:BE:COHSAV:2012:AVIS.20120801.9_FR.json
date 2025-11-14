@@ -1,0 +1,462 @@
+{
+  "decision_id": "ECLI:BE:COHSAV:2012:AVIS.20120801.9",
+  "language": "FR",
+  "metadata": {
+    "id": 26090,
+    "court_ecli_code": "COHSAV",
+    "decision_date": "2012-08-01",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Avis",
+    "md_length": 4434,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commission pour l'aide financière aux victimes d'actes intentionnels de violence et aux sauveteurs occasionnels, 1er août 2012, N° M50799 / N° 4904, ECLI:BE:COHSAV:2012:AVIS.20120801.9"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+        "name": "Madame X.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+        "name": "Commission pour l'aide financière aux victimes d'actes intentionnels de violence et aux sauveteurs occasionnels",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+        "name": "délégué du Ministre de la Justice",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "MINISTERE_PUBLIC"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+        "name": "le nommé Z.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Par requête introduite le 29/4/2011 la requérante expose qu'elle a été victime d'un acte intentionnel de violence et demande l'octroi d'une aide d'urgence. Entre 2002 et 2004, à ..., la requérante a été victime à plusieurs reprises de coups (tentative d'étranglement, coups à la face, au thorax, viol anal) de la part du nommé Z. qui était son compagnon et n'a pas accepté la rupture; elle a dû quitter son domicile et se cacher. La requérante a déposé plainte le 15/5/2003 et a fait une déclaration de personne lésée le 28/7/2005. Elle a déjà reçu une aide d'urgence de 3.500 € par décision du 18/4/2006. Des certificats médicaux et de kinésithérapie datés de 8/3/2011, 31/3/2011 et 17/6/2011 attestent de séquelles physiques et psychiques (troubles anorectaux, traitement psychiatrique, révision de tympanoplastie II gauche) et d'un suivi psychologique hebdomadaire. La requérante est reconnue invalide à plus de 66 % et justifie de frais médicaux et de kinésithérapie de 1.764,51 € ainsi que de frais dentaires estimés à 1.750 €.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+          "requests": "La requérante demande l'octroi d'une aide d'urgence au titre des actes de violence dont elle a été victime."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "PAR CES MOTIFS :\n\nVu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004, les articles 15bis, 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,\n\nLa Commission, statuant contradictoirement à l'égard de la requérante et par défaut à l'égard du délégué du Ministre, en audience publique,\n\n- déclare la demande recevable et fondée ;\n- alloue à la requérante une aide d'urgence de $3.000 €$.",
+      "outcome": "FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres, modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+        "provisionNumber": "article 41",
+        "provisionNumberKey": "41",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres, modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+        "provisionNumber": "article 15bis",
+        "provisionNumberKey": "15bis",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+        "provisionNumber": "article 28",
+        "provisionNumberKey": "28",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-005",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+        "provisionNumber": "article 32",
+        "provisionNumberKey": "32",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-006",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+        "provisionNumber": "article 39",
+        "provisionNumberKey": "39",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-007",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+        "provisionNumber": "article 42",
+        "provisionNumberKey": "42",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "COMMISSION POUR L'AIDE FINANCIERE AUX VICTIMES D'ACTES INTENTIONNELS DE VIOLENCE ET AUX SAUVETEURS OCCASIONNELS",
+        "date": "2011-04-29",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "COMMISSION POUR L'AIDE FINANCIERE AUX VICTIMES D'ACTES INTENTIONNELS DE VIOLENCE ET AUX SAUVETEURS OCCASIONNELS",
+        "date": "2006-04-18",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit des victimes",
+      "Violence conjugale",
+      "Agression sexuelle",
+      "Coups et blessures",
+      "Séquelles médicales",
+      "Recevabilité",
+      "Aide d'urgence",
+      "Prise en charge médicale",
+      "Cumul d'aides antérieures",
+      "Décision administrative"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+        "text": "Pour l'octroi d'une aide d'urgence, la Commission apprécie la recevabilité et le bien‑fondé de la demande en tenant compte des frais médicaux et de kinésithérapie justifiés, des frais dentaires évalués, du taux d'invalidité et des ressources de la personne. Une aide antérieure constitue un élément pertinent pour déterminer le montant alloué.",
+        "courtVerbatim": "Il résulte des éléments du dossier que les conditions de recevabilité pour une demande d'aide d'urgence sont remplies.\n\nTenant compte :\n\n- des frais médicaux et de kinésithérapie d'un montant de $1.764,51 €$ que la requérante justifie ;\n- des frais dentaires évalués selon un devis à $1.750 €$ auxquels la requérante doit également faire face ;\n- de ce que la requérante est reconnue invalide à plus de $66 \\%$ et ne dispose que d'indemnités de la mutuelle;\net d'autre part :\n- de ce que la requérante a déjà reçu de la Commission une aide d'urgence de $3.500 €$ par décision du 18/4/2006.\nla Commission estime qu'il y a lieu d'allouer à la requérante une aide d'urgence de $3.000 €$.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la Commission reçoit une demande d'aide d'urgence et doit apprécier recevabilité et opportunité de l'allocation en fonction des frais médicaux/dentaires, du taux d'invalidité et des ressources.",
+        "relevantFactualContext": "La requérante, victime d'actes de violence, justifie frais médicaux et dentaires, est reconnue invalide à plus de 66 % et ne perçoit que des indemnités de la mutuelle ; elle avait par ailleurs reçu une aide d'urgence antérieure.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-005"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 1
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "La requérante, victime d'actes intentionnels de violence (coups, viol anal, harcèlement) a saisi la Commission pour obtenir une aide d'urgence visant à couvrir des frais médicaux, de kinésithérapie et dentaires. La Commission constate la recevabilité et, au vu des certificats médicaux et de l'incapacité reconnue (>66 %) et en tenant compte d'une aide antérieure de 3.500 €, déclare la demande fondée. Elle alloue à la requérante une aide d'urgence de 3.000 €, motivant sa décision par les justificatifs produits et la situation financière."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004, les articles 15bis, 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la requérante et par défaut à l'égard du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-005",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-006",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004, les articles 15bis, 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la requérante et par défaut à l'égard du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-005",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-006",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004, les articles 15bis, 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la requérante et par défaut à l'égard du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-005",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-006",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004, les articles 15bis, 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la requérante et par défaut à l'égard du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-005",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-006",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004, les articles 15bis, 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la requérante et par défaut à l'égard du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-005",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-006",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004, les articles 15bis, 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la requérante et par défaut à l'égard du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-006",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-005",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004, les articles 15bis, 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la requérante et par défaut à l'égard du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-007",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-002",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-003",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-004",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-005",
+          "ART-ECLI:BE:COHSAV:2012:AVIS.20120801.9-006"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 7,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 7,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 7,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2012:AVIS.20120801.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Il résulte des éléments du dossier que les conditions de recevabilité pour une demande d'aide d'urgence sont remplies.</p>",
+          "<p class=\"case-section__paragraph\">Tenant compte :</p>",
+          "<ul>\n<li>des frais médicaux et de kinésithérapie d'un montant de 1.764,51 euros que la requérante justifie ;</li>\n<li>des frais dentaires évalués selon un devis à 1.750 euros auxquels la requérante doit également faire face ;</li>\n<li>de ce que la requérante est reconnue invalide à plus de 66% et ne dispose que d'indemnités de la mutuelle; et d'autre part :</li>\n</ul>",
+          "<ul>\n<li>de ce que la requérante a déjà reçu de la Commission une aide d'urgence de 3.500 euros par décision du 18/4/2006.</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">la Commission estime qu'il y a lieu d'allouer à la requérante une aide d'urgence de 3.000 euros .</p>",
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003 et 27 décembre 2004, les articles 15bis, 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la requérante et par défaut à l'égard du délégué du Ministre, en audience publique,</p>",
+          "<ul>\n<li>déclare la demande recevable et fondée ;</li>\n<li>alloue à la requérante une aide d'urgence de 3.000 euros.</li>\n</ul>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 5,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 7,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

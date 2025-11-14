@@ -1,0 +1,1001 @@
+{
+  "decision_id": "ECLI:BE:GHCC:1991:ARR.017",
+  "language": "FR",
+  "metadata": {
+    "id": 18207,
+    "court_ecli_code": "GHCC",
+    "court_name": "Cour constitutionnelle",
+    "decision_date": "1991-07-04",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 23673,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour d'arbitrage, 4 juillet 1991, ECLI:BE:GHCC:1991:ARR.017"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GHCC:1991:ARR.017-001",
+        "name": "Nicole DELHEZ",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GHCC:1991:ARR.017-002",
+        "name": "Andrée SIMONET",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GHCC:1991:ARR.017-003",
+        "name": "Etat belge, en la personne du ministre des finances",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GHCC:1991:ARR.017-004",
+        "name": "Conseil des ministres",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "PARTIE_INTERVENANTE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GHCC:1991:ARR.017-005",
+        "name": "Tribunal de première instance de Nivelles",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Andrée SIMONET, décédée le 5 février 1989, bénéficiait de deux pensions : en qualité de veuve de fonctionnaire une pension de survie annuelle à charge du ministère des Finances (depuis le 1er octobre 1978, montant indiqué 121.584 fr) et en qualité d'employée retraitée une pension de retraite annuelle de l'Office National des Pensions pour Travailleurs Salariés (112.138 fr). En application de l'article 40bis introduit dans la loi du 5 août 1978 par l'arrêté royal no 30 du 30 mars 1982, le cumul de ses pensions a été limité (exemple chiffré dans l'acte : maximum autorisé 283.974 × 110 % = 156.185 fr ; pension de survie réduite et différence résultante 44.047 fr). Andrée SIMONET a cité l'Etat belge devant le tribunal de première instance de Nivelles pour obtenir la différence entre le montant initial et le montant plafonné de sa pension de survie. Après le décès d'Andrée SIMONET, sa fille Nicole DELHEZ a repris l'instance et, par conclusions additionnelles, a soutenu que l'article 40bis viole l'article 6 de la Constitution; par jugement du 2 mars 1990 la onzième chambre du tribunal de première instance de Nivelles a posé à la Cour d'arbitrage la question préjudicielle de savoir si l'article 40bis viole l'article 6 de la Constitution. La Cour a été saisie par transmission reçue le 7 mars 1990; le Conseil des ministres et Nicole Delhez ont chacun introduit des mémoires et mémoires en réponse, et l'affaire a été discutée à l'audience publique du 30 mai 1991 puis à l'audience publique du 4 juillet 1991 où la Cour a rendu son arrêt.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:GHCC:1991:ARR.017-002",
+          "requests": "Andrée SIMONET demandait au tribunal d'obtenir la différence entre le montant initial et le montant plafonné de sa pension de survie et, dans ses premières conclusions, demandait d'écarter l'article 40bis de la loi du 5 août 1978 comme contraire à plusieurs conventions internationales et au principe des droits acquis."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:GHCC:1991:ARR.017-001",
+          "requests": "Nicole DELHEZ, ayant repris l'instance après le décès de sa mère, a fait valoir que l'article 40bis viole l'article 6 de la Constitution et a présenté ces moyens au tribunal qui, faisant droit à la demande, a posé la question préjudicielle à la Cour d'arbitrage."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:GHCC:1991:ARR.017-001",
+          "argument": "Nicole DELHEZ soutient plusieurs chefs de discrimination : (i) la diminution de la pension de survie lorsque celle-ci est cumulée avec une pension de retraite institue un régime différent selon que le bénéficiaire a travaillé ou non, pénalisant ceux qui ont travaillé; (ii) il y aurait discrimination entre titulaires d'une pension de survie cumulée avec une pension de retraite et personnes cumulant plusieurs pensions de retraite; (iii) il y aurait discrimination selon que la pension de retraite est à charge du Trésor ou d'une caisse privée; (iv) l'article 40bis frappe disproportionnellement les femmes si on le compare à l'article 40, qui plafonne le cumul de deux pensions de retraite et affecte principalement des hommes. Elle invoque en appui les principes des conventions internationales (Pacte ONU, Convention européenne des droits de l'homme, Convention OIT n°111, Convention de l'ONU sur l'élimination de la discrimination à l'égard des femmes) et la notion de discrimination indirecte issue de la jurisprudence communautaire, soutenant que les effets de la mesure montrent une discrimination fondée sur le sexe.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:GHCC:1991:ARR.017-004",
+          "argument": "Le Conseil des ministres expose que la pension de survie relève d'un principe de solidarité institué au profit du conjoint (caractère alimentaire) et qu'il n'existe pas de lien entre le paiement des cotisations et le droit à la pension de survie ; la limitation du cumul vise à harmoniser les régimes de pension, à réduire les dépenses publiques et à contribuer à l'égalité entre hommes et femmes. Il soutient en outre que les situations comparées par la demanderesse ne sont pas pertinentes parce que les pensions diffèrent par leur objet et leur mode de financement, et rappelle que le droit communautaire et les directives excluent l'application de certaines règles de l'article 119 aux pensions de survie du secteur public. Le Conseil conclut que l'article 40bis repose sur un critère objectif et raisonnable et vise un but légitime.",
+          "treatment": "ACCEPTE"
+        }
+      ],
+      "courtOrder": "LA COUR\n\nDit pour droit :\n\nL'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal no 30 du 30 mars 1982 modifiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié successivement par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, $2^{\\circ}$, de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre ler de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989 ne viole pas l'article 6 de la Constitution.",
+      "outcome": "NON_FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-001",
+        "provisionNumber": "l'article 40bis, § 1er",
+        "provisionNumberKey": "40bis",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 5 août 1978 de réformes économiques et budgétaires (loi du 05/08/1978)",
+        "parentActDate": "1978-08-05",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 40bis, § 1er, comme une règle objective de limitation du cumul entre pensions de survie et pensions de retraite fondée sur un critère lié au fait d'avoir acquis par son travail le droit à une pension de retraite. Elle juge que la disposition fixe des plafonds et des garanties minimales (montant plancher et seuils mensuels) visant à harmoniser les régimes publics et privés, et que cette limitation peut être regardée comme adéquate, proportionnée et non discriminatoire si elle respecte ces garde-fous.",
+        "relevantFactualContext": "Application de l'article 40bis à Andrée SIMONET, bénéficiaire d'une pension de survie et d'une pension de retraite; la pension de survie a été réduite en vertu du plafonnement (montant plafonné à 156.185 fr dans l'exemple donné)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-002",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-001",
+        "provisionNumber": "l'article 40",
+        "provisionNumberKey": "40",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 5 août 1978 de réformes économiques et budgétaires (loi du 05/08/1978)",
+        "parentActDate": "1978-08-05",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-003",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-001",
+        "provisionNumber": "l'article 38",
+        "provisionNumberKey": "38",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 5 août 1978 de réformes économiques et budgétaires (loi du 05/08/1978)",
+        "parentActDate": "1978-08-05",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour explicite la nature et l'objet des « pensions de survie » visées à l'article 38: il s'agit d'une prestation à caractère alimentaire, fondée sur un principe de solidarité et destinée à prévenir les difficultés matérielles du conjoint survivant, financée par un prélèvement opéré sur le traitement des fonctionnaires et distincte des pensions de retraite.",
+        "relevantFactualContext": "Andrée SIMONET percevait, au titre de l'article 38, une pension de survie à charge du ministère des Finances, réduite en raison du cumul avec une pension de retraite privée."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-004",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-002",
+        "provisionNumber": "l'article 2",
+        "provisionNumberKey": "2",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "l'arrêté royal n° 30 du 30 mars 1982 modifiant la législation relative aux pensions du secteur public (AR 30/03/1982)",
+        "parentActDate": "1982-03-30",
+        "parentActNumber": "n° 30",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-005",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-003",
+        "provisionNumber": "l'article 92",
+        "provisionNumberKey": "92",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension (loi du 15/05/1984)",
+        "parentActDate": "1984-05-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-006",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-003",
+        "provisionNumber": "l'article 2",
+        "provisionNumberKey": "2",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension (loi du 15/05/1984)",
+        "parentActDate": "1984-05-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-007",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-004",
+        "provisionNumber": "l'article 22, 2°",
+        "provisionNumberKey": "22",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre Ier de la loi du 15 mai 1984 (AR 29/01/1985)",
+        "parentActDate": "1985-01-29",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-008",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-005",
+        "provisionNumber": "l'article 51",
+        "provisionNumberKey": "51",
+        "parentActType": "LOI",
+        "parentActName": "la loi-programme du 6 juillet 1989 (loi-programme du 06/07/1989)",
+        "parentActDate": "1989-07-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-009",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-005",
+        "provisionNumber": "l'article 52",
+        "provisionNumberKey": "52",
+        "parentActType": "LOI",
+        "parentActName": "la loi-programme du 6 juillet 1989 (loi-programme du 06/07/1989)",
+        "parentActDate": "1989-07-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-010",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-006",
+        "provisionNumber": "l'article 6",
+        "provisionNumberKey": "6",
+        "parentActType": "CONSTITUTION",
+        "parentActName": "la Constitution belge (Constitution)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour applique l'article 6 (principe d'égalité) en exigeant que toute distinction législative repose sur un critère objectif et adéquat au but poursuivi; elle retient que la limitation de cumul peut être examinée selon les exigences de nécessité et de proportionnalité et qu'un effet statistiquement plus important sur les femmes n'établit pas ipso facto une discrimination fondée sur le sexe si la mesure poursuit un but légitime et répond à des critères objectifs.",
+        "relevantFactualContext": "La demande soutenait que l'article 40bis frappait principalement des femmes (veuves) et constituait une discrimination; l'affaire porte sur la réduction de la pension de survie d'Andrée SIMONET et la contestation fondée sur l'égalité devant la Constitution."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-011",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-007",
+        "provisionNumber": "l'article 58, alinéas 2 et 3",
+        "provisionNumberKey": "58",
+        "parentActType": "LOI",
+        "parentActName": "la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage (loi spéciale du 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-012",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-007",
+        "provisionNumber": "l'article 59, alinéas 2 et 3",
+        "provisionNumberKey": "59",
+        "parentActType": "LOI",
+        "parentActName": "la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage (loi spéciale du 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-013",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-007",
+        "provisionNumber": "l'article 71",
+        "provisionNumberKey": "71",
+        "parentActType": "LOI",
+        "parentActName": "la loi spéciale organique de la Cour d'arbitrage du 6 janvier 1989 (loi spéciale du 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-014",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-007",
+        "provisionNumber": "l'article 73",
+        "provisionNumberKey": "73",
+        "parentActType": "LOI",
+        "parentActName": "la loi spéciale organique de la Cour d'arbitrage du 6 janvier 1989 (loi spéciale du 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-015",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-007",
+        "provisionNumber": "l'article 74",
+        "provisionNumberKey": "74",
+        "parentActType": "LOI",
+        "parentActName": "la loi spéciale organique de la Cour d'arbitrage du 6 janvier 1989 sur la Cour d'arbitrage (loi spéciale du 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-016",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-007",
+        "provisionNumber": "l'article 77",
+        "provisionNumberKey": "77",
+        "parentActType": "LOI",
+        "parentActName": "la loi spéciale organique du 6 janvier 1989 sur la Cour d'arbitrage (loi spéciale du 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-017",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-007",
+        "provisionNumber": "l'article 89",
+        "provisionNumberKey": "89",
+        "parentActType": "LOI",
+        "parentActName": "la loi spéciale organique du 6 janvier 1989 sur la Cour d'arbitrage (loi spéciale du 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-018",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-007",
+        "provisionNumber": "l'article 62",
+        "provisionNumberKey": "62",
+        "parentActType": "LOI",
+        "parentActName": "la loi spéciale organique de la Cour d'arbitrage du 6 janvier 1989 (loi spéciale du 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-019",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-007",
+        "provisionNumber": "l'article 65",
+        "provisionNumberKey": "65",
+        "parentActType": "LOI",
+        "parentActName": "la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage (loi spéciale du 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-020",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-007",
+        "provisionNumber": "l'article 56, alinéa 3",
+        "provisionNumberKey": "56",
+        "parentActType": "LOI",
+        "parentActName": "la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage (loi spéciale du 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-021",
+        "internalParentActId": "ACT-ECLI:BE:GHCC:1991:ARR.017-008",
+        "provisionNumber": "l'article 119",
+        "provisionNumberKey": "119",
+        "parentActType": "TRAITE",
+        "parentActName": "le Traité CEE (Traité instituant la Communauté économique européenne)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour retient, en s'appuyant sur la jurisprudence de la Cour de justice, que l'article 119 du Traité CEE et les directives citées ont été écartés pour ce qui concerne les pensions de survie du secteur public; en conséquence, cet article du Traité n'éclaire pas l'examen de la conformité de la disposition critiquée au principe constitutionnel d'égalité dans le présent litige.",
+        "relevantFactualContext": "Le litige porte sur une pension de survie à charge du Trésor public; la Cour constate que les pensions de survie du secteur public sont exclues du champ d'application d'article 119 selon la jurisprudence citée."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Nivelles",
+        "date": "1990-03-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit constitutionnel",
+      "Pension de survie",
+      "Cumul de pensions",
+      "Secteur public",
+      "Veuve de fonctionnaire",
+      "Discrimination sexuelle",
+      "Égalité constitutionnelle",
+      "Critère objectif",
+      "Proportionnalité",
+      "Question préjudicielle"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GHCC:1991:ARR.017-001",
+        "text": "La pension de survie, instituée dans le secteur public, a un caractère alimentaire et solidaire distinct de la pension de retraite; elle n'est pas assimilable à un traitement différé ni à un contrat d'assurance, ce qui explique que son régime et son mode de financement puissent être traités différemment de ceux des pensions de retraite.",
+        "courtVerbatim": "La pension de survie a été instituée, dans le secteur public, pour éviter au conjoint d'un fonctionnaire d'être exposé à des difficultés matérielles après le décès de son époux. Financée par un prélèvement opéré sur le traitement des fonctionnaires, qu'ils soient célibataires ou mariés, elle est accordée, dans les limites prévues par la loi, au conjoint marié depuis un an au moins à la date du décès de son époux. Fondée sur un objectif de solidarité, elle ne s'apparente ni à un contrat d'assurance, ni à un traitement différé : par les retenues qu'il subit sur son traitement, le fonctionnaire assure une pension de survie non à son conjoint mais à l'ensemble des veuves et des veufs de fonctionnaires qui, à défaut d'une telle pension, risqueraient de se trouver sans ressources.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la loi distingue entre prestations de survie (alimentaires, financées par prélèvements sur traitements) et pensions de retraite (traitement différé ou régimes assurantiels).",
+        "relevantFactualContext": "La bénéficiaire percevait, à charge du Trésor public, une pension de survie et, parallèlement, une pension de retraite relevant d'un régime de travailleurs salariés; l'administration a réduit la pension de survie en application du mécanisme de plafonnement prévu par la loi.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GHCC:1991:ARR.017-002",
+        "text": "La limitation du cumul entre pensions de survie et pensions de retraite fondée sur le critère objectif d'avoir acquis par son travail le droit à une pension de retraite est compatible avec le principe d'égalité lorsqu'elle poursuit un but légitime, repose sur un critère adéquat au but poursuivi et est proportionnée, notamment grâce à des garde-fous (plafonds, montants plancher, seuils) évitant un effet disproportionné.",
+        "courtVerbatim": "En réduisant la pension de survie des veuves et des veufs qui bénéficient en outre d'une pension de retraite, le législateur a opéré, selon un critère objectif, une distinction entre deux catégories de bénéficiaires : d'une part ceux qui, par leur propre travail, ont acquis le droit à une pension de retraite; d'autre part, ceux qui, n'ayant pas accompli un travail rémunéré, n'ont pas droit à une telle pension. Ces catégories sont établies selon un critère adéquat au but poursuivi... En limitant le cumul des pensions de survie et de retraite, le législateur a pris une mesure qui repose sur un critère objectif et raisonnable, qui est en rapport avec le but recherché, qui n'est pas disproportionnée à ce but et qui est étrangère à toute discrimination fondée sur le sexe, quel que soit le nombre d'hommes et de femmes concernés à un moment ou à un autre par cette mesure.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une disposition législative limite le cumul de prestations distinctes en se fondant sur le fait que le bénéficiaire a acquis par son travail un droit à pension de retraite.",
+        "relevantFactualContext": "L'article 40bis a été appliqué pour réduire la pension de survie d'un bénéficiaire qui percevait également une pension de retraite; la Cour a examiné si la distinction opérée par la loi poursuivait un but légitime et était proportionnée, en tenant compte des mécanismes de protection prévus par la loi.",
+        "principleType": "BALANCING_TEST",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-010"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GHCC:1991:ARR.017-003",
+        "text": "Un effet statistiquement plus important d'une règle sur un groupe protégé (par ex. plus de femmes touchées) n'établit pas ipso facto une discrimination fondée sur le sexe; il faut que la distinction soit dépourvue de justification objective et proportionnée. La preuve d'un impact numérique doit être appréciée à la lumière de l'objectif poursuivi et des critères objectifs retenus par le législateur.",
+        "courtVerbatim": "Sans doute la disposition critiquée ne concernait-elle, en 1982, que les veuves et il est vrai qu'elle atteint encore actuellement, dans ses effets, une proportion plus grande de femmes que d'hommes. Cette constatation n'établit cependant pas l'existence d'une discrimination fondée sur le sexe. Fidèle à l'objectif de solidarité rappelé au B.2.1., le législateur a tenu compte de ce que, lorsqu'elle a elle-même exercé une occupation lucrative, la veuve d'un fonctionnaire n'est pas privée de toutes ressources par la mort de son mari. ... En limitant le cumul des pensions de survie et de retraite, le législateur a pris une mesure qui repose sur un critère objectif et raisonnable, qui est en rapport avec le but recherché, qui n'est pas disproportionnée à ce but et qui est étrangère à toute discrimination fondée sur le sexe...",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une mesure législative produit un effet statistique différencié sur un groupe protégé et que la conformité au principe d'égalité doit être évaluée.",
+        "relevantFactualContext": "La requérante soutenait que l'article limitant le cumul frappait principalement des femmes; la Cour a examiné l'effet statistique allégué et a conclu que cet impact n'établissait pas automatiquement une discrimination sans analyse de l'objectif et des critères objectifs de la loi.",
+        "principleType": "LEGAL_TEST",
+        "legalArea": "DISCRIMINATION_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-010",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 1,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 1,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 1,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur a contesté devant le tribunal la réduction opérée par l'État, au titre de l'article 40bis de la loi du 5 août 1978, du cumul entre pension de survie et pension de retraite en alléguant une violation de l'article 6 de la Constitution et des discriminations, notamment fondées sur le sexe. La Cour d'arbitrage a jugé que l'article 40bis ne viole pas l'article 6, considérant que la distinction repose sur un critère objectif et raisonnable tenant à la différence d'objet et de financement entre pension de survie (solidarité) et pension de retraite (traitement différé) et qu'elle est proportionnée au but d'harmonisation et de maîtrise des dépenses publiques. La Cour a enfin retenu que l'effet principalement féminin de la mesure n'établit pas seul une discrimination prohibée et que des garanties minimales évitent un effet disproportionné."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modifiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989, viole-t-il l'article 6 de la Constitution ?\"</blockquote>",
+          "<p class=\"case-section__paragraph\">En application de l'article 40bis introduit dans la loi du 5 août 1978 de réformes économiques et budgétaires par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982, elle a vu le cumul de ses pensions limité à \"110 % de la moitié du traitement maximum de l'échelle barémique attachée au dernier grade\" de son mari défunt.</p>",
+          "<p class=\"case-section__paragraph\">Andrée SIMONET cita l'Etat belge devant le tribunal de première instance de Nivelles afin d'obtenir la différence entre le montant initial et le montant plafonné de sa pension de survie. Dans sa citation et dans ses premières conclusions, elle demandait au tribunal d'écarter l'article 40bis de la loi du 5 août 1978 au motif qu'il était en contradiction avec plusieurs conventions internationales directement applicables en Belgique et qu'il violait le principe des droits acquis. Par des \"conclusions additionnelles secondes\" déposées le 5 janvier 1990, Nicole DELHEZ, fille d'Andrée SIMONET, qui avait repris l'instance après le décès de sa mère, a fait valoir que l'article 40bis précité 4 violait l'article 6 de la Constitution et, faisant droit à sa demande, le tribunal a posé la question préjudicielle énoncée ci-dessus.</p>",
+          "<p class=\"case-section__paragraph\">Sur la troisième discrimination alléguée, le Conseil des ministres répond que l'article 40bis reprend une règle de cumul admise depuis longtemps dans le secteur privé.</p>",
+          "<p class=\"case-section__paragraph\">Dans son mémoire, Nicole DELHEZ, développant une argumentation qu'elle avait déjà fait valoir devant le tribunal, invoque une quatrième discrimination. Elle soutient que l'article 40bis de la loi du 5 août 1978 entraîne une inégalité de 9 traitement au détriment des femmes si on le compare à l'article 40 de la même loi. Celui-ci, en effet, limite le cumul de deux pensions de retraite à trois quarts du traitement maximum de secrétaire général de ministère (plafond porté ultérieurement à 715.500 fr indexés). Il s'agit d'une limitation de cumul qui n'atteint pratiquement que des hommes. L'article 40bis, qui prévoit une limitation du cumul beaucoup plus sévère, atteint presqu'exclusivement des femmes.</p>",
+          "<p class=\"case-section__paragraph\">L'article 40bis, § 1er, de la loi du 5 août 1978 de réformes économiques et budgétaires, qui fait l'objet de la question préjudicielle, est libellé comme suit:</p>",
+          "<blockquote class=\"case-quote\">\"Article 40bis. - § 1er. Sans préjudice de l'application ultérieure du maximum absolu prévu à l'article 40, les pensions de survie visées à l'article 38, ne peuvent être cumulées avec des pensions de retraite visées au même article qu'à 12 concurrence de 55 p.c. du traitement maximum de l'échelle barémique attachée au dernier grade de l'agent défunt, pris en considération pour le calcul ou la dernière révision de la plus élevée des pensions de survie. Ce traitement maximum est augmenté, le cas échéant, des rémunérations supplémentaires prises en compte pour le calcul de ladite pension de survie, à l'exclusion des indemnités et allocations afférentes à des activités complémentaires ou accessoires à la fonction considérée. Pour l'application de l'alinéa 1er, les pensions, compléments de pensions, rentes, allocations et autres avantages tenant lieu de pension de retraite et de survie sont additionnés. Outre les pensions de retraite visées à l'article 38, il est tenu compte, pour l'application de l'alinéa 1er, des pensions d'ancienneté et d'invalidité ou de tout avantage en tenant lieu, octroyés en vertu d'une législation belge ou étrangère ou en vertu d'un régime de pension d'une institution de droit international public. Ne sont toutefois pas visées, les pensions et rentes constituant exclusivement la réparation d'un dommage physique. L'application des alinéas 1er à 4 ne peut avoir pour effet de ramener l'ensemble des pensions de retraite et de survie visées par le présent article à un montant inférieur à celui constitué par les seules pensions de survie visées à l'article 38 ou à un montant inférieur à 125.000 francs par an. Ce montant qui peut être majoré par le Roi, est lié à l'indice 114,20 des prix à la consommation du Royaume et varie en fonction de l'évolution de cet indice de la même manière que les pensions de survie à charge du Trésor public. Si, après l'application des alinéas 1er à 5, le montant mensuel global de l'ensemble des pensions de retraite et de survie visées par le présent article est inférieur à 40.000 francs, la réduction découlant de l'application de ces alinéas n'est effectuée qu'à concurrence de 90 pour cent, sans toutefois que le nouveau montant mensuel global ainsi obtenu puisse excéder 40.000 francs. Le montant de 40.000 francs, qui peut être majoré par le Roi, est lié à l'indice-pivot 135,30 et varie en fonction de l'évolution de cet indice de la même manière qu'une pension de survie à charge du Trésor public d'un même montant.\"</blockquote>",
+          "<p class=\"case-section__paragraph\">La comparaison avec celui qui cumule une pension de survie et une pension de retraite dont l'une est à charge du secteur privé ne révèle aucune discrimination. En effet, l'article 40bis de la loi du 5 août 1978 est, en vertu du troisième alinéa de son premier paragraphe, applicable au cumul d'une pension de survie avec une pension de retraite, que celle-ci soit à charge du Trésor public ou d'une caisse privée. Par ailleurs, les dispositions applicables aux pensions tant des salariés que des indépendants prévoient des limitations de cumul comparables à celles de l'article 40bis de la loi du 5 août 1978. Cet article a d'ailleurs pour objectif d'harmoniser les règles applicables aux pensions du secteur 15 public avec celles qui sont en vigueur dans le secteur privé.</p>",
+          "<p class=\"case-footer__paragraph\">L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modi- fiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié successivement par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989 ne viole pas l'article 6 de la Constitution.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-004",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-005",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-007",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-008",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-009",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-003",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-002",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dans son mémoire, Nicole DELHEZ, développant une argumentation qu'elle avait déjà fait valoir devant le tribunal, invoque une quatrième discrimination. Elle soutient que l'article 40bis de la loi du 5 août 1978 entraîne une inégalité de 9 traitement au détriment des femmes si on le compare à l'article 40 de la même loi. Celui-ci, en effet, limite le cumul de deux pensions de retraite à trois quarts du traitement maximum de secrétaire général de ministère (plafond porté ultérieurement à 715.500 fr indexés). Il s'agit d'une limitation de cumul qui n'atteint pratiquement que des hommes. L'article 40bis, qui prévoit une limitation du cumul beaucoup plus sévère, atteint presqu'exclusivement des femmes.</p>",
+          "<blockquote class=\"case-quote\">\"Article 40bis. - § 1er. Sans préjudice de l'application ultérieure du maximum absolu prévu à l'article 40, les pensions de survie visées à l'article 38, ne peuvent être cumulées avec des pensions de retraite visées au même article qu'à 12 concurrence de 55 p.c. du traitement maximum de l'échelle barémique attachée au dernier grade de l'agent défunt, pris en considération pour le calcul ou la dernière révision de la plus élevée des pensions de survie. Ce traitement maximum est augmenté, le cas échéant, des rémunérations supplémentaires prises en compte pour le calcul de ladite pension de survie, à l'exclusion des indemnités et allocations afférentes à des activités complémentaires ou accessoires à la fonction considérée. Pour l'application de l'alinéa 1er, les pensions, compléments de pensions, rentes, allocations et autres avantages tenant lieu de pension de retraite et de survie sont additionnés. Outre les pensions de retraite visées à l'article 38, il est tenu compte, pour l'application de l'alinéa 1er, des pensions d'ancienneté et d'invalidité ou de tout avantage en tenant lieu, octroyés en vertu d'une législation belge ou étrangère ou en vertu d'un régime de pension d'une institution de droit international public. Ne sont toutefois pas visées, les pensions et rentes constituant exclusivement la réparation d'un dommage physique. L'application des alinéas 1er à 4 ne peut avoir pour effet de ramener l'ensemble des pensions de retraite et de survie visées par le présent article à un montant inférieur à celui constitué par les seules pensions de survie visées à l'article 38 ou à un montant inférieur à 125.000 francs par an. Ce montant qui peut être majoré par le Roi, est lié à l'indice 114,20 des prix à la consommation du Royaume et varie en fonction de l'évolution de cet indice de la même manière que les pensions de survie à charge du Trésor public. Si, après l'application des alinéas 1er à 5, le montant mensuel global de l'ensemble des pensions de retraite et de survie visées par le présent article est inférieur à 40.000 francs, la réduction découlant de l'application de ces alinéas n'est effectuée qu'à concurrence de 90 pour cent, sans toutefois que le nouveau montant mensuel global ainsi obtenu puisse excéder 40.000 francs. Le montant de 40.000 francs, qui peut être majoré par le Roi, est lié à l'indice-pivot 135,30 et varie en fonction de l'évolution de cet indice de la même manière qu'une pension de survie à charge du Trésor public d'un même montant.\"</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-002",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-003",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"Article 40bis. - § 1er. Sans préjudice de l'application ultérieure du maximum absolu prévu à l'article 40, les pensions de survie visées à l'article 38, ne peuvent être cumulées avec des pensions de retraite visées au même article qu'à 12 concurrence de 55 p.c. du traitement maximum de l'échelle barémique attachée au dernier grade de l'agent défunt, pris en considération pour le calcul ou la dernière révision de la plus élevée des pensions de survie. Ce traitement maximum est augmenté, le cas échéant, des rémunérations supplémentaires prises en compte pour le calcul de ladite pension de survie, à l'exclusion des indemnités et allocations afférentes à des activités complémentaires ou accessoires à la fonction considérée. Pour l'application de l'alinéa 1er, les pensions, compléments de pensions, rentes, allocations et autres avantages tenant lieu de pension de retraite et de survie sont additionnés. Outre les pensions de retraite visées à l'article 38, il est tenu compte, pour l'application de l'alinéa 1er, des pensions d'ancienneté et d'invalidité ou de tout avantage en tenant lieu, octroyés en vertu d'une législation belge ou étrangère ou en vertu d'un régime de pension d'une institution de droit international public. Ne sont toutefois pas visées, les pensions et rentes constituant exclusivement la réparation d'un dommage physique. L'application des alinéas 1er à 4 ne peut avoir pour effet de ramener l'ensemble des pensions de retraite et de survie visées par le présent article à un montant inférieur à celui constitué par les seules pensions de survie visées à l'article 38 ou à un montant inférieur à 125.000 francs par an. Ce montant qui peut être majoré par le Roi, est lié à l'indice 114,20 des prix à la consommation du Royaume et varie en fonction de l'évolution de cet indice de la même manière que les pensions de survie à charge du Trésor public. Si, après l'application des alinéas 1er à 5, le montant mensuel global de l'ensemble des pensions de retraite et de survie visées par le présent article est inférieur à 40.000 francs, la réduction découlant de l'application de ces alinéas n'est effectuée qu'à concurrence de 90 pour cent, sans toutefois que le nouveau montant mensuel global ainsi obtenu puisse excéder 40.000 francs. Le montant de 40.000 francs, qui peut être majoré par le Roi, est lié à l'indice-pivot 135,30 et varie en fonction de l'évolution de cet indice de la même manière qu'une pension de survie à charge du Trésor public d'un même montant.\"</blockquote>",
+          "<p class=\"case-section__paragraph\">La pension de survie a été instituée, dans le secteur public, pour éviter au conjoint d'un fonctionnaire d'être exposé à des difficultés matérielles après le décès de son époux. Financée par un prélèvement opéré sur le traitement des fonctionnaires, qu'ils soient célibataires ou mariés, elle est accordée, dans les limites prévues par la loi, au conjoint marié depuis un an au moins à la date du décès de son époux. Fondée sur un objectif de solidarité, elle ne s'apparente ni à un contrat d'assurance, ni à un traitement différé : par les retenues qu'il subit sur son traitement, le fonctionnaire assure une pension de survie non à son conjoint mais à l'ensemble des veuves et des veufs de fonctionnaires qui, à défaut d'une telle pension, risqueraient de se trouver sans ressources.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-003",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-004",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modifiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989, viole-t-il l'article 6 de la Constitution ?\"</blockquote>",
+          "<p class=\"case-section__paragraph\">En application de l'article 40bis introduit dans la loi du 5 août 1978 de réformes économiques et budgétaires par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982, elle a vu le cumul de ses pensions limité à \"110 % de la moitié du traitement maximum de l'échelle barémique attachée au dernier grade\" de son mari défunt.</p>",
+          "<p class=\"case-footer__paragraph\">L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modi- fiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié successivement par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989 ne viole pas l'article 6 de la Constitution.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-004",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-005",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-007",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-008",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-005",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modifiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989, viole-t-il l'article 6 de la Constitution ?\"</blockquote>",
+          "<p class=\"case-footer__paragraph\">L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modi- fiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié successivement par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989 ne viole pas l'article 6 de la Constitution.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-005",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-004",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-007",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-008",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">En revanche, ajoute le Conseil des Ministres, lorsqu'au XXème siècle ont été organisés les régimes de pension des travailleurs salariés et indépendants, le travail de la femme étant devenu une réalité économique, le cumul des deux pensions a été limité. L'article 2 de l'arrêté royal n° 8 30, poursuit le Conseil des ministres, a pour but d'harmoniser les régimes de pension, de contribuer à la réduction des dépenses publiques et de permettre ultérieurement de réaliser l'égalité entre hommes et femmes. Cet objectif sera atteint par la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, dont l'article 2 substitue à la pension de veuve celle du conjoint survivant.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-006",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-007",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modifiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989, viole-t-il l'article 6 de la Constitution ?\"</blockquote>",
+          "<p class=\"case-footer__paragraph\">L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modi- fiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié successivement par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989 ne viole pas l'article 6 de la Constitution.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-007",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-004",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-005",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-008",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-008",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modifiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989, viole-t-il l'article 6 de la Constitution ?\"</blockquote>",
+          "<p class=\"case-footer__paragraph\">L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modi- fiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié successivement par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989 ne viole pas l'article 6 de la Constitution.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-008",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-004",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-005",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-007",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-009",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modifiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989, viole-t-il l'article 6 de la Constitution ?\"</blockquote>",
+          "<p class=\"case-footer__paragraph\">L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modi- fiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié successivement par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989 ne viole pas l'article 6 de la Constitution.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-009",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-004",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-005",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-007",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-010",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modifiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989, viole-t-il l'article 6 de la Constitution ?\"</blockquote>",
+          "<p class=\"case-section__paragraph\">Par des \"conclusions additionnelles secondes\" déposées le 5 janvier 1990, Nicole DELHEZ, fille d'Andrée SIMONET, qui avait repris l'instance après le décès de sa mère, a fait valoir que l'article 40bis précité 4 violait l'article 6 de la Constitution et, faisant droit à sa demande, le tribunal a posé la question préjudicielle énoncée ci-dessus.</p>",
+          "<p class=\"case-section__paragraph\">Après avoir rappelé les définitions données au principe d'égalité par la Cour de cassation, par le Conseil d'Etat puis par la Cour d'arbitrage, Nicole DELHEZ souligne que, pour examiner si une loi viole l'article 6 de la Constitution, il faut la soumettre \"à tous les critères de légalité dont elle doit répondre, à savoir, bien entendu la Constitution, mais également les règles supranationales telles que celles-ci ont été interprétées par les juridictions, le cas échéant internationales.\"</p>",
+          "<p class=\"case-section__paragraph\">Il en conclut que, si la portée exacte de l'article 6 de la Constitution doit être éclairée par des normes supranationales, encore faut-il qu'il s'agisse de normes applicables en matière de pensions de survie, ce qui n'est le cas ni de la Convention européenne des droits de l'homme ni du droit communautaire.</p>",
+          "<p class=\"case-footer__paragraph\">L'article 40bis de la loi du 5 août 1978 de réformes économiques et budgétaires, inséré dans cette loi par l'article 2 de l'arrêté royal n° 30 du 30 mars 1982 modi- fiant la législation relative aux pensions du secteur public, pris sur habilitation de la loi du 2 février 1982 attribuant certains pouvoirs spéciaux au Roi, modifié successivement par l'article 92 de la loi du 15 mai 1984 portant mesures d'harmonisation dans les régimes de pension, par l'article 22, 2° , de l'arrêté royal du 29 janvier 1985 fixant les modalités d'application de certaines dispositions du livre 1er de la loi du 15 mai 1984 portant mesure d'harmonisation dans les régimes de pension, et par les articles 51 et 52 de la loi programme du 6 juillet 1989 ne viole pas l'article 6 de la Constitution.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-010",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-021"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-011",
+        "relatedFullTextCitations": [
+          "<li>La Cour a été saisie de la question préjudicielle par la transmission d'une expédition de la décision de renvoi précitée, reçue au greffe le 7 mars 1990. Par ordonnance du 7 mars 1990, le président en exercice a désigné les juges du siège de la Cour conformément aux articles 58 et 59, alinéas 2 et 3, de la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage. Les juges rapporteurs de l'époque, I. PETRY et L. DE GREVE, ont estimé en date du 20 mars 1990 qu'il n'y avait pas lieu de faire application des articles 71 à 73 de la loi spéciale organique de la Cour. L'avis prescrit par l'article 74 de la loi organique a été publié au Moniteur belge du 6 avril 1990. La décision de renvoi a été notifiée, conformément à l'article 77 de la loi organique, par lettres recommandées à la poste le 4 avril 1990 remises aux destinataires les 5, 6, 9, 11 et 17 avril 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire, respectivement en date du 18 mai 1990 et du 21 mai 1990. Conformément à l'article 89 de la loi organique, ces 5 mémoires ont été notifiés par lettres recommandées à la poste le 5 juin 1990 remises aux destinataires les 6 et 7 juin 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire en réponse, respectivement en date du 3 juillet 1990 et du 5 juillet 1990. Par ordonnance du 16 janvier 1991, le président en exercice a désigné le juge P. MARTENS comme membre du siège par suite de l'accession du juge I. PETRY à la présidence de la Cour. Conformément à la délibération de la Cour du 22 janvier 1991, le juge P. MARTENS est rapporteur en la présente affaire. Par ordonnances du 26 juin 1990 et du 6 mars 1991, la Cour a prorogé le délai dans lequel l'arrêt doit être rendu respectivement jusqu'au 7 mars 1991 et jusqu'au 7 septembre 1991. Par ordonnance du 30 avril 1991, la Cour a déclaré que l'affaire est en état et a fixé l'audience au 30 mai 1991. Cette ordonnance a été notifiée aux parties, et celles- ci et leurs avocats ont été avisés de la date de l'audience par lettres recommandées à la poste le 2 mai 1991 remises aux destinataires les 3 et 6 mai 1991.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-011",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-012",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-013",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-014",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-015",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-016",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-017"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-012",
+        "relatedFullTextCitations": [
+          "<li>La Cour a été saisie de la question préjudicielle par la transmission d'une expédition de la décision de renvoi précitée, reçue au greffe le 7 mars 1990. Par ordonnance du 7 mars 1990, le président en exercice a désigné les juges du siège de la Cour conformément aux articles 58 et 59, alinéas 2 et 3, de la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage. Les juges rapporteurs de l'époque, I. PETRY et L. DE GREVE, ont estimé en date du 20 mars 1990 qu'il n'y avait pas lieu de faire application des articles 71 à 73 de la loi spéciale organique de la Cour. L'avis prescrit par l'article 74 de la loi organique a été publié au Moniteur belge du 6 avril 1990. La décision de renvoi a été notifiée, conformément à l'article 77 de la loi organique, par lettres recommandées à la poste le 4 avril 1990 remises aux destinataires les 5, 6, 9, 11 et 17 avril 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire, respectivement en date du 18 mai 1990 et du 21 mai 1990. Conformément à l'article 89 de la loi organique, ces 5 mémoires ont été notifiés par lettres recommandées à la poste le 5 juin 1990 remises aux destinataires les 6 et 7 juin 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire en réponse, respectivement en date du 3 juillet 1990 et du 5 juillet 1990. Par ordonnance du 16 janvier 1991, le président en exercice a désigné le juge P. MARTENS comme membre du siège par suite de l'accession du juge I. PETRY à la présidence de la Cour. Conformément à la délibération de la Cour du 22 janvier 1991, le juge P. MARTENS est rapporteur en la présente affaire. Par ordonnances du 26 juin 1990 et du 6 mars 1991, la Cour a prorogé le délai dans lequel l'arrêt doit être rendu respectivement jusqu'au 7 mars 1991 et jusqu'au 7 septembre 1991. Par ordonnance du 30 avril 1991, la Cour a déclaré que l'affaire est en état et a fixé l'audience au 30 mai 1991. Cette ordonnance a été notifiée aux parties, et celles- ci et leurs avocats ont été avisés de la date de l'audience par lettres recommandées à la poste le 2 mai 1991 remises aux destinataires les 3 et 6 mai 1991.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-012",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-011",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-013",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-014",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-015",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-016",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-017"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-013",
+        "relatedFullTextCitations": [
+          "<li>La Cour a été saisie de la question préjudicielle par la transmission d'une expédition de la décision de renvoi précitée, reçue au greffe le 7 mars 1990. Par ordonnance du 7 mars 1990, le président en exercice a désigné les juges du siège de la Cour conformément aux articles 58 et 59, alinéas 2 et 3, de la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage. Les juges rapporteurs de l'époque, I. PETRY et L. DE GREVE, ont estimé en date du 20 mars 1990 qu'il n'y avait pas lieu de faire application des articles 71 à 73 de la loi spéciale organique de la Cour. L'avis prescrit par l'article 74 de la loi organique a été publié au Moniteur belge du 6 avril 1990. La décision de renvoi a été notifiée, conformément à l'article 77 de la loi organique, par lettres recommandées à la poste le 4 avril 1990 remises aux destinataires les 5, 6, 9, 11 et 17 avril 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire, respectivement en date du 18 mai 1990 et du 21 mai 1990. Conformément à l'article 89 de la loi organique, ces 5 mémoires ont été notifiés par lettres recommandées à la poste le 5 juin 1990 remises aux destinataires les 6 et 7 juin 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire en réponse, respectivement en date du 3 juillet 1990 et du 5 juillet 1990. Par ordonnance du 16 janvier 1991, le président en exercice a désigné le juge P. MARTENS comme membre du siège par suite de l'accession du juge I. PETRY à la présidence de la Cour. Conformément à la délibération de la Cour du 22 janvier 1991, le juge P. MARTENS est rapporteur en la présente affaire. Par ordonnances du 26 juin 1990 et du 6 mars 1991, la Cour a prorogé le délai dans lequel l'arrêt doit être rendu respectivement jusqu'au 7 mars 1991 et jusqu'au 7 septembre 1991. Par ordonnance du 30 avril 1991, la Cour a déclaré que l'affaire est en état et a fixé l'audience au 30 mai 1991. Cette ordonnance a été notifiée aux parties, et celles- ci et leurs avocats ont été avisés de la date de l'audience par lettres recommandées à la poste le 2 mai 1991 remises aux destinataires les 3 et 6 mai 1991.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-013",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-011",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-012",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-014",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-015",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-016",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-017"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-014",
+        "relatedFullTextCitations": [
+          "<li>La Cour a été saisie de la question préjudicielle par la transmission d'une expédition de la décision de renvoi précitée, reçue au greffe le 7 mars 1990. Par ordonnance du 7 mars 1990, le président en exercice a désigné les juges du siège de la Cour conformément aux articles 58 et 59, alinéas 2 et 3, de la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage. Les juges rapporteurs de l'époque, I. PETRY et L. DE GREVE, ont estimé en date du 20 mars 1990 qu'il n'y avait pas lieu de faire application des articles 71 à 73 de la loi spéciale organique de la Cour. L'avis prescrit par l'article 74 de la loi organique a été publié au Moniteur belge du 6 avril 1990. La décision de renvoi a été notifiée, conformément à l'article 77 de la loi organique, par lettres recommandées à la poste le 4 avril 1990 remises aux destinataires les 5, 6, 9, 11 et 17 avril 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire, respectivement en date du 18 mai 1990 et du 21 mai 1990. Conformément à l'article 89 de la loi organique, ces 5 mémoires ont été notifiés par lettres recommandées à la poste le 5 juin 1990 remises aux destinataires les 6 et 7 juin 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire en réponse, respectivement en date du 3 juillet 1990 et du 5 juillet 1990. Par ordonnance du 16 janvier 1991, le président en exercice a désigné le juge P. MARTENS comme membre du siège par suite de l'accession du juge I. PETRY à la présidence de la Cour. Conformément à la délibération de la Cour du 22 janvier 1991, le juge P. MARTENS est rapporteur en la présente affaire. Par ordonnances du 26 juin 1990 et du 6 mars 1991, la Cour a prorogé le délai dans lequel l'arrêt doit être rendu respectivement jusqu'au 7 mars 1991 et jusqu'au 7 septembre 1991. Par ordonnance du 30 avril 1991, la Cour a déclaré que l'affaire est en état et a fixé l'audience au 30 mai 1991. Cette ordonnance a été notifiée aux parties, et celles- ci et leurs avocats ont été avisés de la date de l'audience par lettres recommandées à la poste le 2 mai 1991 remises aux destinataires les 3 et 6 mai 1991.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-014",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-011",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-012",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-013",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-015",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-016",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-017"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-015",
+        "relatedFullTextCitations": [
+          "<li>La Cour a été saisie de la question préjudicielle par la transmission d'une expédition de la décision de renvoi précitée, reçue au greffe le 7 mars 1990. Par ordonnance du 7 mars 1990, le président en exercice a désigné les juges du siège de la Cour conformément aux articles 58 et 59, alinéas 2 et 3, de la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage. Les juges rapporteurs de l'époque, I. PETRY et L. DE GREVE, ont estimé en date du 20 mars 1990 qu'il n'y avait pas lieu de faire application des articles 71 à 73 de la loi spéciale organique de la Cour. L'avis prescrit par l'article 74 de la loi organique a été publié au Moniteur belge du 6 avril 1990. La décision de renvoi a été notifiée, conformément à l'article 77 de la loi organique, par lettres recommandées à la poste le 4 avril 1990 remises aux destinataires les 5, 6, 9, 11 et 17 avril 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire, respectivement en date du 18 mai 1990 et du 21 mai 1990. Conformément à l'article 89 de la loi organique, ces 5 mémoires ont été notifiés par lettres recommandées à la poste le 5 juin 1990 remises aux destinataires les 6 et 7 juin 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire en réponse, respectivement en date du 3 juillet 1990 et du 5 juillet 1990. Par ordonnance du 16 janvier 1991, le président en exercice a désigné le juge P. MARTENS comme membre du siège par suite de l'accession du juge I. PETRY à la présidence de la Cour. Conformément à la délibération de la Cour du 22 janvier 1991, le juge P. MARTENS est rapporteur en la présente affaire. Par ordonnances du 26 juin 1990 et du 6 mars 1991, la Cour a prorogé le délai dans lequel l'arrêt doit être rendu respectivement jusqu'au 7 mars 1991 et jusqu'au 7 septembre 1991. Par ordonnance du 30 avril 1991, la Cour a déclaré que l'affaire est en état et a fixé l'audience au 30 mai 1991. Cette ordonnance a été notifiée aux parties, et celles- ci et leurs avocats ont été avisés de la date de l'audience par lettres recommandées à la poste le 2 mai 1991 remises aux destinataires les 3 et 6 mai 1991.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-015",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-011",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-012",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-013",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-014",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-016",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-017"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-016",
+        "relatedFullTextCitations": [
+          "<li>La Cour a été saisie de la question préjudicielle par la transmission d'une expédition de la décision de renvoi précitée, reçue au greffe le 7 mars 1990. Par ordonnance du 7 mars 1990, le président en exercice a désigné les juges du siège de la Cour conformément aux articles 58 et 59, alinéas 2 et 3, de la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage. Les juges rapporteurs de l'époque, I. PETRY et L. DE GREVE, ont estimé en date du 20 mars 1990 qu'il n'y avait pas lieu de faire application des articles 71 à 73 de la loi spéciale organique de la Cour. L'avis prescrit par l'article 74 de la loi organique a été publié au Moniteur belge du 6 avril 1990. La décision de renvoi a été notifiée, conformément à l'article 77 de la loi organique, par lettres recommandées à la poste le 4 avril 1990 remises aux destinataires les 5, 6, 9, 11 et 17 avril 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire, respectivement en date du 18 mai 1990 et du 21 mai 1990. Conformément à l'article 89 de la loi organique, ces 5 mémoires ont été notifiés par lettres recommandées à la poste le 5 juin 1990 remises aux destinataires les 6 et 7 juin 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire en réponse, respectivement en date du 3 juillet 1990 et du 5 juillet 1990. Par ordonnance du 16 janvier 1991, le président en exercice a désigné le juge P. MARTENS comme membre du siège par suite de l'accession du juge I. PETRY à la présidence de la Cour. Conformément à la délibération de la Cour du 22 janvier 1991, le juge P. MARTENS est rapporteur en la présente affaire. Par ordonnances du 26 juin 1990 et du 6 mars 1991, la Cour a prorogé le délai dans lequel l'arrêt doit être rendu respectivement jusqu'au 7 mars 1991 et jusqu'au 7 septembre 1991. Par ordonnance du 30 avril 1991, la Cour a déclaré que l'affaire est en état et a fixé l'audience au 30 mai 1991. Cette ordonnance a été notifiée aux parties, et celles- ci et leurs avocats ont été avisés de la date de l'audience par lettres recommandées à la poste le 2 mai 1991 remises aux destinataires les 3 et 6 mai 1991.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-016",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-011",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-012",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-013",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-014",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-015",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-017"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-017",
+        "relatedFullTextCitations": [
+          "<li>La Cour a été saisie de la question préjudicielle par la transmission d'une expédition de la décision de renvoi précitée, reçue au greffe le 7 mars 1990. Par ordonnance du 7 mars 1990, le président en exercice a désigné les juges du siège de la Cour conformément aux articles 58 et 59, alinéas 2 et 3, de la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage. Les juges rapporteurs de l'époque, I. PETRY et L. DE GREVE, ont estimé en date du 20 mars 1990 qu'il n'y avait pas lieu de faire application des articles 71 à 73 de la loi spéciale organique de la Cour. L'avis prescrit par l'article 74 de la loi organique a été publié au Moniteur belge du 6 avril 1990. La décision de renvoi a été notifiée, conformément à l'article 77 de la loi organique, par lettres recommandées à la poste le 4 avril 1990 remises aux destinataires les 5, 6, 9, 11 et 17 avril 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire, respectivement en date du 18 mai 1990 et du 21 mai 1990. Conformément à l'article 89 de la loi organique, ces 5 mémoires ont été notifiés par lettres recommandées à la poste le 5 juin 1990 remises aux destinataires les 6 et 7 juin 1990. Le Conseil des ministres et Nicole Delhez ont chacun introduit un mémoire en réponse, respectivement en date du 3 juillet 1990 et du 5 juillet 1990. Par ordonnance du 16 janvier 1991, le président en exercice a désigné le juge P. MARTENS comme membre du siège par suite de l'accession du juge I. PETRY à la présidence de la Cour. Conformément à la délibération de la Cour du 22 janvier 1991, le juge P. MARTENS est rapporteur en la présente affaire. Par ordonnances du 26 juin 1990 et du 6 mars 1991, la Cour a prorogé le délai dans lequel l'arrêt doit être rendu respectivement jusqu'au 7 mars 1991 et jusqu'au 7 septembre 1991. Par ordonnance du 30 avril 1991, la Cour a déclaré que l'affaire est en état et a fixé l'audience au 30 mai 1991. Cette ordonnance a été notifiée aux parties, et celles- ci et leurs avocats ont été avisés de la date de l'audience par lettres recommandées à la poste le 2 mai 1991 remises aux destinataires les 3 et 6 mai 1991.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-017",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-011",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-012",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-013",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-014",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-015",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-016"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La procédure s'est déroulée conformément aux articles 62 et suivants de la loi organique, relatifs à l'emploi des langues devant la Cour.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-018"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-019",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Ainsi prononcé en langue française et en langue néerlandaise, conformément à l'article 65 de la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage, à l'audience publique du 4 juillet 1991 par la Cour composée des présidents I. Pétry et J. Delva et des juges D. André, F. Debaedts, L. De Grève, K. Blanckaert, L.P. Suetens, M. Melchior, L. François et P. Martens conformément à l'article 56, alinéa 3, de la loi spéciale précitée, le juge J. Wathelet étant empêché d'assister au présent prononcé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-019",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-020"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Ainsi prononcé en langue française et en langue néerlandaise, conformément à l'article 65 de la loi spéciale du 6 janvier 1989 sur la Cour d'arbitrage, à l'audience publique du 4 juillet 1991 par la Cour composée des présidents I. Pétry et J. Delva et des juges D. André, F. Debaedts, L. De Grève, K. Blanckaert, L.P. Suetens, M. Melchior, L. François et P. Martens conformément à l'article 56, alinéa 3, de la loi spéciale précitée, le juge J. Wathelet étant empêché d'assister au présent prononcé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-020",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-019"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GHCC:1991:ARR.017-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Elle rappelle dans quels termes les discriminations sont prohibées par le Pacte international relatif aux droits civils et politiques (pacte O.N.U.), par la Convention européenne de sauvegarde des droits de l'homme et des libertés fondamentales, par la Convention de l'O.I.T. n° 111 du 25 juin 1958 concernant la discrimination en matière d'emploi et par la Convention de l'O.N.U. sur l'élimination de toutes les formes de discrimination à l'égard des femmes. Elle souligne que l'intérêt de ces conventions est d'affirmer le principe selon lequel le sexe n'est jamais un motif légitime de distinction. 10 Elle ajoute qu'il faut avoir égard non seulement au but mais aux effets de la mesure suspecte de discrimination. Elle rappelle les principes dégagés par la Cour de justice des Communautés européennes et plus particulièrement la notion de discrimination indirecte, souvent appliquée à propos de l'article 119 du Traité CEE qui consacre le principe de l'égalité des rémunérations entre les travailleurs masculins et les travailleurs féminins pour un même travail.</p>",
+          "<p class=\"case-section__paragraph\">Quant à l'incidence que pourrait avoir le droit international, le Conseil des Ministres rappelle que la Cour de justice a toujours exclu du champ d'application de l'article 119 du Traité les pensions de survie du secteur public et qu'il en 11 est de même des directives du Conseil des Communautés 75/117, 76/207, 79/7 et 86/378.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GHCC:1991:ARR.017-021",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-010",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-001",
+          "ART-ECLI:BE:GHCC:1991:ARR.017-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GHCC:1991:ARR.017-001"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 21,
+      "citationStatistics": {
+        "totalCitations": 42,
+        "avgCitationsPerProvision": 2,
+        "provisionsWithMinimalCitations": 18,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 5.0476190476190474,
+        "avgDecisionsPerProvision": 1,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GHCC:1991:ARR.017-001",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"Article 40bis. - § 1er. Sans préjudice de l'application ultérieure du maximum absolu prévu à l'article 40, les pensions de survie visées à l'article 38, ne peuvent être cumulées avec des pensions de retraite visées au même article qu'à 12 concurrence de 55 p.c. du traitement maximum de l'échelle barémique attachée au dernier grade de l'agent défunt, pris en considération pour le calcul ou la dernière révision de la plus élevée des pensions de survie. Ce traitement maximum est augmenté, le cas échéant, des rémunérations supplémentaires prises en compte pour le calcul de ladite pension de survie, à l'exclusion des indemnités et allocations afférentes à des activités complémentaires ou accessoires à la fonction considérée. Pour l'application de l'alinéa 1er, les pensions, compléments de pensions, rentes, allocations et autres avantages tenant lieu de pension de retraite et de survie sont additionnés. Outre les pensions de retraite visées à l'article 38, il est tenu compte, pour l'application de l'alinéa 1er, des pensions d'ancienneté et d'invalidité ou de tout avantage en tenant lieu, octroyés en vertu d'une législation belge ou étrangère ou en vertu d'un régime de pension d'une institution de droit international public. Ne sont toutefois pas visées, les pensions et rentes constituant exclusivement la réparation d'un dommage physique. L'application des alinéas 1er à 4 ne peut avoir pour effet de ramener l'ensemble des pensions de retraite et de survie visées par le présent article à un montant inférieur à celui constitué par les seules pensions de survie visées à l'article 38 ou à un montant inférieur à 125.000 francs par an. Ce montant qui peut être majoré par le Roi, est lié à l'indice 114,20 des prix à la consommation du Royaume et varie en fonction de l'évolution de cet indice de la même manière que les pensions de survie à charge du Trésor public. Si, après l'application des alinéas 1er à 5, le montant mensuel global de l'ensemble des pensions de retraite et de survie visées par le présent article est inférieur à 40.000 francs, la réduction découlant de l'application de ces alinéas n'est effectuée qu'à concurrence de 90 pour cent, sans toutefois que le nouveau montant mensuel global ainsi obtenu puisse excéder 40.000 francs. Le montant de 40.000 francs, qui peut être majoré par le Roi, est lié à l'indice-pivot 135,30 et varie en fonction de l'évolution de cet indice de la même manière qu'une pension de survie à charge du Trésor public d'un même montant.\"</blockquote>",
+          "<p class=\"case-section__paragraph\">La pension de survie a été instituée, dans le secteur public, pour éviter au conjoint d'un fonctionnaire d'être exposé à des difficultés matérielles après le décès de son époux. Financée par un prélèvement opéré sur le traitement des fonctionnaires, qu'ils soient célibataires ou mariés, elle est accordée, dans les limites prévues par la loi, au conjoint marié depuis un an au moins à la date du décès de son époux. Fondée sur un objectif de solidarité, elle ne s'apparente ni à un contrat d'assurance, ni à un traitement différé : par les retenues qu'il subit sur son traitement, le fonctionnaire assure une pension de survie non à son conjoint mais à l'ensemble des veuves et des veufs de fonctionnaires qui, à défaut d'une telle pension, risqueraient de se trouver sans ressources.</p>",
+          "<p class=\"case-section__paragraph\">La pension de retraite est destinée à assurer un revenu au travailleur après qu'il a cessé ses fonctions. Elle est calculée notamment en fonction de la carrière du travailleur et des rémunérations gagnées au cours de celle-ci. Dans le secteur public, elle s'analyse comme un traitement différé; elle n'est pas financée par des retenues sur le traitement de l'agent. Dans le secteur 14 privé, elle est financée notamment par des cotisations versées par les employeurs et par les travailleurs.</p>",
+          "<p class=\"case-section__paragraph\">En réduisant la pension de survie des veuves et des veufs qui bénéficient en outre d'une pension de retraite, le législateur a opéré, selon un critère objectif, une distinction entre deux catégories de bénéficiaires : d'une part ceux qui, par leur propre travail, ont acquis le droit à une pension de retraite; d'autre part, ceux qui, n'ayant pas accompli un travail rémunéré, n'ont pas droit à une telle pension. Ces catégories sont établies selon un critère adéquat au but poursuivi, tel qu'il est décrit au B.2.1.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GHCC:1991:ARR.017-002",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\"Article 40bis. - § 1er. Sans préjudice de l'application ultérieure du maximum absolu prévu à l'article 40, les pensions de survie visées à l'article 38, ne peuvent être cumulées avec des pensions de retraite visées au même article qu'à 12 concurrence de 55 p.c. du traitement maximum de l'échelle barémique attachée au dernier grade de l'agent défunt, pris en considération pour le calcul ou la dernière révision de la plus élevée des pensions de survie. Ce traitement maximum est augmenté, le cas échéant, des rémunérations supplémentaires prises en compte pour le calcul de ladite pension de survie, à l'exclusion des indemnités et allocations afférentes à des activités complémentaires ou accessoires à la fonction considérée. Pour l'application de l'alinéa 1er, les pensions, compléments de pensions, rentes, allocations et autres avantages tenant lieu de pension de retraite et de survie sont additionnés. Outre les pensions de retraite visées à l'article 38, il est tenu compte, pour l'application de l'alinéa 1er, des pensions d'ancienneté et d'invalidité ou de tout avantage en tenant lieu, octroyés en vertu d'une législation belge ou étrangère ou en vertu d'un régime de pension d'une institution de droit international public. Ne sont toutefois pas visées, les pensions et rentes constituant exclusivement la réparation d'un dommage physique. L'application des alinéas 1er à 4 ne peut avoir pour effet de ramener l'ensemble des pensions de retraite et de survie visées par le présent article à un montant inférieur à celui constitué par les seules pensions de survie visées à l'article 38 ou à un montant inférieur à 125.000 francs par an. Ce montant qui peut être majoré par le Roi, est lié à l'indice 114,20 des prix à la consommation du Royaume et varie en fonction de l'évolution de cet indice de la même manière que les pensions de survie à charge du Trésor public. Si, après l'application des alinéas 1er à 5, le montant mensuel global de l'ensemble des pensions de retraite et de survie visées par le présent article est inférieur à 40.000 francs, la réduction découlant de l'application de ces alinéas n'est effectuée qu'à concurrence de 90 pour cent, sans toutefois que le nouveau montant mensuel global ainsi obtenu puisse excéder 40.000 francs. Le montant de 40.000 francs, qui peut être majoré par le Roi, est lié à l'indice-pivot 135,30 et varie en fonction de l'évolution de cet indice de la même manière qu'une pension de survie à charge du Trésor public d'un même montant.\"</blockquote>",
+          "<p class=\"case-section__paragraph\">Après avoir rappelé les définitions données au principe d'égalité par la Cour de cassation, par le Conseil d'Etat puis par la Cour d'arbitrage, Nicole DELHEZ souligne que, pour examiner si une loi viole l'article 6 de la Constitution, il faut la soumettre \"à tous les critères de légalité dont elle doit répondre, à savoir, bien entendu la Constitution, mais également les règles supranationales telles que celles-ci ont été interprétées par les juridictions, le cas échéant internationales.\"</p>",
+          "<p class=\"case-section__paragraph\">En réduisant la pension de survie des veuves et des veufs qui bénéficient en outre d'une pension de retraite, le législateur a opéré, selon un critère objectif, une distinction entre deux catégories de bénéficiaires : d'une part ceux qui, par leur propre travail, ont acquis le droit à une pension de retraite; d'autre part, ceux qui, n'ayant pas accompli un travail rémunéré, n'ont pas droit à une telle pension. Ces catégories sont établies selon un critère adéquat au but poursuivi, tel qu'il est décrit au B.2.1.</p>",
+          "<p class=\"case-section__paragraph\">En limitant le cumul des pensions de survie et de retraite, le législateur a pris une mesure qui repose sur un critère objectif et raisonnable, qui est en rapport avec le but recherché, qui n'est pas disproportionnée à ce but et qui est étrangère à toute discrimination fondée sur le sexe, quel que soit le nombre d'hommes et de femmes concernés à un moment ou à un autre par cette mesure.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GHCC:1991:ARR.017-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Sans doute la disposition critiquée ne concernait- elle, en 1982, que les veuves et il est vrai qu'elle atteint encore actuellement, dans ses effets, une proportion plus grande de femmes que d'hommes. Cette constatation n'établit cependant pas l'existence d'une discrimination fondée sur le sexe. Fidèle à l'objectif de solidarité rappelé au B.2.1., le législateur a tenu compte de ce que, lorsqu'elle a elle-même exercé une occupation lucrative, la veuve d'un fonctionnaire n'est pas privée de toutes ressources par la mort de son mari. En limitant le cumul des pensions de survie et de retraite, le législateur a pris une mesure qui repose sur un critère objectif et raisonnable, qui est en rapport avec le but recherché, qui n'est pas disproportionnée à ce but et qui est étrangère à toute discrimination fondée sur le sexe, quel que soit le nombre d'hommes et de femmes concernés à un moment ou à un autre par cette mesure.</p>",
+          "<p class=\"case-section__paragraph\">En limitant le cumul des pensions de survie et de retraite, le législateur a pris une mesure qui repose sur un critère objectif et raisonnable, qui est en rapport avec le but recherché, qui n'est pas disproportionnée à ce but et qui est étrangère à toute discrimination fondée sur le sexe, quel que soit le nombre d'hommes et de femmes concernés à un moment ou à un autre par cette mesure.</p>",
+          "<blockquote class=\"case-quote\">\"Article 40bis. - § 1er. Sans préjudice de l'application ultérieure du maximum absolu prévu à l'article 40, les pensions de survie visées à l'article 38, ne peuvent être cumulées avec des pensions de retraite visées au même article qu'à 12 concurrence de 55 p.c. du traitement maximum de l'échelle barémique attachée au dernier grade de l'agent défunt, pris en considération pour le calcul ou la dernière révision de la plus élevée des pensions de survie. Ce traitement maximum est augmenté, le cas échéant, des rémunérations supplémentaires prises en compte pour le calcul de ladite pension de survie, à l'exclusion des indemnités et allocations afférentes à des activités complémentaires ou accessoires à la fonction considérée. Pour l'application de l'alinéa 1er, les pensions, compléments de pensions, rentes, allocations et autres avantages tenant lieu de pension de retraite et de survie sont additionnés. Outre les pensions de retraite visées à l'article 38, il est tenu compte, pour l'application de l'alinéa 1er, des pensions d'ancienneté et d'invalidité ou de tout avantage en tenant lieu, octroyés en vertu d'une législation belge ou étrangère ou en vertu d'un régime de pension d'une institution de droit international public. Ne sont toutefois pas visées, les pensions et rentes constituant exclusivement la réparation d'un dommage physique. L'application des alinéas 1er à 4 ne peut avoir pour effet de ramener l'ensemble des pensions de retraite et de survie visées par le présent article à un montant inférieur à celui constitué par les seules pensions de survie visées à l'article 38 ou à un montant inférieur à 125.000 francs par an. Ce montant qui peut être majoré par le Roi, est lié à l'indice 114,20 des prix à la consommation du Royaume et varie en fonction de l'évolution de cet indice de la même manière que les pensions de survie à charge du Trésor public. Si, après l'application des alinéas 1er à 5, le montant mensuel global de l'ensemble des pensions de retraite et de survie visées par le présent article est inférieur à 40.000 francs, la réduction découlant de l'application de ces alinéas n'est effectuée qu'à concurrence de 90 pour cent, sans toutefois que le nouveau montant mensuel global ainsi obtenu puisse excéder 40.000 francs. Le montant de 40.000 francs, qui peut être majoré par le Roi, est lié à l'indice-pivot 135,30 et varie en fonction de l'évolution de cet indice de la même manière qu'une pension de survie à charge du Trésor public d'un même montant.\"</blockquote>",
+          "<p class=\"case-section__paragraph\">Après avoir rappelé les définitions données au principe d'égalité par la Cour de cassation, par le Conseil d'Etat puis par la Cour d'arbitrage, Nicole DELHEZ souligne que, pour examiner si une loi viole l'article 6 de la Constitution, il faut la soumettre \"à tous les critères de légalité dont elle doit répondre, à savoir, bien entendu la Constitution, mais également les règles supranationales telles que celles-ci ont été interprétées par les juridictions, le cas échéant internationales.\"</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 12,
+        "avgCitationsPerTeaching": 4,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

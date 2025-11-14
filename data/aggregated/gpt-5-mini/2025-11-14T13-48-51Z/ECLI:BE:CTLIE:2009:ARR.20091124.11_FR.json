@@ -1,0 +1,778 @@
+{
+  "decision_id": "ECLI:BE:CTLIE:2009:ARR.20091124.11",
+  "language": "FR",
+  "metadata": {
+    "id": 27518,
+    "court_ecli_code": "CTLIE",
+    "court_name": "Cour du travail de Liège",
+    "decision_date": "2009-11-24",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 22747,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour du travail de Liège, section de Namur, 24 novembre 2009, R.G. 8.605/2008, ECLI:BE:CTLIE:2009:ARR.20091124.11"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+        "name": "L'A.S.B.L. INSTITUT SAINT BERTHUIN",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+        "name": "Madame Marie-Paule B",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+        "name": "La S.A. AXA BELGIUM",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+        "name": "La S.A. WINTERTHUR EUROPE ASSURANCES",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "PARTIE_INTERVENANTE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-005",
+        "name": "Institut St Michel",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-006",
+        "name": "La Congrégation",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "En 1939 M. B entre au petit noviciat. Il obtient son diplôme d'instituteur le 29 juin 1946 et donne cours à l'Institut St Remacle (année 1946-1947), puis à l'Institut St Berthuin à Malonne pendant les années scolaires 1947-1948 et 1948-1949, effectue son service militaire et reprend les cours durant l'année préparatoire 1950-1951. Il quitte les ordres le 30 juillet 1951. À l'âge de la pension, il constate que les années 1946 à 1951 n'ont pas été validées; il ne conteste pas la décision administrative de refus. Le 11 juin 1998 il introduit une action contre la Congrégation, déboutée par jugement du 20 novembre 2001; par citation du 28 octobre 2002 il cite l'Institut St Berthuin et l'Institut St Michel sur la base du non-paiement des cotisations de sécurité sociale et réclame la réparation du dommage; la S.A. WINTERTHUR intervient au titre de la police d'assurance RC et la S.A. AXA BELGIUM reprendra l'instance d'assurance.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+          "requests": "L'appelante sollicite l'annulation/réformation du jugement du tribunal du travail de Namur au motif principal que l'action est prescrite et, à titre subsidiaire, soutient l'exclusion de l'Institut de l'application de la loi du 18 juin 1930 et conteste l'existence d'un contrat de travail."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+          "requests": "La 1ère intimée demande la condamnation des défendeurs à réparer le dommage résultant du non-paiement des cotisations de sécurité sociale pour les années 1946-1951."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+          "requests": "La 2e intimée (AXA) demande d'être déchargée de toute prise en charge du dommage réclamé, soutenant que la garantie prévue par le contrat d'assurance ne s'applique pas."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+          "argument": "L'appelante soutient que l'action est prescrite en vertu des règles de prescription réformées par la loi du 10 juin 1998 et l'article 2262bis du Code civil; elle invoque que la prise de cours du délai et les dispositions transitoires doivent conduire à constater que le délai maximal applicable (30 ans ancien ou 20 ans pour le fait générateur) est atteint et que l'action ne peut prospérer en l'espèce.",
+          "treatment": "ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+          "argument": "Subsidiairement, l'appelante soutient que l'Institut relevait des établissements exclus de l'application de la loi du 18 juin 1930 et, plus subsidiaire, conteste l'existence d'un contrat de travail au vu de la qualité religieuse de l'intimé.",
+          "treatment": "SANS_OBJET"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:20091124.11-002",
+          "argument": "La 1ère intimée soutenait que l'action n'était pas prescrite et que le tribunal avait correctement retenu la prise de cours du délai en 1991 et l'application de l'article 2262bis ramenant le délai à cinq ans à compter de la prise de connaissance, de sorte que la demande était recevable et devait être examinée sur le fond quant à la faute de l'Institut St Berthuin.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+          "argument": "La 2e intimée (AXA) soutient qu'elle ne doit pas prendre en charge le dommage réclamé au titre de la police d'assurance RC conclue avec l'Institut St Berthuin, invocable pour être déchargée de toute garantie contractuelle.",
+          "treatment": "SANS_OBJET"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS,\n\nLA COUR,\n\naprès en avoir délibéré,\nstatuant publiquement et contradictoirement,\nvu les dispositions de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire et notamment son article 24 dont le respect a été assuré,\nreçoit les appels principal et incident,\ndéclare l'appel principal fondé,\n\ndit la demande prescrite,\ndit l'appel incident devenu de ce fait sans objet,\nréforme le jugement dont appel en toutes ses dispositions,\nliquide les indemnités de procédure revenant en instance et en appel à l'appelante à $223,10 €$ et $900 €$,\ncondamne l'intimée aux dépens d'instance et d'appel liquidés jusqu'ores à $1.123,10 €$ en ce qui concerne l'intimée et délaisse à la 2 e intimée ses propres dépens.",
+      "outcome": "REFORMATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+        "provisionNumber": "article 26",
+        "provisionNumberKey": "26",
+        "parentActType": "LOI",
+        "parentActName": "loi du 17 avril 1878 contenant le titre préliminaire du Code de procédure pénale",
+        "parentActDate": "1878-04-17",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+        "provisionNumber": "article 2",
+        "provisionNumberKey": "2",
+        "parentActType": "LOI",
+        "parentActName": "loi du 10 juin 1998 modifiant certaines dispositions en matière de prescription (loi du 10 juin 1998)",
+        "parentActDate": "1998-06-10",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que l'article 2 de la loi du 10 juin 1998 a remplacé l'ancien article 26 et renvoie dorénavant l'action civile résultant d'une infraction aux règles du Code civil ou aux lois particulières applicables à l'action en dommages et intérêts, tout en subordonnant la prescription à l'existence d'une action publique. En conséquence, le calcul du délai dépend désormais des règles du Code civil (notamment des articles 2262 et 2262bis).",
+        "relevantFactualContext": "La Cour applique cette renvoi pour déterminer le délai de prescription de l'action fondée sur le non‑paiement des cotisations pour les années 1946‑1951, engagée plusieurs décennies après les faits."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+        "provisionNumber": "article 2262",
+        "provisionNumberKey": "2262",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+        "provisionNumber": "article 2262bis, §1er",
+        "provisionNumberKey": "2262bis",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 2262bis §1er comme instituant un régime composé : un délai général de dix ans pour les actions personnelles et, par dérogation, un délai de cinq ans pour les actions en réparation d'un dommage fondées sur une responsabilité extra‑contractuelle, ce délai de cinq ans courant à partir du jour suivant celui où la personne lésée a eu connaissance du dommage et de l'identité de la personne responsable. Elle souligne en outre l'existence d'un délai absolu (vingt ans) prenant cours à partir du fait générateur, de sorte que le délai dépend à la fois de la connaissance du dommage et d'un plafond temporel.",
+        "relevantFactualContext": "Les faits de non‑paiement des cotisations datant des années 1946‑1951 constituent un fait générateur situé à plus de vingt ans antérieurement; la Cour retient que, en raison de ce délai absolu, l'action est prescrite malgré la règle de départ à la connaissance."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-005",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+        "provisionNumber": "article 10",
+        "provisionNumberKey": "10",
+        "parentActType": "LOI",
+        "parentActName": "loi du 10 juin 1998 (mesure transitoire)",
+        "parentActDate": "1998-06-10",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour explicite l'article 10 de la loi du 10 juin 1998 en retenant que, lorsque l'action a pris naissance avant l'entrée en vigueur de la loi, les nouveaux délais (notamment le délai de cinq ans prévu pour certaines actions extra‑contractuelles) ne commencent à courir qu'à partir de l'entrée en vigueur (27 juillet 1998). Elle précise que la disposition vise la naissance du droit d'agir (et non un acte introductif d'instance) et rappelle la limite selon laquelle la durée totale du délai ne peut toutefois dépasser trente ans.",
+        "relevantFactualContext": "La Cour applique cette règle aux faits survenus entre 1946 et 1951 et conclut que, même en reportant le point de départ au 27 juillet 1998, le délai maximal de trente ans était déjà atteint, entraînant la prescription de l'action."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-006",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+        "provisionNumber": "article 12",
+        "provisionNumberKey": "12",
+        "parentActType": "LOI",
+        "parentActName": "loi du 10 juin 1998 (mesure transitoire)",
+        "parentActDate": "1998-06-10",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que l'article 12 prévoit que, si le dommage s'aggrave après l'entrée en vigueur de la loi, le délai de cinq ans commence à courir à partir du jour suivant la connaissance de l'aggravation et que le délai de vingt ans court à partir de l'entrée en vigueur, la durée totale ne pouvant dépasser trente ans ; cette disposition organise le point de départ du délai en cas d'aggravation postérieure à l'entrée en vigueur.",
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-007",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+        "provisionNumber": "article 10",
+        "provisionNumberKey": "10",
+        "parentActType": "CONSTITUTION",
+        "parentActName": "Constitution belge",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-008",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+        "provisionNumber": "article 11",
+        "provisionNumberKey": "11",
+        "parentActType": "CONSTITUTION",
+        "parentActName": "Constitution belge",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-009",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+        "provisionNumber": "article 2244",
+        "provisionNumberKey": "2244",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle l'effet interruptif de la citation au sens de l'article 2244 du Code civil en indiquant que la citation en justice constitue une interruption civile du délai de prescription; cette règle est invoquée pour expliquer l'incidence d'actes de procédure sur le calcul des délais de prescription.",
+        "relevantFactualContext": "Le demandeur a cité l'Institut par citation du 28 octobre 2002; la Cour mentionne cette citation comme élément affectant le cours du délai de prescription."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-010",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-005",
+        "provisionNumber": "article 747",
+        "provisionNumberKey": "747",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-011",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2009:ARR.20091124.11-006",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Trib. trav. Namur, 2e ch.",
+        "date": null,
+        "caseNumber": "R.G. n²2/116.546/A",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour d'arbitrage",
+        "date": "1995-03-21",
+        "caseNumber": "n²5/95",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "C.A.",
+        "date": "1996-07-12",
+        "caseNumber": "n ${ }^{\\circ}$ 51/96",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "C. A.",
+        "date": "1997-03-18",
+        "caseNumber": "n¹3/97",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour trav. Liège, 3e ch.",
+        "date": "2006-10-10",
+        "caseNumber": "R.G. n³2.079/04.",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "C.A.",
+        "date": "2003-07-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-006"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit du travail",
+      "Non-paiement cotisations",
+      "Enseignement religieux",
+      "Lien employeur-travailleur",
+      "Intervention assureur",
+      "Prescription de l'action civile",
+      "Fondement pénal vs contractuel",
+      "Responsabilité cotisations sociales",
+      "Existence contrat de travail",
+      "Application transitoire"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+        "text": "La disposition transitoire de l'article 10 de la loi du 10 juin 1998 reporte, pour les droits nés avant l'entrée en vigueur de la loi, le point de départ des nouveaux délais de prescription au jour de l'entrée en vigueur (27 juillet 1998). L'expression «action» visée par la disposition transitoire se comprend comme la naissance du droit d'agir (droit subjectif) et non comme l'acte introductif d'instance ; en conséquence, le délai plus court institué par la réforme commence à courir à compter de l'entrée en vigueur, sous la réserve du plafond absolu fixé par la loi (durée maximale de prescription).",
+        "courtVerbatim": "La prise de cours du délai de 5 ans est influencée par l'entrée en vigueur le 27 juillet 1998 de la loi du 10 juin 1998 ayant modifié l'article 26 de la loi du 17 avril 1878 contenant le titre préliminaire du Code d'instruction criminelle. Les dispositions transitoires de la loi du 10 juin 1998 prévoient en effet que lorsque l'action a pris naissance avant l'entrée en vigueur de la loi, les nouveaux délais ne commencent à courir qu'à partir du 27 juillet 1998. Cette disposition transitoire qui figure à l'article 10 de la loi innove. Car si elle ne fait, à l'égard d'une disposition nouvelle qui établit un délai de prescription plus court que l'ancien, qu'appliquer le principe qui veut que le délai plus court s'applique mais à dater de l'entrée de la loi nouvelle, elle n'établit par contre pas de distinction entre les «actions ayant pris naissance» avant l'entrée en vigueur de la loi selon que le délai de prescription qui leur était applicable précédemment est ou non plus court que l'ancien. Quel que soit le délai, l'action fondée sur une infraction qui a pris cours avant le 27 juillet 1998 voit le délai de prescription de cinq ans débuter le 27 juillet 1998. L'action dont il est question dans ce texte n'est pas l'action en justice, sinon l'article 10 ne viserait que les actions diligentées avant le 27 juillet 1998 ce qui n'aurait aucun sens pour une disposition transitoire, mais le droit à l'action, droit non prescrit à cette date et dont la prise de cours du délai de prescription, fixé à cinq ans, est ainsi reporté. Il doit donc s'agir de la naissance du droit à l'action.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un droit d'agir (né avant l'entrée en vigueur de la loi du 10 juin 1998) est susceptible d'être soumis aux nouveaux délais de prescription institués par cette loi.",
+        "relevantFactualContext": "La Cour applique l'article 10 à une action fondée sur le non‑paiement de cotisations ayant pris naissance avant le 27 juillet 1998, et retient que le point de départ du nouveau délai de cinq ans doit être fixé à l'entrée en vigueur de la loi.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-005",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-007"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+        "text": "L'article 2262bis du Code civil institue un régime des délais personnel/absolu applicable aux actions en réparation d'un dommage extra‑contractuel : règle générale de dix ans pour les actions personnelles, dérogation à cinq ans pour les actions en réparation d'un dommage extra‑contractuel courant à partir du jour suivant la prise de connaissance du dommage et de l'identité du responsable, et délai absolu de vingt ans courant à partir du fait générateur ; ces règles se conjuguent pour déterminer la prescription applicable à une action civile née d'une infraction.",
+        "courtVerbatim": "Il va simultanément reporter la date de prise de cours du délai de l'action civile. L'article 2262bis prévoit un délai de dix ans qui dans une hypothèse particulière (l'action en réparation d'un dommage fondée sur une responsabilité extra-contractuelle) est ramené à cinq ans mais à dater du jour qui suit celui où la personne lésée a eu connaissance du dommage ou de son aggravation et de l'identité de la personne responsable, étant toutefois limité à un maximum de 20 ans prenant cours à dater du jour qui suit celui où s'est produit le fait qui a provoqué le dommage.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une action en réparation d'un dommage fondée sur une responsabilité extra‑contractuelle est engagée et qu'il faut déterminer le délai applicable entre délai partant de la connaissance et délai absolu depuis le fait générateur.",
+        "relevantFactualContext": "La Cour retient que, pour l'action fondée sur le non‑paiement des cotisations (dommage extra‑contractuel allégué), l'article 2262bis impose le délai de cinq ans à partir de la connaissance mais aussi le plafond absolu de vingt ans à partir du fait générateur.",
+        "principleType": "LEGAL_TEST",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CTLIE:2009:ARR.20091124.11-003"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-006"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+        "text": "Lorsque le fait générateur du dommage est antérieur au délai absolu institué (vingt ans pour les actions en responsabilité extra‑contractuelle, trente ans pour l'ancien régime), l'action est prescrite malgré l'application des règles de départ fondées sur la connaissance ou sur l'entrée en vigueur de la loi : l'existence d'un délai absolu emporte extinction de l'action si le point de départ absolu est dépassé.",
+        "courtVerbatim": "Sans qu'il soit nécessaire de se prononcer sur l'incidence de l'absence de discrimination de l'article 26 du titre préliminaire lorsque le litige oppose un travailleur à son employeur, et plus spécialement sur le report de la prise de cours au jour de la connaissance des faits, force est de relever que l'article 2262bis prévoit un délai maximal de vingt ans prenant cours «à partir du jour qui suit celui où s'est produit le fait qui a provoqué le dommage», réduisant ainsi le délai antérieur de trente ans déjà atteint lors de la prise de connaissance de la faute et de son dommage. Le fait générateur étant de plus de vingt ans antérieur à l'action, celle-ci est largement prescrite au moment où elle a été entamée. De plus, le délai antérieur de 30 ans était lui aussi déjà atteint.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque le fait générateur remontant à plus de la durée du délai absolu précisé par la loi est invoqué comme point de départ pour une action en réparation.",
+        "relevantFactualContext": "Les faits de non‑paiement des cotisations (1946‑1951) sont antérieurs de plus de vingt ans et de plus de trente ans à la saisine, raison pour laquelle la Cour déclare l'action prescrite.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-005"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-006"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 1,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 3,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur (l'employé) a assigné l'employeur (l'institut) et la société d'assurance pour non-paiement de cotisations de sécurité sociale relatives à des prestations fournies entre 1946 et 1951. La Cour accueille l'appel principal, réforme le jugement de première instance et déclare la demande prescrite, l'appel incident devenant sans objet. Elle rappelle que l'action civile née d'une infraction est régie par l'article 2262bis et les dispositions transitoires de la loi du 10 juin 1998 (délai de cinq ans à compter de la connaissance mais délai absolu limité: 20 ans depuis le fait générateur et 30 ans au maximum), de sorte que les faits anciens entraînent la prescription."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le tribunal donne acte à la fille de l'intimé de son acte de reprise d'instance. Il examine le moyen tiré de la prescription de l'action et le rejette. Pour ce faire, il qualifie l'action d'action civile fondée sur une infraction dont le délai de prescription était celui de l'article 26 du titre préliminaire du Code de procédure pénale (cinq ans à dater de l'infraction mais en retenant que cette disposition est contraire aux articles 10 et 11 de la Constitution parce que le délai est inférieur au délai de trente ans applicable à une action fondée sur la responsabilité non délictuelle en telle sorte qu'il faut appliquer le délai trentenaire). Cependant, la loi du 10 juin 1998 a modifié l'article 26 en renvoyant aux dispositions du Code civil dont l'article 2262bis prévoit que l'action en réparation d'un dommage causé par une faute non contractuelle se prescrit par cinq ans mais aussi que le délai ne prend cours qu'à dater de la prise de connaissance du dommage par la personne lésée. Il fixe la prise en cours du délai en 1991 et considère que le délai de 5 ans de l'article 2262bis qui a pris cours à l'entrée en vigueur de la loi (le 22 juillet 1998) a été respecté sans que le délai total n'atteigne 30 ans (en appliquant l'arrêt de la Cour d'arbitrage du 21 mars 1995). Il se prononce ensuite sur le fond, considère que l'Institut St Berthuin a commis une faute au contraire de l'Institut St Michel auquel la loi du 18 juin 1930 n'est pas d'application. Il retient la prise en charge du dossier par la compagnie d'assurances sous réserve de la franchise et ordonne la réouverture des débats afin d'évaluer le dommage.</p>",
+          "<p class=\"case-section__paragraph\">L'article 26 de la loi du 17 avril 1878 contenant le titre préliminaire du Code de procédure pénale énonçait:</p>",
+          "<blockquote class=\"case-quote\">« L'action civile résultant d'une infraction sera prescrite après cinq années révolues à compter du jour où l'infraction a été commise sans qu'elle puisse l'être avant l'action publique »</blockquote>",
+          "<p class=\"case-section__paragraph\">Cet article 26 a été remplacé, par l'article 2 de la loi du 10 juin 1998 modifiant certaines dispositions en matière de prescription, par le texte suivant :</p>",
+          "<blockquote class=\"case-quote\">« La prise de cours du délai de 5 ans est influencée par l'entrée en vigueur le 27 juillet 1998 de la loi du 10 juin 1998 ayant modifié l'article 26 de la loi du 17 avril 1878 contenant le titre préliminaire du Code d'instruction criminelle. Les dispositions transitoires de la loi du 10 juin 1998 prévoient en effet que lorsque l'action a pris naissance avant l'entrée en vigueur de la loi, les nouveaux délais ne commencent à courir qu'à partir du 27 juillet 1998. Cette disposition transitoire qui figure à l'article 10 de la loi innove. Car si elle ne fait, à l'égard d'une disposition nouvelle qui établit un délai de prescription plus court que l'ancien, qu'appliquer le principe qui veut que le délai plus court s'applique mais à dater de l'entrée de la loi nouvelle, elle n'établit par contre pas de distinction entre les « actions ayant pris naissance » avant l'entrée en vigueur de la loi selon que le délai de prescription qui leur était applicable précédemment est ou non plus court que l'ancien. Quel que soit le délai, l'action fondée sur une infraction qui a pris cours avant le 27 juillet 1998 voit le délai de prescription de cinq ans débuter le 27 juillet 1998 . L'action dont il est question dans ce texte n'est pas l'action en justice, sinon l'article 10 ne viserait que les actions diligentées avant le 27 juillet 1998 ce qui n'aurait aucun sens pour une disposition transitoire, mais le droit à l'action, droit non prescrit à cette date et dont la prise de cours du délai de prescription, fixé à cinq ans, est ainsi reporté. Il doit donc s'agir de la naissance du droit à l'action » .</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-005",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-007",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le tribunal donne acte à la fille de l'intimé de son acte de reprise d'instance. Il examine le moyen tiré de la prescription de l'action et le rejette. Pour ce faire, il qualifie l'action d'action civile fondée sur une infraction dont le délai de prescription était celui de l'article 26 du titre préliminaire du Code de procédure pénale (cinq ans à dater de l'infraction mais en retenant que cette disposition est contraire aux articles 10 et 11 de la Constitution parce que le délai est inférieur au délai de trente ans applicable à une action fondée sur la responsabilité non délictuelle en telle sorte qu'il faut appliquer le délai trentenaire). Cependant, la loi du 10 juin 1998 a modifié l'article 26 en renvoyant aux dispositions du Code civil dont l'article 2262bis prévoit que l'action en réparation d'un dommage causé par une faute non contractuelle se prescrit par cinq ans mais aussi que le délai ne prend cours qu'à dater de la prise de connaissance du dommage par la personne lésée. Il fixe la prise en cours du délai en 1991 et considère que le délai de 5 ans de l'article 2262bis qui a pris cours à l'entrée en vigueur de la loi (le 22 juillet 1998) a été respecté sans que le délai total n'atteigne 30 ans (en appliquant l'arrêt de la Cour d'arbitrage du 21 mars 1995). Il se prononce ensuite sur le fond, considère que l'Institut St Berthuin a commis une faute au contraire de l'Institut St Michel auquel la loi du 18 juin 1930 n'est pas d'application. Il retient la prise en charge du dossier par la compagnie d'assurances sous réserve de la franchise et ordonne la réouverture des débats afin d'évaluer le dommage.</p>",
+          "<p class=\"case-section__paragraph\">Cet article 26 a été remplacé, par l'article 2 de la loi du 10 juin 1998 modifiant certaines dispositions en matière de prescription, par le texte suivant :</p>",
+          "<blockquote class=\"case-quote\">« L'action civile résultant d'une infraction se prescrit selon les règles du Code civil ou des lois particulières qui sont applicables à l'action en dommages et intérêts. Toutefois, celle-ci ne peut se prescrire avant l'action publique »</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le législateur a dans la foulée modifié l'article 2262 du Code civil et ajouté un article 2262bis :</p>",
+          "<blockquote class=\"case-quote\">« Toutes les actions réelles sont prescrites par trente ans, sans que celui qui allègue cette prescription soit obligé d'en rapporter un titre, ou qu'on puisse lui opposer l'exception déduite de la mauvaise foi »</blockquote>",
+          "<p class=\"case-section__paragraph\">La modification législative est intervenue après que la Cour d'arbitrage ait considéré que selon le fondement de l'action, le justiciable était traité différemment sans justification, la responsabilité contractuelle étant de 30 ans alors que la responsabilité délictuelle était de 5 ans . Relevons que la même Cour a par contre estimé non discriminatoire le fait que la responsabilité contractuelle soit, en contrat de travail, soumise à un délai plus court que l'action civile . Il faut en déduire que la règle portant sur le délai de prescription applicable aux actions dont disposait le travailleur contre son employeur en droit du travail avant la modification de l'article 26 n'était pas discriminatoire car le délai de prescription de l'action civile était plus long que celui en vigueur pour l'action en responsabilité contractuelle. En ce qui concerne le droit commun, le législateur a voulu, à l'occasion de la réforme provoquée par l'arrêt de la Cour d'arbitrage, réduire les actions personnelles le délai de prescription de trente ans qu'il estimait trop long . Il va simultanément reporter la date de prise de cours du délai de l'action civile. L'article 2262bis prévoit un délai de dix ans qui dans une hypothèse particulière (l'action en réparation d'un dommage fondée sur une responsabilité extra-contractuelle) est ramené à cinq ans mais à dater du jour qui suit celui où la personne lésée a eu connaissance du dommage ou de son aggravation et de l'identité de la personne responsable, étant toutefois limité à un maximum de 20 ans prenant cours à dater du jour qui suit celui où s'est produit le fait qui a provoqué le dommage. Il a été jugé par la Cour de céans que :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le législateur a dans la foulée modifié l'article 2262 du Code civil et ajouté un article 2262bis :</p>",
+          "<p class=\"case-section__paragraph\">Article 2262bis.</p>",
+          "<blockquote class=\"case-quote\">« § 1er. Toutes les actions personnelles sont prescrites par dix ans. Par dérogation à l'alinéa 1er, toute action en réparation d'un dommage fondée sur une responsabilité extra-contractuelle se prescrit par cinq ans à partir du jour qui suit celui où la personne lésée a eu connaissance du dommage ou de son aggravation et de l'identité de la personne responsable. Les actions visées à l'alinéa 2 se prescrire en tout cas par vingt ans à partir du jour qui suit celui où s'est produit le fait qui a provoqué le dommage. § 2. Si une décision passée en force de chose jugée sur une action en réparation d'un dommage admet des réserves, la demande tendant à faire statuer sur leur objet sera recevable pendant vingt ans à partir du prononcé »</blockquote>",
+          "<p class=\"case-section__paragraph\">Sans qu'il soit nécessaire de se prononcer sur l'incidence de l'absence de discrimination de l'article 26 du titre préliminaire lorsque le litige oppose un travailleur à son employeur, et plus spécialement sur le report de la prise de cours au jour de la connaissance des faits, force est de relever que l'article 2262bis prévoit un délai maximal de vingt ans prenant cours « à partir du jour qui suit celui où s'est produit le fait qui a provoqué le dommage », réduisant ainsi le délai antérieur de trente ans déjà atteint lors de la prise de connaissance de la faute et de son dommage. Le fait générateur étant de plus de vingt ans antérieur à l'action, celle-ci est largement prescrite au moment où elle a été entamée. De plus, le délai antérieur de 30 ans était lui aussi déjà atteint.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-005",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Des mesures transitoires ont notamment été prises par les articles 10 et 12 de la même loi :</p>",
+          "<p class=\"case-section__paragraph\">Article 10</p>",
+          "<blockquote class=\"case-quote\">« Lorsque l'action a pris naissance avant l'entrée en vigueur de la présente loi, les nouveaux délais de prescription qu'elle institue ne commencent à courir qu'à partir de son entrée en vigueur. Toutefois, la durée totale du délai de prescription ne peut dépasser trente ans »</blockquote>",
+          "<blockquote class=\"case-quote\">« La prise de cours du délai de 5 ans est influencée par l'entrée en vigueur le 27 juillet 1998 de la loi du 10 juin 1998 ayant modifié l'article 26 de la loi du 17 avril 1878 contenant le titre préliminaire du Code d'instruction criminelle. Les dispositions transitoires de la loi du 10 juin 1998 prévoient en effet que lorsque l'action a pris naissance avant l'entrée en vigueur de la loi, les nouveaux délais ne commencent à courir qu'à partir du 27 juillet 1998. Cette disposition transitoire qui figure à l'article 10 de la loi innove. Car si elle ne fait, à l'égard d'une disposition nouvelle qui établit un délai de prescription plus court que l'ancien, qu'appliquer le principe qui veut que le délai plus court s'applique mais à dater de l'entrée de la loi nouvelle, elle n'établit par contre pas de distinction entre les « actions ayant pris naissance » avant l'entrée en vigueur de la loi selon que le délai de prescription qui leur était applicable précédemment est ou non plus court que l'ancien. Quel que soit le délai, l'action fondée sur une infraction qui a pris cours avant le 27 juillet 1998 voit le délai de prescription de cinq ans débuter le 27 juillet 1998 . L'action dont il est question dans ce texte n'est pas l'action en justice, sinon l'article 10 ne viserait que les actions diligentées avant le 27 juillet 1998 ce qui n'aurait aucun sens pour une disposition transitoire, mais le droit à l'action, droit non prescrit à cette date et dont la prise de cours du délai de prescription, fixé à cinq ans, est ainsi reporté. Il doit donc s'agir de la naissance du droit à l'action » .</blockquote>",
+          "<p class=\"case-section__paragraph\">La disposition transitoire de l'article 10 énonce que l'action est en toute hypothèse prescrite après 30 ans , délai maximum que rappelle également l'article 12. Les dispositions transitoires ne sont pas discriminatoires même en ce qu'elles portent à trente ans maximum le délai de prescription de l'action civile sur laquelle il n'a pas été statué définitivement avant l'entrée en vigueur de la loi . Le délai maximal de trente ans prend cours à la date du fait générateur du dommage .</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-005",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-006",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-004",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Des mesures transitoires ont notamment été prises par les articles 10 et 12 de la même loi :</p>",
+          "<p class=\"case-section__paragraph\">Article 12</p>",
+          "<blockquote class=\"case-quote\">« Si l'action en réparation du dommage a pris naissance avant l'entrée en vigueur de la présente loi mais que le dommage s'aggrave après celle-ci, le délai de cinq ans commence à courir à partir du jour qui suit celui où la personne lésée a eu connaissance de l'aggravation du dommage et le délai de vingt ans à partir de l'entrée en vigueur de la présente loi. Toutefois, la durée totale du délai de prescription ne peut dépasser trente ans »</blockquote>",
+          "<p class=\"case-section__paragraph\">La disposition transitoire de l'article 10 énonce que l'action est en toute hypothèse prescrite après 30 ans , délai maximum que rappelle également l'article 12. Les dispositions transitoires ne sont pas discriminatoires même en ce qu'elles portent à trente ans maximum le délai de prescription de l'action civile sur laquelle il n'a pas été statué définitivement avant l'entrée en vigueur de la loi . Le délai maximal de trente ans prend cours à la date du fait générateur du dommage .</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-006",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le tribunal donne acte à la fille de l'intimé de son acte de reprise d'instance. Il examine le moyen tiré de la prescription de l'action et le rejette. Pour ce faire, il qualifie l'action d'action civile fondée sur une infraction dont le délai de prescription était celui de l'article 26 du titre préliminaire du Code de procédure pénale (cinq ans à dater de l'infraction mais en retenant que cette disposition est contraire aux articles 10 et 11 de la Constitution parce que le délai est inférieur au délai de trente ans applicable à une action fondée sur la responsabilité non délictuelle en telle sorte qu'il faut appliquer le délai trentenaire). Cependant, la loi du 10 juin 1998 a modifié l'article 26 en renvoyant aux dispositions du Code civil dont l'article 2262bis prévoit que l'action en réparation d'un dommage causé par une faute non contractuelle se prescrit par cinq ans mais aussi que le délai ne prend cours qu'à dater de la prise de connaissance du dommage par la personne lésée. Il fixe la prise en cours du délai en 1991 et considère que le délai de 5 ans de l'article 2262bis qui a pris cours à l'entrée en vigueur de la loi (le 22 juillet 1998) a été respecté sans que le délai total n'atteigne 30 ans (en appliquant l'arrêt de la Cour d'arbitrage du 21 mars 1995). Il se prononce ensuite sur le fond, considère que l'Institut St Berthuin a commis une faute au contraire de l'Institut St Michel auquel la loi du 18 juin 1930 n'est pas d'application. Il retient la prise en charge du dossier par la compagnie d'assurances sous réserve de la franchise et ordonne la réouverture des débats afin d'évaluer le dommage.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-007",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le tribunal donne acte à la fille de l'intimé de son acte de reprise d'instance. Il examine le moyen tiré de la prescription de l'action et le rejette. Pour ce faire, il qualifie l'action d'action civile fondée sur une infraction dont le délai de prescription était celui de l'article 26 du titre préliminaire du Code de procédure pénale (cinq ans à dater de l'infraction mais en retenant que cette disposition est contraire aux articles 10 et 11 de la Constitution parce que le délai est inférieur au délai de trente ans applicable à une action fondée sur la responsabilité non délictuelle en telle sorte qu'il faut appliquer le délai trentenaire). Cependant, la loi du 10 juin 1998 a modifié l'article 26 en renvoyant aux dispositions du Code civil dont l'article 2262bis prévoit que l'action en réparation d'un dommage causé par une faute non contractuelle se prescrit par cinq ans mais aussi que le délai ne prend cours qu'à dater de la prise de connaissance du dommage par la personne lésée. Il fixe la prise en cours du délai en 1991 et considère que le délai de 5 ans de l'article 2262bis qui a pris cours à l'entrée en vigueur de la loi (le 22 juillet 1998) a été respecté sans que le délai total n'atteigne 30 ans (en appliquant l'arrêt de la Cour d'arbitrage du 21 mars 1995). Il se prononce ensuite sur le fond, considère que l'Institut St Berthuin a commis une faute au contraire de l'Institut St Michel auquel la loi du 18 juin 1930 n'est pas d'application. Il retient la prise en charge du dossier par la compagnie d'assurances sous réserve de la franchise et ordonne la réouverture des débats afin d'évaluer le dommage.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-008",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Par citation du 28 octobre 2002, il cite l'Institut St Berthuin et l'Institut St Michel (qui a repris l'Institut St Remacle) sur la base de la responsabilité encourue à la suite du non-paiement des cotisations de sécurité sociale et en leur demandant la réparation du dommage encouru de ce fait. La S.A. WINTERTHUR fait acte d'intervention volontaire dans le cadre de la police d'assurance RC administrateurs conclue avec l'Institut St Berthuin.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-010",
+        "relatedFullTextCitations": [
+          "<li>Vu l'ordonnance rendue le 16 septembre 2008 sur la base de l'article 747 du Code judiciaire aménageant les délais pour conclure et fixant la date de plaidoiries au 9 juin 2009, date à laquelle l'examen de la cause a été reporté au 27 octobre 2009,</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">LA COUR, après en avoir délibéré, statuant publiquement et contradictoirement, vu les dispositions de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire et notamment son article 24 dont le respect a été assuré, reçoit les appels principal et incident, déclare l'appel principal fondé, dit la demande prescrite, dit l'appel incident devenu de ce fait sans objet, réforme le jugement dont appel en toutes ses dispositions, liquide les indemnités de procédure revenant en instance et en appel à l'appelante à 223,10 euro et 900 euro , condamne l'intimée aux dépens d'instance et d'appel liquidés jusqu'ores à 1.123,10 euro en ce qui concerne l'intimée et délaisse à la 2e intimée ses propres dépens.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2009:ARR.20091124.11-011"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 11,
+      "citationStatistics": {
+        "totalCitations": 28,
+        "avgCitationsPerProvision": 2.5454545454545454,
+        "provisionsWithMinimalCitations": 6,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.090909090909091,
+        "avgDecisionsPerProvision": 0.5454545454545454,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2009:ARR.20091124.11-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Cet article 26 a été remplacé, par l'article 2 de la loi du 10 juin 1998 modifiant certaines dispositions en matière de prescription, par le texte suivant :</p>",
+          "<blockquote class=\"case-quote\">« L'action civile résultant d'une infraction se prescrit selon les règles du Code civil ou des lois particulières qui sont applicables à l'action en dommages et intérêts. Toutefois, celle-ci ne peut se prescrire avant l'action publique »</blockquote>",
+          "<p class=\"case-section__paragraph\">La modification législative est intervenue après que la Cour d'arbitrage ait considéré que selon le fondement de l'action, le justiciable était traité différemment sans justification, la responsabilité contractuelle étant de 30 ans alors que la responsabilité délictuelle était de 5 ans . Relevons que la même Cour a par contre estimé non discriminatoire le fait que la responsabilité contractuelle soit, en contrat de travail, soumise à un délai plus court que l'action civile . Il faut en déduire que la règle portant sur le délai de prescription applicable aux actions dont disposait le travailleur contre son employeur en droit du travail avant la modification de l'article 26 n'était pas discriminatoire car le délai de prescription de l'action civile était plus long que celui en vigueur pour l'action en responsabilité contractuelle. En ce qui concerne le droit commun, le législateur a voulu, à l'occasion de la réforme provoquée par l'arrêt de la Cour d'arbitrage, réduire les actions personnelles le délai de prescription de trente ans qu'il estimait trop long . Il va simultanément reporter la date de prise de cours du délai de l'action civile. L'article 2262bis prévoit un délai de dix ans qui dans une hypothèse particulière (l'action en réparation d'un dommage fondée sur une responsabilité extra-contractuelle) est ramené à cinq ans mais à dater du jour qui suit celui où la personne lésée a eu connaissance du dommage ou de son aggravation et de l'identité de la personne responsable, étant toutefois limité à un maximum de 20 ans prenant cours à dater du jour qui suit celui où s'est produit le fait qui a provoqué le dommage. Il a été jugé par la Cour de céans que :</p>",
+          "<blockquote class=\"case-quote\">« La prise de cours du délai de 5 ans est influencée par l'entrée en vigueur le 27 juillet 1998 de la loi du 10 juin 1998 ayant modifié l'article 26 de la loi du 17 avril 1878 contenant le titre préliminaire du Code d'instruction criminelle. Les dispositions transitoires de la loi du 10 juin 1998 prévoient en effet que lorsque l'action a pris naissance avant l'entrée en vigueur de la loi, les nouveaux délais ne commencent à courir qu'à partir du 27 juillet 1998. Cette disposition transitoire qui figure à l'article 10 de la loi innove. Car si elle ne fait, à l'égard d'une disposition nouvelle qui établit un délai de prescription plus court que l'ancien, qu'appliquer le principe qui veut que le délai plus court s'applique mais à dater de l'entrée de la loi nouvelle, elle n'établit par contre pas de distinction entre les «actions ayant pris naissance» avant l'entrée en vigueur de la loi selon que le délai de prescription qui leur était applicable précédemment est ou non plus court que l'ancien. Quel que soit le délai, l'action fondée sur une infraction qui a pris cours avant le 27 juillet 1998 voit le délai de prescription de cinq ans débuter le 27 juillet 1998 . L'action dont il est question dans ce texte n'est pas l'action en justice, sinon l'article 10 ne viserait que les actions diligentées avant le 27 juillet 1998 ce qui n'aurait aucun sens pour une disposition transitoire, mais le droit à l'action, droit non prescrit à cette date et dont la prise de cours du délai de prescription, fixé à cinq ans, est ainsi reporté. Il doit donc s'agir de la naissance du droit à l'action » .</blockquote>",
+          "<p class=\"case-section__paragraph\">Article 10</p>",
+          "<blockquote class=\"case-quote\">« Lorsque l'action a pris naissance avant l'entrée en vigueur de la présente loi, les nouveaux délais de prescription qu'elle institue ne commencent à courir qu'à partir de son entrée en vigueur. Toutefois, la durée totale du délai de prescription ne peut dépasser trente ans »</blockquote>",
+          "<p class=\"case-section__paragraph\">La disposition transitoire de l'article 10 énonce que l'action est en toute hypothèse prescrite après 30 ans , délai maximum que rappelle également l'article 12. Les dispositions transitoires ne sont pas discriminatoires même en ce qu'elles portent à trente ans maximum le délai de prescription de l'action civile sur laquelle il n'a pas été statué définitivement avant l'entrée en vigueur de la loi . Le délai maximal de trente ans prend cours à la date du fait générateur du dommage .</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-007"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2009:ARR.20091124.11-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Article 2262.</p>",
+          "<blockquote class=\"case-quote\">« Toutes les actions réelles sont prescrites par trente ans, sans que celui qui allègue cette prescription soit obligé d'en rapporter un titre, ou qu'on puisse lui opposer l'exception déduite de la mauvaise foi »</blockquote>",
+          "<p class=\"case-section__paragraph\">Article 2262bis.</p>",
+          "<blockquote class=\"case-quote\">« § 1er. Toutes les actions personnelles sont prescrites par dix ans. Par dérogation à l'alinéa 1er, toute action en réparation d'un dommage fondée sur une responsabilité extra-contractuelle se prescrit par cinq ans à partir du jour qui suit celui où la personne lésée a eu connaissance du dommage ou de son aggravation et de l'identité de la personne responsable. Les actions visées à l'alinéa 2 se prescrivent en tout cas par vingt ans à partir du jour qui suit celui où s'est produit le fait qui a provoqué le dommage. § 2. Si une décision passée en force de chose jugée sur une action en réparation d'un dommage admet des réserves, la demande tendant à faire statuer sur leur objet sera recevable pendant vingt ans à partir du prononcé »</blockquote>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-006"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2009:ARR.20091124.11-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Sans qu'il soit nécessaire de se prononcer sur l'incidence de l'absence de discrimination de l'article 26 du titre préliminaire lorsque le litige oppose un travailleur à son employeur, et plus spécialement sur le report de la prise de cours au jour de la connaissance des faits, force est de relever que l'article 2262bis prévoit un délai maximal de vingt ans prenant cours « à partir du jour qui suit celui où s'est produit le fait qui a provoqué le dommage », réduisant ainsi le délai antérieur de trente ans déjà atteint lors de la prise de connaissance de la faute et de son dommage. Le fait générateur étant de plus de vingt ans antérieur à l'action, celle-ci est largement prescrite au moment où elle a été entamée. De plus, le délai antérieur de 30 ans était lui aussi déjà atteint.</p>",
+          "<blockquote class=\"case-quote\">« § 1er. Toutes les actions personnelles sont prescrites par dix ans. Par dérogation à l'alinéa 1er, toute action en réparation d'un dommage fondée sur une responsabilité extra-contractuelle se prescrit par cinq ans à partir du jour qui suit celui où la personne lésée a eu connaissance du dommage ou de son aggravation et de l'identité de la personne responsable. Les actions visées à l'alinéa 2 se prescrivent en tout cas par vingt ans à partir du jour qui suit celui où s'est produit le fait qui a provoqué le dommage. § 2. Si une décision passée en force de chose jugée sur une action en réparation d'un dommage admet des réserves, la demande tendant à faire statuer sur leur objet sera recevable pendant vingt ans à partir du prononcé »</blockquote>],",
+          "relationshipValidation\":{\"provisionsValidated\":3,\"provisionsNotFoundInCitations\":[],\"decisionsValidated\":1,\"decisionsNotFoundInCitations\":[\"DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-006\"]}}],",
+          "metadata\":{\"totalTeachings\":3,",
+          "citationStatistics\":{\"totalCitations\":14,",
+          "avgCitationsPerTeaching\":4.666666666666667,",
+          "teachingsWithMinimalCitations\":0,",
+          "teachingsWithNoCitations\":0},",
+          "validationSummary\":{\"totalProvisionsValidated\":8,",
+          "totalProvisionsNotFound\":0,",
+          "totalDecisionsValidated\":3,",
+          "totalDecisionsNotFound\":3},",
+          "extractionNotes\":[\"DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-007 referenced by teaching 001 is not present in the provided cited decisions list and no textual match was found in the extracted citations.\"]}}்endphp<html> Error: JSON malformed. Please provide valid JSON only.strual. Please disregard."
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 14,
+        "avgCitationsPerTeaching": 4.666666666666667,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 8,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 3,
+        "totalDecisionsNotFound": 3
+      },
+      "extractionNotes": [
+        "DEC-ECLI:BE:CTLIE:2009:ARR.20091124.11-007 referenced by teaching 001 is not present in the provided cited decisions list and no textual match was found in the extracted citations."
+      ]
+    }
+  }
+}

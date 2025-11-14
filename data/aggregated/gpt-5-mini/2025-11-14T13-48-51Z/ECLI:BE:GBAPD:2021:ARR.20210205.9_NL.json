@@ -1,0 +1,1012 @@
+{
+  "decision_id": "ECLI:BE:GBAPD:2021:ARR.20210205.9",
+  "language": "NL",
+  "metadata": {
+    "id": 168039,
+    "court_ecli_code": "GBAPD",
+    "court_name": "Gegevensbeschermingsautoriteit",
+    "decision_date": "2021-02-05",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 34996,
+    "length_category": "very_long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Gegevensbeschermingsautoriteit, 5 februari 2021, Advies nr. 13/2021, ECLI:BE:GBAPD:2021:ARR.20210205.9"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+        "name": "Autorité de protection des données Gegevensbeschermingsautoriteit",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+        "name": "Valérie De Bue, Minister van de Waalse Regering die bevoegd is voor Verkeersveiligheid",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+        "name": "Direction de la Régulation du Transport par route du Service public de Wallonie / Directie Regelgeving Wegvervoer van de Waalse Overheidsdienst Mobiliteit en infrastructuur",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2021:ARR.20210205.9-004",
+        "name": "Alexandra Jaspar",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op 21 januari 2021 verzocht de Minister van de Waalse Regering bevoegd voor verkeersveiligheid, Valérie De Bue, de Gegevensbeschermingsautoriteit dringend om advies over een ontwerp van ministerieel besluit tot uitvoering van artikel 6 van het besluit van de Waalse Regering van 18 december 2020 betreffende noodmaatregelen inzake rijopleiding. Het ontwerp regelt de modaliteiten voor het geven van theoretische rijopleiding per videoconferentie (max. 20 studenten/sessie) en bevat onder meer bepalingen over identificatie/authenticatie van leerlingen (verzamelen van dubbelzijdige kopie identiteitskaart en bewaartermijn), verplichtingen rond aanwezigheidslijsten, verplicht vermelden van voor- en achternaam in de videotoepassing, verplichte activering van camera op verzoek van de instructeur, systematische mededeling van inschrijvingslijsten aan de Directie Regulering Wegvervoer, en de vermelding dat deelname aan de cursus gelijkstaat met automatische instemming met praktische regels. De Autoriteit ontving bijkomende informatie op 22 en 25 januari 2021, onderzocht de vraag binnen het kader van de AVG en Belgische gegevensbeschermingswetten en formuleert een advies met voorgestelde aanpassingen aan het ontwerp om noodzakelijkheid, proportionaliteit, minimale gegevensverwerking en beveiligingsgaranties te waarborgen.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+          "requests": "De Autoriteit beveelt aan het ontwerpbesluit als volgt aan te passen: 1) schrapping van de inzameling van dubbelzijdige kopieën van identiteitskaarten en keuze voor een aanbevolen afstandsauthenticatiemethode; 2) schrapping van artikel 2, §2 tweede lid (automatische instemming); 3) schrapping van verplichte naamvermelding en verplichte camera-activering en beperking van aanwezigheidstoezicht; 4) vastleggen van beveiligings- en privacywaarborgen voor gebruikte toepassingen; 5) afschaffing van de systematische mededeling van alle leerlingenlijsten aan de Waalse Overheidsdienst."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+          "argument": "De Autoriteit stelt dat de voorgestelde verwerkingen persoonsgegevens zijn in de zin van de AVG en dat elke inmenging aan de beginselen van noodzakelijkheid en proportionaliteit moet voldoen. Het verplicht verzamelen en 12 maanden bewaren van dubbelzijdige kopieën van identiteitskaarten is onnodig en vergroot risico op identiteitsdiefstal; alternatieve afstandsauthenticatie (bv. eID-authenticatiemodule, CSAM of anderen) biedt voldoende garanties. Toestemming kan geen rechtsgrondslag vormen voor verplichte cursusvoorwaarden omdat zij niet vrij is; rechtmatigheid moet steunen op uitvoering van het contract en wettelijke plicht (art. 6.1.b en 6.1.c AVG en art. 23 KB). Verplichte naamvermelding en permanente camera-activering zijn disproportioneel; aanwezigheidscontrole moet tot strikt noodzakelijke gegevens beperkt blijven. Systematische doorzending van inschrijvingslijsten is niet noodzakelijk voor de uitoefening van controlebevoegdheden en overschrijdt de bevoegdheid; alleen relevante gegevens voor toezicht mogen, onder duidelijke wettelijke grondslag, worden geraadpleegd. De Autoriteit wijst verder op vereiste beveiligingsgaranties (confidentialiteit, encryptie, toegangscontrole, updates, minimale gegevensverwerking) en op risico's van doorgifte naar derde landen.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "Om deze redenen\n\nis de Autoriteit\n\nvan mening dat het ontwerpbesluit dat voor advies voorligt, als volgt moet worden aangepast:\n\n1. Schrapping van de inzameling van de dubbelzijdige kopie van de identiteitskaart, keuze voor een authentificatiemethode op afstand zoals aanbevolen in overweging 13 en dienovereenkomstige aanpassing van de artikelen 2 en $4, \\S 1$, van het ontwerp (overw. 13 en 14) ;\n2. Schrapping van artikel 2, § 2, 2de lid, van het ontwerp, waarin wordt bepaald dat de leerling automatisch instemt met de praktische nadere regels van de cursus afstandsonderwijs (overw. 15 en 16) ;\n3. Schrapping van de verplichte vermelding van de naam en voornaam van de leerlingen in de videoconferentietoepassing en van de verplichte activering van de camera op verzoek van de instructeur, beperking van de aanwezigheidscontrole tot het strikt noodzakelijke en dienovereenkomstige aanpassing van de artikelen 3, lid 1, $2^{\\circ}$ en 4, § 2 (overw. 19 tot 25) ;\n4. Bepaling van de beveiligings- en privacywaarborgen die de gebruikte toepassingen voor collaboratieve communicatie moeten bieden (overw. 27) ;\n5. Afschaffing van de systematische mededeling van alle leerlingenlijsten aan de Waalse Overheidsdienst (overw. $30 \\mathrm{t} / \\mathrm{m} 35$ ).",
+      "outcome": "ANDERE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+        "provisionNumber": "artikel 23",
+        "provisionNumberKey": "23",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+        "provisionNumber": "artikel 26",
+        "provisionNumberKey": "26",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+        "provisionNumber": "artikel 6, lid 1, onder c)",
+        "provisionNumberKey": "6",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-004",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+        "provisionNumber": "artikel 28",
+        "provisionNumberKey": "28",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-005",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+        "provisionNumber": "artikel 32",
+        "provisionNumberKey": "32",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-006",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "BESLUIT_VAN_DE_REGERING",
+        "parentActName": "Besluit van de Waalse Regering van 18 december 2020 betreffende noodmaatregelen inzake de rijopleiding",
+        "parentActDate": "2020-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-007",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-004",
+        "provisionNumber": "artikel 21, lid 2",
+        "provisionNumberKey": "21",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 11 mei 2004 betreffende de voorwaarden voor de erkenning van scholen voor het besturen van motorvoertuigen",
+        "parentActDate": "2004-05-11",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-004",
+        "provisionNumber": "artikel 23",
+        "provisionNumberKey": "23",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 11 mei 2004 betreffende de voorwaarden voor de erkenning van rijscholen",
+        "parentActDate": "2004-05-11",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit leest artikel 23 van het Koninklijk Besluit als een wettelijke verplichting voor erkende rijscholen om inschrijvingskaarten, aanwezigheidslijsten, daglogboeken en registers bij te houden voor de in het KB omschreven doeleinden. Deze bepaling vormt de beperkte rechtsgrondslag voor bepaalde verwerkingen en kaderen die verwerking tot controle door inspecteurs en de uitgifte van getuigschriften, niet tot ruimer gegevensgebruik.",
+        "relevantFactualContext": "Aanleiding is het ontwerpbesluit dat rijscholen verplicht leerlingen voor online theoretische lessen te identificeren/authenticeren, onder meer via het verzamelen van een dubbelzijdige kopie van de identiteitskaart en het bijhouden van aanwezigheidslijsten en registers."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-009",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-004",
+        "provisionNumber": "artikel 39",
+        "provisionNumberKey": "39",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 11 mei 2004 betreffende de voorwaarden voor de erkenning van rijscholen",
+        "parentActDate": "2004-05-11",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 39 verleent de bevoegde minister of zijn afgevaardigde inspectiebevoegdheden om de boeken en bescheiden van de school in te zien teneinde de naleving van erkenningsvoorwaarden te controleren. De Autoriteit interpreteert deze bevoegdheid als gericht op controle van de schoolactiviteiten en niet als grond om systematisch de persoonsgegevens van alle leerlingen (zoals volledige inschrijvingslijsten) routinematig te vorderen of te ontvangen.",
+        "relevantFactualContext": "Het ontwerpbesluit voorzag in systematische e-mailmededeling van inschrijvingslijsten en motivering van deelname aan de Directie Regulering Wegvervoer; de Autoriteit oordeelt dat zulke routinematige overdracht niet nodig is voor uitvoering van de toezichtstaken op basis van artikel 39."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-010",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-005",
+        "provisionNumber": "artikel 23, §1, 4°",
+        "provisionNumberKey": "23",
+        "parentActType": "WET",
+        "parentActName": "wet op het wegverkeer, gecoördineerd op 16 maart 1968",
+        "parentActDate": "1968-03-16",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-011",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-006",
+        "provisionNumber": "artikel 14",
+        "provisionNumberKey": "14",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 23 maart 1998 betreffende het rijbewijs",
+        "parentActDate": "1998-03-23",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-012",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-006",
+        "provisionNumber": "artikel 15",
+        "provisionNumberKey": "15",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 23 maart 1998 betreffende het rijbewijs",
+        "parentActDate": "1998-03-23",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-013",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-007",
+        "provisionNumber": "artikel 9",
+        "provisionNumberKey": "9",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 10 juli 2006 betreffende het rijbewijs voor voertuigen van categorie B",
+        "parentActDate": "2006-07-10",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-014",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-006",
+        "provisionNumber": "artikel 32, §5",
+        "provisionNumberKey": "32",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 23 maart 1998 betreffende het rijbewijs",
+        "parentActDate": "1998-03-23",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-015",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-008",
+        "provisionNumber": "artikel 2, §1",
+        "provisionNumberKey": "2",
+        "parentActType": "ANDERE",
+        "parentActName": "ontwerp van ministerieel besluit ter uitvoering van artikel 6 van het Besluit van de Waalse Regering van 18 december 2020",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit oordeelt dat ontwerpartikel 2, §1, waarin de verplichting is opgenomen om een dubbelzijdige kopie van de identiteitskaart van kandidaten te verzamelen en twaalf maanden te bewaren, een irrelevante en disproportionele maatregel vormt met een verhoogd risico op identiteitsdiefstal. Zij beveelt aan deze verplichting te vervangen door elektronische authenticatie via de eID-authenticatiemodule, CSAM of gelijkwaardige multifactorauthenticatie en de formulering van het artikel dienovereenkomstig te herzien.",
+        "relevantFactualContext": "De minister vroeg dringend advies over een ontwerp dat afstandsonderricht mogelijk maakt; concreet verplichtte het ontwerp rijscholen om kopieën van identiteitskaarten te verzamelen en te bewaren als middel om leerlingen op afstand te authentificeren tijdens theoretische rijlessen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-016",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-008",
+        "provisionNumber": "artikel 4, §1",
+        "provisionNumberKey": "4",
+        "parentActType": "ANDERE",
+        "parentActName": "ontwerp van ministerieel besluit ter uitvoering van artikel 6 van het Besluit van de Waalse Regering van 18 december 2020",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit stelt dat artikel 4, §1, in samenhang met de vervanging van recto-verso kopieën door een eID-authenticatiemodule, moet worden aangepast: het bewijsmateriaal van elektronische authenticatie mag alleen beveiligd en proportioneel worden bewaard. Verder waarschuwt zij dat de in art. 4, §2 neergelegde verplichting tot zichtbaarheid en permanente naamvermelding disproportioneel is en beperkt moet worden tot wat strikt noodzakelijk is voor controle.",
+        "relevantFactualContext": "Het ontwerp voorziet in beheersing van toegang tot het e-learningplatform via ID-kopie of authenticatiemodule en in het bewaren van het authenticatiebewijs gedurende twaalf maanden; tevens bevat het bepalingen over zichtbaarheid van cursisten tijdens de les."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-017",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-008",
+        "provisionNumber": "artikel 3",
+        "provisionNumberKey": "3",
+        "parentActType": "ANDERE",
+        "parentActName": "ontwerp van ministerieel besluit ter uitvoering van artikel 6 van het Besluit van de Waalse Regering van 18 december 2020",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit beoordeelt artikel 3 als te vergaand voor wat betreft de verplichte weergave van voor- en achternaam en zichtbaarheid van leerlingen: zij acht de eis dat elke leerling zichtbaar is met naam en dat de instructeur de camera kan activeren en op elk ogenblik aanwezigheid kan controleren, disproportioneel. Zij adviseert waar mogelijk anonimisatie of gebruik van voornamen/pseudoniemen en beperking van naam- en cameragebruik tot het strikt noodzakelijke.",
+        "relevantFactualContext": "Artikel 3 legt eisen op aan de gebruikte applicatie voor collaboratieve communicatie (weergave van beeld en naam, interactieve functies, toegang voor ambtenaren) om aanwezigheid en actieve deelname tijdens videoconferenties te waarborgen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-018",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-019",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+        "provisionNumber": "artikel 25",
+        "provisionNumberKey": "25",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-020",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-009",
+        "provisionNumber": "artikel 105",
+        "provisionNumberKey": "105",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet (Belgische Grondwet)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-021",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2021:ARR.20210205.9-010",
+        "provisionNumber": "artikel 78",
+        "provisionNumberKey": "78",
+        "parentActType": "WET",
+        "parentActName": "bijzondere wet van 8 augustus 1980 tot hervorming der instellingen",
+        "parentActDate": "1980-08-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "date": "2011-05-25",
+        "caseNumber": "Aanbeveling uit eigen beweging 03/2011",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2021:ARR.20210205.9-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Online theoriecursus",
+      "Rijschoolplatform",
+      "Identiteitskaart kopie",
+      "Aanwezigheidslijsten",
+      "Toestemming niet vrij",
+      "Authenticatie alternatieven",
+      "Verplichte camera/naam",
+      "Doorgifte naar derde landen",
+      "Dringend advies"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+        "text": "Wettelijke of reglementaire bepalingen die een verwerking van persoonsgegevens regelen mogen slechts worden toegekend indien uitdrukkelijk is aangetoond dat de verwerking noodzakelijk is voor het nagestreefde algemeen belang en dat zij proportioneel is: de verwerking moet doeltreffend zijn voor het doel en de minst ingrijpende manier vormen; bovendien moet tussen de betrokken belangen een billijk evenwicht bestaan.",
+        "courtVerbatim": "Elk ingrijpen in het recht op eerbiediging van het privéleven en het recht op bescherming van persoonsgegevens is slechts toelaatbaar indien zij noodzakelijk is en in verhoudiging staat met het doel van algemeen belang dat ermee wordt nagestreefd en die door zijn aard als leidraad moeten dienen voor elke wettelijke bepaling. De auteur van een norm die een verwerking van persoonsgegevens regelt, moet kunnen aantonen dat deze voorafgaande analyse van de noodzakelijkheid en proportionaliteit is uitgevoerd. Het noodzakelijkheidsbeginsel vereist niet alleen een beoordeling van de doeltreffendheid van de voorgestelde verwerking met het oog op het bereiken van het nagestreefde doel, maar ook een beoordeling of de voorgestelde verwerking de minst ingrijpende manier is om dat doel te bereiken. Als de noodzaak van de verwerking van persoonsgegevens wordt aangetoond, moet ook worden aangetoond dat de verwerking in verhouding staat (in strikte zin) tot het nagestreefde doel, dat wil zeggen dat er een billijk evenwicht is tussen de verschillende betrokken belangen en de rechten en vrijheden van de betrokken personen ; met andere woorden, er moet worden nagegaan of het ongemak dat de beoogde verwerking veroorzaakt, niet disproportioneel is aan het nagestreefde doel.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een wet of reglement persoonsgegevens verwerkt en aldus een inmenging in het recht op privacy en gegevensbescherming veroorzaakt.",
+        "relevantFactualContext": "Advies over een ontwerp van ministerieel besluit dat rijscholen verplicht persoonsgegevens te verwerken bij afstandsonderricht (identificatie, aanwezigheidslijsten, kopieën van identiteitskaarten en mededeling van inschrijvingslijsten).",
+        "principleType": "BALANCING_TEST",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+            "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+            "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-004",
+            "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-005"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-018"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+        "text": "Een norm die een verwerking van persoonsgegevens regelt moet niet alleen noodzakelijk en proportioneel zijn maar ook voldoen aan de eisen van voorspelbaarheid en nauwkeurigheid: betrokkenen moeten duidelijk en ondubbelzinnig kunnen zien welke verwerkingen met hun gegevens worden uitgevoerd.",
+        "courtVerbatim": "Elke norm die de verwerking van persoonsgegevens regelt (en door zijn aard een inmenging betekent in het recht op bescherming van persoonsgegevens en het recht op privacy) moet bovendien niet alleen noodzakelijk en proportioneel zijn, maar ook voldoen aan de eisen van voorspelbaarheid en nauwkeurigheid, zodat de betrokkenen, over wie gegevens worden verwerkt, duidelijk kunnen zien welke verwerkingen er met hun gegevens worden uitgevoerd.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing op wettelijke of reglementaire bepalingen die verplichtingen of verwerkingen voor natuurlijke personen voorschrijven.",
+        "relevantFactualContext": "Het ontwerp van ministerieel besluit bevatte algemene en verregaande verplichtingen (bv. verplichte naamvermelding, camera-activatie, bewaartermijnen) zonder voldoende voorspelbaarheid en nauwkeurigheid voor betrokkenen.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+        "text": "Toestemming kan geen rechtsgrondslag vormen voor verwerkingen die door wet- of regelgeving worden opgelegd wanneer de betrokkene geen werkelijk vrije keuze heeft; in dergelijke gevallen moet de verwerkingsgrondslag berusten op de uitvoering van het contract of op een wettelijk voorschrift en niet op 'toestemming'.",
+        "courtVerbatim": "Afgezien van het feit dat het aan de minister is om deze modaliteiten via reglementaire weg vast te stellen en anderzijds dat leerlingen van nature geen manoeuvreerruimte hebben bij het bepalen van deze modaliteiten en dat de instemming in het onderhavige geval dus niet kan worden gebruikt, merkt de Autoriteit op dat deze toestemming niet de grondslag kan vormen voor de rechtmatigheid van de verwerking van persoonsgegevens die voortvloeit uit de modaliteiten voor afstandsonderwijs, aangezien zij niet vrij is. Om vrijelijk te kunnen instemmen met de voorwaarden van cursussen op afstand, moet de leerling een echte keuze worden geboden, zonder dat hij negatieve gevolgen hoeft te ondervinden als hij weigert. Onder deze omstandigheden kan toestemming in dit geval moeilijk als rechtsgrondslag worden aanvaard.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Wanneer deelnemers aan scholen of aanverwante diensten worden geconfronteerd met door de overheid opgelegde modaliteiten zonder reële keuzevrijheid.",
+        "relevantFactualContext": "Het ontwerp voorzag in bepaling dat deelname aan de cursus automatische instemming met praktische regels inhoudt en verplichtte rijscholen om bepaalde persoonsgegevens te verwerken; de Autoriteit oordeelt dat die 'toestemming' niet vrij is en dus geen rechtsgrond biedt.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-015"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-004",
+        "text": "De wettelijke bevoegdheid die rijscholen verplichtingen oplegt (artikel 23 van het KB) vormt een beperkte rechtsgrondslag voor het bijhouden van inschrijvingskaarten, aanwezigheidslijsten, daglogboeken en registers voor de specifieke doeleinden van toezicht en uitgifte van getuigschriften; deze bepaling rechtvaardigt niet de systematische, routinematige mededeling van volledige leerlingenlijsten aan administratie(s) buiten de strikt noodzakelijke gevallen voor inspectie.",
+        "courtVerbatim": "Zoals blijkt uit het verslag aan de Koning over deze regelgevende bepaling, heeft deze gegevensverwerking tot doel \"een doeltreffende controle op de activiteiten van de scholen (...) door de inspecteurs (...) en de eventuele afgifte van duplicaat van getuigschriften van gevolgde lessen aan leerlingen mogelijk te maken\". Het zijn derhalve deze doeleinden die op basis van deze wettelijke bepaling het kader vormen waarbinnen de rijscholen de verwerking van leerlinggegevens mag uitvoeren. De controlebevoegdheden die bij artikel 39 van het bovengenoemde Koninklijk Besluit van 11 mei 2004 zijn verleend, betrekking hebben op de activiteiten van de scholen en niet op de leerlingen die deelnemen aan de rijopleiding. ... Een van de bij dit koninklijk besluit verleende controlemiddelen voor rijscholen is de mogelijkheid om de aanwezigheidslijsten van de leerlingen in te zien, maar alleen in de mate die strikt noodzakelijk is om een onderzoek van een school uit te kunnen voeren. Dit wijkt af van de systematische mededeling ervan zoals voorzien in het ontwerpbesluit dat voor advies is voorgelegd.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een wettelijke bepaling voorziet in toezichtbevoegdheden op scholen en de vraag rijst of die bevoegdheden de systematische overdracht van gegevens van leerlingen rechtvaardigen.",
+        "relevantFactualContext": "Het ontwerp voorzag een verplichting voor rijscholen om na afloop van inschrijvingsperiodes systematisch per e-mail volledige inschrijvingslijsten en redenen van inschrijving door te sturen aan een administratieve dienst; de Autoriteit oordeelt dat dit niet noodzakelijk is voor toezicht.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-009"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-005",
+        "text": "Het verplicht verzamelen en twaalf maanden bewaren van recto-verso kopieën van identiteitskaarten voor remote authenticatie is onnodig en disproportioneel en verhoogt het risico op identiteitsdiefstal; aanbevolen is het gebruik van de elektronische ID-authenticatiemodule, CSAM of equivalente multifactorauthenticatie, beperking van bewaartermijnen en de oplegging van strikte beveiligingsgaranties (vertrouwelijkheid, encryptie, toegangscontrole, tijdige updates en minimale gegevensverwerking).",
+        "courtVerbatim": "Door erkende rijscholen te verplichten een dubbelzijdige kopie te verzamelen van de identiteitskaart van kandidaten voor een cyclus van theoretische rijlessen en deze kopie gedurende 12 maanden te bewaren, wordt in ontwerpartikel 2 een irrelevante, overbodige en riskante maatregel met betrekking tot identiteitsdiefstal genomen. De eis dat een kopie van iemands identiteitskaart wordt toegezonden om hem of haar op afstand te authenticeren, is niet relevant, aangezien de ontvanger op die manier niet kan nagaan of de toegezonden kopie die is van de persoon die de cursus afstandsonderwijs volgt. In het geval van het gebruik van de IDkaartauthenticatiemodule of een ander apparaat met soortgelijke kenmerken (multifactorauthenticatie), wordt aanbevolen de ID-kaartauthenticatiemodule of een ander apparaat met soortgelijke kenmerken te gebruiken. Aangezien de organisatie van theoretische rijlessen op afstand op afstand beperkt is tot de periode van de pandemie en gezien de urgentie van de organisatie van dergelijke cursussen, is de Autoriteit van mening dat een methode van authenticatie op afstand die minder sterk is dan die welke wordt geboden door het gebruik van de elektronische identiteitskaart, maar die toch een zekere mate van garantie biedt, toch kan worden gebruikt. ... Aldus wordt het gewenste doel bereikt zonder het risico te lopen van identiteitsdiefstal als gevolg van het in omloop brengen en bewaren van kopieën van identiteitskaarten. ... Zonder volledig te zijn, wijst de Autoriteit op het belang van de volgende garanties: - inzake vertrouwelijkheid: dat er geen andere gegevens worden uitgewisseld dan die welke vereist zijn voor de cursussessie op afstand met behulp van de gebruikte videoconferentietoepassing ; - inzake encryptie: de datatransmissies die nodig zijn voor de cursussessie (gegevens in transit: video, audio, chat) worden versleuteld; - inzake toegangscontrole: Er moeten controlemaatregelen tegen ongeoorloofde toegang tot de videoconferentiesessie...;",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij het kiezen van middelen voor authenticatie van deelnemers aan afstandsonderwijs en bij het bepalen van bewaartermijnen en beveiligingsgaranties voor verzamelde authenticatiegegevens.",
+        "relevantFactualContext": "Het ontwerp schriftte rijscholen voor om recto-verso kopieën van identiteitskaarten van cursisten te verzamelen en twaalf maanden te bewaren; de Autoriteit beveelt vervanging door eID-authenticatie of equivalente methoden en strikte beveiligingsgaranties.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-015",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-016",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-005",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-004"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2021:ARR.20210205.9-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 5,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "MEDIUM",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 2,
+        "balancing": 1,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 4,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 5
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De minister verzoekt de Autoriteit om advies over een ontwerpbesluit dat de modaliteiten van theoretische rijopleiding per videoconferentie regelt en de verwerking van persoonsgegevens door erkende rijscholen bepaalt. De Autoriteit oordeelt dat meerdere voorgestelde maatregelen onnodig of disproportioneel zijn en beveelt aan de verplichte inzameling van kopieën van identiteitskaarten, de automatische instemming van leerlingen, de verplichte naam‑ en cameraweergave en de systematische doorzending van leerlingenlijsten te schrappen of te beperken, en de artikelen dienovereenkomstig aan te passen. De Autoriteit baseert haar standpunt op de AVG‑beginselen van noodzakelijkheid, proportionaliteit en gegevensminimalisatie en wijst erop dat toestemming niet kan dienen als rechtsgrondslag wanneer deze niet vrij is. Zij verlangt in plaats daarvan geschikte remote‑authenticatiemethoden, duidelijke beveiligings- en privacywaarborgen en beperking van gegevensoverdrachten."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, met name de artikelen 23 en 26 (hierna “WOG”);</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, met name de artikelen 23 en 26 (hierna “WOG”);</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">11. De rechtsgrondslag van het ontwerpbesluit is te vinden in artikel 23, § 1, 4°, van de wet op het wegverkeer, gecoördineerd op 16 maart 1968, alsmede in artikel 6, lid 2, van het besluit van de Waalse regering van 18 december 2020 houdende noodmaatregelen inzake rijopleiding, waarbij aan de minister de taak wordt gedelegeerd om de modaliteiten vast te stellen voor het verstrekken van theoretische afstandsonderwijs. Gevraagd naar het doel van de identificatie en authenticatie van leerlingen van een theoretische rijopleiding door erkende scholen, beriep de afgevaardigde van de minister zich op artikel 23 van het koninklijk besluit van 11 mei 2004 betreffende de voorwaarden voor erkenning van scholen voor het besturen van motorvoertuigen. Deze bepaling verplicht rijscholen tot de volgende verwerking van persoonsgegevens en vormt de wettelijke bepaling waarop rijscholen zich kunnen beroepen als grondslag voor de rechtmatigheid van deze verwerking (artikel 6.1.c van de AVG) :</p>",
+          "<ol>\n<li>een inschrijvingskaart voor iedere leerling waarop zijn identiteit en inschrijvingsnummer en -datum worden vermeld. Die kaart heeft een aantal vakken, dat met het aantal door de rijschool gegeven lessen overeenstemt;</li>\n<li>bijhouden van een aanwezigheidslijst voor elke theoretische lessencyclus;</li>\n<li>het gedurende één jaar bijhouden door elke instructeur van een dagelijks logboek waarop het tijdstip van het begin en het einde van de les is vermeld, alsmede, voor elke praktijkles, het kentekennummer van het voertuig, de kilometerstand van het voertuig aan het begin en aan het einde van de les, alsmede het kentekennummer van de leerling, en het gedurende drie jaar bijhouden van een register waarin de identiteit van de ingeschreven leerlingen, de datum van inschrijving, de data van de gegeven lessen met vermelding van de aan- of afwezigheid van de leerlingen, de data van de theorie- en praktijkexamens die de leerling heeft afgelegd en, in voorkomend geval, de behaalde resultaten met eventuele opmerkingen, zijn opgenomen;</li>\n<li>de afgifte van een getuigschrift van gevolgde theoretische lessen aan leerlingen die het aantal uren lessen voorgeschreven in de artikelen 14 en 15 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs of in artikel 9 van het koninklijk besluit van 10</li>\n</ol>",
+          "<p class=\"case-section__paragraph\">juli 2006 betreffende het rijbewijs voor voertuigen van categorie B hebben voltooid en aan leerlingen die van rijschool veranderen.</p>",
+          "<p class=\"case-section__paragraph\">17. De verwerking van persoonsgegevens van leerlingen door rijscholen is gebaseerd op de rechtmatigheid van de uitvoering van het dienstverleningscontract (registratie, beheer van de facturering, enz.) (artikel 6.1.b AVG) en, voor de bovenvermelde verplichte gegevensverwerking, op artikel 23 van het bovengenoemde Koninklijk Besluit van 11 mei 2004 (artikel 6.1.c AVG).</p>",
+          "<p class=\"case-section__paragraph\">36. Wat de keuze van de Directie van de Overheidsdienst als ontvanger van deze gegevensmededelingen betreft, merkt de Autoriteit op dat het aan de initiatiefnemer van het ontwerpbesluit is om ervoor te zorgen dat hij de administratie aanwijst waaraan deze controlebevoegdheid formeel is toegekend. In het kader van het beginsel van de verdeling van de administratieve bevoegdheden, dat is vastgelegd in artikel 105 van de Grondwet en artikel 78 van de bijzondere wet van 8 augustus 1980 tot hervorming der instellingen, hebben de administratieve overheden immers geen andere bevoegdheden dan die welke hun formeel zijn toegekend door de Grondwet en de wetten en decreten die op grond daarvan zijn vastgesteld. Bovendien kan, krachtens artikel 6.1.e van de AVG, een administratie ten behoeve van de uitoefening van de haar <sup>6</sup> In het algemeen wordt de opportuniteit van een onderzoek in concreto beoordeeld door de inspecteurs, die de controlebevoegdheid hebben in het licht van de feitelijke elementen waarover zij beschikken. Zij hebben een beoordelingsbevoegdheid bij de uitoefening van hun opdracht. In dit verband moeten zij toegang vragen tot de gegevens die voor hen van belang zijn om hun onderzoeksbevoegdheden oordeelkundig en met mate te kunnen uitoefenen of om een structurele controle te kunnen verrichten aan de hand van een steekproef die op objectieve en evenredige wijze is vastgesteld.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">27. Door te bepalen dat \"de gebruikte toepassing beveiligd is en de eerbiediging van de persoonlijke levenssfeer waarborgt\", is artikel 3, lid 2, van het voor advies voorgelegde ontwerp van ministerieel besluit enerzijds overbodig gelet op artikel 32 van de AVG en kan het als zodanig worden geschrapt, en mist het anderzijds zijn doel, namelijk \"de praktische, nadere regels van het afstandsonderwijs zodanig vast te stellen dat het volgens gemeenschappelijke en onderling <sup>4</sup> In het geval van verwerking merkt de Autoriteit op dat het van belang is een contract te sluiten overeenkomstig de bepalingen van artikel 28 van de AVG.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">27. Door te bepalen dat \"de gebruikte toepassing beveiligd is en de eerbiediging van de persoonlijke levenssfeer waarborgt\", is artikel 3, lid 2, van het voor advies voorgelegde ontwerp van ministerieel besluit enerzijds overbodig gelet op artikel 32 van de AVG en kan het als zodanig worden geschrapt, en mist het anderzijds zijn doel, namelijk \"de praktische, nadere regels van het afstandsonderwijs zodanig vast te stellen dat het volgens gemeenschappelijke en onderling <sup>4</sup> In het geval van verwerking merkt de Autoriteit op dat het van belang is een contract te sluiten overeenkomstig de bepalingen van artikel 28 van de AVG.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-005",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">1. Op 21 januari jongstleden heeft de Minister van de Waalse regering die bevoegd is voor verkeersveiligheid, de Autoriteit om dringend advies verzocht over het ontwerp van ministerieel besluit ter uitvoering van artikel 6 van het besluit van de Waalse regering van 18 december 2020 betreffende noodmaatregelen inzake de rijopleiding (hierna \"het ontwerpbesluit\").</p>",
+          "<p class=\"case-section__paragraph\">11. De rechtsgrondslag van het ontwerpbesluit is te vinden in artikel 23, § 1, 4°, van de wet op het wegverkeer, gecoördineerd op 16 maart 1968, alsmede in artikel 6, lid 2, van het besluit van de Waalse regering van 18 december 2020 houdende noodmaatregelen inzake rijopleiding, waarbij aan de minister de taak wordt gedelegeerd om de modaliteiten vast te stellen voor het verstrekken van theoretische afstandsonderwijs. Gevraagd naar het doel van de identificatie en authenticatie van leerlingen van een theoretische rijopleiding door erkende scholen, beriep de afgevaardigde van de minister zich op artikel 23 van het koninklijk besluit van 11 mei 2004 betreffende de voorwaarden voor erkenning van scholen voor het besturen van motorvoertuigen. Deze bepaling verplicht rijscholen tot de volgende verwerking van persoonsgegevens en vormt de wettelijke bepaling waarop rijscholen zich kunnen beroepen als grondslag voor de rechtmatigheid van deze verwerking (artikel 6.1.c van de AVG) :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-006",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Artikel 6 van het voormelde Besluit van de Waalse Regering van 18 december bepaalt: In afwijking van artikel 21, lid 2, van het koninklijk besluit (KB) van 11 mei 2004 betreffende de voorwaarden voor de erkenning van scholen voor het besturen van motorvoertuigen, kan de instructeur het theoretische rijonderricht per videoconferentie geven en delegeert aan de bevoegde minister de bevoegdheid om de modaliteiten vast te stellen van deze cursus afstandsonderwijs voor een maximumaantal van 20 studenten per sessie; hetgeen het voorwerp is van het ontwerpbesluit dat voor advies is ingediend.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-007",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">11. De rechtsgrondslag van het ontwerpbesluit is te vinden in artikel 23, § 1, 4°, van de wet op het wegverkeer, gecoördineerd op 16 maart 1968, alsmede in artikel 6, lid 2, van het besluit van de Waalse regering van 18 december 2020 houdende noodmaatregelen inzake rijopleiding, waarbij aan de minister de taak wordt gedelegeerd om de modaliteiten vast te stellen voor het verstrekken van theoretische afstandsonderwijs. Gevraagd naar het doel van de identificatie en authenticatie van leerlingen van een theoretische rijopleiding door erkende scholen, beriep de afgevaardigde van de minister zich op artikel 23 van het koninklijk besluit van 11 mei 2004 betreffende de voorwaarden voor erkenning van scholen voor het besturen van motorvoertuigen. Deze bepaling verplicht rijscholen tot de volgende verwerking van persoonsgegevens en vormt de wettelijke bepaling waarop rijscholen zich kunnen beroepen als grondslag voor de rechtmatigheid van deze verwerking (artikel 6.1.c van de AVG) :</p>",
+          "<ol>\n<li>een inschrijvingskaart voor iedere leerling waarop zijn identiteit en inschrijvingsnummer en -datum worden vermeld. Die kaart heeft een aantal vakken, dat met het aantal door de rijschool gegeven lessen overeenstemt;</li>\n<li>bijhouden van een aanwezigheidslijst voor elke theoretische lessencyclus;</li>\n<li>het gedurende één jaar bijhouden door elke instructeur van een dagelijks logboek waarop het tijdstip van het begin en het einde van de les is vermeld, alsmede, voor elke praktijkles, het kentekennummer van het voertuig, de kilometerstand van het voertuig aan het begin en aan het einde van de les, alsmede het kentekennummer van de leerling, en het gedurende drie jaar bijhouden van een register waarin de identiteit van de ingeschreven leerlingen, de datum van inschrijving, de data van de gegeven lessen met vermelding van de aan- of afwezigheid van de leerlingen, de data van de theorie- en praktijkexamens die de leerling heeft afgelegd en, in voorkomend geval, de behaalde resultaten met eventuele opmerkingen, zijn opgenomen;</li>\n<li>de afgifte van een getuigschrift van gevolgde theoretische lessen aan leerlingen die het aantal uren lessen voorgeschreven in de artikelen 14 en 15 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs of in artikel 9 van het koninklijk besluit van 10</li>\n</ol>",
+          "<p class=\"case-section__paragraph\">juli 2006 betreffende het rijbewijs voor voertuigen van categorie B hebben voltooid en aan leerlingen die van rijschool veranderen.</p>",
+          "<p class=\"case-section__paragraph\">12. Zoals blijkt uit het verslag aan de Koning over deze regelgevende bepaling, heeft deze gegevensverwerking tot doel \"een doeltreffende controle op de activiteiten van de scholen (...) door de inspecteurs (...) en de eventuele afgifte van duplicaat van getuigschriften van gevolgde lessen aan leerlingen mogelijk te maken\". Het zijn derhalve deze doeleinden die op basis van deze wettelijke bepaling het kader vormen waarbinnen de rijscholen de verwerking van leerlinggegevens mag uitvoeren.</p>",
+          "<p class=\"case-section__paragraph\">21. Gevraagd naar de motivering van deze eisen, wees de afgevaardigde van de minister op de verplichting van de rijscholen om aanwezigheidslijsten bij te houden van de leerlingen die hun lessen volgen en om de persoonlijke inschrijvingskaart van de leerlingen in te vullen, met vermelding van de lessen die zij hebben gevolgd (art. 23 van het voornoemde koninklijk besluit van 11 mei 2004) en op het feit dat \"een herhaalde verificatie waarborgt dat de kandidaat steeds actief de cursus volgt en niet alleen maar is ingelogd. Dit alles wordt steeds ingegeven door de zorg voor de verkeersveiligheid en het feit dat voor sommigen de opleiding een verplichte formaliteit is. Als de kandidaat weet dat de instructeur hem op elk moment kan ondervragen, vergroot dit de kans dat de kandidaat voor het scherm blijft zitten ».</p>",
+          "<p class=\"case-section__paragraph\">17. De verwerking van persoonsgegevens van leerlingen door rijscholen is gebaseerd op de rechtmatigheid van de uitvoering van het dienstverleningscontract (registratie, beheer van de facturering, enz.) (artikel 6.1.b AVG) en, voor de bovenvermelde verplichte gegevensverwerking, op artikel 23 van het bovengenoemde Koninklijk Besluit van 11 mei 2004 (artikel 6.1.c AVG).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-011",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-012",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-013",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">30. Op de vraag met welk doel deze verplichte mededeling van gegevens is ingevoerd, verwees de afgevaardigde van de minister naar de controlebevoegdheid bedoeld in artikel 39 van voormeld koninklijk besluit van 11 mei 2004. Dit artikel verleent de bevoegde minister of zijn afgevaardigde de taak toe te zien op de goede werking van de erkende rijscholen en daartoe het recht rijlessen bij te wonen en kennis te nemen van of kopieën te maken van \" de boeken en bescheiden van de school, de inschrijvingskaarten van de leerlingen, de dagstaten, de presentielijsten, de inschrijvingsregisters en in het algemeen alle documenten die betrekking hebben op de activiteiten van de school\". Dit wordt bevestigd door het verslag aan de Koning bij dit koninklijk besluit, waarin de doeleinden worden omschreven waarvoor de rijscholen moeten instaan voor het bijhouden van deze documenten, onder meer om een doeltreffende controle van de activiteiten van de scholen door de inspecteurs mogelijk te maken.</p>",
+          "<p class=\"case-section__paragraph\">31. De Autoriteit merkt op dat de controlebevoegdheden die bij artikel 39 van het bovengenoemde Koninklijk Besluit van 11 mei 2004 zijn verleend, betrekking hebben op de activiteiten van de scholen en niet op de leerlingen die deelnemen aan de rijopleiding. Met het oog op de verkeersveiligheid moet worden nagegaan of de rijscholen voldoen aan de voorwaarden voor hun erkenning (kwaliteit van de opleidingen, kwaliteit van de inspecteurs, enz.) Bovendien is het slagen voor het theoretisch examen, eventueel na overlegging van hun getuigschrift van voltooiing van het quotum van 12 uur dat vereist is na twee keer gezakt te zijn <sup>5</sup>, hetgeen wat de verkeersveiligheid ten goede komt.</p>",
+          "<p class=\"case-section__paragraph\">32. Een van de bij dit koninklijk besluit verleende controlemiddelen voor rijscholen is de mogelijkheid om de aanwezigheidslijsten van de leerlingen in te zien, maar alleen in de mate die strikt noodzakelijk is om een onderzoek van een school uit te kunnen voeren. Dit wijkt af van de systematische mededeling ervan zoals voorzien in het ontwerpbesluit dat voor advies is voorgelegd<sup>6</sup>. Op basis van de aan de Autoriteit verstrekte informatie lijkt deze systematische mededeling van de lijst van leerlingen en de redenen waarom zij voor de cursus zijn ingeschreven, niet noodzakelijk om na te gaan of de rijscholen voldoen aan de voorwaarden voor erkenning, en wordt zij evenmin gerechtvaardigd door het feit dat de cursussen op afstand en niet in levende lijve zullen worden gegeven.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-009",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">11. De rechtsgrondslag van het ontwerpbesluit is te vinden in artikel 23, § 1, 4°, van de wet op het wegverkeer, gecoördineerd op 16 maart 1968, alsmede in artikel 6, lid 2, van het besluit van de Waalse regering van 18 december 2020 houdende noodmaatregelen inzake rijopleiding, waarbij aan de minister de taak wordt gedelegeerd om de modaliteiten vast te stellen voor het verstrekken van theoretische afstandsonderwijs. Gevraagd naar het doel van de identificatie en authenticatie van leerlingen van een theoretische rijopleiding door erkende scholen, beriep de afgevaardigde van de minister zich op artikel 23 van het koninklijk besluit van 11 mei 2004 betreffende de voorwaarden voor erkenning van scholen voor het besturen van motorvoertuigen. Deze bepaling verplicht rijscholen tot de volgende verwerking van persoonsgegevens en vormt de wettelijke bepaling waarop rijscholen zich kunnen beroepen als grondslag voor de rechtmatigheid van deze verwerking (artikel 6.1.c van de AVG) :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-010",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-011",
+        "relatedFullTextCitations": [
+          "<ol>\n<li>een inschrijvingskaart voor iedere leerling waarop zijn identiteit en inschrijvingsnummer en -datum worden vermeld. Die kaart heeft een aantal vakken, dat met het aantal door de rijschool gegeven lessen overeenstemt;</li>\n<li>bijhouden van een aanwezigheidslijst voor elke theoretische lessencyclus;</li>\n<li>het gedurende één jaar bijhouden door elke instructeur van een dagelijks logboek waarop het tijdstip van het begin en het einde van de les is vermeld, alsmede, voor elke praktijkles, het kentekennummer van het voertuig, de kilometerstand van het voertuig aan het begin en aan het einde van de les, alsmede het kentekennummer van de leerling, en het gedurende drie jaar bijhouden van een register waarin de identiteit van de ingeschreven leerlingen, de datum van inschrijving, de data van de gegeven lessen met vermelding van de aan- of afwezigheid van de leerlingen, de data van de theorie- en praktijkexamens die de leerling heeft afgelegd en, in voorkomend geval, de behaalde resultaten met eventuele opmerkingen, zijn opgenomen;</li>\n<li>de afgifte van een getuigschrift van gevolgde theoretische lessen aan leerlingen die het aantal uren lessen voorgeschreven in de artikelen 14 en 15 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs of in artikel 9 van het koninklijk besluit van 10</li>\n</ol>",
+          "<p class=\"case-section__paragraph\">juli 2006 betreffende het rijbewijs voor voertuigen van categorie B hebben voltooid en aan leerlingen die van rijschool veranderen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-011",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-012",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-013",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-012",
+        "relatedFullTextCitations": [
+          "<ol>\n<li>een inschrijvingskaart voor iedere leerling waarop zijn identiteit en inschrijvingsnummer en -datum worden vermeld. Die kaart heeft een aantal vakken, dat met het aantal door de rijschool gegeven lessen overeenstemt;</li>\n<li>bijhouden van een aanwezigheidslijst voor elke theoretische lessencyclus;</li>\n<li>het gedurende één jaar bijhouden door elke instructeur van een dagelijks logboek waarop het tijdstip van het begin en het einde van de les is vermeld, alsmede, voor elke praktijkles, het kentekennummer van het voertuig, de kilometerstand van het voertuig aan het begin en aan het einde van de les, alsmede het kentekennummer van de leerling, en het gedurende drie jaar bijhouden van een register waarin de identiteit van de ingeschreven leerlingen, de datum van inschrijving, de data van de gegeven lessen met vermelding van de aan- of afwezigheid van de leerlingen, de data van de theorie- en praktijkexamens die de leerling heeft afgelegd en, in voorkomend geval, de behaalde resultaten met eventuele opmerkingen, zijn opgenomen;</li>\n<li>de afgifte van een getuigschrift van gevolgde theoretische lessen aan leerlingen die het aantal uren lessen voorgeschreven in de artikelen 14 en 15 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs of in artikel 9 van het koninklijk besluit van 10</li>\n</ol>",
+          "<p class=\"case-section__paragraph\">juli 2006 betreffende het rijbewijs voor voertuigen van categorie B hebben voltooid en aan leerlingen die van rijschool veranderen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-012",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-011",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-013",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-013",
+        "relatedFullTextCitations": [
+          "<ol>\n<li>een inschrijvingskaart voor iedere leerling waarop zijn identiteit en inschrijvingsnummer en -datum worden vermeld. Die kaart heeft een aantal vakken, dat met het aantal door de rijschool gegeven lessen overeenstemt;</li>\n<li>bijhouden van een aanwezigheidslijst voor elke theoretische lessencyclus;</li>\n<li>het gedurende één jaar bijhouden door elke instructeur van een dagelijks logboek waarop het tijdstip van het begin en het einde van de les is vermeld, alsmede, voor elke praktijkles, het kentekennummer van het voertuig, de kilometerstand van het voertuig aan het begin en aan het einde van de les, alsmede het kentekennummer van de leerling, en het gedurende drie jaar bijhouden van een register waarin de identiteit van de ingeschreven leerlingen, de datum van inschrijving, de data van de gegeven lessen met vermelding van de aan- of afwezigheid van de leerlingen, de data van de theorie- en praktijkexamens die de leerling heeft afgelegd en, in voorkomend geval, de behaalde resultaten met eventuele opmerkingen, zijn opgenomen;</li>\n<li>de afgifte van een getuigschrift van gevolgde theoretische lessen aan leerlingen die het aantal uren lessen voorgeschreven in de artikelen 14 en 15 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs of in artikel 9 van het koninklijk besluit van 10</li>\n</ol>",
+          "<p class=\"case-section__paragraph\">juli 2006 betreffende het rijbewijs voor voertuigen van categorie B hebben voltooid en aan leerlingen die van rijschool veranderen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-013",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-011",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-012",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">24. Gelet op het betalende karakter van de cursussen en gelet op het feit dat aan het einde van deze cursussen een theoretisch examen wordt afgenomen om na te gaan of de kandidaat over voldoende theoretische kennis beschikt voor het rijbewijs en gelet op het feit dat bij twee keer falen voor dit examen impliceert dat een groter contingent lesuren moet worden gevolgd (cf. art. 32, §5 van voormeld koninklijk besluit van 23 maart 1998), is het bovendien onwaarschijnlijk dat een andere persoon de plaats zal innemen van de ingeschreven leerling die zich heeft aangemeld met behulp van de authenticatiemodule van zijn identiteitskaart. De rijschool moet alleen een bewijs van deelname aan de cursus afgeven en geen bewijs van regelmatige aanwezigheid of van actieve deelname aan de cursus. Artikel 3, lid 1, 2° en artikel 4, §2 moeten bijgevolg worden aangepast.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-014",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">13. Door erkende rijscholen te verplichten een dubbelzijdige kopie te verzamelen van de identiteitskaart van kandidaten voor een cyclus van theoretische rijlessen en deze kopie gedurende 12 maanden te bewaren, wordt in ontwerpartikel 2 een irrelevante, overbodige en riskante maatregel met betrekking tot identiteitsdiefstal genomen. De eis dat een kopie van iemands identiteitskaart wordt toegezonden om hem of haar op afstand te authenticeren, is niet relevant, aangezien de ontvanger op die manier niet kan nagaan of de toegezonden kopie die is van de persoon die de cursus afstandsonderwijs volgt. In het geval van het gebruik van de ID- kaartauthenticatiemodule of een ander apparaat met soortgelijke kenmerken (multifactorauthenticatie), wordt aanbevolen de ID-kaartauthenticatiemodule of een ander apparaat met soortgelijke kenmerken te gebruiken. Aangezien de organisatie van theoretische rijlessen op afstand op afstand beperkt is tot de periode van de pandemie en gezien de urgentie van de organisatie van dergelijke cursussen, is de Autoriteit van mening dat een methode van authenticatie op afstand die minder sterk is dan die welke wordt geboden door het gebruik van de elektronische identiteitskaart, maar die toch een zekere mate van garantie biedt, toch kan worden gebruikt. Het gebruik van het CSAM-systeem of een ander systeem met soortgelijke kenmerken kan daartoe ook worden aanbevolen in het ontwerp van ministerieel besluit.. Aldus wordt het gewenste doel bereikt zonder het risico te lopen van identiteitsdiefstal als gevolg van het in omloop brengen en bewaren van kopieën van identiteitskaarten <sup>1</sup>. De formulering van ontwerpartikel 2 moet dienovereenkomstig worden herzien.</p>",
+          "<p class=\"case-section__paragraph\">14. Door gebruik te maken van de authenticatiemodule van de identiteitskaart of van een ander toestel met soortgelijke kenmerken om de toegang tot het e-learningplatform van de rijschool te beheren (dat de cursisten de applicatie voor interactieve communicatie ter beschikking zal stellen waarmee de cursus op afstand zal worden gegeven), zal de instructeur de cursisten niet hoeven op te roepen om hun identiteit te verifiëren (waarover de Autoriteit zich afvraagt hoe deze verificatie <sup>1</sup> Zie hiervoor de Aanbeveling uit eigen beweging 03/2011 van 25 mei 2011 van de Commissie voor de bescherming van de persoonlijke levenssfeer, voorganger van de Autoriteit, over het nemen van een kopie van de identiteitskaart en over het gebruik en de elektronische lezing ervan, terug te vinden op de website van de Autoriteit.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-015",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-016"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2021:ARR.20210205.9-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">14. Door gebruik te maken van de authenticatiemodule van de identiteitskaart of van een ander toestel met soortgelijke kenmerken om de toegang tot het e-learningplatform van de rijschool te beheren (dat de cursisten de applicatie voor interactieve communicatie ter beschikking zal stellen waarmee de cursus op afstand zal worden gegeven), zal de instructeur de cursisten niet hoeven op te roepen om hun identiteit te verifiëren (waarover de Autoriteit zich afvraagt hoe deze verificatie <sup>1</sup> Zie hiervoor de Aanbeveling uit eigen beweging 03/2011 van 25 mei 2011 van de Commissie voor de bescherming van de persoonlijke levenssfeer, voorganger van de Autoriteit, over het nemen van een kopie van de identiteitskaart en over het gebruik en de elektronische lezing ervan, terug te vinden op de website van de Autoriteit.</p>",
+          "<p class=\"case-section__paragraph\">20. Artikel 4 §2 van het ontwerp van ministerieel besluit bepaalt ook (vrije vertaling) « Tijdens de hele les zijn de leerlingen zichtbaar op het scherm op verzoek van de instructeur, die op elk moment met hen kan interageren. De instructeur controleert regelmatig de aanwezigheid van de leerlingen en meldt elke afwezigheid van een leerling tussen het begin en het einde van de les op het aanwezigheidsblad. »</p>",
+          "<p class=\"case-section__paragraph\"><sup>2</sup> Voor alle zekerheid, wijst de Autoriteit erop dat de verwerking van gezichtsherkenning via een webcam of enig ander technisch hulpmiddel met het oog op de eenmalige identificatie of authentificatie van personen, aanzienlijke risico's inhoudt op schending van de persoonlijke levenssfeer en de persoonlijke vrijheden van de betrokkenen. Biometrische gegevens zijn uniek en maken de identificatie van een persoon mogelijk op basis van zijn of haar fysieke of biologische kenmerken; zij vallen derhalve onder de strengere bescherming van de AVG. Aangezien de verwerking van biometrische gegevens in beginsel verboden is door de AVG, zou voor dergelijke voorzieningen in elk geval een specifieke wettelijke bepaling nodig zijn die wordt aangenomen om redenen van zwaarwegend algemeen belang, op een wijze die evenredig is met het nagestreefde doel en op voorwaarde dat passende en specifieke maatregelen worden getroffen om de grondrechten en de fundamentele belangen van de betrokkenen te vrijwaren.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-016",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-015",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-017",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">19. Artikel 3 van het ontwerp van ministerieel besluit dat voor advies voorligt, bepaalt dat (vrije vertaling) Videoconferentiecursussen worden gegeven via een applicatie voor collaboratieve communicatie die videogesprekken ondersteunt onder de volgende voorwaarden:</p>",
+          "<ol>\n<li>om naar behoren ingeschreven leerlingen in staat te stellen gratis op afstand verbinding te maken door in te loggen;</li>\n<li>elke leerling op elk moment duidelijk te kunnen visualiseren via zijn of haar afbeelding en zijn voor- en achternaam;</li>\n<li>de instructeur die de opleiding geeft te kunnen visualiseren ;</li>\n<li>interactie mogelijk te maken tussen de leerlingen en de instructeur via een microfoon en eventueel een chat ;</li>\n<li>de projectie van lesmateriaal mogelijk maken;</li>\n<li>op elk ogenblik toegang verlenen aan een ambtenaar van de Directie Regelgeving Wegvervoer van de Waalse Overheidsdienst Mobiliteit en infrastructuur. De gebruikte toepassing is beveiligd en garandeert de bescherming van de privacy. »</li>\n</ol>",
+          "<p class=\"case-section__paragraph\">22. De Autoriteit merkt op dat het disproportioneel te eisen dat voor- en achternaam van de leerlingen worden getoond en via de applicatie voor collaboratieve communicatie aan alle deelnemers worden meegedeeld. Hetzelfde geldt voor de machtiging van de instructeur om van een leerling te verlangen dat hij de camera op zijn computer activeert zodat hij zichtbaar is op het scherm, om regelmatig de aanwezigheid van leerlingen te controleren om elke \"afwezigheid\" (zonder verdere details) tijdens de cursus aan te geven, zodat dit op de aanwezigheidslijst kan worden vermeld. Zodra de authenticatie van de leerling heeft plaatsgevonden bij de aansluiting op het e- learningplatform van de rijschool, waardoor hij de applicatie voor collaboratieve communicatie kan activeren die hem door de rijschool ter beschikking wordt gesteld, die de instructeur in staat zal stellen tot interactie met de leerlingen, lijkt het immers niet nodig of relevant om van elke leerling te verlangen dat hij permanent zijn voor- en achternaam vermeldt, of dat de activering van de camera niet aan zijn eigen oordeel wordt overgelaten.</p>",
+          "<p class=\"case-section__paragraph\">23. Volgens de Autoriteit gaat het beoogde controlestelsel verder dan de eenvoudige invoering van een applicatie waarmee leerlingen kunnen worden ondervraagd. De voor elke opleiding noodzakelijke interactie met de cursisten kan plaatsvinden door in de applicatie alleen de voornaam van de cursisten weer te geven, of zelfs een pseudoniem naar keuze, zonder dat hun beeltenis of de privé-ruimte van de plaats van waaruit zij aan de cursus op afstand deelnemen, zichtbaar is, onverminderd het feit dat de verbindingslogboeken en de mogelijkheid voor de instructeur om de cursisten tijdens de cursus te ondervragen, de rijschool in staat zullen stellen de cursist te identificeren die aan de cursus heeft deelgenomen na zich op afstand te hebben geauthenticeerd volgens de door de Autoriteit aanbevolen methoden, zoals hierboven beschreven, en de aanwezigheidslijsten op te stellen die zij moeten bijhouden. Het feit dat cursussen op afstand worden gegeven in plaats van fysieke aanwezigheid, impliceert dat moet worden nagedacht over de modaliteiten van deze cursussen, zodat zij voldoen aan het beginsel van minimale gegevensverwerking.</p>",
+          "<p class=\"case-section__paragraph\">24. Gelet op het betalende karakter van de cursussen en gelet op het feit dat aan het einde van deze cursussen een theoretisch examen wordt afgenomen om na te gaan of de kandidaat over voldoende theoretische kennis beschikt voor het rijbewijs en gelet op het feit dat bij twee keer falen voor dit examen impliceert dat een groter contingent lesuren moet worden gevolgd (cf. art. 32, §5 van voormeld koninklijk besluit van 23 maart 1998), is het bovendien onwaarschijnlijk dat een andere persoon de plaats zal innemen van de ingeschreven leerling die zich heeft aangemeld met behulp van de authenticatiemodule van zijn identiteitskaart. De rijschool moet alleen een bewijs van deelname aan de cursus afgeven en geen bewijs van regelmatige aanwezigheid of van actieve deelname aan de cursus. Artikel 3, lid 1, 2° en artikel 4, §2 moeten bijgevolg worden aangepast.</p>",
+          "<p class=\"case-section__paragraph\">25. Tot slot zijn het ontbreken van duidelijke en ondubbelzinnige richtsnoeren ter zake en de toewijzing van deze controle aan de enige instructeur van de rijschool die als maatschappelijk doel heeft rijlessen aan te bieden, naar het oordeel van de Autoriteit problematisch, gezien de consequentie van ongeldigverklaring van de les als gevolg van de vaststelling door de instructeur van het \"niet zichtbaar zijn\" van een leerling tijdens de les (zonder nadere specificatie van de duur) en de financiële gevolgen die dit heeft voor leerlingen die verplicht een quotum van lesuren moeten volgen; te meer daar kortstondige afwezigheden legitiem kunnen zijn en studenten niet in staat kunnen zijn te communiceren in geval van een kwaliteitsonderbreking van de door hun internetprovider geleverde dienst.</p>",
+          "<p class=\"case-section__paragraph\">27. Door te bepalen dat \"de gebruikte toepassing beveiligd is en de eerbiediging van de persoonlijke levenssfeer waarborgt\", is artikel 3, lid 2, van het voor advies voorgelegde ontwerp van ministerieel besluit enerzijds overbodig gelet op artikel 32 van de AVG en kan het als zodanig worden geschrapt, en mist het anderzijds zijn doel, namelijk \"de praktische, nadere regels van het afstandsonderwijs zodanig vast te stellen dat het volgens gemeenschappelijke en onderling <sup>4</sup> In het geval van verwerking merkt de Autoriteit op dat het van belang is een contract te sluiten overeenkomstig de bepalingen van artikel 28 van de AVG.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-017",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-016",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-015",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-005",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">26. Als verantwoordelijken voor de verwerking van persoonsgegevens die noodzakelijk zijn voor het op afstand geven van rijtheoriecursussen, zijn erkende rijscholen verplicht om - in toepassing van de AVG (art.24 en 25), nl. de beginselen van verantwoordingsplicht en gegevensbescherming van bij het ontwerp en als standaardinstelling) - een videoconferentieplatform op te zetten \"dat voldoet aan de AVG, waarvan de parameters strikt beperkt zijn tot hetgeen noodzakelijk is voor de uitvoering van hun dienst overeenkomstig het beginsel van minimale gegevensverwerking van de AVG, (of een kwaliteitsaanbieder te kiezen na te hebben geverifieerd dat deze over de vereiste kenmerken beschikt<sup>4</sup>)</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-018",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-019"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-019",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">26. Als verantwoordelijken voor de verwerking van persoonsgegevens die noodzakelijk zijn voor het op afstand geven van rijtheoriecursussen, zijn erkende rijscholen verplicht om - in toepassing van de AVG (art.24 en 25), nl. de beginselen van verantwoordingsplicht en gegevensbescherming van bij het ontwerp en als standaardinstelling) - een videoconferentieplatform op te zetten \"dat voldoet aan de AVG, waarvan de parameters strikt beperkt zijn tot hetgeen noodzakelijk is voor de uitvoering van hun dienst overeenkomstig het beginsel van minimale gegevensverwerking van de AVG, (of een kwaliteitsaanbieder te kiezen na te hebben geverifieerd dat deze over de vereiste kenmerken beschikt<sup>4</sup>)</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-019",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-018"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">36. Wat de keuze van de Directie van de Overheidsdienst als ontvanger van deze gegevensmededelingen betreft, merkt de Autoriteit op dat het aan de initiatiefnemer van het ontwerpbesluit is om ervoor te zorgen dat hij de administratie aanwijst waaraan deze controlebevoegdheid formeel is toegekend. In het kader van het beginsel van de verdeling van de administratieve bevoegdheden, dat is vastgelegd in artikel 105 van de Grondwet en artikel 78 van de bijzondere wet van 8 augustus 1980 tot hervorming der instellingen, hebben de administratieve overheden immers geen andere bevoegdheden dan die welke hun formeel zijn toegekend door de Grondwet en de wetten en decreten die op grond daarvan zijn vastgesteld. Bovendien kan, krachtens artikel 6.1.e van de AVG, een administratie ten behoeve van de uitoefening van de haar <sup>6</sup> In het algemeen wordt de opportuniteit van een onderzoek in concreto beoordeeld door de inspecteurs, die de controlebevoegdheid hebben in het licht van de feitelijke elementen waarover zij beschikken. Zij hebben een beoordelingsbevoegdheid bij de uitoefening van hun opdracht. In dit verband moeten zij toegang vragen tot de gegevens die voor hen van belang zijn om hun onderzoeksbevoegdheden oordeelkundig en met mate te kunnen uitoefenen of om een structurele controle te kunnen verrichten aan de hand van een steekproef die op objectieve en evenredige wijze is vastgesteld.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-020",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-021"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">36. Wat de keuze van de Directie van de Overheidsdienst als ontvanger van deze gegevensmededelingen betreft, merkt de Autoriteit op dat het aan de initiatiefnemer van het ontwerpbesluit is om ervoor te zorgen dat hij de administratie aanwijst waaraan deze controlebevoegdheid formeel is toegekend. In het kader van het beginsel van de verdeling van de administratieve bevoegdheden, dat is vastgelegd in artikel 105 van de Grondwet en artikel 78 van de bijzondere wet van 8 augustus 1980 tot hervorming der instellingen, hebben de administratieve overheden immers geen andere bevoegdheden dan die welke hun formeel zijn toegekend door de Grondwet en de wetten en decreten die op grond daarvan zijn vastgesteld. Bovendien kan, krachtens artikel 6.1.e van de AVG, een administratie ten behoeve van de uitoefening van de haar <sup>6</sup> In het algemeen wordt de opportuniteit van een onderzoek in concreto beoordeeld door de inspecteurs, die de controlebevoegdheid hebben in het licht van de feitelijke elementen waarover zij beschikken. Zij hebben een beoordelingsbevoegdheid bij de uitoefening van hun opdracht. In dit verband moeten zij toegang vragen tot de gegevens die voor hen van belang zijn om hun onderzoeksbevoegdheden oordeelkundig en met mate te kunnen uitoefenen of om een structurele controle te kunnen verrichten aan de hand van een steekproef die op objectieve en evenredige wijze is vastgesteld.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-021",
+          "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-020"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 21,
+      "citationStatistics": {
+        "totalCitations": 43,
+        "avgCitationsPerProvision": 2.0476190476190474,
+        "provisionsWithMinimalCitations": 16,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.619047619047619,
+        "avgDecisionsPerProvision": 0.047619047619047616,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">7. Elk ingrijpen in het recht op eerbiediging van het privéleven en het recht op bescherming van persoonsgegevens is slechts toelaatbaar indien zij noodzakelijk is en in verhoudiging staat met het doel van algemeen belang dat ermee wordt nagestreefd en die door zijn aard als leidraad moeten dienen voor elke wettelijke bepaling. De auteur van een norm die een verwerking van persoonsgegevens regelt, moet kunnen aantonen dat deze voorafgaande analyse van de noodzakelijkheid en proportionaliteit is uitgevoerd.</p>",
+          "<p class=\"case-section__paragraph\">8. Het noodzakelijkheidsbeginsel vereist niet alleen een beoordeling van de doeltreffendheid van de voorgestelde verwerking met het oog op het bereiken van het nagestreefde doel, maar ook een beoordeling of de voorgestelde verwerking de minst ingrijpende manier is om dat doel te bereiken.</p>",
+          "<p class=\"case-section__paragraph\">9. Als de noodzaak van de verwerking van persoonsgegevens wordt aangetoond, moet ook worden aangetoond dat de verwerking in verhouding staat (in strikte zin) tot het nagestreefde doel, dat wil zeggen dat er een billijk evenwicht is tussen de verschillende betrokken belangen en de rechten en vrijheden van de betrokken personen ; met andere woorden, er moet worden nagegaan of het ongemak dat de beoogde verwerking veroorzaakt, niet disproportioneel is aan het nagestreefde doel.</p>",
+          "<p class=\"case-section__paragraph\">10. Elke norm die de verwerking van persoonsgegevens regelt (en door zijn aard een inmenging betekent in het recht op bescherming van persoonsgegevens en het recht op privacy) moet bovendien niet alleen noodzakelijk en proportioneel zijn, maar ook voldoen aan de eisen van voorspelbaarheid en nauwkeurigheid, zodat de betrokkenen, over wie gegevens worden verwerkt, duidelijk kunnen zien welke verwerkingen er met hun gegevens worden uitgevoerd.</p>",
+          "<p class=\"case-section__paragraph\">26. Als verantwoordelijken voor de verwerking van persoonsgegevens die noodzakelijk zijn voor het op afstand geven van rijtheoriecursussen, zijn erkende rijscholen verplicht om - in toepassing van de AVG (art.24 en 25), nl. de beginselen van verantwoordingsplicht en gegevensbescherming van bij het ontwerp en als standaardinstelling) - een videoconferentieplatform op te zetten \"dat voldoet aan de AVG, waarvan de parameters strikt beperkt zijn tot hetgeen noodzakelijk is voor de uitvoering van hun dienst overeenkomstig het beginsel van minimale gegevensverwerking van de AVG, (of een kwaliteitsaanbieder te kiezen na te hebben geverifieerd dat deze over de vereiste kenmerken beschikt<sup>4</sup>)</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">10. Elke norm die de verwerking van persoonsgegevens regelt (en door zijn aard een inmenging betekent in het recht op bescherming van persoonsgegevens en het recht op privacy) moet bovendien niet alleen noodzakelijk en proportioneel zijn, maar ook voldoen aan de eisen van voorspelbaarheid en nauwkeurigheid, zodat de betrokkenen, over wie gegevens worden verwerkt, duidelijk kunnen zien welke verwerkingen er met hun gegevens worden uitgevoerd.</p>",
+          "<p class=\"case-section__paragraph\">11. De rechtsgrondslag van het ontwerpbesluit is te vinden in artikel 23, § 1, 4°, van de wet op het wegverkeer, gecoördineerd op 16 maart 1968, alsmede in artikel 6, lid 2, van het besluit van de Waalse regering van 18 december 2020 houdende noodmaatregelen inzake rijopleiding, waarbij aan de minister de taak wordt gedelegeerd om de modaliteiten vast te stellen voor het verstrekken van theoretische afstandsonderwijs. Gevraagd naar het doel van de identificatie en authenticatie van leerlingen van een theoretische rijopleiding door erkende scholen, beriep de afgevaardigde van de minister zich op artikel 23 van het koninklijk besluit van 11 mei 2004 betreffende de voorwaarden voor erkenning van scholen voor het besturen van motorvoertuigen. Deze bepaling verplicht rijscholen tot de volgende verwerking van persoonsgegevens en vormt de wettelijke bepaling waarop rijscholen zich kunnen beroepen als grondslag voor de rechtmatigheid van deze verwerking (artikel 6.1.c van de AVG) :</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:GBAPD:2021:ARR.20210205.9-001"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-003",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">c. Noodzaak en doel van het identificeren van leerlingen voor een theoretische rijopleiding die wordt verstrekt door een erkende rijschool en het beheren van de identificatie van leerlingen wanneer zij zich inschrijven voor de cursuscyclus. (art.2, §1 in ontwerp)</h3>",
+          "<p class=\"case-section__paragraph\">11. De rechtsgrondslag van het ontwerpbesluit is te vinden in artikel 23, § 1, 4°, van de wet op het wegverkeer, gecoördineerd op 16 maart 1968, alsmede in artikel 6, lid 2, van het besluit van de Waalse regering van 18 december 2020 houdende noodmaatregelen inzake rijopleiding, waarbij aan de minister de taak wordt gedelegeerd om de modaliteiten vast te stellen voor het verstrekken van theoretische afstandsonderwijs. Gevraagd naar het doel van de identificatie en authenticatie van leerlingen van een theoretische rijopleiding door erkende scholen, beriep de afgevaardigde van de minister zich op artikel 23 van het koninklijk besluit van 11 mei 2004 betreffende de voorwaarden voor erkenning van scholen voor het besturen van motorvoertuigen. Deze bepaling verplicht rijscholen tot de volgende verwerking van persoonsgegevens en vormt de wettelijke bepaling waarop rijscholen zich kunnen beroepen als grondslag voor de rechtmatigheid van deze verwerking (artikel 6.1.c van de AVG) :</p>",
+          "<p class=\"case-section__paragraph\">13. Door erkende rijscholen te verplichten een dubbelzijdige kopie te verzamelen van de identiteitskaart van kandidaten voor een cyclus van theoretische rijlessen en deze kopie gedurende 12 maanden te bewaren, wordt in ontwerpartikel 2 een irrelevante, overbodige en riskante maatregel met betrekking tot identiteitsdiefstal genomen. De eis dat een kopie van iemands identiteitskaart wordt toegezonden om hem of haar op afstand te authenticeren, is niet relevant, aangezien de ontvanger op die manier niet kan nagaan of de toegezonden kopie die is van de persoon die de cursus afstandsonderwijs volgt. In het geval van het gebruik van de ID- kaartauthenticatiemodule of een ander apparaat met soortgelijke kenmerken (multifactorauthenticatie), wordt aanbevolen de ID-kaartauthenticatiemodule of een ander apparaat met soortgelijke kenmerken te gebruiken. Aangezien de organisatie van theoretische rijlessen op afstand op afstand beperkt is tot de periode van de pandemie en gezien de urgentie van de organisatie van dergelijke cursussen, is de Autoriteit van mening dat een methode van authenticatie op afstand die minder sterk is dan die welke wordt geboden door het gebruik van de elektronische identiteitskaart, maar die toch een zekere mate van garantie biedt, toch kan worden gebruikt. Het gebruik van het CSAM-systeem of een ander systeem met soortgelijke kenmerken kan daartoe ook worden aanbevolen in het ontwerp van ministerieel besluit.. Aldus wordt het gewenste doel bereikt zonder het risico te lopen van identiteitsdiefstal als gevolg van het in omloop brengen en bewaren van kopieën van identiteitskaarten <sup>1</sup>. De formulering van ontwerpartikel 2 moet dienovereenkomstig worden herzien.</p>",
+          "<p class=\"case-section__paragraph\">15. Artikel 2, § 2, lid 2, van het ontwerp van ministerieel besluit bepaalt dat (vrije vertaling) \"de leerling automatisch instemt met de praktische regels door deel te nemen aan de cursussen.</p>",
+          "<p class=\"case-section__paragraph\">16. Afgezien van het feit dat het aan de minister is om deze modaliteiten via reglementaire weg vast te stellen en anderzijds dat leerlingen van nature geen manoeuvreerruimte hebben bij het bepalen van deze modaliteiten en dat de instemming in het onderhavige geval dus niet kan worden gebruikt, merkt de Autoriteit op dat deze toestemming niet de grondslag kan vormen voor de rechtmatigheid van de verwerking van persoonsgegevens die voortvloeit uit de modaliteiten voor afstandsonderwijs, aangezien zij niet vrij is. Om vrijelijk te kunnen instemmen met de voorwaarden van cursussen op afstand, moet de leerling een echte keuze worden geboden, zonder dat hij negatieve gevolgen hoeft te ondervinden als hij weigert. Onder deze omstandigheden kan toestemming in dit geval moeilijk als rechtsgrondslag worden aanvaard. Artikel 2, § 2, tweede alinea, moet bijgevolg worden geschrapt omdat het in strijd is met de AVG.</p>",
+          "<p class=\"case-section__paragraph\">17. De verwerking van persoonsgegevens van leerlingen door rijscholen is gebaseerd op de rechtmatigheid van de uitvoering van het dienstverleningscontract (registratie, beheer van de facturering, enz.) (artikel 6.1.b AVG) en, voor de bovenvermelde verplichte gegevensverwerking, op artikel 23 van het bovenvermelde Koninklijk Besluit van 11 mei 2004 (artikel 6.1.c AVG).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">11. De rechtsgrondslag van het ontwerpbesluit is te vinden in artikel 23, § 1, 4°, van de wet op het wegverkeer, gecoördineerd op 16 maart 1968, alsmede in artikel 6, lid 2, van het besluit van de Waalse regering van 18 december 2020 houdende noodmaatregelen inzake rijopleiding, waarbij aan de minister de taak wordt gedelegeerd om de modaliteiten vast te stellen voor het verstrekken van theoretische afstandsonderwijs. Gevraagd naar het doel van de identificatie en authenticatie van leerlingen van een theoretische rijopleiding door erkende scholen, beriep de afgevaardigde van de minister zich op artikel 23 van het koninklijk besluit van 11 mei 2004 betreffende de voorwaarden voor erkenning van scholen voor het besturen van motorvoertuigen. Deze bepaling verplicht rijscholen tot de volgende verwerking van persoonsgegevens en vormt de wettelijke bepaling waarop rijscholen zich kunnen beroepen als grondslag voor de rechtmatigheid van deze verwerking (artikel 6.1.c van de AVG) :</p>",
+          "<p class=\"case-section__paragraph\">12. Zoals blijkt uit het verslag aan de Koning over deze regelgevende bepaling, heeft deze gegevensverwerking tot doel \"een doeltreffende controle op de activiteiten van de scholen (...) door de inspecteurs (...) en de eventuele afgifte van duplicaat van getuigschriften van gevolgde lessen aan leerlingen mogelijk te maken\". Het zijn derhalve deze doeleinden die op basis van deze wettelijke bepaling het kader vormen waarbinnen de rijscholen de verwerking van leerlinggegevens mag uitvoeren.</p>",
+          "<h3 class=\"case-section__subtitle\">f. Systematische mededeling van de lijst van leerlingen die voor elke cursuscyclus zijn ingeschreven, zodra de inschrijvingstermijn bij de Waalse Overheidsdienst is afgesloten.</h3>",
+          "<p class=\"case-section__paragraph\">29. Artikel 2, §3 van het ontwerp van ministerieel besluit verplicht de rijscholen om, zodra de inschrijvingen voor elke cyclus zijn afgesloten, per e-mail de volgende informatie door te sturen naar de Directie Regulering van het Wegvervoer van de Openbare Dienst voor Mobiliteit en Infrastructuur van Wallonië (vrije vertaling):</p>",
+          "<ol>\n<li>de lijst van inschrijvingen van leerlingen voor de cyclus van theorielessen per videoconferentie en, voor elke leerling, de vermelding dat hij de opleiding vrijwillig volgt of op grond van een wettelijke verplichting ;</li>\n<li>de naam van de instructeur en adres van de lokalen van waaruit de cursus wordt gegeven ;</li>\n<li>de data en tijdstippen van de theorielessen die in het kader van de cyclus worden gegeven ;</li>\n<li>de elektronische link die toegang geeft tot de cursus via videoconferentie en de eventuele toegangscode \".</li>\n</ol>",
+          "<p class=\"case-section__paragraph\">30. Op de vraag met welk doel deze verplichte mededeling van gegevens is ingevoerd, verwees de afgevaardigde van de minister naar de controlebevoegdheid bedoeld in artikel 39 van voormeld koninklijk besluit van 11 mei 2004. Dit artikel verleent de bevoegde minister of zijn afgevaardigde de taak toe te zien op de goede werking van de erkende rijscholen en daartoe het recht rijlessen bij te wonen en kennis te nemen van of kopieën te maken van \" de boeken en bescheiden van de school, de inschrijvingskaarten van de leerlingen, de dagstaten, de presentielijsten, de inschrijvingsregisters en in het algemeen alle documenten die betrekking hebben op de activiteiten van de school\". Dit wordt bevestigd door het verslag aan de Koning bij dit koninklijk besluit, waarin de doeleinden worden omschreven waarvoor de rijscholen moeten instaan voor het bijhouden van deze documenten, onder meer om een doeltreffende controle van de activiteiten van de scholen door de inspecteurs mogelijk te maken.</p>",
+          "<p class=\"case-section__paragraph\">31. De Autoriteit merkt op dat de controlebevoegdheden die bij artikel 39 van het bovengenoemde Koninklijk Besluit van 11 mei 2004 zijn verleend, betrekking hebben op de activiteiten van de scholen en niet op de leerlingen die deelnemen aan de rijopleiding. Met het oog op de verkeersveiligheid moet worden nagegaan of de rijscholen voldoen aan de voorwaarden voor hun erkenning (kwaliteit van de opleidingen, kwaliteit van de inspecteurs, enz.) Bovendien is het slagen voor het theoretisch examen, eventueel na overlegging van hun getuigschrift van voltooiing van het quotum van 12 uur dat vereist is na twee keer gezakt te zijn <sup>5</sup>, hetgeen wat de verkeersveiligheid ten goede komt.</p>",
+          "<p class=\"case-section__paragraph\">32. Een van de bij dit koninklijk besluit verleende controlemiddelen voor rijscholen is de mogelijkheid om de aanwezigheidslijsten van de leerlingen in te zien, maar alleen in de mate die strikt noodzakelijk is om een onderzoek van een school uit te kunnen voeren. Dit wijkt af van de systematische mededeling ervan zoals voorzien in het ontwerpbesluit dat voor advies is voorgelegd<sup>6</sup>. Op basis van de aan de Autoriteit verstrekte informatie lijkt deze systematische mededeling van de lijst van leerlingen en de redenen waarom zij voor de cursus zijn ingeschreven, niet noodzakelijk om na te gaan of de rijscholen voldoen aan de voorwaarden voor erkenning, en wordt zij evenmin gerechtvaardigd door het feit dat de cursussen op afstand en niet in levende lijve zullen worden gegeven.</p>",
+          "<p class=\"case-section__paragraph\">33. Door te voorzien in de systematische mededeling per e-mail van de lijst met inschrijvingen van de leerlingen voor de cyclus van theoretische cursussen via videoconferentie en, voor elke leerling, de vermelding dat hij de opleiding vrijwillig volgt of op grond van een wettelijke verplichting als bedoeld in artikel 2, §3, eerste lid, 1° van het ontwerp van ministerieel besluit, gaat de minister bovendien verder dan de bevoegdheid die de regering hem heeft toevertrouwd om de modaliteiten van het afstandsonderwijs vast te stellen.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2021:ARR.20210205.9-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">13. Door erkende rijscholen te verplichten een dubbelzijdige kopie te verzamelen van de identiteitskaart van kandidaten voor een cyclus van theoretische rijlessen en deze kopie gedurende 12 maanden te bewaren, wordt in ontwerpartikel 2 een irrelevante, overbodige en riskante maatregel met betrekking tot identiteitsdiefstal genomen. De eis dat een kopie van iemands identiteitskaart wordt toegezonden om hem of haar op afstand te authenticeren, is niet relevant, aangezien de ontvanger op die manier niet kan nagaan of de toegezonden kopie die is van de persoon die de cursus afstandsonderwijs volgt. In het geval van het gebruik van de ID- kaartauthenticatiemodule of een ander apparaat met soortgelijke kenmerken (multifactorauthenticatie), wordt aanbevolen de ID-kaartauthenticatiemodule of een ander apparaat met soortgelijke kenmerken te gebruiken. Aangezien de organisatie van theoretische rijlessen op afstand op afstand beperkt is tot de periode van de pandemie en gezien de urgentie van de organisatie van dergelijke cursussen, is de Autoriteit van mening dat een methode van authenticatie op afstand die minder sterk is dan die welke wordt geboden door het gebruik van de elektronische identiteitskaart, maar die toch een zekere mate van garantie biedt, toch kan worden gebruikt. Het gebruik van het CSAM-systeem of een ander systeem met soortgelijke kenmerken kan daartoe ook worden aanbevolen in het ontwerp van ministerieel besluit.. Aldus wordt het gewenste doel bereikt zonder het risico te lopen van identiteitsdiefstal als gevolg van het in omloop brengen en bewaren van kopieën van identiteitskaarten <sup>1</sup>. De formulering van ontwerpartikel 2 moet dienovereenkomstig worden herzien.</p>",
+          "<p class=\"case-section__paragraph\">14. Door gebruik te maken van de authenticatiemodule van de identiteitskaart of van een ander toestel met soortgelijke kenmerken om de toegang tot het e-learningplatform van de rijschool te beheren (dat de cursisten de applicatie voor interactieve communicatie ter beschikking zal stellen waarmee de cursus op afstand zal worden gegeven), zal de instructeur de cursisten niet hoeven op te roepen om hun identiteit te verifiëren (waarover de Autoriteit zich afvraagt hoe deze verificatie <sup>1</sup> Zie hiervoor de Aanbeveling uit eigen beweging 03/2011 van 25 mei 2011 van de Commissie voor de bescherming van de persoonlijke levenssfeer, voorganger van de Autoriteit, over het nemen van een kopie van de identiteitskaart en over het gebruik en de elektronische lezing ervan, terug te vinden op de website van de Autoriteit.</p>",
+          "<p class=\"case-section__paragraph\">26. Als verantwoordelijken voor de verwerking van persoonsgegevens die noodzakelijk zijn voor het op afstand geven van rijtheoriecursussen, zijn erkende rijscholen verplicht om - in toepassing van de AVG (art.24 en 25), nl. de beginselen van verantwoordingsplicht en gegevensbescherming van bij het ontwerp en als standaardinstelling) - een videoconferentieplatform op te zetten \"dat voldoet aan de AVG, waarvan de parameters strikt beperkt zijn tot hetgeen noodzakelijk is voor de uitvoering van hun dienst overeenkomstig het beginsel van minimale gegevensverwerking van de AVG, (of een kwaliteitsaanbieder te kiezen na te hebben geverifieerd dat deze over de vereiste kenmerken beschikt<sup>4</sup>)</p>",
+          "<p class=\"case-section__paragraph\">27. Door te bepalen dat \"de gebruikte toepassing beveiligd is en de eerbiediging van de persoonlijke levenssfeer waarborgt\", is artikel 3, lid 2, van het voor advies voorgelegde ontwerp van ministerieel besluit enerzijds overbodig gelet op artikel 32 van de AVG en kan het als zodanig worden geschrapt, en mist het anderzijds zijn doel, namelijk \"de praktische, nadere regels van het afstandsonderwijs zodanig vast te stellen dat het volgens gemeenschappelijke en onderling <sup>4</sup> In het geval van verwerking merkt de Autoriteit op dat het van belang is een contract te sluiten overeenkomstig de bepalingen van artikel 28 van de AVG.</p>",
+          "<ul>\n<li>inzake vertrouwelijkheid: dat er geen andere gegevens worden uitgewisseld dan die welke vereist zijn voor de cursussessie op afstand met behulp van de gebruikte videoconferentietoepassing ;</li>\n<li>inzake encryptie: de datatransmissies die nodig zijn voor de cursussessie (gegevens in transit: video, audio, chat) worden versleuteld;</li>\n<li>inzake toegangscontrole: Er moeten controlemaatregelen tegen ongeoorloofde toegang tot de videoconferentiesessie worden ingevoerd (bijv.: complex wachtwoord van ten minste 8 tekens, uniek identificatienummer voor elke vergadering/elke deelnemer of multifactorauthenticatie);</li>\n<li>inzake de updates: de versie van het gebruikte videoconferentieprogramma zal altijd de laatste beschikbare versie zijn ;</li>\n<li>inzake minimale gegevensverwerking: keuze van een toepassing die een zodanige parametrisering mogelijk maakt dat de gegevens (met inbegrip van de metagegevens) die tijdens de werking ervan worden verzameld, beperkt blijven tot het strikte minimum dat noodzakelijk is voor de cursussessie.</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">28. De Autoriteit merkt tevens op dat indien de servers van het gebruikte videoconferentiesysteem en/of de servers die voor back-ups worden gebruikt, zich buiten de Europese Economische Ruimte bevinden, er sprake kan zijn van doorgifte van gegevens naar derde landen die geen passend beschermingsniveau bieden, zonder dat er noodzakelijkerwijs sprake is van passende waarborgen in de zin van hoofdstuk V van de AVG. Het is aan de rijscholen om ervoor te zorgen dat met dit aspect rekening wordt gehouden bij hun keuze van een videoconferentietoepassing.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 5,
+      "citationStatistics": {
+        "totalCitations": 26,
+        "avgCitationsPerTeaching": 5.2,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 11,
+        "totalProvisionsNotFound": 1,
+        "totalDecisionsValidated": 1,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

@@ -1,0 +1,691 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:2017:ARR.20170201.6",
+  "language": "NL",
+  "metadata": {
+    "id": 46462,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+    "decision_date": "2017-02-01",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 15641,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commissie voor de bescherming van de persoonlijke levenssfeer, 1 februari 2017, Advies nr. 07/2017, ECLI:BE:COPRIV:2017:ARR.20170201.6"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+        "name": "De Staatssecretaris voor Bestrijding van de sociale fraude, Privacy en Noordzee",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+        "name": "De Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De Staatssecretaris voor Bestrijding van de sociale fraude, Privacy en Noordzee verzocht bij aanvraag van 23 december 2016 advies over een voorontwerp van wet tot wijziging van artikel 36bis van de wet van 8 december 1992 (WVP) om expliciet te verduidelijken dat politiediensten vrijgesteld zijn van een voorafgaande machtiging door het Sectoraal Comité voor de Federale Overheid. Dit voorstel volgt op verschillende arresten van het Hof van Cassatie van 13 december 2016 die onduidelijkheid hebben gecreëerd over de rechtmatigheid van verwerkingen door politiediensten van persoonsgegevens afkomstig van andere federale overheidsdiensten, met name over het identificeren van de eigenaar van een kentekenplaat via de DIV, waarbij het Hof oordeelde dat een machtiging van het Sectoraal Comité noodzakelijk kan zijn. Het voorontwerp stelt een zevende lid aan artikel 36bis toe te voegen dat een vrijstelling voor politiediensten bepaalt en deze bepaling met terugwerkende kracht laat ingaan. De tekst bespreekt tevens de relevante Europese regelgeving (GDPR/AVG en richtlijn 2016/680), de bestaande afwijking geregeld bij koninklijk besluit van 4 juni 2003 ten behoeve van de geïntegreerde politie, de historisch gehanteerde interpretatie door toezichthouders, de rol van het Controleorgaan van Politionele Informatie en de controlemechanismen (o.a. WPA, artikelen 44/1-44/11), en vermeldt dat de Directie van de politionele informatie en ICT een dringende machtigingsaanvraag indiende voor DIV-gegevens en dat het Comité een machtiging verleende (FO nr. 53/2016 van 15 december 2016). De Commissie overweegt dat het voorontwerp de rechtszekerheid kan herstellen maar uit vragen over de voorgestelde terugwerkende kracht.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+          "requests": "Verzoek om advies over het voorontwerp van wet tot wijziging van artikel 36bis WVP teneinde te verduidelijken dat politiediensten vrijgesteld zijn van een voorafgaande machtiging van het Sectoraal Comité voor de Federale Overheid."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+          "argument": "De Commissie stelt dat rekening moet worden gehouden met de nieuwe Europese regels (Verordening/AVG en richtlijn 2016/680) en wijst op de negatieve verplichting van lidstaten om geen nationale wetgeving uit te vaardigen die het beoogde resultaat van de Verordening ernstig in gevaar zou brengen. Zij meent dat het voorontwerp, door expliciet te vrijwaren dat politiediensten bij de uitvoering van hun opdrachten geen voorafgaande machtiging van het sectoraal comité nodig hebben, de noodzakelijke rechtszekerheid kan herstellen na de arresten van het Hof van Cassatie. Tegelijkertijd uit de Commissie bedenkingen bij de voorgestelde terugwerkende kracht. De Commissie benadrukt dat verwerkingen door politiediensten onderworpen blijven aan strikte waarborgen en aan controlerende organen (o.m. het Controleorgaan van Politionele Informatie, het Controlecomité binnen de Privacycommissie, de consulent inzake veiligheid en bescherming van de persoonlijke levenssfeer, en de bepalingen van de WPA betreffende informatiebeheer) die de rechtmatigheid, finaliteit, proportionaliteit, veiligheid en transparantie waarborgen.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN,\nde Commissie\nbrengt een gunstig advies uit over het voorontwerp.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+        "provisionNumber": "artikel 36bis",
+        "provisionNumberKey": "36bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie stelt dat artikel 36bis verduidelijkt moet worden zodat blijkt dat de politiediensten bij de uitvoering van hun bestuurlijke en gerechtelijke opdrachten vrijgesteld zijn van een voorafgaande machtiging van het sectoraal comité. Zij wijst erop dat de bestaande interpretatie, ondersteund door het koninklijk besluit van 4 juni 2003 en de praktijk sinds 2003, de afwijking ruim heeft begrepen en zowel mededelingen door politiediensten als gegevens die door hen werden ingevoerd of ingeleid dekt.",
+        "relevantFactualContext": "Onzekerheid ontstond na arresten van het Hof van Cassatie van 13 december 2016 over de rechtmatigheid van politieraadplegingen van DIV-gegevens; het voorontwerp wil die onduidelijkheid herstellen en verwijst naar dringende machtigingsaanvragen voor DIV-raadplegingen door de Federale Politie."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+        "provisionNumber": "artikel 29",
+        "provisionNumberKey": "29",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-003",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+        "provisionNumber": "artikel 18, §1",
+        "provisionNumberKey": "18",
+        "parentActType": "WET",
+        "parentActName": "wet van 19 mei 2010 houdende oprichting van de Kruispuntbank van de voertuigen (wet KBV)",
+        "parentActDate": "2010-05-19",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie merkt op dat het Hof van Cassatie zich hoofdzakelijk baseert op artikel 18, §1 van de wet KBV, dat in principe vereist dat voor toegang tot gegevens van de Kruispuntbank van de voertuigen een machtiging van het sectoraal comité noodzakelijk is. Ze benadrukt evenwel dat artikel 18 ook een regeling (§2) bevat voor afwijking bij koninklijk besluit.",
+        "relevantFactualContext": "De Cassatiearresten van 13 december 2016 plaatsten vraagtekens bij raadplegingen van de DIV voor kentekenidentificatie door de politie, waardoor de nood aan duidelijkheid over machtigingen voor KBV-toegang werd aangewend."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-003",
+        "provisionNumber": "artikel 1",
+        "provisionNumberKey": "1",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het Koninklijk besluit van 4 juni 2003 houdende afwijking van de machtiging bedoeld in artikel 36bis van de wet van 8 december 1992 (B.S. 4 juli 2003)",
+        "parentActDate": "2003-06-04",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie leest artikel 1 van het KB van 4 juni 2003 als een bepaling die elektronische mededelingen van persoonsgegevens door de politiediensten tijdens de uitvoering van hun opdrachten overeenkomstig artikelen 44/1 tot 44/11 vrijstelt van enige machtiging door het sectoraal comité. Zij noteert dat de bewoording onduidelijk is, maar dat de administratieve praktijk en het verslag aan de Koning sinds 2003 deze afwijking ruim hebben geïnterpreteerd.",
+        "relevantFactualContext": "Het KB werd ingevoerd ten behoeve van de geïntegreerde politie en had tot bedoeling dagelijkse elektronische mededelingen (inclusief DIV-raadplegingen) vrij te stellen; audits en toezicht hebben deze interpretatie in de praktijk bevestigd."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-005",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-003",
+        "provisionNumber": "artikel 2",
+        "provisionNumberKey": "2",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het Koninklijk besluit van 4 juni 2003 houdende afwijking van de machtiging bedoeld in artikel 36bis van de wet van 8 december 1992 (B.S. 4 juli 2003)",
+        "parentActDate": "2003-06-04",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+        "provisionNumber": "artikel 44/1",
+        "provisionNumberKey": "44/1",
+        "parentActType": "WET",
+        "parentActName": "wet van 5 augustus 1992 op het politieambt (WPA)",
+        "parentActDate": "1992-08-05",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 44/1 regelt de verwerking van persoonsgegevens door de politiediensten; de Commissie beklemtoont dat zulke verwerkingen, inclusief die in de databanken bedoeld in artikel 44/2, moeten gebeuren overeenkomstig de WVP en onderworpen zijn aan strikte waarborgen, controlemechanismen en extern toezicht om de rechtmatigheid en proportionaliteit te garanderen.",
+        "relevantFactualContext": "Hervormingen inzake informatiebeheer (wet van 18 maart 2014) en de inrichting van interne en externe controles (consulent, Controleorgaan, Comité P) kaderen de politieverwerkingen en speelden een rol bij de beoordeling van de nood aan vrijstelling van machtiging."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-007",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+        "provisionNumber": "artikel 44/11",
+        "provisionNumberKey": "44/11",
+        "parentActType": "WET",
+        "parentActName": "wet van 5 augustus 1992 op het politieambt (WPA)",
+        "parentActDate": "1992-08-05",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-008",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+        "provisionNumber": "artikel 44/11/13",
+        "provisionNumberKey": "44/11/13",
+        "parentActType": "WET",
+        "parentActName": "wet van 5 augustus 1992 op het politieambt (WPA)",
+        "parentActDate": "1992-08-05",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-009",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+        "provisionNumber": "artikel 44/3, eerste lid",
+        "provisionNumberKey": "44/3",
+        "parentActType": "WET",
+        "parentActName": "wet van 5 augustus 1992 op het politieambt (WPA)",
+        "parentActDate": "1992-08-05",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie wijst erop dat artikel 44/3, eerste lid, expliciet bepaalt dat de verwerking van persoonsgegevens bedoeld in artikel 44/1, met inbegrip van verwerking in de databanken genoemd in artikel 44/2, moet gebeuren overeenkomstig de WVP. Dit wordt gebruikt om te benadrukken dat politieverwerkingen binnen het kader en de verplichtingen van de privacywet vallen.",
+        "relevantFactualContext": "De uitleg van artikel 44/3 volgt op de wijzigingen in het informatiebeheer en is relevant voor de discussie of politieraadplegingen (zoals DIV) een voorafgaande machtiging behoeven of onder de bestaande waarborgen en controles kunnen plaatsvinden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+        "provisionNumber": "artikel 44/2",
+        "provisionNumberKey": "44/2",
+        "parentActType": "WET",
+        "parentActName": "wet van 5 augustus 1992 op het politieambt (WPA)",
+        "parentActDate": "1992-08-05",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 44/2 omschrijft de gegevensbanken van de politiediensten; de Commissie stelt dat verwerkingen in deze databanken onderworpen zijn aan de WVP en de daaraan verbonden beveiligings- en controleverplichtingen, hetgeen relevant is voor de beoordeling van de noodzaak van een voorafgaande machtiging.",
+        "relevantFactualContext": "Het koninklijk besluit van 4 juni 2003 verleende vanaf de inwerkingtreding van artikel 36bis een afwijking ten gunste van de algemene nationale databank van de geïntegreerde politie; DIV-raadplegingen vallen onder deze databanken."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-011",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "2016-12-13",
+        "caseNumber": "P.16.0682.N",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "2016-12-13",
+        "caseNumber": "P.16.0723.N",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "2016-12-13",
+        "caseNumber": "P.16.0909.N",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "date": "2013-10-02",
+        "caseNumber": "Advies nr.47/2013",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "DIV-raadpleging",
+      "Geïntegreerde politie",
+      "Elektronische mededelingen",
+      "Politioneel informatiebeheer",
+      "Machtigingsplicht",
+      "Vrijstelling voor politie",
+      "Terugwerkende kracht",
+      "Bewijsmateriaal ontvankelijkheid",
+      "Relatie met GDPR"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+        "text": "De vrijstelling in artikel 36bis (zoals gelezen met het koninklijk besluit van 4 juni 2003) strekt ertoe elektronische mededelingen van persoonsgegevens door politiediensten bij de uitvoering van hun bestuurlijke en gerechtelijke opdrachten te omvatten, inclusief gegevens die door de politiediensten werden ingevoerd of gegenereerd. Deze vrijstelling is toepasselijk mits de verwerkingen blijven plaatsvinden binnen het kader van de WVP en vergezeld gaan van doeltreffende waarborgen en controlemechanismen.",
+        "courtVerbatim": "Sinds de goedkeuring van het koninklijk besluit van 4 juni 2003 houdende afwijking van de machtiging ten gunste van de politiediensten, hebben alle overheden belast met de uitvoering en het toezicht op de eerbiediging van de regels van de WVP of genomen krachtens deze wet, en met name het Sectoraal comité, de artikels 36bis van de WVP en 1 van het koninklijk besluit van 4 juni 2003 steevast geïnterpreteerd en toegepast met de overweging dat de afwijking de mededelingen betrof door de politiediensten in hun hoedanigheid van houders en verzenders van gegevens, maar ook van gegevens die werden ingeleid of verwezenlijkt door de politiediensten, waarvoor informatie vereist is die noodzakelijk is voor de uitoefening van hun gerechtelijke en administratieve opdrachten bij of van een openbare dienst of instelling. De Commissie is van mening dat al deze elementen, die onder meer de rechtmatigheid verzekeren, de naleving van de finaliteits- en proportionaliteitsbeginselen en de veiligheid en de transparantie van hun verwerkingen waarborgen, rechtvaardigen dat de politiediensten vrijgesteld worden van de voorafgaande machtiging door het Sectoraal Comité voor de Federale Overheid.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer politiediensten elektronische mededelingen of raadplegingen van persoonsgegevens verrichten in het kader van hun bestuurlijke of gerechtelijke opdrachten en het bestaan van twijfel over de noodzaak van een voorafgaande machtiging speelt.",
+        "relevantFactualContext": "Onzekerheid ontstond na arresten van het Hof van Cassatie van 13 december 2016 over de rechtmatigheid van politieraadplegingen van DIV-gegevens; het voorontwerp beoogt deze onduidelijkheid te herstellen en pleit voor expliciete verduidelijking van de vrijstelling van politiediensten.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:COPRIV:2017:ARR.20170201.6-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-003",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-009"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-003",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-004"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+        "text": "Een vrijstelling van de voorafgaande machtiging voor politieverwerkingen moet worden afgewogen tegen en gecompenseerd door effectieve interne en externe waarborgen: permanente onafhankelijke controle, specifieke advies- en toezichtsmechanismen en naleving van de finaliteits- en proportionaliteitsbeginselen van de WVP. Het bestaan van dergelijke stelselmatige waarborgen rechtvaardigt in het bijzonder een ruimer uitgelegde afwijking van de machtigingsvereiste.",
+        "courtVerbatim": "Die interpretatie werd ondersteund door de oprichting van een Controleorgaan van Politionele Informatie (eerst verbonden aan de federale politie, nu aan de Privacycommissie), behept met een permanente, autonome controlebevoegdheid en a posteriori met een adviesbevoegdheid. Het bestaan van dit orgaan, zijn gegarandeerde onafhankelijkheid en zijn bevoegdheden compenseren in ruime mate het gebrek aan machtiging met een striktere maar respectvolle omkadering van het gerechtelijk optreden en het optreden van bestuurlijke politie. De Commissie herinnert er overigens aan dat de verwerkingen van persoonsgegevens door de politiediensten onderworpen zijn aan strikte regels, waarborgen en specifieke controlemechanismen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer wordt beoordeeld of en onder welke voorwaarden politiediensten zonder voorafgaande machtiging persoonsgegevens mogen verwerken of mededelen.",
+        "relevantFactualContext": "Terwijl administratieve en gerechtelijke autoriteiten DIV-raadplegingen blijven uitvoeren en de Federale Politie dringende machtigingsaanvragen indiende (FO nr. 53/2016), oordeelt de Commissie dat het toezichtstelsel en andere waarborgen de vrijstelling kunnen legitimeren.",
+        "principleType": "BALANCING_TEST",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-009",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 1,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De Staatssecretaris verzoekt advies over een voorontwerp dat artikel 36bis van de WVP wijzigt om politiediensten expliciet vrij te stellen van de voorafgaande machtiging van het Sectoraal Comité voor de Federale Overheid voor elektronische mededeling van persoonsgegevens (zoals DIV-raadplegingen). De Commissie voor de bescherming van de persoonlijke levenssfeer brengt een gunstig advies uit en oordeelt dat de wijziging rechtszekerheid en de operationele noodzaak van bestuurlijke en gerechtelijke politietaken herstelt, hoewel zij vragen stelt bij de voorgestelde terugwerkende kracht. Kernpunt: de vrijstelling is verdedigbaar omdat politionele verwerkingen onder strikte wettelijke waarborgen en specifieke interne en externe toezichtmechanismen vallen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+        "relatedFullTextCitations": [
+          "<h2 class=\"case-section__title\">Betreft: Voorontwerp van wet tot wijziging van artikel 36bis van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (CO-A-2017-002)</h2>",
+          "<p class=\"case-section__paragraph\">(hierna de \"aanvrager\") legt ter advies aan de Commissie een voorontwerp van wet voor tot wijziging van artikel 36bis van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (hierna het \"voorontwerp\").</p>",
+          "<p class=\"case-section__paragraph\">5. In dit verband bepaalt het voorontwerp dat in de WVP expliciet moet worden verduidelijkt dat de politiediensten niet onderworpen zijn aan het verkrijgen van een machtiging vanwege het Sectoraal Comité voor de Federale Overheid.</p>",
+          "<p class=\"case-section__paragraph\">6. Het voorontwerp stelt voor een zevende lid toe te voegen aan artikel 36bis van de WVP, luidende als volgt: \"De politiediensten zijn bij de uitvoering van hun opdrachten van bestuurlijke en gerechtelijke politie vrijgesteld van een voorafgaande machtiging van het sectoraal comité.\", en deze bepaling in werking te laten treden met terugwerkende kracht op de dag van de inwerkingtreding van het artikel 36bis van de WVP 3.</p>",
+          "<p class=\"case-section__paragraph\">7. Artikel 36bis, 3ᵈᵉ lid van de WVP bepaalt dat \"behalve in de door de Koning bepaalde gevallen, vereist elke elektronische mededeling van persoonsgegevens door een federale overheidsdienst of door een openbare instelling met rechtspersoonlijkheid die onder de federale overheid ressorteert een principiële machtiging van dit sectoraal comité tenzij de mededeling reeds onderworpen is aan een principiële machtiging van een andere sectoraal comité opgericht binnen de Commissie voor de bescherming van de persoonlijke levenssfeer\".</p>",
+          "<p class=\"case-section__paragraph\">8. Een uitzondering werd ingevoerd vanaf de datum van inwerkingtreding van artikel 36bis van de WVP4, met het koninklijk besluit van 4 juni 2003 houdende afwijking van de machtiging bedoeld in artikel 36bis van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens werd ten behoeve van de politiediensten ten gunste van de algemene nationale gegevensbank van de geïntegreerde politie, gestructureerd op twee niveaus (hierna het \"koninklijk besluit van 4 juni 2003\").</p>",
+          "<p class=\"case-section__paragraph\">11. Sinds de goedkeuring van het koninklijk besluit van 4 juni 2003 houdende afwijking van de machtiging ten gunste van de politiediensten, hebben alle overheden belast met de uitvoering en het toezicht op de eerbiediging van de regels van de WVP of genomen krachtens deze wet, en met name het Sectoraal comité, de artikels 36bis van de WVP en 1 van het koninklijk besluit van 4 juni 2003 steevast geïnterpreteerd en toegepast met de overweging dat de afwijking de mededelingen betrof door de politiediensten in hun hoedanigheid van houders en verzenders van gegevens, maar ook van gegevens die werden ingeleid of verwezenlijkt door de politiediensten, waarvoor informatie vereist is die noodzakelijk is voor de uitoefening van hun gerechtelijke en administratieve opdrachten bij of van een openbare dienst of instelling. Die interpretatie kwam tot stand met kennis van zaken, aangezien de Privacycommissie audits heeft uitgevoerd op de gegevensverwerkingen die door de politiediensten werden uitgevoerd.</p>",
+          "<p class=\"case-section__paragraph\">15. De Commissie sluit zich aan bij de aanvrager met betrekking tot de opportuniteit van inlassing van een algemene afwijking op artikel 36bis van de WVP, gelet op het gebrek aan duidelijkheid dat ontstaan is door de voormelde arresten van het Hof van Cassatie met betrekking tot de draagwijdte van deze uitzondering op de verplichte machtiging. De Commissie stelt zich daarentegen vragen bij de terugwerkende kracht die door de aanvrager aan deze bepaling wordt verleend, zelfs als dit gebeurt om redenen van rechtszekerheid en coherentie met artikel 2 van het koninklijk besluit van 4 juni 2003.</p>",
+          "<p class=\"case-section__paragraph\">22. De Commissie is van mening dat al deze elementen, die onder meer de rechtmatigheid verzekeren, de naleving van de finaliteits- en proportionaliteitsbeginselen en de veiligheid en de transparantie van hun verwerkingen waarborgen, rechtvaardigen dat de politiediensten vrijgesteld worden van de voorafgaande machtiging door het Sectoraal Comité voor de Federale Overheid.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-007",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-009",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-008",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-003",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (hierna \"WVP\"), inzonderheid artikel 29;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">4. Het Hof van Cassatie baseert zich voornamelijk op artikel 18, § 1 van de wet van 19 mei 2010 houdende oprichting van de Kruispuntbank van de voertuigen (hierna \"wet KBV\") die in beginsel bepaalt dat een machtiging van het voormeld Comité noodzakelijk is om toegang te krijgen tot de gegevens van de Kruispuntbank van de voertuigen.</p>",
+          "<p class=\"case-section__paragraph\">12. De goedkeuring van de wet KBV heeft aan die interpretatie niets veranderd, zonder te betwisten dat het KB van 4 juni 2003 ook van toepassing is voor de uitvoering van zijn artikel 18 dat in §2 voorziet in een stelsel van afwijking bij koninklijk besluit.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-003",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">10. Jammer genoeg werd deze wens niet duidelijk verwoord, noch in de titel van het Koninklijk besluit, noch in de tekst van artikel 1 dat stelt dat \"de elektronische mededelingen van persoonsgegevens die de politiediensten verrichten tijdens de uitvoering van de opdrachten die hun worden toevertrouwd overeenkomstig de artikelen 44/1 tot 44/11 van de wet van 5 augustus 1992 op het politieambt zijn vrijgesteld van enige machtiging van het sectoraal comité voor de federale overheid, opgericht binnen de Commissie voor de bescherming van de persoonlijke levenssfeer\".</p>",
+          "<p class=\"case-section__paragraph\">11. Sinds de goedkeuring van het koninklijk besluit van 4 juni 2003 houdende afwijking van de machtiging ten gunste van de politiediensten, hebben alle overheden belast met de uitvoering en het toezicht op de eerbiediging van de regels van de WVP of genomen krachtens deze wet, en met name het Sectoraal comité, de artikels 36bis van de WVP en 1 van het koninklijk besluit van 4 juni 2003 steevast geïnterpreteerd en toegepast met de overweging dat de afwijking de mededelingen betrof door de politiediensten in hun hoedanigheid van houders en verzenders van gegevens, maar ook van gegevens die werden ingeleid of verwezenlijkt door de politiediensten, waarvoor informatie vereist is die noodzakelijk is voor de uitoefening van hun gerechtelijke en administratieve opdrachten bij of van een openbare dienst of instelling. Die interpretatie kwam tot stand met kennis van zaken, aangezien de Privacycommissie audits heeft uitgevoerd op de gegevensverwerkingen die door de politiediensten werden uitgevoerd.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-004",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-007",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">15. De Commissie sluit zich aan bij de aanvrager met betrekking tot de opportuniteit van inlassing van een algemene afwijking op artikel 36bis van de WVP, gelet op het gebrek aan duidelijkheid dat ontstaan is door de voormelde arresten van het Hof van Cassatie met betrekking tot de draagwijdte van deze uitzondering op de verplichte machtiging. De Commissie stelt zich daarentegen vragen bij de terugwerkende kracht die door de aanvrager aan deze bepaling wordt verleend, zelfs als dit gebeurt om redenen van rechtszekerheid en coherentie met artikel 2 van het koninklijk besluit van 4 juni 2003.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-005",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">10. Jammer genoeg werd deze wens niet duidelijk verwoord, noch in de titel van het Koninklijk besluit, noch in de tekst van artikel 1 dat stelt dat \"de elektronische mededelingen van persoonsgegevens die de politiediensten verrichten tijdens de uitvoering van de opdrachten die hun worden toevertrouwd overeenkomstig de artikelen 44/1 tot 44/11 van de wet van 5 augustus 1992 op het politieambt zijn vrijgesteld van enige machtiging van het sectoraal comité voor de federale overheid, opgericht binnen de Commissie voor de bescherming van de persoonlijke levenssfeer\".</p>",
+          "<p class=\"case-section__paragraph\">19. Zoals de aanvrager opmerkt in zijn memorie van toelichting wordt de verwerking van politionele gegevens door de politiediensten geregeld door de wet van 5 augustus 1992 op het politieambt (hierna \"WPA\") en meer in het bijzonder door Hoofdstuk IV, Afdeling 1bis betreffende het informatiebeheer. De Commissie nam trouwens een gunstig standpunt in over het nieuwe informatiebeheer en de door de wet van 18 maart 2014 betreffende het politionele informatiebeheer en tot wijziging van de wet van 5 augustus 1992 op het politieambt, de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en het Wetboek van strafvordering6 aan de artikelen 44/1 tot 44/11/13 van de WPA doorgevoerde wijzigingen. Artikel 44/3, eerste lid van de WPA verduidelijkt overigens dat \"de verwerking van de persoonsgegevens bedoeld in artikel 44/1 met inbegrip van deze uitgevoerd in de gegevensbanken bedoeld in artikel 44/2 gebeurt overeenkomstig de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-009",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-007",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">10. Jammer genoeg werd deze wens niet duidelijk verwoord, noch in de titel van het Koninklijk besluit, noch in de tekst van artikel 1 dat stelt dat \"de elektronische mededelingen van persoonsgegevens die de politiediensten verrichten tijdens de uitvoering van de opdrachten die hun worden toevertrouwd overeenkomstig de artikelen 44/1 tot 44/11 van de wet van 5 augustus 1992 op het politieambt zijn vrijgesteld van enige machtiging van het sectoraal comité voor de federale overheid, opgericht binnen de Commissie voor de bescherming van de persoonlijke levenssfeer\".</p>",
+          "<p class=\"case-section__paragraph\">19. Zoals de aanvrager opmerkt in zijn memorie van toelichting wordt de verwerking van politionele gegevens door de politiediensten geregeld door de wet van 5 augustus 1992 op het politieambt (hierna \"WPA\") en meer in het bijzonder door Hoofdstuk IV, Afdeling 1bis betreffende het informatiebeheer. De Commissie nam trouwens een gunstig standpunt in over het nieuwe informatiebeheer en de door de wet van 18 maart 2014 betreffende het politionele informatiebeheer en tot wijziging van de wet van 5 augustus 1992 op het politieambt, de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en het Wetboek van strafvordering6 aan de artikelen 44/1 tot 44/11/13 van de WPA doorgevoerde wijzigingen. Artikel 44/3, eerste lid van de WPA verduidelijkt overigens dat \"de verwerking van de persoonsgegevens bedoeld in artikel 44/1 met inbegrip van deze uitgevoerd in de gegevensbanken bedoeld in artikel 44/2 gebeurt overeenkomstig de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-007",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-009",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">19. Zoals de aanvrager opmerkt in zijn memorie van toelichting wordt de verwerking van politionele gegevens door de politiediensten geregeld door de wet van 5 augustus 1992 op het politieambt (hierna \"WPA\") en meer in het bijzonder door Hoofdstuk IV, Afdeling 1bis betreffende het informatiebeheer. De Commissie nam trouwens een gunstig standpunt in over het nieuwe informatiebeheer en de door de wet van 18 maart 2014 betreffende het politionele informatiebeheer en tot wijziging van de wet van 5 augustus 1992 op het politieambt, de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en het Wetboek van strafvordering6 aan de artikelen 44/1 tot 44/11/13 van de WPA doorgevoerde wijzigingen. Artikel 44/3, eerste lid van de WPA verduidelijkt overigens dat \"de verwerking van de persoonsgegevens bedoeld in artikel 44/1 met inbegrip van deze uitgevoerd in de gegevensbanken bedoeld in artikel 44/2 gebeurt overeenkomstig de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-008",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-009",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">19. Zoals de aanvrager opmerkt in zijn memorie van toelichting wordt de verwerking van politionele gegevens door de politiediensten geregeld door de wet van 5 augustus 1992 op het politieambt (hierna \"WPA\") en meer in het bijzonder door Hoofdstuk IV, Afdeling 1bis betreffende het informatiebeheer. De Commissie nam trouwens een gunstig standpunt in over het nieuwe informatiebeheer en de door de wet van 18 maart 2014 betreffende het politionele informatiebeheer en tot wijziging van de wet van 5 augustus 1992 op het politieambt, de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en het Wetboek van strafvordering6 aan de artikelen 44/1 tot 44/11/13 van de WPA doorgevoerde wijzigingen. Artikel 44/3, eerste lid van de WPA verduidelijkt overigens dat \"de verwerking van de persoonsgegevens bedoeld in artikel 44/1 met inbegrip van deze uitgevoerd in de gegevensbanken bedoeld in artikel 44/2 gebeurt overeenkomstig de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-009",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">19. Zoals de aanvrager opmerkt in zijn memorie van toelichting wordt de verwerking van politionele gegevens door de politiediensten geregeld door de wet van 5 augustus 1992 op het politieambt (hierna \"WPA\") en meer in het bijzonder door Hoofdstuk IV, Afdeling 1bis betreffende het informatiebeheer. De Commissie nam trouwens een gunstig standpunt in over het nieuwe informatiebeheer en de door de wet van 18 maart 2014 betreffende het politionele informatiebeheer en tot wijziging van de wet van 5 augustus 1992 op het politieambt, de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en het Wetboek van strafvordering6 aan de artikelen 44/1 tot 44/11/13 van de WPA doorgevoerde wijzigingen. Artikel 44/3, eerste lid van de WPA verduidelijkt overigens dat \"de verwerking van de persoonsgegevens bedoeld in artikel 44/1 met inbegrip van deze uitgevoerd in de gegevensbanken bedoeld in artikel 44/2 gebeurt overeenkomstig de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-010",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-006",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170201.6-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">de onrechtstreekse toegang door betrokkenen op hen betreffende door de politiediensten verwerkte gegevens (artikel 13 van de WVP).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170201.6-011"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 11,
+      "citationStatistics": {
+        "totalCitations": 23,
+        "avgCitationsPerProvision": 2.090909090909091,
+        "provisionsWithMinimalCitations": 10,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.6363636363636362,
+        "avgDecisionsPerProvision": 1.3636363636363635,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170201.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Het voorontwerp wil een antwoord bieden op een onduidelijke situatie die ontstaan is ingevolge verschillende gelijkaardige arresten, uitgebracht door het Hof van Cassatie op 13 december 2016², met betrekking tot de rechtmatigheid van de verwerking door de politiediensten van persoonsgegevens afkomstig van andere federale overheidsdiensten.</p>",
+          "<p class=\"case-section__paragraph\">4. Het Hof van Cassatie baseert zich voornamelijk op artikel 18, § 1 van de wet van 19 mei 2010 houdende oprichting van de Kruispuntbank van de voertuigen (hierna \"wet KBV\") die in beginsel bepaalt dat een machtiging van het voormeld Comité noodzakelijk is om toegang te krijgen tot de gegevens van de Kruispuntbank van de voertuigen.</p>",
+          "<p class=\"case-section__paragraph\">6. Het voorontwerp stelt voor een zevende lid toe te voegen aan artikel 36bis van de WVP, luidende als volgt: \"De politiediensten zijn bij de uitvoering van hun opdrachten van bestuurlijke en gerechtelijke politie vrijgesteld van een voorafgaande machtiging van het sectoraal comité.\", en deze bepaling in werking te laten treden met terugwerkende kracht op de dag van de inwerkingtreding van het artikel 36bis van de WVP 3.</p>",
+          "<p class=\"case-section__paragraph\">7. Artikel 36bis, 3ᵈᵉ lid van de WVP bepaalt dat \"behalve in de door de Koning bepaalde gevallen, vereist elke elektronische mededeling van persoonsgegevens door een federale overheidsdienst of door een openbare instelling met rechtspersoonlijkheid die onder de federale overheid ressorteert een principiële machtiging van dit sectoraal comité tenzij de mededeling reeds onderworpen is aan een principiële machtiging van een andere sectoraal comité opgericht binnen de Commissie voor de bescherming van de persoonlijke levenssfeer\".</p>",
+          "<p class=\"case-section__paragraph\">8. Een uitzondering werd ingevoerd vanaf de datum van inwerkingtreding van artikel 36bis van de WVP4, met het koninklijk besluit van 4 juni 2003 houdende afwijking van de machtiging bedoeld in artikel 36bis van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens werd ten behoeve van de politiediensten ten gunste van de algemene nationale gegevensbank van de geïntegreerde politie, gestructureerd op twee niveaus (hierna het \"koninklijk besluit van 4 juni 2003\").</p>",
+          "<p class=\"case-section__paragraph\">9. De intentie die weerspiegeld werd in de aanhef van dit koninklijk besluit (B.S. 4 juli 2003, blz. 36016-36017) bestond erin \"de dagelijks elektronische mededelingen van persoonsgegevens, die door de geïntegreerde politie, gestructureerd op twee niveaus zowel bij de opdrachten van bestuurlijke politie als bij de opdrachten van gerechtelijke politie worden verricht\" vrij te stellen.</p>",
+          "<p class=\"case-section__paragraph\">10. Jammer genoeg werd deze wens niet duidelijk verwoord, noch in de titel van het Koninklijk besluit, noch in de tekst van artikel 1 dat stelt dat \"de elektronische mededelingen van persoonsgegevens die de politiediensten verrichten tijdens de uitvoering van de opdrachten die hun worden toevertrouwd overeenkomstig de artikelen 44/1 tot 44/11 van de wet van 5 augustus 1992 op het politieambt zijn vrijgesteld van enige machtiging van het sectoraal comité voor de federale overheid, opgericht binnen de Commissie voor de bescherming van de persoonlijke levenssfeer\".</p>",
+          "<p class=\"case-section__paragraph\">11. Sinds de goedkeuring van het koninklijk besluit van 4 juni 2003 houdende afwijking van de machtiging ten gunste van de politiediensten, hebben alle overheden belast met de uitvoering en het toezicht op de eerbiediging van de regels van de WVP of genomen krachtens deze wet, en met name het Sectoraal comité, de artikels 36bis van de WVP en 1 van het koninklijk besluit van 4 juni 2003 steevast geïnterpreteerd en toegepast met de overweging dat de afwijking de mededelingen betrof door de politiediensten in hun hoedanigheid van houders en verzenders van gegevens, maar ook van gegevens die werden ingeleid of verwezenlijkt door de politiediensten, waarvoor informatie vereist is die noodzakelijk is voor de uitoefening van hun gerechtelijke en administratieve opdrachten bij of van een openbare dienst of instelling. Die interpretatie kwam tot stand met kennis van zaken, aangezien de Privacycommissie audits heeft uitgevoerd op de gegevensverwerkingen die door de politiediensten werden uitgevoerd.</p>",
+          "<p class=\"case-section__paragraph\">12. De Commissie verkiest dat in de Franse tekst de formulering « dans l’exécution de … » zou vervangen worden door « dans l’accomplissement de … ».</p>",
+          "<p class=\"case-section__paragraph\">13. Deze constante en tot vandaag unanieme interpretatie (de parketten hebben nooit de eventualiteit overwogen van een illegaal ingewonnen bewijs bij een raadpleging van de DIV) vindt zijn eerste formulering in het verslag aan de Koning bij het koninklijk besluit van 4 juni 2003 dat stelt dat \"het gebrek aan een principiële machtiging van het sectoraal comité voor de federale overheid ernstige gevolgen kan hebben voor de ontvankelijkheid van bewijsmateriaal in het kader van strafrechtelijke onderzoeken ingeval dit bewijsmateriaal elektronisch is meegedeeld in het kader van de opdrachten van gerechtelijke politie\".</p>",
+          "<p class=\"case-section__paragraph\">14. Die interpretatie werd ondersteund door de oprichting van een Controleorgaan van Politionele Informatie (eerst verbonden aan de federale politie, nu aan de Privacycommissie), behept met een permanente, autonome controlebevoegdheid en a posteriori met een adviesbevoegdheid. Het bestaan van dit orgaan, zijn gegarandeerde onafhankelijkheid en zijn bevoegdheden compenseren in ruime mate het gebrek aan machtiging met een striktere maar respectvolle omkadering van het gerechtelijk optreden en het optreden van bestuurlijke politie.</p>",
+          "<p class=\"case-section__paragraph\">15. De Commissie sluit zich aan bij de aanvrager met betrekking tot de opportuniteit van inlassing van een algemene afwijking op artikel 36bis van de WVP, gelet op het gebrek aan duidelijkheid dat ontstaan is door de voormelde arresten van het Hof van Cassatie met betrekking tot de draagwijdte van deze uitzondering op de verplichte machtiging. De Commissie stelt zich daarentegen vragen bij de terugwerkende kracht die door de aanvrager aan deze bepaling wordt verleend, zelfs als dit gebeurt om redenen van rechtszekerheid en coherentie met artikel 2 van het koninklijk besluit van 4 juni 2003.</p>",
+          "<p class=\"case-section__paragraph\">16. In de tussentijd, en gelet op de noodzaak voor de administratieve, gerechtelijke en politionele autoriteiten om hun opdrachten onverwijld verder uit te voeren (de raadpleging van de DIV betreft niet enkel de verkeerspolitie maar is eveneens noodzakelijk voor onderzoeken naar ernstige feiten of voor dringende interventies) en te vermijden dat overtreders door een eenvoudige procedurekwestie ontsnappen aan vervolging, had de Directie van de politionele informatie en de ICT-middelen (DRI) van de Federale Politie een dringende machtigingsaanvraag ingediend voor elektronische mededeling van gegevens van de DIV die noodzakelijk zijn voor de geïntegreerde politie voor de uitvoering van haar taken van gerechtelijke en bestuurlijke politie.</p>",
+          "<p class=\"case-section__paragraph\">Het Comité verleende een machtiging met zijn beraadslaging FO nr. 53/2016 van 15 december 20165.</p>",
+          "<p class=\"case-section__paragraph\">17. De Commissie is van mening dat het voorontwerp zal toelaten de rechtszekerheid te herstellen ingevolge de voormelde arresten van het Hof van Cassatie.</p>",
+          "<p class=\"case-section__paragraph\">18. De Commissie herinnert er overigens aan dat de verwerkingen van persoonsgegevens door de politiediensten onderworpen zijn aan strikte regels, waarborgen en specifieke controlemechanismen.</p>",
+          "<p class=\"case-section__paragraph\">19. Zoals de aanvrager opmerkt in zijn memorie van toelichting wordt de verwerking van politionele gegevens door de politiediensten geregeld door de wet van 5 augustus 1992 op het politieambt (hierna \"WPA\") en meer in het bijzonder door Hoofdstuk IV, Afdeling 1bis betreffende het informatiebeheer. De Commissie nam trouwens een gunstig standpunt in over het nieuwe informatiebeheer en de door de wet van 18 maart 2014 betreffende het politionele informatiebeheer en tot wijziging van de wet van 5 augustus 1992 op het politieambt, de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en het Wetboek van strafvordering6 aan de artikelen 44/1 tot 44/11/13 van de WPA doorgevoerde wijzigingen. Artikel 44/3, eerste lid van de WPA verduidelijkt overigens dat \"de verwerking van de persoonsgegevens bedoeld in artikel 44/1 met inbegrip van deze uitgevoerd in de gegevensbanken bedoeld in artikel 44/2 gebeurt overeenkomstig de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens\".</p>",
+          "<p class=\"case-section__paragraph\">20. Ook herhaalt de aanvrager in de memorie van toelichting alle controlesystemen op het informatiebeheer door de politiediensten. Hij citeert enerzijds de functie van consulent inzake veiligheid en bescherming van de persoonlijke levenssfeer die, in de schoot van de politiediensten over een mandaat beschikt om het beleid inzake informatiebeheer te begeleiden en te controleren. Anderzijds wordt een externe controle uitgeoefend door het nieuwe Controleorgaan op de politionele informatie dat werd opgericht bij de Commissie en door het Vast Comité van Toezicht op de politiediensten (Comité P)7.</p>",
+          "<p class=\"case-section__paragraph\">21. De Commissie voegt hieraan toe dat zij eveneens over een algemene controlebevoegdheid beschikt op de verwerkingen door de politiediensten die onder meer plaatsvindt in het raam van</p>",
+          "<p class=\"case-section__paragraph\">5 http://www.privacycommission.be/nl/node/4514.</p>",
+          "<p class=\"case-section__paragraph\">6 Advies nr.47/2013 van 2 oktober 2013 https://www.privacycommission.be/sites/privacycommission/files/documents/advies_47_2013.pdf.</p>",
+          "<p class=\"case-section__paragraph\">7 Het voorontwerp van wet verwijst ten onrechte naar het Vast Comité voor Toezicht op de Inlichtingen- en Veiligheidsdiensten (het Comité I), in plaats van naar het Comité P.</p>",
+          "<p class=\"case-section__paragraph\">22. De Commissie is van mening dat al deze elementen, die onder meer de rechtmatigheid verzekeren, de naleving van de finaliteits- en proportionaliteitsbeginselen en de veiligheid en de transparantie van hun verwerkingen waarborgen, rechtvaardigen dat de politiediensten vrijgesteld worden van de voorafgaande machtiging door het Sectoraal Comité voor de Federale Overheid.</p>",
+          "<p class=\"case-section__paragraph\">² P.16.0682.N : http://jure.juridat.just.fgov.be/pdfapp/download_blob?idpdf=N-20161213-2, P.16.0723.N, P.16.0909.N.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 6,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 4,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170201.6-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Het voorontwerp wil een antwoord bieden op een onduidelijke situatie die ontstaan is ingevolge verschillende gelijkaardige arresten, uitgebracht door het Hof van Cassatie op 13 december 2016², met betrekking tot de rechtmatigheid van de verwerking door de politiediensten van persoonsgegevens afkomstig van andere federale overheidsdiensten.</p>",
+          "<p class=\"case-section__paragraph\">6. Het voorontwerp stelt voor een zevende lid toe te voegen aan artikel 36bis van de WVP, luidende als volgt: \"De politiediensten zijn bij de uitvoering van hun opdrachten van bestuurlijke en gerechtelijke politie vrijgesteld van een voorafgaande machtiging van het sectoraal comité.\", en deze bepaling in werking te laten treden met terugwerkende kracht op de dag van de inwerkingtreding van het artikel 36bis van de WVP 3.</p>",
+          "<p class=\"case-section__paragraph\">7. Artikel 36bis, 3ᵈᵉ lid van de WVP bepaalt dat \"behalve in de door de Koning bepaalde gevallen, vereist elke elektronische mededeling van persoonsgegevens door een federale overheidsdienst of door een openbare instelling met rechtspersoonlijkheid die onder de federale overheid ressorteert een principiële machtiging van dit sectoraal comité tenzij de mededeling reeds onderworpen is aan een principiële machtiging van een andere sectoraal comité opgericht binnen de Commissie voor de bescherming van de persoonlijke levenssfeer\".</p>",
+          "<p class=\"case-section__paragraph\">10. Jammer genoeg werd deze wens niet duidelijk verwoord, noch in de titel van het Koninklijk besluit, noch in de tekst van artikel 1 dat stelt dat \"de elektronische mededelingen van persoonsgegevens die de politiediensten verrichten tijdens de uitvoering van de opdrachten die hun worden toevertrouwd overeenkomstig de artikelen 44/1 tot 44/11 van de wet van 5 augustus 1992 op het politieambt zijn vrijgesteld van enige machtiging van het sectoraal comité voor de federale overheid, opgericht binnen de Commissie voor de bescherming van de persoonlijke levenssfeer\".</p>",
+          "<p class=\"case-section__paragraph\">11. Sinds de goedkeuring van het koninklijk besluit van 4 juni 2003 houdende afwijking van de machtiging ten gunste van de politiediensten, hebben alle overheden belast met de uitvoering en het toezicht op de eerbiediging van de regels van de WVP of genomen krachtens deze wet, en met name het Sectoraal comité, de artikels 36bis van de WVP en 1 van het koninklijk besluit van 4 juni 2003 steevast geïnterpreteerd en toegepast met de overweging dat de afwijking de mededelingen betrof door de politiediensten in hun hoedanigheid van houders en verzenders van gegevens, maar ook van gegevens die werden ingeleid of verwezenlijkt door de politiediensten, waarvoor informatie vereist is die noodzakelijk is voor de uitoefening van hun gerechtelijke en administratieve opdrachten bij of van een openbare dienst of instelling. Die interpretatie kwam tot stand met kennis van zaken, aangezien de Privacycommissie audits heeft uitgevoerd op de gegevensverwerkingen die door de politiediensten werden uitgevoerd.</p>",
+          "<p class=\"case-section__paragraph\">14. Die interpretatie werd ondersteund door de oprichting van een Controleorgaan van Politionele Informatie (eerst verbonden aan de federale politie, nu aan de Privacycommissie), behept met een permanente, autonome controlebevoegdheid en a posteriori met een adviesbevoegdheid. Het bestaan van dit orgaan, zijn gegarandeerde onafhankelijkheid en zijn bevoegdheden compenseren in ruime mate het gebrek aan machtiging met een striktere maar respectvolle omkadering van het gerechtelijk optreden en het optreden van bestuurlijke politie.</p>",
+          "<p class=\"case-section__paragraph\">16. In de tussentijd, en gelet op de noodzaak voor de administratieve, gerechtelijke en politionele autoriteiten om hun opdrachten onverwijld verder uit te voeren (de raadpleging van de DIV betreft niet enkel de verkeerspolitie maar is eveneens noodzakelijk voor onderzoeken naar ernstige feiten of voor dringende interventies) en te vermijden dat overtreders door een eenvoudige procedurekwestie ontsnappen aan vervolging, had de Directie van de politionele informatie en de ICT-middelen (DRI) van de Federale Politie een dringende machtigingsaanvraag ingediend voor elektronische mededeling van gegevens van de DIV die noodzakelijk zijn voor de geïntegreerde politie voor de uitvoering van haar taken van gerechtelijke en bestuurlijke politie.</p>",
+          "<p class=\"case-section__paragraph\">Het Comité verleende een machtiging met zijn beraadslaging FO nr. 53/2016 van 15 december 20165.</p>",
+          "<p class=\"case-section__paragraph\">18. De Commissie herinnert er overigens aan dat de verwerkingen van persoonsgegevens door de politiediensten onderworpen zijn aan strikte regels, waarborgen en specifieke controlemechanismen.</p>",
+          "<p class=\"case-section__paragraph\">19. Zoals de aanvrager opmerkt in zijn memorie van toelichting wordt de verwerking van politionele gegevens door de politiediensten geregeld door de wet van 5 augustus 1992 op het politieambt (hierna \"WPA\") en meer in het bijzonder door Hoofdstuk IV, Afdeling 1bis betreffende het informatiebeheer. De Commissie nam trouwens een gunstig standpunt in over het nieuwe informatiebeheer en de door de wet van 18 maart 2014 betreffende het politionele informatiebeheer en tot wijziging van de wet van 5 augustus 1992 op het politieambt, de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en het Wetboek van strafvordering6 aan de artikelen 44/1 tot 44/11/13 van de WPA doorgevoerde wijzigingen. Artikel 44/3, eerste lid van de WPA verduidelijkt overigens dat \"de verwerking van de persoonsgegevens bedoeld in artikel 44/1 met inbegrip van deze uitgevoerd in de gegevensbanken bedoeld in artikel 44/2 gebeurt overeenkomstig de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens\".</p>",
+          "<p class=\"case-section__paragraph\">20. Ook herhaalt de aanvrager in de memorie van toelichting alle controlesystemen op het informatiebeheer door de politiediensten. Hij citeert enerzijds de functie van consulent inzake veiligheid en bescherming van de persoonlijke levenssfeer die, in de schoot van de politiediensten over een mandaat beschikt om het beleid inzake informatiebeheer te begeleiden en te controleren. Anderzijds wordt een externe controle uitgeoefend door het nieuwe Controleorgaan op de politionele informatie dat werd opgericht bij de Commissie en door het Vast Comité van Toezicht op de politiediensten (Comité P)7.</p>",
+          "<p class=\"case-section__paragraph\">21. De Commissie voegt hieraan toe dat zij eveneens over een algemene controlebevoegdheid beschikt op de verwerkingen door de politiediensten die onder meer plaatsvindt in het raam van</p>",
+          "<p class=\"case-section__paragraph\">5 http://www.privacycommission.be/nl/node/4514.</p>",
+          "<p class=\"case-section__paragraph\">6 Advies nr.47/2013 van 2 oktober 2013 https://www.privacycommission.be/sites/privacycommission/files/documents/advies_47_2013.pdf.</p>",
+          "<p class=\"case-section__paragraph\">22. De Commissie is van mening dat al deze elementen, die onder meer de rechtmatigheid verzekeren, de naleving van de finaliteits- en proportionaliteitsbeginselen en de veiligheid en de transparantie van hun verwerkingen waarborgen, rechtvaardigen dat de politiediensten vrijgesteld worden van de voorafgaande machtiging door het Sectoraal Comité voor de Federale Overheid.</p>",
+          "<p class=\"case-section__paragraph\">² P.16.0682.N : http://jure.juridat.just.fgov.be/pdfapp/download_blob?idpdf=N-20161213-2, P.16.0723.N, P.16.0909.N.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 5,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 4,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 48,
+        "avgCitationsPerTeaching": 24,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 11,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 8,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

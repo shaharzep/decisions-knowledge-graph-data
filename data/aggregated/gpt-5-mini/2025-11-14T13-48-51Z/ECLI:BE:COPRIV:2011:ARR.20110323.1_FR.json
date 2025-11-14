@@ -1,0 +1,1317 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:2011:ARR.20110323.1",
+  "language": "FR",
+  "metadata": {
+    "id": 116458,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commission pour la Protection de la Vie privée",
+    "decision_date": "2011-03-23",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 39788,
+    "length_category": "very_long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commission de la protection de la vie privée, 23 mars 2011, Avis n° 09/2011, ECLI:BE:COPRIV:2011:ARR.20110323.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "name": "La Commission de la protection de la vie privée",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+        "name": "Madame A. Turtelboom, Ministre de l'Intérieur",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "name": "Agence fédérale de Contrôle nucléaire (AFCN)",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2011:ARR.20110323.1-004",
+        "name": "Service public fédéral Emploi, Travail et Concertation sociale (SPF ETCS)",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2011:ARR.20110323.1-005",
+        "name": "Fonds des maladies professionnelles",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Le 10/02/2011, Madame A. Turtelboom, Ministre de l'Intérieur, a saisi la Commission de la protection de la vie privée d'une demande d'avis relative à un avant-projet de loi modifiant la loi du 15 avril 1994 visant notamment à transférer à l'Agence fédérale de Contrôle nucléaire (AFCN) les missions de surveillance dosimétrique actuellement confiées au Service public fédéral Emploi, Travail et Concertation sociale (SPF ETCS) et à transférer, dans ce cadre, les données détenues par le SPF ETCS au moment du transfert. L'avant-projet prévoit la création d'un registre d'exposition centralisé tenu par l'AFCN, l'établissement et la délivrance de passeports radiologiques pour les personnes effectuant des missions comportant un risque d'exposition à l'étranger, et l'inscription d'un large éventail de données (identité, domicile/unité d'établissement, nationalité, rôle linguistique, limites de dose et cycles de monitoring, données de relation de travail, données dosimétriques pour chaque dose, données de surveillance médicale, données de formation et d'information, ainsi que données d'entreprises et services impliqués). L'Exposé des motifs précise les finalités visées (optimisation de la protection radiologique, contrôle des limites de dose, simplification administrative, possibilité d'utilisation ultérieure anonymisée à des fins épidémiologiques) et un délai de conservation de 50 ans après le décès, avec anonymisation ensuite. L'avant-projet prévoit en outre des transferts de données à l'étranger via le passeport radiologique et confère au Roi des compétences d'exécution étendues pour les modalités d'application. La Commission a examiné la nature et l'adéquation des données et traitements, la licéité et la proportionnalité (notamment la pertinence de la nationalité et la durée de conservation), la désignation de l'AFCN comme responsable du traitement, les mesures de sécurité requises, les autorisations sectorielles nécessaires (Registre national, Banque-Carrefour des Entreprises, Banque-carrefour de la Sécurité sociale) et la nécessité que les arrêtés d'exécution soient soumis à son avis. Suite à cet examen, la Commission formule des recommandations (clarifier une finalité supplémentaire liée aux maladies professionnelles, définir « données anonymes », supprimer la nationalité, justifier/revoir le délai de conservation, soumettre les arrêtés d'exécution à son avis) et, après le rapport de Monsieur Jan Remans, émet le 23 mars 2011 un avis favorable sous condition de l'intégration de ces points.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+          "requests": "Demande d'avis concernant un avant-projet de loi modifiant la loi du 15 avril 1994 visant à transférer à l'AFCN les missions de surveillance dosimétrique et à créer un registre d'exposition centralisé et des passeports radiologiques."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "PAR CES MOTIFS,\n\n44. La Commission émet un avis favorable sur l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection de la population et de l'environnement contre les dangers résultant des rayonnements ionisants et relative à l'Agence fédérale de Contrôle nucléaire et transférant à l'Agence fédérale de Contrôle nucléaire certaines missions du Service public fédéral Emploi, Travail et Concertation sociale, et ce à condition que les points importants précités soient intégrés de manière complémentaire.",
+      "outcome": "FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "provisionNumber": "article 29",
+        "provisionNumberKey": "29",
+        "parentActType": "LOI",
+        "parentActName": "loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel (LVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "provisionNumber": "article 1",
+        "provisionNumberKey": "1",
+        "parentActType": "LOI",
+        "parentActName": "loi du 8 décembre 1992 relative à la protection de la vie privée (LVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission rappelle que, au sens de l'article 1 de la LVP, les éléments énumérés dans le projet (identité, adresse, données dosimétriques, données médicales, formation, etc.) constituent des données à caractère personnel. Elle souligne que certaines de ces données peuvent, selon leur nature, relever de catégories particulières et exiger une protection renforcée au regard du régime de la LVP.",
+        "relevantFactualContext": "La liste des données envisagées pour le registre d'exposition (identité, domicile, nationalité, données dosimétriques, surveillance médicale et formation) est examinée pour déterminer leur qualification juridique en tant que données personnelles."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "provisionNumber": "article 6",
+        "provisionNumberKey": "6",
+        "parentActType": "LOI",
+        "parentActName": "loi du 8 décembre 1992 relative à la protection de la vie privée (LVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission interprète l'article 6 comme visant la nationalité parmi les données sensibles nécessitant une prudence particulière; elle estime que l'inscription de la nationalité dans le registre, au vu de la finalité de radioprotection, paraît superflue et potentiellement disproportionnée.",
+        "relevantFactualContext": "La nationalité figure dans la liste des données à reprendre dans le registre d'exposition; la Commission recommande de la supprimer au regard de la finalité déclarée."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-004",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "provisionNumber": "article 7",
+        "provisionNumberKey": "7",
+        "parentActType": "LOI",
+        "parentActName": "loi du 8 décembre 1992 relative à la protection de la vie privée (LVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission retient que les données relatives à la surveillance sanitaire relèvent des données sensibles visées par l'article 7 de la LVP et, à ce titre, imposent la mise en place de garanties et de mesures de sécurité supplémentaires conformes au régime applicable aux données de santé.",
+        "relevantFactualContext": "Le registre d'exposition comportera des données de surveillance médicale destinées à apprécier l'aptitude des personnes; ces données justifient des mesures de protection spécifiques."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-005",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "provisionNumber": "article 4, § 1, 2°",
+        "provisionNumberKey": "4",
+        "parentActType": "LOI",
+        "parentActName": "article 4, § 1, 2° de la loi du 8 décembre 1992 relative à la protection de la vie privée (LVP) exige que les données personnelles soient collectées pour des finalités déterminées, explicites et légitimes; le projet doit préciser ces finalités.",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission interprète l'article 4, §1, 2° comme imposant que les données ne soient collectées que pour des finalités déterminées, explicites et légitimes; la description des finalités doit être la plus précise et complète possible, notamment lorsque le traitement porte sur des données sensibles, afin d'encadrer strictement la licéité du traitement.",
+        "relevantFactualContext": "L'avant-projet indique comme finalité l'optimisation de la protection radiologique; la Commission demande une description plus détaillée des finalités poursuivies et des finalités supplémentaires éventuelles (ex. études épidémiologiques)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-006",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "provisionNumber": "article 36bis",
+        "provisionNumberKey": "36bis",
+        "parentActType": "LOI",
+        "parentActName": "loi du 8 décembre 1992 relative à la protection de la vie privée (LVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission rappelle que l'article 36bis prévoit qu'une communication électronique de données à caractère personnel par un Service public fédéral requiert une autorisation de principe du comité sectoriel compétent; cette exigence s'applique au transfert électronique de données entre SPF et l'AFCN dans le cadre du transfert des missions.",
+        "relevantFactualContext": "Le transfert des missions et des données du SPF ETCS vers l'AFCN implique des communications électroniques entre services publics fédéraux et nécessite l'autorisation prévue par l'article 36bis."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-007",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "provisionNumber": "article 16",
+        "provisionNumberKey": "16",
+        "parentActType": "LOI",
+        "parentActName": "loi du 8 décembre 1992 relative à la protection de la vie privée (LVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "Conformément à l'article 16, le responsable du traitement doit prendre les mesures techniques et organisationnelles requises pour assurer un niveau de protection adéquat, compte tenu de l'état de la technique, des coûts et de la nature des données; la Commission renvoie aux mesures de référence comme guide concret pour satisfaire à cette obligation.",
+        "relevantFactualContext": "L'AFCN est désignée responsable du traitement du registre d'exposition et devra mettre en œuvre des mesures de sécurité adaptées aux données sensibles qu'il contiendra."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-008",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "provisionNumber": "article 17",
+        "provisionNumberKey": "17",
+        "parentActType": "LOI",
+        "parentActName": "loi du 8 décembre 1992 relative à la protection de la vie privée (LVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "L'article 17 impose la déclaration préalable à la Commission pour tout traitement entièrement ou partiellement automatisé, ou ensemble de tels traitements ayant une même finalité; la Commission rappelle que cette déclaration doit contenir les informations prévues à l'article 17, §3 avant la mise en œuvre du registre.",
+        "relevantFactualContext": "Avant la mise en service du registre d'exposition centralisé, l'AFCN devra effectuer la déclaration prévue à l'article 17 auprès de la Commission de la protection de la vie privée."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-009",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+        "provisionNumber": "article 1, 5°",
+        "provisionNumberKey": "1",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 13 février 2001 portant exécution de la LVP (arrêté royal 13/02/2001)",
+        "parentActDate": "2001-02-13",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission recommande de définir la notion de «données anonymes» en renvoyant à l'article 1, 5° de l'arrêté royal du 13 février 2001, qui caractérise comme anonymes les données ne pouvant être mises en relation avec une personne identifiée ou identifiable; une telle définition évitera toute confusion lors de la conservation post-mortem et d'usages ultérieurs.",
+        "relevantFactualContext": "La recommandation vise l'application de la disposition de l'avant-projet prévoyant l'anonymisation des données 50 ans après le décès afin de permettre des traitements épidémiologiques."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-010",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+        "provisionNumber": "article 25",
+        "provisionNumberKey": "25",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 13 février 2001 portant exécution de la LVP (arrêté royal 13/02/2001)",
+        "parentActDate": "2001-02-13",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission rappelle que l'article 25 de l'arrêté royal impose, pour les traitements de données sensibles, des mesures de sécurité supplémentaires: désignation des catégories de personnes ayant accès, tenue d'une liste disponible à la Commission et obligations de confidentialité pour les personnes ainsi désignées.",
+        "relevantFactualContext": "Étant donné que le registre contient des données relatives à la santé, ces mesures de sécurité supplémentaires devront être appliquées et documentées par le responsable du traitement (AFCN)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-011",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 75, 1°, 2° (tiret)",
+        "provisionNumberKey": "75",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission interprète l'article 75, 1°, 2° tiret comme visant, pour l'application du registre, toute personne qui exécute des activités susceptibles d'entraîner le dépassement des limites de dose fixées pour le public; il constitue un critère d'inclusion opérationnel pour déterminer qui doit être soumis à la surveillance dosimétrique.",
+        "relevantFactualContext": "Le registre concernera chaque personne effectuant des activités professionnelles, de formation ou volontaires comportant un risque d'exposition susceptible d'entraîner le dépassement des limites de dose."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-012",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 76, 25/3",
+        "provisionNumberKey": "25/3",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission lit l'article 76, 25/3 comme étendant le champ d'application du registre aux travailleurs (et personnes assimilées : personnes en formation, apprentis, stagiaires, étudiants), aux employés d'établissements belges autorisés, aux entreprises extérieures et aux indépendants qui effectuent des missions comportant un risque d'exposition.",
+        "relevantFactualContext": "L'application large visée inclut salariés, stagiaires, apprentis, étudiants, volontaires et indépendants exécutant des missions comportant un risque d'exposition dans des établissements soumis à autorisation."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-013",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 76, 25/6",
+        "provisionNumberKey": "25/6",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission relève que l'article 76, 25/6 fixe le contenu minimal du registre d'exposition et confie au Roi des compétences d'exécution quant aux données à reprendre; elle attire l'attention sur certaines données énumérées (p.ex. la nationalité) comme potentiellement non nécessaires et invite à clarifier et restreindre le périmètre des données à caractère personnel.",
+        "relevantFactualContext": "Le projet liste des éléments d'identification, données dosimétriques, éléments relatifs à la relation de travail, surveillance médicale et formation; la Commission estime que certaines informations peuvent être excessives par rapport à la finalité."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-014",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 75, 25/10",
+        "provisionNumberKey": "25/10",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Selon l'article 75, 25/10, le passeport radiologique doit comporter notamment l'exposition professionnelle des douze derniers mois glissants et les données dosimétriques reçues lors de missions à l'étranger; la Commission souligne que ces informations servent à garantir le respect des limites de dose lors de missions internationales.",
+        "relevantFactualContext": "Le passeport radiologique sera produit à partir du registre par l'entreprise extérieure, vérifié par l'exploitant étranger avant la mission et complété par les données dosimétriques à la fin de la mission."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-015",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 76, 25/1, 4°",
+        "provisionNumberKey": "25/1",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission considère que, selon l'article 76, 25/1, 4°, la finalité principale du registre est l'optimisation de la protection radiologique des personnes concernées (contrôle des limites, optimisation, recherche d'anomalies, simplification administrative). Elle juge cette finalité légitime mais demande une formulation plus précise et détaillée dans l'avant-projet.",
+        "relevantFactualContext": "L'Exposé des motifs indique que le registre vise le contrôle du respect des limites de dose, l'optimisation de l'exposition et la simplification administrative pour les acteurs concernés."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-016",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 76, 25/5",
+        "provisionNumberKey": "25/5",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission note que l'article 76, 25/5 prévoit une conservation des données jusqu'à cinquante ans après le décès puis leur anonymisation en vue d'études épidémiologiques; elle relève que cette durée et cette finalité secondaire introduisent des éléments non explicités dans le texte et estime que le délai paraît potentiellement disproportionné au regard de la finalité d'optimisation de la radioprotection, exigeant une justification claire et la définition de l'anonymisation.",
+        "relevantFactualContext": "Le texte prévoit une conservation longue (50 ans après le décès) pour permettre l'accès au Fonds des maladies professionnelles et des études épidémiologiques; la Commission demande d'expliciter cette finalité et de définir les données anonymes."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-017",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 76, 25/11",
+        "provisionNumberKey": "25/11",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "L'article 76, 25/11 délègue au Roi la compétence pour définir les modalités d'établissement et de délivrance des passeports radiologiques; la Commission demande expressément que les arrêtés d'exécution pris en vertu de cette délégation lui soient soumis pour avis préalable afin d'assurer la conformité aux exigences de protection des données.",
+        "relevantFactualContext": "La délégation porte sur les modalités pratiques relatives au passeport radiologique (contenu, délivrance, vérification lors de missions à l'étranger) et affecte la sécurité et les transferts de données."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-018",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 76, 25/4",
+        "provisionNumberKey": "25/4",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission relève que l'article 76, 25/4 énumère les catégories d'acteurs habilités à introduire ou consulter les données du registre (services de surveillance, AFCN, professionnel de santé, exploitants, entreprises extérieures, services de dosimétrie, personnes concernées, etc.) et insiste pour que ces habilitations soient assorties de garanties et de contrôles d'accès stricts.",
+        "relevantFactualContext": "Le projet précise les instances et catégories d'acteurs ayant accès au registre; la Commission demande des mesures organisationnelles et techniques afin de limiter et contrôler cet accès."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-019",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 76, 25/9, § 2",
+        "provisionNumberKey": "25/9",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission interprète l'article 76, 25/9, §2 comme imposant qu'un contrat entre l'entreprise extérieure (ou l'indépendant) et l'exploitant étranger garantisse au travailleur extérieur une protection équivalente à celle dont bénéficient les employés de l'exploitant; ce contrat doit intégrer des garanties adéquates de protection des données lors des transferts transfrontaliers.",
+        "relevantFactualContext": "Le passeport radiologique sera vérifié et complété par l'exploitant étranger lors de la mission; les données seront ensuite réintégrées au registre à leur retour en Belgique, ce qui requiert des garanties contractuelles."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-020",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-004",
+        "provisionNumber": "article 2, § 1, premier et deuxième alinéas, 1°",
+        "provisionNumberKey": "2",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 4 août 1996 relative au bien-être des travailleurs lors de l'exécution de leur travail",
+        "parentActDate": "1996-08-04",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-021",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-005",
+        "provisionNumber": "article 3",
+        "provisionNumberKey": "3",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 3 juillet 2005 relative aux droits des volontaires",
+        "parentActDate": "2005-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-022",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-006",
+        "provisionNumber": "article 4, § 5",
+        "provisionNumberKey": "4",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la sécurité sociale",
+        "parentActDate": "1990-01-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-023",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 76, 25/2, § 1, deuxième alinéa et § 2",
+        "provisionNumberKey": "25/2",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission constate que l'article 76, 25/2 délègue au Roi la fixation des modalités pratiques relatives au fonctionnement, au contenu et à l'accès du registre d'exposition; elle recommande que les arrêtés d'exécution adoptés sur cette base soient soumis à l'avis préalable de la Commission afin d'assurer la proportionnalité et la sécurité des traitements.",
+        "relevantFactualContext": "La compétence d'exécution du Roi porte sur le suivi dosimétrique, le fonctionnement et l'utilisation du registre, son contenu et les règles d'accès, ce qui impactera directement la mise en œuvre technique et organisationnelle."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-024",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 76, 25/7, 10°",
+        "provisionNumberKey": "25/7",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "L'article 76, 25/7, 10° fait partie des dispositions confiant au Roi des compétences d'exécution pour fixer des modalités pratiques concernant le registre; la Commission demande une soumission préalable des arrêtés d'exécution à son avis afin de garantir la conformité aux exigences de protection des données.",
+        "relevantFactualContext": "La délégation à l'exécutif pour définir modalités, contenu et accès nécessite que la Commission puisse évaluer a priori l'adéquation des mesures de protection proposées."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-025",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "provisionNumber": "article 77, § 2",
+        "provisionNumberKey": "77",
+        "parentActType": "LOI",
+        "parentActName": "l'avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection contre les dangers des rayonnements ionisants",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission relève que l'article 77, §2 prévoit que, dans le cadre du transfert de missions entre services, les données relatives à la surveillance dosimétrique doivent être transmises; elle en déduit que ces transferts exigent l'obtention des autorisations sectorielles et le respect des règles applicables aux communications électroniques.",
+        "relevantFactualContext": "Dans le transfert des missions du SPF ETCS à l'AFCN, les données de surveillance dosimétrique doivent être transmises et feront l'objet des autorisations et garanties prévues (comités sectoriels, article 36bis, etc.)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-026",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-007",
+        "provisionNumber": "article 16",
+        "provisionNumberKey": "16",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 8 août 1983 organisant un registre national des personnes physiques",
+        "parentActDate": "1983-08-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission rappelle que l'article 16 de la loi du 8 août 1983 impose qu'un accès au Registre national ou toute communication d'informations de ce registre soit autorisé par le Comité sectoriel compétent; cette exigence s'applique aux demandes d'accès envisagées pour alimentation du registre d'exposition.",
+        "relevantFactualContext": "Une demande d'autorisation d'accès au Registre national a été introduite dans le cadre du projet mais a été temporairement suspendue en attente d'une clarification du fondement juridique."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-027",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-008",
+        "provisionNumber": "article 18",
+        "provisionNumberKey": "18",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 16 janvier 2003 portant création d'une Banque-Carrefour des Entreprises (et art. 27)",
+        "parentActDate": "2003-01-16",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission rappelle que, selon les articles 18 (et 27) de la loi du 16 janvier 2003, l'accès à certaines informations de la Banque-Carrefour des Entreprises requiert une autorisation du comité sectoriel compétent; l'utilisation de la BCE comme source authentique est donc subordonnée à ces autorisations.",
+        "relevantFactualContext": "L'avant-projet envisage d'obtenir certaines données via la Banque-Carrefour des Entreprises; l'accès à ces informations dépendra de l'octroi préalable des autorisations sectorielles."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-028",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-008",
+        "provisionNumber": "article 27",
+        "provisionNumberKey": "27",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 16 janvier 2003 portant création d'une Banque-Carrefour des Entreprises (et art. 27)",
+        "parentActDate": "2003-01-16",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission rappelle que l'article 27 requiert une autorisation sectorielle pour l'accès à certaines données de la Banque-Carrefour des Entreprises; cette exigence légale doit être respectée lors de l'alimentation du registre d'exposition à partir de sources authentiques.",
+        "relevantFactualContext": "La Banque-Carrefour des Entreprises est prévue comme source authentique pour certaines données du registre; des autorisations sectorielles seront nécessaires pour cet accès."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-029",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-006",
+        "provisionNumber": "article 46",
+        "provisionNumberKey": "46",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la sécurité sociale",
+        "parentActDate": "1990-01-15",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission rappelle que l'article 46 de la loi du 15 janvier 1990 impose qu'une communication, au sein et en dehors du réseau de la sécurité sociale, de données sociales à caractère personnel ne peut intervenir qu'avec une autorisation du Comité sectoriel compétent; ceci s'applique à toute transmission issue des registres de la sécurité sociale vers le registre d'exposition.",
+        "relevantFactualContext": "La transmission de données depuis les registres de la Banque-carrefour de la sécurité sociale dans le cadre du projet nécessitera l'autorisation du Comité sectoriel 'Sécurité sociale et Santé'."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-030",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-009",
+        "provisionNumber": "article 28",
+        "provisionNumberKey": "28",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "Directive 95/29/Euratom du Conseil (13 mai 1996)",
+        "parentActDate": "1996-05-13",
+        "parentActNumber": "95/29",
+        "provisionInterpretation": "La Commission rappelle que l'article 28 de la directive 95/29/Euratom impose la tenue d'un relevé contenant les résultats de la surveillance individuelle pour les travailleurs exposés (catégorie A) et prévoit la conservation des documents pendant la durée de la carrière puis jusqu'à l'âge de 75 ans et, en tout cas, au moins trente ans après la fin de l'activité professionnelle exposée.",
+        "relevantFactualContext": "La Commission compare les durées et obligations de conservation prévues par la directive (jusqu'à 75 ans ou au moins 30 ans) avec le délai de conservation de 50 ans après le décès proposé par l'avant-projet et constate l'absence de justification pour cet écart."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-031",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2011:ARR.20110323.1-009",
+        "provisionNumber": "article 34",
+        "provisionNumberKey": "34",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "Directive 95/29/Euratom du Conseil (13 mai 1996)",
+        "parentActDate": "1996-05-13",
+        "parentActNumber": "95/29",
+        "provisionInterpretation": "La Commission rappelle que l'article 34 de la directive exige la création et la conservation d'un dossier médical pour chaque travailleur de la catégorie A pendant la carrière puis jusqu'à l'âge de 75 ans et au moins trente ans après la fin de l'activité; elle s'appuie sur cette règle pour interroger la durée de conservation proposée par l'avant-projet.",
+        "relevantFactualContext": "La référence aux articles 28 et 34 de la directive sert de point de comparaison pour évaluer la proportionnalité du délai de conservation de 50 ans après le décès prévu par l'avant-projet."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": []
+  },
+  "keywords": {
+    "customKeywords": [
+      "Protection des données",
+      "Surveillance dosimétrique",
+      "Registre d'exposition centralisé",
+      "Passeport radiologique",
+      "Travailleurs exposés",
+      "Finalités floues",
+      "Proportionnalité des données",
+      "Données de santé sensibles",
+      "Transferts internationaux",
+      "Délégation réglementaire au Roi"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "text": "Les données à caractère personnel ne peuvent être collectées que pour des finalités déterminées, explicites et légitimes; la description des finalités doit être la plus précise et complète possible, en particulier lorsque le traitement porte sur des données sensibles, afin d'encadrer strictement la licéité et la proportionnalité du traitement.",
+        "courtVerbatim": "Conformément à l'article 4, § 1, 2° de la LVP, les données à caractère personnel peuvent uniquement être collectées pour des finalités déterminées, explicites et légitimes. La description des finalités poursuivies doit donc être aussi précise, détaillée et complète que possible, surtout eu égard au caractère particulièrement sensible d'une grande partie des données collectées.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un projet de traitement centralise des données personnelles, notamment sensibles, et énonce des finalités pour la collecte.",
+        "relevantFactualContext": "La Commission examine un avant-projet créant un registre d'exposition centralisé destiné à optimiser la protection radiologique et demande une description plus précise des finalités poursuivies, en particulier pour des finalités secondaires éventuelles.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+            "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-004"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-005"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+        "text": "Les données collectées doivent être pertinentes et non excessives au regard de la finalité; une donnée sensible (ex. nationalité) qui n'apporte rien à la finalité poursuivie doit être supprimée, la proportionnalité s'appréciant spécialement lorsque des catégories particulières de données sont envisagées.",
+        "courtVerbatim": "L'article 4, § 1, 3° de la LVP dispose que les données à caractère personnel collectées doivent obligatoirement être pertinentes et non excessives au regard de la finalité du traitement. Les données à caractère personnel énumérées aux points 7 et 8 semblent pour la plupart être proportionnelles à l'égard des finalités telles que décrites dans le texte de l'avant-projet. Seule la donnée \"nationalité\" semble excessive à l'égard de la finalité du traitement, étant donné qu'elle ne semble en aucune manière pouvoir contribuer à l'optimisation de la radioprotection de la personne concernée.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors de l'examen de la liste des données à inclure dans un registre visé à une finalité spécifique de protection ou de surveillance.",
+        "relevantFactualContext": "L'avant-projet prévoit d'enregistrer la nationalité parmi d'autres éléments d'identification pour le registre d'exposition; la Commission considère cette donnée superflue et demande sa suppression.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-005",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "text": "Lorsque le registre contient des données relatives à la surveillance médicale (données sensibles), le responsable du traitement doit appliquer des garanties et mesures de sécurité supplémentaires (désignation des catégories de personnes ayant accès, tenue de listes, obligations de confidentialité) et se conformer aux mesures de référence techniques et organisationnelles applicables.",
+        "courtVerbatim": "Les données à caractère personnel sensibles, dont celles relatives à la santé, sont de nature à justifier des mesures de sécurité plus strictes. En vertu de l'article 25 de l'arrêté royal du 13 février 2001 portant exécution de la LVP, le responsable du traitement doit, dans le cadre du traitement de données à caractère personnel sensibles, comme les données à caractère personnel relatives à la santé, prendre les mesures de sécurité supplémentaires suivantes : désigner les catégories de personnes ayant accès aux données à caractère personnel, tenir à la disposition de la Commission la liste des catégories des personnes ainsi désignées, veiller à ce que les personnes désignées soient tenues ... au respect du caractère confidentiel des données visées.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique dès que le traitement comporte des données de santé ou autres catégories particulières de données sensibles et prévoit divers accès et traitements.",
+        "relevantFactualContext": "Le registre d'exposition contient des données de surveillance médicale destinées à apprécier l'aptitude des personnes; la Commission rappelle l'obligation d'appliquer des mesures de sécurité supplémentaires et de désigner les catégories de personnes ayant accès.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-004",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-010",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-006"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-004",
+        "text": "La durée de conservation des données doit être proportionnée à la finalité; un délai extrêmement long (ex. conservation jusqu'à 50 ans après le décès) exige une justification concrète dans le texte et une définition claire des modalités d'anonymisation pour les traitements secondaires (études épidémiologiques).",
+        "courtVerbatim": "Pour la finalité, telle que reprise dans le présent avant-projet de loi, à savoir l' \"optimisation de la protection radiologique des personnes concernées\", le délai de conservation précité semble extrêmement long. ... Si ce très long délai de conservation est quand même nécessaire dans le cadre de l'optimisation de la radioprotection de la personne concernée, il faudra indiquer très concrètement et clairement, soit dans l'avant-projet lui-même, soit dans l'Exposé des motifs, la raison pour laquelle un tel délai de conservation extrêmement long se justifie. L'article 76, 25/5, deuxième alinéa de l'avant-projet de loi prévoit que 50 ans après le décès des personnes concernées, leurs données ... sont anonymisées et conservées en vue d'un traitement ultérieur pour une étude épidémiologique. Pour éviter toute confusion, il est recommandé d'ajouter ce qu'il faut entendre par données anonymes, c'est-à-dire \"les données qui ne peuvent être mises en relation avec une personne identifiée ou identifiable\" par référence à l'article 1, 5° de l'arrêté royal du 13 février 2001.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un projet prévoit une conservation longue de données personnelles identifiables au-delà de la durée nécessaire à la finalité initiale, notamment pour finalités secondaires.",
+        "relevantFactualContext": "L'avant-projet prévoit conservation jusqu'à 50 ans après le décès pour permettre l'accès au Fonds des maladies professionnelles et des études épidémiologiques; la Commission juge le délai potentiellement disproportionné et demande justification et définition de l'anonymisation.",
+        "principleType": "BALANCING_TEST",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-016",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-009",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-030",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-031"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-005",
+        "text": "Le transfert de données personnelles à l'étranger est admis lorsque le pays destinataire assure un niveau de protection équivalent; dans les autres cas, le contrat entre l'entreprise extérieure (ou l'indépendant) et l'exploitant étranger doit contenir des garanties contractuelles adéquates assurant une protection équivalente des données lors des transferts transfrontaliers.",
+        "courtVerbatim": "Pour autant que ce transfert ait lieu au sein de la Communauté européenne - où s'applique un niveau de protection équivalent ... - ou vers des pays qui garantissent un niveau de protection adéquat, conformément à l'article 21 de la LVP, il n'y a en principe aucun problème. Dans tous les autres cas, il faudra veiller à ce que le contrat qui doit être conclu entre l'entreprise extérieure/l'indépendant et l'exploitant étranger reprenne des dispositions contractuelles adéquates offrant des garanties suffisantes (équivalentes) à l'égard de la protection des données à caractère personnel de la personne concernée.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un passeport radiologique ou autres données personnelles sont transférés hors de Belgique pour missions à l'étranger.",
+        "relevantFactualContext": "Le passeport radiologique sera vérifié et complété par l'exploitant étranger au cours d'une mission; les données seront ensuite réintégrées au registre belge, ce qui requiert des garanties contractuelles en cas de transferts vers des pays sans protection équivalente.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-019"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-006",
+        "text": "Toute communication électronique de données à caractère personnel entre services publics fédéraux nécessite une autorisation préalable du comité sectoriel compétent; en cas de transfert de missions et de données entre SPF, l'autorisation prévue par l'article 36bis de la LVP s'applique.",
+        "courtVerbatim": "En vertu de l'article 36bis de la LVP, toute communication électronique de données à caractère personnel par un Service public fédéral exige une autorisation de principe du Comité sectoriel pour l'Autorité Fédérale. Dans le cadre du transfert des missions du SPF ETCS à l'AFCN, les données relatives à la surveillance dosimétrique doivent également être transmises.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors de transferts électroniques de données personnelles entre entités publiques fédérales ou lors de transfert de missions impliquant communications électroniques.",
+        "relevantFactualContext": "Le transfert des missions et des données du SPF ETCS vers l'AFCN implique des communications électroniques entre services publics fédéraux et nécessite l'autorisation prévue par l'article 36bis selon la Commission.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-006",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-025"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-007",
+        "text": "L'alimentation d'un registre à partir de sources authentiques (Registre national, Banque-Carrefour des Entreprises, Banquecarrefour de la Sécurité sociale) est subordonnée à l'obtention préalable des autorisations sectorielles compétentes; l'accès ou la communication de ces registres requiert l'accord du Comité sectoriel compétent.",
+        "courtVerbatim": "En vertu de l'article 16 de la loi précitée du 8 août 1983, tout accès au Registre national ou communication d'informations de ce registre requiert une autorisation du Comité sectoriel du Registre national. En vertu des articles 18 et 27 de la loi précitée du 16 janvier 2003, l'accès à certaines informations de la Banque-Carrefour des Entreprises requiert une autorisation du Comité sectoriel pour la Banque-Carrefour des Entreprises. En vertu de l'article 46 de la loi précitée du 15 janvier 1990, toute communication ... de données sociales de nature personnelle requiert une autorisation du Comité sectoriel de la Sécurité Sociale et de la Santé.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque le projet prévoit l'obtention de données issues de sources authentiques nationales pour alimenter un traitement centralisé de données personnelles.",
+        "relevantFactualContext": "L'avant-projet envisage d'obtenir certaines données via le Registre national, la Banque-Carrefour des Entreprises et les registres de la Banque-Carrefour de la Sécurité sociale; la Commission rappelle que l'accès dépendra de l'octroi préalable des autorisations sectorielles.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-026",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-027",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-028",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-029"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 7,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 3,
+        "balancing": 1,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 2,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 7
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le ministre de l'Intérieur a sollicité l'avis de la Commission sur un avant‑projet transférant au sein de l'AFCN les missions de surveillance dosimétrique du SPF ETCS, créant un registre d'exposition centralisé et des passeports radiologiques. La Commission estime la finalité d'optimisation de la protection radiologique légitime mais relève des risques pour la vie privée en raison des données de santé, de la présence de la « nationalité », des transferts à l'étranger, du délai de conservation de 50 ans après le décès et des mesures de sécurité. Elle émet un avis favorable conditionnel en demandant notamment de préciser toute finalité supplémentaire, de définir l'anonymisation, de supprimer la nationalité, de justifier ou réduire le délai de conservation et de soumettre les arrêtés d'exécution à son avis. Principe clé: le traitement est admissible seulement s'il respecte les principes de finalité, proportionnalité, limitation de conservation et garanties de sécurité prévus par la LVP."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La Commission de la protection de la vie privée (ci-après \"la Commission\") ; Vu la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel (ci-après \"la LVP\"), en particulier l'article 29 ; Vu la demande d'avis de Madame A. Turtelboom, Ministre de l'Intérieur, reçue le 10/02/2011; Vu le rapport de Monsieur Jan Remans ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">9. Ces données sont au minimum des données à caractère personnel \"ordinaires\" (non sensibles) au sens de l'article 1 de la LVP, mais pour certaines d'entre elles, il s'agit en outre de données à caractère personnel sensibles au sens de l'article 6 (nationalité) et de l'article 7 (données relatives à la surveillance sanitaire) de la LVP.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">9. Ces données sont au minimum des données à caractère personnel \"ordinaires\" (non sensibles) au sens de l'article 1 de la LVP, mais pour certaines d'entre elles, il s'agit en outre de données à caractère personnel sensibles au sens de l'article 6 (nationalité) et de l'article 7 (données relatives à la surveillance sanitaire) de la LVP.</p>",
+          "<p class=\"case-section__paragraph\">17. Les données à caractère personnel énumérées aux points 7 et 8 semblent pour la plupart être proportionnelles à l'égard des finalités telles que décrites dans le texte de l'avant-projet. Seule la donnée \"nationalité\" semble excessive à l'égard de la finalité du traitement, étant donné qu'elle ne semble en aucune manière pouvoir contribuer à l'optimisation de la radioprotection de la personne concernée. Il s'agit en outre d'une donnée à caractère personnel \"sensible\" au sens de l'article 6 de la LVP, qui requiert une plus grande prudence que celle de mise pour les données à caractère personnel \"ordinaires\" (non sensibles).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-005",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">9. Ces données sont au minimum des données à caractère personnel \"ordinaires\" (non sensibles) au sens de l'article 1 de la LVP, mais pour certaines d'entre elles, il s'agit en outre de données à caractère personnel sensibles au sens de l'article 6 (nationalité) et de l'article 7 (données relatives à la surveillance sanitaire) de la LVP.</p>",
+          "<p class=\"case-section__paragraph\">27. Il ressort de l'article 75, 1°, 11e tiret de l'avant-projet de loi qu'au sein de l'AFCN, un professionnel des soins de santé sera désigné, au sens de l'article 7, § 4 de la LVP. Cet article dispose également que tant que les mesures d'exécution de la disposition précitée de la LVP ne sont pas prises, on entend par \"professionnel des soins de santé\" : la personne titulaire du diplôme légal de docteur en médecine, chirurgie et accouchements.</p>",
+          "<p class=\"case-section__paragraph\">30. Les données à caractère personnel sensibles, dont celles relatives à la santé, sont de nature à justifier des mesures de sécurité plus strictes. En vertu de l'article 25 de l'arrêté royal du 13 février 2001 portant exécution de la LVP, le responsable du traitement doit, dans le cadre du traitement de données à caractère personnel sensibles, comme les données à caractère personnel relatives à la santé, prendre les mesures de sécurité supplémentaires suivantes :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-004",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">12. Conformément à l'article 4, § 1, 2° de la LVP, les données à caractère personnel peuvent uniquement être collectées pour des finalités déterminées, explicites et légitimes. La description des finalités poursuivies doit donc être aussi précise, détaillée et complète que possible, surtout eu égard au caractère particulièrement sensible d'une grande partie des données collectées.</p>",
+          "<p class=\"case-section__paragraph\">25. L'article 25/5 précité prévoit par ailleurs qu'à l'expiration de ce délai de 50 ans, les données seront encore conservées \"sous la forme de données anonymes, en vue de leur traitement ultérieur comme le prévoient les mesures d'exécution prises en application de l'article 4 de la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel.\" Comme déjà mentionné (voir le point 15), il est recommandé d'ajouter ce qu'il faut entendre par données anonymes, et ce en référence à l'article 1, 5° de l'arrêté royal du 13 février 2001 portant exécution de la LVP.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-005",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">38. Dans le cadre du transfert de missions du SPF ETCS à l'AFCN, l'article 77, § 2 de l'avant-projet de loi prévoit que les données relatives à la surveillance dosimétrique doivent également être transmises. En vertu de l'article 36bis de la LVP, toute communication électronique de données à caractère personnel par un Service public fédéral exige une autorisation de principe du Comité sectoriel pour l'Autorité Fédérale.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-006",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-025"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">28. L'article 16 de la LVP impose au responsable du traitement de \"prendre les mesures techniques et organisationnelles requises pour protéger les données à caractère personnel (...)\" [et précise que] \"Ces mesures doivent assurer un niveau de protection adéquat, compte tenu, d'une part, de l'état de la technique en la matière et des frais qu'entraîne l'application de ces mesures et, d'autre part, de la nature des données à protéger et des risques potentiels.\" Pour satisfaire concrètement à cette exigence, la Commission se réfère aux mesures de référence qu'elle a rédigées13.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">40. L'article 17 de la LVP prévoit ce qui suit : \"Préalablement à la mise en oeuvre d'un traitement entièrement ou partiellement automatisé ou d'un ensemble de tels traitements ayant une même finalité ou des finalités liées, le responsable du traitement ou, le cas échéant, son représentant, en fait la déclaration auprès de la Commission de la protection de la vie privée.\"</p>",
+          "<p class=\"case-section__paragraph\">41. Cette déclaration doit préciser les informations énumérées à l'article 17, § 3 de la LVP.</p>",
+          "<p class=\"case-section__paragraph\">42. La déclaration peut être effectuée au moyen d'un formulaire papier disponible auprès de la Commission. La déclaration peut toutefois aussi être introduite par voie électronique via le site Internet de la Commission (http://www.privacycommission.be).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">15. L'article 76, 25/5, deuxième alinéa de l'avant-projet de loi prévoit que 50 ans après le décès des personnes concernées, leurs données à caractère personnel en matière de surveillance dosimétrique sont anonymisées et conservées en vue d'un traitement ultérieur pour une étude épidémiologique11. Pour éviter toute confusion, il est recommandé d'ajouter ce qu'il faut entendre par données anonymes, c'est-à-dire \"les données qui ne peuvent être mises en relation avec une personne identifiée ou identifiable et qui ne sont donc pas des données à caractère personnel\", par référence à l'article 1, 5° de l'arrêté royal du 13 février 2001 portant exécution de la LVP.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-009",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">30. Les données à caractère personnel sensibles, dont celles relatives à la santé, sont de nature à justifier des mesures de sécurité plus strictes. En vertu de l'article 25 de l'arrêté royal du 13 février 2001 portant exécution de la LVP, le responsable du traitement doit, dans le cadre du traitement de données à caractère personnel sensibles, comme les données à caractère personnel relatives à la santé, prendre les mesures de sécurité supplémentaires suivantes :</p>",
+          "<ul>\n            <li>désigner les catégories de personnes ayant accès aux données à caractère personnel, avec une description précise de leur fonction par rapport au traitement des données visées ;</li>\n            <li>tenir à la disposition de la Commission la liste des catégories des personnes ainsi désignées ;</li>\n            <li>veiller à ce que les personnes désignées soient tenues, par une obligation légale ou statutaire, ou par une disposition contractuelle équivalente, au respect du caractère confidentiel des données visées.</li>\n        </ul>",
+          "<p class=\"case-section__paragraph\">L'avant-projet de loi en tient déjà partiellement compte à l'article 76, 25/4, qui mentionne les instances qui devront introduire ou consulter les données à caractère personnel enregistrées et qui sont donc impliquées dans la collecte et le traitement de ces données. Il s'agit en particulier des catégories suivantes :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-010",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">10. Tout d'abord, un registre d'exposition sera créé, lequel centralisera les données dosimétriques (cf. ci-dessus) de toutes les personnes soumises à la surveillance dosimétrique. Conformément à l'article 75, 1°, 2e tiret de l'avant-projet, cela concerne chaque personne qui exécute des activités de quelque nature que ce soit lors desquelles elle est soumise à une exposition aux rayonnements ionisants susceptible d'entraîner le dépassement de l'une des limites de dose fixées pour les personnes du public. L'article 76, 25/3 de l'avant-projet de loi dispose à cet égard que le registre d'exposition s'appliquera aux travailleurs (et personnes assimilées, comme les personnes en formation professionnelle ou en contrat d'apprentissage, les stagiaires, les étudiants)8, employés dans un établissement belge soumis à autorisation ou employés dans une entreprise extérieure qui exécutent des missions comportant un risque d'exposition et les indépendants qui exécutent des missions comportant un risque d'exposition. L'article 76, 25/6 de l'avant-projet de loi mentionne notamment que le registre d'exposition contiendra des données pour chaque personne soumise à la surveillance dosimétrique. L'Exposé des motifs précise que l'avant-projet de loi vise la protection de toute personne physique recevant éventuellement une dose supérieure à la limite de dose fixée pour le public dans le cadre de ses activités professionnelles, ses études ou toute autre formation, ainsi que des volontaires9 qui exécutent des activités - quelle que soit leur nature - dans des lieux ou des circonstances comportant un risque d'une telle exposition. L'exposition doit être la conséquence d'une activité, ce qui signifie que les patients qui subissent un traitement médical ne font pas partie du champ d'application.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-011",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">10. Tout d'abord, un registre d'exposition sera créé, lequel centralisera les données dosimétriques (cf. ci-dessus) de toutes les personnes soumises à la surveillance dosimétrique. Conformément à l'article 75, 1°, 2e tiret de l'avant-projet, cela concerne chaque personne qui exécute des activités de quelque nature que ce soit lors desquelles elle est soumise à une exposition aux rayonnements ionisants susceptible d'entraîner le dépassement de l'une des limites de dose fixées pour les personnes du public. L'article 76, 25/3 de l'avant-projet de loi dispose à cet égard que le registre d'exposition s'appliquera aux travailleurs (et personnes assimilées, comme les personnes en formation professionnelle ou en contrat d'apprentissage, les stagiaires, les étudiants)8, employés dans un établissement belge soumis à autorisation ou employés dans une entreprise extérieure qui exécutent des missions comportant un risque d'exposition et les indépendants qui exécutent des missions comportant un risque d'exposition. L'article 76, 25/6 de l'avant-projet de loi mentionne notamment que le registre d'exposition contiendra des données pour chaque personne soumise à la surveillance dosimétrique. L'Exposé des motifs précise que l'avant-projet de loi vise la protection de toute personne physique recevant éventuellement une dose supérieure à la limite de dose fixée pour le public dans le cadre de ses activités professionnelles, ses études ou toute autre formation, ainsi que des volontaires9 qui exécutent des activités - quelle que soit leur nature - dans des lieux ou des circonstances comportant un risque d'une telle exposition. L'exposition doit être la conséquence d'une activité, ce qui signifie que les patients qui subissent un traitement médical ne font pas partie du champ d'application.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-012",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-013",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">7. Les données qui seront enregistrées dans le registre d'exposition sont les suivantes (voir l'article 25/6 de l'avant-projet) :</p>",
+          "<p class=\"case-section__paragraph\">10. Tout d'abord, un registre d'exposition sera créé, lequel centralisera les données dosimétriques (cf. ci-dessus) de toutes les personnes soumises à la surveillance dosimétrique. Conformément à l'article 75, 1°, 2e tiret de l'avant-projet, cela concerne chaque personne qui exécute des activités de quelque nature que ce soit lors desquelles elle est soumise à une exposition aux rayonnements ionisants susceptible d'entraîner le dépassement de l'une des limites de dose fixées pour les personnes du public. L'article 76, 25/3 de l'avant-projet de loi dispose à cet égard que le registre d'exposition s'appliquera aux travailleurs (et personnes assimilées, comme les personnes en formation professionnelle ou en contrat d'apprentissage, les stagiaires, les étudiants)8, employés dans un établissement belge soumis à autorisation ou employés dans une entreprise extérieure qui exécutent des missions comportant un risque d'exposition et les indépendants qui exécutent des missions comportant un risque d'exposition. L'article 76, 25/6 de l'avant-projet de loi mentionne notamment que le registre d'exposition contiendra des données pour chaque personne soumise à la surveillance dosimétrique. L'Exposé des motifs précise que l'avant-projet de loi vise la protection de toute personne physique recevant éventuellement une dose supérieure à la limite de dose fixée pour le public dans le cadre de ses activités professionnelles, ses études ou toute autre formation, ainsi que des volontaires9 qui exécutent des activités - quelle que soit leur nature - dans des lieux ou des circonstances comportant un risque d'une telle exposition. L'exposition doit être la conséquence d'une activité, ce qui signifie que les patients qui subissent un traitement médical ne font pas partie du champ d'application.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-013",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">8. Le passeport radiologique sera composé de données provenant du registre d'exposition, en particulier l'exposition aux rayonnements ionisants subie au niveau professionnel au cours des 12 derniers mois consécutifs glissants précédant la délivrance du passeport radiologique, ainsi que des données dosimétriques concernant les doses qui ont été reçues lors de l'exécution de missions comportant un risque d'exposition à l'étranger (voir l'article 75, 25/10 de l'avant-projet de loi).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">13. L'objectif de l'enregistrement des données dans le cadre du présent avant-projet est d'offrir une protection optimale des personnes soumises à la surveillance dosimétrique, notamment via l'enregistrement de données relatives à la surveillance dosimétrique, la surveillance sanitaire et l'information et la formation de l'intéressé (voir l'article 76, 25/1, 4° de l'avant-projet de loi). L'Exposé des motifs précise à cet égard que le registre d'exposition s'inscrit dans le cadre de la protection des travailleurs et constitue un moyen qui vient soutenir :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-015",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">14. L'Exposé des motifs de l'article 76, 25/5 de l'avant-projet de loi mentionne ce qui suit au sujet du délai de conservation prévu qui s'élève à 50 ans après le décès de la personne concernée : \"La conservation des données pendant cinquante ans après le décès permet de veiller à ce que le Fonds des maladies professionnelles puisse en disposer à long terme. Ceci peut se révéler important, par exemple, lorsqu'une personne qui n'a été employée que peu de temps dans le secteur développe à un âge plus avancé une maladie susceptible de trouver son origine dans les activités que cette personne a accomplies dans le secteur nucléaire.\" Cette explication semble introduire une finalité supplémentaire (étude statistique et/ou stratégique en matière de maladies professionnelles) qui n'est pas mentionnée dans le texte même de l'avant-projet de loi. Le Fonds des maladies professionnelles n'est pas non plus repris à l'article 76, 25/7 qui mentionne les personnes/instances qui auront accès au registre d'exposition et aux données à caractère personnel qu'il contient. Il est dès lors recommandé, le cas échéant, de définir et de reprendre clairement cette finalité supplémentaire dans l'avant-projet de loi et de mentionner les données à caractère personnel qui seront traitées dans ce cadre.</p>",
+          "<p class=\"case-section__paragraph\">15. L'article 76, 25/5, deuxième alinéa de l'avant-projet de loi prévoit que 50 ans après le décès des personnes concernées, leurs données à caractère personnel en matière de surveillance dosimétrique sont anonymisées et conservées en vue d'un traitement ultérieur pour une étude épidémiologique11. Pour éviter toute confusion, il est recommandé d'ajouter ce qu'il faut entendre par données anonymes, c'est-à-dire \"les données qui ne peuvent être mises en relation avec une personne identifiée ou identifiable et qui ne sont donc pas des données à caractère personnel\", par référence à l'article 1, 5° de l'arrêté royal du 13 février 2001 portant exécution de la LVP.</p>",
+          "<p class=\"case-section__paragraph\">24. Pour la finalité, telle que reprise dans le présent avant-projet de loi, à savoir l' \"optimisation de la protection radiologique des personnes concernées\", le délai de conservation précité semble extrêmement long. En effet, les personnes décédées ne doivent plus être protégées contre le rayonnement ionisant. Dès que le risque d'exposition au rayonnement ionisant est définitivement écarté pour les personnes concernées, la conservation des données à caractère personnel dans ce cadre n'est plus recommandée. Si ce très long délai de conservation est quand même nécessaire dans le cadre de l'optimisation de la radioprotection de la personne concernée, il faudra indiquer très concrètement et clairement, soit dans l'avant-projet lui-même, soit dans l'Exposé des motifs, la raison pour laquelle un tel délai de conservation extrêmement long se justifie, ce qui n'est aucunement le cas actuellement. On ne retrouve pas non plus une justification de ce délai de conservation extrêmement long dans les directives européennes 96/29/Euratom et 90/641/Euratom, dont l'avant-projet constitue une nouvelle transposition12. Par ailleurs, il faudra alors veiller, le cas échéant, à ce que soient prévues et mises en oeuvre les procédures requises pouvant garantir que des données aussi 'anciennes' sont encore toujours utilisables et exploitables.</p>",
+          "<p class=\"case-section__paragraph\">25. L'article 25/5 précité prévoit par ailleurs qu'à l'expiration de ce délai de 50 ans, les données seront encore conservées \"sous la forme de données anonymes, en vue de leur traitement ultérieur comme le prévoient les mesures d'exécution prises en application de l'article 4 de la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel.\" Comme déjà mentionné (voir le point 15), il est recommandé d'ajouter ce qu'il faut entendre par données anonymes, et ce en référence à l'article 1, 5° de l'arrêté royal du 13 février 2001 portant exécution de la LVP.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-016",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-009",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-030",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-031"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-017",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">11. Un passeport radiologique sera en outre créé pour les travailleurs extérieurs, qui permettra d'assurer leur surveillance dosimétrique au cours des missions comportant un risque d'exposition et qui sont effectuées à l'étranger. Conformément à l'article 75, 1°, 7e tiret de l'avant-projet, cela concerne toute personne soumise à la surveillance dosimétrique qui exécute chez un exploitant une mission comportant un risque d'exposition, qu'elle soit employée à titre temporaire ou permanent par une entreprise extérieure, ou qu'elle preste ses services en qualité de travailleur indépendant10. Un contrat sera ainsi conclu entre l'entreprise extérieure ou l'indépendant, d'une part, et l'exploitant étranger, d'autre part, afin de garantir au travailleur extérieur une protection équivalente à celle dont bénéficient les employés de l'exploitant (voir l'article 76, 25/9, § 2 et l'article 76, 25/11).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-017",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-019"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'avant-projet de loi en tient déjà partiellement compte à l'article 76, 25/4, qui mentionne les instances qui devront introduire ou consulter les données à caractère personnel enregistrées et qui sont donc impliquées dans la collecte et le traitement de ces données. Il s'agit en particulier des catégories suivantes :</p>",
+          "<ul>\n            <li>services publics chargés de surveiller le respect des règles concernant la surveillance de la santé ;</li>\n            <li>l'AFCN, le responsable du traitement ;</li>\n            <li>le professionnel des soins de santé désigné par l'AFCN en vertu de l'article 7, § 4 de la LVP ;</li>\n            <li>le consultant en sécurité de l'information et en protection de la vie privée désigné par l'AFCN ;</li>\n            <li>les exploitants, en ce qui concerne leurs données, leurs travailleurs ou travailleurs extérieurs, l'entreprise extérieure qui emploie des personnes dans leur établissement ;</li>\n            <li>les entreprises extérieures, en ce qui concerne leurs données et celles de leurs travailleurs ;</li>\n            <li>les services de contrôle physique ;</li>\n            <li>les médecins du travail agréés, en ce qui concerne les données relatives aux personnes dont ils effectuent la surveillance médicale ;</li>\n            <li>les services de dosimétrie agréés en ce qui concerne les données qu'ils fournissent ;</li>\n            <li>les personnes soumises à la surveillance dosimétrique, en ce qui concerne les données qui les concernent.</li>\n        </ul>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-018",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-019",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">11. Un passeport radiologique sera en outre créé pour les travailleurs extérieurs, qui permettra d'assurer leur surveillance dosimétrique au cours des missions comportant un risque d'exposition et qui sont effectuées à l'étranger. Conformément à l'article 75, 1°, 7e tiret de l'avant-projet, cela concerne toute personne soumise à la surveillance dosimétrique qui exécute chez un exploitant une mission comportant un risque d'exposition, qu'elle soit employée à titre temporaire ou permanent par une entreprise extérieure, ou qu'elle preste ses services en qualité de travailleur indépendant10. Un contrat sera ainsi conclu entre l'entreprise extérieure ou l'indépendant, d'une part, et l'exploitant étranger, d'autre part, afin de garantir au travailleur extérieur une protection équivalente à celle dont bénéficient les employés de l'exploitant (voir l'article 76, 25/9, § 2 et l'article 76, 25/11).</p>",
+          "<p class=\"case-section__paragraph\">21. Dans tous les autres cas, il faudra veiller à ce que le contrat qui doit être conclu entre l'entreprise extérieure/l'indépendant et l'exploitant étranger reprenne des dispositions contractuelles adéquates offrant des garanties suffisantes (équivalentes) à l'égard de la protection des données à caractère personnel de la personne concernée. Le Roi devra en tenir compte lorsqu'en exécution de l'article 76, 25/9, § 2 de l'avant-projet de loi, il définira les modalités auxquelles un tel contrat doit répondre.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-019",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-014",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">1. Madame A. Turtelboom, Ministre de l'Intérieur, sollicite l'avis de la Commission concernant un avant-projet de loi modifiant la loi du 15 avril 1994 relative à la protection de la population et de l'environnement contre les dangers résultant des rayonnements ionisants et relative à l'Agence fédérale de Contrôle nucléaire et transférant à l'Agence fédérale de Contrôle nucléaire certaines missions du Service public fédéral Emploi, Travail et Concertation sociale.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-020"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">10. Tout d'abord, un registre d'exposition sera créé, lequel centralisera les données dosimétriques (cf. ci-dessus) de toutes les personnes soumises à la surveillance dosimétrique. Conformément à l'article 75, 1°, 2e tiret de l'avant-projet, cela concerne chaque personne qui exécute des activités de quelque nature que ce soit lors desquelles elle est soumise à une exposition aux rayonnements ionisants susceptible d'entraîner le dépassement de l'une des limites de dose fixées pour les personnes du public. L'article 76, 25/3 de l'avant-projet de loi dispose à cet égard que le registre d'exposition s'appliquera aux travailleurs (et personnes assimilées, comme les personnes en formation professionnelle ou en contrat d'apprentissage, les stagiaires, les étudiants)8, employés dans un établissement belge soumis à autorisation ou employés dans une entreprise extérieure qui exécutent des missions comportant un risque d'exposition et les indépendants qui exécutent des missions comportant un risque d'exposition. L'article 76, 25/6 de l'avant-projet de loi mentionne notamment que le registre d'exposition contiendra des données pour chaque personne soumise à la surveillance dosimétrique. L'Exposé des motifs précise que l'avant-projet de loi vise la protection de toute personne physique recevant éventuellement une dose supérieure à la limite de dose fixée pour le public dans le cadre de ses activités professionnelles, ses études ou toute autre formation, ainsi que des volontaires9 qui exécutent des activités - quelle que soit leur nature - dans des lieux ou des circonstances comportant un risque d'une telle exposition. L'exposition doit être la conséquence d'une activité, ce qui signifie que les patients qui subissent un traitement médical ne font pas partie du champ d'application.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-021"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-022",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">29. Il découle de l'article 75, 1°, 12e tiret de l'avant-projet de loi qu'un consultant en sécurité de l'information et protection de la vie privée, au sens de l'article 4, § 5 de la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la sécurité sociale, sera désigné au sein de l'AFCN. La Commission en prend acte.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-022"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-023",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">32. À différents niveaux, l'avant-projet de loi confère au Roi une compétence étendue (voir l'article 76, 25/1 de l'avant-projet de loi) pour élaborer des modalités pratiques concernant :</p>",
+          "<ul>\n            <li>le suivi dosimétrique en général ;</li>\n            <li>le fonctionnement et l'utilisation du registre d'exposition ainsi que son contenu et l'accès à ce dernier (voir également l'article 76, 25/2, § 1, deuxième alinéa et § 2 ; l'article 76, 25/6, 4° à 7° et l'article 76, 25/7, 10°) ;</li>\n            <li>l'établissement et la délivrance de passeports radiologiques (voir l'article 76, 25/9, § 2 et l'article 76, 25/11).</li>\n        </ul>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-023",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-013",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-024"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-024",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">32. À différents niveaux, l'avant-projet de loi confère au Roi une compétence étendue (voir l'article 76, 25/1 de l'avant-projet de loi) pour élaborer des modalités pratiques concernant :</p>",
+          "<ul>\n            <li>le suivi dosimétrique en général ;</li>\n            <li>le fonctionnement et l'utilisation du registre d'exposition ainsi que son contenu et l'accès à ce dernier (voir également l'article 76, 25/2, § 1, deuxième alinéa et § 2 ; l'article 76, 25/6, 4° à 7° et l'article 76, 25/7, 10°) ;</li>\n            <li>l'établissement et la délivrance de passeports radiologiques (voir l'article 76, 25/9, § 2 et l'article 76, 25/11).</li>\n        </ul>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-024",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-023",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-025",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">38. Dans le cadre du transfert de missions du SPF ETCS à l'AFCN, l'article 77, § 2 de l'avant-projet de loi prévoit que les données relatives à la surveillance dosimétrique doivent également être transmises. En vertu de l'article 36bis de la LVP, toute communication électronique de données à caractère personnel par un Service public fédéral exige une autorisation de principe du Comité sectoriel pour l'Autorité Fédérale.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-025",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-026",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">35. En vertu de l'article 16 de la loi précitée du 8 août 1983, tout accès au Registre national ou communication d'informations de ce registre requiert une autorisation du Comité sectoriel du Registre national. Dans le cadre de ce dossier, une demande a déjà été introduite en vue d'obtenir une autorisation d'accéder au Registre national. La demande a été temporairement suspendue, en attendant l'appréciation du fondement juridique qui servirait de base pour l'accès demandé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-026"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-027",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">36. En vertu des articles 18 et 27 de la loi précitée du 16 janvier 2003, l'accès à certaines informations de la Banque-Carrefour des Entreprises requiert une autorisation du Comité sectoriel pour la Banque-Carrefour des Entreprises.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-027",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-028"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-028",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">36. En vertu des articles 18 et 27 de la loi précitée du 16 janvier 2003, l'accès à certaines informations de la Banque-Carrefour des Entreprises requiert une autorisation du Comité sectoriel pour la Banque-Carrefour des Entreprises.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-028",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-027"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-029",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">37. En vertu de l'article 46 de la loi précitée du 15 janvier 1990, toute communication (au sein et) en dehors du réseau de la sécurité sociale de données sociales de nature personnelle requiert une autorisation du Comité sectoriel de la Sécurité Sociale et de la Santé, Section sécurité sociale.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-029"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-030",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. En développant la compétence en matière de surveillance dosimétrique, l'avant-projet de loi vise à renouveler la transposition des directives européennes 96/29/Euratom du Conseil du 13 mai 1996 fixant les normes de base relatives à la protection sanitaire de la population et des travailleurs contre les dangers résultant des rayonnements ionisants et 90/641/Euratom du Conseil du 4 décembre 1990 concernant la protection opérationnelle des travailleurs extérieurs exposés à un risque de rayonnements ionisants au cours de leur intervention en zone contrôlée.</p>",
+          "<p class=\"case-section__paragraph\">24. Pour la finalité, telle que reprise dans le présent avant-projet de loi, à savoir l' \"optimisation de la protection radiologique des personnes concernées\", le délai de conservation précité semble extrêmement long. En effet, les personnes décédées ne doivent plus être protégées contre le rayonnement ionisant. Dès que le risque d'exposition au rayonnement ionisant est définitivement écarté pour les personnes concernées, la conservation des données à caractère personnel dans ce cadre n'est plus recommandée. Si ce très long délai de conservation est quand même nécessaire dans le cadre de l'optimisation de la radioprotection de la personne concernée, il faudra indiquer très concrètement et clairement, soit dans l'avant-projet lui-même, soit dans l'Exposé des motifs, la raison pour laquelle un tel délai de conservation extrêmement long se justifie, ce qui n'est aucunement le cas actuellement. On ne retrouve pas non plus une justification de ce délai de conservation extrêmement long dans les directives européennes 96/29/Euratom et 90/641/Euratom, dont l'avant-projet constitue une nouvelle transposition12. Par ailleurs, il faudra alors veiller, le cas échéant, à ce que soient prévues et mises en oeuvre les procédures requises pouvant garantir que des données aussi 'anciennes' sont encore toujours utilisables et exploitables.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-030",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-031"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-031",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. En développant la compétence en matière de surveillance dosimétrique, l'avant-projet de loi vise à renouveler la transposition des directives européennes 96/29/Euratom du Conseil du 13 mai 1996 fixant les normes de base relatives à la protection sanitaire de la population et des travailleurs contre les dangers résultant des rayonnements ionisants et 90/641/Euratom du Conseil du 4 décembre 1990 concernant la protection opérationnelle des travailleurs extérieurs exposés à un risque de rayonnements ionisants au cours de leur intervention en zone contrôlée.</p>",
+          "<p class=\"case-section__paragraph\">24. Pour la finalité, telle que reprise dans le présent avant-projet de loi, à savoir l' \"optimisation de la protection radiologique des personnes concernées\", le délai de conservation précité semble extrêmement long. En effet, les personnes décédées ne doivent plus être protégées contre le rayonnement ionisant. Dès que le risque d'exposition au rayonnement ionisant est définitivement écarté pour les personnes concernées, la conservation des données à caractère personnel dans ce cadre n'est plus recommandée. Si ce très long délai de conservation est quand même nécessaire dans le cadre de l'optimisation de la radioprotection de la personne concernée, il faudra indiquer très concrètement et clairement, soit dans l'avant-projet lui-même, soit dans l'Exposé des motifs, la raison pour laquelle un tel délai de conservation extrêmement long se justifie, ce qui n'est aucunement le cas actuellement. On ne retrouve pas non plus une justification de ce délai de conservation extrêmement long dans les directives européennes 96/29/Euratom et 90/641/Euratom, dont l'avant-projet constitue une nouvelle transposition12. Par ailleurs, il faudra alors veiller, le cas échéant, à ce que soient prévues et mises en oeuvre les procédures requises pouvant garantir que des données aussi 'anciennes' sont encore toujours utilisables et exploitables.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-031",
+          "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-030"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 31,
+      "citationStatistics": {
+        "totalCitations": 45,
+        "avgCitationsPerProvision": 1.4516129032258065,
+        "provisionsWithMinimalCitations": 25,
+        "provisionsWithNoCitations": 2
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 9
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-001",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">12. Conformément à l'article 4, § 1, 2° de la LVP, les données à caractère personnel peuvent uniquement être collectées pour des finalités déterminées, explicites et légitimes. La description des finalités poursuivies doit donc être aussi précise, détaillée et complète que possible, surtout eu égard au caractère particulièrement sensible d'une grande partie des données collectées.</p>",
+          "        <p class=\"case-section__paragraph\">13. L'objectif de l'enregistrement des données dans le cadre du présent avant-projet est d'offrir une protection optimale des personnes soumises à la surveillance dosimétrique, notamment via l'enregistrement de données relatives à la surveillance dosimétrique, la surveillance sanitaire et l'information et la formation de l'intéressé (voir l'article 76, 25/1, 4° de l'avant-projet de loi). L'Exposé des motifs précise à cet égard que le registre d'exposition s'inscrit dans le cadre de la protection des travailleurs et constitue un moyen qui vient soutenir :</p>",
+          "        <ul>\n            <li>le contrôle du respect des limites de dose ;</li>\n            <li>l'optimisation de l'exposition ;</li>\n            <li>la recherche de perturbations dans le cadre de la surveillance dosimétrique des travailleurs ;</li>\n            <li>une simplification administrative pour les différents acteurs concernés par la surveillance dosimétrique des travailleurs.</li>\n        </ul>",
+          "        <p class=\"case-section__paragraph\">La finalité ainsi décrite semble légitime et fondée dans le cadre de l'article 7, § 2, e) de la LVP.</p>",
+          "        <p class=\"case-section__paragraph\">14. L'Exposé des motifs de l'article 76, 25/5 de l'avant-projet de loi mentionne ce qui suit au sujet du délai de conservation prévu qui s'élève à 50 ans après le décès de la personne concernée : \"La conservation des données pendant cinquante ans après le décès permet de veiller à ce que le Fonds des maladies professionnelles puisse en disposer à long terme. Ceci peut se révéler important, par exemple, lorsqu'une personne qui n'a été employée que peu de temps dans le secteur développe à un âge plus avancé une maladie susceptible de trouver son origine dans les activités que cette personne a accomplies dans le secteur nucléaire.\" Cette explication semble introduire une finalité supplémentaire (étude statistique et/ou stratégique en matière de maladies professionnelles) qui n'est pas mentionnée dans le texte même de l'avant-projet de loi. Le Fonds des maladies professionnelles n'est pas non plus repris à l'article 76, 25/7 qui mentionne les personnes/instances qui auront accès au registre d'exposition et aux données à caractère personnel qu'il contient. Il est dès lors recommandé, le cas échéant, de définir et de reprendre clairement cette finalité supplémentaire dans l'avant-projet de loi et de mentionner les données à caractère personnel qui seront traitées dans ce cadre.</p>",
+          "        <p class=\"case-section__paragraph\">15. L'article 76, 25/5, deuxième alinéa de l'avant-projet de loi prévoit que 50 ans après le décès des personnes concernées, leurs données à caractère personnel en matière de surveillance dosimétrique sont anonymisées et conservées en vue d'un traitement ultérieur pour une étude épidémiologique11. Pour éviter toute confusion, il est recommandé d'ajouter ce qu'il faut entendre par données anonymes, c'est-à-dire \"les données qui ne peuvent être mises en relation avec une personne identifiée ou identifiable et qui ne sont donc pas des données à caractère personnel\", par référence à l'article 1, 5° de l'arrêté royal du 13 février 2001 portant exécution de la LVP.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-002",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">7. Les données qui seront enregistrées dans le registre d'exposition sont les suivantes (voir l'article 25/6 de l'avant-projet) :</p>",
+          "        <ul>\n            <li>les données d'identité, le domicile ou l'unité d'établissement, la nationalité et le rôle linguistique des personnes, exploitants et entreprises extérieures soumis à la surveillance dosimétrique ;</li>\n            <li>pour chaque personne soumise à la surveillance dosimétrique, les limites de dose et les cycles de monitoring correspondants3 ;</li>\n            <li>quelques données de base pour chaque entreprise extérieure et chaque exploitant : la personne de contact, le secteur d'activités, le service de contrôle physique, le médecin agréé ou le service externe de prévention et de protection au travail, le service de dosimétrie ;</li>\n            <li>pour chaque personne soumise à la surveillance dosimétrique, les données en rapport avec sa relation de travail avec l'exploitant et/ou l'entreprise extérieure qui sont nécessaires pour garantir une surveillance dosimétrique adéquate4 ;</li>\n            <li>pour chaque personne soumise à la surveillance dosimétrique, les données dosimétriques (pour chaque dose) ainsi que les données y afférentes qui permettent de faire une estimation des doses d'exposition et qui sont en outre indispensables pour garantir une surveillance dosimétrique adéquate5 ;</li>\n            <li>les données relatives à la surveillance médicale qui permettent de juger de l'aptitude médicale de la personne soumise à la surveillance dosimétrique à exécuter les activités professionnelles concernées (où un risque accru d'être exposé à un rayonnement ionisant intervient ou peut intervenir)6 ;</li>\n            <li>les données relatives à la formation générale et spécifique en matière de radioprotection qui permettent de juger du niveau de connaissances nécessaire de la personne concernée en matière de radioprotection pour pouvoir exécuter les activités professionnelles7.</li>\n        </ul>",
+          "        <p class=\"case-section__paragraph\">9. Ces données sont au minimum des données à caractère personnel \"ordinaires\" (non sensibles) au sens de l'article 1 de la LVP, mais pour certaines d'entre elles, il s'agit en outre de données à caractère personnel sensibles au sens de l'article 6 (nationalité) et de l'article 7 (données relatives à la surveillance sanitaire) de la LVP.</p>",
+          "        <p class=\"case-section__paragraph\">16. L'article 4, § 1, 3° de la LVP dispose que les données à caractère personnel collectées doivent obligatoirement être pertinentes et non excessives au regard de la finalité du traitement.</p>",
+          "        <p class=\"case-section__paragraph\">17. Les données à caractère personnel énumérées aux points 7 et 8 semblent pour la plupart être proportionnelles à l'égard des finalités telles que décrites dans le texte de l'avant-projet. Seule la donnée \"nationalité\" semble excessive à l'égard de la finalité du traitement, étant donné qu'elle ne semble en aucune manière pouvoir contribuer à l'optimisation de la radioprotection de la personne concernée. Il s'agit en outre d'une donnée à caractère personnel \"sensible\" au sens de l'article 6 de la LVP, qui requiert une plus grande prudence que celle de mise pour les données à caractère personnel \"ordinaires\" (non sensibles).</p>",
+          "        <p class=\"case-section__paragraph\">12. Conformément à l'article 4, § 1, 2° de la LVP, les données à caractère personnel peuvent uniquement être collectées pour des finalités déterminées, explicites et légitimes. La description des finalités poursuivies doit donc être aussi précise, détaillée et complète que possible, surtout eu égard au caractère particulièrement sensible d'une grande partie des données collectées.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-003",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">27. Il ressort de l'article 75, 1°, 11e tiret de l'avant-projet de loi qu'au sein de l'AFCN, un professionnel des soins de santé sera désigné, au sens de l'article 7, § 4 de la LVP. Cet article dispose également que tant que les mesures d'exécution de la disposition précitée de la LVP ne sont pas prises, on entend par \"professionnel des soins de santé\" : la personne titulaire du diplôme légal de docteur en médecine, chirurgie et accouchements.</p>",
+          "        <p class=\"case-section__paragraph\">30. Les données à caractère personnel sensibles, dont celles relatives à la santé, sont de nature à justifier des mesures de sécurité plus strictes. En vertu de l'article 25 de l'arrêté royal du 13 février 2001 portant exécution de la LVP, le responsable du traitement doit, dans le cadre du traitement de données à caractère personnel sensibles, comme les données à caractère personnel relatives à la santé, prendre les mesures de sécurité supplémentaires suivantes :</p>",
+          "        <ul>\n            <li>désigner les catégories de personnes ayant accès aux données à caractère personnel, avec une description précise de leur fonction par rapport au traitement des données visées ;</li>\n            <li>tenir à la disposition de la Commission la liste des catégories des personnes ainsi désignées ;</li>\n            <li>veiller à ce que les personnes désignées soient tenues, par une obligation légale ou statutaire, ou par une disposition contractuelle équivalente, au respect du caractère confidentiel des données visées.</li>\n        </ul>",
+          "        <p class=\"case-section__paragraph\">L'avant-projet de loi en tient déjà partiellement compte à l'article 76, 25/4, qui mentionne les instances qui devront introduire ou consulter les données à caractère personnel enregistrées et qui sont donc impliquées dans la collecte et le traitement de ces données. Il s'agit en particulier des catégories suivantes :</p>",
+          "        <ul>\n            <li>services publics chargés de surveiller le respect des règles concernant la surveillance de la santé ;</li>\n            <li>l'AFCN, le responsable du traitement ;</li>\n            <li>le professionnel des soins de santé désigné par l'AFCN en vertu de l'article 7, § 4 de la LVP ;</li>\n            <li>le consultant en sécurité de l'information et en protection de la vie privée désigné par l'AFCN ;</li>\n            <li>les exploitants, en ce qui concerne leurs données, leurs travailleurs ou travailleurs extérieurs, l'entreprise extérieure qui emploie des personnes dans leur établissement ;</li>\n            <li>les entreprises extérieures, en ce qui concerne leurs données et celles de leurs travailleurs ;</li>\n            <li>les services de contrôle physique ;</li>\n            <li>les médecins du travail agréés, en ce qui concerne les données relatives aux personnes dont ils effectuent la surveillance médicale ;</li>\n            <li>les services de dosimétrie agréés en ce qui concerne les données qu'ils fournissent ;</li>\n            <li>les personnes soumises à la surveillance dosimétrique, en ce qui concerne les données qui les concernent.</li>\n        </ul>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-006"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-004",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">24. Pour la finalité, telle que reprise dans le présent avant-projet de loi, à savoir l' \"optimisation de la protection radiologique des personnes concernées\", le délai de conservation précité semble extrêmement long. En effet, les personnes décédées ne doivent plus être protégées contre le rayonnement ionisant. Dès que le risque d'exposition au rayonnement ionisant est définitivement écarté pour les personnes concernées, la conservation des données à caractère personnel dans ce cadre n'est plus recommandée. Si ce très long délai de conservation est quand même nécessaire dans le cadre de l'optimisation de la radioprotection de la personne concernée, il faudra indiquer très concrètement et clairement, soit dans l'avant-projet lui-même, soit dans l'Exposé des motifs, la raison pour laquelle un tel délai de conservation extrêmement long se justifie, ce qui n'est aucunement le cas actuellement. On ne retrouve pas non plus une justification de ce délai de conservation extrêmement long dans les directives européennes 96/29/Euratom et 90/641/Euratom, dont l'avant-projet constitue une nouvelle transposition12. Par ailleurs, il faudra alors veiller, le cas échéant, à ce que soient prévues et mises en oeuvre les procédures requises pouvant garantir que des données aussi 'anciennes' sont encore toujours utilisables et exploitables.</p>",
+          "        <p class=\"case-section__paragraph\">15. L'article 76, 25/5, deuxième alinéa de l'avant-projet de loi prévoit que 50 ans après le décès des personnes concernées, leurs données à caractère personnel en matière de surveillance dosimétrique sont anonymisées et conservées en vue d'un traitement ultérieur pour une étude épidémiologique11. Pour éviter toute confusion, il est recommandé d'ajouter ce qu'il faut entendre par données anonymes, c'est-à-dire \"les données qui ne peuvent être mises en relation avec une personne identifiée ou identifiable et qui ne sont donc pas des données à caractère personnel\", par référence à l'article 1, 5° de l'arrêté royal du 13 février 2001 portant exécution de la LVP.</p>",
+          "        <p class=\"case-section__paragraph\">25. L'article 25/5 précité prévoit par ailleurs qu'à l'expiration de ce délai de 50 ans, les données seront encore conservées \"sous la forme de données anonymes, en vue de leur traitement ultérieur comme le prévoient les mesures d'exécution prises en application de l'article 4 de la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel.\" Comme déjà mentionné (voir le point 15), il est recommandé d'ajouter ce qu'il faut entendre par données anonymes, et ce en référence à l'article 1, 5° de l'arrêté royal du 13 février 2001 portant exécution de la LVP.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-030",
+            "ART-ECLI:BE:COPRIV:2011:ARR.20110323.1-031"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-005",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">11. Un passeport radiologique sera en outre créé pour les travailleurs extérieurs, qui permettra d'assurer leur surveillance dosimétrique au cours des missions comportant un risque d'exposition et qui sont effectuées à l'étranger. Conformément à l'article 75, 1°, 7e tiret de l'avant-projet, cela concerne toute personne soumise à la surveillance dosimétrique qui exécute chez un exploitant une mission comportant un risque d'exposition, qu'elle soit employée à titre temporaire ou permanent par une entreprise extérieure, ou qu'elle preste ses services en qualité de travailleur indépendant10. Un contrat sera ainsi conclu entre l'entreprise extérieure ou l'indépendant, d'une part, et l'exploitant étranger, d'autre part, afin de garantir au travailleur extérieur une protection équivalente à celle dont bénéficient les employés de l'exploitant (voir l'article 76, 25/9, § 2 de l'avant-projet de loi). Dans l'Exposé des motifs, on précise à cet égard que l'entreprise extérieure imprimera le passeport radiologique de la personne concernée à partir du registre d'exposition et indiquera dans le contrat avec l'exploitant étranger que ce dernier vérifiera le passeport radiologique avant l'exécution de la mission (pour pouvoir respecter les limites de doses) et qu'au terme de la mission, il ajoutera au passeport radiologique les données dosimétriques en rapport avec la mission exécutée, qui seront à leur tour introduites dans le registre d'exposition au retour du travailleur extérieur en Belgique.</p>",
+          "        <p class=\"case-section__paragraph\">19. Comme déjà expliqué ci-avant, un passeport radiologique est délivré pour un travailleur extérieur qui doit effectuer à l'étranger une mission impliquant un risque d'exposition. Il en résulte que des données à caractère personnel provenant du registre d'exposition seront transférées à l'étranger.</p>",
+          "        <p class=\"case-section__paragraph\">20. Pour autant que ce transfert ait lieu au sein de la Communauté européenne - où s'applique un niveau de protection équivalent en matière de traitement de données à caractère personnel en vertu de la Directive européenne 95/46/CE relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données -, ou vers des pays qui garantissent un niveau de protection adéquat, conformément à l'article 21 de la LVP, il n'y a en principe aucun problème.</p>",
+          "        <p class=\"case-section__paragraph\">21. Dans tous les autres cas, il faudra veiller à ce que le contrat qui doit être conclu entre l'entreprise extérieure/l'indépendant et l'exploitant étranger reprenne des dispositions contractuelles adéquates offrant des garanties suffisantes (équivalentes) à l'égard de la protection des données à caractère personnel de la personne concernée. Le Roi devra en tenir compte lorsqu'en exécution de l'article 76, 25/9, § 2 de l'avant-projet de loi, il définira les modalités auxquelles un tel contrat doit répondre.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-006",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">38. Dans le cadre du transfert de missions du SPF ETCS à l'AFCN, l'article 77, § 2 de l'avant-projet de loi prévoit que les données relatives à la surveillance dosimétrique doivent également être transmises. En vertu de l'article 36bis de la LVP, toute communication électronique de données à caractère personnel par un Service public fédéral exige une autorisation de principe du Comité sectoriel pour l'Autorité Fédérale.</p>",
+          "        <p class=\"case-section__paragraph\">39. L'AFCN entreprendra dès lors les démarches nécessaires pour obtenir les autorisations requises.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2011:ARR.20110323.1-007",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">34. Dans le cadre du principe de collecte unique de données et de simplification administrative, un certain nombre de données à intégrer dans le registre d'exposition sont obtenues via les sources authentiques suivantes :</p>",
+          "        <ul>\n            <li>le Registre national, créé par la loi du 8 août 1983 organisant un registre national des personnes physiques ;</li>\n            <li>la Banque-Carrefour des Entreprises, créée par la loi du 16 janvier 2003 portant création d'une Banque-Carrefour des Entreprises, modernisation du registre de commerce, création de guichets-entreprises agréés et portant diverses dispositions ;</li>\n            <li>les Registres de la Banque-carrefour de la Sécurité sociale, créés par la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la sécurité sociale.</li>\n        </ul>",
+          "        <p class=\"case-section__paragraph\">35. En vertu de l'article 16 de la loi précitée du 8 août 1983, tout accès au Registre national ou communication d'informations de ce registre requiert une autorisation du Comité sectoriel du Registre national. Dans le cadre de ce dossier, une demande a déjà été introduite en vue d'obtenir une autorisation d'accéder au Registre national. La demande a été temporairement suspendue, en attendant l'appréciation du fondement juridique qui servirait de base pour l'accès demandé.</p>",
+          "        <p class=\"case-section__paragraph\">36. En vertu des articles 18 et 27 de la loi précitée du 16 janvier 2003, l'accès à certaines informations de la Banque-Carrefour des Entreprises requiert une autorisation du Comité sectoriel pour la Banque-Carrefour des Entreprises.</p>",
+          "        <p class=\"case-section__paragraph\">37. En vertu de l'article 46 de la loi précitée du 15 janvier 1990, toute communication (au sein et) en dehors du réseau de la sécurité sociale de données sociales de nature personnelle requiert une autorisation du Comité sectoriel de la Sécurité Sociale et de la Santé, Section sécurité sociale.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 7,
+      "citationStatistics": {
+        "totalCitations": 31,
+        "avgCitationsPerTeaching": 4.428571428571429,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 14,
+        "totalProvisionsNotFound": 3,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

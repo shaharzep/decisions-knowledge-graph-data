@@ -1,0 +1,513 @@
+{
+  "decision_id": "ECLI:BE:COHSAV:2024:ORD.20240516.7",
+  "language": "FR",
+  "metadata": {
+    "id": 136375,
+    "court_ecli_code": "COHSAV",
+    "decision_date": "2024-05-16",
+    "decision_type_ecli_code": "ORD",
+    "decision_type_name": "Ordonnance",
+    "md_length": 7655,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commission pour l'aide financière aux victimes d'actes intentionnels de violence et aux sauveteurs occasionnels, 16 mai 2024, N° M23-4-1106, ECLI:BE:COHSAV:2024:ORD.20240516.7"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+        "name": "Madame Gracia X.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+        "name": "COMMISSION POUR L'AIDE FINANCIERE AUX VICTIMES D'ACTES INTENTIONNELS DE VIOLENCE ET AUX SAUVETEURS OCCASIONNELS",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+        "name": "le nommé Z. Tala",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+        "name": "la mère de la requérante",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "PARTIE_CIVILE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+        "name": "le délégué du Ministre de la Justice",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Entre le 1/5/2011 et le 13/7/2012, la requérante, Gracia X., a été victime à plusieurs reprises de viols de la part de son beau-père. Par jugement du 12/3/2018 le tribunal correctionnel a condamné le nommé Z. Tala à dix ans d'emprisonnement et a accordé une provision de 2.500 € à la mère de la requérante qui s'était constituée partie civile. Par jugement du 21/12/2021 le tribunal correctionnel condamne Z. Tala à payer à la requérante une somme complémentaire définitive de 59.285,68 € (15.000 € dommage moral, 37.285,68 € retard dans la carrière, 2.000 € préjudice sexuel, 7.500 € perte d'années d'étude) ainsi que l'indemnité de procédure de 1.800 €. Dans son rapport du 2/7/2019 l'expert psychologue relève l'absence d'état pathologique antérieur, l'existence de fragilités anxiodépressives et d'un déficit d'estime de soi compatibles avec les faits, des difficultés scolaires pouvant être en partie imputables aux faits et la nécessité d'un suivi psychologique. La requérante a perdu deux années de secondaire, a entamé un bachelier infirmier en septembre 2022 mais n'a pas pu poursuivre ses études et se consacre en 2023-2024 à son suivi psychologique. Une attestation d'irrécouvrabilité de la créance à l'encontre de Z. Tala a été rédigée le 18/9/2023.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+          "requests": "La requérante postule l'octroi d'une aide principale dont le montant est laissé à l'appréciation de la Commission."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "PAR CES MOTIFS : \nLa Commission, statuant par défaut à l'égard de la requérante et à l'égard du délégué du Ministre, en audience publique,\n\n- déclare la demande recevable et fondée ;\n- alloue à la requérante une aide principale de $25.000 €$.",
+      "outcome": "FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+        "provisionNumber": "article 31, 1°",
+        "provisionNumberKey": "31",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission comprend l'article 31, 1° comme lui conférant la compétence d'octroyer une aide financière aux personnes ayant subi un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence. Elle précise que cette aide relève d'un geste de solidarité fondé sur l'équité et que, pour déterminer son montant, la Commission tient compte de l'importance du dommage, de l'âge de la victime au moment des faits, de la durée de la période infractionnelle, de l'existence d'une indemnité judiciaire, du besoin de suivi psychologique et de l'insolvabilité de l'auteur.",
+        "relevantFactualContext": "La requérante a subi des viols répétés par son beau‑père entre mai 2011 et juillet 2012; l'expertise signale des séquelles anxiodépressives et un possible état de stress post‑traumatique, perte de deux années scolaires, condamnations pénales et une condamnation civile de 59.285,68 €; l'auteur est déclaré irrécouvrable et la victime nécessite un suivi psychologique."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+        "provisionNumber": "article 41",
+        "provisionNumberKey": "41",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+        "provisionNumber": "article 15bis",
+        "provisionNumberKey": "15bis",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence (AR 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+        "provisionNumber": "article 28",
+        "provisionNumberKey": "28",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence (AR 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-006",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+        "provisionNumber": "article 33",
+        "provisionNumberKey": "33",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence (AR 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-007",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+        "provisionNumber": "article 39",
+        "provisionNumberKey": "39",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative (lois coordonnées 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-008",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+        "provisionNumber": "article 42",
+        "provisionNumberKey": "42",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative (lois coordonnées 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal correctionnel de ...",
+        "date": "2018-03-12",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2024:ORD.20240516.7-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal correctionnel de ...",
+        "date": "2021-12-21",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2024:ORD.20240516.7-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Aide aux victimes",
+      "Violences sexuelles",
+      "Viol par beau-père",
+      "Victime mineure",
+      "Séquelles psychologiques",
+      "Recevabilité de la demande",
+      "Lien causal préjudice",
+      "Insolvabilité de l'auteur",
+      "Montant de l'aide",
+      "Procédure facultative accélérée"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+        "text": "L'article 31, 1° confère à la Commission la compétence d'octroyer une aide financière aux personnes ayant subi un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence. L'aide constitue un geste de solidarité fondé sur l'équité et son montant est fixé discrétionnairement par la Commission en tenant compte, notamment, de l'importance du dommage, de l'âge de la victime au moment des faits, de la durée de la période infractionnelle, de l'existence d'une indemnité judiciaire, du besoin d'un suivi psychologique et de l'insolvabilité de l'auteur; le montant alloué ne correspond pas nécessairement à une réparation intégrale du préjudice.",
+        "courtVerbatim": "Tenant compte d'une part :\n-de l'article $31,1^{\\circ}$ de la loi du $1 / 8 / 985$ qui précise que la Commission peut octroyer une aide financière «aux personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence »;\n-du dommage moral manifeste que la requérante a subi suite aux faits dont elle a été victime ;\n-du jeune âge de la requérante au moment des faits;\n-de la durée de la période infractionnelle ;\n-de l'indemnité de procédure de $1.800 €$ que le tribunal correctionnel de ... a allouée à la requérante;\n-de la nécessité pour la requérante d'avoir un suivi psychologique ;\n-de l'insolvabilité de l'auteur des faits ;\n\n---\n\net d'autre part :\n-de ce que l'aide financière octroyée par la Commission consiste en un geste de solidarité sociale qui relève de l'équité (voyez Doc. Parl. Sénat 873 (1984-1985, n¹ page 17);\n-de ce que par conséquent, le montant de l'aide ne correspond pas nécessairement à la réparation intégrale du préjudice subi par la victime;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la Commission statue sur une demande d'aide principale en faveur d'une personne ayant subi un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence.",
+        "relevantFactualContext": "La requérante a subi des viols répétés par son beau‑père entre mai 2011 et juillet 2012; l'expertise signale des séquelles anxiodépressives et un possible état de stress post‑traumatique, une perte de deux années scolaires; le tribunal correctionnel a condamné l'auteur et alloué une indemnité judiciaire, mais l'auteur est déclaré irrécouvrable; la victime nécessite un suivi psychologique.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 1
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "La requérante, victime d'actes intentionnels de violence sexuelle pendant son adolescence, saisit la Commission pour obtenir une aide principale. La Commission juge la demande recevable et fondée et lui alloue 25.000 €, au vu du dommage moral, du jeune âge, de la durée des faits, du besoin de suivi psychologique et de l'insolvabilité de l'auteur. Elle rappelle que l'aide relève de la solidarité sociale et n'a pas pour but d'assurer la réparation intégrale du préjudice."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Tenant compte d’une part :</p>",
+          "<ul>\n<li>de l’article 31,1° de la loi du 1/8/985 qui précise que la Commission peut octroyer une aide financière « aux personnes qui subissent un préjudice physique ou psychique important résultant directement d’un acte intentionnel de violence »;</li>\n<li>du dommage moral manifeste que la requérante a subi suite aux faits dont elle a été victime ;</li>\n<li>du jeune âge de la requérante au moment des faits;</li>\n<li>de la durée de la période infractionnelle ;</li>\n<li>de l’indemnité de procédure de 1.800 € que le tribunal correctionnel de ... a allouée à la requérante;</li>\n<li>de la nécessité pour la requérante d’avoir un suivi psychologique ;</li>\n<li>de l’insolvabilité de l’auteur des faits ; et d’autre part :</li>\n<li>de ce que l’aide financière octroyée par la Commission consiste en un geste de solidarité sociale qui relève de l’équité (voyez Doc. Parl. Sénat 873 (1984-1985, n°1 page 17);</li>\n<li>de ce que par conséquent, le montant de l’aide ne correspond pas nécessairement à la réparation intégrale du préjudice subi par la victime;</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">la Commission estime qu’il y a lieu d’allouer à la requérante une aide principale de 25.000 €.</p>",
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, 27 décembre 2004, 13 janvier et 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 , 3 février 2019, 31 juillet 2020, 15 décembre 2022, les articles 15bis, 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-006",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-007",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+          "DEC-ECLI:BE:COHSAV:2024:ORD.20240516.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, 27 décembre 2004, 13 janvier et 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 , 3 février 2019, 31 juillet 2020, 15 décembre 2022, les articles 15bis, 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-006",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-007",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, 27 décembre 2004, 13 janvier et 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 , 3 février 2019, 31 juillet 2020, 15 décembre 2022, les articles 15bis, 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-006",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-007",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, 27 décembre 2004, 13 janvier et 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 , 3 février 2019, 31 juillet 2020, 15 décembre 2022, les articles 15bis, 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-006",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-007",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, 27 décembre 2004, 13 janvier et 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 , 3 février 2019, 31 juillet 2020, 15 décembre 2022, les articles 15bis, 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-006",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-007",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, 27 décembre 2004, 13 janvier et 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 , 3 février 2019, 31 juillet 2020, 15 décembre 2022, les articles 15bis, 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-006",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-007",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, 27 décembre 2004, 13 janvier et 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 , 3 février 2019, 31 juillet 2020, 15 décembre 2022, les articles 15bis, 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-007",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-006",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, 27 décembre 2004, 13 janvier et 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 , 3 février 2019, 31 juillet 2020, 15 décembre 2022, les articles 15bis, 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-008",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-002",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-003",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-004",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-005",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-006",
+          "ART-ECLI:BE:COHSAV:2024:ORD.20240516.7-007"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 8,
+      "citationStatistics": {
+        "totalCitations": 11,
+        "avgCitationsPerProvision": 1.375,
+        "provisionsWithMinimalCitations": 7,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 8,
+        "avgDecisionsPerProvision": 0.25,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2024:ORD.20240516.7-001",
+        "relatedFullTextCitations": [
+          "<h2 class=\"case-section__title\">Fondement de la demande</h2>",
+          "<p class=\"case-section__paragraph\">Tenant compte d’une part :</p>",
+          "<ul>\n<li>de l’article 31,1° de la loi du 1/8/985 qui précise que la Commission peut octroyer une aide financière « aux personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence »;</li>\n<li>du dommage moral manifeste que la requérante a subi suite aux faits dont elle a été victime ;</li>\n<li>du jeune âge de la requérante au moment des faits;</li>\n<li>de la durée de la période infractionnelle ;</li>\n<li>de l’indemnité de procédure de 1.800 € que le tribunal correctionnel de ... a allouée à la requérante;</li>\n<li>de la nécessité pour la requérante d’avoir un suivi psychologique ;</li>\n<li>de l’insolvabilité de l’auteur des faits ; et d’autre part :</li>\n<li>de ce que l’aide financière octroyée par la Commission consiste en un geste de solidarité sociale qui relève de l’équité (voyez Doc. Parl. Sénat 873 (1984-1985, n°1 page 17);</li>\n<li>de ce que par conséquent, le montant de l’aide ne correspond pas nécessairement à la réparation intégrale du préjudice subi par la victime;</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">la Commission estime qu’il y a lieu d’allouer à la requérante une aide principale de 25.000 €.</p>",
+          "<p class=\"case-section__paragraph\">Par jugement du 12/3/2018, le tribunal correctionnel de ... condamne le nommé Z. Tala à une peine de dix ans d’emprisonnement et à payer à la mère de requérante qui s’est constituée partie civile au nom de sa fille encore mineure, la somme provisionnelle de 2.500 € et désigne un expert chargé de l’examiner. Par jugement du 21/12/2021, le tribunal correctionnel de ... condamne le nommé Z. Tala à payer à la requérante, la somme complémentaire définitive de 59.285,68 € qui se décompose comme suit :</p>",
+          "<ul>\n<li>15.000 € à titre de dommage moral</li>\n<li>37.285,68 € à titre de retard dans la carrière</li>\n<li>2.000 € à titre de préjudice sexuel</li>\n<li>7.500 € à titre de perte d’années d’étude ainsi que l’indemnité de procédure de 1.800 €.</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">Dans son rapport du 2/7/2019, l’expert psychologue, Isabelle F. conclut :</p>",
+          "<ul>\n<li>que l’examen psychiatrique de Madame Gracia X. par le Dr. T. met en évidence les éléments suivants :\n<ul>\n<li>l’absence d’un état pathologique antérieur aux faits</li>\n<li>la possible imputabilité d’un retard sur le parcours scolaire à une altération du fonctionnement à l’époque des faits</li>\n<li>l’absence d’état pathologique psychiatrique actuel cliniquement significatif</li>\n<li>l’absence d’altération du fonctionnement professionnel et social</li>\n<li>l’existence d’une fragilité thymique et anxieuse à laquelle les faits traumatiques ont pu contribuer</li>\n<li>la difficulté à évaluer l’impact sur la vie sexuelle et affective à cette étape de la vie</li>\n</ul>\n</li>\n<li>que Madame Gracia X. est apparue comme une jeune fille intelligente et spontanée, capable de résilience ;</li>\n<li>que les différentes investigations ont permis d’objectiver plusieurs fragilités actuelles compatibles avec les faits en cause : symptomatologie anxiodépressive et déficit d’estime de soi. ;</li>\n<li>que s’il est difficile d’établir un lien direct entre ces fragilités et les faits en cause, ceux-ci n’ont pu que favoriser leur émergence ;</li>\n<li>que l’évaluation de l’état de stress post-traumatique plaide dans ce sens ;</li>\n<li>qu’au niveau scolaire, il est plus difficile d’établir un lien direct et exclusif entre les difficultés rencontrées par l’intéressée et les faits en cause ;</li>\n<li>que la maturité dont elle a fait preuve lors des entretiens et ses capacités intellectuelles sont de bon augure pour la suite de son parcours scolaire ;</li>\n<li>qu’au niveau de la sexualité, les différentes recherches ont mis en évidence plusieurs difficultés compatibles avec les faits en cause et dont le lien avec ceux-ci est clairement exprimé par Mademoiselle X. ;</li>\n<li>qu’au vu de ces différentes observations, il y a lieu de soutenir le souhait de Mademoiselle X. de bénéficier d’un suivi psychologique afin de l’aider à dépasser ses difficultés actuelles mais également de prévenir une évolution plus pathologique des symptômes observés.</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">Il ressort des pièces du dossier :</p>",
+          "<ul>\n<li>que la requérante vit avec sa mère et ses frère et soeurs;</li>\n<li>que la requérante a entamé un bachelier infirmier en Haute Ecole en septembre 2022 ;</li>\n<li>que cependant, la requérante conserve des séquelles importantes des faits dont elle a été victime et qu’elle n’a pas été en mesure de poursuivre ses études ;</li>\n<li>qu’elle a décidé pour l’année 2023-2024, de se consacrer à son suivi psychologique ;</li>\n<li>que suite aux faits dont elle a été victime, la requérant a perdu deux années de secondaire (3ème et 4ème).</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">En date du 18/9/2023, Maître L., Huissier de Justice rédige une attestation d’irrécouvrabilité de la créance de Madame X. à l’encontre du nommé Z. Tala.</p>",
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, 27 décembre 2004, 13 janvier et 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 , 3 février 2019, 31 juillet 2020, 15 décembre 2022, les articles 15bis, 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 12,
+        "avgCitationsPerTeaching": 12,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

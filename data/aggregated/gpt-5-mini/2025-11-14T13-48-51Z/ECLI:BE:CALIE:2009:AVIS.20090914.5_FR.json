@@ -1,0 +1,511 @@
+{
+  "decision_id": "ECLI:BE:CALIE:2009:AVIS.20090914.5",
+  "language": "FR",
+  "metadata": {
+    "id": 11154,
+    "court_ecli_code": "CALIE",
+    "court_name": "Cour d'appel du ressort de Liège",
+    "decision_date": "2009-09-14",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Avis",
+    "md_length": 10191,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour d'appel du ressort de Liège, 14 septembre 2009, ECLI:BE:CALIE:2009:AVIS.20090914.5"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+        "name": "Miguel M.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2009:AVIS.20090914.5-002",
+        "name": "s.a. AXA BELGIUM",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2009:AVIS.20090914.5-003",
+        "name": "docteur Salim MI.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2009:AVIS.20090914.5-004",
+        "name": "feue Fabienne W.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Par arrêt du 1er décembre 2008 la cour avait ordonné la comparution personnelle et l'audition du médecin traitant de feue Fabienne W., le docteur Salim MI., entendu le 11 février 2009; son dossier médical a été déposé le 18 février 2009. L'affaire porte sur l'exécution d'un contrat d'assurance-vie lié à un crédit hypothécaire et sur l'allégation de la compagnie AXA BELGIUM d'omissions ou fausses déclarations relatives à un état dépressif de l'assurée. AXA soutient que la dépression et ses antécédents, traités en juillet 2002 et par deux antidépresseurs, auraient dû être déclarés et auraient influencé son appréciation du risque; elle soutient qu'il est établi que le Dr MI soignait Mme W. en juillet 2002. L'intimé (Miguel M.) conteste l'intention de tromper: les éléments montrent des consultations en 2000-2002, un épisode dépressif limité en juillet 2002, l'absence de consultations après le 28 octobre 2002 et rien n'indique que l'assurée avait pleinement conscience d'un état dépressif permanent. La cour retient que c'est à l'assureur qu'il incombe de prouver que l'élément non déclaré était déterminant, connu de l'assuré et omis intentionnellement; en l'espèce ces éléments ne sont pas rapportés. Le jugement entrepris condamnant AXA à payer 106.527 euros à Miguel M. est confirmé; les demandes relatives au point de départ des intérêts sont partiellement rejetées au regard du moment où l'assureur a obtenu les pièces utiles.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+          "requests": "L'intimé demande la condamnation de la s.a. AXA BELGIUM à lui payer la somme de 106.527 euros; en appel incident, il sollicite que les intérêts prennent cours au 27/08/2005 (au lieu du 29/11/2006); il réclame en outre la répétibilité des frais et honoraires d'avocat et une indemnité de procédure d'appel (réclamée 7.500 euros)."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CALIE:2009:AVIS.20090914.5-002",
+          "argument": "La compagnie AXA soutient qu'en omettant de déclarer un problème de dépression et ses antécédents médicaux l'assurée a fait de fausses déclarations avec volonté de tromper l'assureur; elle affirme que le Dr MI la soignait en juillet 2002, que deux antidépresseurs lui avaient été prescrits et que nul ne peut concevoir qu'un candidat à une assurance-vie « oublie » un tel problème, de sorte que l'assureur aurait conclu différemment s'il en avait été informé.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+          "argument": "L'intimé/condamné au principal soutient que l'état dépressif de Mme W. était récent et limité dans le temps, qu'elle n'en avait peut‑être pas pleinement conscience, que le médecin a proposé de dissiper les doutes sur les dates par le dépôt du dossier et que la confusion quant aux dates ne prouve pas une omission intentionnelle; il fait valoir qu'il appartient à l'assureur de prouver que l'élément non déclaré était déterminant, connu et omis volontairement et qu'il ne rapporte pas cette preuve en l'espèce.",
+          "treatment": "ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS ,\n\nVu l'article 24 de la loi du 15 juin 1935, La cour, statuant contradictoirement, Confirme le jugement entrepris, Condamne la s.a. AXA BELGIUM aux dépens d'appel liquidés en faveur de Miguel M. à 5.000 euro .",
+      "outcome": "CONFIRMATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+        "provisionNumber": "article 95 al. 4",
+        "provisionNumberKey": "95",
+        "parentActType": "LOI",
+        "parentActName": "loi du 25 juin 1992 relative au contrat d'assurance terrestre",
+        "parentActDate": "1992-06-25",
+        "parentActNumber": null,
+        "provisionInterpretation": "La cour entend l'article 95, al.4 comme définissant de façon restrictive la notion de «cause du décès» et autorisant, en tant qu'exception légale au secret médical, la communication à l'assureur uniquement des informations médicales nécessaires à l'exécution du contrat lorsque le risque assuré s'est réalisé.",
+        "relevantFactualContext": "Le médecin traitant, informé du consentement de l'assurée via une clause de police, a communiqué à la cour uniquement les informations nécessaires sur les causes du décès et a proposé de déposer son dossier médical le 18/02/2009 afin de vérifier les dates de consultation."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-002",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+        "provisionNumber": "article 5",
+        "provisionNumberKey": "5",
+        "parentActType": "LOI",
+        "parentActName": "loi du 25 juin 1992 relative au contrat d'assurance terrestre",
+        "parentActDate": "1992-06-25",
+        "parentActNumber": null,
+        "provisionInterpretation": "La cour rappelle que l'article 5 impose à l'assuré l'obligation de déclarer toutes les circonstances susceptibles d'influencer l'appréciation du risque, à l'exception des données génétiques, légitimant en principe la divulgation à l'assureur de données privées pertinentes pour l'évaluation du risque.",
+        "relevantFactualContext": "En l'espèce, l'assureur a demandé les antécédents médicaux et l'état de santé de la candidate pour apprécier le risque; la contestation porte sur la non-déclaration d'un épisode dépressif récent et sur l'impact de cette omission sur l'opinion du risque."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-003",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2009:AVIS.20090914.5-002",
+        "provisionNumber": "article 58",
+        "provisionNumberKey": "58",
+        "parentActType": "CODE",
+        "parentActName": "Code de déontologie",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La cour retient, au regard de l'article 58 du Code de déontologie, que le secret médical n'empêche pas la communication limitée d'informations nécessaires au règlement d'un contrat d'assurance lorsque l'assurée a consenti; cet article confirme le caractère exceptionnel prévu à l'article 95 pour la transmission d'informations strictement pertinentes.",
+        "relevantFactualContext": "Le médecin a été informé qu'il ne violerait pas son secret en répondant et a accepté de témoigner; il a transmis son dossier uniquement pour permettre à la cour de vérifier les dates et les éléments relatifs aux causes du décès."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-004",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+        "provisionNumber": "article 99",
+        "provisionNumberKey": "99",
+        "parentActType": "LOI",
+        "parentActName": "loi du 25 juin 1992 relative au contrat d'assurance terrestre",
+        "parentActDate": "1992-06-25",
+        "parentActNumber": null,
+        "provisionInterpretation": "La cour interprète l'article 99 comme rendant obligatoires les clauses d'incontestabilité en assurance-vie, de sorte que l'assureur ne peut se prévaloir que des omissions ou inexactitudes intentionnelles; il lui incombe de démontrer que l'assuré connaissait le fait et a intentionnellement omis de le déclarer.",
+        "relevantFactualContext": "L'assureur soutient qu'il est établi que Mme W. était traitée pour dépression avant la signature; la cour relève que les troubles étaient récents, pris en charge, que les éléments produits n'établissent pas la conscience et l'intention de dissimulation de l'assurée et que le médecin a proposé de vérifier les dates."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-005",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2009:AVIS.20090914.5-003",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 concernant l'emploi des langues en matière judiciaire",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour d'appel du ressort de Liège",
+        "date": "2008-12-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CALIE:2009:AVIS.20090914.5-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit des assurances",
+      "Assurance-vie hypothécaire",
+      "Décès assuré",
+      "Transmission dossier médical",
+      "Audition médecin traitant",
+      "Omission déclaration médicale",
+      "Intention de tromper",
+      "Charge de la preuve",
+      "Clause d'incontestabilité",
+      "Vérification dates médicales"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+        "text": "L'article 95, al. 4, de la loi du 25 juin 1992 doit être interprété restrictivement : la notion de « cause du décès » ne justifie qu'une communication limitée d'informations médicales nécessaires à l'exécution du contrat d'assurance lorsque le risque assuré s'est réalisé; toute transmission doit se limiter aux informations strictement pertinentes.",
+        "courtVerbatim": "Dans l'arrêt précité il a été exposé ce qu'il convenait d'entendre par « cause du décès » aux termes de l'article 95 al. 4 de la loi du 25 juin 1992. ... Lorsque fut entendu, le médecin traitant a communiqué à la cour l'information médicale nécessaire (et uniquement celle-là) à l'exécution du contrat d'assurance dès lors que le risque assuré en vertu de ce contrat s'est malheureusement réalisé.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque l'exécution ou le règlement d'un contrat d'assurance vie nécessite l'accès à des informations médicales relatives aux causes du décès du bénéficiaire assuré.",
+        "relevantFactualContext": "Le médecin traitant, informé que l'assurée avait consenti via une clause de la police, a répondu uniquement aux questions portant sur les causes du décès et a transmis son dossier médical à la cour afin de vérifier les dates de consultation.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CALIE:2009:AVIS.20090914.5-004"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2009:AVIS.20090914.5-002",
+        "text": "L'article 5 de la loi du 25 juin 1992 impose à l'assuré l'obligation de déclarer toutes les circonstances susceptibles d'influencer l'appréciation du risque, à l'exception des données génétiques; l'assuré n'a cependant à déclarer que ce qu'il connaît effectivement, non ce qu'il « devrait raisonnablement connaître ». Cette obligation légitime en principe la communication à l'assureur de données privées pertinentes pour l'évaluation du risque.",
+        "courtVerbatim": "Le législateur ayant imposé, dans les termes de l'article 5 de la loi du 25 juin 1992, une obligation de déclarer toutes les circonstances de nature à influencer l'appréciation du risque sous la seule exception des données génétiques, l'exigence de divulgation à l'assureur d'autres données relevant de la vie privée est en principe légitimée. Par ailleurs, la loi ne met pas à charge de l'assuré une obligation de déclarer ce qu'il « devrait raisonnablement connaître ». Il ne doit déclarer que ce qu'il connaît effectivement.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un assureur demande à un candidat la communication de ses antécédents médicaux ou autres circonstances susceptibles d'influer sur l'appréciation du risque.",
+        "relevantFactualContext": "L'assureur a requis les antécédents médicaux et l'état de santé de la candidate pour apprécier le risque; le litige porte sur la non-déclaration d'un épisode dépressif récent et sur l'impact de cette omission.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2009:AVIS.20090914.5-003",
+        "text": "En matière d'assurance-vie, l'article 99 impose à l'assureur, pour se prévaloir d'omissions ou d'inexactitudes, de rapporter la preuve que : (1) l'élément non déclaré constituait un facteur d'appréciation du risque pour l'assureur, (2) le souscripteur en avait connaissance, et (3) il a intentionnellement omis de le déclarer; autrement dit, la clause d'incontestabilité exclut les omissions non intentionnelles.",
+        "courtVerbatim": "C'est à l'assureur qu'il incombe de prouver que l'élément sur lequel il n'a pas été informé était pour lui un facteur d'appréciation du risque, que le preneur pouvait raisonnablement le considérer comme tel, qu'il en avait connaissance, et qu' intentionnellement, il ne l'a pas déclaré. En effet, l'article 99 de la loi du 25 juin 1992 rend obligatoire les clauses d'incontestabilité en assurance sur la vie en sorte que l'assureur ne peut plus se prévaloir des omissions ou inexactitudes non intentionnelles.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque l'assureur invoque des omissions ou inexactitudes de la part du preneur pour refuser ou réduire une prestation d'assurance-vie.",
+        "relevantFactualContext": "La compagnie prétend que l'assurée omis de déclarer un traitement pour dépression antérieur à la souscription; la cour considère que les éléments produits n'établissent pas la conscience et l'intention de dissimulation et que la confusion sur les dates a été proposée à la cour pour vérification.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2009:AVIS.20090914.5-004",
+        "text": "Le secret médical, tel que précisé par le Code de déontologie, n'empêche pas la communication limitée d'informations médicales nécessaires au règlement d'un contrat d'assurance lorsque l'assuré a consenti; cette disposition confirme que les exceptions prévues par l'article 95 s'entendent de façon stricte et doivent se limiter aux informations strictement pertinentes.",
+        "courtVerbatim": "La teneur de l'article 95 al.4 de la loi sur les assurances terrestres a été rappelée dans l'arrêt précédent et il se déduit de l'article 58 du Code de déontologie tel qu'il a été déposé par l'intimé lui-même que cet article 95 est, comme l'article 5, une exception légale.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la communication d'éléments médicaux est sollicitée dans le cadre du règlement d'un contrat d'assurance et que l'assuré a donné son consentement ou la possibilité de s'opposer.",
+        "relevantFactualContext": "Le médecin a été informé qu'il ne violerait pas son secret en répondant et, après en avoir averti les parties, a transmis le dossier médical uniquement pour permettre à la cour de vérifier les dates et les éléments relatifs aux causes du décès.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 3,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 4,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur a saisi la cour pour obtenir le paiement d'une assurance-vie que la société avait refusé au motif d'omissions déclaratives relatives à un épisode dépressif de l'assurée. La cour d'appel confirme le jugement entrepris, condamne la société à payer 106 527 euros au demandeur, accorde les dépens et indemnités de procédure et refuse de fixer les intérêts à la date antérieure sollicitée. Elle rappelle que l'assuré ne doit déclarer que ce qu'il connaît effectivement et que l'assureur doit prouver la matérialité et l'intention frauduleuse de l'omission; la communication limitée du dossier médical et l'audition du médecin traitant, permises par l'article 95 al.4, visaient uniquement à vérifier les dates et la cause du décès."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vu l'arrêt rendu le 1er décembre 2008 ordonnant la comparution personnelle et l'audition du médecin traitant de feue Fabienne W., le docteur Salim MI. Vu le procès-verbal d'audition de ce dernier dressé le 11 février 2009. Vu les conclusions et les dossiers des parties. Vu l'appel incident formulé par voie de conclusions déposées le 25 mai 2009 aux termes desquelles l'intimé sollicite que les intérêts prennent cours non le 29.11.2006 mais le 27.8.2005.</p>",
+          "<p class=\"case-section__paragraph\">Dès lors qu'il a été rappelé au médecin traitant que l'assurée avait donné son accord pour qu'un certificat médical établisse les causes de son décès en signant à cette fin une clause de la police (l'assurée pouvait effectivement s'y opposer mais en l'espèce elle n'a pas fait ce choix) et qu'il ne violerait pas son secret professionnel en témoignant devant la cour, le médecin traitant a accepté de répondre aux questions qui ne concernaient que les causes du décès de sa patiente, feue Fabienne W.. Dans l'arrêt précité il a été exposé ce qu'il convenait d'entendre par « cause du décès » aux termes de l'article 95 al. 4 de la loi du 25 juin 1992. Après avoir expliqué à la cour qu'il avait été le médecin traitant de feue Fabienne W. depuis 2003-2004 et qu'elle a souffert de dépression en 2004, le docteur Salim MI, doutant des dates fournies, a proposé de « transmettre copie de son dossier afin de vous fixer quant aux dates de consultation ». Les parties ne s'y opposant pas, le dossier médical a été transmis le 18 février 2009, avec une note du docteur MI qui précise « comme vous le constaterez la période suivant laquelle j'ai suivi Madame W. s'étale d'octobre 2000 à octobre 2002. Lorsqu'il fut entendu, le médecin traitant a communiqué à la cour l'information médicale nécessaire (et uniquement celle-là) à l'exécution du contrat d'assurance dès lors que le risque assuré en vertu de ce contrat s'est malheureusement réalisé. Il a émis des doutes quant aux dates et a proposé de les dissiper par le dépôt de son dossier. Ni la partie intimée, ni la partie appelante ne s'y sont opposées. C'est uniquement dans cette optique précise (vérification des dates) que le dossier médical sera examiné par la cour . Par ailleurs, il n'est pas inutile de préciser que :</p>",
+          "<li><p class=\"case-section__paragraph\">la teneur de l'article 95 al.4 de la loi sur les assurances terrestres a été rappelée dans l'arrêt précédent et il se déduit de l'article 58 du Code de déontologie tel qu'il a été déposé par l'intimé lui-même que cet article 95 est, comme l'article 5, une exception légale.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+          "ART-ECLI:BE:CALIE:20090914.5-002",
+          "ART-ECLI:BE:CALIE:20090914.5-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CALIE:2009:AVIS.20090914.5-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-002",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">« la Convention européenne autorise certaines ingérences de la part des autorités publiques (art.8b, §2) mais elle ne contient aucune disposition relative aux atteintes admissibles dans les relations entre particuliers. Quant à l'article 22 de la Constitution, il permet des exceptions au droit à la vie privée « dans les cas et conditions fixées par la loi ». Le législateur ayant imposé, dans les termes de l'article 5 de la loi du 25 juin 1992, une obligation de déclarer toutes les circonstances de nature à influencer l'appréciation du risque sous la seule exception des données génétiques, l'exigence de divulgation à l'assureur d'autres données relevant de la vie privée est en principe légitimée.» M.FONTAINE « droit des assurances », 3ième édition, page 168 et s.</p></li>",
+          "<li><p class=\"case-section__paragraph\">la teneur de l'article 95 al.4 de la loi sur les assurances terrestres a été rappelée dans l'arrêt précédent et il se déduit de l'article 58 du Code de déontologie tel qu'il a été déposé par l'intimé lui-même que cet article 95 est, comme l'article 5, une exception légale.</p></li>",
+          "<p class=\"case-section__paragraph\">Il ne peut être contesté qu'elle a présenté un état dépressif mais il ne se déduit d'aucun élément soumis régulièrement à la cour qu'elle en était bien consciente. Seul un problème de surmenage momentané avant les vacances a pu être ressenti et a pu être limité notamment dans le temps grâce au traitement prescrit ou à une période de repos en sorte que l'assurée a légitimement cru pouvoir répondre par la négative à la question avez-vous souffert ou souffrez-vous d'une des affections ci-après : troubles d'origine psychique. Par ailleurs, la loi ne met pas à charge de l'assuré une obligation de déclarer ce qu'il « devrait raisonnablement connaître ». Il ne doit déclarer que ce qu'il connaît effectivement. Se limitant à préciser « qu'en assurance-vie l'opinion du risque est évidemment fortement modifiée si l'assuré omet de déclarer qu'il est traité depuis plusieurs années suite à des tentatives de suicide » et que « si l'assureur demande les antécédents médicaux et l'état de santé du sollicitant, c'est qu'il y attache de l'importance », l'assureur fait état de généralités et ne démontre pas que, dans le cas d'espèce, si l'assurée avait dit qu'elle était, depuis une vingtaine de jours, dépressive ou surmenée, son opinion du risque aurait été modifiée en sorte qu'elle n'aurait pas contracté ou qu'elle aurait soumis le contrat à d'autres conditions ce d'autant plus que les problèmes que connaissaient son assurée étaient tout récents et étaient pris en charge par un médecin et qu'en outre, le contrat d'assurance vie était lié à un contrat d'ouverture de crédit hypothécaire. Le jugement entrepris doit donc être confirmé en ce qu'il condamne la s.a. AXA BELGIUM à payer à Miguel M. 106.527 euros. Il doit l'être également en ce qui concerne la date de prise de cours des intérêts. En effet, l'assureur a le droit de disposer des éléments nécessaires à l'appréciation de sa prestation soit en l'espèce des éléments l'éclairant sur la cause et les circonstances du décès puis d'un lapse de temps raisonnable pour les examiner. Or, n'ayant obtenu la copie du dossier répressif que le 21 septembre 2006, elle ne peut être tenue à des intérêts depuis le 27 août 2005 comme l'intimé au principal le sollicite.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-002",
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dès lors qu'il a été rappelé au médecin traitant que l'assurée avait donné son accord pour qu'un certificat médical établisse les causes de son décès en signant à cette fin une clause de la police (l'assurée pouvait effectivement s'y opposer mais en l'espèce elle n'a pas fait ce choix) et qu'il ne violerait pas son secret professionnel en témoignant devant la cour, le médecin traitant a accepté de répondre aux questions qui ne concernaient que les causes du décès de sa patiente, feue Fabienne W.. Dans l'arrêt précité il a été exposé ce qu'il convenait d'entendre par « cause du décès » aux termes de l'article 95 al. 4 de la loi du 25 juin 1992. Après avoir expliqué à la cour qu'il avait été le médecin traitant de feue Fabienne W. depuis 2003-2004 et qu'elle a souffert de dépression en 2004, le docteur Salim MI, doutant des dates fournies, a proposé de « transmettre copie de son dossier afin de vous fixer quant aux dates de consultation ». Les parties ne s'y opposant pas, le dossier médical a été transmis le 18 février 2009, avec une note du docteur MI qui précise « comme vous le constaterez la période suivant laquelle j'ai suivi Madame W. s'étale d'octobre 2000 à octobre 2002. Lorsqu'il fut entendu, le médecin traitant a communiqué à la cour l'information médicale nécessaire (et uniquement celle-là) à l'exécution du contrat d'assurance dès lors que le risque assuré en vertu de ce contrat s'est malheureusement réalisé. Il a émis des doutes quant aux dates et a proposé de les dissiper par le dépôt de son dossier. Ni la partie intimée, ni la partie appelante ne s'y sont opposées. C'est uniquement dans cette optique précise (vérification des dates) que le dossier médical sera examiné par la cour . Par ailleurs, il n'est pas inutile de préciser que :</p>",
+          "<li><p class=\"case-section__paragraph\">la teneur de l'article 95 al.4 de la loi sur les assurances terrestres a été rappelée dans l'arrêt précédent et il se déduit de l'article 58 du Code de déontologie tel qu'il a été déposé par l'intimé lui-même que cet article 95 est, comme l'article 5, une exception légale.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-003",
+          "ART-ECLI:BE:CALIE:20090914.5-001",
+          "ART-ECLI:BE:CALIE:20090914.5-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La compagnie estime qu'en omettant de déclarer un problème de dépression et ses antécédents médicaux (sans aucune précision), il y a eu fausses déclarations et volonté de tromper l'assureur. C'est à l'assureur qu'il incombe de prouver que l'élément sur lequel il n'a pas été informé était pour lui un facteur d'appréciation du risque, que le preneur pouvait raisonnablement le considérer comme tel, qu'il en avait connaissance, et qu' intentionnellement, il ne l'a pas déclaré. En effet, l'article 99 de la loi du 25 juin 1992 rend obligatoire les clauses d'incontestabilité en assurance sur la vie en sorte que l'assureur ne peut plus se prévaloir des omissions ou inexactitudes non intentionnelles. En l'espèce, on ne peut reprocher au médecin traitant d'entretenir volontairement une confusion quant aux dates dès lors qu'il a d'emblée proposé à la cour de les vérifier. En toutes hypothèses, cette confusion - qui peut s'expliquer compte tenu du nombre de patients du médecin et du temps écoulé - ne peut en aucun cas constituer une des preuves que l'assureur doit, ainsi qu'il vient d'être rappelé, rapporter. Ce dernier considère qu'il est « établi à suffisance que le Dr MI soignait bien Mme W. en juillet 2002 et qu'avant la signature du questionnaire sans examen médical, la question de l'état dépressif a été clairement abordée entre la patiente et son médecin traitant, deux anti-dépresseurs ayant été prescrits pour une dépression exogène et du stress... » et ajoute « on ne peut évidemment pas concevoir qu'un candidat à une assurance vie « oublie » un problème de dépression pour lequel il est en traitement. » Or, il résulte des pièces auxqu auxquelles la cour peut avoir égard que :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu l'article 24 de la loi du 15 juin 1935, La cour, statuant contradictoirement, Confirme le jugement entrepris, Condamne la s.a. AXA BELGIUM aux dépens d'appel liquidés en faveur de Miguel M. à 5.000 euro . Ainsi jugé, en langue française, par la TROISIÈME chambre de la cour d'appel de Liège, palais de justice, place Saint-Lambert 16 à Liège, où siégeaient Bernadette PRIGNON, conseiller faisant fonction de président, Véronique ANCIA et Marie-Anne LANGE, conseillers, assistées de Marc LECLERC, greffier, et prononcé en audience publique du 14 septembre 2009 par le conseiller faisant fonction de président Bernadette PRIGNON, avec l'assistance du greffier Marc LECLERC.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2009:AVIS.20090914.5-005"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 5,
+      "citationStatistics": {
+        "totalCitations": 10,
+        "avgCitationsPerProvision": 2,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.2,
+        "avgDecisionsPerProvision": 0.2,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2009:AVIS.20090914.5-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dès lors qu'il a été rappelé au médecin traitant que l'assurée avait donné son accord pour qu'un certificat médical établisse les causes de son décès en signant à cette fin une clause de la police (l'assurée pouvait effectivement s'y opposer mais en l'espèce elle n'a pas fait ce choix) et qu'il ne violerait pas son secret professionnel en témoignant devant la cour, le médecin traitant a accepté de répondre aux questions qui ne concernaient que les causes du décès de sa patiente, feue Fabienne W.. Dans l'arrêt précité il a été exposé ce qu'il convenait d'entendre par « cause du décès » aux termes de l'article 95 al. 4 de la loi du 25 juin 1992. Après avoir expliqué à la cour qu'il avait été le médecin traitant de feue Fabienne W. depuis 2003-2004 et qu'elle a souffert de dépression en 2004, le docteur Salim MI, doutant des dates fournies, a proposé de « transmettre copie de son dossier afin de vous fixer quant aux dates de consultation ». Les parties ne s'y opposant pas, le dossier médical a été transmis le 18 février 2009, avec une note du docteur MI qui précise « comme vous le constaterez la période suivant laquelle j'ai suivi Madame W. s'étale d'octobre 2000 à octobre 2002. Lorsqu'il fut entendu, le médecin traitant a communiqué à la cour l'information médicale nécessaire (et uniquement celle-là) à l'exécution du contrat d'assurance dès lors que le risque assuré en vertu de ce contrat s'est malheureusement réalisé. Il a émis des doutes quant aux dates et a proposé de les dissiper par le dépôt de son dossier. Ni la partie intimée, ni la partie appelante ne s'y sont opposées. C'est uniquement dans cette optique précise (vérification des dates) que le dossier médical sera examiné par la cour . Par ailleurs, il n'est pas inutile de préciser que :</p>",
+          "<li><p class=\"case-section__paragraph\">la teneur de l'article 95 al.4 de la loi sur les assurances terrestres a été rappelée dans l'arrêt précédent et il se déduit de l'article 58 du Code de déontologie tel qu'il a été déposé par l'intimé lui-même que cet article 95 est, comme l'article 5, une exception légale.</p></li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2009:AVIS.20090914.5-002",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">« la Convention européenne autorise certaines ingérences de la part des autorités publiques (art.8b, §2) mais elle ne contient aucune disposition relative aux atteintes admissibles dans les relations entre particuliers. Quant à l'article 22 de la Constitution, il permet des exceptions au droit à la vie privée « dans les cas et conditions fixées par la loi ». Le législateur ayant imposé, dans les termes de l'article 5 de la loi du 25 juin 1992, une obligation de déclarer toutes les circonstances de nature à influencer l'appréciation du risque sous la seule exception des données génétiques, l'exigence de divulgation à l'assureur d'autres données relevant de la vie privée est en principe légitimée.» M.FONTAINE « droit des assurances », 3ième édition, page 168 et s.</p></li>",
+          "<p class=\"case-section__paragraph\">Il ne peut être contesté qu'elle a présenté un état dépressif mais il ne se déduit d'aucun élément soumis régulièrement à la cour qu'elle en était bien consciente. Seul un problème de surmenage momentané avant les vacances a pu être ressenti et a pu être limité notamment dans le temps grâce au traitement prescrit ou à une période de repos en sorte que l'assurée a légitimement cru pouvoir répondre par la négative à la question avez-vous souffert ou souffrez-vous d'une des affections ci-après : troubles d'origine psychique. Par ailleurs, la loi ne met pas à charge de l'assuré une obligation de déclarer ce qu'il « devrait raisonnablement connaître ». Il ne doit déclarer que ce qu'il connaît effectivement. Se limitant à préciser « qu'en assurance-vie l'opinion du risque est évidemment fortement modifiée si l'assuré omet de déclarer qu'il est traité depuis plusieurs années suite à des tentatives de suicide » et que « si l'assureur demande les antécédents médicaux et l'état de santé du sollicitant, c'est qu'il y attache de l'importance », l'assureur fait état de généralités et ne démontre pas que, dans le cas d'espèce, si l'assurée avait dit qu'elle était, depuis une vingtaine de jours, dépressive ou surmenée, son opinion du risque aurait été modifiée en sorte qu'elle n'aurait pas contracté ou qu'elle aurait soumis le contrat à d'autres conditions ce d'autant plus que les problèmes que connaissaient son assurée étaient tout récents et étaient pris en charge par un médecin et qu'en outre, le contrat d'assurance vie était lié à un contrat d'ouverture de crédit hypothécaire. Le jugement entrepris doit donc être confirmé en ce qu'il condamne la s.a. AXA BELGIUM à payer à Miguel M. 106.527 euros. Il doit l'être également en ce qui concerne la date de prise de cours des intérêts. En effet, l'assureur a le droit de disposer des éléments nécessaires à l'appréciation de sa prestation soit en l'espèce des éléments l'éclairant sur la cause et les circonstances du décès puis d'un lapse de temps raisonnable pour les examiner. Or, n'ayant obtenu la copie du dossier répressif que le 21 septembre 2006, elle ne peut être tenue à des intérêts depuis le 27 août 2005 comme l'intimé au principal le sollicite.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2009:AVIS.20090914.5-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La compagnie estime qu'en omettant de déclarer un problème de dépression et ses antécédents médicaux (sans aucune précision), il y a eu fausses déclarations et volonté de tromper l'assureur. C'est à l'assureur qu'il incombe de prouver que l'élément sur lequel il n'a pas été informé était pour lui un facteur d'appréciation du risque, que le preneur pouvait raisonnablement le considérer comme tel, qu'il en avait connaissance, et qu' intentionnellement, il ne l'a pas déclaré. En effet, l'article 99 de la loi du 25 juin 1992 rend obligatoire les clauses d'incontestabilité en assurance sur la vie en sorte que l'assureur ne peut plus se prévaloir des omissions ou inexactitudes non intentionnelles. En l'espèce, on ne peut reprocher au médecin traitant d'entretenir volontairement une confusion quant aux dates dès lors qu'il a d'emblée proposé à la cour de les vérifier. En toutes hypothèses, cette confusion - qui peut s'expliquer compte tenu du nombre de patients du médecin et du temps écoulé - ne peut en aucun cas constituer une des preuves que l'assureur doit, ainsi qu'il vient d'être rappelé, rapporter. Ce dernier considère qu'il est « établi à suffisance que le Dr MI soignait bien Mme W. en juillet 2002 et qu'avant la signature du questionnaire sans examen médical, la question de l'état dépressif a été clairement abordée entre la patiente et son médecin traitant, deux anti-dépresseurs ayant été prescrits pour une dépression exogène et du stress... » et ajoute « on ne peut évidemment pas concevoir qu'un candidat à une assurance vie « oublie » un problème de dépression pour lequel il est en traitement. » Or, il résulte des pièces auxquelles la cour peut avoir égard que :</p>",
+          "<p class=\"case-section__paragraph\">fin de l'année 2000, elle a consulté le docteur MI pour des problèmes de maux de tête et de tension ; ce n'est qu'en juillet 2002 que des problèmes de dépression se sont manifestés ;</p>",
+          "<ul>\n<li><p class=\"case-section__paragraph\">Fabienne W. n'avait jamais été dépressive auparavant et elle ne souffrait d'aucune maladie vitale ;</p></li>\n<li><p class=\"case-section__paragraph\">Le docteur MI ne l'a plus reçue en consultation depuis le 28 octobre 2002.</p></li>\n</ul>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2009:AVIS.20090914.5-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dès lors qu'il a été rappelé au médecin traitant que l'assurée avait donné son accord pour qu'un certificat médical établisse les causes de son décès en signant à cette fin une clause de la police (l'assurée pouvait effectivement s'y opposer mais en l'espèce elle n'a pas fait ce choix) et qu'il ne violerait pas son secret professionnel en témoignant devant la cour, le médecin traitant a accepté de répondre aux questions qui ne concernaient que les causes du décès de sa patiente, feue Fabienne W.. Dans l'arrêt précité il a été exposé ce qu'il convenait d'entendre par « cause du décès » aux termes de l'article 95 al. 4 de la loi du 25 juin 1992. Après avoir expliqué à la cour qu'il avait été le médecin traitant de feue Fabienne W. depuis 2003-2004 et qu'elle a souffert de dépression en 2004, le docteur Salim MI, doutant des dates fournies, a proposé de « transmettre copie de son dossier afin de vous fixer quant aux dates de consultation ». Les parties ne s'y opposant pas, le dossier médical a été transmis le 18 février 2009, avec une note du docteur MI qui précise « comme vous le constaterez la période suivant laquelle j'ai suivi Madame W. s'étale d'octobre 2000 à octobre 2002. Lorsqu'il fut entendu, le médecin traitant a communiqué à la cour l'information médicale nécessaire (et uniquement celle-là) à l'exécution du contrat d'assurance dès lors que le risque assuré en vertu de ce contrat s'est malheureusement réalisé. Il a émis des doutes quant aux dates et a proposé de les dissiper par le dépôt de son dossier. Ni la partie intimée, ni la partie appelante ne s'y sont opposées. C'est uniquement dans cette optique précise (vérification des dates) que le dossier médical sera examiné par la cour . Par ailleurs, il n'est pas inutile de préciser que :</p>",
+          "<li><p class=\"case-section__paragraph\">la teneur de l'article 95 al.4 de la loi sur les assurances terrestres a été rappelée dans l'arrêt précédent et il se déduit de l'article 58 du Code de déontologie tel qu'il a été déposé par l'intimé lui-même que cet article 95 est, comme l'article 5, une exception légale.</p></li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 9,
+        "avgCitationsPerTeaching": 2.25,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 4,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

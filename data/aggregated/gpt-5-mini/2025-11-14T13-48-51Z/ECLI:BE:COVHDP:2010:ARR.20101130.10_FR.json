@@ -1,0 +1,392 @@
+{
+  "decision_id": "ECLI:BE:COVHDP:2010:ARR.20101130.10",
+  "language": "FR",
+  "metadata": {
+    "id": 146542,
+    "court_ecli_code": "COVHDP",
+    "decision_date": "2010-11-30",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 7094,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commission relative à l'indemnité, 30 novembre 2010, n° 359 F, ECLI:BE:COVHDP:2010:ARR.20101130.10"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+        "name": "L. M.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COVHDP:2010:ARR.20101130.10-002",
+        "name": "LE MINISTRE DE LA JUSTICE",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEFENDEUR"
+      }
+    ],
+    "currentInstance": {
+      "facts": "L. M. a été privé de liberté le 9 mai 2001 et placé sous mandat d'arrêt le lendemain du chef d'avoir volontairement, avec l'intention de donner la mort, commis dans la nuit du 8 au 9 novembre 1999 un homicide sur la personne de son épouse, L. C.. Le 6 juin 2001, il a été libéré par arrêt de la chambre des mises en accusation de Bruxelles. Le 8 mai 2008, l'ordonnance de la chambre du conseil déclare n'y avoir lieu à poursuivre. Le requérant a subi une détention préventive de 29 jours. Le requérant a introduit une requête en indemnisation datée du 9 décembre 2009, entrée au ministère de la Justice le 11 décembre 2009. Par arrêté du 20 mai 2010, le ministre de la Justice a accordé une indemnité de 1.740 euros. Le conseil du requérant a introduit un recours au secrétariat de la Commission le 29 juin 2010; le ministre a déposé un mémoire en réponse le 9 juillet 2010 et le requérant a déposé une réplique le 6 août 2010. Le président a fait rapport. Le requérant, bien que régulièrement convoqué, ne comparaît pas; Maître Isabelle Vausort, avocat au barreau de Charleroi, pour le requérant, et Madame Aline Jeandrain ont été entendues en leurs dires et moyens. Monsieur Jean-Marie Genicot, avocat général, a été entendu en son avis.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+          "requests": "Devant la Commission, le requérant réclame 100.000 euros à titre de réparation du dommage moral, 5.000 euros pour le dommage matériel, 35,70 euros pour les frais de copie de l'ordonnance de non-lieu et sollicite la publication de la décision au Moniteur belge aux frais de l'État."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+          "argument": "Le requérant critique la décision ministérielle au motif qu'elle ne lui alloue qu'un montant de 1.740 euros à titre de dommage moral et ne justifie pas le rejet des autres postes demandés. Il demande une réparation substantielle (100.000 € pour le dommage moral, 5.000 € pour le dommage matériel, frais de copie et publication) et soutient que ces éléments doivent être indemnisés.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+          "argument": "Le requérant soutient que le dommage au sens de l'article 28 doit se définir comme « la différence négative entre deux situations » (situation après le fait fautif et situation sans la survenance du fait) et impute aux autorités policières et judiciaires la faute ayant causé son préjudice, demandant indemnisation pour ces préjudices sur la base de l'article 28.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "Par ces motifs,\n\nLa Commission, statuant en audience publique, après avoir siégé à huis clos pour l'instruction,\n\nReçoit le recours ; le déclare partiellement fondé ;\n\nAlloue au requérant une indemnité de 11.476,83 euros ;\n\nOrdonne la publication, par extrait, de la présente décision au Moniteur belge aux frais de l'État.",
+      "outcome": "AUTRE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+        "internalParentActId": "ACT-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+        "provisionNumber": "article 28",
+        "provisionNumberKey": "28",
+        "parentActType": "LOI",
+        "parentActName": "loi du 13 mars 1973 relative à l'indemnité en cas de détention préventive inopérante",
+        "parentActDate": "1973-03-13",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission interprète l'article 28 comme instituant un recours subsidiaire et distinct de l'action civile: il n'est recevable qu'à défaut de pouvoir intenter une action devant les juridictions ordinaires (1er alinéa du §3). L'indemnité prévue par cette disposition se fixe en équité en tenant compte de l'ensemble des circonstances d'intérêt public et privé propres à la détention préventive inopérante; elle ne vise pas à réparer les préjudices relevant de la responsabilité civile au sens de l'article 1382, et exclut les dommages antérieurs, postérieurs ou étrangers à la détention, les préjudices subis par des tiers ainsi que la durée d'une instruction non privative de liberté.",
+        "relevantFactualContext": "Le requérant a subi une détention préventive de 29 jours (du 9 mai 2001, libéré le 6 juin 2001) à la suite d'accusations de meurtre; il a demandé diverses réparations dont certaines ont été rejetées par le ministre comme relevant d'une faute des autorités policières/judiciaires, questions que la Commission examine dans le cadre limité et subsidiaire de l'article 28."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-002",
+        "internalParentActId": "ACT-ECLI:BE:COVHDP:2010:ARR.20101130.10-002",
+        "provisionNumber": "article 1382",
+        "provisionNumberKey": "1382",
+        "parentActType": "CODE",
+        "parentActName": "Code civil (responsabilité civile délictuelle)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission précise que l'indemnité prévue par l'article 28 ne constitue pas la \"réparation du préjudice\" au sens de l'article 1382 du Code civil: l'article 1382 renvoie à l'action en responsabilité civile ordinaire destinée à réparer le préjudice résultant d'une faute, distincte du régime subsidiaire et forfaitaire prévu par l'article 28.",
+        "relevantFactualContext": "Le requérant impute certains préjudices à la faute des autorités policières et judiciaires; la Commission relève que ces préjudices, lorsqu'ils relèvent d'une responsabilité civile, ne peuvent être indemnisés sur la base de l'article 28 et relèvent d'une action visée par l'article 1382."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "chambre des mises en accusation de Bruxelles",
+        "date": "2001-06-06",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COVHDP:2010:ARR.20101130.10-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "chambre du conseil",
+        "date": "2008-05-08",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COVHDP:2010:ARR.20101130.10-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit administratif",
+      "Détention préventive",
+      "Mandat d'arrêt",
+      "Accusation de meurtre",
+      "Ordonnance de non-lieu",
+      "Indemnité en équité",
+      "Préjudice moral",
+      "Préjudice matériel",
+      "Publication au Moniteur"
+    ],
+    "metadata": {
+      "totalKeywords": 9,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 3,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+        "text": "Le recours institué par l'article 28 de la loi du 13 mars 1973 est subsidiaire et distinct de l'action en responsabilité civile; il n'est recevable que si la victime ne peut intenter une action devant les juridictions ordinaires. Dès lors, les préjudices imputables à une faute des autorités policières ou judiciaires relevant de la responsabilité civile ne peuvent être indemnisés sur la base de l'article 28.",
+        "courtVerbatim": "Le recours instauré par l'article 28 est subsidiaire et ne peut être exercé, en application du premier alinéa du paragraphe 3 de cette disposition, qu'à défaut pour le requérant de pouvoir intenter une action en indemnisation devant les juridictions ordinaires. Il s'ensuit qu'en ce qui concerne les préjudices pour lesquels le ministre a rejeté la demande d'indemnisation et que le requérant impute à la faute des autorités policières et judiciaires, ils ne peuvent faire l'objet d'une indemnisation sur la base de l'article 28.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un requérant sollicite une indemnité sur le fondement de l'article 28 tout en invoquant des préjudices susceptibles d'être réparés par une action en responsabilité civile devant les juridictions ordinaires.",
+        "relevantFactualContext": "Le requérant a fait valoir divers préjudices qu'il imputait à une faute des autorités policières et judiciaires à l'occasion d'une détention préventive de 29 jours; la Commission note que ces postes, s'ils relèvent de la responsabilité civile, ne sauraient être indemnisés sur la base de l'article 28.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+          "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2010:ARR.20101130.10-002",
+        "text": "L'indemnité prévue par l'article 28 se détermine en équité en tenant compte de l'ensemble des circonstances d'intérêt public et privé liées à la détention préventive inopérante; elle ne vise pas à réparer le préjudice au sens de l'article 1382 et exclut expressément les dommages antérieurs, postérieurs ou étrangers à la détention, les préjudices subis par des tiers ainsi que la durée d'une instruction non privative de liberté.",
+        "courtVerbatim": "L'indemnité prévue par cette disposition ne constitue pas la réparation du préjudice subi au sens de l'article 1382 du Code civil. Le montant de l'indemnité doit être fixé en équité et en tenant compte de toutes les circonstances d'intérêt public et privé qui se rapportent à la détention préventive inopérante. Ne rentrent pas dans les prévisions de l'article 28, les dommages antérieurs, postérieurs ou étrangers à la détention du requérant, les dommages subis par d'autres personnes que le requérant ainsi que la durée de l'instruction non privative de liberté. Il ne peut donc en être tenu compte dans la fixation de l'indemnité.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique au moment de déterminer le montant de l'indemnité allouée en vertu de l'article 28 pour une détention préventive inopérante.",
+        "relevantFactualContext": "La Commission constate que l'indemnité allouée initialement par le ministre était insuffisante au regard des circonstances propres à la détention préventive de 29 jours subie par le requérant, mais refuse d'inclure dans l'indemnité les dommages étrangers à la mise en détention ou subis par des tiers.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:COVHDP:2010:ARR.20101130.10-003"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+          "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2010:ARR.20101130.10-003",
+        "text": "Pour apprécier le dommage moral au titre de l'article 28, le montant doit être fixé en équité en prenant en considération, notamment, l'absence d'antécédents judiciaires, l'âge, la situation familiale et professionnelle, la durée de la détention, la nature des faits imputés et la publicité donnée à l'affaire; ces éléments doivent être pesés globalement pour fixer une indemnité appropriée.",
+        "courtVerbatim": "Pour apprécier le dommage moral encouru par le requérant, il y a lieu d'avoir égard notamment à l'absence d'antécédent judiciaire, à l'âge (39 ans au moment de la détention), à la situation familiale et professionnelle du requérant, ainsi qu'à la durée de sa détention (29 jours), à la nature des faits mis à sa charge (meurtre de son épouse) et à la publicité donnée à l'affaire. Compte tenu de l'ensemble de ces circonstances, le montant alloué au requérant par le ministre de la Justice en réparation de son dommage moral est insuffisant.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors de l'évaluation du dommage moral lié à une détention préventive inopérante au titre de l'article 28.",
+        "relevantFactualContext": "La Commission a évalué le dommage moral du requérant détenu 29 jours en tenant compte de l'absence d'antécédents, de sa situation familiale et professionnelle, de la durée de détention, de la nature des faits mis à sa charge et de la publicité de l'affaire.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:COVHDP:2010:ARR.20101130.10-002",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "MEDIUM",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur sollicite réparation pour une détention préventive inopérante de 29 jours après un non-lieu, contestant l’indemnité ministérielle allouée. La Commission déclare le recours partiellement fondé, rappelle que l’indemnité visée par l’article 28 se fixe en équité et est limitée aux conséquences directes de la détention (non aux fautes des autorités), augmente le dommage moral à 7.000 €, alloue 1.000 € pour perte de revenus et 3.476,83 € pour frais, totalisant 11.476,83 € et ordonne publication au Moniteur belge."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Contrairement à ce que prétend le requérant, le dommage au sens de l'article 28 de la loi du 13 mars 1973 relative à l'indemnité en cas de détention préventive inopérante ne peut se définir comme <blockquote class=\"case-quote\">« la différence négative entre deux situations, étant respectivement la situation dans laquelle se trouve la victime ensuite du fait fautif et la situation dans laquelle elle se serait trouvée sans la survenance de ce fait »</blockquote>. Le recours instauré par l'article 28 est subsidiaire et ne peut être exercé, en application du premier alinéa du paragraphe 3 de cette disposition, qu'à défaut pour le requérant de pouvoir intenter une action en indemnisation devant les juridictions ordinaires. Il s'ensuit qu'en ce qui concerne les préjudices pour lesquels le ministre a rejeté la demande d'indemnisation et que le requérant impute à la faute des autorités policières et judiciaires, ils ne peuvent faire l'objet d'une indemnisation sur la base de l'article 28.</p>",
+          "<p class=\"case-section__paragraph\">L'indemnité prévue par cette disposition ne constitue pas la réparation du préjudice subi au sens de l'article 1382 du Code civil. Le montant de l'indemnité doit être fixé en équité et en tenant compte de toutes les circonstances d'intérêt public et privé qui se rapportent à la détention préventive inopérante.</p>",
+          "<p class=\"case-section__paragraph\">Ne rentrent pas dans les prévisions de l'article 28, les dommages antérieurs, postérieurs ou étrangers à la détention du requérant, les dommages subis par d'autres personnes que le requérant ainsi que la durée de l'instruction non privative de liberté. Il ne peut donc en être tenu compte dans la fixation de l'indemnité.</p>",
+          "<p class=\"case-section__paragraph\">Pour apprécier le dommage moral encouru par le requérant, il y a lieu d'avoir égard notamment à l'absence d'antécédent judiciaire, à l'âge (39 ans au moment de la détention), à la situation familiale et professionnelle du requérant, ainsi qu'à la durée de sa détention (29 jours), à la nature des faits mis à sa charge (meurtre de son épouse) et à la publicité donnée à l'affaire. Compte tenu de l'ensemble de ces circonstances, le montant alloué au requérant par le ministre de la Justice en réparation de son dommage moral est insuffisant. Il y a lieu de le fixer en équité à 7.000 euros et d'ordonner en outre la publication de la décision au Moniteur belge.</p>",
+          "<p class=\"case-footer__paragraph\">La Commission, statuant en audience publique, après avoir siégé à huis clos pour l'instruction, Reçoit le recours ; le déclare partiellement fondé ; Alloue au requérant une indemnité de 11.476,83 euros ; Ordonne la publication, par extrait, de la présente décision au Moniteur belge aux frais de l'État. Ainsi prononcé par la Commission, instituée par l'article 28, § 4, de la loi du 13 mars 1973 relative à l'indemnité en cas de détention préventive inopérante, séant à Bruxelles, en séance publique du 30 novembre 2010, où sont présents : Messieurs Christian Storck, pré¬si¬dent de la Cour de cassation, président ; Robert Andersen, premier président du Conseil d'Etat ; Robert De Baerdemaeker, président de l'Ordre des barreaux francophones et germanophone, membres ; Monsieur Jean-Marie Genicot, avocat géné¬ral près la Cour de cassa¬tion, secrétaire.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+          "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'indemnité prévue par cette disposition ne constitue pas la réparation du préjudice subi au sens de l'article 1382 du Code civil. Le montant de l'indemnité doit être fixé en équité et en tenant compte de toutes les circonstances d'intérêt public et privé qui se rapportent à la détention préventive inopérante.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-002",
+          "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-001"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 2,
+      "citationStatistics": {
+        "totalCitations": 6,
+        "avgCitationsPerProvision": 3,
+        "provisionsWithMinimalCitations": 1,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2010:ARR.20101130.10-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Contrairement à ce que prétend le requérant, le dommage au sens de l'article 28 de la loi du 13 mars 1973 relative à l'indemnité en cas de détention préventive inopérante ne peut se définir comme <blockquote class=\"case-quote\">« la différence négative entre deux situations, étant respectivement la situation dans laquelle se trouve la victime ensuite du fait fautif et la situation dans laquelle elle se serait trouvée sans la survenance de ce fait »</blockquote>. Le recours instauré par l'article 28 est subsidiaire et ne peut être exercé, en application du premier alinéa du paragraphe 3 de cette disposition, qu'à défaut pour le requérant de pouvoir intenter une action en indemnisation devant les juridictions ordinaires. Il s'ensuit qu'en ce qui concerne les préjudices pour lesquels le ministre a rejeté la demande d'indemnisation et que le requérant impute à la faute des autorités policières et judiciaires, ils ne peuvent faire l'objet d'une indemnisation sur la base de l'article 28.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-002"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2010:ARR.20101130.10-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'indemnité prévue par cette disposition ne constitue pas la réparation du préjudice subi au sens de l'article 1382 du Code civil. Le montant de l'indemnité doit être fixé en équité et en tenant compte de toutes les circonstances d'intérêt public et privé qui se rapportent à la détention préventive inopérante.</p>",
+          "<p class=\"case-section__paragraph\">Ne rentrent pas dans les prévisions de l'article 28, les dommages antérieurs, postérieurs ou étrangers à la détention du requérant, les dommages subis par d'autres personnes que le requérant ainsi que la durée de l'instruction non privative de liberté. Il ne peut donc en être tenu compte dans la fixation de l'indemnité.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2010:ARR.20101130.10-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Pour apprécier le dommage moral encouru par le requérant, il y a lieu d'avoir égard notamment à l'absence d'antécédent judiciaire, à l'âge (39 ans au moment de la détention), à la situation familiale et professionnelle du requérant, ainsi qu'à la durée de sa détention (29 jours), à la nature des faits mis à sa charge (meurtre de son épouse) et à la publicité donnée à l'affaire. Compte tenu de l'ensemble de ces circonstances, le montant alloué au requérant par le ministre de la Justice en réparation de son dommage moral est insuffisant. Il y a lieu de le fixer en équité à 7.000 euros et d'ordonner en outre la publication de la décision au Moniteur belge.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:COVHDP:2010:ARR.20101130.10-001"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerTeaching": 1.3333333333333333,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 3,
+        "totalProvisionsNotFound": 2,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": [
+        "TEACH-001: paragraph contains explicit reference to article 28; article 1382 not present in extracted citation and thus flagged.",
+        "TEACH-003: extracted paragraph states the evaluative factors but does not explicitly mention \"article 28\"; provision validation therefore flagged."
+      ]
+    }
+  }
+}

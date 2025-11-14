@@ -1,0 +1,269 @@
+{
+  "decision_id": "ECLI:BE:NTRCND:2007:AVIS.20070919.12",
+  "language": "FR",
+  "metadata": {
+    "id": 78981,
+    "court_ecli_code": "NTRCND",
+    "decision_date": "2007-09-19",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Avis",
+    "md_length": 1600,
+    "length_category": "short"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Avis, 19 septembre 2007, ECLI:BE:NTRCND:2007:AVIS.20070919.12"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2007:AVIS.20070919.12-001",
+        "name": "la personne concernée (assistant de parquet)",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2007:AVIS.20070919.12-002",
+        "name": "Le Conseil",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Conformément à l'article 404 du Code judiciaire, il est constaté qu'un assistant à un parquet ne s'est pas préoccupé de dossiers qui lui étaient confiés et les a laissés s'accumuler dans une armoire ou sur son bureau, empêchant par là que les magistrats concernés puissent les traiter dans un délai raisonnable. Par cette conduite, il manque gravement aux devoirs de sa charge et porte atteinte au bon fonctionnement de la justice et à la confiance en l'institution. L'assistant avait déjà reçu des avertissements verbaux concernant la lenteur du travail et la difficulté de respecter des priorités parmi les tâches à accomplir. Il a accepté de prendre en charge du travail complémentaire qui l'a finalement débordé. Il convient aussi de tenir compte du préjudice qui a pu résulter de ces manquements pour l'exercice de l'action publique.",
+      "requests": [],
+      "arguments": [],
+      "courtOrder": "La sanction de la retenue de traitement d'une durée d'une semaine paraît dès lors la plus appropriée à la gravité des faits.",
+      "outcome": "CONDAMNATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:NTRCND:2007:AVIS.20070919.12-001",
+        "internalParentActId": "ACT-ECLI:BE:NTRCND:2007:AVIS.20070919.12-001",
+        "provisionNumber": "article 404",
+        "provisionNumberKey": "404",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Le Conseil interprète l'article 404 du Code judiciaire comme définissant les hypothèses où une peine disciplinaire s'impose : le manquement aux devoirs de la charge, une conduite portant atteinte à la dignité de la fonction, ou la négligence des tâches au point de porter atteinte au bon fonctionnement de la justice ou à la confiance en l'institution. Il retient comme critère d'application la gravité du trouble causé à l'activité judiciaire et à la confiance publique.",
+        "relevantFactualContext": "Un assistant de parquet ne s'est pas préoccupé des dossiers qui lui étaient confiés, les a laissés s'accumuler dans une armoire ou sur son bureau empêchant les magistrats de les traiter dans un délai raisonnable ; il avait déjà reçu des avertissements verbaux pour lenteur et difficulté à respecter les priorités et avait accepté du travail complémentaire qui l'a débordé."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": []
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit disciplinaire",
+      "Assistant de parquet",
+      "Accumulation de dossiers",
+      "Retard de traitement",
+      "Charge de travail débordée",
+      "Manquement aux devoirs",
+      "Atteinte au fonctionnement judiciaire",
+      "Perte de confiance institutionnelle",
+      "Proportionnalité de la sanction",
+      "Retenue de traitement"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2007:AVIS.20070919.12-001",
+        "text": "Conformément à l'article 404 du Code judiciaire, une peine disciplinaire s'impose lorsqu'une personne manque aux devoirs de sa charge, porte atteinte à la dignité de sa fonction ou néglige ses tâches au point de compromettre le bon fonctionnement de la justice ou la confiance dans l'institution ; l'appréciation repose sur la gravité du trouble causé à l'activité judiciaire et à la confiance publique.",
+        "courtVerbatim": "Une peine disciplinaire s'impose lorsque, conformément à l'article 404 du Code judiciaire, la personne concernée manque aux devoirs de sa charge ou, par sa conduite, porte atteinte à la dignité de son caractère ou encore lorsqu'elle néglige les tâches de sa charge et porte ainsi atteinte au bon fonctionnement de la justice ou à la confiance en l'institution. Le Conseil est d'avis que lorsqu'un assistant à un parquet ne se préoccupe pas de dossiers qui lui sont confiés et les laisse s'accumuler dans une armoire ou sur son bureau empêchant par là que les magistrats concernés puissent les traiter dans un délai raisonnable, il manque gravement aux devoirs de sa charge mais également porte tout aussi gravement atteinte au bon fonctionnement de la justice et à la confiance en l'institution.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un agent chargé de fonctions judiciaires manque à ses devoirs ou néglige ses tâches au point de gêner le fonctionnement de la justice et d'affecter la confiance publique.",
+        "relevantFactualContext": "Un assistant de parquet ne s'est pas préoccupé des dossiers qui lui étaient confiés, les a laissés s'accumuler dans une armoire ou sur son bureau empêchant les magistrats de les traiter dans un délai raisonnable ; il avait déjà reçu des avertissements verbaux pour lenteur et difficulté à respecter les priorités et avait accepté du travail complémentaire qui l'a débordé.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:NTRCND:2007:AVIS.20070919.12-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:NTRCND:2007:AVIS.20070919.12-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2007:AVIS.20070919.12-002",
+        "text": "La détermination de la sanction disciplinaire doit être proportionnée et tient compte, d'une part, de la gravité des manquements et du préjudice porté au fonctionnement de la justice et à la confiance publique et, d'autre part, des circonstances atténuantes (bonne volonté, surcharge de travail) et des avertissements antérieurs ; ces éléments permettent de calibrer la sévérité de la peine applicable.",
+        "courtVerbatim": "L'assistant de parquet doit faire l'objet d'une peine majeure du premier degré compte tenu des avertissements verbaux déjà reçus au sujet tant de la lenteur du travail que de la difficulté de respecter des priorités parmi les tâches à accomplir. Il convient aussi de tenir compte du préjudice qui a pu résulter des manquements pour l'exercice de l'action publique. Cependant, compte tenu de la bonne volonté manifestée par la personne concernée comme du fait qu'il a accepté de prendre en charge du travail complémentaire qui l'a finalement débordé, il ne s'indique pas de prononcer une sanction trop sévère. La sanction de la retenue de traitement d'une durée d'une semaine paraît dès lors la plus appropriée à la gravité des faits.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors de la fixation de la sanction disciplinaire pour manquements affectant le fonctionnement de la justice et la confiance institutionnelle.",
+        "relevantFactualContext": "L'assistant de parquet avait reçu des avertissements verbaux pour lenteur et difficulté à respecter les priorités ; il a laissé des dossiers s'accumuler, causant des retards, mais avait aussi accepté du travail complémentaire qui l'a débordé, et a manifesté une certaine bonne volonté.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:NTRCND:2007:AVIS.20070919.12-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:NTRCND:2007:AVIS.20070919.12-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "MEDIUM",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le Conseil disciplinaire a sanctionné un assistant au parquet pour manquements graves à ses devoirs en laissant s'accumuler des dossiers au point d'empêcher leur traitement dans des délais raisonnables, portant atteinte au bon fonctionnement de la justice et à la confiance en l'institution. Il estime qu'une peine majeure du premier degré s'impose compte tenu des avertissements et du préjudice potentiel pour l'action publique, mais, en raison de la bonne volonté et d'une surcharge de travail exceptionnelle, prononce une retenue de traitement d'une semaine."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:NTRCND:2007:AVIS.20070919.12-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Extraits de l'avis Une peine disciplinaire s'impose lorsque, conformément à l'article 404 du Code judiciaire, la personne concernée manque aux devoirs de sa charge ou, par sa conduite, porte atteinte à la dignité de son caractère ou encore lorsqu'elle néglige les tâches de sa charge et porte ainsi atteinte au bon fonctionnement de la justice ou à la confiance en l'institution. Le Conseil est d'avis que lorsqu'un assistant à un parquet ne se préoccupe pas de dossiers qui lui sont confiés et les laisse s'accumuler dans une armoire ou sur son bureau empêchant par là que les magistrats concernés puissent les traiter dans un délai raisonnable, il manque gravement aux devoirs de sa charge mais également porte tout aussi gravement atteinte au bon fonctionnement de la justice et à la confiance en l'institution. L'assistant de parquet doit faire l'objet d'une peine majeure du premier degré compte tenu des avertissements verbaux déjà reçus au sujet tant de la lenteur du travail que de la difficulté de respecter des priorités parmi les tâches à accomplir. Il convient aussi de tenir compte du préjudice qui a pu résulter des manquements pour l'exercice de l'action publique. Cependant, compte tenu de la bonne volonté manifestée par la personne concernée comme du fait qu'il a accepté de prendre en charge du travail complémentaire qui l'a finalement débordé, il ne s'indique pas de prononcer une sanction trop sévère. La sanction de la retenue de traitement d'une durée d'une semaine paraît dès lors la plus appropriée à la gravité des faits.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:NTRCND:2007:AVIS.20070919.12-001"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 1,
+      "citationStatistics": {
+        "totalCitations": 1,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 1,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2007:AVIS.20070919.12-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Extraits de l'avis Une peine disciplinaire s'impose lorsque, conformément à l'article 404 du Code judiciaire, la personne concernée manque aux devoirs de sa charge ou, par sa conduite, porte atteinte à la dignité de son caractère ou encore lorsqu'elle néglige les tâches de sa charge et porte ainsi atteinte au bon fonctionnement de la justice ou à la confiance en l'institution. Le Conseil est d'avis que lorsqu'un assistant à un parquet ne se préoccupe pas de dossiers qui lui sont confiés et les laisse s'accumuler dans une armoire ou sur son bureau empêchant par là que les magistrats concernés puissent les traiter dans un délai raisonnable, il manque gravement aux devoirs de sa charge mais également porte tout aussi gravement atteinte au bon fonctionnement de la justice et à la confiance en l'institution. L'assistant de parquet doit faire l'objet d'une peine majeure du premier degré compte tenu des avertissements verbaux déjà reçus au sujet tant de la lenteur du travail que de la difficulté de respecter des priorités parmi les tâches à accomplir. Il convient aussi de tenir compte du préjudice qui a pu résulter des manquements pour l'exercice de l'action publique. Cependant, compte tenu de la bonne volonté manifestée par la personne concernée comme du fait qu'il a accepté de prendre en charge du travail complémentaire qui l'a finalement débordé, il ne s'indique pas de prononcer une sanction trop sévère. La sanction de la retenue de traitement d'une durée d'une semaine paraît dès lors la plus appropriée à la gravité des faits.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2007:AVIS.20070919.12-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Extraits de l'avis Une peine disciplinaire s'impose lorsque, conformément à l'article 404 du Code judiciaire, la personne concernée manque aux devoirs de sa charge ou, par sa conduite, porte atteinte à la dignité de son caractère ou encore lorsqu'elle néglige les tâches de sa charge et porte ainsi atteinte au bon fonctionnement de la justice ou à la confiance en l'institution. Le Conseil est d'avis que lorsqu'un assistant à un parquet ne se préoccupe pas de dossiers qui lui sont confiés et les laisse s'accumuler dans une armoire ou sur son bureau empêchant par là que les magistrats concernés puissent les traiter dans un délai raisonnable, il manque gravement aux devoirs de sa charge mais également porte tout aussi gravement atteinte au bon fonctionnement de la justice et à la confiance en l'institution. L'assistant de parquet doit faire l'objet d'une peine majeure du premier degré compte tenu des avertissements verbaux déjà reçus au sujet tant de la lenteur du travail que de la difficulté de respecter des priorités parmi les tâches à accomplir. Il convient aussi de tenir compte du préjudice qui a pu résulter des manquements pour l'exercice de l'action publique. Cependant, compte tenu de la bonne volonté manifestée par la personne concernée comme du fait qu'il a accepté de prendre en charge du travail complémentaire qui l'a finalement débordé, il ne s'indique pas de prononcer une sanction trop sévère. La sanction de la retenue de traitement d'une durée d'une semaine paraît dès lors la plus appropriée à la gravité des faits.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

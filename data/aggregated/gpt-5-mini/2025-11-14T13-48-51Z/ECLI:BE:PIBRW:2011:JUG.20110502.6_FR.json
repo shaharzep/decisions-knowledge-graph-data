@@ -1,0 +1,520 @@
+{
+  "decision_id": "ECLI:BE:PIBRW:2011:JUG.20110502.6",
+  "language": "FR",
+  "metadata": {
+    "id": 39172,
+    "court_ecli_code": "PIBRW",
+    "court_name": "Tribunal de première instance du Brabant Wallon",
+    "decision_date": "2011-05-02",
+    "decision_type_ecli_code": "JUG",
+    "decision_type_name": "Jugement",
+    "md_length": 21852,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Tribunal de première instance du Brabant Wallon, 02 mai 2011, Jugement n° 10/917/A, ECLI:BE:PIBRW:2011:JUG.20110502.6"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:PIBRW:2011:JUG.20110502.6-001",
+        "name": "A.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:PIBRW:2011:JUG.20110502.6-002",
+        "name": "B.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:PIBRW:2011:JUG.20110502.6-003",
+        "name": "S.A. T.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:PIBRW:2011:JUG.20110502.6-004",
+        "name": "AIR SEYCHELLES",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "A et B ont réservé auprès de la S.A. T. deux forfaits voyage au prix de 9.263 euro à destination de l'île Silhouette aux Seychelles pour la période du 23 au 28 décembre 2009. Ce forfait comprenait le transport assuré par la compagnie aérienne AIR SEYCHELLES au départ de Paris. Arrivés à destination, A et B ont constaté que la valise de B avait été perdue durant le voyage, bagage qu'ils n'ont récupéré que le 16 janvier 2010. L'île Silhouette étant petite et ne comprenant, outre un village de 136 habitants, que l'hôtel dans lequel ils séjournaient, B n'a pu acquérir sur l'île les effets nécessaires au bon déroulement de son séjour, outre la perte d'un médicament indispensable à son bien-être. Par courrier du 10 février 2010, le conseil de A et B a mis en demeure la S.A. T. ainsi que la compagnie aérienne AIR SEYCHELLES de leur payer une somme de 10.000 euro à titre d'indemnisation. Le 11 février 2010, AIR SEYCHELLES a effectué deux propositions de dédommagement, soit le paiement d'une somme de 1.150 euro ou une offre de billet d'avion Paris-Mahé d'une valeur de 1.600 euro. A et B n'ont pas répondu et ont introduit la présente procédure.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:PIBRW:2011:JUG.20110502.6-001",
+          "requests": "Condamner la S.A. T. à leur payer la somme de 9.263 euro à augmenter des intérêts compensatoires au taux légal depuis le 1er mars 2010 et ensuite des intérêts judiciaires; à leur payer la contrevaleur en euros de 12.424,43 roupies seychelloises à augmenter des intérêts moratoires depuis le 29 décembre 2009 et des intérêts judiciaires; aux dépens et dire le jugement exécutoire."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:PIBRW:2011:JUG.20110502.6-002",
+          "requests": "Condamner la S.A. T. à leur payer la somme de 9.263 euro à augmenter des intérêts compensatoires au taux légal depuis le 1er mars 2010 et ensuite des intérêts judiciaires; à leur payer la contrevaleur en euros de 12.424,43 roupies seychelloises à augmenter des intérêts moratoires depuis le 29 décembre 2009 et des intérêts judiciaires; aux dépens et dire le jugement exécutoire."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:PIBRW:2011:JUG.20110502.6-003",
+          "requests": "Déclarer la demande recevable uniquement dans le chef de B mais non fondée; subsidiairement limiter le dédommagement à la somme de 1.150 euro; à titre infiniment subsidiaire limiter sa responsabilité ex aequo et bono à 1.150 euro; prendre acte de la proposition d'AIR SEYCHELLES de 1.150 euro; condamner A et B aux dépens."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:PIBRW:2011:JUG.20110502.6-001",
+          "argument": "A et B soutiennent que la S.A. T., en tant qu'organisateur de voyages régi par la loi du 16 février 1994, a manqué à son obligation de restituer les bagages à l'arrivée et est dès lors responsable du dommage subi sans possibilité d'application d'une limitation de responsabilité; ils demandent la réparation intégrale du prix du voyage et du coût des effets achetés sur place en raison de la perte de jouissance et du dommage matériel causés par la non-restitution de la valise de B.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:PIBRW:2011:JUG.20110502.6-003",
+          "argument": "La S.A. T. soutient principalement qu'elle n'a commis aucune faute et subsidiairement que ses conditions générales et la convention internationale applicable (convention de Varsovie) limitent sa responsabilité, de sorte que l'indemnisation matérielle devrait être limitée à 1.150 euro par passager; elle demande en outre que la demande de A soit déclarée irrecevable et sollicite la condamnation des demandeurs aux dépens, en se fondant aussi sur la proposition d'AIR SEYCHELLES du 11 février 2010.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS,\n\nLe tribunal, statuant contradictoirement et en premier ressort,\n\nDéclare la demande recevable et partiellement fondée,\n\nCondamne la S.A. T. à payer à A et B :\n\n- la contrevaleur en euros, à la date du présent jugement, de la somme de 12.424,43 roupies seychelloises, à augmenter des intérêts moratoires au taux légal depuis le 29 décembre 2009 et des intérêts judiciaires ensuite.\n\n- la somme de 1.500 euro à majorer des intérêts compensatoires au taux légal à partir 1er mars 2010 et judiciaires ensuite.\n\nCondamne la S.A. T. aux entiers dépens de l'instance liquidés pour A et B à la somme de 1.441,30 euro (231,30 euro de frais de citation et 1.210 d'indemnité de procédure de base).",
+      "outcome": "CONDAMNATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-001",
+        "internalParentActId": "ACT-ECLI:BE:PIBRW:2011:JUG.20110502.6-001",
+        "provisionNumber": "article 17",
+        "provisionNumberKey": "17",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour entend l'article 17 du Code judiciaire comme conférant qualité et intérêt à agir à une personne qui, même si son propre bien n'a pas été endommagé, subit des conséquences directes liées à l'inexécution contractuelle affectant un co-voyageur (ici l'épouse). Il suffit d'un intérêt lié aux attentes contractuelles du voyage pour la recevabilité.",
+        "relevantFactualContext": "A n'a pas vu son propre bagage perdu mais voyageait avec son épouse B dont la valise a été égarée; les chaussures de randonnée d'A se trouvaient dans la valise de B, de sorte qu'A a subi des conséquences matérielles durant le séjour."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-002",
+        "internalParentActId": "ACT-ECLI:BE:PIBRW:2011:JUG.20110502.6-002",
+        "provisionNumber": "article 17",
+        "provisionNumberKey": "17",
+        "parentActType": "LOI",
+        "parentActName": "loi du 16 février 1994 régissant le contrat d'organisation de voyages et le contrat d'intermédiaire de voyages",
+        "parentActDate": "1994-02-16",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 17 de la loi de 1994 comme imposant à l'organisateur la responsabilité de la bonne exécution du contrat au regard des attentes raisonnables du voyageur, y compris l'obligation de transporter et de restituer les bagages. Cette responsabilité vise les actes et négligences de ses préposés et des prestataires mobilisés.",
+        "relevantFactualContext": "A et B ont réservé un forfait incluant transport assuré par AIR SEYCHELLES; la valise de B n'est pas arrivée à l'hôtel et n'a été restituée que le 16 janvier 2010, engageant l'application de l'obligation de restitution visée par l'article."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-003",
+        "internalParentActId": "ACT-ECLI:BE:PIBRW:2011:JUG.20110502.6-002",
+        "provisionNumber": "article 18, §1er-§2-§3",
+        "provisionNumberKey": "18",
+        "parentActType": "LOI",
+        "parentActName": "loi du 16 février 1994 régissant le contrat d'organisation de voyages et le contrat d'intermédiaire de voyages",
+        "parentActDate": "1994-02-16",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour retient que l'article 18 instaure une obligation de résultat de l'organisateur pour tout dommage lié à l'inexécution de ses obligations; la présomption de responsabilité pèse sur l'organisateur, qui ne peut renverser cette présomption qu'en prouvant les cas limitatifs du §2 (faute du voyageur, fait imprévisible/insurmontable d'un tiers étranger, force majeure). Le §3 impose une obligation d'assistance de moyen pendant l'exécution.",
+        "relevantFactualContext": "Les bagages confiés à AIR SEYCHELLES ont été mal acheminés (valise de B envoyée à Beyrouth); il n'y a pas de faute imputable aux voyageurs ni de force majeure et la S.A. T. n'a pas renversé la présomption d'après les éléments fournis."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-004",
+        "internalParentActId": "ACT-ECLI:BE:PIBRW:2011:JUG.20110502.6-002",
+        "provisionNumber": "article 19, §1er-§2-§3-§4",
+        "provisionNumberKey": "19",
+        "parentActType": "LOI",
+        "parentActName": "loi du 16 février 1994 régissant le contrat d'organisation de voyages et le contrat d'intermédiaire de voyages",
+        "parentActDate": "1994-02-16",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour explique que l'article 19 autorise l'organisateur, lorsque des prestations sont régies par une convention internationale, à exclure ou limiter sa responsabilité conformément à cette convention (§3), mais que l'article impose parallèlement (§4) une indemnisation équitable de la perte de jouissance du voyage qui ne peut être limitée. Ainsi les plafonds internationaux s'appliquent aux dommages matériels, sans emporter la réparation du trouble de jouissance exigée par la loi belge.",
+        "relevantFactualContext": "La S.A. T. invoque la Convention de Varsovie pour limiter l'indemnisation des bagages; le tribunal admet l'application de la convention pour le plafond matériel mais retient séparément un dédommagement pour perte de jouissance."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-005",
+        "internalParentActId": "ACT-ECLI:BE:PIBRW:2011:JUG.20110502.6-003",
+        "provisionNumber": "article 22",
+        "provisionNumberKey": "22",
+        "parentActType": "TRAITE",
+        "parentActName": "Convention pour l'unification de certaines règles relatives au transport aérien international, signée à Varsovie le 12 octobre 1929, telle que modifiée par le Protocole additionnel n°3",
+        "parentActDate": "1929-10-12",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 22 de la Convention de Varsovie comme établissant une présomption de responsabilité du transporteur pour la perte de bagages mais en limitant cette responsabilité à 1.000 DTS par passager; cette limitation peut être opposée par l'organisateur en vertu de l'article 19 §3, sans préjudice de l'obligation légale belge d'indemniser la perte de jouissance prévue à l'article 19 §4.",
+        "relevantFactualContext": "La valise de B a été égarée pendant le transport assuré par AIR SEYCHELLES; la Cour retient la conversion du plafond conventionnel à environ 1.150 euro par passager et alloue les sommes matérielles et, distinctement, l'indemnité pour perte de jouissance."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "EU",
+        "courtName": "Cour de justice de l'Union européenne",
+        "date": "2010-05-06",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "DISTINGUISHED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:PIBRW:2011:JUG.20110502.6-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit de la consommation",
+      "Forfait voyage",
+      "Perte de bagage",
+      "Transport aérien",
+      "Séjour île isolée",
+      "Responsabilité organisateur",
+      "Indemnisation bagages",
+      "Perte de jouissance",
+      "Limitation Convention de Varsovie",
+      "Hôtel 5 étoiles"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRW:2011:JUG.20110502.6-001",
+        "text": "Aux fins de recevabilité, l'article 17 confère qualité et intérêt à agir à une personne qui, bien que n'ayant pas vu son propre bien endommagé, subit des conséquences directes liées à l'inexécution contractuelle affectant un co‑voyageur; un intérêt lié aux attentes contractuelles du voyage suffit pour former une demande recevable.",
+        "courtVerbatim": "S'il est exact que le bagage de A a été correctement acheminé, il y a lieu de constater qu'il a toutefois qualité et intérêt au sens de l'article 17 du Code judiciaire, dans la mesure où le voyage devait se dérouler avec son épouse, B si bien qu'il a également dû subir les conséquences de la perte du bagage de cette dernière, outre le fait que ses chaussure de randonnée se trouvaient dans ladite valise. La demande de A est donc recevable.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une personne liée au même forfait voyage subit des conséquences directes en raison de l'inexécution d'une prestation affectant un co‑voyageur (par ex. perte de bagages contenant des effets personnels de la personne).",
+        "relevantFactualContext": "A, voyageant avec son épouse B, n'a pas perdu son bagage mais a souffert des conséquences matérielles et pratiques de la perte de la valise de B (les chaussures de randonnée d'A se trouvaient dans la valise de B), motivant la recevabilité de sa demande contre l'organisateur.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRW:2011:JUG.20110502.6-002",
+        "text": "L'article 17 de la loi du 16 février 1994 impose à l'organisateur de voyages la responsabilité de la bonne exécution du contrat selon les attentes raisonnables du voyageur; cette responsabilité couvre les obligations dévolues à des prestataires tiers et inclut notamment l'obligation de transporter et de restituer les bagages à l'arrivée.",
+        "courtVerbatim": "L'organisateur de voyages est responsable de la bonne exécution du contrat conformément aux attentes que le voyageur peut raisonnablement avoir sur la base des dispositions du contrat d'organisation de voyages et des obligations découlant de celui-ci, indépendamment du fait que ces obligations doivent être remplies par lui-même ou d'autres prestataires de services, et ce sans préjudice du droit de l'organisateur de voyages de poursuivre les autres prestataires de services en responsabilité. L'organisateur de voyages a, notamment, l'obligation de transporter les personnes et les bagages, ce qui inclut celle de restituer lesdits bagages lors de l'arrivée sur place des voyageurs. Un manquement à cette obligation est imputable à l'organisateur de voyages même si elle devait être remplie par un autre prestataire.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque l'organisateur d'un forfait doit assurer ou faire assurer le transport et la restitution des bagages et que le résultat attendu (acheminement/restauration des bagages) n'est pas atteint.",
+        "relevantFactualContext": "Pour un forfait incluant le transport assuré par AIR SEYCHELLES, la valise de B n'est pas arrivée à l'hôtel et n'a été restituée que plusieurs jours plus tard; le tribunal retient que l'obligation de restitution incombe à l'organisateur même si l'exécution incombait au transporteur.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRW:2011:JUG.20110502.6-003",
+        "text": "L'article 18 instaure une obligation de résultat de l'organisateur: le voyageur doit prouver l'existence de l'obligation contractuelle inexécutée et l'absence du résultat promis; il n'a pas à prouver la faute. La présomption de responsabilité pèse sur l'organisateur, qui ne peut la renverser qu'en rapportant la preuve des cas limitatifs visés au §2 (faute du voyageur, fait imprévisible/insurmontable d'un tiers ou force majeure). L'obligation d'assistance du §3 est une obligation de moyens imposant diligence et assistance.",
+        "courtVerbatim": "Selon l'article 18 de ladite loi, l'organisateur de voyage est responsable de tout dommage subi par le voyageur en raison du non-respect de tout ou partie de ses obligations (§1er). Il peut toutefois s'exonérer de tout ou partie de sa responsabilité en apportant la preuve que les manquements sont, soit imputables au voyageur, soit imprévisibles ou insurmontables et imputables à un tiers étranger aux prestations visées au contrat, soit encore imputables à un cas de force majeure (§2). Dans les deux derniers cas néanmoins, il est tenu, durant l'exécution du contrat, de faire diligence pour venir en aide et prêter assistance au voyageur en difficulté (§3). L'organisateur de voyage est donc responsable pour ses propres actes et négligences, pour ceux de ses préposés et représentants et pour ceux des prestataires de services auxquels il fait appel pour la réalisation du voyage à forfait. Outre qu'il est tenu responsable de la bonne exécution du contrat, il est également responsable pour tout dommage subi par le voyageur en cas de manquement à l'une ou plusieurs de ses obligations. Il s'agit d'une obligation de résultat. Le voyageur doit donc uniquement prouver l'existence de l'obligation contractuelle qu'il estime inexécutée et le fait que le résultat promis (eu égard à des attentes raisonnables) n'a pas été atteint. Il ne doit pas en outre prouver la circonstance que l'organisateur aurait commis une faute. C'est à l'organisateur de tenter de renverser cette présomption de responsabilité en se fondant exclusivement sur les cas d'exonération de responsabilité de l'article 18, §2 de la loi.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque le voyageur réclame réparation pour dommage résultant de l'inexécution d'obligations contractuelles de l'organisateur (p. ex. perte ou retard de bagages).",
+        "relevantFactualContext": "La mauvaise acheminement de la valise de B a empêché l'atteinte du résultat promis; le tribunal retient l'existence des conditions de responsabilité de l'organisateur et constate que celui-ci n'a pas renversé la présomption au titre de l'article 18 §2.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRW:2011:JUG.20110502.6-004",
+        "text": "Lorsque des prestations du forfait sont régies par une convention internationale de transport, l'organisateur peut invoquer, en application de l'article 19 §3, les limitations ou exclusions de responsabilité prévues par cette convention pour les dommages matériels; en revanche l'article 19 §4 impose distinctement un dédommagement équitable pour la perte de jouissance du voyage qui ne peut être limité par ces conventions et doit être indemnisé en supplément.",
+        "courtVerbatim": "La Convention pour l'unification de certaines règles relatives au transport aérien international signée à Varsovie... dispose que « Dans le transport de bagages, la responsabilité du transporteur en cas de destruction, perte, avarie ou retard est limitée à la somme de 1.000 Droits de Tirage spéciaux par passager. » Cette limitation par passager peut aussi être invoquée par l'organisateur de voyage dans sa relation avec le voyageur en vertu de l'article 19, §3, de la loi précitée. Toutefois, l'organisateur de voyage est également tenu à un dédommagement équitable pour la perte de la jouissance du voyage, le terme « également » repris à l'article 19, §4, de la loi impliquant nécessairement l'indemnisation de ce dommage en supplément des limitations autorisées par les paragraphes 1 à 3 dudit article et sans possibilité de limitation. L'interprétation de l'article 22 § 2 de la Convention de Montréal donnée par la Cour de justice de l'Union européenne dans son arrêt du 6 mai 2010 n'a pas d'incidence sur l'interprétation de l'article 19 § 4 de la loi du 16 février 1994... le législateur belge ayant souhaité une indemnisation spécifique du trouble de jouissance additionnée à la réparation éventuelle de dommages matériels.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque le dommage invoqué comprend à la fois des pertes matérielles régies par une convention internationale de transport et un trouble de jouissance réclamé au titre de l'article 19 §4 de la loi de 1994.",
+        "relevantFactualContext": "La S.A. T. invoquait la Convention de Varsovie pour limiter l'indemnisation des bagages à environ 1.150 euro par passager; le tribunal applique ce plafond pour les dommages matériels mais alloue distinctement un dédommagement forfaitaire pour la perte de jouissance.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": true
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-004",
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-005"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:PIBRW:2011:JUG.20110502.6-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Les demandeurs ont saisi le tribunal contre la société organisatrice d'un voyage forfaitaire après la perte d'un bagage lors du transport, sollicitant réparation du préjudice matériel et du trouble de jouissance. Le tribunal déclare la demande partiellement fondée et condamne la société à payer la contrevaleur en euros de 12.424,43 roupies seychelloises pour achats effectués et une somme forfaitaire de 1.500 EUR pour perte de jouissance, majorées d'intérêts, et aux dépens ; l'exécution provisoire est refusée. Point de droit: en vertu de la loi du 16 février 1994 l'organisateur est présumé responsable de la bonne exécution du contrat et ne peut se dégager du fait du transporteur, la Convention de Varsovie limitant la réparation matérielle mais non l'indemnisation du trouble de jouissance."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-001",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">La S.A. T. soutient que la demande de A est irrecevable, seul le bagage de B ayant été perdu. S'il est exact que le bagage de A a été correctement acheminé, il y a lieu de constater qu'il a toutefois qualité et intérêt au sens de l'article 17 du Code judiciaire, dans la mesure où le voyage devait se dérouler avec son épouse, B si bien qu'il a également dû subir les conséquences de la perte du bagage de cette dernière, outre le fait que ses chaussure de randonnée se trouvaient dans ladite valise. La demande de A est donc recevable.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-002",
+        "relatedFullTextCitations": [
+          "            <li><p class=\"case-section__paragraph\">L'article 17 de cette loi dispose que :</p>\n                <blockquote class=\"case-quote\">L'organisateur de voyages est responsable de la bonne exécution du contrat conformément aux attentes que le voyageur peut raisonnablement avoir sur la base des dispositions du contrat d'organisation de voyages et des obligations découlant de celui-ci, indépendamment du fait que ces obligations doivent être remplies par lui-même ou d'autres prestataires de services, et ce sans préjudice du droit de l'organisateur de voyages de poursuivre les autres prestataires de services en responsabilité. L'organisateur de voyages est responsable des actes et négligences de ses préposés et représentants, agissant dans l'exercice de leurs fonctions, autant que de ses propres actes et négligences.</blockquote>\n                <p class=\"case-section__paragraph\">L'organisateur de voyages a, notamment, l'obligation de transporter les personnes et les bagages, ce qui inclut celle de restituer lesdits bagages lors de l'arrivée sur place des voyageurs. Un manquement à cette obligation est imputable à l'organisateur de voyages même si elle devait être remplie par un autre prestataire.</p></li>",
+          "            <li><p class=\"case-section__paragraph\">La bonne exécution du contrat par la S.A. T. est liée aux attentes raisonnables de A et B sur base des dispositions du contrat. Il ne fait aucun doute que l'acheminement des bagages sur le lieu de vacances et ce dès le début de celles-ci était une obligation découlant du contrat. Ce résultat n'a pas été atteint en l'espèce, B n'ayant récupéré sa valise qu'après son retour en Belgique. La S.A. T. avait l'obligation de transporter les personnes et les bagages, ce qui inclut celle de restituer lesdits bagages, que cette obligation doive être remplie par elle-même ou par le transporteur. Les conditions légales prévues par les articles 17 et 18 §1er de la loi précitée sont donc rencontrées. La S.A. T. est donc présumée responsable du dommage subi par A et B.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-002",
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-003",
+        "relatedFullTextCitations": [
+          "            <li><p class=\"case-section__paragraph\">Selon l'article 18 de ladite loi, l'organisateur de voyage est responsable de tout dommage subi par le voyageur en raison du non-respect de tout ou partie de ses obligations (§1er). Il peut toutefois s'exonérer de tout ou partie de sa responsabilité en apportant la preuve que les manquements sont, soit imputables au voyageur, soit imprévisibles ou insurmontables et imputables à un tiers étranger aux prestations visées au contrat, soit encore imputables à un cas de force majeur (§2). Dans les deux derniers cas néanmoins, il est tenu, durant l'exécution du contrat, de faire diligence pour venir en aide et prêter assistance au voyageur en difficulté (§3). L'organisateur de voyage est donc responsable pour ses propres actes et négligences, pour ceux de ses préposés et représentants et pour ceux des prestataires de services auxquels il fait appel pour la réalisation du voyage à forfait. Outre qu'il est tenu responsable de la bonne exécution du contrat, il est également responsable pour tout dommage subi par le voyageur en cas de manquement à l'une ou plusieurs de ses obligations. Il s'agit d'une obligation de résultat. Le voyageur doit donc uniquement prouver l'existence de l'obligation contractuelle qu'il estime inexécutée et le fait que le résultat promis (eu égard à des attentes raisonnables) n'a pas été atteint. Il ne doit pas en outre prouver la circonstance que l'organisateur aurait commis une faute. C'est à l'organisateur de tenter de renverser cette présomption de responsabilité en se fondant exclusivement sur les cas d'exonération de responsabilité de l'article 18, §2 de la loi.</p></li>",
+          "            <li><p class=\"case-section__paragraph\">La bonne exécution du contrat par la S.A. T. est liée aux attentes raisonnables de A et B sur base des dispositions du contrat. Il ne fait aucun doute que l'acheminement des bagages sur le lieu de vacances et ce dès le début de celles-ci était une obligation découlant du contrat. Ce résultat n'a pas été atteint en l'espèce, B n'ayant récupéré sa valise qu'après son retour en Belgique. La S.A. T. avait l'obligation de transporter les personnes et les bagages, ce qui inclut celle de restituer lesdits bagages, que cette obligation doive être remplie par elle-même ou par le transporteur. Les conditions légales prévues par les articles 17 et 18 §1er de la loi précitée sont donc rencontrées. La S.A. T. est donc présumée responsable du dommage subi par A et B.</p></li>",
+          "            <li><p class=\"case-section__paragraph\">Conformément au contrat de voyage, les bagages ont été confiés par A et B à l'aéroport de Paris à la compagnie aérienne AIR SEYCHELLES chargée de les transporter à destination. Or, il ressort des éléments du dossier que la valise de B a été acheminée vers Beyrouth. Un éventuel problème d'étiquetage du bagage ne peut nullement être reproché à A et B. Il ne s'agit nullement d'une faute commise par A et B pas plus que d'un cas de force majeure. Par ailleurs, le mauvaise acheminement d'un bagage ne peut nullement être vu comme un manquement imprévisible, vu la relative fréquence de ce problème lors des voyages en avion. Enfin, la compagnie aérienne AIR SEYCHELLES ou le service des bagages de l'aéroport de Paris ne sont nullement un tiers au sens du contrat de voyage. Nonobstant le fait que c'est la compagnie aérienne AIR SEYCHELLES qui a égaré le bagage, la S.A. T. ne peut éluder sa responsabilité en tentant de démontrer qu'elle s'est comportée comme un organisateur de voyages diligent en faisant le choix de ce partenaire. La S.A. T. ne renverse pas la présomption de responsabilité conformément à l'article 18 § 2 de la loi précitée.</p></li>",
+          "                <p class=\"case-section__paragraph\">Cette argumentation, si elle semble démontrer l'absence de faute dans le chef de la S.A. T. fondée sur l'article 18 § 3 de la loi précitée, n'a toutefois pas d'incidence sur sa faute présumée reprise ci-avant.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-003",
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-004",
+        "relatedFullTextCitations": [
+          "            <li><p class=\"case-section__paragraph\">Enfin, l'article 19 de la loi dispose :</p>\n                <blockquote class=\"case-quote\">§1er ... §2. L'organisateur de voyages ne peut exclure ou limiter sa responsabilité pour les dommages non corporels découlant de son fait ou de sa négligence, de l'intention de causer le dommage ou d'une faute grave. §3. Si une prestation faisant l'objet du contrat de voyage est soumise à l'application d'une convention internationale, l'organisateur de voyages peut exclure ou limiter sa responsabilité conformément à la convention internationale qui régit ces prestations. §4. L'organisateur de voyages est également tenu, en cas de non-respect d'une de ses obligations, à un dédommagement équitable de la perte de jouissance du voyage. §5. ...</blockquote>\n                <p class=\"case-section__paragraph\">La Convention pour l'unification de certaines règles relatives au transport aérien international signée à Varsovie le 12 octobre 1929 instaure une présomption de responsabilité qui pèse sur le transporteur pour le dommage survenu notamment en cas de perte de bagages enregistrés, au cours de toute période durant laquelle le transporteur en avait la garde. La S.A. T. avance qu'il s'agit de la convention applicable au cas d'espèce, la Convention de Montréal, dont l'objet est similaire, n'ayant pas été ratifiée par Les Seychelles. L'article 22 de la convention de Varsovie tel que modifié par le Protocole additionnel no 3 portant modification de la Convention pour l'unification de certaines règles relatives au transport aérien international, relatif à la « RESPONSABILITÉ DU TRANSPORTEUR », dispose que « Dans le transport de bagages, la responsabilité du transporteur en cas de destruction, perte, avarie ou retard est limitée à la somme de 1.000 Droits de Tirage spéciaux par passager. » Cette limitation par passager peut aussi être invoquée par l'organisateur de voyage dans sa relation avec le voyageur en vertu de l'article 19, §3, de la loi précitée. Toutefois, l'organisateur de voyage est également tenu à un dédommagement équitable pour la perte de la jouissance du voyage , le terme « également » repris à l'article 19, §4, de la loi impliquant nécessairement l'indemnisation de ce dommage en supplément des limitations autorisées par les paragraphes 1 à 3 dudit article et sans possibilité de limitation. L'interprétation de l'article 22 § 2 de la Convention de Montréal donnée par la Cour de justice de l'Union européenne dans son arrêt du 6 mai 2010 n'a pas d'incidence sur l'interprétation de l'article 19 § 4 de la loi du 16 février 1994 régissant le contrat d'organisation de voyages et le contrat d'intermédiaire de voyages, le législateur belge ayant souhaité une indemnisation spécifique du trouble de jouissance additionnée à la réparation éventuelle de dommages matériels notamment contenu dans l'article 19 § 3 de la loi qui seul fait référence à la Convention interprétée. De même, le fait que la directive 90/314/CEE dont la loi du 16 février 1994 est la transposition en droit belge n'envisagerait pas l'indemnisation d'un tel préjudice n'a pas d'incidence, le législateur belge étant parfaitement libre de s'écarter du socle commun à l'Union et d'adopter des dispositions plus protectrices pour ses consommateurs.</p></li>",
+          "        <p class=\"case-section__paragraph\">Les conditions générales de vente de la S.A. T. prévoient, sous le titre « responsabilité de l'organisateur de voyage », que :</p>\n        <blockquote class=\"case-quote\">Si une convention internationale est d'application à une prestation faisant l'objet du contrat de voyage, la responsabilité de l'organisateur de voyage est le cas échéant exclue ou limitée conformément à la convention.</blockquote>\n        <p class=\"case-section__paragraph\">C'est à tort que A et B soutiennent que lesdites conditions générales n'ont nullement été portées à leur connaissance puisqu'ils ne contestent pas que la S.A. T. était leur voyagiste habituel à cette époque et qu'ils lui avaient commandé plusieurs voyages durant l'année 2009 (ainsi que durant l'année 2010 ...). A et B n'invoque nullement la nullité de ladite clause. La convention de Varsovie est contractuellement applicable aux cas d'espèce. La S.A. T. ne peut dès lors être condamnée, dans le cadre de l'obligation qui pèse sur le transporteur, à une indemnisation plus élevée que ce montant (article 19 § 3 de la loi précitée). Toutefois, la S.A. T. est également tenue à un dédommagement équitable pour la perte de la jouissance du voyage (article 19 § 4 de la loi précitée).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-004",
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:PIBRW:2011:JUG.20110502.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-005",
+        "relatedFullTextCitations": [
+          "            <li><p class=\"case-section__paragraph\">Enfin, l'article 19 de la loi dispose :</p>\n                <blockquote class=\"case-quote\">§1er ... §2. L'organisateur de voyages ne peut exclure ou limiter sa responsabilité pour les dommages non corporels découlant de son fait ou de sa négligence, de l'intention de causer le dommage ou d'une faute grave. §3. Si une prestation faisant l'objet du contrat de voyage est soumise à l'application d'une convention internationale, l'organisateur de voyages peut exclure ou limiter sa responsabilité conformément à la convention internationale qui régit ces prestations. §4. L'organisateur de voyages est également tenu, en cas de non-respect d'une de ses obligations, à un dédommagement équitable de la perte de jouissance du voyage. §5. ...</blockquote>\n                <p class=\"case-section__paragraph\">La Convention pour l'unification de certaines règles relatives au transport aérien international signée à Varsovie le 12 octobre 1929 instaure une présomption de responsabilité qui pèse sur le transporteur pour le dommage survenu notamment en cas de perte de bagages enregistrés, au cours de toute période durant laquelle le transporteur en avait la garde. La S.A. T. avance qu'il s'agit de la convention applicable au cas d'espèce, la Convention de Montréal, dont l'objet est similaire, n'ayant pas été ratifiée par Les Seychelles. L'article 22 de la convention de Varsovie tel que modifié par le Protocole additionnel no 3 portant modification de la Convention pour l'unification de certaines règles relatives au transport aérien international, relatif à la « RESPONSABILITÉ DU TRANSPORTEUR », dispose que « Dans le transport de bagages, la responsabilité du transporteur en cas de destruction, perte, avarie ou retard est limitée à la somme de 1.000 Droits de Tirage spéciaux par passager. » Cette limitation par passager peut aussi être invoquée par l'organisateur de voyage dans sa relation avec le voyageur en vertu de l'article 19, §3, de la loi précitée. Toutefois, l'organisateur de voyage est également tenu à un dédommagement équitable pour la perte de la jouissance du voyage , le terme « également » repris à l'article 19, §4, de la loi impliquant nécessairement l'indemnisation de ce dommage en supplément des limitations autorisées par les paragraphes 1 à 3 dudit article et sans possibilité de limitation. L'interprétation de l'article 22 § 2 de la Convention de Montréal donnée par la Cour de justice de l'Union européenne dans son arrêt du 6 mai 2010 n'a pas d'incidence sur l'interprétation de l'article 19 § 4 de la loi du 16 février 1994 régissant le contrat d'organisation de voyages et le contrat d'intermédiaire de voyages, le législateur belge ayant souhaité une indemnisation spécifique du trouble de jouissance additionnée à la réparation éventuelle de dommages matériels notamment contenu dans l'article 19 § 3 de la loi qui seul fait référence à la Convention interprétée. De même, le fait que la directive 90/314/CEE dont la loi du 16 février 1994 est la transposition en droit belge n'envisagerait pas l'indemnisation d'un tel préjudice n'a pas d'incidence, le législateur belge étant parfaitement libre de s'écarter du socle commun à l'Union et d'adopter des dispositions plus protectrices pour ses consommateurs.</p></li>",
+          "        <p class=\"case-section__paragraph\">Il appartient à A et B de prouver l'évaluation de leur dommage. A et B sont partis en voyage avec deux bagages enregistrés, soit une grosse valise et une petite. La grosse valise n'est jamais arrivée. Il ne peut être sérieusement contesté que la grosse valise contenait les effets de B en ce compris un médicament (liquide interdit en cabine) ainsi que les chaussures de randonnée de A. Le bagage de B lui a été restitué après son retour en Belgique. Ce dommage ne comprend dès lors que les conséquences de la perte momentanée de la valise. Le voyage devant se dérouler sur une île « déserte » destinée aux adeptes de la randonnée et logés dans un hôtel de très grand luxe (5 étoiles), il ne peut être sérieusement contesté que ladite valise devait être remplie en conséquence et comprendre donc le nécessaire de randonnée, outre des habits de luxe pour cette catégorie d'hôtel, ainsi que tout le nécessaire pour ce type de voyage, des achats durant le séjour étant en principe exclus (absence de magasin sur l'île). A et B démontrent avoir acheté à l'hôtel le nécessaire « de base » pour une somme de 12.424,43 roupies seychelloises. Leur préjudice matériel se limite donc à cette somme. La présomption de responsabilité du transporteur pour la perte de bagages ne s'étend pas au-delà d'une somme, selon la conversion faite par la S.A. T., de 1.150 euro par passager (article 22 de la Convention précitée), si aucune déclaration spéciale ne lui a été faite au moment de la remise des bagages. A défaut d'autres éléments, il sera alloué à A et B la contrevaleur en euros, à la date du présent jugement, de la somme de 12.424,43 roupies seychelloises, à augmenter des intérêts moratoires au taux légal depuis le 29 décembre 2009 et des intérêts judiciaires ensuite. Cette somme doit aussi être mise à charge la S.A. T., en sa qualité d'organisateur de voyages. La somme allouée n'excède pas la limite fixée par le Convention de Varsovie que la S.A. T. est autorisée à invoquer, ce plafond étant repris par passager.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-005",
+          "ART-ECLI:BE:PIBRW:2011:JUG.20110502.6-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:PIBRW:2011:JUG.20110502.6-001"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 5,
+      "citationStatistics": {
+        "totalCitations": 11,
+        "avgCitationsPerProvision": 2.2,
+        "provisionsWithMinimalCitations": 4,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.8,
+        "avgDecisionsPerProvision": 0.4,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRW:2011:JUG.20110502.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La S.A. T. soutient que la demande de A est irrecevable, seul le bagage de B ayant été perdu. S'il est exact que le bagage de A a été correctement acheminé, il y a lieu de constater qu'il a toutefois qualité et intérêt au sens de l'article 17 du Code judiciaire, dans la mesure où le voyage devait se dérouler avec son épouse, B si bien qu'il a également dû subir les conséquences de la perte du bagage de cette dernière, outre le fait que ses chaussure de randonnée se trouvaient dans ladite valise. La demande de A est donc recevable.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRW:2011:JUG.20110502.6-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 17 de cette loi dispose que :</p>",
+          "<blockquote class=\"case-quote\">L'organisateur de voyages est responsable de la bonne exécution du contrat conformément aux attentes que le voyageur peut raisonnablement avoir sur la base des dispositions du contrat d'organisation de voyages et des obligations découlant de celui-ci, indépendamment du fait que ces obligations doivent être remplies par lui-même ou d'autres prestataires de services, et ce sans préjudice du droit de l'organisateur de voyages de poursuivre les autres prestataires de services en responsabilité. L'organisateur de voyages est responsable des actes et négligences de ses préposés et représentants, agissant dans l'exercice de leurs fonctions, autant que de ses propres actes et négligences.</blockquote>",
+          "<p class=\"case-section__paragraph\">L'organisateur de voyages a, notamment, l'obligation de transporter les personnes et les bagages, ce qui inclut celle de restituer lesdits bagages lors de l'arrivée sur place des voyageurs. Un manquement à cette obligation est imputable à l'organisateur de voyages même si elle devait être remplie par un autre prestataire.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRW:2011:JUG.20110502.6-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Selon l'article 18 de ladite loi, l'organisateur de voyage est responsable de tout dommage subi par le voyageur en raison du non-respect de tout ou partie de ses obligations (§1er). Il peut toutefois s'exonérer de tout ou partie de sa responsabilité en apportant la preuve que les manquements sont, soit imputables au voyageur, soit imprévisibles ou insurmontables et imputables à un tiers étranger aux prestations visées au contrat, soit encore imputables à un cas de force majeur (§2). Dans les deux derniers cas néanmoins, il est tenu, durant l'exécution du contrat, de faire diligence pour venir en aide et prêter assistance au voyageur en difficulté (§3). L'organisateur de voyage est donc responsable pour ses propres actes et négligences, pour ceux de ses préposés et représentants et pour ceux des prestataires de services auxquels il fait appel pour la réalisation du voyage à forfait. Outre qu'il est tenu responsable de la bonne exécution du contrat, il est également responsable pour tout dommage subi par le voyageur en cas de manquement à l'une ou plusieurs de ses obligations. Il s'agit d'une obligation de résultat. Le voyageur doit donc uniquement prouver l'existence de l'obligation contractuelle qu'il estime inexécutée et le fait que le résultat promis (eu égard à des attentes raisonnables) n'a pas été atteint. Il ne doit pas en outre prouver la circonstance que l'organisateur aurait commis une faute. C'est à l'organisateur de tenter de renverser cette présomption de responsabilité en se fondant exclusivement sur les cas d'exonération de responsabilité de l'article 18, §2 de la loi.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRW:2011:JUG.20110502.6-004",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Enfin, l'article 19 de la loi dispose :</p>\n                <blockquote class=\"case-quote\">§1er ... §2. L'organisateur de voyages ne peut exclure ou limiter sa responsabilité pour les dommages non corporels découlant de son fait ou de sa négligence, de l'intention de causer le dommage ou d'une faute grave. §3. Si une prestation faisant l'objet du contrat de voyage est soumise à l'application d'une convention internationale, l'organisateur de voyages peut exclure ou limiter sa responsabilité conformément à la convention internationale qui régit ces prestations. §4. L'organisateur de voyages est également tenu, en cas de non-respect d'une de ses obligations, à un dédommagement équitable de la perte de jouissance du voyage. §5. ...</blockquote>\n                <p class=\"case-section__paragraph\">La Convention pour l'unification de certaines règles relatives au transport aérien international signée à Varsovie le 12 octobre 1929 instaure une présomption de responsabilité qui pèse sur le transporteur pour le dommage survenu notamment en cas de perte de bagages enregistrés, au cours de toute période durant laquelle le transporteur en avait la garde. La S.A. T. avance qu'il s'agit de la convention applicable au cas d'espèce, la Convention de Montréal, dont l'objet est similaire, n'ayant pas été ratifiée par Les Seychelles. L'article 22 de la convention de Varsovie tel que modifié par le Protocole additionnel no 3 portant modification de la Convention pour l'unification de certaines règles relatives au transport aérien international, relatif à la « RESPONSABILITÉ DU TRANSPORTEUR », dispose que « Dans le transport de bagages, la responsabilité du transporteur en cas de destruction, perte, avarie ou retard est limitée à la somme de 1.000 Droits de Tirage spéciaux par passager. » Cette limitation par passager peut aussi être invoquée par l'organisateur de voyage dans sa relation avec le voyageur en vertu de l'article 19, §3, de la loi précitée. Toutefois, l'organisateur de voyage est également tenu à un dédommagement équitable pour la perte de la jouissance du voyage , le terme « également » repris à l'article 19, §4, de la loi impliquant nécessairement l'indemnisation de ce dommage en supplément des limitations autorisées par les paragraphes 1 à 3 dudit article et sans possibilité de limitation. L'interprétation de l'article 22 § 2 de la Convention de Montréal donnée par la Cour de justice de l'Union européenne dans son arrêt du 6 mai 2010 n'a pas d'incidence sur l'interprétation de l'article 19 § 4 de la loi du 16 février 1994 régissant le contrat d'organisation de voyages et le contrat d'intermédiaire de voyages, le législateur belge ayant souhaité une indemnisation spécifique du trouble de jouissance additionnée à la réparation éventuelle de dommages matériels notamment contenu dans l'article 19 § 3 de la loi qui seul fait référence à la Convention interprétée. De même, le fait que la directive 90/314/CEE dont la loi du 16 février 1994 est la transposition en droit belge n'envisagerait pas l'indemnisation d'un tel préjudice n'a pas d'incidence, le législateur belge étant parfaitement libre de s'écarter du socle commun à l'Union et d'adopter des dispositions plus protectrices pour ses consommateurs.</p></li>",
+          "<p class=\"case-section__paragraph\">Les conditions générales de vente de la S.A. T. prévoient, sous le titre « responsabilité de l'organisateur de voyage », que :</p>",
+          "<p class=\"case-section__paragraph\">C'est à tort que A et B soutiennent que lesdites conditions générales n'ont nullement été portées à leur connaissance puisqu'ils ne contestent pas que la S.A. T. était leur voyagiste habituel à cette époque et qu'ils lui avaient commandé plusieurs voyages durant l'année 2009 (ainsi que durant l'année 2010 ...). A et B n'invoque nullement la nullité de ladite clause. La convention de Varsovie est contractuellement applicable aux cas d'espèce. La S.A. T. ne peut dès lors être condamnée, dans le cadre de l'obligation qui pèse sur le transporteur, à une indemnisation plus élevée que ce montant (article 19 § 3 de la loi précitée). Toutefois, la S.A. T. est également tenue à un dédommagement équitable pour la perte de la jouissance du voyage (article 19 § 4 de la loi précitée).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 8,
+        "avgCitationsPerTeaching": 2,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 1,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

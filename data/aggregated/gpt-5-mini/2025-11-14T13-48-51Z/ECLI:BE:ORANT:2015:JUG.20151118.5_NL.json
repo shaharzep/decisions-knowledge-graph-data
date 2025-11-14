@@ -1,0 +1,341 @@
+{
+  "decision_id": "ECLI:BE:ORANT:2015:JUG.20151118.5",
+  "language": "NL",
+  "metadata": {
+    "id": 8944,
+    "court_ecli_code": "ORANT",
+    "court_name": "Ondernemingsrechtbank Antwerpen",
+    "decision_date": "2015-11-18",
+    "decision_type_ecli_code": "JUG",
+    "decision_type_name": "Vonnis",
+    "md_length": 7028,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Rechtbank van Koophandel Antwerpen, 18 november 2015, Rolnummer A/15/3831, ECLI:BE:ORANT:2015:JUG.20151118.5"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:ORANT:2015:JUG.20151118.5-001",
+        "name": "BVBA UPPER AT HOME",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ORANT:2015:JUG.20151118.5-002",
+        "name": "BVBA THE WORks",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "VERWEERDER"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De vordering werd ingeleid bij dagvaarding betekend op 10 april 2015. Eisende partij is de BVBA UPPER AT HOME (zetel te 9031 Drongen, Antoon Catriestraat 11), vertegenwoordigd door mr Geert PHILIPSEN. Verwerende partij is de BVBA THE WORks (zetel te 2800 Mechelen, Koningin Astridlaan 95), vertegenwoordigd door mr Joost VERbEEK. UPPER AT HOME vordert dat THE WORks door het gebruik van het teken Upperdare inbreuk pleegt op haar rechten uit de merken Upper (Benelux 756816), Upperdare (Benelux 776970) en het gemeenschapsmerk Upperathome (003859915), en vordert dat THE WORks wordt veroordeeld deze inbreuken te staken, onder verbeurte van een dwangsom. THE WORks formuleert een tegenvordering tot vervallenverklaring en doorhaling van de Benelux-merken 756816 (Upper) en 776970 (Upperdare) en vordert tevens een schadevergoeding wegens tergend en roekeloos geding van €2.500,00. Op 3 juni 2015 heeft deze rechtbank in een andere samenstelling op vordering van UPPER AT HOME een vonnis gewezen waarbij op tegenvordering het merk Upper volledig en het merk Upperdare gedeeltelijk vervallen werd verklaard (voor klasse 16). UPPER AT HOME heeft tegen dat vonnis hoger beroep ingesteld (hof van beroep Antwerpen, 2015 / AR / 1780, pleidooien 26 september 2016). Partijen legden geen syntheseconclusies neer ondanks een eerdere beveling; de rechtbank beschouwde de laatste conclusies als syntheseconclusies. De rechtbank vernam tijdens beraad het bestaan van de andere uitspraak en heropende de debatten om partijen standpunt te laten innemen en UPPER AT HOME gelegenheid te geven haar verweer te concretiseren inzake mogelijk opleggen van een geldboete voor onrechtmatige proceshouding (artikel 780bis Gerechtelijk Wetboek). De rechtbank bespreekt tevens toepasselijke Benelux-bepalingen betreffende doorhaling en de verwerking door het Benelux-Bureau en stelt een prejudiciële vraag aan het Benelux-Gerechtshof.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:ORANT:2015:JUG.20151118.5-001",
+          "requests": "UPPER AT HOME vordert dat wordt verklaard dat THE WORks inbreuk maakt op haar merken Upper, Upperdare en Upperathome en dat THE WORks veroordeeld wordt deze inbreuken te staken, onder verbeurte van een dwangsom."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:ORANT:2015:JUG.20151118.5-002",
+          "requests": "THE WORks vordert dat de Benelux-merken 756816 (Upper) en 776970 (Upperdare) vervallen worden verklaard en dat doorhaling wordt bevolen, en vordert een schadevergoeding wegens tergend en roekeloos geding van €2.500,00."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:ORANT:2015:JUG.20151118.5-001",
+          "argument": "UPPER AT HOME stelt dat de vervallenverklaring uit de eerdere uitspraak slechts relatief is en slechts inter partes geldt, zodat zij nog rechten uit die merken kan inroepen jegens andere partijen dan haar wederpartij in die zaak. Zij betoogt dat die eerdere uitspraak derhalve niet relevant is voor de voorliggende procedure en dat haar aanvankelijke verzwijging van die uitspraak niet zonder meer een onrechtmatige proceshouding oplegt.",
+          "treatment": "NIET_BEHANDELD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:ORANT:2015:JUG.20151118.5-002",
+          "argument": "THE WORks vordert als verweer en tegenvordering de vervallenverklaring en doorhaling van de Benelux-merken 756816 en 776970 en beroept zich daarmee op de nietigheid/vervallenverklaring van die inschrijvingen; zij vordert voorts een vergoeding wegens tergend en roekeloos geding, begroot op €2.500,00.",
+          "treatment": "NIET_BEHANDELD"
+        }
+      ],
+      "courtOrder": "Rechtdoende op tegenspraak en na erover te hebben beraadslaagd, komt de Rechtbank tot volgende beslissing:\n\n- alvorens recht te doen, stelt zij volgende prejudiciële vraag aan het Benelux-Gerechtshof:\n\"Kan de houder van een merk dat door de rechter vervallen werd verklaard, nog rechten die uit dat merk voortvloeien inroepen ten aanzien van andere partijen dan haar wederpartij in de zaak die aanleiding heeft gegeven tot de vervallenverklaring, (1) in de periode waarin tegen de vervallenverklaring nog rechtsmiddelen mogelijk of aanhangig zijn of (2) zolang het verval nog niet is opgenomen in het Merkenregister?\",\n- zij verwijst de zaak - zowel te gronde als wat betreft de mogelijkheid tot opleggen van een geldboete wegens onrechtmatige proceshouding - in afwachting van een antwoord hierop naar de bijzondere rol.",
+      "outcome": "VERWIJZING"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-001",
+        "internalParentActId": "ACT-ECLI:BE:ORANT:2015:JUG.20151118.5-001",
+        "provisionNumber": "artikel 780bis",
+        "provisionNumberKey": "780bis",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "UPPER AT HOME had een eerdere uitspraak van 3 juni 2015 verzwegen; de rechtbank heropende de debatten om UPPER AT HOME in staat te stellen zich te verweren tegen de mogelijke oplegging van een geldboete wegens onrechtmatige proceshouding krachtens artikel 780bis."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-002",
+        "internalParentActId": "ACT-ECLI:BE:ORANT:2015:JUG.20151118.5-002",
+        "provisionNumber": "artikel XVII.18",
+        "provisionNumberKey": "XVII.18",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Wetboek Economisch Recht (Roman.Arabic)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "De rechtbank stelt dat de uitspraak van 3 juni 2015 volgens artikel XVII.18 voorlopig uitvoerbaar is, hetgeen relevant is nu tegen die uitspraak nog rechtsmiddelen mogelijk zijn en onzekerheid bestaat over de werking van de vervallenverklaring tegenover derden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-003",
+        "internalParentActId": "ACT-ECLI:BE:ORANT:2015:JUG.20151118.5-003",
+        "provisionNumber": "artikel 4.5, 3",
+        "provisionNumberKey": "4",
+        "parentActType": "VERDRAG",
+        "parentActName": "het Benelux‑verdrag inzake de intellectuele eigendom",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 4.5, §3 van het Benelux‑verdrag verplicht de rechter ambtshalve de doorhaling uit te spreken van inschrijvingen die door de rechter nietig of vervallen werden verklaard; de bepaling legt dus op dat de rechter in zijn beslissing de doorhaling vermeldt zodat de administratieve verwerkingen daarop kunnen volgen.",
+        "relevantFactualContext": "Een vonnis van 3 juni 2015 verklaarde de merken Upper volledig en Upperdare gedeeltelijk vervallen, waardoor volgens artikel 4.5, §3 de rechter ambtshalve tot doorhaling gehouden is en de vraag rijst wanneer en hoe die doorhaling tegenover derden werking krijgt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-004",
+        "internalParentActId": "ACT-ECLI:BE:ORANT:2015:JUG.20151118.5-003",
+        "provisionNumber": "artikel 1.14, b",
+        "provisionNumberKey": "1",
+        "parentActType": "VERDRAG",
+        "parentActName": "het Benelux‑verdrag inzake de intellectuele eigendom",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 1.14, b bepaalt dat de door de rechter uitgesproken doorhaling door het Benelux‑Bureau op verzoek van de meest gerede partij wordt verricht en slechts kan worden uitgevoerd indien de beslissing niet meer vatbaar is voor verzet, hoger beroep of cassatie; de bepaling regelt aldus wie de administratieve schrapping initieert en onder welke finaliteitsvoorwaarden.",
+        "relevantFactualContext": "Het vonnis van 3 juni 2015 is in hoger beroep aangevochten; omdat tegen die beslissing nog rechtsmiddelen mogelijk zijn, werd de doorhaling door het Benelux‑Bureau nog niet uitgevoerd, hetgeen aanleiding geeft tot de vraag of derden al op het verval kunnen worden aangesproken."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "deze rechtbank",
+        "date": "2015-09-23",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "de rechtbank",
+        "date": "2015-10-21",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "deze rechtbank",
+        "date": "2015-06-03",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "het hof van beroep te Antwerpen",
+        "date": "2016-09-26",
+        "caseNumber": "2015 / AR / 1780",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Merkenrecht",
+      "Merkinbreukvordering",
+      "Tegenvordering nietigheid merken",
+      "Eerdere uitspraak verval merk",
+      "Hoger beroep hangende",
+      "Effect vervallenverklaring",
+      "Werkingssfeer derden",
+      "Doorhaling merkenregister",
+      "Onrechtmatige proceshouding",
+      "Prejudiciële vraag"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [],
+    "metadata": {
+      "totalTeachings": 0,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 1
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser, een vennootschap, vordert dat de verweerder stopt met gebruik van het teken \"Upperdare\" wegens merkinbreuk en beroept zich op haar merken Upper, Upperdare en Upperathome; de verweerder vordert vervallenverklaring van de Benelux-merken. De rechtbank stelde prejudiciële vraag aan het Benelux-Gerechtshof of een door de rechter vervallen verklaard merk nog tegenover derden kan worden ingeroepen zolang tegen die beslissing rechtsmiddelen mogelijk zijn of het verval nog niet in het merkenregister is opgenomen, en verwees de zaak in afwachting naar de bijzondere rol."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-001",
+        "relatedFullTextCitations": [
+          "      <li>De rechtbank vernam het bestaan van deze uitspraak tijdens het beraad en heropende de debatten om partijen toe te laten er standpunt over in te nemen alsook opdat UPPER AT HOME haar verweer naar voor zou kunnen brengen wat betreft de mogelijke oplegging van een geldboete wegens onrechtmatige proceshouding, bij toepassing van artikel 780bis van het Gerechtelijk Wetboek nu zij het bestaan van deze uitspraak aan THE WORKS en aan de rechtbank had verzwegen.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-002",
+        "relatedFullTextCitations": [
+          "      <li>Krachtens artikel XVII.18. van het Wetboek Economisch Recht is de uitspraak echter voor-lopig uitvoerbaar.</li>",
+          "      <li>Thans rijst dan ook de vraag hoe deze bepalingen onderling interageren, mede in het licht van artikel XVII.18. van het Wetboek Economisch Recht. Wat is het statuut van een (voorlopig uitvoerbare) uitspraak waarbij een merk vervallen wordt verklaard wanneer er nog rechtsmiddelen mogelijk zijn, of zelfs effectief aanhangig zijn? Geldt zulke uitspraak inter partes dan wel erga omnes? Is het nodig dat zulke uitspraak eerst door het Benelux-Bureau voor de Intellectuele Eigendom wordt verwerkt alvorens zij uitwerking kan krijgen en andere partijen het verval van het merk als verweer kunnen inroepen? Is immers het verval van een merk geen toestand, die zich manifesteert los van het concrete geding? Zouden ook geen ongerijmdheden ontstaan indien een navolgende rechter geen rekening zou dienen te houden met een verval vastgesteld in een andere zaak?</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-002",
+          "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-003",
+          "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-003",
+          "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-003",
+        "relatedFullTextCitations": [
+          "      <li>Krachtens artikel 4.5, 3. van het Benelux-verdrag inzake de intellectuele eigendom spreekt de rechter ambtshalve de doorhaling uit van de nietig of vervallen verklaarde inschrijvingen. Krachtens artikel 1.14, b. wordt de door de rechter uitgesproken doorhaling door het Benelux-Bureau voor de Intellectuele Eigendom op verzoek van de meest gerede partij verricht, indien de beslissing niet meer vatbaar is voor verzet, noch hoger beroep, noch voor voorziening in cassatie.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-003",
+          "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-004",
+          "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-003",
+          "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-004",
+        "relatedFullTextCitations": [
+          "      <li>Krachtens artikel 4.5, 3. van het Benelux-verdrag inzake de intellectuele eigendom spreekt de rechter ambtshalve de doorhaling uit van de nietig of vervallen verklaarde inschrijvingen. Krachtens artikel 1.14, b. wordt de door de rechter uitgesproken doorhaling door het Benelux-Bureau voor de Intellectuele Eigendom op verzoek van de meest gerede partij verricht, indien de beslissing niet meer vatbaar is voor verzet, noch hoger beroep, noch voor voorziening in cassatie.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-004",
+          "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-003",
+          "ART-ECLI:BE:ORANT:2015:JUG.20151118.5-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-003",
+          "DEC-ECLI:BE:ORANT:2015:JUG.20151118.5-004"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 4,
+      "citationStatistics": {
+        "totalCitations": 5,
+        "avgCitationsPerProvision": 1.25,
+        "provisionsWithMinimalCitations": 4,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.5,
+        "avgDecisionsPerProvision": 1.75,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [],
+    "metadata": {
+      "totalTeachings": 0,
+      "citationStatistics": {
+        "totalCitations": 0,
+        "avgCitationsPerTeaching": 0,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 0,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": [
+        "No Stage 5A teachings provided in input; no citations to extract."
+      ]
+    }
+  }
+}

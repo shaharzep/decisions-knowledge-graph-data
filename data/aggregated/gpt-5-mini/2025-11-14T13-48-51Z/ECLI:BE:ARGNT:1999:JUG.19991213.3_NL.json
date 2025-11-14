@@ -1,0 +1,679 @@
+{
+  "decision_id": "ECLI:BE:ARGNT:1999:JUG.19991213.3",
+  "language": "NL",
+  "metadata": {
+    "id": 555,
+    "court_ecli_code": "ARGNT",
+    "decision_date": "1999-12-13",
+    "decision_type_ecli_code": "JUG",
+    "decision_type_name": "Vonnis",
+    "md_length": 16609,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidsrechtbank te Oudenaarde, 13 december 1999, A.R. 19.063 en 19.066, ECLI:BE:ARGNT:1999:JUG.19991213.3"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "name": "B.C.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+        "name": "B., N.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-003",
+        "name": "B., D.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-004",
+        "name": "A.G. 1824, naamloze vennootschap",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "VERWEERDER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-005",
+        "name": "AXA ROYALE BELGE, naamloze vennootschap",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-006",
+        "name": "ROYALE BELGE, naamloze vennootschap",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "EISER"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Wijlen de heer Baudouin Bocquet, echtgenoot van de eerste eisende partij en vader van de tweede en derde eisende partijen, was werkzaam als ladingsinspecteur bij de naamloze vennootschap Hessenatie te Antwerpen. Op vrijdag 29 oktober 1993 had hij dienst van 14 uur tot 22 uur. In de nacht van 29 op 30 oktober 1993 kwam hij om het leven bij een verkeersongeval te Lokeren op de autosnelweg E17 richting Kortrijk. De verwerende partij (verzekeraar A.G. 1824) weigerde tussenkomst omdat zij oordeelde dat de afstand van de firma tot de plaats van het ongeval geen tijdsgebruik van 2 uur en 30 minuten rechtvaardigde; na onderzoek door het Fonds voor Arbeidsongevallen handhaafde zij die beslissing. De erfgenamen stelden dat het ongeval plaatsvond op het normale traject van het werk naar huis en betwistten dat er een belangrijke chronologische onderbreking was, verwijzend naar mogelijke overuren, een gerechtvaardigde onderbreking (eten/rust), getuigenverklaringen (onder meer C. Vanryckel), het brandweerrapport en het verslag van Securitas. Axa Royale Belge verklaarde 250.000 frank provisorisch te hebben betaald aan de erfgenamen voor rekening van wie het behoort en vordeelde terugbetaling van die provisie van A.G. 1824 voor het geval het ongeval als arbeidsongeval zou worden erkend. De rechtbank heeft de partijen gehoord en de stukken en conclusies ingezien.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+          "requests": "Te horen zeggen dat de heer Baudouin Bocquet op 30 oktober 1993 het slachtoffer werd van een dodelijk arbeidsongeval; dat de verwerende partij aan de eerste eisende partij betaalt een vergoeding voor begrafeniskosten gelijk aan dertigmaal het gemiddelde dagloon; toekenning van een jaarlijkse rente vanaf 30 oktober 1993 van 30% van het basisloon voor de eerste eisende partij en van 15% voor elk van de tweede en derde eisende partijen, alsook de gebeurlijke bijslagen krachtens artikel 27 bis van de Arbeidsongevallenwet; toekenning van wettelijke en gerechtelijke interest; veroordeling van de verwerende partij in de kosten; voorlopige tenuitvoerlegging zonder zekerheid."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-005",
+          "requests": "Te horen zeggen dat het verkeersongeval van 30 oktober 1993 een arbeidsongeval is in de zin van artikel 8 van de Arbeidsongevallenwet van 10 april 1971; veroordeling van de verwerende partij tot terugbetaling aan de eisende partij van de provisionele som van 250.000 frank, vermeerderd met de vergoedende en gerechtelijke interest en de kosten."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+          "argument": "De eisende partijen steunen hun vordering op artikel 8 van de Arbeidsongevallenwet en stellen dat het ongeval zich heeft voorgedaan op het normale traject van werk naar huis. Zij betwisten dat er een belangrijke onderbreking in het traject was en voeren aan dat het niet bewezen is dat wijlen Bocquet het werk verliet om 22 uur; verder verwijzen zij naar getuigenverklaringen (onder meer C. Vanryckel), het brandweerrapport en het Securitas-verslag om aannemelijk te maken dat het ongeval kort voor middernacht gebeurde. Subsidiair stellen zij dat er sprake was van overuren of van een gerechtvaardigde onderbreking (eten of rust) zodat het chronologisch normale traject gehandhaafd bleef. Zij beroepen zich tevens op jurisprudentie omtrent bewijslast en op het feit dat de verwerende partij de onderbreking moet bewijzen.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-005",
+          "argument": "AXA Royale Belge voert aan dat zij als verzekeraar van een polis een provisionele betaling van 250.000 frank aan de erfgenamen heeft gedaan voor rekening van wie het behoort, en dat deze betaling voorwaardelijk is ten aanzien van de tussenkomst van de arbeidsongevallenverzekeraar; zij vordert terugbetaling van die provisie voor zover het ongeval als arbeidsongeval wordt erkend. Inzake de kwalificatie van het ongeval als arbeidsongeval sluit AXA zich aan bij de stellingen van de erfgenamen en verwijst naar artikel 8 van de Arbeidsongevallenwet.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:ARGNT:1999:JUG.19991213.3-004",
+          "argument": "De verwerende partij betwist dat wijlen Bocquet zich op het chronologisch normale traject bevond en voert aan dat hij omstreeks 22 uur het werk verliet en dat het ongeval zich ongeveer anderhalf tot twee uur later voordeed op een plaats die hij na een half uur had moeten bereiken. Ter staving wijst zij op de verklaring van de heer Vanryckel, die samen met Bocquet het werk zou hebben verlaten rond 22 uur, op het verslag van Securitas en op het ontbreken van aanwijzingen voor overuren. De verwerende partij benadrukt dat de bewijslast van het normale traject bij de eisende partijen rust en dat de eisenden de onderbreking niet hebben verantwoord door overmacht of een wettige reden.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "- voegt de zaken ingeschreven op de algemene rol onder de nummers 19.063 en 19.066 samen;\n- laat de vorderingen toe;\n\n- verklaart de vorderingen ongegrond;\n- bepaalt het bedrag van de tot op heden te vereffenen kosten van de partijen Baeyens-Bocquet op 11.685,- frank, zoals verminderd;\n- stelt vast dat bij gebrek aan omstandige opgave het bedrag van de tot op heden te vereffenen kosten van de naamloze vennootschap A.G. 1824 en de naamloze vennootschap Axa Royale Belge niet kan worden bepaald;\n- verwijst met toepassing van artikel 68 van de Arbeidsongevallenwet de verwerende partij in de kosten van het geding, begroot aan de zijde van de eisende partijen Baeyens-Bocquet en verwijst met toepassing van artikel 1017 eerste lid van het Gerechtelijk Wetboek de eisende partij naamloze vennootschap Axa Royale Belge in de overige kosten.",
+      "outcome": "ONGEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "provisionNumber": "artikel 2",
+        "provisionNumberKey": "2",
+        "parentActType": "WET",
+        "parentActName": "Wet van 15 juni 1935 op het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "provisionNumber": "artikel 30",
+        "provisionNumberKey": "30",
+        "parentActType": "WET",
+        "parentActName": "Wet van 15 juni 1935 op het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-003",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "provisionNumber": "artikel 34",
+        "provisionNumberKey": "34",
+        "parentActType": "WET",
+        "parentActName": "Wet van 15 juni 1935 op het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-004",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "provisionNumber": "artikel 36",
+        "provisionNumberKey": "36",
+        "parentActType": "WET",
+        "parentActName": "Wet van 15 juni 1935 op het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-005",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "provisionNumber": "artikel 37",
+        "provisionNumberKey": "37",
+        "parentActType": "WET",
+        "parentActName": "Wet van 15 juni 1935 op het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-006",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "provisionNumber": "artikel 41",
+        "provisionNumberKey": "41",
+        "parentActType": "WET",
+        "parentActName": "Wet van 15 juni 1935 op het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-007",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+        "provisionNumber": "artikel 27 bis",
+        "provisionNumberKey": "27bis",
+        "parentActType": "WET",
+        "parentActName": "Arbeidsongevallenwet van 10 april 1971",
+        "parentActDate": "1971-04-10",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-008",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+        "provisionNumber": "artikel 8",
+        "provisionNumberKey": "8",
+        "parentActType": "WET",
+        "parentActName": "Arbeidsongevallenwet van 10 april 1971",
+        "parentActDate": "1971-04-10",
+        "parentActNumber": null,
+        "provisionInterpretation": "De rechtbank verklaart artikel 8 aldus dat een ongeval op de weg van en naar het werk alleen het normale traject dekt; dit begrip omvat zowel een geografisch als een chronologisch element. Beide elementen moeten concreet worden getoetst en een belangrijke chronologische onderbreking sluit de toepassing van artikel 8 uit, tenzij de eisende partijen die onderbreking verantwoorden door overmacht of een wettige reden.",
+        "relevantFactualContext": "Wijlen Bocquet werkte normaal tot 22:00; hij verongelukte op de autosnelweg E17 te Lokeren tussen circa 00:30 en 01:00 (eisers stelden kort voor middernacht). Er is een chronologisch hiaat van minstens circa 2 uur (of ca. 1,5 uur) waarvan de eisers geen bewijs leverden (geen aantoonbare overuren, eet- of rustpauze)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-009",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+        "provisionNumber": "artikel 7",
+        "provisionNumberKey": "7",
+        "parentActType": "WET",
+        "parentActName": "Arbeidsongevallenwet van 10 april 1971",
+        "parentActDate": "1971-04-10",
+        "parentActNumber": null,
+        "provisionInterpretation": "De rechtbank geeft aan dat artikel 7 een wettelijk vermoeden inhoudt; in tegenstelling tot artikel 7 rust bij aanspraken op grond van artikel 8 echter de bewijslast van het normale traject op het slachtoffer of de rechthebbenden. Artikel 7 schept dus een andersoortige bewijsregeling die hier niet van toepassing is.",
+        "relevantFactualContext": "Eisers verwezen naar het arrest van 26 augustus 1988 (toepassing van artikel 7 voor handelsvertegenwoordigers), maar de rechtbank oordeelt dat dat arrest niet van toepassing is op de bewijsverdeling in deze zaak en dat eisers de chronologische onderbreking niet hebben bewezen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-010",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+        "provisionNumber": "artikel 68",
+        "provisionNumberKey": "68",
+        "parentActType": "WET",
+        "parentActName": "Arbeidsongevallenwet van 10 april 1971",
+        "parentActDate": "1971-04-10",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-011",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:1999:JUG.19991213.3-003",
+        "provisionNumber": "artikel 1017 eerste lid",
+        "provisionNumberKey": "1017",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "1988-08-26",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "DISTINGUISHED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1984-09-17",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Arbeidsrecht",
+      "Dodelijk verkeersongeval",
+      "Weg naar werk",
+      "Ladingsinspecteur",
+      "Verzekeraar tussenkomst geweigerd",
+      "Erkenning als arbeidsongeval",
+      "Chronologische onderbreking",
+      "Bewijslast normaal traject",
+      "Terugvordering provisie",
+      "Samenvoeging van zaken"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "text": "Artikel 8 van de Arbeidsongevallenwet beschermt ongevallen op de weg van en naar het werk door toepassing op het normale traject. Het normale traject omvat zowel een geografisch als een chronologisch element; beide elementen moeten concreet worden getoetst. Een belangrijke chronologische onderbreking sluit de toepassing van artikel 8 uit, tenzij die onderbreking door overmacht of een wettige reden door het slachtoffer of diens rechthebbenden wordt verantwoord.",
+        "courtVerbatim": "Onder de weg van en naar het werk wordt verstaan het normale traject dat de werknemer moet afleggen om zich te begeven van zijn verblijfplaats naar het werk en omgekeerd. Algemeen wordt aangenomen dat het normale traject niet enkel een geografisch maar ook een chronologisch aspect vertoont en telkens dient de concrete verplaatsing aan beide elementen te worden getoetst. Wanneer het een belangrijk tijdshiaat betreft dient het slachtoffer of de rechthebbenden dit hiaat te verantwoorden door overmacht of een wettige reden.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij beoordeling of een verkeersongeval tijdens de heen- of terugweg onder artikel 8 valt, waarbij zowel geografische als chronologische normaliteit van het traject betwist wordt.",
+        "relevantFactualContext": "In deze zaak werkte het slachtoffer normaal tot 22:00 en verongelukte hij ca. tussen 00:30 en 01:00 op de autosnelweg E17 te Lokeren; er was een chronologisch hiaat van circa 1,5–2 uur dat door de eisers niet werd verantwoord (geen bewijs van overuren, eet- of rustpauze).",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+            "TEACH-ECLI:BE:ARGNT:1999:JUG.19991213.3-003"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": true
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-008",
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-009"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+          "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+        "text": "Bij een vordering op grond van artikel 8 rust de bewijslast dat het ongeval zich voordeed op het normale traject op het slachtoffer of diens rechthebbenden. Artikel 7 (dat een wettelijk vermoeden inhoudt) is niet zonder meer van toepassing op aanspraken op grond van artikel 8; eisers moeten het chronologische en geografische karakter van het normale traject aantonen.",
+        "courtVerbatim": "In tegenstelling tot artikel 7 van de Arbeidsongevallenwet van 10 april 1971, dat een bepaald vermoeden inlast, dient het slachtoffer of de rechthebbenden, nu de eisende partijen de bewijslast dragen, te bewijzen dat een ongeval op de weg naar of van het werk beantwoordt aan de vereisten van artikel 8 van de Arbeidsongevallenwet van 10 april 1971, inzonderheid dient het slachtoffer of de rechthebbenden te bewijzen dat het ongeval zich heeft voorgedaan op het normale traject (vgl. Cass. 17 september 1984, J.T.T., 1985, 200).",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer eisers een arbeidsongeval op de weg naar of van het werk op grond van artikel 8 inroepen en de normaliteit van het traject ter discussie staat.",
+        "relevantFactualContext": "Eisers stelden dat er geen chronologische onderbreking was of dat deze gerechtvaardigd was door overuren of een maaltijd/pauze; de rechtbank oordeelde dat de bewijslast hiervoor bij de eisers ligt en dat zij geen bewijs leverden.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": true
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-009",
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-008"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+          "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:1999:JUG.19991213.3-003",
+        "text": "Bij de praktische toetsing van het chronologische element kan een tijdshiaat van circa anderhalf tot twee uur als een 'belangrijke onderbreking' worden beschouwd, waardoor het normale traject ontbreekt en artikel 8 niet toepasselijk is, tenzij eisers die onderbreking door overmacht of een wettige reden aantonen.",
+        "courtVerbatim": "Met andere woorden was er hier in casu een hiaat van minstens 2 uur dat als belangrijk dient te worden aangezien zodat er geen sprake meer is van een normaal chronologisch traject. Een onderbreking van ongeveer anderhalf uur dient ook te worden beschouwd als een belangrijke onderbreking.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer tussen het einde van de arbeidsprestatie en het ongeval een aanzienlijke tijdsduur is verstreken en moet worden beoordeeld of die onderbreking het normale traject doorbreekt.",
+        "relevantFactualContext": "Het slachtoffer verliet vermoedelijk werk om ca. 22:00 en verongelukte pas rond 00:30–01:00; de rechtbank oordeelde dat dit een hiaat van minimaal circa 1,5–2 uur oplevert dat niet door eisers werd verantwoord.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-008"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 2,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eisers (echtgenote en kinderen van de overleden werknemer) en de verzekeraar AXA vorderen erkenning dat het dodelijk verkeersongeval op 30 oktober 1993 een arbeidsongeval was en terugbetaling van een provisie door de vennootschap-verzekeraar. De rechtbank verklaart de vorderingen ongegrond omdat er een substantieel chronologisch hiaat van circa twee uur bestond tussen het einde van de arbeidstijd en het ongeval en de eisers dit hiaat niet hebben bewezen of gerechtvaardigd door overwerk of een geldige onderbreking. Kernprincipe: bij ongevallen “van en naar het werk” rust de bewijslast van het normale chronologische traject op de eisers; proceskosten worden overeenkomstig toegewezen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Wijlen de heer Baudouin Bocquet, echtgenoot van de eerste eisende partij en vader van de tweede en derde eisende partijen, was werkzaam bij de naamloze vennootschap Hessenatie, met zetel te Antwerpen, Stijpelsrui nr. 34, als ladingsinspecteur. De verwerende partij is de verzekeraar inzake arbeidsongevallen van de naamloze vennootschap Hessenatie. Op vrijdag 29 oktober 1993 had wijlen de heer Bocquet dienst van 14 uur tot 22 uur. In de nacht van vrijdag 29 op zaterdag 30 oktober 1993 kwam de heer Bocquet om het leven bij een verkeersongeval te Lokeren (autosnelweg E 17 richting Kortrijk). Bij schrijven dd. 29 november 1993 deelde de verwerende partij aan de eisende partijen mee dat tussenkomst werd geweigerd omdat de afstand van de firma tot de plaats van het ongeval geen tijdsgebruik van 2 uur en 30 minuten rechtvaardigt, rekening houdend dat deze verplaatsing met de wagen gebeurde. Na een onderzoek door het Fonds voor Arbeidsongevallen handhaafde de verwerende partij haar beslissing.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De eisende partijen (inzake A.R. 19.063/O/II), echtgenote en kinderen van wijlen de heer Bocquet, verwijzen naar artikel 8 van de Arbeidsongevallenwet van 10 april 1971 en stellen dat het ongeval plaats vond op het normale traject van het werk naar huis. Terwijl de eisende partijen in de dagvaarding en conclusies voorhielden dat het ongeval zich heeft voorgedaan rond 00.45 uur, stellen zij in pleidooien dat het ongeval voor twaalf uur 's nachts gebeurde aangezien de brandweer werd verwittigd rond 00.05 uur. De eisende partijen betwisten dat er een belangrijke onderbreking is in het traject en stellen dat het geenszins bewezen is dat wijlen de heer Bocquet het werk verliet om 22 uur. De eisende partijen argumenteren dat de door de verwerende partij aangevoerde elementen dit geenszins bewijzen. Inzake de verklaring van de heer C. Vanryckel stellen de eisende partijen dat deze later aan het Fonds voor Arbeidsongevallen een andere versie gaf en het geenszins zeker is dat wijlen de heer Bocquet samen met hem het werk verliet om 22 uur. Ook het verslag van Securitas is niet afdoende nu deze firma, volgens de eisende partijen, geen controle uitvoerde op kaai 424, waar wijlen de heer Bocquet werkte. De eisende partijen benadrukken, met verwijzing naar het arrest van het Hof van Cassatie dd. 26 augustus 1988, dat de bewijslast van de onderbreking bij de verwerende partij ligt en deze uit het tijdsverloop alleen niet kan worden afgeleid. De eisende partijen stellen dat het aannemelijk is dat wijlen de heer Bocquet nog overuren presteerde en dus later op het werk was vertrokken. Ondergeschikt stellen de eisende partijen dat de onderbreking gerechtvaardigd was doordat het slachtoffer (wellicht) iets is gaan eten of rust heeft genomen. Meest ondergeschikt bieden de eisende partijen het bewijs aan van de feitelijke omstandigheden, die zich op de dag van het ongeval hebben voorgedaan. De eisende partij (inzake A.R. 19.066), de naamloze vennootschap Axa Royale Belge, stelt dat zij als verzekeraar van de polis \"Veiligheid van de bestuurder\" een bedrag van 250.000,- frank heeft betaald aan de erfgenamen, voor rekening van wie het behoort. Deze partij stelt dat de uitbetaling ondergeschikt is aan de tussenkomst van de verzekeraar inzake arbeidsongevallen en zij derhalve voor dit bedrag een vordering heeft op de verwerende partij, tenminste voor zo ver het ongeval als een arbeidsongeval wordt erkend. Inzake de argumentatie nopens het arbeidsongeval sluit zij zich volledig aan bij de stelling van de erfgenamen. De verwerende partij betwist dat wijlen de heer Bocquet zich op de chronologisch normale weg zou bevonden hebben. Volgens de verwerende partij heeft wijlen de heer Bocquet omstreeks 22 uur het werk verlaten en diende hij een half uur later op de plaats van het ongeval te zijn. De verwerende partij verwijst ter staving vooreerst naar de verklaring van de heer Vanryckel, die stelde samen met wijlen de heer Bocquet het werk te hebben verlaten omstreeks 22 uur. Volgens de verwerende partij is de verklaring die deze getuige maanden later aflegde aan het Fonds voor Arbeidsongevallen hiermee niet tegenstrijdig. De verwerende partij verwijst ook naar het verslag van Securitas. De verwerende partij betwist dat de eisende partij die dag overuren zou hebben gedaan, waarop geen enkel element wijst. De verwerende partij benadrukt dat de bewijslast van het normale traject berust bij de eisende partijen. Evenmin is aangetoond dat wijlen de heer Bocquet zijn arbeidsweg zou hebben onderbroken met een geldige reden (om te eten of te rusten). Tenslotte verzet de verwerende partij zich tegen het houden van een getuigenverhoor, wat volgens deze partij niet relevant is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De vordering van de eisende partijen steunt op artikel 8 van de Arbeidsongevallenwet van 10 april 1971, waarbij eveneens als een arbeidsongeval wordt aangezien het ongeval dat zich voordoet op de weg van en naar het werk. Onder de weg van en naar het werk wordt verstaan het normale traject dat de werknemer moet afleggen om zich te begeven van zijn verblijfplaats naar het werk en omgekeerd. Algemeen wordt aangenomen dat het normale traject niet enkell een geografisch maar ook ee chronologisch aspect vertoont en telkens dient de concrete verplaatsing aan beide elementen te worden getoetst (C. Perseyn, R. Janvier en W. van Eeckhoutte, Overzicht van de rechtspraak arbeidsongevallen, 1984-1989, T.P.R., 1990, nr. 63). In casu is er geen betwisting dat wijlen de heer Bocquet zich op het geografisch normale traject bevond (er is derhalve geen probleem van de omweg) maar de discussie spitst zich toe op het chronologisch karakter van het traject (onderbreking). Terwijl de eisende partijen in hoofdorde stellen dat er geen sprake is van een onderbreking doordat wijlen de heer Bocquet overuren deed en ondergeschikt dat de onderbreking gewettigd was door eten of rust, stelt de verwerende partij dat er een ongerechtvaardigde (chronologische) onderbreking is geweest van het normale traject.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In tegenstelling tot artikel 7 van de Arbeidsongevallenwet van 10 april 1971, dat een bepaald vermoeden inlast, dient het slachtoffer of de rechthebbenden, nu de eisende partijen de bewijslast dragen, te bewijzen dat een ongeval op de weg naar of van het werk beantwoordt aan de vereisten van artikel 8 van de Arbeidsongevallenwet van 10 april 1971, inzonderheid dient het slachtoffer of de rechthebbenden te bewijzen dat het ongeval zich heeft voorgedaan op het normale traject (vgl. Cass. 17 september 1984, J.T.T., 1985, 200). Ten onrechte verwijzen de eisende partijen naar het arrest van het Hof van Cassatie dd. 26 augustus 1988 (B.T.S.Z., 1989, 137), waar het precies ging om de toepassing van artikel 7 van de Arbeidsongevallenwet van 10 april 1971 nu voor een handelsvertegenwoordiger de arbeidsovereenkomst geacht wordt aan te vangen bij hun vertrek en te eindigen bij hun thuiskomst. Wanneer het een belangrijk tijdshiaat betreft dient het slachtoffer of de rechthebbenden dit hiaat te verantwoorden door overmacht of een wettige reden (M. Vandeur, De arbeidsongevallen, pag. 99 met verwijzing naar oudere rechtspraak van het Hof van Cassatie).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+          "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het werd in de dagvaarding en conclusies niet betwist dat wijlen de heer Bocquet normaliter diende te presteren tot 22 uur en hij verongelukte tussen O.30 en 1 uur te Lokeren, welke plaats hij na een half uur diende te bereiken. Met andere woorden was er hier in casu een hiaat van minstens 2 uur dat als belangrijk dient te worden aangezien zodat er geen sprake meer is van een normaal chronologisch traject. In pleidooien stellen de eisende partijen, met verwijzing naar het verslag van de brandweer, dat het ongeval zich voor middernacht heeft voorgedaan. Alsdan dient te worden aanvaard dat het ongeval zich kort voor middernacht heeft voorgedaan nu de brandweer vijf minuten na middernacht verwitigd was en het ongeval plaatsvond op een autosnelweg door een aanrijding met een vrachtwagen. Een onderbreking van ongeveer anderhalf uur dient ook te worden beschouwd als een belangrijke onderbreking.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De loutere veronderstelling van de eisende partijen, zonder de minste aanwijzing, laat staan bewijs, dat wijlen de heer Bocquet overuren presteerde (hetgeen dan zou geduurd hebben tot bijna middernacht) is niet van aard om het hiaat te overbruggen. Nu de normale arbeidsduur van wijlen de heer Bocquet liep tot 22 uur rust de bewijslast van een langere arbeidsduur ook in deze zaak (net zoals voor een vordering in betaling van overuren) op de eisende partijen die een afwijkende regeling vooropstellen. Niet alleen wordt er niet het minste element aangebracht maar zijn er veeleer indicaties van het tegendeel:</p>",
+          "<p class=\"case-section__paragraph\">- verklaring van de heer Vermeylen, afgelegd aan een inspecteur van het Fonds voor Arbeidsongevallen, waarin wordt gesteld dat er geen nachtwerk was voor de heer Bocquet in de twee weken voor het ongeval.</p>",
+          "<p class=\"case-section__paragraph\">- verklaring van de heer C. Vanryckel dd. 2 november 1993 (dus enkele dagen na het ongeval) die stelde : \"...Omstreeks 22 uur hebben wij samen de kaai verlaten en zijn elk in onze wagen weggereden. Bocquet is samen met mij vertrokken en was dus rond 22.00 uur weg\". De verklaring die de heer Vanryckel later aflegde aan het inspecteur van het Fonds voor Arbeidsongevallen (ongeveer anderhalf jaar na het ongeval ) is hiermee niet echt tegenstrijdig aangezien hierin wordt gezegd dat hij samen met de heer Bocquet de trap is afgekomen (tussen 21.30 uur en 21.45 uur). Een getuigenverhoor, meer dan zes jaar na de feiten, kan geen verduidelijking meer bieden.</p>",
+          "<p class=\"case-section__paragraph\">- verslag van de groep Securitas die op de kaaien 420-428 geen verkeer meer heeft gezien na 22 uur.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Hetzelfde geldt voor de ondergeschikte stelling van de eisende partijen dat de onderbreking zal gerechtvaardigd zijn door een eetmaal en/of een periode van rust. Ook voor deze stelling ontbreekt elk bewijs.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De eisende partijen (inzake A.R. 19.063/O/II), echtgenote en kinderen van wijlen de heer Bocquet, verwijzen naar artikel 8 van de Arbeidsongevallenwet van 10 april 1971 en stellen dat het ongeval plaats vond op het normale traject van het werk naar huis. Terwijl de eisende partijen in de dagvaarding en conclusies voorhielden dat het ongeval zich heeft voorgedaan rond 00.45 uur, stellen zij in pleidooien dat het ongeval voor twaalf uur 's nachts gebeurde aangezien de brandweer werd verwittigd rond 00.05 uur. De eisende partijen betwisten dat er een belangrijke onderbreking is in het traject en stellen dat het geenszins bewezen is dat wijlen de heer Bocquet het werk verliet om 22 uur. De eisende partijen argumenteren dat de door de verwerende partij aangevoerde elementen dit geenszins bewijzen. Inzake de verklaring van de heer C. Vanryckel stellen de eisende partijen dat deze later aan het Fonds voor Arbeidsongevallen een andere versie gaf en het geenszins zeker is dat wijlen de heer Bocquet samen met hem het werk verliet om 22 uur. Ook het verslag van Securitas is niet afdoende nu deze firma, volgens de eisende partijen, geen controle uitvoerde op kaai 424, waar wijlen de heer Bocquet werkte. De eisende partijen benadrukken, met verwijzing naar het arrest van het Hof van Cassatie dd. 26 augustus 1988, dat de bewijslast van de onderbreking bij de verwerende partij ligt en deze uit het tijdsverloop alleen niet kan worden afgeleid. De eisende partijen stellen dat het aannemelijk is dat wijlen de heer Bocquet nog overuren presteerde en dus later op het werk was vertrokken. Ondergeschikt stellen de eisende partijen dat de onderbreking gerechtvaardigd was doordat het slachtoffer (wellicht) iets is gaan eten of rust heeft genomen. Meest ondergeschikt bieden de eisende partijen het bewijs aan van de feitelijke omstandigheden, die zich op de dag van het ongeval hebben voorgedaan. De eisende partij (inzake A.R. 19.066), de naamloze vennootschap Axa Royale Belge, stelt dat zij als verzekeraar van de polis \"Veiligheid van de bestuurder\" een bedrag van 250.000,- frank heeft betaald aan de erfgenamen, voor rekening van wie het behoort. Deze partij stelt dat de uitbetaling ondergeschikt is aan de tussenkomst van de verzekeraar inzake arbeidsongevallen en zij derhalve voor dit bedrag een vordering heeft op de verwerende partij, tenminste voor zo ver het ongeval als een arbeidsongeval wordt erkend. Inzake de argumentatie nopens het arbeidsongeval sluit zij zich volledig aan bij de stelling van de erfgenamen. De verwerende partij betwist dat wijlen de heer Bocquet zich op de chronologisch normale weg zou bevonden hebben. Volgens de verwerende partij heeft wijlen de heer Bocquet omstreeks 22 uur het werk verlaten en diende hij een half uur later op de plaats van het ongeval te zijn. De verwerende partij verwijst ter staving vooreerst naar de verklaring van de heer Vanryckel, die stelde samen met wijlen de heer Bocquet het werk te hebben verlaten omstreeks 22 uur. Volgens de verwerende partij is de verklaring die deze getuige maanden later aflegde aan het Fonds voor Arbeidsongevallen hiermee niet tegenstrijdig. De verwerende partij verwijst ook naar het verslag van Securitas. De verwerende partij betwist dat de eisende partij die dag overuren zou hebben gedaan, waarop geen enkel element wijst. De verwerende partij benadrukt dat de bewijslast van het normale traject berust bij de eisende partijen. Evenmin is aangetoond dat wijlen de heer Bocquet zijn arbeidsweg zou hebben onderbroken met een geldige reden (om te eten of te rusten). Tenslotte verzet de verwerende partij zich tegen het houden van een getuigenverhoor, wat volgens deze partij niet relevant is.</p>",
+          "<p class=\"case-section__paragraph\">De vordering van de eisende partijen steunt op artikel 8 van de Arbeidsongevallenwet van 10 april 1971, waarbij eveneens als een arbeidsongeval wordt aangezien het ongeval dat zich voordoet op de weg van en naar het werk. Onder de weg van en naar het werk wordt verstaan het normale traject dat de werknemer moet afleggen om zich te begeven van zijn verblijfplaats naar het werk en omgekeerd. Algemeen wordt aangenomen dat het normale traject niet enkell een geografisch maar ook ee chronologisch aspect vertoont en telkens dient de concrete verplaatsing aan beide elementen te worden getoetst (C. Perseyn, R. Janvier en W. van Eeckhoutte, Overzicht van de rechtspraak arbeidsongevallen, 1984-1989, T.P.R., 1990, nr. 63). In casu is er geen betwisting dat wijlen de heer Bocquet zich op het geografisch normale traject bevond (er is derhalve geen probleem van de omweg) maar de discussie spitst zich toe op het chronologisch karakter van het traject (onderbreking). Terwijl de eisende partijen in hoofdorde stellen dat er geen sprake is van een onderbreking doordat wijlen de heer Bocquet overuren deed en ondergeschikt dat de onderbreking gewettigd was door eten of rust, stelt de verwerende partij dat er een ongerechtvaardigde (chronologische) onderbreking is geweest van het normale traject.</p>",
+          "<p class=\"case-section__paragraph\">In tegenstelling tot artikel 7 van de Arbeidsongevallenwet van 10 april 1971, dat een bepaald vermoeden inlast, dient het slachtoffer of de rechthebbenden, nu de eisende partijen de bewijslast dragen, te bewijzen dat een ongeval op de weg naar of van het werk beantwoordt aan de vereisten van artikel 8 van de Arbeidsongevallenwet van 10 april 1971, inzonderheid dient het slachtoffer of de rechthebbenden te bewijzen dat het ongeval zich heeft voorgedaan op het normale traject (vgl. Cass. 17 september 1984, J.T.T., 1985, 200). Ten onrechte verwijzen de eisende partijen naar het arrest van het Hof van Cassatie dd. 26 augustus 1988 (B.T.S.Z., 1989, 137), waar het precies ging om de toepassing van artikel 7 van de Arbeidsongevallenwet van 10 april 1971 nu voor een handelsvertegenwoordiger de arbeidsovereenkomst geacht wordt aan te vangen bij hun vertrek en te eindigen bij hun thuiskomst. Wanneer het een belangrijk tijdshiaat betreft dient het slachtoffer of de rechthebbenden dit hiaat te verantwoorden door overmacht of een wettige reden (M. Vandeur, De arbeidsongevallen, pag. 99 met verwijzing naar oudere rechtspraak van het Hof van Cassatie).</p>",
+          "<p class=\"case-section__paragraph\">Het werd in de dagvaarding en conclusies niet betwist dat wijlen de heer Bocquet normaliter diende te presteren tot 22 uur en hij verongelukte tussen O.30 en 1 uur te Lokeren, welke plaats hij na een half uur diende te bereiken. Met andere woorden was er hier in casu een hiaat van minstens 2 uur dat als belangrijk dient te worden aangezien zodat er geen sprake meer is van een normaal chronologisch traject. In pleidooien stellen de eisende partijen, met verwijzing naar het verslag van de brandweer, dat het ongeval zich voor middernacht heeft voorgedaan. Alsdan dient te worden aanvaard dat het ongeval zich kort voor middernacht heeft voorgedaan nu de brandweer vijf minuten na middernacht verwitigd was en het ongeval plaatsvond op een autosnelweg door een aanrijding met een vrachtwagen. Een onderbreking van ongeveer anderhalf uur dient ook te worden beschouwd als een belangrijke onderbreking.</p>",
+          "<p class=\"case-section__paragraph\">De loutere veronderstelling van de eisende partijen, zonder de minste aanwijzing, laat staan bewijs, dat wijlen de heer Bocquet overuren presteerde (hetgeen dan zou geduurd hebben tot bijna middernacht) is niet van aard om het hiaat te overbruggen. Nu de normale arbeidsduur van wijlen de heer Bocquet liep tot 22 uur rust de bewijslast van een langere arbeidsduur ook in deze zaak (net zoals voor een vordering in betaling van overuren) op de eisende partijen die een afwijkende regeling vooropstellen. Niet alleen wordt er niet het minste element aangebracht maar zijn er veeleer indicaties van het tegendeel:</p>",
+          "<p class=\"case-section__paragraph\">- verklaring van de heer Vermeylen, afgelegd aan een inspecteur van het Fonds voor Arbeidsongevallen, waarin wordt gesteld dat er geen nachtwerk was voor de heer Bocquet in de twee weken voor het ongeval.</p>",
+          "<p class=\"case-section__paragraph\">- verklaring van de heer C. Vanryckel dd. 2 november 1993 (dus enkele dagen na het ongeval) die stelde : \"...Omstreeks 22 uur hebben wij samen de kaai verlaten en zijn elk in onze wagen weggereden. Bocquet is samen met mij vertrokken en was dus rond 22.00 uur weg\". De verklaring die de heer Vanryckel later aflegde aan het inspecteur van het Fonds voor Arbeidsongevallen (ongeveer anderhalf jaar na het ongeval ) is hiermee niet echt tegenstrijdig aangezien hierin wordt gezegd dat hij samen met de heer Bocquet de trap is afgekomen (tussen 21.30 uur en 21.45 uur). Een getuigenverhoor, meer dan zes jaar na de feiten, kan geen verduidelijking meer bieden.</p>",
+          "<p class=\"case-section__paragraph\">- verslag van de groep Securitas die op de kaaien 420-428 geen verkeer meer heeft gezien na 22 uur.</p>",
+          "<p class=\"case-section__paragraph\">Hetzelfde geldt voor de ondergeschikte stelling van de eisende partijen dat de onderbreking zal gerechtvaardigd zijn door een eetmaal en/of een periode van rust. Ook voor deze stelling ontbreekt elk bewijs.</p>",
+          "<p class=\"case-section__paragraph\">Als besluit dient dan ook te worden gesteld dat het arbeidsongeval niet plaatsvond op het normale traject en de eisende partijen het chronologisch hiaat niet verantwoorden zodat de vordering ongegrond is. Aangezien het arbeidsongeval niet bewezen is, is zowel de vordering van de erfgenamen van wijlen de heer Bocquet als deze van de verzekeringsmaatschappij Axa Royale Belge ongegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-008",
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-009",
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+          "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In tegenstelling tot artikel 7 van de Arbeidsongevallenwet van 10 april 1971, dat een bepaald vermoeden inlast, dient het slachtoffer of de rechthebbenden, nu de eisende partijen de bewijslast dragen, te bewijzen dat een ongeval op de weg naar of van het werk beantwoordt aan de vereisten van artikel 8 van de Arbeidsongevallenwet van 10 april 1971, inzonderheid dient het slachtoffer of de rechthebbenden te bewijzen dat het ongeval zich heeft voorgedaan op het normale traject (vgl. Cass. 17 september 1984, J.T.T., 1985, 200). Ten onrechte verwijzen de eisende partijen naar het arrest van het Hof van Cassatie dd. 26 augustus 1988 (B.T.S.Z., 1989, 137), waar het precies ging om de toepassing van artikel 7 van de Arbeidsongevallenwet van 10 april 1971 nu voor een handelsvertegenwoordiger de arbeidsovereenkomst geacht wordt aan te vangen bij hun vertrek en te eindigen bij hun thuiskomst. Wanneer het een belangrijk tijdshiaat betreft dient het slachtoffer of de rechthebbenden dit hiaat te verantwoorden door overmacht of een wettige reden (M. Vandeur, De arbeidsongevallen, pag. 99 met verwijzing naar oudere rechtspraak van het Hof van Cassatie).</p>",
+          "<p class=\"case-section__paragraph\">De eisende partijen (inzake A.R. 19.063/O/II), echtgenote en kinderen van wijlen de heer Bocquet, verwijzen naar artikel 8 van de Arbeidsongevallenwet van 10 april 1971 en stellen dat het ongeval plaats vond op het normale traject van het werk naar huis. Terwijl de eisende partijen in de dagvaarding en conclusies voorhielden dat het ongeval zich heeft voorgedaan rond 00.45 uur, stellen zij in pleidooien dat het ongeval voor twaalf uur 's nachts gebeurde aangezien de brandweer werd verwittigd rond 00.05 uur. De eisende partijen betwisten dat er een belangrijke onderbreking is in het traject en stellen dat het geenszins bewezen is dat wijlen de heer Bocquet het werk verliet om 22 uur. De eisende partijen argumenteren dat de door de verwerende partij aangevoerde elementen dit geenszins bewijzen. Inzake de verklaring van de heer C. Vanryckel stellen de eisende partijen dat deze later aan het Fonds voor Arbeidsongevallen een andere versie gaf en het geenszins zeker is dat wijlen de heer Bocquet samen met hem het werk verliet om 22 uur. Ook het verslag van Securitas is niet afdoende nu deze firma, volgens de eisende partijen, geen controle uitvoerde op kaai 424, waar wijlen de heer Bocquet werkte. De eisende partijen benadrukken, met verwijzing naar het arrest van het Hof van Cassatie dd. 26 augustus 1988, dat de bewijslast van de onderbreking bij de verwerende partij ligt en deze uit het tijdsverloop alleen niet kan worden afgeleid. De eisende partijen stellen dat het aannemelijk is dat wijlen de heer Bocquet nog overuren presteerde en dus later op het werk was vertrokken. Ondergeschikt stellen de eisende partijen dat de onderbreking gerechtvaardigd was doordat het slachtoffer (wellicht) iets is gaan eten of rust heeft genomen. Meest ondergeschikt bieden de eisende partijen het bewijs aan van de feitelijke omstandigheden, die zich op de dag van het ongeval hebben voorgedaan. De eisende partij (inzake A.R. 19.066), de naamloze vennootschap Axa Royale Belge, stelt dat zij als verzekeraar van de polis \"Veiligheid van de bestuurder\" een bedrag van 250.000,- frank heeft betaald aan de erfgenamen, voor rekening van wie het behoort. Deze partij stelt dat de uitbetaling ondergeschikt is aan de tussenkomst van de verzekeraar inzake arbeidsongevallen en zij derhalve voor dit bedrag een vordering heeft op de verwerende partij, tenminste voor zo ver het ongeval als een arbeidsongeval wordt erkend. Inzake de argumentatie nopens het arbeidsongeval sluit zij zich volledig aan bij de stelling van de erfgenamen. De verwerende partij betwist dat wijlen de heer Bocquet zich op de chronologisch normale weg zou bevonden hebben. Volgens de verwerende partij heeft wijlen de heer Bocquet omstreeks 22 uur het werk verlaten en diende hij een half uur later op de plaats van het ongeval te zijn. De verwerende partij verwijst ter staving vooreerst naar de verklaring van de heer Vanryckel, die stelde samen met wijlen de heer Bocquet het werk te hebben verlaten omstreeks 22 uur. Volgens de verwerende partij is de verklaring die deze getuige maanden later aflegde aan het Fonds voor Arbeidsongevallen hiermee niet tegenstrijdig. De verwerende partij verwijst ook naar het verslag van Securitas. De verwerende partij betwist dat de eisende partij die dag overuren zou hebben gedaan, waarop geen enkel element wijst. De verwerende partij benadrukt dat de bewijslast van het normale traject berust bij de eisende partijen. Evenmin is aangetoond dat wijlen de heer Bocquet zijn arbeidsweg zou hebben onderbroken met een geldige reden (om te eten of te rusten). Tenslotte verzet de verwerende partij zich tegen het houden van een getuigenverhoor, wat volgens deze partij niet relevant is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-009",
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+          "DEC-ECLI:BE:ARGNT:1999:JUG.19991213.3-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Als besluit dient dan ook te worden gesteld dat het arbeidsongeval niet plaatsvond op het normale traject en de eisende partijen het chronologisch hiaat niet verantwoorden zodat de vordering ongegrond is. Aangezien het arbeidsongeval niet bewezen is, is zowel de vordering van de erfgenamen van wijlen de heer Bocquet als deze van de verzekeringsmaatschappij Axa Royale Belge ongegrond.</p>",
+          "<p class=\"case-section__paragraph\">De kosten van de erfgenamen van wijlen de heer Bocquet zijn ten laste van de verwerende partij in toepassing van artikel 68 van de Arbeidsongevallenwet van 10 april 1971. Dit artikel is evenwel niet van toepassing op de vordering van de verzekeringsmaatschappij Axa Royale Belge, die als verliezende partij dient te worden verwezen in de kosten van haar vordering.</p>",
+          "<p class=\"case-footer__paragraph\">- verwijst met toepassing van artikel 68 van de Arbeidsongevallenwet de verwerende partij in de kosten van het geding, begroot aan de zijde van de eisende partijen Baeyens-Bocquet en verwijst met toepassing van artikel 1017 eerste lid van het Gerechtelijk Wetboek de eisende partij naamloze vennootschap Axa Royale Belge in de overige kosten.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-010",
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">- verwijst met toepassing van artikel 68 van de Arbeidsongevallenwet de verwerende partij in de kosten van het geding, begroot aan de zijde van de eisende partijen Baeyens-Bocquet en verwijst met toepassing van artikel 1017 eerste lid van het Gerechtelijk Wetboek de eisende partij naamloze vennootschap Axa Royale Belge in de overige kosten.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-011",
+          "ART-ECLI:BE:ARGNT:1999:JUG.19991213.3-010"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 11,
+      "citationStatistics": {
+        "totalCitations": 15,
+        "avgCitationsPerProvision": 1.3636363636363635,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 7
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.4545454545454546,
+        "avgDecisionsPerProvision": 0.36363636363636365,
+        "provisionsWithNoRelationships": 7
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:1999:JUG.19991213.3-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De vordering van de eisende partijen steunt op artikel 8 van de Arbeidsongevallenwet van 10 april 1971, waarbij eveneens als een arbeidsongeval wordt aangezien het ongeval dat zich voordoet op de weg van en naar het werk. Onder de weg van en naar het werk wordt verstaan het normale traject dat de werknemer moet afleggen om zich te begeven van zijn verblijfplaats naar het werk en omgekeerd. Algemeen wordt aangenomen dat het normale traject niet enkell een geografisch maar ook ee chronologisch aspect vertoont en telkens dient de concrete verplaatsing aan beide elementen te worden getoetst (C. Perseyn, R. Janvier en W. van Eeckhoutte, Overzicht van de rechtspraak arbeidsongevallen, 1984-1989, T.P.R., 1990, nr. 63). In casu is er geen betwisting dat wijlen de heer Bocquet zich op het geografisch normale traject bevond (er is derhalve geen probleem van de omweg) maar de discussie spitst zich toe op het chronologisch karakter van het traject (onderbreking).</p>",
+          "<p class=\"case-section__paragraph\">In tegenstelling tot artikel 7 van de Arbeidsongevallenwet van 10 april 1971, dat een bepaald vermoeden inlast, dient het slachtoffer of de rechthebbenden, nu de eisende partijen de bewijslast dragen, te bewijzen dat een ongeval op de weg naar of van het werk beantwoordt aan de vereisten van artikel 8 van de Arbeidsongevallenwet van 10 april 1971, inzonderheid dient het slachtoffer of de rechthebbenden te bewijzen dat het ongeval zich heeft voorgedaan op het normale traject (vgl. Cass. 17 september 1984, J.T.T., 1985, 200). Ten onrechte verwijzen de eisende partijen naar het arrest van het Hof van Cassatie dd. 26 augustus 1988 (B.T.S.Z., 1989, 137), waar het precies ging om de toepassing van artikel 7 van de Arbeidsongevallenwet van 10 april 1971 nu voor een handelsvertegenwoordiger de arbeidsovereenkomst geacht wordt aan te vangen bij hun vertrek en te eindigen bij hun thuiskomst. Wanneer het een belangrijk tijdshiaat betreft dient het slachtoffer of de rechthebbenden dit hiaat te verantwoorden door overmacht of een wettige reden (M. Vandeur, De arbeidsongevallen, pag. 99 met verwijzing naar oudere rechtspraak van het Hof van Cassatie).</p>",
+          "<p class=\"case-section__paragraph\">Het werd in de dagvaarding en conclusies niet betwist dat wijlen de heer Bocquet normaliter diende te presteren tot 22 uur en hij verongelukte tussen O.30 en 1 uur te Lokeren, welke plaats hij na een half uur diende te bereiken. Met andere woorden was er hier in casu een hiaat van minstens 2 uur dat als belangrijk dient te worden aangezien zodat er geen sprake meer is van een normaal chronologisch traject. In pleidooien stellen de eisende partijen, met verwijzing naar het verslag van de brandweer, dat het ongeval zich voor middernacht heeft voorgedaan. Alsdan dient te worden aanvaard dat het ongeval zich kort voor middernacht heeft voorgedaan nu de brandweer vijf minuten na middernacht verwitigd was en het ongeval plaatsvond op een autosnelweg door een aanrijding met een vrachtwagen. Een onderbreking van ongeveer anderhalf uur dient ook te worden beschouwd als een belangrijke onderbreking.</p>",
+          "<p class=\"case-section__paragraph\">De loutere veronderstelling van de eisende partijen, zonder de minste aanwijzing, laat staan bewijs, dat wijlen de heer Bocquet overuren presteerde (hetgeen dan zou geduurd hebben tot bijna middernacht) is niet van aard om het hiaat te overbruggen. Nu de normale arbeidsduur van wijlen de heer Bocquet liep tot 22 uur rust de bewijslast van een langere arbeidsduur ook in deze zaak (net zoals voor een vordering in betaling van overuren) op de eisende partijen die een afwijkende regeling vooropstellen. Niet alleen wordt er niet het minste element aangebracht maar zijn er veeleer indicaties van het tegendeel:</p>",
+          "<p class=\"case-section__paragraph\">- verklaring van de heer Vermeylen, afgelegd aan een inspecteur van het Fonds voor Arbeidsongevallen, waarin wordt gesteld dat er geen nachtwerk was voor de heer Bocquet in de twee weken voor het ongeval.</p>",
+          "<p class=\"case-section__paragraph\">- verklaring van de heer C. Vanryckel dd. 2 november 1993 (dus enkele dagen na het ongeval) die stelde : \"...Omstreeks 22 uur hebben wij samen de kaai verlaten en zijn elk in onze wagen weggereden. Bocquet is samen met mij vertrokken en was dus rond 22.00 uur weg\". De verklaring die de heer Vanryckel later aflegde aan de inspecteur van het Fonds voor Arbeidsongevallen (ongeveer anderhalf jaar na het ongeval ) is hiermee niet echt tegenstrijdig aangezien hierin wordt gezegd dat hij samen met de heer Bocquet de trap is afgekomen (tussen 21.30 uur en 21.45 uur). Een getuigenverhoor, meer dan zes jaar na de feiten, kan geen verduidelijking meer bieden.</p>",
+          "<p class=\"case-section__paragraph\">- verslag van de groep Securitas die op de kaaien 420-428 geen verkeer meer heeft gezien na 22 uur.</p>",
+          "<p class=\"case-section__paragraph\">Hetzelfde geldt voor de ondergeschikte stelling van de eisende partijen dat de onderbreking zal gerechtvaardigd zijn door een eetmaal en/of een periode van rust. Ook voor deze stelling ontbreekt elk bewijs.</p>",
+          "<p class=\"case-section__paragraph\">Als besluit dient dan ook te worden gesteld dat het arbeidsongeval niet plaatsvond op het normale traject en de eisende partijen het chronologisch hiaat niet verantwoorden zodat de vordering ongegrond is. Aangezien het arbeidsongeval niet bewezen is, is zowel de vordering van de erfgenamen van wijlen de heer Bocquet als deze van de verzekeringsmaatschappij Axa Royale Belge ongegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:1999:JUG.19991213.3-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In tegenstelling tot artikel 7 van de Arbeidsongevallenwet van 10 april 1971, dat een bepaald vermoeden inlast, dient het slachtoffer of de rechthebbenden, nu de eisende partijen de bewijslast dragen, te bewijzen dat een ongeval op de weg naar of van het werk beantwoordt aan de vereisten van artikel 8 van de Arbeidsongevallenwet van 10 april 1971, inzonderheid dient het slachtoffer of de rechthebbenden te bewijzen dat het ongeval zich heeft voorgedaan op het normale traject (vgl. Cass. 17 september 1984, J.T.T., 1985, 200). Ten onrechte verwijzen de eisende partijen naar het arrest van het Hof van Cassatie dd. 26 augustus 1988 (B.T.S.Z., 1989, 137), waar het precies ging om de toepassing van artikel 7 van de Arbeidsongevallenwet van 10 april 1971 nu voor een handelsvertegenwoordiger de arbeidsovereenkomst geacht wordt aan te vangen bij hun vertrek en te eindigen bij hun thuiskomst. Wanneer het een belangrijk tijdshiaat betreft dient het slachtoffer of de rechthebbenden dit hiaat te verantwoorden door overmacht of een wettige reden (M. Vandeur, De arbeidsongevallen, pag. 99 met verwijzing naar oudere rechtspraak van het Hof van Cassatie).</p>",
+          "<p class=\"case-section__paragraph\">Het werd in de dagvaarding en conclusies niet betwist dat wijlen de heer Bocquet normaliter diende te presteren tot 22 uur en hij verongelukte tussen O.30 en 1 uur te Lokeren, welke plaats hij na een half uur diende te bereiken. Met andere woorden was er hier in casu een hiaat van minstens 2 uur dat als belangrijk dient te worden aangenomen zodat er geen sprake meer is van een normaal chronologisch traject. In pleidooien stellen de eisende partijen, met verwijzing naar het verslag van de brandweer, dat het ongeval zich voor middernacht heeft voorgedaan. Alsdan dient te worden aanvaard dat het ongeval zich kort voor middernacht heeft voorgedaan nu de brandweer vijf minuten na middernacht verwitigd was en het ongeval plaatsvond op een autosnelweg door een aanrijding met een vrachtwagen. Een onderbreking van ongeveer anderhalf uur dient ook te worden beschouwd als een belangrijke onderbreking.</p>",
+          "<p class=\"case-section__paragraph\">De loutere veronderstelling van de eisende partijen, zonder de minste aanwijzing, laat staan bewijs, dat wijlen de heer Bocquet overuren presteerde (hetgeen dan zou geduurd hebben tot bijna middernacht) is niet van aard om het hiaat te overbruggen. Nu de normale arbeidsduur van wijlen de heer Bocquet liep tot 22 uur rust de bewijslast van een langere arbeidsduur ook in deze zaak (net zoals voor een vordering in betaling van overuren) op de eisende partijen die een afwijkende regeling vooropstellen. Niet alleen wordt er niet het minste element aangebracht maar zijn er veeleer indicaties van het tegendeel:</p>",
+          "<p class=\"case-section__paragraph\">- verklaring van de heer Vermeylen, afgelegd aan een inspecteur van het Fonds voor Arbeidsongevallen, waarin wordt gesteld dat er geen nachtwerk was voor de heer Bocquet in de twee weken voor het ongeval.</p>",
+          "<p class=\"case-section__paragraph\">- verklaring van de heer C. Vanryckel dd. 2 november 1993 (dus enkele dagen na het ongeval) die stelde : \"...Omstreeks 22 uur hebben wij samen de kaai verlaten en zijn elk in onze wagen weggereden. Bocquet is samen met mij vertrokken en was dus rond 22.00 uur weg\". De verklaring die de heer Vanryckel later aflegde aan de inspecteur van het Fonds voor Arbeidsongevallen (ongeveer anderhalf jaar na het ongeval ) is hiermee niet echt tegenstrijdig aangezien hierin wordt gezegd dat hij samen met de heer Bocquet de trap is afgekomen (tussen 21.30 uur en 21.45 uur). Een getuigenverhoor, meer dan zes jaar na de feiten, kan geen verduidelijking meer bieden.</p>",
+          "<p class=\"case-section__paragraph\">- verslag van de groep Securitas die op de kaaien 420-428 geen verkeer meer heeft gezien na 22 uur.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:1999:JUG.19991213.3-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het werd in de dagvaarding en conclusies niet betwist dat wijlen de heer Bocquet normaliter diende te presteren tot 22 uur en hij verongelukte tussen O.30 en 1 uur te Lokeren, welke plaats hij na een half uur diende te bereiken. Met andere woorden was er hier in casu een hiaat van minstens 2 uur dat als belangrijk dient te worden aangenomen zodat er geen sprake meer is van een normaal chronologisch traject. In pleidooien stellen de eisende partijen, met verwijzing naar het verslag van de brandweer, dat het ongeval zich voor middernacht heeft voorgedaan. Alsdan dient te worden aanvaard dat het ongeval zich kort voor middernacht heeft voorgedaan nu de brandweer vijf minuten na middernacht verwitigd was en het ongeval plaatsvond op een autosnelweg door een aanrijding met een vrachtwagen. Een onderbreking van ongeveer anderhalf uur dient ook te worden beschouwd als een belangrijke onderbreking.</p>",
+          "<p class=\"case-section__paragraph\">De loutere veronderstelling van de eisende partijen, zonder de minste aanwijzing, laat staan bewijs, dat wijlen de heer Bocquet overuren presteerde (hetgeen dan zou geduurd hebben tot bijna middernacht) is niet van aard om het hiaat te overbruggen. Nu de normale arbeidsduur van wijlen de heer Bocquet liep tot 22 uur rust de bewijslast van een langere arbeidsduur ook in deze zaak (net zoals voor een vordering in betaling van overuren) op de eisende partijen die een afwijkende regeling vooropstellen. Niet alleen wordt er niet het minste element aangebracht maar zijn er veeleer indicaties van het tegendeel:</p>",
+          "<p class=\"case-section__paragraph\">Als besluit dient dan ook te worden gesteld dat het arbeidsongeval niet plaatsvond op het normale traject en de eisende partijen het chronologisch hiaat niet verantwoorden zodat de vordering ongegrond is. Aangezien het arbeidsongeval niet bewezen is, is zowel de vordering van de erfgenamen van wijlen de heer Bocquet als deze van de verzekeringsmaatschappij Axa Royale Belge ongegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 18,
+        "avgCitationsPerTeaching": 6,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 4,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

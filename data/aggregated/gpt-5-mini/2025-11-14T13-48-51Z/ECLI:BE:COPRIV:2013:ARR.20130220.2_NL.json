@@ -1,0 +1,1035 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:2013:ARR.20130220.2",
+  "language": "NL",
+  "metadata": {
+    "id": 116465,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+    "decision_date": "2013-02-20",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 18717,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commissie voor de bescherming van de persoonlijke levenssfeer, 20 februari 2013, Advies nr 07/2013, ECLI:BE:COPRIV:2013:ARR.20130220.2"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2013:ARR.20130220.2-001",
+        "name": "De Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "name": "Annemie Turtelboom, Minister van Justitie",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2013:ARR.20130220.2-003",
+        "name": "Administrateur-generaal van de Veiligheid van de Staat",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2013:ARR.20130220.2-004",
+        "name": "Mireille Salmon",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2013:ARR.20130220.2-005",
+        "name": "Patrick Van Wouwe",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2013:ARR.20130220.2-006",
+        "name": "Willem Debeuckelaere",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op verzoek van minister van Justitie Annemie Turtelboom stuurde de Administrateur-generaal van de Veiligheid van de Staat op 31 maart 2010 aan de Commissie het voorontwerp van koninklijk besluit tot uitvoering van artikel 21 van de wet van 30 november 1998 betreffende de inlichtingen- en veiligheidsdienst. De Commissie ontving het verzoek om advies op 04/12/2012; mevrouw Mireille Salmon stelde het verslag op. Het voorontwerp beoogt de vastlegging van bewaartermijnen voor persoonsgegevens verwerkt krachtens de organieke wet en bevat bepalingen over een bewaartermijn van 50 jaar, uitzonderingen (historische archivering, noodzaak voor de doeleinden, lopende gerechtelijke procedures), het beginpunt van de termijn, evaluatieprocedures (evaluatie bij afloop en vervolgens elke vijf jaar), vernietigingstechnieken en -procedures en het opstellen van proces-verbaal van vernietiging. De Commissie onderzocht de coherentie van het voorontwerp met de WVP (wet van 8 december 1992) en met het regime van de Rijksarchieven en formuleerde punten ter verduidelijking en wijziging, onder meer betreffende artikelverwijzingen, het verbod op bewaring van onjuiste of niet-terzake-dienende gegevens, de uitleg van het begrip bewaartermijn, de toepasselijkheid van de 50-jarige termijn en de verhouding tot specifieke regimes zoals veiligheidsonderzoeken en geclassificeerde documenten.",
+      "requests": [],
+      "arguments": [],
+      "courtOrder": "OM DIE REDENEN\n\nGelet op de opmerkingen in voorliggend advies, brengt de Commissie een gunstig advies uit op voorwaarde dat haar inhoudelijke opmerkingen over het voorontwerp onder punten 13, 15, $26,32,33,35,36,40,49,52,55$ en 56 worden geëerbiedigd.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-001",
+        "provisionNumber": "artikel 29",
+        "provisionNumberKey": "29",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "provisionNumber": "artikel 21, 3de lid",
+        "provisionNumberKey": "21",
+        "parentActType": "WET",
+        "parentActName": "de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdienst (organieke wet inlichtingen- en veiligheidsdienst)",
+        "parentActDate": "1998-11-30",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie leest artikel 21, 3de lid als het beginsel dat persoonsgegevens die krachtens de organieke wet door de inlichtingen- en veiligheidsdiensten worden verwerkt slechts mogen worden bewaard gedurende de tijd die noodzakelijk is voor de doeleinden waarvoor zij zijn opgeslagen. Dit beginsel geldt als maximumregel: vastgelegde termijnen moeten worden opgevat als maximumtermijnen en zijn onderworpen aan voortdurende toetsing van proportionaliteit, noodzakelijkheid en periodieke evaluatie met oog op vernietiging.",
+        "relevantFactualContext": "Toegepast op het voorontwerp dat een standaard bewaartermijn van 50 jaar invoert; de Commissie beoordeelt die termijn als maximum, wijst op uitzonderingen (archief, lopende procedures, veiligheidsregimes) en benadrukt de nood aan voortdurende evaluatie en proportionaliteitscontrole."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-003",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "WET",
+        "parentActName": "de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdienst (organieke wet inlichtingen- en veiligheidsdienst)",
+        "parentActDate": "1998-11-30",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 13 geeft de diensten de bevoegdheid om inlichtingen en persoonsgegevens te verzamelen, ontvangen en verwerken in het kader van hun opdrachten, maar de Commissie benadrukt dat uit deze bevoegdheid volgt dat er een duidelijk verband moet bestaan tussen de taken van de dienst en de ingezamelde gegevens; de documentatie moet beperkt blijven tot wat relevant en noodzakelijk is voor de nagestreefde doeleinden.",
+        "relevantFactualContext": "Gewerkt in de context van de toegestane inzamelingsmethoden (overheidsbronnen, registers, informanten, observaties, controles) en de eis dat de documentatie betrekking heeft op gebeurtenissen, groeperingen en personen die relevant zijn voor de opdrachten van de diensten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-004",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-001",
+        "provisionNumber": "artikel 4, §1, 4°",
+        "provisionNumberKey": "4",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 4, §1, 4° van de WVP als een verbod op de verwerking — en dus op bewaring — van onjuiste, onvolledige, niet ter zake dienende gegevens of gegevens die verwerkt zijn in strijd met de doeleinden. Dergelijke gegevens mogen onder geen beding bewaard worden en er kan geen bewaartermijn voor hen worden vastgesteld.",
+        "relevantFactualContext": "Deze lezing volgt uit de kritiek op de memorie van toelichting die suggereerde dat voor onjuiste of niet-ter-zake-diende gegevens een bewaartermijn (<30 jaar) zou kunnen gelden; de Commissie verzoekt die passage aan te passen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-005",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-001",
+        "provisionNumber": "artikel 16, §2, 1°",
+        "provisionNumberKey": "16",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-006",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-001",
+        "provisionNumber": "artikel 1, §2",
+        "provisionNumberKey": "1",
+        "parentActType": "WET",
+        "parentActName": "de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie wijst op de paradox in artikel 1, §2 (definitie van 'verwerking') doordat bewaren als verwerking wordt beschouwd; zij dringt erop aan te verduidelijken dat de bewaarhandeling niet als verwerking moet worden aangemerkt voor het bepalen van het aanvangsmoment van de bewaartermijn, om onduidelijkheid over het 'beginpunt' te vermijden.",
+        "relevantFactualContext": "Betreft de bepaling in het voorontwerp dat de bewaartermijn ingaat 'na de laatste verwerking' — de Commissie verlangt duidelijkheid of de bewaarhandeling zelf als verwerking telt voor dat beginpunt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-007",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-003",
+        "provisionNumber": "artikel 1",
+        "provisionNumberKey": "1",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van Koninklijk besluit tot uitvoering van artikel 21 van de wet van 30 november 1998",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-008",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-003",
+        "provisionNumber": "artikel 2, 1ste lid",
+        "provisionNumberKey": "2",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van Koninklijk besluit tot uitvoering van artikel 21 van de wet van 30 november 1998",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie leest artikel 2, 1ste lid (zoals voorgesteld: standaardtermijn 50 jaar) als het vastleggen van een maximum bewaartermijn; zij benadrukt dat die termijn als maximum moet worden opgevat, onderworpen aan voortdurende toetsing van proportionaliteit en relevantie en aan een procedure voor periodieke evaluatie en vernietiging, met inachtneming van bijzondere regimes.",
+        "relevantFactualContext": "Toegepast op het voorontwerp dat een bewaartermijn van 50 jaar oplegt; de Commissie bespreekt de door de memorie aangevoerde rechtvaardigingen (o.a. internationale verbintenissen) en wijst op het belang van tussentijdse evaluaties en uitzonderingen voor specifieke regimes."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-009",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "provisionNumber": "artikel 7",
+        "provisionNumberKey": "7",
+        "parentActType": "WET",
+        "parentActName": "de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdienst (organieke wet inlichtingen- en veiligheidsdienst)",
+        "parentActDate": "1998-11-30",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-010",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "provisionNumber": "artikel 8",
+        "provisionNumberKey": "8",
+        "parentActType": "WET",
+        "parentActName": "de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdienst (organieke wet inlichtingen- en veiligheidsdienst)",
+        "parentActDate": "1998-11-30",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-011",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "provisionNumber": "artikel 1°",
+        "provisionNumberKey": "1",
+        "parentActType": "WET",
+        "parentActName": "de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdienst (organieke wet inlichtingen- en veiligheidsdienst)",
+        "parentActDate": "1998-11-30",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-012",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "WET",
+        "parentActName": "de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdienst (organieke wet inlichtingen- en veiligheidsdienst)",
+        "parentActDate": "1998-11-30",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-013",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-003",
+        "provisionNumber": "artikel 3",
+        "provisionNumberKey": "3",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van Koninklijk besluit tot uitvoering van artikel 21 van de wet van 30 november 1998",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 3 verplicht dat persoonsgegevens na afloop van de bewaartermijn worden vernietigd overeenkomstig de meest passende technische methodes per drager, waarbij rekening wordt gehouden met technologische evolutie zodat verdere exploitatie onmogelijk is. De Commissie beschouwt dit als in overeenstemming met de technische voorschriften van het KB van 12 oktober 2010.",
+        "relevantFactualContext": "Toegepast op de technische vernietiging van gegevens in het voorontwerp; de Commissie verzoekt expliciete verwijzing naar het bestaande KB van 12 oktober 2010 en ziet artikel 3 als toepassing van die technische normen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-014",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-003",
+        "provisionNumber": "artikel 4",
+        "provisionNumberKey": "4",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van Koninklijk besluit tot uitvoering van artikel 21 van de wet van 30 november 1998",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 4 schrijft voor dat de vernietiging van persoonsgegevens moet gebeuren onder controle van het betrokken diensthoofd of diens aangewezen persoon en in aanwezigheid van de raadgever informatieveiligheid en bescherming van de persoonlijke levenssfeer. De Commissie beschouwt dit als een procedurele waarborg, analoog aan het vernietigingsproces voor illegaal verkregen gegevens.",
+        "relevantFactualContext": "Gaat over de voorgestelde vernietigingsprocedure in het voorontwerp; de Commissie herinnert eraan dat de naleving van modaliteiten (duur/vernietiging) berust bij de verantwoordelijke voor de verwerking."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-015",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-003",
+        "provisionNumber": "artikel 5",
+        "provisionNumberKey": "5",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het voorontwerp van Koninklijk besluit tot uitvoering van artikel 21 van de wet van 30 november 1998",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 5 verplicht dat de personen betrokken bij de vernietiging een proces‑verbaal opstellen en ondertekenen; de Commissie ziet dit als een administratieve waarborg die aansluit bij artikel 13 van het KB van 2010 en bij de vereiste medeondertekening door de veiligheidsofficier conform het KB van 24 maart 2000 wanneer andere dan 'vertrouwelijke' documenten betrokken zijn.",
+        "relevantFactualContext": "Betreft de voorgeschreven documentatie bij vernietiging in het voorontwerp en de aansluiting op bestaande uitvoeringsregelingen voor geclassificeerde documenten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-016",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-004",
+        "provisionNumber": "artikel 25",
+        "provisionNumberKey": "25",
+        "parentActType": "WET",
+        "parentActName": "de wet van 11 december 1998 betreffende de classificatie en de veiligheidsmachtigingen, veiligheidsattesten en veiligheidsadviezen",
+        "parentActDate": "1998-12-11",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 25 bepaalt in beginsel de onmiddellijke vernietiging van veiligheidsgegevens zodra de betrokkene geen onderwerp meer is van een veiligheidsonderzoek, met een maximale bewaartermijn van 2 jaar vanaf het vervallen van de geldigheid van de veiligheidsmachtiging. De Commissie wijst erop dat dit een specifiek regime vormt dat niet zonder meer door het algemene 50‑jaarsvoorstel mag worden geraakt.",
+        "relevantFactualContext": "Toegepast op gegevens verkregen tijdens veiligheidsonderzoeken en geclassificeerde documenten; de Commissie concludeert dat de voorgestelde algemene bewaartermijn van 50 jaar in principe niet van toepassing is op deze specifieke gegevens."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-017",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-005",
+        "provisionNumber": "artikel 17",
+        "provisionNumberKey": "17",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het Koninklijk besluit van 24 maart 2000 ter uitvoering van de wet van 11 december 1998 betreffende de classificatie en de veiligheidsmachtigingen, veiligheidsattesten en veiligheidsadviezen",
+        "parentActDate": "2000-03-24",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 17 legt op dat de houder van geclassificeerde documenten regelmatig moet nagaan of de bewaring nog nuttig is; de Commissie verwijst naar deze bestaande plicht als relevant mechanisme ter toetsing van bewaartermijnen en behoudsnodigheid.",
+        "relevantFactualContext": "Toegepast op de praktijk van het beheer van geclassificeerde documenten en bij de beoordeling of bewaartermijnen verlengd moeten worden; relevant voor medeondertekening bij vernietiging."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-018",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-006",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het Koninklijk besluit van 12 oktober 2010 houdende uitvoering van diverse bepalingen van de wet van 30 november 1998 betreffende de inlichtingen- en veiligheidsdienst",
+        "parentActDate": "2010-10-12",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 13 van het KB van 12 oktober 2010 beschrijft passende technische methodes voor vernietiging; de Commissie stelt vast dat artikel 3 van het voorontwerp hiermee strookt en adviseert expliciete verwijzing naar die technische normen in de consideransen.",
+        "relevantFactualContext": "Gehanteerd als precedent voor de technische vernietiging van gegevens en als onderbouwding voor de voorgestelde vernietigingstechnieken in het voorontwerp; de Commissie verwees naar haar eerder gunstig advies over dat KB."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-019",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-007",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het Koninklijk besluit van 18 augustus 2010 tot uitvoering van de artikelen 5 en 6 van de Archiefwet van 24 juni 1955",
+        "parentActDate": "2010-08-18",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 11 van het uitvoeringsbesluit bij de Archiefwet bepaalt dat fysieke vernietiging van archieven niet mag plaatsvinden zonder schriftelijke en uitdrukkelijke toestemming van de Algemeen Rijksarchivaris of zijn gemachtigden; de Commissie signaleert een mogelijk conflict tussen deze regel en het voorontwerp dat systematische vernietiging regelt.",
+        "relevantFactualContext": "Betreft de spanning tussen het voorontwerp voor systematische vernietiging door de inlichtingendiensten en het archiefrecht dat vernietiging ondergeschikt maakt aan toestemming van de Rijksarchivaris."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-020",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-007",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het Koninklijk besluit van 18 augustus 2010 tot uitvoering van de artikelen 5 en 6 van de Archiefwet van 24 juni 1955",
+        "parentActDate": "2010-08-18",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 12 legt de opdracht bij de Rijksarchivaris om de historische, wetenschappelijke of maatschappelijke waarde van archieven te beoordelen; de Commissie benadrukt dat die beoordeling en bevoegdheid bij de archivaris liggen en niet bij de inlichtingendiensten, wat relevant is voor de eerste uitzondering in het voorontwerp.",
+        "relevantFactualContext": "Wordt aangehaald in de discussie over de uitzonderingen op vernietiging (archiefwaarde) en vormt de kern van de mogelijke wettenconflict tussen het voorgestelde vernietigingsmechanisme en het archiefrecht."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-021",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-008",
+        "provisionNumber": "artikel 5",
+        "provisionNumberKey": "5",
+        "parentActType": "WET",
+        "parentActName": "de Archiefwet van 24 juni 1955",
+        "parentActDate": "1955-06-24",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-022",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:ARR.20130220.2-008",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "WET",
+        "parentActName": "de Archiefwet van 24 juni 1955",
+        "parentActDate": "1955-06-24",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "date": "1998-03-23",
+        "caseNumber": "Advies nr. 12/98",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2013:ARR.20130220.2-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "date": "2010-06-30",
+        "caseNumber": "Advies nr. 24/2012",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2013:ARR.20130220.2-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Intelligentiegegevens",
+      "Bewaring na laatste verwerking",
+      "Langdurige bewaartermijn",
+      "Vernietigingsprocedure",
+      "Proportionaliteitsverplichting",
+      "Conflict met Rijksarchief",
+      "Beginpunt van bewaring",
+      "Bewaring voor gerechtelijk onderzoek",
+      "Advies Commissie privacy"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:ARR.20130220.2-001",
+        "text": "De bewaartermijn voor persoonsgegevens krachtens artikel 21 van de organieke wet moet worden opgevat als een maximumtermijn: persoonsgegevens mogen in principe niet langer worden bewaard dan noodzakelijk voor de doeleinden waarvoor zij zijn opgeslagen; vastgestelde termijnen dienen te worden gezien als maxima, onderworpen aan voortdurende toetsing van proportionaliteit en noodzakelijkheid.",
+        "courtVerbatim": "De Commissie herinnert eraan dat het beginsel dat krachtens artikel 21 van de organieke wet inlichtingen- en veiligheidsdienst werd ingevoerd, inhoudt dat de bewaartermijn van de gegevens die door haar diensten worden verwerkt, niet langer mag duren dat de tijd die noodzakelijk is om de doeleinden te bereiken waarvoor die gegevens werden opgeslagen. Het gaat om een toepassing van de verplichting bedoeld in artikel 4, §1,5° van de WVP. Er kan bijgevolg geen sprake van zijn dat de gegevens langer dan die tijd worden bewaard. De Commissie benadrukt het feit dat de voorziene termijn begrepen moet worden als een maximum bewaartermijn.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de wetgever of verwerkingsverantwoordelijke vaste bewaartermijnen vastlegt voor persoonsgegevens verwerkt door inlichtingen- en veiligheidsdiensten.",
+        "relevantFactualContext": "Reactie van de Commissie op het voorontwerp dat een standaard bewaartermijn van 50 jaar invoert en op de memorie die langere termijnen verdedigt; de Commissie benadrukt dat die termijn slechts als maximum én onderworpen aan voortdurende toetsing geldt.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "text": "Onjuiste, onvolledige of niet-ter-zake-dienende persoonsgegevens mogen niet worden bewaard en daarvoor kan geen bewaartermijn worden vastgesteld; de verwerking van dergelijke gegevens is verboden op grond van artikel 4 van de WVP.",
+        "courtVerbatim": "De Commissie wil hier onder de aandacht brengen dat artikel 4 van de WVP de verwerking verbiedt van onjuiste, onvolledige, niet ter zake dienende gegevens of gegevens die verwerkt zijn in strijd met de doeleinden. Ze kunnen dus in geen geval worden bewaard en er mag geen enkele termijn voor hun verwerking worden vastgelegd. De Commissie wenst dat de aanvrager zijn commentaar in die zin aanpast.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing op persoonsgegevens die bij toetsing blijken onjuist, onvolledig of niet-relevant voor de nagestreefde doeleinden.",
+        "relevantFactualContext": "Commentaar op de memorie van toelichting die suggereerde dat voor onjuiste of niet-ter-zake-diende gegevens een bewaartermijn (<30 jaar) zou kunnen gelden; Commissie verzoekt aanpassing omdat dergelijke gegevens nooit bewaard mogen worden.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:ARR.20130220.2-003",
+        "text": "Voor het bepalen van het aanvangsmoment van een bewaartermijn moet worden verduidelijkt dat de bewaarhandeling zelf niet als 'verwerking' wordt aangemerkt; de bewaarhandeling mag dus geen nieuw beginpunt creëren voor de termijn waarop het wettelijke maximum ziet.",
+        "courtVerbatim": "De gebruikte formulering is inderdaad paradoxaal omdat de bewaring een verrichting is die specifiek in artikel 1, §2 van de WVP in de definitie van de verwerking wordt vermeld. Om die ambiguïteit op te lossen, dringt de Commissie erop aan te verduidelijken dat voor het beginpunt van de bewaring, de bewaarhandeling niet wordt aanzien als verwerking.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Slaat op de interpretatie van het aanvangsmoment van bewaartermijnen wanneer de definitie van 'verwerking' ook 'bewaren' omvat.",
+        "relevantFactualContext": "Commissie reageert op voorgestelde bewoording dat bewaartermijn ingaat 'na de laatste verwerking' en wijst op de paradox dat bewaren zelf als verwerking is gedefinieerd in artikel 1, §2 van de WVP; verzoekt verduidelijking in voorontwerp.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-006"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:ARR.20130220.2-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:ARR.20130220.2-004",
+        "text": "De verantwoordelijke voor de verwerking moet voortdurend de proportionaliteit en relevantie van bewaarde gegevens toetsen en bij het vervallen van een bewaartermijn en daarna periodiek (aanbevolen elke 5 jaar) de noodzaak van verdere bewaring evalueren; zodra de noodzakelijkheid wegvalt, dienen gegevens te worden vernietigd.",
+        "courtVerbatim": "De Commissie vestigt evenwel de aandacht van de aanvrager op het feit dat de verantwoordelijke voor de verwerking verplicht is om voortdurend, de proportionaliteit en de relevantie van de gegevens te beoordelen (artikel 4, §1, 3° van de WVP). Het is inderdaad de verantwoordelijke voor de verwerking die, uitgaande van de nagestreefde doeleinden, zelfs vóór de vastgelegde vervaldag kan nagaan of de verwerkte gegevens, juist, toereikend, ter zake dienend en niet overmatig zijn. De diensten evalueren de noodzakelijkheid om de persoonsgegevens te bewaren bij het vervallen van de termijn en vervolgens iedere 5 jaar. Zodra de noodzakelijkheid wegvalt, worden de gegevens vernietigd.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer bewaartermijnen verlopen of ter periodieke toetsing van reeds bewaarde gegevens; tevens tijdens de bewaartermijn zelf indien omstandigheden wijzigen.",
+        "relevantFactualContext": "Reactie op voorontwerp dat systematische vernietiging na vaste termijn voorstelt; Commissie ondersteunt herhaalde evaluatie en benadrukt bevoegdheid van verwerkingsverantwoordelijke om eerder te vernietigen indien proportionaliteit ontbreekt.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:ARR.20130220.2-005",
+        "text": "Vernietiging van persoonsgegevens moet technisch zodanig gebeuren dat verdere exploitatie onmogelijk is en procedureel plaatsvinden onder controle van het betrokken diensthoofd (of diens aangewezen persoon) in aanwezigheid van de raadgever informatieveiligheid en bescherming van de persoonlijke levenssfeer; van iedere vernietiging moet een proces-verbaal worden opgemaakt en ondertekend.",
+        "courtVerbatim": "Artikel 3 van het voorontwerp bepaalt dat de persoonsgegevens worden vernietigd naargelang de drager, door middel van de meest passende technische methodes, rekening houdend met de evolutie van de technologie ter zake zodat ze onmogelijk nog geëxploiteerd kunnen worden. Dit stemt overeen met de techniek zoals beschreven in artikel 13 van het koninklijk besluit van 12 oktober 2010 ... Artikel 4 van het voorontwerp bepaalt dat de vernietiging van persoonsgegevens moet gebeuren onder de controle van het betrokken diensthoofd of de persoon die hij hiertoe aanduidt en in aanwezigheid van de raadgever informatieveiligheid en bescherming van de persoonlijke levenssfeer. Artikel 5 van het voorontwerp bepaalt dat de personen bedoeld in voorgaand artikel van de vernietiging van persoonsgegevens een proces-verbaal opstellen en ondertekenen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij uitvoering van vernietiging van persoonsgegevens na het verstrijken van bewaartermijnen of bij vervallen noodzaak tot bewaring.",
+        "relevantFactualContext": "Commissie verwijst naar voorontwerp-artikelen 3–5 en naar artikel 13 van het KB van 12 oktober 2010; verzoekt expliciete verwijzing naar technische normen en benadrukt procedurele waarborgen en documentatie (proces-verbaal, medeondertekening).",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-013",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-018",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-014",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-015"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:ARR.20130220.2-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 5,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 3,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 5
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De overheid (Minister van Justitie) verzocht de Commissie voor de bescherming van de persoonlijke levenssfeer advies over een voorontwerp van koninklijk besluit tot uitvoering van artikel 21 van de organieke wet inlichtingen- en veiligheidsdienst, met name de vaste bewaartermijn en vernietigingsprocedure voor persoonsgegevens die door de inlichtingen- en veiligheidsdiensten worden verwerkt. De Commissie brengt een gunstig advies onder voorwaarden en benadrukt dat de voorgestelde maximale bewaartermijn van 50 jaar slechts een absoluut maximum mag zijn, dat bewaring beperkt en proportioneel moet zijn overeenkomstig artikel 4 WVP, dat onjuiste of niet-terzake-doende gegevens niet bewaard mogen worden en dat het beginpunt van de termijn en de afstemming met de archiefwet verduidelijkt dienen te worden. Zij verlangt voorts herhaalde evaluatie bij verval en elke vijf jaar en strikte vernietigingsprocedures onder toezicht van de gegevensverantwoordelijke."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (hierna WVP), inzonderheid artikel 29;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "relatedFullTextCitations": [
+          "<li>Op verzoek van de minister van Justitie Annemie Turtelboom stuurde de Administrateur-generaal van de Veiligheid van de Staat op 31 maart 2010 aan de Commissie het voorontwerp van Koninklijk besluit (hierna het voorontwerp) tot uitvoering van artikel 21 van de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdienst (hierna de organieke wet inlichtingen- en veiligheidsdienst).</li>",
+          "<li>Artikel 21, 3ᵈᵉ lid van voormelde wet, bepaalt dat de Koning na advies van de Commissie de bewaartermijn vastlegt van de persoonsgegevens, die in toepassing van die wet werden verwerkt en die ingaat na hun laatste verwerking.</li>",
+          "<blockquote class=\"case-quote\">Persoonsgegevens verwerkt in het kader van de toepassing van huidige wet worden bewaard voor een duur die niet langer mag zijn dan die welke noodzakelijk is om de doeleinden waarvoor ze opgeslagen worden, met uitzondering van de gegevens die een door het Rijksarchief erkend historisch karakter hebben. Zij worden slechts vernietigd na een zekere termijn volgend op de laatste verwerking waarvan zij het voorwerp zijn geweest. De Koning legt, na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer, de termijn vast tijdens welke de persoonsgegevens bedoeld in het vorige lid bewaard worden na hun laatste verwerking. Onverminderd de wettelijke bepalingen betreffende het Rijksarchief, bepaalt de Koning, na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer, de procedure met betrekking tot hun vernietiging.</blockquote>",
+          "<li>Het voorontwerp beoogt de uitvoering van artikel 21 van de organieke wet inlichtingen- en veiligheidsdienst.</li>",
+          "<li>Het gaat om de invoering van een algemeen bewaringsprincipe, dat in artikel 21, 1 ste lid van de organieke wet inlichtingen- en veiligheidsdienst werd ingevoerd. Zoals hierboven reeds werd gesteld, is dit principe een afspiegeling van een van de pijlers van de WVP, zoals bedoeld in haar artikel 4, §1, 5°.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-004",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-003",
+        "relatedFullTextCitations": [
+          "<li>Krachtens artikel 13 van de organieke wet inlichtingen- en veiligheidsdienst, kan de inlichtingen- en veiligheidsdienst in het kader van hun opdrachten inlichtingen en</li>",
+          "<p class=\"case-section__paragraph\">persoonsgegevens opsporen, verzamelen, ontvangen en verwerken die nuttig kunnen zijn om hun opdrachten te vervullen en een documentatie bijhouden, meer bepaald met betrekking tot de gebeurtenissen, groeperingen en personen die een belang vertonen voor de uitoefening van hun opdrachten. De in de documentatie vervatte inlichtingen moeten in verband staan met de doeleinden van het gegevensbestand en beperkt blijven tot de verplichtingen die daaruit voortvloeien.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-004",
+        "relatedFullTextCitations": [
+          "<li>Er wordt hiervoor uitsluitend melding gemaakt van artikel 4, §1, 4° en artikel 16, §2, 1° van de WVP.</li>",
+          "<li>De Commissie wil hier onder de aandacht brengen dat artikel 4 van de WVP de verwerking verbiedt van onjuiste, onvolledige, niet ter zake dienende gegevens of gegevens die verwerkt zijn in strijd met de doeleinden. Ze kunnen dus in geen geval worden bewaard en er mag geen enkele termijn voor hun verwerking worden vastgelegd. De Commissie wenst dat de aanvrager zijn commentaar in die zin aanpast.</li>",
+          "<p class=\"case-section__paragraph\">bewaartermijn van de gegevens die door haar diensten worden verwerkt, niet langer mag duren dat de tijd die noodzakelijk is om de doeleinden te bereiken waarvoor die gegevens werden opgeslagen. Het gaat om een toepassing van de verplichting bedoeld in artikel 4, §1, 5° van de WVP³.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-004",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-005",
+        "relatedFullTextCitations": [
+          "<li>Er wordt hiervoor uitsluitend melding gemaakt van artikel 4, §1, 4° en artikel 16, §2, 1° van de WVP.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-005",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-006",
+        "relatedFullTextCitations": [
+          "<li>De Commissie herhaalt de opmerking die zij destijds maakte bij het ontwerp van de organieke wet inlichtingen- en veiligheidsdienst4. De gebruikte formulering is inderdaad paradoxaal omdat de bewaring een verrichting is die specifiek in artikel 1, §2 van de WVP in de definitie van de verwerking wordt vermeld5.</li>",
+          "<p class=\"case-section__paragraph\">5 Dit artikel vermeldt : Onder \" verwerking \" wordt verstaan elke bewerking of elk geheel van bewerkingen met betrekking tot persoonsgegevens, al dan niet uitgevoerd met behulp van geautomatiseerde procédés, zoals het verzamelen, vastleggen, ordenen, bewaren, bijwerken, wijzigen, opvragen, raadplegen, gebruiken, verstrekken door middel van doorzending, verspreiden of op enigerlei andere wijze ter beschikking stellen, samenbrengen, met elkaar in verband brengen, alsmede het afschermen, uitwissen of vernietigen van persoonsgegevens.</p>",
+          "<li>Om die ambiguïteit op te lossen, dringt de Commissie erop aan te verduidelijken dat voor het beginpunt van de bewaring, de bewaarhandeling niet wordt aanzien als verwerking.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-006",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:ARR.20130220.2-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-007",
+        "relatedFullTextCitations": [
+          "<li>Artikel 1 van het voorontwerp verwijst naar behoren naar de definities uit de WVP voor de begrippen “verwerking” en “persoonsgegevens”.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-007",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-008",
+        "relatedFullTextCitations": [
+          "<li>Artikel 2, 1ˢᵗᵉ lid bepaalt de bewaartermijn.</li>",
+          "<li>Artikel 2, 1ˢᵗᵉ lid, 1°, 2° en 3° van het voorontwerp, voert drie uitzonderingen in op het principe van de gegevensvernietiging na de periode van 50 jaar.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-008",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-009",
+        "relatedFullTextCitations": [
+          "<li>Artikel 2, 2ᵈᵉ en 3ᵈᵉ lid van het voorontwerp bepaalt dat in de gevallen, bedoeld in de tweede en derde uitzondering, de betrokken dienst de noodzaak voor verdere bewaring van persoonsgegevens evalueert op basis van het nog bestaande verband met de doeleinden, bedoeld in de artikelen 7, 8, 1° en 11 van de organieke wet inlichtingen- en veiligheidsdienst.</li>",
+          "<li>De artikelen 7 en 11 betreffen de respectieve opdrachten van de Veiligheid van de Staat en de Algemene Dienst Inlichtingen en Veiligheid. Artikel 8, 1° definieert het begrip \"activiteit die bedreigt of zou kunnen bedreigen\" dat in artikel 7 wordt vermeld.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-009",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-010",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-011",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-010",
+        "relatedFullTextCitations": [
+          "<li>De artikelen 7 en 11 betreffen de respectieve opdrachten van de Veiligheid van de Staat en de Algemene Dienst Inlichtingen en Veiligheid. Artikel 8, 1° definieert het begrip \"activiteit die bedreigt of zou kunnen bedreigen\" dat in artikel 7 wordt vermeld.</li>",
+          "<li>Een specifieke verwijzing naar dit artikel 8 lijkt eigenaardig gelet op het feit dat de desbetreffende definitie, in het toepassingsgebied van artikel 7 valt.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-010",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-011",
+        "relatedFullTextCitations": [
+          "<li>Artikel 2, 2ᵈᵉ en 3ᵈᵉ lid van het voorontwerp bepaalt dat in de gevallen, bedoeld in de tweede en derde uitzondering, de betrokken dienst de noodzaak voor verdere bewaring van persoonsgegevens evalueert op basis van het nog bestaande verband met de doeleinden, bedoeld in de artikelen 7, 8, 1° en 11 van de organieke wet inlichtingen- en veiligheidsdienst.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-011",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-009",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-010",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-012",
+        "relatedFullTextCitations": [
+          "<li>Artikel 2, 2ᵈᵉ en 3ᵈᵉ lid van het voorontwerp bepaalt dat in de gevallen, bedoeld in de tweede en derde uitzondering, de betrokken dienst de noodzaak voor verdere bewaring van persoonsgegevens evalueert op basis van het nog bestaande verband met de doeleinden, bedoeld in de artikelen 7, 8, 1° en 11 van de organieke wet inlichtingen- en veiligheidsdienst.</li>",
+          "<li>De artikelen 7 en 11 betreffen de respectieve opdrachten van de Veiligheid van de Staat en de Algemene Dienst Inlichtingen en Veiligheid. Artikel 8, 1° definieert het begrip \"activiteit die bedreigt of zou kunnen bedreigen\" dat in artikel 7 wordt vermeld.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-012",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-013",
+        "relatedFullTextCitations": [
+          "<li>Artikel 3 van het voorontwerp bepaalt dat de persoonsgegevens worden vernietigd naargelang de drager, door middel van de meest passende technische methodes, rekening houdend met de evolutie van de technologie ter zake zodat ze onmogelijk nog geëxploiteerd kunnen worden.</li>",
+          "<li>Dit stemt overeen met de techniek zoals beschreven in artikel 13 van het koninklijk besluit van 12 oktober 2010 houdende uitvoering van diverse bepalingen van de organieke wet inlichtingen- en veiligheidsdienst van 30 november 1998 waarover de Commissie gunstig adviseerde8.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-013",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-018"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:ARR.20130220.2-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-014",
+        "relatedFullTextCitations": [
+          "<li>Artikel 4 van het voorontwerp bepaalt dat de vernietiging van persoonsgegevens moet gebeuren onder de controle van het betrokken diensthoofd of de persoon die hij hiertoe aanduidt en in aanwezigheid van de raadgever informatieveiligheid en bescherming van de persoonlijke levenssfeer.</li>",
+          "<li>Die procedure volgt het voorbeeld van het vernietigingsproces voor illegaal, ingewonnen gegevens via een specifieke of uitzonderlijke inzamelingsmethode, dat met het voormelde Koninklijk besluit van 12 oktober 2010 werd ingevoerd.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-014",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-018"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:ARR.20130220.2-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-015",
+        "relatedFullTextCitations": [
+          "<li>Artikel 5 van het voorontwerp bepaalt dat de personen bedoeld in voorgaand artikel van de vernietiging van persoonsgegevens een proces-verbaal opstellen en ondertekenen.</li>",
+          "<li>Deze methode volgt het voorbeeld van artikel 13 van het Koninklijk besluit van 12 oktober 2010.</li>",
+          "<li>Er wordt ook rekening gehouden met artikel 17 van het Koninklijk besluit van 24 maart 2000 houdende uitvoering van de wet van 11 december 1998 betreffende de classificatie en de veiligheidsmachtigingen veiligheidsattesten en veiligheidsadviezen, dat voorziet in de medeondertekening van de veiligheidsofficier zodra er andere dan als “vertrouwelijk” geclassificeerde documenten betrokken zijn.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-015",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-018",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-017"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:ARR.20130220.2-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-016",
+        "relatedFullTextCitations": [
+          "<li>Artikel 25 van de wet van 11 december 1998 betreffende de classificatie en de veiligheidsmachtigingen, veiligheidsattesten en veiligheidsadviezen, bepaalt hiertoe in principe de onmiddellijke vernietiging van veiligheidsgegevens, zodra de betrokken persoon niet langer het voorwerp uitmaakt van een veiligheidsonderzoek of na een maximum bewaartermijn van 2 jaar van die gegevens, te rekenen vanaf de datum dat de geldigheid van de veiligheidsmachtiging vervalt. In artikel 17 van het Koninklijk besluit van 24 maart 2000 ter uitvoering van deze wet voert dan weer het principe in dat de houder van geclassificeerde documenten regelmatig moet nagaan of de bewaring nog nuttig is.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-016",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-017",
+        "relatedFullTextCitations": [
+          "<li>Artikel 25 van de wet van 11 december 1998 betreffende de classificatie en de veiligheidsmachtigingen, veiligheidsattesten en veiligheidsadviezen, bepaalt hiertoe in principe de onmiddellijke vernietiging van veiligheidsgegevens, zodra de betrokken persoon niet langer het voorwerp uitmaakt van een veiligheidsonderzoek of na een maximum bewaartermijn van 2 jaar van die gegevens, te rekenen vanaf de datum dat de geldigheid van de veiligheidsmachtiging vervalt. In artikel 17 van het Koninklijk besluit van 24 maart 2000 ter uitvoering van deze wet voert dan weer het principe in dat de houder van geclassificeerde documenten regelmatig moet nagaan of de bewaring nog nuttig is.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-017",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-018",
+        "relatedFullTextCitations": [
+          "<li>Dit stemt overeen met de techniek zoals beschreven in artikel 13 van het koninklijk besluit van 12 oktober 2010 houdende uitvoering van diverse bepalingen van de organieke wet inlichtingen- en veiligheidsdienst van 30 november 1998 waarover de Commissie gunstig adviseerde8.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-018",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-013",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:ARR.20130220.2-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-019",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">6 Artikel 11 van het Koninklijk besluit van 18 augustus 2010 tot uitvoering van de artikelen 5 en 6 van de archiefwet van 24 juni 1955.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-019",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-021",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-022"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">7 Artikel 12 van het Koninklijk besluit van 18 augustus 2010 tot uitvoering van de artikelen 5 en 6 van de archiefwet van 24 juni 1955.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-020",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-021",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-022"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">6 Artikel 11 van het Koninklijk besluit van 18 augustus 2010 tot uitvoering van de artikelen 5 en 6 van de archiefwet van 24 juni 1955.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-021",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-019",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-022"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-022",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">6 Artikel 11 van het Koninklijk besluit van 18 augustus 2010 tot uitvoering van de artikelen 5 en 6 van de archiefwet van 24 juni 1955.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-022",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-019",
+          "ART-ECLI:BE:COPRIV:2013:ARR.20130220.2-021"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 22,
+      "citationStatistics": {
+        "totalCitations": 39,
+        "avgCitationsPerProvision": 1.772727272727273,
+        "provisionsWithMinimalCitations": 18,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.4545454545454546,
+        "avgDecisionsPerProvision": 0.22727272727272727,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:ARR.20130220.2-001",
+        "relatedFullTextCitations": [
+          "<li>De Commissie herinnert eraan dat het beginsel dat krachtens artikel 21 van de organieke wet inlichtingen- en veiligheidsdienst werd ingevoerd, inhoudt dat de</li>",
+          "<p class=\"case-section__paragraph\">bewaartermijn van de gegevens die door haar diensten worden verwerkt, niet langer mag duren dat de tijd die noodzakelijk is om de doeleinden te bereiken waarvoor die gegevens werden opgeslagen. Het gaat om een toepassing van de verplichting bedoeld in artikel 4, §1, 5° van de WVP³.</p>",
+          "<li>Er kan bijgevolg geen sprake van zijn dat de gegevens langer dan die tijd worden bewaard.</li>",
+          "<li>De Commissie benadrukt het feit dat de voorziene termijn begrepen moet worden als een maximum bewaartermijn. Het Koninklijk besluit heeft de bedoeling om een procedure voor systematische vernietiging in te voeren waarbij de inlichtingen- en veiligheidsdienst zal beoordelen of de gegevens die sedert een bepaalde tijd niet meer werden gebruikt, nog langer moeten worden bewaard.</li>",
+          "<li>Er wordt hiervoor uitsluitend melding gemaakt van artikel 4, §1, 4° en artikel 16, §2, 1° van de WVP.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:ARR.20130220.2-002",
+        "relatedFullTextCitations": [
+          "<li>De Commissie wil hier onder de aandacht brengen dat artikel 4 van de WVP de verwerking verbiedt van onjuiste, onvolledige, niet ter zake dienende gegevens of gegevens die verwerkt zijn in strijd met de doeleinden. Ze kunnen dus in geen geval worden bewaard en er mag geen enkele termijn voor hun verwerking worden vastgelegd. De Commissie wenst dat de aanvrager zijn commentaar in die zin aanpast.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:ARR.20130220.2-003",
+        "relatedFullTextCitations": [
+          "<li>De Commissie herhaalt de opmerking die zij destijds maakte bij het ontwerp van de organieke wet inlichtingen- en veiligheidsdienst4. De gebruikte formulering is inderdaad paradoxaal omdat de bewaring een verrichting is die specifiek in artikel 1, §2 van de WVP in de definitie van de verwerking wordt vermeld5.</li>",
+          "<li>Om die ambiguïteit op te lossen, dringt de Commissie erop aan te verduidelijken dat voor het beginpunt van de bewaring, de bewaarhandeling niet wordt aanzien als verwerking.</li>",
+          "<p class=\"case-section__paragraph\">4 Advies nr. 12/98 van 23 maart 1998.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:ARR.20130220.2-004",
+        "relatedFullTextCitations": [
+          "<li>Er wordt hiervoor uitsluitend melding gemaakt van artikel 4, §1, 4° en artikel 16, §2, 1° van de WVP.</li>",
+          "<li>De Commissie herinnert eraan dat het beginsel dat krachtens artikel 21 van de organieke wet inlichtingen- en veiligheidsdienst werd ingevoerd, inhoudt dat de</li>",
+          "<p class=\"case-section__paragraph\">bewaartermijn van de gegevens die door haar diensten worden verwerkt, niet langer mag duren dat de tijd die noodzakelijk is om de doeleinden te bereiken waarvoor die gegevens werden opgeslagen. Het gaat om een toepassing van de verplichting bedoeld in artikel 4, §1, 5° van de WVP³.</p>",
+          "<li>De Commissie vestigt evenwel de aandacht van de aanvrager op het feit dat de verantwoordelijke voor de verwerking verplicht is om voortdurend, de proportionaliteit en de relevantie van de gegevens te beoordelen (artikel 4, §1, 3° van de WVP). Het is inderdaad de verantwoordelijke voor de verwerking die, uitgaande van de nagestreefde doeleinden, zelfs vòór de vastgelegde vervaldag kan nagaan of de</li>",
+          "<p class=\"case-section__paragraph\">verwerkte gegevens, juist, toereikend, ter zake dienend en niet overmatig zijn (zie punt 15).</p>",
+          "<li>De diensten evalueren de noodzakelijkheid om de persoonsgegevens te bewaren bij het vervallen van de termijn en vervolgens iedere 5 jaar. Zodra de noodzakelijkheid wegvalt, worden de gegevens vernietigd.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:ARR.20130220.2-005",
+        "relatedFullTextCitations": [
+          "<li>Artikel 3 van het voorontwerp bepaalt dat de persoonsgegevens worden vernietigd naargelang de drager, door middel van de meest passende technische methodes, rekening houdend met de evolutie van de technologie ter zake zodat ze onmogelijk nog geëxploiteerd kunnen worden.</li>",
+          "<li>Dit stemt overeen met de techniek zoals beschreven in artikel 13 van het koninklijk besluit van 12 oktober 2010 houdende uitvoering van diverse bepalingen van de organieke wet inlichtingen- en veiligheidsdienst van 30 november 1998 waarover de Commissie gunstig adviseerde8.</li>",
+          "<li>De Commissie verzoekt de aanvrager om daarnaar te verwijzen in de consideransen.</li>",
+          "<li>Artikel 4 van het voorontwerp bepaalt dat de vernietiging van persoonsgegevens moet gebeuren onder de controle van het betrokken diensthoofd of de persoon die hij hiertoe aanduidt en in aanwezigheid van de raadgever informatieveiligheid en bescherming van de persoonlijke levenssfeer.</li>",
+          "<p class=\"case-section__paragraph\">8 Advies nr. 24/2012 van 30 juni 2010.</p>",
+          "<li>Artikel 5 van het voorontwerp bepaalt dat de personen bedoeld in voorgaand artikel van de vernietiging van persoonsgegevens een proces-verbaal opstellen en ondertekenen.</li>",
+          "<li>Deze methode volgt het voorbeeld van artikel 13 van het Koninklijk besluit van 12 oktober 2010.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 5,
+      "citationStatistics": {
+        "totalCitations": 22,
+        "avgCitationsPerTeaching": 4.4,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 10,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

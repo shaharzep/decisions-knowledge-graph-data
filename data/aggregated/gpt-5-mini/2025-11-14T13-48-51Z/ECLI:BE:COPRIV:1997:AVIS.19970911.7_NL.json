@@ -1,0 +1,888 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:1997:AVIS.19970911.7",
+  "language": "NL",
+  "metadata": {
+    "id": 126397,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+    "decision_date": "1997-09-11",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Advies",
+    "md_length": 15140,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commissie voor de bescherming van de persoonlijke levenssfeer, 11 september 1997, Advies nr. 27/97, ECLI:BE:COPRIV:1997:AVIS.19970911.7"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001",
+        "name": "Mevrouw Creyf",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+        "name": "Voorzitter van de Kamer van Volksvertegenwoordigers",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1997:AVIS.19970911.7-003",
+        "name": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1997:AVIS.19970911.7-004",
+        "name": "Commissie voor het bedrijfsleven, het wetenschapsbeleid, het onderwijs, de nationale wetenschappelijke en culturele instellingen, de middenstand en de landbouw van de Kamer",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1997:AVIS.19970911.7-005",
+        "name": "Heer P. LEMMENS",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+        "name": "Rijksarchief",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1997:AVIS.19970911.7-007",
+        "name": "De Koning",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Bij schrijven van 4 juni 1997 verzocht de Voorzitter van de Kamer van Volksvertegenwoordigers de Commissie voor de bescherming van de persoonlijke levenssfeer om een advies te geven over het voorstel van archiefwet ingediend door Mevrouw Creyf (Parl. St., Kamer, 1995-96, nr. 258-1); de aanvraag werd ontvangen op 6 juni 1997. Het verslag werd opgesteld door Heer P. LEMMENS. De Commissie onderzocht met name de toepasselijkheid van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer op archiefbescheiden en de verenigbaarheid van de bepalingen van het wetsvoorstel met de beginselen van die wet. Het voorstel definieert \"archiefbescheiden\" en voorziet in bewaring, ordening en ontsluiting; de Commissie merkt op dat niet alle archiefbescheiden persoonsgegevens bevatten en dat, om onder de wet van 8 december 1992 te vallen, de bescheiden persoonsgegevens moeten bevatten en die gegevens een \"bestand\" moeten vormen (logisch gestructureerd met het oog op systematische raadpleging). De Commissie gaat er in haar verdere beoordeling van uit dat situaties bestaan waarin de wet van 8 december 1992 effectief van toepassing is en onderzoekt vervolgens finaliteitsbeginsel, openbaarheid, wachttermijnen, rechten van betrokkenen en verplichtingen inzake beveiliging van persoonsgegevens.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+          "requests": "Verzoekt de Commissie een advies te geven over het voorstel van archiefwet, inzonderheid over de toepasselijkheid van de wet van 8 december 1992 op archiefbescheiden en de verenigbaarheid van het wetsvoorstel met de daarin vervatte beginselen, overeenkomstig de bijgevoegde vragenlijst van de Kamercommissie."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "Brengt op 11 september 1997 het volgende advies uit :\n\nDe Commissie beveelt aan om in de voorgestelde regeling een zeker recht van verzet op te nemen. Met name zou bepaald kunnen worden dat een betrokkene zich om de in de richtlijn genoemde redenen tegen de openbaarmaking van hem betreffende bescheiden zou kunnen verzetten, althans gedurende een nader te bepalen termijn(6).\n\nDe beoordeling van de gegrondheid van de aangevoerde reden zou, in elk concreet geval van aanvraag tot raadpleging van een archiefstuk waarvoor het recht van verzet is uitgeoefend, overgelaten moeten worden aan een onafhankelijke instantie. Dit zou dan best dezelfde instantie zijn als hiervóór bedoeld (zie supra, nr. 6).\n\nTen slotte zal de verantwoordelijke voor een archief (Rijksarchief of andere) nog een aantal maatregelen moeten nemen die verband houden met de beveiliging van persoonsgegevens (artikel 16 van de wet van 8 december 1992). Uiteraard geldt die verplichting slechts voor zover in het archief bescheiden voorkomen die niet onbeperkt openbaar zijn.\n\nRekening houdend met die laatste precisering, is de Commissie van oordeel dat de naleving van de bedoelde verplichting evenmin onoverkomelijk is.",
+      "outcome": "ANDERE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001",
+        "provisionNumber": "artikel 29",
+        "provisionNumberKey": "29",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (wet van 8 december 1992)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001",
+        "provisionNumber": "artikel 1, 5",
+        "provisionNumberKey": "1",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (wet van 8 december 1992)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie geeft weer dat artikel 1, 5 van de wet de begripsomschrijvingen vastlegt: \"persoonsgegevens\" zijn gegevens die betrekking hebben op een identificeerbare natuurlijke persoon. Voor de toepassing van de wet op archiefstukken is het vereist dat die stukken dergelijke persoonsgegevens bevatten.",
+        "relevantFactualContext": "Beoordeling of archiefbescheiden onder de wet vallen; de Commissie stelt dat dit afhangt van de concrete inhoud van de bescheiden en of de daarin vervatte gegevens persoonsgegevens vormen in de zin van artikel 1, 5 en aldus identificatie van betrokkenen mogelijk maakt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-003",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+        "provisionNumber": "artikel 2, 1.",
+        "provisionNumberKey": "2",
+        "parentActType": "ANDERE",
+        "parentActName": "het voorstel van archiefwet (Parl. St., Kamer, 1995-96, nr. 258-1)",
+        "parentActDate": null,
+        "parentActNumber": "nr. 258-1",
+        "provisionInterpretation": "De Commissie noteert dat artikel 2, 1. van het wetsvoorstel een ruime definitie geeft van \"archiefbescheiden\" als alle documenten die bestemd zijn te berusten bij een openbare instelling of persoon naar aanleiding van diens activiteiten; dit begrip omvat aldus veel documenten die als archiefstukken kwalificeren en wijst op kenmerken die overeenstemmen met de definitie van een bestand.",
+        "relevantFactualContext": "Bespreking of de in het wetsvoorstel bedoelde \"bescheiden\" als archiefbescheiden kwalificeren en daarmee mogelijk onder de wet van 8 december 1992 vallen; relevant is de aard, bestemming en wijze van bewaren en ontsluiten van die documenten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-004",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+        "provisionNumber": "artikel 3, 1",
+        "provisionNumberKey": "3",
+        "parentActType": "ANDERE",
+        "parentActName": "het voorstel van archiefwet (Parl. St., Kamer, 1995-96, nr. 258-1)",
+        "parentActDate": null,
+        "parentActNumber": "nr. 258-1",
+        "provisionInterpretation": "De Commissie legt uit dat artikel 3, 1 van het wetsvoorstel bepaalt dat bescheiden pas na dertig jaar voor neerlegging in het Rijksarchief geschikt worden geacht, waardoor de in het Rijksarchief neergelegde stukken in principe openbaar worden na dertig jaar; de Commissie betoogt dat deze termijn een versoepeling is ten opzichte van de bestaande regeling.",
+        "relevantFactualContext": "Toepassing op bescheiden die in het Rijksarchief berusten; de Commissie wijst erop dat de voorgestelde dertigjarige wachttermijn gevolgen heeft voor toegang en privacybescherming en vergelijkt dit met de huidige regeling."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:19970911.7-005",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:19970911.7-002",
+        "provisionNumber": "artikel 5, 1",
+        "provisionNumberKey": "5",
+        "parentActType": "ANDERE",
+        "parentActName": "het voorstel van archiefwet (Parl. St., Kamer, 1995-96, nr. 258-1)",
+        "parentActDate": null,
+        "parentActNumber": "nr. 258-1",
+        "provisionInterpretation": "De Commissie stelt dat artikel 5, 1 het karakter van de in het Rijksarchief neergelegde bescheiden regelt als openbaar en volgens toelichting de inzage zou toelaten \"vrij door iedereen\" zonder de beperkingen van de wet van 11 april 1994 en de wet van 8 december 1992; zij benadrukt dat deze bepaling effectief de toepassingsbeperkingen van die wetten op die bescheiden uitsluit.",
+        "relevantFactualContext": "Toepassing op originelen of kopies in het Rijksarchief, doorgaans ouder dan dertig jaar; de Commissie waarschuwt dat de automatische openstelling gevolgen heeft voor de persoonlijke levenssfeer van betrokkenen en hun nabestaanden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1997:AVIS.19970911.7-003",
+        "provisionNumber": "artikel 3",
+        "provisionNumberKey": "3",
+        "parentActType": "WET",
+        "parentActName": "Archiefwet van 24 juni 1955 (Archiefwet, 24 juni 1955)",
+        "parentActDate": "1955-06-24",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie verklaart dat artikel 3 van de Archiefwet van 24 juni 1955, gelezen samen met artikel 1 van die wet, momenteel bepaalt dat in het Rijksarchief berustende stukken pas na honderd jaar raadpleegbaar zijn; zij gebruikt deze bepaling om de voorgestelde verkorting naar dertig jaar als aanzienlijk versoepelend te karakteriseren.",
+        "relevantFactualContext": "Vergelijking van de huidige Archiefwet (100 jaar toegang) met het voorgestelde regime (30 jaar) voor stukken in het Rijksarchief en de impact daarvan op toegankelijkheid en privacy."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-007",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1997:AVIS.19970911.7-003",
+        "provisionNumber": "artikel 1",
+        "provisionNumberKey": "1",
+        "parentActType": "WET",
+        "parentActName": "Archiefwet van 24 juni 1955 (Archiefwet, 24 juni 1955)",
+        "parentActDate": "1955-06-24",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie verwijst naar artikel 1 van de Archiefwet als deel van de bestaande wettelijke context die samen met artikel 3 de huidige duur en voorwaarden van neerlegging en raadpleging van archiefstukken bepaalt; deze samenhang verklaart de huidige lange wachttermijn voor openbaarmaking.",
+        "relevantFactualContext": "Context van toepassing van de Archiefwet op openbare stukken en de huidige praktijk dat neerlegging en raadpleging van archiefstukken aan strikte termijnen en voorwaarden gebonden zijn."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:19970911.7-008",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:19970911.7-004",
+        "provisionNumber": "artikel 32",
+        "provisionNumberKey": "32",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet van België",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie merkt op dat artikel 32 van de Grondwet het recht op toegang tot bestuursdocumenten erkent als grondrecht; zij benadrukt dat dit recht echter dient te worden afgewogen tegen andere grondrechten, inzonderheid het recht op bescherming van de persoonlijke levenssfeer.",
+        "relevantFactualContext": "Wordt aangehaald ter rechtvaardiging van een ruimere toegang tot bestuursdocumenten en ter afweging van de voorgestelde verruiming van de toegankelijkheid van archiefbescheiden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:19970911.7-009",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:19970911.7-004",
+        "provisionNumber": "artikel 22",
+        "provisionNumberKey": "22",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet van België",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie wijst erop dat artikel 22 van de Grondwet het recht op bescherming van de persoonlijke levenssfeer als grondrecht erkent en dat dit recht een legitimiteit vormt om beperkingen op openbaarmaking van archiefbescheiden te aanvaarden bij belangenafwegingen.",
+        "relevantFactualContext": "Toegepast in de afweging tussen het grondwettelijk recht op toegang tot documenten (artikel 32) en de grondwettelijke bescherming van de persoonlijke levenssfeer bij openbare raadpleging van archiefstukken."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:19970911.7-010",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:19970911.7-005",
+        "provisionNumber": "artikel 6, §2, 1°",
+        "provisionNumberKey": "6",
+        "parentActType": "WET",
+        "parentActName": "wet van 11 april 1994 betreffende de openbaarheid van bestuur (wet van 11 april 1994)",
+        "parentActDate": "1994-04-11",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie beschrijft artikel 6, §2, 1° van de wet van 11 april 1994 als een uitsluitingsgrond voor inzage van bestuursdocumenten wanneer openbaarmaking afbreuk doet aan de persoonlijke levenssfeer, tenzij de betrokkene toestemt; zij merkt echter op dat deze beschermingsgrond niet van toepassing is op de in artikel 5 van het wetsvoorstel bedoelde Rijksarchiefstukken.",
+        "relevantFactualContext": "Betreft bestuursdocumenten buiten het Rijksarchief waarvoor bij toegangsvragen beoordeeld moet worden of openbaarmaking de persoonlijke levenssfeer schaadt; niet-toepasselijk op stukken die volgens het wetsvoorstel in het Rijksarchief vrij raadpleegbaar zouden zijn."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:19970911.7-011",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:19970911.7-005",
+        "provisionNumber": "artikel 11, vierde lid",
+        "provisionNumberKey": "11",
+        "parentActType": "WET",
+        "parentActName": "wet van 11 april 1994 betreffende de openbaarheid van bestuur (wet van 11 april 1994)",
+        "parentActDate": "1994-04-11",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie haalt aan dat artikel 11, vierde lid van de wet van 11 april 1994 het Rijksarchief expliciet buiten de toepassing van die wet plaatst; aldus kan de toegangsbepaling van het wetsvoorstel niet via die wet worden beperkt voor in het Rijksarchief neergelegde stukken.",
+        "relevantFactualContext": "Toegepast op de voorgestelde openbare raadpleging van in het Rijksarchief berustende teksten en als verklaring waarom de openbaarheidsplichten van de wet van 11 april 1994 daar niet verhinderen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:19970911.7-012",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:19970911.7-001",
+        "provisionNumber": "artikel 5",
+        "provisionNumberKey": "5",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (wet van 8 december 1992)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie stelt dat artikel 5 van de wet het finaliteitsbeginsel weerspiegelt en dat het bewaren van archiefbescheiden een rechtmatig doel kan hebben in de informatiewaarde of bewijskracht van die stukken; aldus acht zij bewaring op zich verenigbaar met artikel 5 van de wet.",
+        "relevantFactualContext": "Toepassing op de bewaarplicht en -praktijk van archiefinstellingen: het bewaren van documenten als informatiebron of bewijs wordt door de Commissie gezien als een legitiem doel binnen het finaliteitsbeginsel van de privacywet."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:19970911.7-013",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:19970911.7-001",
+        "provisionNumber": "artikel 9",
+        "provisionNumberKey": "9",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (wet van 8 december 1992)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie benadrukt dat de rechten van betrokkenen, waaronder het recht op informatie zoals voorzien in artikel 9, moeten worden gerespecteerd door de verantwoordelijke voor het archief wanneer archiefbescheiden persoonsgegevens bevatten; zij acht naleving van deze rechten niet onoverkomelijk, rekening houdend met bestaande vrijstellingen.",
+        "relevantFactualContext": "Heeft betrekking op archiefverantwoordelijken die persoonsgegevens bewaren: zij moeten bij openbaarmaking en verwerking aandacht besteden aan plichten zoals informatieverstrekking aan betrokkenen en de mogelijke vrijstellingen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:19970911.7-014",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:19970911.7-001",
+        "provisionNumber": "artikel 10",
+        "provisionNumberKey": "10",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (wet van 8 december 1992)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie geeft aan dat artikel 10 (recht op toegang) een concreet recht is dat door de verantwoordelijke voor het archief moet worden gerespecteerd voor zover archiefbescheiden persoonsgegevens bevatten; zij meent dat, gelet op de vrijstellingen, de praktische naleving van dit recht doorgaans haalbaar is.",
+        "relevantFactualContext": "Betreft verzoeken van betrokkenen tot inzage van persoonsgegevens in archiefbescheiden en de verplichting van archiefbeheerders om toegang en verbeteringen mogelijk te maken, binnen de door de wet voorziene uitzonderingen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:19970911.7-015",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:19970911.7-001",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (wet van 8 december 1992)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie vermeldt dat artikel 12 (recht op verbetering) deel uitmaakt van de reeks rechten die door de verantwoordelijke van het archief moeten worden geëerbiedigd wanneer archiefbescheiden persoonsgegevens bevatten; zij stelt dat rekening moet worden gehouden met bestaande vrijstellingen maar dat de eerbiediging van deze rechten niet onuitvoerbaar lijkt.",
+        "relevantFactualContext": "Toepassing bij archiefstukken met persoonsgegevens waar betrokkenen mogelijk correcties of verbeteringen van hun gegevens kunnen vragen aan de archiefverantwoordelijke."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-016",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+        "provisionNumber": "artikel 14, eerste lid, a)",
+        "provisionNumberKey": "14",
+        "parentActType": "EU_RICHTLIJN",
+        "parentActName": "richtlijn 95/46/EG van het Europees Parlement en de Raad van 24 oktober 1995 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens (richtlijn 95/46/EG, 24 oktober 1995)",
+        "parentActDate": "1995-10-24",
+        "parentActNumber": "95/46/EG",
+        "provisionInterpretation": "De Commissie vermeldt dat artikel 14, lid 1, onder a), van richtlijn 95/46/EG het betrokkenenrecht bevat om zich, om \"zwaarwegende en gewichtige redenen die verband houden met zijn bijzondere situatie\", te verzetten tegen verwerking; zij adviseert dat het voorgestelde archiefrecht rekening houdt met een dergelijk recht van verzet met procedures en termijnen.",
+        "relevantFactualContext": "Geverifieerd in de context van openbaarmaking van archiefbescheiden: de Commissie raadt aan een mogelijkheid op te nemen voor betrokkenen om zich binnen een bepaalde termijn tegen openbaarmaking te verzetten op grond van zwaarwegende redenen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-017",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "ANDERE",
+        "parentActName": "het voorstel van archiefwet (Parl. St., Kamer, 1995-96, nr. 258-1)",
+        "parentActDate": null,
+        "parentActNumber": "nr. 258-1",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-018",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001",
+        "provisionNumber": "artikel 16",
+        "provisionNumberKey": "16",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (wet van 8 december 1992)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie stelt dat artikel 16 de beveiligingsverplichtingen bepaalt voor de verantwoordelijke van de verwerking; in het archiefrecht kadert zij dit aldus dat die verplichting geldt voor zover in het archief persoonsgegevens voorkomen die niet onbeperkt openbaar zijn, en dat naleving van die verplichtingen praktisch uitvoerbaar is.",
+        "relevantFactualContext": "Betreft maatregelen die archiefverantwoordelijken moeten nemen ter beveiliging van persoonsgegevens in dossiers die niet vrij voor publiek toegankelijk zijn; de Commissie oordeelt dat deze plichten niet onoverkomelijk zijn."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie",
+        "date": "1995-02-20",
+        "caseNumber": "advies nr. 02/95",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Archiefwet voorstel",
+      "Rijksarchief openbaarheid",
+      "Archiefbescheiden met persoonsgegevens",
+      "Archieven buiten Rijksarchief",
+      "Openbaarheid versus privacy",
+      "Wachttermijn openbaarmaking",
+      "Recht van verzet",
+      "Rechten van betrokkenen",
+      "EU-richtlijn persoonsgegevens"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001",
+        "text": "Archiefbescheiden vallen onder de wet van 8 december 1992 wanneer zij persoonsgegevens bevatten en die gegevens een 'bestand' vormen in de zin van de wet; dit vereist (1) dat het gaan om persoonsgegevens die betrekking hebben op een identificeerbare natuurlijke persoon en (2) dat die gegevens georganiseerd zijn als een logisch gestructureerd geheel met het oog op systematische raadpleging.",
+        "courtVerbatim": "Niet alle archiefbescheiden vallen onder toepassing van de wet van 8 december 1992. Daarvoor is in de eerste plaats vereist dat ze \"persoonsgegevens\" bevatten, in de zin van artikel 1, 5, van de wet (1). Voorts is vereist dat de erin vervatte persoonsgegevens een \"bestand\" vormen, in de zin van artikel 1, 2, van de wet, d.i. \"een geheel van persoonsgegevens, samengesteld en bewaard op een logisch gestructureerde wijze met het oog op een systematische raadpleging ervan\".",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer archiefbescheiden persoonsgegevens bevatten en de vraag rijst of die gegevens als een 'bestand' georganiseerd zijn waardoor de wet van 8 december 1992 toepasselijk wordt.",
+        "relevantFactualContext": "Beoordeling of documenten die door openbare instellingen of personen worden bewaard, persoonsgegevens bevatten en of die gegevens zodanig zijn samengesteld en bewaard dat zij een bestand vormen dat systematisch geraadpleegd kan worden.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+        "text": "Het bewaren van archiefbescheiden kan een rechtmatig doel vormen binnen het finaliteitsbeginsel van de wet van 8 december 1992; bewaring als informatiebron of bewijs kan derhalve op zichzelf verenigbaar zijn met artikel 5 van die wet, waarbij de bewaarpolitiek en de nadere regeling wel moeten voldoen aan de overige beginselen van de wet.",
+        "courtVerbatim": "Zoals de Commissie reeds uiteengezet heeft in haar advies nr. 02/95 van 20 februari 1995 over een voorstel van archiefwet van de Heer Garcia, vindt het bewaren van archiefbescheiden een wettig doel in de waarde van die bescheiden als informatiebron of als bewijsgegeven. Het bewaren van archiefbescheiden is op zich dus verenigbaar met het finaliteitsbeginsel, gehuldigd in o.m. artikel 5 van de wet van 8 december 1992.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de vraag rijst of de bewaring van archiefstukken een rechtmatig doel rechtvaardigt onder het finaliteitsbeginsel bij verwerking van persoonsgegevens.",
+        "relevantFactualContext": "Beoordeling van het voorgestelde archiefregime waarbij documenten voor langere termijn worden bewaard en ontsloten, en de compatibiliteit van die bewaring met artikel 5 (finaliteit) van de privacywet wordt onderzocht.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-012",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1997:AVIS.19970911.7-003",
+        "text": "Het grondwettelijk erkende recht op toegang tot bestuursdocumenten moet worden afgewogen tegen het grondwettelijk recht op bescherming van de persoonlijke levenssfeer; een uniforme korte wachttermijn (bv. 30 jaar) kan in individuele gevallen onvoldoende zijn om privacy effectief te beschermen, zodat de wetgever categorieën of individuele uitzonderingsprocedures moet voorzien waarbij het privacybelang zwaarder kan wegen.",
+        "courtVerbatim": "Ook al is het bedoelde recht een grondrecht, toch moet het afgewogen worden tegen andere rechten en belangen, die zich wettig tegen de openbaarmaking kunnen verzetten. Het recht op de bescherming van de persoonlijke levenssfeer, dat eveneens grondwettelijk erkend is (artikel 22 van de Grondwet), vormt een van die rechten. De Commissie is van oordeel dat een termijn van dertig jaar te kort is om in alle gevallen een effectieve bescherming van de persoonlijke levenssfeer te waarborgen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij regelgeving die algemene toegankelijkheid van archiefbescheiden regelt en waarbij vaste wachttermijnen en de bescherming van privacy ter beoordeling staan.",
+        "relevantFactualContext": "Het wetsvoorstel bepaalt automatische openbaarheid van in het Rijksarchief berustende bescheiden na dertig jaar; de Commissie beoordeelt of die termijn voldoende bescherming biedt tegen aantasting van persoonlijke levenssfeer.",
+        "principleType": "BALANCING_TEST",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-008",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-009",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-010",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-011"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1997:AVIS.19970911.7-004",
+        "text": "Wanneer archiefbescheiden persoonsgegevens bevatten moeten de aan betrokkenen toegekende rechten (informatie, toegang, verbetering) worden geëerbiedigd en dient de regeling een recht van verzet en een procedure voor beoordeling van bezwaren door een onafhankelijke instantie te voorzien; bij toepassingen van uitzonderingen moeten termijnen en procedurele waarborgen duidelijk worden vastgelegd.",
+        "courtVerbatim": "De Commissie wenst de aandacht erop te vestigen dat, in zoverre archiefbescheiden persoonsgegevens bevatten, de verantwoordelijke voor het archief de rechten moet eerbiedigen die aan de betrokkenen zijn toegekend bij de wet van 8 december 1992, i.h.b. het recht op informatie, toegang en verbetering (artikelen 9, 10 en 12 van de wet). De Commissie meent dat de wetgever ook rekening moet houden met hetgeen bepaald is in artikel 14 van de richtlijn 95/46/EG ... De Commissie beveelt aan om in de voorgestelde regeling een zeker recht van verzet op te nemen. ... De beoordeling van de gegrondheid van de aangevoerde reden zou, in elk concreet geval van aanvraag tot raadpleging van een archiefstuk waarvoor het recht van verzet is uitgeoefend, overgelaten moeten worden aan een onafhankelijke instantie.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer archiefinstellingen persoonsgegevens bewaren en openbaarmaking of consultatie van individuele bescheiden aan de orde is, of wanneer betrokkenen bezwaar aantekenen tegen openbaarmaking.",
+        "relevantFactualContext": "Het wetsvoorstel ontbreekt in specifieke bepalingen over de eerbiediging van rechten van betrokkenen; de Commissie adviseert opname van een verzetrecht en een onafhankelijke beoordelingsprocedure.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-013",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-014",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-015",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-016"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 1,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De Commissie voor de bescherming van de persoonlijke levenssfeer, op verzoek van de Voorzitter van de Kamer, adviseert over het voorstel van archiefwet betreffende bewaring en openbaarmaking van archiefbescheiden. De Commissie stelt dat de wet van 8 december 1992 toepasselijk kan zijn op archiefbescheiden die persoonsgegevens bevatten en besluit dat de voorgestelde algemene openbaarmaking na 30 jaar onvoldoende bescherming biedt voor de persoonlijke levenssfeer; zij beveelt langere of flexibele wachttermijnen, een individueel verzetrecht en toetsing door een onafhankelijke instantie aan. Tevens benadrukt zij dat archiefverantwoordelijken de informatie-, toegangs- en beveiligingsrechten van betrokkenen moeten respecteren conform de privacywet en richtlijn 95/46/EG."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">1. Bij schrijven van 4 juni 1997 verzoekt de Voorzitter van de Kamer van Volksvertegenwoordigers de Commissie een advies te geven over het voorstel van archiefwet, ingediend door Mevrouw C. (Parl. St., Kamer, 1995-96, nr. 258-1). Het advies is gevraagd op verzoek van de Commissie voor het bedrijfsleven, het wetenschapsbeleid, het onderwijs, de nationale wetenschappelijke en culturele instellingen, de middenstand en de landbouw van de Kamer. De Kamercommissie heeft verzocht om een \"alomvattende evaluatie\" van het wetsvoorstel, uitgaande van een bij de adviesaanvraag gevoegde vragenlijst. De vragen hebben betrekking op de toepasselijkheid van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens op archiefbescheiden, en op de verenigbaarheid van de bepalingen van het wetsvoorstel met de beginselen vervat in de genoemde wet.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Het voorstel van archiefwet bevat een regeling voor bepaalde \"bescheiden\" of \"documenten\". Allicht vallen de aldus bedoelde stukken alle onder de definitie van \"archiefbescheiden\", vervat in artikel 2, 1., van het voorstel : \"alle documenten die, ongeacht hun datum, vorm en drager, uit hun aard bestemd zijn te berusten onder de openbare instelling, persoon of groep personen, die ze heeft ontvangen of opgemaakt naar aanleiding van de uitoefening van zijn of haar activiteiten of taken\". Niet alle archiefbescheiden vallen onder toepassing van de wet van 8 december 1992. Daarvoor is in de eerste plaats vereist dat ze \"persoonsgegevens\" bevatten, in de zin van artikel 1, § 5, van de wet (1). Voorts is vereist dat de erin vervatte persoonsgegevens een \"bestand\" vormen, in de zin van artikel 1, § 2, van de wet, d.i. \"een geheel van persoonsgegevens, samengesteld en bewaard op een logisch gestructureerde wijze met het oog op een systematische raadpleging ervan\". De vraag in hoeverre archiefbescheiden onder toepassing van de wet van 8 december 1992 vallen, kan niet in abstracto beantwoord worden. Alles hangt af van de concrete inhoud van de bescheiden, en van de wijze waarop de erin vervatte gegevens samengesteld en bewaard zijn. Het spreekt echter vanzelf dat archiefbescheiden in veel gevallen persoonsgegevens bevatten. Bovendien is het waarschijnlijk dat die gegevens dan op een logisch gestructureerde wijze samengesteld en bewaard worden, met het oog op een systematische raadpleging ervan. Het voorstel van wet gaat er trouwens van uit dat archiefbescheiden bewaard, geordend en ontsloten moeten worden (artikel 2, 4.); dit wijst op de essentiële kenmerken van archiefbescheiden, die met die van een bestand overeenkomen. De Commissie acht het niet nodig in het voorliggende advies precies de omstandigheden te bepalen waarin de wet van 8 december 1992 toepassing zal vinden. Zij zal er voor het verder onderzoek van het voorstel van uitgaan dat een situatie voorhanden is, waarin die wet effectief van toepassing is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Het voorstel van archiefwet bevat een regeling voor bepaalde \"bescheiden\" of \"documenten\". Allicht vallen de aldus bedoelde stukken alle onder de definitie van \"archiefbescheiden\", vervat in artikel 2, 1., van het voorstel : \"alle documenten die, ongeacht hun datum, vorm en drager, uit hun aard bestemd zijn te berusten onder de openbare instelling, persoon of groep personen, die ze heeft ontvangen of opgemaakt naar aanleiding van de uitoefening van zijn of haar activiteiten of taken\". Niet alle archiefbescheiden vallen onder toepassing van de wet van 8 december 1992. Daarvoor is in de eerste plaats vereist dat ze \"persoonsgegevens\" bevatten, in de zin van artikel 1, § 5, van de wet (1). Voorts is vereist dat de erin vervatte persoonsgegevens een \"bestand\" vormen, in de zin van artikel 1, § 2, van de wet, d.i. \"een geheel van persoonsgegevens, samengesteld en bewaard op een logisch gestructureerde wijze met het oog op een systematische raadpleging ervan\". De vraag in hoeverre archiefbescheiden onder toepassing van de wet van 8 december 1992 vallen, kan niet in abstracto beantwoord worden. Alles hangt af van de concrete inhoud van de bescheiden, en van de wijze waarop de erin vervatte gegevens samengesteld en bewaard zijn. Het spreekt echter vanzelf dat archiefbescheiden in veel gevallen persoonsgegevens bevatten. Bovendien is het waarschijnlijk dat die gegevens dan op een logisch gestructureerde wijze samengesteld en bewaard worden, met het oog op een systematische raadpleging ervan. Het voorstel van wet gaat er trouwens van uit dat archiefbescheiden bewaard, geordend en ontsloten moeten worden (artikel 2, 4.); dit wijst op de essentiële kenmerken van archiefbescheiden, die met die van een bestand overeenkomen. De Commissie acht het niet nodig in het voorliggende advies precies de omstandigheden te bepalen waarin de wet van 8 december 1992 toepassing zal vinden. Zij zal er voor het verder onderzoek van het voorstel van uitgaan dat een situatie voorhanden is, waarin die wet effectief van toepassing is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-003",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">6. Het voor advies voorgelegde voorstel bevat geen enkele specifieke bepaling i.v.m. de eerbiediging van de persoonlijke levenssfeer van personen die door de openbaarmaking van archiefbescheiden in hun belangen geschaad kunnen worden. De enige bescherming bestaat erin dat de bescheiden pas na dertig jaar openbaar zijn. De Commissie is van oordeel dat een termijn van dertig jaar te kort is om in alle gevallen een effectieve bescherming van de persoonlijke levenssfeer te waarborgen. Na dertig jaar bestaat integendeel nog steeds het risico dat de openbaarmaking, in bepaalde gevallen, een aantasting inhoudt van de persoonlijke levenssfeer van de betrokkene of diens nabestaanden. De Commissie zou het meer in overeenstemming vinden met de eerbiediging van de persoonlijke levenssfeer, indien voor bescheiden die persoonsgegevens bevatten in een langere wachttermijn voorzien zou worden. Om dit doel te bereiken zijn twee systemen denkbaar. In de eerste plaats zou in het algemeen een langere termijn bepaald kunnen worden, met bepaalde afwijkingen in de gevallen waar er in redelijkheid geen gevaar is voor de persoonlijke levenssfeer. Omgekeerd zou de in het voorstel bepaalde termijn van dertig jaar gehandhaafd kunnen worden, mits tevens voorzien wordt in een langere termijn voor de gevallen waar er in redelijkheid juist wèl een gevaar is voor de persoonlijke levenssfeer. Indien voor de eerste oplossing gekozen wordt, zouden in de voorgestelde wet de categorieën van bescheiden of de doeleinden bepaald moeten worden, waarvoor een kortere termijn geldt. Eventueel zou de wetgever aan de Koning kunnen opdragen om die gevallen te bepalen (2). Daarenboven zou dan voorzien kunnen worden in de mogelijkheid van afwijking in individuele gevallen, bijv. omwille van een wetenschappelijk onderzoek. Duidelijkheidshalve zou daarbij best gepreciseerd worden dat de afwijking enkel verleend kan worden voor zover het belang van de openbaarmaking van de bescheiden in redelijkheid opweegt tegen het recht van de betrokkenen op de eerbiediging van hun persoonlijke levenssfeer. Zulke afwijking kan voorts best verleend worden door een onafhankelijke instantie (3). Mutatis mutandis gelden die beginselen eveneens indien voor de tweede oplossing gekozen wordt : in dat geval zou de wetgever of eventueel de Koning de categorieën van bescheiden of de doeleinden moeten bepalen waarvoor een langere termijn dan die van dertig jaar geldt; de mogelijkheid van individuele afwijking, in de laatstgenoemde gevallen, zou ook in dit systeem kunnen gelden. Ten aanzien van gegevens van relatief recente datum, die op grond van een van de genoemde afwijkingen (in het eerste of het tweede systeem) aan een aanvrager zijn medegedeeld vóór het verstrijken van de normale termijn, zouden bovendien bepaalde beperkingen opgelegd kunnen worden. Zo zou bepaald kunnen worden dat aldus verkregen gegevens niet gebruikt mogen worden voor een ander doel dan dat waarvoor de afwijking verleend wordt. Ook zou bepaald kunnen worden dat de verkrijger die gegevens slechts openbaar mag maken mits toestemming van de betrokkene of van zijn rechtsopvolgers, althans gedurende een bepaalde termijn, bijv. vanaf de geboorte van de betrokkene. Vanzelfsprekend zijn nog andere beperkende voorwaarden denkbaar. De Commissie meent ten slotte te moeten benadrukken dat het vaststellen van de wachttermijn die in beginsel moet gelden voor de onbeperkte toegang tot archiefbescheiden, een beleidsbeslissing is, welke in de eerste plaats aan de wetgever toekomt. In die optiek meent de Commissie geen precieze suggestie terzake te moeten doen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:19970911.7-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">4. Volgens het voorstel van wet zijn de in het Rijksarchief neergelegde bescheiden van de openbare besturen \"openbaar\" (artikel 5, § 1). In de toelichting bij het voorstel wordt gepreciseerd dat \"de originelen, afschriften of vervangingskopies van alle zich in het Rijksarchief bevindende bescheiden van de federale openbare besturen ... vrij door iedereen geraadpleegd (mogen) worden, zonder de beperkingen die eventueel krachtens de wet van 11 april 1994 betreffende de openbaarheid van bestuur en de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer (ten opzichte van de verwerking van persoonsgegevens) zouden kunnen ingeroepen worden\" (p.3). De bedoelde bescheiden zijn alle meer dan dertig jaar oud. Bescheiden van openbare overheden zijn immers pas na dertig jaar vatbaar voor verplichte of facultatieve neerlegging in het Rijksarchief (artikel 3, §§ 1 en 2).</p>",
+          "<p class=\"case-section__paragraph\">5. De Commissie stelt vast dat de voorgestelde regeling een merkelijke versoepeling inhoudt in vergelijking met de bestaande regel. Volgens artikel 3 van de Archiefwet van 24 juni 1955, gelezen in samenhang met artikel 1 van die wet, kunnen de in het Rijksarchief neergelegde stukken thans pas na 100 jaar geraadpleegd worden. Die uitbreiding van de toegankelijkheid van archiefbescheiden ligt in het verlengde van de grondwettelijke erkenning van het recht van toegang tot bestuursdocumenten (artikel 32 van de Grondwet). Ook al is het bedoelde recht een grondrecht, toch moet het afgewogen worden tegen andere rechten en belangen, die zich wettig tegen de openbaarmaking kunnen verzetten. Het recht op de bescherming van de persoonlijke levenssfeer, dat eveneens grondwettelijk erkend is (artikel 22 van de Grondwet), vormt een van die rechten. Ten aanzien van bestuursdocumenten in het algemeen bepaalt artikel 6, § 2, 1°, van de wet van 11 april 1994 betreffende de openbaarheid van bestuur dat een federale of niet-federale administratieve overheid een vraag om inzage, uitleg of mededeling in afschrift moet afwijzen, \"wanneer de openbaarmaking van het bestuursdocument afbreuk doet ... aan de persoonlijke levenssfeer, tenzij de betrokken persoon met de inzage, de uitleg of de mededeling in afschrift heeft ingestemd\". Die beperkingsgrond is echter niet van toepassing op de archiefbescheiden bedoeld in artikel 5 van het wetsvoorstel, omdat het Rijksarchief zonder meer onttrokken is aan de toepassing van de bepalingen van de wet van 11 april 1994 (artikel 11, vierde lid, van de genoemde wet).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:19970911.7-005",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-007",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-008",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-009",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-010",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">4. Volgens het voorstel van wet zijn de in het Rijksarchief neergelegde bescheiden van de openbare besturen \"openbaar\" (artikel 5, § 1). In de toelichting bij het voorstel wordt gepreciseerd dat \"de originelen, afschriften of vervangingskopies van alle zich in het Rijksarchief bevindende bescheiden van de federale openbare besturen ... vrij door iedereen geraadpleegd (mogen) worden, zonder de beperkingen die eventueel krachtens de wet van 11 april 1994 betreffende de openbaarheid van bestuur en de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer (ten opzichte van de verwerking van persoonsgegevens) zouden kunnen ingeroepen worden\" (p.3). De bedoelde bescheiden zijn alle meer dan dertig jaar oud. Bescheiden van openbare overheden zijn immers pas na dertig jaar vatbaar voor verplichte of facultatieve neerlegging in het Rijksarchief (artikel 3, §§ 1 en 2).</p>",
+          "<p class=\"case-section__paragraph\">5. De Commissie stelt vast dat de voorgestelde regeling een merkelijke versoepeling inhoudt in vergelijking met de bestaande regel. Volgens artikel 3 van de Archiefwet van 24 juni 1955, gelezen in samenhang met artikel 1 van die wet, kunnen de in het Rijksarchief neergelegde stukken thans pas na 100 jaar geraadpleegd worden. Die uitbreiding van de toegankelijkheid van archiefbescheiden ligt in het verlengde van de grondwettelijke erkenning van het recht van toegang tot bestuursdocumenten (artikel 32 van de Grondwet). Ook al is het bedoelde recht een grondrecht, toch moet het afgewogen worden tegen andere rechten en belangen, die zich wettig tegen de openbaarmaking kunnen verzetten. Het recht op de bescherming van de persoonlijke levenssfeer, dat eveneens grondwettelijk erkend is (artikel 22 van de Grondwet), vormt een van die rechten. Ten aanzien van bestuursdocumenten in het algemeen bepaalt artikel 6, § 2, 1°, van de wet van 11 april 1994 betreffende de openbaarheid van bestuur dat een federale of niet-federale administratieve overheid een vraag om inzage, uitleg of mededeling in afschrift moet afwijzen, \"wanneer de openbaarmaking van het bestuursdocument afbreuk doet ... aan de persoonlijke levenssfeer, tenzij de betrokken persoon met de inzage, de uitleg of de mededeling in afschrift heeft ingestemd\". Die beperkingsgrond is echter niet van toepassing op de archiefbescheiden bedoeld in artikel 5 van het wetsvoorstel, omdat het Rijksarchief zonder meer onttrokken is aan de toepassing van de bepalingen van de wet van 11 april 1994 (artikel 11, vierde lid, van de genoemde wet).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+          "ART-ECLI:BE:COPRIV:19970911.7-005",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-007",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-008",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-009",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-010",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. De Commissie stelt vast dat de voorgestelde regeling een merkelijke versoepeling inhoudt in vergelijking met de bestaande regel. Volgens artikel 3 van de Archiefwet van 24 juni 1955, gelezen in samenhang met artikel 1 van die wet, kunnen de in het Rijksarchief neergelegde stukken thans pas na 100 jaar geraadpleegd worden. Die uitbreiding van de toegankelijkheid van archiefbescheiden ligt in het verlengde van de grondwettelijke erkenning van het recht van toegang tot bestuursdocumenten (artikel 32 van de Grondwet). Ook al is het bedoelde recht een grondrecht, toch moet het afgewogen worden tegen andere rechten en belangen, die zich wettig tegen de openbaarmaking kunnen verzetten. Het recht op de bescherming van de persoonlijke levenssfeer, dat eveneens grondwettelijk erkend is (artikel 22 van de Grondwet), vormt een van die rechten. Ten aanzien van bestuursdocumenten in het algemeen bepaalt artikel 6, § 2, 1°, van de wet van 11 april 1994 betreffende de openbaarheid van bestuur dat een federale of niet-federale administratieve overheid een vraag om inzage, uitleg of mededeling in afschrift moet afwijzen, \"wanneer de openbaarmaking van het bestuursdocument afbreuk doet ... aan de persoonlijke levenssfeer, tenzij de betrokken persoon met de inzage, de uitleg of de mededeling in afschrift heeft ingestemd\". Die beperkingsgrond is echter niet van toepassing op de archiefbescheiden bedoeld in artikel 5 van het wetsvoorstel, omdat het Rijksarchief zonder meer onttrokken is aan de toepassing van de bepalingen van de wet van 11 april 1994 (artikel 11, vierde lid, van de genoemde wet).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-007",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-008",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-009",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-010",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-011",
+          "ART-ECLI:BE:COPRIV:19970911.7-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. De Commissie stelt vast dat de voorgestelde regeling een merkelijke versoepeling inhoudt in vergelijking met de bestaande regel. Volgens artikel 3 van de Archiefwet van 24 juni 1955, gelezen in samenhang met artikel 1 van die wet, kunnen de in het Rijksarchief neergelegde stukken thans pas na 100 jaar geraadpleegd worden. Die uitbreiding van de toegankelijkheid van archiefbescheiden ligt in het verlengde van de grondwettelijke erkenning van het recht van toegang tot bestuursdocumenten (artikel 32 van de Grondwet). Ook al is het bedoelde recht een grondrecht, toch moet het afgewogen worden tegen andere rechten en belangen, die zich wettig tegen de openbaarmaking kunnen verzetten. Het recht op de bescherming van de persoonlijke levenssfeer, dat eveneens grondwettelijk erkend is (artikel 22 van de Grondwet), vormt een van die rechten. Ten aanzien van bestuursdocumenten in het algemeen bepaalt artikel 6, § 2, 1°, van de wet van 11 april 1994 betreffende de openbaarheid van bestuur dat een federale of niet-federale administratieve overheid een vraag om inzage, uitleg of mededeling in afschrift moet afwijzen, \"wanneer de openbaarmaking van het bestuursdocument afbreuk doet ... aan de persoonlijke levenssfeer, tenzij de betrokken persoon met de inzage, de uitleg of de mededeling in afschrift heeft ingestemd\". Die beperkingsgrond is echter niet van toepassing op de archiefbescheiden bedoeld in artikel 5 van het wetsvoorstel, omdat het Rijksarchief zonder meer onttrokken is aan de toepassing van de bepalingen van de wet van 11 april 1994 (artikel 11, vierde lid, van de genoemde wet).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-008",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-007",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-009",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-010",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-011",
+          "ART-ECLI:BE:COPRIV:19970911.7-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. De Commissie stelt vast dat de voorgestelde regeling een merkelijke versoepeling inhoudt in vergelijking met de bestaande regel. Volgens artikel 3 van de Archiefwet van 24 juni 1955, gelezen in samenhang met artikel 1 van die wet, kunnen de in het Rijksarchief neergelegde stukken thans pas na 100 jaar geraadpleegd worden. Die uitbreiding van de toegankelijkheid van archiefbescheiden ligt in het verlengde van de grondwettelijke erkenning van het recht van toegang tot bestuursdocumenten (artikel 32 van de Grondwet). Ook al is het bedoelde recht een grondrecht, toch moet het afgewogen worden tegen andere rechten en belangen, die zich wettig tegen de openbaarmaking kunnen verzetten. Het recht op de bescherming van de persoonlijke levenssfeer, dat eveneens grondwettelijk erkend is (artikel 22 van de Grondwet), vormt een van die rechten. Ten aanzien van bestuursdocumenten in het algemeen bepaalt artikel 6, § 2, 1°, van de wet van 11 april 1994 betreffende de openbaarheid van bestuur dat een federale of niet-federale administratieve overheid een vraag om inzage, uitleg of mededeling in afschrift moet afwijzen, \"wanneer de openbaarmaking van het bestuursdocument afbreuk doet ... aan de persoonlijke levenssfeer, tenzij de betrokken persoon met de inzage, de uitleg of de mededeling in afschrift heeft ingestemd\". Die beperkingsgrond is echter niet van toepassing op de archiefbescheiden bedoeld in artikel 5 van het wetsvoorstel, omdat het Rijksarchief zonder meer onttrokken is aan de toepassing van de bepalingen van de wet van 11 april 1994 (artikel 11, vierde lid, van de genoemde wet).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-009",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-007",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-008",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-010",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-011",
+          "ART-ECLI:BE:COPRIV:19970911.7-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. De Commissie stelt vast dat de voorgestelde regeling een merkelijke versoepeling inhoudt in vergelijking met de bestaande regel. Volgens artikel 3 van de Archiefwet van 24 juni 1955, gelezen in samenhang met artikel 1 van die wet, kunnen de in het Rijksarchief neergelegde stukken thans pas na 100 jaar geraadpleegd worden. Die uitbreiding van de toegankelijkheid van archiefbescheiden ligt in het verlengde van de grondwettelijke erkenning van het recht van toegang tot bestuursdocumenten (artikel 32 van de Grondwet). Ook al is het bedoelde recht een grondrecht, toch moet het afgewogen worden tegen andere rechten en belangen, die zich wettig tegen de openbaarmaking kunnen verzetten. Het recht op de bescherming van de persoonlijke levenssfeer, dat eveneens grondwettelijk erkend is (artikel 22 van de Grondwet), vormt een van die rechten. Ten aanzien van bestuursdocumenten in het algemeen bepaalt artikel 6, § 2, 1°, van de wet van 11 april 1994 betreffende de openbaarheid van bestuur dat een federale of niet-federale administratieve overheid een vraag om inzage, uitleg of mededeling in afschrift moet afwijzen, \"wanneer de openbaarmaking van het bestuursdocument afbreuk doet ... aan de persoonlijke levenssfeer, tenzij de betrokken persoon met de inzage, de uitleg of de mededeling in afschrift heeft ingestemd\". Die beperkingsgrond is echter niet van toepassing op de archiefbescheiden bedoeld in artikel 5 van het wetsvoorstel, omdat het Rijksarchief zonder meer onttrokken is aan de toepassing van de bepalingen van de wet van 11 april 1994 (artikel 11, vierde lid, van de genoemde wet).</p>",
+          "<p class=\"case-section__paragraph\">7. De Commissie stelt vast dat het voorstel geen regeling bevat inzake de openbaarheid van archiefbescheiden van (federale) openbare overheden en van bescheiden van particuliere personen, die niet in het Rijksarchief neergelegd zijn. Archiefbescheiden van openbare overheden, die niet in het Rijksarchief berusten, vallen onder toepassing van de wet van 11 april 1994 (artikel 11, eerste lid, van die wet). De Commissie is van oordeel dat die wet, met name artikel 6, § 2, 1°, voldoende waarborgen bevat voor de persoonlijke levenssfeer. Archiefbescheiden van particulieren vallen onverkort onder toepassing van de wet van 8 december 1992, o.m. inzake de mededeling van persoonsgegevens aan derden (4). Ook in dit opzicht hoeft het voorstel niet in een bijkomende bescherming te voorzien.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-010",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-011",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-007",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-008",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-009",
+          "ART-ECLI:BE:COPRIV:19970911.7-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. De Commissie stelt vast dat de voorgestelde regeling een merkelijke versoepeling inhoudt in vergelijking met de bestaande regel. Volgens artikel 3 van de Archiefwet van 24 juni 1955, gelezen in samenhang met artikel 1 van die wet, kunnen de in het Rijksarchief neergelegde stukken thans pas na 100 jaar geraadpleegd worden. Die uitbreiding van de toegankelijkheid van archiefbescheiden ligt in het verlengde van de grondwettelijke erkenning van het recht van toegang tot bestuursdocumenten (artikel 32 van de Grondwet). Ook al is het bedoelde recht een grondrecht, toch moet het afgewogen worden tegen andere rechten en belangen, die zich wettig tegen de openbaarmaking kunnen verzetten. Het recht op de bescherming van de persoonlijke levenssfeer, dat eveneens grondwettelijk erkend is (artikel 22 van de Grondwet), vormt een van die rechten. Ten aanzien van bestuursdocumenten in het algemeen bepaalt artikel 6, § 2, 1°, van de wet van 11 april 1994 betreffende de openbaarheid van bestuur dat een federale of niet-federale administratieve overheid een vraag om inzage, uitleg of mededeling in afschrift moet afwijzen, \"wanneer de openbaarmaking van het bestuursdocument afbreuk doet ... aan de persoonlijke levenssfeer, tenzij de betrokken persoon met de inzage, de uitleg of de mededeling in afschrift heeft ingestemd\". Die beperkingsgrond is echter niet van toepassing op de archiefbescheiden bedoeld in artikel 5 van het wetsvoorstel, omdat het Rijksarchief zonder meer onttrokken is aan de toepassing van de bepalingen van de wet van 11 april 1994 (artikel 11, vierde lid, van de genoemde wet).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-011",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-006",
+          "ART-ECLI:BE:COPRIV:19970911.7-005",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-007",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-008",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-009",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">3. Zoals de Commissie reeds uiteengezet heeft in haar advies nr. 02/95 van 20 februari 1995 over een voorstel van archiefwet van de Heer Garcia, vindt het bewaren van archiefbescheiden een wettig doel in de waarde van die bescheiden als informatiebron of als bewijsgegeven. Het bewaren van archiefbescheiden is op zich dus verenigbaar met het finaliteitsbeginsel, gehuldigd in o.m. artikel 5 van de wet van 8 december 1992.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-012"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-013",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">8. De Commissie wenst de aandacht erop te vestigen dat, in zoverre archiefbescheiden persoonsgegevens bevatten, de verantwoordelijke voor het archief de rechten moet eerbiedigen die aan de betrokkenen zijn toegekend bij de wet van 8 december 1992, i.h.b. het recht op informatie, toegang en verbetering (artikelen 9, 10 en 12 van de wet). Rekening houdend met de vrijstellingen van de verplichting tot kennisgeving van een verwerking aan de betrokkene (5), is de Commissie van oordeel dat de eerbiediging van de bedoelde rechten van de betrokkenen niet overdreven moeilijk lijkt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-013",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-014",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">8. De Commissie wenst de aandacht erop te vestigen dat, in zoverre archiefbescheiden persoonsgegevens bevatten, de verantwoordelijke voor het archief de rechten moet eerbiedigen die aan de betrokkenen zijn toegekend bij de wet van 8 december 1992, i.h.b. het recht op informatie, toegang en verbetering (artikelen 9, 10 en 12 van de wet). Rekening houdend met de vrijstellingen van de verplichting tot kennisgeving van een verwerking aan de betrokkene (5), is de Commissie van oordeel dat de eerbiediging van de bedoelde rechten van de betrokkenen niet overdreven moeilijk lijkt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-014",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-013",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">8. De Commissie wenst de aandacht erop te vestigen dat, in zoverre archiefbescheiden persoonsgegevens bevatten, de verantwoordelijke voor het archief de rechten moet eerbiedigen die aan de betrokkenen zijn toegekend bij de wet van 8 december 1992, i.h.b. het recht op informatie, toegang en verbetering (artikelen 9, 10 en 12 van de wet). Rekening houdend met de vrijstellingen van de verplichting tot kennisgeving van een verwerking aan de betrokkene (5), is de Commissie van oordeel dat de eerbiediging van de bedoelde rechten van de betrokkenen niet overdreven moeilijk lijkt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-015",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-013",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.1997:AVIS.19970911.7-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">9. De Commissie meent dat de wetgever ook rekening moet houden met hetgeen bepaald is in artikel 14 van de richtlijn 95/46/EG van het Europees Parlement en de Raad van 24 oktober 1995 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens. Naar luid van het eerste lid, a), van dat artikel heeft de betrokkene het recht om zich, \"om zwaarwegende en gewichtige redenen die verband houden met zijn bijzondere situatie\", ertegen te verzetten dat hem betreffende gegevens het voorwerp van een verwerking vormen, behoudens andersluidende bepalingen in de nationale wetgeving. De Commissie beveelt aan om in de voorgestelde regeling een zeker recht van verzet op te nemen. Met name zou bepaald kunnen worden dat een betrokkene zich om de in de richtlijn genoemde redenen tegen de openbaarmaking van hem betreffende bescheiden zou kunnen verzetten, althans gedurende een nader te bepalen termijn (6). De beoordeling van de gegrondheid van de aangevoerde reden zou, in elk concreet geval van aanvraag tot raadpleging van een archiefstuk waarvoor het recht van verzet is uitgeoefend, overgelaten moeten worden aan een onafhankelijke instantie. Dit zou dan best dezelfde instantie zijn als hiervóór bedoeld (zie supra, nr. 6).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.1997:AVIS.19970911.7-016",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-013",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-014",
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-017",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Het voorstel van archiefwet bevat een regeling voor bepaalde \"bescheiden\" of \"documenten\". Allicht vallen de aldus bedoelde stukken alle onder de definitie van \"archiefbescheiden\", vervat in artikel 2, 1., van het voorstel : \"alle documenten die, ongeacht hun datum, vorm en drager, uit hun aard bestemd zijn te berusten onder de openbare instelling, persoon of groep personen, die ze heeft ontvangen of opgemaakt naar aanleiding van de uitoefening van zijn of haar activiteiten of taken\". Niet alle archiefbescheiden vallen onder toepassing van de wet van 8 december 1992. Daarvoor is in de eerste plaats vereist dat ze \"persoonsgegevens\" bevatten, in de zin van artikel 1, § 5, van de wet (1). Voorts is vereist dat de erin vervatte persoonsgegevens een \"bestand\" vormen, in de zin van artikel 1, § 2, van de wet, d.i. \"een geheel van persoonsgegevens, samengesteld en bewaard op een logisch gestructureerde wijze met het oog op een systematische raadpleging ervan\". De vraag in hoeverre archiefbescheiden onder toepassing van de wet van 8 december 1992 vallen, kan niet in abstracto beantwoord worden. Alles hangt af van de concrete inhoud van de bescheiden, en van de wijze waarop de erin vervatte gegevens samengesteld en bewaard zijn. Het spreekt echter vanzelf dat archiefbescheiden in veel gevallen persoonsgegevens bevatten. Bovendien is het waarschijnlijk dat die gegevens dan op een logisch gestructureerde wijze samengesteld en bewaard worden, met het oog op een systematische raadpleging ervan. Het voorstel van wet gaat er trouwens van uit dat archiefbescheiden bewaard, geordend en ontsloten moeten worden (artikel 2, 4.); dit wijst op de essentiële kenmerken van archiefbescheiden, die met die van een bestand overeenkomen. De Commissie acht het niet nodig in het voorliggende advies precies de omstandigheden te bepalen waarin de wet van 8 december 1992 toepassing zal vinden. Zij zal er voor het verder onderzoek van het voorstel van uitgaan dat een situatie voorhanden is, waarin die wet effectief van toepassing is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">10. Ten slotte zal de verantwoordelijke voor een archief (Rijksarchief of andere) nog een aantal maatregelen moeten nemen die verband houden met de beveiliging van persoonsgegevens (artikel 16 van de wet van 8 december 1992). Uiteraard geldt die verplichting slechts voor zover in het archief bescheiden voorkomen die niet onbeperkt openbaar zijn. Rekening houdend met die laatste precisering, is de Commissie van oordeel dat de naleving van de bedoelde verplichting evenmin onoverkomelijk is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1997:AVIS.19970911.7-018"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 18,
+      "citationStatistics": {
+        "totalCitations": 18,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 15,
+        "provisionsWithNoCitations": 3
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.9444444444444446,
+        "avgDecisionsPerProvision": 0.05555555555555555,
+        "provisionsWithNoRelationships": 5
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1997:AVIS.19970911.7-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Het voorstel van archiefwet bevat een regeling voor bepaalde \"bescheiden\" of \"documenten\". Allicht vallen de aldus bedoelde stukken alle onder de definitie van \"archiefbescheiden\", vervat in artikel 2, 1., van het voorstel : \"alle documenten die, ongeacht hun datum, vorm en drager, uit hun aard bestemd zijn te berusten onder de openbare instelling, persoon of groep personen, die ze heeft ontvangen of opgemaakt naar aanleiding van de uitoefening van zijn of haar activiteiten of taken\". Niet alle archiefbescheiden vallen onder toepassing van de wet van 8 december 1992. Daarvoor is in de eerste plaats vereist dat ze \"persoonsgegevens\" bevatten, in de zin van artikel 1, § 5, van de wet (1). Voorts is vereist dat de erin vervatte persoonsgegevens een \"bestand\" vormen, in de zin van artikel 1, § 2, van de wet, d.i. \"een geheel van persoonsgegevens, samengesteld en bewaard op een logisch gestructureerde wijze met het oog op een systematische raadpleging ervan\". De vraag in hoeverre archiefbescheiden onder toepassing van de wet van 8 december 1992 vallen, kan niet in abstracto beantwoord worden. Alles hangt af van de concrete inhoud van de bescheiden, en van de wijze waarop de erin vervatte gegevens samengesteld en bewaard zijn. Het spreekt echter vanzelf dat archiefbescheiden in veel gevallen persoonsgegevens bevatten. Bovendien is het waarschijnlijk dat die gegevens dan op een logisch gestructureerde wijze samengesteld en bewaard worden, met het oog op een systematische raadpleging ervan. Het voorstel van wet gaat er trouwens van uit dat archiefbescheiden bewaard, geordend en ontsloten moeten worden (artikel 2, 4.); dit wijst op de essentiële kenmerken van archiefbescheiden, die met die van een bestand overeenkomen. De Commissie acht het niet nodig in het voorliggende advies precies de omstandigheden te bepalen waarin de wet van 8 december 1992 toepassing zal vinden. Zij zal er voor het verder onderzoek van het voorstel van uitgaan dat een situatie voorhanden is, waarin die wet effectief van toepassing is.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">3. Zoals de Commissie reeds uiteengezet heeft in haar advies nr. 02/95 van 20 februari 1995 over een voorstel van archiefwet van de Heer Garcia, vindt het bewaren van archiefbescheiden een wettig doel in de waarde van die bescheiden als informatiebron of als bewijsgegeven. Het bewaren van archiefbescheiden is op zich dus verenigbaar met het finaliteitsbeginsel, gehuldigd in o.m. artikel 5 van de wet van 8 december 1992.</p>",
+          "<p class=\"case-section__paragraph\">5. De Commissie stelt vast dat de voorgestelde regeling een merkelijke versoepeling inhoudt in vergelijking met de bestaande regel. Volgens artikel 3 van de Archiefwet van 24 juni 1955, gelezen in samenhang met artikel 1 van die wet, kunnen de in het Rijksarchief neergelegde stukken thans pas na 100 jaar geraadpleegd worden. Die uitbreiding van de toegankelijkheid van archiefbescheiden ligt in het verlengde van de grondwettelijke erkenning van het recht van toegang tot bestuursdocumenten (artikel 32 van de Grondwet). Ook al is het bedoelde recht een grondrecht, toch moet het afgewogen worden tegen andere rechten en belangen, die zich wettig tegen de openbaarmaking kunnen verzetten. Het recht op de bescherming van de persoonlijke levenssfeer, dat eveneens grondwettelijk erkend is (artikel 22 van de Grondwet), vormt een van die rechten. Ten aanzien van bestuursdocumenten in het algemeen bepaalt artikel 6, § 2, 1°, van de wet van 11 april 1994 betreffende de openbaarheid van bestuur dat een federale of niet-federale administratieve overheid een vraag om inzage, uitleg of mededeling in afschrift moet afwijzen, \"wanneer de openbaarmaking van het bestuursdocument afbreuk doet ... aan de persoonlijke levenssfeer, tenzij de betrokken persoon met de inzage, de uitleg of de mededeling in afschrift heeft ingestemd\". Die beperkingsgrond is echter niet van toepassing op de archiefbescheiden bedoeld in artikel 5 van het wetsvoorstel, omdat het Rijksarchief zonder meer onttrokken is aan de toepassing van de bepalingen van de wet van 11 april 1994 (artikel 11, vierde lid, van de genoemde wet).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1997:AVIS.19970911.7-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. De Commissie stelt vast dat de voorgestelde regeling een merkelijke versoepeling inhoudt in vergelijking met de bestaande regel. Volgens artikel 3 van de Archiefwet van 24 juni 1955, gelezen in samenhang met artikel 1 van die wet, kunnen de in het Rijksarchief neergelegde stukken thans pas na 100 jaar geraadpleegd worden. Die uitbreiding van de toegankelijkheid van archiefbescheiden ligt in het verlengde van de grondwettelijke erkenning van het recht van toegang tot bestuursdocumenten (artikel 32 van de Grondwet). Ook al is het bedoelde recht een grondrecht, toch moet het afgewogen worden tegen andere rechten en belangen, die zich wettig tegen de openbaarmaking kunnen verzetten. Het recht op de bescherming van de persoonlijke levenssfeer, dat eveneens grondwettelijk erkend is (artikel 22 van de Grondwet), vormt een van die rechten. Ten aanzien van bestuursdocumenten in het algemeen bepaalt artikel 6, § 2, 1°, van de wet van 11 april 1994 betreffende de openbaarheid van bestuur dat een federale of niet-federale administratieve overheid een vraag om inzage, uitleg of mededeling in afschrift moet afwijzen, \"wanneer de openbaarmaking van het bestuursdocument afbreuk doet ... aan de persoonlijke levenssfeer, tenzij de betrokken persoon met de inzage, de uitleg of de mededeling in afschrift heeft ingestemd\". Die beperkingsgrond is echter niet van toepassing op de archiefbescheiden bedoeld in artikel 5 van het wetsvoorstel, omdat het Rijksarchief zonder meer onttrokken is aan de toepassing van de bepalingen van de wet van 11 april 1994 (artikel 11, vierde lid, van de genoemde wet).</p>",
+          "<p class=\"case-section__paragraph\">6. Het voor advies voorgelegde voorstel bevat geen enkele specifieke bepaling i.v.m. de eerbiediging van de persoonlijke levenssfeer van personen die door de openbaarmaking van archiefbescheiden in hun belangen geschaad kunnen worden. De enige bescherming bestaat erin dat de bescheiden pas na dertig jaar openbaar zijn. De Commissie is van oordeel dat een termijn van dertig jaar te kort is om in alle gevallen een effectieve bescherming van de persoonlijke levenssfeer te waarborgen. Na dertig jaar bestaat integendeel nog steeds het risico dat de openbaarmaking, in bepaalde gevallen, een aantasting inhoudt van de persoonlijke levenssfeer van de betrokkene of diens nabestaanden. De Commissie zou het meer in overeenstemming vinden met de eerbiediging van de persoonlijke levenssfeer, indien voor bescheiden die persoonsgegevens bevatten in een langere wachttermijn voorzien zou worden. Om dit doel te bereiken zijn twee systemen denkbaar. In de eerste plaats zou in het algemeen een langere termijn bepaald kunnen worden, met bepaalde afwijkingen in de gevallen waar er in redelijkheid geen gevaar is voor de persoonlijke levenssfeer. Omgekeerd zou de in het voorstel bepaalde termijn van dertig jaar gehandhaafd kunnen worden, mits tevens voorzien wordt in een langere termijn voor de gevallen waar er in redelijkheid juist wèl een gevaar is voor de persoonlijke levenssfeer. Indien voor de eerste oplossing gekozen wordt, zouden in de voorgestelde wet de categorieën van bescheiden of de doeleinden bepaald moeten worden, waarvoor een kortere termijn geldt. Eventueel zou de wetgever aan de Koning kunnen opdragen om die gevallen te bepalen (2). Daarenboven zou dan voorzien kunnen worden in de mogelijkheid van afwijking in individuele gevallen, bijv. omwille van een wetenschappelijk onderzoek. Duidelijkheidshalve zou daarbij best gepreciseerd worden dat de afwijking enkel verleend kan worden voor zover het belang van de openbaarmaking van de bescheiden in redelijkheid opweegt tegen het recht van de betrokkenen op de eerbiediging van hun persoonlijke levenssfeer. Zulke afwijking kan voorts best verleend worden door een onafhankelijke instantie (3). Mutatis mutandis gelden die beginselen eveneens indien voor de tweede oplossing gekozen wordt : in dat geval zou de wetgever of eventueel de Koning de categorieën van bescheiden of de doeleinden moeten bepalen waarvoor een langere termijn dan die van dertig jaar geldt; de mogelijkheid van individuele afwijking, in de laatstgenoemde gevallen, zou ook in dit systeem kunnen gelden. Ten aanzien van gegevens van relatief recente datum, die op grond van een van de genoemde afwijkingen (in het eerste of het tweede systeem) aan een aanvrager zijn medegedeeld vóór het verstrijken van de normale termijn, zouden bovendien bepaalde beperkingen opgelegd kunnen worden. Zo zou bepaald kunnen worden dat aldus verkregen gegevens niet gebruikt mogen worden voor een ander doel dan dat waarvoor de afwijking verleend wordt. Ook zou bepaald kunnen worden dat de verkrijger die gegevens slechts openbaar mag maken mits toestemming van de betrokkene of van zijn rechtsopvolgers, althans gedurende een bepaalde termijn, bijv. vanaf de geboorte van de betrokkene. Vanzelfsprekend zijn nog andere beperkende voorwaarden denkbaar. De Commissie meent ten slotte te moeten benadrukken dat het vaststellen van de wachttermijn die in beginsel moet gelden voor de onbeperkte toegang tot archiefbescheiden, een beleidsbeslissing is, welke in de eerste plaats aan de wetgever toekomt. In die optiek meent de Commissie geen precieze suggestie terzake te moeten doen.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 5,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1997:AVIS.19970911.7-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">8. De Commissie wenst de aandacht erop te vestigen dat, in zoverre archiefbescheiden persoonsgegevens bevatten, de verantwoordelijke voor het archief de rechten moet eerbiedigen die aan de betrokkenen zijn toegekend bij de wet van 8 december 1992, i.h.b. het recht op informatie, toegang en verbetering (artikelen 9, 10 en 12 van de wet). Rekening houdend met de vrijstellingen van de verplichting tot kennisgeving van een verwerking aan de betrokkene (5), is de Commissie van oordeel dat de eerbiediging van de bedoelde rechten van de betrokkenen niet overdreven moeilijk lijkt.</p>",
+          "<p class=\"case-section__paragraph\">9. De Commissie meent dat de wetgever ook rekening moet houden met hetgeen bepaald is in artikel 14 van de richtlijn 95/46/EG van het Europees Parlement en de Raad van 24 oktober 1995 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens. Naar luid van het eerste lid, a), van dat artikel heeft de betrokkene het recht om zich, \"om zwaarwegende en gewichtige redenen die verband houden met zijn bijzondere situatie\", ertegen te verzetten dat hem betreffende gegevens het voorwerp van een verwerking vormen, behoudens andersluidende bepalingen in de nationale wetgeving. De Commissie beveelt aan om in de voorgestelde regeling een zeker recht van verzet op te nemen. Met name zou bepaald kunnen worden dat een betrokkene zich om de in de richtlijn genoemde redenen tegen de openbaarmaking van hem betreffende bescheiden zou kunnen verzetten, althans gedurende een nader te bepalen termijn (6). De beoordeling van de gegrondheid van de aangevoerde reden zou, in elk concreet geval van aanvraag tot raadpleging van een archiefstuk waarvoor het recht van verzet is uitgeoefend, overgelaten moeten worden aan een onafhankelijke instantie. Dit zou dan best dezelfde instantie zijn als hiervóór bedoeld (zie supra, nr. 6).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 1.75,
+        "teachingsWithMinimalCitations": 4,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 13,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 1,
+        "totalDecisionsNotFound": 1
+      },
+      "extractionNotes": [
+        "Related decision DEC-ECLI:BE:COPRIV:1997:AVIS.19970911.7-002 claimed by input for TEACH-ECLI:BE:COPRIV:1997:AVIS.19970911.7-004 was not found in the extracted reasoning paragraphs."
+      ]
+    }
+  }
+}

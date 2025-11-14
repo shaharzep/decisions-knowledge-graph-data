@@ -1,0 +1,102 @@
+{
+  "totalJobs": 8,
+  "jobsLoaded": 8,
+  "jobsFailed": [],
+  "totalDecisionsAcrossJobs": 1558,
+  "decisionsInAllJobs": 187,
+  "decisionsSkipped": 11,
+  "skippedDecisions": [
+    {
+      "decision_id": "ECLI:BE:TEBRL:2009:ORD.20090707.2",
+      "language": "NL",
+      "missingFrom": [
+        "enrich-provision-citations",
+        "enrich-teaching-citations"
+      ]
+    },
+    {
+      "decision_id": "ECLI:BE:CALIE:2009:AVIS.20090525.8",
+      "language": "FR",
+      "missingFrom": [
+        "enrich-provision-citations"
+      ]
+    },
+    {
+      "decision_id": "ECLI:BE:COPRIV:2018:ARR.20180725.6",
+      "language": "NL",
+      "missingFrom": [
+        "extract-keywords",
+        "extract-micro-summary"
+      ]
+    },
+    {
+      "decision_id": "ECLI:BE:TEBRL:2009:ORD.20090615.10",
+      "language": "NL",
+      "missingFrom": [
+        "interpret-provisions",
+        "enrich-provision-citations",
+        "enrich-teaching-citations"
+      ]
+    },
+    {
+      "decision_id": "ECLI:BE:COPRIV:1993:RECO.19930806.4",
+      "language": "FR",
+      "missingFrom": [
+        "extract-legal-teachings",
+        "enrich-provision-citations",
+        "enrich-teaching-citations"
+      ]
+    },
+    {
+      "decision_id": "ECLI:BE:AHGNT:2015:ARR.20150522.2",
+      "language": "NL",
+      "missingFrom": [
+        "extract-legal-teachings",
+        "enrich-provision-citations",
+        "enrich-teaching-citations"
+      ]
+    },
+    {
+      "decision_id": "ECLI:BE:CTBRL:2002:ARR.20020125.7",
+      "language": "NL",
+      "missingFrom": [
+        "extract-legal-teachings",
+        "enrich-provision-citations",
+        "enrich-teaching-citations"
+      ]
+    },
+    {
+      "decision_id": "ECLI:BE:TEBRL:2009:JUG.20090703.2",
+      "language": "NL",
+      "missingFrom": [
+        "enrich-provision-citations",
+        "enrich-teaching-citations"
+      ]
+    },
+    {
+      "decision_id": "ECLI:BE:CASS:2001:ARR.20010601.5",
+      "language": "NL",
+      "missingFrom": [
+        "enrich-provision-citations"
+      ]
+    },
+    {
+      "decision_id": "ECLI:BE:ORBRL:2009:JUG.20090429.11",
+      "language": "FR",
+      "missingFrom": [
+        "extract-legal-teachings",
+        "enrich-provision-citations",
+        "enrich-teaching-citations"
+      ]
+    },
+    {
+      "decision_id": "ECLI:BE:COVHDP:2008:DEC.20080821.7",
+      "language": "NL",
+      "missingFrom": [
+        "extract-legal-teachings",
+        "enrich-provision-citations",
+        "enrich-teaching-citations"
+      ]
+    }
+  ]
+}

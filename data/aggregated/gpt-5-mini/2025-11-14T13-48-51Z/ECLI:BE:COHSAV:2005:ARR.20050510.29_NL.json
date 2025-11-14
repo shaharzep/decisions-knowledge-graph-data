@@ -1,0 +1,716 @@
+{
+  "decision_id": "ECLI:BE:COHSAV:2005:ARR.20050510.29",
+  "language": "NL",
+  "metadata": {
+    "id": 85786,
+    "court_ecli_code": "COHSAV",
+    "decision_date": "2005-05-10",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 5561,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commissie voor Financiële Hulp aan Slachtoffers van Opzettelijke Gewelddaden en aan de Occasionele Redders, 10 mei 2005, A.R. M41133 - M41134 / B.R. 3843 - 3844, ECLI:BE:COHSAV:2005:ARR.20050510.29"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+        "name": "Hamadi X.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+        "name": "Fadma Y.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+        "name": "Otman X.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+        "name": "Jamal Z.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "BEKLAAGDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+        "name": "verzekeringsmaatschappij DVV",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+        "name": "Afgevaardigde van de Minister van Justitie",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "OPENBAAR_MINISTERIE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Jamal Z. en zijn echtgenote Saida X. leefden sinds kort gescheiden. Toen Otman X., de broer van Saïda, wat spullen van zijn zus kwam ophalen, werd hij door zijn schoonbroer levensgevaarlijk gewond door een messteek in de hartstreek. Later overleed hij in het ziekenhuis. Bij vonnis van de Rechtbank van Eerste Aanleg te ... d.d. 29 juni 2004 werd Jamal Z. veroordeeld tot een hoofdgevangenisstraf van 7 jaar wegens het met voorbedachten rade opzettelijk, maar zonder oogmerk om te doden, slagen of verwondingen te hebben toegebracht aan Otman X., die diens dood hebben veroorzaakt; dit vonnis is in kracht van gewijsde getreden. De dader werd op burgerlijk gebied veroordeeld om aan de burgerlijke partijen volgende bedragen te betalen: aan de huwgemeenschap Hamadi X. - Fadma Y.: € 5.657,23 voor materiële schade; aan de heer Hamadi X.: € 10.000 voor morele schade; aan mevrouw Fadma Y.: € 10.000 voor morele schade. De verzekeringsmaatschappij DVV vergoedde de heer Hamadi X. en mevrouw Fadma Y. voor een bedrag van € 7.436,81, zijnde het maximumbedrag van de waarborg onvermogen, onder aftrek van een franchise van € 250. Het onvermogen van de dader werd vastgesteld; hij verblijft in de gevangenis.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+          "requests": "Verzoek tot toekenning van een hulp van € 5.657,23 voor de huwgemeenschap en een morele schadevergoeding van € 10.000 voor de heer Hamadi X."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+          "requests": "Verzoek tot toekenning van een hulp van € 5.657,23 voor de huwgemeenschap en een morele schadevergoeding van € 10.000 voor mevrouw Fadma Y."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "OP DIE GRONDEN, \n\nDe Commissie,\n\nGelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986.\n\nVerklaart de verzoeken ontvankelijk.\nKent verzoeker Hamadi X. een hulp toe van $€ 9.110$.\nKent verzoekster Fadma Y. een hulp toe van $€ 9.110$.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "K.B. van 18 december 1986 (Koninklijk Besluit)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "K.B. van 18 december 1986 (Koninklijk Besluit)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+        "provisionNumber": "artikel 31",
+        "provisionNumberKey": "31",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie verklaart dat de wetgeving inzake hulp aan slachtoffers (artikelen 31 e.v.) geen individueel afdwingbaar recht op volledige schadeloosstelling inhoudt, maar veeleer de mogelijkheid van een 'hulp' op basis van collectieve solidariteit; bij de beoordeling van een hulp moeten de in artikel 31 vervatte voorschriften worden nageleefd en toegepast.",
+        "relevantFactualContext": "Toedracht: Otman X. werd bij een beroving/ruzie levensgevaarlijk gestoken en overleed; dader werd strafrechtelijk veroordeeld en onvermogen vastgesteld; verzoekers vorderen materiële en morele schade, waarbij een verzekeringsuitkering (DVV) werd betaald."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+        "provisionNumber": "artikel 31bis",
+        "provisionNumberKey": "31bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer verwijst naar artikel 31bis als onderdeel van de wettelijke regeling die de aard en beperkingen van de hulp bepaalt: deze bepalingen maken duidelijk dat het recht op hulp beperkt is en afhankelijk van de wettelijke criteria en procedurele voorschriften, zonder recht op volledige vergoeding.",
+        "relevantFactualContext": "De aanvraag van de verzoekers betreft vergoeding van begrafeniskosten en morele schade na de dood van hun zoon; de Commissie beoordeelt deze aanvraag conform de artikelen 31 e.v. en rekening houdend met bestaande verzekeringsvergoedingen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+        "provisionNumber": "artikel 32",
+        "provisionNumberKey": "32",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 32 wordt door de Commissie aangemerkt als één van de voorschriften die bepalen hoe hulp wordt berekend en toegerekend; in dat kader benadrukt de Commissie dat tussenkomsten van derden (bijv. verzekeringen) bij de vaststelling van de toe te kennen hulp in aanmerking moeten worden genomen en primair op materiële schade mogen worden aangerekend.",
+        "relevantFactualContext": "Feitelijke toepassing: de verzekeringsmaatschappij DVV keerde een bedrag uit (maximale waarborg), waarvan een deel de vastgestelde materiële schade dekte; de Commissie rekent deze tussenkomst bij voorrang aan op materiële schade en verrekenende het overschot."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+        "provisionNumber": "artikel 33",
+        "provisionNumberKey": "33",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie ziet artikel 33 als onderdeel van de regeling die toekenning en berekening van hulp regelt; zij past deze bepaling mede aldus toe dat reeds ontvangen verzekeringsvergoedingen in mindering kunnen komen op de toe te kennen hulpbedragen, en dat volledige vergoeding niet wordt gegarandeerd.",
+        "relevantFactualContext": "In casu: materiële schade vastgesteld op €5.657,23; DVV betaalde €7.436,81; Commissie trekt het meerdere (€1.779,58) af van de toe te kennen morele schade en kent aldus elk een hulp van €9.110 toe."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+        "provisionNumber": "artikel 33bis",
+        "provisionNumberKey": "33bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 33bis behoort volgens de Commissie tot de voorschriften die de reikwijdte en beperkingen van de hulp omschrijven; de Commissie past deze bepaling toe binnen het kader dat hulp begrensd is en dat ontvangsten van derden (verzekeringen) in de beoordeling verwerkt moeten worden.",
+        "relevantFactualContext": "Relevante feiten: overlijden door messteek, strafrechtelijke veroordeling en vaststelling onvermogen van de dader; verzekeringstussenkomst en concrete bedragen werden beoordeeld bij de toekenning van hulp."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+        "provisionNumber": "artikel 37bis",
+        "provisionNumberKey": "37bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003 en de programmawet van 27 december 2004",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+        "provisionNumber": "artikel 28",
+        "provisionNumberKey": "28",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "K.B. van 18 december 1986 (Koninklijk Besluit)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+        "provisionNumber": "artikel 34",
+        "provisionNumberKey": "34",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "K.B. van 18 december 1986 (Koninklijk Besluit)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+        "provisionNumber": "artikel 17 § 1",
+        "provisionNumberKey": "17",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+        "provisionNumber": "artikel 39",
+        "provisionNumberKey": "39",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+        "provisionNumber": "artikel 42",
+        "provisionNumberKey": "42",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Rechtbank van Eerste Aanleg te ...",
+        "date": "2004-06-29",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2005:ARR.20050510.29-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Bestuursrecht",
+      "Dodelijke steekpartij",
+      "Overlijden familielid",
+      "Veroordeling dader",
+      "Materiële schade",
+      "Ontvankelijkheid verzoek",
+      "Verrekening verzekeringsuitkering",
+      "Morele schadevergoeding",
+      "Onvermogen dader",
+      "Collectieve solidariteit"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+        "text": "De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent geen subjectief recht op volledige schadeloosstelling maar een beperkte 'hulp' op basis van collectieve solidariteit; bij de beoordeling van een aanvraag moet worden uitgegaan van dat beperkte karakter en dienen de wettelijke voorschriften (artikelen 31, 31bis, 32, 33, 33bis) te worden nageleefd en toegepast.",
+        "courtVerbatim": "De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij aanvragen om staatsbijstand op grond van de wet van 1 augustus 1985 voor slachtoffers van opzettelijke gewelddaden, wanneer verzoekers aanspraak maken op vergoeding van materiële of morele schade.",
+        "relevantFactualContext": "Verzoekers vorderen vergoeding van materiële en morele schade na het overlijden van hun zoon; de Commissie beoordeelt de aanvraag na afloop van een strafprocedure en voert de beoordeling uit overeenkomstig de artikelen 31 e.v. van de wet van 1 augustus 1985.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:COHSAV:2005:ARR.20050510.29-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+        "text": "Bij de toekenning van een hulp dienen door derden ontvangen tussenkomsten (zoals verzekeringsuitkeringen) in aanmerking te worden genomen: dergelijke tussenkomsten mogen eerst worden aangerekend op de vastgestelde materiële schade en eventuele overschotten kunnen in mindering worden gebracht op de toe te kennen morele schade of op de totaaltoekenning van de hulp.",
+        "courtVerbatim": "Overwegende dat de Commissie van oordeel is dat de tussenkomst van de verzekeringsmaatschappij de DVV bij voorrang mag aangerekend worden op de geleden materiële schade, welke in het totaal € 5.657,23 bedroeg, dat aldus boven deze materiële schade door de DVV een bedrag werd uitgekeerd van € 1.779,58 (€ 7.436,81-€ 5.657,23 ). Dit bedrag dient in mindering te worden gebracht op de toe te kennen morele schade welke voor ieder wordt begroot op € 10.000. Aldus wordt aan ieder toegekend: € 9.110.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer bij beoordeling van een aanvraag voor hulp blijkt dat derden (bijv. verzekeraars) al een vergoeding hebben uitgekeerd die dezelfde schadecomponenten dekt.",
+        "relevantFactualContext": "De Rechtbank van Eerste Aanleg kende materiële en morele schade toe; de verzekeraar DVV betaalde € 7.436,81 (maximumbedrag waarborg), waarvan € 5.657,23 de vastgestelde materiële schade dekte en € 1.779,58 als overschot resteerde; de Commissie verrekent dit overschot met de toe te kennen morele schade.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eisers, ouders van een slachtoffer dat door een opzettelijke messteek overleed, vorderen uitkering overeenkomstig het burgerlijk vonnis voor materiële en morele schade. De Commissie verklaart de verzoeken ontvankelijk, constateert de oninbaarheid van verhaal en rekent de voorafgaand door de verzekeraar betaalde som aan op de meeropbrengst, en kent aan ieder een solidariteits‑hulp van €9.110 toe, onder verwijzing naar het principe dat de wet een collectieve hulp biedt en geen recht op volledige schadeloosstelling garandeert."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+        "relatedFullTextCitations": [
+          "],  \"relatedInternalProvisionsId\": [  \"ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-001\"  ],  \"relatedInternalDecisionsId\": []},{ "
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. Aan de ontvankelijkheidsvoorwaarden werd voldaan. De kansen op verhaal tegenover de dader zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Overwegende dat de Commissie van oordeel is dat de tussenkomst van de verzekeringsmaatschappij de DVV bij voorrang mag aangerekend worden op de geleden materiële schade, welke in het totaal Euro 5.657,23 bedroeg, dat aldus boven deze materiële schade door de DVV een bedrag werd uitgekeerd van Euro 1.779,58 ( Euro 7.436,81 - Euro 5.657,23). Dit bedrag dient in mindering te worden gebracht op de toe te kennen morele schade welke voor ieder wordt begroot op Euro 10.000. Aldus wordt aan ieder toegekend: Euro 9.110.</p>",
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. Aan de ontvankelijkheidsvoorwaarden werd voldaan. De kansen op verhaal tegenover de dader zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Overwegende dat de Commissie van oordeel is dat de tussenkomst van de verzekeringsmaatschappij de DVV bij voorrang mag aangerekend worden op de geleden materiële schade, welke in het totaal Euro 5.657,23 bedroeg, dat aldus boven deze materiële schade door de DVV een bedrag werd uitgekeerd van Euro 1.779,58 ( Euro 7.436,81 - Euro 5.657,23). Dit bedrag dient in mindering te worden gebracht op de toe te kennen morele schade welke voor ieder wordt begroot op Euro 10.000. Aldus wordt aan ieder toegekend: Euro 9.110.</p>",
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. Aan de ontvankelijkheidsvoorwaarden werd voldaan. De kansen op verhaal tegenover de dader zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Overwegende dat de Commissie van oordeel is dat de tussenkomst van de verzekeringsmaatschappij de DVV bij voorrang mag aangerekend worden op de geleden materiële schade, welke in het totaal Euro 5.657,23 bedroeg, dat aldus boven deze materiële schade door de DVV een bedrag werd uitgekeerd van Euro 1.779,58 ( Euro 7.436,81 - Euro 5.657,23). Dit bedrag dient in mindering te worden gebracht op de toe te kennen morele schade welke voor ieder wordt begroot op Euro 10.000. Aldus wordt aan ieder toegekend: Euro 9.110.</p>",
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. Aan de ontvankelijkheidsvoorwaarden werd voldaan. De kansen op verhaal tegenover de dader zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Overwegende dat de Commissie van oordeel is dat de tussenkomst van de verzekeringsmaatschappij de DVV bij voorrang mag aangerekend worden op de geleden materiële schade, welke in het totaal Euro 5.657,23 bedroeg, dat aldus boven deze materiële schade door de DVV een bedrag werd uitgekeerd van Euro 1.779,58 ( Euro 7.436,81 - Euro 5.657,23). Dit bedrag dient in mindering te worden gebracht op de toe te kennen morele schade welke voor ieder wordt begroot op Euro 10.000. Aldus wordt aan ieder toegekend: Euro 9.110.</p>",
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. Aan de ontvankelijkheidsvoorwaarden werd voldaan. De kansen op verhaal tegenover de dader zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Overwegende dat de Commissie van oordeel is dat de tussenkomst van de verzekeringsmaatschappij de DVV bij voorrang mag aangerekend worden op de geleden materiële schade, welke in het totaal Euro 5.657,23 bedroeg, dat aldus boven deze materiële schade door de DVV een bedrag werd uitgekeerd van Euro 1.779,58 ( Euro 7.436,81 - Euro 5.657,23). Dit bedrag dient in mindering te worden gebracht op de toe te kennen morele schade welke voor ieder wordt begroot op Euro 10.000. Aldus wordt aan ieder toegekend: Euro 9.110.</p>",
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003n de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart de verzoeken ontvankelijk. Kent verzoeker Hamadi X. een hulp toe van Euro 9.110. Kent verzoekster Fadma Y. een hulp toe van Euro 9.110. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 10 mei 2005. De secretaris a.i. De plaatsvervangend voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-013",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050510.29-012"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 13,
+      "citationStatistics": {
+        "totalCitations": 16,
+        "avgCitationsPerProvision": 1.2307692307692308,
+        "provisionsWithMinimalCitations": 11,
+        "provisionsWithNoCitations": 2
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 9.461538461538462,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2005:ARR.20050510.29-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. Aan de ontvankelijkheidsvoorwaarden werd voldaan. De kansen op verhaal tegenover de dader zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Overwegende dat de Commissie van oordeel is dat de tussenkomst van de verzekeringsmaatschappij de DVV bij voorrang mag aangerekend worden op de geleden materiële schade, welke in het totaal Euro 5.657,23 bedroeg, dat aldus boven deze materiële schade door de DVV een bedrag werd uitgekeerd van Euro 1.779,58 ( Euro 7.436,81 - Euro 5.657,23). Dit bedrag dient in mindering te worden gebracht op de toe te kennen morele schade welke voor ieder wordt begroot op Euro 10.000. Aldus wordt aan ieder toegekend: Euro 9.110.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 5,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2005:ARR.20050510.29-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. Aan de ontvankelijkheidsvoorwaarden werd voldaan. De kansen op verhaal tegenover de dader zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Overwegende dat de Commissie van oordeel is dat de tussenkomst van de verzekeringsmaatschappij de DVV bij voorrang mag aangerekend worden op de geleden materiële schade, welke in het totaal Euro 5.657,23 bedroeg, dat aldus boven deze materiële schade door de DVV een bedrag werd uitgekeerd van Euro 1.779,58 ( Euro 7.436,81 - Euro 5.657,23). Dit bedrag dient in mindering te worden gebracht op de toe te kennen morele schade welke voor ieder wordt begroot op Euro 10.000. Aldus wordt aan ieder toegekend: Euro 9.110.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 8,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": [
+        "Both teachings are supported by the same reasoning paragraph in section V (case-section__paragraph)."
+      ]
+    }
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "decision_id": "ECLI:BE:CASS:2023:ARR.20230209.1F.1",
+  "language": "FR",
+  "metadata": {
+    "id": 15556,
+    "court_ecli_code": "CASS",
+    "court_name": "Cour de cassation",
+    "decision_date": "2023-02-09",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 26130,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour de cassation, 9 février 2023, N. C.22.0264.F, ECLI:BE:CASS:2023:ARR.20230209.1F.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "name": "CARREFOUR BELGIUM, société anonyme",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "DEMANDEUR_EN_CASSATION"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2023:ARR.20230209.1F.1-002",
+        "name": "E. B.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR_EN_CASSATION"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003",
+        "name": "D. C.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR_EN_CASSATION"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Le 30 octobre 2006, le second défendeur et son épouse ont constitué la SNC Bucovina; il en est nommé gérant. En janvier 2012, le second défendeur acquiert les parts de la SPRL Mary's Shop exploitant un magasin Carrefour Express à Schaerbeek et en devient gérant; la vente est conclue pour 280.000 €, financée par une banque et le Fonds de participation. Le 16 janvier 2012, un nouveau contrat de franchise est signé entre la SPRL Mary's Shop et la demanderesse; le même jour le second défendeur se porte caution solidaire des engagements de la société envers la demanderesse. La SPRL Mary's Shop accuse des retards de paiement envers la demanderesse (arriéré allégué d'environ 333.284,38 €). Par jugement du 4 décembre 2019 la faillite de la SPRL Mary's Shop est déclarée ouverte sur aveu. Par acte déposé au Regsol le 23 mai 2020 le second défendeur sollicite l'effacement et, par acte du 24 mai 2020, il fait aveu de faillite en nom personnel. Par jugement du 5 juin 2020 la faillite du second défendeur est déclarée ouverte et la procédure de gratuité est ordonnée; Maître E. B. est désignée curatrice. Le 26 juin 2020 la demanderesse forme une tierce-opposition; par jugement du 25 novembre 2020 la tierce-opposition est déclarée recevable mais non fondée. Par arrêt du 29 avril 2021 la cour d'appel de Bruxelles reçoit l'appel mais le déclare non fondé. La demanderesse introduit un pourvoi en cassation contre cet arrêt en soutenant notamment que la cour d'appel a mal appliqué la notion d'«entreprise» au sens du Code de droit économique en considérant que le second défendeur, gérant de sociétés, avait la qualité d'entreprise sans qu'il ait été constaté qu'il disposait d'une organisation propre.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+          "requests": "La demanderesse conclut à la cassation de l'arrêt du 29 avril 2021 rendu par la cour d'appel de Bruxelles, au renvoi de la cause et des parties devant une autre cour d'appel et aux dépens."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+          "argument": "La demanderesse soutient que la cour d'appel a violé les articles I.1, 1°, a), I.22, 7°/1 et 8° et XX.99 du Code de droit économique en retenant que le second défendeur avait la qualité d'«entreprise» sans constater qu'il constituait une organisation consistant en un agencement de moyens matériels, financiers ou humains. Elle invoque que le gérant qui exerce son mandat en dehors de toute organisation propre n'est pas une entreprise, se réfère à l'exposé des motifs et à la doctrine ainsi qu'à la jurisprudence (notamment l'arrêt de la Cour de cassation du 18 mars 2022) et demande que l'arrêt entrepris soit cassé pour erreur d'interprétation de la notion légale d'«entreprise» et pour violation des dispositions citées.",
+          "treatment": "ACCEPTE"
+        }
+      ],
+      "courtOrder": "Par ces motifs,\n\nLa Cour\n\nCasse l'arrêt attaqué ;\nOrdonne que mention du présent arrêt sera faite en marge de l'arrêt cassé ;\nRéserve les dépens pour qu'il soit statué sur ceux-ci par le juge du fond ;\nRenvoie la cause devant la cour d'appel de Mons.",
+      "outcome": "CASSATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "provisionNumber": "article XX.99, alinéa 1er",
+        "provisionNumberKey": "XX.99",
+        "parentActType": "CODE",
+        "parentActName": "Code de droit économique (CDE)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que, selon l'article XX.99, al.1, la faillite suppose que le débiteur ait cessé ses paiements de manière persistante et que son crédit soit ébranlé ; pour une personne physique cette cessation doit remonter à une époque où elle exerçait encore son activité professionnelle, appréciée au jour du jugement déclaratif.",
+        "relevantFactualContext": "La Cour retient que le second défendeur ne pouvait faire face à des dettes exigibles (mise en demeure bancaire 67.000 € au 20/12/2019; 9.377,23 € de cotisations au 15/01/2020; compte courant d'environ 242.000 € vis‑à‑vis de la SPRL Mary's Shop) et manquait de crédit pour y faire face."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-002",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "provisionNumber": "article XX.105, alinéa 6",
+        "provisionNumberKey": "XX.105",
+        "parentActType": "CODE",
+        "parentActName": "Code de droit économique (CDE)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article XX.105, al.6 comme limitant la fixation de la date de cessation de paiement à six mois précédant le jugement déclaratif, sauf exceptions strictes ; combiné à XX.99, la cessation de paiements doit donc être antérieure à ou concomitante à l'exercice de l'activité et s'apprécie au jour du jugement déclaratif de faillite.",
+        "relevantFactualContext": "La contestation portait sur la date de cessation d'activité par rapport au délai de six mois précédant le jugement du 5/06/2020 ; la Cour constate que la SNC Bucovina présentait des éléments d'activité fin 2019-début 2020 (facture du 31/12/2019, déclarations TVA 2e-4e trimestres 2019), de sorte que la cessation ne remontait pas manifestement à plus de six mois."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "provisionNumber": "article I.22, 8°",
+        "provisionNumberKey": "I.22",
+        "parentActType": "CODE",
+        "parentActName": "Code de droit économique (CDE)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que, selon l'art. I.22, 8°, le «débiteur» visé au Livre XX doit être une «entreprise» et que la définition renvoyée à l'art. I.1, 1° conditionne cette qualité : il faut que la personne physique constitue une entreprise au sens de I.1 pour être regardée comme débiteur susceptible d'être déclaré en faillite.",
+        "relevantFactualContext": "Il s'agissait d'apprécier si le second défendeur, gérant de la SNC Bucovina et de la SPRL Mary's Shop, avait la qualité d'entreprise ; la Cour note que l'arrêt attaqué n'a pas légalement motivé l'examen de l'existence d'une organisation propre le qualifiant d'entreprise."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-004",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "provisionNumber": "article I.1, 1°",
+        "provisionNumberKey": "I.1",
+        "parentActType": "CODE",
+        "parentActName": "Code de droit économique (CDE)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle et applique l'art. I.1, 1° en retenant qu'une personne physique n'est «entreprise» que si elle constitue une organisation consistant en un agencement de moyens matériels, financiers ou humains en vue de l'exercice d'une activité professionnelle indépendante ; l'exercice isolé d'un mandat sans organisation propre ne suffit pas.",
+        "relevantFactualContext": "L'arrêt d'appel a constaté l'exercice professionnel et lucratif des mandats du second défendeur (rémunération déclarée, factures, déclarations TVA) mais n'a pas constaté ni motivé l'existence d'une organisation distincte : la Cour casse pour défaut de justification sur ce point."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-005",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "provisionNumber": "article I.22, 7°/1",
+        "provisionNumberKey": "7/1",
+        "parentActType": "CODE",
+        "parentActName": "Code de droit économique (CDE)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-006",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "provisionNumber": "article III.49",
+        "provisionNumberKey": "III.49",
+        "parentActType": "CODE",
+        "parentActName": "Code de droit économique (CDE)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour relève qu'en vertu des articles III.49 et III.52 certaines personnes physiques (dont l'activité indépendante consiste en l'exercice d'un ou plusieurs mandats d'administration) sont dispensées de l'obligation d'inscription à la BCE ; dès lors l'absence d'inscription ne permet pas, à elle seule, d'exclure la qualité d'entreprise.",
+        "relevantFactualContext": "La demanderesse contestait l'absence d'inscription du second défendeur à la BCE ; la Cour considère cette absence sans incidence au regard des éléments montrant une activité (facture 31/12/2019, déclarations TVA 2019)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-007",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "provisionNumber": "article III.52",
+        "provisionNumberKey": "III.52",
+        "parentActType": "CODE",
+        "parentActName": "Code de droit économique (CDE)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'art. III.52 conjointement avec l'art. III.49 comme instituant une dérogation d'inscription à la BCE pour la personne physique dont l'activité consiste en l'exercice de mandats d'administration ; cette dérogation empêche que l'absence d'inscription soit tenue pour preuve contraire de la qualité d'entreprise.",
+        "relevantFactualContext": "En l'espèce, l'absence d'inscription du second défendeur à la BCE a été invoquée par la demanderesse, mais la Cour retient que les pièces (factures, déclarations TVA, avertissements-extraits de rôle) doivent primer pour apprécier l'existence d'une activité."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-008",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2023:ARR.20230209.1F.1-002",
+        "provisionNumber": "article 1er",
+        "provisionNumberKey": "1",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "directive 2000/35/CE du Parlement européen et du Conseil du 29 juin 2000",
+        "parentActDate": "2000-06-29",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-009",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003",
+        "provisionNumber": "article 2.9",
+        "provisionNumberKey": "2.9",
+        "parentActType": "DIRECTIVE_UE",
+        "parentActName": "Directive (UE) 2019/1023 du Parlement européen et du Conseil du 20 juin 2019",
+        "parentActDate": "2019-06-20",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "cour d'appel de Bruxelles",
+        "date": "2021-04-29",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de l'entreprise",
+        "date": "2020-06-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour de cassation",
+        "date": "2022-03-18",
+        "caseNumber": null,
+        "ecli": "ECLI:BE:CASS:2022:ARR.20220318.1F.9",
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour de cassation",
+        "date": "2022-03-18",
+        "caseNumber": null,
+        "ecli": "ECLI:BE:CASS:2022:CONC.20220318.1F.9",
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit commercial",
+      "Gérant de société",
+      "Faillite personnelle",
+      "Contrat de franchise",
+      "Créances impayées",
+      "Qualification d'entreprise",
+      "Critère d'organisation",
+      "Cessation des paiements",
+      "Ébranlement du crédit",
+      "Définition de l'entreprise"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "text": "Au sens de l'art. I.1, 1° du CDE, une personne physique n'est «entreprise» que si elle constitue une organisation, c'est‑à‑dire un agencement de moyens matériels, financiers ou humains en vue de l'exercice d'une activité professionnelle à titre indépendant; l'exercice isolé d'un mandat, sans organisation propre, ne suffit pas pour conférer cette qualité.",
+        "courtVerbatim": "Une personne physique n'est une entreprise, au sens de cette dernière disposition, que lorsqu'elle constitue une organisation consistant en un agencement de moyens matériels, financiers ou humains en vue de l'exercice d'une activité professionnelle à titre indépendant.\n\nIl s'ensuit que le gérant ou l'administrateur d'une société, qui exerce son mandat en dehors de toute organisation propre, n'est pas une entreprise.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'il convient de déterminer si une personne physique a la qualité d'«entreprise» au sens de l'art. I.1, 1° du CDE.",
+        "relevantFactualContext": "La question portait sur la qualification d'une personne physique, gérant de sociétés et exerçant des mandats avec éléments comptables (factures, déclarations TVA), et la cour d'appel n'a pas constaté ni motivé l'existence d'une organisation propre.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "OTHER",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-004",
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230209.1F.1-002",
+        "text": "Lorsque la qualification d'une personne physique comme \"entreprise\" est contestée dans une procédure (notamment en matière de faillite), la juridiction doit expressément apprécier et motiver l'existence ou l'absence d'une organisation propre; se borner à relever l'exercice professionnel de mandats sans examiner l'organisation constitue une insuffisance de motivation susceptible d'entraîner la cassation.",
+        "courtVerbatim": "L'arrêt, qui, pour déterminer si le second défendeur est une entreprise, n'a égard qu'à l'exercice de son activité de gérant à titre professionnel et lucratif, sans examiner s'il l'exerce dans le cadre d'une organisation propre, ne justifie pas légalement sa décision que le second défendeur a « la qualité d'entreprise». \n\nLe moyen est fondé.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique quand une juridiction affirme la qualité d'«entreprise» d'une personne physique sans avoir examiné et motivé l'existence d'une organisation propre, notamment en procédure de faillite.",
+        "relevantFactualContext": "La cour d'appel a retenu la qualité d'entreprise en se fondant sur l'exercice professionnel de mandats et des éléments comptables, sans constater ni motiver l'existence d'une organisation propre; la Cour de cassation a cassé l'arrêt pour défaut de justification.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "OTHER",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-004",
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003",
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 2,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, la société, conteste la déclaration de faillite d'une personne physique qui exerçait des mandats de gérant et dont la qualité d'«entreprise» au sens du Code de droit économique était mise en cause. La Cour de cassation casse l'arrêt d'appel et renvoie l'affaire, estimant que la cour d'appel n'a pas légalement motivé sa décision en se bornant à constater l'exercice professionnel de mandats sans vérifier l'existence d'une organisation propre. Principale règle retenue: une personne physique n'est «entreprise» que si elle constitue une organisation agencée de moyens matériels, financiers ou humains; le gérant exerçant hors d'une organisation distincte n'a pas la qualité d'entreprise."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L’article XX.99, alinéa 1er, du Code de droit économique dispose que le débiteur qui a cessé ses paiements de manière persistante et dont le crédit se trouve ébranlé est en état de faillite. En vertu de l’article I.22, 8°, de ce code, le débiteur est une entreprise à l’exception de toute personne morale de droit public. En vertu de l’article I.1, 1°, du même code, on entend par entreprise chacune des organisations suivantes : toute personne physique qui exerce une activité professionnelle à titre indépendant ; toute personne morale ; toute autre organisation sans personnalité juridique. Une personne physique n’est une entreprise, au sens de cette dernière disposition, que lorsqu’elle constitue une organisation consistant en un agencement de moyens matériels, financiers ou humains en vue de l’exercice d’une activité professionnelle à titre indépendant. Il s’ensuit que le gérant ou l’administrateur d’une société, qui exerce son mandat en dehors de toute organisation propre, n’est pas une entreprise. L’arrêt relève que le second défendeur exerce l’« activité de gérant des sociétés Bucovina et Mary’s Shop […] à titre indépendant » et « dans un but de lucre, [ses] avertissements-extraits de rôle [indiquant] une rémunération comme dirigeant d’entreprise », et que « l’exercice [de ces] mandats de gérant constitue dans le chef [du second défendeur] une activité ‘professionnelle’ au sens commun du terme, s’agissant de son métier et non pas d’une activité exercée à titre d’amateur ». Il considère qu’« exiger […] un agencement de moyens personnels et distincts de ceux de la personne morale ou une organisation propre [au second défendeur] revient à poser une exigence inexistante ». L’arrêt, qui, pour déterminer si le second défendeur est une entreprise, n’a égard qu’à l’exercice de son activité de gérant à titre professionnel et lucratif, sans examiner s’il l’exerce dans le cadre d’une organisation propre, ne justifie pas légalement sa décision que le second défendeur a « la qualité d’entreprise ». Le moyen est fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003",
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-002",
+        "relatedFullTextCitations": [
+          "[]\u0000[]\u0000[]\u0000[]"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L’article XX.99, alinéa 1er, du Code de droit économique dispose que le débiteur qui a cessé ses paiements de manière persistante et dont le crédit se trouve ébranlé est en état de faillite. En vertu de l’article I.22, 8°, de ce code, le débiteur est une entreprise à l’exception de toute personne morale de droit public. En vertu de l’article I.1, 1°, du même code, on entend par entreprise chacune des organisations suivantes : toute personne physique qui exerce une activité professionnelle à titre indépendant ; toute personne morale ; toute autre organisation sans personnalité juridique. Une personne physique n’est une entreprise, au sens de cette dernière disposition, que lorsqu’elle constitue une organisation consistant en un agencement de moyens matériels, financiers ou humains en vue de l’exercice d’une activité professionnelle à titre indépendant. Il s’ensuit que le gérant ou l’administrateur d’une société, qui exerce son mandat en dehors de toute organisation propre, n’est pas une entreprise. L’arrêt relève que le second défendeur exerce l’« activité de gérant des sociétés Bucovina et Mary’s Shop […] à titre indépendant » et « dans un but de lucre, [ses] avertissements-extraits de rôle [indiquant] une rémunération comme dirigeant d’entreprise », et que « l’exercice [de ces] mandats de gérant constitue dans le chef [du second défendeur] une activité ‘professionnelle’ au sens commun du terme, s’agissant de son métier et non pas d’une activité exercée à titre d’amateur ». Il considère qu’« exiger […] un agencement de moyens personnels et distincts de ceux de la personne morale ou une organisation propre [au second défendeur] revient à poser une exigence inexistante ». L’arrêt, qui, pour déterminer si le second défendeur est une entreprise, n’a égard qu’à l’exercice de son activité de gérant à titre professionnel et lucratif, sans examiner s’il l’exerce dans le cadre d’une organisation propre, ne justifie pas légalement sa décision que le second défendeur a « la qualité d’entreprise ». Le moyen est fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003",
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L’article XX.99, alinéa 1er, du Code de droit économique dispose que le débiteur qui a cessé ses paiements de manière persistante et dont le crédit se trouve ébranlé est en état de faillite. En vertu de l’article I.22, 8°, de ce code, le débiteur est une entreprise à l’exception de toute personne morale de droit public. En vertu de l’article I.1, 1°, du même code, on entend par entreprise chacune des organisations suivantes : toute personne physique qui exerce une activité professionnelle à titre indépendant ; toute personne morale ; toute autre organisation sans personnalité juridique. Une personne physique n’est une entreprise, au sens de cette dernière disposition, que lorsqu’elle constitue une organisation consistant en un agencement de moyens matériels, financiers ou humains en vue de l’exercice d’une activité professionnelle à titre indépendant. Il s’ensuit que le gérant ou l’administrateur d’une société, qui exerce son mandat en dehors de toute organisation propre, n’est pas une entreprise. L’arrêt relève que le second défendeur exerce l’« activité de gérant des sociétés Bucovina et Mary’s Shop […] à titre indépendant » et « dans un but de lucre, [ses] avertissements-extraits de rôle [indiquant] une rémunération comme dirigeant d’entreprise », et que « l’exercice [de ces] mandats de gérant constitue dans le chef [du second défendeur] une activité ‘professionnelle’ au sens commun du terme, s’agissant de son métier et non pas d’une activité exercée à titre d’amateur ». Il considère qu’« exiger […] un agencement de moyens personnels et distincts de ceux de la personne morale ou une organisation propre [au second défendeur] revient à poser une exigence inexistante ». L’arrêt, qui, pour déterminer si le second défendeur est une entreprise, n’a égard qu’à l’exercice de son activité de gérant à titre professionnel et lucratif, sans examiner s’il l’exerce dans le cadre d’une organisation propre, ne justifie pas légalement sa décision que le second défendeur a « la qualité d’entreprise ». Le moyen est fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-004",
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-005",
+        "relatedFullTextCitations": [
+          "[]\u0000[]\u0000[]\u0000[]"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-006",
+        "relatedFullTextCitations": [
+          "[]\u0000[]\u0000[]\u0000[]"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-007",
+        "relatedFullTextCitations": [
+          "[]\u0000[]\u0000[]\u0000[]"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-008",
+        "relatedFullTextCitations": [
+          "[]\u0000[]\u0000[]\u0000[]"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-009",
+        "relatedFullTextCitations": [
+          "[]\u0000[]\u0000[]\u0000[]"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2023:ARR.20230209.1F.1-009"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 9,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerProvision": 0.3333333333333333,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 6
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.6666666666666667,
+        "avgDecisionsPerProvision": 0.3333333333333333,
+        "provisionsWithNoRelationships": 6
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230209.1F.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L’article XX.99, alinéa 1er, du Code de droit économique dispose que le débiteur qui a cessé ses paiements de manière persistante et dont le crédit se trouve ébranlé est en état de faillite. En vertu de l’article I.22, 8°, de ce code, le débiteur est une entreprise à l’exception de toute personne morale de droit public. En vertu de l’article I.1, 1°, du même code, on entend par entreprise chacune des organisations suivantes : toute personne physique qui exerce une activité professionnelle à titre indépendant ; toute personne morale ; toute autre organisation sans personnalité juridique. Une personne physique n’est une entreprise, au sens de cette dernière disposition, que lorsqu’elle constitue une organisation consistant en un agencement de moyens matériels, financiers ou humains en vue de l’exercice d’une activité professionnelle à titre indépendant. Il s’ensuit que le gérant ou l’administrateur d’une société, qui exerce son mandat en dehors de toute organisation propre, n’est pas une entreprise. L’arrêt relève que le second défendeur exerce l‘« activité de gérant des sociétés Bucovina et Mary’s Shop […] à titre indépendant » et « dans un but de lucre, [ses] avertissements-extraits de rôle [indiquant] une rémunération comme dirigeant d’entreprise », et que « l’exercice [de ces] mandats de gérant constitue dans le chef [du second défendeur] une activité ‘professionnelle’ au sens commun du terme, s’agissant de son métier et non pas d’une activité exercée à titre d’amateur ». Il considère qu’« exiger […] un agencement de moyens personnels et distincts de ceux de la personne morale ou une organisation propre [au second défendeur] revient à poser une exigence inexistante ». L’arrêt, qui, pour déterminer si le second défendeur est une entreprise, n’a égard qu’à l’exercice de son activité de gérant à titre professionnel et lucratif, sans examiner s’il l’exerce dans le cadre d’une organisation propre, ne justifie pas légalement sa décision que le second défendeur a « la qualité d'entreprise ». Le moyen est fondé.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230209.1F.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L’article XX.99, alinéa 1er, du Code de droit économique dispose que le débiteur qui a cessé ses paiements de manière persistante et dont le crédit se trouve ébranlé est en état de faillite. En vertu de l’article I.22, 8°, de ce code, le débiteur est une entreprise à l’exception de toute personne morale de droit public. En vertu de l’article I.1, 1°, du même code, on entend par entreprise chacune des organisations suivantes : toute personne physique qui exerce une activité professionnelle à titre indépendant ; toute personne morale ; toute autre organisation sans personnalité juridique. Une personne physique n’est une entreprise, au sens de cette dernière disposition, que lorsqu’elle constitue une organisation consistant en un agencement de moyens matériels, financiers ou humains en vue de l’exercice d’une activité professionnelle à titre indépendant. Il s’ensuit que le gérant ou l’administrateur d’une société, qui exerce son mandat en dehors de toute organisation propre, n’est pas une entreprise. L’arrêt relève que le second défendeur exerce l‘« activité de gérant des sociétés Bucovina et Mary’s Shop […] à titre indépendant » et « dans un but de lucre, [ses] avertissements-extraits de rôle [indiquant] une rémunération comme dirigeant d’entreprise », et que « l’exercice [de ces] mandats de gérant constitue dans le chef [du second défendeur] une activité ‘professionnelle’ au sens commun du terme, s’agissant de son métier et non pas d’une activité exercée à titre d’amateur ». Il considère qu’« exiger […] un agencement de moyens personnels et distincts de ceux de la personne morale ou une organisation propre [au second défendeur] revient à poser une exigence inexistante ». L’arrêt, qui, pour déterminer si le second défendeur est une entreprise, n’a égard qu’à l’exercice de son activité de gérant à titre professionnel et lucratif, sans examiner s’il l’exerce dans le cadre d’une organisation propre, ne justifie pas légalement sa décision que le second défendeur a « la qualité d'entreprise ». Le moyen est fondé.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 2
+      },
+      "extractionNotes": [
+        "Both teachings derive from the single reasoning paragraph in section III; the claimed precedent DEC-ECLI:BE:CASS:2023:ARR.20230209.1F.1-003 is not explicitly referenced by identifier or date in the extracted paragraph and thus is reported as not found."
+      ]
+    }
+  }
+}

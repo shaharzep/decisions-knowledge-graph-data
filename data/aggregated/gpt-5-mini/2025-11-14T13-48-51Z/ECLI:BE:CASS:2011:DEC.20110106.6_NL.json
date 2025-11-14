@@ -1,0 +1,268 @@
+{
+  "decision_id": "ECLI:BE:CASS:2011:DEC.20110106.6",
+  "language": "NL",
+  "metadata": {
+    "id": 44533,
+    "court_ecli_code": "CASS",
+    "court_name": "Hof van Cassatie",
+    "decision_date": "2011-01-06",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Rechterlijke beslissing",
+    "md_length": 1697,
+    "length_category": "short"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cass., 6 januari 2011, G.10.0282.N, ECLI:BE:CASS:2011:DEC.20110106.6"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CASS:2011:DEC.20110106.6-001",
+        "name": "R M I",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "R M I, thans opgesloten in de gevangenis van Sint-Gillis, verzoekt bij het Bureau voor rechtsbijstand om toekenning van rechtsbijstand. De verzoeker wordt bijgestaan door raadsman mr. Steff Stevens, advocaat bij de balie te Mechelen. Het verzoek heeft betrekking op het verkrijgen van een kosteloze kopie van het arrest P.10.1394.N van 7 december 2010. Advocaat-generaal André Henkes bracht advies uit. Het verzoek werd ingesteld na de uitspraak van het eindarrest, waarna het Bureau oordeelt dat er voor het Hof geen geschil meer aanhangig is en dat rechtsbijstand voor het verkrijgen van een afschrift van de eindbeslissing slechts kan worden gevraagd wanneer het geschil voor het Hof aanhangig is of wordt gemaakt.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2011:DEC.20110106.6-001",
+          "requests": "Het verzoek strekt tot de toekenning van rechtsbijstand daar de verzoeker een kosteloze kopie wenst te krijgen van het arrest P.10.1394.N van 7 december 2010."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "Gelet op de artikelen 664 en volgende Gerechtelijk Wetboek.\nHet bureau voor rechtsbijstand,\nVerwerpt het verzoek.",
+      "outcome": "AFWIJZING"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2011:DEC.20110106.6-001",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2011:DEC.20110106.6-001",
+        "provisionNumber": "artikel 671, eerste lid",
+        "provisionNumberKey": "671",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het bureau interpreteert artikel 671, eerste lid, aldus dat rechtsbijstand uitsluitend wordt verleend voor de proceshandelingen die moeten worden verricht en voor de gewone afschriften van uittreksels die moeten worden voorgebracht voor de rechter waarbij het geschil aanhangig is of wordt gemaakt, inclusief de betekening van de eindbeslissing; derhalve kan rechtsbijstand aan het Bureau van het Hof van Cassatie niet worden gevraagd voor het verkrijgen van een afschrift van de eindbeslissing wanneer het geschil niet (langer) voor het Hof aanhangig is.",
+        "relevantFactualContext": "De verzoeker vroeg na de uitspraak van het eindarrest om rechtsbijstand voor het verkrijgen van een kosteloze kopie van het arrest P.10.1394.N van 7 december 2010; het verzoek werd ingediend nadat het geschil niet meer voor het Hof aanhangig was."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2011:DEC.20110106.6-002",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2011:DEC.20110106.6-001",
+        "provisionNumber": "artikel 664",
+        "provisionNumberKey": "664",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "HOF VAN CASSATIE",
+        "date": "2010-12-07",
+        "caseNumber": "P.10.1394.N",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2011:DEC.20110106.6-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Procesrecht",
+      "Verzoek rechtsbijstand",
+      "Kopie eindarrest",
+      "Na uitspraak ingediend",
+      "Gedetineerde verzoeker",
+      "Ontvankelijkheid verzoek",
+      "Beperking rechtsbijstand",
+      "Toegang tot eindbeslissing",
+      "Geen rechtsbijstand na arrest",
+      "Bureau voor rechtsbijstand"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2011:DEC.20110106.6-001",
+        "text": "Artikel 671, eerste lid, van het Gerechtelijk Wetboek beperkt de rechtsbijstand verleend door het Bureau van het Hof van Cassatie tot de proceshandelingen die moeten worden verricht en tot gewone afschriften van uittreksels voor de rechter waarvoor het geschil aanhangig is of wordt gemaakt (inclusief betekening van de eindbeslissing). Rechtsbijstand kan niet worden gevraagd voor het verkrijgen van een afschrift van de eindbeslissing wanneer het geschil niet (langer) voor het Hof aanhangig is.",
+        "courtVerbatim": "1. Naar luid van artikel 671, eerste lid, Gerechtelijk Wetboek wordt rechtsbijstand alleen verleend voor de proceshandelingen die moeten worden verricht en voor de gewone afschriften van de uittreksels uit de stukken die moeten worden voorgebracht voor de rechter voor wie het geschil aanhangig is of wordt gemaakt, de betekening van de eindbeslissing daaronder begrepen.\n2. Uit deze bepaling volgt dat, ook voor het krijgen van een afschrift van de eindbeslissing, rechtsbijstand aan het Bureau van het Hof van Cassatie alleen kan worden gevraagd wanneer het geschil voor het Hof aanhangig is of wordt gemaakt. Het kan niet meer worden gevraagd na de uitspraak van het eindarrest. In dat geval is immers geen geschil meer voor het Hof aanhangig en kan het voor het Hof ook niet meer aanhangig worden gemaakt.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een verzoeker bij het Bureau van het Hof van Cassatie rechtsbijstand aanvraagt om een afschrift van de eindbeslissing te verkrijgen.",
+        "relevantFactualContext": "De verzoeker vroeg na de uitspraak van het eindarrest om rechtsbijstand voor het verkrijgen van een kosteloze kopie van het arrest P.10.1394.N van 7 december 2010; het verzoek werd ingediend nadat het geschil niet langer voor het Hof aanhangig was.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2011:DEC.20110106.6-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 1,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De verzoeker vraagt bij het Bureau voor rechtsbijstand kosteloze toezending van een afschrift van het eindarrest. Het Bureau verklaart het verzoek niet-ontvankelijk en wijst het af: op grond van artikel 671 Gerechtelijk Wetboek kan rechtsbijstand voor een afschrift van een eindbeslissing slechts worden gevraagd terwijl het geschil voor het Hof aanhangig is, niet na het wijzen van het eindarrest."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2011:DEC.20110106.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">1. Naar luid van artikel 671, eerste lid, Gerechtelijk Wetboek wordt rechtsbijstand alleen verleend voor de proceshandelingen die moeten worden verricht en voor de gewone afschriften van de uittreksels uit de stukken die moeten worden voorgebracht voor de rechter voor wie het geschil aanhangig is of wordt gemaakt, de betekening van de eindbeslissing daaronder begrepen.</p>",
+          "<p class=\"case-section__paragraph\">2. Uit deze bepaling volgt dat, ook voor het krijgen van een afschrift van de eindbeslissing, rechtsbijstand aan het Bureau van het Hof van Cassatie alleen kan worden gevraagd wanneer het geschil voor het Hof aanhangig is of wordt gemaakt. Het kan niet meer worden gevraagd na de uitspraak van het eindarrest. In dat geval is immers geen geschil meer voor het Hof aanhangig en kan het voor het Hof ook niet meer aanhangig worden gemaakt. Het verzoek, dat is ingesteld na de uitspraak van het eindarrest, is niet ontvankelijk.</p>",
+          "<p class=\"case-section__paragraph\">Gelet op de artikelen 664 en volgende Gerechtelijk Wetboek.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2011:DEC.20110106.6-001",
+          "ART-ECLI:BE:CASS:2011:DEC.20110106.6-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2011:DEC.20110106.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2011:DEC.20110106.6-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de artikelen 664 en volgende Gerechtelijk Wetboek.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2011:DEC.20110106.6-002",
+          "ART-ECLI:BE:CASS:2011:DEC.20110106.6-001"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 2,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerProvision": 2,
+        "provisionsWithMinimalCitations": 1,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2,
+        "avgDecisionsPerProvision": 0.5,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2011:DEC.20110106.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">1. Naar luid van artikel 671, eerste lid, Gerechtelijk Wetboek wordt rechtsbijstand alleen verleend voor de proceshandelingen die moeten worden verricht en voor de gewone afschriften van de uittreksels uit de stukken die moeten worden voorgebracht voor de rechter voor wie het geschil aanhangig is of wordt gemaakt, de betekening van de eindbeslissing daaronder begrepen.</p>",
+          "<p class=\"case-section__paragraph\">2. Uit deze bepaling volgt dat, ook voor het krijgen van een afschrift van de eindbeslissing, rechtsbijstand aan het Bureau van het Hof van Cassatie alleen kan worden gevraagd wanneer het geschil voor het Hof aanhangig is of wordt gemaakt. Het kan niet meer worden gevraagd na de uitspraak van het eindarrest. In dat geval is immers geen geschil meer voor het Hof aanhangig en kan het voor het Hof ook niet meer aanhangig worden gemaakt. Het verzoek, dat is ingesteld na de uitspraak van het eindarrest, is niet ontvankelijk.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerTeaching": 2,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

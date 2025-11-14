@@ -1,0 +1,1192 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:2013:DEC.20131002.4",
+  "language": "NL",
+  "metadata": {
+    "id": 66543,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+    "decision_date": "2013-10-02",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Rechterlijke beslissing",
+    "md_length": 36059,
+    "length_category": "very_long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commissie voor de bescherming van de persoonlijke levenssfeer, 2 oktober 2013, Advies nr. 42/2013, ECLI:BE:COPRIV:2013:DEC.20131002.4"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "name": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "name": "Mevrouw Joëlle Milquet, Minister van Binnenlandse Zaken en Gelijkheid van Kansen",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Mevrouw Joëlle Milquet, Minister van Binnenlandse Zaken en Gelijkheid van Kansen, verzocht de Commissie op 26 augustus 2013 om bij hoogdringendheid advies te verstrekken over het voorontwerp van wet tot wijziging van de wet van 21 maart 2007 betreffende plaatsing en gebruik van bewakingscamera's (CO-A-2013-046). De Commissie brengt op 2 oktober 2013 advies uit en verwijst naar eerdere adviezen (31/2006, 08/2008, 24/2009, 17/2012). Het voorontwerp wijzigt o.m. definities (brede definitie van \"bewakingscamera\", definitie van \"mobiele bewakingscamera\"), het uitzonderingsregime t.o.v. bijzondere wetgeving, het samenspel met andere wetgevingen, regels voor vaste en voorlopige vaste camera's op niet-besloten plaatsen, uitbreiding van mobiel cameragebruik voor politiediensten (incl. ANPR), civiele veiligheidsdiensten en inspectiediensten, bewijs en gebruik van mondelinge waarschuwingen voor mini-camera's, aangifte/rapportering bij de Commissie, en het recht op toegang en bewaartermijnen van beelden. De Commissie signaleert onduidelijkheden en knelpunten (o.a. geluidsopname, thermische beelden, omschrijving mobiel vs vast, bevoegdheden van Koning/KB, administratieve vereenvoudiging van kennisgeving, samenwerking met databanken zoals ANG, en praktijken rond toegang tot beelden) en formuleert opmerkingen en aanbevelingen bij hoogdringendheid onder voorbehoud van bijkomende toekomstige standpunten.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+          "requests": "De aanvrager verzoekt de Commissie bij hoogdringendheid advies te verstrekken over het voorontwerp van wet tot wijziging van de wet van 21 maart 2007 betreffende plaatsing en gebruik van bewakingscamera's (CO-A-2013-046)."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+          "argument": "De Commissie stelt dat het voorontwerp enerzijds belangrijke verduidelijkingen opvoert maar anderzijds diverse onduidelijkheden en knelpunten laat bestaan: de definitie van bewakingscamera wordt veel ruimer en roept vragen op (bv. verkeer, thermische beelden); de omschrijving van \"mobiele bewakingscamera\" is ambigu waardoor camera's op stilstaande voertuigen mogelijk onterecht als mobiel worden beschouwd; het uitzonderingsregime voor bijzondere wetgeving vereist specifieke en precies omschreven bepalingen; het samenspel met andere wetgevingen (bv. arbeidsrecht, cao's) is onduidelijk; uitbreiding van mobiel cameragebruik voor politiediensten, civiele veiligheidsdiensten en inspectiediensten vereist heldere finaliteiten en waarborgen (o.a. inzake ANPR en gebruikte databanken); bewijsvoering van mondelinge waarschuwingen en het al dan niet registreren van geluid roept vragen op; de voorgestelde administratieve vereenvoudiging (kennisgeving/rapportering) moet zodanig worden ingericht dat controle mogelijk blijft; en het recht van toegang en bewaartermijnen vragen verduidelijking. Daarom formuleert de Commissie aanbevelingen en voorbehoud bij haar gunstig advies.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN\n\nIs de Commissie van mening dat:\n\nGelet op de opmerkingen die geformuleerd werden in onderhavig advies verstrekt de Commissie voor de bescherming van de persoonlijke levenssfeer een gunstig advies over de huidige inhoud van het voorontwerp van wet, mits\n\n- het beantwoorden van de onduidelijkheden vermeld in de punten 6, 12, 14, 17-22, 24, 37, 40, 43-46 en de\n- eerbiediging van de opmerkingen die geformuleerd werden in de punten 23, 2931, 34-35, 38, 41 en 47 van dit advies.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "provisionNumber": "artikel 29",
+        "provisionNumberKey": "29",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "provisionNumber": "artikel 2",
+        "provisionNumberKey": "2",
+        "parentActType": "WET",
+        "parentActName": "wet van 21 maart 2007 tot regeling van de plaatsing en het gebruik van bewakingscamera's (camerawet)",
+        "parentActDate": "2007-03-21",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert de voorgestelde wijzigingen van artikel 2 als een substantiële verruiming van de definities: de term ‘bewakingscamera’ wordt uitgebreid naar ‘‘ieder misdrijf’’, en de omschrijving van ‘mobiele bewakingscamera’ is onduidelijk door de formulering (inzonderheid het woord ‘of’). Dit veroorzaakt een ruime toepassingsscope en praktische onduidelijkheid, met name rond camera’s op voertuigen die tijdelijk stilstaan.",
+        "relevantFactualContext": "Wijziging ingegeven door praktische problemen en Cassatierechtspraak; brengt vragen over toepassing op verkeersovertredingen en nieuwe technologieën (bodycams, drones, ANPR)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "provisionNumber": "Artikel 2",
+        "provisionNumberKey": "2",
+        "parentActType": "WET",
+        "parentActName": "Artikel 2 van het voorontwerp van wet tot wijziging van de wet van 21 maart 2007 (voorontwerp CO‑A‑2013‑046)",
+        "parentActDate": null,
+        "parentActNumber": "CO‑A‑2013‑046",
+        "provisionInterpretation": "De Commissie merkt bij het voorontwerpartikel 2 op dat de voorgestelde definitie de reikwijdte van ‘bewakingscamera’ aanzienlijk vergroot en dat de omschrijving van ‘mobiel’ — zoals geformuleerd — tot interpretatieproblemen leidt. Zij waarschuwt dat de tekst zowel mobiele als soms stilstaande voertuigcamera’s onder mobiel zou kunnen brengen, hetgeen niet de bedoeling lijkt.",
+        "relevantFactualContext": "Het voorontwerp wil rechtszekerheid bieden na praktijkproblemen; concrete bezorgdheid over toepassing op stilstaande voertuigen en nieuwe cameratoepassingen (kepie-, brilcamera’s, ANPR)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-004",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "provisionNumber": "artikel 20",
+        "provisionNumberKey": "20",
+        "parentActType": "WET",
+        "parentActName": "artikel 20 van het voorontwerp van wet tot wijziging van de wet van 21 maart 2007",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie stelt dat artikel 20 het mogelijk maakt mondelinge waarschuwingen te gebruiken zodat mini‑camera’s als zichtbaar kunnen gelden, maar wijst erop dat de term ‘mini mobiele bewakingscamera’ niet is gedefinieerd en dat de bewijsbaarheid van een mondelinge waarschuwing problematisch blijft.",
+        "relevantFactualContext": "Voorstel beoogt toelaten van mini‑camera’s door politiediensten, civiele veiligheidsdiensten en inspectiediensten; onzekerheid over hoe mondelinge waarschuwingen achteraf worden aangetoond."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-005",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "provisionNumber": "artikel 3",
+        "provisionNumberKey": "3",
+        "parentActType": "WET",
+        "parentActName": "artikel 3 van de wet van 21 maart 2007 tot regeling van de plaatsing en het gebruik van bewakingscamera's (camerawet)",
+        "parentActDate": "2007-03-21",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert de verduidelijking rond artikel 3 zo dat de uitsluiting van de camerawet slechts geldt wanneer de bijzondere wetgeving concrete, voldoende precieze regels en garanties bevat; zij waarschuwt dat een enkele specifieke bepaling niet automatisch tot een algemene uitsluiting mag leiden.",
+        "relevantFactualContext": "Relevantie bij afbakening tussen camerawet en bijzondere sectorale regels; gevaar dat loutere vermelding in andere wetten tot volledige uitsluiting leidt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-006",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "provisionNumber": "artikel 3",
+        "provisionNumberKey": "3",
+        "parentActType": "WET",
+        "parentActName": "artikel 3 van het voorontwerp van wet tot wijziging van de wet van 21 maart 2007",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het voorontwerp verduidelijkt dat de afwijkingsregeling enkel toepassing vindt indien de bijzondere wetgeving nadere, voldoende precieze regels en waarborgen bevat. De Commissie steunt dit uitgangspunt maar vraagt nadere criteria om te beoordelen wanneer een bepaling ‘voldoende precies’ is.",
+        "relevantFactualContext": "Noodzaak tot afbakening met sectorale wetgeving (bv. arbeidsreglementering, bijzondere bevoegdheden van politiediensten) en bescherming van betrokkenen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-007",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "provisionNumber": "artikel 3/1",
+        "provisionNumberKey": "3/1",
+        "parentActType": "WET",
+        "parentActName": "artikel 3/1 van de wet van 21 maart 2007 (nieuw ingevoegd door voorontwerp)",
+        "parentActDate": "2007-03-21",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 3/1 van het voorontwerp als bepalend dat bij meerdere toepasselijke wetgevingen de meest strikte regels gelden. Zij wijst erop dat dit principe praktijkvragen oproept (welke wet is ‘strengst’?) en dat onduidelijkheid bestaat in veel voorkomende situaties, zoals winkels en arbeidsplaatsen (bijv. in samenloop met cao 68).",
+        "relevantFactualContext": "Betreft gevallen van gelijktijdige toepassing van camerawet, WVP en bijzondere sectorale regels (bv. winkel‑ of werkplekbewaking, cao‑regels)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-008",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "provisionNumber": "artikel 5",
+        "provisionNumberKey": "5",
+        "parentActType": "WET",
+        "parentActName": "artikel 5 van de wet van 21 maart 2007 tot regeling van de plaatsing en het gebruik van bewakingscamera's (camerawet)",
+        "parentActDate": "2007-03-21",
+        "parentActNumber": null,
+        "provisionInterpretation": "Bij de voorgestelde wijzigingen van artikel 5 vraagt de Commissie opheldering over wie het contactpunt is voor toegang tot beelden, over de procedure en maximale duur voor voorlopig vaste bewakingscamera’s in niet‑besloten plaatsen en wijst erop dat het schrappen van het woord ‘specifiek’ niet automatisch de praktische verwarring wegneemt.",
+        "relevantFactualContext": "Wijzigingen beogen gemeentelijke verplaatsbare vaste camera’s (bv. tegen sluikstorten) en vergen duidelijkheid over geldingsduur, perimeter en aangifteprocedures richting gemeenteraad en Commissie."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-009",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "WET",
+        "parentActName": "artikel 6 van de wet van 21 maart 2007 tot regeling van de plaatsing en het gebruik van bewakingscamera's (camerawet)",
+        "parentActDate": "2007-03-21",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie oordeelt dat de voorgestelde toevoegingen aan artikel 6 (zoals controleschermen bij ingangen) weinig toegevoegde waarde lijken te hebben en dat de mogelijkheid voor de Koning om plaatsing en bewaartermijnen om veiligheidsredenen op te leggen vaag geformuleerd is (onduidelijke criteria, aansprakelijkheid en kosten).",
+        "relevantFactualContext": "Aanpassingen betreffen besloten plaatsen toegankelijk voor publiek (bv. winkels, grootwarenhuizen) en de praktische implicaties van real‑time schermen en koninklijke maatregelen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-010",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "provisionNumber": "artikel 9",
+        "provisionNumberKey": "9",
+        "parentActType": "WET",
+        "parentActName": "artikelen 9 tot en met 12 van het voorontwerp van wet tot wijziging van de wet van 21 maart 2007 (voorontwerp)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie interpreteert artikel 9 van het voorontwerp als een aanzienlijke uitbreiding van mobiel cameragebruik door politiediensten (gevaarlijke situaties, ANPR, KB‑uitbreiding). Zij stelt dat de formulering te algemeen is, onduidelijkheid creëert over wie punctuele besluiten neemt in acute situaties en dat voor ANPR nadere grenzen en databankselectie moeten worden verduidelijkt.",
+        "relevantFactualContext": "Betreft uitbreiding van gebruiksmogelijkheden voor politiediensten, incl. ANPR‑toepassingen en operaties in samenloop met nationale databanken (bv. ANG) en mogelijk private databanken."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-011",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "WET",
+        "parentActName": "artikelen 9 tot en met 12 van het voorontwerp van wet tot wijziging van de wet van 21 maart 2007 (voorontwerp)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Met betrekking tot artikel 12 stelt de Commissie dat de voorgestelde administratieve vereenvoudiging (één aangifte per dienst plus periodieke verslagen en registers) waarschijnlijk niet de beoogde lastenvermindering zal opleveren; zij pleit voor een gestandaardiseerde jaarlijkse rapportering en controleerbare registers.",
+        "relevantFactualContext": "Praktijkervaring: in 2012 werden 115 kennisgevingen verricht; zorgen over consistentie en volledigheid van meldingen door politiediensten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-012",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "WET",
+        "parentActName": "artikel 11 van de wet van 21 maart 2007 tot regeling van de plaatsing en het gebruik van bewakingscamera's (camerawet)",
+        "parentActDate": "2007-03-21",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie merkt op dat de mogelijkheid voor de Koning via KB het mobiel cameragebruik uit te breiden onduidelijk is ten opzichte van huidig artikel 11: de verhouding tussen wet en KB moet verhelderd worden en het is onduidelijk in hoeverre een KB verder kan gaan dan de wetgever voorziet.",
+        "relevantFactualContext": "Betreft voorgestelde regeling via KB na overleg in Ministerraad en onzekerheid over reikwijdte en democratische controle."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-013",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "WET",
+        "parentActName": "artikelen 13 tot en met 16 van het voorontwerp van wet tot wijziging van de wet van 21 maart 2007 (voorontwerp)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie betwijfelt of civiele veiligheidsdiensten (bv. civiele bescherming, brandweer) onder de definitie van ‘bewakingscamera’ vallen zoals die in de wet is bedoeld (met name inzake opsporing van misdrijven of handhaving openbare orde) en vraagt om precisering voordat een algemene regeling wordt ingevoerd.",
+        "relevantFactualContext": "Voorstel om mobiel cameragebruik uit te breiden naar civiele veiligheidsdiensten; onzekerheid over finaliteiten en toepasselijkheid van camerawet."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-014",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "provisionNumber": "artikel 16",
+        "provisionNumberKey": "16",
+        "parentActType": "WET",
+        "parentActName": "artikelen 13 tot en met 16 van het voorontwerp van wet tot wijziging van de wet van 21 maart 2007 (voorontwerp)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Voor de artikelen 13–16 merkt de Commissie op dat technische en operationele verschillen tussen civiele veiligheidsdiensten en politiediensten vragen om een op maat gesneden regeling; algemene overdracht van het politiekader is niet automatisch opportun.",
+        "relevantFactualContext": "Richten zich op gebruik door civiele veiligheidsdiensten en noodzaak onderscheid te maken in kennisgevings‑ en toezichtregimes."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-015",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "provisionNumber": "artikel 17",
+        "provisionNumberKey": "17",
+        "parentActType": "WET",
+        "parentActName": "artikelen 17 tot en met 19 van het voorontwerp van wet tot wijziging van de wet van 21 maart 2007 (voorontwerp)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie wijst erop dat inspectie‑ en controlediensten niet altijd gebruikmaken van ‘bewakingscamera’s’ in de zin van de camerawet en dat het voorbarig is deze diensten algemeen toe te laten zonder nadere afbakening van finaliteiten en waarborgen.",
+        "relevantFactualContext": "Voorstel omvat uitbreiding van mobiel cameragebruik naar bepaalde inspectie‑ en controlediensten (bv. douane met ANPR); Commissie vraagt konkretisering."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-016",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "provisionNumber": "artikel 19",
+        "provisionNumberKey": "19",
+        "parentActType": "WET",
+        "parentActName": "artikelen 17 tot en met 19 van het voorontwerp van wet tot wijziging van de wet van 21 maart 2007 (voorontwerp)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Voor artikel 19 bevestigt de Commissie haar terughoudendheid ten aanzien van een veralgemening: zij vraagt duidelijkheid welke inspectiediensten onder de regeling vallen en of hun gebruik reëel overeenstemt met de definitie van bewakingscamera’s in de wet.",
+        "relevantFactualContext": "Voorstel betreft ook regionale en federale inspectiediensten; voorbeeld ANPR‑gebruik door douane wordt genoemd."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-017",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "provisionNumber": "artikel 8",
+        "provisionNumberKey": "8",
+        "parentActType": "WET",
+        "parentActName": "artikel 8 van de wet van 21 maart 2007 tot regeling van de plaatsing en het gebruik van bewakingscamera's (camerawet)",
+        "parentActDate": "2007-03-21",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie merkt dat de voorgestelde wijziging (via artikel 20 van het voorontwerp) toelaat mondelinge waarschuwingen te gebruiken om mini‑camera’s als zichtbaar te bestempelen, maar dat de afwezigheid van een definitie en de onzekerheid over bewijsvoering de rechtszekerheid en handhaafbaarheid ondermijnt.",
+        "relevantFactualContext": "Wijziging gericht op legitimeren van mini‑camera’s voor politie, civiele en inspectiediensten; praktische kwesties rond bewijs van mondelinge waarschuwing."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-018",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "WET",
+        "parentActName": "artikel 12 van de wet van 21 maart 2007 tot regeling van de plaatsing en het gebruik van bewakingscamera's (camerawet)",
+        "parentActDate": "2007-03-21",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het voorontwerp past het recht op toegang (artikel 22 v.w.b. artikel 12 camerawet) aan door de antwoordtermijn af te stemmen op de maximale bewaartermijn en te verbieden beelden te wissen zolang een toegangsvraag binnen de bewaartermijn afgewikkeld wordt. De Commissie steunt dit doch waarschuwt dat korte bewaartermijnen in de praktijk het recht op toegang illusoir kunnen maken.",
+        "relevantFactualContext": "Samenhang met WVP‑termijnen; in de praktijk bewaren verantwoordelijken beelden vaak korter dan één maand wegens kosten, waardoor toegang praktisch moeilijk blijft."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-019",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "provisionNumber": "artikel 10",
+        "provisionNumberKey": "10",
+        "parentActType": "WET",
+        "parentActName": "artikelen 10 en volgende van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-020",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "WET",
+        "parentActName": "artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie wijst erop dat artikel 13 WVP voorziet in een onrechtstreekse toegang in limitatief omschreven gevallen en dat deze bepaling relevant blijft voor toegang tot camerabeelden, met name wanneer beelden beheerd worden door politiediensten of openbare besturen; zij vraagt opheldering over de praktische toepassing van die onrechtstreekse toegang.",
+        "relevantFactualContext": "Betreft toegangsvragen tot beelden van door politie of overheden beheerde camera’s in het kader van gerechtelijke of bestuurlijke politie."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-021",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "provisionNumber": "artikel 14",
+        "provisionNumberKey": "14",
+        "parentActType": "WET",
+        "parentActName": "artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-022",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "provisionNumber": "artikel 15bis",
+        "provisionNumberKey": "15bis",
+        "parentActType": "WET",
+        "parentActName": "artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-023",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "provisionNumber": "artikel 16",
+        "provisionNumberKey": "16",
+        "parentActType": "WET",
+        "parentActName": "artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-024",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "provisionNumber": "artikel 3, §§ 4, 5 en 6",
+        "provisionNumberKey": "3",
+        "parentActType": "WET",
+        "parentActName": "artikel 3, §§ 4, 5 en 6 van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer (WVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-025",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2013:DEC.20131002.4-004",
+        "provisionNumber": "artikel 61",
+        "provisionNumberKey": "61",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "artikel 61 van het Koninklijk Besluit van 13 februari 2001 ter uitvoering van de wet van 8 december 1992 (KB, uitvoeringsbesluit WVP)",
+        "parentActDate": "2001-02-13",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie gebruikt artikel 61 van het uitvoerings‑KB als illustratie dat afwijkende bijzondere wetgeving niet alleen specifiek moet zijn maar ook voldoende concrete modaliteiten en garanties moet bevatten. Artikel 61 dient dus als precedent voor de eis van precisering alvorens een uitsluiting van de camerawet te aanvaarden.",
+        "relevantFactualContext": "Aangehaald ter vergelijking bij beoordeling wanneer bijzondere wetgeving de camerawet effectief kan uitsluiten; benadrukt behoefte aan gedetailleerde regels in bijzondere wetgeving."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie",
+        "date": "2006-07-26",
+        "caseNumber": "advies nr. 31/2006",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie",
+        "date": "2008-02-27",
+        "caseNumber": "advies nr. 08/2008",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie",
+        "date": "2009-09-02",
+        "caseNumber": "advies nr. 24/2009",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie",
+        "date": "2012-05-10",
+        "caseNumber": "advies nr. 17/2012",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie",
+        "date": "2012-02-29",
+        "caseNumber": "aanbeveling nr. 04/2012",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "2010-10-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-006"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Wijziging camerawet",
+      "Mobiele camera's politie",
+      "ANPR gebruik",
+      "Niet-besloten plaatsen",
+      "Definitie bewakingscamera",
+      "Samenloop bijzondere wetten",
+      "Recht op toegang beelden",
+      "Mondelinge waarschuwing bewijs",
+      "Technologieneutraliteit"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "text": "Bij interpretatie van de definitie van 'mobiele bewakingscamera' geldt dat de kwalificatie 'mobiel' afhankelijk is van de verplaatsing tijdens de observatie: een camera die tijdens de observatie stilstaat moet als vaste bewakingscamera worden beschouwd; een algemene regel dat elke op een voertuig gemonteerde camera automatisch mobiel is, creëert juridische onduidelijkheid.",
+        "courtVerbatim": "Een bewakingscamera op een voertuig in beweging kan aanzien worden als mobiel, maar van zodra het voertuig gedurende een periode stilstaat en er beelden worden gemaakt, is er opnieuw sprake van een vaste bewakingscamera gelet op de definitie van \"mobiel'. De tekst van het voorontwerp van wet zelf lijkt echter voor onduidelijkheid te zorgen. Deze stelt immers \"...de bewakingscamera die geplaatst op een voertuig, een vaartuig of een luchtvaartuig, of verplaatst wordt tijdens de observatie teneinde vanaf verschillende plaatsen en posities te filmen wordt als mobiel beschouwd'. De wettekst zelf lijkt er (in tegenstelling tot de toelichting) eerder van uit te gaan dat elke camera gemonteerd op een voertuig, een vaartuig of een luchtvaartuig automatisch als mobiel beschouwd moet worden, naast het feit dat een bewakingscamera ook mobiel is van zodra deze verplaatst wordt tijdens de observatie teneinde vanaf verschillende plaatsen en posities te filmen (zie specifiek het woord \"of').",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de wettelijke definitie van 'mobiele' versus 'vaste' bewakingscamera wordt uitgelegd voor camera's geplaatst op voertuigen of dragers die al dan niet stilstaan tijdens observatie.",
+        "relevantFactualContext": "Bespreking van artikel 2 van het voorontwerp waarin de definitie van 'bewakingscamera' en 'mobiele bewakingscamera' wordt gewijzigd en onduidelijkheid ontstaat over camera's op stilstaande voertuigen en kepie‑/brilcamera's.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-006"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "text": "De uitsluiting van de toepasselijkheid van de camerawet door 'bijzondere wetgeving' geldt slechts wanneer die bijzondere wetgeving nadere, voldoende precieze regels en garanties bevat; een loutere vermelding van camera's of een enkele specifieke bepaling voor een beperkte situatie rechtvaardigt niet de algemene uitsluiting van de camerawet.",
+        "courtVerbatim": "De camerawet voorziet nu onder meer dat ze niet van toepassing is van zodra bewakingscamera's worden geregeld \"door of krachtens een bijzondere wetgeving\" (zie artikel 3 camerawet). Het voorontwerp van wet verduidelijkt expliciet dat \"de uitsluiting van het toepassingsveld van de camerawet uitsluitend van toepassing is wanneer de bijzondere wetgeving voorziet in nadere regels betreffende de plaatsing en het gebruik van die bewakingscamera's\" en dat de loutere vermelding in een wetgevende tekst of wettekst van de termen \"bewakingscamera's\", \"opnames\" of andere woorden die zinspelen op bewakingscamera's op zich niet voldoende is maar er dus meer details over de plaatsing en het gebruik van deze camera's moet voorzien worden (\"...bepalingen bevatten die voldoende precies zijn en die voldoende garanties bieden...\"). Daarenboven stelde de Commissie dat één kleine specifieke bepaling, gericht op een welbepaalde situatie, niet automatisch tot gevolg mag hebben dat de toepassing van de camerawet volledig (met andere woorden in alle situaties) zou uitgesloten worden.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een bijzondere wet of sectorale regeling wordt aangevoerd als grond om de camerawet in het geheel niet toe te passen.",
+        "relevantFactualContext": "Bespreking van artikel 3 van het voorontwerp dat de uitsluitingsgrond verduidelijkt en de Commissie wijst op de nood aan precisering en garanties in bijzondere wetgeving voordat uitsluiting wordt aanvaard.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-005",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-006",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-025"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-005"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "text": "Wanneer meerdere wetgevingen gelijktijdig toepasselijk zijn, kan een bepaling bepalen dat 'de meest strikte bepalingen' gelden; die norm vereist echter objectieve criteria om te bepalen welke norm strenger is, anders ontstaat rechtsongelijkheid en onduidelijkheid voor betrokkenen in de praktijk.",
+        "courtVerbatim": "Artikel 4 van het voorontwerp van wet last een nieuw artikel 3/1 in de camerawet in. Tot op heden wordt geantwoord dat de camerawet van toepassing is wat de doeleinden bewaking en toezicht betreft, en de WVP of de betrokken bijzondere wet wat de overige doeleinden betreft. De bepalingen van de verschillende wetgevingen zijn echter niet altijd verenigbaar. Daarom schrijft het voorontwerp van wet voor dat in geval van camerabewaking voor verschillende doeleinden, waaronder één voorzien in artikel 3 van de camerawet, de verschillende wetgevingen gelijktijdig van toepassing zijn en dat \"in geval van een onderling conflict de meest strikte bepalingen van toepassing zijn\". De Commissie heeft in de praktijk al vastgesteld dat het voor de betrokkenen (zowel burgers, bedrijven als overheden) niet altijd even duidelijk is als er verschillende wetgevingen gelijktijdig van toepassing zijn en de bepalingen van deze wetgevingen niet volledig op elkaar zijn afgestemd. De Commissie kan de beweegredenen van de minister dan ook begrijpen maar het is voor haar echter niet meteen duidelijk welke wetgeving dan \"de meest strikte bepalingen\" zal bevatten?",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij samenloop van camerawet, WVP en andere bijzondere sectorale wetgevingen die verschillende doeleinden en regels voor cameragebruik bevatten.",
+        "relevantFactualContext": "Bespreking van invoeging van artikel 3/1 in het voorontwerp om de 'meest strikte bepalingen' te laten gelden bij overlap, met als concreet knelpunt situaties in winkels en arbeidsplaatsen waar meerdere regimes samenlopen.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-007"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-005"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:DEC.20131002.4-004",
+        "text": "Het toestaan van 'mondelinge waarschuwingen' om mini‑camera's als zichtbaar te kwalificeren vereist eerst een duidelijke wettelijke definitie van 'mini mobiele bewakingscamera' en concrete regels voor de bewijsbaarheid van zulke mondelinge waarschuwingen; zonder die precisering blijft rechtszekerheid en handhaafbaarheid beperkt.",
+        "courtVerbatim": "Dit artikel voorziet in een aantal aanpassingen van artikel 8 van de camerawet om rekening te houden met de nieuwe bepalingen betreffende mobiele bewakingscamera's. Belangrijkste is dat teneinde het gebruik van de mini-camera's door zowel de politiediensten, als de civiele veiligheidsdiensten als de inspectie- en controlediensten toe te laten, wordt voorzien dat een voorafgaande toestemming mogelijk is via \" mondeling de activering ervan aan te geven. Door de mondelinge waarschuwing kunnen die mini bewakingscamera's beschouwd worden als zichtbaar en niet verborgen\". De Commissie stelt vast dat in de tekst van het voorontwerp van wet zelf de term van \"mini mobiele bewakingscamera\" wordt gehanteerd zonder dat er hiervoor een expliciete definitie van wordt gegeven ... De opmerking kan ook gemaakt worden hoe deze mondelinge waarschuwing kan worden bewezen, zodat eventuele discussies nadien kunnen vermeden worden.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij regeling die mondelinge waarschuwingen als alternatief voor zichtbare aanduiding van mini of mobiele camera's invoert.",
+        "relevantFactualContext": "Bespreking van artikel 20 van het voorontwerp dat mondelinge waarschuwingen mogelijk maakt voor mini‑camera's en de Commissie wijst op ontbrekende definitie en bewijsproblemen.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-004",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-017"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:DEC.20131002.4-005",
+        "text": "Het afstemmen van de reactietermijn voor toegang tot camerabeelden op de maximale bewaartermijn en het verbod om beelden te wissen zolang een toegangsvraag binnen die bewaartermijn wordt behandeld versterkt het recht van toegang; dit is echter alleen effectief indien de maximale bewaartermijnen in de praktijk voldoende lang zijn om daadwerkelijke toegang mogelijk te maken.",
+        "courtVerbatim": "Een eerste wijziging stemt de antwoordtermijn van de verantwoordelijke voor de verwerking af op de maximale bewaringstermijn van de beelden. Er was namelijk discussie ontstaan aangezien de camerawet voor het recht van toegang verwijst naar de artikelen 10 en volgende van de WVP. In de WVP is echter een antwoordtermijn van 45 dagen voorzien. Het voorontwerp van wet stelt ook dat wanneer de verantwoordelijke voor de verwerking het verzoek tot toegang heeft verkregen, hij de beelden niet kan wissen vooraleer dit verzoek te hebben behandeld zolang de termijn van één maand voor het bewaren van de beelden niet verstreken is. De Commissie kan deze wijziging bijtreden, maar wenst wel op te merken dat in vele gevallen de bewaartermijn (als er al een bewaartermijn is) veel minder bedraagt dan één maand (wegens allerhande redenen zoals bv. de kosten om de beelden al te lang bij te houden) en het recht van toegang in die gevallen dan ook vrij theoretisch zal blijven.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de wettelijke regels inzake reactietermijnen voor toegang tot camerabeelden en bewaartermijnen worden vastgesteld of gewijzigd.",
+        "relevantFactualContext": "Bespreking van artikel 22 van het voorontwerp dat antwoordtermijnen aanpast en het wissen van beelden verbiedt zolang een toegangsvraag binnen de bewaartermijn wordt afgehandeld; Commissie waarschuwt dat korte bewaartermijnen het recht op toegang illusoir maken.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-018",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-019"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-005"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 5,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "MEDIUM",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 3,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 5
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De aanvrager, de Minister van Binnenlandse Zaken en Gelijkheid van Kansen, verzocht de Commissie voor de bescherming van de persoonlijke levenssfeer om dringend advies over een voorontwerp tot wijziging van de wet van 21 maart 2007 betreffende de plaatsing en het gebruik van bewakingscamera's, met name inzake definities, mobiel cameragebruik door politie en andere diensten, ANPR, geluidsopnames en het recht van toegang. De Commissie geeft een gunstig advies onder voorwaarden en vraagt expliciete opheldering van diverse onduidelijkheden (o.a. de omschrijving van \"mobiele\" camera's, bewijs van mondelinge waarschuwingen, grensvlak met bijzondere wetgeving, gebruik van externe databanken en toegangstermijnen) en formuleert aanbevelingen voor administratieve vereenvoudiging en controle. Kernprincipe: de wet moet technologie-neutraal en generiek blijven, maar bij uitbreiding van mobiel cameragebruik zijn duidelijke definities en strikte waarborgen vereist om privacy en rechtsbescherming te garanderen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens (hierna WVP), inzonderheid artikel 29;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">9. Dit artikel van het voorontwerp van wet wijzigt het hoofdstuk m.b.t. de definities, meer bepaald artikel 2 van de camerawet.</p>",
+          "<p class=\"case-section__paragraph\">10. Een eerste wijziging betreft een ruimere definitie van “een bewakingscamera”, namelijk de opsporing van ‘ieder misdrijf’ in tegenstelling tot het vroegere “misdrijven tegen personen of goederen”. Dankzij deze aanpassing kan antwoord gegeven worden op de vragen betreffende het gebruik van de beelden naar aanleiding van het arrest van het Hof van Cassatie van 5 oktober 2010 en zal ook het finaliteitsbeginsel beter tot zijn recht komen. De Commissie heeft hierover geen opmerkingen maar stelt enkel vast dat mede door deze aanpassing de term “bewakingscamera” een zeer ruime toepassing zal kennen en stelt zich de vraag of hiermee voldoende is rekening gehouden. Kan men nu bijvoorbeeld ook bepaalde verkeersovertredingen vaststellen, zoals bijvoorbeeld fout parkeren of het niet dragen van de veiligheidsgordel, welke niet door een specifieke cameraregelgeving worden geviseerd?</p>",
+          "<p class=\"case-section__paragraph\">11. Een tweede wijziging heeft betrekking op de definitie van wat aanzien moet worden als een “mobiele bewakingscamera”. Het voorontwerp van wet wenst te verduidelijken dat deze camera “op een voertuig, vaartuig of luchtvaartuig geplaatst kan worden zelfs indien het vasthechtingspunt niet doorslaggevend is”. De toelichting vervolgt: “Het zou niet mogen dat het gebruik van een mobiele camera vastgemaakt op een geïmmobiliseerd</p>",
+          "<p class=\"case-section__paragraph\">voertuig gedurende één nacht bijvoorbeeld kan ontsnappen aan de procedure opgesteld voor vaste camera’s door het loutere feit dat zijn drager in overweging wordt genomen.</p>",
+          "<p class=\"case-section__paragraph\">De Commissie kan dit standpunt bijtreden. Een bewakingscamera op een voertuig in beweging kan aanzien worden als mobiel, maar van zodra het voertuig gedurende een periode stilstaat en er beelden worden gemaakt, is er opnieuw sprake van een vaste bewakingscamera gelet op de definitie van “mobiel”. De tekst van het voorontwerp van wet zelf lijkt echter voor onduidelijkheid te zorgen. Deze stelt immers “…de bewakingscamera die geplaatst op een voertuig, een vaartuig of een luchtvaartuig, of verplaatst wordt tijdens de observatie teneinde vanaf verschillende plaatsen en posities te filmen wordt als mobiel beschouwd”. De wettekst zelf lijkt er (in tegenstelling tot de toelichting) eerder van uit te gaan dat elke camera gemonteerd op een voertuig, een vaartuig of een luchtvaartuig automatisch als mobiel beschouwd moet worden, naast het feit dat een bewakingscamera ook mobiel is van zodra deze verplaatst wordt tijdens de observatie teneinde vanaf verschillende plaatsen en posities te filmen (zie specifiek het woord “of”). Voor een vaartuig en een luchtvaartuig zal dit zeker minder spelen, maar een camera op een voertuig welke tijdens de observatie stil staat (bv. langs de kant van de weg) zou nog steeds als een vaste bewakingscamera moeten beschouwd worden1. De Commissie begrijpt dat de definitie dient gewijzigd te worden om de zogenaamde kepie-, uniform- of brilcamera’s te beschouwen als mobiele bewakingscamera’s, maar door de voorgestelde omschrijving en het woordje “of” lijkt er onduidelijkheid te ontstaan bij het gebruik van een bewakingscamera op een stilstaand voertuig.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-006"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">9. Dit artikel van het voorontwerp van wet wijzigt het hoofdstuk m.b.t. de definities, meer bepaald artikel 2 van de camerawet.</p>",
+          "<p class=\"case-section__paragraph\">10. Een eerste wijziging betreft een ruimere definitie van “een bewakingscamera”, namelijk de opsporing van ‘ieder misdrijf’ in tegenstelling tot het vroegere “misdrijven tegen personen of goederen”. Dankzij deze aanpassing kan antwoord gegeven worden op de vragen betreffende het gebruik van de beelden naar aanleiding van het arrest van het Hof van Cassatie van 5 oktober 2010 en zal ook het finaliteitsbeginsel beter tot zijn recht komen. De Commissie heeft hierover geen opmerkingen maar stelt enkel vast dat mede door deze aanpassing de term “bewakingscamera” een zeer ruime toepassing zal kennen en stelt zich de vraag of hiermee voldoende is rekening gehouden. Kan men nu bijvoorbeeld ook bepaalde verkeersovertredingen vaststellen, zoals bijvoorbeeld fout parkeren of het niet dragen van de veiligheidsgordel, welke niet door een specifieke cameraregelgeving worden geviseerd?</p>",
+          "<p class=\"case-section__paragraph\">11. Een tweede wijziging heeft betrekking op de definitie van wat aanzien moet worden als een “mobiele bewakingscamera”. Het voorontwerp van wet wenst te verduidelijken dat deze camera “op een voertuig, vaartuig of luchtvaartuig geplaatst kan worden zelfs indien het vasthechtingspunt niet doorslaggevend is”. De toelichting vervolgt: “Het zou niet mogen dat het gebruik van een mobiele camera vastgemaakt op een geïmmobiliseerd</p>",
+          "<p class=\"case-section__paragraph\">voertuig gedurende één nacht bijvoorbeeld kan ontsnappen aan de procedure opgesteld voor vaste camera’s door het loutere feit dat zijn drager in overweging wordt genomen.</p>",
+          "<p class=\"case-section__paragraph\">De Commissie kan dit standpunt bijtreden. Een bewakingscamera op een voertuig in beweging kan aanzien worden als mobiel, maar van zodra het voertuig gedurende een periode stilstaat en er beelden worden gemaakt, is er opnieuw sprake van een vaste bewakingscamera gelet op de definitie van “mobiel”. De tekst van het voorontwerp van wet zelf lijkt echter voor onduidelijkheid te zorgen. Deze stelt immers “…de bewakingscamera die geplaatst op een voertuig, een vaartuig of een luchtvaartuig, of verplaatst wordt tijdens de observatie teneinde vanaf verschillende plaatsen en posities te filmen wordt als mobiel beschouwd”. De wettekst zelf lijkt er (in tegenstelling tot de toelichting) eerder van uit te gaan dat elke camera gemonteerd op een voertuig, een vaartuig of een luchtvaartuig automatisch als mobiel beschouwd moet worden, naast het feit dat een bewakingscamera ook mobiel is van zodra deze verplaatst wordt tijdens de observatie teneinde vanaf verschillende plaatsen en posities te filmen (zie specifiek het woord “of”). Voor een vaartuig en een luchtvaartuig zal dit zeker minder spelen, maar een camera op een voertuig welke tijdens de observatie stil staat (bv. langs de kant van de weg) zou nog steeds als een vaste bewakingscamera moeten beschouwd worden1. De Commissie begrijpt dat de definitie dient gewijzigd te worden om de zogenaamde kepie-, uniform- of brilcamera’s te beschouwen als mobiele bewakingscamera’s, maar door de voorgestelde omschrijving en het woordje “of” lijkt er onduidelijkheid te ontstaan bij het gebruik van een bewakingscamera op een stilstaand voertuig.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-006"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">42. Dit artikel voorziet in een aantal aanpassingen van artikel 8 van de camerawet om rekening te houden met de nieuwe bepalingen betreffende mobiele bewakingscamera's. Belangrijkste is dat teneinde het gebruik van de mini-camera's door zowel de politiediensten, als de civiele veiligheidsdiensten als de inspectie- en controlediensten toe te laten, wordt voorzien dat een voorafgaande toestemming mogelijk is via “mondeling de activering ervan aan te geven. Door de mondelinge waarschuwing kunnen die mini bewakingscamera's beschouwd worden als zichtbaar en niet verborgen”.</p>",
+          "<p class=\"case-section__paragraph\">43. De Commissie stelt vast dat in de tekst van het voorontwerp van wet zelf de term van “mini mobiele bewakingscamera” wordt gehanteerd zonder dat er hiervoor een expliciete definitie van wordt gegeven (enkel de toelichting geeft hierover enkele hints). De opmerking kan ook gemaakt worden hoe deze mondelinge waarschuwing kan worden bewezen, zodat eventuele discussies nadien kunnen vermeden worden, zie hieromtrent tevens randnummer 6.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-004",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">13.</p>",
+          "<p class=\"case-section__paragraph\">De camerawet voorziet nu onder meer dat ze niet van toepassing is van zodra bewakingscamera’s worden geregeld “door of krachtens een bijzondere wetgeving” (zie artikel 3 camerawet). Het voorontwerp van wet verduidelijkt expliciet dat “de uitsluiting van het toepassingsveld van de camerawet uitsluitend van toepassing is wanneer de bijzondere wetgeving voorziet in nadere regels betreffende de plaatsing en het gebruik van die bewakingscamera’s” en dat de loutere vermelding in een wetgevende tekst of wettekst van de termen “bewakingscamera’s”, “opnames” of andere woorden die zinspelen op bewakingscamera’s op zich niet voldoende is maar er dus meer details over de plaatsing en het gebruik van deze camera’s moet voorzien worden (“…bepalingen bevatten die voldoende precies zijn en die voldoende garanties bieden...”).</p>",
+          "<p class=\"case-section__paragraph\">14. De Commissie heeft hierover geen opmerkingen en kan dit standpunt van de minister bijtreden. De vraag rijst alleen wanneer een bepaling “voldoende precies” zal zijn. In dat verband is het nuttig om er op te wijzen dat ook de privacywetgeving een gelijkaardige redenering kent2. De Commissie heeft in het verleden ook steeds de regel gehanteerd dat de afwijkingsbepaling van artikel 3 van de camerawet enkel geldt als de betrokken bijzondere wet- of regelgeving een specifieke bepaling rond (het gebruik van) camera’s. Daarenboven stelde de Commissie dat één kleine specifieke bepaling, gericht op een welbepaalde situatie, niet automatisch tot gevolg mag hebben dat de toepassing van de camerawet volledig (met andere woorden in alle situaties) zou uitgesloten worden.</p>",
+          "<p class=\"case-section__paragraph\">2 Zie bv. artikel 61 van het KB van 13 februari 2001 ter uitvoering van de WVP waar een gelijkaardige redenering wordt gehanteerd: niet alleen is er nood aan een specifieke wet- of regelgeving. Deze wet- of regelgeving dient eveneens meer details te omvatten.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-005",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-006",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-025"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">13.</p>",
+          "<p class=\"case-section__paragraph\">De camerawet voorziet nu onder meer dat ze niet van toepassing is van zodra bewakingscamera’s worden geregeld “door of krachtens een bijzondere wetgeving” (zie artikel 3 camerawet). Het voorontwerp van wet verduidelijkt expliciet dat “de uitsluiting van het toepassingsveld van de camerawet uitsluitend van toepassing is wanneer de bijzondere wetgeving voorziet in nadere regels betreffende de plaatsing en het gebruik van die bewakingscamera’s” en dat de loutere vermelding in een wetgevende tekst of wettekst van de termen “bewakingscamera’s”, “opnames” of andere woorden die zinspelen op bewakingscamera’s op zich niet voldoende is maar er dus meer details over de plaatsing en het gebruik van deze camera’s moet voorzien worden (“…bepalingen bevatten die voldoende precies zijn en die voldoende garanties bieden...”).</p>",
+          "<p class=\"case-section__paragraph\">14. De Commissie heeft hierover geen opmerkingen en kan dit standpunt van de minister bijtreden. De vraag rijst alleen wanneer een bepaling “voldoende precies” zal zijn. In dat verband is het nuttig om er op te wijzen dat ook de privacywetgeving een gelijkaardige redenering kent2. De Commissie heeft in het verleden ook steeds de regel gehanteerd dat de afwijkingsbepaling van artikel 3 van de camerawet enkel geldt als de betrokken bijzondere wet- of regelgeving een specifieke bepaling rond (het gebruik van) camera’s. Daarenboven stelde de Commissie dat één kleine specifieke bepaling, gericht op een welbepaalde situatie, niet automatisch tot gevolg mag hebben dat de toepassing van de camerawet volledig (met andere woorden in alle situaties) zou uitgesloten worden.</p>",
+          "<p class=\"case-section__paragraph\">2 Zie bv. artikel 61 van het KB van 13 februari 2001 ter uitvoering van de WVP waar een gelijkaardige redenering wordt gehanteerd: niet alleen is er nood aan een specifieke wet- of regelgeving. Deze wet- of regelgeving dient eveneens meer details te omvatten.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-006",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-005",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-025"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">15. Artikel 4 van het voorontwerp van wet last een nieuw artikel 3/1 in de camerawet in. Tot op heden wordt geantwoord dat de camerawet van toepassing is wat de doeleinden bewaking en toezicht betreft, en de WVP of de betrokken bijzondere wet wat de overige doeleinden betreft.</p>",
+          "<p class=\"case-section__paragraph\">16. De bepalingen van de verschillende wetgevingen zijn echter niet altijd verenigbaar. Daarom schrijft het voorontwerp van wet voor dat in geval van camerabewaking voor verschillende doeleinden, waaronder één voorzien in artikel 3 van de camerawet, de verschillende wetgevingen gelijktijdig van toepassing zijn en dat “in geval van een onderling conflict de meest strikte bepalingen van toepassing zijn”.</p>",
+          "<p class=\"case-section__paragraph\">17. De Commissie heeft in de praktijk al vastgesteld dat het voor de betrokkenen (zowel burgers, bedrijven als overheden) niet altijd even duidelijk is als er verschillende wetgevingen gelijktijdig van toepassing zijn en de bepalingen van deze wetgevingen niet volledig op elkaar zijn afgestemd. De Commissie kan de beweegredenen van de minister dan ook begrijpen maar het is voor haar echter niet meteen duidelijk welke wetgeving dan “de meest strikte bepalingen” zal bevatten? Bovendien is het zo dat de meest voorkomende situatie van gelijktijdige toepassing van verschillende wetgevingen zich bevindt in winkels, grootwarenhuizen,…, meer bepaald wanneer er camerabewaking op de arbeidsplaats is en dan vooral in de privésector3. In deze gevallen is in dikwijls naast de</p>",
+          "<p class=\"case-section__paragraph\">camerawet (bv. derden zoals klanten, leveranciers,…) ook cao 68 van toepassing. Is deze situatie ook bedoeld in dit nieuwe artikel 3/1?</p>",
+          "<p class=\"case-section__paragraph\">3 Zie voor meer details betreffende de problemen bij het samenspel van beide wetgevingen aanbeveling nr. 04/2012 van 29 februari 2012 uit eigen beweging inzake de diverse toepassingsmogelijkheden van camerabewaking en dan vooral randnummers 59 t.e.m. 67.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-007",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">18. Een eerste wijziging is het expliciet vermelden in artikel 5 van de camerawet van de elementen in het dossier dat de verantwoordelijke voor de verwerking moet indienen bij de bevoegde gemeenteraad opdat deze laatste alle nodige elementen bezit om al dan niet een goedkeuring te geven over de plaatsing van vaste bewakingscamera’s in een niet-besloten plaats. De lijst van elementen is in hoofdorde deze die nu al terug te vinden is in de omzendbrief van 10 december 2009. De Commissie heeft een opmerking m.b.t. “het contactpunt voor het recht van toegang op de beelden”. De camerawet voorziet voor iedere gefilmde persoon een recht van toegang tot de beelden, daartoe richt de betrokkene “een gemotiveerd verzoek aan de verantwoordelijke voor de verwerking conform de artikelen 10 en volgende van de wet van 8 december 1992”. Tijdens de parlementaire werkzaamheden heeft de toenmalige minister van Binnenlandse Zaken tevens het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. Artikel 13 van de WVP voorziet in een aantal gevallen in een onrechtstreekse toegang, via de Commissie. De vraag die zich hier dan ook stelt, is wie of wat dit contactpunt zal zijn (zie ook infra bij de bespreking van artikel 22 van het voorontwerp van wet inzake het recht van toegang).</p>",
+          "<p class=\"case-section__paragraph\">19. Een tweede wijziging handelt over voorlopig vaste bewakingscamera’s in niet-besloten plaatsen, met name camera’s die door gemeenten of politiezones regelmatig worden gebruikt en verplaatst om het hoofd te bieden aan gerichte veiligheidsproblemen (sluikstorten is het voorbeeld bij uitstek). Omdat deze tijdens de observatie zelf niet worden verplaatst blijven het vaste bewakingscamera’s, maar aangezien ze niet gedurende een lange tijd op één plaats worden vastgemaakt stelt de toelichting een bijzonder regime voor. Het verkrijgen van een positief advies van de gemeenteraad voorafgaandelijk aan iedere verplaatsing van de camera of camera’s vormt immers een hinderpaal voor de doeltreffendheid in de praktijk. Hoewel er al in bovenvermelde omzendbrief aandacht was voor deze voorlopige vaste bewakingscamera’s in niet-besloten plaatsen wenst de minister in de wet een specifieke procedure te voorzien, met name het mogelijk maken om aan de gemeenteraad een positief eensluidend advies te vragen om gebruik te maken van vaste bewakingscamera’s in een grotere perimeter met als doel een welbepaald fenomeen op te volgen (dit advies zal een beperkte geldingsduur hebben en kan hernieuwd worden). De Commissie stelt zich de vraag hoe lang een dergelijke geldingsduur kan zijn (en hoeveel keer een hernieuwing kan plaatsvinden). Er dient</p>",
+          "<p class=\"case-section__paragraph\">daarenboven ook vermeden te worden dat telkens gekozen zal worden om als perimeter het volledige grondgebied van de gemeente te nemen, mede gelet op het feit dat een aangifte steeds de actuele/precieze toestand moet weergeven zodat er kan nagegaan worden waar de camera’s zich bevinden (conform het principe van transparantie). Het moet ook duidelijk zijn dat wat deze “voorlopig vaste bewakingscamera’s” betreft, de verantwoordelijke voor de verwerking nog steeds ongewijzigd gebruik moet kunnen maken van het huidige thematische aangifteformulier zoals ontwikkeld door de Commissie.</p>",
+          "<p class=\"case-section__paragraph\">20.</p>",
+          "<p class=\"case-section__paragraph\">Een laatste wijziging aan artikel 5 van de camerawet is de schrapping van de term “specifiek” uit het lid dat bepaalt dat de bewakingscamera niet mag gericht worden naar een plaats waarvoor de verantwoordelijke voor de verwerking niet verantwoordelijk is. De Commissie kan de redenering voor het schrappen van de term “specifiek” volgen, maar stelt zich de vraag of de schrapping van het woord echt een halt zal toeroepen aan de verwarring op het terrein. Daarenboven bestaat er al een omzendbrief waar bijkomende uitleg werd voorzien om de term “specifiek” correct te interpreteren.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-008",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-019",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-020"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">21.</p>",
+          "<p class=\"case-section__paragraph\">Een eerste wijziging betreft de schrapping van de term “specifiek” in artikel 6 van de camerawet. Hiervoor kan verwezen worden naar de commentaar bij randnummer 20.</p>",
+          "<p class=\"case-section__paragraph\">Een tweede wijziging voegt een lid toe aan artikel 6 van de camerawet: een controlescherm kan worden geplaatst aan de ingang van de plaats die in real time wordt gefilmd, waarbij aan het publiek de beelden worden getoond die worden verzameld door de bewakingscamera van de ingang. Deze praktijk is gangbaar aan ingangen van grootwarenhuizen of winkels en de toelichting stelt dat het doel is om het signaal dat het pictogram al geeft te versterken en de gefilmde persoon nog beter te informeren. Hoewel het een gangbare praktijk is om dergelijke schermen in een winkel uit te hangen, is de toegevoegde waarde ervan voor de Commissie niet duidelijk, ook de toelichting is op dit punt vrij vaag. Het pictogram heeft overigens reeds op zich een psychologisch effect op de betrokken personen. Tenslotte kan ook verwezen worden naar de WVP en het proportionaliteitsbeginsel.</p>",
+          "<p class=\"case-section__paragraph\">Een laatste aanpassing aan artikel 6 van de huidige camerawet is een toevoeging van nog een extra lid waarbij de Koning de mogelijkheid wordt geboden om de plaatsing van bewakingscamera’s, de opname van beelden en de bewaring ervan gedurende een maand om veiligheidsredenen op te leggen. De Commissie heeft hier verschillende vragen. De</p>",
+          "<p class=\"case-section__paragraph\">toevoeging blijft immers vrij vaag en geeft geen voorbeelden van mogelijke situaties waarbij een dergelijke verplichting kan opgelegd worden. Bovendien is het niet duidelijk welke de precieze veiligheidsredenen zijn, wie verantwoordelijk is mochten bepaalde regels niet gevolgd zijn en wie de kosten (bv. materiaal, servercapaciteit,…) voor zijn rekening dient te nemen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">25. De huidige camerawet laat het gebruik van mobiele bewakingscamera’s door politiediensten enkel toe voor grote volkstoelopen. De toelichting stelt echter dat dit aanzienlijk de mogelijkheden beperkt van de politie en verschillende andere toepassingen momenteel uitsluit (zoals bv. mobiele automatische nummerplaatherkenning, mobiele mini-camera’s, gebruik van drones,…).</p>",
+          "<p class=\"case-section__paragraph\">26. Het voorontwerp van wet wenst dan ook de gebruiksmogelijkheden van mobiele bewakingscamera’s voor politiediensten uit te breiden. Naast de gevallen van grote volkstoelopen zullen de politiediensten de mobiele bewakingscamera’s kunnen inzetten in het kader van de opdrachten die hen worden toevertrouwd:</p>",
+          "<p class=\"case-section__paragraph\">27. De Commissie heeft al in 2012 (zie de eerder geciteerde aanbeveling 04/2012) gewezen op een aantal knelpunten die de Commissie (en ook andere instanties) heeft (hebben) vastgesteld na (ondertussen) 6 jaar toepassing van de camerawet. Vele van deze knelpunten hebben in de praktijk precies te maken met cameragebruik door de politie.</p>",
+          "<p class=\"case-section__paragraph\">28. Technologisch gezien kan anno 2013 reeds veel, het is echter maar de vraag of het ook wenselijk is dat alle mogelijke technologische evoluties ook daadwerkelijk in de praktijk worden omgezet (bijvoorbeeld drones). In deze zou het niet onlogisch zijn dat het Parlement over de technologische evoluties een debat houdt in relatie met de wenselijkheid van een veralgemeend gebruik van (bewakings)camera’s. Dit zal eens te meer gelden aangezien het voorontwerp van wet de huidige mogelijkheden van mobiel</p>",
+          "<p class=\"case-section__paragraph\">cameragebruik fors doet uitbreiden, niet alleen naar andere opdrachten voor de politiediensten maar ook naar het gebruik ervan door niet-politiediensten.</p>",
+          "<p class=\"case-section__paragraph\">29. Wat de politiediensten betreft handelt het niet meer alleen over grote volkstoelopen. Een eerste uitbreiding is met name “in geval van gevaarlijke situaties of wanneer de officier zich bedreigd voelt en gedurende de tijd nodig voor de interventie”. De Commissie stelt vast dat deze bewoordingen zeer algemeen geformuleerd zijn. Bovendien maakt het voorontwerp een verschil tussen de principebeslissing tot het gebruik van dergelijke camera’s en de punctuele beslissing die ofwel door de officier, ofwel door de burgemeester wordt genomen. Het is de Commissie niet volledig duidelijk hoe dit in de praktijk zal gebeuren ingeval van gevaarlijke situaties of wanneer de officier zich bedreigd voelt, en in het bijzonder als het gaat over een besloten plaats toegankelijk voor het publiek waar het de burgemeester is die de punctuele beslissing dient te nemen en de situatie dus zoals het voorontwerp stelt acuut is.</p>",
+          "<p class=\"case-section__paragraph\">30. Een tweede uitbreiding voorziet erin dat de Koning in beperkte gevallen dergelijk mobiel cameragebruik door politiediensten kan uitbreiden, dit via KB, na overleg in de Ministerraad. De Commissie wenst bij deze procedure ook betrokken te worden, zij stelt dan ook voor om de volgende bewoordingen toe te voegen “waarvan het ontwerp voor advies is voorgelegd aan de Commissie voor de bescherming van de persoonlijke levenssfeer”. Het is ook niet helemaal duidelijk welke gevallen de minister hier voor ogen heeft. Bovendien merkt de Commissie op dat deze bepaling zich onduidelijk verhoudt ten opzichte van het huidige artikel 11 van de camerawet, en het de vraag is in hoeverre een KB verder zou kunnen gaan dan hetgeen in de wet zelf wordt voorzien.</p>",
+          "<p class=\"case-section__paragraph\">31. Een derde uitbreiding is het feit dat politiediensten mobiele bewakingscamera’s ook gaan kunnen gebruiken voor automatische nummerplaatherkenning. Dergelijke toepassing wordt reeds gebruikt door politiediensten maar deze opereren momenteel in een grijze zone (zie ook bv. randnummer 49 e.v. van de reeds eerder geciteerde aanbeveling nr. 04/2012). Het is de Commissie echter niet duidelijk voor welke precieze finaliteiten dergelijke ANPR camera’s zullen gebruikt worden. De toelichting stelt hierover het volgende “Deze ANPR-technologie wordt door steeds meer politiezones gebruikt voor het opsporen van gestolen, onverzekerde voertuigen of voertuigen waarvan de technische keuring niet in orde is of waarvan de bestuurder wordt gezocht. De politievoertuigen zijn uitgerust met ANPR-camera’s die in verbinding staan met de Algemene Nationale Gegevensbank (ANG) of een andere databank”. De Commissie wenst dan ook meer duidelijkheid over deze “andere” databanken (bijvoorbeeld de SIS-databank). Waar de ANG databank een officiële overheidsdatabank is die ook grondig gecontroleerd wordt, is het</p>",
+          "<p class=\"case-section__paragraph\">maar de vraag of dit ook geldt voor andere databanken. Voor onverzekerde voertuigen kan in dat verband bijvoorbeeld verwezen worden naar de databank van Assuralia, welke allerminst een officiële overheidsdatabank is, wat zijn implicaties heeft op de betrouwbaarheid en correctheid ervan.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-010",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-012",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">32.</p>",
+          "<p class=\"case-section__paragraph\">Wat de aangifte bij de Commissie, of eerder de kennisgeving betreft zou een administratieve vereenvoudiging beoogd worden. In de huidige stand van de wetgeving moet immers voor ieder gebruik van mobiele bewakingscamera’s (behalve voor repetitieve gebeurtenissen, zoals bv. voetbalwedstrijden) een (niet openbaar) formulier worden ingevuld via de website van de Commissie. Dit wordt volgens de toelichting bij het voorontwerp van wet ervaren als een zware administratieve last. De toelichting stelt dan ook voor om slechts één aangifte te voorzien per dienst of eenheid die mobiele camera’s gebruikt, waardoor de Commissie vervolgens controles kan uitvoeren naar het gebruik ervan. Er wordt een gedetailleerd verslag opgesteld met het aantal en de plaatsen van gebruik dat wordt overgezonden naar de Commissie. Dit moet periodiek worden bijgewerkt en overgezonden naar de Commissie. Bovendien stelt de toelichting dat de betrokken politiediensten een register ter beschikking houden van de Commissie waarin vermeld staat wanneer gebruik werd gemaakt van dit mobiele camerabewakingssysteem.</p>",
+          "<p class=\"case-section__paragraph\">33.</p>",
+          "<p class=\"case-section__paragraph\">Diverse vragen kunnen gesteld worden over de nieuwe procedure voor mobiel cameragebruik. Ten eerste is het maar de vraag of er inderdaad een administratieve vereenvoudiging zal doorgevoerd worden. Niet alleen moet iedere dienst een kennisgeving verrichten, maar moet er tevens periodiek een verslag opgemaakt en opgestuurd worden en dient er een up-to-date register ter beschikking te worden gehouden. Daarnaast kan de opmerking gemaakt worden of een kennisgeving in dit alles zinvol te noemen is. Politiediensten dienen nu al een dergelijke kennisgeving naar de Commissie op te sturen. De cijfers van 2012 betreffende de kennisgevingen verricht door de politiediensten (115⁴) tonen aan dat deze kennisgevingen (nog) niet echt ingeburgerd zijn en niet systematisch worden ingevuld, wat de bruikbaarheid nadien (o.a.) voor controle beperkt maakt. Bovendien is er ook op Europees niveau in het kader van de herziening van de privacyrichtlijn een denkoefening bezig om zoveel als mogelijk de aangifteverplichting af te schaffen.</p>",
+          "<p class=\"case-section__paragraph\">34.</p>",
+          "<p class=\"case-section__paragraph\">De Commissie pleit dan ook eerder voor een echte administratieve vereenvoudiging door middel van een rapportering. In dat kader kan gedacht worden aan een jaarlijkse rapportering door elke dienst die gebruik maakt van mobiele bewakingscamera’s. Een</p>",
+          "<p class=\"case-section__paragraph\">dergelijke jaarlijkse rapportage bij de Commissie bestaat trouwens vandaag ook al voor bepaalde instanties, zoals de Sektecommissie, Child Focus, … . Dit jaarlijks verslag kan dan gebundeld worden en naar de Commissie gestuurd worden door de verantwoordelijke en/of de voogdijminister. De Commissie kan dan steeds een controle uitvoeren op basis van dit jaarlijks verslag en desgevallend op basis van een up to date register dat elke dienst dient bij te houden en dat als basis dient voor deze jaarlijkse rapportering.</p>",
+          "<p class=\"case-section__paragraph\">35. De bedoeling moet zijn dat dit jaarlijks verslag voldoet aan een zekere standaardisering/uniformiteit zodat de gegevens nadien gemakkelijk te interpreteren zijn en een controle vergemakkelijken. Als overgangsmaatregel kan in het voorontwerp van wet gedacht worden aan het indienen van een eerste verslag 1 jaar na de inwerkingtreding van de gewijzigde camerawetgeving.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-011",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">30. Een tweede uitbreiding voorziet erin dat de Koning in beperkte gevallen dergelijk mobiel cameragebruik door politiediensten kan uitbreiden, dit via KB, na overleg in de Ministerraad. De Commissie wenst bij deze procedure ook betrokken te worden, zij stelt dan ook voor om de volgende bewoordingen toe te voegen “waarvan het ontwerp voor advies is voorgelegd aan de Commissie voor de bescherming van de persoonlijke levenssfeer”. Het is ook niet helemaal duidelijk welke gevallen de minister hier voor ogen heeft. Bovendien merkt de Commissie op dat deze bepaling zich onduidelijk verhoudt ten opzichte van het huidige artikel 11 van de camerawet, en het de vraag is in hoeverre een KB verder zou kunnen gaan dan hetgeen in de wet zelf wordt voorzien.</p>",
+          "<p class=\"case-section__paragraph\">31. Een derde uitbreiding is het feit dat politiediensten mobiele bewakingscamera’s ook gaan kunnen gebruiken voor automatische nummerplaatherkenning. Dergelijke toepassing wordt reeds gebruikt door politiediensten maar deze opereren momenteel in een grijze zone (zie ook bv. randnummer 49 e.v. van de reeds eerder geciteerde aanbeveling nr. 04/2012). Het is de Commissie echter niet duidelijk voor welke precieze finaliteiten dergelijke ANPR camera’s zullen gebruikt worden. De toelichting stelt hierover het volgende “Deze ANPR-technologie wordt door steeds meer politiezones gebruikt voor het opsporen van gestolen, onverzekerde voertuigen of voertuigen waarvan de technische keuring niet in orde is of waarvan de bestuurder wordt gezocht. De politievoertuigen zijn uitgerust met ANPR-camera’s die in verbinding staan met de Algemene Nationale Gegevensbank (ANG) of een andere databank”. De Commissie wenst dan ook meer duidelijkheid over deze “andere” databanken (bijvoorbeeld de SIS-databank). Waar de ANG databank een officiële overheidsdatabank is die ook grondig gecontroleerd wordt, is het</p>",
+          "<p class=\"case-section__paragraph\">maar de vraag of dit ook geldt voor andere databanken. Voor onverzekerde voertuigen kan in dat verband bijvoorbeeld verwezen worden naar de databank van Assuralia, welke allerminst een officiële overheidsdatabank is, wat zijn implicaties heeft op de betrouwbaarheid en correctheid ervan.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-012",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-010",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-013",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">36. Het voorontwerp voorziet niet alleen in een uitbreiding van het mobiel cameragebruik naar politiediensten toe, maar stelt eveneens voor dat civiele veiligheidsdiensten (civiele bescherming en brandweer) mobiele bewakingscamera’s kunnen gebruiken. Het voorgestelde kader wordt overgenomen van wat al bestaat voor de politiediensten maar aangepast aan de bijzonderheden van de civiele veiligheidsdiensten.</p>",
+          "<p class=\"case-section__paragraph\">37. De Commissie stelt zich de vraag in hoeverre deze civiele veiligheidsdiensten nog gebruik maken van een “bewakingscamera” zoals gedefinieerd in de camerawet (met name in hoeverre handelt het nog over het vaststellen van misdrijven of overlast of het handhaven van de openbare orde) en wat de opportuniteit vervolgens is om dit aspect specifiek in de camerawet te regelen.</p>",
+          "<p class=\"case-section__paragraph\">38. Voor het overige kan worden verwezen naar de randnummers 32-35 inzake de kennisgeving bij de Commissie.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-013",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">36. Het voorontwerp voorziet niet alleen in een uitbreiding van het mobiel cameragebruik naar politiediensten toe, maar stelt eveneens voor dat civiele veiligheidsdiensten (civiele bescherming en brandweer) mobiele bewakingscamera’s kunnen gebruiken. Het voorgestelde kader wordt overgenomen van wat al bestaat voor de politiediensten maar aangepast aan de bijzonderheden van de civiele veiligheidsdiensten.</p>",
+          "<p class=\"case-section__paragraph\">37. De Commissie stelt zich de vraag in hoeverre deze civiele veiligheidsdiensten nog gebruik maken van een “bewakingscamera” zoals gedefinieerd in de camerawet (met name in hoeverre handelt het nog over het vaststellen van misdrijven of overlast of het handhaven van de openbare orde) en wat de opportuniteit vervolgens is om dit aspect specifiek in de camerawet te regelen.</p>",
+          "<p class=\"case-section__paragraph\">38. Voor het overige kan worden verwezen naar de randnummers 32-35 inzake de kennisgeving bij de Commissie.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-014",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">39. Naast de uitbreiding van mobiel cameragebruik voor politiediensten en civiele veiligheidsdiensten wil het voorontwerp van wet ook, bepaalde inspectie- en controlediensten (zowel federaal als regionaal) toestaan om mobiele bewakingscamera’s te gebruiken. Eén van de voorbeelden die in de toelichting wordt gegeven betreft het gebruik van ANPR-camera’s door de douane. De toelichting stelt verder dat het niet coherent zou zijn dat er bepaalde voorwaarden en grenzen worden gesteld voor de</p>",
+          "<p class=\"case-section__paragraph\">politiediensten bij het gebruik van mobiele bewakingscamera’s terwijl de inspectiediensten de vrijheid zouden hebben om er gebruik van te maken. Voor zover de wet tot bepaling van de bevoegdheden van deze inspectiediensten uitdrukkelijk voorziet in de mogelijkheid om gebruik te maken van audiovisuele middelen of video-opnames zouden zij mobiele bewakingscamera’s kunnen gebruiken in het kader van hun bevoegdheden voor de finaliteiten bepaald in deze bijzondere wetgevingen, waarbij de bepalingen van de camerawet worden nageleefd.</p>",
+          "<p class=\"case-section__paragraph\">40. De Commissie stelt zich ook hier de vraag in hoeverre deze diensten steeds gebruik maken van een “bewakingscamera” zoals gedefinieerd in de camerawet (met name in hoeverre handelt het nog over het vaststellen van misdrijven of overlast of het handhaven van de openbare orde) en wat de opportuniteit vervolgens is om dit aspect in de camerawet te regelen. In bepaalde gevallen kan hier wel sprake zijn van een dergelijke ‘bewakingscamera’, maar kan men dit veralgemenen naar alle gebruik van camera’s door inspectie –en controlediensten?</p>",
+          "<p class=\"case-section__paragraph\">41. Voor het overige kan worden verwezen naar de randnummers 32-35 inzake de kennisgeving bij de Commissie.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-015",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-011",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">39. Naast de uitbreiding van mobiel cameragebruik voor politiediensten en civiele veiligheidsdiensten wil het voorontwerp van wet ook, bepaalde inspectie- en controlediensten (zowel federaal als regionaal) toestaan om mobiele bewakingscamera’s te gebruiken. Eén van de voorbeelden die in de toelichting wordt gegeven betreft het gebruik van ANPR-camera’s door de douane. De toelichting stelt verder dat het niet coherent zou zijn dat er bepaalde voorwaarden en grenzen worden gesteld voor de</p>",
+          "<p class=\"case-section__paragraph\">politiediensten bij het gebruik van mobiele bewakingscamera’s terwijl de inspectiediensten de vrijheid zouden hebben om er gebruik van te maken. Voor zover de wet tot bepaling van de bevoegdheden van deze inspectiediensten uitdrukkelijk voorziet in de mogelijkheid om gebruik te maken van audiovisuele middelen of video-opnames zouden zij mobiele bewakingscamera’s kunnen gebruiken in het kader van hun bevoegdheden voor de finaliteiten bepaald in deze bijzondere wetgevingen, waarbij de bepalingen van de camerawet worden nageleefd.</p>",
+          "<p class=\"case-section__paragraph\">40. De Commissie stelt zich ook hier de vraag in hoeverre deze diensten steeds gebruik maken van een “bewakingscamera” zoals gedefinieerd in de camerawet (met name in hoeverre handelt het nog over het vaststellen van misdrijven of overlast of het handhaven van de openbare orde) en wat de opportuniteit vervolgens is om dit aspect in de camerawet te regelen. In bepaalde gevallen kan hier wel sprake zijn van een dergelijke ‘bewakingscamera’, maar kan men dit veralgemenen naar alle gebruik van camera’s door inspectie –en controlediensten?</p>",
+          "<p class=\"case-section__paragraph\">41. Voor het overige kan worden verwezen naar de randnummers 32-35 inzake de kennisgeving bij de Commissie.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-016",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-011",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-017",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">24. Hiervoor kan verwezen worden naar de opmerkingen die gemaakt n.a.v. het schrappen van het woord “specifiek” in artikel 5 van de camerawet, zie randnummer 20.</p>",
+          "<p class=\"case-section__paragraph\">42. Dit artikel voorziet in een aantal aanpassingen van artikel 8 van de camerawet om rekening te houden met de nieuwe bepalingen betreffende mobiele bewakingscamera's. Belangrijkste is dat teneinde het gebruik van de mini-camera's door zowel de politiediensten, als de civiele veiligheidsdiensten als de inspectie- en controlediensten toe te laten, wordt voorzien dat een voorafgaande toestemming mogelijk is via “mondeling de activering ervan aan te geven. Door de mondelinge waarschuwing kunnen die mini bewakingscamera's beschouwd worden als zichtbaar en niet verborgen”.</p>",
+          "<p class=\"case-section__paragraph\">43. De Commissie stelt vast dat in de tekst van het voorontwerp van wet zelf de term van “mini mobiele bewakingscamera” wordt gehanteerd zonder dat er hiervoor een expliciete definitie van wordt gegeven (enkel de toelichting geeft hierover enkele hints). De opmerking kan ook gemaakt worden hoe deze mondelinge waarschuwing kan worden bewezen, zodat eventuele discussies nadien kunnen vermeden worden, zie hieromtrent tevens randnummer 6.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-017",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">44. Dit artikel past ten dele artikel 12 van de camerawet aan. Een eerste wijziging stemt de antwoordtermijn van de verantwoordelijke voor de verwerking af op de maximale bewaringstermijn van de beelden. Er was namelijk discussie ontstaan aangezien de camerawet voor het recht van toegang verwijst naar de artikelen 10 en volgende van de WVP. In de WVP is echter een antwoordtermijn van 45 dagen voorzien. Het voorontwerp van wet stelt ook dat wanneer de verantwoordelijke voor de verwerking het verzoek tot toegang heeft verkregen, hij de beelden niet kan wissen vooraleer dit verzoek te hebben behandeld zolang de termijn van één maand voor het bewaren van de beelden niet verstreken is. De Commissie kan deze wijziging bijtreden, maar wenst wel op te merken dat in vele gevallen de bewaartermijn (als er al een bewaartermijn is) veel minder bedraagt dan één maand (wegens allerhande redenen zoals bv. de kosten om de beelden al te lang bij te houden) en het recht van toegang in die gevallen dan ook vrij theoretisch zal blijven.</p>",
+          "<p class=\"case-section__paragraph\">45. De Commissie wenst echter nog op te merken dat er rond het recht op toegang tot de beelden zoals voorzien in de camerawet nog een aantal knelpunten bestaan, waarover dit voorontwerp niets expliciets voorschrijft. Hiervoor kan ook verwezen worden naar de reeds eerder aangehaalde aanbeveling nr. 04/2012 (en meer specifiek randnummers 30 t.e.m. 33). Tijdens de parlementaire werkzaamheden5 heeft de toenmalige minister van Binnenlandse Zaken onder andere het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. De WVP voorziet in haar artikel 13 ook in een onrechtstreekse toegang in een aantal limitatief omschreven gevallen6, wat een rol zal spelen bij het vragen van toegang tot beelden van een bewakingscamera, beheerd door politiediensten en/of openbare overheden in het kader van gerechtelijke of bestuurlijke politie. De vraag die de Commissie zich dan ook stelde, is met name of een recht van onrechtstreekse toegang in het kader van de camerawet in de praktijk nog mogelijk is.</p>",
+          "<p class=\"case-section__paragraph\">46. De Commissie heeft in aanbeveling nr. 04/2012 ook vragen bij wat precies dient verstaan te worden onder “een gemotiveerd verzoek”. De vereiste van een belang werd immers geschrapt tijdens de parlementaire bespreking van de camerawet maar het verslag bij de werkzaamheden7 stelt wel dat zal worden geoordeeld of de toegang van de betrokkene tot</p>",
+          "<p class=\"case-section__paragraph\">de beelden “gerechtvaardigd is”, zonder evenwel duidelijk aan te geven in welke gevallen een dergelijke aanvraag al dan niet gerechtvaardigd is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-018",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-019",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-020",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-021",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-022",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-023"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2013:DEC.20131002.4-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-019",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">18. Een eerste wijziging is het expliciet vermelden in artikel 5 van de camerawet van de elementen in het dossier dat de verantwoordelijke voor de verwerking moet indienen bij de bevoegde gemeenteraad opdat deze laatste alle nodige elementen bezit om al dan niet een goedkeuring te geven over de plaatsing van vaste bewakingscamera’s in een niet-besloten plaats. De lijst van elementen is in hoofdorde deze die nu al terug te vinden is in de omzendbrief van 10 december 2009. De Commissie heeft een opmerking m.b.t. “het contactpunt voor het recht van toegang op de beelden”. De camerawet voorziet voor iedere gefilmde persoon een recht van toegang tot de beelden, daartoe richt de betrokkene “een gemotiveerd verzoek aan de verantwoordelijke voor de verwerking conform de artikelen 10 en volgende van de wet van 8 december 1992”. Tijdens de parlementaire werkzaamheden heeft de toenmalige minister van Binnenlandse Zaken tevens het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. Artikel 13 van de WVP voorziet in een aantal gevallen in een onrechtstreekse toegang, via de Commissie. De vraag die zich hier dan ook stelt, is wie of wat dit contactpunt zal zijn (zie ook infra bij de bespreking van artikel 22 van het voorontwerp van wet inzake het recht van toegang).</p>",
+          "<p class=\"case-section__paragraph\">44. Dit artikel past ten dele artikel 12 van de camerawet aan. Een eerste wijziging stemt de antwoordtermijn van de verantwoordelijke voor de verwerking af op de maximale bewaringstermijn van de beelden. Er was namelijk discussie ontstaan aangezien de camerawet voor het recht van toegang verwijst naar de artikelen 10 en volgende van de WVP. In de WVP is echter een antwoordtermijn van 45 dagen voorzien. Het voorontwerp van wet stelt ook dat wanneer de verantwoordelijke voor de verwerking het verzoek tot toegang heeft verkregen, hij de beelden niet kan wissen vooraleer dit verzoek te hebben behandeld zolang de termijn van één maand voor het bewaren van de beelden niet verstreken is. De Commissie kan deze wijziging bijtreden, maar wenst wel op te merken dat in vele gevallen de bewaartermijn (als er al een bewaartermijn is) veel minder bedraagt dan één maand (wegens allerhande redenen zoals bv. de kosten om de beelden al te lang bij te houden) en het recht van toegang in die gevallen dan ook vrij theoretisch zal blijven.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-019",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-018"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">18. Een eerste wijziging is het expliciet vermelden in artikel 5 van de camerawet van de elementen in het dossier dat de verantwoordelijke voor de verwerking moet indienen bij de bevoegde gemeenteraad opdat deze laatste alle nodige elementen bezit om al dan niet een goedkeuring te geven over de plaatsing van vaste bewakingscamera’s in een niet-besloten plaats. De lijst van elementen is in hoofdorde deze die nu al terug te vinden is in de omzendbrief van 10 december 2009. De Commissie heeft een opmerking m.b.t. “het contactpunt voor het recht van toegang op de beelden”. De camerawet voorziet voor iedere gefilmde persoon een recht van toegang tot de beelden, daartoe richt de betrokkene “een gemotiveerd verzoek aan de verantwoordelijke voor de verwerking conform de artikelen 10 en volgende van de wet van 8 december 1992”. Tijdens de parlementaire werkzaamheden heeft de toenmalige minister van Binnenlandse Zaken tevens het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. Artikel 13 van de WVP voorziet in een aantal gevallen in een onrechtstreekse toegang, via de Commissie. De vraag die zich hier dan ook stelt, is wie of wat dit contactpunt zal zijn (zie ook infra bij de bespreking van artikel 22 van het voorontwerp van wet inzake het recht van toegang).</p>",
+          "<p class=\"case-section__paragraph\">45. De Commissie wenst echter nog op te merken dat er rond het recht op toegang tot de beelden zoals voorzien in de camerawet nog een aantal knelpunten bestaan, waarover dit voorontwerp niets expliciets voorschrijft. Hiervoor kan ook verwezen worden naar de reeds eerder aangehaalde aanbeveling nr. 04/2012 (en meer specifiek randnummers 30 t.e.m. 33). Tijdens de parlementaire werkzaamheden5 heeft de toenmalige minister van Binnenlandse Zaken onder andere het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. De WVP voorziet in haar artikel 13 ook in een onrechtstreekse toegang in een aantal limitatief omschreven gevallen6, wat een rol zal spelen bij het vragen van toegang tot beelden van een bewakingscamera, beheerd door politiediensten en/of openbare overheden in het kader van gerechtelijke of bestuurlijke politie. De vraag die de Commissie zich dan ook stelde, is met name of een recht van onrechtstreekse toegang in het kader van de camerawet in de praktijk nog mogelijk is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-020",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-018"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">18. Een eerste wijziging is het expliciet vermelden in artikel 5 van de camerawet van de elementen in het dossier dat de verantwoordelijke voor de verwerking moet indienen bij de bevoegde gemeenteraad opdat deze laatste alle nodige elementen bezit om al dan niet een goedkeuring te geven over de plaatsing van vaste bewakingscamera’s in een niet-besloten plaats. De lijst van elementen is in hoofdorde deze die nu al terug te vinden is in de omzendbrief van 10 december 2009. De Commissie heeft een opmerking m.b.t. “het contactpunt voor het recht van toegang op de beelden”. De camerawet voorziet voor iedere gefilmde persoon een recht van toegang tot de beelden, daartoe richt de betrokkene “een gemotiveerd verzoek aan de verantwoordelijke voor de verwerking conform de artikelen 10 en volgende van de wet van 8 december 1992”. Tijdens de parlementaire werkzaamheden heeft de toenmalige minister van Binnenlandse Zaken tevens het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. Artikel 13 van de WVP voorziet in een aantal gevallen in een onrechtstreekse toegang, via de Commissie. De vraag die zich hier dan ook stelt, is wie of wat dit contactpunt zal zijn (zie ook infra bij de bespreking van artikel 22 van het voorontwerp van wet inzake het recht van toegang).</p>",
+          "<p class=\"case-section__paragraph\">45. De Commissie wenst echter nog op te merken dat er rond het recht op toegang tot de beelden zoals voorzien in de camerawet nog een aantal knelpunten bestaan, waarover dit voorontwerp niets expliciets voorschrijft. Hiervoor kan ook verwezen worden naar de reeds eerder aangehaalde aanbeveling nr. 04/2012 (en meer specifiek randnummers 30 t.e.m. 33). Tijdens de parlementaire werkzaamheden5 heeft de toenmalige minister van Binnenlandse Zaken onder andere het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. De WVP voorziet in haar artikel 13 ook in een onrechtstreekse toegang in een aantal limitatief omschreven gevallen6, wat een rol zal spelen bij het vragen van toegang tot beelden van een bewakingscamera, beheerd door politiediensten en/of openbare overheden in het kader van gerechtelijke of bestuurlijke politie. De vraag die de Commissie zich dan ook stelde, is met name of een recht van onrechtstreekse toegang in het kader van de camerawet in de praktijk nog mogelijk is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-021",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-018"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-022",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">18. Een eerste wijziging is het expliciet vermelden in artikel 5 van de camerawet van de elementen in het dossier dat de verantwoordelijke voor de verwerking moet indienen bij de bevoegde gemeenteraad opdat deze laatste alle nodige elementen bezit om al dan niet een goedkeuring te geven over de plaatsing van vaste bewakingscamera’s in een niet-besloten plaats. De lijst van elementen is in hoofdorde deze die nu al terug te vinden is in de omzendbrief van 10 december 2009. De Commissie heeft een opmerking m.b.t. “het contactpunt voor het recht van toegang op de beelden”. De camerawet voorziet voor iedere gefilmde persoon een recht van toegang tot de beelden, daartoe richt de betrokkene “een gemotiveerd verzoek aan de verantwoordelijke voor de verwerking conform de artikelen 10 en volgende van de wet van 8 december 1992”. Tijdens de parlementaire werkzaamheden heeft de toenmalige minister van Binnenlandse Zaken tevens het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. Artikel 13 van de WVP voorziet in een aantal gevallen in een onrechtstreekse toegang, via de Commissie. De vraag die zich hier dan ook stelt, is wie of wat dit contactpunt zal zijn (zie ook infra bij de bespreking van artikel 22 van het voorontwerp van wet inzake het recht van toegang).</p>",
+          "<p class=\"case-section__paragraph\">45. De Commissie wenst echter nog op te merken dat er rond het recht op toegang tot de beelden zoals voorzien in de camerawet nog een aantal knelpunten bestaan, waarover dit voorontwerp niets expliciets voorschrijft. Hiervoor kan ook verwezen worden naar de reeds eerder aangehaalde aanbeveling nr. 04/2012 (en meer specifiek randnummers 30 t.e.m. 33). Tijdens de parlementaire werkzaamheden5 heeft de toenmalige minister van Binnenlandse Zaken onder andere het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. De WVP voorziet in haar artikel 13 ook in een onrechtstreekse toegang in een aantal limitatief omschreven gevallen6, wat een rol zal spelen bij het vragen van toegang tot beelden van een bewakingscamera, beheerd door politiediensten en/of openbare overheden in het kader van gerechtelijke of bestuurlijke politie. De vraag die de Commissie zich dan ook stelde, is met name of een recht van onrechtstreekse toegang in het kader van de camerawet in de praktijk nog mogelijk is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-022",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-018"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-023",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">18. Een eerste wijziging is het expliciet vermelden in artikel 5 van de camerawet van de elementen in het dossier dat de verantwoordelijke voor de verwerking moet indienen bij de bevoegde gemeenteraad opdat deze laatste alle nodige elementen bezit om al dan niet een goedkeuring te geven over de plaatsing van vaste bewakingscamera’s in een niet-besloten plaats. De lijst van elementen is in hoofdorde deze die nu al terug te vinden is in de omzendbrief van 10 december 2009. De Commissie heeft een opmerking m.b.t. “het contactpunt voor het recht van toegang op de beelden”. De camerawet voorziet voor iedere gefilmde persoon een recht van toegang tot de beelden, daartoe richt de betrokkene “een gemotiveerd verzoek aan de verantwoordelijke voor de verwerking conform de artikelen 10 en volgende van de wet van 8 december 1992”. Tijdens de parlementaire werkzaamheden heeft de toenmalige minister van Binnenlandse Zaken tevens het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. Artikel 13 van de WVP voorziet in een aantal gevallen in een onrechtstreekse toegang, via de Commissie. De vraag die zich hier dan ook stelt, is wie of wat dit contactpunt zal zijn (zie ook infra bij de bespreking van artikel 22 van het voorontwerp van wet inzake het recht van toegang).</p>",
+          "<p class=\"case-section__paragraph\">45. De Commissie wenst echter nog op te merken dat er rond het recht op toegang tot de beelden zoals voorzien in de camerawet nog een aantal knelpunten bestaan, waarover dit voorontwerp niets expliciets voorschrijft. Hiervoor kan ook verwezen worden naar de reeds eerder aangehaalde aanbeveling nr. 04/2012 (en meer specifiek randnummers 30 t.e.m. 33). Tijdens de parlementaire werkzaamheden5 heeft de toenmalige minister van Binnenlandse Zaken onder andere het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. De WVP voorziet in haar artikel 13 ook in een onrechtstreekse toegang in een aantal limitatief omschreven gevallen6, wat een rol zal spelen bij het vragen van toegang tot beelden van een bewakingscamera, beheerd door politiediensten en/of openbare overheden in het kader van gerechtelijke of bestuurlijke politie. De vraag die de Commissie zich dan ook stelde, is met name of een recht van onrechtstreekse toegang in het kader van de camerawet in de praktijk nog mogelijk is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-023",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-018"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-024",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">6 Voor de uitzonderingen wordt verwezen naar artikel 3, §§ 4, 5 en 6 van de WVP.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-024"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-025",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2 Zie bv. artikel 61 van het KB van 13 februari 2001 ter uitvoering van de WVP waar een gelijkaardige redenering wordt gehanteerd: niet alleen is er nood aan een specifieke wet- of regelgeving. Deze wet- of regelgeving dient eveneens meer details te omvatten.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-025",
+          "ART-ECLI:BE:COPRIV:2013:DEC.20131002.4-005"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 25,
+      "citationStatistics": {
+        "totalCitations": 81,
+        "avgCitationsPerProvision": 3.24,
+        "provisionsWithMinimalCitations": 9,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.32,
+        "avgDecisionsPerProvision": 0.24,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:DEC.20131002.4-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">9. Dit artikel van het voorontwerp van wet wijzigt het hoofdstuk m.b.t. de definities, meer bepaald artikel 2 van de camerawet.</p>",
+          "<p class=\"case-section__paragraph\">10. Een eerste wijziging betreft een ruimere definitie van “een bewakingscamera”, namelijk de opsporing van ‘ieder misdrijf’ in tegenstelling tot het vroegere “misdrijven tegen personen of goederen”. Dankzij deze aanpassing kan antwoord gegeven worden op de vragen betreffende het gebruik van de beelden naar aanleiding van het arrest van het Hof van Cassatie van 5 oktober 2010 en zal ook het finaliteitsbeginsel beter tot zijn recht komen. De Commissie heeft hierover geen opmerkingen maar stelt enkel vast dat mede door deze aanpassing de term “bewakingscamera” een zeer ruime toepassing zal kennen en stelt zich de vraag of hiermee voldoende is rekening gehouden. Kan men nu bijvoorbeeld ook bepaalde verkeersovertredingen vaststellen, zoals bijvoorbeeld fout parkeren of het niet dragen van de veiligheidsgordel, welke niet door een specifieke cameraregelgeving worden geviseerd?</p>",
+          "<p class=\"case-section__paragraph\">11. Een tweede wijziging heeft betrekking op de definitie van wat aanzien moet worden als een “mobiele bewakingscamera”. Het voorontwerp van wet wenst te verduidelijken dat deze camera “op een voertuig, vaartuig of luchtvaartuig geplaatst kan worden zelfs indien het vasthechtingspunt niet doorslaggevend is”. De toelichting vervolgt: “Het zou niet mogen dat het gebruik van een mobiele camera vastgemaakt op een geïmmobiliseerd</p>",
+          "<p class=\"case-section__paragraph\">voertuig gedurende één nacht bijvoorbeeld kan ontsnappen aan de procedure opgesteld voor vaste camera’s door het loutere feit dat zijn drager in overweging wordt genomen.</p>",
+          "<p class=\"case-section__paragraph\">De Commissie kan dit standpunt bijtreden. Een bewakingscamera op een voertuig in beweging kan aanzien worden als mobiel, maar van zodra het voertuig gedurende een periode stilstaat en er beelden worden gemaakt, is er opnieuw sprake van een vaste bewakingscamera gelet op de definitie van “mobiel”. De tekst van het voorontwerp van wet zelf lijkt echter voor onduidelijkheid te zorgen. Deze stelt immers “…de bewakingscamera die geplaatst op een voertuig, een vaartuig of een luchtvaartuig, of verplaatst wordt tijdens de observatie teneinde vanaf verschillende plaatsen en posities te filmen wordt als mobiel beschouwd”. De wettekst zelf lijkt er (in tegenstelling tot de toelichting) eerder van uit te gaan dat elke camera gemonteerd op een voertuig, een vaartuig of een luchtvaartuig automatisch als mobiel beschouwd moet worden, naast het feit dat een bewakingscamera ook mobiel is van zodra deze verplaatst wordt tijdens de observatie teneinde vanaf verschillende plaatsen en posities te filmen (zie specifiek het woord “of”). Voor een vaartuig en een luchtvaartuig zal dit zeker minder spelen, maar een camera op een voertuig welke tijdens de observatie stil staat (bv. langs de kant van de weg) zou nog steeds als een vaste bewakingscamera moeten beschouwd worden1. De Commissie begrijpt dat de definitie dient gewijzigd te worden om de zogenaamde kepie-, uniform- of brilcamera’s te beschouwen als mobiele bewakingscamera’s, maar door de voorgestelde omschrijving en het woordje “of” lijkt er onduidelijkheid te ontstaan bij het gebruik van een bewakingscamera op een stilstaand voertuig.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:DEC.20131002.4-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. Het is een wijdverspreid misverstand dat de Commissie tegen het gebruik van bewakingscamera’s door politiediensten zou zijn. Het is echter wel zo dat, gelet op enkele evoluties op het terrein en de politierealiteit, er een grijze zone is ontstaan over dit gebruik, mede door de formulering van de huidige wetgeving. De Commissie heeft dan ook in 2012 de aandacht gevestigd op een aantal bestaande knelpunten in de camerawet, en dit middels haar aanbeveling nr. 04/2012 van 29 februari 2012 uit eigen beweging inzake de diverse toepassingsmogelijkheden van camerabewaking.</p>",
+          "<p class=\"case-section__paragraph\">De camerawet voorziet nu onder meer dat ze niet van toepassing is van zodra bewakingscamera’s worden geregeld “door of krachtens een bijzondere wetgeving” (zie artikel 3 camerawet). Het voorontwerp van wet verduidelijkt expliciet dat “de uitsluiting van het toepassingsveld van de camerawet uitsluitend van toepassing is wanneer de bijzondere wetgeving voorziet in nadere regels betreffende de plaatsing en het gebruik van die bewakingscamera's” en dat de loutere vermelding in een wetgevende tekst of wettekst van de termen “bewakingscamera's”, “opnames” of andere woorden die zinspelen op bewakingscamera's op zich niet voldoende is maar er dus meer details over de plaatsing en het gebruik van deze camera's moet voorzien worden (“…bepalingen bevatten die voldoende precies zijn en die voldoende garanties bieden…”).</p>",
+          "<p class=\"case-section__paragraph\">1 De Commissie gaat er bovendien van uit dat bewakingscamera’s gemonteerd in voertuigen (bv. tram, bus, taxi), vaartuigen of luchtvaartuigen om het interieur te filmen nog steeds dienen beschouwd te worden als vaste bewakingscamera’s (in een besloten gebouw of plaats).</p>",
+          "<p class=\"case-section__paragraph\">14. De Commissie heeft hierover geen opmerkingen en kan dit standpunt van de minister bijtreden. De vraag rijst alleen wanneer een bepaling “voldoende precies” zal zijn. In dat verband is het nuttig om er op te wijzen dat ook de privacywetgeving een gelijkaardige redenering kent2. De Commissie heeft in het verleden ook steeds de regel gehanteerd dat de afwijkingsbepaling van artikel 3 van de camerawet enkel geldt als de betrokken bijzondere wet- of regelgeving een specifieke bepaling rond (het gebruik van) camera’s. Daarenboven stelde de Commissie dat één kleine specifieke bepaling, gericht op een welbepaalde situatie, niet automatisch tot gevolg mag hebben dat de toepassing van de camerawet volledig (met andere woorden in alle situaties) zou uitgesloten worden.</p>",
+          "<p class=\"case-section__paragraph\">2 Zie bv. artikel 61 van het KB van 13 februari 2001 ter uitvoering van de WVP waar een gelijkaardige redenering wordt gehanteerd: niet alleen is er nood aan een specifieke wet- of regelgeving. Deze wet- of regelgeving dient eveneens meer details te omvatten.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:DEC.20131002.4-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">15. Artikel 4 van het voorontwerp van wet last een nieuw artikel 3/1 in de camerawet in. Tot op heden wordt geantwoord dat de camerawet van toepassing is wat de doeleinden bewaking en toezicht betreft, en de WVP of de betrokken bijzondere wet wat de overige doeleinden betreft.</p>",
+          "<p class=\"case-section__paragraph\">16. De bepalingen van de verschillende wetgevingen zijn echter niet altijd verenigbaar. Daarom schrijft het voorontwerp van wet voor dat in geval van camerabewaking voor verschillende doeleinden, waaronder één voorzien in artikel 3 van de camerawet, de verschillende wetgevingen gelijktijdig van toepassing zijn en dat “in geval van een onderling conflict de meest strikte bepalingen van toepassing zijn”.</p>",
+          "<p class=\"case-section__paragraph\">17. De Commissie heeft in de praktijk al vastgesteld dat het voor de betrokkenen (zowel burgers, bedrijven als overheden) niet altijd even duidelijk is als er verschillende wetgevingen gelijktijdig van toepassing zijn en de bepalingen van deze wetgevingen niet volledig op elkaar zijn afgestemd. De Commissie kan de beweegredenen van de minister dan ook begrijpen maar het is voor haar echter niet meteen duidelijk welke wetgeving dan “de meest strikte bepalingen” zal bevatten? Bovendien is het zo dat de meest voorkomende situatie van gelijktijdige toepassing van verschillende wetgevingen zich bevindt in winkels, grootwarenhuizen,…, meer bepaald wanneer er camerabewaking op de arbeidsplaats is en dan vooral in de privésector3. In deze gevallen is in dikwijls naast de</p>",
+          "<p class=\"case-section__paragraph\">camerawet (bv. derden zoals klanten, leveranciers,…) ook cao 68 van toepassing. Is deze situatie ook bedoeld in dit nieuwe artikel 3/1?</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:DEC.20131002.4-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">42. Dit artikel voorziet in een aantal aanpassingen van artikel 8 van de camerawet om rekening te houden met de nieuwe bepalingen betreffende mobiele bewakingscamera's. Belangrijkste is dat teneinde het gebruik van de mini-camera's door zowel de politiediensten, als de civiele veiligheidsdiensten als de inspectie- en controlediensten toe te laten, wordt voorzien dat een voorafgaande toestemming mogelijk is via “mondeling de activering ervan aan te geven. Door de mondelinge waarschuwing kunnen die mini bewakingscamera's beschouwd worden als zichtbaar en niet verborgen”.</p>",
+          "<p class=\"case-section__paragraph\">43. De Commissie stelt vast dat in de tekst van het voorontwerp van wet zelf de term van “mini mobiele bewakingscamera” wordt gehanteerd zonder dat er hiervoor een expliciete definitie van wordt gegeven (enkel de toelichting geeft hierover enkele hints). De opmerking kan ook gemaakt worden hoe deze mondelinge waarschuwing kan worden bewezen, zodat eventuele discussies nadien kunnen vermeden worden, zie hieromtrent tevens randnummer 6.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2013:DEC.20131002.4-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">44. Dit artikel past ten dele artikel 12 van de camerawet aan. Een eerste wijziging stemt de antwoordtermijn van de verantwoordelijke voor de verwerking af op de maximale bewaringstermijn van de beelden. Er was namelijk discussie ontstaan aangezien de camerawet voor het recht van toegang verwijst naar de artikelen 10 en volgende van de WVP. In de WVP is echter een antwoordtermijn van 45 dagen voorzien. Het voorontwerp van wet stelt ook dat wanneer de verantwoordelijke voor de verwerking het verzoek tot toegang heeft verkregen, hij de beelden niet kan wissen vooraleer dit verzoek te hebben behandeld zolang de termijn van één maand voor het bewaren van de beelden niet verstreken is. De Commissie kan deze wijziging bijtreden, maar wenst wel op te merken dat in vele gevallen de bewaartermijn (als er al een bewaartermijn is) veel minder bedraagt dan één maand (wegens allerhande redenen zoals bv. de kosten om de beelden al te lang bij te houden) en het recht van toegang in die gevallen dan ook vrij theoretisch zal blijven.</p>",
+          "<p class=\"case-section__paragraph\">45. De Commissie wenst echter nog op te merken dat er rond het recht op toegang tot de beelden zoals voorzien in de camerawet nog een aantal knelpunten bestaan, waarover dit voorontwerp niets expliciets voorschrijft. Hiervoor kan ook verwezen worden naar de reeds eerder aangehaalde aanbeveling nr. 04/2012 (en meer specifiek randnummers 30 t.e.m. 33). Tijdens de parlementaire werkzaamheden5 heeft de toenmalige minister van Binnenlandse Zaken onder andere het volgende verklaard: “ook de artikelen 13, 14, 15bis en 16 van de wet van 8 december 1992 blijven onverkort gelden”. De WVP voorziet in haar artikel 13 ook in een onrechtstreekse toegang in een aantal limitatief omschreven gevallen6, wat een rol zal spelen bij het vragen van toegang tot beelden van een bewakingscamera, beheerd door politiediensten en/of openbare overheden in het kader van gerechtelijke of bestuurlijke politie. De vraag die de Commissie zich dan ook stelde, is met name of een recht van onrechtstreekse toegang in het kader van de camerawet in de praktijk nog mogelijk is.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 5,
+      "citationStatistics": {
+        "totalCitations": 17,
+        "avgCitationsPerTeaching": 3.4,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 10,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 4,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

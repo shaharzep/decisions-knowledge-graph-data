@@ -1,0 +1,362 @@
+{
+  "decision_id": "ECLI:BE:RVSCE:2024:ARR.261.279",
+  "language": "FR",
+  "metadata": {
+    "id": 149491,
+    "court_ecli_code": "RVSCE",
+    "decision_date": "2024-11-05",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 4613,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Conseil d'État (Section du contentieux administratif), 5 novembre 2024, n° 261.279, A. 242.114/XIII-10.394, ECLI:BE:RVSCE:2024:ARR.261.279"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:RVSCE:2024:ARR.261.279-001",
+        "name": "XXXX",
+        "type": "UNCLEAR",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:RVSCE:2024:ARR.261.279-002",
+        "name": "la commune de Crisnée",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:RVSCE:2024:ARR.261.279-003",
+        "name": "SRL Lomean",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "PARTIE_INTERVENANTE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:RVSCE:2024:ARR.261.279-004",
+        "name": "SA Foncière des Fagnes",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "PARTIE_INTERVENANTE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Par une requête introduite le 10 juin 2024 par voie électronique, la partie requérante (XXXX) demande la suspension de l'exécution et l'annulation de la décision du 2 avril 2024 par laquelle le collège communal de la commune de Crisnée délivre à la SRL Lomean et à la SA Foncière des Fagnes un permis d'urbanisme visant la transformation d'une ancienne ferme en sept logements, sise rue Arbre Saint-Pierre, 2A à 2G, à Thys. Par une requête du 28 juin 2024, la SRL Lomean et la SA Foncière des Fagnes demandent à être reçues en qualité de parties intervenantes. Un rapport a été rédigé et notifié; les parties ont été convoquées à l'audience du 17 octobre 2024 où leurs observations ont été entendues et un avis conforme a été donné. Par courrier du 30 août 2024, la partie requérante a informé le Conseil d'État de son souhait de se désister de son recours. Les parties requérante et intervenantes ont sollicité la dépersonnalisation de l'arrêt à intervenir; la demande de la partie requérante relative à la non-mention de son identité est recevable tandis que la demande des parties intervenantes visant à omettre le nom des personnes morales est irrecevable au regard de la réglementation applicable. Le Conseil d'État statue ensuite sur l'intervention, prend acte du désistement, statue sur la publication et répartit les frais.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:RVSCE:2024:ARR.261.279-001",
+          "requests": "La partie requérante demande la suspension de l'exécution de la décision du 2 avril 2024 et l'annulation de cette décision délivrant un permis d'urbanisme concernant la transformation d'une ancienne ferme en sept logements, sise rue Arbre Saint-Pierre, 2A à 2G, à Thys."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:RVSCE:2024:ARR.261.279-003",
+          "requests": "Par une requête du 28 juin 2024, la SRL Lomean demande à être reçue en qualité de partie intervenante."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:RVSCE:2024:ARR.261.279-004",
+          "requests": "Par une requête du 28 juin 2024, la SA Foncière des Fagnes demande à être reçue en qualité de partie intervenante."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "PAR CES MOTIFS, <br> LE CONSEIL D'ÉTAT DÉCIDE : \n\n## Article $1^{\\text {er }}$.\n\nLa requête en intervention introduite par la SRL Lomean et la SA Foncière des Fagnes est accueillie.\n\n## Article 2.\n\nIl est donné acte du désistement.\n\n## Article 3.\n\nLors de la publication du présent arrêt, l'identité de la partie requérante ne sera pas mentionnée.\n\n## Article 4.\n\nLa contribution prévue à l'article $66,6^{\\circ}$, du règlement général de procédure, liquidée à la somme de 24 euros, est mise à la charge de la partie requérante.\n\nLes autres dépens, liquidés à la somme de 500 euros, sont mis à charge de la partie requérante, à concurrence de 200 euros, et à charge des parties intervenantes, à concurrence de 150 euros chacune.",
+      "outcome": "DESISTEMENT"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2024:ARR.261.279-001",
+        "internalParentActId": "ACT-ECLI:BE:RVSCE:2024:ARR.261.279-001",
+        "provisionNumber": "article 93",
+        "provisionNumberKey": "93",
+        "parentActType": "AUTRE",
+        "parentActName": "règlement général de procédure (règlement général de procédure du Conseil d'État)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2024:ARR.261.279-002",
+        "internalParentActId": "ACT-ECLI:BE:RVSCE:2024:ARR.261.279-002",
+        "provisionNumber": "article 2, alinéa 1er",
+        "provisionNumberKey": "2",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 7 juillet 1997 relatif à la publication des arrêts et des ordonnances de non-admission du Conseil d'État",
+        "parentActDate": "1997-07-07",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que l'article 2, alinéa 1er, permet à toute personne physique partie à un litige porté devant le Conseil d'État de requérir que son identité ne soit pas mentionnée lors de la publication de l'arrêt. Elle en déduit toutefois que cette disposition n'autorise pas l'omission du nom des personnes morales, de sorte que la demande de dépersonnalisation des parties intervenantes, qui sont des personnes morales, ne peut être accueillie.",
+        "relevantFactualContext": "La partie requérante, une personne physique, a demandé la dépersonnalisation de son identité à la publication de l'arrêt; les parties intervenantes, la SRL Lomean et la SA Foncière des Fagnes (personnes morales), ont présenté une demande similaire qui a été rejetée en application de la disposition."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2024:ARR.261.279-003",
+        "internalParentActId": "ACT-ECLI:BE:RVSCE:2024:ARR.261.279-001",
+        "provisionNumber": "article 66, 6°",
+        "provisionNumberKey": "66",
+        "parentActType": "AUTRE",
+        "parentActName": "règlement général de procédure (règlement général de procédure du Conseil d'État)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "CONSEIL D’ÉTAT, SECTION DU CONTENTIEUX ADMINISTRATIF",
+        "date": "2024-06-10",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:RVSCE:2024:ARR.261.279-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Conseil d'État",
+        "date": "2024-09-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:RVSCE:2024:ARR.261.279-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Conseil d'État",
+        "date": "2024-10-17",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:RVSCE:2024:ARR.261.279-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Conseil d'État",
+        "date": "2024-08-30",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:RVSCE:2024:ARR.261.279-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "XIII ${ }^{\\mathrm{e}}$ chambre du Conseil d'État",
+        "date": "2024-11-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:RVSCE:2024:ARR.261.279-005"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit administratif",
+      "Permis d'urbanisme",
+      "Transformation de ferme en logements",
+      "Décision communale",
+      "Intervention de bénéficiaires",
+      "Suspension de l'exécution",
+      "Annulation de l'acte",
+      "Recevabilité de l'intervention",
+      "Répartition des dépens",
+      "Dépersonnalisation partielle"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:RVSCE:2024:ARR.261.279-001",
+        "text": "L'article 2, alinéa 1er, de l'arrêté royal du 7 juillet 1997 permet à toute personne physique partie à un litige porté devant le Conseil d'État de requérir que son identité ne soit pas mentionnée lors de la publication de l'arrêt; cette disposition n'autorise toutefois pas que le nom des personnes morales soit omis, de sorte que les demandes de dépersonnalisation formulées par des personnes morales doivent être rejetées.",
+        "courtVerbatim": "Selon l'article 2, alinéa 1er, de l'arrêté royal du 7 juillet 1997 relatif à la publication des arrêts et des ordonnances de non-admission du Conseil d'État, toute personne physique partie à un litige porté devant le Conseil d'État peut requérir dans la requête et, le cas échéant, jusqu'à la clôture des débats que, lors de la publication de l'arrêt ou de l'ordonnance, l'identité des personnes physiques ne soit pas mentionnée. Rien ne s'oppose à la demande de dépersonnalisation formulée par la partie requérante. En revanche, la disposition précitée n'autorise pas le Conseil d'État à décider que le nom de personnes morales soit omis lors de la publication de l'arrêt à intervenir. Il n'y a dès lors pas lieu de faire droit à la demande des parties intervenantes.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une personne physique requiert l'omission de son identité à la publication d'un arrêt et que des parties intervenantes, de statut différent (personnes morales), demandent également la dépersonnalisation.",
+        "relevantFactualContext": "La partie requérante, une personne physique, a demandé la dépersonnalisation de son identité à la publication de l'arrêt; les parties intervenantes, la SRL Lomean et la SA Foncière des Fagnes (personnes morales), ont présenté une demande similaire qui a été rejetée en application de la disposition.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:RVSCE:2024:ARR.261.279-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 1,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur conteste un permis d'urbanisme délivré par la commune pour la transformation d'une ancienne ferme en sept logements et sollicite la suspension et l'annulation de l'acte; deux sociétés bénéficiaires intervenantes se portent parties. Le Conseil d'État accueille la requête en intervention, prend acte du désistement du demandeur et décide que l'identité de la personne physique ne sera pas publiée tout en refusant l'omission des noms des personnes morales. Il met à la charge du demandeur une contribution de 24 euros et répartit les dépens entre le demandeur et les sociétés intervenantes."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2024:ARR.261.279-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">M. Andy Jousten, auditeur adjoint au Conseil d’État, a rédigé un rapport sur la base de l’article 93 du règlement général de procédure. Le rapport a été notifié aux parties.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:RVSCE:2024:ARR.261.279-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2024:ARR.261.279-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Selon l’article 2, alinéa 1er, de l’arrêté royal du 7 juillet 1997 relatif à la publication des arrêts et des ordonnances de non-admission du Conseil d’État, toute personne physique partie à un litige porté devant le Conseil d’État peut requérir dans</p>",
+          "<p class=\"case-section__paragraph\">ECLI:BE:RVSCE:2024:ARR.261.27 XIII - 10.394 - 2/4</p>",
+          "<p class=\"case-section__paragraph\">la requête et, le cas échéant, jusqu’à la clôture des débats que, lors de la publication de l’arrêt ou de l’ordonnance, l’identité des personnes physiques ne soit pas mentionnée. Rien ne s’oppose à la demande de dépersonnalisation formulée par la partie requérante. En revanche, la disposition précitée n’autorise pas le Conseil d’État à décider que le nom de personnes morales soit omis lors de la publication de l’arrêt à intervenir. Il n’y a dès lors pas lieu de faire droit à la demande des parties intervenantes.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:RVSCE:2024:ARR.261.279-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2024:ARR.261.279-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Article 4. La contribution prévue à l’article 66, 6o, du règlement général de procédure, liquidée à la somme de 24 euros, est mise à la charge de la partie requérante. Les autres dépens, liquidés à la somme de 500 euros, sont mis à charge de la partie requérante, à concurrence de 200 euros, et à charge des parties intervenantes, à concurrence de 150 euros chacune.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:RVSCE:2024:ARR.261.279-003"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 3,
+      "citationStatistics": {
+        "totalCitations": 5,
+        "avgCitationsPerProvision": 1.6666666666666667,
+        "provisionsWithMinimalCitations": 2,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:RVSCE:2024:ARR.261.279-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Les parties requérante et intervenantes sollicitent la dépersonnalisation de l'arrêt à intervenir. Selon l’article 2, alinéa 1er, de l’arrêté royal du 7 juillet 1997 relatif à la publication des arrêts et des ordonnances de non-admission du Conseil d’État, toute personne physique partie à un litige porté devant le Conseil d’État peut requérir dans</p>",
+          "<p class=\"case-section__paragraph\">ECLI:BE:RVSCE:2024:ARR.261.27 XIII - 10.394 - 2/4</p>",
+          "<p class=\"case-section__paragraph\">la requête et, le cas échéant, jusqu’à la clôture des débats que, lors de la publication de l’arrêt ou de l’ordonnance, l’identité des personnes physiques ne soit pas mentionnée. Rien ne s’oppose à la demande de dépersonnalisation formulée par la partie requérante. En revanche, la disposition précitée n’autorise pas le Conseil d’État à décider que le nom de personnes morales soit omis lors de la publication de l’arrêt à intervenir. Il n’y a dès lors pas lieu de faire droit à la demande des parties intervenantes.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerTeaching": 3,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

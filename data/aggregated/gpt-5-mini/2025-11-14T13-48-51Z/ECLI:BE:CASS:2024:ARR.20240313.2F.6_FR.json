@@ -1,0 +1,355 @@
+{
+  "decision_id": "ECLI:BE:CASS:2024:ARR.20240313.2F.6",
+  "language": "FR",
+  "metadata": {
+    "id": 25566,
+    "court_ecli_code": "CASS",
+    "court_name": "Cour de cassation",
+    "decision_date": "2024-03-13",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 2839,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cass., 13 mars 2024, P.23.1722.F, ECLI:BE:CASS:2024:ARR.20240313.2F.6"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+        "name": "LE PROCUREUR GÉNÉRAL PRÈS LA COUR D’APPEL DE LIEGE",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEMANDEUR_EN_CASSATION"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2024:ARR.20240313.2F.6-002",
+        "name": "L. Ch.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR_EN_CASSATION"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2024:ARR.20240313.2F.6-003",
+        "name": "P. J.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR_EN_CASSATION"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2024:ARR.20240313.2F.6-004",
+        "name": "L. L.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR_EN_CASSATION"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2024:ARR.20240313.2F.6-005",
+        "name": "L. S.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR_EN_CASSATION"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Le pourvoi est dirigé contre un arrêt rendu le 20 novembre 2023 par la cour d'appel de Liège, chambre correctionnelle. L'affaire concerne des travaux qui ont été jugés régularisables et à l'origine de poursuites pénales; les juges d'appel ont déclaré l'action publique irrecevable au motif qu'aucune transaction n'avait été proposée aux défendeurs. Le demandeur en cassation, le Procureur général près la Cour d'appel de Liège, a invoqué la violation de plusieurs textes (articles 151, §1er de la Constitution; 1er du titre préliminaire du Code de procédure pénale; 138 du Code judiciaire; 155 du Code wallon de l'Aménagement du territoire et de l'urbanisme) et fait valoir que, selon l'article 155, §6, alinéa 1er du code wallon, lorsque les travaux peuvent être régularisés et que le procureur du Roi n'a pas manifesté son intention de poursuivre dans les nonante jours de la demande qui lui en est faite, le recours à la procédure transactionnelle est obligatoire. Le mémoire du demandeur est annexé; l'avocat général a déposé des conclusions le 22 février 2024 et la cause a été entendue en audience publique le 13 mars 2024.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+          "argument": "Le moyen est fondé sur la violation des articles 151, §1er, de la Constitution, 1er du titre préliminaire du Code de procédure pénale, 138 du Code judiciaire et 155 du Code wallon de l'Aménagement du territoire et de l'urbanisme. Le demandeur reproche à l'arrêt de déclarer irrecevable l'action publique exercée à charge des défendeurs au motif qu'aucune transaction ne leur a été proposée, alors que ces travaux ont été jugés régularisables. Il invoque l'article 155, §6, al.1 du code wallon selon lequel, lorsque les travaux peuvent être régularisés et que le procureur du Roi n'a pas manifesté son intention de poursuivre dans les nonante jours de la demande, le recours à la procédure transactionnelle est obligatoire.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS,\n\nLA COUR\n\nRejette le pourvoi ;\nLaisse les frais à charge de l'Etat.\nLesdits frais taxés à la somme de cent septante euros trois centimes dus.",
+      "outcome": "REJET"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+        "provisionNumber": "article 151, § 1er",
+        "provisionNumberKey": "151",
+        "parentActType": "CONSTITUTION",
+        "parentActName": "Constitution (Constitution belge)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-002",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2024:ARR.20240313.2F.6-002",
+        "provisionNumber": "article 1er",
+        "provisionNumberKey": "1",
+        "parentActType": "CODE",
+        "parentActName": "titre préliminaire du Code de procédure pénale (Belgique)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-003",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2024:ARR.20240313.2F.6-003",
+        "provisionNumber": "article 138",
+        "provisionNumberKey": "138",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (Belgique)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-004",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2024:ARR.20240313.2F.6-004",
+        "provisionNumber": "article 155",
+        "provisionNumberKey": "155",
+        "parentActType": "CODE",
+        "parentActName": "Code wallon de l'Aménagement du territoire et de l'urbanisme",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 155, § 6, alinéa 1er du code wallon en ce sens que, lorsque les travaux sont régularisables et que le procureur du Roi n'a pas manifesté, dans les nonante jours de la demande qui lui en est faite, son intention de poursuivre les contrevenants, le recours à la procédure transactionnelle est obligatoire. L'omission par le fonctionnaire délégué de proposer la transaction constitue une formalité substantielle dont le manquement justifie l'irrecevabilité des poursuites.",
+        "relevantFactualContext": "En l'espèce, les travaux reprochés ont été jugés régularisables et les défendeurs ne se sont pas vus proposer une transaction; la cour d'appel a constaté cette omission et a déclaré l'action publique irrecevable en raison du manquement à la formalité transactionnelle prévue par la loi."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "cour d'appel de Liège, chambre correctionnelle",
+        "date": "2023-11-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit de l'urbanisme",
+      "Travaux non conformes",
+      "Travaux régularisables",
+      "Demande de régularisation",
+      "Transaction non proposée",
+      "Recevabilité des poursuites",
+      "Obligation de transaction",
+      "Nullité procédurale",
+      "Pouvoir du fonctionnaire délégué",
+      "Sanction par irrecevabilité"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+        "text": "Lorsque, en vertu de l'article 155, §6, al.1er du code wallon, des travaux sont régularisables et que le procureur du Roi n'a pas manifesté, dans le délai prévu, son intention de poursuivre, le recours à la procédure transactionnelle devient obligatoire; l'omission par le fonctionnaire délégué de proposer la transaction constitue une formalité substantielle dont le manquement entraîne l'irrecevabilité des poursuites.",
+        "courtVerbatim": "Il résulte de l'article 155, § 6, alinéa 1er, du code wallon précité que, lorsque les travaux peuvent être régularisés et que le procureur du Roi n'a pas manifesté son intention de poursuivre les contrevenants dans les nonante jours de la demande qui lui en est faite, le recours à la procédure transactionnelle est obligatoire. Ayant constaté que les défendeurs ne se sont pas vus proposer une transaction, alors que la loi en fait obligation au fonctionnaire délégué quand il y va, comme en l'espèce, de travaux régularisables, les juges d'appel ont légalement sanctionné l'omission de cette formalité substantielle par l'irrecevabilité des poursuites.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque des travaux sont jugés régularisables et qu'une demande de régularisation a été adressée sans que le procureur du Roi, dans le délai légal, manifeste son intention de poursuivre, de sorte que la procédure transactionnelle devait être proposée.",
+        "relevantFactualContext": "En l'espèce, les travaux reprochés ont été jugés régularisables; les défendeurs ne se sont pas vus proposer une transaction par le fonctionnaire délégué; la cour d'appel a constaté cette omission et a déclaré l'action publique irrecevable pour manquement à la formalité transactionnelle prévue par la loi.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 1,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur a exercé l'action publique contre les défendeurs pour des travaux jugés régularisables. La Cour de cassation rejette le pourvoi et confirme que l'arrêt d'appel a déclaré l'action irrecevable en raison de l'absence de proposition de transaction obligatoire au sens de l'article 155 §6 du code wallon. Elle retient que l'omission de cette formalité substantielle entraîne l'irrecevabilité des poursuites."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le moyen est pris de la violation des articles 151, § 1er, de la Constitution, 1er du titre préliminaire du Code de procédure pénale, 138 du Code judiciaire et 155 du Code wallon de l’Aménagement du territoire et de l’urbanisme.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-002",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-003",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le moyen est pris de la violation des articles 151, § 1er, de la Constitution, 1er du titre préliminaire du Code de procédure pénale, 138 du Code judiciaire et 155 du Code wallon de l’Aménagement du territoire et de l’urbanisme.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-002",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-003",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le moyen est pris de la violation des articles 151, § 1er, de la Constitution, 1er du titre préliminaire du Code de procédure pénale, 138 du Code judiciaire et 155 du Code wallon de l’Aménagement du territoire et de l’urbanisme.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-003",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-002",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le moyen est pris de la violation des articles 151, § 1er, de la Constitution, 1er du titre préliminaire du Code de procédure pénale, 138 du Code judiciaire et 155 du Code wallon de l’Aménagement du territoire et de l’urbanisme.</p>",
+          "<p class=\"case-section__paragraph\">Le demandeur reproche à l’arrêt de déclarer irrecevable l’action publique exercée à charge des défendeurs, au motif qu’aucune transaction ne leur a été proposée quant aux travaux qui leur sont reprochés, alors que ceux-ci ont été jugés régularisables.</p>",
+          "<p class=\"case-section__paragraph\">Il résulte de l’article 155, § 6, alinéa 1er, du code wallon précité que, lorsque les travaux peuvent être régularisés et que le procureur du Roi n’a pas manifesté son intention de poursuivre les contrevenants dans les nonante jours de la demande qui lui en est faite, le recours à la procédure transactionnelle est obligatoire.</p>",
+          "<p class=\"case-section__paragraph\">Ayant constaté que les défendeurs ne se sont pas vus proposer une transaction, alors que la loi en fait obligation au fonctionnaire délégué quand il y va, comme en l’espèce, de travaux régularisables, les juges d’appel ont légalement sanctionné l’omission de cette formalité substantielle par l’irrecevabilité des poursuites.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-004",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-002",
+          "ART-ECLI:BE:CASS:2024:ARR.20240313.2F.6-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 4,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerProvision": 1.75,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 4,
+        "avgDecisionsPerProvision": 0.25,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2024:ARR.20240313.2F.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le moyen est pris de la violation des articles 151, § 1er, de la Constitution, 1er du titre préliminaire du Code de procédure pénale, 138 du Code judiciaire et 155 du Code wallon de l’Aménagement du territoire et de l’urbanisme.</p>",
+          "<p class=\"case-section__paragraph\">Le demandeur reproche à l’arrêt de déclarer irrecevable l’action publique exercée à charge des défendeurs, au motif qu’aucune transaction ne leur a été proposée quant aux travaux qui leur sont reprochés, alors que ceux-ci ont été jugés régularisables.</p>",
+          "<p class=\"case-section__paragraph\">Il résulte de l’article 155, § 6, alinéa 1er, du code wallon précité que, lorsque les travaux peuvent être régularisés et que le procureur du Roi n’a pas manifesté son intention de poursuivre les contrevenants dans les nonante jours de la demande qui lui en est faite, le recours à la procédure transactionnelle est obligatoire.</p>",
+          "<p class=\"case-section__paragraph\">Ayant constaté que les défendeurs ne se sont pas vus proposer une transaction, alors que la loi en fait obligation au fonctionnaire délégué quand il y va, comme en l’espèce, de travaux régularisables, les juges d’appel ont légalement sanctionné l’omission de cette formalité substantielle par l’irrecevabilité des poursuites.</p>",
+          "<p class=\"case-section__paragraph\">Et les formalités substantielles ou prescrites à peine de nullité ont été observées et que la décision est conforme à la loi.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 5,
+        "avgCitationsPerTeaching": 5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

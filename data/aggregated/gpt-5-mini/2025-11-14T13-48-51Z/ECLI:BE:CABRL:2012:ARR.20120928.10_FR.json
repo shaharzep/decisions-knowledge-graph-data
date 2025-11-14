@@ -1,0 +1,427 @@
+{
+  "decision_id": "ECLI:BE:CABRL:2012:ARR.20120928.10",
+  "language": "FR",
+  "metadata": {
+    "id": 150974,
+    "court_ecli_code": "CABRL",
+    "court_name": "Cour d'appel du ressort de Bruxelles",
+    "decision_date": "2012-09-28",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 5948,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour d'appel de Bruxelles, 28 septembre 2012, ECLI:BE:CABRL:2012:ARR.20120928.10"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2012:ARR.20120928.10-001",
+        "name": "Mme Gisèle R",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2012:ARR.20120928.10-002",
+        "name": "M. Léandre D",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2012:ARR.20120928.10-003",
+        "name": "Mme Christiane G",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "INTIME"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Mme Gisèle R, en sa qualité d'héritière de sa mère Mme SCHMIDT, décédée le 3 juin 2001, a poursuivi devant le premier juge (citation du 29 décembre 2009) la condamnation solidaire des époux D, titulaires d'une procuration sur les comptes de sa mère auprès de la SA CBC BANQUE, à lui restituer les sommes qu'ils auraient retirées et dépensées à des fins personnelles: 363.023 FB (8.999,11 euro) et 50.000 FB (1.239,47 euro) retirées peu de temps avant le décès, et 27.900 FB (691,62 euro) postérieurement. Elle réclamait ces montants majorés des intérêts moratoires depuis respectivement le 28 mai 2001, le 30 avril 2001 et le 17 avril 2002, ainsi que des intérêts judiciaires et des dépens. Le premier juge, par jugement du 25 juin 2010, fit droit à la demande sauf en ce qui concerne la somme de 691,62 euro et fixa globalement le point de départ des intérêts moratoires au jour de la citation introductive d'instance. Mme R a interjeté appel le 16 novembre 2010 en demandant notamment que les intérêts courent dès le 28 mai 2001 pour l'ensemble des montants réclamés et a formé une demande nouvelle, en sa qualité de représentant légal de son fils mineur Hugo LOPRESTI, en paiement de 10.000,00 euro. Les époux D concluent au rejet de l'appel principal et forment un appel incident tendant à dire la demande originaire non fondée.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2012:ARR.20120928.10-001",
+          "requests": "Mme Gisèle R demande la réformation du jugement entrepris en ce qu'il rejette une partie de sa demande, que les intérêts moratoires soient fixés dès le 28 mai 2001 pour l'ensemble des montants réclamés, et, en sa qualité de représentant légal de son fils mineur, l'allocation de 10.000,00 euro en dommages-intérêts."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2012:ARR.20120928.10-002",
+          "requests": "M. Léandre D et Mme Christiane G demandent le rejet de l'appel principal et forment, par appel incident, à dire la demande originaire non fondée."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2012:ARR.20120928.10-001",
+          "argument": "Mme R soutient que, en tant qu'héritière de Mme SCHMIDT, elle est fondée à réclamer la restitution des sommes retirées et le paiement des intérêts moratoires depuis les dates indiquées (notamment le 28 mai 2001 pour la somme principale), et invoque, par application de l'article 1996 du Code civil, que les mandataires qui n'ont pas rendu compte de leur gestion doivent l'intérêt des sommes employées à leur usage; elle demande en outre, en sa qualité de représentant légal de son fils mineur, des dommages et intérêts de 10.000,00 euro.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2012:ARR.20120928.10-002",
+          "argument": "Les époux D reconnaissent leur qualité de mandataires mais allèguent que le retrait de 8.999,11 euro le 28 mai 2001, ainsi que le retrait du 30 avril 2001, ont été effectués sur instruction de leur mandante afin de redistribuer certaines sommes à des œuvres caritatives, de sorte qu'ils ne sauraient être condamnés à restitution; ils soutiennent en substance qu'ils ont agi en exécution des directives de la titulaire des comptes.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS, LA COUR, Statuant contradictoirement, Vu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire, Reçoit les appels, Dit l'appel principal seul partiellement fondé, En conséquence, Confirme le jugement entrepris en toutes ses dispositions, sauf en tant qu'il statue sur les intérêts dus sur la somme de 10.239,00 euro ; Statuant à nouveau quant à ce, Condamne M. Léandre D et Mme Christiane G à payer des intérêts moratoires au taux légaux successifs sur la somme précitée de 10.239,00 euro depuis le 28 mai 2001 jusqu'au parfait paiement ; Rejette la demande nouvelle en paiement de dommages formée par Mme R en sa qualité de représentant légal de son fils mineur ; Condamne solidairement M. Léandre D et Mme Christiane G aux dépens d'appel, liquidés à 186,00 euro + 2.200, 00 euro pour Mme DR.",
+      "outcome": "CONFIRMATION_PARTIELLE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-001",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:20120928.10-001",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-002",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2012:ARR.20120928.10-002",
+        "provisionNumber": "article 1341",
+        "provisionNumberKey": "1341",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour applique l'article 1341 du Code civil en rappelant que le mandataire qui prétend être libéré doit rapporter la preuve des faits justifiant sa libération selon le droit commun; à défaut de preuve, la prétention du mandataire ne peut prospérer.",
+        "relevantFactualContext": "Retraits opérés sur les comptes de Mme S les 28 mai 2001 (8.999,11 €) et 30 avril 2001 (1.239,47 €) que les époux D invoquent comme effectués sur instruction de la mandante pour des « œuvres caritatives », sans pièce ni indication des bénéficiaires."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-003",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:20120928.10-002",
+        "provisionNumber": "article 1348",
+        "provisionNumberKey": "1348",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour indique que l'article 1348 du Code civil permet au mandataire d'invoquer une impossibilité morale ou matérielle de se constituer un écrit pour se libérer de sa charge; toutefois cette exception exige que le mandataire démontre effectivement l'impossibilité invoquée, ce qui n'a pas été fait en l'espèce.",
+        "relevantFactualContext": "Les époux D n'ont pas produit le chèque de 691,62 € ni justifié une impossibilité matérielle ou morale de produire un écrit pour attester des retraits litigieux opérés après ou avant le décès."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-004",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2012:ARR.20120928.10-002",
+        "provisionNumber": "article 1996",
+        "provisionNumberKey": "1996",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 1996 du Code civil comme imposant au mandataire l'obligation de payer l'intérêt sur les sommes qu'il a employées à son usage à compter de cet emploi, et sur celles dont il est reliquataire à compter du jour où il est mis en demeure; l'inaction prolongée du créancier ne suffit pas à éteindre ce droit en l'absence d'une disposition légale expresse.",
+        "relevantFactualContext": "Les époux D n'ont pas rendu compte de leur gestion alors qu'ils savaient que Mme S avait une fille et qu'elle était son unique héritière; la Cour condamne aux intérêts moratoires sur la somme litigieuse (10.239,00 €) depuis le 28 mai 2001."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance",
+        "date": "2009-12-29",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2012:ARR.20120928.10-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit des successions",
+      "Procuration bancaire",
+      "Retraits sur comptes",
+      "Décès du titulaire",
+      "Absence de justificatifs",
+      "Responsabilité du mandataire",
+      "Preuve de l'autorisation",
+      "Restitution des fonds",
+      "Intérêts moratoires",
+      "Refus qualité de représentant"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2012:ARR.20120928.10-001",
+        "text": "Le mandataire qui prétend être libéré de sa charge doit rapporter la preuve des faits justifiant sa libération conformément au droit commun de l'article 1341 du Code civil; l'absence de pièces ou d'indications suffisantes empêche la réussite de sa prétention.",
+        "courtVerbatim": "Le mandataire doit cependant démonter le fait qui justifie sa libération, en respectant le droit commun de l'article 1341 du Code civil ou en se prévalant d'une impossibilité morale ou matérielle de se préconstituer un écrit (article 1348 du Code civil). Une telle preuve n'est pas rapportée par les époux D, qui n'offrent même pas d'indiquer à quelles « œuvres caritatives » les sommes précitées auraient été données.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque le mandataire soutient avoir été libéré de sa charge et invoque des instructions ou actes sans produire de preuve écrite.",
+        "relevantFactualContext": "Les époux D invoquent que des retraits de 8.999,11 € et 1.239,47 € l'ont été sur instruction de la mandante pour des « œuvres caritatives » sans produire de pièces ni indiquer les bénéficiaires; la Cour constate l'absence de preuve.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CABRL:2012:ARR.20120928.10-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CABRL:20120928.10-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2012:ARR.20120928.10-002",
+        "text": "L'article 1348 du Code civil permet au mandataire d'invoquer une impossibilité morale ou matérielle de se constituer un écrit pour se libérer de sa charge; cependant cette exception exige que le mandataire démontre effectivement l'impossibilité invoquée, faute de quoi l'exigence de preuve écrite demeure.",
+        "courtVerbatim": "Le mandataire doit cependant démonter le fait qui justifie sa libération, en respectant le droit commun de l'article 1341 du Code civil ou en se prévalant d'une impossibilité morale ou matérielle de se préconstituer un écrit (article 1348 du Code civil). Une telle preuve n'est pas rapportée par les époux D, qui n'offrent même pas d'indiquer à quelles « œuvres caritatives » les sommes précitées auraient été données.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque le mandataire soutient qu'il était matériellement ou moralement dans l'impossibilité de se constituer un écrit pour justifier ses actes.",
+        "relevantFactualContext": "Les époux D n'ont pas produit le chèque de 691,62 € ni justifié une impossibilité matérielle ou morale de produire un écrit attestant les retraits litigieux; la Cour retient que cette preuve fait défaut.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": "TEACH-ECLI:BE:CABRL:2012:ARR.20120928.10-001",
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CABRL:20120928.10-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2012:ARR.20120928.10-003",
+        "text": "Selon l'article 1996 du Code civil, le mandataire doit payer l'intérêt sur les sommes qu'il a employées à son usage à compter de cet emploi, et sur celles dont il est reliquataire à compter du jour où il est mis en demeure; l'absence prolongée d'action du créancier n'éteint pas ce droit sans disposition légale expresse.",
+        "courtVerbatim": "Selon l'article 1996 du Code civil, le mandataire doit l'intérêt des sommes qu'il a employées à son usage, à dater de cet emploi et celles dont il est reliquataire, à compter du jour où il est mis en demeure. En l'espèce, les époux D n'ont pas rendu compte de leur gestion, alors qu'ils n'ignoraient pas que Mme S avait une fille, ni qu'elle était son unique héritière. Aucune disposition légale ne consacrant l'idée générale que l'absence prolongée de mise en œuvre d'un droit -ici au paiement d'intérêts- pourrait, en dehors de l'échéance d'un délai de prescription, entraîner son extinction ou sa paralysie, l'appel principal est fondé sur ce point.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un mandataire a employé des fonds à son usage ou est reliquataire et que le titulaire du droit réclame des intérêts.",
+        "relevantFactualContext": "Les époux D n'ont pas rendu compte de leur gestion alors qu'ils savaient que Mme S avait une fille et qu'elle était son unique héritière; la Cour condamne aux intérêts moratoires sur la somme litigieuse (10.239,00 €) depuis le 28 mai 2001.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CABRL:20120928.10-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 1,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 1,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, héritier de la défunte, a assigné les défendeurs, mandataires bancaires, pour obtenir la restitution de retraits effectués sur le compte de la défunte. La cour confirme en grande partie le jugement: elle condamne solidairement les défendeurs à payer des intérêts moratoires sur 10.239,00 € depuis le 28 mai 2001, rejette la créance de 691,62 € pour défaut de preuve et écarte la nouvelle demande de dommages-intérêts formée au nom d'un mineur. Elle rappelle que le mandataire doit prouver la justification des retraits et qu'en l'absence de reddition de comptes il est redevable d'intérêts (art.1996 C. civ.)."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Statuant contradictoirement, Vu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire, Reçoit les appels, Dit l'appel principal seul partiellement fondé, En conséquence, Confirme le jugement entrepris en toutes ses dispositions, sauf en tant qu'il statue sur les intérêts dus sur la somme de 10.239,00 euro ; Statuant à nouveau quant à ce, Condamne M. Léandre D et Mme Christiane G à payer des intérêts moratoires au taux légaux successifs sur la somme précitée de 10.239,00 euro depuis le 28 mai 2001 jusqu'au parfait paiement ; Rejette la demande nouvelle en paiement de dommages formée par Mme R en sa qualité de représentant légal de son fils mineur ; Condamne solidairement M. Léandre D et Mme Christiane G aux dépens d'appel, liquidés à 186,00 euro + 2.200, 00 euro pour Mme DR. Ainsi jugé et prononcé à l'audience civile publique de la 7ème chambre de la cour d'appel de Bruxelles, le 28 septembre 2012 Où sont présents : Mme A. Bouché, conseiller unique, Mme J. Gurhem, greffier, J. Gurhem A. Bouché</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Les époux D, qui ne contestent nullement leur qualité de mandataires de Mme S allèguent que le retrait de la somme de 8.999,11 euro , le 28 mai 2001, le fut sur l'instruction de leur mandante en vue de « redistribuer certaines sommes à des œuvres caritatives afin que sa fille n'en profite pas » (conclusions, p. 3) Le mandataire doit cependant démonter le fait qui justifie sa libération, en respectant le droit commun de l'article 1341 du Code civil ou en se prévalant d'une impossibilité morale ou matérielle de se préconstituer un écrit (article 1348 du Code civil). Une telle preuve n'est pas rapportée par les époux D, qui n'offrent même pas d'indiquer à quelles « œuvres caritatives » les sommes précitées auraient été données. Le même raisonnement doit être tenu et le même constat fait en ce qui concerne le retrait du 30 avril 2001 (1.239,47 euro ). L'appel incident n'est pas fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-002",
+          "ART-ECLI:BE:CABRL:20120928.10-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Les époux D, qui ne contestent nullement leur qualité de mandataires de Mme S allèguent que le retrait de la somme de 8.999,11 euro , le 28 mai 2001, le fut sur l'instruction de leur mandante en vue de « redistribuer certaines sommes à des œuvres caritatives afin que sa fille n'en profite pas » (conclusions, p. 3) Le mandataire doit cependant démonter le fait qui justifie sa libération, en respectant le droit commun de l'article 1341 du Code civil ou en se prévalant d'une impossibilité morale ou matérielle de se préconstituer un écrit (article 1348 du Code civil). Une telle preuve n'est pas rapportée par les époux D, qui n'offrent même pas d'indiquer à quelles « œuvres caritatives » les sommes précitées auraient été données. Le même raisonnement doit être tenu et le même constat fait en ce qui concerne le retrait du 30 avril 2001 (1.239,47 euro ). L'appel incident n'est pas fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-003",
+          "ART-ECLI:BE:CABRL:20120928.10-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Selon l'article 1996 du Code civil, le mandataire doit l'intérêt des sommes qu'il a employées à son usage, à dater de cet emploi et celles dont il est reliquataire, à compter du jour où il est mis en demeure. En l'espèce, les époux D n'ont pas rendu compte de leur gestion, alors qu'ils n'ignoraient pas que Mme S avait une fille, ni qu'elle était son unique héritière. Aucune disposition légale ne consacrant l'idée générale que l'absence prolongée de mise en œuvre d'un droit -ici au paiement d'intérêts- pourrait, en dehors de l'échéance d'un délai de prescription, entraîner son extinction ou sa paralysie, l'appel principal est fondé sur ce point.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2012:ARR.20120928.10-004"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 4,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 4,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.5,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2012:ARR.20120928.10-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Les époux D, qui ne contestent nullement leur qualité de mandataires de Mme S allèguent que le retrait de la somme de 8.999,11 euro , le 28 mai 2001, le fut sur l'instruction de leur mandante en vue de « redistribuer certaines sommes à des œuvres caritatives afin que sa fille n'en profite pas » (conclusions, p. 3) Le mandataire doit cependant démonter le fait qui justifie sa libération, en respectant le droit commun de l'article 1341 du Code civil ou en se prévalant d'une impossibilité morale ou matérielle de se préconstituer un écrit (article 1348 du Code civil). Une telle preuve n'est pas rapportée par les époux D, qui n'offrent même pas d'indiquer à quelles « œuvres caritatives » les sommes précitées auraient été données. Le même raisonnement doit être tenu et le même constat fait en ce qui concerne le retrait du 30 avril 2001 (1.239,47 euro ). L'appel incident n'est pas fondé.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2012:ARR.20120928.10-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Les époux D, qui ne contestent nullement leur qualité de mandataires de Mme S allèguent que le retrait de la somme de 8.999,11 euro , le 28 mai 2001, le fut sur l'instruction de leur mandante en vue de « redistribuer certaines sommes à des œuvres caritatives afin que sa fille n'en profite pas » (conclusions, p. 3) Le mandataire doit cependant démonter le fait qui justifie sa libération, en respectant le droit commun de l'article 1341 du Code civil ou en se prévalant d'une impossibilité morale ou matérielle de se préconstituer un écrit (article 1348 du Code civil). Une telle preuve n'est pas rapportée par les époux D, qui n'offrent même pas d'indiquer à quelles « œuvres caritatives » les sommes précitées auraient été données. Le même raisonnement doit être tenu et le même constat fait en ce qui concerne le retrait du 30 avril 2001 (1.239,47 euro ). L'appel incident n'est pas fondé.</p>",
+          "<p class=\"case-section__paragraph\">En revanche, Mme R ne démontre pas que le chèque de 691,62 euro , débité du compte de sa mère après son décès et qui, au demeurant, n'est pas produit, aurait été encaissé par les époux D. Les éléments contenus dans le dossier répressif produit n'apportent pas un autre éclairage à cet aspect du litige. L'appel principal n'est pas fondé quant à ce.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2012:ARR.20120928.10-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Selon l'article 1996 du Code civil, le mandataire doit l'intérêt des sommes qu'il a employées à son usage, à dater de cet emploi et celles dont il est reliquataire, à compter du jour où il est mis en demeure. En l'espèce, les époux D n'ont pas rendu compte de leur gestion, alors qu'ils n'ignoraient pas que Mme S avait une fille, ni qu'elle était son unique héritière. Aucune disposition légale ne consacrant l'idée générale que l'absence prolongée de mise en œuvre d'un droit -ici au paiement d'intérêts- pourrait, en dehors de l'échéance d'un délai de prescription, entraîner son extinction ou sa paralysie, l'appel principal est fondé sur ce point.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerTeaching": 1.3333333333333333,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 3,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

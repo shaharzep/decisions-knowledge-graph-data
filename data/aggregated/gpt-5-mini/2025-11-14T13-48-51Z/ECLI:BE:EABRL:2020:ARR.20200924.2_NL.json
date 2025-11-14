@@ -1,0 +1,1882 @@
+{
+  "decision_id": "ECLI:BE:EABRL:2020:ARR.20200924.2",
+  "language": "NL",
+  "metadata": {
+    "id": 17937,
+    "court_ecli_code": "EABRL",
+    "court_name": "Nederlandstalige Rechtbank van Eerste Aanleg te Brussel",
+    "decision_date": "2020-09-24",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 43365,
+    "length_category": "very_long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Grondwettelijk Hof, 24 september 2020, Arrest nr. 115/2020 (rolnr. 7032), ECLI:BE:EABRL:2020:ARR.20200924.2"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "name": "Hof van Beroep te Luik",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+        "name": "de inverdenkinggestelde (anoniem)",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "BEKLAAGDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:EABRL:2020:ARR.20200924.2-003",
+        "name": "Openbaar Ministerie (procureur des Konings)",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "OPENBAAR_MINISTERIE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Het verwijzingsarrest van 18 oktober 2018, ingekomen op 24 oktober 2018, betreft een prejudiciële vraag van het Hof van Beroep te Luik over de verenigbaarheid van artikel 22 van de wet van 15 juni 1935 (gebruik der talen in gerechtszaken), zoals van kracht vóór 1 juni 2017, met onder meer de artikelen 10, 11, 12 en 13 van de Grondwet en met bepalingen van het EVRM en de richtlijn 2010/64/EU. De feiten betreffen de situatie van een inverdenkinggestelde die wordt vervolgd voor meerdere feiten gepleegd in het Duitse taalgebied en die een verzoek tot Franse vertaling van in het Duits opgestelde processtukken indiende nadat hij in december 2014 bijkomende onderzoekshandelingen had gevraagd en hoger beroep had ingesteld tegen de raadkamer. Het openbaar ministerie wees het verzoek om vertaling in augustus 2015 af op grond van stukjes waaruit voortspruit dat de beklaagde voldoende Duits beheerst. Na verwijzing naar de correctionele rechtbank besloot die rechtbank te Eupen op 2 mei 2016 op verzoek van de beklaagde de procedure in het Frans voort te zetten. De beklaagde herhaalde zijn vertaalverzoek op 29 mei 2017; bij vonnis van 14 juni 2017 werd dat verzoek ingewilligd en werd de Franse vertaling van de essentiële stukken op 5 september 2017 ter griffie neergelegd. Het Hof beperkt zijn onderzoek tot die situatie en tot de wetgeving vóór 1 juni 2017.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+          "requests": "Het Hof van Beroep te Luik verzoekt het Grondwettelijk Hof te oordelen of artikel 22 van de wet van 15 juni 1935, zoals van kracht vóór 1 juni 2017, de artikelen 10, 11, 12 en 13 van de Grondwet, al dan niet in samenhang met artikel 6 en 13 EVRM en artikel 3 van richtlijn 2010/64/EU, schendt in zoverre dat in het gerechtelijk vooronderzoek de inverdenkinggestelde zijn verzoek tot vertaling aan het openbaar ministerie moest richten zonder dat een weigering door het openbaar ministerie onderwerp kon zijn van een daadwerkelijke rechterlijke toetsing."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "Om die redenen,\nhet Hof\nzegt voor recht:\nArtikel 22 van de wet van 15 juni 1935 «op het gebruik der talen in gerechtszaken», zoals het van kracht was vóór 1 juni 2017, schendt niet de artikelen 10, 11 en 13 van de Grondwet, al dan niet in samenhang gelezen met de artikelen 6 en 13 van het Europees Verdrag voor de rechten van de mens, met de artikelen 47 en 48, lid 2, van het Handvest van de grondrechten van de Europese Unie en met artikel 3, lid 5, van de richtlijn 2010/64/EU van het Europees Parlement en de Raad van 20 oktober 2010 «betreffende het recht op vertolking en vertaling in strafprocedures».",
+      "outcome": "ONGEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 22",
+        "provisionNumberKey": "22",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 betreffende het gebruik der talen in gerechtszaken (zoals van kracht vóór 1 juni 2017)",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 22 een recht garandeert op kosteloze vertaling van essentiële processtukken voor de verdachte die de landstaal niet verstaat, en dat het verzoek in het stadium van het gerechtelijk onderzoek aan het openbaar ministerie kan worden gericht. Dit artikel verplicht echter niet dat de procureurbeslissing onherroepelijk is: het Hof acht de mogelijkheid van jurisdictionele controle door de onderzoeksgerechten en later door het vonnisgerecht toereikend, zodat de bevoegdheid van het openbaar ministerie om te beslissen over vertalingsverzoeken niet onverenigbaar is met de rechten van verdediging of met een eerlijk proces.",
+        "relevantFactualContext": "Betreft verdachte uit Duitstalig gebied die in augustus 2015 een Frans vertaalverzoek van Duitstalige dossierstukken indiende dat het openbaar ministerie weigerde wegens vermeende voldoende kennis van Duits; na verwijzing besliste de correctionele rechtbank in mei 2016 om in het Frans voort te procederen; een herhaald verzoek van 29-05-2017 werd bij vonnis van 14-06-2017 ingewilligd en Franse vertalingen werden op 05-09-2017 neergelegd."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+        "provisionNumber": "artikel 10",
+        "provisionNumberKey": "10",
+        "parentActType": "GRONDWET",
+        "parentActName": "Belgische Grondwet",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof beschouwt artikel 10 als de grondslag voor het gelijkheids- en non-discriminatiebeginsel; bij toetsing van artikel 22 wordt nagegaan of die bepaling zonder redelijke rechtvaardiging bepaalde categorieën van personen ongelijk behandelt en aldus de rechten van verdediging ontzegt.",
+        "relevantFactualContext": "Getoetst in de context van een Duitstalige verdachte die verplicht was een vertaalverzoek aan het openbaar ministerie te richten en die aanvoert dat die procedure zijn toegang tot effectieve rechtsmiddelen en gelijke behandeling aantast."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-003",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "GRONDWET",
+        "parentActName": "Belgische Grondwet",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof benadrukt dat artikel 11 het verbod op discriminatie verzekert; bij de beoordeling van artikel 22 wordt nagegaan of de regeling van vertaalverzoeken systematisch bepaalde taalgroepen benadeelt zonder objectieve rechtvaardiging.",
+        "relevantFactualContext": "Betreft de klacht van een Duitstalige verdachte die stelt dat de procedure om vertalingen via het openbaar ministerie te verkrijgen tot ongelijke behandeling leidt in vergelijking met andere procesdeelnemers."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "GRONDWET",
+        "parentActName": "Belgische Grondwet",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-005",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "GRONDWET",
+        "parentActName": "Belgische Grondwet",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-006",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-003",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "VERDRAG",
+        "parentActName": "Europees Verdrag voor de Rechten van de Mens (EVRM)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof volgt de uitleg dat artikel 6 EVRM vanaf het stadium van strafvervolging van toepassing is en dat de waarborgen van lid 3 (met name lit. a en c) relevant zijn voor het vooronderzoek indien de initiële niet‑naleving de eerlijkheid van het gehele proces ernstig in het gedrang brengt. Het Hof benadrukt dat kennisgeving van de beschuldiging zeer zorgvuldig moet gebeuren en dat schriftelijke vertaling van essentiële stukken nodig kan zijn tenzij uit de feiten volgt dat de verdachte de taal voldoende beheerst; de verplichting tot vertaling strekt zich niet uit tot elk document.",
+        "relevantFactualContext": "Toegepast op de zaak van een Duitstalige verdachte die om Franse vertalingen vroeg; het openbaar ministerie weigerde in augustus 2015 wegens veronderstelde taalkennis, waarna de vraag naar de impact van die weigering op het recht op een eerlijk proces werd beoordeeld."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-007",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-003",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "VERDRAG",
+        "parentActName": "Europees Verdrag voor de Rechten van de Mens (EVRM)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof houdt voor ogen dat artikel 13 EVRM het recht op een effectief nationaal rechtsmiddel beschermt; in casu oordeelt het Hof dat de mogelijkheid om de weigering van vertaling voor onderzoeksgerechten aan te vechten een doeltreffend rechtsmiddel biedt en aldus geen schending van artikel 13 oplevert.",
+        "relevantFactualContext": "Beoordeling van de klacht dat de weigering door het openbaar ministerie om vertalingen te verlenen geen effectieve nationale beroepsmogelijkheid liet, gelet op de bestaande procedure om voor onderzoeksgerechten dergelijke beslissingen te laten toetsen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-008",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+        "provisionNumber": "artikel 47",
+        "provisionNumberKey": "47",
+        "parentActType": "VERDRAG",
+        "parentActName": "Handvest van de grondrechten van de Europese Unie",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 47 van het Handvest het recht op doeltreffende rechtsbescherming en een eerlijk proces waarborgt, maar dat zijn toepassing door het nationale Hof slechts aan de orde is voor die nationale regels die Unierecht uitvoeren, overeenkomstig artikel 51, lid 1. Het Hof wijst erop dat de uitlegging van artikel 47 in overeenstemming moet zijn met de bescherming die het EVRM biedt.",
+        "relevantFactualContext": "Gekoppeld aan de omzetting van richtlijn 2010/64/EU en de toetsing of artikel 22 van de wet van 15 juni 1935, als maatregel die onder die richtlijn valt, voldoet aan de waarborgen inzake rechtsbescherming."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-009",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+        "provisionNumber": "artikel 48, lid 2",
+        "provisionNumberKey": "48",
+        "parentActType": "VERDRAG",
+        "parentActName": "Handvest van de grondrechten van de Europese Unie",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof merkt op dat artikel 48, lid 2, van het Handvest overeenstemt met beschermingen van artikel 6 EVRM en dat het de eerbiediging van de rechten van verdediging waarborgt; deze bepaling ondersteunt de toetsing of nationale regelingen (zoals artikel 22) voldoende waarborgen bieden voor de verdediging.",
+        "relevantFactualContext": "Ingezet ter beoordeling van de vraag of de regeling rond vertalingsverzoeken in het vooronderzoek de rechten van verdediging van een Duitstalige verdachte aantast."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-010",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+        "provisionNumber": "artikel 51, lid 1",
+        "provisionNumberKey": "51",
+        "parentActType": "VERDRAG",
+        "parentActName": "Handvest van de grondrechten van de Europese Unie",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof benadrukt dat artikel 51, lid 1, de toepassingssfeer van het Handvest beperkt tot situaties waarin nationale bepalingen Unierecht ten uitvoer brengen; het gevolg is dat artikel 47 van het Handvest enkel teweegbrengt dat moet worden aangehaakt indien de nationale regeling onderwerp is van de richtlijn 2010/64/EU.",
+        "relevantFactualContext": "Betreft beoordeling of artikel 22 van de wet van 15 juni 1935, vóór 1 juni 2017, binnen de werkingssfeer van het Unierecht valt wegens de verplichtingen uit Richtlijn 2010/64/EU."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+        "provisionNumber": "artikel 52, lid 3",
+        "provisionNumberKey": "52",
+        "parentActType": "VERDRAG",
+        "parentActName": "Handvest van de grondrechten van de Europese Unie",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verwijst naar artikel 52, lid 3, als regel dat de uitleg van het Handvest zodanig moet zijn dat het beschermingsniveau niet in strijd is met hetgeen door het EVRM wordt geboden; dat vraagt om coherente interpretatie tussen HvJ en EHRM bij de beoordeling van vertaalrechten en procesgaranties.",
+        "relevantFactualContext": "Relevantie voor de toetsing van de nationale vertaalregeling aan zowel Unierechtelijke als EHRM‑normen in de zaak van de Duitstalige verdachte."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-012",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-005",
+        "provisionNumber": "Richtlijn 2010/64/EU van 20 oktober 2010",
+        "provisionNumberKey": "2010/64",
+        "parentActType": "EU_RICHTLIJN",
+        "parentActName": "Richtlijn 2010/64/EU van 20 oktober 2010 betreffende het recht op vertolking en vertaling in strafprocedures (algemeen)",
+        "parentActDate": "2010-10-20",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verklaart dat Richtlijn 2010/64/EU gemeenschappelijke minimumnormen stelt ter verwezenlijking van het recht op vertolking en vertaling, dat zij de in artikel 6 EVRM en artikelen 47 en 48 van het Handvest gewaarborgde rechten eerbiedigt, en dat zij lidstaten verplicht mechanismen te voorzien om vast te stellen of een verdachte de taal beheerst en welke taalkundige bijstand vereist is.",
+        "relevantFactualContext": "Toegepast op nationale regeling die vóór 1 juni 2017 gold; de toetsing behelst of de Belgische procedure om vertalingen via het openbaar ministerie te vragen voldoet aan de minimumnormen uit de richtlijn."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-005",
+        "provisionNumber": "artikel 3, lid 1",
+        "provisionNumberKey": "3",
+        "parentActType": "EU_RICHTLIJN",
+        "parentActName": "Richtlijn 2010/64/EU",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof citeert en verklaart dat artikel 3, lid 1, de lidstaten verplicht te zorgen dat een verdachte die de taal van de procedure niet verstaat binnen een redelijke termijn schriftelijke vertaling ontvangt van alle processtukken die essentieel zijn voor de uitoefening van zijn verdediging en het eerlijke verloop van de procedure.",
+        "relevantFactualContext": "Wordt betrokken bij de vraag of de weigering van het openbaar ministerie om vertalingen te verlenen de verdediging van de Duitstalige verdachte aantast en of de nationale regeling tijdig en doeltreffend voorziet in levering van essentiële vertalingen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-014",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-005",
+        "provisionNumber": "artikel 9",
+        "provisionNumberKey": "9",
+        "parentActType": "EU_RICHTLIJN",
+        "parentActName": "Richtlijn 2010/64/EU",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof wijst op artikel 9 als implementatiebepaling die lidstaten verplichtte de richtlijn uiterlijk 27 oktober 2013 in nationaal recht om te zetten; daardoor valt de materie van artikel 22 vanaf die datum binnen de werkingssfeer van het Unierecht en is artikel 47 van het Handvest bij de beoordeling in aanmerking te nemen.",
+        "relevantFactualContext": "Belangrijk voor de kwalificatie van artikel 22 als een nationale maatregel die onder de reikwijdte van de richtlijn valt in de zaak van een Duitstalige verdachte wiens vertaalverzoek in 2015/2016 werd behandeld."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-015",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-005",
+        "provisionNumber": "artikel 2, lid 4",
+        "provisionNumberKey": "2",
+        "parentActType": "EU_RICHTLIJN",
+        "parentActName": "Richtlijn 2010/64/EU",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof legt uit dat artikel 2, lid 4, van de richtlijn vereist dat lidstaten een procedure of mechanisme voorzien om te bepalen of de verdachte de taal van de procedure spreekt en of hij de bijstand van een tolk nodig heeft; de keuze van verificatiemiddelen wordt aan de bevoegde autoriteiten overgelaten.",
+        "relevantFactualContext": "Relevantie voor de nationale beoordeling van de taalkennis van de Duitstalige verdachte waarop het openbaar ministerie zich baseerde bij weigering van het vertaalverzoek."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-016",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-006",
+        "provisionNumber": "artikel 16",
+        "provisionNumberKey": "16",
+        "parentActType": "WET",
+        "parentActName": "wet van 28 oktober 2016 (wet van 28/10/2016 houdende verdere omzetting van Richtlijn 2010/64/EU)",
+        "parentActDate": "2016-10-28",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-017",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-007",
+        "provisionNumber": "artikel 4",
+        "provisionNumberKey": "4",
+        "parentActType": "WET",
+        "parentActName": "wet van 24 maart 1980 tot wijziging van meerdere bepalingen van de wet van 15 juni 1935 (amenderende bepaling genoemd)",
+        "parentActDate": "1980-03-24",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-018",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-008",
+        "provisionNumber": "artikel 14",
+        "provisionNumberKey": "14",
+        "parentActType": "WET",
+        "parentActName": "wet van 23 september 1985 betreffende het gebruik van het Duits in gerechtszaken (amenderende bepaling genoemd)",
+        "parentActDate": "1985-09-23",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-019",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-009",
+        "provisionNumber": "artikel 101",
+        "provisionNumberKey": "101",
+        "parentActType": "WET",
+        "parentActName": "wet van 10 april 2003 tot regeling van de afschaffing van de militaire rechtscolleges in vredestijd (amenderende bepaling genoemd)",
+        "parentActDate": "2003-04-10",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-020",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 1",
+        "provisionNumberKey": "1",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 betreffende het gebruik der talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-021",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 4",
+        "provisionNumberKey": "4",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 betreffende het gebruik der talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-022",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 42",
+        "provisionNumberKey": "42",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 betreffende het gebruik der talen in gerechtszaken (wet van 15/06/1935)",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 14, eerste lid",
+        "provisionNumberKey": "14",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 (verwijzend naar artikel 2bis)",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-024",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 2bis",
+        "provisionNumberKey": "2bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-025",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 11, eerste lid",
+        "provisionNumberKey": "11",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-026",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-027",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-028",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 35, eerste lid",
+        "provisionNumberKey": "35",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-029",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 23, vijfde lid",
+        "provisionNumberKey": "23",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-030",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 31, eerste lid",
+        "provisionNumberKey": "31",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-031",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "provisionNumber": "artikel 38, tiende lid",
+        "provisionNumberKey": "38",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-032",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-010",
+        "provisionNumber": "artikel 664",
+        "provisionNumberKey": "664",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Gerechtelijk Wetboek / Code judiciaire)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+        "provisionNumber": "artikel 127",
+        "provisionNumberKey": "127",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van strafvordering (Wetboek van strafvordering)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof legt uit dat artikel 127 van het Wetboek van strafvordering waarborgt dat de inverdenkinggestelde en zijn raadsman inzage hebben in het dossier en kopieën kunnen opvragen; dat deze toegang een praktisch middel vormt om vertaalverzoeken te onderbouwen en af te dwingen in het kader van de regeling van de rechtspleging.",
+        "relevantFactualContext": "Relevantie in de zaak waarin de Duitstalige verdachte inzage in het dossier en kopieën kon opvragen en op grond daarvan vertaalverzoeken indiende tijdens het vooronderzoek en bij de regeling van de rechtspleging."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+        "provisionNumber": "artikel 131",
+        "provisionNumberKey": "131",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van strafvordering (Wetboek van strafvordering)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verklaart dat artikel 131 de raadkamer bevoegd maakt de regeling van de rechtspleging te beslissen en dat zij de regelmatigheid van de procedure kan onderzoeken en onderzoekshandelingen of de gehele rechtspleging nietig kan verklaren; die bevoegdheid omvat naar het oordeel van het Hof ook het beoordelen van de noodzaak van vertalingen in het belang van de verdediging.",
+        "relevantFactualContext": "Toegepast toen de raadkamer en later in beroep de kamer van inbeschuldigingstelling werden aangesproken over de vraag of de weigering van het openbaar ministerie om vertalingen te verlenen de regelmatigheid van de procedure aantastte."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+        "provisionNumber": "artikel 135",
+        "provisionNumberKey": "135",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van strafvordering (Wetboek van strafvordering)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof merkt op dat artikel 135 de kamer van inbeschuldigingstelling toelaat in hoger beroep alle bevoegdheden van de raadkamer uit te oefenen, waaronder het zuiveren van het dossier en het onderzoeken van procedurele gebreken; daarmee kan die kamer eveneens toetsing verrichten van beslissingen omtrent vertalingsverzoeken.",
+        "relevantFactualContext": "Geschikt op de procedure waarin de verdediging hoger beroep instelde tegen onderzoeksbeslissingen en waarover de kamer van inbeschuldigingstelling oordeelde alvorens verwijzing naar de correctionele rechtbank."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+        "provisionNumber": "artikel 223",
+        "provisionNumberKey": "223",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van strafvordering (Wetboek van strafvordering)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof vermeldt artikel 223 als één van de bepalingen die de kamer van inbeschuldigingstelling bevoegdheden verlenen om in hoger beroep de regelmatigheid van de procedure te controleren; deze bevoegdheden omvatten tevens het onderzoek naar mogelijke schendingen inzake vertalingen.",
+        "relevantFactualContext": "Relevant voor de mogelijkheid van procedureel toezicht en zuivering van het dossier in de zaak van de Duitstalige verdachte die vertalingsverzoeken indiende en hoger beroep voerde."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037",
+        "internalParentActId": "ACT-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+        "provisionNumber": "artikel 235bis",
+        "provisionNumberKey": "235bis",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van strafvordering (Wetboek van strafvordering)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verwijst naar artikel 235bis als onderdeel van de bevoegdheidsregels waarmee betrokken kamers in hoger beroep ambtshalve en op verzoek kunnen optreden om procedurele onregelmatigheden te onderzoeken en het dossier te zuiveren, wat de mogelijkheid van juridische toetsing van een weigering tot vertaling ondersteunt.",
+        "relevantFactualContext": "Toegepast in de context van de rechtsgang van de zaak waarin de verdediging beroep aantekende tegen onderzoeksbeslissingen over vertalingen en het dossier door hogere kamers werd onderzocht."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep te Luik",
+        "date": "2018-10-18",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "correctionele rechtbank te Eupen",
+        "date": "2016-05-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "de correctionele rechtbank",
+        "date": "2017-06-14",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJ",
+        "date": "2013-02-26",
+        "caseNumber": "C-617/10",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJ",
+        "date": "2010-01-19",
+        "caseNumber": "C-555/07",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJ",
+        "date": "2019-09-05",
+        "caseNumber": "C-377/18",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-006"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 7,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJ",
+        "date": "2019-11-19",
+        "caseNumber": "C-585/18",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-007"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 8,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJ",
+        "date": "2019-11-19",
+        "caseNumber": "C-624/18",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-008"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 9,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJ",
+        "date": "2019-11-19",
+        "caseNumber": "C-625/18",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-009"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 10,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJ",
+        "date": "2019-07-29",
+        "caseNumber": "C-38/18",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-010"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 11,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Het Grondwettelijk Hof",
+        "date": "2006-01-11",
+        "caseNumber": "arrest nr. 1/2006",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-011"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 12,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "2016-09-13",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-012"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 13,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "2010-11-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-013"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 14,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "2006-03-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-014"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 15,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "2006-10-18",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-015"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 16,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "2018-08-28",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-016"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 17,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "1989-12-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-017"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 18,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "2000-07-25",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-018"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 19,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "2001-07-17",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-019"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 20,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "1999-03-25",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-020"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 21,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "2005-01-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-021"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 22,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "1989-12-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-022"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 23,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJ",
+        "date": "2015-10-15",
+        "caseNumber": "C-216/14",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-023"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 24,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJ",
+        "date": "2017-10-12",
+        "caseNumber": "C-278/16",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-024"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 25,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "2014-07-15",
+        "caseNumber": "P.14.1029.N",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-025"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 26,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "2014-09-23",
+        "caseNumber": "P.14.0024.N",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-026"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Strafprocesrecht",
+      "Verzoek vertaling dossier",
+      "Duitstalig arrondissement",
+      "Verdachte vervolgd",
+      "Weigering door openbaar ministerie",
+      "Recht op vertaling",
+      "Eerlijk proces",
+      "Beroep tegen weigering",
+      "Rechterlijke toetsing weigering",
+      "Prejudiciële vraag"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "text": "De bevoegdheid van het openbaar ministerie om tijdens het gerechtelijk onderzoek te beslissen over verzoeken tot kosteloze vertaling van essentiële processtukken is niet op zichzelf onverenigbaar met het recht op een eerlijk proces of op een doeltreffend rechtsmiddel, mits de verdachte de mogelijkheid heeft deze weigering vóór de regeling van de rechtspleging voor onafhankelijke onderzoeksgerechten aan te vechten en latere toetsing door het vonnisgerecht mogelijk is.",
+        "courtVerbatim": "Die mogelijkheid om voor de onderzoeksgerechten om de vertaling van de essentiële processtukken te verzoeken, biedt de verdachte derhalve de mogelijkheid om de weigering van het openbaar ministerie om dat verzoek in te willigen, aan te vechten voor een onafhankelijke en onpartijdige rechter alvorens kan worden overgegaan tot de regeling van de rechtspleging. Er wordt bijgevolg geen afbreuk gedaan aan het recht op een daadwerkelijk rechtsmiddel. Rekening houdend met het bestaan van die jurisdictionele controle voor de onderzoeksgerechten, is de bevoegdheid van het openbaar ministerie om zich uit te spreken over het verzoek om vertaling in het stadium van het gerechtelijk onderzoek, bedoeld in de in het geding zijnde bepaling, niet onbestaanbaar met de rechten van verdediging en het eerlijke karakter van de procedure.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een vertaalverzoek tijdens het gerechtelijk onderzoek aan het openbaar ministerie wordt gericht en dat verzoek door het OM wordt geweigerd.",
+        "relevantFactualContext": "Een Duitstalige verdachte vroeg in augustus 2015 Franse vertalingen van Duitstalige dossierstukken; het openbaar ministerie weigerde, waarna de verdachte bij de raadkamer en bij latere onderzoeksgerechten het geschil kon voorleggen; uiteindelijk werd in juni 2017 een vertaling bij vonnis toegestaan.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-025",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-026"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+        "text": "Het recht op vertaling van essentiële processtukken vereist dat een verdachte die de taal van de procedure niet verstaat binnen een redelijke termijn schriftelijke vertalingen ontvangt van die stukken die essentieel zijn voor de uitoefening van zijn verdediging; de bevoegde autoriteiten beslissen per geval welke stukken essentieel zijn, onderdelen die niet relevant zijn hoeven niet te worden vertaald, en in uitzonderlijke gevallen kan mondelinge vertaling of samenvatting volstaan, mits het eerlijke verloop van de procedure gewaarborgd blijft.",
+        "courtVerbatim": "Artikel 3 van de richtlijn 2010/64/EU, met als opschrift «Recht op vertaling van essentiële processtukken», bepaalt : 1. De lidstaten zorgen ervoor dat een verdachte of beklaagde die de taal van de strafprocedure niet verstaat, binnen een redelijke termijn een schriftelijke vertaling ontvangt van alle processtukken die essentieel zijn om te garanderen dat hij zijn recht van verdediging kan uitoefenen en om het eerlijke verloop van de procedure te waarborgen. 4. Onderdelen van essentiële processtukken die niet relevant zijn om de verdachte of beklaagde in staat te stellen van de zaak tegen hem kennis te laten nemen, hoeven niet te worden vertaald. 5. De lidstaten zorgen ervoor dat de verdachte of beklaagde, overeenkomstig de procedures in het nationale recht, het recht heeft een besluit aan te vechten waarbij wordt vastgesteld dat er geen vertaling van processtukken of onderdelen daarvan nodig is. 7. Als uitzondering op de in de leden 1, 2, 3 en 6 opgenomen algemene regels kan, in plaats van een schriftelijke vertaling een mondelinge vertaling of mondelinge samenvatting van de essentiële processtukken worden verstrekt, op voorwaarde dat deze het eerlijke verloop van de procedure onverlet laat.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij een verdachte die de landstaal van de procedure niet verstaat en om schriftelijke of mondelinge vertalingen van essentiële processtukken verzoekt.",
+        "relevantFactualContext": "In casu vroeg een Duitstalige verdachte vertalingen van Duitstalige stukken; het Hof toetste of de nationale regeling (artikel 22) en de procedure voor het verkrijgen van vertalingen voldeden aan artikel 3 van richtlijn 2010/64/EU en aan artikel 6 EVRM.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-012",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-006"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-014",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-015",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-005"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 2,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De verdachte vorderde tijdens het gerechtelijk onderzoek een vertaling van essentiële processtukken; de prejudiciële vraag was of artikel 22 van de wet van 15 juni 1935 (zoals van kracht vóór 1 juni 2017), dat het verzoek bij het openbaar ministerie plaatst zonder voorziening voor een onmiddellijk rechterlijk beroep, de grondwettelijke en verdragsrechtelijke rechten van verdediging schond. Het Grondwettelijk Hof beantwoordt die vraag ontkennend en oordeelt dat artikel 22 geen schending vormt van artikelen 10, 11 en 13 van de Grondwet, gelezen al dan niet in samenhang met artikel 6 EVRM, artikel 47 en 48 van het Handvest en de richtlijn 2010/64/EU. Kernpunt is dat het stelsel voldoende waarborgen biedt: het recht op kosteloze vertaling van essentiële stukken is verzekerd en een weigering door het openbaar ministerie kan door de onderzoeksrechters worden getoetst, zodat het recht op een effectief rechtsmiddel en een eerlijk proces wordt gerespecteerd."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">« Schond artikel 22 van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken, zoals het van kracht was vóór 1 juni 2017, de artikelen 10, 11, 12 en 13 van de Grondwet, al dan niet in samenhang gelezen met de artikelen 6 en 13 van het Europees Verdrag voor de rechten van de mens, de artikelen 47 en 48, lid 2, van het Handvest van de grondrechten van de Europese Unie, artikel 5, leden 3 en 5, van de richtlijn 2010/64/EU van het Europees Parlement en de Raad van 20 oktober 2010 betreffende het recht op vertolking en vertaling in strafprocedures, in zoverre, in het kader van een gerechtelijk onderzoek, de inverdenkinggestelde die om een vertaling van het dossier of van bepaalde stukken ervan in een andere landstaal dan die van het gerechtelijk onderzoek verzocht, ertoe verplicht was dat verzoek te richten aan het openbaar ministerie, dat, in het verdere verloop van de strafprocedure, de rol van vervolgende partij op zich nam, zonder dat een beslissing vanwege het openbaar ministerie tot weigering van de aangevraagde vertaling, het voorwerp kon uitmaken van een daadwerkelijke jurisdictionele controle ? ».</blockquote>",
+          "<p class=\"case-section__paragraph\">De prejudiciële vraag heeft betrekking op artikel 22 van de wet van 15 juni 1935 « op het gebruik der talen in gerechtszaken » (hierna : de wet van 15 juni 1935), zoals van kracht vóór 1 juni 2017, in de versie vóór de vervanging ervan bij artikel 16 van de wet van 28 oktober 2016 « houdende verdere omzetting van de Richtlijn 2010/64/EU van het Europees Parlement en de Raad van 20 oktober 2010 betreffende het recht op vertolking en vertaling in strafprocedures en van de Richtlijn 2012/29/EU van het Europees Parlement en de Raad van 25 oktober 2012 tot vaststelling van minimumnormen voor de rechten, de ondersteuning en de bescherming van slachtoffers van strafbare feiten, en ter vervanging van Kaderbesluit 2001/220/JBZ ».</p>",
+          "<p class=\"case-section__paragraph\">Aan het Hof wordt een vraag gesteld over de bestaanbaarheid van artikel 22 van de wet van 15 juni 1935 met de artikelen 10, 11, 12 en 13 van de Grondwet, al dan niet in samenhang gelezen met de artikelen 6 en 13 van het Europees Verdrag voor de rechten van de mens, met de artikelen 47 en 48, lid 2, van het Handvest van de grondrechten van de Europese Unie en met artikel 5, leden 3 en 5, van de richtlijn 2010/64/EU van het Europees Parlement en de Raad van 20 oktober 2010 « betreffende het recht op vertolking en vertaling in strafprocedures » (hierna : de richtlijn 2010/64/EU), in zoverre, in het kader van een gerechtelijk onderzoek, de verdachte die om een vertaling van bepaalde stukken van het dossier in een andere landstaal dan die van het gerechtelijk onderzoek verzocht, ertoe verplicht was dat verzoek te richten aan het openbaar ministerie, zonder dat de beslissing van het openbaar ministerie tot weigering van de aangevraagde vertaling, het voorwerp kon uitmaken van een daadwerkelijke jurisdictionele controle.</p>",
+          "<p class=\"case-section__paragraph\">Bij de in het geding zijnde bepaling wordt een recht op een kosteloze vertaling gewaarborgd voor iedere verdachte die alleen Nederlands, Frans of Duits begrijpt, die kan vorderen dat bij zijn dossier een Nederlandse, Franse of Duitse vertaling wordt gevoegd van de processen-verbaal, de verklaringen van getuigen of klagers en de verslagen van deskundigen die in het Nederlands, het Frans of het Duits zijn opgesteld. De verdachte die de landstaal niet begrijpt waarin de essentiële stukken van het dossier zijn opgesteld, kan dus, onder de in het in het geding zijnde artikel 22 van de wet van 15 juni 1935 vermelde voorwaarden, vorderen dat bij dat dossier een kosteloze vertaling van die stukken wordt gevoegd in een landstaal die hij begrijpt.</p>",
+          "<p class=\"case-section__paragraph\">De in het geding zijnde bepaling waarborgt de verdachte die de taal van de rechtspleging niet begrijpt, het recht op de kosteloze vertaling van de essentiële stukken van het strafdossier (Parl. St., Kamer, 1932-1933, nr. 136, p. 13). Het recht op de kosteloze vertaling van de essentiële stukken van het dossier, dat door de in het geding zijnde bepaling wordt gewaarborgd, strekt ertoe de eerbiediging te verzekeren van de rechten van verdediging van de vervolgde (Parl. St., Senaat, 1934-1935, nr. 86, p. 21), die zal kunnen begrijpen wat hij werkelijk moet weten (Parl. St., Kamer, 1932-1933, nr. 136, p. 18). De Commissie van Justitie, belast met het onderzoek van het wetsontwerp op het gebruik der talen in gerechtszaken, beoogde echter eveneens vertragingsmiddelen te vermijden, zodat de tekst van artikel 22, vijfde lid, van de wet van 15 juni 1935 werd toegevoegd teneinde te vermijden dat</p>",
+          "<p class=\"case-section__paragraph\">Aldus beschikt de verdachte aan wie tijdens het gerechtelijk onderzoek een vertaling werd geweigerd, over de mogelijkheid om voor de onderzoeksgerechten, overeenkomstig de in het geding zijnde bepaling, de vertaling van de essentiële stukken van het dossier te verzoeken. Het staat dan aan het onderzoeksgerecht om de noodzaak van een vertaling te beoordelen en om soeverein, rekening houdend met de voorliggende bijzondere omstandigheden, te oordelen of de weigering tot vertaling de uitoefening van de rechten van verdediging van de verdachte voor het onderzoeksgerecht al dan niet schendt. Het onderzoeksgerecht kan daarbij alle relevante omstandigheden van het geding in aanmerking nemen ter vrijwaring van het recht van verdediging, zoals onder meer het gegeven dat de betrokkene op grond van artikel 22 van de wet van 15 juni 1935 reeds om de vertaling van de stukken heeft verzocht of dat had kunnen doen (Cass., 23 september 2014, P.14.0024.N ECLI:BE:CASS:2014:ARR.20140923.4 ). Een schending van het recht van verdediging ingevolge de weigering door het openbaar ministerie van de gevraagde vertaling kan tot de onontvankelijkheid van de strafvordering leiden.</p>",
+          "<p class=\"case-footer__paragraph\">Artikel 22 van de wet van 15 juni 1935 « op het gebruik der talen in gerechtszaken », zoals het van kracht was vóór 1 juni 2017, schendt niet de artikelen 10, 11 en 13 van de Grondwet, al dan niet in samenhang gelezen met de artikelen 6 en 13 van het Europees Verdrag voor de rechten van de mens, met de artikelen 47 en 48, lid 2, van het Handvest van de grondrechten van de Europese Unie en met artikel 3, lid 5, van de richtlijn 2010/64/EU van het Europees Parlement en de Raad van 20 oktober 2010 « betreffende het recht op vertolking en vertaling in strafprocedures ». Aldus gewezen in het Frans en het Nederlands, overeenkomstig artikel 65 van de bijzondere wet van 6 januari 1989 op het Grondwettelijk Hof, op 24 september 2020. De griffier, P.-Y. Dutilleux De voorzitter, F. Daoût</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-003",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-005",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-006",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-007",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-008",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-009",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-010",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-012",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-014",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-015",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-030",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-025",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-026"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De artikelen 10 en 11 van de Grondwet waarborgen het beginsel van gelijkheid en niet-discriminatie. Artikel 12 van de Grondwet bepaalt :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-003",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De artikelen 10 en 11 van de Grondwet waarborgen het beginsel van gelijkheid en niet-discriminatie. Artikel 12 van de Grondwet bepaalt :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-003",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">« De vrijheid van de persoon is gewaarborgd. Niemand kan worden vervolgd dan in de gevallen die de wet bepaalt en in de vorm die zij voorschrijft. Behalve bij ontdekking op heterdaad kan niemand worden aangehouden dan krachtens een met redenen omkleed bevel van de rechter dat uiterlijk binnen achtenveertig uren te rekenen van de vrijheidsberoving moet worden betekend en enkel tot voorlopige inhechtenisneming kan strekken ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-005",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">« Niemand kan tegen zijn wil worden afgetrokken van de rechter die de wet hem toekent ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-005",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-003",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-006",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\"> \n            <ol>\n                <li>Bij het vaststellen van zijn burgerlijke rechten en verplichtingen of bij het bepalen van de gegrondheid van een tegen hem ingestelde strafvervolging heeft eenieder recht op een eerlijke en openbare behandeling van zijn zaak, binnen een redelijke termijn, door een onafhankelijke en onpartijdige rechterlijke instantie welke bij de wet is ingesteld. Het vonnis moet in het openbaar worden gewezen maar de toegang tot de rechtszaal kan aan de pers en het publiek worden ontzegd gedurende het gehele proces of een deel daarvan, in het belang van de goede zeden, van de openbare orde of 's lands veiligheid in een democratische samenleving, wanneer de belangen van minderjarigen of de bescherming van het privéleven van partijen bij het proces dit eisen of, in die mate als door de rechter onder bepaalde omstandigheden strikt noodzakelijk wordt geoordeeld, wanneer openbaarmaking de belangen van de rechtspraak zou schaden.</li>\n                <li>Eenieder, die wegens een strafbaar feit wordt vervolgd wordt voor onschuldig gehouden totdat zijn schuld volgens de wet bewezen wordt.</li>\n                <li>Eenieder, die wegens een strafbaar feit wordt vervolgd, heeft ten minste de volgende rechten :\n                    <ol type=\"a\">\n                        <li>onverwijld, in een taal welke hij verstaat, en in bijzonderheden, op de hoogte te worden gesteld van de aard en de reden van de tegen hem ingebrachte beschuldiging;</li>\n                        <li>te beschikken over voldoende tijd en faciliteiten welke nodig zijn voor de voorbereiding van zijn verdediging;</li>\n                        <li>zichzelf te verdedigen of de bijstand te hebben van een raadsman naar zijn keuze, of, indien hij niet over voldoende middelen beschikt om een raadsman te bekostigen, kosteloos door een toegevoegd advocaat te kunnen worden bijgestaan, indien het belang van de rechtspraak dit eist;</li>\n                        <li>de getuigen à charge te ondervragen of doen ondervragen en het oproepen en de ondervraging van getuigen à décharge te doen geschieden op dezelfde voorwaarden als het geval is met de getuigen à charge;</li>\n                        <li>zich kosteloos te doen bijstaan door een tolk, indien hij de taal welke ter zitting wordt gebezigd niet verstaat of niet spreekt ».</li>\n                    </ol>\n                </li>\n            </ol>\n        </blockquote>",
+          "<p class=\"case-section__paragraph\">Volgens het Europees Hof voor de Rechten van de Mens zijn de waarborgen van artikel 6 van het Europees Verdrag voor de rechten van de mens van toepassing zodra er een « strafvervolging » in de zin van de rechtspraak van het Hof bestaat, en kunnen zij dus een rol spelen in het stadium vóór de vonnisfase indien en voor zover de initiële niet-naleving ervan de eerlijkheid van het proces ernstig in het gedrang dreigt te brengen (EHRM, grote kamer, 13 september 2016, Ibrahim e.a. t. Verenigd Koninkrijk, § 253). De inachtneming van de vereisten van een eerlijk proces wordt evenwel beoordeeld in het licht van de procesvoering in haar geheel en niet door zich te baseren op het alleenstaand onderzoek van een of ander punt of incident, hoewel niet kan worden uitgesloten dat een bepaald element dermate doorslaggevend is dat het de mogelijkheid biedt om in een vroeg stadium te oordelen over de eerlijkheid van het proces (ibid., § 251). De eerlijkheid van een proces in zijn geheel wordt beoordeeld door, indien daar reden toe is, rekening te houden met de in artikel 6, lid 3, van het Europees Verdrag voor de rechten van de mens opgesomde minimumrechten (ibid.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-006",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-012",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-015",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-016",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-017"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-007",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">« Eenieder wiens rechten en vrijheden, welke in dit Verdrag zijn vermeld, zijn geschonden, heeft recht op daadwerkelijke rechtshulp voor een nationale instantie, zelfs indien deze schending zou zijn begaan door personen in de uitoefening van hun ambtelijke functie ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-007",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-008",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">« Eenieder wiens door het recht van de Unie gewaarborgde rechten en vrijheden zijn geschonden, heeft recht op een doeltreffende voorziening in rechte, met inachtneming van de in dit artikel gestelde voorwaarden. Eenieder heeft recht op een eerlijke en openbare behandeling van zijn zaak, binnen een redelijke termijn, door een onafhankelijk en onpartijdig gerecht dat vooraf bij wet is ingesteld. Eenieder heeft de mogelijkheid zich te laten adviseren, verdedigen en vertegenwoordigen. Rechtsbijstand wordt verleend aan degenen die niet over toereikende financiële middelen beschikken, voor zover die bijstand noodzakelijk is om de daadwerkelijke toegang tot de rechter te waarborgen ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-008",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-005",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-009",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">« Aan eenieder tegen wie een vervolging is ingesteld, wordt de eerbiediging van de rechten van de verdediging gegarandeerd ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-009",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-006"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De bestaanbaarheid van de in het geding zijnde bepaling met artikel 47 van het Handvest van de grondrechten van de Europese Unie, in samenhang gelezen met de artikelen 10 tot 13 van de Grondwet, kan slechts door het Hof worden onderzocht in zoverre de in het geding zijnde bepaling het Unierecht ten uitvoer brengt overeenkomstig artikel 51, lid 1, van het Handvest van de grondrechten van de Europese Unie (HvJ, grote kamer, 26 februari 2013, C-617/10, Aklagaren, punten 17 e.v.). De verwijzende rechter vraagt het Hof of de in het geding zijnde bepaling bestaanbaar is met de artikelen 10 tot 13 van de Grondwet, al dan niet in samenhang gelezen met onder meer artikel 3, leden 3 en 5, van de richtlijn 2010/64/EU. Krachtens artikel 9 van de richtlijn 2010/64/EU doen de lidstaten de nodige wettelijke en bestuursrechtelijke bepalingen in werking treden om uiterlijk op 27 oktober 2013 aan die richtlijn te voldoen. Vanaf die datum had de richtlijn tot gevolg dat de in het geding zijnde bepaling, die een materie behandelt die onder die richtlijn valt, binnen de werkingssfeer van het recht van de Unie valt (HvJ, grote kamer, 19 januari 2010, C-555/07, Kücükdeveci, punt 25). Aldus dient bij de beoordeling van de bestreden bepaling ook rekening te worden gehouden met artikel 47 van het Handvest van de grondrechten van de Europese Unie.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-010",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het Hof van Justitie brengt in dat verband in herinnering dat artikel 48 van het Handvest van de grondrechten van de Europese Unie overeenstemt met artikel 6, leden 2 en 3, van het Europees Verdrag voor de rechten van de mens (HvJ, 5 september 2019, C-377/18, A.H. e.a., punt 41) en dat de eerste en de tweede alinea van artikel 47 van het Handvest overeenstemmen met artikel 6, lid 1, en met artikel 13 van het Europees Verdrag voor de rechten van de mens (HvJ, grote kamer, 19 november 2019, C-585/18, C-624/18 en C-625/18, A.K. e.a., punt 117). Overeenkomstig artikel 52, lid 3, van het Handvest dient het Hof van Justitie bijgevolg erop toe te zien dat de uitlegging die het aan de artikelen 47 en 48 van het Handvest geeft,</p>",
+          "<blockquote class=\"case-quote\">« zodanig is dat het daardoor geboden beschermingsniveau niet in strijd komt met datgene wat wordt geboden door artikel 6 EVRM, zoals uitgelegd door het Europees Hof voor de Rechten van de Mens » (HvJ, 29 juli 2019, C-38/18, Gambino en Hyka, punt 39).</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-008",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-006",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-007",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-008",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-009",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In de richtlijn 2010/64/EU</p>",
+          "<blockquote class=\"case-quote\">« worden gemeenschappelijke minimumregels [...] vastgesteld die op het gebied van vertolking en vertaling in strafprocedures moeten gelden, om het wederzijdse vertrouwen tussen de lidstaten te vergroten » (overweging 12).</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-012",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-013"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-024"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n            <ol>\n                <li>De lidstaten zorgen ervoor dat een verdachte of beklaagde die de taal van de strafprocedure niet verstaat, binnen een redelijke termijn een schriftelijke vertaling ontvangt van alle processtukken die essentieel zijn om te garanderen dat hij zijn recht van verdediging kan uitoefenen en om het eerlijke verloop van de procedure te waarborgen.</li>\n                <li>De essentiële processtukken omvatten beslissingen tot vrijheidsbeneming, de tenlastelegging of dagvaarding en vonnissen.</li>\n                <li>De bevoegde autoriteiten besluiten per geval of andere processtukken essentieel zijn. De verdachte of beklaagde of zijn raadsman kan een met redenen omkleed verzoek met deze strekking indienen.</li>\n                <li>Onderdelen van essentiële processtukken die niet relevant zijn om de verdachte of beklaagde in staat te stellen van de zaak tegen hem kennis te laten nemen, hoeven niet te worden vertaald.</li>\n                <li>De lidstaten zorgen ervoor dat de verdachte of beklaagde, overeenkomstig de procedures in het nationale recht, het recht heeft een besluit aan te vechten waarbij wordt vastgesteld dat er geen vertaling van processtukken of onderdelen daarvan nodig is en, wanneer een vertaling is verstrekt, de mogelijkheid om een klacht te formuleren dat de kwaliteit ervan onvoldoende is om het eerlijke verloop van de procedure te garanderen.</li>\n                <li>In procedures voor de tenuitvoerlegging van een Europees aanhoudingsbevel zorgt de lidstaat van tenuitvoerlegging ervoor dat zijn bevoegde autoriteiten aan eenieder tegen wie die procedure wordt gevoerd en die de taal waarin het Europese aanhoudingsbevel is gesteld of waarin het door de uitvaardigende lidstaat is vertaald niet verstaat, een schriftelijke vertaling van dat stuk verstrekken.</li>\n                <li>Als uitzondering op de in de leden 1, 2, 3 en 6 opgenomen algemene regels kan, in plaats van een schriftelijke vertaling een mondelinge vertaling of mondelinge samenvatting van de essentiële processtukken worden verstrekt, op voorwaarde dat deze mondelinge vertaling of mondelinge samenvatting het eerlijke verloop van de procedure onverlet laat.</li>\n                <li>Van het in dit artikel bedoelde recht op vertaling van processtukken kan alleen afstand worden gedaan, als de verdachte of beklaagde vooraf juridisch advies heeft gekregen of anderszins volledig is geïnformeerd over de gevolgen van deze afstand en als de afstand op ondubbelzinnige wijze en vrijwillig is gedaan.</li>\n                <li>Vertaling die overeenkomstig dit artikel wordt verstrekt, is van voldoende kwaliteit om het eerlijke verloop van de procedure te waarborgen, met name door ervoor te zorgen dat de verdachte of beklaagde geïnformeerd is over de zaak tegen hem en in staat is zijn recht van verdediging uit te oefenen ».</li>\n            </ol>\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-012"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-024"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De prejudiciële vraag heeft onder meer betrekking op de bestaanbaarheid van de in het geding zijnde bepaling met « artikel 5, leden 3 en 5, » van de richtlijn 2010/64/EU. Uit de inhoud van de prejudiciële vraag en uit de verwijzingsbeslissing blijkt evenwel dat het om een materiële vergissing gaat en dat de verwijzende rechter artikel 3, leden 3 en 5, van diezelfde richtlijn bedoelt. Die materiële vergissing heeft de Ministerraad niet verhinderd om zijn argumenten op pertinente wijze uiteen te zetten.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-014",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De prejudiciële vraag heeft betrekking op artikel 22 van de wet van 15 juni 1935 « op het gebruik der talen in gerechtszaken » (hierna : de wet van 15 juni 1935), zoals van kracht vóór 1 juni 2017, in de versie vóór de vervanging ervan bij artikel 16 van de wet van 28 oktober 2016 « houdende verdere omzetting van de Richtlijn 2010/64/EU van het Europees Parlement en de Raad van 20 oktober 2010 betreffende het recht op vertolking en vertaling in strafprocedures en van de Richtlijn 2012/29/EU van het Europees Parlement en de Raad van 25 oktober 2012 tot vaststelling van minimumnormen voor de rechten, de ondersteuning en de bescherming van slachtoffers van strafbare feiten, en ter vervanging van Kaderbesluit 2001/220/JBZ ».</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-015",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gesitueerd in hoofdstuk II, met als opschrift « Gebruik der talen bij het vooronderzoek en het onderzoek in strafzaken, alsmede voor de strafgerechten in eersten aanleg en voor de Hoven van Assisen », bepaalde artikel 22 van de wet van 15 juni 1935, zoals het is gewijzigd bij artikel 4 van de wet van 24 maart 1980 « tot wijziging van de artikelen 19, 20, 21, 22 en 43bis van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken en van de artikelen 121, 166, 223, 226 en 229 van het Gerechtelijk Wetboek », bij artikel 14 van de wet van 23 september 1985 « betreffende het gebruik van het Duits in gerechtszaken en betreffende de rechterlijke organisatie » en bij artikel 101 van de wet van 10 april 2003 « tot regeling van de afschaffing van de militaire rechtscolleges in vredestijd alsmede van het behoud ervan in oorlogstijd » :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-016",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-017",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">« Ieder verdachte die alleen Nederlands en Duits of een van die talen verstaat, kan vorderen dat bij zijn dossier een Nederlandse of een Duitse vertaling wordt gevoegd van de processen-verbaal, de verklaringen van getuigen of klagers en de verslagen van deskundigen die in het Frans zijn gesteld. Iedere verdachte die alleen Frans en Duits of een van die talen verstaat, kan vorderen dat bij zijn dossier een Franse of een Duitse vertaling wordt gevoegd van genoemde stukken die in het Nederlands zijn gesteld. Eveneens kan iedere verdachte die alleen Frans en Nederlands of een van die talen verstaat, vorderen dat bij zijn dossier een Franse of een Nederlandse vertaling wordt gevoegd van genoemde stukken die in het Duits zijn gesteld. De verdachte zal, langs de griffie, zijn verzoekschrift aan de ambtenaar van het openbaar ministerie overmaken; het zal niet meer ontvankelijk zijn, na verloop van acht dagen volgende op de betekening, hetzij van het bevelschrift tot verwijzing naar het Hof van Assisen, hetzij van de dagvaarding om te verschijnen ter terechtzitting van de politierechtbank, van de militaire rechtbank of van de correctionele rechtbank zitting houdend in eerste aanleg. Hetzelfde recht wordt erkend aan de verdachte, voor de rechtscolleges in hoger beroep, wat betreft de nieuwe over te leggen stukken. De kosten van vertaling zijn ten laste der Schatkist ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-017",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Aan het Hof wordt een vraag gesteld over de bestaanbaarheid van artikel 22 van de wet van 15 juni 1935 met de artikelen 10, 11, 12 en 13 van de Grondwet, al dan niet in samenhang gelezen met de artikelen 6 en 13 van het Europees Verdrag voor de rechten van de mens, met de artikelen 47 en 48, lid 2, van het Handvest van de grondrechten van de Europese Unie en met artikel 5, leden 3 en 5, van de richtlijn 2010/64/EU van het Europees Parlement en de Raad van 20 oktober 2010 « betreffende het recht op vertolking en vertaling in strafprocedures » (hierna : de richtlijn 2010/64/EU), in zoverre, in het kader van een gerechtelijk onderzoek, de verdachte die om een vertaling van bepaalde stukken van het dossier in een andere landstaal dan die van het gerechtelijk onderzoek verzocht, ertoe verplicht was dat verzoek te richten aan het openbaar ministerie, zonder dat de beslissing van het openbaar ministerie tot weigering van de aangevraagde vertaling, het voorwerp kon uitmaken van een daadwerkelijke jurisdictionele controle.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-018",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-019",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De prejudiciële vraag heeft onder meer betrekking op de bestaanbaarheid van de in het geding zijnde bepaling met « artikel 5, leden 3 en 5, » van de richtlijn 2010/64/EU. Uit de inhoud van de prejudiciële vraag en uit de verwijzingsbeslissing blijkt evenwel dat het om een materiële vergissing gaat en dat de verwijzende rechter artikel 3, leden 3 en 5, van diezelfde richtlijn bedoelt. Die materiële vergissing heeft de Ministerraad niet verhinderd om zijn argumenten op pertinente wijze uiteen te zetten.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-019",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Uit de aan de verwijzende rechter voorgelegde feiten blijkt dat het Hof wordt verzocht om de situatie te onderzoeken van een « verdachte » die wordt vervolgd wegens verschillende misdrijven die in het Duitse taalgebied zijn gepleegd, die een verzoek om vertaling in het Frans van in het Duits opgestelde stukken van zijn dossier heeft ingediend, nadat hij in december 2014 heeft verzocht om bijkomende onderzoekshandelingen te verrichten en voor de kamer van inbeschuldigingstelling hoger beroep heeft ingesteld tegen de beschikking van de onderzoeksrechter waarbij wordt geweigerd om die bijkomende handelingen te verrichten. Het verzoek om vertaling werd in augustus 2015 verworpen door het openbaar ministerie omdat uit de processen-verbaal die in het kader van andere dossiers zijn opgesteld, blijkt dat de beklaagde over voldoende kennis van het Duits beschikt. Na de verwijzing naar de correctionele rechtbank door de raadkamer heeft de correctionele rechtbank te Eupen op 2 mei 2016, op verzoek van de beklaagde, beslist om de procedure voort te zetten in het Frans. De beklaagde heeft zijn verzoek om vertaling vervolgens herhaald op 29 mei 2017, dat bij vonnis van 14 juni 2017 is ingewilligd, en de Franse vertaling van de essentiële stukken waarop de beschuldiging is gebaseerd, werd op 5 september 2017 ter griffie van de correctionele rechtbank neergelegd. Het Hof beperkt zijn onderzoek tot die situatie en tot de wetgeving die van toepassing was vóór 1 juni 2017.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-020",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-021",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-022",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 6 van het Europees Verdrag voor de rechten van de mens bepaalt :</p><blockquote class=\"case-quote\">\n            <ol>\n                <li>Bij het vaststellen van zijn burgerlijke rechten en verplichtingen of bij het bepalen van de gegrondheid van een tegen hem ingestelde strafvervolging heeft eenieder recht op een eerlijke en openbare behandeling van zijn zaak, binnen een redelijke termijn, door een onafhankelijke en onpartijdige rechterlijke instantie welke bij de wet is ingesteld. Het vonnis moet in het openbaar worden gewezen maar de toegang tot de rechtszaal kan aan de pers en het publiek worden ontzegd gedurende het gehele proces of een deel daarvan, in het belang van de goede zeden, van de openbare orde of 's lands veiligheid in een democratische samenleving, wanneer de belangen van minderjarigen of de bescherming van het privéleven van partijen bij het proces dit eisen of, in die mate als door de rechter onder bepaalde omstandigheden strikt noodzakelijk wordt geoordeeld, wanneer openbaarmaking de belangen van de rechtspraak zou schaden.</li>\n                <li>Eenieder, die wegens een strafbaar feit wordt vervolgd wordt voor onschuldig gehouden totdat zijn schuld volgens de wet bewezen wordt.</li>\n                <li>Eenieder, die wegens een strafbaar feit wordt vervolgd, heeft ten minste de volgende rechten :\n                    <ol type=\"a\">\n                        <li>onverwijld, in een taal welke hij verstaat, en in bijzonderheden, op de hoogte te worden gesteld van de aard en de reden van de tegen hem ingebrachte beschuldiging;</li>\n                        <li>te beschikken over voldoende tijd en faciliteiten welke nodig zijn voor de voorbereiding van zijn verdediging;</li>\n                        <li>zichzelf te verdedigen of de bijstand te hebben van een raadsman naar zijn keuze, of, indien hij niet over voldoende middelen beschikt om een raadsman te bekostigen, kosteloos door een toegevoegd advocaat te kunnen worden bijgestaan, indien het belang van de rechtspraak dit eist;</li>\n                        <li>de getuigen à charge te ondervragen of doen ondervragen en het oproepen en de ondervraging van getuigen à décharge te doen geschieden op dezelfde voorwaarden als het geval is met de getuigen à charge;</li>\n                        <li>zich kosteloos te doen bijstaan door een tolk, indien hij de taal welke ter zitting wordt gebezigd niet verstaat of niet spreekt ».</li>\n                    </ol>\n                </li>\n            </ol>\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-022",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-012",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-015",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-016",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-017"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 13 van het Europees Verdrag voor de rechten van de mens bepaalt :</p><blockquote class=\"case-quote\">« Eenieder wiens rechten en vrijheden, welke in dit Verdrag zijn vermeld, zijn geschonden, heeft recht op daadwerkelijke rechtshulp voor een nationale instantie, zelfs indien deze schending zou zijn begaan door personen in de uitoefening van hun ambtelijke functie ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-022"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-024",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 47 van het Handvest van de grondrechten van de Europese Unie bepaalt :</p><blockquote class=\"case-quote\">« Eenieder wiens door het recht van de Unie gewaarborgde rechten en vrijheden zijn geschonden, heeft recht op een doeltreffende voorziening in rechte, met inachtneming van de in dit artikel gestelde voorwaarden. Eenieder heeft recht op een eerlijke en openbare behandeling van zijn zaak, binnen een redelijke termijn, door een onafhankelijk en onpartijdig gerecht dat vooraf bij wet is ingesteld. Eenieder heeft de mogelijkheid zich te laten adviseren, verdedigen en vertegenwoordigen. Rechtsbijstand wordt verleend aan degenen die niet over toereikende financiële middelen beschikken, voor zover die bijstand noodzakelijk is om de daadwerkelijke toegang tot de rechter te waarborgen ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-024",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-025",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 48, lid 2, van hetzelfde Handvest bepaalt :</p><blockquote class=\"case-quote\">« Aan eenieder tegen wie een vervolging is ingesteld, wordt de eerbiediging van de rechten van de verdediging gegarandeerd ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-025",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-024"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-006"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-026",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De bestaanbaarheid van de in het geding zijnde bepaling met artikel 47 van het Handvest van de grondrechten van de Europese Unie, in samenhang gelezen met de artikelen 10 tot 13 van de Grondwet, kan slechts door het Hof worden onderzocht in zoverre de in het geding zijnde bepaling het Unierecht ten uitvoer brengt overeenkomstig artikel 51, lid 1, van het Handvest van de grondrechten van de Europese Unie (HvJ, grote kamer, 26 februari 2013, C-617/10, Aklagaren, punten 17 e.v.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-026",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-027",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het Hof van Justitie brengt in dat verband in herinnering dat artikel 48 van het Handvest van de grondrechten van de Europese Unie overeenstemt met artikel 6, leden 2 en 3, van het Europees Verdrag voor de rechten van de mens (HvJ, 5 september 2019, C-377/18, A.H. e.a., punt 41) en dat de eerste en de tweede alinea van artikel 47 van het Handvest overeenstemmen met artikel 6, lid 1, en met artikel 13 van het Europees Verdrag voor de rechten van de mens (HvJ, grote kamer, 19 november 2019, C-585/18, C-624/18 en C-625/18, A.K. e.a., punt 117). Overeenkomstig artikel 52, lid 3, van het Handvest dient het Hof van Justitie bijgevolg erop toe te zien dat de uitlegging die het aan de artikelen 47 en 48 van het Handvest geeft,</p>",
+          "<blockquote class=\"case-quote\">« zodanig is dat het daardoor geboden beschermingsniveau niet in strijd komt met datgene wat wordt geboden door artikel 6 EVRM, zoals uitgelegd door het Europees Hof voor de Rechten van de Mens » (HvJ, 29 juli 2019, C-38/18, Gambino en Hyka, punt 39).</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-027",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-028",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In de richtlijn 2010/64/EU</p><blockquote class=\"case-quote\">« worden gemeenschappelijke minimumregels [...] vastgesteld die op het gebied van vertolking en vertaling in strafprocedures moeten gelden, om het wederzijdse vertrouwen tussen de lidstaten te vergroten » (overweging 12).</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-028",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-012"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-024"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-029",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n\"[kan] de verdachte [...] vragen dat de rechtspleging in het Frans wordt gevoerd, in welk geval zij voor hetzelfde gerecht in het Frans wordt voortgezet\" (Parl. St., Kamer, 1984-1985, nr. 1136/1, p. 2, en nr. 1136/6, p. 7).\n</blockquote>",
+          "<p class=\"case-section__paragraph\">Die mogelijkheid wordt geregeld bij artikel 23, vijfde lid, van de wet van 15 juni 1935 ten behoeve van de</p>",
+          "<blockquote class=\"case-quote\">« beklaagde die alleen Frans kent of zich gemakkelijker in die taal uitdrukt »,</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-029",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-030",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Daarenboven waarborgt artikel 31 van de wet van 15 juni 1935 dat, in alle ondervragingen in het kader van het opsporingsonderzoek en van het gerechtelijk onderzoek, alsmede voor de onderzoeks- en vonnisgerechten, de partijen die persoonlijk verschijnen, de taal van hun keuze gebruiken voor al hun mondelinge verklaringen (artikel 31, eerste lid, van de wet van 15 juni 1935). Bovendien worden de partijen die de taal van de rechtspleging niet begrijpen, bijgestaan door een beëdigd tolk die alle mondelinge verklaringen vertaalt (artikel 31, derde lid, van de wet van 15 juni 1935). Het openbaar ministerie kan, bovendien, indien een of meer verdachten of hun raadslieden de taal van de rechtspleging niet begrijpen, een samenvatting van zijn vordering geven in het Frans, in het Nederlands of in het Duits (artikel 35, derde lid, van de wet van 15 juni 1935).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-030",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-028"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-025"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-031",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bovendien heeft de vervolgde, volgens artikel 38, tiende lid, van de wet van 15 juni 1935, steeds het recht om, op zijn kosten, een vertaling te vragen van elke akte van rechtspleging die niet in de in het geding zijnde bepaling wordt beoogd. De persoon die niet over de nodige inkomsten zou beschikken om die kosten te dragen, kan om rechtsbijstand verzoeken teneinde de diensten van een vertaler te verkrijgen (artikel 664 van het Gerechtelijk Wetboek).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-031",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-032"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-032",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bovendien heeft de vervolgde, volgens artikel 38, tiende lid, van de wet van 15 juni 1935, steeds het recht om, op zijn kosten, een vertaling te vragen van elke akte van rechtspleging die niet in de in het geding zijnde bepaling wordt beoogd. De persoon die niet over de nodige inkomsten zou beschikken om die kosten te dragen, kan om rechtsbijstand verzoeken teneinde de diensten van een vertaler te verkrijgen (artikel 664 van het Gerechtelijk Wetboek).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-032",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-031"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Zoals in B.3 is vermeld, heeft de prejudiciële vraag betrekking op de situatie van een « verdachte » die heeft kunnen verzoeken om bijkomende onderzoekshandelingen te verrichten alvorens de vertaling van de stukken aan te vragen, overeenkomstig de in het geding zijnde bepaling, en die zijn verzoek om vertaling enkel heeft herhaald voor het vonnisgerecht waarbij de zaak door verwijzing van de raadkamer aanhangig is gemaakt. Het Hof dient te onderzoeken of de in het geding zijnde bepaling, in zoverre zij erin voorziet dat het verzoek om vertaling van de verdachte die de taal van de rechtspleging niet begrijpt, in het stadium van het gerechtelijk onderzoek moet worden gericht aan het openbaar ministerie terwijl zij niet voorziet in een beroep tegen de weigeringsbeslissing van het openbaar ministerie, bestaanbaar is met het recht op een eerlijk proces, met de rechten van verdediging en met het recht op een daadwerkelijk rechtsmiddel, die door de voormelde bepalingen zijn gewaarborgd, in zoverre zij die rechten, die aan alle personen worden gewaarborgd, aldus, zonder redelijke verantwoording, aan een bepaalde categorie van personen zou ontzeggen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-020",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-021",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-022",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 6 van het Europees Verdrag voor de rechten van de mens bepaalt :</p><blockquote class=\"case-quote\">\n            <ol>\n                <li>Bij het vaststellen van zijn burgerlijke rechten en verplichtingen of bij het bepalen van de gegrondheid van een tegen hem ingestelde strafvervolging heeft eenieder recht op een eerlijke en openbare behandeling van zijn zaak, binnen een redelijke termijn, door een onafhankelijke en onpartijdige rechterlijke instantie welke bij de wet is ingesteld. Het vonnis moet in het openbaar worden gewezen maar de toegang tot de rechtszaal kan aan de pers en het publiek worden ontzegd gedurende het gehele proces of een deel daarvan, in het belang van de goede zeden, van de openbare orde of 's lands veiligheid in een democratische samenleving, wanneer de belangen van minderjarigen of de bescherming van het privéleven van partijen bij het proces dit eisen of, in die mate als door de rechter onder bepaalde omstandigheden strikt noodzakelijk wordt geoordeeld, wanneer openbaarmaking de belangen van de rechtspraak zou schaden.</li>\n                <li>Eenieder, die wegens een strafbaar feit wordt vervolgd wordt voor onschuldig gehouden totdat zijn schuld volgens de wet bewezen wordt.</li>\n                <li>Eenieder, die wegens een strafbaar feit wordt vervolgd, heeft ten minste de volgende rechten :\n                    <ol type=\"a\">\n                        <li>onverwijld, in een taal welke hij verstaat, en in bijzonderheden, op de hoogte te worden gesteld van de aard en de reden van de tegen hem ingebrachte beschuldiging;</li>\n                        <li>te beschikken over voldoende tijd en faciliteiten welke nodig zijn voor de voorbereiding van zijn verdediging;</li>\n                        <li>zichzelf te verdedigen of de bijstand te hebben van een raadsman naar zijn keuze, of, indien hij niet over voldoende middelen beschikt om een raadsman te bekostigen, kosteloos door een toegevoegd advocaat te kunnen worden bijgestaan, indien het belang van de rechtspraak dit eist;</li>\n                        <li>de getuigen à charge te ondervragen of doen ondervragen en het oproepen en de ondervraging van getuigen à décharge te doen geschieden op dezelfde voorwaarden als het geval is met de getuigen à charge;</li>\n                        <li>zich kosteloos te doen bijstaan door een tolk, indien hij de taal welke ter zitting wordt gebezigd niet verstaat of niet spreekt ».</li>\n                    </ol>\n                </li>\n            </ol>\n        </blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-022",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-012",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-014",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-015",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-016",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-017"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 13 van het Europees Verdrag voor de rechten van de mens bepaalt :</p><blockquote class=\"case-quote\">« Eenieder wiens rechten en vrijheden, welke in dit Verdrag zijn vermeld, zijn geschonden, heeft recht op daadwerkelijke rechtshulp voor een nationale instantie, zelfs indien deze schending zou zijn begaan door personen in de uitoefening van hun ambtelijke functie ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-022"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-024",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 47 van het Handvest van de grondrechten van de Europese Unie bepaalt :</p><blockquote class=\"case-quote\">« Eenieder wiens door het recht van de Unie gewaarborgde rechten en vrijheden zijn geschonden, heeft recht op een doeltreffende voorziening in rechte, met inachtneming van de in dit artikel gestelde voorwaarden. Eenieder heeft recht op een eerlijke en openbare behandeling van zijn zaak, binnen een redelijke termijn, door een onafhankelijk en onpartijdig gerecht dat vooraf bij wet is ingesteld. Eenieder heeft de mogelijkheid zich te laten adviseren, verdedigen en vertegenwoordigen. Rechtsbijstand wordt verleend aan degenen die niet over toereikende financiële middelen beschikken, voor zover die bijstand noodzakelijk is om de daadwerkelijke toegang tot de rechter te waarborgen ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-024",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-025",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 48, lid 2, van hetzelfde Handvest bepaalt :</p><blockquote class=\"case-quote\">« Aan eenieder tegen wie een vervolging is ingesteld, wordt de eerbiediging van de rechten van de verdediging gegarandeerd ».</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-025",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-024"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-006"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-026",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De bestaanbaarheid van de in het geding zijnde bepaling met artikel 47 van het Handvest van de grondrechten van de Europese Unie, in samenhang gelezen met de artikelen 10 tot 13 van de Grondwet, kan slechts door het Hof worden onderzocht in zoverre de in het geding zijnde bepaling het Unierecht ten uitvoer brengt overeenkomstig artikel 51, lid 1, van het Handvest van de grondrechten van de Europese Unie (HvJ, grote kamer, 26 februari 2013, C-617/10, Aklagaren, punten 17 e.v.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-026",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-004",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-027",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het Hof van Justitie brengt in dat verband in herinnering dat artikel 48 van het Handvest van de grondrechten van de Europese Unie overeenstemt met artikel 6, leden 2 en 3, van het Europees Verdrag voor de rechten van de mens (HvJ, 5 september 2019, C-377/18, A.H. e.a., punt 41) en dat de eerste en de tweede alinea van artikel 47 van het Handvest overeenstemmen met artikel 6, lid 1, en met artikel 13 van het Europees Verdrag voor de rechten van de mens (HvJ, grote kamer, 19 november 2019, C-585/18, C-624/18 en C-625/18, A.K. e.a., punt 117). Overeenkomstig artikel 52, lid 3, van het Handvest dient het Hof van Justitie bijgevolg erop toe te zien dat de uitlegging die het aan de artikelen 47 en 48 van het Handvest geeft,</p>",
+          "<blockquote class=\"case-quote\">« zodanig is dat het daardoor geboden beschermingsniveau niet in strijd komt met datgene wat wordt geboden door artikel 6 EVRM, zoals uitgelegd door het Europees Hof voor de Rechten van de Mens » (HvJ, 29 juli 2019, C-38/18, Gambino en Hyka, punt 39).</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-027",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-011",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-028",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In de richtlijn 2010/64/EU</p><blockquote class=\"case-quote\">« worden gemeenschappelijke minimumregels [...] vastgesteld die op het gebied van vertolking en vertaling in strafprocedures moeten gelden, om het wederzijdse vertrouwen tussen de lidstaten te vergroten » (overweging 12).</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-028",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-012"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-024"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-029",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">« verdachten of beklaagden die de taal van de strafprocedure niet spreken of verstaan, hun recht van verdediging volledig kunnen uitoefenen » en « het eerlijke verloop van de procedure wordt gewaarborgd » (overweging 17).</blockquote>",
+          "<p class=\"case-section__paragraph\">Met het recht op vertaling, binnen een redelijke termijn, van de essentiële processtukken, dat is vastgelegd in artikel 3 van de richtlijn 2010/64/EU, worden die doelstellingen nagestreefd (HvJ, 15 oktober 2015, C-216/14, Covaci, punt 43; 12 oktober 2017, C-278/16, Sleutjes, punt 32).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-029",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-012"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-024"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-030",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Aldus vereist de richtlijn 2010/64/EU van de lidstaten dat zij ervoor zorgen dat er een procedure of mechanisme bestaat om te bepalen of de verdachte of beklaagde de taal van de strafprocedure spreekt en begrijpt en of hij de bijstand van een tolk nodig heeft (artikel 2, lid 4) en dat zij ervoor zorgen dat een verdachte of beklaagde die de taal van de strafprocedure niet begrijpt, binnen een redelijke termijn een schriftelijke vertaling ontvangt van alle processtukken die essentieel zijn om te waarborgen dat hij zijn recht van verdediging kan uitoefenen en om het eerlijke verloop van de procedure te waarborgen (artikel 3, lid 1). In overweging 21 van de richtlijn 2010/64/EU wordt de keuze van de meest adequate wijzen van verificatie, met name het raadplegen van de verdachte of beklaagde, evenwel aan het oordeel van de autoriteiten overgelaten. Evenzo wordt het bij artikel 3, lid 3, van de richtlijn 2010/64/EU aan de « bevoegde autoriteiten » overgelaten om per geval te besluiten welke processtukken essentieel zijn, waarbij de verplichting tot vertaling enkel betrekking heeft op de onderdelen van essentiële processtukken die « relevant zijn om de verdachte of beklaagde in staat te stellen van de zaak tegen hem kennis te laten nemen » (artikel 3, lid 4). Artikel 3, lid 5, van de richtlijn 2010/64/EU bepaalt daarenboven dat de verdachte of beklaagde het recht zou moeten hebben de vaststelling dat er geen vertaling nodig is, aan te vechten, overeenkomstig procedures in het nationale recht. Uit die bepaling kan evenwel niet worden afgeleid dat de lidstaten verplicht zijn te voorzien in een afzonderlijk mechanisme of een afzonderlijke klachtenprocedure om die vaststelling aan te vechten. Ten slotte maakt artikel 3, lid 7, van de richtlijn 2010/64/EU het mogelijk dat in plaats van een schriftelijke vertaling een mondelinge vertaling of mondelinge samenvatting van de essentiële processtukken wordt verstrekt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-030",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-013",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-023",
+          "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-024"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-031",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het Hof dient zich te dezen uit te spreken over een verzoek om vertaling dat wordt gedaan in de loop van een gerechtelijk onderzoek.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-031",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-030"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-032",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-032",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-037",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-033",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-034",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-035",
+          "ART-ECLI:BE:EABRL:2020:ARR.20200924.2-036"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 37,
+      "citationStatistics": {
+        "totalCitations": 47,
+        "avgCitationsPerProvision": 1.2702702702702702,
+        "provisionsWithMinimalCitations": 36,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.2432432432432434,
+        "avgDecisionsPerProvision": 0.5675675675675675,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:EABRL:2020:ARR.20200924.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij de regeling van de rechtspleging beslist de raadkamer over het afsluiten van het gerechtelijk onderzoek. De raadkamer doet uitspraak op verslag van de onderzoeksrechter na de procureur des Konings, de burgerlijke partij en de verdachte gehoord te hebben. De verdachte kan zich in voorkomend geval laten bijstaan door een tolk (artikel 31 van de wet van 15 juni 1935). De inverdenkinggestelde kan worden bijgestaan of vertegenwoordigd door een raadsman, en het dossier wordt ter beschikking gesteld van de inverdenkinggestelde en van zijn raadsman, die inzage ervan kunnen hebben en kopie ervan kunnen opvragen (artikel 127 van het Wetboek van strafvordering). Bij de regeling van de rechtspleging voor de raadkamer leggen de partijen hun conclusie neer ter terechtzitting. De raadkamer onderzoekt de regelmatigheid van de rechtspleging en zij kan een onderzoekshandeling of de gehele rechtspleging nietig verklaren wanneer zij een onregelmatigheid, verzuim of nietigheid vaststelt (artikel 131 van het Wetboek van strafvordering). In het kader van de regeling van de rechtspleging kan de raadkamer aldus rekening houden met, enerzijds, het openbaar belang en de zorg voor een goede rechtsbedeling binnen een redelijke termijn en, anderzijds, het recht van de procespartijen op een debat op tegenspraak, met eerbiediging van de wapengelijkheid. De kamer van inbeschuldigingstelling kan overigens, in hoger beroep, alle bevoegdheden van de raadkamer uitoefenen, zoals onder meer het onderzoek van de regelmatigheid van de procedure, waartoe zij zelfs ambtshalve kan overgaan, met inbegrip van het zuiveren van het dossier van eventuele nietigheden (artikelen 135, 223 en 235bis van het Wetboek van strafvordering).</p>",
+          "<p class=\"case-section__paragraph\">Aldus beschikt de verdachte aan wie tijdens het gerechtelijk onderzoek een vertaling werd geweigerd, over de mogelijkheid om voor de onderzoeksgerechten, overeenkomstig de in het geding zijnde bepaling, de vertaling van de essentiële stukken van het dossier te verzoeken. Het staat dan aan het onderzoeksgerecht om de noodzaak van een vertaling te beoordelen en om soeverein, rekening houdend met de voorliggende bijzondere omstandigheden, te oordelen of de weigering tot vertaling de uitoefening van de rechten van verdediging van de verdachte voor het onderzoeksgerecht al dan niet schendt. Het onderzoeksgerecht kan daarbij alle relevante omstandigheden van het geding in aanmerking nemen ter vrijwaring van het recht van verdediging, zoals onder meer het gegeven dat de betrokkene op grond van artikel 22 van de wet van 15 juni 1935 reeds om de vertaling van de stukken heeft verzocht of dat had kunnen doen (Cass., 23 september 2014, P.14.0024.N ECLI:BE:CASS:2014:ARR.20140923.4 ). Een schending van het recht van verdediging ingevolge de weigering door het openbaar ministerie van de gevraagde vertaling kan tot de onontvankelijkheid van de strafvordering leiden.</p>",
+          "<p class=\"case-section__paragraph\">Die mogelijkheid om voor de onderzoeksgerechten om de vertaling van de essentiële processtukken te verzoeken, biedt de verdachte derhalve de mogelijkheid om de weigering van het openbaar ministerie om dat verzoek in te willigen, aan te vechten voor een onafhankelijke en onpartijdige rechter alvorens kan worden overgegaan tot de regeling van de rechtspleging. Er wordt bijgevolg geen afbreuk gedaan aan het recht op een daadwerkelijk rechtsmiddel. Rekening houdend met het bestaan van die jurisdictionele controle voor de onderzoeksgerechten, is de bevoegdheid van het openbaar ministerie om zich uit te spreken over het verzoek om vertaling in het stadium van het gerechtelijk onderzoek, bedoeld in de in het geding zijnde bepaling, niet onbestaanbaar met de rechten van verdediging en het eerlijke karakter van de procedure.</p>",
+          "<p class=\"case-section__paragraph\">Ten slotte dient erop te worden gewezen dat de vervolgde, op grond van de in het geding zijnde bepaling, ook nog in de procedure ten gronde voor het vonnisgerecht, om een vertaling van de essentiële processtukken kon verzoeken teneinde zijn recht van verdediging uit te oefenen.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 6,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-025"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:EABRL:2020:ARR.20200924.2-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Die richtlijn eerbiedigt de rechten die worden gewaarborgd door artikel 6 van het Europees Verdrag voor de rechten van de mens en door de artikelen 47 en 48, lid 2, van het Handvest van de grondrechten van de Europese Unie (overweging 5). Artikel 3 van de richtlijn 2010/64/EU, met als opschrift « Recht op vertaling van essentiële processtukken », bepaalt :</p>",
+          "<blockquote class=\"case-quote\">\n            <ol>\n                <li>De lidstaten zorgen ervoor dat een verdachte of beklaagde die de taal van de strafprocedure niet verstaat, binnen een redelijke termijn een schriftelijke vertaling ontvangt van alle processtukken die essentieel zijn om te garanderen dat hij zijn recht van verdediging kan uitoefenen en om het eerlijke verloop van de procedure te waarborgen.</li>\n                <li>De essentiële processtukken omvatten beslissingen tot vrijheidsbeneming, de tenlastelegging of dagvaarding en vonnissen.</li>\n                <li>De bevoegde autoriteiten besluiten per geval of andere processtukken essentieel zijn. De verdachte of beklaagde of zijn raadsman kan een met redenen omkleed verzoek met deze strekking indienen.</li>\n                <li>Onderdelen van essentiële processtukken die niet relevant zijn om de verdachte of beklaagde in staat te stellen van de zaak tegen hem kennis te laten nemen, hoeven niet te worden vertaald.</li>\n                <li>De lidstaten zorgen ervoor dat de verdachte of beklaagde, overeenkomstig de procedures in het nationale recht, het recht heeft een besluit aan te vechten waarbij wordt vastgesteld dat er geen vertaling van processtukken of onderdelen daarvan nodig is en, wanneer een vertaling is verstrekt, de mogelijkheid om een klacht te formuleren dat de kwaliteit ervan onvoldoende is om het eerlijke verloop van de procedure te waarborgen.</li>\n                <li>In procedures voor de tenuitvoerlegging van een Europees aanhoudingsbevel zorgt de lidstaat van tenuitvoerlegging ervoor dat zijn bevoegde autoriteiten aan eenieder tegen wie die procedure wordt gevoerd en die de taal waarin het Europese aanhoudingsbevel is gesteld of waarin het door de uitvaardigende lidstaat is vertaald niet verstaat, een schriftelijke vertaling van dat stuk verstrekken.</li>\n                <li>Als uitzondering op de in de leden 1, 2, 3 en 6 opgenomen algemene regels kan, in plaats van een schriftelijke vertaling een mondelinge vertaling of mondelinge samenvatting van de essentiële processtukken worden verstrekt, op voorwaarde dat deze mondelinge vertaling of mondelinge samenvatting het eerlijke verloop van de procedure onverlet laat.</li>\n                <li>Van het in dit artikel bedoelde recht op vertaling van processtukken kan alleen afstand worden gedaan, als de verdachte of beklaagde vooraf juridisch advies heeft gekregen of anderszins volledig is geïnformeerd over de gevolgen van deze afstand en als de afstand op ondubbelzinnige wijze en vrijwillig is gedaan.</li>\n                <li>Vertaling die overeenkomstig dit artikel wordt verstrekt, is van voldoende kwaliteit om het eerlijke verloop van de procedure te waarborgen, met name door ervoor te zorgen dat de verdachte of beklaagde geïnformeerd is over de zaak tegen hem en in staat is zijn recht van verdediging uit te oefenen ».</li>\n            </ol>\n        </blockquote>",
+          "<p class=\"case-section__paragraph\">Aldus vereist de richtlijn 2010/64/EU van de lidstaten dat zij ervoor zorgen dat er een procedure of mechanisme bestaat om te bepalen of de verdachte of beklaagde de taal van de strafprocedure spreekt en begrijpt en of hij de bijstand van een tolk nodig heeft (artikel 2, lid 4) en dat zij ervoor zorgen dat een verdachte of beklaagde die de taal van de strafprocedure niet begrijpt, binnen een redelijke termijn een schriftelijke vertaling ontvangt van alle processtukken die essentieel zijn om te waarborgen dat hij zijn recht van verdediging kan uitoefenen en om het eerlijke verloop van de procedure te waarborgen (artikel 3, lid 1). In overweging 21 van de richtlijn 2010/64/EU wordt de keuze van de meest adequate wijzen van verificatie, met name het raadplegen van de verdachte of beklaagde, evenwel aan het oordeel van de autoriteiten overgelaten. Evenzo wordt het bij artikel 3, lid 3, van de richtlijn 2010/64/EU aan de « bevoegde autoriteiten » overgelaten om per geval te besluiten welke processtukken essentieel zijn, waarbij de verplichting tot vertaling enkel betrekking heeft op de onderdelen van essentiële processtukken die « relevant zijn om de verdachte of beklaagde in staat te stellen van de zaak tegen hem kennis te laten nemen » (artikel 3, lid 4). Artikel 3, lid 5, van de richtlijn 2010/64/EU bepaalt daarenboven dat de verdachte of beklaagde het recht zou moeten hebben de vaststelling dat er geen vertaling nodig is, aan te vechten, overeenkomstig procedures in het nationale recht. Uit die bepaling kan evenwel niet worden afgeleid dat de lidstaten verplicht zijn te voorzien in een afzonderlijk mechanisme of een afzonderlijke klachtenprocedure om die vaststelling aan te vechten. Ten slotte maakt artikel 3, lid 7, van de richtlijn 2010/64/EU het mogelijk dat in plaats van een schriftelijke vertaling een mondelinge vertaling of mondelinge samenvatting van de essentiële processtukken wordt verstrekt.</p>",
+          "<p class=\"case-section__paragraph\">De bestaanbaarheid van de in het geding zijnde bepaling met artikel 47 van het Handvest van de grondrechten van de Europese Unie, in samenhang gelezen met de artikelen 10 tot 13 van de Grondwet, kan slechts door het Hof worden onderzocht in zoverre de in het geding zijnde bepaling het Unierecht ten uitvoer brengt overeenkomstig artikel 51, lid 1, van het Handvest van de grondrechten van de Europese Unie (HvJ, grote kamer, 26 februari 2013, C-617/10, Aklagaren, punten 17 e.v.). De verwijzende rechter vraagt het Hof of de in het geding zijnde bepaling bestaanbaar is met de artikelen 10 tot 13 van de Grondwet, al dan niet in samenhang gelezen met onder meer artikel 3, leden 3 en 5, van de richtlijn 2010/64/EU. Krachtens artikel 9 van de richtlijn 2010/64/EU doen de lidstaten de nodige wettelijke en bestuursrechtelijke bepalingen in werking treden om uiterlijk op 27 oktober 2013 aan die richtlijn te voldoen. Vanaf die datum had de richtlijn tot gevolg dat de in het geding zijnde bepaling, die een materie behandelt die onder die richtlijn valt, binnen de werkingssfeer van het recht van de Unie valt (HvJ, grote kamer, 19 januari 2010, C-555/07, Kücükdeveci, punt 25). Aldus dient bij de beoordeling van de bestreden bepaling ook rekening te worden gehouden met artikel 47 van het Handvest van de grondrechten van de Europese Unie.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 6, lid 3, a), vereist dat de kennisgeving van de « beschuldiging » aan de betrokkene « zeer zorgvuldig » gebeurt (EHRM, grote kamer, 1 maart 2006, Sejdovic t. Italië, § 89). De informatie waarop de strafrechtelijk vervolgde, in de zin van die bepaling, op die grond recht heeft, omvat, enerzijds, de materiële feiten die hem ten laste worden gelegd en waarop de beschuldiging is gebaseerd (de « reden » van de beschuldiging), en, anderzijds, de aan die feiten gegeven juridische kwalificatie (de « aard » van de beschuldiging). Precieze en volledige informatie over de beschuldiging die tegen een strafrechtelijk vervolgde wordt ingebracht, vormt een essentiële voorwaarde voor een billijke rechtspleging. Het Europees Hof voor de Rechten van de Mens is van oordeel dat een strafrechtelijk vervolgde die niet vertrouwd is met de door de rechtbank gebruikte taal, in de praktijk kan worden benadeeld indien hem ook geen vertaling van de akte van beschuldiging wordt overhandigd (EHRM, grote kamer, 18 oktober 2006, Hermi t. Italië, § 68; EHRM, 28 augustus 2018, Vizgirda t. Slovenië, § 75). De instanties aan wie een dergelijk verzoek om vertaling wordt gericht, moeten gevolg eraan geven, teneinde de vereisten van artikel 6, lid 3, a), in acht te nemen, tenzij wordt aangetoond dat de eiser de taal van de rechtspleging voldoende beheerst om de draagwijdte te begrijpen van de akte waarbij hem kennis wordt gegeven van de tegen hem geuite beschuldigingen (EHRM, voltallig, 19 december 1989, Brozicek t. Italië, § 41).</p>",
+          "<blockquote class=\"case-quote\">\n            <ol>\n                <li>Bij het vaststellen van zijn burgerlijke rechten en verplichtingen of bij het bepalen van de gegrondheid van een tegen hem ingestelde strafvervolging heeft eenieder recht op een eerlijke en openbare behandeling van zijn zaak, binnen een redelijke termijn, door een onafhankelijke en onpartijdige rechterlijke instantie welke bij de wet is ingesteld. Het vonnis moet in het openbaar worden gewezen maar de toegang tot de rechtszaal kan aan de pers en het publiek worden ontzegd gedurende het gehele proces of een deel daarvan, in het belang van de goede zeden, van de openbare orde of 's lands veiligheid in een democratische samenleving, wanneer de belangen van minderjarigen of de bescherming van het privéleven van partijen bij het proces dit eisen of, in die mate als door de rechter onder bepaalde omstandigheden strikt noodzakelijk wordt geoordeeld, wanneer openbaarmaking de belangen van de rechtspraak zou schaden.</li>\n                <li>Eenieder, die wegens een strafbaar feit wordt vervolgd wordt voor onschuldig gehouden totdat zijn schuld volgens de wet bewezen wordt.</li>\n                <li>Eenieder, die wegens een strafbaar feit wordt vervolgd, heeft ten minste de volgende rechten :\n                    <ol type=\"a\">\n                        <li>onverwijld, in een taal welke hij verstaat, en in bijzonderheden, op de hoogte te worden gesteld van de aard en de reden van de tegen hem ingebrachte beschuldiging;</li>\n                        <li>te beschikken over voldoende tijd en faciliteiten welke nodig zijn voor de voorbereiding van zijn verdediging;</li>\n                        <li>zichzelf te verdedigen of de bijstand te hebben van een raadsman naar zijn keuze, of, indien hij niet over voldoende middelen beschikt om een raadsman te bekostigen, kosteloos door een toegevoegd advocaat te kunnen worden bijgestaan, indien het belang van de rechtspraak dit eist;</li>\n                        <li>de getuigen à charge te ondervragen of doen ondervragen en het oproepen en de ondervraging van getuigen à décharge te doen geschieden op dezelfde voorwaarden als het geval is met de getuigen à charge;</li>\n                        <li>zich kosteloos te doen bijstaan door een tolk, indien hij de taal welke ter zitting wordt gebezigd niet verstaat of niet spreekt ».</li>\n                    </ol>\n                </li>\n            </ol>\n        </blockquote>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 4,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 10,
+        "avgCitationsPerTeaching": 5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 9,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 5,
+        "totalDecisionsNotFound": 1
+      },
+      "extractionNotes": [
+        "DEC-ECLI:BE:EABRL:2020:ARR.20200924.2-025 (Cass., 15 juli 2014) appears in the decision text (B.12.4) but was not included among the extracted citations for TEACH-ECLI:BE:EABRL:2020:ARR.20200924.2-001; flagged as not found in those citations."
+      ]
+    }
+  }
+}

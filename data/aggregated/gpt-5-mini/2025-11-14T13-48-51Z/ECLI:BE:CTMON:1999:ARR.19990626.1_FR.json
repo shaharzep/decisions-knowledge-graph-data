@@ -1,0 +1,317 @@
+{
+  "decision_id": "ECLI:BE:CTMON:1999:ARR.19990626.1",
+  "language": "FR",
+  "metadata": {
+    "id": 97793,
+    "court_ecli_code": "CTMON",
+    "court_name": "Cour du travail de Mons",
+    "decision_date": "1999-06-26",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 1794,
+    "length_category": "short"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour du travail de Mons, 26 août 1999, RG n 15005, ECLI:BE:CTMON:1999:ARR.19990626.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CTMON:1999:ARR.19990626.1-001",
+        "name": "Etat Belge, Service des allocations aux handicapés",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTMON:1999:ARR.19990626.1-002",
+        "name": "VANDEN BERGHE Serge",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Cour du Travail de Mons, prononcé le 26 août 1999 par la 5ème chambre (Code judiciaire, art. 1055), RG n 15005. En cause : Etat Belge, Service des allocations aux handicapés contre : VANDEN BERGHE Serge. Le jugement du 1er décembre 1995 est décrit comme un jugement mixte ; il contient des dispositions avant dire droit (la désignation de l'expert) et des dispositions déclaratives de droit notamment quant à l'allocation d'intégration et quant à la période au sujet de laquelle l'expert était invité à se prononcer. Le tribunal a statué et décidé définitivement que l'allocation d'intégration est «possible» et que l'allocation de remplacement de revenus, eu égard aux revenus de l'intéressé, « est impossible ». L'affaire concerne notamment la notion de jugement mixte et le délai d'appel applicable.",
+      "requests": [],
+      "arguments": [],
+      "courtOrder": "​\"\"​\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
+      "outcome": "AUTRE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:1999:ARR.19990626.1-001",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:1999:ARR.19990626.1-001",
+        "provisionNumber": "article 1055",
+        "provisionNumberKey": "1055",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1975-12-04",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTMON:1999:ARR.19990626.1-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1990-01-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTMON:1999:ARR.19990626.1-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1990-04-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTMON:1999:ARR.19990626.1-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit social",
+      "Allocation d'intégration",
+      "Allocation de remplacement",
+      "Désignation d'expert",
+      "Litige allocations handicap",
+      "Jugement mixte",
+      "Délai d'appel",
+      "Recevabilité de l'appel",
+      "Dispositions définitives",
+      "Notion avant dire droit"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:1999:ARR.19990626.1-001",
+        "text": "Un « jugement mixte » se caractérise lorsque le même jugement contient à la fois des mesures préalables (avant dire droit) et des dispositions déclaratives ou définitives sur certains chefs de la demande ; dans ce cas la qualification tient à la coexistence de dispositions provisionnelles et de décisions définitives au sein d'un même dispositif.",
+        "courtVerbatim": "Le jugement avant dire droit est celui par lequel « le juge ordonne une mesure préalable, destinée à instruire la demande ou à régler provisionnellement la situation des parties » (A. FETTWEIS, Manuel de Procédure civile, Fac. Droit, Liège, 1987, p. 257, n 342).\n\nLe jugement mixte ou complexe et le jugement qui contient des dispositions définitives sur certains chefs de la demande et statue avant dire droit sur d'autres éléments du litige » (Cass. 4/12/1975, Pas. 1976, I, 476).",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un même jugement ordonne des mesures préalables (ex. désignation d'expert) et, sur d'autres chefs, statue de façon déclarative ou définitive.",
+        "relevantFactualContext": "Le jugement du 1er décembre 1995 contenait à la fois la désignation d'un expert (mesure avant dire droit) et des dispositions déclaratives définitives quant à l'allocation d'intégration et à la période objet d'expertise, de sorte qu'il a été qualifié de jugement mixte.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CTMON:1999:ARR.19990626.1-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTMON:1999:ARR.19990626.1-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTMON:1999:ARR.19990626.1-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:1999:ARR.19990626.1-002",
+        "text": "Lorsque un jugement contient des dispositions définitives sur certains chefs de la demande, l'appel dirigé contre ces dispositions doit être formé dans les délais légaux : l'appel formé hors délai mais simultanément à l'appel contre un jugement ultérieur qui « vide le litige » est tardif et indemontre pas le respect du délai propre aux dispositions définitives.",
+        "courtVerbatim": "Selon la Cour de cassation, lorsqu'un jugement contient des dispositions définitives, l'appel est tardif s'il est formé non dans les délais légaux mais en même temps que l'appel dirigé contre le jugement ultérieur qui vide le litige ( Cass. 5/1/1990, Bull. Arr. Cass. 1990, n² 272, voyez également les conclusions de Monsieur l’Avocat général J.-F. Leclercq avant Cass. 2/4/1990, Bull. Arr. Cass. 1990, n 462, spécialement p. 902).",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque le même litige donne lieu à un jugement initial comportant des décisions définitives et à un jugement ultérieur qui tranche les éléments restants du litige.",
+        "relevantFactualContext": "En l'espèce le premier jugement de décembre 1995 a statué définitivement sur l'attribution éventuelle d'une allocation et sur l'impossibilité d'une allocation de remplacement de revenus; l'appel formé simultanément à l'appel du jugement ultérieur a été considéré tardif au regard des dispositions définitives.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CTMON:1999:ARR.19990626.1-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTMON:1999:ARR.19990626.1-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTMON:1999:ARR.19990626.1-002",
+          "DEC-ECLI:BE:CTMON:1999:ARR.19990626.1-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 2,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "L'État (Service des allocations aux handicapés) et le demandeur contestent l'octroi d'une allocation d'intégration et l'impossibilité d'une allocation de remplacement de revenus. Le tribunal a considéré, par son jugement du 1er décembre 1995, que l'allocation d'intégration était «possible» et que l'allocation de remplacement de revenus était «impossible», qualifiant le jugement de mixte. La Cour rappelle que l'appel des dispositions définitives d'un jugement est tardif s'il n'est pas formé dans les délais légaux mais seulement en même temps que l'appel du jugement ultérieur qui vide le litige."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:1999:ARR.19990626.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Code judiciaire, art. 1055</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:1999:ARR.19990626.1-001"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 1,
+      "citationStatistics": {
+        "totalCitations": 1,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 1,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:1999:ARR.19990626.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Code judiciaire, art. 1055</p>",
+          "<p class=\"case-section__paragraph\">Le jugement avant dire droit est celui par lequel « le juge ordonne une mesure préalable, destinée à instruire la demande ou à régler provisionnellement la situation des parties » (A. FETTWEIS, Manuel de Procédure civile, Fac. Droit, Liège, 1987, p. 257, n° 342).</p>",
+          "<p class=\"case-section__paragraph\">Le jugement mixte ou complexe et le jugement qui contient des dispositions définitives sur certains chefs de la demande et statue avant dire droit sur d'autres éléments du litige » (Cass. 4/12/1975, Pas. 1976, I, 476).</p>",
+          "<p class=\"case-section__paragraph\">En l’espèce, le jugement du 1 er décembre 1995 est un jugement mixte ; il contient des dispositions avant dire droit (la désignation de l’expert) et des dispositions déclaratives de droit notamment quant à l’allocation d’intégration et quant à la période au sujet de laquelle l’expert était invité à se prononcer. Le tribunal a statué et décidé définitivement que l’allocation d’intégration est  « possible » et que l’allocation de remplacement de revenus, eu égard aux revenus de l’intéressé, « est impossible ».</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:1999:ARR.19990626.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Code judiciaire, art. 1055</p>",
+          "<p class=\"case-section__paragraph\">Selon la Cour de cassation, lorsqu’un jugement contient des dispositions définitives, l’appel est tardif s’il est formé non dans les délais légaux mais en même temps que l’appel dirigé contre le jugement ultérieur qui vide le litige ( Cass. 5/1/1990, Bull. Arr. Cass. 1990, n° 272, voyez également les conclusions de Monsieur l’Avocat général J.‑F. Leclercq avant Cass. 2/4/1990, Bull. Arr. Cass. 1990, n° 462, spécialement p. 902).</p>",
+          "<p class=\"case-section__paragraph\">En l’espèce, le jugement du 1 er décembre 1995 est un jugement mixte ; il contient des dispositions avant dire droit (la désignation de l’expert) et des dispositions déclaratives de droit notamment quant à l’allocation d’intégration et quant à la période au sujet de laquelle l’expert était invité à se prononcer. Le tribunal a statué et décidé définitivement que l’allocation d’intégration est  « possible » et que l’allocation de remplacement de revenus, eu égard aux revenus de l’intéressé, « est impossible ».</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 3.5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 3,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

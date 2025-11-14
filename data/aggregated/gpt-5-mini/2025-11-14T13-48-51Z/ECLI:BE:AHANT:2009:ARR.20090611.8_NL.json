@@ -1,0 +1,643 @@
+{
+  "decision_id": "ECLI:BE:AHANT:2009:ARR.20090611.8",
+  "language": "NL",
+  "metadata": {
+    "id": 175,
+    "court_ecli_code": "AHANT",
+    "court_name": "Arbeidshof te Antwerpen",
+    "decision_date": "2009-06-11",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 21160,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidshof te Antwerpen, 11 juni 2009, A.R. 2080156, ECLI:BE:AHANT:2009:ARR.20090611.8"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2009:ARR.20090611.8-001",
+        "name": "GM",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2009:ARR.20090611.8-002",
+        "name": "DE LCM",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2009:ARR.20090611.8-003",
+        "name": "R N (Openbaar ministerie, advocaat-generaal)",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "OPENBAAR_MINISTERIE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "GM, arbeidsongeschikt erkend door de adviserend geneesheer van LCM, werd medisch onderzocht op 30 januari 2001 en door LCM vanaf 5 februari 2001 arbeidsgeschikt verklaard; een nieuwe ziekteaangifte van GM werd op 8 februari 2001 geweigerd. GM nam verhaal bij de arbeidsrechtbank te Hasselt; bij tussenvonnis van 15 november 2001 werden zijn vorderingen ontvankelijk verklaard en werd een deskundige aangesteld. Het eerste deskundigenverslag oordeelde dat GM werkonbekwaam was voor zijn laatste beroepsactiviteit maar niet voor de algemene arbeidsmarkt. In vonnis van 28 april 2005 verwierpen de eerste rechters dat verslag wegens schending van de verdediging en stelden een nieuwe deskundigheid aan (Dr. G. T. en ergoloog H. D., later vervangen door A. D.). Bij vonnis van 19 oktober 2006, na expertise, oordeelden de eerste rechters dat GM arbeidsongeschikt was voor de algemene arbeidsmarkt en vernietigden zij de bestreden administratieve beslissingen van LCM die GM arbeidsgeschikt hadden verklaard. GM vorderde via eisuitbreiding ook achterstallige ziekteuitkeringen en interesten; de eerste rechters verwezen dit naar rol voor standpunt van LCM. In eindvonnis van 15 mei 2008 verklaarden de eerste rechters de eisuitbreiding van GM ongegrond voor het deel betreffende interesten en kapitalisatie en veroordeelden zij LCM in de kosten (vereveningen en toegekende rechtsplegingsvergoedingen vermeld). De bedragen betrokken in geschil zijn onder meer totale achterstallige ziekteuitkeringen €73.597,84, uitgekeerde werkloosheidsuitkeringen €48.885,86 en saldo €24.711,98; GM vorderde interesten berekend op het volledige bedrag en kapitalisatie op grond van art.1154 B.W. Beide partijen stelden hoger beroep: GM tegen het eindvonnis van 15 mei 2008 (A.R. 2080156) en LCM tegen tussenvonnis van 19 oktober 2006 en eindvonnis van 15 mei 2008 (A.R. 2080167). De zaken werden verknocht en samengevoegd.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2009:ARR.20090611.8-001",
+          "argument": "GM stelt dat hij krachtens artikel 20 van het Handvest van de Sociaal Verzekerde recht heeft op interesten op de volledige som der achterstallige ziekteuitkeringen (€73.597,84) en berekent deze interesten op €19.197,84, verminderd met door LCM betaalde interesten (€5.201,36) waardoor zijn vordering €13.996,48 bedraagt. Hij betoogt dat artikel 62 §2 van het Werkloosheidsbesluit slechts subrogatie in hoofdsom verleent aan de RVA en niet aan interesten, en dat de uitzonderingen in artikel 20 niet op zijn situatie van toepassing zijn. Voorts vordert hij op grond van artikel 1154 B.W. de kapitalisatie van interesten en betoogt dat dit artikel een algemene draagwijdte heeft die ook sociale zekerheidsvorderingen omvat.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2009:ARR.20090611.8-002",
+          "argument": "LCM betwist dat zij interesten verschuldigd is op de volledige achterstallige ziekteuitkeringen en stelt dat slechts interesten op het verschil tussen de verschuldigde ziekteuitkeringen en de door de RVA betaalde werkloosheidsuitkeringen moeten worden toegekend (d.w.z. op €24.711,98), wat door LCM werd berekend op €5.201,36 en reeds werd uitgekeerd. LCM beroept zich tevens op artikel 62 §2 Werkloosheidsbesluit betreffende regularisatie en subrogatie richting RVA en betwist de toepasselijkheid van kapitalisatie op sociale zekerheidsuitkeringen. Ten slotte betwist LCM de dubbele toekenning van rechtsplegingsvergoeding en vraagt herziening/vermindering van ten laste gelegde kosten.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "Voegt de zaken gekend onder A.R. 2080156 en A.R. 2080167 samen onder A.R. 2080156.\n\nVerklaart het hoger beroep van G M ontvankelijk doch ongegrond.\nVerklaart het hoger beroep van de LCM tegen het tussenvonnis van de arbeidsrechtbank te Hasselt van 19 oktober 2006 onontvankelijk; het hoger beroep tegen het eindvonnis van de arbeidsrechtbank te Hasselt van 15 mei 2008 ontvankelijk en gegrond.\n\nVernietigt het vonnis van de arbeidsrechtbank te Hasselt van 15 mei 2008 voor zover het de LCM veroordeelt tot de kosten van het geding en deze vereffent aan de zijde van G M op 1.100 EUR rechtsplegingsvergoeding en aan de zijde van de LCM eveneens op 1.100 EUR rechtsplegingsvergoeding eerste aanleg.\n\nBevestigt voor het overige het vonnis van de arbeidsrechtbank te Hasselt van 15 mei 2008.\n\nVerwijst de LCM in de kosten van de procedure in hoger beroep.\n\nVereffent deze aan de zijde van G M op 291,50 EUR rechtsplegingsvergoeding hoger beroep.\n\nLaat deze onvereffend aan de zijde van de LCM bij gebreke aan afgifte kostenstaat.",
+      "outcome": "GEDEELTELIJKE_VERNIETIGING"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-001",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2009:ARR.20090611.8-001",
+        "provisionNumber": "artikel 792",
+        "provisionNumberKey": "792",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-002",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2009:ARR.20090611.8-002",
+        "provisionNumber": "artikel 62 § 2",
+        "provisionNumberKey": "62",
+        "parentActType": "ANDERE",
+        "parentActName": "Werkloosheidsbesluit van 25 november 1991",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof leest artikel 62 § 2 van het Werkloosheidsbesluit als een regel die bij regularisatie tussen de uitkeringsinstelling en de RVA geen voorziening maakt voor interesten; de bepaling regelt subrogatie ten voordele van de RVA en bevat geen toekenning van interesten ten laste van de oorspronkelijke instelling.",
+        "relevantFactualContext": "Tussen LCM en de RVA vond een regularisatie plaats waardoor LCM een saldo van €24.711,98 aan GM uitbetaalde; geschil betreft of interesten verschuldigd zijn op de volledige achterstallige ziekteuitkeringen of slechts op het saldo na verrekening met werkloosheidsuitkeringen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-003",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2009:ARR.20090611.8-003",
+        "provisionNumber": "artikel 20",
+        "provisionNumberKey": "20",
+        "parentActType": "WET",
+        "parentActName": "wet van 11 april 1995 tot invoering van het Handvest van de Sociaal Verzekerde (inwerkingtreding 1 januari 1997)",
+        "parentActDate": "1995-04-11",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof oordeelt dat artikel 20 van het Handvest niet vereist dat interesten worden toegekend op bedragen waarvoor de belanghebbende tijdig over andere uitkeringen (zoals werkloosheidsuitkeringen) kon beschikken; interesten beogen laattijdige betaling te compenseren en mogen niet leiden tot vergoeding voor schade die de belanghebbende niet heeft geleden. De letter van artikel 20 wordt aldus beperkt door de bedoeling van de wetgever.",
+        "relevantFactualContext": "GM ontving tijdens de betwisting werkloosheidsuitkeringen die een deel van de achterstallige ziekteuitkeringen tijdig dekte; geschil gaat over interesten op het volledige bedrag versus op het netto saldo na verrekening."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-004",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20090611.8-004",
+        "provisionNumber": "artikel 1154",
+        "provisionNumberKey": "1154",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof interpreteert artikel 1154 B.W. als gericht op kapitalen van conventionele/contractuele oorsprong die van nature interest opleveren; artikel 1154 geldt primair voor verbintenissen contractuele aard en het begrip 'kapitaal' omvat niet de uitkeringen voortvloeiend uit wettelijke sociale zekerheidsverplichtingen, zodat kapitalisatie van interesten op sociale zekerheidsuitkeringen niet toelaatbaar is.",
+        "relevantFactualContext": "GM vordert kapitalisatie van interesten op achterstallige ziekteuitkeringen; het hof stelt dat deze uitkeringen wettelijke prestaties zijn en geen contractuele kapitalen vormen waarop artikel 1154 van toepassing zou zijn."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-005",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20090611.8-001",
+        "provisionNumber": "artikel 1055",
+        "provisionNumberKey": "1055",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger. W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 1055 Ger. W. niet kan worden ingeroepen ter rechtvaardiging van een laattijdig ingesteld hoger beroep wanneer de met dat hoger beroep bestreden bepalingen van het vonnis definitieve beschikkingen uitmaken; artikel 1055 biedt geen herstelmogelijkheid voor hoger beroepen tegen reeds definitief geworden beslissingen.",
+        "relevantFactualContext": "LCM stelde hoger beroep in tegen onderdelen van het tussenvonnis van 19 oktober 2006, met name de begroting van de kosten, maar deze onderdelen werden als definitief beschouwd en het hoger beroep werd wegens laattijdigheid onontvankelijk verklaard."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-006",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2009:ARR.20090611.8-001",
+        "provisionNumber": "artikel 1017, 1ste lid",
+        "provisionNumberKey": "1017",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger. W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof leest artikel 1017, 1ste lid Ger. W. aldus dat enkel een eindvonnis de in het ongelijk gestelde partij in de kosten kan verwijzen; een tussenvonnis kan niet rechtsgeldig definitief een rechtsplegingsvergoeding toekennen wanneer nog beslissingen over bij uitbreiding gestelde vorderingen openstaan.",
+        "relevantFactualContext": "Het tussenvonnis van 19 oktober 2006 verordonneerde kosten terwijl nog beslissingen openstonden over bijkomende vorderingen (interesten); het hof oordeelt die toekenning onjuist maar laat ze onveranderd wegens gebrek aan tijdig hoger beroep."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof te Antwerpen",
+        "date": "2009-06-11",
+        "caseNumber": "A.R. 2080156",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof te Antwerpen",
+        "date": "2009-06-11",
+        "caseNumber": "A.R. 2080167",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "arbeidsrechtbank te Hasselt",
+        "date": "2008-05-15",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "arbeidsrechtbank te Hasselt",
+        "date": "2006-10-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1990-01-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "1992-10-26",
+        "caseNumber": "Arr. Cass. 19911992, nr. 692, p. 1244",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-006"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 7,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Brussel",
+        "date": "2006-02-16",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-007"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 8,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh",
+        "date": "1995-06-28",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-008"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Socialezekerheidsrecht",
+      "Ziekteuitkering",
+      "Werkloosheidsuitkering",
+      "Terug arbeidsgeschiktverklaring",
+      "Regularisatie met RVA",
+      "Interest op uitkeringen",
+      "Berekening interesten",
+      "Kapitalisatie interesten",
+      "Dubbele rechtsplegingsvergoeding",
+      "Subrogatie RVA"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2009:ARR.20090611.8-001",
+        "text": "Bij toekenning van interesten op laattijdig betaalde sociale zekerheidsuitkeringen moet de rechter interpreteren artikel 20 van het Handvest aldus dat interesten enkel vergoeden wat de belanghebbende daadwerkelijk aan schade door laattijdige ontvangst heeft geleden; bedragen waarvoor de belanghebbende tijdig over gelijkwaardige voorschotten kon beschikken (bijv. werkloosheidsuitkeringen) geven geen recht op bijkomende interesten en artikel 62 § 2 Werkloosheidsbesluit regelt subrogatie zonder toekenning van interesten.",
+        "courtVerbatim": "Het bepaalde in artikel 20 van de wet van 11 april 1995 tot invoering van het Handvest van de Sociaal Verzekerde (inwerkingtreding op 1 januari 1997) doet aan het voorgaande niet af. Immers blijft het feit dat interesten, zoals de eerste rechters terecht stellen, tot voorwerp hebben de schade te vergoeden die betrokkene geleden heeft omdat hij bepaalde kapitalen laattijdig ontvangen heeft wat in casu voor een gedeelte van de ziekteuitkeringen niet het geval is nu hij deze, weliswaar onder vorm van werkloosheidsuitkeringen, tijdig uitgekeerd kreeg. De vordering van GM toekennen zou erop neerkomen dat hij een vergoeding krijgt voor schade die hij niet geleden heeft nu hij tijdig kon beschikken over de bewuste kapitalen. Het verwijt aan de eerste rechters, met name dat hun beslissing erop neerkomt dat de instelling die een onjuiste beslissing nam, de interesten bespaart op het deel van de uitkeringen die door een derde werden voorgeschoten, kan door GM niet als een voor hem relevant argument gelden; het argument is bovendien onterecht nu de bewuste \"instelling\" en de zogenaamde \"derde\" beiden instellingen zijn die werken met gemeenschapsgeld zodat de verplichting opleggen aan de \"instelling\" om interesten te betalen aan de \"derde\" een loutere vestzak-broekzakoperatie zou uitmaken wat, naar de mening van het hof, ook de reden is geweest dat er in artikel 62 § 2 van het Werkloosheidsbesluit van 25 november 1991 geen sprake is van interesten. Tenslotte merkt het hof op dat wanneer de letterlijke toepassing van een wettelijk voorschrift leidt tot een resultaat dat manifest strijdig is met de wil van de wetgever, de rechter het recht en de plicht heeft om de wil van de wetgever te doen prevaleren; de wil van de wetgever bij de uitvaarding van artikel 20 van het Handvest is zeker niet geweest aan de sociaal verzekerde door toekenning van interesten op de sociale prestaties een schade te vergoeden die deze sociaal verzekerde niet geleden heeft.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een belanghebbende interesten vordert op achterstallige sociale zekerheidsuitkeringen terwijl hij in de betwiste periode tijdig gelijkwaardige voorschotten (bv. werkloosheidsuitkeringen) ontving of wanneer subrogatie tussen instellingen speelt.",
+        "relevantFactualContext": "Betrokkene vorderde interesten op volledige achterstallige ziekteuitkeringen terwijl tijdens de betwisting werkloosheidsuitkeringen werden betaald; geschil over interesten op bruto bedrag versus op saldo na verrekening met door RVA uitbetaalde bedragen.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-002",
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-004"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2009:ARR.20090611.8-002",
+        "text": "Artikel 1154 B.W. en de regel van kapitalisatie van interesten zien op kapitalen van conventionele/contractuele oorsprong die van nature interest opleveren; sociale zekerheidsuitkeringen zijn wettelijke prestaties van openbare aard en vormen geen 'kapitaal' in de zin van artikel 1154, zodat kapitalisatie van interesten op sociale zekerheidsuitkeringen niet toegestaan is.",
+        "courtVerbatim": "Het hof onderschrijft dit standpunt niet en is van oordeel dat de kapitalisatie op sociale zekerheidsprestaties niet kan toegestaan worden. Vanuit een historisch onderzoek komt de auteur tot de vaststelling dat daar waar, voor het huidig Burgerlijk Wetboek, anatocisme verboden was, de invoering d.m.v. artikel 1154 van dat wetboek strikt genomen enkel bedoeld was voor kapitalen die van nature uit bedoeld waren om interest op te leveren. Vertrekkend vanuit dit gegeven en steeds verwijzend naar de bedoeling van de oorspronkelijke regelgever, komt hij tot de logische vaststelling dat ook in de huidige constellatie het begrip kapitaal van artikel 1154 B.W. nog steeds refereert naar kapitalen of geldsommen en verschuldigd naar aanleiding van een contractuele verbintenis. Vanuit deze vaststelling, die het hof bijtreedt, kan dan ook niet anders dan besloten worden dat de sommen die verschuldigd zijn door het optreden van een sociaal risico - zoals in casu ziekte - alleszins geen conventionele oorsprong hebben maar integendeel hun basis vinden in een wettelijke verplichting. De uitkeringen verschuldigd naar aanleiding van ziekte kunnen dan ook geenszins beschouwd worden als kapitalen in de zin van artikel 1154 B.W.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een partij kapitalisatie (anatocisme) van interesten vordert op achterstallige sociale zekerheidsuitkeringen op grond van artikel 1154 B.W.",
+        "relevantFactualContext": "Belanghebbende vorderde kapitalisatie van interesten op achterstallige ziekteuitkeringen; hof handhaaft dat deze uitkeringen wettelijke prestaties zijn en artikel 1154 B.W. op deze gevallen geen toepassing vindt.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-004"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-005",
+          "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-006"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2009:ARR.20090611.8-003",
+        "text": "Artikel 1055 Ger. W. kan niet worden ingeroepen ter rechtvaardiging van een laattijdig ingesteld hoger beroep voor zover de met dat hoger beroep bestreden bepalingen van het vonnis definitieve beschikkingen uitmaken; waar betwiste onderdelen definitief zijn, biedt artikel 1055 geen herstelmogelijkheid om de termijnoverschrijding te legitimeren.",
+        "courtVerbatim": "LCM kan zich terzake niet beroepen op de bepalingen van artikel 1055 Ger. W. nu, zoals GM terecht opwerpt, de door LCM met zijn hoger beroep geviseerde bepalingen van het tussenvonnis van 19 oktober 2006, met name de begroting van de kosten en de veroordeling van LCM tot betaling ervan, een definitieve beschikking vormen (Cass. 5 januari 1990, Arr. Cass. 1989-90, 585).",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Speelt wanneer een appellante partij zich op artikel 1055 Ger. W. beroept om een te laat ingestelde hoger beroep tegen onderdelen die als definitief worden beschouwd alsnog te laten ontvankelijk verklaren.",
+        "relevantFactualContext": "Een partij stelde hoger beroep in tegen onderdelen van een tussenvonnis waarvan de tijdigheid werd betwist; het hof oordeelde dat die onderdelen definitief waren en dat artikel 1055 geen grond biedt voor herstel van laattijdigheid.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-005"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2009:ARR.20090611.8-004",
+        "text": "Een tussenvonnis dat geen eindvonnis is kan niet rechtsgeldig een definitieve tenlastenlegging in kosten en een volledige rechtsplegingsvergoeding toekennen wanneer nog beslissingen over bij-uitbreiding gestelde vorderingen openstaan; als een rechtsplegingsvergoeding reeds bij tussenvonnis voor het geding toegekend werd, kan die vergoeding niet later in stukken opnieuw worden toegekend in het eindvonnis voor dezelfde aanlegprocedure.",
+        "courtVerbatim": "Het hof begrijpt niet dat de eerste rechters in het tussenvonnis van 19 oktober 2006 overgegaan zijn tot vereffening van de kosten en de veroordeling van LCM tot betaling hiervan nu dit in strijd is met artikel 1017, $1^{\\text {ste }}$ lid Ger. W. volgens welk artikel ieder eindvonnis, zelfs ambtshalve, de in het ongelijk gestelde partij verwijst in de kosten. Het vonnis van 19 oktober 2006 is echter duidelijk geen eindvonnis gezien er nog diende beslist te worden over de bij uitbreiding van eis gestelde vordering tot betaling van interesten op de achterstallige ziekteuitkeringen. De veroordeling van LCM tot de gerechtskosten in het vonnis van 19 oktober 2006 is dan ook onjuist doch het hof kan hieraan niets meer wijzigen nu het definitief is omdat LCM hiertegen geen tijdig hoger beroep heeft ingesteld. Het hof meent echter niettemin dat de eerste rechters in hun eindvonnis van 15 mei 2008 niet een tweede maal rechtsplegingsvergoeding kunnen toekennen aan GM nu deze rechtsplegingsvergoeding voor een in eerste aanleg gevoerde procedure wettelijk niet in stukken kan toegekend worden doch wel in één keer voor de volledige procedure, zodat wanneer nu vastgesteld wordt dat de eerste rechters in het tussenvonnis van 19 oktober 2006 aan GM een rechtsplegingsvergoeding toekenden zij hun rechtsmacht, voor wat de rechtsplegingsvergoeding betreft, hebben uitgeput en het hen derhalve niet toegelaten is in hun eindvonnis van 15 mei 2008 hierover nog eens uitspraak te doen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer kosten of rechtsplegingsvergoeding bij tussenvonnis worden toegekend terwijl er nog beslissingen openstaan over doorlopende vorderingen, of wanneer een partij tweemaal voor hetzelfde aanleggeding rechtsplegingsvergoeding probeert te verkrijgen.",
+        "relevantFactualContext": "In het tussenvonnis werden kosten en een rechtsplegingsvergoeding toegekend terwijl nog beslissingen openstonden over bijkomende vorderingen; het hof vernietigde het deel van het eindvonnis dat een tweede maal rechtsplegingsvergoeding toekende.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-006"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 4,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser vordert betaling van achterstallige ziekteuitkeringen, interesten en kapitalisatie nadat de vennootschap zijn arbeidsongeschiktheid beëindigd achtte, terwijl de vennootschap aanvoert dat een regularisatie met de RVA plaatsvond en slechts een nettovergoeding verschuldigd is. Het arbeidshof verklaart het hoger beroep van de eiser ontvankelijk doch ongegrond, verklaart het hoger beroep van de vennootschap tegen het tussenvonnis niet-ontvankelijk wegens laattijdigheid en maakt het hoger beroep tegen het eindvonnis deels gegrond door de dubbele toekenning van rechtsplegingsvergoeding te vernietigen. Het hof beslist substantieel dat interesten slechts kunnen worden toegekend op het verschil tussen de verschuldigde ziekte-uitkeringen en de door de RVA betaalde werkloosheidsuitkeringen en dat kapitalisatie van interesten op sociale zekerheidsuitkeringen niet is toegestaan."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-001",
+        "relatedFullTextCitations": [
+          "<li>het bestreden eindvonnis van de arbeidsrechtbank te Hasselt gewezen op tegenspraak tussen partijen op 15 mei 2008 en hen behoorlijk ter kennis gebracht bij gerechtsbrief van 20 mei 2008 conform artikel 792 van het Gerechtelijk Wetboek;</li>",
+          "<li>het bestreden tussen- en eindvonnis van de arbeidsrechtbank te Hasselt gewezen op tegenspraak tussen partijen respectievelijk op 19 oktober 2006 en 15 mei 2008 en hen behoorlijk ter kennis gebracht bij gerechtsbrieven van respectievelijk 20 oktober 2006 en 20 mei 2008 conform artikel 792 van het Gerechtelijk Wetboek;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verwijzend naar artikel 62 § 2 van het Werkloosheidsbesluit van 25 november 1991 oordeelden de eerste rechters dat er tussen LCM en RVA een regularisatie plaatsvond met als gevolg dat door LCM nog een saldo van 24.711,98 EUR werd uitbetaald aan G M.</p>",
+          "<p class=\"case-section__paragraph\">M voert aan dat er blijkens de bepalingen van artikel 62 § 2 van het Werkloosheidsbesluit van 25 november 1991 enkel subrogatie is ten voordele van de RVA voor het betaalde bedrag aan werkloosheidsuitkeringen doch niet voor de interesten.</p>",
+          "<p class=\"case-section__paragraph\">Het verwijt aan de eerste rechters, met name dat hun beslissing erop neerkomt dat de instelling die een onjuiste beslissing nam interesten bespaart op het deel van de uitkeringen die door een derde werden voorgeschoten, kan door GM niet als een voor hem relevant argument gelden, met andere woorden het feit dat LCM ingevolge de reglementaire bepalingen van het Werkloosheidsbesluit interesten bespaart dat G M hieruit een recht kan putten om deze bespaarde interesten zelf te ontvangen; het argument is bovendien onterecht nu de bewuste “instelling” en de zogenaamde “derde” beiden instellingen zijn die werken met gemeenschapsgeld zodat de verplichting opleggen aan de “instelling” om interesten te betalen aan de “derde” een loutere vestzak-broekzakoperatie zou uitmaken wat, naar de mening van het hof, ook de reden is geweest dat er in artikel 62 § 2 van het Werkloosheidsbesluit van 25 november 1991 geen sprake is van interesten.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-002",
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Wat de door G M gevorderde interesten op grond van het door hem ingeroepen artikel 20 van het Handvest van de Sociaal Verzekerde betreft, stellen de eerste rechters dat uit de tekst van dit artikel duidelijk kan afgeleid worden dat het de bedoeling van de wetgever geweest is om geen interesten toe te kennen indien er voorschotten werden uitgekeerd in afwachting van een definitieve beslissing.</p>",
+          "<p class=\"case-section__paragraph\">M voert aan dat de uitzonderingen van artikel 20 van het Handvest van de Sociaal Verzekerde, waaraan de eerste rechters verwijzen, zijn niet van toepassing op zijn situatie en de beslissing zoals genomen door de eerste rechters komt er op neer dat de instelling die een onjuiste beslissing nam, de interesten bespaart op het deel van de uitkeringen welke door een derde werden voorgeschoten, aldus G M.</p>",
+          "<p class=\"case-section__paragraph\">M besluit dat de interesten die verschuldigd zijn ingevolge een duidelijke en ondubbelzinnige wetsbepaling, in casu artikel 20 van het Handvest, niet kunnen geweigerd worden tenzij op grond van een andere wetsbepaling doch deze bestaat niet volgens hem.</p>",
+          "<p class=\"case-section__paragraph\">Het bepaalde in artikel 20 van de wet van 11 april 1995 tot invoering van het Handvest van de Sociaal Verzekerde (inwerkingtreding op 1 januari 1997) doet aan het voorgaande niet af.</p>",
+          "<p class=\"case-section__paragraph\">Immers blijft het feit dat interesten, zoals de eerste rechters terecht stellen, tot voorwerp hebben de schade te vergoeden die betrokkene geleden heeft omdat hij bepaalde kapitalen laattijdig ontvangen heeft wat in casu voor een gedeelte van de ziekteuitkeringen niet het geval is nu hij deze, weliswaar onder vorm van werkloosheidsuitkeringen, tijdig uitgekeerd kreeg.</p>",
+          "<p class=\"case-section__paragraph\">De vordering van GM toekennen zou erop neerkomen dat hij een vergoeding krijgt voor schade die hij niet geleden heeft nu hij tijdig kon beschikken over de bewuste kapitalen.</p>",
+          "<p class=\"case-section__paragraph\">Tenslotte wat het argument van M betreft dat interesten die ingevolge een duidelijke en ondubbelzinnige wetsbepaling, in casu artikel 20 van het Sociaal Handvest, verschuldigd zijn niet kunnen geweigerd worden tenzij op grond van een andere wetsbepaling, merkt het hof op dat wanneer in een concreet geval dat aan de rechter wordt voorgelegd de letterlijke toepassing van een wettelijk voorschrift leidt tot een resultaat dat manifest strijdig is met de wil van de wetgever, de rechter het recht en de plicht heeft om de wil van de wetgever te doen prevaleren; de rechter mag en moet zulks doen ook wanneer hij hierbij niet kan steunen op een correctief met algemeen karakter; de wil van de wetgever bij de uitvaardiging van artikel 20 van het Handvest is zeker niet geweest aan de sociaal verzekerde door toekenning van interesten op de sociale prestaties een schade te vergoeden die deze sociaal verzekerde niet geleden heeft.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-003",
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-006"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">G M is niet akkoord met het feit dat de eerste rechters de door hem op grond van artikel 1154 B.W. gevorderde kapitalisatie van de interesten afgewezen hebben. Volgens hem heeft voormeld artikel een algemene draagwijdte en treft het alle schulden ontstaan uit een verbintenis ongeacht de juridische aard, derhalve ook prestaties van sociale zekerheid.</p>",
+          "<p class=\"case-section__paragraph\">Het hof onderschrijft dit standpunt van G M niet en is van oordeel dat de kapitalisatie op sociale zekerheidsprestaties niet kan toegestaan worden.</p>",
+          "<p class=\"case-section__paragraph\">Naar aanleiding van een arrest van het arbeidshof te Brussel heeft auteur Guy Hélin onderzocht wat de draagwijdte moet zijn van artikel 1154 van het Burgerlijk Wetboek in ons huidig rechtsbestel en inzonderheid op het vlak van het sociaal recht (G. Hélin, “Anatocisme en droit social”, Orientations, 2002, nr. 5, 124). Vanuit een historisch onderzoek komt de auteur tot de vaststelling dat daar waar, voor het huidig Burgerlijk Wetboek, anatocisme verboden was, de invoering d.m.v. artikel 1154 van dat wetboek strikt genomen enkel bedoeld was voor kapitalen die van nature uit bedoeld waren om interest op te leveren. Vertrekkend vanuit dit gegeven en steeds verwijzend naar de bedoeling van de oorspronkelijke regelgever, komt hij tot de logische vaststelling dat ook in de huidige constellatie het begrip kapitaal van artikel 1154 B.W. nog steeds refereert.</p>",
+          "<p class=\"case-section__paragraph\">naar kapitalen of geldsommen en verschuldigd naar aanleiding van een contractuele verbintenis.</p>",
+          "<p class=\"case-section__paragraph\">Vanuit deze vaststelling, die het hof bijtreedt, kan dan ook niet anders dan besloten worden dat de sommen die verschuldigd zijn door het optreden van een sociaal risico – zoals in casu ziekte – alleszins geen conventionele oorsprong hebben maar integendeel hun basis vinden in een wettelijke verplichting (zie ook Arbh. Brussel 16 februari 2006, Soc. Kron. 2006, 09, p. 522 en vlg.).</p>",
+          "<p class=\"case-section__paragraph\">De uitkeringen verschuldigd naar aanleiding van ziekte kunnen dan ook geenszins beschouwd worden als kapitalen in de zin van artikel 1154 B.W.</p>",
+          "<p class=\"case-section__paragraph\">Verder uit het feit dat artikel 1154 B.W. tevens geldt voor contractuele verbintenissen krachtens de wet kan niet zomaar besloten worden dat de kapitalisatie van interesten derhalve ook van toepassing is op sociale zekerheidsprestaties aangezien men niet gelijktijdig kan spreken van contractuele verplichtingen en van sociale prestaties waar de toekenningsvoorwaarden bij wet zijn vastgesteld, die de openbare orde raken (zie noot M. de Ghellinck-de Meester onder Arbh. Bergen 28 juni 1995, Inf. RIZIV 1996/1,69).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-007",
+          "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-008"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">LCM kan zich terzake niet beroepen op de bepalingen van artikel 1055 Ger. W. nu, zoals G M terecht opwerpt, de door LCM met zijn hoger beroep geviseerde bepalingen van het tussenvonnis van 19 oktober 2006, met name de begroting van de kosten en de veroordeling van LCM tot betaling ervan, een definitieve beschikking vormen (Cass. 5 januari 1990, Arr. Cass. 1989-90, 585).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-006",
+        "relatedFullTextCitations": [
+          "<li>Het hof begrijpt niet dat de eerste rechters in het tussenvonnis van 19 oktober 2006 overgegaan zijn tot vereffening van de kosten en de veroordeling van LCM tot betaling hiervan nu dit in strijd is met artikel 1017, 1ˢᵗᵉ lid Ger. W. volgens welk artikel ieder eindvonnis, zelfs ambtshalve, de in het ongelijk gestelde partij verwijst in de kosten. Het vonnis van 19 oktober 2006 is echter duidelijk geen eindvonnis gezien er nog diende beslist te worden over de bij uitbreiding van eis gestelde vordering tot betaling van interesten op de achterstallige ziekteuitkeringen.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2009:ARR.20090611.8-006"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 6,
+      "citationStatistics": {
+        "totalCitations": 21,
+        "avgCitationsPerProvision": 3.5,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.3333333333333333,
+        "avgDecisionsPerProvision": 0.6666666666666666,
+        "provisionsWithNoRelationships": 4
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2009:ARR.20090611.8-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verwijzend naar artikel 62 § 2 van het Werkloosheidsbesluit van 25 november 1991 oordeelden de eerste rechters dat er tussen LCM en RVA een regularisatie plaatsvond met als gevolg dat door LCM nog een saldo van 24.711,98 EUR werd uitbetaald aan G M.</p>",
+          "<p class=\"case-section__paragraph\">M voert aan dat er blijkens de bepalingen van artikel 62 § 2 van het Werkloosheidsbesluit van 25 november 1991 enkel subrogatie is ten voordele van de RVA voor het betaalde bedrag aan werkloosheidsuitkeringen doch niet voor de interesten.</p>",
+          "<p class=\"case-section__paragraph\">Het hof is nochtans van oordeel dat G M niet op meer interesten recht heeft dan degene die door LCM aan hem werden uitgekeerd en verwijst dienaangaande naar een arrest van het Hof van Cassatie van 26 oktober 1992 waarin expliciet gesteld wordt dat de werknemer die de beslissing van einde arbeidsongeschiktheid betwist en in het gelijk wordt gesteld terwijl hij intussen opnieuw tot de werkloosheidsuitkeringen was toegelaten van de verzekeringsinstelling alleen het verschil kan terugvorderen tussen het totaal van de ziekte- en invaliditeitsuitkeringen en het door die instelling aan de RVA terugbetaalde bedrag en de eventuele interest op dat verschil (Arr. Cass. 1991-1992, nr. 692, p. 1244 en vlg.).</p>",
+          "<p class=\"case-section__paragraph\">Het bepaalde in artikel 20 van de wet van 11 april 1995 tot invoering van het Handvest van de Sociaal Verzekerde (inwerkingtreding op 1 januari 1997) doet aan het voorgaande niet af.</p>",
+          "<p class=\"case-section__paragraph\">Immers blijft het feit dat interesten, zoals de eerste rechters terecht stellen, tot voorwerp hebben de schade te vergoeden die betrokkene geleden heeft omdat hij bepaalde kapitalen laattijdig ontvangen heeft wat in casu voor een gedeelte van de ziekteuitkeringen niet het geval is nu hij deze, weliswaar onder vorm van werkloosheidsuitkeringen, tijdig uitgekeerd kreeg.</p>",
+          "<p class=\"case-section__paragraph\">De vordering van GM toekennen zou erop neerkomen dat hij een vergoeding krijgt voor schade die hij niet geleden heeft nu hij tijdig kon beschikken over de bewuste kapitalen.</p>",
+          "<p class=\"case-section__paragraph\">Het verwijt aan de eerste rechters, met name dat hun beslissing erop neerkomt dat de instelling die een onjuiste beslissing nam interesten bespaart op het deel van de uitkeringen die door een derde werden voorgeschoten, kan door GM niet als een voor hem relevant argument gelden, met andere woorden het feit dat LCM ingevolge de reglementaire bepalingen van het Werkloosheidsbesluit interesten bespaart dat G M hieruit een recht kan putten om deze bespaarde interesten zelf te ontvangen; het argument is bovendien onterecht nu de bewuste “instelling” en de zogenaamde “derde” beiden instellingen zijn die werken met gemeenschapsgeld zodat de verplichting opleggen aan de “instelling” om interesten te betalen aan de “derde” een loutere vestzak-broekzakoperatie zou uitmaken wat, naar de mening van het hof, ook de reden is geweest dat er in artikel 62 § 2 van het Werkloosheidsbesluit van 25 november 1991 geen sprake is van interesten.</p>",
+          "<p class=\"case-section__paragraph\">Tenslotte wat het argument van M betreft dat interesten die ingevolge een duidelijke en ondubbelzinnige wetsbepaling, in casu artikel 20 van het Sociaal Handvest, verschuldigd zijn niet kunnen geweigerd worden tenzij op grond van een andere wetsbepaling, merkt het hof op dat wanneer in een concreet geval dat aan de rechter wordt voorgelegd de letterlijke toepassing van een wettelijk voorschrift leidt tot een resultaat dat manifest strijdig is met de wil van de wetgever, de rechter het recht en de plicht heeft om de wil van de wetgever te doen prevaleren; de rechter mag en moet zulks doen ook wanneer hij hierbij niet kan steunen op een correctief met algemeen karakter; de wil van de wetgever bij de uitvaardiging van artikel 20 van het Handvest is zeker niet geweest aan de sociaal verzekerde door toekenning van interesten op de sociale prestaties een schade te vergoeden die deze sociaal verzekerde niet geleden heeft.</p>",
+          "<p class=\"case-section__paragraph\">De veroordeling van LCM tot de gerechtskosten in het vonnis van 19 oktober 2006 is dan ook onjuist doch het hof kan hieraan niets meer wijzigen nu het definitief is omdat LCM hiertegen geen tijdig hoger beroep heeft ingesteld zoals Hoger reeds uiteengezet (zie sub III, 2.)</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2009:ARR.20090611.8-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">G M is niet akkoord met het feit dat de eerste rechters de door hem op grond van artikel 1154 B.W. gevorderde kapitalisatie van de interesten afgewezen hebben. Volgens hem heeft voormeld artikel een algemene draagwijdte en treft het alle schulden ontstaan uit een verbintenis ongeacht de juridische aard, derhalve ook prestaties van sociale zekerheid.</p>",
+          "<p class=\"case-section__paragraph\">Het hof onderschrijft dit standpunt niet en is van oordeel dat de kapitalisatie op sociale zekerheidsprestaties niet kan toegestaan worden.</p>",
+          "<p class=\"case-section__paragraph\">Naar aanleiding van een arrest van het arbeidshof te Brussel heeft auteur Guy Hélin onderzocht wat de draagwijdte moet zijn van artikel 1154 van het Burgerlijk Wetboek in ons huidig rechtsbestel en inzonderheid op het vlak van het sociaal recht (G. Hélin, “Anatocisme en droit social”, Orientations, 2002, nr. 5, 124). Vanuit een historisch onderzoek komt de auteur tot de vaststelling dat daar waar, voor het huidig Burgerlijk Wetboek, anatocisme verboden was, de invoering d.m.v. artikel 1154 van dat wetboek strikt genomen enkel bedoeld was voor kapitalen die van nature uit bedoeld waren om interest op te leveren. Vertrekkend vanuit dit gegeven en steeds verwijzend naar de bedoeling van de oorspronkelijke regelgever, komt hij tot de logische vaststelling dat ook in de huidige constellatie het begrip kapitaal van artikel 1154 B.W. nog steeds refereert.</p>",
+          "<p class=\"case-section__paragraph\">naar kapitalen of geldsommen en verschuldigd naar aanleiding van een contractuele verbintenis.</p>",
+          "<p class=\"case-section__paragraph\">Vanuit deze vaststelling, die het hof bijtreedt, kan dan ook niet anders dan besloten worden dat de sommen die verschuldigd zijn door het optreden van een sociaal risico – zoals in casu ziekte – alleszins geen conventionele oorsprong hebben maar integendeel hun basis vinden in een wettelijke verplichting (zie ook Arbh. Brussel 16 februari 2006, Soc. Kron. 2006, 09, p. 522 en vlg.).</p>",
+          "<p class=\"case-section__paragraph\">De uitkeringen verschuldigd naar aanleiding van ziekte kunnen dan ook geenszins beschouwd worden als kapitalen in de zin van artikel 1154 B.W.</p>",
+          "<p class=\"case-section__paragraph\">Verder uit het feit dat artikel 1154 B.W. tevens geldt voor contractuele verbintenissen krachtens de wet kan niet zomaar besloten worden dat de kapitalisatie van interesten derhalve ook van toepassing is op sociale zekerheidsprestaties aangezien men niet gelijktijdig kan spreken van contractuele verbintenissen en van sociale prestaties waar de toekenningsvoorwaarden bij wet zijn vastgesteld, die de openbare orde raken (zie noot M. de Ghellinck-de Meester onder Arbh. Bergen 28 juni 1995, Inf. RIZIV 1996/1,69).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-005",
+            "DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-006"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2009:ARR.20090611.8-003",
+        "relatedFullTextCitations": [
+          "<li>De hogere beroepen ingesteld door G M en LCM tegen het eindvonnis van de arbeidsrechtbank te Hasselt van 15 mei 2008 werden tijdig en regelmatig naar vorm ingesteld en zijn ontvankelijk.</li>",
+          "<p class=\"case-section__paragraph\">LCM kan zich terzake niet beroepen op de bepalingen van artikel 1055 Ger. W. nu, zoals G M terecht opwerpt, de door LCM met zijn hoger beroep geviseerde bepalingen van het tussenvonnis van 19 oktober 2006, met name de begroting van de kosten en de veroordeling van LCM tot betaling ervan, een definitieve beschikking vormen (Cass. 5 januari 1990, Arr. Cass. 1989-90, 585).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2009:ARR.20090611.8-004",
+        "relatedFullTextCitations": [
+          "<li>Het hof begrijpt niet dat de eerste rechters in het tussenvonnis van 19 oktober 2006 overgegaan zijn tot vereffening van de kosten en de veroordeling van LCM tot betaling hiervan nu dit in strijd is met artikel 1017, 1ˢᵗᵉ lid Ger. W. volgens welk artikel ieder eindvonnis, zelfs ambtshalve, de in het ongelijk gestelde partij verwijst in de kosten. Het vonnis van 19 oktober 2006 is echter duidelijk geen eindvonnis gezien er nog diende beslist te worden over de bij uitbreiding van eis gestelde vordering tot betaling van interesten op de achterstallige ziekteuitkeringen.</li>",
+          "<p class=\"case-section__paragraph\">De veroordeling van LCM tot de gerechtskosten in het vonnis van 19 oktober 2006 is dan ook onjuist doch het hof kan hieraan niets meer wijzigen nu het definitief is omdat LCM hiertegen geen tijdig hoger beroep heeft ingesteld zoals Hoger reeds uiteengezet (zie sub III, 2.)</p>",
+          "<p class=\"case-section__paragraph\">Het hof meent echter niettemin dat de eerste rechters in hun eindvonnis van 15 mei 2008 niet een tweede maal rechtsplegingsvergoeding kunnen toekennen aan G M nu deze rechtsplegingsvergoeding voor een in eerste aanleg gevoerde procedure wettelijk niet in stukken kan toegekend worden doch wel in één keer voor de volledige procedure, zodat wanneer nu vastgesteld wordt dat de eerste rechters in het tussenvonnis van 19 oktober 2006 aan G M een rechtsplegingsvergoeding toekenden zij hun rechtsmacht, voor wat de rechtsplegingsvergoeding betreft, hebben uitgeput en het hen derhalve niet toegelaten is in hun eindvonnis van 15 mei 2008 hierover nog eens uitspraak te doen.</p>",
+          "<p class=\"case-section__paragraph\">Het vonnis van 15 mei 2008 dient dan ook op dit punt vernietigd.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 22,
+        "avgCitationsPerTeaching": 5.5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 2
+      },
+      "extractionNotes": [
+        "All citations extracted from reasoning sections (motivering/motifs) and include factual application. For TEACH-ECLI:BE:AHANT:2009:ARR.20090611.8-002 the cited decisions DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-005 and DEC-ECLI:BE:AHANT:2009:ARR.20090611.8-006 were not found in the extracted reasoning paragraphs and are flagged in relationshipValidation."
+      ]
+    }
+  }
+}

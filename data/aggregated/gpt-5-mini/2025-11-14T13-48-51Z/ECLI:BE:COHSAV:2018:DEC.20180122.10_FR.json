@@ -1,0 +1,735 @@
+{
+  "decision_id": "ECLI:BE:COHSAV:2018:DEC.20180122.10",
+  "language": "FR",
+  "metadata": {
+    "id": 36185,
+    "court_ecli_code": "COHSAV",
+    "decision_date": "2018-01-22",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Décision",
+    "md_length": 9444,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commission pour l'aide financière aux victimes d'actes intentionnels de violence et aux sauveteurs occasionnels, 22 janvier 2018, ECLI:BE:COHSAV:2018:DEC.20180122.10"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "name": "Elodie X.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+        "name": "Marc X.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+        "name": "André Z.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "PREVENU"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+        "name": "Délégué du Ministre de la Justice",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "MINISTERE_PUBLIC"
+      }
+    ],
+    "currentInstance": {
+      "facts": "En 2014, Elodie X. a été victime d'abus sexuels commis par André Z.; le 13 octobre 2014, celui-ci aurait mis la main sous ses vêtements et tenté à plusieurs reprises de toucher ses seins, Elodie s'est vivement opposée et est partie. Des poursuites pénales ont suivi: par jugement par défaut du 26 mai 2015 la 54ème chambre correctionnelle condamna André Z. pour, notamment, un attentat à la pudeur sur la personne d'Elodie et condamna le prévenu à 10 ans d'emprisonnement et à payer 3.000 € à la partie civile Marc X. (administrateur provisoire des biens d'Elodie). Par jugement du 3 novembre 2015 (sur opposition) la même chambre condamna également le prévenu et fixa à 3.000 € les dommages et intérêts à verser à la partie civile. Par arrêt du 30 juin 2016, la 12ème chambre correctionnelle de la Cour d'appel confirma le jugement entrepris et, en partie, reforma pour le surplus, relevant que le geste constituait un attentat à la pudeur et considéra que l'évaluation de 3.000 € par les premiers juges réparait intégralement le dommage moral; la requérante a alors saisi la Commission par requête du 30 décembre 2016 sollicitant, sur base de l'article 31,1° de la loi du 1er août 1985, une aide principale de 7.500 €. Aucun document du dossier n'établit des séquelles médicales. Le dossier comporte un rapport du 25 août 2017, l'avis du Délégué du Ministre du 25 septembre 2017 et une réponse écrite du conseil de la requérante datée du 16 octobre 2017, ainsi qu'une attestation de suivi produite par le conseil.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "requests": "La requérante, par son conseil, postule l'octroi d'une aide principale de 7.500 € sur base de l'article 31,1° de la loi du 1er août 1985 pour son dommage personnel résultant de l'acte intentionnel de violence."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "requests": "Le Délégué du Ministre propose à la Commission de déclarer la demande recevable mais partiellement fondée et recommande, avant décision finale, d'obtenir du requérant les renseignements concernant le montant déjà versé par l'auteur des faits."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "argument": "Le conseil de la requérante soutient que, en vertu de l'article 31,1° de la loi du 1er août 1985, sa cliente a subi un préjudice moral en lien causal direct avec un acte intentionnel de violence (attentat à la pudeur) et qu'elle est dès lors fondée à obtenir une aide financière. Il invoque l'évaluation de la partie civile qui postule une somme de 7.500 € et produit une attestation de suivi à l'appui de la demande, demandant que la Commission fixe une aide principale en équité pour compenser le dommage moral subi.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "argument": "Le Délégué du Ministre, dans son avis, estime que la demande est recevable et doit être partiellement fondée; il précise toutefois qu'il convient de vérifier, avant décision définitive, le montant déjà éventuellement versé par l'auteur des faits afin que la Commission prenne en compte l'indemnité de procédure et les éventuels paiements antérieurs dans l'évaluation de l'aide à octroyer en équité.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        }
+      ],
+      "courtOrder": "Vu les articles 30 à 41 de la loi du $1^{\\text {er }}$ août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,\n\nLa Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,\n\n- déclare la demande recevable et très partiellement fondée ;\n- accorde à la requérante une aide principale de $1.500 €$ qui sera bloquée sur un compte\n\nou un livret d'épargne ouvert au nom de l'enfant et frappée d'indisponibilité jusqu'à sa majorité ou émancipation, sauf autorisation à donner par le magistrat compétent.",
+      "outcome": "DECHEANCE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "provisionNumber": "article 31,1°",
+        "provisionNumberKey": "31",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 1er/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "provisionNumber": "article 311°",
+        "provisionNumberKey": "311",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 1er/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission interprète l'article 311° comme exigeant l'existence d'un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence pour ouvrir le droit à l'aide. Au vu du dossier, elle estime que le préjudice invoqué par la requérante ne revêt pas objectivement ce caractère d'importance.",
+        "relevantFactualContext": "La requérante décrit des attouchements et tentatives d'attentat à la pudeur en octobre 2014; aucun document médical n'atteste de séquelles; les juges civils ont fixé les dommages à 3.000 € en l'absence de pièces probantes, alors que la requérante sollicitait 7.500 €."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "provisionNumber": "article 32 §1er, 1°",
+        "provisionNumberKey": "32",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 1er/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "provisionNumber": "article 32 §? 6° (mention libellée \"32 § 26°\")",
+        "provisionNumberKey": "32",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 1er/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "provisionNumber": "article 33 §1",
+        "provisionNumberKey": "33",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 1er/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission interprète l'article 33 §1 comme imposant que le montant de l'aide financière soit fixé en équité. Elle précise que l'aide est un geste de solidarité sociale pouvant être inférieur à la réparation civile intégrale et que la Commission n'est pas tenue par l'autorité de la chose jugée des décisions judiciaires antérieures.",
+        "relevantFactualContext": "Le dossier comporte un jugement de première instance fixant les dommages à 3.000 € et un arrêt de la cour confirmant cette évaluation; la requérante demandait 7.500 €; la Commission, statuant en équité et tenant compte de l'absence de pièces probantes sur l'ampleur du préjudice, accorde finalement 1.500 € bloqués."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 1er/08/1985), modifiée par les lois des 26 mars, 22 avril 2003, 27 déc. 2004, 13 janv. 2006, 27 déc. 2006, 30 déc. 2009 et 31 mai 2016",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "provisionNumber": "article 41",
+        "provisionNumberKey": "41",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 1er/08/1985), modifiée par les lois des 26 mars, 22 avril 2003, 27 déc. 2004, 13 janv. 2006, 27 déc. 2006, 30 déc. 2009 et 31 mai 2016",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+        "provisionNumber": "article 28",
+        "provisionNumberKey": "28",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence (Arr. roy. 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+        "provisionNumber": "article 33",
+        "provisionNumberKey": "33",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence (Arr. roy. 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+        "provisionNumber": "article 39",
+        "provisionNumberKey": "39",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative (lois coordonnées 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+        "provisionNumber": "article 42",
+        "provisionNumberKey": "42",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative (lois coordonnées 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "54ème chambre correctionnelle du Tribunal de ...",
+        "date": "2015-05-26",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "54ème chambre correctionnelle du Tribunal de ...",
+        "date": "2015-11-03",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "12ème chambre correctionnelle de la Cour d'appel de ...",
+        "date": "2016-06-30",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Aide aux victimes",
+      "Abus sexuels",
+      "Attentat à la pudeur",
+      "Contact non consenti",
+      "Condamnation pénale",
+      "Recevabilité de la demande",
+      "Caractère important du préjudice",
+      "Montant équitable de l'aide",
+      "Cumul avec indemnités judiciaires",
+      "Compte bloqué jusqu'à majorité"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "text": "Pour ouvrir droit à l'aide visée par l'article 31,1° de la loi du 1er août 1985, il faut l'existence d'un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence ; l'appréciation de ce caractère d'importance suppose des éléments objectifs permettant de constater l'ampleur du préjudice, l'absence de pièces médicales ou d'autres preuves probantes pouvant légitimement conduire la Commission à considérer que le préjudice n'est pas objectivement important.",
+        "courtVerbatim": "que l'article 311° de la loi du 1er août 1985 stipule que «les personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence peuvent demander une aide »; ... La Commission, considérant que le préjudice de la victime ne revêt pas objectivement un caractère important au sens de l'article 311° de la loi du 1er août 1985, déclare cependant la demande recevable, mais très partiellement fondée.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une demande d'aide dépend de la preuve d'un préjudice physique ou psychique \"important\" résultant directement d'un acte intentionnel de violence et que l'importance du préjudice doit être évaluée.",
+        "relevantFactualContext": "La requérante allègue des attouchements et tentatives d'attentat à la pudeur; aucun document médical n'atteste de séquelles; les juridictions civiles ont évalué les dommages en l'absence de pièces probantes; la Commission estime que, au vu du dossier, le préjudice invoqué ne présente pas objectivement le caractère d'importance requis.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+        "text": "Le montant de l'aide accordée par la Commission en vertu de l'article 33 §1 est fixé en équité : il s'agit d'un geste de solidarité sociale qui peut être inférieur à la réparation civile intégrale, et la Commission n'est pas tenue par l'autorité de la chose jugée des décisions judiciaires antérieures lorsqu'elle détermine le quantum de cette aide.",
+        "courtVerbatim": "qu'il y a lieu de considérer que la commission, statuant également en équité, sa décision pourrait inspirer celle du jugement susmentionné dans les limites fixée par le dispositif mis en place par la loi du 1er août 1985 à savoir que l'aide financière octroyée par la commission, qui consiste en un geste de solidarité sociale, ne correspond pas nécessairement à la réparation intégrale du préjudice subi ; - que la commission n'est pas tenue par l'autorité de la chose jugée d'une décision judiciaire ayant statué précédemment sur les intérêts civils de la partie requérante.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la Commission administrative fixe le montant d'une aide financière en équité alors qu'il existe des décisions judiciaires antérieures ayant statué sur la réparation civile du même préjudice.",
+        "relevantFactualContext": "Le dossier comporte des décisions judiciaires ayant fixé le montant de la réparation du dommage moral; la Commission, statuant en équité et tenant compte de l'absence de pièces probantes sur l'ampleur du préjudice, accorde finalement une aide réduite et la bloque en vertu des règles applicables.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "MEDIUM",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "La requérante, victime d'un attentat à la pudeur résultant d'abus sexuels, a sollicité une aide financière au titre de l'art. 31 de la loi du 1er août 1985 pour son préjudice moral. La Commission déclare la demande recevable mais très partiellement fondée et octroie une aide principale de 1.500 € bloquée jusqu'à la majorité, considérant que le préjudice ne revêt pas objectivement un caractère « important » au sens de la loi et qu'elle statue en équité sans être tenue par l'autorité de la chose jugée."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Saisine de la Commission. Par requête adressée par pli recommandé et parvenue au Secrétariat de la Commission en date du 30 décembre 2016, le conseil de la requérante expose que Elodie a été victime d'un acte intentionnel de violence et postule, pour son dommage personnel, sur base de l'article 31,1° de la loi du 1er août 1985 stipulant que « les personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence peuvent demander une aide », l'octroi d'une aide principale de 7.500 euros. Exposé des faits En 2014, Elodie fut victime d'abus sexuels de la part du dénommé André Z.. Elle déclare : Le 13 octobre 2014, (...). Au départ, elle n'a parlé que de ce qui s'était passé lorsqu'elle s'était rendue chez André Z., à savoir que celui-ci lui avait proposé, après le repas, de s'allonger sur son lit, dans sa chambre car elle était nerveuse et stressée ; \"[s]a tête ne savait pas quoi faire et [s]on corps tout ça éta(i)t un peu perdu\" mais elle a accepté ; André Z. s'est allongé à son côté et a mis sa main sur le bas de son ventre, sous les vêtements; elle a immédiatement réagi, s'est levée et est partie. André Z. avait tenté, à deux reprises, une fois quand ils étaient chez lui, une fois quand ils étaient chez elle, de lui toucher les seins sous son pull mais qu'elle avait à chaque fois retiré sa main. Elle lui avait fait comprendre qu'elle ne voulait pas qu'il aille plus loin. « Elle maintenu le contact avec André Z. en dépit des mises en garde qui leur ont été faites ».</p>",
+          "<p class=\"case-section__paragraph\">que l'article 31 1° de la loi du 1er août 1985 stipule que « les personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence peuvent demander une aide » ;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1°, l'article 32 §1er 1° stipule que la commission se fonde notamment sur le dommage résultant du préjudice moral ;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1°, l'article 32 §2 6° stipule que la commission prend en compte l'indemnité de procédure ;</p>",
+          "<p class=\"case-section__paragraph\">La Commission, considérant que le préjudice de la victime ne revêt pas objectivement un caractère important au sens de l'article 31 1°de la loi du 1er août 1985, déclare cependant la demande recevable, mais très partiellement fondée.</p>",
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Saisine de la Commission. Par requête adressée par pli recommandé et parvenue au Secrétariat de la Commission en date du 30 décembre 2016, le conseil de la requérante expose que Elodie a été victime d'un acte intentionnel de violence et postule, pour son dommage personnel, sur base de l'article 31,1° de la loi du 1er août 1985 stipulant que « les personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence peuvent demander une aide », l'octroi d'une aide principale de 7.500 euros. Exposé des faits En 2014, Elodie fut victime d'abus sexuels de la part du dénommé André Z.. Elle déclare : Le 13 octobre 2014, (...). Au départ, elle n'a parlé que de ce qui s'était passé lorsqu'elle s'était rendue chez André Z., à savoir que celui-ci lui avait proposé, après le repas, de s'allonger sur son lit, dans sa chambre car elle était nerveuse et stressée ; \"[s]a tête ne savait pas quoi faire et [s]on corps tout ça éta(i)t un peu perdu\" mais elle a accepté ; André Z. s'est allongé à son côté et a mis sa main sur le bas de son ventre, sous les vêtements; elle a immédiatement réagi, s'est levée et est partie. André Z. avait tenté, à deux reprises, une fois quand ils étaient chez lui, une fois quand ils étaient chez elle, de lui toucher les seins sous son pull mais qu'elle avait à chaque fois retiré sa main. Elle lui avait fait comprendre qu'elle ne voulait pas qu'il aille plus loin. « Elle maintenu le contact avec André Z. en dépit des mises en garde qui leur ont été faites ».</p>",
+          "<p class=\"case-section__paragraph\">que l'article 31 1° de la loi du 1er août 1985 stipule que « les personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence peuvent demander une aide » ;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1°, l'article 32 §1er 1° stipule que la commission se fonde notamment sur le dommage résultant du préjudice moral ;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1°, l'article 32 §2 6° stipule que la commission prend en compte l'indemnité de procédure ;</p>",
+          "<p class=\"case-section__paragraph\">La Commission, considérant que le préjudice de la victime ne revêt pas objectivement un caractère important au sens de l'article 31 1°de la loi du 1er août 1985, déclare cependant la demande recevable, mais très partiellement fondée.</p>",
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1°, l'article 32 §1er 1° stipule que la commission se fonde notamment sur le dommage résultant du préjudice moral ;</p>",
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1°, l'article 32 §2 6° stipule que la commission prend en compte l'indemnité de procédure ;</p>",
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">que l'article 33 §1 prévoit que le montant de l'aide financière est fixé en équité ;</p>",
+          "<p class=\"case-section__paragraph\">qu'il y a lieu de considérer que la commission, statuant également en équité, sa décision pourrait inspirer celle du jugement susmentionné dans les limites fixée par le dispositif mis en place par la loi du 1er août 1985 à savoir que l'aide financière octroyée par la commission, qui consiste en un geste de solidarité sociale, ne correspond pas nécessairement à la réparation intégrale du préjudice subi ;</p>",
+          "<p class=\"case-section__paragraph\">que la commission n'est pas tenue par l'autorité de la chose jugée d'une décision judiciaire ayant statué précédemment sur les intérêts civils de la partie requérante.</p>",
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>",
+          "<p class=\"case-footer__paragraph\">déclare la demande recevable et très partiellement fondée ;</p>",
+          "<p class=\"case-footer__paragraph\">accorde à la requérante une aide principale de 1.500 euros qui sera bloquée sur un compte ou un livret d'épargne ouvert au nom de l'enfant et frappée d'indisponibilité jusqu'à sa majorité ou émancipation, sauf autorisation à donner par le magistrat compétent.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "DEC-ECLI:BE:COHSAV:2018:DEC.20180122.10-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016 les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative, La Commission, statuant contradictoirement à l'égard de la partie requérante et du délégué du Ministre, en audience publique,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-011",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-003",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-004",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-005",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-006",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-007",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-008",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-009",
+          "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-010"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 11,
+      "citationStatistics": {
+        "totalCitations": 28,
+        "avgCitationsPerProvision": 2.5454545454545454,
+        "provisionsWithMinimalCitations": 8,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 11,
+        "avgDecisionsPerProvision": 0.8181818181818182,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2018:DEC.20180122.10-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Suites judiciaires Par jugement rendu par défaut le 26 mai 2015, la 54ème chambre correctionnelle du Tribunal de ... condamne le dénommé André Z. pour de multiples préventions dont celles concernant la requérante d'avoir ; Cause II B. A plusieurs reprises entre le 1er janvier 2012 et le 15 mars 2014, commis un attentat à la pudeur avec violences ou menaces sur diverses personnes de sexe masculin ou féminin, avec la circonstance que cet attentat à la pudeur a été commis sur soit une personne particulièrement vulnérable en raison d'un état de grossesse, d'une maladie, d'une infirmité ou d'une déficience physique ou mentale, et notamment: (...) 2. Sur la personne de X. Elodie, à un emprisonnement de 10 ans et à payer la somme de 3.000 euros à la partie civile Marc X. en sa qualité d'administrateur provisoire des biens de sa fille Elodie X.. Par jugement rendu le 3 novembre 2015 sur opposition visant les dispositions pénales et civiles d'un jugement rendu par défaut, le 26 mai 2015, la 54ème chambre correctionnelle du Tribunal de ..., reçoit l'opposition et, au pénal, condamne André Z. à un emprisonnement de 10 ans et à payer à la partie civile Marc X. en sa qualité d'administrateur provisoire des biens de sa fille Elodie X. la somme de 3.000 euros à titre de réparation du dommage moral subi par cette dernière à la suite des faits de la prévention B.2 de la cause II. Le tribunal relève : En l'absence de pièce probante quant à l'ampleur de ce préjudice, il s'impose de fixer ex aequo et bono à 3.000 euros le montant des dommages et intérêts dus par le prévenu à la partie civile Marc X. en sa qualité d'administrateur provisoire des biens de sa fille Elodie, conformément à ce qui est demandé. Par arrêt rendu le 30 juin 2016, la 12ème chambre correctionnelle de la Cour d'appel de ..., vu les appels interjetés par le prévenu et le Ministère public du jugement rendu le 3 novembre 2015, confirme le jugement entrepris et le réformant pour le surplus, (...) condamne ce dernier (...) à un emprisonnement de 4 ans au motif (...). La Cour relève : En glissant sa main sous les vêtements de la jeune femme, le prévenu violenta celle-ci, même si une telle violence demeura légère. (...) Seul un dommage moral est postulé et est évalué par cette partie civile à 7.500,00 euros, en équité, outre les intérêts compensatoires. Le prévenu estima, à titre subsidiaire, que les premiers juges avaient adéquatement jugé et se référa à justice pour le surplus. Les premiers juges ont adéquatement évalué à 3.000,00 euros la somme destinée à réparer intégralement le dommage moral d'Elodie X., en lien causal avec la faute du prévenu.</p>",
+          "<li><p class=\"case-section__paragraph\">que l'article 31 1° de la loi du 1er août 1985 stipule que « les personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence peuvent demander une aide » ;</p></li>",
+          "<p class=\"case-section__paragraph\">Séquelles médicales Aucun document ne fait état des séquelles.</p>",
+          "<p class=\"case-section__paragraph\">La Commission, considérant que le préjudice de la victime ne revêt pas objectivement un caractère important au sens de l'article 31 1°de la loi du 1er août 1985, déclare cependant la demande recevable, mais très partiellement fondée.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002"
+          ],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2018:DEC.20180122.10-002",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">que l'article 33 §1 prévoit que le montant de l'aide financière est fixé en équité ;</p></li>",
+          "<li><p class=\"case-section__paragraph\">qu'il y a lieu de considérer que la commission, statuant également en équité, sa décision pourrait inspirer celle du jugement susmentionné dans les limites fixée par le dispositif mis en place par la loi du 1er août 1985 à savoir que l'aide financière octroyée par la commission, qui consiste en un geste de solidarité sociale, ne correspond pas nécessairement à la réparation intégrale du préjudice subi ;</p></li>",
+          "<li><p class=\"case-section__paragraph\">que la commission n'est pas tenue par l'autorité de la chose jugée d'une décision judiciaire ayant statué précédemment sur les intérêts civils de la partie requérante.</p></li>",
+          "<li><p class=\"case-footer__paragraph\">accorde à la requérante une aide principale de 1.500 euros qui sera bloquée sur un compte ou un livret d'épargne ouvert au nom de l'enfant et frappée d'indisponibilité jusqu'à sa majorité ou émancipation, sauf autorisation à donner par le magistrat compétent.</p></li>",
+          "<p class=\"case-section__paragraph\">Suites judiciaires Par jugement rendu par défaut le 26 mai 2015, la 54ème chambre correctionnelle du Tribunal de ... condamne le dénommé André Z. pour de multiples préventions dont celles concernant la requérante d'avoir ; Cause II B. A plusieurs reprises entre le 1er janvier 2012 et le 15 mars 2014, commis un attentat à la pudeur avec violences ou menaces sur diverses personnes de sexe masculin ou féminin, avec la circonstance que cet attentat à la pudeur a été commis sur soit une personne particulièrement vulnérable en raison d'un état de grossesse, d'une maladie, d'une infirmité ou d'une déficience physique ou mentale, et notamment: (...) 2. Sur la personne de X. Elodie, à un emprisonnement de 10 ans et à payer la somme de 3.000 euros à la partie civile Marc X. en sa qualité d'administrateur provisoire des biens de sa fille Elodie X.. Par jugement rendu le 3 novembre 2015 sur opposition visant les dispositions pénales et civiles d'un jugement rendu par défaut, le 26 mai 2015, la 54ème chambre correctionnelle du Tribunal de ..., reçoit l'opposition et, au pénal, condamne André Z. à un emprisonnement de 10 ans et à payer à la partie civile Marc X. en sa qualité d'administrateur provisoire des biens de sa fille Elodie X. la somme de 3.000 euros à titre de réparation du dommage moral subi par cette dernière à la suite des faits de la prévention B.2 de la cause II. Le tribunal relève : En l'absence de pièce probante quant à l'ampleur de ce préjudice, il s'impose de fixer ex aequo et bono à 3.000 euros le montant des dommages et intérêts dus par le prévenu à la partie civile Marc X. en sa qualité d'administrateur provisoire des biens de sa fille Elodie, conformément à ce qui est demandé. Par arrêt rendu le 30 juin 2016, la 12ème chambre correctionnelle de la Cour d'appel de ..., vu les appels interjetés par le prévenu et le Ministère public du jugement rendu le 3 novembre 2015, confirme le jugement entrepris et le réformant pour le surplus, (...) condamne ce dernier (...) à un emprisonnement de 4 ans au motif (...). La Cour relève : En glissant sa main sous les vêtements de la jeune femme, le prévenu violenta celle-ci, même si une telle violence demeura légère. (...) Seul un dommage moral est postulé et est évalué par cette partie civile à 7.500,00 euros, en équité, outre les intérêts compensatoires. Le prévenu estima, à titre subsidiaire, que les premiers juges avaient adéquatement jugé et se référa à justice pour le surplus. Les premiers juges ont adéquatement évalué à 3.000,00 euros la somme destinée à réparer intégralement le dommage moral d'Elodie X., en lien causal avec la faute du prévenu.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 9,
+        "avgCitationsPerTeaching": 4.5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 1,
+        "totalDecisionsValidated": 6,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": [
+        "La provision 'ART-ECLI:BE:COHSAV:2018:DEC.20180122.10-002' (mentionnée comme 'article 311°' dans les métadonnées) n'apparaît pas textuellement dans les passages extraits du raisonnement ; elle est donc signalée comme non trouvée."
+      ]
+    }
+  }
+}

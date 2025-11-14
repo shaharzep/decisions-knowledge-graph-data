@@ -17,7 +17,8 @@
     "eval": "tsx evals/cli.ts",
     "analyze-results": "tsx evals/analyze-cli.ts",
     "analyze-full-data": "tsx scripts/analyze-full-data.ts",
-    "analyze:citations": "tsx src/scripts/analyze-cited-decisions.ts"
+    "analyze:citations": "tsx src/scripts/analyze-cited-decisions.ts",
+    "merge:results": "tsx src/cli/merge-results.ts"
   },
   "keywords": [
     "legal",

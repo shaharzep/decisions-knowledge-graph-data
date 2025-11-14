@@ -1,0 +1,893 @@
+{
+  "decision_id": "ECLI:BE:AHGNT:2000:DEC.20000405.7",
+  "language": "NL",
+  "metadata": {
+    "id": 30251,
+    "court_ecli_code": "AHGNT",
+    "decision_date": "2000-04-05",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Rechterlijke beslissing",
+    "md_length": 15973,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidshof te Gent, 5 april 2000, RS 52680, A.R. nr. 98/470, ECLI:BE:AHGNT:2000:DEC.20000405.7"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+        "name": "DIRECTEUR-GENERAAL VAN DE STUDIEDIENST VAN HET MINISTERIE VAN TEWERKSTELLING EN ARBEID",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHGNT:2000:DEC.20000405.7-002",
+        "name": "B.V.B.A. Verkest Geert en Wim",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+        "name": "Openbaar Ministerie",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "OPENBAAR_MINISTERIE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op 8 september 1995 stelde een inspecteur van de technische inspectie op een bouwwerf te Bredene drie inbreuken vast tegen de B.V.B.A. Verkest Geert en Wim: het ontbreken van een beweegbaar beschermtoestel op een cirkelzaag, een werknemer (Duddaert J.) die geen veiligheidsschoenen droeg en werk- en loopvlakken op circa 2,85 m die niet waren uitgerust met de noodzakelijke collectieve veiligheidselementen. Bij beslissing d.d. 1 juli 1997 (in dispositief later vermeld: 1 juni 1997) legde de Directeur-generaal van de Studiedienst van het Ministerie van Tewerkstelling en Arbeid een administratieve geldboete nr. 019635 ten bedrage van 20.000 frank op wegens deze drie inbreuken. De geïntimeerde stelde bij verzoekschrift van 29 augustus 1995 (ontvangen 1 september 1997) verhaal in tegen de administratieve beslissing en voerde onder meer aan dat de veiligheidskap door werknemers was afgenomen en in de werfkeet gelegd, dat hij meende dat de werknemers veiligheidschoenen bezaten en dat leuningen tijdelijk door andere ambachtslieden waren weggenomen. De arbeidsrechtbank te Brugge verklaarde de vordering ontvankelijk en gegrond en vernietigde bij vonnis van 9 september 1998 de bestreden administratieve beslissing. De Directeur-generaal ging in hoger beroep; het hoger beroep werd tijdig ingeleid en het Openbaar Ministerie bracht een eensluidend advies uit. De arbeidshof stelde vast dat de feiten zich voordeden en dat de inbreuken/feiten voor strafvervolging vatbaar waren, dat de administratieve geldboete terecht kon worden opgelegd maar dat, gelet op het tijdstip van de feiten (voor 1 oktober 1996), de oude boetebedragen (2.000 tot 50.000 frank) dienden te worden toegepast; verder bleek uit het dossier dat de werkgever reeds meerdere keren mondeling was gewaarschuwd.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+          "requests": "De appellant vordert het hoger beroep ontvankelijk en gegrond te horen verklaren en opnieuw recht doende, het bestreden vonnis teniet te doen en het oorspronkelijk verzoekschrift van de geïntimeerde van 1 september 1997 ontvankelijk, doch ongegrond te verklaren; derhalve de bestreden administratieve beslissing d.d. 1 juni 1997 te bevestigen; de geïntimeerde te veroordelen tot de kosten van de beide aanleggen."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHGNT:2000:DEC.20000405.7-002",
+          "requests": "De geïntimeerde vordert het hoger beroep af te wijzen als ongegrond, en dienvolgens het eerste vonnis te bevestigen en de appellant te veroordelen tot alle kosten van het geding. In subsidiaire orde vordert hij de opgelegde geldboete te herleiden tot 2.000 frank. In uiterst subsidiaire orde en bij incidenteel beroep vordert hij dit incidenteel beroep ontvankelijk en gegrond te verklaren en de rechtsplegingsvergoeding in eerste aanleg te begroten op 2.460 frank."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+          "argument": "De appellant betoogt dat de vastgestelde inbreuken strafrechtelijk en administratief reeds waren geregeld onder de wet van 10 juni 1952 en dat de relevante strafbepalingen (artikel 6) werden overgenomen in artikel 81 van de wet van 4 augustus 1996 zonder wijziging van kwalificatie. Voor de administratieve boeten voert hij aan dat de inbreuken A en C onder art. 1, 23° van de administratieve geldboetenwet van 30 juni 1971 vallen (en niet onder het sedert 1 oktober 1996 opgeheven art. 1, 24°), en dat de bepalingen van artikel 158ter en 169 A.R.A.B. zijn overgenomen in het K.B. van 7 augustus 1995 betreffende persoonlijke beschermingsmiddelen, wat toelaat administratieve boeten op te leggen. Gelet op het tijdstip van de feiten (voor de inwerkingtreding van de Welzijnswet op 1 oktober 1996) dienen de oude boetebedragen toegepast te worden; de appellant verzoekt het vonnis van eerste aanleg te vernietigen en de administratieve beslissing te bevestigen.",
+          "treatment": "AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHGNT:2000:DEC.20000405.7-002",
+          "argument": "De geïntimeerde stelde als verweer dat de veiligheidskap door werknemers zelf was afgenomen en in de werfkeet gelegd, dat zijn werknemers over veiligheidschoenen beschikten en dat een bepaalde werknemer andere laarzen droeg waardoor een vergissing mogelijk was, en dat leuningen tijdelijk waren weggenomen door andere ambachtslieden. Zij voerde tevens aan dat de opgelegde geldboete voor een eerste verbalisatie extreem zwaar was en vorderde subsidiair vermindering van de boete en incidenteel de herziening van de rechtsplegingsvergoeding. Deze verweren zijn gericht op het betwisten van de gegrondheid en proportionaliteit van de sanctie.",
+          "treatment": "VERWORPEN"
+        }
+      ],
+      "courtOrder": "OP DIE GRONDEN,\nHET ARBEIDSHOF,\n\nRechtdoende op tegenspraak,\nGelet op de wet van 15 juni 1935 op het taalgebruik in gerechtszaken en inzonderheid op artikel 24.\n\nAlle andere en strijdige conclusies verwerpend als ongegrond.\nVerklaart het hoger beroep en het incidenteel beroep ontvankelijk en gegrond in de hiernavolgende mate.\n\nVernietigt het vonnis van de Arbeidsrechtbank te Brugge, afdeling Brugge, eerste kamer, d.d. 9 september 1998.\n\nEn, opnieuw wijzend,\nverklaart het verzoekschrift van de geïntimeerde van 1 september 1997 ontvankelijk doch ongegrond en bevestigt de administratieve beslissing van de appellant d.d. 1 juni 1997.\n\nVerwijst de geïntimeerde in de kosten van de beide aanleggen.\nVereffent de kosten van de appellant op:\n\n- in eerste aanleg:\nrechtsplegingsvergoeding: 2.460 frank\n- in hoger beroep:\nkosten van dagvaarding: 5.776 frank\nrechtsplegingsvergoeding: 3.360 frank\nen aan de zijde van de geïntimeerde:\n- in eerste aanleg niet vereffend daar de geïntimeerde niet vertegenwoordigd werd,\n- in hoger beroep:\nrechtsplegingsvergoeding (zoals gevorderd): 3.360 frank.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+        "provisionNumber": "artikel 767",
+        "provisionNumberKey": "767",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-002",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-002",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 betreffende het taalgebruik in gerechtszaken (wet 15/06/1935)",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+        "provisionNumber": "artikel 35",
+        "provisionNumberKey": "35",
+        "parentActType": "ANDERE",
+        "parentActName": "Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof oordeelt dat de vastgestelde inbreuk betreffende het ontbreken van een beweegbaar beschermtoestel op een cirkelzaag onder de regels van het A.R.A.B. valt en gesanctioneerd kan worden op grond van de Administratieve Geldboetenwet (art. 1, 23°). Het Hof aanvaardt tevens dat latere uitvoeringsbesluiten gelijkwaardige bepalingen bevatten, zodat de oude ARAB-tekst niet letterlijk hoeft te worden overgenomen.",
+        "relevantFactualContext": "De technische inspectie stelde op 5 september 1995 vast dat de cirkelzaag geen beweegbaar beschermtoestel had; de kap was volgens partijen door werknemers verwijderd en in de werfkeet gelegd."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-004",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+        "provisionNumber": "artikel 35d",
+        "provisionNumberKey": "35d",
+        "parentActType": "ANDERE",
+        "parentActName": "Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof merkt op dat art. 35d van het A.R.A.B. intussen werd opgeheven (wijziging door art. 12 van het K.B. van 4 mei 1999) en vermeldt dit in het kader van de wijziging van de uitvoeringsreglementen; waar nodig kan men zich op de gewijzigde uitvoeringsbesluiten beroepen, doch de opheffing verandert niets aan de beoordeling van de feiten uit 1995.",
+        "relevantFactualContext": "De vastgestelde feiten betreffen beschermingsgebreken op arbeidsmiddelen op de werf op 8 september 1995; de opheffing van art. 35d gebeurde later en raakt dus niet aan de feiten van 1995."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-005",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+        "provisionNumber": "artikel 158ter",
+        "provisionNumberKey": "158ter",
+        "parentActType": "ANDERE",
+        "parentActName": "Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat de bepalingen van art. 158ter A.R.A.B. zijn overgenomen in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende persoonlijke beschermingsmiddelen, zonder wijziging van de kwalificatie; daardoor maken deze regels deel uit van de Codex en vormen zij een geldige uitvoeringsgrondslag voor administratieve sancties onder de Administratieve Geldboetenwet.",
+        "relevantFactualContext": "De inspectie constateerde op 8 september 1995 dat een werknemer geen voorgeschreven veiligheidsschoenen droeg, hetgeen onder art. 158ter valt en later in het K.B. bij Bijlage II, punt 4 werd opgenomen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-006",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+        "provisionNumber": "artikel 169",
+        "provisionNumberKey": "169",
+        "parentActType": "ANDERE",
+        "parentActName": "Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof constateert dat art. 169 van het A.R.A.B. werd overgenomen in art. 7 van het K.B. van 7 augustus 1995 zonder wijziging van de kwalificatie; aldus maakt die regeling deel uit van de uitvoeringsbesluiten van de Welzijnswet en kan zij als grondslag voor administratieve geldboeten dienen.",
+        "relevantFactualContext": "De technische inspectie constateerde dat werknemers niet de voorgeschreven veiligheidsschoenen of laarzen droegen bij werkzaamheden, een feit vastgesteld op 8 september 1995."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-007",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+        "provisionNumber": "artikel 434.7.1",
+        "provisionNumberKey": "434",
+        "parentActType": "ANDERE",
+        "parentActName": "Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat art. 434.7.1 van het A.R.A.B. niet is gewijzigd en dat de bijlage van het K.B. van 12 augustus 1993 betreffende arbeidsmiddelen een gelijkwaardige wettelijke bepaling bevat voor blootstelling aan valgevaar van meer dan 2 meter; voor dezelfde inbreuk hoeft de oude tekst niet letterlijk te worden overgenomen omdat de wetgever een ruimere bewoording hanteert.",
+        "relevantFactualContext": "De inspectie stelde vast dat werk- en loopvlakken op 2,85 meter hoogte niet waren uitgerust met de vereiste collectieve veiligheidsvoorzieningen (vastgesteld op 5/9/1995)."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-008",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-004",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "WET",
+        "parentActName": "wet van 10 juni 1952 betreffende de gezondheid en de veiligheid van de werknemers (wet 10/06/1952)",
+        "parentActDate": "1952-06-10",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-009",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-004",
+        "provisionNumber": "artikel 1, paragrafen 1 tot 3",
+        "provisionNumberKey": "1",
+        "parentActType": "WET",
+        "parentActName": "wet van 10 juni 1952 betreffende de gezondheid en de veiligheid van de werknemers (wet 10/06/1952)",
+        "parentActDate": "1952-06-10",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-010",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-005",
+        "provisionNumber": "artikel 81, 1°",
+        "provisionNumberKey": "81",
+        "parentActType": "WET",
+        "parentActName": "wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk (Welzijnswet, wet 04/08/1996)",
+        "parentActDate": "1996-08-04",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-011",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-005",
+        "provisionNumber": "artikel 96",
+        "provisionNumberKey": "96",
+        "parentActType": "WET",
+        "parentActName": "wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk (Welzijnswet, wet 04/08/1996)",
+        "parentActDate": "1996-08-04",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-012",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-006",
+        "provisionNumber": "artikel 1bis, 8°",
+        "provisionNumberKey": "1bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 30 juni 1971 op de administratieve geldboeten (Administratieve Geldboetenwet, wet 30/06/1971)",
+        "parentActDate": "1971-06-30",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof geeft weer dat artikel 1bis, 8° van de Administratieve Geldboetenwet bepaalt dat wie de bepalingen van de wet van 4 augustus 1996 of de uitvoeringsbesluiten ervan overtreedt, kan worden gesanctioneerd met een administratieve geldboete van 10.000 tot 100.000 frank; deze bepaling geldt voor overtredingen die onder de nieuwe wetgeving en haar uitvoeringsbesluiten vallen.",
+        "relevantFactualContext": "De inbreuken betroffen regels die in Bijlage en artikels van het K.B. van 7 augustus 1995 zijn opgenomen; de vastgestelde feiten dateren van 8 september 1995, zodat het Hof evenwel de toepasselijkheid van de hogere boetebedragen nuanceert."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-013",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-006",
+        "provisionNumber": "artikel 1, 23°",
+        "provisionNumberKey": "1",
+        "parentActType": "WET",
+        "parentActName": "wet van 30 juni 1971 op de administratieve geldboeten (Administratieve Geldboetenwet, wet 30/06/1971)",
+        "parentActDate": "1971-06-30",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof oordeelt dat de vastgestelde inbreuken (met name inbreuk A en C en betrekking tot B) gesanctioneerd worden op grond van art. 1, 23° van de Administratieve Geldboetenwet van 30 juni 1971; deze bepaling vormt de toepasselijke wettelijke grondslag voor administratieve geldboeten wegens overtredingen van het A.R.A.B. of de uitvoeringsbesluiten.",
+        "relevantFactualContext": "De technische inspectie stelde op 5/9/1995 vast: ontbrekend beweegbaar beschermtoestel op cirkelzaag, werknemer zonder veiligheidsschoenen en werk- en loopvlakken op 2,85 m zonder collectieve veiligheidsvoorzieningen; omdat de feiten vóór 1/10/1996 liggen, past het Hof de toen geldende (oude) boetebedragen toe."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-014",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-007",
+        "provisionNumber": "Bijlage II, punt 4",
+        "provisionNumberKey": "Bijlage II, punt 4",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen (K.B. 07/08/1995, B.S. 15/09/1995)",
+        "parentActDate": "1995-08-07",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat Bijlage II, punt 4 van het K.B. van 7 augustus 1995 de inhoud van art. 158ter A.R.A.B. heeft overgenomen zonder wijziging van de kwalificatie; dit besluit maakt deel uit van de Codex over het welzijn en vormt aldus een uitvoeringsgrondslag waarop administratieve sancties kunnen worden gebaseerd.",
+        "relevantFactualContext": "Deze Bijlage betreft persoonlijke beschermingsmiddelen; in casu werd vastgesteld dat een werknemer geen veiligheidsschoenen droeg op 8 september 1995, een feit dat onder deze Bijlage valt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-015",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-007",
+        "provisionNumber": "artikel 7",
+        "provisionNumberKey": "7",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen (K.B. 07/08/1995, B.S. 15/09/1995)",
+        "parentActDate": "1995-08-07",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof merkt op dat artikel 7 van het K.B. van 7 augustus 1995 de bevoegdheid en inhoud van art. 169 A.R.A.B. overneemt en dat het besluit deel uitmaakt van de uitvoeringsregelgeving van de Welzijnswet; hierdoor kan art. 7 als grondslag dienen voor administratieve geldboeten voor het niet naleven van beschermingsvoorschriften.",
+        "relevantFactualContext": "In casu werd vastgesteld dat werknemers niet de voorgeschreven veiligheidsschoenen/laarzen droegen tijdens werkzaamheden op 8 september 1995, hetgeen onder artikel 7/K.B.-voorschriften valt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-016",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-008",
+        "provisionNumber": "Bijlage",
+        "provisionNumberKey": "Bijlage",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "K.B. betreffende de arbeidsmiddelen van 12 augustus 1993 (K.B. 12/08/1993)",
+        "parentActDate": "1993-08-12",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat de bijlage van het K.B. van 12 augustus 1993 betreffende arbeidsmiddelen een gelijksoortige en algemenere wettelijke bepaling bevat voor het ontbreken van beschermingen op arbeidsmiddelen; de wetgever heeft voor ruimere bewoording gekozen zodat de oude ARAB-tekst niet letterlijk hoeft te worden gevolgd om dezelfde inbreuk te bestraffen.",
+        "relevantFactualContext": "Voor feit A (cirkelzaag zonder beweegbaar beschermtoestel) geeft de bijlage van het K.B. van 12/08/1993 een vergelijkbare norm; de vaststelling door de inspectie dateert van 5/9/1995."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-017",
+        "internalParentActId": "ACT-ECLI:BE:AHGNT:2000:DEC.20000405.7-009",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 4 mei 1999 (B.S. 4 juni 1999)",
+        "parentActDate": "1999-05-04",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof vermeldt dat art. 12 van het K.B. van 4 mei 1999 art. 35d van het A.R.A.B. heeft opgeheven bij wijziging van het K.B. van 12 augustus 1993; deze wettelijke wijziging wordt in de motivering aangeduid als relevante latere wetswijziging, zonder dat zij de beoordeling van de feiten uit 1995 beïnvloedt.",
+        "relevantFactualContext": "De opheffing van art. 35d via art. 12 K.B. van 4 mei 1999 vond plaats na de feiten; de door de inspectie vastgestelde overtredingen dateren van 8 september 1995 en vielen dus nog onder de destijdse regelgeving."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Directeur-generaal van de Studiedienst van het Ministerie van Tewerkstelling en Arbeid",
+        "date": "1997-07-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidsrechtbank te Brugge, afdeling Brugge, eerste kamer",
+        "date": "1998-09-09",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Directeur-generaal van de Studiedienst van het Ministerie van Tewerkstelling en Arbeid",
+        "date": "1997-06-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Arbeidsrecht",
+      "Bouwwerf",
+      "Werkgever-werknemer",
+      "Onvoldoende machinebeveiliging",
+      "Geen veiligheidsschoenen",
+      "Administratieve boete",
+      "Toepasselijkheid Welzijnswet",
+      "Boetehoogte oude tarieven",
+      "Recidive",
+      "Overgangsconflict wetgeving"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+        "text": "Inbreuken op het Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.) en op de uitvoeringsbesluiten ervan kunnen als grondslag dienen voor een administratieve geldboete op basis van artikel 1, 23° van de wet van 30 juni 1971; de afschaffing van artikel 1, 24° door latere wetgeving ontslaat niet van het toepassingsbereik van art. 1, 23° voor door de inspectie vastgestelde ARAB-overtredingen.",
+        "courtVerbatim": "De feiten vermeld onder inbreuk A en C worden gesanctioneerd door art. 1, $23^{\\circ}$ van de administratieve geldboetenwet van 30 juni 1971. Ten onrechte werd art. 1, $24^{\\circ}$ van deze wet door de eerste rechters weerhouden. Art. 1, $24^{\\circ}$ werd immers opgegeven door de wet van 4 augustus 1996 in werking getreden op 1 oktober 1996. De werkgever die zich schuldig maakt aan de overtredingen van de bepalingen van het A.R.A.B. of van de besluiten en beslissingen ervan, wordt gestraft met een administratieve geldboete.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer vastgestelde feiten aantonen dat regels van het A.R.A.B. of van diens uitvoeringsbesluiten werden overtreden en de sanctionering via de Wet administratieve geldboeten wordt overwogen.",
+        "relevantFactualContext": "Technische inspectie constateerde op 5/9 en 8/9/1995: ontbrekend beweegbaar beschermtoestel op een cirkelzaag, een werknemer zonder veiligheidsschoenen en werk- en loopvlakken op 2,85 m zonder collectieve veiligheidsvoorzieningen; deze feiten werden door het Arbeidshof als ARAB-inbreuken gekwalificeerd.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-013",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-007"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2000:DEC.20000405.7-002",
+        "text": "Bij vaststelling van administratieve sancties gelden de boetebedragen die golden op het tijdstip van de feiten: indien de overtredingen dateren van vóór de inwerkingtreding van een verzwarende nieuwe wetgeving, dienen de oude boetebedragen toegepast te worden, ook al voorziet latere regelgeving hogere maxima.",
+        "courtVerbatim": "Aangezien de nieuwe wet de opgelegde geldboeten verzwaarde en de feiten dateren van voor 1 oktober 1996 dienen de oude boetebedragen gehanteerd ( 2.000 tot 50.000 frank). In casu werden de bepalingen van deze wet of van de uitvoeringsbesluiten ervan overtreden zodat een administratieve geldboete van 10.000 tot 100.000 frank kan worden opgelegd (art. 1, $23^{\\circ}$ van de Administratieve Geldboetenwet). Rekening houdend met hoger vermelde overwegingen en gelet op het tijdstip van de inbreuken dienen de oude boetebedragen toegepast voorzien in de administratieve geldboetenwet ( 2.000 tot 50.000 frank).",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer feiten zijn gepleegd vóór de datum van inwerkingtreding van een nieuw wettelijk kader dat de maximale geldboetes verzwaard heeft.",
+        "relevantFactualContext": "De vastgestelde overtredingen dateren van september 1995; de Welzijnswet trad in op 1 oktober 1996 en verhoogde boetebedragen, zodat het Hof de oude boetebedragen (2.000–50.000 frank) toepast.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-012",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-013"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+        "text": "Wanneer oudere ARAB-bepalingen werden overgenomen of gelijkwaardig gereproduceerd in latere uitvoeringsbesluiten (Koninklijke Besluiten), hoeft de letterlijke tekst van het A.R.A.B. niet letterlijk te worden gevolgd: gelijkwaardige, meer algemeen geformuleerde bepalingen in uitvoeringsbesluiten kunnen dezelfde overtredingen dekken en als grondslag voor sancties dienen.",
+        "courtVerbatim": "Uit de bijlage van het K.B. betreffende de arbeidsmiddelen van 12 augustus 1993 wordt een gelijkaardige wettelijke bepaling gegeven voor feit A. Het betreft dezelfde doch anders omschreven inbreuk omdat de wetgever thans geopteerd heeft voor meer algemene bewoordingen in de bestrijding van de arbeidsrisico's, terwijl het A.R.A.B. de toestellen zelf vermelde samen met de vereisten waaraan deze dienden te voldoen. Voor eenzelfde inbreuk hoeft de oude tekst van het A.R.A.B. niet letterlijk overgenomen. De bepalingen van art. 158ter van het A.R.A.B. en deze van art. 169 zijn overgenomen respectievelijk in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen, en, in art. 7 van het besluit van 7 augustus 1995, zonder dat de kwalificatie van de inbreuk werd gewijzigd.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer ARAB-bepalingen later zijn overgenomen of gereproduceerd in Kon. Besluiten of uitvoeringsbesluiten met verschillende, meer algemene bewoordingen.",
+        "relevantFactualContext": "Art. 158ter en art. 169 A.R.A.B. werden overgenomen in Bijlage II, punt 4 en art. 7 van het K.B. van 7 augustus 1995; voor feit A verschaft de bijlage van het K.B. van 12/08/1993 een gelijksoortige norm die de vastgestelde beschermingsgebreken dekt.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-016",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-014",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-015",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-005",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-006"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2000:DEC.20000405.7-004",
+        "text": "Bij oplegging van administratieve geldboeten kan het bestuur rekening houden met eenheid van doel en verwezenlijking zodat meerdere vastgestelde feiten in één geldboete kunnen worden samengevoegd; voorts rechtvaardigen herhaalde vaststellingen en eerdere mondelinge verwittigingen een hogere, doch redelijke en billijke, boete ten opzichte van loutere eerste constatatie.",
+        "courtVerbatim": "De geïntimeerde kan niet gevolgd worden wanneer zij aanhaalt dat een extreem zware geldboete werd opgelegd voor een eerste verbalisatie. In de eerste plaats kan de opgelegde geldboete niet als dusdanig worden beschouwd en werd rekening gehouden met eenheid van doel en verwezenlijking waardoor er slechts één geldboete werd opgelegd in plaats van drie. Bovendien blijkt dat Verkest Geert reeds drie keer en dit sinds het begin van dit jaar in overtreding werd bevonden en er telkens met een mondelinge verwittiging van af kwam. Aangezien hij een vierde keer opnieuw in overtreding werd bevonden, werd terecht een gepaste, redelijke en billijke geldboete opgelegd.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer meerdere overtredingen voortvloeien uit samenhangende gedragingen of wanneer voortgaande niet-naleving volgt op eerdere waarschuwingen door toezichthouders.",
+        "relevantFactualContext": "Het Hof stelde dat, hoewel er meerdere vastgestelde overtredingen waren, één boete werd opgelegd wegens eenheid van doel en verwezenlijking; de werkgever was eerder driemaal verwittigd en bij een vierde constatering werd een gemotiveerde hogere boete gehandhaafd.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-013"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 4,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De overheid, vertegenwoordigd door de Directie-Generaal van de Studiedienst, legde aan de vennootschap een administratieve geldboete op wegens drie overtredingen van het Algemeen Reglement voor de Arbeidsbescherming vastgesteld op een bouwwerf. Het Arbeidshof vernietigt het vonnis van eerste aanleg, verklaart het verzoekschrift van de vennootschap ontvankelijk doch ongegrond en bevestigt de administratieve beslissing, met veroordeling in de kosten en bijstelling van de rechtsplegingsvergoeding. Het hof stelt dat de feiten strafvervolgingvatbaar zijn en dat voor overtredingen gepleegd vóór 1 oktober 1996 de oude boetebedragen en de toepasselijke rubriek van de Administratieve Geldboetenwet (art. 1, 23°) gelden, zodat de oplegging van een administratieve boete terecht was."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Nr. : 98/470 OPENBARE TERECHTZITTING VAN EEN VIJF APRIL TWEEDUIZEND. IN DE ZAAK VAN: Gelet op de stukken van het dossier, inzonderheid op het voor eensluidend verklaard afschrift van het vonnis van de Arbeidsrechtbank te Brugge, afdeling Brugge, eerste kamer, A.R. nr. 91.069, op tegenspraak gewezen op 9 september 1998. Dit vonnis werd bij gerechtsbrief van 16 september 1998 aan de partijen ter kennis gebracht. Gelet op de dagvaarding tot hoger beroep betekend aan de geïntimeerde op 16 oktober 1998 en neergelegd ter griffie van het Arbeidshof te Gent, afdeling Brugge, op 28 oktober 1998. De partijen werden gehoord in hun middelen en conclusies ter openbare terechtzitting van 5 januari 2000. Alsdan werd de zaak verdaagd naar de openbare terechtzitting van 2 februari 2000 teneinde het Openbaar Ministerie toe te laten zijn schriftelijk advies overeenkomstig artikel 767 van het Gerechtelijk Wetboek ter griffie neer te leggen, uiterlijk op 25 januari 2000 en de partijen toe te laten hierop desgevallend te repliceren. Wegens de niet regelmatige samenstelling van de zetel op 2 februari 2000 werd de zaak, in dezelfde staat, verzonden naar de eerstvolgende zitting, namelijk 1 maart 2000. Alsdan werd niet gerepliceerd op het advies zodat de debatten, zoals geannonceerd, werden gesloten en de zaak voor uitspraak werd gesteld op heden. Gelet op het eensluidend advies van het Openbaar Ministerie, opgemaakt door de heer Peter Waterschoot, Subsituut-generaal, en neergelegd ter griffie van het Arbeidshof alhier op 24 januari 2000.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">HET ARBEIDSHOF, Rechtdoende op tegenspraak, Gelet op de wet van 15 juni 1935 op het taalgebruik in gerechtszaken en inzonderheid op artikel 24. Alle andere en strijdige conclusies verwerpend als ongegrond. Verklaart het hoger beroep en het incidenteel beroep ontvankelijk en gegrond in de hiernavolgende mate. Vernietigt het vonnis van de Arbeidsrechtbank te Brugge, afdeling Brugge, eerste kamer, d.d. 9 september 1998. En, opnieuw wijzend, verklaart het verzoekschrift van de geïntimeerde van 1 september 1997 ontvankelijk doch ongegrond en bevestigt de administratieve beslissing van de appellant d.d. 1 juni 1997. Verwijst de geïntimeerde in de kosten van de beide aanleggen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij verzoekschrift tot beroep d.d. 29 augustus 1995, ter griffie van de Arbeidsrechtbank te Brugge ontvangen op 1 september 1997, stelde de geïntimeerde verhaal in tegen deze administratieve beslissing. Zij poneerde, wat artikel 35 van het A.R.A.B. betreft, dat de veiligheidskap door de werknemers zelf was afgenomen en in hun werfkeet gelegd. De verantwoordelijke van geïntimeerde stelde dat, toen hij ze had zien werken, de kap nog op de machine was. Wat betreft de artikelen 158ter en 169 verklaarde hij dat alle werknemers beschikken over veiligheidsschoenen en laarzen. Hij had er niet op gelet dat een zekere Buddaert andere laarzen aanhad, want het verschil in uitzicht was zeer miniem. Wat betreft artikel 434.7.1, hetzij blootstelling aan een val van meer dan 2 meter, stelde hij dat de leuningen door de firma waren geplaatst, doch tijdelijk weggenomen door andere ambachtslieden (waarschijnlijk de timmerman), om materiaal naar boven te brengen. Gezien de zeer zware geldboete voor een eerste verbalisatie stelde de geïntimeerde beroep in tegen deze administratieve beslissing. De eerste rechters verklaarden de vordering ontvankelijk en gegrond en vernietigden de bestreden administratie beslissing d.d. 1 juli 1997. Zij argumenteerden dat onmiddellijk diende te worden vastgesteld dat de vastgestelde feiten zich voordeden op 8 september 1995, hetzij op een ogenblik dat de inbreuken op het A.R.A.B. nog strafbaar waren op grond van de Veiligheidswet. Sedert 1 oktober 1996 is de Welzijnswet Werknemers d.d. 4 augustus 1996 in voege getreden. Deze Welzijnswet heeft via zijn artikel 96 een 8° toegevoegd aan het artikel 1bis van de wet op de administratieve geldboeten dat inbreuken op de Welzijnswet of zijn uitvoeringsbesluiten vatbaar maakt voor een administratieve geldboete, terwijl artikel 1, 24° van de wet op de administratieve geldboeten, basis voor de administratieve geldboeten in het kader van de oude wetgeving, werd opgeheven door hetzelfde artikel 96 van de nieuwe Welzijnswet. Gezien de nieuwe wet geen overgangsbepalingen heeft voorzien die zouden toelaten nog administratieve geldboeten op te leggen voor inbreuken die gesteund waren op de oude wet, is er derhalve vanaf 1 oktober 1996, datum waarop de nieuwe wet in voege is getreden, geen wettelijke grondslag meer voor het opleggen van een administratieve geldboete, die, zoals in huidig geval, nog steunt op artikel 1, paragrafen 1 tot 3 van de wet van 10 juni 1952 (betreffende de gezondheid en de veiligheid van de werknemers). In de gegeven omstandigheden konden de eerste rechters niet anders van vaststellen dat de bestreden beslissing onwettig is, zodat ze moet vernietigd worden.</p>",
+          "<h3 class=\"case-section__subtitle\">4.1. De technische inspectie stelde op 5 september 1995 op de werf van de geïntimeerde te Bredene vast dat de cirkelzaag niet voorzien was van een beweegbaar beschermtoestel dat op ieder ogenblik automatisch het toegankelijk gedeelte van het werktuig afschermt, dat werknemer Duddaert J. geen veiligheidschoenen droeg en dat de werk- en loopvlakken hoger dan 2 meter niet voorzien waren met de vereiste collectieve veiligheidselementen.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-005",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-006",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-004",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">4.5. Hoewel de partijen hiervan niet gewagen dient evenzeer opgemerkt, zoals het Openbaar Ministerie dat doet, dat thans ook art. 35 d van het A.R.A.B. werd opgeheven (art. 12 K.B. van 4 mei 1999, B.S. 4 juni 1999) welke het K.B. van 12 augustus 1993 betreffende de arbeidsmiddelen wijzigde.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-004",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-017",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-016",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij verzoekschrift tot beroep d.d. 29 augustus 1995, ter griffie van de Arbeidsrechtbank te Brugge ontvangen op 1 september 1997, stelde de geïntimeerde verhaal in tegen deze administratieve beslissing. Zij poneerde, wat artikel 35 van het A.R.A.B. betreft, dat de veiligheidskap door de werknemers zelf was afgenomen en in hun werfkeet gelegd. De verantwoordelijke van geïntimeerde stelde dat, toen hij ze had zien werken, de kap nog op de machine was. Wat betreft de artikelen 158ter en 169 verklaarde hij dat alle werknemers beschikken over veiligheidsschoenen en laarzen. Hij had er niet op gelet dat een zekere Buddaert andere laarzen aanhad, want het verschil in uitzicht was zeer miniem. Wat betreft artikel 434.7.1, hetzij blootstelling aan een val van meer dan 2 meter, stelde hij dat de leuningen door de firma waren geplaatst, doch tijdelijk weggenomen door andere ambachtslieden (waarschijnlijk de timmerman), om materiaal naar boven te brengen. Gezien de zeer zware geldboete voor een eerste verbalisatie stelde de geïntimeerde beroep in tegen deze administratieve beslissing. De eerste rechters verklaarden de vordering ontvankelijk en gegrond en vernietigden de bestreden administratie beslissing d.d. 1 juli 1997. Zij argumenteerden dat onmiddellijk diende te worden vastgesteld dat de vastgestelde feiten zich voordeden op 8 september 1995, hetzij op een ogenblik dat de inbreuken op het A.R.A.B. nog strafbaar waren op grond van de Veiligheidswet. Sedert 1 oktober 1996 is de Welzijnswet Werknemers d.d. 4 augustus 1996 in voege getreden. Deze Welzijnswet heeft via zijn artikel 96 een 8° toegevoegd aan het artikel 1bis van de wet op de administratieve geldboeten dat inbreuken op de Welzijnswet of zijn uitvoeringsbesluiten vatbaar maakt voor een administratieve geldboete, terwijl artikel 1, 24° van de wet op de administratieve geldboeten, basis voor de administratieve geldboeten in het kader van de oude wetgeving, werd opgeheven door hetzelfde artikel 96 van de nieuwe Welzijnswet. Gezien de nieuwe wet geen overgangsbepalingen heeft voorzien die zouden toelaten nog administratieve geldboeten op te leggen voor inbreuken die gesteund waren op de oude wet, is er derhalve vanaf 1 oktober 1996, datum waarop de nieuwe wet in voege is getreden, geen wettelijke grondslag meer voor het opleggen van een administratieve geldboete, die, zoals in huidig geval, nog steunt op artikel 1, paragrafen 1 tot 3 van de wet van 10 juni 1952 (betreffende de gezondheid en de veiligheid van de werknemers). In de gegeven omstandigheden konden de eerste rechters niet anders van vaststellen dat de bestreden beslissing onwettig is, zodat ze moet vernietigd worden.</p>",
+          "<h3 class=\"case-section__subtitle\">4.6. De bepalingen van art. 158ter van het A.R.A.B. en deze van art. 169 zijn overgenomen respectievelijk in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen, en, in art. 7 van het besluit van 7 augustus 1995, zonder dat de kwalificatie van de inbreuk werd gewijzigd.</h3>",
+          "<p class=\"case-section__paragraph\">Dit K.B. betreffende de persoonlijke beschermingsmiddelen maakt deel uit van de Codex over het welzijn op het werk en is één der uitvoeringsbesluiten van de wet van 4 augustus 1996.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-005",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-015",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-014",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-013"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij verzoekschrift tot beroep d.d. 29 augustus 1995, ter griffie van de Arbeidsrechtbank te Brugge ontvangen op 1 september 1997, stelde de geïntimeerde verhaal in tegen deze administratieve beslissing. Zij poneerde, wat artikel 35 van het A.R.A.B. betreft, dat de veiligheidskap door de werknemers zelf was afgenomen en in hun werfkeet gelegd. De verantwoordelijke van geïntimeerde stelde dat, toen hij ze had zien werken, de kap nog op de machine was. Wat betreft de artikelen 158ter en 169 verklaarde hij dat alle werknemers beschikken over veiligheidsschoenen en laarzen. Hij had er niet op gelet dat een zekere Buddaert andere laarzen aanhad, want het verschil in uitzicht was zeer miniem. Wat betreft artikel 434.7.1, hetzij blootstelling aan een val van meer dan 2 meter, stelde hij dat de leuningen door de firma waren geplaatst, doch tijdelijk weggenomen door andere ambachtslieden (waarschijnlijk de timmerman), om materiaal naar boven te brengen. Gezien de zeer zware geldboete voor een eerste verbalisatie stelde de geïntimeerde beroep in tegen deze administratieve beslissing. De eerste rechters verklaarden de vordering ontvankelijk en gegrond en vernietigden de bestreden administratie beslissing d.d. 1 juli 1997. Zij argumenteerden dat onmiddellijk diende te worden vastgesteld dat de vastgestelde feiten zich voordeden op 8 september 1995, hetzij op een ogenblik dat de inbreuken op het A.R.A.B. nog strafbaar waren op grond van de Veiligheidswet. Sedert 1 oktober 1996 is de Welzijnswet Werknemers d.d. 4 augustus 1996 in voege getreden. Deze Welzijnswet heeft via zijn artikel 96 een 8° toegevoegd aan het artikel 1bis van de wet op de administratieve geldboeten dat inbreuken op de Welzijnswet of zijn uitvoeringsbesluiten vatbaar maakt voor een administratieve geldboete, terwijl artikel 1, 24° van de wet op de administratieve geldboeten, basis voor de administratieve geldboeten in het kader van de oude wetgeving, werd opgeheven door hetzelfde artikel 96 van de nieuwe Welzijnswet. Gezien de nieuwe wet geen overgangsbepalingen heeft voorzien die zouden toelaten nog administratieve geldboeten op te leggen voor inbreuken die gesteund waren op de oude wet, is er derhalve vanaf 1 oktober 1996, datum waarop de nieuwe wet in voege is getreden, geen wettelijke grondslag meer voor het opleggen van een administratieve geldboete, die, zoals in huidig geval, nog steunt op artikel 1, paragrafen 1 tot 3 van de wet van 10 juni 1952 (betreffende de gezondheid en de veiligheid van de werknemers). In de gegeven omstandigheden konden de eerste rechters niet anders van vaststellen dat de bestreden beslissing onwettig is, zodat ze moet vernietigd worden.</p>",
+          "<p class=\"case-section__paragraph\">Art. 434.7.1. van het A.R.A.B. werd niet gewijzigd. Uit de bijlage van het K.B. betreffende de arbeidsmiddelen van 12 augustus 1993 wordt een gelijkaardige wettelijke bepaling gegeven voor feit A. Het betreft dezelfde doch anders omschreven inbreuk omdat de wetgever thans geopteerd heeft voor meer algemene bewoordingen in de bestrijding van de arbeidsrisico's, terwijl het A.R.A.B. de toestellen zelf vermelde samen met de vereisten waaraan deze dienden te voldoen. Voor eenzelfde inbreuk hoeft de oude tekst van het A.R.A.B. niet letterlijk overgenomen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-006",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-014",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij verzoekschrift tot beroep d.d. 29 augustus 1995, ter griffie van de Arbeidsrechtbank te Brugge ontvangen op 1 september 1997, stelde de geïntimeerde verhaal in tegen deze administratieve beslissing. Zij poneerde, wat artikel 35 van het A.R.A.B. betreft, dat de veiligheidskap door de werknemers zelf was afgenomen en in hun werfkeet gelegd. De verantwoordelijke van geïntimeerde stelde dat, toen hij ze had zien werken, de kap nog op de machine was. Wat betreft de artikelen 158ter en 169 verklaarde hij dat alle werknemers beschikken over veiligheidsschoenen en laarzen. Hij had er niet op gelet dat een zekere Buddaert andere laarzen aanhad, want het verschil in uitzicht was zeer miniem. Wat betreft artikel 434.7.1, hetzij blootstelling aan een val van meer dan 2 meter, stelde hij dat de leuningen door de firma waren geplaatst, doch tijdelijk weggenomen door andere ambachtslieden (waarschijnlijk de timmerman), om materiaal naar boven te brengen. Gezien de zeer zware geldboete voor een eerste verbalisatie stelde de geïntimeerde beroep in tegen deze administratieve beslissing. De eerste rechters verklaarden de vordering ontvankelijk en gegrond en vernietigden de bestreden administratie beslissing d.d. 1 juli 1997. Zij argumenteerden dat onmiddellijk diende te worden vastgesteld dat de vastgestelde feiten zich voordeden op 8 september 1995, hetzij op een ogenblik dat de inbreuken op het A.R.A.B. nog strafbaar waren op grond van de Veiligheidswet. Sedert 1 oktober 1996 is de Welzijnswet Werknemers d.d. 4 augustus 1996 in voege getreden. Deze Welzijnswet heeft via zijn artikel 96 een 8° toegevoegd aan het artikel 1bis van de wet op de administratieve geldboeten dat inbreuken op de Welzijnswet of zijn uitvoeringsbesluiten vatbaar maakt voor een administratieve geldboete, terwijl artikel 1, 24° van de wet op de administratieve geldboeten, basis voor de administratieve geldboeten in het kader van de oude wetgeving, werd opgeheven door hetzelfde artikel 96 van de nieuwe Welzijnswet. Gezien de nieuwe wet geen overgangsbepalingen heeft voorzien die zouden toelaten nog administratieve geldboeten op te leggen voor inbreuken die gesteund waren op de oude wet, is er derhalve vanaf 1 oktober 1996, datum waarop de nieuwe wet in voege is getreden, geen wettelijke grondslag meer voor het opleggen van een administratieve geldboete, die, zoals in huidig geval, nog steunt op artikel 1, paragrafen 1 tot 3 van de wet van 10 juni 1952 (betreffende de gezondheid en de veiligheid van de werknemers). In de gegeven omstandigheden konden de eerste rechters niet anders van vaststellen dat de bestreden beslissing onwettig is, zodat ze moet vernietigd worden.</p>",
+          "<p class=\"case-section__paragraph\">Art. 434.7.1. van het A.R.A.B. werd niet gewijzigd. Uit de bijlage van het K.B. betreffende de arbeidsmiddelen van 12 augustus 1993 wordt een gelijkaardige wettelijke bepaling gegeven voor feit A. Het betreft dezelfde doch anders omschreven inbreuk omdat de wetgever thans geopteerd heeft voor meer algemene bewoordingen in de bestrijding van de arbeidsrisico's, terwijl het A.R.A.B. de toestellen zelf vermelde samen met de vereisten waaraan deze dienden te voldoen. Voor eenzelfde inbreuk hoeft de oude tekst van het A.R.A.B. niet letterlijk overgenomen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-007",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-016",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De appellant acht zich gegriefd door het bestreden vonnis en stoelt zijn hoger beroep op de volgende argumenten. Hij stelt dat de vordering drie inbreuken op het Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.) betreft. Strafrechtelijk waren deze inbreuken tot 1 oktober 1996 strafbaar gesteld door artikel 6 van de wet van 10 juni 1952 betreffende de gezondheid en de veiligheid van de werknemers, alsmede de salubriteit van het werk en van de werkplaatsen. Deze wet werd opgeheven door de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. De bepalingen van het bovengenoemd artikel 6 zijn overgenomen door artikel 81, 1° van de wet van 4 augustus 1996. De kwalificatie van de inbreuken werd daarbij evenwel niet gewijzigd. Op het vlak van de administratieve geldboeten heeft er, wat de inbreuken op artikel 35 d en artikel 434.7.1 van het A.R.A.B. betreft, helemaal geen wijziging plaatsgevonden. De inbreuken vielen vóór en na 1 oktober 1996 onder artikel 1, 23° (en niet; zoals in het vonnis wordt gesteld, onder artikel 1, 24°) van de wet van 30 juni 1971. Wat de inbreuk B betreft (de inbreuk op artikel 158ter en artikel 169 van het A.R.A.B.), moet er evenwel gewezen worden dat de bepalingen van artikel 158ter van het A.R.A.B. zijn overgenomen in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen (B.S. 15 september 1995) en de bepalingen van artikel 169 van het A.R.A.B. zijn overgenomen in artikel 7 van dit besluit van 7 augustus 1995, en dit zonder dat de kwalificatie van de bovengenoemde inbreuk werd gewijzigd. Het besluit van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen maakt deel uit van de Codex over het welzijn op het werk en is één van de uitvoeringsbesluiten van de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. Artikel 1bis, 8° van de Gelboetenwet bepaalt nu dat de werkgever die de bepalingen van de wet van 4 augustus 1996 of van de uitvoeringsbesluiten ervan heeft overtreden, een administratieve geldboete kan opgelegd worden van 10.000 tot 100.000 frank. In casu zijn evenwel de oude boetebedragen (voorzien in artikel 1, 23°) van de Geldboetenwet, namelijk 2.000 tot 50.000 frank) nog van toepassing, aangezien de inbreuk op artikel 158ter en 169 van het A.R.A.B. dateert van vóór 1 oktober 1996 Bij dagvaarding d.d.16 oktober 1998, betekend door gerechtsdeurwaarder Donald Verhaeghe, met standplaats te Brugge, vordert de appellant het hoger beroep ontvankelijk en gegrond te horen verklaren en opnieuw recht doende, het bestreden vonnis teniet te doen en het oorspronkelijk verzoekschrift van de geïntimeerde van 1 september 1997 ontvankelijk, doch ongegrond te verklaren; derhalve de bestreden administratieve beslissing d.d. 1 juni 1997 te bevestigen; de geïntimeerde te veroordelen tot de kosten van de beide aanleggen. De geïntimeerde vordert het hoger beroep af te wijzen als ongegrond, en dienvolgens het eerste vonnis te bevestigen en de appellant te veroordelen tot alle kosten van het geding. In subsidiaire orde vordert hij, rekening houdend met de diverse verzachtende omstandigheden, de opgelegde geldboete te herleiden tot een som van 2.000 frank. In uiterst subsidiaire orde en bij van incidenteel beroep, vordert hij dit incidenteel beroep ontvankelijk en gegrond te verklaren, en dienvolgens het eerste vonnis teniet te doen wat betreft de begroting van de rechtsplegingsvergoeding, en opnieuw wijzende, deze rechtsplegingsvergoeding in graad van eerste aanleg te begroten op een som van 2.460 frank</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-008",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-010",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij verzoekschrift tot beroep d.d. 29 augustus 1995, ter griffie van de Arbeidsrechtbank te Brugge ontvangen op 1 september 1997, stelde de geïntimeerde verhaal in tegen deze administratieve beslissing. Zij poneerde, wat artikel 35 van het A.R.A.B. betreft, dat de veiligheidskap door de werknemers zelf was afgenomen en in hun werfkeet gelegd. De verantwoordelijke van geïntimeerde stelde dat, toen hij ze had zien werken, de kap nog op de machine was. Wat betreft de artikelen 158ter en 169 verklaarde hij dat alle werknemers beschikken over veiligheidsschoenen en laarzen. Hij had er niet op gelet dat een zekere Buddaert andere laarzen aanhad, want het verschil in uitzicht was zeer miniem. Wat betreft artikel 434.7.1, hetzij blootstelling aan een val van meer dan 2 meter, stelde hij dat de leuningen door de firma waren geplaatst, doch tijdelijk weggenomen door andere ambachtslieden (waarschijnlijk de timmerman), om materiaal naar boven te brengen. Gezien de zeer zware geldboete voor een eerste verbalisatie stelde de geïntimeerde beroep in tegen deze administratieve beslissing. De eerste rechters verklaarden de vordering ontvankelijk en gegrond en vernietigden de bestreden administratie beslissing d.d. 1 juli 1997. Zij argumenteerden dat onmiddellijk diende te worden vastgesteld dat de vastgestelde feiten zich voordeden op 8 september 1995, hetzij op een ogenblik dat de inbreuken op het A.R.A.B. nog strafbaar waren op grond van de Veiligheidswet. Sedert 1 oktober 1996 is de Welzijnswet Werknemers d.d. 4 augustus 1996 in voege getreden. Deze Welzijnswet heeft via zijn artikel 96 een 8° toegevoegd aan het artikel 1bis van de wet op de administratieve geldboeten dat inbreuken op de Welzijnswet of zijn uitvoeringsbesluiten vatbaar maakt voor een administratieve geldboete, terwijl artikel 1, 24° van de wet op de administratieve geldboeten, basis voor de administratieve geldboeten in het kader van de oude wetgeving, werd opgeheven door hetzelfde artikel 96 van de nieuwe Welzijnswet. Gezien de nieuwe wet geen overgangsbepalingen heeft voorzien die zouden toelaten nog administratieve geldboeten op te leggen voor inbreuken die gesteund waren op de oude wet, is er derhalve vanaf 1 oktober 1996, datum waarop de nieuwe wet in voege is getreden, geen wettelijke grondslag meer voor het opleggen van een administratieve geldboete, die, zoals in huidig geval, nog steunt op artikel 1, paragrafen 1 tot 3 van de wet van 10 juni 1952 (betreffende de gezondheid en de veiligheid van de werknemers). In de gegeven omstandigheden konden de eerste rechters niet anders van vaststellen dat de bestreden beslissing onwettig is, zodat ze moet vernietigd worden.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-009",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De appellant acht zich gegriefd door het bestreden vonnis en stoelt zijn hoger beroep op de volgende argumenten. Hij stelt dat de vordering drie inbreuken op het Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.) betreft. Strafrechtelijk waren deze inbreuken tot 1 oktober 1996 strafbaar gesteld door artikel 6 van de wet van 10 juni 1952 betreffende de gezondheid en de veiligheid van de werknemers, alsmede de salubriteit van het werk en van de werkplaatsen. Deze wet werd opgeheven door de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. De bepalingen van het bovengenoemd artikel 6 zijn overgenomen door artikel 81, 1° van de wet van 4 augustus 1996. De kwalificatie van de inbreuken werd daarbij evenwel niet gewijzigd. Op het vlak van de administratieve geldboeten heeft er, wat de inbreuken op artikel 35 d en artikel 434.7.1 van het A.R.A.B. betreft, helemaal geen wijziging plaatsgevonden. De inbreuken vielen vóór en na 1 oktober 1996 onder artikel 1, 23° (en niet; zoals in het vonnis wordt gesteld, onder artikel 1, 24°) van de wet van 30 juni 1971. Wat de inbreuk B betreft (de inbreuk op artikel 158ter en artikel 169 van het A.R.A.B.), moet er evenwel gewezen worden dat de bepalingen van artikel 158ter van het A.R.A.B. zijn overgenomen in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen (B.S. 15 september 1995) en de bepalingen van artikel 169 van het A.R.A.B. zijn overgenomen in artikel 7 van dit besluit van 7 augustus 1995, en dit zonder dat de kwalificatie van de bovengenoemde inbreuk werd gewijzigd. Het besluit van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen maakt deel uit van de Codex over het welzijn op het werk en is één van de uitvoeringsbesluiten van de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. Artikel 1bis, 8° van de Gelboetenwet bepaalt nu dat de werkgever die de bepalingen van de wet van 4 augustus 1996 of van de uitvoeringsbesluiten ervan heeft overtreden, een administratieve geldboete kan opgelegd worden van 10.000 tot 100.000 frank. In casu zijn evenwel de oude boetebedragen (voorzien in artikel 1, 23°) van de Geldboetenwet, namelijk 2.000 tot 50.000 frank) nog van toepassing, aangezien de inbreuk op artikel 158ter en 169 van het A.R.A.B. dateert van vóór 1 oktober 1996 Bij dagvaarding d.d.16 oktober 1998, betekend door gerechtsdeurwaarder Donald Verhaeghe, met standplaats te Brugge, vordert de appellant het hoger beroep ontvankelijk en gegrond te horen verklaren en opnieuw recht doende, het bestreden vonnis teniet te doen en het oorspronkelijk verzoekschrift van de geïntimeerde van 1 september 1997 ontvankelijk, doch ongegrond te verklaren; derhalve de bestreden administratieve beslissing d.d. 1 juni 1997 te bevestigen; de geïntimeerde te veroordelen tot de kosten van de beide aanleggen. De geïntimeerde vordert het hoger beroep af te wijzen als ongegrond, en dienvolgens het eerste vonnis te bevestigen en de appellant te veroordelen tot alle kosten van het geding. In subsidiaire orde vordert hij, rekening houdend met de diverse verzachtende omstandigheden, de opgelegde geldboete te herleiden tot een som van 2.000 frank. In uiterst subsidiaire orde en bij van incidenteel beroep, vordert hij dit incidenteel beroep ontvankelijk en gegrond te verklaren, en dienvolgens het eerste vonnis teniet te doen wat betreft de begroting van de rechtsplegingsvergoeding, en opnieuw wijzende, deze rechtsplegingsvergoeding in graad van eerste aanleg te begroten op een som van 2.460 frank</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-010",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij verzoekschrift tot beroep d.d. 29 augustus 1995, ter griffie van de Arbeidsrechtbank te Brugge ontvangen op 1 september 1997, stelde de geïntimeerde verhaal in tegen deze administratieve beslissing. Zij poneerde, wat artikel 35 van het A.R.A.B. betreft, dat de veiligheidskap door de werknemers zelf was afgenomen en in hun werfkeet gelegd. De verantwoordelijke van geïntimeerde stelde dat, toen hij ze had zien werken, de kap nog op de machine was. Wat betreft de artikelen 158ter en 169 verklaarde hij dat alle werknemers beschikken over veiligheidsschoenen en laarzen. Hij had er niet op gelet dat een zekere Buddaert andere laarzen aanhad, want het verschil in uitzicht was zeer miniem. Wat betreft artikel 434.7.1, hetzij blootstelling aan een val van meer dan 2 meter, stelde hij dat de leuningen door de firma waren geplaatst, doch tijdelijk weggenomen door andere ambachtslieden (waarschijnlijk de timmerman), om materiaal naar boven te brengen. Gezien de zeer zware geldboete voor een eerste verbalisatie stelde de geïntimeerde beroep in tegen deze administratieve beslissing. De eerste rechters verklaarden de vordering ontvankelijk en gegrond en vernietigden de bestreden administratie beslissing d.d. 1 juli 1997. Zij argumenteerden dat onmiddellijk diende te worden vastgesteld dat de vastgestelde feiten zich voordeden op 8 september 1995, hetzij op een ogenblik dat de inbreuken op het A.R.A.B. nog strafbaar waren op grond van de Veiligheidswet. Sedert 1 oktober 1996 is de Welzijnswet Werknemers d.d. 4 augustus 1996 in voege getreden. Deze Welzijnswet heeft via zijn artikel 96 een 8° toegevoegd aan het artikel 1bis van de wet op de administratieve geldboeten dat inbreuken op de Welzijnswet of zijn uitvoeringsbesluiten vatbaar maakt voor een administratieve geldboete, terwijl artikel 1, 24° van de wet op de administratieve geldboeten, basis voor de administratieve geldboeten in het kader van de oude wetgeving, werd opgeheven door hetzelfde artikel 96 van de nieuwe Welzijnswet. Gezien de nieuwe wet geen overgangsbepalingen heeft voorzien die zouden toelaten nog administratieve geldboeten op te leggen voor inbreuken die gesteund waren op de oude wet, is er derhalve vanaf 1 oktober 1996, datum waarop de nieuwe wet in voege is getreden, geen wettelijke grondslag meer voor het opleggen van een administratieve geldboete, die, zoals in huidig geval, nog steunt op artikel 1, paragrafen 1 tot 3 van de wet van 10 juni 1952 (betreffende de gezondheid en de veiligheid van de werknemers). In de gegeven omstandigheden konden de eerste rechters niet anders van vaststellen dat de bestreden beslissing onwettig is, zodat ze moet vernietigd worden.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-011",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-012",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-013"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De appellant acht zich gegriefd door het bestreden vonnis en stoelt zijn hoger beroep op de volgende argumenten. Hij stelt dat de vordering drie inbreuken op het Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.) betreft. Strafrechtelijk waren deze inbreuken tot 1 oktober 1996 strafbaar gesteld door artikel 6 van de wet van 10 juni 1952 betreffende de gezondheid en de veiligheid van de werknemers, alsmede de salubriteit van het werk en van de werkplaatsen. Deze wet werd opgeheven door de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. De bepalingen van het bovengenoemd artikel 6 zijn overgenomen door artikel 81, 1° van de wet van 4 augustus 1996. De kwalificatie van de inbreuken werd daarbij evenwel niet gewijzigd. Op het vlak van de administratieve geldboeten heeft er, wat de inbreuken op artikel 35 d en artikel 434.7.1 van het A.R.A.B. betreft, helemaal geen wijziging plaatsgevonden. De inbreuken vielen vóór en na 1 oktober 1996 onder artikel 1, 23° (en niet; zoals in het vonnis wordt gesteld, onder artikel 1, 24°) van de wet van 30 juni 1971. Wat de inbreuk B betreft (de inbreuk op artikel 158ter en artikel 169 van het A.R.A.B.), moet er evenwel gewezen worden dat de bepalingen van artikel 158ter van het A.R.A.B. zijn overgenomen in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen (B.S. 15 september 1995) en de bepalingen van artikel 169 van het A.R.A.B. zijn overgenomen in artikel 7 van dit besluit van 7 augustus 1995, en dit zonder dat de kwalificatie van de bovengenoemde inbreuk werd gewijzigd. Het besluit van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen maakt deel uit van de Codex over het welzijn op het werk en is één van de uitvoeringsbesluiten van de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. Artikel 1bis, 8° van de Gelboetenwet bepaalt nu dat de werkgever die de bepalingen van de wet van 4 augustus 1996 of van de uitvoeringsbesluiten ervan heeft overtreden, een administratieve geldboete kan opgelegd worden van 10.000 tot 100.000 frank. In casu zijn evenwel de oude boetebedragen (voorzien in artikel 1, 23°) van de Geldboetenwet, namelijk 2.000 tot 50.000 frank) nog van toepassing, aangezien de inbreuk op artikel 158ter en 169 van het A.R.A.B. dateert van vóór 1 oktober 1996 Bij dagvaarding d.d.16 oktober 1998, betekend door gerechtsdeurwaarder Donald Verhaeghe, met standplaats te Brugge, vordert de appellant het hoger beroep ontvankelijk en gegrond te horen verklaren en opnieuw recht doende, het bestreden vonnis teniet te doen en het oorspronkelijk verzoekschrift van de geïntimeerde van 1 september 1997 ontvankelijk, doch ongegrond te verklaren; derhalve de bestreden administratieve beslissing d.d. 1 juni 1997 te bevestigen; de geïntimeerde te veroordelen tot de kosten van de beide aanleggen. De geïntimeerde vordert het hoger beroep af te wijzen als ongegrond, en dienvolgens het eerste vonnis te bevestigen en de appellant te veroordelen tot alle kosten van het geding. In subsidiaire orde vordert hij, rekening houdend met de diverse verzachtende omstandigheden, de opgelegde geldboete te herleiden tot een som van 2.000 frank. In uiterst subsidiaire orde en bij van incidenteel beroep, vordert hij dit incidenteel beroep ontvankelijk en gegrond te verklaren, en dienvolgens het eerste vonnis teniet te doen wat betreft de begroting van de rechtsplegingsvergoeding, en opnieuw wijzende, deze rechtsplegingsvergoeding in graad van eerste aanleg te begroten op een som van 2.460 frank</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-012",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-013",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-013",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">4.3. De feiten vermeld onder inbreuk A en C worden gesanctioneerd door art. 1, 23° van de administratieve geldboetenwet van 30 juni 1971.</h3>",
+          "<p class=\"case-section__paragraph\">Ten onrechte werd art. 1, 24° van deze wet door de eerste rechters weerhouden. Art. 1, 24° werd immers opgegeven door de wet van 4 augustus 1996 in werking getreden op 1 oktober 1996. De werkgever die zich schuldig maakt aan de overtredingen van de bepalingen van het A.R.A.B. of van de besluiten en beslissingen ervan, wordt gestraft met een administratieve geldboete.</p>",
+          "<h3 class=\"case-section__subtitle\">4.7. In casu werden de bepalingen van deze wet of van de uitvoeringsbesluiten ervan overtreden zodat een administratieve geldboete van 10.000 tot 100.000 frank kan worden opgelegd (art. 1, 23° van de Administratieve Geldboetenwet).</h3>",
+          "<p class=\"case-section__paragraph\">Rekening houdend met hoger vermelde overwegingen en gelet op het tijdstip van de inbreuken dienen de oude boetebedragen toegepast voorzien in de administratieve geldboetenwet (2.000 tot 50.000 frank).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-013",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-007",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-012"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De appellant acht zich gegriefd door het bestreden vonnis en stoelt zijn hoger beroep op de volgende argumenten. Hij stelt dat de vordering drie inbreuken op het Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.) betreft. Strafrechtelijk waren deze inbreuken tot 1 oktober 1996 strafbaar gesteld door artikel 6 van de wet van 10 juni 1952 betreffende de gezondheid en de veiligheid van de werknemers, alsmede de salubriteit van het werk en van de werkplaatsen. Deze wet werd opgeheven door de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. De bepalingen van het bovengenoemd artikel 6 zijn overgenomen door artikel 81, 1° van de wet van 4 augustus 1996. De kwalificatie van de inbreuken werd daarbij evenwel niet gewijzigd. Op het vlak van de administratieve geldboeten heeft er, wat de inbreuken op artikel 35 d en artikel 434.7.1 van het A.R.A.B. betreft, helemaal geen wijziging plaatsgevonden. De inbreuken vielen vóór en na 1 oktober 1996 onder artikel 1, 23° (en niet; zoals in het vonnis wordt gesteld, onder artikel 1, 24°) van de wet van 30 juni 1971. Wat de inbreuk B betreft (de inbreuk op artikel 158ter en artikel 169 van het A.R.A.B.), moet er evenwel gewezen worden dat de bepalingen van artikel 158ter van het A.R.A.B. zijn overgenomen in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen (B.S. 15 september 1995) en de bepalingen van artikel 169 van het A.R.A.B. zijn overgenomen in artikel 7 van dit besluit van 7 augustus 1995, en dit zonder dat de kwalificatie van de bovengenoemde inbreuk werd gewijzigd. Het besluit van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen maakt deel uit van de Codex over het welzijn op het werk en is één van de uitvoeringsbesluiten van de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. Artikel 1bis, 8° van de Gelboetenwet bepaalt nu dat de werkgever die de bepalingen van de wet van 4 augustus 1996 of van de uitvoeringsbesluiten ervan heeft overtreden, een administratieve geldboete kan opgelegd worden van 10.000 tot 100.000 frank. In casu zijn evenwel de oude boetebedragen (voorzien in artikel 1, 23°) van de Geldboetenwet, namelijk 2.000 tot 50.000 frank) nog van toepassing, aangezien de inbreuk op artikel 158ter en 169 van het A.R.A.B. dateert van vóór 1 oktober 1996 Bij dagvaarding d.d.16 oktober 1998, betekend door gerechtsdeurwaarder Donald Verhaeghe, met standplaats te Brugge, vordert de appellant het hoger beroep ontvankelijk en gegrond te horen verklaren en opnieuw recht doende, het bestreden vonnis teniet te doen en het oorspronkelijk verzoekschrift van de geïntimeerde van 1 september 1997 ontvankelijk, doch ongegrond te verklaren; derhalve de bestreden administratieve beslissing d.d. 1 juni 1997 te bevestigen; de geïntimeerde te veroordelen tot de kosten van de beide aanleggen. De geïntimeerde vordert het hoger beroep af te wijzen als ongegrond, en dienvolgens het eerste vonnis te bevestigen en de appellant te veroordelen tot alle kosten van het geding. In subsidiaire orde vordert hij, rekening houdend met de diverse verzachtende omstandigheden, de opgelegde geldboete te herleiden tot een som van 2.000 frank. In uiterst subsidiaire orde en bij van incidenteel beroep, vordert hij dit incidenteel beroep ontvankelijk en gegrond te verklaren, en dienvolgens het eerste vonnis teniet te doen wat betreft de begroting van de rechtsplegingsvergoeding, en opnieuw wijzende, deze rechtsplegingsvergoeding in graad van eerste aanleg te begroten op een som van 2.460 frank</p>",
+          "<h3 class=\"case-section__subtitle\">4.6. De bepalingen van art. 158ter van het A.R.A.B. en deze van art. 169 zijn overgenomen respectievelijk in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen, en, in art. 7 van het besluit van 7 augustus 1995, zonder dat de kwalificatie van de inbreuk werd gewijzigd.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-014",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-005",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De appellant acht zich gegriefd door het bestreden vonnis en stoelt zijn hoger beroep op de volgende argumenten. Hij stelt dat de vordering drie inbreuken op het Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.) betreft. Strafrechtelijk waren deze inbreuken tot 1 oktober 1996 strafbaar gesteld door artikel 6 van de wet van 10 juni 1952 betreffende de gezondheid en de veiligheid van de werknemers, alsmede de salubriteit van het werk en van de werkplaatsen. Deze wet werd opgeheven door de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. De bepalingen van het bovengenoemd artikel 6 zijn overgenomen door artikel 81, 1° van de wet van 4 augustus 1996. De kwalificatie van de inbreuken werd daarbij evenwel niet gewijzigd. Op het vlak van de administratieve geldboeten heeft er, wat de inbreuken op artikel 35 d en artikel 434.7.1 van het A.R.A.B. betreft, helemaal geen wijziging plaatsgevonden. De inbreuken vielen vóór en na 1 oktober 1996 onder artikel 1, 23° (en niet; zoals in het vonnis wordt gesteld, onder artikel 1, 24°) van de wet van 30 juni 1971. Wat de inbreuk B betreft (de inbreuk op artikel 158ter en artikel 169 van het A.R.A.B.), moet er evenwel gewezen worden dat de bepalingen van artikel 158ter van het A.R.A.B. zijn overgenomen in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen (B.S. 15 september 1995) en de bepalingen van artikel 169 van het A.R.A.B. zijn overgenomen in artikel 7 van dit besluit van 7 augustus 1995, en dit zonder dat de kwalificatie van de bovengenoemde inbreuk werd gewijzigd. Het besluit van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen maakt deel uit van de Codex over het welzijn op het werk en is één van de uitvoeringsbesluiten van de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. Artikel 1bis, 8° van de Gelboetenwet bepaalt nu dat de werkgever die de bepalingen van de wet van 4 augustus 1996 of van de uitvoeringsbesluiten ervan heeft overtreden, een administratieve geldboete kan opgelegd worden van 10.000 tot 100.000 frank. In casu zijn evenwel de oude boetebedragen (voorzien in artikel 1, 23°) van de Geldboetenwet, namelijk 2.000 tot 50.000 frank) nog van toepassing, aangezien de inbreuk op artikel 158ter en 169 van het A.R.A.B. dateert van vóór 1 oktober 1996 Bij dagvaarding d.d.16 oktober 1998, betekend door gerechtsdeurwaarder Donald Verhaeghe, met standplaats te Brugge, vordert de appellant het hoger beroep ontvankelijk en gegrond te horen verklaren en opnieuw recht doende, het bestreden vonnis teniet te doen en het oorspronkelijk verzoekschrift van de geïntimeerde van 1 september 1997 ontvankelijk, doch ongegrond te verklaren; derhalve de bestreden administratieve beslissing d.d. 1 juni 1997 te bevestigen; de geïntimeerde te veroordelen tot de kosten van de beide aanleggen. De geïntimeerde vordert het hoger beroep af te wijzen als ongegrond, en dienvolgens het eerste vonnis te bevestigen en de appellant te veroordelen tot alle kosten van het geding. In subsidiaire orde vordert hij, rekening houdend met de diverse verzachtende omstandigheden, de opgelegde geldboete te herleiden tot een som van 2.000 frank. In uiterst subsidiaire orde en bij van incidenteel beroep, vordert hij dit incidenteel beroep ontvankelijk en gegrond te verklaren, en dienvolgens het eerste vonnis teniet te doen wat betreft de begroting van de rechtsplegingsvergoeding, en opnieuw wijzende, deze rechtsplegingsvergoeding in graad van eerste aanleg te begroten op een som van 2.460 frank</p>",
+          "<h3 class=\"case-section__subtitle\">4.6. De bepalingen van art. 158ter van het A.R.A.B. en deze van art. 169 zijn overgenomen respectievelijk in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen, en, in art. 7 van het besluit van 7 augustus 1995, zonder dat de kwalificatie van de inbreuk werd gewijzigd.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-015",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-005",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-014"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-016",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">4.5. Hoewel de partijen hiervan niet gewagen dient evenzeer opgemerkt, zoals het Openbaar Ministerie dat doet, dat thans ook art. 35 d van het A.R.A.B. werd opgeheven (art. 12 K.B. van 4 mei 1999, B.S. 4 juni 1999) welke het K.B. van 12 augustus 1993 betreffende de arbeidsmiddelen wijzigde.</h3>",
+          "<p class=\"case-section__paragraph\">Art. 434.7.1. van het A.R.A.B. werd niet gewijzigd. Uit de bijlage van het K.B. betreffende de arbeidsmiddelen van 12 augustus 1993 wordt een gelijkaardige wettelijke bepaling gegeven voor feit A. Het betreft dezelfde doch anders omschreven inbreuk omdat de wetgever thans geopteerd heeft voor meer algemene bewoordingen in de bestrijding van de arbeidsrisico's, terwijl het A.R.A.B. de toestellen zelf vermelde samen met de vereisten waaraan deze dienden te voldoen. Voor eenzelfde inbreuk hoeft de oude tekst van het A.R.A.B. niet letterlijk overgenomen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-016",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-007",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHGNT:2000:DEC.20000405.7-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-017",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">4.5. Hoewel de partijen hiervan niet gewagen dient evenzeer opgemerkt, zoals het Openbaar Ministerie dat doet, dat thans ook art. 35 d van het A.R.A.B. werd opgeheven (art. 12 K.B. van 4 mei 1999, B.S. 4 juni 1999) welke het K.B. van 12 augustus 1993 betreffende de arbeidsmiddelen wijzigde.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-017",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-004",
+          "ART-ECLI:BE:AHGNT:2000:DEC.20000405.7-016"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 17,
+      "citationStatistics": {
+        "totalCitations": 29,
+        "avgCitationsPerProvision": 1.7058823529411764,
+        "provisionsWithMinimalCitations": 14,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.823529411764706,
+        "avgDecisionsPerProvision": 1.1176470588235294,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2000:DEC.20000405.7-001",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">4.3. De feiten vermeld onder inbreuk A en C worden gesanctioneerd door art. 1, 23° van de administratieve geldboetenwet van 30 juni 1971.</h3>",
+          "<p class=\"case-section__paragraph\">Ten onrechte werd art. 1, 24° van deze wet door de eerste rechters weerhouden. Art. 1, 24° werd immers opgegeven door de wet van 4 augustus 1996 in werking getreden op 1 oktober 1996. De werkgever die zich schuldig maakt aan de overtredingen van de bepalingen van het A.R.A.B. of van de besluiten en beslissingen ervan, wordt gestraft met een administratieve geldboete.</p>",
+          "<h3 class=\"case-section__subtitle\">4.5. Hoewel de partijen hiervan niet gewagen dient evenzeer opgemerkt, zoals het Openbaar Ministerie dat doet, dat thans ook art. 35 d van het A.R.A.B. werd opgeheven (art. 12 K.B. van 4 mei 1999, B.S. 4 juni 1999) welke het K.B. van 12 augustus 1993 betreffende de arbeidsmiddelen wijzigde.</h3>",
+          "<p class=\"case-section__paragraph\">Art. 434.7.1. van het A.R.A.B. werd niet gewijzigd. Uit de bijlage van het K.B. betreffende de arbeidsmiddelen van 12 augustus 1993 wordt een gelijkaardige wettelijke bepaling gegeven voor feit A. Het betreft dezelfde doch anders omschreven inbreuk omdat de wetgever thans geopteerd heeft voor meer algemene bewoordingen in de bestrijding van de arbeidsrisico's, terwijl het A.R.A.B. de toestellen zelf vermelde samen met de vereisten waaraan deze dienden te voldoen. Voor eenzelfde inbreuk hoeft de oude tekst van het A.R.A.B. niet letterlijk overgenomen.</p>",
+          "<h3 class=\"case-section__subtitle\">4.7. In casu werden de bepalingen van deze wet of van de uitvoeringsbesluiten ervan overtreden zodat een administratieve geldboete van 10.000 tot 100.000 frank kan worden opgelegd (art. 1, 23° van de Administratieve Geldboetenwet).</h3>",
+          "<p class=\"case-section__paragraph\">Rekening houdend met hoger vermelde overwegingen en gelet op het tijdstip van de inbreuken dienen de oude boetebedragen toegepast voorzien in de administratieve geldboetenwet (2.000 tot 50.000 frank).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2000:DEC.20000405.7-002",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">4.4. Aangezien de nieuwe wet de opgelegde geldboeten verzwaarde en de feiten dateren van voor 1 oktober 1996 dienen de oude boetebedragen gehanteerd (2.000 tot 50.000 frank).</h3>",
+          "<p class=\"case-section__paragraph\">De appellant acht zich gegriefd door het bestreden vonnis en stoelt zijn hoger beroep op de volgende argumenten. Hij stelt dat de vordering drie inbreuken op het Algemeen Reglement voor de Arbeidsbescherming (A.R.A.B.) betreft. Strafrechtelijk waren deze inbreuken tot 1 oktober 1996 strafbaar gesteld door artikel 6 van de wet van 10 juni 1952 betreffende de gezondheid en de veiligheid van de werknemers, alsmede de salubriteit van het werk en van de werkplaatsen. Deze wet werd opgeheven door de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. De bepalingen van het bovengenoemd artikel 6 zijn overgenomen door artikel 81, 1° van de wet van 4 augustus 1996. De kwalificatie van de inbreuken werd daarbij evenwel niet gewijzigd. Op het vlak van de administratieve geldboeten heeft er, wat de inbreuken op artikel 35 d en artikel 434.7.1 van het A.R.A.B. betreft, helemaal geen wijziging plaatsgevonden. De inbreuken vielen vóór en na 1 oktober 1996 onder artikel 1, 23° (en niet; zoals in het vonnis wordt gesteld, onder artikel 1, 24°) van de wet van 30 juni 1971. Wat de inbreuk B betreft (de inbreuk op artikel 158ter en artikel 169 van het A.R.A.B.), moet er evenwel gewezen worden dat de bepalingen van artikel 158ter van het A.R.A.B. zijn overgenomen in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen (B.S. 15 september 1995) en de bepalingen van artikel 169 van het A.R.A.B. zijn overgenomen in artikel 7 van dit besluit van 7 augustus 1995, en dit zonder dat de kwalificatie van de bovengenoemde inbreuk werd gewijzigd. Het besluit van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen maakt deel uit van de Codex over het welzijn op het werk en is één van de uitvoeringsbesluiten van de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk. Artikel 1bis, 8° van de Gelboetenwet bepaalt nu dat de werkgever die de bepalingen van de wet van 4 augustus 1996 of van de uitvoeringsbesluiten ervan heeft overtreden, een administratieve geldboete kan opgelegd worden van 10.000 tot 100.000 frank. In casu zijn evenwel de oude boetebedragen (voorzien in artikel 1, 23°) van de Geldboetenwet, namelijk 2.000 tot 50.000 frank) nog van toepassing, aangezien de inbreuk op artikel 158ter en 169 van het A.R.A.B. dateert van vóór 1 oktober 1996 Bij dagvaarding d.d.16 oktober 1998, betekend door gerechtsdeurwaarder Donald Verhaeghe, met standplaats te Brugge, vordert de appellant het hoger beroep ontvankelijk en gegrond te horen verklaren en opnieuw recht doende, het bestreden vonnis teniet te doen en het oorspronkelijk verzoekschrift van de geïntimeerde van 1 september 1997 ontvankelijk, doch ongegrond te verklaren; derhalve de bestreden administratieve beslissing d.d. 1 juni 1997 te bevestigen; de geïntimeerde te veroordelen tot de kosten van de beide aanleggen. De geïntimeerde vordert het hoger beroep af te wijzen als ongegrond, en dienvolgens het eerste vonnis te bevestigen en de appellant te veroordelen tot alle kosten van het geding. In subsidiaire orde vordert hij, rekening houdend met de diverse verzachtende omstandigheden, de opgelegde geldboete te herleiden tot een som van 2.000 frank. In uiterst subsidiaire orde en bij van incidenteel beroep, vordert hij dit incidenteel beroep ontvankelijk en gegrond te verklaren, en dienvolgens het eerste vonnis teniet te doen wat betreft de begroting van de rechtsplegingsvergoeding, en opnieuw wijzende, deze rechtsplegingsvergoeding in graad van eerste aanleg te begroten op een som van 2.460 frank</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2000:DEC.20000405.7-003",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">4.6. De bepalingen van art. 158ter van het A.R.A.B. en deze van art. 169 zijn overgenomen respectievelijk in Bijlage II, punt 4 van het K.B. van 7 augustus 1995 betreffende de persoonlijke beschermingsmiddelen, en, in art. 7 van het besluit van 7 augustus 1995, zonder dat de kwalificatie van de inbreuk werd gewijzigd.</h3>",
+          "<p class=\"case-section__paragraph\">Dit K.B. betreffende de persoonlijke beschermingsmiddelen maakt deel uit van de Codex over het welzijn op het werk en is één der uitvoeringsbesluiten van de wet van 4 augustus 1996.</p>",
+          "<p class=\"case-section__paragraph\">Art. 434.7.1. van het A.R.A.B. werd niet gewijzigd. Uit de bijlage van het K.B. betreffende de arbeidsmiddelen van 12 augustus 1993 wordt een gelijkaardige wettelijke bepaling gegeven voor feit A. Het betreft dezelfde doch anders omschreven inbreuk omdat de wetgever thans geopteerd heeft voor meer algemene bewoordingen in de bestrijding van de arbeidsrisico's, terwijl het A.R.A.B. de toestellen zelf vermelde samen met de vereisten waaraan deze dienden te voldoen. Voor eenzelfde inbreuk hoeft de oude tekst van het A.R.A.B. niet letterlijk overgenomen.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 5,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHGNT:2000:DEC.20000405.7-004",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">4.8. De geïntimeerde kan niet gevolgd worden wanneer zij aanhaalt dat een extreem zware geldboete werd opgelegd voor een eerste inbreuk.</h3>",
+          "<p class=\"case-section__paragraph\">In de eerste plaats kan de opgelegde geldboete niet als dusdanig worden beschouwd en werd rekening gehouden met eenheid van doel en verwezenlijking waardoor er slechts één geldboete werd opgelegd in plaats van drie. Bovendien blijkt dat Verkest Geert reeds drie keer en dit sinds het begin van dit jaar in overtreding werd bevonden en er telkens met een mondelinge verwittiging van af kwam. Aangezien hij een vierde keer opnieuw in overtreding werd bevonden, werd terecht een gepaste, redelijke en billijke geldboete opgelegd. De werkgever kan zijn personeel opleggen het beschermtoestel van de cirkelzaag niet weg te nemen, de voorziene veiligheidschoenen te dragen en de werk- en loopvlakken met de collectieve veiligheidselementen uit te rusten en deze te herplaatsen indien ze werden weggenomen.</p>",
+          "<h3 class=\"case-section__subtitle\">4.9. Aangezien de werkgeefster door de herhaalde waarschuwingen van de bevoegde ambtenaar in de wind sloeg en de veiligheid van zijn werkneemster in gevaar bracht, past het zeker niet de geldboete in de gegeven omstandigheden tot het minimum te herleiden.</h3>",
+          "<h3 class=\"case-section__subtitle\">4.7. In casu werden de bepalingen van deze wet of van de uitvoeringsbesluiten ervan overtreden zodat een administratieve geldboete van 10.000 tot 100.000 frank kan worden opgelegd (art. 1, 23° van de Administratieve Geldboetenwet).</h3>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 16,
+        "avgCitationsPerTeaching": 4,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 11,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

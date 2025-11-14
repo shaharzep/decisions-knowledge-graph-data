@@ -1,0 +1,358 @@
+{
+  "decision_id": "ECLI:BE:CTBRL:2002:ARR.20020103.1",
+  "language": "FR",
+  "metadata": {
+    "id": 156991,
+    "court_ecli_code": "CTBRL",
+    "court_name": "Cour du travail de Bruxelles",
+    "decision_date": "2002-01-03",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 4290,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour du travail de Bruxelles, 3 janvier 2002, Arrêt n° 41.241, ECLI:BE:CTBRL:2002:ARR.20020103.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2002:ARR.20020103.1-001",
+        "name": "L'appelant",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2002:ARR.20020103.1-002",
+        "name": "Madame M. M.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2002:ARR.20020103.1-003",
+        "name": "C.P.A.S.",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2002:ARR.20020103.1-004",
+        "name": "Ministère Public",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "MINISTERE_PUBLIC"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Les éléments de fait de la cause se résument ainsi : L'appelant, né en république démocratique du Congo, est arrivé en Belgique dès 1988 pour y poursuivre des études. Début 1989, il est retourné au Zaïre pour y épouser Madame M. M. . Les époux sont revenus en Belgique et le couple a donné naissance à trois enfants : une fille née le 27 janvier 1991, un fils né le 24 décembre 1994 et un second fils né le 23 septembre 1998. Le 14 avril 2000, l'épouse de l'appelant a acquis la nationalité belge. En juillet 2000, l'appelant a introduit une demande de minimex auprès de l'intimé. Par décision administrative du 31 juillet 2000, notifiée le 7 août 2000, le C.P.A.S. refuse à l'appelant le bénéfice du minimex au motif suivant : \" vous avez omis de déclarer des ressources dont vous connaissez l'existence\". Cette décision a été confirmée par le jugement entrepris.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2002:ARR.20020103.1-001",
+          "argument": "L'appelant soutient qu'il est étudiant depuis son arrivée en Belgique, qu'il vit avec son épouse et leurs trois enfants et qu'il ne dispose d'aucune ressource autre que les allocations familiales; il sollicite le bénéfice du minimex au motif qu'il ne peut subvenir aux besoins de sa famille, qu'il a cessé de percevoir les revenus provenant de la vente de périodiques depuis le 1er juillet 2000 et qu'il a entrepris des démarches de recherche d'emploi et d'inscription comme demandeur d'emploi.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2002:ARR.20020103.1-003",
+          "argument": "Le C.P.A.S., par décision administrative du 31 juillet 2000, fait valoir que l'appelant a omis de déclarer des ressources dont il connaissait l'existence et que, de plus, il n'établit pas sa disposition au travail telle qu'exigée par l'article 6, § 1er, de la loi du 7 août 1974 instituant le droit à un minimum de moyens d'existence. Sur la base des éléments de fait produits (inscriptions tardives comme demandeur d'emploi, peu de recherches de travail probantes, attestations d'amis non constitutives de créances), le C.P.A.S. conclut au refus du minimex.",
+          "treatment": "ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS,\n\nLa Cour, Statuant contradictoirement; Vu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire; Entendu le Ministère Public en son avis oral conforme et la partie appelante en ses répliques, la partie intimée renonçant à ce droit; Déclare l'appel recevable; Le dit non fondé; Confirme le jugement entrepris; Condamne l'intimé aux frais et dépens d'appel (art.1017 C.J.)",
+      "outcome": "NON_FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-001",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2002:ARR.20020103.1-001",
+        "provisionNumber": "article 6, § 1er",
+        "provisionNumberKey": "6",
+        "parentActType": "LOI",
+        "parentActName": "loi du 7 août 1974 instituant le droit à un minimum de moyens d'existence",
+        "parentActDate": "1974-08-07",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 6, §1er comme subordonnant l'octroi et le maintien du minimex à la preuve de la disposition à être mis au travail, sauf impossibilité pour raisons de santé ou motif d'équité. Elle précise que le suivi de cours de jour à temps plein peut constituer un motif d'équité exonérant de la preuve de disponibilité, mais que l'étudiant doit démontrer que ses études sont nécessaires pour permettre une vie conforme à la dignité humaine; il ne suffit pas qu'elles améliorent simplement les perspectives professionnelles, notamment si l'intéressé possède déjà un premier diplôme.",
+        "relevantFactualContext": "L'appelant, étudiant arrivé en Belgique en 1988 et père de trois enfants, a sollicité le minimex en juillet 2000 en déclarant ne disposer que des allocations familiales et de ressources occasionnelles; ses preuves de recherche d'emploi sont limitées et récentes, et il possède déjà un premier diplôme donnant accès au marché du travail."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-002",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2002:ARR.20020103.1-002",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-003",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2002:ARR.20020103.1-003",
+        "provisionNumber": "article 1017",
+        "provisionNumberKey": "1017",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "C.P.A.S.",
+        "date": "2000-07-31",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2002:ARR.20020103.1-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit social",
+      "Demande de minimex",
+      "Refus du CPAS",
+      "Bénéficiaire étudiant",
+      "Allocations familiales",
+      "Disponibilité au travail",
+      "Motif d'équité étudiant",
+      "Omission de ressources",
+      "Preuve de ressources",
+      "Dispense pour études"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2002:ARR.20020103.1-001",
+        "text": "L'octroi et le maintien du minimum de moyens d'existence (minimex) au sens de l'article 6, §1er de la loi du 7 août 1974 sont subordonnés à la preuve que l'intéressé est disposé à être mis au travail, sauf impossibilité pour raisons de santé ou motif d'équité ; cette condition constitue la règle générale d'éligibilité au minimex.",
+        "courtVerbatim": "Or, en vertu de l'article 6, § 1er, de la loi du 7 août 1974 instituant le droit à un minimum de moyens d'existence, l'octroi et le maintien du minimum de moyens d'existence sont subordonnés à la condition que l'intéressé fasse \"la preuve qu'il est disposé à être mis au travail à moins que cela ne s'avère impossible pour des raisons de santé ou d'équité\".",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque l'administration examine l'octroi ou le maintien du minimex et exige la preuve de la disponibilité de l'intéressé pour être mis au travail, sauf impossibilité pour santé ou motif d'équité.",
+        "relevantFactualContext": "L'appelant, déclaré étudiant depuis son arrivée en Belgique et père de trois enfants, a sollicité le minimex en juillet 2000; il prétend ne disposer que d'allocations familiales et de ressources occasionnelles, et ses démarches de recherche d'emploi sont limitées et récentes.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CTBRL:2002:ARR.20020103.1-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [
+            "TEACH-ECLI:BE:CTBRL:2002:ARR.20020103.1-002"
+          ],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2002:ARR.20020103.1-002",
+        "text": "Le suivi de cours de jour à temps plein par un étudiant peut constituer un motif d'équité exonérant l'étudiant de prouver sa disponibilité sur le marché du travail pour l'octroi ou le maintien du minimex ; toutefois, pour bénéficier de cette dispense l'étudiant doit démontrer que ses études sont nécessaires pour lui permettre de mener une vie conforme à la dignité humaine et non seulement améliorer ses perspectives professionnelles, en particulier lorsqu'il possède déjà un diplôme donnant accès au marché du travail.",
+        "courtVerbatim": "Le fait pour un étudiant de suivre des cours de jour et à temps plein peut certes être constitutif du motif d'équité visé audit article 6, dispensant l'étudiant de prouver sa disponibilité sur le marché du travail, mais pour pouvoir bénéficier de la dispense de preuve en raison de motifs d'équité, l'étudiant doit cependant établir notamment que les études qu'il entreprend ou qu'il poursuit sont nécessaires pour lui permettre de mener une vie conforme à la dignité humaine. Il ne suffit pas à cet égard que les études permettent à l'étudiant de \"connaître de meilleures conditions de vie\" ou qu'elles augmentent ses possibilités de trouver un travail, alors, comme en l'espèce, qu'il est déjà en possession d'un premier diplôme lui donnant accès au marché du travail.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un demandeur étudiant suit des cours de jour à temps plein et invoque un motif d'équité pour être dispensé de prouver sa disponibilité au travail lors d'une demande ou d'un maintien du minimex.",
+        "relevantFactualContext": "L'appelant, étudiant de longue date ayant interrompu certaines formations, a présenté des démarches récentes et limitées de recherche d'emploi et possède déjà un premier diplôme ouvrant l'accès au marché du travail ; la Cour retient que ces éléments ne suffisent pas à justifier la dispense d'exiger la preuve de disponibilité.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CTBRL:2002:ARR.20020103.1-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": "TEACH-ECLI:BE:CTBRL:2002:ARR.20020103.1-001",
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 1,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 2,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur a demandé le minimex au Centre public d'action sociale, rejeté pour omission de ressources et absence de preuve de disponibilité au travail. La Cour confirme le refus et le jugement entrepris. Elle rappelle que, selon l'article 6 §1 de la loi du 7 août 1974, le bénéfice du minimex exige la preuve d'une disposition au travail et que les études diurnes n'exemptent de cette preuve que si elles sont nécessaires pour mener une vie conforme à la dignité humaine, condition non démontrée en l'espèce."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Depuis son arrivée en Belgique jusqu'à ce jour, l'appelant se déclare étudiant. Il s'est inscrit à diverses formations universitaires et autres, et il a aussi entrepris puis abandonné la rédaction d'un doctorat. Actuellement, l'appelant est âgé de 41 ans et il a trois enfants à charge. La famille dispose des allocations familiales pour les enfants (19.260 BEF), a disposé de quelque 15.000 BEF de revenus provenant de la vente de périodiques africains jusque fin juin 2000 et n'a plus disposé de cette ressource à partir du 1er juillet 2000 suite au refus de l'a.s.b.l. distributrice de poursuivre cette vente et cela, au motif que l'épouse de l'appelant était devenue belge. Actuellement, l'appelant prétend ne disposer d'aucune ressources autres que les allocations familiales et ne pas pouvoir s'en procurer. Il affirme survivre avec sa famille grâce à l'emprunt de sommes d'argent auprès de ses amis, mais les attestations produites à cet égard ne peuvent être considérées comme des preuves de créances dans le chef de ces personnes amies. Ce n'est qu'en juillet 2000 que l'appelant a sollicité le bénéfice du minimex et qu'il s'est inscrit comme demandeur d'emploi auprès l'ORBEM. En ce qui concerne ses recherches de travail, la première preuve datée ne remonte qu'au 9 mars 2001. En outre, ces recherches ne sont pas nombreuses et se concentrent essentiellement autour d'avril 2001. Il faut bien constater, avec le Ministère public, que l'intéressé et son épouse n'ont pas beaucoup \"bougé\" pendant de nombreuses années ni pendant les derniers mois pour trouver un travail déclaré et que, dès lors, ils n'établissent pas leur disposition au travail. Or, en vertu de l'article 6, § 1er, de la loi du 7 août 1974 instituant le droit à un minimum de moyens d'existence, l'octroi et le maintien du minimum de moyens d'existence sont subordonnés à la condition que l'intéressé fasse \"la preuve qu'il est disposé à être mis au travail à moins que cela ne s'avère impossible pour des raisons de santé ou d'équité\". Le fait pour un étudiant de suivre des cours de jour et à temps plein peut certes être constitutif du motif d'équité visé audit article 6, dispensant l'étudiant de prouver sa disponibilité sur le marché du travail, mais pour pouvoir bénéficier de la dispense de preuve en raison de motifs d'équité, l'étudiant doit cependant établir notamment que les études qu'il entreprend ou qu'il poursuit sont nécessaires pour lui permettre de mener une vie conforme à la dignité humaine. Il ne suffit pas à cet égard que les études permettent à l'étudiant de \"connaître de meilleures conditions de vie\" ou qu'elles augmentent ses possibilités de trouver un travail, alors, comme en l'espèce, qu'il est déjà en possession d'un premier diplôme lui donnant accès au marché du travail. L'appel n'est donc pas fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">La Cour, Statuant contradictoirement; Vu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire; Entendu le Ministère Public en son avis oral conforme et la partie appelante en ses répliques, la partie intimée renonçant à ce droit; Déclare l'appel recevable; Le dit non fondé; Confirme le jugement entrepris; Condamne l'intimé aux frais et dépens d'appel (art.1017 C.J.)</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-002",
+          "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">La Cour, Statuant contradictoirement; Vu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire; Entendu le Ministère Public en son avis oral conforme et la partie appelante en ses répliques, la partie intimée renonçant à ce droit; Déclare l'appel recevable; Le dit non fondé; Confirme le jugement entrepris; Condamne l'intimé aux frais et dépens d'appel (art.1017 C.J.)</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-003",
+          "ART-ECLI:BE:CTBRL:2002:ARR.20020103.1-002"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 3,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.6666666666666667,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2002:ARR.20020103.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Depuis son arrivée en Belgique jusqu'à ce jour, l'appelant se déclare étudiant. Il s'est inscrit à diverses formations universitaires et autres, et il a aussi entrepris puis abandonné la rédaction d'un doctorat. Actuellement, l'appelant est âgé de 41 ans et il a trois enfants à charge. La famille dispose des allocations familiales pour les enfants (19.260 BEF), a disposé de quelque 15.000 BEF de revenus provenant de la vente de périodiques africains jusque fin juin 2000 et n'a plus disposé de cette ressource à partir du 1er juillet 2000 suite au refus de l'a.s.b.l. distributrice de poursuivre cette vente et cela, au motif que l'épouse de l'appelant était devenue belge. Actuellement, l'appelant prétend ne disposer d'aucune ressources autres que les allocations familiales et ne pas pouvoir s'en procurer. Il affirme survivre avec sa famille grâce à l'emprunt de sommes d'argent auprès de ses amis, mais les attestations produites à cet égard ne peuvent être considérées comme des preuves de créances dans le chef de ces personnes amies. Ce n'est qu'en juillet 2000 que l'appelant a sollicité le bénéfice du minimex et qu'il s'est inscrit comme demandeur d'emploi auprès l'ORBEM. En ce qui concerne ses recherches de travail, la première preuve datée ne remonte qu'au 9 mars 2001. En outre, ces recherches ne sont pas nombreuses et se concentrent essentiellement autour d'avril 2001. Il faut bien constater, avec le Ministère public, que l'intéressé et son épouse n'ont pas beaucoup \"bougé\" pendant de nombreuses années ni pendant les derniers mois pour trouver un travail déclaré et que, dès lors, ils n'établissent pas leur disposition au travail. Or, en vertu de l'article 6, § 1er, de la loi du 7 août 1974 instituant le droit à un minimum de moyens d'existence, l'octroi et le maintien du minimum de moyens d'existence sont subordonnés à la condition que l'intéressé fasse \"la preuve qu'il est disposé à être mis au travail à moins que cela ne s'avère impossible pour des raisons de santé ou d'équité\". Le fait pour un étudiant de suivre des cours de jour et à temps plein peut certes être constitutif du motif d'équité visé audit article 6, dispensant l'étudiant de prouver sa disponibilité sur le marché du travail, mais pour pouvoir bénéficier de la dispense de preuve en raison de motifs d'équité, l'étudiant doit cependant établir notamment que les études qu'il entreprend ou qu'il poursuit sont nécessaires pour lui permettre de mener une vie conforme à la dignité humaine. Il ne suffit pas à cet égard que les études permettent à l'étudiant de \"connaître de meilleures conditions de vie\" ou qu'elles augmentent ses possibilités de trouver un travail, alors, comme en l'espèce, qu'il est déjà en possession d'un premier diplôme lui donnant accès au marché du travail. L'appel n'est donc pas fondé.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2002:ARR.20020103.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Depuis son arrivée en Belgique jusqu'à ce jour, l'appelant se déclare étudiant. Il s'est inscrit à diverses formations universitaires et autres, et il a aussi entrepris puis abandonné la rédaction d'un doctorat. Actuellement, l'appelant est âgé de 41 ans et il a trois enfants à charge. La famille dispose des allocations familiales pour les enfants (19.260 BEF), a disposé de quelque 15.000 BEF de revenus provenant de la vente de périodiques africains jusque fin juin 2000 et n'a plus disposé de cette ressource à partir du 1er juillet 2000 suite au refus de l'a.s.b.l. distributrice de poursuivre cette vente et cela, au motif que l'épouse de l'appelant était devenue belge. Actuellement, l'appelant prétend ne disposer d'aucune ressources autres que les allocations familiales et ne pas pouvoir s'en procurer. Il affirme survivre avec sa famille grâce à l'emprunt de sommes d'argent auprès de ses amis, mais les attestations produites à cet égard ne peuvent être considérées comme des preuves de créances dans le chef de ces personnes amies. Ce n'est qu'en juillet 2000 que l'appelant a sollicité le bénéfice du minimex et qu'il s'est inscrit comme demandeur d'emploi auprès l'ORBEM. En ce qui concerne ses recherches de travail, la première preuve datée ne remonte qu'au 9 mars 2001. En outre, ces recherches ne sont pas nombreuses et se concentrent essentiellement autour d'avril 2001. Il faut bien constater, avec le Ministère public, que l'intéressé et son épouse n'ont pas beaucoup \"bougé\" pendant de nombreuses années ni pendant les derniers mois pour trouver un travail déclaré et que, dès lors, ils n'établissent pas leur disposition au travail. Or, en vertu de l'article 6, § 1er, de la loi du 7 août 1974 instituant le droit à un minimum de moyens d'existence, l'octroi et le maintien du minimum de moyens d'existence sont subordonnés à la condition que l'intéressé fasse \"la preuve qu'il est disposé à être mis au travail à moins que cela ne s'avère impossible pour des raisons de santé ou d'équité\". Le fait pour un étudiant de suivre des cours de jour et à temps plein peut certes être constitutif du motif d'équité visé audit article 6, dispensant l'étudiant de prouver sa disponibilité sur le marché du travail, mais pour pouvoir bénéficier de la dispense de preuve en raison de motifs d'équité, l'étudiant doit cependant établir notamment que les études qu'il entreprend ou qu'il poursuit sont nécessaires pour lui permettre de mener une vie conforme à la dignité humaine. Il ne suffit pas à cet égard que les études permettent à l'étudiant de \"connaître de meilleures conditions de vie\" ou qu'elles augmentent ses possibilités de trouver un travail, alors, comme en l'espèce, qu'il est déjà en possession d'un premier diplôme lui donnant accès au marché du travail. L'appel n'est donc pas fondé.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

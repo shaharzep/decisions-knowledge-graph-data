@@ -1,0 +1,384 @@
+{
+  "decision_id": "ECLI:BE:HBGNT:2008:ARR.20080414.2",
+  "language": "NL",
+  "metadata": {
+    "id": 78933,
+    "court_ecli_code": "HBGNT",
+    "decision_date": "2008-04-14",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 22131,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Hof van beroep te Gent, 14 april 2008, Arrest nr. 2006/AR/3087, ECLI:BE:HBGNT:2008:ARR.20080414.2"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:HBGNT:2008:ARR.20080414.2-001",
+        "name": "N.V. CENTRIC IT SOLUTIONS BELGIUM",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:HBGNT:2008:ARR.20080414.2-002",
+        "name": "N.V. VANDERELST",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op 17 september 2001 sloten partijen een overeenkomst voor de implementatie van softwaretoepassingen (IS Trade). Op 15 oktober 2001 kocht V.E. softwarelicenties bij C.; V.E. zorgde zelf voor hardware. C. verzorgde onderhoud van hard- en software. Op 28 april 2004 stelde C. V.E. in gebreke voor openstaande facturen. Eind september 2004 crashte de harde schijf bij V.E.; sedert mei 2004 bleken geen back-ups te zijn gemaakt doordat het automatische back-upsysteem niet functioneerde en dit niet was gecontroleerd noch automatisch gemeld. Partijen sloten op 1 oktober 2004 een akkoord voor dringende datarecuperatie die V.E. op 7 oktober 2004 betaalde zonder voorbehoud; V.E. stelde evenwel bij brief (1/12 oktober 2004 via Civis Belgium) dat C. aansprakelijk was voor de crash en dat de geleverde systemen niet aangepast waren. C. betwistte aansprakelijkheid en vorderde betaling van achterstallige facturen. V.E. zegde de overeenkomst op 8 november 2004. C. dagvaardde V.E. op 15 februari 2006; de eerste rechter verklaarde dat V.E. de exceptie van niet-uitvoering terecht had aangewend voor bepaalde facturen, verklaarde een deel van de tegenvordering wegens verborgen gebreken ontoelaatbaar en stelde een deskundige aan met een ruime opdracht waaronder beoordeling of C. tekortgeschoten was in haar informatie- en bijstandsplicht. In hoger beroep worden de geschilpunten over betaling van vier facturen, de toelaatbaarheid en gegrondheid van tegenvorderingen wegens niet-conforme levering en verborgen gebreken en een vermeende tekortkoming in informatie- en bijstand behandeld.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2008:ARR.20080414.2-001",
+          "requests": "Appellante vordert dat haar oorspronkelijke hoofdvordering toelaatbaar en gegrond wordt verklaard en dat de oorspronkelijke tegenvordering van V.E. ontoelaatbaar of minstens ongegrond wordt verklaard."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2008:ARR.20080414.2-002",
+          "requests": "V.E. vordert incidenteel dat haar tegeneis toelaatbaar en gegrond wordt verklaard, dat de vergoeding van kosten wordt uitgebreid tot EUR 2.000 en, subsidiair, de bevestiging van de aanstelling van de deskundige."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2008:ARR.20080414.2-001",
+          "argument": "Centric betoogt dat het protest van V.E. tegen de facturen laattijdig en ongegrond is omdat er een afspraak bestond om de gevolgen van de crash in regie te vergoeden en omdat twee facturen zelfs zonder voorbehoud werden betaald. Met betrekking tot de tegenvordering stelt Centric dat vorderingen gebaseerd op verborgen gebreken (art. 1641 BW) en niet-conforme levering laattijdig en ongegrond zijn en dat zij niet gehouden was tot aanvullende bijstand of enige bijzondere verplichting, temeer daar V.E. ook met andere leveranciers werkte. Centric klaagt bovendien over het deskundigenonderzoek als nutteloos, overbodig of onterecht juridisch geformuleerd en over tegenstrijdige motivering van de eerste rechter; zij beroept zich tevens op de toepasselijkheid van contractuele aansprakelijkheidsbeperkingen.",
+          "treatment": "GEDEELTELIJK_AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2008:ARR.20080414.2-002",
+          "argument": "Vander Elst stelt dat de eerste rechter onterecht heeft geoordeeld dat zij de facturen laattijdig had geprotesteerd en dat haar tegenvordering wegens verborgen gebreken en wegens niet-conforme levering ten onrechte als laattijdig of ongegrond werd afgewezen. V.E. vordert dat haar tegeneis toelaatbaar en gegrond wordt verklaard en verzoekt, voor zover nodig, de bevestiging van de aanstelling van de deskundige ter vaststelling van de gebreken en aansprakelijkheid van Centric.",
+          "treatment": "GEDEELTELIJK_AANVAARD"
+        }
+      ],
+      "courtOrder": "Het hoger principaal en incidenteel beroep zijn toelaatbaar, maar slechts gegrond in de hierna volgende mate. Het bestreden vonnis wordt hervormd, behalve in zoverre het de vorderingen toelaatbaar verklaarde. Het Hof\n\n- Veroordeelt geïntimeerde om aan appellante de sommen van euro 494,08 en euro 806,67 te betalen, te vermeerderen met de conventionele nalatigheidsintresten aan 9,5% vanaf 15 februari 2006 tot aan de dagvaarding en met de gerechtelijke verwijlintresten vanaf de dagvaarding tot aan de algehele betaling, aan dezelfde rentevoet en met het conventionele herleide schadebeding van 10% op de hoofdsommen;\n- Veroordeelt appellante om de som van euro 3.010 aan geïntimeerde te betalen, te vermeerderen met de vergoedende intrest vanaf 1 oktober 2004 tot aan de dagvaarding en met de gerechtelijke intresten vanaf dan tot aan de algehele betaling, beide aan de wettelijke rentevoet;\n- Beveelt de gerechtelijke compensatie tussen de sommen;\n- Veroordeelt Centric tot betaling van 2/3 van de kosten en V.E. tot 1/3, bepaald als volgt\n  - dagvaarding eerste aanleg euro 226,56\n  - rechtsplegingsvergoeding eerste aanleg euro 364,41\n  - rolstelling hoger beroep euro 186,00\n  - rechtsplegingsvergoeding hoger beroep euro 650,00",
+      "outcome": "HERVORMING"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20080414.2-001",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2008:ARR.20080414.2-001",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 op het gebruik der talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20080414.2-002",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2008:ARR.20080414.2-002",
+        "provisionNumber": "artikel 1641",
+        "provisionNumberKey": "1641",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verklaart dat artikel 1641 B.W. vereist dat de eiser bewijst dat de verkochte zaak bij de levering gebreken had die bestonden of in de kiem aanwezig waren en die de normale bestemming wezenlijk beletten. Langdurig gebruik zonder klachten en het ontbreken van aanwijzingen bij levering maken een vordering wegens verborgen gebreken ongegrond; voor snel evoluerende informaticagoederen geldt een kortere termijn van ontdekbaarheid.",
+        "relevantFactualContext": "Het systeem werd ongeveer drie jaar gebruikt zonder aantoonbare problemen; de crash vond eind september 2004 plaats; V.E. toont niet aan dat gebreken bij de levering in 2001 bestonden; uit het deskundigenverslag blijkt dat sinds mei 2004 geen geslaagde back-ups meer gemaakt werden."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "de tweede kamer van de rechtbank van koophandel te Kortrijk",
+        "date": "2006-10-03",
+        "caseNumber": "06/789/A",
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:HBGNT:2008:ARR.20080414.2-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Aansprakelijkheidsrecht",
+      "Software-implementatie",
+      "IT-onderhoud",
+      "Harde schijf crash",
+      "Ontbrekende back-up",
+      "Betwiste facturen",
+      "Verborgen gebreken",
+      "Niet-conforme levering",
+      "Bijstandsplicht",
+      "Deskundigenopdracht betwist"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20080414.2-001",
+        "text": "Bij een vordering wegens verborgen gebreken moet de eiser aantonen dat het gebrek bij de levering bestond of in de kiem aanwezig was. Langdurig gebruik zonder klachten en het ontbreken van aanwijzingen bij levering maken een vordering op grond van verborgen gebreken onhoudbaar; voor snel evoluerende informaticagoederen geldt daarbij een kortere termijn van ontdekbaarheid.",
+        "courtVerbatim": "V.E. toont niet aan dat het verkochte systeem koopvernietigende gebreken vertoonde die bestonden of in de kiem aanwezig waren in het najaar van 2001, op het ogenblik van de koop en de installatie. Het systeem werd 3 jaar gebruikt, zonder dat V.E. aantoont dat er problemen waren, die een normaal computergebruik overstijgen. Minstens heeft V.E. te lang gewacht tussen de crash van eind september 2004 en het instellen van de tegenvordering in april 2005. Terecht heeft de eerste rechter geoordeeld dat dit voor goederen uit de snel evoluerende informaticasector een te lange tijdspanne is.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij vorderingen wegens verborgen gebreken van geleverde zaken, vooral wanneer lange gebruiksperiode en ontdekbaarheid van gebreken betwist worden; bijzondere aandacht voor snel evoluerende informaticagoederen.",
+        "relevantFactualContext": "Het verkochte informaticasysteem werd circa drie jaar gebruikt zonder dat V.E. klachten aantoonde; de harde schijf crashte eind september 2004; V.E. stelde haar tegenvordering pas in april 2005; deskundigenverslag vermeldt dat sinds mei 2004 back-ups niet succesvol waren.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20080414.2-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2008:ARR.20080414.2-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20080414.2-002",
+        "text": "Wanneer een leverancier zich contractueel heeft verbonden tot onderhoud en bijstand van verkochte IT-systemen, behoort het tot zijn verplichtingen de correcte werking van cruciale functies zoals automatische back-ups na te zien. Het nalaten van dergelijke controles kan een tekortkoming in de bijstandsplicht vormen; evenwel rust op de gebruiker tevens een eenvoudige controleplicht (periodieke steekproeven) die diens eigen aansprakelijkheid kan meebrengen.",
+        "courtVerbatim": "Uit het deskundigenverslag blijkt dat sedert mei 2004 geen geslaagde back-ups gemaakt werden. Er blijkt eveneens uit dat C. na de laatste back-up nog interventies uitgevoerd heeft, zonder evenwel te controleren of de back-ups gemaakt waren en goed gemaakt waren. Hiermee schond C. haar bijstandsverplichting. In tegenstelling tot wat C. schrijft, mag van haar verwacht worden dat zij het systeem dat zij zelf verkocht, aangepast en geïnstalleerd heeft, ook daadwerkelijk laat functioneren en desgevallend verbetert. Anderzijds mag van elke computergebruiker verwacht worden dat hij of zij zelf ook regelmatig controleert of de uitgevoerde back-up ook werkelijk uitgevoerd werd en geslaagd is.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer leverancier onderhouds- of bijstandsverplichtingen heeft tegenover afnemer van IT-systemen en back-upfunctie essentieel is voor normale bestemming van het systeem.",
+        "relevantFactualContext": "Deskundigenverslag constateerde sinds mei 2004 geen geslaagde back-ups; C. voerde interventies uit na die laatste back-up zonder te controleren of back-ups succesvol waren; facturen vermeldden eerdere assistentie en controle van back-upfuncties.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2008:ARR.20080414.2-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20080414.2-003",
+        "text": "Een rechter mag geen zuiver juridische vraag delegeren aan een deskundige; juridische kwalificaties en beoordeling van rechten behoren tot de rechtsmacht van de rechter. Indien een deskundige echter feitelijke vaststellingen heeft gedaan, maakt een onjuist geformuleerde opdracht het deskundigenverslag niet per definitie nietig: de rechter mag die feitelijke vaststellingen in zijn beoordeling betrekken.",
+        "courtVerbatim": "De vraag of C. al dan niet tekort geschoten is aan haar informatieplicht bij het tot stand komen van de overeenkomst is een juridische en geen technische vraag en kan niet aan een deskundige gedelegeerd worden. Gelet op al het voorgaande en op wat hierna volgt is het niet nodig opnieuw een deskundige aan te stellen of de deskundige met een gewijzigde opdracht te belasten. De verkeerde opdracht maakt het deskundigenverslag niet nietig. De feitelijke vaststellingen uit het verslag kan het Hof in haar beoordeling betrekken.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de rechter overweegt een deskundige opdracht te geven die ook juridische kwalificaties of rechtenstoekenningen vereist.",
+        "relevantFactualContext": "De eerste rechter had de deskundige gevraagd onder meer na te gaan of C. op enige wijze tekortgeschoten was aan haar informatie- en/of bijstandsplicht, een juridische vraag; het Hof oordeelt dat die vraag niet aan deskundige kon worden gedelegeerd maar dat diens feitelijke vaststellingen wel bruikbaar bleven.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2008:ARR.20080414.2-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 3,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Een vennootschap (eiser) vordert betaling van openstaande facturen van een andere vennootschap (verweerder), die een tegenvordering instelt wegens vermeende niet-conforme levering, verborgen gebreken en schade door dataverlies na een crash van een harde schijf. Het hof oordeelt dat vorderingen wegens niet-conformiteit en verborgen gebreken laattijdig en ongegrond zijn, maar dat de leverancier gedeeltelijk aansprakelijk is voor een tekort in de bijstand door nalaten van controle op back-ups; de aansprakelijkheid wordt verdeeld 2/3 ten laste van de leverancier en 1/3 van de afnemer, waarbij €3.010 wordt toegekend aan de afnemer en twee factuurbedragen aan de leverancier met verrekening, rente en een kostenverdeling. Kernpunt: vorderingen wegens niet-conformiteit/verborgen gebreken verjaren bij langdurig gebruik, doch de leverancier draagt een actieve zorgplicht voor cruciale onderhoudsfuncties zoals back-upcontrole; de gebruiker heeft bovendien een eenvoudige controleplicht."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20080414.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het is tijdig en regelmatig naar de vorm. Een akte van betekening wordt niet voorgelegd. Het Hof heeft artikel 24 van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken in acht genomen. De procedure gebeurde op tegenspraak.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20080414.2-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20080414.2-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Minstens is het protest ongegrond, nu er een afspraak gemaakt werd om de gevolgen van de crash in regie te vergoeden. Met betrekking tot de tegenvordering is C. van oordeel dat de eerste rechter terecht geoordeeld heeft dat de vordering ontoelaatbaar is in zoverre ze gegrond is op verborgen gebreken (artikel 1641 B.W.). De vordering is ongegrond voor zover ze gegrond is op een niet-conforme levering. Ook deze eis is laattijdig. Zij werpt op dat zij niet gehouden was om bijstand te verlenen. Partijen hadden geen overeenkomst in die zin. Bovendien werkte V.E. in de gegeven periode ook met andere leveranciers. Ondergeschikt merkt C. op dat een eventuele schadevergoeding contractueel beperkt is. Verder grondt C. haar hoger beroep op de volgende grieven:</p>",
+          "<p class=\"case-section__paragraph\">V.E. heeft het bestelde en geplaatste systeem gedurende zowat drie jaar gebruikt. Het is pas in oktober 2004 dat zij opwerpt dat het systeem niet aan haar behoeften voldoet. Deze termijn is onredelijk lang om dit nog te kunnen inroepen. Het oordeel van de eerste rechter is terecht op dit punt. Dit onderdeel van de tegenvordering is ongegrond.</p>",
+          "<p class=\"case-section__paragraph\">V.E. toont niet aan dat het verkochte systeem koopvernietigende gebreken vertoonde die bestonden of in de kiem aanwezig waren in het najaar van 2001, op het ogenblik van de koop en de installatie. Het systeem werd 3 jaar gebruikt, zonder dat V.E. aantoont dat er problemen waren, die een normaal computergebruik overstijgen. Minstens heeft V.E. te lang gewacht tussen de crash van eind september 2004 en het instellen van de tegenvordering in april 2005. Terecht heeft de eerste rechter geoordeeld dat dit voor goederen uit de snel evoluerende informaticasector een te lange tijdspanne is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20080414.2-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2008:ARR.20080414.2-001"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 2,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerProvision": 2,
+        "provisionsWithMinimalCitations": 1,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0.5,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20080414.2-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">V.E. toont niet aan dat het verkochte systeem koopvernietigende gebreken vertoonde die bestonden of in de kiem aanwezig waren in het najaar van 2001, op het ogenblik van de koop en de installatie. Het systeem werd 3 jaar gebruikt, zonder dat V.E. aantoont dat er problemen waren, die een normaal computergebruik overstijgen. Minstens heeft V.E. te lang gewacht tussen de crash van eind september 2004 en het instellen van de tegenvordering in april 2005. Terecht heeft de eerste rechter geoordeeld dat dit voor goederen uit de snel evoluerende informaticasector een te lange tijdspanne is. In de mate de back-up functie slecht geconcipieerd zou geweest zijn, doordat geen automatische foutmelding gebeurde in geval deze niet goed uitgevoerd was, dan had V.E. dit zelf kunnen en moeten merken lang voor 20 september 2004 (zie verder).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:HBGNT:2008:ARR.20080414.2-002"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:HBGNT:2008:ARR.20080414.2-001"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20080414.2-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De feitelijke vaststellingen uit het verslag kan het Hof in haar beoordeling betrekken. Uit het deskundigenverslag blijkt dat sedert mei 2004 geen geslaagde back-ups gemaakt werden. Er blijkt eveneens uit dat C. na de laatste back-up nog interventies uitgevoerd heeft (dit blijkt ook uit de bijgebrachte facturen), zonder evenwel te controleren of de back-ups gemaakt waren en goed gemaakt waren. Hiermee schond C. haar bijstandsverplichting. In tegenstelling tot wat C. schrijft, mag van haar verwacht worden dat zij het systeem dat zij zelf verkocht, aangepast en geïnstalleerd heeft, ook daadwerkelijk laat functioneren en desgevallend verbetert. Minstens strekt in de voorliggende zaak de goede uitvoering van het onderhoud er ook toe om de werking van de back-up na te zien. Dit is nog meer het geval nu (uit de desbetreffende factuur) blijkt dat in augustus 2004 de D schijf volgelopen was en C. dit probleem verholpen had. Nazicht van de back-up was in dat geval essentieel. De factuur van 31 maart 2004 vermeldt \"assistentie ivm plaatsgebrek C-schijf + controle back-up\" (stuk 12 van het dossier van geïntimeerde). De factuur van augustus 2004 met nummer 8080 vermeldt onder meer \"assistentie ivm D-drive volgelopen\" (stuk 3 van het dossier van appellante). C. heeft dus eerder wel de back-up gecontroleerd en is in augustus 2004 in gebreke gebleven. Anderzijds mag van elke computergebruiker verwacht worden dat hij of zij zelf ook regelmatig controleert of de uitgevoerde back-up ook werkelijk uitgevoerd werd en geslaagd is. Dit nagaan vergt geen bijzondere technische kennis. Het bewaren van een dubbel van (bedrijfs-) gegeven is bovendien uiterst belangrijk. Door gedurende vele maanden de back-up niet te controleren en zelfs niet één keer een steekproef uit te voeren, brengt V.E. ook zelf haar eigen aansprakelijkheid in het gedrang. Het Hof oordeelt dat de aansprakelijkheid in deze zaak voor 2/3 bij C. berust en voor 1/3 bij V.E..</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:HBGNT:2008:ARR.20080414.2-001"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20080414.2-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bovendien delegeert de eerste rechter op ongrondwettelijke wijze zijn bevoegdheid door de deskundige niet te vragen om feitelijke vaststellingen te doen, maar wel om na te gaan of C. \"op één of andere manier zou tekort gekomen zijn aan haar informatie- en of bijstandsplicht\". Gelet op al het voorgaande en op wat hierna volgt is het niet nodig opnieuw een deskundige aan te stellen of de deskundige met een gewijzigde opdracht te belasten. Evenmin dient de zaak terug gezonden te worden naar de eerste rechter.</p>",
+          "<p class=\"case-section__paragraph\">De feitelijke vaststellingen uit het verslag kan het Hof in haar beoordeling betrekken. Uit het deskundigenverslag blijkt dat sedert mei 2004 geen geslaagde back-ups gemaakt werden. Er blijkt eveneens uit dat C. na de laatste back-up nog interventies uitgevoerd heeft (dit blijkt ook uit de bijgebrachte facturen), zonder evenwel te controleren of de back-ups gemaakt waren en goed gemaakt waren. Hiermee schond C. haar bijstandsverplichting. In tegenstelling tot wat C. schrijft, mag van haar verwacht worden dat zij het systeem dat zij zelf verkocht, aangepast en geïnstalleerd heeft, ook daadwerkelijk laat functioneren en desgevallend verbetert. Minstens strekt in de voorliggende zaak de goede uitvoering van het onderhoud er ook toe om de werking van de back-up na te zien. Dit is nog meer het geval nu (uit de desbetreffende factuur) blijkt dat in augustus 2004 de D schijf volgelopen was en C. dit probleem verholpen had. Nazicht van de back-up was in dat geval essentieel. De factuur van 31 maart 2004 vermeldt \"assistentie ivm plaatsgebrek C-schijf + controle back-up\" (stuk 12 van het dossier van geïntimeinde). De factuur van augustus 2004 met nummer 8080 vermeldt onder meer \"assistentie ivm D-drive volgelopen\" (stuk 3 van het dossier van appellante). C. heeft dus eerder wel de back-up gecontroleerd en is in augustus 2004 in gebreke gebleven. Anderzijds mag van elke computergebruiker verwacht worden dat hij of zij zelf ook regelmatig controleert of de uitgevoerde back-up ook werkelijk uitgevoerd werd en geslaagd is. Dit nagaan vergt geen bijzondere technische kennis. Het bewaren van een dubbel van (bedrijfs-) gegeven is bovendien uiterst belangrijk. Door gedurende vele maanden de back-up niet te controleren en zelfs niet één keer een steekproef uit te voeren, brengt V.E. ook zelf haar eigen aansprakelijkheid in het gedrang. Het Hof oordeelt dat de aansprakelijkheid in deze zaak voor 2/3 bij C. berust en voor 1/3 bij V.E..</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:HBGNT:2008:ARR.20080414.2-001"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerTeaching": 1.3333333333333333,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 0,
+        "totalProvisionsNotFound": 1,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 3
+      },
+      "extractionNotes": [
+        "Some related provisions/decisions claimed by Stage 5A do not appear within the extracted reasoning paragraphs and are therefore flagged in relationshipValidation."
+      ]
+    }
+  }
+}

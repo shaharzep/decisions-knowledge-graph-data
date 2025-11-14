@@ -1,0 +1,289 @@
+{
+  "decision_id": "ECLI:BE:TELIE:2004:ARR.20041021.7",
+  "language": "FR",
+  "metadata": {
+    "id": 9597,
+    "court_ecli_code": "TELIE",
+    "court_name": "Tribunal de l'entreprise de Liège",
+    "decision_date": "2004-10-21",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 4693,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Tribunal de l'entreprise de Liège (Tribunal de commerce de Verviers, Première chambre), 21 octobre 2004, Rôle général n° A/2004.1091, Répertoire n° B/2004.0040, ECLI:BE:TELIE:2004:ARR.20041021.7"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+        "name": "D L",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2004:ARR.20041021.7-002",
+        "name": "Jan-Noël KRAEWINKELS, Substitut du Procureur du Roi",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "MINISTERE_PUBLIC"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Le requérant (D L) a déposé une requête en concordat judiciaire le 6 octobre 2004. Il expose qu\u0000après la faillite de la SPRL D, dont il \u0000était gérant (faillite du 18 d\u0000écembre 2003), il supporte un passif personnel important d'environ 195.000 EUR. Depuis lors il s'est lanc\u0000é dans diverses petites activit\u0000és (distribution de courrier, vente de distributeurs automatiques, travaux saisonniers dans le bois) et per\u0000çoit une pension d'ancien agent de la SNCB ; \u0000il est en outre copropri\u0000étaire, avec son \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000u00e9pouse, d'un immeuble \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000u Stavelot qu'il entend am\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000m\u0000nager en chambres d'h\u0000otes. Il a \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000tent\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000t\u0000 d\u0000es petits boulots pour tenter d'apurer son passif. Certaines activit\u0000és auraient \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000s exerc\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000u00e9 dans l'ill\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000galit\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000}, faisant l'objet d'une instruction pénale pour escroquerie relative à des ventes fictives d'appareils téléphoniques. Le requérant n'a pas produit d'\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000propositions concordataires ; l'objectif apparent de la requête \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000est la sauvegarde provisoire de l'immeuble. Le Tribunal a entendu les explications du requérant et a recueilli l'avis verbal du Substitut du Procureur du Roi lors de l'audience publique du 14 octobre 2004. Le Tribunal conclut que les conditions d'octroi du sursis provisoire ne sont pas remplies et que les activités invoquées ne constituent pas une entreprise ayant une r\u000000eelle perspective \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000conomique.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+          "requests": "Le requérant demande l'octroi du bénéfice d'un sursis provisoire (surseoir au paiement des dettes dans le cadre d'un concordat judiciaire)."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+          "argument": "Le requérant soutient que, depuis la faillite de la SPRL D (18 décembre 2003), il a entrepris diverses activit\u0000és (distribution de courrier, vente de distributeurs automatiques, travaux saisonniers dans le bois) et qu'en combinaison avec sa pension d'ancien agent de la SNCB et la valorisation de l'immeuble qu'il poss\u0000ede \u0000avec son \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000u00e9\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000squ'il pourrait apurer son passif personnel d'environ 195.000 EUR et qu'il serait donc fond\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ement de lui accorder un sursis provisoire afin de permettre l'\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000organisation d'un concordat judiciaire; il invoque sa bonne foi et des perspectives de r\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000alisation de revenus nouveaux. Toutefois, le Tribunal estime ces activit\u0000és \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000insuffisantes et d\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000outeuses quant \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000s la bonne foi du requ\u0000\u0000\u0000\u0000\u0000\u0000ant, notamment au vu de l'instruction pour escroquerie.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "Le Tribunal, Statuant contradictoirement, Dit la requête recevable mais non fondée ; Déclare ouverte la faillite de D L préqualifié; Nomme Monsieur Roland RAUW, juge consulaire, en qualité de juge­commissaire; Désigne Maître Vincent TROXQUET, avocat à 4800 VERVIERS, rue des Minières, 15, à l´effet de remplir sous la surveillance du juge-commissaire les fonctions de curateur; Ordonne aux créanciers de faire au greffe du tribunal de céans, la déclaration de leurs créances, avec pièces à l´appui, dans un délai de trente jours à dater du présent jugement; Rôle général n° A/2004. 1091 Folio n° 21 octobre 2004 B/2004.0040 Fixe au 22 décembre 2004 à 9 heures 30´, au Palais de Justice, la clôture du procès­verbal de vérification des créances; Ordonne, le cas échéant, la descente sur les lieux du juge-commissaire, du curateur et du greffier; Ordonne l´insertion d´un extrait du présent jugement, par les soins du curateur, dans au moins deux journaux ou périodiques ayant une diffusion régionale et au Moniteur belge par les soins du greffier; Dit le présent jugement exécutoire dès sa prononciation; Délaisse les dépens, non liquidés (articles 1021 et 1022 du code judiciaire), à charge de la partie défenderesse.",
+      "outcome": "NON_FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+        "provisionNumber": "article 779",
+        "provisionNumberKey": "779",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-002",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+        "provisionNumber": "article 1021",
+        "provisionNumberKey": "1021",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-003",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+        "provisionNumber": "article 1022",
+        "provisionNumberKey": "1022",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": []
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit commercial",
+      "Agent commercial indépendant",
+      "Faillite antérieure de société",
+      "Activités professionnelles disparates",
+      "Instruction pénale pour escroquerie",
+      "Requête en concordat judiciaire",
+      "Sursis provisoire refusé",
+      "Absence de propositions concordataires",
+      "Bonne foi contestée",
+      "Faillite après rejet de concordat"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+        "text": "L'octroi d'un sursis provisoire dans le cadre d'une procédure de concordat judiciaire requiert que le requérant démontre l'existence d'une activité constituant une entreprise ayant une réelle perspective économique, agisse de bonne foi et présente au minimum une ébauche de propositions concordataires; l'absence de ces éléments, ou la preuve d'activités assimilables à de simples \"petits boulots\" ou d'indices d'illégalité, justifie le refus du sursis.",
+        "courtVerbatim": "Attendu que ces activités disparates ne constituent pas une entreprise ayant une réelle perspective économique ; qu'il s'agit de « petits boulots » destinés à colmater de ci de là les dettes considérables accumulées tant par la SPRL D que par l'intéressé en nom propre ; que certaines de ces activités se sont aussi exercées dans l'illégalité, Monsieur D faisant l'objet d'une instruction pénale du chef d'escroquerie pour ventes fictives d'appareils téléphoniques ; que la bonne foi de l'intéressé est dans ces circonstances sujette à caution ; qu'aucune ébauche de propositions concordataires n'est présentée, l'objectif poursuivi par le dépôt de la requête se limitant apparemment à la sauvegarde provisoire de l'immeuble ; que les conditions d'octroi du sursis provisoire ne sont pas, dans ces conditions, rencontrées ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un débiteur sollicite un sursis provisoire en vue d'un concordat judiciaire mais présente des activités disparates, aucune ébauche de propositions concordataires et/ou des indices de mauvaise foi ou d'illégalité.",
+        "relevantFactualContext": "Le requérant, ancien gérant d'une SPRL récemment en faillite, prétendait apurer un passif personnel élevé par diverses petites activités et la valorisation d'un immeuble ; aucune proposition concordataire n'était fournie et des indices d'illégalité et de mauvaise foi ont été relevés.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 1
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, commerçant indépendant ayant accumulé un important passif personnel et invoquant diverses activités et un projet immobilier, demandait l'octroi d'un sursis provisoire au titre d'un concordat judiciaire. Le tribunal juge la requête recevable mais non fondée et ouvre la faillite, nommant un juge‑commissaire et un curateur et ordonnant la déclaration des créances et publications. Il motive son refus par l'absence de perspective économique sérieuse, l'absence de propositions concordataires et des indices susceptibles de mettre en doute la bonne foi (irrégularités pénales)."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Le Tribunal, Statuant contradictoirement, Dit la requête recevable mais non fondée ; Déclare ouverte la faillite de D L préqualifié; Nomme Monsieur Roland RAUW, juge consulaire, en qualité de juge­commissaire; Désigne Maître Vincent TROXQUET, avocat à 4800 VERVIERS, rue des Minières, 15, à l´effet de remplir sous la surveillance du juge-commissaire les fonctions de curateur; Ordonne aux créanciers de faire au greffe du tribunal de céans, la déclaration de leurs créances, avec pièces à l´appui, dans un délai de trente jours à dater du présent jugement; Rôle général n° A/2004. 1091 Folio n° 21 octobre 2004 B/2004.0040 Fixe au 22 décembre 2004 à 9 heures 30´, au Palais de Justice, la clôture du procès­verbal de vérification des créances; Ordonne, le cas échéant, la descente sur les lieux du juge-commissaire, du curateur et du greffier; Ordonne l´insertion d´un extrait du présent jugement, par les soins du curateur, dans au moins deux journaux ou périodiques ayant une diffusion régionale et au Moniteur belge par les soins du greffier; Dit le présent jugement exécutoire dès sa prononciation; Délaisse les dépens, non liquidés (articles 1021 et 1022 du code judiciaire), à charge de la partie défanderesse. Ainsi jugé et prononcé à l´audience publique de la première Chambre du Tribunal de commerce établi à VERVIERS (Province de LIÈGE), le jeudi vingt et un octobre deux mil quatre. Présents : Monsieur Paul TROISFONTAINES, Président, Madame Simone SIMON-CURNEL et Monsieur Jean-Claude PAULY, juges consulaires désignés par ordonnance présidentielle de ce jour en remplacement de Messieurs Jean-Pierre DEBLANC et Philippe LAGASSE de LOCHT, juges consulaires légitimement empêchés d'assister à la prononciation du jugement au délibéré duquel ils ont participé (article 779 du code judiciaire) ; Monsieur Marc DUYSINX, Greffier en chef.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+          "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-002",
+          "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Le Tribunal, Statuant contradictoirement, Dit la requête recevable mais non fondée ; Déclare ouverte la faillite de D L préqualifié; Nomme Monsieur Roland RAUW, juge consulaire, en qualité de juge­commissaire; Désigne Maître Vincent TROXQUET, avocat à 4800 VERVIERS, rue des Minières, 15, à l´effet de remplir sous la surveillance du juge-commissaire les fonctions de curateur; Ordonne aux créanciers de faire au greffe du tribunal de céans, la déclaration de leurs créances, avec pièces à l´appui, dans un délai de trente jours à dater du présent jugement; Rôle général n° A/2004. 1091 Folio n° 21 octobre 2004 B/2004.0040 Fixe au 22 décembre 2004 à 9 heures 30´, au Palais de Justice, la clôture du procès­verbal de vérification des créances; Ordonne, le cas échéant, la descente sur les lieux du juge-commissaire, du curateur et du greffier; Ordonne l´insertion d´un extrait du présent jugement, par les soins du curateur, dans au moins deux journaux ou périodiques ayant une diffusion régionale et au Moniteur belge par les soins du greffier; Dit le présent jugement exécutoire dès sa prononciation; Délaisse les dépens, non liquidés (articles 1021 et 1022 du code judiciaire), à charge de la partie défanderesse. Ainsi jugé et prononcé à l´audience publique de la première Chambre du Tribunal de commerce établi à VERVIERS (Province de LIÈGE), le jeudi vingt et un octobre deux mil quatre. Présents : Monsieur Paul TROISFONTAINES, Président, Madame Simone SIMON-CURNEL et Monsieur Jean-Claude PAULY, juges consulaires désignés par ordonnance présidentielle de ce jour en remplacement de Messieurs Jean-Pierre DEBLANC et Philippe LAGASSE de LOCHT, juges consulaires légitimement empêchés d'assister à la prononciation du jugement au délibéré duquel ils ont participé (article 779 du code judiciaire) ; Monsieur Marc DUYSINX, Greffier en chef.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-002",
+          "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+          "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Le Tribunal, Statuant contradictoirement, Dit la requête recevable mais non fondée ; Déclare ouverte la faillite de D L préqualifié; Nomme Monsieur Roland RAUW, juge consulaire, en qualité de juge­commissaire; Désigne Maître Vincent TROXQUET, avocat à 4800 VERVIERS, rue des Minières, 15, à l´effet de remplir sous la surveillance du juge-commissaire les fonctions de curateur; Ordonne aux créanciers de faire au greffe du tribunal de céans, la déclaration de leurs créances, avec pièces à l´appui, dans un délai de trente jours à dater du présent jugement; Rôle général n° A/2004. 1091 Folio n° 21 octobre 2004 B/2004.0040 Fixe au 22 décembre 2004 à 9 heures 30´, au Palais de Justice, la clôture du procès­verbal de vérification des créances; Ordonne, le cas échéant, la descente sur les lieux du juge-commissaire, du curateur et du greffier; Ordonne l´insertion d´un extrait du présent jugement, par les soins du curateur, dans au moins deux journaux ou périodiques ayant une diffusion régionale et au Moniteur belge par les soins du greffier; Dit le présent jugement exécutoire dès sa prononciation; Délaisse les dépens, non liquidés (articles 1021 et 1022 du code judiciaire), à charge de la partie défanderesse. Ainsi jugé et prononcé à l´audience publique de la première Chambre du Tribunal de commerce établi à VERVIERS (Province de LIÈGE), le jeudi vingt et un octobre deux mil quatre. Présents : Monsieur Paul TROISFONTAINES, Président, Madame Simone SIMON-CURNEL et Monsieur Jean-Claude PAULY, juges consulaires désignés par ordonnance présidentielle de ce jour en remplacement de Messieurs Jean-Pierre DEBLANC et Philippe LAGASSE de LOCHT, juges consulaires légitimement empêchés d'assister à la prononciation du jugement au délibéré duquel ils ont participé (article 779 du code judiciaire) ; Monsieur Marc DUYSINX, Greffier en chef.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-003",
+          "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+          "ART-ECLI:BE:TELIE:2004:ARR.20041021.7-002"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 3,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2004:ARR.20041021.7-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Rôle général n° A/2004. 1091 Folio n° 21 octobre 2004 Attendu que le requérant postule que lui soit octroyé le bénéfice d'un sursis provisoire ; qu'il expose que depuis la faillite de la SPRL D, dont il était le gérant, en date du 18 décembre 2003, il tente de faire face à l'important passif personnel -de l'ordre de 195.000 EUR- qu'il a accumulé ; qu'à cette fin, il s'est lancé dans diverses activités (distribution de courrier, vente de distributeurs automatiques, travaux saisonniers dans le bois) lesquelles, outre sa pension d'ancien agent de la SNCB, seraient de nature à apurer ce passif ; qu'il est en outre propriétaire, avec son épouse, d'un important immeuble à Stavelot qu'il a l'intention d'aménager en chambres d'hôtes ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que ces activités disparates ne constituent pas une entreprise ayant une réelle perspective économique ; qu'il s'agit de « petits boulots » destinés à colmater de ci de là les dettes considérables accumulées tant par la SPRL D que par l'intéressé en nom propre ; que certaines de ces activités se sont aussi exercées dans l'illégalité, Monsieur D faisant l'objet d'une instruction pénale du chef d'escroquerie pour ventes fictives d'appareils téléphoniques ; que la bonne foi de l'intéressé est dans ces circonstances sujette à caution ; qu'aucune ébauche de propositions concordataires n'est présentée, l'objectif poursuivi par le dépôt de la requête se limitant apparemment à la sauvegarde provisoire de l'immeuble ; que les conditions d'octroi du sursis provisoire ne sont pas, dans ces conditions, rencontrées ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerTeaching": 2,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 0,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

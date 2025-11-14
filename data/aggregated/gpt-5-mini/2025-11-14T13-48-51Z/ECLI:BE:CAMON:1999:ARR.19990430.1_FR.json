@@ -1,0 +1,601 @@
+{
+  "decision_id": "ECLI:BE:CAMON:1999:ARR.19990430.1",
+  "language": "FR",
+  "metadata": {
+    "id": 1327,
+    "court_ecli_code": "CAMON",
+    "court_name": "Cour d'appel du ressort de Mons",
+    "decision_date": "1999-04-30",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 9266,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour d'appel (6e chambre fiscale) de Mons, 30 avril 1999, 1994/FI/95, ECLI:BE:CAMON:1999:ARR.19990430.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+        "name": "les requérants",
+        "type": "UNCLEAR",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+        "name": "le directeur régional a.i. des contributions directes à Charleroi",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+        "name": "l'Etat belge",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:1999:ARR.19990430.1-004",
+        "name": "S.A. Lixon",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:1999:ARR.19990430.1-005",
+        "name": "Marc Deguide, huissier de justice suppléant",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:1999:ARR.19990430.1-006",
+        "name": "l'administration centrale",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "La décision contestée a été rendue le 4 août 1994 par le directeur régional a.i. des contributions directes à Charleroi et notifiée aux requérants par lettre recommandée le même jour. Le recours contre cette décision a été déposé au greffe le 13 septembre 1994 et signifié au directeur précité par exploit de l'huissier suppléant Marc Deguide le 12 septembre 1994. Le recours porte sur la cotisation à l'impôt des personnes physiques et à la taxe communale additionnelle pour l'exercice 1991, article 3704919 des rôles formés pour la commune de Thuin, sur la base imposable de 1.030.808 francs, pour un montant de 47.772 francs. Il ressort d'une télécopie du 25 novembre 1992 adressée par l'administration centrale au directeur régional que l'administration centrale avait pris position sur le fond avant la décision attaquée et avait donné des injonctions correspondantes. L'assemblée générale de la S.A. Lixon du 9 juin 1988 a créé des parts bénéficiaires au porteur, à coupon unique, attribuables au personnel et aux administrateurs, parts qui ne représentent pas le capital social et ne donnent droit qu'au paiement d'un dividende pour l'exercice social indiqué; la société a ensuite distribué gratuitement ces parts à des membres du personnel, donnant lieu à la controverse sur la qualification fiscale des montants distribués (rémunération professionnelle imposable ou revenu mobilier soumis au précompte).",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+          "requests": "Que la décision du directeur régional a.i. des contributions directes à Charleroi du 4 août 1994 soit annulée et que la réclamation des requérants soit accueillie."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+          "requests": "Que le recours formé contre la décision du directeur régional soit rejeté et que la décision soit maintenue."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+          "argument": "Les requérants soutiennent que l'attribution des dividendes attachés aux parts bénéficiaires distribuées gratuitement par la S.A. Lixon à des membres du personnel ne constitue pas une rémunération imposable au titre de revenu professionnel mais un revenu mobilier soumis au précompte. Selon eux, seule l'attribution des parts bénéficiaires serait imposable au titre des dispositions applicables, puis ces parts entreraient dans le patrimoine privé de l'employé; l'attribution des dividendes résulterait de la détention de ces titres et non de la relation de travail. Ils allèguent en outre que, en ayant taxé ces montants à l'impôt des sociétés et au précompte mobilier côté employeur, l'administration violerait le principe de bonne administration et le principe non bis in idem si elle imposait les mêmes montants comme rémunération dans le chef des bénéficiaires.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+          "argument": "L'Etat (administration) soutient que, en vertu de l'article 26 du Code des impôts sur les revenus (1964), les rémunérations comprennent notamment les avantages de toute nature que le travailleur obtient en raison ou à l'occasion de son activité professionnelle et que les avantages en argent ou évaluables en argent accordés par l'employeur en raison de l'engagement entrent dans cette notion. L'administration soutient que l'octroi unilatéral d'avantages par l'employeur au moyen de parts bénéficiaires entre également dans la notion de rémunération, en particulier lorsque l'existence et la valeur des parts bénéficiaires sont indissociables de la décision d'octroi du dividende et que la création et l'attribution interviennent par une même décision d'assemblée générale; l'administration précise que la déclaration faite par l'employeur à l'impôt des sociétés et au précompte mobilier ne vaut pas nécessairement qualification identique pour le bénéficiaire et qu'il s'agit de déterminer la nature exacte des revenus pour appliquer la fiscalité adéquate.",
+          "treatment": "ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS,\nLA COUR,\n\nStatuant contradictoirement,\nVu l'article 24 bis de la loi du 15 juin 1935 relative à l'emploi des langues en matière judiciaire,\n\nReçoit le recours ;\nAnnule la décision directoriale attaquée ;\nEt statuant par voie de dispositions nouvelles,\nDéclare la réclamation et le recours non fondés ;\nCondamne les requérants aux frais.",
+      "outcome": "NON_FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+        "provisionNumber": "article 26",
+        "provisionNumberKey": "26",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (1964)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour retient que l'article 26 définit la notion de rémunération de manière large: sont assimilées à des rémunérations, quels qu'en soient le débiteur ou la qualification, toutes les sommes constituant pour le travailleur le produit d'un travail au service d'un employeur, y compris les avantages de toute nature obtenus en raison ou à l'occasion de l'activité professionnelle. L'octroi unilatéral d'avantages par l'employeur, y compris par le biais de parts bénéficiaires, entre dès lors dans cette notion de rémunération.",
+        "relevantFactualContext": "La S.A. Lixon a créé et attribué gratuitement des parts bénéficiaires à des membres du personnel; ces parts, créées et valorisées par la même assemblée, donnaient lieu au versement d'un dividende indistinct de la valeur initiale des parts, contesté fiscalement comme rémunération."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (1992)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour assimile les articles 30 (Code 1992) à la définition large des rémunérations: ces dispositions englobent toutes les sommes et avantages reçus par le travailleur en raison ou à l'occasion de son activité professionnelle, indépendamment de leur qualification formelle, et s'appliquent aux avantages accordés par l'employeur, y compris via parts bénéficiaires.",
+        "relevantFactualContext": "Application à la même situation: la S.A. Lixon a attribué des parts bénéficiaires à des employés, dont la valeur et le dividende étaient déterminés par une même décision d'assemblée et contestés fiscalement comme rémunération."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+        "provisionNumber": "article 31",
+        "provisionNumberKey": "31",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (1992)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour considère que l'article 31 (Code 1992) s'inscrit dans la même définition extensive des rémunérations: il comprend notamment les avantages en nature ou évaluables en argent résultant de l'activité professionnelle. Ainsi, les avantages distribués aux salariés par l'employeur via parts bénéficiaires peuvent être qualifiés de rémunération au sens de ces dispositions.",
+        "relevantFactualContext": "Les droits et dividendes attachés aux parts bénéficiaires attribuées par la S.A. Lixon aux salariés ont été déterminés et mis en paiement dans le même exercice, de sorte que leur valeur revient directement au salarié et relève, selon la Cour, de la notion de rémunération."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-004",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+        "provisionNumber": "article 2",
+        "provisionNumberKey": "2",
+        "parentActType": "LOI",
+        "parentActName": "loi du 12 avril 1965 concernant la protection de la rémunération des travailleurs",
+        "parentActDate": "1965-04-12",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour relève que l'article 2 de la loi de 1965 étend la notion de rémunération aux avantages évaluables en argent auxquels le travailleur a droit à charge de l'employeur en raison de l'engagement, même lorsqu'ils ne constituent pas une contrepartie directe du travail. Elle en déduit que cette définition ne contredit pas celle de l'article 26 mais l'étend: des avantages accordés unilatéralement par l'employeur entrent dans la notion de rémunération.",
+        "relevantFactualContext": "Les parts bénéficiaires attribuées unilatéralement par l'employeur, en dehors des formes contractuelles traditionnelles et par application du droit des sociétés, ont été retenues par la Cour comme avantages au sens de l'article 2 et donc susceptibles d'être traités comme rémunération."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-005",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:1999:ARR.19990430.1-004",
+        "provisionNumber": "article 47",
+        "provisionNumberKey": "47",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées sur les sociétés commerciales (lois coordonnées sur les sociétés commerciales)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-006",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+        "provisionNumber": "article 277 §1er",
+        "provisionNumberKey": "277",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (1964)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-007",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:1999:ARR.19990430.1-005",
+        "provisionNumber": "article 24 bis",
+        "provisionNumberKey": "24bis",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 relative à l'emploi des langues en matière judiciaire (15 juin 1935)",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1998-06-26",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1990-03-23",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1995-09-12",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit fiscal",
+      "Parts bénéficiaires",
+      "Attribution gratuite",
+      "Dividendes",
+      "Employeur-employé",
+      "Rémunération ou revenu mobilier",
+      "Imposition des dividendes",
+      "Précompte mobilier",
+      "Partialité administrative"
+    ],
+    "metadata": {
+      "totalKeywords": 9,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 3,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+        "text": "La violation d'une règle essentielle de fonctionnement d'une autorité juridictionnelle ou administrative — notamment lorsque l'administration centrale a pris préalablement position et donné des injonctions privant l'auteur de la décision de l'indépendance nécessaire — affecte l'impartialité et constitue un grief qui peut être invoqué à tout moment de la procédure, y compris pour la première fois devant la Cour de cassation.",
+        "courtVerbatim": "Attendu qu'il peut se déduire de cette attitude le l'administration centrale que l'auteur de la décision attaquée n'a pas bénéficié en l'occurrence de l'indépendance nécessaire pour garantir son impartialité dans l'exercice de la fonction juridictionnelle qui était la sienne (cf. Cass. 26 juin 1998, J.T. 1998, p. 677) ;\n\nAttendu qu'il convient en conséquence d'annuler la décision attaquée ... ;\n\nAttendu que le grief relatif à la violation d'une règle essentielle de fonctionnement d'une autorité juridictionnelle peut, y compris en matière fiscale, être invoquée à tout moment de la procédure, et même pour la première fois devant la Cour de cassation (cf. Cass. 23 mars 1990, Pas., p. 867) ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque l'administration centrale ou une autorité a pris position ou donné instructions antérieures influençant une décision locale, de nature à priver l'auteur de la décision de l'indépendance nécessaire.",
+        "relevantFactualContext": "L'administration centrale, par lettre adressée par télécopie avant que la décision attaquée ne fût rendue, a pris position sur le fond et donné les injonctions appropriées, ce qui a été retenu comme privation de l'indépendance de l'auteur de la décision.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+          "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+        "text": "Pour l'impôt des personnes physiques, la notion de rémunération (articles 26 du Code 1964 ; articles 30 et 31 du Code 1992) doit être interprétée largement: elle englobe toutes les sommes et avantages que le travailleur obtient en raison ou à l'occasion de son activité professionnelle, y compris les avantages unilatéralement accordés par l'employeur (notamment par le biais de parts bénéficiaires), indépendamment de leur qualification formelle.",
+        "courtVerbatim": "Attendu que selon l'article 26 du Code des impôts sur les revenus (1964) (articles 30 et 31 du Code des impôts sur les revenus (1992)), les rémunérations sont, quels qu'en soient le débiteur, la qualification et les modalités de détermination et d'octroi, toutes celles qui constituent pour le travailleur, le produit d'un travail au service d'un employeur, et comprennent notamment les avantages de toute nature que le travailleur obtient en raison ou à l'occasion de son activité professionnelle ;\n\nQue ne déroge pas à la définition précitée, la circonstance que lesdits avantages ont été accordés unilatéralement par l'employeur en dehors de la fixation contractuelle normale de la rémunération et par dérogation aux formes traditionnelles de rémunération, en application du droit des sociétés, au moyen de parts bénéficiaires et en fonction des bénéfices qui doivent normalement être attribués aux actionnaires (cf. Cass. 12 septembre 1995, Pas., p. 793) ;\n\nQue dès lors, l'octroi unilatéral d'avantages par l'employeur, par le même moyen de parts bénéficiaires, entre également dans la notion de rémunération au sens de l'article 26 du Code des impôts sur les revenus (1964) ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un employeur accorde aux travailleurs des avantages ou titres (parts bénéficiaires) en raison ou à l'occasion de leur activité professionnelle, même si l'octroi est unilatéral ou relève du droit des sociétés.",
+        "relevantFactualContext": "La S.A. Lixon a créé et attribué gratuitement des parts bénéficiaires à des membres du personnel; l'administration fiscale a contesté la qualification des montants distribués (dividendes/avantages) comme rémunération au titre du revenu professionnel.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CAMON:1999:ARR.19990430.1-003"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-004"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+        "text": "Lorsque la création des parts bénéficiaires et la détermination ou l'attribution du dividende résultent d'une même décision (même assemblée) et qu'il n'existe pas d'existence autonome des parts entre leur création et le paiement du dividende, la valeur des parts est, dès l'origine, équivalente à celle des dividendes attachés et doit être traitée fiscalement comme rémunération revenant directement au travailleur.",
+        "courtVerbatim": "Attendu qu'il en est d'autant plus ainsi lorsque, comme en l'espèce, l'existence même des parts bénéficiaires et leur valeur sont indissociables de la décision d'octroi d'un dividende ;\n\nQue c'est en effet une même assemblée générale de la S.A. Lixon qui, par une décision unique, arrête, pour un seul exercice, à la fois la création de parts bénéficiaires, leur nombre et leur valeur ;\n\nQue ces parts n'ont ainsi aucune existence indépendante et autonome entre leur création et l'attribution du dividende, seule la mise en paiement de celui-ci étant retardée de quelques jours ;\n\nAttendu que la distinction que les requérants voudraient faire entre l'attribution de parts bénéficiaires ... et l'attribution de dividendes devient de ce fait sans intérêt, la valeur des parts bénéficiaires étant dès l'origine exactement la même que celle des dividendes qui y sont attachés, et l'attribution des unes comme des autres ayant lieu chaque fois au cours d'un même exercice fiscal ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la création et la fixation de la valeur des parts bénéficiaires et l'attribution du dividende sont décidées simultanément par la même assemblée, éliminant toute indépendance économique des parts avant paiement.",
+        "relevantFactualContext": "Dans la S.A. Lixon, une même assemblée générale a, pour un exercice unique, décidé la création, le nombre et la valeur des parts bénéficiaires, de sorte que leur valeur correspondait immédiatement à celle du dividende attribué.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 3,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Les requérants contestent l'imposition par l'administration de dividendes attachés à des parts bénéficiaires gratuitement attribuées par la société à des membres du personnel, soutenant qu'il s'agit de revenus mobiliers soumis au précompte et non de rémunération professionnelle. La Cour annule la décision initiale pour défaut d'indépendance du directeur, statue au fond et déclare la réclamation et le recours non fondés, condamnant les requérants aux frais. Elle retient que les avantages accordés par l'employeur, y compris des parts bénéficiaires dont la valeur est indissociable du dividende, constituent des rémunérations au sens de l'article 26 du Code des impôts et sont imposables comme revenu professionnel."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Que selon eux en effet, seule l'attribution des parts bénéficiaires serait imposable sur la base de l'article 26 du Code des impôts sur les revenus (1964), mais qu'ensuite, ces parts bénéficiaires font partie du patrimoine privé de l'employé et que l'attribution des dividendes a pour origine la détention de ces titres et non la relation de travail ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que selon l'article 26 du Code des impôts sur les revenus (1964) (articles 30 et 31 du Code des impôts sur les revenus (1992)), les rémunérations sont, quels qu'en soient le débiteur, la qualification et les modalités de détermination et d'octroi, toutes celles qui constituent pour le travailleur, le produit d'un travail au service d'un employeur, et comprennent notamment les avantages de toute nature que le travailleur obtient en raison ou à l'occasion de son activité professionnelle ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette définition est plus large que celle énoncée à l'article 2 de la loi du 12 avril 1965 concernant la protection de la rémunération des travailleurs, selon laquelle il y a lieu d'entendre par \" rémunération \", outre le salaire en espèces et le pourboire ou service, les avantages évaluables en argent auxquels le travailleur a droit à charge de l'employeur en raison de son engagement ;</p>",
+          "<p class=\"case-section__paragraph\">Que cette dernière disposition légale étend la notion de rémunération ci avant définie aux avantages en argent ou évaluables en argent auxquels on peut prétendre à charge de l'employeur en raison de l'engagement, bien qu'ils ne soient pas accordés à titre de contrepartie pour le travail effectué ;</p>",
+          "<p class=\"case-section__paragraph\">Que ne déroge pas à la définition précitée, la circonstance que lesdits avantages ont été accordés unilatéralement par l'employeur en dehors de la fixation contractuelle normale de la rémunération et par dérogation aux formes traditionnelles de rémunération, en application du droit des sociétés, au moyen de parts bénéficiaires et en fonction des bénéfices qui doivent normalement être attribués aux actionnaires (cf. Cass. 12 septembre 1995, Pas., p. 793) ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que les avantages de toute nature obtenus à l'occasion d'une activité professionnelle (article 26 du Code des impôts sur les revenus (1964)) incluent à l'évidence les avantages en argent ou évaluables en argent auxquels on peut prétendre à charge de l'employeur en raison de l'engagement, bien qu'ils ne soient pas accordés à titre de contrepartie pour le travail effectué (article 2 de la loi du 12 avril 1965);</p>",
+          "<p class=\"case-section__paragraph\">Que dès lors, l'octroi unilatéral d'avantages par l'employeur, par le même moyen de parts bénéficiaires, entre également dans la notion de rémunération au sens de l'article 26 du Code des impôts sur les revenus (1964) ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que selon l'article 26 du Code des impôts sur les revenus (1964) (articles 30 et 31 du Code des impôts sur les revenus (1992)), les rémunérations sont, quels qu'en soient le débiteur, la qualification et les modalités de détermination et d'octroi, toutes celles qui constituent pour le travailleur, le produit d'un travail au service d'un employeur, et comprennent notamment les avantages de toute nature que le travailleur obtient en raison ou à l'occasion de son activité professionnelle ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette définition est plus large que celle énoncée à l'article 2 de la loi du 12 avril 1965 concernant la protection de la rémunération des travailleurs, selon laquelle il y a lieu d'entendre par \" rémunération \", outre le salaire en espèces et le pourboire ou service, les avantages évaluables en argent auxquels le travailleur a droit à charge de l'employeur en raison de son engagement ;</p>",
+          "<p class=\"case-section__paragraph\">Que cette dernière disposition légale étend la notion de rémunération ci avant définie aux avantages en argent ou évaluables en argent auxquels on peut prétendre à charge de l'employeur en raison de l'engagement, bien qu'ils ne soient pas accordés à titre de contrepartie pour le travail effectué ;</p>",
+          "<p class=\"case-section__paragraph\">Que ne déroge pas à la définition précitée, la circonstance que lesdits avantages ont été accordés unilatéralement par l'employeur en dehors de la fixation contractuelle normale de la rémunération et par dérogation aux formes traditionnelles de rémunération, en application du droit des sociétés, au moyen de parts bénéficiaires et en fonction des bénéfices qui doivent normalement être attribués aux actionnaires (cf. Cass. 12 septembre 1995, Pas., p. 793) ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que les avantages de toute nature obtenus à l'occasion d'une activité professionnelle (article 26 du Code des impôts sur les revenus (1964)) incluent à l'évidence les avantages en argent ou évaluables en argent auxquels on peut prétendre à charge de l'employeur en raison de l'engagement, bien qu'ils ne soient pas accordés à titre de contrepartie pour le travail effectué (article 2 de la loi du 12 avril 1965);</p>",
+          "<p class=\"case-section__paragraph\">Que dès lors, l'octroi unilatéral d'avantages par l'employeur, par le même moyen de parts bénéficiaires, entre également dans la notion de rémunération au sens de l'article 26 du Code des impôts sur les revenus (1964) ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que selon l'article 26 du Code des impôts sur les revenus (1964) (articles 30 et 31 du Code des impôts sur les revenus (1992)), les rémunérations sont, quels qu'en soient le débiteur, la qualification et les modalités de détermination et d'octroi, toutes celles qui constituent pour le travailleur, le produit d'un travail au service d'un employeur, et comprennent notamment les avantages de toute nature que le travailleur obtient en raison ou à l'occasion de son activité professionnelle ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette définition est plus large que celle énoncée à l'article 2 de la loi du 12 avril 1965 concernant la protection de la rémunération des travailleurs, selon laquelle il y a lieu d'entendre par \" rémunération \", outre le salaire en espèces et le pourboire ou service, les avantages évaluables en argent auxquels le travailleur a droit à charge de l'employeur en raison de son engagement ;</p>",
+          "<p class=\"case-section__paragraph\">Que cette dernière disposition légale étend la notion de rémunération ci avant définie aux avantages en argent ou évaluables en argent auxquels on peut prétendre à charge de l'employeur en raison de l'engagement, bien qu'ils ne soient pas accordés à titre de contrepartie pour le travail effectué ;</p>",
+          "<p class=\"case-section__paragraph\">Que ne déroge pas à la définition précitée, la circonstance que lesdits avantages ont été accordés unilatéralement par l'employeur en dehors de la fixation contractuelle normale de la rémunération et par dérogation aux formes traditionnelles de rémunération, en application du droit des sociétés, au moyen de parts bénéficiaires et en fonction des bénéfices qui doivent normalement être attribués aux actionnaires (cf. Cass. 12 septembre 1995, Pas., p. 793) ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que les avantages de toute nature obtenus à l'occasion d'une activité professionnelle (article 26 du Code des impôts sur les revenus (1964)) incluent à l'évidence les avantages en argent ou évaluables en argent auxquels on peut prétendre à charge de l'employeur en raison de l'engagement, bien qu'ils ne soient pas accordés à titre de contrepartie pour le travail effectué (article 2 de la loi du 12 avril 1965);</p>",
+          "<p class=\"case-section__paragraph\">Que dès lors, l'octroi unilatéral d'avantages par l'employeur, par le même moyen de parts bénéficiaires, entre également dans la notion de rémunération au sens de l'article 26 du Code des impôts sur les revenus (1964) ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que cette définition est plus large que celle énoncée à l'article 2 de la loi du 12 avril 1965 concernant la protection de la rémunération des travailleurs, selon laquelle il y a lieu d'entendre par \" rémunération \", outre le salaire en espèces et le pourboire ou service, les avantages évaluables en argent auxquels le travailleur a droit à charge de l'employeur en raison de son engagement ;</p>",
+          "<p class=\"case-section__paragraph\">Que cette dernière disposition légale étend la notion de rémunération ci avant définie aux avantages en argent ou évaluables en argent auxquels on peut prétendre à charge de l'employeur en raison de l'engagement, bien qu'ils ne soient pas accordés à titre de contrepartie pour le travail effectué ;</p>",
+          "<p class=\"case-section__paragraph\">Que ne déroge pas à la définition précitée, la circonstance que lesdits avantages ont été accordés unilatéralement par l'employeur en dehors de la fixation contractuelle normale de la rémunération et par dérogation aux formes traditionnelles de rémunération, en application du droit des sociétés, au moyen de parts bénéficiaires et en fonction des bénéfices qui doivent normalement être attribués aux actionnaires (cf. Cass. 12 septembre 1995, Pas., p. 793) ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que les avantages de toute nature obtenus à l'occasion d'une activité professionnelle (article 26 du Code des impôts sur les revenus (1964)) incluent à l'évidence les avantages en argent ou évaluables en argent auxquels on peut prétendre à charge de l'employeur en raison de l'engagement, bien qu'ils ne soient pas accordés à titre de contrepartie pour le travail effectué (article 2 de la loi du 12 avril 1965);</p>",
+          "<p class=\"case-section__paragraph\">Que dès lors, l'octroi unilatéral d'avantages par l'employeur, par le même moyen de parts bénéficiaires, entre également dans la notion de rémunération au sens de l'article 26 du Code des impôts sur les revenus (1964) ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-004",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CAMON:1999:ARR.19990430.1-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que l'assemblée générale des actionnaires de la S.A. Lixon, tenue le 9 juin 1988, a décidé d'introduire dans les statuts de la société une disposition autorisant la création de parts bénéficiaires au porteur, à coupon unique, pouvant être attribuées à des membres du personnel et aux administrateurs, étant précisé notamment que ces parts ne sont pas représentatives du capital social et ne donnent droit qu'au paiement d'un dividende pour l'exercice social mentionné dans le titre, que chaque part s'éteint par l'effet de ce paiement comme en l'absence de dividende, que l'assemblée générale détermine la date de la création des parts bénéficiaires, leur nombre et le montant du dividende y afférent et que les parts bénéficiaires seront cessibles dans les limites et selon les formes prévues par la loi, conformément au prescrit de l'article 47 des loi coordonnées sur les sociétés commerciales (cf. pièce 1 du dossier complémentaire déposé par les requérants le 13 mars 1995 au greffe de la cour) ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Que, d'autre part, l'administration n'entend pas établir une nouvelle taxation sur une même assiette, mais bien, déterminer la nature exacte des revenus recueillis pour leur appliquer la taxation adéquate, et accorder ensuite les dégrèvements d'office prévus à l'article 277 § 1er du Code des impôts sur les revenus (1964), d'autant qu'il n'est pas contesté que la S.A. Lixon a, de son côté, introduit une réclamation conservatoire contre les impositions auxquelles elle s'est soumise ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Statuant contradictoirement, Vu l'article 24 bis de la loi du 15 juin 1935 relative à l'emploi des langues en matière judiciaire, Reçoit le recours ; Annule la décision directoriale attaquée ; Et statuant par voie de dispositions nouvelles, Déclare la réclamation et le recours non fondés ; Condamne les requérants aux frais.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:1999:ARR.19990430.1-007"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 7,
+      "citationStatistics": {
+        "totalCitations": 27,
+        "avgCitationsPerProvision": 3.857142857142857,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.7142857142857144,
+        "avgDecisionsPerProvision": 0.5714285714285714,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:1999:ARR.19990430.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu qu'il ressort de la lettre adressée par télécopie le 25 novembre 1992 au directeur régional des contributions de Charleroi par son administration centrale que celle-ci, avant que la décision attaquée ne soit rendue, a pris une position nette sur le fond du litige, et donné les injonctions que cette position impliquait (cf. pièce annexée aux conclusions additionnelles des requérants : compte tenu de la requalification des revenus dont question ci-avant (rémunérations au lieu de dividendes), vous voudrez bien inviter le fonctionnaire taxateur intéressé à procéder à la régularisation appropriée de la situation fiscale de la société en cause) ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu qu'il peut se déduire de cette attitude le l'administration centrale que l'auteur de la décision attaquée n'a pas bénéficié en l'occurrence de l'indépendance nécessaire pour garantir son impartialité dans l'exercice de la fonction juridictionnelle qui était la sienne (cf. Cass. 26 juin 1998, J.T. 1998, p. 677) ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu qu'il convient en conséquence d'annuler la décision attaquée et de statuer par voie de dispositions nouvelles ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que le grief relatif à la violation d'une règle essentielle de fonctionnement d'une autorité juridictionnelle peut, y compris en matière fiscale, être invoquée à tout moment de la procédure, et même pour la première fois devant la Cour de cassation (cf. Cass. 23 mars 1990, Pas., p. 867) ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:1999:ARR.19990430.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que la rémunération est la contrepartie du travail effectué en exécution d'un contrat de travail ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que selon l'article 26 du Code des impôts sur les revenus (1964) (articles 30 et 31 du Code des impôts sur les revenus (1992)), les rémunérations sont, quels qu'en soient le débiteur, la qualification et les modalités de détermination et d'octroi, toutes celles qui constituent pour le travailleur, le produit d'un travail au service d'un employeur, et comprennent notamment les avantages de toute nature que le travailleur obtient en raison ou à l'occasion de son activité professionnelle ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette définition est plus large que celle énoncée à l'article 2 de la loi du 12 avril 1965 concernant la protection de la rémunération des travailleurs, selon laquelle il y a lieu d'entendre par \" rémunération \", outre le salaire en espèces et le pourboire ou service, les avantages évaluables en argent auxquels le travailleur a droit à charge de l'employeur en raison de son engagement ;</p>",
+          "<p class=\"case-section__paragraph\">Que cette dernière disposition légale étend la notion de rémunération ci avant définie aux avantages en argent ou évaluables en argent auxquels on peut prétendre à charge de l'employeur en raison de l'engagement, bien qu'ils ne soient pas accordés à titre de contrepartie pour le travail effectué ;</p>",
+          "<p class=\"case-section__paragraph\">Que ne déroge pas à la définition précitée, la circonstance que lesdits avantages ont été accordés unilatéralement par l'employeur en dehors de la fixation contractuelle normale de la rémunération et par dérogation aux formes traditionnelles de rémunération, en application du droit des sociétés, au moyen de parts bénéficiaires et en fonction des bénéfices qui doivent normalement être attribués aux actionnaires (cf. Cass. 12 septembre 1995, Pas., p. 793) ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que les avantages de toute nature obtenus à l'occasion d'une activité professionnelle (article 26 du Code des impôts sur les revenus (1964)) incluent à l'évidence les avantages en argent ou évaluables en argent auxquels on peut prétendre à charge de l'employeur en raison de l'engagement, bien qu'ils ne soient pas accordés à titre de contrepartie pour le travail effectué (article 2 de la loi du 12 avril 1965);</p>",
+          "<p class=\"case-section__paragraph\">Que dès lors, l'octroi unilatéral d'avantages par l'employeur, par le même moyen de parts bénéficiaires, entre également dans la notion de rémunération au sens de l'article 26 du Code des impôts sur les revenus (1964) ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:1999:ARR.19990430.1-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que selon l'article 26 du Code des impôts sur les revenus (1964) (articles 30 et 31 du Code des impôts sur les revenus (1992)), les rémunérations sont, quels qu'en soient le débiteur, la qualification et les modalités de détermination et d'octroi, toutes celles qui constituent pour le travailleur, le produit d'un travail au service d'un employeur, et comprennent notamment les avantages de toute nature que le travailleur obtient en raison ou à l'occasion de son activité professionnelle ;</p>",
+          "<p class=\"case-section__paragraph\">Que ne déroge pas à la définition précitée, la circonstance que lesdits avantages ont été accordés unilatéralement par l'employeur en dehors de la fixation contractuelle normale de la rémunération et par dérogation aux formes traditionnelles de rémunération, en application du droit des sociétés, au moyen de parts bénéficiaires et en fonction des bénéfices qui doivent normalement être attribués aux actionnaires (cf. Cass. 12 septembre 1995, Pas., p. 793) ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu qu'il en est d'autant plus ainsi lorsque, comme en l'espèce, l'existence même des parts bénéficiaires et leur valeur sont indissociables de la décision d'octroi d'un dividende ;</p>",
+          "<p class=\"case-section__paragraph\">Que c'est en effet une même assemblée générale de la S.A. Lixon qui, par une décision unique, arrête, pour un seul exercice, à la fois la création de parts bénéficiaires, leur nombre et le montant du dividende y afférent (cf. dossier complémentaire des requérants, pièces 4 et 5) ;</p>",
+          "<p class=\"case-section__paragraph\">Que ces parts n'ont ainsi aucune existence indépendante et autonome entre leur création et l'attribution du dividende, seule la mise en paiement de celui-ci étant retardée de quelques jours ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que la distinction que les requérants voudraient faire entre l'attribution de parts bénéficiaires, qu'ils reconnaissent être imposable au titre de revenu professionnel, et l'attribution de dividendes devient de ce fait sans intérêt, la valeur des parts bénéficiaires étant dès l'origine exactement la même que celle des dividendes qui y sont attachés, et l'attribution des unes comme des autres ayant lieu chaque fois au cours d'un même exercice fiscal ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 17,
+        "avgCitationsPerTeaching": 5.666666666666667,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 7,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 4,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

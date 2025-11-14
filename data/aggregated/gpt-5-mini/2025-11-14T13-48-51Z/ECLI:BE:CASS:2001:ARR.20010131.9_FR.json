@@ -1,0 +1,562 @@
+{
+  "decision_id": "ECLI:BE:CASS:2001:ARR.20010131.9",
+  "language": "FR",
+  "metadata": {
+    "id": 3626,
+    "court_ecli_code": "CASS",
+    "court_name": "Cour de cassation",
+    "decision_date": "2001-01-31",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 18098,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cass., 31 janvier 2001, P.00.1540.F, ECLI:BE:CASS:2001:ARR.20010131.9"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CASS:2001:ARR.20010131.9-001",
+        "name": "I. A. B",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR_EN_CASSATION"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+        "name": "B. A. M.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR_EN_CASSATION"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Les deux prévenus, I. A. B. et B. A. M., ont été mis en cause dans diverses affaires de vols et tentatives de vol (notamment des faits commis le 9 juin 1998 et le 24 septembre 1998). Des prélèvements salivaires ont été effectués, avec consentement, pour expertise génétique; des traces d'ADN ont été trouvées sur des cagoules abandonnées sur les lieux des faits et comparées aux profils des prévenus. L'expert judiciaire, chargé de ces analyses, disposait de profils génétiques et a communiqué au juge d'instruction des constatations, y compris des concordances avec des faits différents de ceux initialement visés. Les juridictions d'instruction et d'appel ont rendu, les 25 novembre 1997, 25 octobre 1999 et par arrêt du 18 octobre 2000, des décisions statuant sur la recevabilité des poursuites, la validité des expertises génétiques, la conservation de profils et l'utilisation des comparaisons; les prévenus ont formé des pourvois en cassation contre ces ordonnances et l'arrêt d'appel.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2001:ARR.20010131.9-001",
+          "argument": "Moyen de procédure tiré de l'article 417 du Code d'instruction criminelle : le pourvoi dirigé contre les ordonnances rendues les 25 novembre 1997 et 25 octobre 1999 serait irrégulier car la déclaration de recours en cassation n'aurait pas été faite au greffe de la juridiction ayant rendu la décision attaquée, mais au greffe de la cour d'appel, violant ainsi la formalité substantielle prescrite par la loi.",
+          "treatment": "IRRECEVABLE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2001:ARR.20010131.9-001",
+          "argument": "Moyens de fond critiquant l'utilisation des prélèvements salivaires et des expertises génétiques : l'atteinte au droit au respect de la vie privée (art. 8 CEDH) en cas de prélèvement salivaire et conservation de profils; l'absence de base légale interdisant la conservation par un expert; la violation du secret professionnel par l'expert communiquant des éléments d'une mission antérieure; l'excès de pouvoir de l'expert ayant communiqué une concordance avec des faits distincts; et la contestation du caractère éclairé et limité du consentement au prélèvement et à l'usage ultérieur du profil génétique.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+          "argument": "Moyen de procédure tiré de l'article 417 du Code d'instruction criminelle : le pourvoi dirigé contre l'ordonnance du 25 octobre 1999 serait irrecevable parce que la déclaration de recours en cassation aurait été faite au greffe de la cour d'appel et non au greffe de la juridiction ayant rendu la décision attaquée, manquement à une formalité substantielle.",
+          "treatment": "IRRECEVABLE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+          "argument": "Moyens de fond similaires à ceux du co-prévenu : contestation du caractère éclairé et de la portée du consentement au prélèvement corporel et à l'utilisation du profil génétique pour des comparaisons ultérieures, critique de la motivation concernant la fiabilité et la valeur probante des expertises génétiques, allégations de manque d'éléments matériels à charge hormis le rapport d'expertise, et contestation d'éléments de preuve (véhicule, objets saisis) mis en corrélation avec les faits reprochés.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS,\n\nRejette les pourvois ;\nCondamne chacun des demandeurs aux frais de son pourvoi ;\nLesdits frais taxés à la somme de six mille dix-huit francs, dont I) sur le pourvoi de A. à la somme de trois mille neuf francs dus et II) sur le pourvoi de B. A. à la somme de trois mille neuf francs dus.",
+      "outcome": "REJET"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2001:ARR.20010131.9-001",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2001:ARR.20010131.9-001",
+        "provisionNumber": "article 417",
+        "provisionNumberKey": "417",
+        "parentActType": "CODE",
+        "parentActName": "Code d'instruction criminelle",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 417 du Code d'instruction criminelle comme imposant que la déclaration de pourvoi en cassation soit faite au greffe de la juridiction ayant rendu la décision attaquée; cette formalité est substantielle et son non-respect entraîne l'irrecevabilité du pourvoi.",
+        "relevantFactualContext": "Le pourvoi litigieux avait été déclaré au greffe de la cour d'appel et non au greffe de la juridiction ayant rendu la décision attaquée ; la Cour en déduit que la formalité substantielle n'ayant pas été respectée, le pourvoi est irrecevable."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+        "provisionNumber": "article 8.2",
+        "provisionNumberKey": "8.2",
+        "parentActType": "TRAITE",
+        "parentActName": "Convention de sauvegarde des droits de l'homme et des libertés fondamentales (Convention européenne des droits de l'homme - CEDH)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour précise que l'article 8.2 CEDH, relatif au droit au respect de la vie privée, n'interdit pas ipso facto le prélèvement salivaire; lorsque ce prélèvement est effectué avec le consentement libre et éclairé de la personne, il ne constitue pas l'immixtion prohibée par la disposition, et ce consentement peut valablement autoriser des comparaisons génétiques ultérieures dans le cadre de l'instruction.",
+        "relevantFactualContext": "Le prélèvement salivaire a été effectué sur les prévenus avec leur consentement exprès pour les besoins de l'instruction; les juges d'appel ont constaté que le consentement était suffisamment éclairé et ont admis des comparaisons ultérieures des profils génétiques ayant conduit à des concordances avec des empreintes retrouvées sur des cagoules liées aux faits."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2001:ARR.20010131.9-003",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+        "provisionNumber": "article 8",
+        "provisionNumberKey": "8",
+        "parentActType": "TRAITE",
+        "parentActName": "Convention de sauvegarde des droits de l'homme et des libertés fondamentales (CEDH)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour retient que le droit au respect de la vie privée garanti par l'article 8 CEDH n'empêche pas l'utilisation, dans le cadre d'une même instruction, d'un prélèvement corporel obtenu par consentement libre et éclairé pour de nouvelles comparaisons; le juge d'instruction n'est pas tenu de redemander ce consentement à chaque nouvel usage lorsque les besoins de l'instruction le justifient.",
+        "relevantFactualContext": "Un échantillon ADN prélevé avec consentement a été conservé et utilisé pour des comparaisons ultérieures dans l'enquête ; ces comparaisons ont permis d'établir des concordances avec des traces (cagoules) relevant d'autres faits dont le juge d'instruction était saisi."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2001:ARR.20010131.9-004",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2001:ARR.20010131.9-003",
+        "provisionNumber": "article 149",
+        "provisionNumberKey": "149",
+        "parentActType": "CONSTITUTION",
+        "parentActName": "Constitution belge",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour estime que l'article 149 de la Constitution est étranger à l'examen de la pertinence de la motivation critiquée; il n'apporte rien à la contestation de la motivation de l'arrêt et, en conséquence, l'argument fondé sur cet article manque en droit.",
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "chambre du conseil du tribunal de première instance de Bruxelles",
+        "date": "1997-11-25",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2001:ARR.20010131.9-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "chambre du conseil du tribunal de première instance de Bruxelles",
+        "date": "1999-10-25",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2001:ARR.20010131.9-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "cour d'appel de Bruxelles, chambre correctionnelle",
+        "date": "2000-10-18",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2001:ARR.20010131.9-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit pénal",
+      "Prélèvement salivaire",
+      "Expertise génétique",
+      "Comparaisons ADN ultérieures",
+      "Empreintes ADN sur cagoule",
+      "Consentement éclairé",
+      "Atteinte vie privée",
+      "Conservation profils génétiques",
+      "Admissibilité preuve ADN",
+      "Banque de données expert"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2001:ARR.20010131.9-001",
+        "text": "La déclaration de recours en cassation doit être faite au greffe de la juridiction ayant rendu la décision attaquée ; cette formalité prescrite par la loi est substantielle et son non-respect entraîne l'irrecevabilité du pourvoi.",
+        "courtVerbatim": "Attendu que, en vertu de l'article 417 du Code d'instruction criminelle, la déclaration de recours en cassation doit être faite au greffe de la juridiction ayant rendu la décision attaquée ; Attendu que cette formalité prescrite par la loi est substantielle ; Que, déclaré au greffe de la cour d'appel, le pourvoi est irrecevable ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une déclaration de pourvoi en cassation n'est pas déposée au greffe de la juridiction ayant rendu la décision attaquée.",
+        "relevantFactualContext": "Le pourvoi litigieux avait été déclaré au greffe de la cour d'appel et non au greffe de la juridiction ayant rendu la décision attaquée ; la Cour en déduit que la formalité substantielle n'ayant pas été respectée, le pourvoi est irrecevable.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+        "text": "Un prélèvement corporel effectué avec le consentement libre et éclairé de la personne ne constitue pas ipso facto une ingérence prohibée par l'article 8 CEDH ; lorsqu'un tel consentement a été valablement recueilli dans le cadre d'une information ou d'une instruction pénale, il peut valablement autoriser la conservation et des comparaisons génétiques ultérieures dans le même dossier, sans qu'il soit nécessaire de redemander le consentement pour chaque nouvel emploi lorsque les besoins de l'instruction le justifient.",
+        "courtVerbatim": "Attendu que l'arrêt ne décide pas que le prélèvement salivaire aux fins d'expertise génétique ne constitue pas une ingérence dans l'exercice du droit au respect de la vie privée au sens de l'article 8.2 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales ; qu'à cet égard, les juges d'appel ont uniquement décidé qu'un tel prélèvement ne saurait constituer l'immixtion qu'interdit la disposition conventionnelle précitée, lorsque la personne protégée y a consenti, ce que l'arrêt constate ; ... ni le principe général du droit interdisant toute contrainte exercée sur la personne, ni le droit au respect de la vie privée garanti par l'article 8 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales, dont relève le droit au respect de l'intégrité physique, ni aucune disposition légale en vigueur, n'obligent le juge d'instruction, après avoir recueilli ce consentement de l'inculpé, à le lui redemander chaque fois que les besoins de l'instruction nécessitent une nouvelle comparaison de l'échantillon régulièrement prélevé ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un prélèvement corporel destiné à une expertise génétique a été obtenu par consentement libre et éclairé dans le cadre d'une information ou instruction pénale et qu'on envisage des comparaisons ultérieures.",
+        "relevantFactualContext": "Le prélèvement salivaire a été effectué sur les prévenus avec leur consentement exprès pour les besoins de l'instruction; les juges d'appel ont constaté que le consentement était suffisamment éclairé et ont admis des comparaisons ultérieures des profils génétiques ayant conduit à des concordances.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2001:ARR.20010131.9-003",
+        "text": "L'expert judiciaire commis par le juge d'instruction n'est pas tenu au secret professionnel à l'égard de l'autorité qui l'a requis et, dans l'exécution de sa mission, peut communiquer au juge d'instruction les renseignements et constatations dont il a eu connaissance lors d'une mission précédente, pour autant que ces éléments portent sur des faits dont le juge était saisi ; ces communications n'empiètent pas sur le domaine de la juridiction ni ne font de l'expert le mandataire du juge.",
+        "courtVerbatim": "Attendu que l'expert judiciaire n'est pas tenu au secret professionnel vis-à-vis de l'autorité qui l'a requis ; Que, partant, l'expert commis par un juge d'instruction ne viole pas le secret professionnel auquel il est tenu en communiquant à ce juge, dans l'exécution de sa mission d'expertise, des renseignements et des faits dont il a eu connaissance dans l'accomplissement d'une mission précédente ; Attendu que, pour le surplus, l'expert n'est pas le mandataire du juge ; ... Attendu que l'expert n'a pu empiéter sur le domaine de la juridiction puisqu'il s'est borné à communiquer au juge d'instruction, dans l'exécution de sa mission d'expertise, des constatations relatives aux faits dont ce magistrat était saisi ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un expert judiciaire requiert de communiquer au juge des constatations antérieures portant sur des faits déjà soumis à la compétence de ce juge.",
+        "relevantFactualContext": "L'expert, requis pour comparer le profil génétique du demandeur avec des traces relatives au 9 juin 1998, a indiqué qu'il s'identifiait néanmoins avec des empreintes découvertes en rapport avec une autre infraction (24 septembre 1998) dont le juge d'instruction était également saisi ; la Cour a jugé que ces communications relevaient de l'exécution de sa mission.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2001:ARR.20010131.9-004",
+        "text": "Les données relatives à des profils génétiques conservées par un expert judiciaire qu'il a été chargé d'analyser ne sont pas, en elles‑mêmes, interdites par la loi du 8 décembre 1992 sur la protection de la vie privée ; cette conservation peut être utilisée pour des comparaisons ultérieures dans le cadre d'une même information ou instruction pénale lorsque les conditions procédurales et le consentement applicable sont respectés.",
+        "courtVerbatim": "Attendu que, pour le surplus, la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel n'interdit pas la conservation par un expert judiciaire de données relatives à des profils génétiques qu'il a été chargé d'analyser ; Attendu que, en tant qu'il reproche à l'arrêt de décider que \"les profils génétiques litigieux provenaient d'une banque de données tenue par l'expert\" et de cautionner \"l'utilisation d'une banque de données\", le moyen procède d'une lecture inexacte de l'arrêt et manque, dès lors, en fait ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque des données génétiques, issues d'un prélèvement effectué en instruction, sont conservées par l'expert qui les a analysées et utilisées pour des comparaisons ultérieures dans le même dossier.",
+        "relevantFactualContext": "Un échantillon ADN prélevé avec consentement a été conservé par l'expert et utilisé pour des comparaisons ultérieures qui ont permis d'établir des concordances avec des traces retrouvées sur des cagoules liées aux faits ; la Cour a jugé que la loi de 1992 n'interdit pas cette conservation par l'expert judiciaire.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2001:ARR.20010131.9-005",
+        "text": "Les expertises génétiques présentent un niveau élevé de fiabilité, mais leurs résultats ne sauraient, en règle générale, fonder à eux seuls la conviction des juridictions pénales s'ils ne sont étayés par d'autres éléments de l'enquête ou s'ils sont contredits ; le juge peut cependant, en combinant les données génétiques avec d'autres éléments matériels et factuels du dossier, légitimement fonder sa décision.",
+        "courtVerbatim": "qu'il est généralement admis que les expertises génétiques présentent, à l'heure actuelle, un niveau élevé de fiabilité et de certitude, même si, d'une manière générale, les résultats d'une expertise ne peuvent à eux seuls suffire à asseoir la conviction des juridictions pénales, s'ils ne sont étayés par aucun autre élément ou s'ils sont contredits par d'autres données de l'enquête ; qu'outre les données des expertises génétiques, il y a lieu de souligner, (...) qu'en ce qui concerne le prévenu B. A. M., il y a lieu de retenir que diverses armes, des munitions, un scanner et une paire de menottes, ainsi que des liens de type \"colson\", peuvent être mis en corrélation avec la commission de faits tout à fait similaires ... ; qu'enfin, il convient de préciser qu'aucun des deux prévenus ... ne dispose d'un quelconque alibi\" ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors de l'appréciation probante d'un rapport d'expertise génétique présenté comme élément central de preuve dans une instruction pénale.",
+        "relevantFactualContext": "Les juges d'appel ont motivé leur condamnation en s'appuyant sur les résultats de l'expertise génétique conjugués à d'autres éléments matériels (armes, munitions, scanner, menottes, absence d'alibi) présents au dossier.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 5,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 5,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Les demandeurs, prévenus ayant formé des pourvois en cassation, contestaient des décisions pénales portant sur le prélèvement salivaire en vue d’une expertise génétique, l’utilisation ultérieure des profils et des vices de procédure. La Cour rejette les pourvois, déclare irrecevables ceux dont la déclaration a été déposée au greffe de la cour d’appel en violation de l’article 417 du Code d’instruction criminelle, et confirme la validité des expertises obtenues avec un consentement libre et éclairé. Elle retient en outre que le consentement permet des comparaisons ultérieures, que l’expert peut conserver des profils génétiques et communiquer ses constatations au juge d’instruction sans violer le secret professionnel."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2001:ARR.20010131.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que, en vertu de l'article 417 du Code d'instruction criminelle, la déclaration de recours en cassation doit être faite au greffe de la juridiction ayant rendu la décision attaquée;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette formalité prescrite par la loi est substantielle; Que, déclaré au greffe de la cour d'appel, le pourvoi est irrecevable;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que, en vertu de l'article 417 du Code d'instruction criminelle, la déclaration de recours en cassation doit être faite au greffe de la juridiction ayant rendu la décision attaquée;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette formalité prescrite par la loi est substantielle; Que, déclaré au greffe de la cour d'appel, le pourvoi est irrecevable;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2001:ARR.20010131.9-001",
+          "DEC-ECLI:BE:CASS:2001:ARR.20010131.9-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que l'arrêt ne décide pas que le prélèvement salivaire aux fins d'expertise génétique ne constitue pas une ingérence dans l'exercice du droit au respect de la vie privée au sens de l'article 8.2 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales; qu'à cet égard, les juges d'appel ont uniquement décidé qu'un tel prélèvement ne saurait constituer l'immixtion qu'interdit la disposition conventionnelle précitée, lorsque la personne protégée y a consenti, ce que l'arrêt constate; Que le moyen, qui repose sur une lecture inexacte de l'arrêt, manque en fait;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que, pour le surplus, la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel n'interdit pas la conservation par un expert judiciaire de données relatives à des profils génétiques qu'il a été chargé d'analyser; Que, dans cette mesure, le moyen manque en droit;</p>",
+          "<p class=\"case-section__paragraph\">Attendu qu'après avoir constaté que \"le prélèvement salivaire (a été) effectué sur (la) personne (des demandeurs) avec leur consentement exprès pour les besoins de l'instruction, aux fins d'expertise génétique\", l'arrêt énonce que \"le consentement a été donné de manière suffisamment éclairée\" et qu\"\"il apparaît qu'à aucun moment, les prévenus n'ont exprimé leur volonté de subordonner leur consentement à l'utilisation exclusive de leur profil génétique dans le cadre des faits dont ils étaient soupçonnés; qu'au demeurant, les intéressés ne pouvaient raisonnablement ignorer que, comme pour les spécimens d'écriture ou pour les empreintes dactyloscopiques, les empreintes d'ADN peuvent servir à des comparaisons ultérieures, dans le cadre d'autres faits\"; Qu'ainsi, les juges d'appel ont répondu aux conclusions visées aux deux branches du moyen et ont motivé régulièrement et justifié légalement leur décision; Que, dans cette mesure, le moyen ne peut être accueilli;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que, pour le surplus, lorsqu'un inculpé a expressément consenti à un prélèvement corporel en vue d'une analyse ADN et accepté que son profil génétique puisse être comparé avec les traces relevées sur les lieux d'un fait criminel, ni le principe général du droit interdisant toute contrainte exercée sur la personne, ni le droit au respect de la vie privée garanti par l'article 8 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales, dont relève le droit au respect de l'intégrité physique, ni aucune disposition légale en vigueur, n'obligent le juge d'instruction, après avoir recueilli ce consentement de l'inculpé, à le lui redemander chaque fois que les besoins de l'instruction nécessitent une nouvelle comparaison de l'échantillon régulièrement prélevé; Qu'à cet égard, le moyen, en cette branche, manque en droit;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2001:ARR.20010131.9-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2001:ARR.20010131.9-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que l'arrêt ne décide pas que le prélèvement salivaire aux fins d'expertise génétique ne constitue pas une ingérence dans l'exercice du droit au respect de la vie privée au sens de l'article 8.2 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales; qu'à cet égard, les juges d'appel ont uniquement décidé qu'un tel prélèvement ne saurait constituer l'immixtion qu'interdit la disposition conventionnelle précitée, lorsque la personne protégée y a consenti, ce que l'arrêt constate; Que le moyen, qui repose sur une lecture inexacte de l'arrêt, manque en fait;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que, pour le surplus, lorsqu'un inculpé a expressément consenti à un prélèvement corporel en vue d'une analyse ADN et accepté que son profil génétique puisse être comparé avec les traces relevées sur les lieux d'un fait criminel, ni le principe général du droit interdisant toute contrainte exercée sur la personne, ni le droit au respect de la vie privée garanti par l'article 8 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales, dont relève le droit au respect de l'intégrité physique, ni aucune disposition légale en vigueur, n'obligent le juge d'instruction, après avoir recueilli ce consentement de l'inculpé, à le lui redemander chaque fois que les besoins de l'instruction nécessitent une nouvelle comparaison de l'échantillon régulièrement prélevé; Qu'à cet égard, le moyen, en cette branche, manque en droit;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que, aux conclusions du demandeur faisant valoir notamment qu'aucun élément en rapport avec le butin du vol du 8 avril 1998 n'avait été trouvé lors de la perquisition effectuée au domicile du demandeur, que son train de vie n'avait pas été modifié à la suite de ce vol, que concernant les faits du 24 septembre 1998, aucune clé n'avait été retrouvée chez le demandeur, qui n'avait, en outre, pas été reconnu par des témoins, que le seul élément à charge du demandeur résultait du rapport d'expertise déclarant que l'ADN du demandeur \"(était), avec une quasi certitude, identique aux traces trouvées sur deux cagoules abandonnées chacune sur les lieux des faits (...) et qu'à l'exclusion de ce rapport d'expertise, il ne figure aucun élément probant à charge du (demandeur) au dossier répressif\", l'arrêt oppose \"qu'il est généralement admis que les expertises génétiques présentent, à l'heure actuelle, un niveau élevé de fiabilité et de certitude, même si, d'une manière générale, les résultats d'une expertise ne peuvent à eux seuls suffire à asseoir la conviction des juridictions pénales, s'ils ne sont étayés par aucun autre élément ou s'ils sont contredits par d'autres données de l'enquête; qu'outre les données des expertises génétiques, il y a lieu de souligner, (...) qu'en ce qui concerne le prévenu B. A. M., il y a lieu de retenir que diverses armes, des munitions, un scanner et une paire de menottes, ainsi que des liens de type \"colson\", peuvent être mis en corrélation avec la commission de faits tout AG RAVE; fait similaires à ceux au sujet desquels l'expertise génétique n° 980549 le désigne comme porteur d'une cagoule retrouvée, soit sur les lieux des faits, soit à proximité de ceux-ci; (...) qu'enfin, il convient de préciser qu'aucun des deux prévenus qui, par ailleurs se connaissaient au moment des faits, ainsi que le relève le dossier, ne dispose d'un quelconque alibi\"; Qu'ainsi, les juges d'appel ont motivé régulièrement leur décision sans violer la disposition conventionnelle indiquée au moyen; Que le moyen ne peut être accueilli;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-003",
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2001:ARR.20010131.9-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2001:ARR.20010131.9-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que l'article 149 de la Constitution est étranger à la pertinence de la motivation qui seule est critiquée; Qu'en cette branche, le moyen manque en droit;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2001:ARR.20010131.9-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2001:ARR.20010131.9-003"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 4,
+      "citationStatistics": {
+        "totalCitations": 12,
+        "avgCitationsPerProvision": 3,
+        "provisionsWithMinimalCitations": 1,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.5,
+        "avgDecisionsPerProvision": 1.25,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2001:ARR.20010131.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que, en vertu de l'article 417 du Code d'instruction criminelle, la déclaration de recours en cassation doit être faite au greffe de la juridiction ayant rendu la décision attaquée;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette formalité prescrite par la loi est substantielle; Que, déclaré au greffe de la cour d'appel, le pourvoi est irrecevable;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que, en vertu de l'article 417 du Code d'instruction criminelle, la déclaration de recours en cassation doit être faite au greffe de la juridiction ayant rendu la décision attaquée;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette formalité prescrite par la loi est substantielle; Que, déclaré au greffe de la cour d'appel, le pourvoi est irrecevable;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que l'arrêt ne décide pas que le prélèvement salivaire aux fins d'expertise génétique ne constitue pas une ingérence dans l'exercice du droit au respect de la vie privée au sens de l'article 8.2 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales; qu'à cet égard, les juges d'appel ont uniquement décidé qu'un tel prélèvement ne saurait constituer l'immixtion qu'interdit la disposition conventionnelle précitée, lorsque la personne protégée y a consenti, ce que l'arrêt constate; Que le moyen, qui repose sur une lecture inexacte de l'arrêt, manque en fait;</p>",
+          "<p class=\"case-section__paragraph\">Attendu qu'en énonçant que, \"pour le surplus\", la loi permet de recourir à toute forme d'expertise propre à contribuer à la manifestation de la vérité, les juges d'appel ont réservé les cas où la preuve a été recueillie au moyen d'une ingérence illicite dans la vie privée; Que le moyen, qui prête aux juges d'appel la considération suivant laquelle l'expertise en matière pénale ne connaîtrait aucune limite légale, repose sur une lecture inexacte de l'arrêt et manque, dès lors, en fait;</p>",
+          "<p class=\"case-section__paragraph\">Attendu qu'après avoir constaté que \"le prélèvement salivaire (a été) effectué sur (la) personne (des demandeurs) avec leur consentement exprès pour les besoins de l'instruction, aux fins d'expertise génétique\", l'arrêt énonce que \"le consentement a été donné de manière suffisamment éclairée\" et qu'\"il apparaît qu'à aucun moment, les prévenus n'ont exprimé leur volonté de subordonner leur consentement à l'utilisation exclusive de leur profil génétique dans le cadre des faits dont ils étaient soupçonnés; qu'au demeurant, les intéressés ne pouvaient raisonnablement ignorer que, comme pour les spécimens d'écriture ou pour les empreintes dactyloscopiques, les empreintes d'ADN peuvent servir à des comparaisons ultérieures, dans le cadre d'autres faits\"; Qu'ainsi, les juges d'appel ont répondu aux conclusions visées aux deux branches du moyen et ont motivé régulièrement et justifié légalement leur décision; Que, dans cette mesure, le moyen ne peut être accueilli;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que, pour le surplus, lorsqu'un inculpé a expressément consenti à un prélèvement corporel en vue d'une analyse ADN et accepté que son profil génétique puisse être comparé avec les traces relevées sur les lieux d'un fait criminel, ni le principe général du droit interdisant toute contrainte exercée sur la personne, ni le droit au respect de la vie privée garanti par l'article 8 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales, dont relève le droit au respect de l'intégrité physique, ni aucune disposition légale en vigueur, n'obligent le juge d'instruction, après avoir recueilli ce consentement de l'inculpé, à le lui redemander chaque fois que les besoins de l'instruction nécessitent une nouvelle comparaison de l'échantillon régulièrement prélevé; Qu'à cet égard, le moyen, en cette branche, manque en droit;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que le consentement du prévenu à un prélèvement corporel pouvant servir de preuve contre lui doit être donné de manière certaine, libre et éclairée; que cette condition exclut l'utilisation de la ruse ou d'un autre procédé déloyal pour obtenir ce consentement;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que le demandeur n'a pas dénoncé l'utilisation d'un tel procédé; qu'il s'est borné à soutenir que son accord visait exclusivement la comparaison à effectuer avec des traces relatives à un vol avec circonstances aggravantes commis le 9 juin 1998;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que l'arrêt décide que, contrairement à ce que le demandeur a soutenu, son consentement a été donné dans des termes n'excluant pas que son profil génétique puisse être comparé avec des traces génétiques relevées à l'occasion d'autres faits criminels repris dans le dossier de l'instruction;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2001:ARR.20010131.9-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que l'expert judiciaire n'est pas tenu au secret professionnel vis-à-vis de l'autorité qui l'a requis; Que, partant, l'expert commis par un juge d'instruction ne viole pas le secret professionnel auquel il est tenu en communiquant à ce juge, dans l'exécution de sa mission d'expertise, des renseignements et des faits dont il a eu connaissance dans l'accomplissement d'une mission précédente;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que, pour le surplus, l'expert n'est pas le mandataire du juge; Qu'en cette branche, le moyen manque en droit;</p>",
+          "<p class=\"case-section__paragraph\">Attendu qu'en cette branche, le moyen revient à soutenir que l'expertise est entachée d'excès de pouvoir au motif qu'étant requis de comparer le profil génétique du demandeur avec les empreintes génétiques relatives à un vol commis le 9 juin 1998, l'expert, après avoir énoncé que la comparaison demandée s'était avérée négative, a révélé au juge d'instruction qu'en revanche les empreintes du demandeur s'identifiaient avec celles découvertes sur un objet utilisé par les auteurs d'une tentative de vol commise le 24 septembre 1998;</p>",
+          "<p class=\"case-section__paragraph\">Attendu qu'il résulte des énonciations de l'arrêt que le juge d'instruction était également saisi des faits commis le 24 septembre 1998 au moment où il a chargé l'expert de procéder à la comparaison susdite en l'invitant, de surcroît, à \"faire toute suggestion utile au bon déroulement de la mission\";</p>",
+          "<p class=\"case-section__paragraph\">Attendu que l'expert n'a pu empiéter sur le domaine de la juridiction puisqu'il s'est borné à communiquer au juge d'instruction, dans l'exécution de sa mission d'expertise, des constatations relatives aux faits dont ce magistrat était saisi; Que, partant, l'arrêt justifie légalement sa décision de ne pas écarter la preuve ainsi obtenue; Que le moyen, en cette branche, ne peut être accueilli;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2001:ARR.20010131.9-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que l'arrêt se borne à énoncer qu\"il n'existe, au surplus, aucune disposition légale en vigueur interdisant la conservation de données relatives à des profils génétiques, aux fins de comparaisons ultérieures, dans le contexte d'une information ou d'une instruction pénale relative à d'autres faits\";</p>",
+          "<p class=\"case-section__paragraph\">Attendu que, en tant qu'il reproche à l'arrêt de décider que \"les profils génétiques litigieux provenaient d'une banque de données tenue par l'expert\" et de cautionner \"l'utilisation d'une banque de données\", le moyen procède d'une lecture inexacte de l'arrêt et manque, dès lors, en fait;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que, pour le surplus, la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel n'interdit pas la conservation par un expert judiciaire de données relatives à des profils génétiques qu'il a été chargé d'analyser; Que, dans cette mesure, le moyen manque en droit;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:CASS:2001:ARR.20010131.9-002",
+            "ART-ECLI:BE:CASS:2001:ARR.20010131.9-003"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2001:ARR.20010131.9-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu qu'aux conclusions du demandeur faisant valoir notamment qu'aucun élément en rapport avec le butin du vol du 8 avril 1998 n'avait été trouvé lors de la perquisition effectuée au domicile du demandeur, que son train de vie n'avait pas été modifié à la suite de ce vol, que concernant les faits du 24 septembre 1998, aucune clé n'avait été retrouvée chez le demandeur, qui n'avait, en outre, pas été reconnu par des témoins, que le seul élément à charge du demandeur résultait du rapport d'expertise déclarant que l'ADN du demandeur \"(était), avec une quasi certitude, identique aux traces trouvées sur deux cagoules abandonnées chacune sur les lieux des faits (...) et qu'à l'exclusion de ce rapport d'expertise, il ne figure aucun élément probant à charge du (demandeur) au dossier répressif\", l'arrêt oppose \"qu'il est généralement admis que les expertises génétiques présentent, à l'heure actuelle, un niveau élevé de fiabilité et de certitude, même si, d'une manière générale, les résultats d'une expertise ne peuvent à eux seuls suffire à asseoir la conviction des juridictions pénales, s'ils ne sont étayés par aucun autre élément ou s'ils sont contredits par d'autres données de l'enquête; qu'outre les données des expertises génétiques, il y a lieu de souligner, (...) qu'en ce qui concerne le prévenu B. A. M., il y a lieu de retenir que diverses armes, des munitions, un scanner et une paire de menottes, ainsi que des liens de type \"colson\", peuvent être mis en corrélation avec la commission de faits tout AG RAVE; fait similaires à ceux au sujet desquels l'expertise génétique n° 980549 le désigne comme porteur d'une cagoule retrouvée, soit sur les lieux des faits, soit à proximité de ceux-ci; (...) qu'enfin, il convient de préciser qu'aucun des deux prévenus qui, par ailleurs se connaissaient au moment des faits, ainsi que le relève le dossier, ne dispose d'un quelconque alibi\" ; Qu'ainsi, les juges d'appel ont motivé régulièrement leur décision sans violer la disposition conventionnelle indiquée au moyen; Que le moyen ne peut être accueilli;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 5,
+      "citationStatistics": {
+        "totalCitations": 20,
+        "avgCitationsPerTeaching": 4,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 3,
+        "totalProvisionsNotFound": 2,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

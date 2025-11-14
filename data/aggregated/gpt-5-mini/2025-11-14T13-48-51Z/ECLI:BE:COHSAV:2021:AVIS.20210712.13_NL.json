@@ -1,0 +1,707 @@
+{
+  "decision_id": "ECLI:BE:COHSAV:2021:AVIS.20210712.13",
+  "language": "NL",
+  "metadata": {
+    "id": 76218,
+    "court_ecli_code": "COHSAV",
+    "decision_date": "2021-07-12",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Advies",
+    "md_length": 10309,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commissie voor financiële hulp aan slachtoffers van opzettelijke gewelddaden en aan de occasionele redders, 12 juli 2021, M 19-3-1011, ECLI:BE:COHSAV:2021:AVIS.20210712.13"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001",
+        "name": "X. Charlotte",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "name": "Z. Yannick",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "BEKLAAGDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+        "name": "Minister van Justitie",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+        "name": "mr. D. Dimitri",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Verzoekster mevrouw X. Charlotte verklaarde dat zij via Tinder een korte (al dan niet louter seksuele) relatie had met de genaamde Z. Yannick. Tijdens die relatie weigerde zij herhaaldelijk bepaalde seksuele handelingen; na een incident waarbij beklaagde haar hardhandig zou hebben aangepakt verbrak zij alle contact. Zij ontmoette hem nadien nog twee keer, onder meer in een Albert Heijn waar hij haar benaderde, haar volgde naar haar auto en haar achtervolgde, waarna zij niet meer naar huis durfde te rijden. Op 3 mei 2018 legde zij klacht neer tegen beklaagde. Door het strafvonnis van 1 april 2019 van de rechtbank van eerste aanleg werd onder meer ten laste van Z. Yannick de misdaad van verkrachting bewezen geacht voor feiten tegen Charlotte X. (niet nader bepaalde tijdstippen in oktober 2017) en werd hij veroordeeld tot een effectieve gevangenisstraf van 7 jaar en op burgerlijk vlak veroordeeld tot betaling van een schadevergoeding aan verzoekster van € 3.150,00 plus intresten en een rechtsplegingsvergoeding van € 450,00. Verzoekster diende bij de Commissie een verzoekschrift in van 18 september 2019 tot toekenning van financiële hulp wegens schade als gevolg van een opzettelijke gewelddaad; zij verzocht in totaal om een hulp van € 3.748,61 (schadevergoeding € 3.150,00 + intresten) en overlegd bewijsstukken waaronder het vonnis; haar raadsman meldde dat tegenpartij nog in hechtenis zat en dat de gerechtsdeurwaarder daarom geen grosse vroeg; zij bleek evenwel niet gedekt voor insolvabiliteitswaarborg bij haar rechtsbijstandverzekering voor feiten in verband met aanranding van de eerbaarheid.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001",
+          "requests": "Verzoekster verzoekt de Commissie om toekenning van een financiële hulp van € 3.748,61 (schadevergoeding conform vonnis € 3.150,00 + intresten)."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "OP DIE GRONDEN, \n\nDe Commissie,\nGelet op:\n\n- de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken;\n- de artikelen 28 tot 41 van de wet van 1 augustus 1985 houdende fiscale en andere bepalingen, laatst gewijzigd bij de wet van 31 juli 2020;\n- het koninklijk besluit van 18 december 1986 betreffende de commissie voor financiële hulp aan slachtoffers van opzettelijke gewelddaden en aan de occasionele redders, laatst gewijzigd bij koninklijk besluit van 17 mei 2019.\n\nVerklaart het verzoek ontvankelijk en kent verzoekster een hulp toe van $€ 3.125$.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 18 december 1986 betreffende de commissie voor financiële hulp aan slachtoffers van opzettelijke gewelddaden en aan de occasionele redders",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 18 december 1986 betreffende de commissie voor financiële hulp aan slachtoffers van opzettelijke gewelddaden en aan de occasionele redders",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "provisionNumber": "artikel 31",
+        "provisionNumberKey": "31",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 houdende fiscale en andere bepalingen",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "provisionNumber": "artikel 31bis",
+        "provisionNumberKey": "31bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 houdende fiscale en andere bepalingen",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "provisionNumber": "artikel 32",
+        "provisionNumberKey": "32",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 houdende fiscale en andere bepalingen",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer leest artikel 32, §1 als een limitatieve opsomming van de schadeposten waarop de Commissie zich mag baseren bij het toekennen van een financiële hulp; enkel de daarin opgesomde bestanddelen (o.a. morele schade, medische kosten, tijdelijke of blijvende invaliditeit, verlies van inkomsten, esthetische schade, procedurekosten, materiële kosten, schoolverlies en uitzonderlijke onzekerheid) komen in aanmerking. De post 'intresten' wordt expliciet uitgesloten en de Commissie past forfaitaire regels toe (bijv. administratie- en verplaatsingskosten). Verder stelt de Kamer dat de regel dat de bijzaak de hoofdzaak volgt hier niet zonder meer geldt omdat de Staat niet de veroorzaker van de schade is.",
+        "relevantFactualContext": "Verzoekster eiste €3.748,61 (vonnis civiel: €3.150 plus intresten). De Commissie beoordeelde de gevraagde posten volgens artikel 32, sloot intresten uit, hanteerde een forfait van €125 voor administratie/verplaatsing en kende uiteindelijk een hulp van €3.125 toe."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-006",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "provisionNumber": "artikel 33",
+        "provisionNumberKey": "33",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 houdende fiscale en andere bepalingen",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-007",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "provisionNumber": "artikel 33bis",
+        "provisionNumberKey": "33bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 houdende fiscale en andere bepalingen",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-008",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+        "provisionNumber": "artikel 17, § 1",
+        "provisionNumberKey": "17",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-009",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+        "provisionNumber": "artikel 39",
+        "provisionNumberKey": "39",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-010",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+        "provisionNumber": "artikel 42",
+        "provisionNumberKey": "42",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-011",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "provisionNumber": "artikel 28",
+        "provisionNumberKey": "28",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 houdende fiscale en andere bepalingen, laatst gewijzigd bij de wet van 31 juli 2020",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-012",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "provisionNumber": "artikel 41",
+        "provisionNumberKey": "41",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 houdende fiscale en andere bepalingen, laatst gewijzigd bij de wet van 31 juli 2020",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van eerste aanleg",
+        "date": "2019-04-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Raad van State",
+        "date": "2006-12-12",
+        "caseNumber": "nr. 165.787",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Slachtofferhulp",
+      "Verkrachting",
+      "Belaging",
+      "Tinder-contact",
+      "Civiele schadevergoeding",
+      "Aanvraag financiële hulp",
+      "Intresten uitgesloten",
+      "Forfait administratiekosten",
+      "Insolventieverzekering uitgesloten",
+      "Geen volledige schadeloosstelling"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001",
+        "text": "De wetgeving betreffende de toekenning van financiële hulp aan slachtoffers van opzettelijke gewelddaden schept geen subjectief recht op volledige schadeloosstelling maar een discretionaire \"hulp\" op basis van collectieve solidariteit; gevolg is dat volledige vergoeding van het geleden nadeel niet gegarandeerd is en de Commissie billijkheidsoverwegingen toepast.",
+        "courtVerbatim": "De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een administratief orgaan (de Commissie) beoordeelt of een verzoeker aanspraak heeft op financiële hulp krachtens de wet van 1 augustus 1985 en de mate van vergoeding moet vaststellen.",
+        "relevantFactualContext": "Verzoekster vroeg een hulp van €3.748,61 (vonnis civiel: €3.150 plus intresten). De Commissie benadrukte dat volledige schadeloosstelling niet is gegarandeerd en kende op billijke grond een hulp van €3.125 toe.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-006",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-007"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "text": "Artikel 32, §1 van de wet van 1 augustus 1985 bevat een limitatieve opsomming van de schadeposten waarop de Commissie zich kan baseren bij toekenning van financiële hulp; enkel de daar opgesomde bestanddelen komen in aanmerking en de post 'intresten' behoort niet tot de in aanmerking komende schadeposten.",
+        "courtVerbatim": "De Commissie verzekert geen integrale schadeloosstelling. Ze kan, naar billijkheid, een financiële hulp toekennen voor de schadeposten die limitatief zijn opgesomd in artikel 32, § 1, van de wet van 1 augustus 1985. ... De post 'intresten' is daarbij niet opgenomen en komt dus niet in aanmerking voor een financiële hulp. Deze zienswijze van de Commissie ten aanzien van de intresten werd bevestigd bij arrest nr. 165.787 van de Raad van State d.d. 12 december 2006.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer bij een verzoek om financiële hulp geschil bestaat over welke schadeposten onder artikel 32, §1 in aanmerking komen, met name of intresten inbegrepen zijn.",
+        "relevantFactualContext": "Verzoekster baseerde haar aanvraag deels op een civiel vonnis van €3.150 plus intresten; de Commissie beoordeelde de gevraagde posten volgens artikel 32, sloot intresten uit en kende uiteindelijk een hulp van €3.125 toe.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+        "text": "Het civielrechtelijke beginsel dat de bijzaak de hoofdzaak volgt, geldt niet automatisch voor administratieve toekenning van financiële hulp door de Staat; omdat de Staat als schuldenaar van de hulp niet de veroorzaker van de schade is, past de Commissie deze regel niet zonder meer toe bij de vaststelling van de toe te kennen hulp.",
+        "courtVerbatim": "Hieraan kan nog worden toegevoegd dat het principe - dat de bijzaak de hoofdzaak volgt - niet van toepassing is. Immers, de schuldenaar van de toegekende hulp, zijnde de Belgische Staat, is niet de veroorzaker van de schade.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer partijen aanvoeren dat een administratieve hulpbeslissing automatisch moet volgen uit een civiele veroordeling of de daarin vastgestelde schadeposten.",
+        "relevantFactualContext": "Hoewel een civiel vonnis verzoekster een schadevergoeding toekende, oordeelde de Commissie dat zij niet zomaar de civielrechtelijke vaststelling hoeft te volgen omdat de Staat niet de dader is en paste eigen beoordeling toe bij toekenning van €3.125.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+        "text": "Bij de vaststelling van vergoeding voor administratie- en verplaatsingskosten hanteert de Commissie een forfaitair tarief; op grond van haar vaste praktijk past de Commissie een forfait van €125 toe bij de beoordeling van zulke kosten binnen een aanvraag om financiële hulp.",
+        "courtVerbatim": "Conform een constante rechtspraak inzake de post 'administratie- en verplaatsingskosten' hanteert de Commissie haar gebruikelijk forfaitair tarief van $€ 125$.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een verzoek tot vergoeding administratie- en verplaatsingskosten bevat en de Commissie moet bepalen welke forfaitaire waardering te hanteren.",
+        "relevantFactualContext": "Verzoekster vroeg €150 aan administratie- en verplaatsingskosten; in lijn met haar vaste praktijk hanteerde de Commissie het forfait van €125 bij de begroting van de toegekende hulp van €3.125.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser, slachtoffer van een verkrachting waarvoor de dader strafrechtelijk werd veroordeeld en aan wie door de strafrechter een burgerlijke schadevergoeding werd toegewezen, verzoekt de Commissie om financiële hulp. De Commissie verklaart het verzoek ontvankelijk en kent, rekening houdend met artikel 32 van de wet en met uitsluiting van intresten maar met een forfaitaire administratievergoeding, een billijke hulp van €3.125 toe. Kernpunt: de Commissie verleent geen integrale schadeloosstelling maar vergoedt uitsluitend de wettelijk opgesomde schadeposten op basis van het principe van collectieve solidariteit."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001",
+        "relatedFullTextCitations": [
+          "<li>het verslag opgemaakt door de verslaggever op 4 september 2020 overeenkomstig de artikelen 11 en 12 van het K.B. van 18 december 1986;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "relatedFullTextCitations": [
+          "<li>het verslag opgemaakt door de verslaggever op 4 september 2020 overeenkomstig de artikelen 11 en 12 van het K.B. van 18 december 1986;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. De Commissie verzekert geen integrale schadeloosstelling. Ze kan, naar billijkheid, een financiële hulp toekennen voor de schadeposten die limitatief zijn opgesomd in artikel 32, § 1, van de wet van 1 augustus 1985.</p>",
+          "<blockquote class=\"case-quote\">\"Voor de toekenning van een hulp aan de personen als bedoeld in artikel 31, 1°, steunt de commissie uitsluitend op de volgende bestanddelen van de geleden schade: 1° de morele schade; 2° de medische kosten en de ziekenhuiskosten, met inbegrip van de prothesekosten; 3° de tijdelijke of blijvende invaliditeit; 4° een verlies of vermindering aan inkomsten ten gevolge van de tijdelijke of blijvende arbeidsongeschiktheid; 5° de esthetische schade; 6° de procedurekosten met inbegrip van de rechtsplegingsvergoeding; 7° de materiële kosten; 8° de schade die voortvloeit uit het verlies van een of meer schooljaren; 9° de uitzonderlijke schade ten gevolge van het langdurig in het ongewisse blijven omtrent de identiteit en de motieven van de dader of de daders.\"</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-006",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. De Commissie verzekert geen integrale schadeloosstelling. Ze kan, naar billijkheid, een financiële hulp toekennen voor de schadeposten die limitatief zijn opgesomd in artikel 32, § 1, van de wet van 1 augustus 1985.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-006",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. De Commissie verzekert geen integrale schadeloosstelling. Ze kan, naar billijkheid, een financiële hulp toekennen voor de schadeposten die limitatief zijn opgesomd in artikel 32, § 1, van de wet van 1 augustus 1985.</p>",
+          "<blockquote class=\"case-quote\">\"Voor de toekenning van een hulp aan de personen als bedoeld in artikel 31, 1°, steunt de commissie uitsluitend op de volgende bestanddelen van de geleden schade: 1° de morele schade; 2° de medische kosten en de ziekenhuiskosten, met inbegrip van de prothesekosten; 3° de tijdelijke of blijvende invaliditeit; 4° een verlies of vermindering aan inkomsten ten gevolge van de tijdelijke of blijvende arbeidsongeschiktheid; 5° de esthetische schade; 6° de procedurekosten met inbegrip van de rechtsplegingsvergoeding; 7° de materiële kosten; 8° de schade die voortvloeit uit het verlies van een of meer schooljaren; 9° de uitzonderlijke schade ten gevolge van het langdurig in het ongewisse blijven omtrent de identiteit en de motieven van de dader of de daders.\"</blockquote>",
+          "<p class=\"case-section__paragraph\">De post ‘intresten' is daarbij niet opgenomen en komt dus niet in aanmerking voor een financiële hulp. Deze zienswijze van de Commissie ten aanzien van de intresten werd bevestigd bij arrest nr. 165.787 van de Raad van State d.d. 12 december 2006. Hieraan kan nog worden toegevoegd dat het principe - dat de bijzaak de hoofdzaak volgt - niet van toepassing is. Immers, de schuldenaar van de toegekende hulp, zijnde de Belgische Staat, is niet de veroorzaker van de schade. Conform een constante rechtspraak inzake de post ‘administratie- en verplaatsingskosten' hanteert de Commissie haar gebruikelijk forfaitair tarief van euro 125. Rekening houdende enerzijds met de feiten en anderzijds met de door de wet uitgesloten schadeposten, meent de Commissie aan verzoekster in billijkheid een hulp te kunnen toekennen begroot op euro 3.125.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-006",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. De Commissie verzekert geen integrale schadeloosstelling. Ze kan, naar billijkheid, een financiële hulp toekennen voor de schadeposten die limitatief zijn opgesomd in artikel 32, § 1, van de wet van 1 augustus 1985.</p>",
+          "<li>de artikelen 28 tot 41 van de wet van 1 augustus 1985 houdende fiscale en andere bepalingen, laatst gewijzigd bij de wet van 31 juli 2020;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-006",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. De Commissie verzekert geen integrale schadeloosstelling. Ze kan, naar billijkheid, een financiële hulp toekennen voor de schadeposten die limitatief zijn opgesomd in artikel 32, § 1, van de wet van 1 augustus 1985.</p>",
+          "<li>de artikelen 28 tot 41 van de wet van 1 augustus 1985 houdende fiscale en andere bepalingen, laatst gewijzigd bij de wet van 31 juli 2020;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-007",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-005",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-008",
+        "relatedFullTextCitations": [
+          "<li>de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-008",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-009",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-009",
+        "relatedFullTextCitations": [
+          "<li>de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-009",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-008",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-010",
+        "relatedFullTextCitations": [
+          "<li>de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-010",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-008",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-011",
+        "relatedFullTextCitations": [
+          "<li>de artikelen 28 tot 41 van de wet van 1 augustus 1985 houdende fiscale en andere bepalingen, laatst gewijzigd bij de wet van 31 juli 2020;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-011",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-012",
+        "relatedFullTextCitations": [
+          "<li>de artikelen 28 tot 41 van de wet van 1 augustus 1985 houdende fiscale en andere bepalingen, laatst gewijzigd bij de wet van 31 juli 2020;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-012",
+          "ART-ECLI:BE:COHSAV:2021:AVIS.20210712.13-011"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 12,
+      "citationStatistics": {
+        "totalCitations": 17,
+        "avgCitationsPerProvision": 1.4166666666666667,
+        "provisionsWithMinimalCitations": 11,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.5,
+        "avgDecisionsPerProvision": 0.08333333333333333,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:AVIS.20210712.13-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. De Commissie verzekert geen integrale schadeloosstelling. Ze kan, naar billijkheid, een financiële hulp toekennen voor de schadeposten die limitatief zijn opgesomd in artikel 32, § 1, van de wet van 1 augustus 1985.</p>",
+          "<blockquote class=\"case-quote\">\"Voor de toekenning van een hulp aan de personen als bedoeld in artikel 31, 1°, steunt de commissie uitsluitend op de volgende bestanddelen van de geleden schade: 1° de morele schade; 2° de medische kosten en de ziekenhuiskosten, met inbegrip van de prothesekosten; 3° de tijdelijke of blijvende invaliditeit; 4° een verlies of vermindering aan inkomsten ten gevolge van de tijdelijke of blijvende arbeidsongeschiktheid; 5° de esthetische schade; 6° de procedurekosten met inbegrip van de rechtsplegingsvergoeding; 7° de materiële kosten; 8° de schade die voortvloeit uit het verlies van een of meer schooljaren; 9° de uitzonderlijke schade ten gevolge van het langdurig in het ongewisse blijven omtrent de identiteit en de motieven van de dader of de daders.\"</blockquote>",
+          "<p class=\"case-section__paragraph\">De post ‘intresten' is daarbij niet opgenomen en komt dus niet in aanmerking voor een financiële hulp. Deze zienswijze van de Commissie ten aanzien van de intresten werd bevestigd bij arrest nr. 165.787 van de Raad van State d.d. 12 december 2006. Hieraan kan nog worden toegevoegd dat het principe - dat de bijzaak de hoofdzaak volgt - niet van toepassing is. Immers, de schuldenaar van de toegekende hulp, zijende de Belgische Staat, is niet de veroorzaker van de schade. Conform een constante rechtspraak inzake de post ‘administratie- en verplaatsingskosten' hanteert de Commissie haar gebruikelijk forfaitair tarief van euro 125. Rekening houdende enerzijds met de feiten en anderzijds met de door de wet uitgesloten schadeposten, meent de Commissie aan verzoekster in billijkheid een hulp te kunnen toekennen begroot op euro 3.125.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 5,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:AVIS.20210712.13-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. De Commissie verzekert geen integrale schadeloosstelling. Ze kan, naar billijkheid, een financiële hulp toekennen voor de schadeposten die limitatief zijn opgesomd in artikel 32, § 1, van de wet van 1 augustus 1985.</p>",
+          "<blockquote class=\"case-quote\">\"Voor de toekenning van een hulp aan de personen als bedoeld in artikel 31, 1°, steunt de commissie uitsluitend op de volgende bestanddelen van de geleden schade: 1° de morele schade; 2° de medische kosten en de ziekenhuiskosten, met inbegrip van de prothesekosten; 3° de tijdelijke of blijvende invaliditeit; 4° een verlies of vermindering aan inkomsten ten gevolge van de tijdelijke of blijvende arbeidsongeschiktheid; 5° de esthetische schade; 6° de procedurekosten met inbegrip van de rechtsplegingsvergoeding; 7° de materiële kosten; 8° de schade die voortvloeit uit het verlies van een of meer schooljaren; 9° de uitzonderlijke schade ten gevolge van het langdurig in het ongewisse blijven omtrent de identiteit en de motieven van de dader of de daders.\"</blockquote>",
+          "<p class=\"case-section__paragraph\">De post ‘intresten' is daarbij niet opgenomen en komt dus niet in aanmerking voor een financiële hulp. Deze zienswijze van de Commissie ten aanzien van de intresten werd bevestigd bij arrest nr. 165.787 van de Raad van State d.d. 12 december 2006. Hieraan kan nog worden toegevoegd dat het principe - dat de bijzaak de hoofdzaak volgt - niet van toepassing is. Immers, de schuldenaar van de toegekende hulp, zijende de Belgische Staat, is niet de veroorzaker van de schade. Conform een constante rechtspraak inzake de post ‘administratie- en verplaatsingskosten' hanteert de Commissie haar gebruikelijk forfaitair tarief van euro 125. Rekening houdende enerzijds met de feiten en anderzijds met de door de wet uitgesloten schadeposten, meent de Commissie aan verzoekster in billijkheid een hulp te kunnen toekennen begroot op euro 3.125.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:AVIS.20210712.13-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De post ‘intresten' is daarbij niet opgenomen en komt dus niet in aanmerking voor een financiële hulp. Deze zienswijze van de Commissie ten aanzien van de intresten werd bevestigd bij arrest nr. 165.787 van de Raad van State d.d. 12 december 2006. Hieraan kan nog worden toegevoegd dat het principe - dat de bijzaak de hoofdzaak volgt - niet van toepassing is. Immers, de schuldenaar van de toegekende hulp, zijnde de Belgische Staat, is niet de veroorzaker van de schade. Conform een constante rechtspraak inzake de post ‘administratie- en verplaatsingskosten' hanteert de Commissie haar gebruikelijk forfaitair tarief van euro 125. Rekening houdende enerzijds met de feiten en anderzijds met de door de wet uitgesloten schadeposten, meent de Commissie aan verzoekster in billijkheid een hulp te kunnen toekennen begroot op euro 3.125.</p>",
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. De Commissie verzekert geen integrale schadeloosstelling. Ze kan, naar billijkheid, een financiële hulp toekennen voor de schadeposten die limitatief zijn opgesomd in artikel 32, § 1, van de wet van 1 augustus 1985.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:AVIS.20210712.13-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De post ‘intresten' is daarbij niet opgenomen en komt dus niet in aanmerking voor een financiële hulp. Deze zienswijze van de Commissie ten aanzien van de intresten werd bevestigd bij arrest nr. 165.787 van de Raad van State d.d. 12 december 2006. Hieraan kan nog worden toegevoegd dat het principe - dat de bijzaak de hoofdzaak volgt - niet van toepassing is. Immers, de schuldenaar van de toegekende hulp, zijende de Belgische Staat, is niet de veroorzaker van de schade. Conform een constante rechtspraak inzake de post ‘administratie- en verplaatsingskosten' hanteert de Commissie haar gebruikelijk forfaitair tarief van euro 125. Rekening houdende enerzijds met de feiten en anderzijds met de door de wet uitgesloten schadeposten, meent de Commissie aan verzoekster in billijkheid een hulp te kunnen toekennen begroot op euro 3.125.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 10,
+        "avgCitationsPerTeaching": 2.5,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 8,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 1,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

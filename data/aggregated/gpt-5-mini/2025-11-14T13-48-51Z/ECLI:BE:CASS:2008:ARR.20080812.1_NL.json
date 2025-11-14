@@ -1,0 +1,592 @@
+{
+  "decision_id": "ECLI:BE:CASS:2008:ARR.20080812.1",
+  "language": "NL",
+  "metadata": {
+    "id": 84240,
+    "court_ecli_code": "CASS",
+    "court_name": "Hof van Cassatie",
+    "decision_date": "2008-08-12",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 8060,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cass., 12 augustus 2008, P.08.1065.N, ECLI:BE:CASS:2008:ARR.20080812.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "name": "L. J. O.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER_IN_CASSATIE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+        "name": "C. F. M. J.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER_IN_CASSATIE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+        "name": "V. R. E.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER_IN_CASSATIE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+        "name": "R. V. D. B.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER_IN_CASSATIE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De cassatieberoepen van de eisers L. J. O. en C. F. M. J. (I.1, I.2) en van V. R. E. en R. V. D. B. (II.1, II.2) zijn gericht tegen het arrest nr. KI 1394/2008 van het Hof van Beroep te Antwerpen, kamer van inbeschuldigingstelling, van 17 juni 2008. De cassatieberoepen van de eisers III.1, III.2, III.3 en III.4 zijn gericht tegen het arrest nr. KI 1461/2008 van hetzelfde hof van 26 juni 2008. De eiser III.3 voerde in een memorie drie middelen aan tegen arrest KI 1461/2008; eiser II.2 voerde in een memorie een middel aan tegen arrest KI 1394/2008; eiser III.4 voerde in een memorie drie middelen aan. De eisers I.1, I.2, III.1 en III.2 stelden geen middelen in cassatie. Raadsheer Alain Smetryns bracht verslag uit en advocaat-generaal André Henkes concludeerde.",
+      "requests": [],
+      "arguments": [],
+      "courtOrder": "Het Hof,\nVerleent de eiser II. 1 akte van de afstand van zijn cassatieberoep.\nVerwerpt de overige cassatieberoepen.\nVeroordeelt de eisers in de kosten van hun respectieve cassatieberoepen.\nBegroot de kosten in het geheel op 174,14 euro.",
+      "outcome": "AFWIJZING"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "provisionNumber": "artikel 235ter",
+        "provisionNumberKey": "235ter",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van Strafvordering",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof oordeelt dat een arrest van de kamer van inbeschuldigingstelling dat overeenkomstig artikel 235ter toezicht uitoefent op de toepassing van bijzondere opsporingsmethoden (o.a. observatie en infiltratie) een voorbereidend arrest is en niet valt onder de uitzonderingen van artikel 416, tweede lid; hieruit volgt dat tegen een dergelijk arrest geen onmiddellijk cassatieberoep openstaat. Het Hof merkt ook op dat §6 van artikel 235ter, die vroeger rechtsmiddelen uitsloot, door het Grondwettelijk Hof werd vernietigd zodat het gemeen recht terug toepasselijk is.",
+        "relevantFactualContext": "Betreft de arresten van 17 juni 2008 (KI 1394/2008) en 26 juni 2008 (KI 1461/2008) waarin de kamer controle uitoefende over toepassing van observatie en infiltratie; het arrest van 26 juni concludeerde dat geen onregelmatigheden werden begaan."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "provisionNumber": "artikel 416, eerste en tweede lid",
+        "provisionNumberKey": "416",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van Strafvordering",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof legt uit dat artikel 416, eerste lid, bepaalt dat cassatieberoep tegen voorbereidend arresten pas openstaat na het eindarrest of eindvonnis en dat artikel 416, tweede lid, bepaalde uitzonderingen opsomt (o.a. artikel 135 en 235bis). Omdat arresten overeenkomstig artikel 235ter niet onder die uitzonderingen vallen, is onmiddellijk cassatieberoep tegen dergelijke voorbereide arresten niet mogelijk; vrijwillige tenuitvoerlegging kan dit evenmin als middel van niet-ontvankelijkheid worden ingeroepen.",
+        "relevantFactualContext": "Toegepast op de bestreden voorbereide arresten inzake controle van vertrouwelijke dossiers en bijzondere opsporingsmethoden; het Hof verklaart de cassatieberoepen tegen die arresten niet-ontvankelijk."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "provisionNumber": "artikel 135",
+        "provisionNumberKey": "135",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van Strafvordering",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "provisionNumber": "artikel 235bis",
+        "provisionNumberKey": "235bis",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van Strafvordering",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-005",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "provisionNumber": "artikel 189ter",
+        "provisionNumberKey": "189ter",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van Strafvordering",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-006",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "provisionNumber": "artikel 524bis, § 1",
+        "provisionNumberKey": "524bis",
+        "parentActType": "WETBOEK",
+        "parentActName": "Wetboek van Strafvordering",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-007",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+        "provisionNumber": "artikel 57bis",
+        "provisionNumberKey": "57bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 april 1965 betreffende de jeugdbescherming",
+        "parentActDate": "1965-04-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-008",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+        "provisionNumber": "artikel 26, § 2, tweede lid, 2°",
+        "provisionNumberKey": "26",
+        "parentActType": "WET",
+        "parentActName": "bijzondere wet van 6 januari 1989 op het Arbitragehof (speciale wet van 06/01/1989)",
+        "parentActDate": "1989-01-06",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 26, §2, tweede lid, 2° van de bijzondere wet op het Arbitragehof inhoudt dat het Hof niet verplicht is opnieuw een prejudiciële vraag te stellen wanneer het Grondwettelijk Hof inzake dezelfde rechtsvraag reeds een uitspraak heeft gedaan; op die grond ziet het Hof af van een nieuwe verwijzing nu het Grondwettelijk Hof reeds arrest nr. 111/2008 had gewezen.",
+        "relevantFactualContext": "In het licht van het arrest van het Grondwettelijk Hof nr. 111/2008 (31 juli 2008) over artikel 416, tweede lid, oordeelt het Hof dat geen nieuwe prejudiciële vraag dient te worden gesteld."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-009",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+        "provisionNumber": "artikel 10",
+        "provisionNumberKey": "10",
+        "parentActType": "GRONDWET",
+        "parentActName": "de Grondwet",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-010",
+        "internalParentActId": "ACT-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "GRONDWET",
+        "parentActName": "de Grondwet",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep te Antwerpen, kamer van inbeschuldigingstelling",
+        "date": "2008-06-17",
+        "caseNumber": "KI 1394/2008",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep te Antwerpen, kamer van inbeschuldigingstelling",
+        "date": "2008-06-26",
+        "caseNumber": "KI 1461/2008",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Het Grondwettelijk Hof",
+        "date": "2007-07-19",
+        "caseNumber": "arrest nr. 105/2007",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "het Grondwettelijk Hof",
+        "date": "2008-07-31",
+        "caseNumber": "arrest nr. 111/2008",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Strafprocesrecht",
+      "Observatie en infiltratie",
+      "Bijzondere opsporingsmethode",
+      "Controle vertrouwelijk dossier",
+      "Kamer van inbeschuldigingstelling",
+      "Ontvankelijkheid cassatie",
+      "Direct cassatieberoep",
+      "Voorbereidend arrest geschil",
+      "Prejudiciële vragen",
+      "Invloed Grondwettelijk Hof"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "text": "Een arrest van de kamer van inbeschuldigingstelling dat overeenkomstig artikel 235ter WvSv toezicht uitoefent op de toepassing van bijzondere opsporingsmethoden (zoals observatie en infiltratie) is een voorbereidend arrest en valt niet onder de uitzonderingen van artikel 416, tweede lid; daaruit volgt dat onmiddellijk cassatieberoep tegen een dergelijk arrest niet openstaat en dat vrijwillige tenuitvoerlegging niet kan worden aangewend om ontvankelijkheid te verkrijgen.",
+        "courtVerbatim": "Artikel 416, eerste lid, Wetboek van Strafvordering bepaalt dat cassatieberoep tegen voorbereidende arresten en arresten van onderzoek of tegen in laatste aanleg gewezen vonnissen van dezelfde soort eerst openstaat na het eindarrest of het eindvonnis; de vrijwillige tenuitvoerlegging van die voorbereidende arresten of vonnissen kan in geen geval als middel van niet-ontvankelijkheid worden ingeroepen.\n\nEen arrest van de kamer van inbeschuldigingstelling dat overeenkomstig artikel 235ter Wetboek van Strafvordering controle uitoefent over de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie, is enerzijds een voorbereidend arrest en is anderzijds niet begrepen onder de uitzonderingen vermeld in artikel 416, tweede lid, Wetboek van Strafvordering. Hieruit volgt dat tegen dit arrest maar eerst cassatieberoep openstaat na het eindarrest of eindvonnis.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een arrest van de kamer van inbeschuldigingstelling overeenkomstig artikel 235ter WvSv toezicht uitoefent op de toepassing van bijzondere opsporingsmethoden zoals observatie of infiltratie.",
+        "relevantFactualContext": "Betreft de arresten van het Hof van Beroep te Antwerpen, kamer van inbeschuldigingstelling van 17 juni 2008 (KI 1394/2008) en 26 juni 2008 (KI 1461/2008) waarin sprake was van controle op toepassing van observatie en infiltratie; de cassatieberoepen tegen die arresten werden door het Hof van Cassatie niet-ontvankelijk verklaard.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-004"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 1,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eisers, als inverdenkinggestelden, betwisten arresten van de kamer van inbeschuldigingstelling betreffende de controle op de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie. Het Hof van Cassatie verklaart de meeste cassatieberoepen niet-ontvankelijk, aanvaardt de afstand van één eiser en oordeelt dat dergelijke arresten voorbereidend zijn zodat onmiddellijk cassatieberoep eerst na het eindarrest openstaat; de vastgestelde wettelijke leemte moet door de wetgever worden opgeheven."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het bestreden arrest van 17 juni 2008 werd gewezen in een rechtspleging bij toepassing van artikel 235ter Wetboek van Strafvordering. Het verklaart de opgeworpen middelen van de partijen, die aan het Grondwettelijk Hof te stellen prejudiciële vragen opwierpen, ontvankelijk maar ongegrond en verklaart het arrest uitvoerbaar bij voorraad.</p>",
+          "<p class=\"case-section__paragraph\">Het bestreden arrest van 26 juni 2008 is gewezen bij toepassing van artikel 235ter Wetboek van Strafvordering. Het werd gewezen in dezelfde rechtspleging als het hiervoorvermelde arrest van 17 juni 2008 en oordeelt dat geen onregelmatigheden werden begaan bij de toepassing van de bijzondere opsporingsmethode van observatie.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 235ter, § 6, Wetboek van Strafvordering bepaalde dat tegen de controle van het vertrouwelijk dossier door de kamer van inbeschuldigingstelling geen rechtsmiddel openstond. Dit bracht met zich mee dat daartegen geen cassatieberoep kon worden ingesteld. Het Grondwettelijk Hof heeft evenwel bij arrest nr. 105/2007 van 19 juli 2007 artikel 235ter, § 6, Wetboek van Strafvordering vernietigd. Aldus is het gemeen recht terug toepasselijk.</p>",
+          "<p class=\"case-section__paragraph\">Een arrest van de kamer van inbeschuldigingstelling dat overeenkomstig artikel 235ter Wetboek van Strafvordering controle uitoefent over de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie, is enerzijds een voorbereidend arrest en is anderzijds niet begrepen onder de uitzonderingen vermeld in artikel 416, tweede lid, Wetboek van Strafvordering. Hieruit volgt dat tegen dit arrest maar eerst cassatieberoep openstaat na het eindarrest of eindvonnis.</p>",
+          "<p class=\"case-section__paragraph\">Het Grondwettelijk Hof heeft bij arrest nr. 111/2008 van 31 juli 2008 gezegd voor recht: \"Artikel 416, tweede lid, van het Wetboek van strafvordering schendt de artikelen 10 en 11 van de Grondwet, in zoverre het niet voorziet in een onmiddellijk cassatieberoep tegen een arrest van de kamer van inbeschuldigingstelling houdende controle, op basis van het vertrouwelijk dossier, van de regelmatigheid van de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie met toepassing van de artikelen 189ter of 235ter van het Wetboek van strafvordering\".</p>",
+          "<p class=\"case-section__paragraph\">Het door het Grondwettelijk Hof vastgestelde onverantwoorde verschil in behandeling vloeit voort uit de ontstentenis in artikel 416, tweede lid, van het Wetboek van strafvordering van een wetsbepaling die voor de beslissingen van de kamer van inbeschuldigingstelling met toepassing van artikel 235ter eenzelfde draagwijdte heeft als die ten aanzien van de beslissingen van de kamer van inbeschuldigingstelling met toepassing van artikel 235bis van zelfde Wetboek, kan enkel door tussenkomst van de wetgever worden verholpen. Het cassatieberoep is mitsdien niet ontvankelijk is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Uit de samenhang van artikel 416, eerste en tweede lid, Wetboek van Strafvordering volgt dat in elk geval geen onmiddellijk cassatieberoep mogelijk is, ook niet in de materies die onder de uitzonderingen van artikel 416, tweede lid, Wetboek van Strafvordering begrepen zijn of kunnen zijn, wanneer de beslissing slechts een voorbereidende beslissing ten aanzien van het te wijzen arrest of vonnis is.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 416, eerste lid, Wetboek van Strafvordering bepaalt dat cassatieberoep tegen voorbereidende arresten en arresten van onderzoek of tegen in laatste aanleg gewezen vonnissen van dezelfde soort eerst openstaat na het eindarrest of het eindvonnis; de vrijwillige tenuitvoerlegging van die voorbereidende arresten of vonnissen kan in geen geval als middel van niet-ontvankelijkheid worden ingeroepen. Artikel 416, tweede lid, Wetboek van Strafvordering bepaalt dat het vorige lid niet van toepassing is op arresten of vonnissen inzake bevoegdheid of met toepassing van de artikelen 135 en 235bis, noch op arresten of vonnissen inzake de burgerlijke rechtsvordering, die uitspraak doen over het beginsel van aansprakelijkheid, noch op arresten waarbij overeenkomstig artikel 524bis, § 1, uitspraak wordt gedaan over de strafvordering en een bijzonder onderzoek naar de vermogensvoordelen wordt bevolen, noch op verwijzingsarresten overeenkomstig artikel 57bis van de wet van 8 april 1965 betreffende de jeugdbescherming, het ten laste nemen van minderjarigen die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door dit feit veroorzaakte schade.</p>",
+          "<p class=\"case-section__paragraph\">Een arrest van de kamer van inbeschuldigingstelling dat overeenkomstig artikel 235ter Wetboek van Strafvordering controle uitoefent over de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie, is enerzijds een voorbereidend arrest en is anderzijds niet begrepen onder de uitzonderingen vermeld in artikel 416, tweede lid, Wetboek van Strafvordering. Hieruit volgt dat tegen dit arrest maar eerst cassatieberoep openstaat na het eindarrest of eindvonnis.</p>",
+          "<p class=\"case-section__paragraph\">Het Grondwettelijk Hof heeft bij arrest nr. 111/2008 van 31 juli 2008 gezegd voor recht: \"Artikel 416, tweede lid, van het Wetboek van strafvordering schendt de artikelen 10 en 11 van de Grondwet, in zoverre het niet voorziet in een onmiddellijk cassatieberoep tegen een arrest van de kamer van inbeschuldigingstelling houdende controle, op basis van het vertrouwelijk dossier, van de regelmatigheid van de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie met toepassing van de artikelen 189ter of 235ter van het Wetboek van strafvordering\".</p>",
+          "<p class=\"case-section__paragraph\">In deze omstandigheden is het Hof, overeenkomstig artikel 26, § 2, tweede lid, 2°, van de bijzondere wet van 6 januari 1989 op het Arbitragehof niet gehouden desbetreffend opnieuw een prejudiciële vraag te stellen.</p>",
+          "<p class=\"case-section__paragraph\">Het door het Grondwettelijk Hof vastgestelde onverantwoorde verschil in behandeling vloeit voort uit de ontstentenis in artikel 416, tweede lid, van het Wetboek van strafvordering van een wetsbepaling die voor de beslissingen van de kamer van inbeschuldigingstelling met toepassing van artikel 235ter eenzelfde draagwijdte heeft als die ten aanzien van de beslissingen van de kamer van inbeschuldigingstelling met toepassing van artikel 235bis van zelfde Wetboek, kan enkel door tussenkomst van de wetgever worden verholpen. Het cassatieberoep is mitsdien niet ontvankelijk is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-005",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-006",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-007",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-008",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-009",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 416, eerste lid, Wetboek van Strafvordering bepaalt dat cassatieberoep tegen voorbereidende arresten en arresten van onderzoek of tegen in laatste aanleg gewezen vonnissen van dezelfde soort eerst openstaat na het eindarrest of het eindvonnis; de vrijwillige tenuitvoerlegging van die voorbereidende arresten of vonnissen kan in geen geval als middel van niet-ontvankelijkheid worden ingeroepen. Artikel 416, tweede lid, Wetboek van Strafvordering bepaalt dat het vorige lid niet van toepassing is op arresten of vonnissen inzake bevoegdheid of met toepassing van de artikelen 135 en 235bis, noch op arresten of vonnissen inzake de burgerlijke rechtsvordering, die uitspraak doen over het beginsel van aansprakelijkheid, noch op arresten waarbij overeenkomstig artikel 524bis, § 1, uitspraak wordt gedaan over de strafvordering en een bijzonder onderzoek naar de vermogensvoordelen wordt bevolen, noch op verwijzingsarresten overeenkomstig artikel 57bis van de wet van 8 april 1965 betreffende de jeugdbescherming, het ten laste nemen van minderjarigen die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door dit feit veroorzaakte schade.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-006",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 416, eerste lid, Wetboek van Strafvordering bepaalt dat cassatieberoep tegen voorbereidende arresten en arresten van onderzoek of tegen in laatste aanleg gewezen vonnissen van dezelfde soort eerst openstaat na het eindarrest of het eindvonnis; de vrijwillige tenuitvoerlegging van die voorbereidende arresten of vonnissen kan in geen geval als middel van niet-ontvankelijkheid worden ingeroepen. Artikel 416, tweede lid, Wetboek van Strafvordering bepaalt dat het vorige lid niet van toepassing is op arresten of vonnissen inzake bevoegdheid of met toepassing van de artikelen 135 en 235bis, noch op arresten of vonnissen inzake de burgerlijke rechtsvordering, die uitspraak doen over het beginsel van aansprakelijkheid, noch op arresten waarbij overeenkomstig artikel 524bis, § 1, uitspraak wordt gedaan over de strafvordering en een bijzonder onderzoek naar de vermogensvoordelen wordt bevolen, noch op verwijzingsarresten overeenkomstig artikel 57bis van de wet van 8 april 1965 betreffende de jeugdbescherming, het ten laste nemen van minderjarigen die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door dit feit veroorzaakte schade.</p>",
+          "<p class=\"case-section__paragraph\">Het door het Grondwettelijk Hof vastgestelde onverantwoorde verschil in behandeling vloeit voort uit de ontstentenis in artikel 416, tweede lid, van het Wetboek van strafvordering van een wetsbepaling die voor de beslissingen van de kamer van inbeschuldigingstelling met toepassing van artikel 235ter eenzelfde draagwijdte heeft als die ten aanzien van de beslissingen van de kamer van inbeschuldigingstelling met toepassing van artikel 235bis van zelfde Wetboek, kan enkel door tussenkomst van de wetgever worden verholpen. Het cassatieberoep is mitsdien niet ontvankelijk is.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-006",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het Grondwettelijk Hof heeft bij arrest nr. 111/2008 van 31 juli 2008 gezegd voor recht: \"Artikel 416, tweede lid, van het Wetboek van strafvordering schendt de artikelen 10 en 11 van de Grondwet, in zoverre het niet voorziet in een onmiddellijk cassatieberoep tegen een arrest van de kamer van inbeschuldigingstelling houdende controle, op basis van het vertrouwelijk dossier, van de regelmatigheid van de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie met toepassing van de artikelen 189ter of 235ter van het Wetboek van strafvordering\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-005",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-009",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 416, eerste lid, Wetboek van Strafvordering bepaalt dat cassatieberoep tegen voorbereidende arresten en arresten van onderzoek of tegen in laatste aanleg gewezen vonnissen van dezelfde soort eerst openstaat na het eindarrest of het eindvonnis; de vrijwillige tenuitvoerlegging van die voorbereidende arresten of vonnissen kan in geen geval als middel van niet-ontvankelijkheid worden ingeroepen. Artikel 416, tweede lid, Wetboek van Strafvordering bepaalt dat het vorige lid niet van toepassing is op arresten of vonnissen inzake bevoegdheid of met toepassing van de artikelen 135 en 235bis, noch op arresten of vonnissen inzake de burgerlijke rechtsvordering, die uitspraak doen over het beginsel van aansprakelijkheid, noch op arresten waarbij overeenkomstig artikel 524bis, § 1, uitspraak wordt gedaan over de strafvordering en een bijzonder onderzoek naar de vermogensvoordelen wordt bevolen, noch op verwijzingsarresten overeenkomstig artikel 57bis van de wet van 8 april 1965 betreffende de jeugdbescherming, het ten laste nemen van minderjarigen die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door dit feit veroorzaakte schade.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-006",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 416, eerste lid, Wetboek van Strafvordering bepaalt dat cassatieberoep tegen voorbereidende arresten en arresten van onderzoek of tegen in laatste aanleg gewezen vonnissen van dezelfde soort eerst openstaat na het eindarrest of het eindvonnis; de vrijwillige tenuitvoerlegging van die voorbereidende arresten of vonnissen kan in geen geval als middel van niet-ontvankelijkheid worden ingeroepen. Artikel 416, tweede lid, Wetboek van Strafvordering bepaalt dat het vorige lid niet van toepassing is op arresten of vonnissen inzake bevoegdheid of met toepassing van de artikelen 135 en 235bis, noch op arresten of vonnissen inzake de burgerlijke rechtsvordering, die uitspraak doen over het beginsel van aansprakelijkheid, noch op arresten waarbij overeenkomstig artikel 524bis, § 1, uitspraak wordt gedaan over de strafvordering en een bijzonder onderzoek naar de vermogensvoordelen wordt bevolen, noch op verwijzingsarresten overeenkomstig artikel 57bis van de wet van 8 april 1965 betreffende de jeugdbescherming, het ten laste nemen van minderjarigen die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door dit feit veroorzaakte schade.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-007",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-003",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-004",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In deze omstandigheden is het Hof, overeenkomstig artikel 26, § 2, tweede lid, 2°, van de bijzondere wet van 6 januari 1989 op het Arbitragehof niet gehouden desbetreffend opnieuw een prejudiciële vraag te stellen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-008",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het Grondwettelijk Hof heeft bij arrest nr. 111/2008 van 31 juli 2008 gezegd voor recht: \"Artikel 416, tweede lid, van het Wetboek van strafvordering schendt de artikelen 10 en 11 van de Grondwet, in zoverre het niet voorziet in een onmiddellijk cassatieberoep tegen een arrest van de kamer van inbeschuldigingstelling houdende controle, op basis van het vertrouwelijk dossier, van de regelmatigheid van de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie met toepassing van de artikelen 189ter of 235ter van het Wetboek van strafvordering\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-009",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-010",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-005",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:2008:ARR.20080812.1-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het Grondwettelijk Hof heeft bij arrest nr. 111/2008 van 31 juli 2008 gezegd voor recht: \"Artikel 416, tweede lid, van het Wetboek van strafvordering schendt de artikelen 10 en 11 van de Grondwet, in zoverre het niet voorziet in een onmiddellijk cassatieberoep tegen een arrest van de kamer van inbeschuldigingstelling houdende controle, op basis van het vertrouwelijk dossier, van de regelmatigheid van de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie met toepassing van de artikelen 189ter of 235ter van het Wetboek van strafvordering\".</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-010",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-009",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-002",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-005",
+          "ART-ECLI:BE:CASS:2008:ARR.20080812.1-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:2008:ARR.20080812.1-004"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 10,
+      "citationStatistics": {
+        "totalCitations": 21,
+        "avgCitationsPerProvision": 2.1,
+        "provisionsWithMinimalCitations": 8,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 5.2,
+        "avgDecisionsPerProvision": 1.3,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:2008:ARR.20080812.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het bestreden arrest van 17 juni 2008 werd gewezen in een rechtspleging bij toepassing van artikel 235ter Wetboek van Strafvordering. Het verklaart de opgeworpen middelen van de partijen, die aan het Grondwettelijk Hof te stellen prejudiciële vragen opwierpen, ontvankelijk maar ongegrond en verklaart het arrest uitvoerbaar bij voorraad.</p>",
+          "<p class=\"case-section__paragraph\">Uit de samenhang van artikel 416, eerste en tweede lid, Wetboek van Strafvordering volgt dat in elk geval geen onmiddellijk cassatieberoep mogelijk is, ook niet in de materies die onder de uitzonderingen van artikel 416, tweede lid, Wetboek van Strafvordering begrepen zijn of kunnen zijn, wanneer de beslissing slechts een voorbereidende beslissing ten aanzien van het te wijzen arrest of vonnis is.</p>",
+          "<p class=\"case-section__paragraph\">De eiser II.2 werpt in zijn memorie aan het Grondwettelijk Hof te stellen prejudiciële vragen op. Deze vragen hebben geen betrekking op de hoger vermelde regel van rechtspleging. Het Hof is ertoe niet gehouden ze te stellen.</p>",
+          "<p class=\"case-section__paragraph\">De cassatieberoepen zijn niet ontvankelijk.</p>",
+          "<p class=\"case-section__paragraph\">Het bestreden arrest van 26 juni 2008 is gewezen bij toepassing van artikel 235ter Wetboek van Strafvordering. Het werd gewezen in dezelfde rechtspleging als het hiervoorvermelde arrest van 17 juni 2008 en oordeelt dat geen onregelmatigheden werden begaan bij de toepassing van de bijzondere opsporingsmethode van observatie.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 235ter, § 6, Wetboek van Strafvordering bepaalde dat tegen de controle van het vertrouwelijk dossier door de kamer van inbeschuldigingstelling geen rechtsmiddel openstond. Dit bracht met zich mee dat daartegen geen cassatieberoep kon worden ingesteld. Het Grondwettelijk Hof heeft evenwel bij arrest nr. 105/2007 van 19 juli 2007 artikel 235ter, § 6, Wetboek van Strafvordering vernietigd. Aldus is het gemeen recht terug toepasselijk.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 416, eerste lid, Wetboek van Strafvordering bepaalt dat cassatieberoep tegen voorbereidende arresten en arresten van onderzoek of tegen in laatste aanleg gewezen vonnissen van dezelfde soort eerst openstaat na het eindarrest of het eindvonnis; de vrijwillige tenuitvoerlegging van die voorbereidende arresten of vonnissen kan in geen geval als middel van niet-ontvankelijkheid worden ingeroepen. Artikel 416, tweede lid, Wetboek van Strafvordering bepaalt dat het vorige lid niet van toepassing is op arresten of vonnissen inzake bevoegdheid of met toepassing van de artikelen 135 en 235bis, noch op arresten of vonnissen inzake de burgerlijke rechtsvordering, die uitspraak doen over het beginsel van aansprakelijkheid, noch op arresten waarbij overeenkomstig artikel 524bis, § 1, uitspraak wordt gedaan over de strafvordering en een bijzonder onderzoek naar de vermogensvoordelen wordt bevolen, noch op verwijzingsarresten overeenkomstig artikel 57bis van de wet van 8 april 1965 betreffende de jeugdbescherming, het ten laste nemen van minderjarigen die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door dit feit veroorzaakte schade.</p>",
+          "<p class=\"case-section__paragraph\">Een arrest van de kamer van inbeschuldigingstelling dat overeenkomstig artikel 235ter Wetboek van Strafvordering controle uitoefent over de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie, is enerzijds een voorbereidend arrest en is anderzijds niet begrepen onder de uitzonderingen vermeld in artikel 416, tweede lid, Wetboek van Strafvordering. Hieruit volgt dat tegen dit arrest maar eerst cassatieberoep openstaat na het eindarrest of eindvonnis.</p>",
+          "<p class=\"case-section__paragraph\">Het Grondwettelijk Hof heeft bij arrest nr. 111/2008 van 31 juli 2008 gezegd voor recht: \"Artikel 416, tweede lid, van het Wetboek van strafvordering schendt de artikelen 10 en 11 van de Grondwet, in zoverre het niet voorziet in een onmiddellijk cassatieberoep tegen een arrest van de kamer van inbeschuldigingstelling houdende controle, op basis van het vertrouwelijk dossier, van de regelmatigheid van de toepassing van de bijzondere opsporingsmethoden observatie en infiltratie met toepassing van de artikelen 189ter of 235ter van het Wetboek van strafvordering\".</p>",
+          "<p class=\"case-section__paragraph\">In deze omstandigheden is het Hof, overeenkomstig artikel 26, § 2, tweede lid, 2°, van de bijzondere wet van 6 januari 1989 op het Arbitragehof niet gehouden desbetreffend opnieuw een prejudiciële vraag te stellen.</p>",
+          "<p class=\"case-section__paragraph\">Het door het Grondwettelijk Hof vastgestelde onverantwoorde verschil in behandeling vloeit voort uit de ontstentenis in artikel 416, tweede lid, van het Wetboek van strafvordering van een wetsbepaling die voor de beslissingen van de kamer van inbeschuldigingstelling met toepassing van artikel 235ter eenzelfde draagwijdte heeft als die ten aanzien van de beslissingen van de kamer van inbeschuldigingstelling met toepassing van artikel 235bis.</p>",
+          "<p class=\"case-section__paragraph\">Aan dergelijke leemte in de wet, die niet voortvloeit uit de betrokken wetsbepaling zelf, maar uit de afwezigheid in artikel 416, tweede lid, van het Wetboek van strafvordering van een vergelijkbare bepaling als deze voorzien ten aanzien van de beslissingen van de kamer van inbeschuldigingstelling met toepassing van artikel 235bis van zelfde Wetboek, kan enkel door tussenkomst van de wetgever worden verholpen. Het cassatieberoep is mitsdien niet ontvankelijk is.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 4,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 12,
+        "avgCitationsPerTeaching": 12,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 4,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

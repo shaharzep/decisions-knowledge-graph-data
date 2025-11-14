@@ -1,0 +1,703 @@
+{
+  "decision_id": "ECLI:BE:CTBRL:2015:ARR.20150519.11",
+  "language": "NL",
+  "metadata": {
+    "id": 171169,
+    "court_ecli_code": "CTBRL",
+    "court_name": "Arbeidshof te Brussel",
+    "decision_date": "2015-05-19",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 18492,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidshof te Brussel, 19 mei 2015, Rolnummer 2014/AB/235, ECLI:BE:CTBRL:2015:ARR.20150519.11"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+        "name": "H. N.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+        "name": "E.Y.A.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "GEÏNTIMEERDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+        "name": "SECUREX VZW",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "TUSSENKOMENDE_PARTIJ"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Mevrouw E.Y. was uitbaatster van een kinderopvang 'Les oiseaux du paradis' en had een kinderverzorgster in dienst. Zij was zelf zwanger en zou vanaf 20 april 2011 in zwangerschapsverlof gaan; voor de erkenning van de opvang werd naar haar zeggen de aanwezigheid van twee kinderverzorgsters voorgeschreven. In het vooruitzicht van haar verlof sloot mevrouw E.Y. op 22 maart 2011 een voltijdse arbeidsovereenkomst voor bepaalde tijd (22 maart 2011 tot 22 maart 2012) met mevrouw H. N., met een proefbeding van zes maanden. Mevrouw H. liet op 7 april 2011 weten dat zij ook zwanger was en overhandigde medische attesten met vermoedelijke bevallingsdatum 30 november 2011; op 13 april 2011 bracht zij een attest van de dienst spoedgevallen binnen dat arbeidsongeschiktheid wegens ziekte van 12 tot 20 april 2011 vermeldde. Na overleg met haar sociaal secretariaat Securex, dat telefonisch meegaf dat op grond van het toenmalige art. 79 van de arbeidsovereenkomstenwet een werknemer die in de proefperiode meer dan zeven dagen afwezig is wegens arbeidsongeschiktheid ontslagen mocht worden zonder vergoeding (vanaf de achtste dag), ontsloeg mevrouw E.Y. mevrouw H. op 20 april 2011. Mevrouw H. zond op 21 april 2011 een verlengingsattest waarin de afwezigheid werd verantwoord wegens zwangerschap en verhoogd risico. Bij aangetekende brief van 10 mei 2011 vorderde de vakorganisatie de eindafrekening; op 31 mei 2011 vorderde zij een beschermingsvergoeding wegens moederschap van € 10.529,15. Partijen kwamen niet tot overeenstemming en mevrouw H. dagvaardde haar werkgeefster op 13 april 2012 in betaling van € 10.529,15 vermeerderd met intresten en in afgifte van de aangepaste sociale en fiscale documenten onder verbeurte van dwangsom. Securex trad op 14 februari 2013 vrijwillig tussen ten voordele van mevrouw E.Y. Bij vonnis van 6 juni 2013 wees de arbeidsrechtbank de vordering van mevrouw H. af als ontvankelijk doch ongegrond. Mevrouw H. tekende hoger beroep aan op 10 maart 2014; mevrouw E.Y. voerde incidenteel beroep in vrijwaring en vorderde aanvullend een morele schadevergoeding van € 15.000 voor de vermeende sluiting van haar kinderopvang.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+          "requests": "Mevrouw H. vordert betaling van een beschermingsvergoeding van € 10.529,15 vermeerderd met wettelijke en gerechtelijke intresten, alsook afgifte van de vereiste sociale en fiscale documenten."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+          "requests": "Mevrouw E.Y. handhaaft in incidenteel beroep haar vordering in vrijwaring tegen Securex en vordert daarnaast een morele schadevergoeding van € 15.000 wegens sluiting van haar kinderopvang; voorwerp van haar incidentele vordering is dat Securex haar zou vrijwaren ingeval van veroordeling."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+          "argument": "Mevrouw H. voert aan dat zij zwanger was en dat het ontslag van 20 april 2011 gegeven werd terwijl de werkgeefster van de zwangerschap op de hoogte was, zodat de bescherming van artikel 40 van de arbeidswet toepasselijk is. Zij betwist dat de redenen van ontslag vreemd waren aan haar lichamelijke toestand ten gevolge van de zwangerschap en stelt dat de werkgeefster niet heeft bewezen dat objectieve, authentieke en oorzakelijke redenen onafhankelijk van de zwangerschap bestonden. Zij steunt zich op medische attesten en vordert de forfaitaire beschermingsvergoeding en afgifte van sociale en fiscale documenten.",
+          "treatment": "AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+          "argument": "Mevrouw E.Y. stelt dat zij zich op het advies van haar sociaal secretariaat Securex en op art. 79 van de arbeidsovereenkomstenwet mocht baseren om een werknemer tijdens de proefperiode na meer dan zeven dagen arbeidsongeschiktheid te ontslaan zonder vergoeding, en dat de arbeidsongeschiktheid als 'ziekte' door de spoedarts is aangetekend. Zij betoogt daarnaast dat zij door haar eigen zwangerschap en de vereisten voor erkenning van de opvang niet financieel in staat was een derde verzorgster aan te werven, zodat het ontslag objectief te rechtvaardigen was. De arbeidshof oordeelt evenwel dat deze aangevoerde redenen onvoldoende aantonen dat het ontslag niet met de zwangerschap verband hield en wijst dit verweer af.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+          "argument": "In haar incidenteel beroep vordert mevrouw E.Y. dat Securex haar vrijwaart wegens het door Securex gegeven advies; zij verlangt tevens morele schadevergoeding van € 15.000 voor de sluiting van haar kinderopvang. De rechtbank overweegt dat het advies van Securex onvolledig was omdat alle relevante elementen omtrent de relatie tussen ontslag en zwangerschap ter sprake werden gesteld en dat Securex contractueel aansprakelijk kan zijn; de vordering tot vrijwaring wordt ten dele toegewezen, terwijl de gevorderde morele schadevergoeding wordt afgewezen wegens gebrek aan causaal verband.",
+          "treatment": "GEDEELTELIJK_AANVAARD"
+        }
+      ],
+      "courtOrder": "Gelet op de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken, zoals tot op heden gewijzigd, inzonderheid op artikel 24,\n\nRechtsprekend op tegenspraak,\n\nVerklaart het hoger beroep en het incidenteel beroep ontvankelijk;\nVerklaart het hoofdberoep gegrond en hervormt het bestreden vonnis.\n\nOp de aanvankelijke eis opnieuw recht doende; verklaart deze ontvankelijk en gegrond; Veroordeelt mevrouw E.Y. tot betaling aan mevrouw H. van een beschermingsvergoeding van € 10.529,15 te vermeerderen met de wettelijke en gerechtelijke intresten.\n\nVeroordeelt mevrouw E.Y. tot afgifte aan mevrouw H. van de hiermee overeenstemmende vereiste sociale en fiscale bescheiden.\n\nWijst het meergevorderde af.\n\nVeroordeelt mevrouw E.Y. tot betaling van de gerechtskosten, deze beperkt zijnde tot de dagvaardingskosten van € 143,70, geen rechtsplegingsvergoeding verschuldigd zijnde, daar mevrouw H. niet bijgestaan werd door een advocaat.\n\nVerklaart het incidenteel beroep gedeeltelijk gegrond en veroordeelt het sociaal secretariaat Securex om mevrouw E. Y. te vrijwaren in verband met de sommen waartoe ze m.b.t. de hoofdeis veroordeeld werd.\n\nWijst het meergevorderde af.\nCompenseert de gerechtskosten tussen mevrouw E.Y. en Securex in de zin dat ieder zijn eigen kosten draagt.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+        "provisionNumber": "art. 3",
+        "provisionNumberKey": "3",
+        "parentActType": "ANDERE",
+        "parentActName": "de arbeidsovereenkomst (de tussen partijen gesloten arbeidsovereenkomst)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+        "provisionNumber": "art. 79",
+        "provisionNumberKey": "79",
+        "parentActType": "WET",
+        "parentActName": "de wet betreffende de arbeidsovereenkomsten (arbeidsovereenkomstenwet)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+        "provisionNumber": "Artikel 40",
+        "provisionNumberKey": "40",
+        "parentActType": "WET",
+        "parentActName": "de arbeidswet (Belgische arbeidswet)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof interpreteert artikel 40 als een beschermingsregel die ontslag van een zwangere werkneemster verbiedt vanaf kennisgeving van de zwangerschap tot één maand na de postnatale rust, behoudens redenen die aantoonbaar vreemd zijn aan de zwangerschap. De werkgever draagt de bewijslast en moet aantonen (i) objectieve feiten die vreemde redenen aantonen, (ii) de echtheid van die redenen en (iii) het oorzakelijk verband tussen die vreemde redenen en het ontslag; bij twijfel is dit in het voordeel van de ontslagene.",
+        "relevantFactualContext": "Mevrouw H. meldde haar zwangerschap en overhandigde medische attesten; zij was in proefperiode en werd na meer dan zeven dagen arbeidsongeschiktheid op 20 april 2011 ontslagen door mevrouw E.Y. op basis van art. 79 en advies van Securex. Latere attesten verbonden de ongeschiktheid expliciet aan de zwangerschap; de werkgever kon geen vreemde, objectief aantoonbare ontslagredenen bewijzen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-004",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+        "provisionNumber": "art. 11ter",
+        "provisionNumberKey": "11ter",
+        "parentActType": "WET",
+        "parentActName": "de wet betreffende de arbeidsovereenkomsten (arbeidsovereenkomstenwet)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof vermeldt dat artikel 11ter de mogelijkheid biedt om een vervangingscontract te sluiten of uitzendarbeid in te schakelen om tijdelijke afwezigheid te overbruggen; daarmee noemt het art. 11ter als een toelaatbare en beschikbare alternatief voor het beëindigen van de arbeidsovereenkomst, maar dit ontslaat de werkgever niet van de bewijslast omtrent vreemde redenen voor ontslag onder artikel 40.",
+        "relevantFactualContext": "De werkgeefster voerde aan geen financiële middelen te hebben voor een derde kinderverzorgster; het Hof wijst erop dat zij op grond van art. 11ter alsnog een vervangcontract kon afsluiten of uitzendarbeid kon inschakelen en dat deze situatie de geldigheid van het ontslag wegens zwangerschap niet objectief rechtvaardigde."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-005",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2015:ARR.20150519.11-004",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Brussel",
+        "date": "2002-11-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Gent",
+        "date": "2003-04-14",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Brussel",
+        "date": "2012-04-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Brussel",
+        "date": "2003-09-16",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Gent",
+        "date": "2010-10-25",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJ",
+        "date": "2007-10-11",
+        "caseNumber": "C-460/06",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-006"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 7,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1973-02-21",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-007"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 8,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "2006-03-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-008"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 9,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Brussel",
+        "date": "2009-01-15",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-009"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 10,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Brussel",
+        "date": "2012-12-04",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-010"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 11,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Luik",
+        "date": "2009-01-12",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-011"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Arbeidsrecht",
+      "Arbeidsovereenkomst bepaalde tijd",
+      "Proeftijd",
+      "Zwangere werkneemster",
+      "Sociaal secretariaat advies",
+      "Moederschapsbescherming",
+      "Ontslag tijdens zwangerschap",
+      "Bewijslast werkgever",
+      "Vrijwaring sociaal secretariaat",
+      "HvJ gelijke behandeling"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+        "text": "Wanneer een werkneemster aanvoert dat het ontslag samenhangt met haar zwangerschap, rust op de werkgever de bewijslast om aan te tonen dat het ontslag berust op redenen die vreemd zijn aan de lichamelijke toestand als gevolg van de zwangerschap. Die bewijslast omvat cumulatief: (i) het bestaan van objectieve feiten die aantonen dat het ontslag om andere redenen is gegeven, (ii) de echtheid van die redenen, en (iii) het oorzakelijk verband tussen die vreemde redenen en het ontslag; bij twijfel komt dit ten gunste van de ontslagene.",
+        "courtVerbatim": "Wanneer de werkneemster voorhoudt dat de ingeroepen redenen niet vreemd zijn aan haar lichamelijke toestand als gevolg van haar zwangerschap, dan moet de werkgever het bewijs leveren van:\n\n- het bestaan van objectieve feiten die aantonen dat het ontslag werd gegeven om redenen die vreemd zijn aan haar lichamelijke toestand;\n- de echtheid van deze redenen;\n- het oorzakelijk verband tussen deze vreemde redenen en het ontslag\n\n...\n\nOp grond van art. 40 van de arbeidswet rust de bewijslast op de werkgever, wat inhoudt dat ze redenen moet bewijzen, die vreemd zijn aan de lichamelijke toestand als gevolg van de zwangerschap. Gelet op deze bewijslast, speelt twijfel in het voordele van de ontslagene (Arbh. Gent 25 oktober 2010, TGR 2011 , 235; vgl. Cass. 20 maart 2006, Soc. Kron. 2007, 332).",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een werkneemster zwangerschap heeft gemeld en de werkgever ontslag heeft gegeven met een beroep op redenen die geacht worden niet met de zwangerschap samen te hangen.",
+        "relevantFactualContext": "Mevrouw H. meldde haar zwangerschap; zij was in proefperiode en werd op 20 april 2011 ontslagen na meer dan zeven dagen arbeidsongeschiktheid, terwijl latere attesten de ongeschiktheid aan de zwangerschap koppelden en de werkgever geen vreemde, objectief aantoonbare ontslagredenen kon bewijzen.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+            "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-003"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-005",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-008"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+        "text": "De beschermingsregel van artikel 40 geldt ook tijdens de proeftijd: hoewel de werkgever in de proefperiode een ruimer appreciatierecht heeft, verliest dit niet het vereiste dat ontslagredenen objectief en controleerbaar moeten zijn; een ruimer beoordelingsruimte ontslaat de werkgever niet van de verplichting om vreemde, aantoonbare redenen te bewijzen.",
+        "courtVerbatim": "De bescherming geldt ook tijdens de proefperiode (Cass. 21 februari 1973, JTT 1973, 213; S. Cockx en P. Maerten, a.w, Or. 2008, 19 met verwijzing naar Arbh. Brussel 20 november 2002).\n\nWanneer de werknemer zich nog in de proeftijd bevindt, heeft de werkgever weliswaar een ruimer appreciatierecht (Arbh. Gent 14 april 2003, Soc. Kron. 2004, 84) wat niet wegneemt dat de redenen objectief en controleerbaar moeten zijn.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een zwangere werknemer zich in de proeftijd bevindt en de werkgever ontslag geeft met een beroep op andere dan zwangerschapsgebonden redenen (bv. ziekte tijdens proeftijd).",
+        "relevantFactualContext": "De ontslagene was aangeworven met een proefbeding van zes maanden; na melding van zwangerschap en daaropvolgende arbeidsongeschiktheid in de proefperiode werd zij ontslagen op basis van art. 79, zonder dat de werkgeefster objectieve, controleerbare vreemde redenen aantoonde.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-007",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+        "text": "De vermelding 'ziekte' in een medisch attest bewijst niet automatisch dat de arbeidsongeschiktheid geen verband houdt met de zwangerschap; een werkgever die op de hoogte was van de zwangerschap moet de mogelijke relatie onderzoeken en kan niet louter op formele etikettering steunen. Bovendien vormen financiële beperkingen geen automatische objectieve rechtvaardiging voor ontslag van een zwangere werknemer: beschikbare alternatieven (bv. vervangcontract of uitzendarbeid op grond van art.11ter) dienen te worden onderzocht voordat van een vreemde reden kan worden gesproken.",
+        "courtVerbatim": "Wanneer mevrouw H. dan arbeidsongeschikt wordt en dit staaft met een medisch attest van de dienst spoedgevallen, zal de werkgeefster op aangeven van haar sociaal secretariaat zich steunen op de vermelding \"ziekte\" om voor te houden dat de arbeidsongeschiktheid geen verband heeft met de zwangerschap zodat na 7 dagen het toenmalige art. 79 kan worden toegepast.\n\nDergelijke formele conclusie gaat voorbij aan wat gezegd werd in de randnummers 18 en 19. Het is niet omdat een spoedarts in een attest met aan te kruisen mogelijkheden \"ziekte\" aanduidt dat zonder meer kan besloten worden dat de arbeidsongeschiktheid geen verband heeft met de zwangerschap ...\n\nOok al beschikte ze niet over de financiële mogelijkheden voor de aanwerving van een derde kinderverzorgster, toch kon ze op grond van art. 11ter van de arbeidsovereenkomstenwet een vervangcontract afsluiten of beroep doen op uitzendarbeid. De door haar ingeroepen situatie, ook al bracht ze zorgen mee, is niet van die aard dat ze op objectieve wijze het ontslag van een zwangere werkneemster zondermeer geldig verantwoordde.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een werkgever zich op een medisch attest beroept om te stellen dat arbeidsongeschiktheid geen gevolg is van zwangerschap en/of wanneer werkgever financiële beperkingen aanvoert om vervanging te organiseren.",
+        "relevantFactualContext": "Een spoedarts attesteerde 'ziekte' voor periode 12–20 april 2011; later attesten koppelden ongeschiktheid expliciet aan zwangerschap. Werkgeefster beriep zich op art.79 en op financiële onmogelijkheid tot heraanwerving, maar het hof stelde dat zij alternatieven (art.11ter, uitzendarbeid) had kunnen benutten en geen vreemde redenen aantoonde.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-004",
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-006",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-005"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-004",
+        "text": "Een sociaal secretariaat dat juridisch advies verstrekt aan een werkgever kan contractueel aansprakelijk zijn indien het advies onvolledig of onzorgvuldig is en daardoor de werkgever schade doet lijden; het sociaal secretariaat moet handelen als een normaal zorgvuldig persoon en alle relevante elementen onderzoeken die essentieel zijn voor de beoordeling van een arbeidsrechtelijke kwestie (bijv. de mogelijke relatie tussen ontslag en zwangerschap).",
+        "courtVerbatim": "Dit advies houdt geen rekening met wat in de randnummers 15 tot 19 en 23 tot 24 werd aangehaald.\n\nNochtans had mevrouw E.Y. alle relevante elementen in haar vraag ter sprake gebracht, zodat de relatie van het ontslag met de zwangerschap een essentieel te onderzoeken element diende te zijn.\n\nHet sociaal secretariaat is bij dergelijk onvolledig advies gebonden door zijn contractuele aansprakelijkheid en het dient zich te gedragen zoals van een normaal zorgvuldig persoon (een goed huisvader) mag worden verwacht (W. REYNDERS, \"De verhouding van de ESS met hun aangesloten leden\" in Liber Amicorum R. Blanpain, Brugge, die Keure, 1998, 383).",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een sociaal secretariaat aan een werkgever schriftelijk of mondeling juridisch advies geeft over ontslag- en beschermingsregels en essentiële feiten niet meeneemt in de beoordeling.",
+        "relevantFactualContext": "Securex adviseerde schriftelijk dat ontslag in de proefperiode na meer dan zeven werkdagen arbeidsongeschiktheid mogelijk was; het hof oordeelde dat dit advies geen rekening hield met de bekendheid van de zwangerschap en relevante attesten, zodat Securex contractueel aansprakelijk kon worden gehouden en moest vrijwaren.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-009",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-010",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-011"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 3,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 2,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 4,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De werknemer vordert tegen de werkgever wegens ontslag tijdens zwangerschap in de proeftijd nadat de werkgever op grond van attesten wegens \"ziekte\" heeft ontslagen. Het Arbeidshof oordeelt dat de moederschapsbescherming van art. 40 ook in de proefperiode geldt, dat de werkgever de bewijslast draagt om aan te tonen dat het ontslag om objectieve redenen, vreemd aan de zwangerschap, plaatsvond, en dat een spoedartsattest met de vermelding \"ziekte\" onvoldoende is; daardoor wordt de werkgever veroordeeld tot betaling van een beschermingsvergoeding van €10.529,15 en afgifte van de sociale documenten. Het sociaal secretariaat wordt veroordeeld tot vrijwaring van de werkgever, een aanvullende morele schadevergoeding wordt afgewezen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">maart 2012) met mevrouw H. N., die de hoedanigheid van kinderverzorgster had. In art. 3 van deze overeenkomst was een proefbeding van 6 maanden bepaald.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+        "relatedFullTextCitations": [
+          "<li>Na mondelinge consultatie van haar sociaal secretariaat Securex vernam mevrouw E.Y. dat ze op grond van het toenmalige art. 79 van de arbeidsovereenkomstenwet een werknemer die in de proefperiode meer dan 7 dagen afwezig is, wegens arbeidsongeschiktheid mag ontslaan zonder vergoeding.</li>",
+          "<p class=\"case-section__paragraph\">Hierna ontsloeg mevrouw E.Y. mevrouw H. op 20 april 2011 op basis van art. 79 van de arbeidsovereenkomstenwet.</p>",
+          "<p class=\"case-section__paragraph\">Wanneer mevrouw H. dan arbeidsongeschikt wordt en dit staaft met een medisch attest van de dienst spoedgevallen, zal de werkgeefster op aangeven van haar sociaal secretariaat zich steunen op de vermelding “ziekte” om voor te houden dat de arbeidsongeschiktheid geen verband heeft met de zwangerschap zodat na 7 dagen het toenmalige art.79 kan worden toegepast.</p>",
+          "<p class=\"case-section__paragraph\">Bij het onderzoek naar het ontslag van een zwangere werkneemster moet tevens rekening gehouden worden met de evolutie in de rechtspraak van het Hof van Justitie inzake gelijke behandeling van man en vrouw. Het arbeidshof Gent beschreef deze evolutie op heldere wijze in een zaak waar de werkneemster tijdens een ziekte in de zwangerschapsperiode (pijn aan de rechterheupregio) na meer dan 7 dagen afwezigheid op grond van art. 79 van de arbeidsovereenkomstenwet ontslagen was zonder vergoeding en besloot dat een dergelijk ontslag niet automatisch het bestaan van een geldige of voldoende reden in de zin van art. 40 van de arbeidswet wettigde (Arbh. Gent 25 oktober 2010, TGR 2011, 235).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-005",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-007"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">15. Artikel 40 van de arbeidswet bepaalt:</p>",
+          "<blockquote class=\"case-quote\">De werkgever die een zwangere werkneemster tewerkstelt, mag geen handeling stellen die ertoe strekt eenzijdig een einde te maken aan de dienstbetrekking vanaf het ogenblik waarop</blockquote>",
+          "<p class=\"case-section__paragraph\">hij werd ingelicht omtrent de zwangerschap tot één maand na het einde van de postnatale rustperiode, behalve om redenen die vreemd zijn aan de lichamelijke toestand als gevolg van de zwangerschap of van de bevalling.</p>",
+          "<p class=\"case-section__paragraph\">De werkgever dient te bewijzen dat zulke redenen voorhanden zijn. Op verzoek van de werkneemster stelt de werkgever haar er schriftelijk van in kennis. ...</p>",
+          "<p class=\"case-section__paragraph\">Artikel 40 van de arbeidswet voorziet in de betaling van een forfaitaire vergoeding gelijk aan het brutoloon voor 6 maanden ingeval deze beschermingsregel wordt overtreden.</p>",
+          "<p class=\"case-section__paragraph\">16. Wanneer de werkneemster voorhoudt dat de ingeroepen redenen niet vreemd zijn aan haar lichamelijke toestand als gevolg van haar zwangerschap, dan moet de werkgever het bewijs leveren van:</p>",
+          "<ul>\n<li>het bestaan van objectieve feiten die aantonen dat het ontslag werd gegeven om redenen die vreemd zijn aan haar lichamelijke toestand;</li>\n<li>de echtheid van deze redenen;</li>\n<li>het oorzakelijk verband tussen deze vreemde redenen en het ontslag</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">(S. COCKX en P. MAERTEN, “Overzicht rechtspraak beschermde werknemers 2002 -2007”, Or. 2008/1, 21; Arbh. Brussel, 12 september 2006, A.R. 47.218; Arbh. Antwerpen, 7 april 2003, Soc. Kron 2004,84).</p>",
+          "<p class=\"case-section__paragraph\">17. De bescherming geldt ook tijdens de proefperiode (Cass. 21 februari 1973, JTT 1973, 213; S. COCKX en P. MAERTEN, a.w, Or. 2008, 19 met verwijzing naar Arbh. Brussel 20 november 2002).</p>",
+          "<p class=\"case-section__paragraph\">Wanneer de werknemer zich nog in de proeftijd bevindt, heeft de werkgever weliswaar een ruimer appreciatierecht (Arbh. Gent 14 april 2003, Soc. Kron. 2004, 84) wat niet wegneemt.</p>",
+          "<p class=\"case-section__paragraph\">dat de redenen objectief en controleerbaar moeten zijn. (Arbh. Brussel 20 april 2012, Soc. Kron. 2012, 389; Arbh. Brussel 16 september 2003, aangehaald in S. COCKX en P. MAERTEN, a.w, Or. 2008, 23).</p>",
+          "<p class=\"case-section__paragraph\">Bij het onderzoek naar het ontslag van een zwangere werkneemster moet tevens rekening gehouden worden met de evolutie in de rechtspraak van het Hof van Justitie inzake gelijke behandeling van man en vrouw. Het arbeidshof Gent beschreef deze evolutie op heldere wijze in een zaak waar de werkneemster tijdens een ziekte in de zwangerschapsperiode (pijn aan de rechterheupregio) na meer dan 7 dagen afwezigheid op grond van art. 79 van de arbeidsovereenkomstenwet ontslagen was zonder vergoeding en besloot dat een dergelijk ontslag niet automatisch het bestaan van een geldige of voldoende reden in de zin van art. 40 van de arbeidswet wettigde (Arbh. Gent 25 oktober 2010, TGR 2011, 235).</p>",
+          "<p class=\"case-section__paragraph\">Een ontslagbeslissing die geheel of gedeeltelijk is ingegeven door de zwangerschap van de werkneemster is inderdaad in strijd met de gelijke behandeling van man en vrouw (HvJ, C-460/06, 11 oktober 2007, JTT 2008, 53; Soc. Kron. 2008, 304 met noot J. JACQMAIN). In het arrest Brown heeft het Hof van Justitie daarbij duidelijk gepreciseerd dat het beginsel van gelijke behandeling van mannen en vrouwen ten aanzien van de arbeidsvoorwaarden, zich verzet tegen het ontslag van een vrouwelijke werknemer op enig moment tijdens haar zwangerschap op grond van afwezigheden wegens een arbeidsongeschiktheid die is veroorzaakt door een uit die zwangerschap voortvloeiende ziekte.</p>",
+          "<p class=\"case-section__paragraph\">Daarbij is het irrelevant, dat de vrouwelijke werknemer tijdens haar zwangerschap is ontslagen krachtens een contractuele bepaling op grond waarvan de werkgever gerechtigd</p>",
+          "<p class=\"case-section__paragraph\">was, werknemers, ongeacht hun geslacht, na een bepaald aantal weken van ononderbroken afwezigheid te ontslaan.</p>",
+          "<p class=\"case-section__paragraph\">20. In deze zaak was mevrouw E.Y. op de hoogte van de zwangerschap en ze was in intens overleg met haar sociaal secretariaat Securex dat haar aangeraden had om een risicoanalyse met het oog op de verdere tewerkstelling te laten uitvoeren; hiervoor gebeurden ook de nodige stappen.</p>",
+          "<p class=\"case-section__paragraph\">21. Wanneer mevrouw H. dan arbeidsongeschikt wordt en dit staaft met een medisch attest van de dienst spoedgevallen, zal de werkgeefster op aangeven van haar sociaal secretariaat zich steunen op de vermelding “ziekte” om voor te houden dat de arbeidsongeschiktheid geen verband heeft met de zwangerschap zodat na 7 dagen het toenmalige art.79 kan worden toegepast.</p>",
+          "<p class=\"case-section__paragraph\">22. Dergelijke formele conclusie gaat voorbij aan wat gezegd werd in de randnummers 18 en 19. Het is niet omdat een spoedarts in een attest met aan te kruisen mogelijkheden “ziekte” aanduidt dat zonder meer kan besloten worden dat de arbeidsongeschiktheid geen verband heeft met de zwangerschap (de andere aan te kruisen mogelijkheden waren: chirurgische ingreep, ongeval of verlenging).</p>",
+          "<p class=\"case-section__paragraph\">Dit kan evenmin (a contrario) afgeleid worden uit het feit dat een (andere) arts van het Universitair Ziekenhuis Brussel in een navolgend attest de werkonbekwaamheid wel uitdrukkelijk zal verantwoorden omwille van het verhoogd risico bij zwangerschap.</p>",
+          "<p class=\"case-section__paragraph\">De band tussen de zwangerschap en de “ziekte” wordt overigens door mevrouw E.Y. zelf aannemelijk gemaakt in haar adviesaanvraag aan Securex, waar ze eerst de</p>",
+          "<p class=\"case-section__paragraph\">zwangerschapsmelding van mevrouw H. bespreekt om dan de ontslagmogelijkheden bij meer dan 7 dagen ziekte te bevragen.</p>",
+          "<p class=\"case-section__paragraph\">23. Op grond van art. 40 van de arbeidswet rust de bewijslast op de werkgever, wat inhoudt dat ze redenen moet bewijzen, die vreemd zijn aan de lichamelijke toestand als gevolg van de zwangerschap. Gelet op deze bewijslast, speelt twijfel in het voordele van de ontslagene (Arbh. Gent 25 oktober 2010, TGR 2011, 235; vgl. Cass. 20 maart 2006, Soc. Kron. 2007, 332).</p>",
+          "<p class=\"case-section__paragraph\">Mevrouw E.Y. voldoet niet aan deze bewijslast.</p>",
+          "<p class=\"case-section__paragraph\">24. Weliswaar verwijst mevrouw E.Y. naar het feit dat voor de erkenning door ONE er steeds twee kinderverzorgsters aanwezig moesten zijn in een kinderopvang van 14 kinderen (zie haar syntheseconclusie van 30 januari 2015, p. 9; verkeerdelijk spreekt Securex over 3 kinderverzorgsters; er wordt geen regelgeving meegedeeld, maar deze opmerking van het sociaal secretariaat klopt niet met het bezwaar van de werkgeefster die zegt geen middelen te hebben voor de aanwerving van een derde personeelslid).</p>",
+          "<p class=\"case-section__paragraph\">Er kan begrip worden opgebracht voor de moeilijke situatie waarmee mevrouw E.Y. geconfronteerd werd en die aan de controle-instantie kon worden uitgelegd, maar op 14 april voldeed ze nog aan alle normen, daar haar eigen afwezigheid pas voorzien was vanaf 20 april 2011.</p>",
+          "<p class=\"case-section__paragraph\">Ook al beschikte ze niet over de financiële mogelijkheden voor de aanwerving van een derde kinderverzorgster, toch kon ze op grond van art. 11ter van de arbeidsovereenkomstenwet een vervangcontract afsluiten of beroep doen op uitzendarbeid.</p>",
+          "<p class=\"case-section__paragraph\">De door haar ingeroepen situatie, ook al bracht ze zorgen mee, is niet van die aard dat ze op objectieve wijze het ontslag van een zwangere werkneemster zondermeer geldig verantwoordde. Ze doet niets af aan het feit dat niet bewezen wordt dat mevrouw H. ontslagen werd om redenen die vreemd waren aan haar lichamelijke toestand als gevolg van de zwangerschap.</p>",
+          "<p class=\"case-section__paragraph\">25. Mevrouw H. maakt dan ook terecht aanspraak op de beschermingsvergoeding voorzien in art. 40 van de arbeidswet, door haar becijferd op € 10.529,15, bedrag dat niet wordt betwist.</p>",
+          "<p class=\"case-section__paragraph\">Er is geen reden om de afgifte van de sociale documenten op te leggen onder verbeurte van een dwangsom.</p>",
+          "<p class=\"case-section__paragraph\">Haar hoger beroep is in die zin gegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-004",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-005",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-006",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-007",
+          "DEC-ECLI:BE:CTBRL:2015:ARR.20150519.11-008"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Ook al beschikte ze niet over de financiële mogelijkheden voor de aanwerving van een derde kinderverzorgster, toch kon ze op grond van art. 11ter van de arbeidsovereenkomstenwet een vervangcontract afsluiten of beroep doen op uitzendarbeid.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-004",
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Gelet op de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken, zoals tot op heden gewijzigd, inzonderheid op artikel 24,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2015:ARR.20150519.11-005"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 5,
+      "citationStatistics": {
+        "totalCitations": 37,
+        "avgCitationsPerProvision": 7.4,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2,
+        "avgDecisionsPerProvision": 2,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">15. Artikel 40 van de arbeidswet bepaalt:</p>",
+          "<blockquote class=\"case-quote\">De werkgever die een zwangere werkneemster tewerkstelt, mag geen handeling stellen die ertoe strekt eenzijdig een einde te maken aan de dienstbetrekking vanaf het ogenblik waarop</blockquote>",
+          "<p class=\"case-section__paragraph\">hij werd ingelicht omtrent de zwangerschap tot één maand na het einde van de postnatale rustperiode, behalve om redenen die vreemd zijn aan de lichamelijke toestand als gevolg van de zwangerschap of van de bevalling.</p>",
+          "<p class=\"case-section__paragraph\">16. Wanneer de werkneemster voorhoudt dat de ingeroepen redenen niet vreemd zijn aan haar lichamelijke toestand als gevolg van haar zwangerschap, dan moet de werkgever het bewijs leveren van:</p>",
+          "<ul>\n<li>het bestaan van objectieve feiten die aantonen dat het ontslag werd gegeven om redenen die vreemd zijn aan haar lichamelijke toestand;</li>\n<li>de echtheid van deze redenen;</li>\n<li>het oorzakelijk verband tussen deze vreemde redenen en het ontslag</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">Op grond van art. 40 van de arbeidswet rust de bewijslast op de werkgever, wat inhoudt dat ze redenen moet bewijzen, die vreemd zijn aan de lichamelijke toestand als gevolg van de zwangerschap. Gelet op deze bewijslast, speelt twijfel in het voordele van de ontslagene (Arbh. Gent 25 oktober 2010, TGR 2011, 235; vgl. Cass. 20 maart 2006, Soc. Kron. 2007, 332).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">17. De bescherming geldt ook tijdens de proefperiode (Cass. 21 februari 1973, JTT 1973, 213; S. COCKX en P. MAERTEN, a.w, Or. 2008, 19 met verwijzing naar Arbh. Brussel 20 november 2002).</p>",
+          "<p class=\"case-section__paragraph\">Wanneer de werknemer zich nog in de proeftijd bevindt, heeft de werkgever weliswaar een ruimer appreciatierecht (Arbh. Gent 14 april 2003, Soc. Kron. 2004, 84) wat niet wegneemt.</p>",
+          "<p class=\"case-section__paragraph\">dat de redenen objectief en controleerbaar moeten zijn. (Arbh. Brussel 20 april 2012, Soc. Kron. 2012, 389; Arbh. Brussel 16 september 2003, aangehaald in S. COCKX en P. MAERTEN, a.w, Or. 2008, 23).</p>",
+          "<p class=\"case-section__paragraph\">21. Wanneer mevrouw H. dan arbeidsongeschikt wordt en dit staaft met een medisch attest van de dienst spoedgevallen, zal de werkgeefster op aangeven van haar sociaal secretariaat zich steunen op de vermelding “ziekte” om voor te houden dat de arbeidsongeschiktheid geen verband heeft met de zwangerschap zodat na 7 dagen het toenmalige art.79 kan worden toegepast.</p>",
+          "<p class=\"case-section__paragraph\">Op grond van art. 40 van de arbeidswet rust de bewijslast op de werkgever, wat inhoudt dat ze redenen moet bewijzen, die vreemd zijn aan de lichamelijke toestand als gevolg van de zwangerschap. Gelet op deze bewijslast, speelt twijfel in het voordele van de ontslagene (Arbh. Gent 25 oktober 2010, TGR 2011, 235; vgl. Cass. 20 maart 2006, Soc. Kron. 2007, 332).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij het onderzoek naar het ontslag van een zwangere werkneemster moet tevens rekening gehouden worden met de evolutie in de rechtspraak van het Hof van Justitie inzake gelijke behandeling van man en vrouw. Het arbeidshof Gent beschreef deze evolutie op heldere wijze in een zaak waar de werkneemster tijdens een ziekte in de zwangerschapsperiode (pijn aan de rechterheupregio) na meer dan 7 dagen afwezigheid op grond van art. 79 van de arbeidsovereenkomstenwet ontslagen was zonder vergoeding en besloot dat een dergelijk ontslag niet automatisch het bestaan van een geldige of voldoende reden in de zin van art. 40 van de arbeidswet wettigde (Arbh. Gent 25 oktober 2010, TGR 2011, 235).</p>",
+          "<p class=\"case-section__paragraph\">Een ontslagbeslissing die geheel of gedeeltelijk is ingegeven door de zwangerschap van de werkneemster is inderdaad in strijd met de gelijke behandeling van man en vrouw (HvJ, C-460/06, 11 oktober 2007, JTT 2008, 53; Soc. Kron. 2008, 304 met noot J. JACQMAIN). In het arrest Brown heeft het Hof van Justitie daarbij duidelijk gepreciseerd dat het beginsel van gelijke behandeling van mannen en vrouwen ten aanzien van de arbeidsvoorwaarden, zich verzet tegen het ontslag van een vrouwelijke werknemer op enig moment tijdens haar zwangerschap op grond van afwezigheden wegens een arbeidsongeschiktheid die is veroorzaakt door een uit die zwangerschap voortvloeiende ziekte.</p>",
+          "<p class=\"case-section__paragraph\">21. Wanneer mevrouw H. dan arbeidsongeschikt wordt en dit staaft met een medisch attest van de dienst spoedgevallen, zal de werkgeefster op aangeven van haar sociaal secretariaat zich steunen op de vermelding “ziekte” om voor te houden dat de arbeidsongeschiktheid geen verband heeft met de zwangerschap zodat na 7 dagen het toenmalige art.79 kan worden toegepast.</p>",
+          "<p class=\"case-section__paragraph\">22. Dergelijke formele conclusie gaat voorbij aan wat gezegd werd in de randnummers 18 en 19. Het is niet omdat een spoedarts in een attest met aan te kruisen mogelijkheden “ziekte” aanduidt dat zonder meer kan besloten worden dat de arbeidsongeschiktheid geen verband heeft met de zwangerschap (de andere aan te kruisen mogelijkheden waren: chirurgische ingreep, ongeval of verlenging).</p>",
+          "<p class=\"case-section__paragraph\">Dit kan evenmin (a contrario) afgeleid worden uit het feit dat een (andere) arts van het Universitair Ziekenhuis Brussel in een navolgend attest de werkonbekwaamheid wel uitdrukkelijk zal verantwoorden omwille van het verhoogd risico bij zwangerschap.</p>",
+          "<p class=\"case-section__paragraph\">Ook al beschikte ze niet over de financiële mogelijkheden voor de aanwerving van een derde kinderverzorgster, toch kon ze op grond van art. 11ter van de arbeidsovereenkomstenwet een vervangcontract afsluiten of beroep doen op uitzendarbeid.</p>",
+          "<p class=\"case-section__paragraph\">Op grond van art. 40 van de arbeidswet rust de bewijslast op de werkgever, wat inhoudt dat ze redenen moet bewijzen, die vreemd zijn aan de lichamelijke toestand als gevolg van de zwangerschap. Gelet op deze bewijslast, speelt twijfel in het voordele van de ontslagene (Arbh. Gent 25 oktober 2010, TGR 2011, 235; vgl. Cass. 20 maart 2006, Soc. Kron. 2007, 332).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2015:ARR.20150519.11-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">26. Mevrouw E.Y. heeft zich in verband met het ontslag van mevrouw H. laten begeleiden door haar sociaal secretariaat. Ze vroeg na telefonisch advies van de jurist een schriftelijke bevestiging, zoals blijkt uit haar stuk 6 (zie randnummers 6 en 20).</p>",
+          "<p class=\"case-section__paragraph\">Deze antwoordt dat hij de mogelijkheid bevestigde om een werknemer in arbeidsongeschiktheid van meer dan zeven opeenvolgende dagen gedurende haar proefperiode te ontslaan zonder opzegging (noch vergoeding). Dit ontslag kan slechts plaatsvinden vanaf de achtste dag ongeschiktheid.</p>",
+          "<p class=\"case-section__paragraph\">Dit advies houdt geen rekening met wat in de randnummers 15 tot 19 en 23 tot 24 werd aangehaald.</p>",
+          "<p class=\"case-section__paragraph\">27. Het sociaal secretariaat is bij dergelijk onvolledig advies gebonden door zijn contractuele aansprakelijkheid en het dient zich te gedragen zoals van een normaal zorgvuldig persoon (een goed huisvader) mag worden verwacht (W. REYNDERS, “De verhouding van de ESS met hun aangesloten leden” in Liber Amicorum R. Blanpain, Brugge, die Keure, 1998, 383).</p>",
+          "<p class=\"case-section__paragraph\">De rechtspraak aanvaardt dat het sociaal secretariaat aansprakelijk is wanneer hieraan niet wordt voldaan (zie bv. Arbh. Brussel 15 januari 2009, JTT 2009, 103; Arbh. Brussel 4 december 2012, JTT 2013, 179; Arbh. Luik 12 januari 2009, Ors. 2009, 27).</p>",
+          "<p class=\"case-section__paragraph\">28. Terecht vraagt mevrouw E.Y. dat Securex haar zou vrijwaren m.b.t. de veroordeling wegens schending van art. 40 van de arbeidswet.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 23,
+        "avgCitationsPerTeaching": 5.75,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 7,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 10,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

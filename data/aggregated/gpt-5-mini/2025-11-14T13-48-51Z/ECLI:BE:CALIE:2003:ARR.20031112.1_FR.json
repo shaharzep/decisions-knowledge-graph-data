@@ -1,0 +1,284 @@
+{
+  "decision_id": "ECLI:BE:CALIE:2003:ARR.20031112.1",
+  "language": "FR",
+  "metadata": {
+    "id": 61130,
+    "court_ecli_code": "CALIE",
+    "court_name": "Cour d'appel du ressort de Liège",
+    "decision_date": "2003-11-12",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 2441,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour d'appel de Liège, 12 novembre 2003, Arr. n° 2000RG1263, ECLI:BE:CALIE:2003:ARR.20031112.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2003:ARR.20031112.1-001",
+        "name": "Fabrice S.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2003:ARR.20031112.1-002",
+        "name": "Madeleine D.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2003:ARR.20031112.1-003",
+        "name": "Marianne D.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CALIE:2003:ARR.20031112.1-004",
+        "name": "l'intimée",
+        "type": "UNCLEAR",
+        "proceduralRole": "INTIME"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Revu l'arrêt rendu par la cour de céans le 24 juin 2003. Fabrice S. et Madeleine D. ont introduit un appel principal à l'encontre d'un jugement dont la motivation était claire et précise; le premier juge n'avait pas eu à aborder le fondement contractuel de leur demande dirigée contre l'intimée puisqu'ils ne l'invoquaient pas en première instance. La cour relève que les appelants ont agi avec une légèreté coupable et une mauvaise foi évidente en rédigeant des conclusions faisant état d'une relation contractuelle sans distinguer nettement les fondements contractuel et quasi-délictuel, en s'appuyant sur une jurisprudence française pour transformer l'obligation de moyens en prétendue obligation de résultat dite d'«obligation de sécurité». La cour estime que cet abus de recours porte préjudice à l'administration de la justice et justifie l'imposition d'une amende pour appel téméraire.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CALIE:2003:ARR.20031112.1-001",
+          "argument": "Les appelants soutenaient que le premier juge aurait dû examiner le fondement contractuel de leur demande dirigée contre l'intimée, invoquant une relation contractuelle et se référant à une jurisprudence française pour soutenir que l'obligation de soins, qualifiée d'obligation de moyens, devait être considérée comme une obligation de résultat sous la dénomination d'obligation de sécurité. Ils présentaient ces moyens pour fonder leur recours en appel.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS,\n\nVu l'article 24 de la loi du 15 juin 1935, La cour, statuant par défaut à l'égard de Fabrice S. et Marianne D., Les condamne à une amende de 150 euros",
+      "outcome": "CONDAMNATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2003:ARR.20031112.1-001",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2003:ARR.20031112.1-001",
+        "provisionNumber": "article 1072 bis",
+        "provisionNumberKey": "1072bis",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour applique l'article 1072 bis du Code judiciaire pour punir l'appel téméraire; elle retient que cette disposition autorise l'imposition d'une amende lorsqu'un appel est manifestement abusif, caractérisé ici par une légèreté coupable, une erreur d'appréciation évidente quant aux chances de succès, et une mauvaise foi dans la rédaction des conclusions portant préjudice à l'administration de la justice.",
+        "relevantFactualContext": "Les appelants ont formé un appel principal contre un jugement clairement motivé alors qu'ils n'avaient pas soulevé le fondement contractuel en première instance; ils ont agi avec légèreté et mauvaise foi en inventant de nouveaux moyens, en transformant l'obligation de moyens en obligation de résultat et en présentant des conclusions trompeuses."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2003:ARR.20031112.1-002",
+        "internalParentActId": "ACT-ECLI:BE:CALIE:2003:ARR.20031112.1-002",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 concernant l'emploi des langues en matière judiciaire",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "la cour de céans",
+        "date": "2003-06-24",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CALIE:2003:ARR.20031112.1-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit de la responsabilité",
+      "Appel d'un jugement",
+      "Expertise médicale",
+      "Fondement contractuel invoqué",
+      "Erreur d'appréciation",
+      "Appel téméraire",
+      "Abus de procédure",
+      "Obligation de moyens",
+      "Obligation de sécurité",
+      "Condamnation par défaut"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2003:ARR.20031112.1-001",
+        "text": "L'article 1072 bis du Code judiciaire permet d'imposer une amende pour appel téméraire lorsqu'un recours est manifestement abusif ; ce caractère abusif peut se déduire notamment d'une légèreté coupable dans l'appréciation des chances de succès, d'une erreur d'appréciation évidente et d'une mauvaise foi dans la rédaction des conclusions portant préjudice à l'administration de la justice, justifiant une sanction pécuniaire proportionnée.",
+        "courtVerbatim": "Fabrice S. et Madeleine D. ont introduit un appel principal à l'encontre d'un jugement à la motivation claire et précise qui ne laissait aucun doute sur les principes de droit applicables en la matière et sur l'analyse des faits qu'il convenait d'avoir, et qui répondait parfaitement aux moyens qu'ils avaient développés, s'appuyant sur une expertise médicale judiciaire claire et fouillée ; contrairement à ce qu'ils ont énoncé dans leurs conclusions d'appel, le premier juge ne devait pas aborder le fondement contractuel de leur demande dirigée contre l'intimée puisqu'ils n'invoquaient pas en première instance ce fondement. De la sorte, ils ont agi avec une légèreté coupable, à la suite d'une erreur évidente d'appréciation quant aux chances de succès de leur recours, que n'aurait pas commise tout justiciable normalement raisonnable et prudent, placé dans les mêmes circonstances. Cette erreur d'appréciation se double d'une mauvaise foi évidente dans la rédaction des conclusions, faisant état d'une relation contractuelle sans vraiment aborder distinctement les fondements contractuel et quasi-délictuel pour glisser vers le fondement quasi-délictuel, inventant de nouveaux principes de droit, jurisprudence française à l'appui, affirmant que l'obligation de soins est bien une obligation de moyens, mais s'empressant de la transformer en obligation de résultat sous la dénomination d'obligation de sécurité. Cet abus manifeste de recours à la juridiction d'appel porte préjudice à l'administration de la justice en général laquelle rencontre déjà suffisamment de difficultés pour trancher dans un délai raisonnable les litiges qui méritent de lui être soumis. Il justifie une amende de 150 euros pour appel téméraire sur la base de l'article 1072 bis du Code judiciaire.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un appel est manifestement abusif, caractérisé par une légèreté coupable dans l'appréciation des chances de succès, une erreur d'appréciation évidente et une mauvaise foi dans la rédaction des conclusions portant préjudice à l'administration de la justice.",
+        "relevantFactualContext": "Des appelants ont interjeté appel contre un jugement clairement motivé sans avoir soulevé en première instance le fondement invoqué, présentant de nouveaux moyens et conclusions de mauvaise foi; la Cour a retenu la légèreté coupable, l'erreur d'appréciation et la mauvaise foi, et a prononcé une amende de 150 euros conformément à l'article 1072 bis.",
+        "principleType": "LEGAL_TEST",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CALIE:2003:ARR.20031112.1-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CALIE:2003:ARR.20031112.1-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 1,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 1,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Les demandeurs ont interjeté appel en avançant en appel un fondement contractuel non soulevé en première instance et en prétendant transformer une obligation de moyens en obligation de résultat sous la qualification d'obligation de sécurité. La cour, statuant par défaut, juge l'appel téméraire, relève une erreur d'appréciation et une mauvaise foi et condamne les demandeurs à une amende de 150 euros sur le fondement de l'article 1072bis du Code judiciaire."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2003:ARR.20031112.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Revu l'arrêt rendu par la cour de céans le 24 juin 2003 ; Fabrice S. et Madeleine D. ont introduit un appel principal à l'encontre d'un jugement à la motivation claire et précise qui ne laissait aucun doute sur les principes de droit applicables en la matière et sur l'analyse des faits qu'il convenait d'avoir, et qui répondait parfaitement aux moyens qu'ils avaient développés, s'appuyant sur une expertise médicale judiciaire claire et fouillée ; contrairement à ce qu'ils ont énoncé dans leurs conclusions d'appel, le premier juge ne devait pas aborder le fondement contractuel de leur demande dirigée contre l'intimée puisqu'ils n'invoquaient pas en première instance ce fondement. De la sorte, ils ont agi avec une légèreté coupable, à la suite d'une erreur évidente d'appréciation quant aux chances de succès de leur recours, que n'aurait pas commise tout justiciable normalement raisonnable et prudent, placé dans les mêmes circonstances. Cette erreur d'appréciation se double d'une mauvaise foi évidente dans la rédaction des conclusions, faisant état d'une relation contractuelle sans vraiment aborder distinctement les fondements contractuel et quasi-délictuel pour glisser vers le fondement quasi-délictuel, inventant de nouveaux principes de droit, jurisprudence française à l'appui, affirmant que l'obligation de soins est bien une obligation de moyens, mais s'empressant de la transformer en obligation de résultat sous la dénomination d'obligation de sécurité. Cet abus manifeste de recours à la juridiction d'appel porte préjudice à l'administration de la justice en général laquelle rencontre déjà suffisamment de difficultés pour trancher dans un délai raisonnable les litiges qui méritent de lui être soumis. Il justifie une amende de 150 euros pour appel téméraire sur la base de l'article 1072 bis du Code judiciaire.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2003:ARR.20031112.1-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CALIE:2003:ARR.20031112.1-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CALIE:2003:ARR.20031112.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu l'article 24 de la loi du 15 juin 1935, La cour, statuant par défaut à l'égard de Fabrice S. et Marianne D., Les condamne à une amende de 150 euros Ainsi prononcé, en langue française, au Palais de Justice, à l'audience publique de la TROISIEME chambre de la Cour d'appel de LIEGE, Le DOUZE NOVEMBRE DEUX MILLE TROIS Présents : Bernadette PRIGNON, conseiller ff de président Marie-Anne LANGE, conseiller, Marie-Françoise HUBERT, conseiller, Yvonne GERMAIN, greffier.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CALIE:2003:ARR.20031112.1-002"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 2,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 2,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0.5,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CALIE:2003:ARR.20031112.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Revu l'arrêt rendu par la cour de céans le 24 juin 2003 ; Fabrice S. et Madeleine D. ont introduit un appel principal à l'encontre d'un jugement à la motivation claire et précise qui ne laissait aucun doute sur les principes de droit applicables en la matière et sur l'analyse des faits qu'il convenait d'avoir, et qui répondait parfaitement aux moyens qu'ils avaient développés, s'appuyant sur une expertise médicale judiciaire claire et fouillée ; contrairement à ce qu'ils ont énoncé dans leurs conclusions d'appel, le premier juge ne devait pas aborder le fondement contractuel de leur demande dirigée contre l'intimée puisqu'ils n'invoquaient pas en première instance ce fondement. De la sorte, ils ont agi avec une légèreté coupable, à la suite d'une erreur évidente d'appréciation quant aux chances de succès de leur recours, que n'aurait pas commise tout justiciable normalement raisonnable et prudent, placé dans les mêmes circonstances. Cette erreur d'appréciation se double d'une mauvaise foi évidente dans la rédaction des conclusions, faisant état d'une relation contractuelle sans vraiment aborder distinctement les fondements contractuel et quasi-délictuel pour glisser vers le fondement quasi-délictuel, inventant de nouveaux principes de droit, jurisprudence française à l'appui, affirmant que l'obligation de soins est bien une obligation de moyens, mais s'empressant de la transformer en obligation de résultat sous la dénomination d'obligation de sécurité. Cet abus manifeste de recours à la juridiction d'appel porte préjudice à l'administration de la justice en général laquelle rencontre déjà suffisamment de difficultés pour trancher dans un délai raisonnable les litiges qui méritent de lui être soumis. Il justifie une amende de 150 euros pour appel téméraire sur la base de l'article 1072 bis du Code judiciaire.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 1,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 1,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:1992:DEC.19921120.3",
+  "language": "FR",
+  "metadata": {
+    "id": 116361,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commission pour la Protection de la Vie privée",
+    "decision_date": "1992-11-20",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Décision",
+    "md_length": 2484,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commission de la protection de la vie privée, 20 novembre 1992, Décision n 07, ECLI:BE:COPRIV:1992:DEC.19921120.3"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1992:DEC.19921120.3-001",
+        "name": "Monsieur ..X..",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "PLAIGNANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:1992:DEC.19921120.3-002",
+        "name": "société éditrice mentionnée dans la publication",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "DEFENDEUR"
+      }
+    ],
+    "currentInstance": {
+      "facts": "La Commission a reçu une plainte datée du 03 juillet 1992 et reçue le 05 juillet 1992 de Monsieur ..X.. ; le plaignant demande à la Commission de se prononcer sur une publication libre des adresses de tous les habitants de Tubize. Le rapporteur a interrogé par écrit la société éditrice mentionnée dans la publication afin de savoir comment elle avait obtenu les données. La société a répondu que les données étaient basées sur les listes électorales qu'elle a achetées en 1990 à la maison communale. Il est relevé qu'une publication d'adresses basée sur des listes électorales obtenues avant l'entrée en vigueur de l'article 12 de la loi du 30 juillet 1991 modifiant le Code électoral (M.B. du 3 septembre 1991) n'était pas interdite par la loi. La Commission expose ensuite les matières dont elle est actuellement compétente (contrôle de l'accès et de l'utilisation de certaines données administratives et pécuniaires, contrôle des numéros d'identification du Registre national, droit d'évocation pour la Banque-carrefour de la Sécurité sociale, contrôle du fichier central du permis de conduire à points, contrôle des données relatives au crédit à la consommation) et conclut qu'il ressort de cette énumération que les faits dénoncés par le plaignant ne sont pas de la compétence actuelle de la Commission.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:1992:DEC.19921120.3-001",
+          "requests": "Le plaignant demande à la Commission de se prononcer sur une publication libre des adresses de tous les habitants de Tubize."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "PAR CES MOTIFS,\n\nVu l'article 92 de la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la Sécurité sociale;\n\nVu la loi du 8 août 1983 organisant un Registre national des personnes physiques;\n\nLa Commission déclare la plainte irrecevable,\nordonne que la présente décision soit notifiée au plaignant, Monsieur ..X.. .",
+      "outcome": "IRRECEVABILITE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1992:DEC.19921120.3-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1992:DEC.19921120.3-001",
+        "provisionNumber": "article 12",
+        "provisionNumberKey": "12",
+        "parentActType": "LOI",
+        "parentActName": "loi du 30 juillet 1991 modifiant le Code électoral (Moniteur belge du 3 septembre 1991)",
+        "parentActDate": "1991-07-30",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission conclut que l'article 12 de la loi du 30 juillet 1991 ne s'applique pas rétroactivement aux listes électorales obtenues avant son entrée en vigueur : une publication d'adresses fondée sur des listes achetées en 1990 à la maison communale n'était pas interdite par la loi.",
+        "relevantFactualContext": "La société éditrice a déclaré que les données provenaient de listes électorales achetées en 1990 à la maison communale; la publication litigieuse reposait sur ces listes antérieures à l'entrée en vigueur de l'article 12."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1992:DEC.19921120.3-002",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:1992:DEC.19921120.3-002",
+        "provisionNumber": "article 92",
+        "provisionNumberKey": "92",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la Sécurité sociale",
+        "parentActDate": "1990-01-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": []
+  },
+  "keywords": {
+    "customKeywords": [
+      "Protection des données",
+      "Publication d'adresses",
+      "Listes électorales",
+      "Achat listes communales",
+      "Publication locale",
+      "Recevabilité de la plainte",
+      "Compétence de la Commission",
+      "Légalité de la publication",
+      "Accès aux données administratives",
+      "Obtention antérieure loi"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1992:DEC.19921120.3-001",
+        "text": "Une disposition légale interdisant la publication d'adresses figurant sur des listes électorales s'applique à compter de son entrée en vigueur et ne s'applique pas rétroactivement aux listes obtenues légalement avant cette date; la publication fondée sur des listes antérieures n'est donc pas interdite par la nouvelle disposition.",
+        "courtVerbatim": "Une publication d'adresses basée sur des listes électorales qu'on a obtenu avant l'entrée en vigueur de l'article 12 de la loi du 30 juillet 1991 modifiant le Code électoral (M.B. du 3 septembre 1991) n'était pas interdite par la loi.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la publication d'adresses repose sur des listes électorales obtenues avant l'entrée en vigueur d'une disposition légale nouvelle interdisant cette publication.",
+        "relevantFactualContext": "La société éditrice a déclaré que les données provenaient de listes électorales achetées en 1990 à la maison communale; la publication litigieuse reposait sur ces listes antérieures à l'entrée en vigueur de l'article 12.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1992:DEC.19921120.3-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1992:DEC.19921120.3-002",
+        "text": "La Commission n'est compétente que pour les matières que la loi lui attribue expressément; lorsqu'une plainte porte sur des faits qui ne figurent pas parmi ces matières, la Commission doit déclarer la plainte irrecevable pour défaut de compétence.",
+        "courtVerbatim": "D'autre part, la Commission est actuellement compétente dans les matières suivantes :\n\n1/ le contrôle de l'accès et de l'utilisation des données administratives et pécuniaires des personnes dont la rémunération est à charge de l'Etat (A.R. nE 141 du 30.12.1982);\n\n---\n\n2/ le contrôle de l'accès et de l'utilisation des nE d'identification du Registre national des personnes physiques (loi du 8.08.1983);\n3/ l'exercice d'un droit d'évocation, s'il échet, des décisions du Comité de surveillance de la Banque-carrefour de la Sécurité sociale. Cette Banque organise la transmission des données nécessaires à chaque institution ayant en charge un secteur de la Sécurité sociale (loi du 15.01.1990);\n4/ le contrôle de l'accès et de l'utilisation du fichier central concernant le permis de conduire à points institué par la loi du 18.07.1990;\n5/ le contrôle de l'accès et de l'utilisation des données à caractère personnel relatives au crédit à la consommation (loi du 12.06.1991).\n\nIl ressort à suffisance de cette énumération que les faits dénoncés par le plaignant ne sont pas de la compétence actuelle de la Commission.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque les faits dénoncés par une plainte ne figurent pas parmi les matières légalement attribuées à la Commission de la protection de la vie privée.",
+        "relevantFactualContext": "La Commission a énuméré les matières de sa compétence (accès/utilisation de certaines données administratives, Registre national, Banque-carrefour, permis à points, crédits à la consommation) et a conclu que la publication d'adresses dénoncée ne relevait pas de sa compétence actuelle, rendant la plainte irrecevable.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1992:DEC.19921120.3-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur conteste la publication d'adresses des habitants de Tubize par la société éditrice. La Commission relève que la société a acheté les listes électorales en 1990 et que la publication fondée sur des listes obtenues avant l'entrée en vigueur de l'article 12 de la loi du 30 juillet 1991 n'était pas interdite; considérant en outre que les faits ne relèvent pas de sa compétence actuelle, elle déclare la plainte irrecevable."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1992:DEC.19921120.3-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La Commission, Vu la plainte datée du 03 juillet 1992 et reçue par la Commission le 05 juillet 1992 de Monsieur ..X.., A pris la décision suivante : Le plaignant demande à la Commission de se prononcer sur une publication libre des adresses de tous les habitants de Tubize. Le rapporteur, désigné par la Commission, a interrogé, par écrit, la société éditrice mentionnée dans la publication, afin de savoir comment elle a obtenu les données en question. La société a répondu que les données étaient basées sur les listes électorales qu'elle a achetées, en 1990, à la maison communale. Une publication d'adresses basée sur des listes électorales qu'on a obtenu avant l'entrée en vigueur de l'article 12 de la loi du 30 juillet 1991 modifiant le Code électoral (M.B. du 3 septembre 1991) n'était pas interdite par la loi. D'autre part, la Commission est actuellement compétente dans les matières suivantes :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1992:DEC.19921120.3-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:1992:DEC.19921120.3-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu l'article 92 de la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la Sécurité sociale;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:1992:DEC.19921120.3-002"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 2,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 2,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1992:DEC.19921120.3-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La Commission, Vu la plainte datée du 03 juillet 1992 et reçue par la Commission le 05 juillet 1992 de Monsieur ..X.., A pris la décision suivante : Le plaignant demande à la Commission de se prononcer sur une publication libre des adresses de tous les habitants de Tubize. Le rapporteur, désigné par la Commission, a interrogé, par écrit, la société éditrice mentionnée dans la publication, afin de savoir comment elle a obtenu les données en question. La société a répondu que les données étaient basées sur les listes électorales qu'elle a achetées, en 1990, à la maison communale. Une publication d'adresses basée sur des listes électorales qu'on a obtenu avant l'entrée en vigueur de l'article 12 de la loi du 30 juillet 1991 modifiant le Code électoral (M.B. du 3 septembre 1991) n'était pas interdite par la loi. D'autre part, la Commission est actuellement compétente dans les matières suivantes :</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:1992:DEC.19921120.3-002",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">le contrôle de l'accès et de l'utilisation des données administratives et pécuniaires des personnes dont la rémunération est à charge de l'Etat (A.R. n( 141 du 30.12.1982);</p></li>",
+          "<li><p class=\"case-section__paragraph\">le contrôle de l'accès et de l'utilisation des n( d'identification du Registre national des personnes physiques (loi du 8.08.1983);</p></li>",
+          "<li><p class=\"case-section__paragraph\">l'exercice d'un droit d'évocation, s'il échet, des décisions du Comité de surveillance de la Banque-carrefour de la Sécurité sociale. Cette Banque organise la transmission des données nécessaires à chaque institution ayant en charge un secteur de la Sécurité sociale (loi du 15.01.1990);</p></li>",
+          "<li><p class=\"case-section__paragraph\">le contrôle de l'accès et de l'utilisation du fichier central concernant le permis de conduire à points institué par la loi du 18.07.1990;</p></li>",
+          "<li><p class=\"case-section__paragraph\">le contrôle de l'accès et de l'utilisation des données à caractère personnel relatives au crédit à la consommation (loi du 12.06.1991).</p></li>",
+          "<p class=\"case-section__paragraph\">Il ressort à suffisance de cette énumération que les faits dénoncés par le plaignant ne sont pas de la compétence actuelle de la Commission.</p>",
+          "<p class=\"case-footer__paragraph\">Vu l'article 92 de la loi du 15 janvier 1990 relative à l'institution et à l'organisation d'une Banque-carrefour de la Sécurité sociale;</p>",
+          "<p class=\"case-footer__paragraph\">Vu la loi du 8 août 1983 organisant un Registre national des personnes physiques;</p>",
+          "<p class=\"case-footer__paragraph\">La Commission déclare la plainte irrecevable, ordonne que la présente décision soit notifiée au plaignant, Monsieur ..X.. .</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 10,
+        "avgCitationsPerTeaching": 5,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": [
+        "Included footer \"Vu\" and disposition paragraphs for procedural teaching TEACH-ECLI:BE:COPRIV:1992:DEC.19921120.3-002 to validate article 92."
+      ]
+    }
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "decision_id": "ECLI:BE:CAMON:2017:ARR.20170214.6",
+  "language": "FR",
+  "metadata": {
+    "id": 61332,
+    "court_ecli_code": "CAMON",
+    "court_name": "Cour d'appel du ressort de Mons",
+    "decision_date": "2017-02-14",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 9827,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour d'appel de Mons, 14 février 2017, Arrêt n° 2016/RG/122, ECLI:BE:CAMON:2017:ARR.20170214.6"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+        "name": "D.P.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+        "name": "ML. B.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "INTIME"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Le litige porte sur la réclamation par ML. B. à l'encontre de son ex-compagnon D.P. de la somme de 11.660,79 EUR, à majorer des intérêts, correspondant à la moitié des créances indivises et des frais et honoraires du médiateur qu'elle a payés dans le cadre d'une procédure de règlement collectif de dettes introduite conjointement le 28 mars 2003. Par ordonnance du 16 avril 2003 un médiateur a été désigné. Les parties se sont séparées le 9 février 2004 dans un contexte de violences conjugales; D.P. a été incarcéré et condamné par le tribunal correctionnel de Tournai le 8 juin 2004 pour menaces et harcèlement. ML. B. a remboursé seule la quasi-totalité des créances indivises (20.205,62 EUR sur 20.402,68 EUR) et supporté seule les frais et honoraires du médiateur (3.313,03 EUR) en exécution d'un plan homologué par jugement du Tribunal du travail de Tournai du 30 octobre 2012; la procédure a été clôturée suite au dépôt du rapport de clôture du médiateur le 15 mai 2013. Par exploit du 16 janvier 2015, ML. B. a cité D.P. devant le tribunal de première instance de Hainaut (Division Tournai) en paiement de 11.660,79 EUR, intérêts et dépens. Le jugement rendu contradictoirement le 25 novembre 2015 a dit la demande recevable et fondée, condamné D.P. à payer cette somme et aux dépens. Signifié le 9 février 2016, le jugement a été frappé d'appel par requête du 16 février 2016, l'appel étant régulier.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "requests": "Par exploit du 16 janvier 2015, ML. B. demande en paiement la somme de 11.660,79 EUR, à majorer des intérêts moratoires au taux légal depuis la mise en demeure du 28 juillet 2014."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "argument": "ML. B. fonde sa prétention sur la subrogation légale prévue par l'article 1251, 3° du Code civil: ayant été tenue, avec D.P., au paiement des dettes indivises et ayant acquitté seule la quasi-totalité des créances indivises ainsi que les frais et honoraires du médiateur, elle soutient qu'elle est subrogée dans les droits des créanciers et peut exercer un recours contributoire contre son co-débiteur pour obtenir le remboursement de la moitié des sommes payées (capital et frais).",
+          "treatment": "ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+          "argument": "D.P. conteste le recours subrogatoire en invoquant l'article 1675/11 § 4 du Code judiciaire, applicable en matière de règlement collectif de dettes, selon lequel, par dérogation à certaines dispositions du Code civil, les personnes ayant constitué une sûreté personnelle n'ont de recours contre le débiteur que dans la mesure où elles participent au plan et dans le respect de celui-ci; il soutient que cette disposition vise également les codébiteurs des médiés et limiterait le recours de ML. B.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS\n\nLa Cour, Statuant contradictoirement,\n\nVu l'article 24 de la loi du 15 juin 1935 dont il a été fait application, Reçoit l'appel ; Le dit non fondé ; En déboute P.D. ; Confirme, pour les motifs ci-dessus énoncés, le jugement dont appel en toutes ses dispositions ; Condamne P.D. aux dépens d'appel de ML. B. liquidés à la somme de 1.210 EUR et lui délaisse ses propres dépens d'appel.",
+      "outcome": "NON_FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+        "provisionNumber": "article 1251, 3°",
+        "provisionNumberKey": "1251",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour applique l'article 1251, 3° du Code civil comme fondement de la subrogation légale : celui qui, tenu avec d'autres, a acquitté une dette a un recours subrogatoire contre les codébiteurs. Elle retient que les conditions de la subrogation légale sont réunies et fonde le recours de la payeuse sur le droit commun.",
+        "relevantFactualContext": "ML. B. a remboursé seule la quasi-totalité des dettes indivises contractées durant la vie commune (20.205,62 EUR) et les frais du médiateur (3.313,03 EUR) et réclame 11.660,79 EUR à son ex‑compagnon codébiteur solidaire."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+        "provisionNumber": "article 1675/11, § 4",
+        "provisionNumberKey": "1675/11",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 1675/11, §4 C.J. comme une dérogation visant les sûretés personnelles externes (cautions, codébiteurs tiers) : il protège les médiés contre les recours de tiers et déroge aux articles 2028 à 2032 et 2039 du Code civil, mais ne s'applique pas aux médiés requérants eux‑mêmes, qui restent soumis au droit commun entre eux.",
+        "relevantFactualContext": "P.D. invoquait 1675/11 §4 pour écarter le recours subrogatoire; la Cour juge cette disposition inapplicable ici car Mlle B. est co‑médiée dans la procédure conjointe et n'est pas une sûreté personnelle externe."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+        "provisionNumber": "article 2028",
+        "provisionNumberKey": "2028",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+        "provisionNumber": "article 2032",
+        "provisionNumberKey": "2032",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+        "provisionNumber": "article 2039",
+        "provisionNumberKey": "2039",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-006",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+        "provisionNumber": "article 1675/4, 9°",
+        "provisionNumberKey": "1675/4",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour précise que les «sûretés personnelles» visées à l'article 1675/4, 9° C.J. renvoient à des garanties externes et ne peuvent être les requérants (les médiés) eux‑mêmes; dès lors la protection offerte par 1675/11 concerne des tiers et n'empêche pas des recours contributoires entre co‑médiés selon le droit commun.",
+        "relevantFactualContext": "ML. B. était elle‑même médiée et requérante dans la procédure conjointe; la Cour estime qu'elle ne peut être qualifiée de sûreté personnelle externe au sens de 1675/4, 9°."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-007",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+        "provisionNumber": "article 1675/9, § 1er, 2°",
+        "provisionNumberKey": "1675/9",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour indique que l'avertissement prévu à l'article 1675/9, §1er, 2° ne peut être destiné aux médiés eux‑mêmes; ces derniers ne peuvent être à la fois débitrices et créancières dans la même procédure et doivent respecter le plan, de sorte que la mesure vise les créanciers/tiers externes.",
+        "relevantFactualContext": "En l'espèce Mlle B. ne pouvait déposer une déclaration de créance ou recevoir l'avertissement dans sa propre procédure conjointe; la Cour en déduit qu'elle devait respecter le plan et que le mécanisme de 1675/9 ne s'appliquait pas à elle."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-008",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "le juge des saisies près le tribunal de première instance de Tournai",
+        "date": "2003-04-16",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:2017:ARR.20170214.6-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal correctionnel de Tournai",
+        "date": "2004-06-08",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:2017:ARR.20170214.6-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Tribunal du travail de Tournai",
+        "date": "2012-10-30",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:2017:ARR.20170214.6-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit civil",
+      "Règlement collectif de dettes",
+      "Médiation de dettes",
+      "Co-médiés séparés",
+      "Paiement dettes indivises",
+      "Subrogation légale",
+      "Contribution entre co-débiteurs",
+      "Responsabilité conjointe",
+      "Portée procédure collective",
+      "Procédure et droit commun"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+        "text": "L'article 1675/11, §4 du Code judiciaire, qui déroge aux articles 2028 à 2032 et 2039 du Code civil pour protéger les sûretés personnelles, vise les garanties externes (cautions, codébiteurs tiers) et ne s'applique pas aux médiés requérants eux‑mêmes. Dès lors, les règles de la procédure de règlement collectif de dettes ne font pas obstacle à l'application du droit commun entre co‑médiés pour régler leurs comptes internes à défaut de disposition légale spécifique.",
+        "courtVerbatim": "Si les travaux préparatoires (Doc. Parl., Chambre, 1073/11 - 96/97, p. 63-64) précisent que le terme « sûretés personnelles » utilisé par cette disposition vise aussi bien les cautions que les codébiteurs solidaires des médiés, même s'ils n'ont pas encore payé avant le dépôt de la requête et ne deviennent créanciers que parce qu'ils ont été amenés à payer après l'établissement du plan de règlement, cette disposition ne peut s'appliquer qu'aux sûretés personnelles du ou des médié(s) tierces à la médiation, mais non aux médiés eux-mêmes, requérants, qui doivent exécuter le plan. Il s'agit des sûretés personnelles visées à l'article 1675/4, 9° C.J., qui ne peuvent être les requérants eux‑mêmes. Les règles de la procédure de règlement collectif de dettes régissent les rapports externes des médiés à l'égard des créanciers et des tiers, mais ne font pas obstacle à l'application des règles de droit commun (droit patrimonial familial) dans les rapports internes entre médiés qui déposent une requête conjointe - co-médiés - à défaut de dispositions légales spécifiques sur ce point.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la question porte sur l'étendue de la protection offerte par l'article 1675/11 §4 C.J. dans une procédure de règlement collectif de dettes et la qualification des personnes concernées (médiés vs sûretés personnelles externes).",
+        "relevantFactualContext": "En l'espèce, Mlle B. était elle‑même médiée et requérante dans la procédure conjointe; la Cour a jugé qu'elle ne pouvait être qualifiée de sûreté personnelle externe au sens de 1675/4, 9° et que 1675/11 §4 ne s'appliquait pas à sa situation.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-006",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-007",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+        "text": "La subrogation légale prévue par l'article 1251, 3° du Code civil permet à celui qui, tenu avec d'autres, a acquitté une dette d'exercer un recours subrogatoire contre les codébiteurs solidaires; lorsque la procédure de règlement collectif de dettes est clôturée et le plan exécuté, la créance interne du co‑médié devient liquide, certaine et exigible, de sorte que le payeur peut agir en recouvrement selon les règles du droit commun.",
+        "courtVerbatim": "ML. B. fonde sa demande, à titre principal, sur la subrogation légale prévue par l'article 1251, 3° du Code civil au profit de celui qui, étant tenu avec d'autres ou pour d'autres au payement de la dette, avait intérêt de l'acquitter. A bon droit, le premier juge a considéré que les conditions de la subrogation légale étaient réunies. Les règles de la procédure de règlement collectif de dettes ne font nullement obstacle à l'établissement de comptes entre les médiés une fois la procédure terminée et les dettes indivises apurées, la créance du co-médié ne devenant liquide, certaine et exigible qu'à la fin de la procédure, lorsque le plan a été entièrement exécuté. Partant le recours subrogatoire est fondé en application de l'article 1251 3° du Code civil.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un co‑médié a payé des dettes indivises dans le cadre d'un plan issu d'une procédure de règlement collectif de dettes clos et cherche contribution d'un codébiteur solidaire une fois le plan exécuté.",
+        "relevantFactualContext": "Mlle B. a remboursé seule la quasi-totalité des dettes indivises contractées durant la vie commune et les frais du médiateur; après la clôture de la procédure et l'exécution du plan, elle réclame contribution à son ex‑compagnon codébiteur solidaire par recours subrogatoire.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "FAMILY_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 2,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "La demanderesse a réclamé à son ex-concubin le remboursement de la moitié des dettes indivises contractées pendant la vie commune et la moitié des frais et honoraires du médiateur qu'elle a payés seule dans une procédure de règlement collectif de dettes conjointe. La Cour d'appel confirme le jugement et condamne le défendeur à lui payer 11.660,79 EUR, rejetant l'argument tiré de l'article 1675/11 C.J. en retenant que les rapports internes entre co-médiés relèvent du droit commun et autorisent le recours subrogatoire visé à l'article 1251, 3° du Code civil."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">ML. B. fonde sa demande, à titre principal, sur la subrogation légale prévue par l'article 1251, 3° du Code civil au profit de celui qui, étant tenu avec d'autres ou pour d'autres au payement de la dette, avait intérêt de l'acquitter. A bon droit, le premier juge a considéré que les conditions de la subrogation légale étaient réunies.</p>",
+          "<p class=\"case-section__paragraph\">Sur le plan du droit commun, P.D. ne conteste ni la hauteur des montants remboursés par son ex-compagne, ni le caractère indivis des dettes se rapportant à leur période de vie commune qu'elle a payées seule et dont il était codébiteur solidaire, ni le principe du partage des dettes indivises par tête, soit en l'espèce par moitié, ce qui est d'ailleurs la règle entre co-indivisaires, à défaut d'autres quotités expressément convenues ou de circonstances particulières, non invoquées en l'espèce. Il est justifié, tant en droit qu'en fait, que, sur le plan de la contribution à la dette, P.D. rembourse à son ex-compagne, dès lors qu'il n'est pas insolvable, la moitié en capital des dettes solidaires contractées durant la vie commune qu'elle a payées seule après la séparation, ainsi que la moitié des frais et honoraires de leur médiateur de dettes. Partant le recours subrogatoire est fondé en application de l'article 1251 3° du Code civil. L'appel doit être déclaré non fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-006",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Pour contester le recours subrogatoire dirigé contre lui par son ex-compagne, P.D. invoque l'article 1675/11 § 4 du Code judiciaire, applicable en matière de règlement collectif de dettes, libellé comme suit :</p>",
+          "<p class=\"case-section__paragraph\">Par dérogation aux articles 2028 à 2032 et 2039 du Code civil, les personnes qui ont constitué une sûreté personnelle n'ont de recours contre le débiteur que dans la mesure où elles participent au plan de règlement et dans le respect de celui-ci.</p>",
+          "<p class=\"case-section__paragraph\">Si les travaux préparatoires (Doc. Parl., Chambre, 1073/11 - 96/97, p. 63-64) précisent que le terme « sûretés personnelles » utilisé par cette disposition vise aussi bien les cautions que les codébiteurs solidaires des médiés, même s'ils n'ont pas encore payé avant le dépôt de la requête et ne deviennent créanciers que parce qu'ils ont été amenés à payer après l'établissement du plan de règlement, cette disposition ne peut s'appliquer qu'aux sûretés personnelles du ou des médié(s) tierces à la médiation, mais non aux médiés eux-mêmes, requérants, qui doivent exécuter le plan. Il s'agit des sûretés personnelles visées à l'article 1675/4, 9° C.J., qui ne peuvent être les requérants eux-mêmes. Les règles de la procédure de règlement collectif de dettes régissent les rapports externes des médiés à l'égard des créanciers et des tiers, mais ne font pas obstacle à l'application des règles de droit commun (droit patrimonial familial) dans les rapports internes entre médiés qui déposent une requête conjointe - co-médiés - à défaut de dispositions légales spécifiques sur ce point. L'obligation de faire valoir leurs droits de créanciers à l'égard du ou des médiés dans le cadre de la procédure de règlement collectif de dettes et de participer au plan de règlement ne peut viser que les créanciers externes, et non les médiés eux-mêmes, qui ne peuvent évidemment pas faire l'objet de l'avertissement prévu par l'article 1675/9, § 1er, 2° et doivent nécessairement respecter le plan. La situation de ML. B. est différente de celle d'une sûreté personnelle externe, puisqu'elle est elle-même co-médiée et débitrice et ne pouvait pas faire valoir ses droits de créancier à l'égard de son co-médié dans le cadre du plan de règlement. Il lui était impossible de déposer une déclaration de créance dans le cadre de sa propre procédure de règlement collectif de dettes, ne pouvant être à la fois débitrice et créancière dans la même procédure (la situation aurait été différente si deux procédures distinctes avaient été introduites par P.D. et ML. B.). Il ne se conçoit pas que ML. B. ait pu faire adapter ou revoir le plan de règlement et y participer en tant que créancier, alors qu'elle avait la qualité de médiée et devait, à ce titre, respecter elle-même le plan. Ce plan réglait définitivement la question du remboursement des créanciers, mais non celle des comptes entre parties. La ratio legis de l'article 1675/11 est de protéger les médiés contre les recours de tiers, sûretés personnelles, qui doivent supporter les effets du concours et ne peuvent pas compromettre le respect du plan et faire échouer la médiation, non pas de priver les médiés eux-mêmes de tout recours contributoire entre eux lorsque le co-médié, codébiteur solidaire, ne participe pas au remboursement à due concurrence. Ainsi que l'a judicieusement relevé le premier juge, les règles de la procédure de règlement collectif de dettes ne font nullement obstacle à l'établissement de comptes entre les médiés une fois la procédure terminée et les dettes indivises apurées, la créance du co-médié ne devenant liquide, certaine et exigible qu'à la fin de la procédure, lorsque le plan a été entièrement exécuté. Contrairement à ce qu'affirme P.D., le recours subrogatoire de sa co-médiée ne le prive pas des effets de la procédure de règlement collectif de dettes puisque grâce aux paiements effectués par ML. B. et au respect du plan, il a été mis définitivement à l'abri de tout recours de ses créanciers et échappe au paiement des intérêts de ses dettes indivises. Il résulte de l'examen des pièces du dossier de l'intimée (pièce 4) qu'il a également pu bénéficier d'une remise partielle en capital de ses dettes propres. Le co-médié ne peut se retrancher derrière les règles du règlement collectif de dettes après sa clôture pour échapper à sa contribution aux dettes indivises, dans le cadre de ses rapports avec son ex-compagne qui restent régis par le droit commun. Il convient de statuer sur le recours subrogatoire de ML. B. en application des règles du droit commun.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-006",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-007",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Par dérogation aux articles 2028 à 2032 et 2039 du Code civil, les personnes qui ont constitué une sûreté personnelle n'ont de recours contre le débiteur que dans la mesure où elles participent au plan de règlement et dans le respect de celui-ci.</p>",
+          "<p class=\"case-section__paragraph\">Si les travaux préparatoires (Doc. Parl., Chambre, 1073/11 - 96/97, p. 63-64) précisent que le terme « sûretés personnelles » utilisé par cette disposition vise aussi bien les cautions que les codébiteurs solidaires des médiés, même s'ils n'ont pas encore payé avant le dépôt de la requête et ne deviennent créanciers que parce qu'ils ont été amenés à payer après l'établissement du plan de règlement, cette disposition ne peut s'appliquer qu'aux sûretés personnelles du ou des médié(s) tierces à la médiation, mais non aux médiés eux-mêmes, requérants, qui doivent exécuter le plan. Il s'agit des sûretés personnelles visées à l'article 1675/4, 9° C.J., qui ne peuvent être les requérants eux-mêmes. Les règles de la procédure de règlement collectif de dettes régissent les rapports externes des médiés à l'égard des créanciers et des tiers, mais ne font pas obstacle à l'application des règles de droit commun (droit patrimonial familial) dans les rapports internes entre médiés qui déposent une requête conjointe - co-médiés - à défaut de dispositions légales spécifiques sur ce point. L'obligation de faire valoir leurs droits de créanciers à l'égard du ou des médiés dans le cadre de la procédure de règlement collectif de dettes et de participer au plan de règlement ne peut viser que les créanciers externes, et non les médiés eux-mêmes, qui ne peuvent évidemment pas faire l'objet de l'avertissement prévu par l'article 1675/9, § 1er, 2° et doivent nécessairement respecter le plan. La situation de ML. B. est différente de celle d'une sûreté personnelle externe, puisqu'elle est elle-même co-médiée et débitrice et ne pouvait pas faire valoir ses droits de créancier à l'égard de son co-médié dans le cadre du plan de règlement. Il lui était impossible de déposer une déclaration de créance dans le cadre de sa propre procédure de règlement collectif de dettes, ne pouvant être à la fois débitrice et créancière dans la même procédure (la situation aurait été différente si deux procédures distinctes avaient été introduites par P.D. et ML. B.). Il ne se conçoit pas que ML. B. ait pu faire adapter ou revoir le plan de règlement et y participer en tant que créancier, alors qu'elle avait la qualité de médiée et devait, à ce titre, respecter elle-même le plan. Ce plan réglait définitivement la question du remboursement des créanciers, mais non celle des comptes entre parties. La ratio legis de l'article 1675/11 est de protéger les médiés contre les recours de tiers, sûretés personnelles, qui doivent supporter les effets du concours et ne peuvent pas compromettre le respect du plan et faire échouer la médiation, non pas de priver les médiés eux-mêmes de tout recours contributoire entre eux lorsque le co-médié, codébiteur solidaire, ne participe pas au remboursement à due concurrence. Ainsi que l'a judicieusement relevé le premier juge, les règles de la procédure de règlement collectif de dettes ne font nullement obstacle à l'établissement de comptes entre les médiés une fois la procédure terminée et les dettes indivises apurées, la créance du co-médié ne devenant liquide, certaine et exigible qu'à la fin de la procédure, lorsque le plan a été entièrement exécuté. Contrairement à ce qu'affirme P.D., le recours subrogatoire de sa co-médiée ne le prive pas des effets de la procédure de règlement collectif de dettes puisque grâce aux paiements effectués par ML. B. et au respect du plan, il a été mis définitivement à l'abri de tout recours de ses créanciers et échappe au paiement des intérêts de ses dettes indivises. Il résulte de l'examen des pièces du dossier de l'intimée (pièce 4) qu'il a également pu bénéficier d'une remise partielle en capital de ses dettes propres. Le co-médié ne peut se retrancher derrière les règles du règlement collectif de dettes après sa clôture pour échapper à sa contribution aux dettes indivises, dans le cadre de ses rapports avec son ex-compagne qui restent régis par le droit commun. Il convient de statuer sur le recours subrogatoire de ML. B. en application des règles du droit commun.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-006",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-007",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Par dérogation aux articles 2028 à 2032 et 2039 du Code civil, les personnes qui ont constitué une sûreté personnelle n'ont de recours contre le débiteur que dans la mesure où elles participent au plan de règlement et dans le respect de celui-ci.</p>",
+          "<p class=\"case-section__paragraph\">Si les travaux préparatoires (Doc. Parl., Chambre, 1073/11 - 96/97, p. 63-64) précisent que le terme « sûretés personnelles » utilisé par cette disposition vise aussi bien les cautions que les codébiteurs solidaires des médiés, même s'ils n'ont pas encore payé avant le dépôt de la requête et ne deviennent créanciers que parce qu'ils ont été amenés à payer après l'établissement du plan de règlement, cette disposition ne peut s'appliquer qu'aux sûretés personnelles du ou des médié(s) tierces à la médiation, mais non aux médiés eux-mêmes, requérants, qui doivent exécuter le plan. Il s'agit des sûretés personnelles visées à l'article 1675/4, 9° C.J., qui ne peuvent être les requérants eux-mêmes. Les règles de la procédure de règlement collectif de dettes régissent les rapports externes des médiés à l'égard des créanciers et des tiers, mais ne font pas obstacle à l'application des règles de droit commun (droit patrimonial familial) dans les rapports internes entre médiés qui déposent une requête conjointe - co-médiés - à défaut de dispositions légales spécifiques sur ce point. L'obligation de faire valoir leurs droits de créanciers à l'égard du ou des médiés dans le cadre de la procédure de règlement collectif de dettes et de participer au plan de règlement ne peut viser que les créanciers externes, et non les médiés eux-mêmes, qui ne peuvent évidemment pas faire l'objet de l'avertissement prévu par l'article 1675/9, § 1er, 2° et doivent nécessairement respecter le plan. La situation de ML. B. est différente de celle d'une sûreté personnelle externe, puisqu'elle est elle-même co-médiée et débitrice et ne pouvait pas faire valoir ses droits de créancier à l'égard de son co-médié dans le cadre du plan de règlement. Il lui était impossible de déposer une déclaration de créance dans le cadre de sa propre procédure de règlement collectif de dettes, ne pouvant être à la fois débitrice et créancière dans la même procédure (la situation aurait été différente si deux procédures distinctes avaient été introduites par P.D. et ML. B.). Il ne se conçoit pas que ML. B. ait pu faire adapter ou revoir le plan de règlement et y participer en tant que créancier, alors qu'elle avait la qualité de médiée et devait, à ce titre, respecter elle-même le plan. Ce plan réglait définitivement la question du remboursement des créanciers, mais non celle des comptes entre parties. La ratio legis de l'article 1675/11 est de protéger les médiés contre les recours de tiers, sûretés personnelles, qui doivent supporter les effets du concours et ne peuvent pas compromettre le respect du plan et faire échouer la médiation, non pas de priver les médiés eux-mêmes de tout recours contributoire entre eux lorsque le co-médié, codébiteur solidaire, ne participe pas au remboursement à due concurrence. Ainsi que l'a judicieusement relevé le premier juge, les règles de la procédure de règlement collectif de dettes ne font nullement obstacle à l'établissement de comptes entre les médiés une fois la procédure terminée et les dettes indivises apurées, la créance du co-médié ne devenant liquide, certaine et exigible qu'à la fin de la procédure, lorsque le plan a été entièrement exécuté. Contrairement à ce qu'affirme P.D., le recours subrogatoire de sa co-médiée ne le prive pas des effets de la procédure de règlement collectif de dettes puisque grâce aux paiements effectués par ML. B. et au respect du plan, il a été mis définitivement à l'abri de tout recours de ses créanciers et échappe au paiement des intérêts de ses dettes indivises. Il résulte de l'examen des pièces du dossier de l'intimée (pièce 4) qu'il a également pu bénéficier d'une remise partielle en capital de ses dettes propres. Le co-médié ne peut se retrancher derrière les règles du règlement collectif de dettes après sa clôture pour échapper à sa contribution aux dettes indivises, dans le cadre de ses rapports avec son ex-compagne qui restent régis par le droit commun. Il convient de statuer sur le recours subrogatoire de ML. B. en application des règles du droit commun.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-006",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-007",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Par dérogation aux articles 2028 à 2032 et 2039 du Code civil, les personnes qui ont constitué une sûreté personnelle n'ont de recours contre le débiteur que dans la mesure où elles participent au plan de règlement et dans le respect de celui-ci.</p>",
+          "<p class=\"case-section__paragraph\">Si les travaux préparatoires (Doc. Parl., Chambre, 1073/11 - 96/97, p. 63-64) précisent que le terme « sûretés personnelles » utilisé par cette disposition vise aussi bien les cautions que les codébiteurs solidaires des médiés, même s'ils n'ont pas encore payé avant le dépôt de la requête et ne deviennent créanciers que parce qu'ils ont été amenés à payer après l'établissement du plan de règlement, cette disposition ne peut s'appliquer qu'aux sûretés personnelles du ou des médié(s) tierces à la médiation, mais non aux médiés eux-mêmes, requérants, qui doivent exécuter le plan. Il s'agit des sûretés personnelles visées à l'article 1675/4, 9° C.J., qui ne peuvent être les requérants eux-mêmes. Les règles de la procédure de règlement collectif de dettes régissent les rapports externes des médiés à l'égard des créanciers et des tiers, mais ne font pas obstacle à l'application des règles de droit commun (droit patrimonial familial) dans les rapports internes entre médiés qui déposent une requête conjointe - co-médiés - à défaut de dispositions légales spécifiques sur ce point. L'obligation de faire valoir leurs droits de créanciers à l'égard du ou des médiés dans le cadre de la procédure de règlement collectif de dettes et de participer au plan de règlement ne peut viser que les créanciers externes, et non les médiés eux-mêmes, qui ne peuvent évidemment pas faire l'objet de l'avertissement prévu par l'article 1675/9, § 1er, 2° et doivent nécessairement respecter le plan. La situation de ML. B. est différente de celle d'une sûreté personnelle externe, puisqu'elle est elle-même co-médiée et débitrice et ne pouvait pas faire valoir ses droits de créancier à l'égard de son co-médié dans le cadre du plan de règlement. Il lui était impossible de déposer une déclaration de créance dans le cadre de sa propre procédure de règlement collectif de dettes, ne pouvant être à la fois débitrice et créancière dans la même procédure (la situation aurait été différente si deux procédures distinctes avaient été introduites par P.D. et ML. B.). Il ne se conçoit pas que ML. B. ait pu faire adapter ou revoir le plan de règlement et y participer en tant que créancier, alors qu'elle avait la qualité de médiée et devait, à ce titre, respecter elle-même le plan. Ce plan réglait définitivement la question du remboursement des créanciers, mais non celle des comptes entre parties. La ratio legis de l'article 1675/11 est de protéger les médiés contre les recours de tiers, sûretés personnelles, qui doivent supporter les effets du concours et ne peuvent pas compromettre le respect du plan et faire échouer la médiation, non pas de priver les médiés eux-mêmes de tout recours contributoire entre eux lorsque le co-médié, codébiteur solidaire, ne participe pas au remboursement à due concurrence. Ainsi que l'a judicieusement relevé le premier juge, les règles de la procédure de règlement collectif de dettes ne font nullement obstacle à l'établissement de comptes entre les médiés une fois la procédure terminée et les dettes indivises apurées, la créance du co-médié ne devenant liquide, certaine et exigible qu'à la fin de la procédure, lorsque le plan a été entièrement exécuté. Contrairement à ce qu'affirme P.D., le recours subrogatoire de sa co-médiée ne le prive pas des effets de la procédure de règlement collectif de dettes puisque grâce aux paiements effectués par ML. B. et au respect du plan, il a été mis définitivement à l'abri de tout recours de ses créanciers et échappe au paiement des intérêts de ses dettes indivises. Il résulte de l'examen des pièces du dossier de l'intimée (pièce 4) qu'il a également pu bénéficier d'une remise partielle en capital de ses dettes propres. Le co-médié ne peut se retrancher derrière les règles du règlement collectif de dettes après sa clôture pour échapper à sa contribution aux dettes indivises, dans le cadre de ses rapports avec son ex-compagne qui restent régis par le droit commun. Il convient de statuer sur le recours subrogatoire de ML. B. en application des règles du droit commun.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-006",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-007",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Pour contester le recours subrogatoire dirigé contre lui par son ex-compagne, P.D. invoque l'article 1675/11 § 4 du Code judiciaire, applicable en matière de règlement collectif de dettes, libellé comme suit :</p>",
+          "<p class=\"case-section__paragraph\">Par dérogation aux articles 2028 à 2032 et 2039 du Code civil, les personnes qui ont constitué une sûreté personnelle n'ont de recours contre le débiteur que dans la mesure où elles participent au plan de règlement et dans le respect de celui-ci.</p>",
+          "<p class=\"case-section__paragraph\">Si les travaux préparatoires (Doc. Parl., Chambre, 1073/11 - 96/97, p. 63-64) précisent que le terme « sûretés personnelles » utilisé par cette disposition vise aussi bien les cautions que les codébiteurs solidaires des médiés, même s'ils n'ont pas encore payé avant le dépôt de la requête et ne deviennent créanciers que parce qu'ils ont été amenés à payer après l'établissement du plan de règlement, cette disposition ne peut s'appliquer qu'aux sûretés personnelles du ou des médié(s) tierces à la médiation, mais non aux médiés eux-mêmes, requérants, qui doivent exécuter le plan. Il s'agit des sûretés personnelles visées à l'article 1675/4, 9° C.J., qui ne peuvent être les requérants eux-mêmes. Les règles de la procédure de règlement collectif de dettes régissent les rapports externes des médiés à l'égard des créanciers et des tiers, mais ne font pas obstacle à l'application des règles de droit commun (droit patrimonial familial) dans les rapports internes entre médiés qui déposent une requête conjointe - co-médiés - à défaut de dispositions légales spécifiques sur ce point. L'obligation de faire valoir leurs droits de créanciers à l'égard du ou des médiés dans le cadre de la procédure de règlement collectif de dettes et de participer au plan de règlement ne peut viser que les créanciers externes, et non les médiés eux-mêmes, qui ne peuvent évidemment pas faire l'objet de l'avertissement prévu par l'article 1675/9, § 1er, 2° et doivent nécessairement respecter le plan. La situation de ML. B. est différente de celle d'une sûreté personnelle externe, puisqu'elle est elle-même co-médiée et débitrice et ne pouvait pas faire valoir ses droits de créancier à l'égard de son co-médié dans le cadre du plan de règlement. Il lui était impossible de déposer une déclaration de créance dans le cadre de sa propre procédure de règlement collectif de dettes, ne pouvant être à la fois débitrice et créancière dans la même procédure (la situation aurait été différente si deux procédures distinctes avaient été introduites par P.D. et ML. B.). Il ne se conçoit pas que ML. B. ait pu faire adapter ou revoir le plan de règlement et y participer en tant que créancier, alors qu'elle avait la qualité de médiée et devait, à ce titre, respecter elle-même le plan. Ce plan réglait définitivement la question du remboursement des créanciers, mais non celle des comptes entre parties. La ratio legis de l'article 1675/11 est de protéger les médiés contre les recours de tiers, sûretés personnelles, qui doivent supporter les effets du concours et ne peuvent pas compromettre le respect du plan et faire échouer la médiation, non pas de priver les médiés eux-mêmes de tout recours contributoire entre eux lorsque le co-médié, codébiteur solidaire, ne participe pas au remboursement à due concurrence. Ainsi que l'a judicieusement relevé le premier juge, les règles de la procédure de règlement collectif de dettes ne font nullement obstacle à l'établissement de comptes entre les médiés une fois la procédure terminée et les dettes indivises apurées, la créance du co-médié ne devenant liquide, certaine et exigible qu'à la fin de la procédure, lorsque le plan a été entièrement exécuté. Contrairement à ce qu'affirme P.D., le recours subrogatoire de sa co-médiée ne le prive pas des effets de la procédure de règlement collectif de dettes puisque grâce aux paiements effectués par ML. B. et au respect du plan, il a été mis définitivement à l'abri de tout recours de ses créanciers et échappe au paiement des intérêts de ses dettes indivises. Il résulte de l'examen des pièces du dossier de l'intimée (pièce 4) qu'il a également pu bénéficier d'une remise partielle en capital de ses dettes propres. Le co-médié ne peut se retrancher derrière les règles du règlement collectif de dettes après sa clôture pour échapper à sa contribution aux dettes indivises, dans le cadre de ses rapports avec son ex-compagne qui restent régis par le droit commun. Il convient de statuer sur le recours subrogatoire de ML. B. en application des règles du droit commun.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-006",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-007",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Pour contester le recours subrogatoire dirigé contre lui par son ex-compagne, P.D. invoque l'article 1675/11 § 4 du Code judiciaire, applicable en matière de règlement collectif de dettes, libellé comme suit :</p>",
+          "<p class=\"case-section__paragraph\">Par dérogation aux articles 2028 à 2032 et 2039 du Code civil, les personnes qui ont constitué une sûreté personnelle n'ont de recours contre le débiteur que dans la mesure où elles participent au plan de règlement et dans le respect de celui-ci.</p>",
+          "<p class=\"case-section__paragraph\">Si les travaux préparatoires (Doc. Parl., Chambre, 1073/11 - 96/97, p. 63-64) précisent que le terme « sûretés personnelles » utilisé par cette disposition vise aussi bien les cautions que les codébiteurs solidaires des médiés, même s'ils n'ont pas encore payé avant le dépôt de la requête et ne deviennent créanciers que parce qu'ils ont été amenés à payer après l'établissement du plan de règlement, cette disposition ne peut s'appliquer qu'aux sûretés personnelles du ou des médié(s) tierces à la médiation, mais non aux médiés eux-mêmes, requérants, qui doivent exécuter le plan. Il s'agit des sûretés personnelles visées à l'article 1675/4, 9° C.J., qui ne peuvent être les requérants eux-mêmes. Les règles de la procédure de règlement collectif de dettes régissent les rapports externes des médiés à l'égard des créanciers et des tiers, mais ne font pas obstacle à l'application des règles de droit commun (droit patrimonial familial) dans les rapports internes entre médiés qui déposent une requête conjointe - co-médiés - à défaut de dispositions légales spécifiques sur ce point. L'obligation de faire valoir leurs droits de créanciers à l'égard du ou des médiés dans le cadre de la procédure de règlement collectif de dettes et de participer au plan de règlement ne peut viser que les créanciers externes, et non les médiés eux-mêmes, qui ne peuvent évidemment pas faire l'objet de l'avertissement prévu par l'article 1675/9, § 1er, 2° et doivent nécessairement respecter le plan. La situation de ML. B. est différente de celle d'une sûreté personnelle externe, puisqu'elle est elle-même co-médiée et débitrice et ne pouvait pas faire valoir ses droits de créancier à l'égard de son co-médié dans le cadre du plan de règlement. Il lui était impossible de déposer une déclaration de créance dans le cadre de sa propre procédure de règlement collectif de dettes, ne pouvant être à la fois débitrice et créancière dans la même procédure (la situation aurait été différente si deux procédures distinctes avaient été introduites par P.D. et ML. B.). Il ne se conçoit pas que ML. B. ait pu faire adapter ou revoir le plan de règlement et y participer en tant que créancier, alors qu'elle avait la qualité de médiée et devait, à ce titre, respecter elle-même le plan. Ce plan réglait définitivement la question du remboursement des créanciers, mais non celle des comptes entre parties. La ratio legis de l'article 1675/11 est de protéger les médiés contre les recours de tiers, sûretés personnelles, qui doivent supporter les effets du concours et ne peuvent pas compromettre le respect du plan et faire échouer la médiation, non pas de priver les médiés eux-mêmes de tout recours contributoire entre eux lorsque le co-médié, codébiteur solidaire, ne participe pas au remboursement à due concurrence. Ainsi que l'a judicieusement relevé le premier juge, les règles de la procédure de règlement collectif de dettes ne font nullement obstacle à l'établissement de comptes entre les médiés une fois la procédure terminée et les dettes indivises apurées, la créance du co-médié ne devenant liquide, certaine et exigible qu'à la fin de la procédure, lorsque le plan a été entièrement exécuté. Contrairement à ce qu'affirme P.D., le recours subrogatoire de sa co-médiée ne le prive pas des effets de la procédure de règlement collectif de dettes puisque grâce aux paiements effectués par ML. B. et au respect du plan, il a été mis définitivement à l'abri de tout recours de ses créanciers et échappe au paiement des intérêts de ses dettes indivises. Il résulte de l'examen des pièces du dossier de l'intimée (pièce 4) qu'il a également pu bénéficier d'une remise partielle en capital de ses dettes propres. Le co-médié ne peut se retrancher derrière les règles du règlement collectif de dettes après sa clôture pour échapper à sa contribution aux dettes indivises, dans le cadre de ses rapports avec son ex-compagne qui restent régis par le droit commun. Il convient de statuer sur le recours subrogatoire de ML. B. en application des règles du droit commun.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-007",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-006",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-003",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-004",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-005",
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu l'article 24 de la loi du 15 juin 1935 dont il a été fait application, Reçoit l'appel ; Le dit non fondé ; En déboute P.D. ; Confirme, pour les motifs ci-dessus énoncés, le jugement dont appel en toutes ses dispositions ; Condamne P.D. aux dépens d'appel de ML. B. liquidés à la somme de 1.210 EUR et lui délaisse ses propres dépens d'appel.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2017:ARR.20170214.6-008"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 8,
+      "citationStatistics": {
+        "totalCitations": 18,
+        "avgCitationsPerProvision": 2.25,
+        "provisionsWithMinimalCitations": 5,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 6.25,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2017:ARR.20170214.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Pour contester le recours subrogatoire dirigé contre lui par son ex-compagne, P.D. invoque l'article 1675/11 § 4 du Code judiciaire, applicable en matière de règlement collectif de dettes, libellé comme suit :</p>",
+          "<p class=\"case-section__paragraph\">Par dérogation aux articles 2028 à 2032 et 2039 du Code civil, les personnes qui ont constitué une sûreté personnelle n'ont de recours contre le débiteur que dans la mesure où elles participent au plan de règlement et dans le respect de celui-ci.</p>",
+          "<p class=\"case-section__paragraph\">Si les travaux préparatoires (Doc. Parl., Chambre, 1073/11 - 96/97, p. 63-64) précisent que le terme « sûretés personnelles » utilisé par cette disposition vise aussi bien les cautions que les codébiteurs solidaires des médiés, même s'ils n'ont pas encore payé avant le dépôt de la requête et ne deviennent créanciers que parce qu'ils ont été amenés à payer après l'établissement du plan de règlement, cette disposition ne peut s'appliquer qu'aux sûretés personnelles du ou des médié(s) tierces à la médiation, mais non aux médiés eux-mêmes, requérants, qui doivent exécuter le plan. Il s'agit des sûretés personnelles visées à l'article 1675/4, 9° C.J., qui ne peuvent être les requérants eux-mêmes. Les règles de la procédure de règlement collectif de dettes régissent les rapports externes des médiés à l'égard des créanciers et des tiers, mais ne font pas obstacle à l'application des règles de droit commun (droit patrimonial familial) dans les rapports internes entre médiés qui déposent une requête conjointe - co-médiés - à défaut de dispositions légales spécifiques sur ce point. L'obligation de faire valoir leurs droits de créanciers à l'égard du ou des médiés dans le cadre de la procédure de règlement collectif de dettes et de participer au plan de règlement ne peut viser que les créanciers externes, et non les médiés eux-mêmes, qui ne peuvent évidemment pas faire l'objet de l'avertissement prévu par l'article 1675/9, § 1er, 2° et doivent nécessairement respecter le plan. La situation de ML. B. est différente de celle d'une sûreté personnelle externe, puisqu'elle est elle-même co-médiée et débitrice et ne pouvait pas faire valoir ses droits de créancier à l'égard de son co-médié dans le cadre du plan de règlement. Il lui était impossible de déposer une déclaration de créance dans le cadre de sa propre procédure de règlement collectif de dettes, ne pouvant être à la fois débitrice et créancière dans la même procédure (la situation aurait été différente si deux procédures distinctes avaient été introduites par P.D. et ML. B.). Il ne se conçoit pas que ML. B. ait pu faire adapter ou revoir le plan de règlement et y participer en tant que créancier, alors qu'elle avait la qualité de médiée et devait, à ce titre, respecter elle-même le plan. Ce plan réglait définitivement la question du remboursement des créanciers, mais non celle des comptes entre parties. La ratio legis de l'article 1675/11 est de protéger les médiés contre les recours de tiers, sûretés personnelles, qui doivent supporter les effets du concours et ne peuvent pas compromettre le respect du plan et faire échouer la médiation, non pas de priver les médiés eux-mêmes de tout recours contributoire entre eux lorsque le co-médié, codébiteur solidaire, ne participe pas au remboursement à due concurrence. Ainsi que l'a judicieusement relevé le premier juge, les règles de la procédure de règlement collectif de dettes ne font nullement obstacle à l'établissement de comptes entre les médiés une fois la procédure terminée et les dettes indivises apurées, la créance du co-médié ne devenant liquide, certaine et exigible qu'à la fin de la procédure, lorsque le plan a été entièrement exécuté. Contrairement à ce qu'affirme P.D., le recours subrogatoire de sa co-médiée ne le prive pas des effets de la procédure de règlement collectif de dettes puisque grâce aux paiements effectués par ML. B. et au respect du plan, il a été mis définitivement à l'abri de tout recours de ses créanciers et échappe au paiement des intérêts de ses dettes indivises. Il résulte de l'examen des pièces du dossier de l'intimée (pièce 4) qu'il a également pu bénéficier d'une remise partielle en capital de ses dettes propres. Le co-médié ne peut se retrancher derrière les règles du règlement collectif de dettes après sa clôture pour échapper à sa contribution aux dettes indivises, dans le cadre de ses rapports avec son ex-compagne qui restent régis par le droit commun. Il convient de statuer sur le recours subrogatoire de ML. B. en application des règles du droit commun.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 6,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2017:ARR.20170214.6-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">ML. B. fonde sa demande, à titre principal, sur la subrogation légale prévue par l'article 1251, 3° du Code civil au profit de celui qui, étant tenu avec d'autres ou pour d'autres au payement de la dette, avait intérêt de l'acquitter. A bon droit, le premier juge a considéré que les conditions de la subrogation légale étaient réunies.</p>",
+          "<p class=\"case-section__paragraph\">Pour contester le recours subrogatoire dirigé contre lui par son ex-compagne, P.D. invoque l'article 1675/11 § 4 du Code judiciaire, applicable en matière de règlement collectif de dettes, libellé comme suit :</p>",
+          "<p class=\"case-section__paragraph\">Par dérogation aux articles 2028 à 2032 et 2039 du Code civil, les personnes qui ont constitué une sûreté personnelle n'ont de recours contre le débiteur que dans la mesure où elles participent au plan de règlement et dans le respect de celui-ci.</p>",
+          "<p class=\"case-section__paragraph\">Si les travaux préparatoires (Doc. Parl., Chambre, 1073/11 - 96/97, p. 63-64) précisent que le terme « sûretés personnelles » utilisé par cette disposition vise aussi bien les cautions que les codébiteurs solidaires des médiés, même s'ils n'ont pas encore payé avant le dépôt de la requête et ne deviennent créanciers que parce qu'ils ont été amenés à payer après l'établissement du plan de règlement, cette disposition ne peut s'appliquer qu'aux sûretés personnelles du ou des médié(s) tierces à la médiation, mais non aux médiés eux-mêmes, requérants, qui doivent exécuter le plan. Il s'agit des sûretés personnelles visées à l'article 1675/4, 9° C.J., qui ne peuvent être les requérants eux-mêmes. Les règles de la procédure de règlement collectif de dettes régissent les rapports externes des médiés à l'égard des créanciers et des tiers, mais ne font pas obstacle à l'application des règles de droit commun (droit patrimonial familial) dans les rapports internes entre médiés qui déposent une requête conjointe - co-médiés - à défaut de dispositions légales spécifiques sur ce point. L'obligation de faire valoir leurs droits de créanciers à l'égard du ou des médiés dans le cadre de la procédure de règlement collectif de dettes et de participer au plan de règlement ne peut viser que les créanciers externes, et non les médiés eux-mêmes, qui ne peuvent évidemment pas faire l'objet de l'avertissement prévu par l'article 1675/9, § 1er, 2° et doivent nécessairement respecter le plan. La situation de ML. B. est différente de celle d'une sûreté personnelle externe, puisqu'elle est elle-même co-médiée et débitrice et ne pouvait pas faire valoir ses droits de créancier à l'égard de son co-médié dans le cadre du plan de règlement. Il lui était impossible de déposer une déclaration de créance dans le cadre de sa propre procédure de règlement collectif de dettes, ne pouvant être à la fois débitrice et créancière dans la même procédure (la situation aurait été différente si deux procédures distinctes avaient été introduites par P.D. et ML. B.). Il ne se conçoit pas que ML. B. ait pu faire adapter ou revoir le plan de règlement et y participer en tant que créancier, alors qu'elle avait la qualité de médiée et devait, à ce titre, respecter elle-même le plan. Ce plan réglait définitivement la question du remboursement des créanciers, mais non celle des comptes entre parties. La ratio legis de l'article 1675/11 est de protéger les médiés contre les recours de tiers, sûretés personnelles, qui doivent supporter les effets du concours et ne peuvent pas compromettre le respect du plan et faire échouer la médiation, non pas de priver les médiés eux-mêmes de tout recours contributoire entre eux lorsque le co-médié, codébiteur solidaire, ne participe pas au remboursement à due concurrence. Ainsi que l'a judicieusement relevé le premier juge, les règles de la procédure de règlement collectif de dettes ne font nullement obstacle à l'établissement de comptes entre les médiés une fois la procédure terminée et les dettes indivises apurées, la créance du co-médié ne devenant liquide, certaine et exigible qu'à la fin de la procédure, lorsque le plan a été entièrement exécuté. Contrairement à ce qu'affirme P.D., le recours subrogatoire de sa co-médiée ne le prive pas des effets de la procédure de règlement collectif de dettes puisque grâce aux paiements effectués par ML. B. et au respect du plan, il a été mis définitivement à l'abri de tout recours de ses créanciers et échappe au paiement des intérêts de ses dettes indivises. Il résulte de l'examen des pièces du dossier de l'intimée (pièce 4) qu'il a également pu bénéficier d'une remise partielle en capital de ses dettes propres. Le co-médié ne peut se retrancher derrière les règles du règlement collectif de dettes après sa clôture pour échapper à sa contribution aux dettes indivises, dans le cadre de ses rapports avec son ex-compagne qui restent régis par le droit commun. Il convient de statuer sur le recours subrogatoire de ML. B. en application des règles du droit commun.</p>",
+          "<p class=\"case-section__paragraph\">Sur le plan du droit commun, P.D. ne conteste ni la hauteur des montants remboursés par son ex-compagne, ni le caractère indivis des dettes se rapportant à leur période de vie commune qu'elle a payées seule et dont il était codébiteur solidaire, ni le principe du partage des dettes indivises par tête, soit en l'espèce par moitié, ce qui est d'ailleurs la règle entre co-indivisaires, à défaut d'autres quotités expressément convenues ou de circonstances particulières, non invoquées en l'espèce. Il est justifié, tant en droit qu'en fait, que, sur le plan de la contribution à la dette, P.D. rembourse à son ex-compagne, dès lors qu'il n'est pas insolvable, la moitié en capital des dettes solidaires contractées durant la vie commune qu'elle a payées seule après la séparation, ainsi que la moitié des frais et honoraires de leur médiateur de dettes. Partant le recours subrogatoire est fondé en application de l'article 1251 3° du Code civil. L'appel doit être déclaré non fondé.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 5,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 8,
+        "avgCitationsPerTeaching": 4,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 11,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

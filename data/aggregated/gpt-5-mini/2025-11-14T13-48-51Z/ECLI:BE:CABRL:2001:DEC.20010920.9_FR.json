@@ -1,0 +1,382 @@
+{
+  "decision_id": "ECLI:BE:CABRL:2001:DEC.20010920.9",
+  "language": "FR",
+  "metadata": {
+    "id": 70852,
+    "court_ecli_code": "CABRL",
+    "court_name": "Cour d'appel du ressort de Bruxelles",
+    "decision_date": "2001-09-20",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Décision",
+    "md_length": 9270,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour d'appel de Bruxelles (9e chambre), 20 septembre 2001, ECLI:BE:CABRL:2001:DEC.20010920.9"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2001:DEC.20010920.9-001",
+        "name": "S.A. Radio Public (actuellement United Pan-Europe Communications Belgium, en abrégé UPC Belgium)",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2001:DEC.20010920.9-002",
+        "name": "S.A. Canal + Belgique",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2001:DEC.20010920.9-003",
+        "name": "A.S.B.L. Wolu TV",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "La S.A. Radio Public (actuellement United Pan-Europe Communications Belgium, en abrégé UPC Belgium) a été condamnée par un arrêt de la cour d'appel de Bruxelles, siégeant en référé, du 28 janvier 1999 à distribuer, outre son programme analogique, les programmes numériques Canal + Blanc, Canal + Jaune et Canal + Bleu de la S.A. Canal + Belgique, moyennant une rémunération provisionnelle de 57 francs par an et par abonné, dans un délai de 20 jours à dater de la signification de l'arrêt et sous réserve que les signaux numériques soient mis à sa disposition (et, pour Wolu TV, que Radio Public fournisse les signaux). L'arrêt prévoyait une astreinte de 100.000 francs par jour en cas d'inexécution. L'arrêt a été signifié à la S.A. Radio Public le 29 janvier 1999. Estimant que l'arrêt n'était pas exécuté, la S.A. Canal + Belgique a fait signifier à la S.A. Radio Public, le 26 avril 1999, un commandement de payer 500.000 francs (5 x 100.000 francs) d'astreinte. La S.A. Radio Public a formé opposition à ce commandement et a sollicité, en outre, la condamnation de la S.A. Canal + Belgique à lui payer une indemnité de 250.000 francs pour procédure abusive. Le premier juge a déclaré l'action recevable mais la demande mal fondée. La S.A. Radio Public a interjeté appel de ce jugement devant la cour.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2001:DEC.20010920.9-001",
+          "requests": "La S.A. Radio Public demande que soit déclaré nul et de nul effet le commandement signifié le 26 avril 1999 tendant au paiement de 500.000 francs d'astreinte, ou à tout le moins sans fondement, et demande la condamnation de la S.A. Canal + Belgique au paiement d'une indemnité de 250.000 francs pour procédure abusive."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2001:DEC.20010920.9-002",
+          "requests": "La S.A. Canal + Belgique conclut à la confirmation du jugement attaqué (confirmation de la décision du premier juge déclarant la demande de la S.A. Radio Public mal fondée)."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2001:DEC.20010920.9-001",
+          "argument": "La S.A. Radio Public soutient que le délai de 20 jours accordé par l'arrêt du 28 janvier 1999 pour exécuter l'obligation de distribution ne prend cours qu'à compter du jour où les signaux numériques de la S.A. Canal + Belgique sont effectivement mis à la disposition de la S.A. Radio Public (condition suspensive), de sorte qu'au jour du commandement du 26 avril 1999 ce délai n'était pas expiré et l'astreinte prévue n'avait pas commencé à courir. Elle fait valoir que le dispositif de l'arrêt est clair et que la mention relative au délai vise le point de départ à la mise à disposition des signaux, et non la seule date de signification; elle ajoute que le second préalable (mise à disposition des signaux à la tête de réseau) dépendait de la S.A. Canal + Belgique et non du seul bon vouloir de la S.A. Radio Public.",
+          "treatment": "ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2001:DEC.20010920.9-002",
+          "argument": "La S.A. Canal + Belgique arguait que la S.A. Radio Public devait distribuer les programmes numériques dans les 20 jours de la signification de l'arrêt, pour autant que les signaux soient à sa disposition à ce moment-là, et en tout état de cause que la S.A. Radio Public aurait commis une autre inexécution en n'alimentant pas l'A.S.B.L. Wolu TV, ce qui rendrait l'astreinte due. Elle appuie son interprétation sur le motif de l'arrêt concernant la suffisance d'un délai de 20 jours pour l'exécution technique et commerciale.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS, \n\nLA COUR, statuant contradictoirement, \n\nVu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire, \n\nReçoit l'appel et le dit fondé dans la mesure ci-après. \nRéformant le jugement attaqué en ce qu'il déclare la demande mal fondée à tous égards et condamne la S.A. Radio Public aux dépens, \n\nDit que le commandement signifié à la S.A. Radio Public en date du 26 avril 1999 tendant au paiement de 500.000 francs ( 5 x 100.000 francs) d'astreinte est sans fondement, aucune astreinte n'étant due à cette date en exécution de l'arrêt de la cour d'appel de Bruxelles du 28 janvier 1999; \n\nDéboute la S.A. UCP Belgium du surplus de sa demande; \nMet les dépens des deux instances à charge de la S.A. Canal + Belgique, liquidés en totalité en ce qui la concerne à $4.200+17.600$ francs et en ce qui concerne la S.A. UCP Belgium, à $5.047+3.300+4.200+7.500+$ $2.100+17.600$ francs; \n\nAinsi jugé et prononcé en audience civile publique de la neuvième chambre de la Cour d'Appel de Bruxelles, le 20-09-2001.",
+      "outcome": "REFORMATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2001:DEC.20010920.9-001",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2001:DEC.20010920.9-001",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire (loi du 15/06/1935)",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Bruxelles",
+        "date": "1999-12-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2001:DEC.20010920.9-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "cour d'appel de Bruxelles",
+        "date": "1999-01-28",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2001:DEC.20010920.9-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Bruxelles",
+        "date": "1998-08-13",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2001:DEC.20010920.9-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit commercial",
+      "Distribution de programmes",
+      "Réseau de télédistribution",
+      "Mise à disposition de signaux",
+      "Non-exécution d'arrêt",
+      "Interprétation du dispositif",
+      "Point de départ du délai",
+      "Astreinte judiciaire",
+      "Nullité du commandement",
+      "Référé"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2001:DEC.20010920.9-001",
+        "text": "Lorsqu'un dispositif judiciaire subordonne l'exécution à la réalisation de plusieurs préalables et prévoit un délai, ce délai commence à courir à partir de la réalisation du dernier préalable expressément mentionné. L'arrêt de référé demeure exécutoire dès son prononcé mais l'astreinte ne commence à courir qu'à l'expiration du délai de rémission tel qu'énoncé dans le dispositif.",
+        "courtVerbatim": "Le dispositif de l'arrêt du 28 janvier 1999 est clair et ne donne dès lors pas lieu à interprétation : le délai de 20 jours ne prend cours qu'après la réalisation du second des deux préalables, ainsi que la S.A. Radio Public le fait valoir. Le but du délai de 20 jours accordé par la cour ne consistait évidemment pas à encourager son bénéficiaire à s'abstenir de toute exécution pendant ce délai. L'arrêt était exécutoire dès son prononcé, comme toute décision de référé, urgente par nature. Le défaut d'exécution n'était toutefois sanctionné par le paiement d'une astreinte qu'à l'issue du délai de rémission.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un jugement ordonne une prestation sous un délai conditionné par la réalisation de plusieurs préalables et prévoit une astreinte en cas d'inexécution.",
+        "relevantFactualContext": "La cour d'appel avait ordonné la distribution de programmes «dans un délai de 20 jours à dater de la signification de l'arrêt et… de la mise à disposition des signaux» ; la signification intervint le 29 janvier 1999 et un commandement d'astreinte fut signifié le 26 avril 1999 ; la cour a jugé que l'astreinte n'avait pas commencé à courir.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CABRL:2001:DEC.20010920.9-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2001:DEC.20010920.9-002",
+        "text": "Lorsqu'un arrêt constate qu'une partie «ne s'oppose pas» à fournir un élément mais ne la condamne pas expressément à le faire, l'absence d'une condamnation formelle ne permet pas d'assimiler le défaut d'exécution de cet élément au manquement sanctionné par l'astreinte prévue dans le même dispositif.",
+        "courtVerbatim": "L'arrêt du 28 janvier, 1999 donne acte à la S.A. Radio Public de ce qu'elle ne s'oppose pas à fournir à l'A.S.B.L. Wolu TV les signaux de la S.A. Canal + Belgique mais ne condamne pas l'appelante à fournir ces signaux. Dans ces conditions, un éventuel défaut d'alimentation de l'A.S.B.L. Wolu TV ne peut faire courir l'astreinte.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque le dispositif d'un arrêt se contente de constater l'absence d'opposition d'une partie à une prestation sans l'ordonner formellement.",
+        "relevantFactualContext": "L'arrêt de la cour d'appel a pris acte que Radio Public ne s'opposait pas à fournir les signaux à Wolu TV mais n'a pas condamné Radio Public à le faire; la cour en a déduit que le défaut d'alimentation de Wolu TV ne pouvait déclencher l'astreinte.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CABRL:2001:DEC.20010920.9-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2001:DEC.20010920.9-003",
+        "text": "La signification d'un commandement visant l'exécution d'un arrêt, accomplie pour un montant d'astreinte limité et après un délai notable depuis le prononcé de l'arrêt, n'est pas nécessairement constitutive d'une procédure d'exécution abusive ou de mauvaise foi dès lors que l'acte poursuit l'exécution d'une décision et que l'interprétation du dispositif, même erronée, n'implique pas nécessairement une intention fautive.",
+        "courtVerbatim": "Pour le surplus, la S.A. Canal + Belgique n'a pas agi avec une légèreté fautive dès lors qu'elle a procédé au commandement pour un montant limité d'astreinte et alors que près de quatre mois s'étaient écoulés depuis le prononcé de l'arrêt. L'interprétation qu'elle donne du dispositif de l'arrêt, si elle ne peut être suivie, n'en est pas pour autant empreinte de mauvaise foi.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une partie fait signifier un commandement d'exécution portant sur une astreinte modérée après plusieurs mois du prononcé de l'arrêt et que la question porte sur l'existence d'une procédure d'exécution abusive.",
+        "relevantFactualContext": "Canal + a signifié un commandement visant 5 fois l'astreinte journalière près de quatre mois après l'arrêt de référé ; la cour a estimé que, compte tenu du montant limité de l'astreinte visée et du délai écoulé, la démarche n'était pas entachée de mauvaise foi.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CABRL:2001:DEC.20010920.9-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 3,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "La société appelante conteste un commandement visant le paiement d'une astreinte réclamée par la société intimée pour prétendue inexécution d'un arrêt ordonnant la distribution de programmes numériques. La Cour accueille l'appel: le commandement du 26 avril 1999 demandant 500.000 francs d'astreinte est sans fondement car l'astreinte ne courait pas avant l'expiration du délai de 20 jours qui ne commence qu'à compter de la mise à disposition des signaux; la demande d'indemnité pour procédure abusive est rejetée et les dépens sont mis à la charge de l'intimée."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2001:DEC.20010920.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu l'article 24 de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire, Reçoit l'appel et le dit fondé dans la mesure ci-après. Réformant le jugement attaqué en ce qu'il déclare la demande mal fondée à tous égards et condamne la S.A. Radio Public aux dépens, Dit que le commandement signifié à la S.A. Radio Public en date du 26 avril 1999 tendant au paiement de 500.000 francs (5 x 100.000 francs) d'astreinte est sans fondement, aucune astreinte n'étant due à cette date en exécution de l'arrêt de la cour d'appel de Bruxelles du 28 janvier 1999; Déboute la S.A. UCP Belgium du surplus de sa demande; Met les dépens des deux instances à charge de la S.A. Canal + Belgique, liquidés en totalité en ce qui la concerne à 4.200 + 17.600 francs et en ce qui concerne la S.A. UCP Belgium, à 5.047 + 3.300 + 4.200 + 7.500 + 2.100 + 17.600 francs; Ainsi jugé et prononcé en audience civile publique de la neuvième chambre de la Cour d'Appel de Bruxelles, le 20-09-2001.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2001:DEC.20010920.9-001"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 1,
+      "citationStatistics": {
+        "totalCitations": 1,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 1,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2001:DEC.20010920.9-001",
+        "relatedFullTextCitations": [
+          "<li class=\"case-section__paragraph\">1. La S.A. Radio Public soutient notamment, à l'appui de son opposition, que le délai de 20 jours que l'arrêt lui avait accordé pour son exécution n'était pas encore expiré au jour du commandement du 26 avril 1999 de sorte que l'astreinte n'avait pu commencer à courir. Selon elle, l'arrêt du 28 janvier 1999 ordonne la distribution des programmes litigieux \" dans un délai de 20 jours à dater de la signification de l'arrêt et en ce qui concerne la S.A. Radio Public, de la mise à disposition des signaux numériques de la S.A. Canal + Belgique à la tête de réseau de la S.A. Radio Public \", ce délai de 20 jours ne prenant cours qu'après la réalisation du second des deux préalables posés par l'arrêt. La signification de l'arrêt a eu lieu le 29 janvier 1999 et la mise à disposition des signaux numériques s'est effectuée au plus tôt le 13 avril 1999, selon les dires de la S.A. Canal + Belgique elle-même. A suivre la thèse de la S.A. Radio Public, le délai de 20 jours, commençant à courir le 13 avril 1999 au plus tôt, n'était donc effectivement pas expiré au jour du commandement du 26 avril 1999. Le dispositif de l'arrêt du 28 janvier 1999 est clair et ne donne dès lors pas lieu à interprétation : le délai de 20 jours ne prend cours qu'après la réalisation du second des deux préalables, ainsi que la S.A. Radio Public le fait valoir. La S.A. Canal + Belgique soutient à tort qu'il convient d'interpréter le dispositif de l'arrêt en ce sens que la S.A. Radio Public devait distribuer les programmes numériques de Canal + Belgique dans les 20 jours de la signification de l'arrêt pourvu que les signaux soient à sa disposition à ce moment-là. En effet, cette interprétation ne parait pas conciliable avec les termes du dispositif de l'arrêt. La S.A. Canal + Belgique appuie son raisonnement sur le motif de l'arrêt selon lequel \" Radio Public n'étaye par ailleurs en rien son allégation selon laquelle elle aurait besoin d'un délai de 45 jours à dater de la signification de l'arrêt ' pour informer ses clients et prendre les mesures nécessaires à la mise en place des dispositifs techniques et commerciaux appropriés ' \". Cette motivation concerne uniquement la durée du délai de rémission à accorder à la S.A. Radio Public puisqu'elle se termine par la considération \" qu'un délai de 20 jours apparaît comme suffisant \". Elle ne concerne nullement le point de départ de ce délai. Par ailleurs, contrairement à ce que la S.A, Canal + Belgique prétend, le second préalable imposé par la cour ne dépendait pas du bon vouloir de la S.A. Radio Public puisque c'était à la S.A. Canal + Belgique qu'il appartenait de mettre les signaux à la disposition de la S.A. Radio Public. Le but du délai de 20 jours accordé par la cour ne consistait évidemment pas à encourager son bénéficiaire à s'abstenir de toute exécution pendant ce délai. L'arrêt était exécutoire dès son prononcé, comme toute décision de référé, urgente par nature. Le défaut d'exécution n'était toutefois sanctionné par le paiement d'une astreinte qu'à l'issue du délai de rémission. Le fait qu'il est apparu a posteriori que l'arrêt pouvait éventuellement, d'un point de vue technique, être exécuté avant l'expiration du délai prescrit ne doit exercer aucune influence sur l'interprétation à donner au dispositif de l'arrêt. La cour a cru nécessaire d'accorder à la S.A. Radio Public un délai de 20 jours pour exécuter l'ordre de distribuer les programmes litigieux à dater du jour où les signaux étaient à sa disposition. C'est ainsi que l'arrêt doit être exécuté. Au jour du commandement, l'astreinte n'avait donc pas encore commencé à courir en ce qui concerne la diffusion des programmes litigieux sur le réseau de télédistribution de la S.A. Radio Public.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CABRL:2001:DEC.20010920.9-003"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2001:DEC.20010920.9-002",
+        "relatedFullTextCitations": [
+          "<li class=\"case-section__paragraph\">2. La S.A. Canal + Belgique expose par ailleurs que l'astreinte serait malgré tout due parce que la S.A. Radio Public aurait commis une seconde infraction à l'arrêt : elle n'aurait pas alimenté l'A.S.B.L. Wolu TV pour permettre à cette dernière de distribuer les programmes litigieux de l'intimée sur son réseau de télédistribution. L'arrêt du 28 janvier, 1999 donne acte à la S.A. Radio Public de ce qu'elle ne s'oppose pas à fournir à l'A.S.B.L. Wolu TV les signaux de la S.A. Canal + Belgique mais ne condamne pas l'appelante à fournir ces signaux. Dans ces conditions, un éventuel défaut d'alimentation de l'A.S.B.L. Wolu TV ne peut faire courir l'astreinte.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CABRL:2001:DEC.20010920.9-003"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2001:DEC.20010920.9-003",
+        "relatedFullTextCitations": [
+          "<li class=\"case-section__paragraph\">3. La S.A. UPC Belgium demande la condamnation de la S.A. Canal + Belgique au paiement de la somme de 250.000 francs pour procédure d'exécution téméraire et vexatoire. Elle affirme que la S.A. Canal + Belgique aurait fait signifier le commandement pour exercer une pression sur elle mais n'en apporte pas la preuve. Pour le surplus, la S.A. Canal + Belgique n'a pas agi avec une légèreté fautive dès lors qu'elle a procédé au commandement pour un montant limité d'astreinte et alors que près de quatre mois s'étaient écoulés depuis le prononcé de l'arrêt. L'interprétation qu'elle donne du dispositif de l'arrêt, si elle ne peut être suivie, n'en est pas pour autant empreinte de mauvaise foi.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CABRL:2001:DEC.20010920.9-003"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 0,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 3
+      },
+      "extractionNotes": [
+        "Related decision DEC-ECLI:BE:CABRL:2001:DEC.20010920.9-003 appears in factual/blockquote sections (citation du 13 août 1998) but not within extracted reasoning paragraphs; therefore it is flagged as not found in the reasoning citations."
+      ]
+    }
+  }
+}

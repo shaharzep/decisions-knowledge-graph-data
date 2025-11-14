@@ -1,0 +1,391 @@
+{
+  "decision_id": "ECLI:BE:CAMON:2016:ARR.20160421.12",
+  "language": "FR",
+  "metadata": {
+    "id": 61326,
+    "court_ecli_code": "CAMON",
+    "court_name": "Cour d'appel du ressort de Mons",
+    "decision_date": "2016-04-21",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 9957,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour d'appel du ressort de Mons, 21 avril 2016, Arrêt n° 2010/RG/32, ECLI:BE:CAMON:2016:ARR.20160421.12"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CAMON:2016:ARR.20160421.12-001",
+        "name": "Madame E.U.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:2016:ARR.20160421.12-002",
+        "name": "M.B.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:2016:ARR.20160421.12-003",
+        "name": "C.B.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:2016:ARR.20160421.12-004",
+        "name": "S.A. GENERALI BELGIUM",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CAMON:2016:ARR.20160421.12-005",
+        "name": "S.A. AXA BELGIUM",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "INTIME"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Par citation du 20 septembre 2006 devant le tribunal de première instance de Mons, Madame E.U., agissant tant en son nom personnel qu'en qualité de représentante légale de ses enfants mineurs M.B. et C.B., nés en 2001, sollicite la condamnation de la S.A. Generali Belgium et de la S.A. AXA Belgium au paiement de l'état de frais et honoraires de son conseil, à savoir une somme de 1 euro à titre provisionnel sur un montant évalué sous toutes réserves à la somme de 10.000 euro outre les frais et dépens de l'instance. Elle expose que son compagnon, Monsieur M.B., est décédé le 12 février 2004 suite à un homicide commis par Monsieur J.P., lequel a été condamné par arrêt de la Cour d'assises du Hainaut du 2 mars 2006 à 22 ans de réclusion et à des sommes à titre de dommage moral. Monsieur M.B. avait souscrit une police d'assurance responsabilité civile et familiale auprès de la S.A. Generali Belgium, laquelle décline son intervention au motif que Monsieur M.B. a été assassiné alors qu'il se trouvait dans son véhicule automobile. A titre subsidiaire, Mme E.U. dirige sa demande contre la S.A. AXA Belgium auprès de laquelle Monsieur M.B. avait souscrit une assurance protection juridique ; celle-ci décline son intervention au motif que Madame E.U. n'a pas la qualité d'assurée au sens de l'article 2 de ses Conditions générales. Par son jugement du 9 septembre 2009, le tribunal déclare les demandes non fondées, déboute Madame E.U. et la condamne à l'indemnité de procédure de 900 euro envers chacune des compagnies d'assurance défenderesses. Par requête déposée au greffe de la cour le 11 janvier 2010, Madame E.U. interjette appel de cette décision. A l'audience du 13 septembre 2011, la cour constate que les parties n'ont pas abordé la compétence d'attribution, notamment la compétence exclusive du tribunal de police en matière de circulation routière, et invite les parties à s'expliquer. Les parties s'opposent sur la question de la compétence du premier juge pour connaître du litige résultant de l'homicide commis alors que la victime se trouvait dans son véhicule à l'arrêt. La Cour analyse la notion d'\"accident de la circulation\" au sens de l'article 601bis du Code judiciaire, retient la jurisprudence de la Cour de cassation précisant que l'accident de la circulation doit présenter un lien avec les risques de la circulation routière et que la simple présence d'un véhicule en stationnement ne suffit pas, et conclut que la victime était étrangère à toute participation à la circulation routière et que la présence du véhicule n'a joué aucun rôle dans la survenance du drame. La Cour considère dès lors que le premier juge était compétent pour connaître du litige et, tout en confirmant la compétence, renvoie la cause pour le surplus à une audience ultérieure pour statuer sur le fond.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:2016:ARR.20160421.12-001",
+          "requests": "Mme E.U. demande la condamnation de la S.A. Generali Belgium et de la S.A. AXA Belgium au paiement de l'état de frais et honoraires de son conseil, pour une somme provisionnelle de 1 euro sur un montant évalué à 10.000 euro, outre les frais et dépens de l'instance."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:2016:ARR.20160421.12-001",
+          "argument": "Mme E.U. soutient que la S.A. Generali Belgium, en tant qu'assureur responsabilité civile et familiale de son compagnon décédé, doit couvrir les frais et honoraires engagés pour la défense et que la S.A. AXA Belgium, assureur protection juridique, doit intervenir pour prendre en charge les frais de procédure ; elle demande leur condamnation au remboursement desdits frais.",
+          "treatment": "NON_TRAITE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:2016:ARR.20160421.12-004",
+          "argument": "La S.A. Generali Belgium décline son intervention au motif que Monsieur M.B. a été assassiné alors qu'il se trouvait dans son véhicule automobile et, implicitement, soutient que le dommage pourrait se rattacher aux risques de la circulation routière, se référant à une jurisprudence relative aux accidents impliquant des véhicules et aux compétences du tribunal de police selon l'article 601bis du Code judiciaire.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CAMON:2016:ARR.20160421.12-005",
+          "argument": "La S.A. AXA Belgium soutient qu'elle peut décliner son intervention au titre de la protection juridique puisqu'en vertu de ses Conditions générales, notamment l'article 2, Madame E.U. n'aurait pas la qualité d'assurée et que, par conséquent, la garantie de protection juridique ne couvre pas sa demande et l'assureur n'est pas tenu de prendre en charge ses frais de procédure.",
+          "treatment": "NON_TRAITE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS, LA COUR,\n\nStatuant contradictoirement, dans les limites de sa saisine, Vu l'article 24 de la loi du 15 juin 1935 relative à l'emploi des langues en matière judiciaire, Avant dire droit confirme la compétence de la cour et celle du premier juge Renvoie la cause pour le surplus à l'audience publique du 1er décembre 2016 de 10 heures à 11 heures 20. Réserve à statuer sur le surplus et les frais et dépens.",
+      "outcome": "RENVOI"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:ARR.20160421.12-001",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2016:ARR.20160421.12-001",
+        "provisionNumber": "article 2",
+        "provisionNumberKey": "2",
+        "parentActType": "AUTRE",
+        "parentActName": "Conditions générales de la police d'assurance «protection juridique» souscrite par Monsieur M.B. auprès de la S.A. AXA Belgium",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:ARR.20160421.12-002",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2016:ARR.20160421.12-002",
+        "provisionNumber": "article 601bis",
+        "provisionNumberKey": "601bis",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 601bis comme attribuant au tribunal de police la compétence pour toute demande de réparation d'un dommage résultant d'un \"accident de la circulation\" quel qu'en soit le montant, mais précise que la notion vise les accidents liés aux risques de la circulation impliquant des moyens de transport, piétons ou animaux visés par le Code de la route et se produisant sur la voie publique ou terrains ouverts au public; il faut une participation de la victime à la circulation routière telle que l'expérience du juge de police soit utile, le simple contact avec un véhicule en stationnement étant insuffisant.",
+        "relevantFactualContext": "La question se pose à la suite de l'homicide de M.B. le 12 février 2004 alors qu'il se trouvait dans son véhicule à l'arrêt; la Cour retient que la présence du véhicule n'a joué aucun rôle dans la survenance du drame et que la victime était étrangère à toute participation à la circulation routière."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:ARR.20160421.12-003",
+        "internalParentActId": "ACT-ECLI:BE:CAMON:2016:ARR.20160421.12-003",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 relative à l'emploi des langues en matière judiciaire (loi du 15 juin 1935)",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "2ème chambre du tribunal de première instance de Mons",
+        "date": "2009-09-09",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:2016:ARR.20160421.12-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour d'assises du Hainaut",
+        "date": "2006-03-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:2016:ARR.20160421.12-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "2014-01-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:2016:ARR.20160421.12-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "2009-02-06",
+        "caseNumber": "n° 101",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CAMON:2016:ARR.20160421.12-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit des assurances",
+      "Homicide",
+      "Victime dans véhicule",
+      "Police responsabilité familiale",
+      "Assurance protection juridique",
+      "Qualification accident de la circulation",
+      "Compétence tribunal de police",
+      "Remboursement frais de justice",
+      "Qualité d'assurée",
+      "Compétence soulevée d'office"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2016:ARR.20160421.12-001",
+        "text": "Aux fins de l'article 601bis du Code judiciaire, la notion d'\"accident de la circulation\" se limite aux accidents liés aux risques de la circulation routière impliquant des moyens de transport, des piétons ou des animaux visés par le Code de la route et se produisant sur la voie publique, sur des terrains ouverts au public ou sur des terrains non publics ouverts à certaines personnes; il faut en outre une participation de la victime à la circulation d'une nature telle que l'expérience du juge de police soit pertinente; le simple contact avec un véhicule en stationnement n'est pas suffisant.",
+        "courtVerbatim": "Il faut donc définir ce qu'il faut entendre par \"accident de la circulation\" pour déterminer si le tribunal de police aurait dû ou non connaître du présent litige... Cette notion d'accident de la circulation est aujourd'hui clairement définie par la Cour de cassation qui a rendu, récemment, un arrêt... :\n\n\"L'accident de la circulation visé par cette disposition est l'accident lié aux risques de la circulation, dans lequel sont impliqués des moyens de transport, des piétons ou des animaux visés par le code de la route et qui se produit sur la voie publique, les terrains ouverts au public et les terrains non publics mais ouverts à un certain nombre de personnes ayant le droit de les fréquenter\" (Cass., 20 janvier 2014, Pas., I, p. 154-160).\n\nDans l'avis de Monsieur l'avocat général GENICOT... :\n\n\"...la référence au magistrat qui siège 'par excellence en matière de circulation' implique au moins l'existence de situations pouvant présenter un lien avec les matières qu'il traite habituellement et de circonstances où son expérience peut s'avérer utile... Les faits de circulation à prendre en considération doivent donc bien être d'ordre routier ou de roulage...\"\n\nLa Cour rappelle encore la solution antérieure :\n\n\"La seule circonstance qu'il y a un contact entre un véhicule en stationnement sur la voie publique et la victime ne suffit pas pour qu'il soit question d'un accident de la circulation... Il ressort de ces constatations que l'accident est un accident de travail étranger à toute participation à la circulation routière...\"\n\nPour qu'il y ait un accident de la circulation, il faut donc un accident impliquant, dans le chef de la victime, une participation à la circulation routière de telle nature qu'il serait préférable qu'il soit jugé par un juge de police eu égard à son expérience habituelle.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'il convient de déterminer si un dommage relève de la notion d'\"accident de la circulation\" au sens de l'article 601bis pour fixer la compétence du tribunal de police.",
+        "relevantFactualContext": "Question née de l'homicide de la victime alors qu'elle se trouvait dans son véhicule à l'arrêt; la Cour retient que la présence du véhicule n'a joué aucun rôle dans la survenance du drame et que la victime était étrangère à toute participation à la circulation routière.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": true
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:ARR.20160421.12-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CAMON:2016:ARR.20160421.12-003",
+          "DEC-ECLI:BE:CAMON:2016:ARR.20160421.12-004"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 1,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur a assigné les sociétés d'assurance pour obtenir le remboursement des frais de justice résultant de l'homicide de son compagnon survenu alors qu'il se trouvait dans un véhicule à l'arrêt. La Cour confirme la compétence du premier juge et de la cour, retient que les faits ne constituent pas un \"accident de la circulation\" au sens de l'article 601bis car la victime ne participait pas à la circulation, et renvoie la cause pour jugement au fond."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:ARR.20160421.12-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Monsieur M.B. avait souscrit une police d'assurance responsabilité civile et familiale auprès de la S.A. Generali Belgium, laquelle décline son intervention, du fait que Monsieur M.B. a été assassiné alors qu'il se trouvait dans son véhicule automobile. A titre subsidiaire, elle dirige sa demande contre la S.A. AXA Belgium auprès de laquelle Monsieur M.B. avait souscrit une assurance protection juridique ; celle-ci décline son intervention au motif que Madame E.U. n'a pas la qualité d'assurée au sens de l'article 2 de ses Conditions générales.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:ARR.20160421.12-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:ARR.20160421.12-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">A la suite d'une interpellation de la Cour, à ce sujet, les parties s'opposent quant à la question de savoir si le premier juge était ou non compétent pour connaître du litige résultant d'un dommage créé par l'homicide commis sur la personne de M.B. alors qu'il était assis dans un véhicule à l'arrêt. Il est, en effet, établi et a même été définitivement jugé par un arrêt de la Cour d'assises du Hainaut, du 2 mars 2006, que M.B. a été abattu par balles, le 12 février 2004, par un Sieur J.P. alors qu'il se trouvait dans son véhicule à l'arrêt dans l'attente du retour de sa compagne. Il faut, à cet égard s'en remettre à l'article 601bis du Code judiciaire qui dispose que :</p>",
+          "<blockquote class=\"case-quote\">\"Quel qu'en soit le montant, le tribunal de police connaît de toute demande relative à la réparation d'un dommage résultant d'un accident de la circulation ou d'un accident ferroviaire même si celui-ci est survenu dans un lieu qui n'est pas accessible au public\".</blockquote>",
+          "<p class=\"case-section__paragraph\">Il faut donc définir ce qu'il faut entendre par \"accident de la circulation\" pour déterminer si le tribunal de police aurait dû ou non connaître du présent litige concernant le remboursement des frais de justice engagés par E.U. dans le cadre du procès qui a eu lieu à la suite de cet homicide volontaire.</p>",
+          "<p class=\"case-section__paragraph\">Cette notion d'accident de la circulation est aujourd'hui clairement définie par la Cour de cassation qui a rendu, récemment, un arrêt, conforme à l'avis de Monsieur l'avocat général J-M. GENICOT, qui affirme, à bon droit, que :</p>",
+          "<blockquote class=\"case-quote\">\"L'accident de la circulation visé par cette disposition est l'accident lié aux risques de la circulation, dans lequel sont impliqués des moyens de transport, des piétons ou des animaux visés par le code de la route et qui se produit sur la voie publique, les terrains ouverts au public et les terrains non publics mais ouverts à un certain nombre de personnes ayant le droit de les fréquenter\" (Cass., 20 janvier 2014, Pas., I, p. 154-160).</blockquote>",
+          "<p class=\"case-section__paragraph\">La Cour s'en remet également à l'avis pertinent précité de Monsieur l'avocat général GENICOT qui a précisé, quant à lui, que :</p>",
+          "<blockquote class=\"case-quote\">\"Dans le rapport de la commission de la justice figure en effet la réflexion suivante : \" Pourquoi ne pourrait-on pas confier la totalité des accidents de circulation et des infractions au Code de la route au juge le plus indiqué, à savoir le juge de police, le magistrat par excellence en matière de circulation ?\". Cette réflexion donne une indication très importante à mon sens sur l'orientation que doit prendre la définition de la notion d'accident de la circulation au sens de l'article 601bis : la référence au magistrat qui siège \"par excellence en matière de circulation\" implique au moins l'existence de situations pouvant présenter un lien avec les matières qu'il traite habituellement et de circonstances où son expérience peut s'avérer utile dans un souci \"d'excellence\" et partant, de cohérence en la matière...Les faits de circulation à prendre en considération doivent donc bien être d'ordre routier ou de roulage en ce qu'ils doivent être au moins susceptibles d'empiéter sur des domaines que le juge de police semblerait par son expérience habituelle en matière de \"circulation routière\" mieux à même de traiter\".</blockquote>",
+          "<p class=\"case-section__paragraph\">Précédemment, la Cour de cassation, en suivant la même logique, a affirmé que :</p>",
+          "<blockquote class=\"case-quote\">\"Un accident de la circulation au sens de ladite disposition (article 601bis du Code judiciaire), est tout accident de la circulation routière dans lequel sont impliqués des moyens de transport, des piétons ou des animaux visés par le code de la route du 1er décembre 1975 et qui est relatif aux risques de la circulation routière. La seule circonstance qu'il y a un contact entre un véhicule en stationnement sur la voie publique et la victime ne suffit pas pour qu'il soit question d'un accident de la circulation...Il ressort de ces constatations que l'accident est un accident de travail étranger à toute participation à la circulation routière, sans rapport avec les risques de la circulation routière\" (Cass., 6 février 2009, Pas., 2009, I, n° 101).</blockquote>",
+          "<p class=\"case-section__paragraph\">Pour qu'il y ait un accident de la circulation, il faut donc un accident impliquant, dans le chef de la victime, une participation à la circulation routière de telle nature qu'il serait préférable qu'il soit jugé par un juge de police eu égard à son expérience habituelle. Tel n'est manifestement pas le cas, en l'espèce, puisque la victime était totalement étrangère à toute participation à la circulation routière au moment des faits, lesquels ne nécessitaient pas la présence de la victime dans son véhicule pour se produire. La présence de ce véhicule dans lequel se trouvait la victime n'a joué strictement aucun rôle dans la survenance de ce drame.</p>",
+          "<p class=\"case-section__paragraph\">La Cour n'aperçoit pas en quoi l'expertise d'un juge de police serait utile pour connaître de la question de savoir si un assureur doit couvrir ou non les frais de justice d'E.U. déboursés pour assurer sa défense à la suite de l'homicide volontaire de son compagnon dont la Cour d'assises a eu à connaître.</p>",
+          "<p class=\"case-section__paragraph\">Pour le reste, force est de constater que la jurisprudence citée par la SA GENERALI BELGIUM n'a rien à voir avec le cas d'espèce puisqu'elle concerne des cas où la victime était usagère, conductrice ou passagère d'un véhicule et que son dommage avait un lien avec une participation, au sens large, avec la circulation routière.</p>",
+          "<p class=\"case-section__paragraph\">Partant, il apparaît que le premier juge était bien compétent pour connaître du litige.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:ARR.20160421.12-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CAMON:2016:ARR.20160421.12-003",
+          "DEC-ECLI:BE:CAMON:2016:ARR.20160421.12-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CAMON:2016:ARR.20160421.12-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Statuant contradictoirement, dans les limites de sa saisine, Vu l'article 24 de la loi du 15 juin 1935 relative à l'emploi des langues en matière judiciaire, Avant dire droit confirme la compétence de la cour et celle du premier juge Renvoie la cause pour le surplus à l'audience publique du 1er décembre 2016 de 10 heures à 11 heures 20. Réserve à statuer sur le surplus et les frais et dépens. Ainsi jugé et prononcé en audience publique, par la vingtième chambre de la Cour d'appel de Mons, le 21 avril 2016. Où étaient présents : Françoise THONET Conseiller Lucrèce DUFRASNE Greffier délégué L. DUFRASNE F. THONET</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CAMON:2016:ARR.20160421.12-003"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 3,
+      "citationStatistics": {
+        "totalCitations": 15,
+        "avgCitationsPerProvision": 5,
+        "provisionsWithMinimalCitations": 2,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0.6666666666666666,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CAMON:2016:ARR.20160421.12-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">A la suite d'une interpellation de la Cour, à ce sujet, les parties s'opposent quant à la question de savoir si le premier juge était ou non compétent pour connaître du litige résultant d'un dommage créé par l'homicide commis sur la personne de M.B. alors qu'il était assis dans un véhicule à l'arrêt. Il est, en effet, établi et a même été définitivement jugé par un arrêt de la Cour d'assises du Hainaut, du 2 mars 2006, que M.B. a été abattu par balles, le 12 février 2004, par un Sieur J.P. alors qu'il se trouvait dans son véhicule à l'arrêt dans l'attente du retour de sa compagne. Il faut, à cet égard s'en remettre à l'article 601bis du Code judiciaire qui dispose que :</p>",
+          "<blockquote class=\"case-quote\">\"Quel qu'en soit le montant, le tribunal de police connaît de toute demande relative à la réparation d'un dommage résultant d'un accident de la circulation ou d'un accident ferroviaire même si celui-ci est survenu dans un lieu qui n'est pas accessible au public\".</blockquote>",
+          "<p class=\"case-section__paragraph\">Il faut donc définir ce qu'il faut entendre par \"accident de la circulation\" pour déterminer si le tribunal de police aurait dû ou non connaître du présent litige concernant le remboursement des frais de justice engagés par E.U. dans le cadre du procès qui a eu lieu à la suite de cet homicide volontaire.</p>",
+          "<p class=\"case-section__paragraph\">Cette notion d'accident de la circulation est aujourd'hui clairement définie par la Cour de cassation qui a rendu, récemment, un arrêt, conforme à l'avis de Monsieur l'avocat général J-M. GENICOT, qui affirme, à bon droit, que :</p>",
+          "<blockquote class=\"case-quote\">\"L'accident de la circulation visé par cette disposition est l'accident lié aux risques de la circulation, dans lequel sont impliqués des moyens de transport, des piétons ou des animaux visés par le code de la route et qui se produit sur la voie publique, les terrains ouverts au public et les terrains non publics mais ouverts à un certain nombre de personnes ayant le droit de les fréquenter\" (Cass., 20 janvier 2014, Pas., I, p. 154-160).</blockquote>",
+          "<p class=\"case-section__paragraph\">La Cour s'en remet également à l'avis pertinent précité de Monsieur l'avocat général GENICOT qui a précisé, quant à lui, que :</p>",
+          "<blockquote class=\"case-quote\">\"Dans le rapport de la commission de la justice figure en effet la réflexion suivante : \" Pourquoi ne pourrait-on pas confier la totalité des accidents de circulation et des infractions au Code de la route au juge le plus indiqué, à savoir le juge de police, le magistrat par excellence en matière de circulation ?\". Cette réflexion donne une indication très importante à mon sens sur l'orientation que doit prendre la définition de la notion d'accident de la circulation au sens de l'article 601bis : la référence au magistrat qui siège \"par excellence en matière de circulation\" implique au moins l'existence de situations pouvant présenter un lien avec les matières qu'il traite habituellement et de circonstances où son expérience peut s'avérer utile dans un souci \"d'excellence\" et partant, de cohérence en la matière...Les faits de circulation à prendre en considération doivent donc bien être d'ordre routier ou de roulage en ce qu'ils doivent être au moins susceptibles d'empiéter sur des domaines que le juge de police semblerait par son expérience habituelle en matière de \"circulation routière\" mieux à même de traiter\".</blockquote>",
+          "<p class=\"case-section__paragraph\">Précédemment, la Cour de cassation, en suivant la même logique, a affirmé que :</p>",
+          "<blockquote class=\"case-quote\">\"Un accident de la circulation au sens de ladite disposition (article 601bis du Code judiciaire), est tout accident de la circulation routière dans lequel sont impliqués des moyens de transport, des piétons ou des animaux visés par le code de la route du 1er décembre 1975 et qui est relatif aux risques de la circulation routière. La seule circonstance qu'il y a un contact entre un véhicule en stationnement sur la voie publique et la victime ne suffit pas pour qu'il soit question d'un accident de la circulation...Il ressort de ces constatations que l'accident est un accident de travail étranger à toute participation à la circulation routière des moyens de transport, des piétons ou des animaux visés par le Code de la route, sans rapport avec les risques de la circulation routière\" (Cass., 6 février 2009, Pas., 2009, I, n° 101).</blockquote>",
+          "<p class=\"case-section__paragraph\">Pour qu'il y ait un accident de la circulation, il faut donc un accident impliquant, dans le chef de la victime, une participation à la circulation routière de telle nature qu'il serait préférable qu'il soit jugé par un juge de police eu égard à son expérience habituelle. Tel n'est manifestement pas le cas, en l'espèce, puisque la victime était totalement étrangère à toute participation à la circulation routière au moment des faits, lesquels ne nécessitaient pas la présence de la victime dans son véhicule pour se produire. La présence de ce véhicule dans lequel se trouvait la victime n'a joué strictement aucun rôle dans la survenance de ce drame.</p>",
+          "<p class=\"case-section__paragraph\">La Cour n'aperçoit pas en quoi l'expertise d'un juge de police serait utile pour connaître de la question de savoir si un assureur doit couvrir ou non les frais de justice d'E.U. déboursés pour assurer sa défense à la suite de l'homicide volontaire de son compagnon dont la Cour d'assises a eu à connaître.</p>",
+          "<p class=\"case-section__paragraph\">Pour le reste, force est de constater que la jurisprudence citée par la SA GENERALI BELGIUM n'a rien à voir avec le cas d'espèce puisqu'elle concerne des cas où la victime était usagère, conductrice ou passagère d'un véhicule et que son dommage avait un lien avec une participation, au sens large, avec la circulation routière.</p>",
+          "<p class=\"case-section__paragraph\">Partant, il apparaît que le premier juge était bien compétent pour connaître du litige.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 13,
+        "avgCitationsPerTeaching": 13,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

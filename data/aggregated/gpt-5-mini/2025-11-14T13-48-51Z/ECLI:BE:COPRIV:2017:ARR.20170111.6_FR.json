@@ -1,0 +1,447 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:2017:ARR.20170111.6",
+  "language": "FR",
+  "metadata": {
+    "id": 36482,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commission pour la Protection de la Vie privée",
+    "decision_date": "2017-01-11",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 10456,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commission de la protection de la vie privée, 11 janvier 2017, Avis n° 02/2017, ECLI:BE:COPRIV:2017:ARR.20170111.6"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2017:ARR.20170111.6-001",
+        "name": "Monsieur Johan Van Overtveldt, Ministre des Finances",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2017:ARR.20170111.6-002",
+        "name": "Commission de la protection de la vie privée",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Le 6 décembre 2016, la Commission de la protection de la vie privée a reçu une demande d'avis de Monsieur Johan Van Overtveldt, Ministre des Finances, concernant un projet d'arrêté royal pris en exécution de l'article 323/1 du Code des impôts sur les revenus 1992 visant à un échange électronique de données relatives aux emprunts hypothécaires et aux assurances-vie individuelles. Vu le rapport de Joel Livyns, la Commission rappelle qu'elle avait rendu un avis favorable le 16 décembre 2015 sur l'introduction de l'article 323/1 visant à permettre la transmission électronique par les banques et les compagnies d'assurance au SPF Finances des données figurant sur les attestations papier 281.61 et 281.62 afin d'alimenter Tax-on-Web et MyMinfin et d'alléger la charge administrative des contribuables. La Commission relève que les données énumérées dans le projet d'arrêté correspondent à celles des attestations 281.61 et 281.62, considère que ces données sont conformes à l'article 4, §1er, 3ème, de la LVP, attire l'attention sur l'entrée en vigueur prochaine du Règlement (GDPR) et sur l'obligation de sécurité des traitements (art. 16 LVP), constate que le projet demeure muet sur les mesures de sécurité et recommande la prise en compte des remarques figurant aux points 16, 18 et 19.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2017:ARR.20170111.6-001",
+          "requests": "Le demandeur sollicite un avis concernant un projet d'arrêté royal pris en exécution de l'article 323/1 du Code des impôts sur les revenus 1992 visant à un échange électronique de données relatives aux emprunts hypothécaires et aux assurances-vie individuelles."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "PAR CES MOTIFS, \n\nla Commission émet un avis favorable sur le projet d'arrêté royal pris en exécution de l'article 323/1 du Code des impôts sur les revenus 1992 visant à un échange électronique de données relatives aux emprunts hypothécaires et aux assurances-vie individuelles moyennant la prise en compte des remarques figurant aux points 16,18 et 19 .",
+      "outcome": "FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170111.6-001",
+        "provisionNumber": "article 323/1",
+        "provisionNumberKey": "323/1",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus 1992 (CIR)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission entend l'article 323/1 du CIR comme ayant pour finalité principale la simplification administrative en autorisant la transmission électronique annuelle, par les banques et les compagnies d'assurance, au SPF Finances, des données relatives aux intérêts et amortissements des prêts hypothécaires et aux primes d'assurances-vie individuelles, sous réserve que l'échange électronique soit subordonné à la délivrance effective d'une attestation papier au contribuable.",
+        "relevantFactualContext": "Demande d'avis du Ministre des Finances sur un projet d'arrêté royal d'exécution de l'art. 323/1 visant un échange électronique des données (intérêts, amortissements, primes) correspondant aux attestations papier 281.61 et 281.62, intégrées ensuite dans Tax-on-Web et MyMinfin."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-002",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:20170111.6-002",
+        "provisionNumber": "article 29",
+        "provisionNumberKey": "29",
+        "parentActType": "LOI",
+        "parentActName": "loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel (LVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-003",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2017:ARR.20170111.6-002",
+        "provisionNumber": "article 4",
+        "provisionNumberKey": "4",
+        "parentActType": "LOI",
+        "parentActName": "loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel (LVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission interprète l'article 4 de la LVP comme consacrant les principes de finalité et de proportionnalité: les données ne peuvent être collectées que pour des finalités déterminées, explicites et légitimes; seules des données adéquates, pertinentes et non excessives peuvent être traitées; le responsable doit choisir des modalités de traitement les moins attentatoires à la vie privée et s'assurer que toute ingérence est proportionnée à l'utilité et à la nécessité poursuivies.",
+        "relevantFactualContext": "Appliqué au projet d'échange électronique: les données envisagées (intérêts, amortissements, primes) correspondent aux attestations papier 281.61 et 281.62 et seront intégrées dans Tax-on-Web/MyMinfin; la Commission conclut que ces données sont conformes aux exigences de l'article 4 §1,3."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-004",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:20170111.6-002",
+        "provisionNumber": "article 16",
+        "provisionNumberKey": "16",
+        "parentActType": "LOI",
+        "parentActName": "loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel (LVP)",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission interprète l'article 16 de la LVP comme imposant au responsable du traitement la mise en œuvre de mesures techniques et organisationnelles adéquates pour protéger les données et prévenir tout détournement de finalité; l'adéquation de ces mesures dépend de l'état de la technique, des coûts, de la nature des données et des risques encourus, et inclut notamment l'obligation de prévoir le traçage des accès pour assurer l'imputabilité.",
+        "relevantFactualContext": "Le projet d'arrêté royal ne précise pas les mesures de sécurité requises; la Commission relève cette lacune et recommande d'introduire une politique de sécurité pour chaque source authentique, y compris des mesures techniques/organisationnelles et le traçage des accès."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Commission de la protection de la vie privée",
+        "date": "2015-12-16",
+        "caseNumber": "Avis n° 52 / 2015",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2017:ARR.20170111.6-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Commission de la protection de la vie privée",
+        "date": "2013-01-21",
+        "caseNumber": "recommandation d'initiative n° 01/2013",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2017:ARR.20170111.6-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Protection des données",
+      "Échange électronique de données",
+      "Banques et assurances",
+      "Intérêts hypothécaires",
+      "Assurances-vie individuelles",
+      "Finalité et proportionnalité",
+      "Sécurité des données",
+      "Usage du numéro registre national",
+      "Traçabilité des accès",
+      "Contexte RGPD"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170111.6-001",
+        "text": "L'article 323/1 du CIR poursuit un objectif de simplification administrative en autorisant la transmission électronique annuelle par les banques et les compagnies d'assurance des données correspondant aux attestations papier 281.61 et 281.62, sous réserve que l'échange électronique n'ait lieu que s'il y a également délivrance effective d'une attestation papier au contribuable ; cette modalité doit être conçue et mise en œuvre en respect du principe de finalité et de proportionnalité prévu par la loi vie privée.",
+        "courtVerbatim": "Cet article 323/1 poursuit essentiellement un objectif de simplification administrative en permettant que les données relatives aux intérêts et aux amortissements en capital des prêts hypothécaires et des primes d'assurances-vie individuelles, qui donnent droit à un avantage fiscal, soient directement transmises annuellement par voie électronique au départ des banques et des compagnies d'assurance vers le SPF Finances. Le principe de base est qu'un échange électronique n'a lieu entre le SPF Finances et le secteur des banques et des assurances que lorsqu'il y a aussi effectivement délivrance d'une attestation papier au contribuable.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un projet prévoit la transmission électronique annuelle par les banques/assurances de données équivalentes à des attestations papier destinées à l'administration fiscale.",
+        "relevantFactualContext": "Demande d'avis sur un projet d'arrêté royal d'exécution de l'article 323/1 CIR visant l'échange électronique des données (intérêts, amortissements, primes) correspondant aux attestations papier 281.61 et 281.62, intégrées ensuite dans Tax-on-Web et MyMinfin.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170111.6-002",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-001",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170111.6-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170111.6-002",
+        "text": "L'article 4 de la loi vie privée consacre les principes de finalité et de proportionnalité : les données ne peuvent être collectées que pour des finalités déterminées, explicites et légitimes ; seules des données adéquates, pertinentes et non excessives peuvent être traitées ; le responsable doit choisir des modalités de traitement les moins attentatoires à la vie privée et s'assurer que toute ingérence est proportionnée à l'utilité et à la nécessité poursuivies.",
+        "courtVerbatim": "Les principes de finalité et de proportionnalité de la loi vie privée (article 4 de la loi vie privée), imposent au responsable du traitement de ne collecter des données que pour une ou des finalités déterminées, explicites et légitimes et de ne traiter les données ainsi collectées que de manière compatible avec ces finalités. De plus, seules peuvent être collectées, pour réaliser la ou les finalités poursuivies, des données à caractère personnel adéquates, pertinentes et non excessives. Dans le choix des modalités de traitement permettant d'atteindre la finalité poursuivie, le responsable du traitement devrait également veiller à opter pour celles qui sont les moins attentatoires à la vie privée des personnes concernées. Une ingérence dans le droit à la protection des données des personnes concernées doit en effet être proportionnée au regard de l'utilité et de la nécessité du traitement pour le responsable du traitement.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique chaque fois qu'un responsable prévoit de collecter ou de traiter des données personnelles en vue d'une finalité administrative ou fiscale, y compris par transmission électronique.",
+        "relevantFactualContext": "Appliqué au projet d'échange électronique: les données envisagées (intérêts, amortissements, primes) correspondent aux attestations papier 281.61 et 281.62 et seront intégrées dans Tax-on-Web/MyMinfin ; la Commission conclut que ces données sont conformes aux exigences de l'article 4 §1,3.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:COPRIV:2017:ARR.20170111.6-001"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170111.6-003",
+        "text": "L'article 16 de la loi vie privée impose au responsable du traitement la mise en œuvre de mesures techniques et organisationnelles adéquates et proportionnées pour assurer la sécurité des données et prévenir les détournements de finalité ; l'adéquation de ces mesures dépend de l'état de la technique, des coûts, de la nature des données et des risques encourus, et doit inclure des garanties d'imputabilité, notamment le traçage des accès.",
+        "courtVerbatim": "En ce qui concerne, le principe de sécurisation des traitements de données à caractère personnel, prévu à l'article 16 de la loi vie privée, il impose au responsable du traitement de prendre des mesures techniques et organisationnelles adéquates pour protéger les données à caractère personnel qu'il traite et se prémunir contre les détournements de finalité. Le caractère adéquat de ces mesures de sécurité dépend, d'une part, de l'état de la technique et des frais engendrés et d'autre part, de la nature des données à protéger et des risques potentiels. La Commission en profite pour souligner l'importance d'une politique de sécurité de l'information adéquate pour chaque source authentique. À cet égard, elle renvoie à ses «mesures de référence en matière de sécurité applicables à tout traitement de données à caractère personnel ». La Commission attire, entre autres, l'attention sur sa recommandation d'initiative n° 01/2013 du 21 janvier 2013 relative aux mesures de sécurité à respecter afin de prévenir les fuites de données. La Commission rappelle à ce titre qu'il est nécessaire que le traçage des accès soit prévu afin de répondre au principe d'imputabilité de l'accès aux données à caractère personnel.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un responsable conçoit un traitement centralisé ou une transmission électronique de données personnelles nécessitant des garanties de sécurité et d'imputabilité.",
+        "relevantFactualContext": "Le projet d'arrêté royal ne précise pas les mesures de sécurité requises pour l'échange électronique des fiches ; la Commission relève cette lacune, recommande d'introduire une politique de sécurité pour chaque source authentique et insiste sur le traçage des accès.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-004"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170111.6-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "MEDIUM",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le Ministre des Finances a sollicité l’avis de la Commission sur un projet d’arrêté royal d’exécution de l’art. 323/1 du CIR visant l’échange électronique annuel entre les banques/compagnies d’assurance et le SPF Finances de données relatives aux emprunts hypothécaires et aux assurances‑vie individuelles. La Commission émet un avis favorable en jugeant les finalités déterminées et les données conformes aux attestations papier, autorisant l’usage du numéro du Registre national s’il est accompagné du nom et prénom. Elle impose toutefois que le projet précise des mesures techniques et organisationnelles de sécurité, notamment le traçage des accès, et rappelle l’exigence de proportionnalité et de finalité au regard du futur RGPD."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le 6 décembre 2016, la Commission de la protection de la vie privée (ci-après désignée comme « la Commission\") a reçu une demande d'avis de Monsieur Johan Van Overtveldt, Ministre des Finances, concernant un projet d'arrêté royal pris en exécution de l'article 323/1.</p>",
+          "<li>Le 16 décembre 2015, la Commission de la protection de la vie privée a rendu sur cet article 323/1 CIR un avis favorable¹.</li>",
+          "<li>Ce projet de loi visait à introduire un article 323/1 dans le CIR 92.</li>",
+          "<li>Cet article 323/1 poursuit essentiellement un objectif de simplification administrative en permettant que les données relatives aux intérêts et aux amortissements en capital des prêts hypothécaires et des primes d'assurances-vie individuelles, qui donnent droit à un avantage fiscal, soient directement transmises annuellement par voie électronique au départ des banques et des compagnies d'assurance vers le SPF Finances. Le principe de base est qu'un échange électronique n'a lieu entre le SPF Finances et le secteur des banques et des assurances que lorsqu'il y a aussi effectivement délivrance d'une attestation papier au contribuable.</li>",
+          "<li>En vue de se prononcer sur le caractère proportionné des données récoltées et traitées, la Commission a néanmoins aussi émis le souhait d'être consultée sur le projet d'arrêté royal pris en exécution de l'article 323/1, §2, alinéa 1ᵉʳ, destiné à déterminer les données qui doivent être communiquées par les banques et les compagnies d'assurance.</li>",
+          "<p class=\"case-footer__paragraph\">la Commission émet un avis favorable sur le projet d'arrêté royal pris en exécution de l'article 323/1 du Code des impôts sur les revenus 1992 visant à un échange électronique de données relatives aux emprunts hypothécaires et aux assurances-vie individuelles moyennant la prise en compte des remarques figurant aux points 16, 18 et 19.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-001",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-003",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170111.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vu la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère personnel (ci-après LVP), en particulier l'article 29 ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-003",
+        "relatedFullTextCitations": [
+          "<li>Les principes de finalité et de proportionnalité de la loi vie privée (article 4 de la loi vie privée), imposent au responsable du traitement de ne collecter des données que pour une ou des finalités déterminées, explicites et légitimes et de ne traiter les données ainsi collectées que de manière compatible avec ces finalités. De plus, seules peuvent être collectées, pour réaliser la ou les finalités poursuivies, des données à caractère personnel adéquates, pertinentes et non excessives. Dans le choix des modalités de traitement permettant d'atteindre la finalité poursuivie, le responsable du traitement devrait également veiller à opter pour celles qui sont les moins attentatoires à la vie privée des personnes concernées. Une ingérence dans le droit à la protection des données des personnes concernées doit en effet être proportionnée au regard de l’utilité et de la nécessité du traitement pour le responsable du traitement.</li>",
+          "<li>Au regard de ce qui précède, La Commission conclut que les données à caractère personnel qui seront traitées sont conformes à l'article 4, § 1ᵉʳ, 3°, de la LVP.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-003",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170111.6-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-004",
+        "relatedFullTextCitations": [
+          "<li>En ce qui concerne, le principe de sécurisation des traitements de données à caractère personnel, prévu à l'article 16 de la loi vie privée, il impose au responsable du traitement de prendre des mesures techniques et organisationnelles adéquates pour protéger les données à caractère personnel qu'il traite et se prémunir contre les détournements de finalité. Le caractère adéquat de ces mesures de sécurité dépend, d'une part, de l'état de la technique et des frais engendrés et d'autre part, de la nature des données à protéger et des risques potentiels.</li>",
+          "<li>La Commission constate que le projet demeure muet à ce sujet.</li>",
+          "<li>La Commission en profite pour souligner l'importance d'une politique de sécurité de l’information adéquate pour chaque source authentique. À cet égard, elle renvoie à ses « mesures de référence en matière de sécurité applicables à tout traitement de données à caractère personnel »3. La Commission attire, entre autres, l’attention sur sa recommandation d’initiative n° 01/2013 du 21 janvier 2013 relative aux mesures de sécurité à respecter afin de prévenir les fuites de données4.</li>",
+          "<li>La Commission rappelle à ce titre qu’il est nécessaire que le traçage des accès soit prévu afin de répondre au principe d’imputabilité de l’accès aux données à caractère personnel.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-004",
+          "ART-ECLI:BE:COPRIV:2017:ARR.20170111.6-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2017:ARR.20170111.6-002"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 4,
+      "citationStatistics": {
+        "totalCitations": 13,
+        "avgCitationsPerProvision": 3.25,
+        "provisionsWithMinimalCitations": 2,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2,
+        "avgDecisionsPerProvision": 0.75,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170111.6-001",
+        "relatedFullTextCitations": [
+          "<li>Cet article 323/1 poursuit essentiellement un objectif de simplification administrative en permettant que les données relatives aux intérêts et aux amortissements en capital des prêts hypothécaires et des primes d'assurances-vie individuelles, qui donnent droit à un avantage fiscal, soient directement transmises annuellement par voie électronique au départ des banques et des compagnies d'assurance vers le SPF Finances. Le principe de base est qu'un échange électronique n'a lieu entre le SPF Finances et le secteur des banques et des assurances que lorsqu'il y a aussi effectivement délivrance d'une attestation papier au contribuable.</li>",
+          "<li>Ces données seront transférées sous forme de fiches électroniques et seront ensuite intégrées notamment dans les applications Tax-on-Web et Myminfin du SPF Finances. Elles figureront dès lors dans la déclaration fiscale à l'impôt des personnes physiques disponible via Tax-on-Web ainsi que dans la proposition de déclaration simplifiée adressée, s'il y a lieu, au contribuable concerné. La charge administrative qui pèse sur les citoyens dans le cadre de l'élaboration de leur déclaration fiscale en sera du même coup allégée.</li>",
+          "<li>La Commission constate que les données qui devront être respectivement communiquées par les banques et les compagnies d'assurance par voie électronique au SPF Finances conformément au présent projet d'arrêté royal qui les énumère, correspondent à celles qui figurent sur les attestations papier 281.61 et 281.62 délivrées au contribuable. Les modèles de ces attestations ont été publiés par avis au Moniteur belge du 23 juin 2016 (pp. 37988 et suivantes).</li>",
+          "<li>Pour rappel, la Commission a rendu, le 16 décembre 2015, un avis n° 52/2015 concernant un projet de loi visant à un échange électronique de données relatives aux emprunts hypothécaires et aux assurances-vie individuelles.</li>",
+          "<li>Au regard de ce qui précède, La Commission conclut que les données à caractère personnel qui seront traitées sont conformes à l'article 4, § 1ᵉʳ, 3°, de la LVP.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170111.6-002",
+        "relatedFullTextCitations": [
+          "<li>Les principes de finalité et de proportionnalité de la loi vie privée (article 4 de la loi vie privée), imposent au responsable du traitement de ne collecter des données que pour une ou des finalités déterminées, explicites et légitimes et de ne traiter les données ainsi collectées que de manière compatible avec ces finalités. De plus, seules peuvent être collectées, pour réaliser la ou les finalités poursuivies, des données à caractère personnel adéquates, pertinentes et non excessives. Dans le choix des modalités de traitement permettant d'atteindre la finalité poursuivie, le responsable du traitement devrait également veiller à opter pour celles qui sont les moins attentatoires à la vie privée des personnes concernées. Une ingérence dans le droit à la protection des données des personnes concernées doit en effet être proportionnée au regard de l’utilité et de la nécessité du traitement pour le responsable du traitement.</li>",
+          "<li>Au regard de ce qui précède, La Commission conclut que les données à caractère personnel qui seront traitées sont conformes à l'article 4, § 1ᵉʳ, 3°, de la LVP.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2017:ARR.20170111.6-003",
+        "relatedFullTextCitations": [
+          "<li>En ce qui concerne, le principe de sécurisation des traitements de données à caractère personnel, prévu à l'article 16 de la loi vie privée, il impose au responsable du traitement de prendre des mesures techniques et organisationnelles adéquates pour protéger les données à caractère personnel qu'il traite et se prémunir contre les détournements de finalité. Le caractère adéquat de ces mesures de sécurité dépend, d'une part, de l'état de la technique et des frais engendrés et d'autre part, de la nature des données à protéger et des risques potentiels.</li>",
+          "<li>La Commission constate que le projet demeure muet à ce sujet.</li>",
+          "<li>La Commission en profite pour souligner l'importance d'une politique de sécurité de l’information adéquate pour chaque source authentique. À cet égard, elle renvoie à ses « mesures de référence en matière de sécurité applicables à tout traitement de données à caractère personnel »3. La Commission attire, entre autres, l’attention sur sa recommandation d’initiative n° 01/2013 du 21 janvier 2013 relative aux mesures de sécurité à respecter afin de prévenir les fuites de données4.</li>",
+          "<li>La Commission rappelle à ce titre qu’il est nécessaire que le traçage des accès soit prévu afin de répondre au principe d’imputabilité de l’accès aux données à caractère personnel.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 11,
+        "avgCitationsPerTeaching": 3.6666666666666665,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 4,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

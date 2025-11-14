@@ -1,0 +1,802 @@
+{
+  "decision_id": "ECLI:BE:GBAPD:2023:DEC.20230601.4",
+  "language": "NL",
+  "metadata": {
+    "id": 148054,
+    "court_ecli_code": "GBAPD",
+    "court_name": "Gegevensbeschermingsautoriteit",
+    "decision_date": "2023-06-01",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Rechterlijke beslissing",
+    "md_length": 11528,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Geschillenkamer van de Gegevensbeschermingsautoriteit, 1 juni 2023, DOS-2023-02245, ECLI:BE:GBAPD:2023:DEC.20230601.4"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+        "name": "de heer X",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "name": "Y.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "VERWEERDER"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Sinds 2019 ontvangt de klager direct marketingmails van de verwerkingsverantwoordelijke. Op 11 september 2019 verzocht de klager voor het eerst om gegevenswissing bij de verwerkingsverantwoordelijke, waarop hij geen antwoord ontving en ondanks het verzoek opnieuw direct marketingmails bleef ontvangen. Op 21 augustus 2020 herhaalde de klager zijn verzoek tot gegevenswissing, dat eveneens onbeantwoord bleef, waarna hij opnieuw marketingmails ontving. Op 7 maart 2023 verzocht de klager opnieuw om verwijdering van zijn persoonsgegevens, waarop hij geen antwoord ontving, en op 23 maart 2023 ontving hij opnieuw direct marketingmails. Bijgevolg diende hij op 19 mei 2023 een klacht in bij de Gegevensbeschermingsautoriteit. Op 25 mei 2023 werd de klacht door de Eerstelijnsdienst ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG en op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.",
+      "requests": [],
+      "arguments": [],
+      "courtOrder": "OM DEZE REDENEN,\n\nbeslist de Geschillenkamer van de Gegevensbeschermingsautoriteit, onder voorbehoud van de indiening van een verzoek door de verwerkingsverantwoordelijke tot behandeling ten gronde overeenkomstig artikel 98 e.v. WOG, om:\n\n- op grond van artikel 58.2, c) AVG en artikel 95, §1, 5° WOG de verwerkingsverantwoordelijke te bevelen dat wordt voldaan aan het verzoek van de betrokkene zijn rechten uit te oefenen, meer bepaald het recht op gegevenswissing (artikel 17.1 AVG), en over te gaan tot wissing van de betreffende persoonsgegevens, en dit binnen de termijn van 30 dagen te rekenen vanaf de kennisgeving van deze beslissing;\n- de verwerkingsverantwoordelijke te bevelen de Gegevensbeschermingsautoriteit (Geschillenkamer) per e-mail binnen dezelfde termijn op de hoogte te stellen van het resultaat van deze beslissing via het e-mailadres litigationchamber@apd-gba.be; en\n- bij gebrek aan de tijdige uitvoering van het hierboven gestelde door de verwerkingsverantwoordelijke, de zaak ambtshalve ten gronde te behandelen overeenkomstig artikelen 98 e.v. WOG.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+        "provisionNumber": "artikel 17.1 AVG",
+        "provisionNumberKey": "17.1",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 (algemene verordening gegevensbescherming)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "De Kamer behandelt artikel 17.1 AVG als het recht van de betrokkene op wissing van persoonsgegevens; wanneer dit recht door de betrokkene wordt uitgeoefend en de verwerkingsverantwoordelijke niet conform handelt, kan de Kamer bevelen dat de betreffende persoonsgegevens worden gewist en dat aan het verzoek gevolg wordt gegeven.",
+        "relevantFactualContext": "De klager heeft herhaaldelijk (11-09-2019, 21-08-2020, 07-03-2023) verzocht om gegevenswissing; de verwerkingsverantwoordelijke gaf geen antwoord en bleef direct marketingmails sturen, laatstelijk na 7 maart 2023."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+        "provisionNumber": "artikel 12.3 AVG",
+        "provisionNumberKey": "12.3",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 (algemene verordening gegevensbescherming)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "De Kamer geeft weer dat artikel 12.3 AVG vereist dat de verwerkingsverantwoordelijke binnen één maand op een verzoek tot gegevenswissing antwoordt; deze termijn kan wegens complexiteit eenmaal met twee maanden worden verlengd, mits de betrokkene binnen die eerste maand over de verlenging wordt geïnformeerd.",
+        "relevantFactualContext": "De klager diende meerdere verzoeken tot wissing in (11-09-2019, 21-08-2020, 07-03-2023); uit het dossier blijkt dat de verwerkingsverantwoordelijke geen antwoord binnen de wettelijke termijnen heeft gegeven."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-003",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+        "provisionNumber": "artikel 12.4 AVG",
+        "provisionNumberKey": "12.4",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 (algemene verordening gegevensbescherming)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "De Kamer interpreteert artikel 12.4 AVG als de verplichting van de verwerkingsverantwoordelijke om binnen één maand de betrokkene te informeren wanneer wordt besloten geen gevolg te geven aan diens verzoek tot gegevenswissing; het ontbreken van een dergelijke mededeling vormt een schending van de AVG-plichten.",
+        "relevantFactualContext": "Het dossier toont dat de verwerkingsverantwoordelijke de klager geen mededeling heeft gezonden over het gevolg van diens verzoeken om wissing, waaronder het verzoek van 7 maart 2023."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-004",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+        "provisionNumber": "artikel 58.2, c) AVG",
+        "provisionNumberKey": "58.2",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 (algemene verordening gegevensbescherming)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-005",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "provisionNumber": "artikel 58 WOG",
+        "provisionNumberKey": "58",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-006",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "provisionNumber": "artikel 60 WOG",
+        "provisionNumberKey": "60",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-007",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "provisionNumber": "art. 62, §1 WOG",
+        "provisionNumberKey": "62",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-008",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "provisionNumber": "artikel 95, §1, 5° WOG",
+        "provisionNumberKey": "95",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer stelt dat artikel 95, §1, 5° WOG haar bevoegdheid verleent om bij vastgestelde inbreuk op de AVG een prima facie beslissing te nemen en de verwerkingsverantwoordelijke te bevelen gevolg te geven aan de verzoeken van de betrokkene, waaronder het opleggen van wissing van persoonsgegevens.",
+        "relevantFactualContext": "Op basis van de stukken concludeert de Kamer dat de verwerkingsverantwoordelijke de verzoeken tot wissing niet opvolgde (herhaalde verzoeken in 2019, 2020 en 2023) en aldus een inbreuk op de AVG beging, die toepassing van art. 95 WOG rechtvaardigt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-009",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "provisionNumber": "artikel 94 WOG",
+        "provisionNumberKey": "94",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-010",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "provisionNumber": "artikel 97 WOG",
+        "provisionNumberKey": "97",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-011",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "provisionNumber": "artikel 98 e.v. WOG",
+        "provisionNumberKey": "98",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-012",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "provisionNumber": "artikel 99 WOG",
+        "provisionNumberKey": "99",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-013",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "provisionNumber": "artikel 100 WOG",
+        "provisionNumberKey": "100",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-014",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "provisionNumber": "artikel 108, §1 WOG",
+        "provisionNumberKey": "108",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-015",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-003",
+        "provisionNumber": "artikel 1034ter",
+        "provisionNumberKey": "1034ter",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-016",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-003",
+        "provisionNumber": "artikel 1034quinquies",
+        "provisionNumberKey": "1034quinquies",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-017",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2023:DEC.20230601.4-003",
+        "provisionNumber": "artikel 32ter",
+        "provisionNumberKey": "32ter",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Gegevensbeschermingsautoriteit",
+        "date": "2023-05-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2023:DEC.20230601.4-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Direct marketingmails",
+      "Meerdere wissingverzoeken",
+      "Geen antwoord op wissingverzoek",
+      "Voortgezette verwerking",
+      "Recht op gegevenswissing",
+      "Niet-naleving informatieplicht",
+      "Bevel tot wissing",
+      "Prima facie-beslissing"
+    ],
+    "metadata": {
+      "totalKeywords": 9,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 3,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+        "text": "Wanneer een betrokkene het recht op gegevenswissing (artikel 17.1 AVG) uitoefent, verplicht het stelsel van artikelen 12.3 en 12.4 AVG de verwerkingsverantwoordelijke om tijdig te reageren: binnen de wettelijke termijn te antwoorden, een verlenging tijdig te melden en bij weigering de betrokkene te informeren; nalaten hiervan kan een inbreuk op de AVG rechtvaardigen en het opleggen van herstelmaatregelen door de toezichthouder.",
+        "courtVerbatim": "De Geschillenkamer stelt vast op basis van de stukken die de klacht staven dat de klager zijn recht op gegevenswissing conform artikel 17.1 AVG meerdere keren heeft uitgeoefend waarvan het laatste verzoek dateert van 7 maart 2023. Ingevolge artikel 12.3 AVG dient de verwerkingsverantwoordelijke op het verzoek tot gegevenswissing te antwoorden binnen één maand na ontvangst van het verzoek. Eventueel kan deze termijn met nog eens twee maanden verlengd worden, gelet op de complexiteit van het verzoek. De klager moet dan binnen de maand na het verzoek tot gegevenswissing over deze verlenging geïnformeerd worden. Indien de verwerkingsverantwoordelijke beslist om geen gevolg te geven aan het verzoek van de klager, moet zij dit binnen één maand na de ontvangst van het verzoek meedelen aan de betrokkene, overeenkomstig artikel 12.4 AVG. Uit het dossier blijkt niet dat de klager enig antwoord heeft mogen ontvangen over het gevolg dat door de verwerkingsverantwoordelijke aan de gegevenswissing gegeven wordt. Hierdoor heeft de verwerkingsverantwoordelijke gehandeld in strijd met artikel 12.3 en 12.4 AVG, alsook artikel 17.1 AVG.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een betrokkene het recht op wissing uitoefent en de verwerkingsverantwoordelijke geen of geen tijdig antwoord geeft of het verzoek niet naleeft.",
+        "relevantFactualContext": "De klager heeft herhaaldelijk verzoeken tot wissing ingediend; de verwerkingsverantwoordelijke gaf geen antwoord binnen de wettelijke termijnen en bleef direct marketingmails sturen, waardoor de Kamer een inbreuk op artikel 12.3, 12.4 en 17.1 AVG concludeerde.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+            "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-003",
+            "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-004"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "text": "Artikel 12.3 AVG verplicht de verwerkingsverantwoordelijke binnen één maand na ontvangst van een verzoek tot wissing aan te geven of gevolg wordt gegeven; deze termijn kan eenmaal met twee maanden worden verlengd wegens complexiteit, op voorwaarde dat de betrokkene binnen de eerste maand over de verlenging wordt geïnformeerd.",
+        "courtVerbatim": "Ingevolge artikel 12.3 AVG dient de verwerkingsverantwoordelijke op het verzoek tot gegevenswissing te antwoorden binnen één maand na ontvangst van het verzoek. Eventueel kan deze termijn met nog eens twee maanden verlengd worden, gelet op de complexiteit van het verzoek. De klager moet dan binnen de maand na het verzoek tot gegevenswissing over deze verlenging geïnformeerd worden.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een betrokkene een verzoek tot wissing indient en de vraag rijst of de verwerkingsverantwoordelijke binnen de wettelijke termijnen heeft beantwoord of een verlenging heeft meegekend.",
+        "relevantFactualContext": "De klager diende meerdere verzoeken tot wissing in; uit het dossier blijkt dat de verwerkingsverantwoordelijke geen bewijs heeft geleverd van beantwoording binnen de wettelijke termijn of van mededeling over een verlenging.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-003",
+        "text": "Artikel 12.4 AVG vereist dat de verwerkingsverantwoordelijke de betrokkene binnen één maand na ontvangst van een verzoek tot wissing meedeelt indien besloten wordt geen gevolg te geven; het ontbreken van een dergelijke mededeling vormt een schending van de verplichtingen onder de AVG en kan aanleiding geven tot handhavingsmaatregelen.",
+        "courtVerbatim": "Indien de verwerkingsverantwoordelijke beslist om geen gevolg te geven aan het verzoek van de klager, moet zij dit binnen één maand na de ontvangst van het verzoek meedelen aan de betrokkene, overeenkomstig artikel 12.4 AVG. Uit het dossier blijkt niet dat de klager enig antwoord heeft mogen ontvangen over het gevolg dat door de verwerkingsverantwoordelijke aan de gegevenswissing gegeven wordt.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing zodra een verwerkingsverantwoordelijke besluit geen gevolg te geven aan een verzoek tot wissing en de mededelingsverplichtingen jegens de betrokkene relevant zijn.",
+        "relevantFactualContext": "Het dossier toont dat de verwerkingsverantwoordelijke de klager geen mededeling heeft gezonden over het gevolg van diens verzoeken om wissing, zodat de Kamer de afwezigheid van mededeling als schending vaststelde.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-004",
+        "text": "Wanneer op basis van het dossier een inbreuk op de AVG wordt vastgesteld, kan de Geschillenkamer krachtens artikel 95, §1, 5° WOG een prima facie beslissing nemen om de verwerkingsverantwoordelijke te bevelen gevolg te geven aan de uitoefening van de rechten van de betrokkene (waaronder wissing); dergelijke prima facie beslissingen maken deel uit van de procedure voorafgaand aan een beslissing ten gronde.",
+        "courtVerbatim": "De Geschillenkamer is van oordeel dat op grond van bovenstaande analyse dient te worden geconcludeerd dat door de verwerkingsverantwoordelijke een inbreuk op de bepalingen van de AVG werd gepleegd, dewelke rechtvaardigt dat in casu wordt overgegaan tot het nemen van een beslissing op grond van artikel 95, §1, $5^{\u00176}$ WOG, meer bepaald de verwerkingsverantwoordelijke te bevelen om gevolg te geven aan de uitoefening door de klager van diens recht op gegevenswissing (artikel 17.1 AVG). Onderhavige beslissing is een prima facie beslissing genomen door de Geschillenkamer overeenkomstig artikel 95 WOG op grond van de door de klager ingediende klacht, in het kader van de 'procedure voorafgaand aan de beslissing ten gronde' en geen beslissing ten gronde van de Geschillenkamer in de zin van artikel 100 WOG.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing indien de toezichthoudende kamer op basis van het dossier een inbreuk op de AVG vaststelt en onmiddellijke naleving kan worden bevolen via een prima facie beslissing volgens artikel 95 WOG.",
+        "relevantFactualContext": "De Kamer concludeerde uit de stukken dat de verwerkingsverantwoordelijke de verzoeken tot wissing niet opvolgde en stelde op grond daarvan een inbreuk vast, waarna zij op grond van artikel 95 WOG kon bevelen dat aan de verzoeken van de betrokkene gevolg wordt gegeven.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-013",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 3,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser klaagt dat de verwerkingsverantwoordelijke herhaaldelijk verzoeken tot gegevenswissing (artikel 17 AVG) negeerde en ondanks die verzoeken doorging met het verzenden van direct marketing. De Geschillenkamer constateert dat geen antwoord is gegeven binnen de termijnen van artikel 12.3 en 12.4 AVG, kwalificeert dit als een inbreuk en beveelt op grond van artikel 95 WOG dat de verwerkingsverantwoordelijke binnen 30 dagen gevolg geeft aan het wissingverzoek en de Autoriteit daarvan op de hoogte stelt. Kernpunt: het niet tijdig reageren op een wissingverzoek schendt de AVG en rechtvaardigt een bestuurlijke dwangmaatregel om uitvoering af te dwingen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Geschillenkamer stelt vast op basis van de stukken die de klacht staven dat de klager zijn recht op gegevenswissing conform artikel 17.1 AVG meerdere keren heeft uitgeoefend waarvan het laatste verzoek dateert van 7 maart 2023. Ingevolge artikel 12.3 AVG dient de verwerkingsverantwoordelijke op het verzoek tot gegevenswissing te antwoorden binnen één maand na ontvangst van het verzoek. Eventueel kan deze termijn met nog eens twee maanden verlengd worden, gelet op de complexiteit van het verzoek. De klager moet dan binnen de maand na het verzoek tot gegevenswissing over deze verlenging geïnformeerd worden. Indien de verwerkingsverantwoordelijke beslist om geen gevolg te geven aan het verzoek van de klager, moet zij dit binnen één maand na de ontvangst van het verzoek meedelen aan de betrokkene, overeenkomstig artikel 12.4 AVG. Uit het dossier blijkt niet dat de klager enig antwoord heeft mogen ontvangen over het gevolg dat door de verwerkingsverantwoordelijke aan de gegevenswissing gegeven wordt. Hierdoor heeft de verwerkingsverantwoordelijke gehandeld in strijd met artikel 12.3 en 12.4 AVG, alsook artikel 17.1 AVG.</p>",
+          "<p class=\"case-section__paragraph\">De Geschillenkamer is van oordeel dat op grond van bovenstaande analyse dient te worden geconcludeerd dat door de verwerkingsverantwoordelijke een inbreuk op de bepalingen van de AVG werd gepleegd, dewelke rechtvaardigt dat in casu wordt overgegaan tot het nemen van een beslissing op grond van artikel 95, §1, 5° WOG, meer bepaald de verwerkingsverantwoordelijke te bevelen om gevolg te geven aan de uitoefening door de klager van diens recht op gegevenswissing (artikel 17.1 AVG).</p>",
+          "<p class=\"case-footer__paragraph\">op grond van artikel 58.2, c) AVG en artikel 95, §1, 5° WOG de verwerkingsverantwoordelijke te bevelen dat wordt voldaan aan het verzoek van de betrokkene zijn rechten uit te oefenen, meer bepaald het recht op gegevenswissing (artikel 17.1 AVG), en over te gaan tot wissing van de betreffende persoonsgegevens, en dit binnen de termijn van 30 dagen te rekenen vanaf de kennisgeving van deze beslissing;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-003",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-008",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Geschillenkamer stelt vast op basis van de stukken die de klacht staven dat de klager zijn recht op gegevenswissing conform artikel 17.1 AVG meerdere keren heeft uitgeoefend waarvan het laatste verzoek dateert van 7 maart 2023. Ingevolge artikel 12.3 AVG dient de verwerkingsverantwoordelijke op het verzoek tot gegevenswissing te antwoorden binnen één maand na ontvangst van het verzoek. Eventueel kan deze termijn met nog eens twee maanden verlengd worden, gelet op de complexiteit van het verzoek. De klager moet dan binnen de maand na het verzoek tot gegevenswissing over deze verlenging geïnformeerd worden. Indien de verwerkingsverantwoordelijke beslist om geen gevolg te geven aan het verzoek van de klager, moet zij dit binnen één maand na de ontvangst van het verzoek meedelen aan de betrokkene, overeenkomstig artikel 12.4 AVG. Uit het dossier blijkt niet dat de klager enig antwoord heeft mogen ontvangen over het gevolg dat door de verwerkingsverantwoordelijke aan de gegevenswissing gegeven wordt. Hierdoor heeft de verwerkingsverantwoordelijke gehandeld in strijd met artikel 12.3 en 12.4 AVG, alsook artikel 17.1 AVG.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Geschillenkamer stelt vast op basis van de stukken die de klacht staven dat de klager zijn recht op gegevenswissing conform artikel 17.1 AVG meerdere keren heeft uitgeoefend waarvan het laatste verzoek dateert van 7 maart 2023. Ingevolge artikel 12.3 AVG dient de verwerkingsverantwoordelijke op het verzoek tot gegevenswissing te antwoorden binnen één maand na ontvangst van het verzoek. Eventueel kan deze termijn met nog eens twee maanden verlengd worden, gelet op de complexiteit van het verzoek. De klager moet dan binnen de maand na het verzoek tot gegevenswissing over deze verlenging geïnformeerd worden. Indien de verwerkingsverantwoordelijke beslist om geen gevolg te geven aan het verzoek van de klager, moet zij dit binnen één maand na de ontvangst van het verzoek meedelen aan de betrokkene, overeenkomstig artikel 12.4 AVG. Uit het dossier blijkt niet dat de klager enig antwoord heeft mogen ontvangen over het gevolg dat door de verwerkingsverantwoordelijke aan de gegevenswissing gegeven wordt. Hierdoor heeft de verwerkingsverantwoordelijke gehandeld in strijd met artikel 12.3 en 12.4 AVG, alsook artikel 17.1 AVG.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-003",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Onderhavige beslissing is een prima facie beslissing genomen door de Geschillenkamer overeenkomstig artikel 95 WOG op grond van de door de klager ingediende klacht, in het kader van de ‘procedure voorafgaand aan de beslissing ten gronde’ 1 en geen beslissing ten gronde van de Geschillenkamer in de zin van artikel 100 WOG. De Geschillenkamer heeft aldus beslist om op grond van de artikelen 58.2. c) en 95, §1, 5° van de wet van 3 december 2017, de verwerkingsverantwoordelijke te bevelen dat wordt voldaan aan de verzoeken van de betrokkene om zijn rechten uit te oefenen, meer bepaald het recht op gegevenswissing (“recht op vergetelheid”) zoals bepaald in artikel 17 AVG.</p>",
+          "<p class=\"case-footer__paragraph\">op grond van artikel 58.2, c) AVG en artikel 95, §1, 5° WOG de verwerkingsverantwoordelijke te bevelen dat wordt voldaan aan het verzoek van de betrokkene zijn rechten uit te oefenen, meer bepaald het recht op gegevenswissing (artikel 17.1 AVG), en over te gaan tot wissing van de betreffende persoonsgegevens, en dit binnen de termijn van 30 dagen te rekenen vanaf de kennisgeving van deze beslissing;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-004",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-008",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Op 25 mei 2023 wordt de klacht door de Eerstelijnsdienst ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG en wordt de klacht op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-005",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-006",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Op 25 mei 2023 wordt de klacht door de Eerstelijnsdienst ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG en wordt de klacht op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-006",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-005",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Op 25 mei 2023 wordt de klacht door de Eerstelijnsdienst ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG en wordt de klacht op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-007",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-005",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Geschillenkamer is van oordeel dat op grond van bovenstaande analyse dient te worden geconcludeerd dat door de verwerkingsverantwoordelijke een inbreuk op de bepalingen van de AVG werd gepleegd, dewelke rechtvaardigt dat in casu wordt overgegaan tot het nemen van een beslissing op grond van artikel 95, §1, 5° WOG, meer bepaald de verwerkingsverantwoordelijke te bevelen om gevolg te geven aan de uitoefening door de klager van diens recht op gegevenswissing (artikel 17.1 AVG).</p>",
+          "<p class=\"case-section__paragraph\">Onderhavige beslissing is een prima facie beslissing genomen door de Geschillenkamer overeenkomstig artikel 95 WOG op grond van de door de klager ingediende klacht, in het kader van de ‘procedure voorafgaand aan de beslissing ten gronde’ 1 en geen beslissing ten gronde van de Geschillenkamer in de zin van artikel 100 WOG. De Geschillenkamer heeft aldus beslist om op grond van de artikelen 58.2. c) en 95, §1, 5° van de wet van 3 december 2017, de verwerkingsverantwoordelijke te bevelen dat wordt voldaan aan de verzoeken van de betrokkene om zijn rechten uit te oefenen, meer bepaald het recht op gegevenswissing (“recht op vergetelheid”) zoals bepaald in artikel 17 AVG.</p>",
+          "<p class=\"case-section__paragraph\">Tot slot wijst de Geschillenkamer nog op het volgende: Indien één van beide partijen gebruik wenst te maken van de mogelijkheid tot het raadplegen en het kopiëren van het dossier (artikel 95, §2, 3° WOG), dient deze zich te wenden tot het secretariaat van de Geschillenkamer, bij voorkeur via litigationchamber@apd-gba.be, teneinde een afspraak vast te leggen. Indien om een kopie van het dossier wordt verzocht, worden de stukken zo mogelijk elektronisch of anders per gewone post bezorgd 3.</p>",
+          "<p class=\"case-footer__paragraph\">op grond van artikel 58.2, c) AVG en artikel 95, §1, 5° WOG de verwerkingsverantwoordelijke te bevelen dat wordt voldaan aan het verzoek van de betrokkene zijn rechten uit te oefenen, meer bepaald het recht op gegevenswissing (artikel 17.1 AVG), en over te gaan tot wissing van de betreffende persoonsgegevens, en dit binnen de termijn van 30 dagen te rekenen vanaf de kennisgeving van deze beslissing;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-008",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-004",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-009",
+        "relatedFullTextCitations": [
+          "<!-- No explicit citation of artikel 94 WOG found in fullText.html -->"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-010",
+        "relatedFullTextCitations": [
+          "<!-- No explicit citation of artikel 97 WOG found in fullText.html -->"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In geval van een voortzetting van de behandeling van de zaak ten gronde, zal de Geschillenkamer de partijen op grond van de artikelen 98, 2° en 3° juncto artikel 99 WOG uitnodigen hun verweermiddelen in te dienen alsook alle stukken die zij nuttig achten bij het dossier te voegen. De onderhavige beslissing wordt desgevallend definitief opgeschort.</p>",
+          "<p class=\"case-footer__paragraph\">bij gebrek aan de tijdige uitvoering van het hierboven gestelde door de verwerkingsverantwoordelijke, de zaak ambtshalve ten gronde te behandelen overeenkomstig artikelen 98 e.v. WOG.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-011",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In geval van een voortzetting van de behandeling van de zaak ten gronde, zal de Geschillenkamer de partijen op grond van de artikelen 98, 2° en 3° juncto artikel 99 WOG uitnodigen hun verweermiddelen in te dienen alsook alle stukken die zij nuttig achten bij het dossier te voegen. De onderhavige beslissing wordt desgevallend definitief opgeschort.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-012",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-013",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Onderhavige beslissing is een prima facie beslissing genomen door de Geschillenkamer overeenkomstig artikel 95 WOG op grond van de door de klager ingediende klacht, in het kader van de ‘procedure voorafgaand aan de beslissing ten gronde’ 1 en geen beslissing ten gronde van de Geschillenkamer in de zin van artikel 100 WOG. De Geschillenkamer heeft aldus beslist om op grond van de artikelen 58.2. c) en 95, §1, 5° van de wet van 3 december 2017, de verwerkingsverantwoordelijke te bevelen dat wordt voldaan aan de verzoeken van de betrokkene om zijn rechten uit te oefenen, meer bepaald het recht op gegevenswissing (“recht op vergetelheid”) zoals bepaald in artikel 17 AVG.</p>",
+          "<p class=\"case-section__paragraph\">De Geschillenkamer wijst er volledigheidshalve op dat een behandeling ten gronde van de zaak kan leiden tot het opleggen van de maatregelen vermeld in artikel 100 WOG 2.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-013",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Op grond van artikel 108, § 1 van de WOG, kan binnen een termijn van dertig dagen vanaf de kennisgeving tegen deze beslissing beroep worden aangetekend bij het Marktenhof (hof van beroep Brussel), met de Gegevensbeschermingsautoriteit als verweerder. Een dergelijk beroep kan worden aangetekend middels een verzoekschrift op tegenspraak dat de in artikel 1034ter van het Gerechtelijk Wetboek opgesomde vermeldingen dient te bevatten4. Het verzoekschrift op tegenspraak dient te worden ingediend bij de griffie van het Marktenhof overeenkomstig artikel 1034quinquies van het Ger.W.5, dan wel via het e-Deposit informaticasysteem van Justitie (artikel 32ter van het Ger.W.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-014",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-015",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-016",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Op grond van artikel 108, § 1 van de WOG, kan binnen een termijn van dertig dagen vanaf de kennisgeving tegen deze beslissing beroep worden aangetekend bij het Marktenhof (hof van beroep Brussel), met de Gegevensbeschermingsautoriteit als verweerder. Een dergelijk beroep kan worden aangetekend middels een verzoekschrift op tegenspraak dat de in artikel 1034ter van het Gerechtelijk Wetboek opgesomde vermeldingen dient te bevatten4. Het verzoekschrift op tegenspraak dient te worden ingediend bij de griffie van het Marktenhof overeenkomstig artikel 1034quinquies van het Ger.W.5, dan wel via het e-Deposit informaticasysteem van Justitie (artikel 32ter van het Ger.W.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-015",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-016",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-017",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Op grond van artikel 108, § 1 van de WOG, kan binnen een termijn van dertig dagen vanaf de kennisgeving tegen deze beslissing beroep worden aangetekend bij het Marktenhof (hof van beroep Brussel), met de Gegevensbeschermingsautoriteit als verweerder. Een dergelijk beroep kan worden aangetekend middels een verzoekschrift op tegenspraak dat de in artikel 1034ter van het Gerechtelijk Wetboek opgesomde vermeldingen dient te bevatten4. Het verzoekschrift op tegenspraak dient te worden ingediend bij de griffie van het Marktenhof overeenkomstig artikel 1034quinquies van het Ger.W.5, dan wel via het e-Deposit informaticasysteem van Justitie (artikel 32ter van het Ger.W.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-016",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-015",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-017",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-017",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Op grond van artikel 108, § 1 van de WOG, kan binnen een termijn van dertig dagen vanaf de kennisgeving tegen deze beslissing beroep worden aangetekend bij het Marktenhof (hof van beroep Brussel), met de Gegevensbeschermingsautoriteit als verweerder. Een dergelijk beroep kan worden aangetekend middels een verzoekschrift op tegenspraak dat de in artikel 1034ter van het Gerechtelijk Wetboek opgesomde vermeldingen dient te bevatten4. Het verzoekschrift op tegenspraak dient te worden ingediend bij de griffie van het Marktenhof overeenkomstig artikel 1034quinquies van het Ger.W.5, dan wel via het e-Deposit informaticasysteem van Justitie (artikel 32ter van het Ger.W.).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-017",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-015",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-016",
+          "ART-ECLI:BE:GBAPD:2023:DEC.20230601.4-014"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 17,
+      "citationStatistics": {
+        "totalCitations": 23,
+        "avgCitationsPerProvision": 1.3529411764705883,
+        "provisionsWithMinimalCitations": 13,
+        "provisionsWithNoCitations": 2
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Geschillenkamer stelt vast op basis van de stukken die de klacht staven dat de klager zijn recht op gegevenswissing conform artikel 17.1 AVG meerdere keren heeft uitgeoefend waarvan het laatste verzoek dateert van 7 maart 2023. Ingevolge artikel 12.3 AVG dient de verwerkingsverantwoordelijke op het verzoek tot gegevenswissing te antwoorden binnen één maand na ontvangst van het verzoek. Eventueel kan deze termijn met nog eens twee maanden verlengd worden, gelet op de complexiteit van het verzoek. De klager moet dan binnen de maand na het verzoek tot gegevenswissing over deze verlenging geïnformeerd worden. Indien de verwerkingsverantwoordelijke beslist om geen gevolg te geven aan het verzoek van de klager, moet zij dit binnen één maand na de ontvangst van het verzoek meedelen aan de betrokkene, overeenkomstig artikel 12.4 AVG. Uit het dossier blijkt niet dat de klager enig antwoord heeft mogen ontvangen over het gevolg dat door de verwerkingsverantwoordelijke aan de gegevenswissing gegeven wordt. Hierdoor heeft de verwerkingsverantwoordelijke gehandeld in strijd met artikel 12.3 en 12.4 AVG, alsook artikel 17.1 AVG.</p>",
+          "<p class=\"case-section__paragraph\">De Geschillenkamer is van oordeel dat op grond van bovenstaande analyse dient te worden geconcludeerd dat door de verwerkingsverantwoordelijke een inbreuk op de bepalingen van de AVG werd gepleegd, dewelke rechtvaardigt dat in casu wordt overgegaan tot het nemen van een beslissing op grond van artikel 95, §1, 5° WOG, meer bepaald de verwerkingsverantwoordelijke te bevelen om gevolg te geven aan de uitoefening door de klager van diens recht op gegevenswissing (artikel 17.1 AVG).</p>",
+          "<p class=\"case-section__paragraph\">Onderhavige beslissing is een prima facie beslissing genomen door de Geschillenkamer overeenkomstig artikel 95 WOG op grond van de door de klager ingediende klacht, in het kader van de ‘procedure voorafgaand aan de beslissing ten gronde’ 1 en geen beslissing ten gronde van de Geschillenkamer in de zin van artikel 100 WOG. De Geschillenkamer heeft aldus beslist om op grond van de artikelen 58.2. c) en 95, §1, 5° van de wet van 3 december 2017, de verwerkingsverantwoordelijke te bevelen dat wordt voldaan aan de verzoeken van de betrokkene om zijn rechten uit te oefenen, meer bepaald het recht op gegevenswissing (“recht op vergetelheid”) zoals bepaald in artikel 17 AVG.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Geschillenkamer stelt vast op basis van de stukken die de klacht staven dat de klager zijn recht op gegevenswissing conform artikel 17.1 AVG meerdere keren heeft uitgeoefend waarvan het laatste verzoek dateert van 7 maart 2023. Ingevolge artikel 12.3 AVG dient de verwerkingsverantwoordelijke op het verzoek tot gegevenswissing te antwoorden binnen één maand na ontvangst van het verzoek. Eventueel kan deze termijn met nog eens twee maanden verlengd worden, gelet op de complexiteit van het verzoek. De klager moet dan binnen de maand na het verzoek tot gegevenswissing over deze verlenging geïnformeerd worden. Indien de verwerkingsverantwoordelijke beslist om geen gevolg te geven aan het verzoek van de klager, moet zij dit binnen één maand na de ontvangst van het verzoek meedelen aan de betrokkene, overeenkomstig artikel 12.4 AVG. Uit het dossier blijkt niet dat de klager enig antwoord heeft mogen ontvangen over het gevolg dat door de verwerkingsverantwoordelijke aan de gegevenswissing gegeven wordt. Hierdoor heeft de verwerkingsverantwoordelijke gehandeld in strijd met artikel 12.3 en 12.4 AVG, alsook artikel 17.1 AVG.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Geschillenkamer stelt vast op basis van de stukken die de klacht staven dat de klager zijn recht op gegevenswissing conform artikel 17.1 AVG meerdere keren heeft uitgeoefend waarvan het laatste verzoek dateert van 7 maart 2023. Ingevolge artikel 12.3 AVG dient de verwerkingsverantwoordelijke op het verzoek tot gegevenswissing te antwoorden binnen één maand na ontvangst van het verzoek. Eventueel kan deze termijn met nog eens twee maanden verlengd worden, gelet op de complexiteit van het verzoek. De klager moet dan binnen de maand na het verzoek tot gegevenswissing over deze verlenging geïnformeerd worden. Indien de verwerkingsverantwoordelijke beslist om geen gevolg te geven aan het verzoek van de klager, moet zij dit binnen één maand na de ontvangst van het verzoek meedelen aan de betrokkene, overeenkomstig artikel 12.4 AVG. Uit het dossier blijkt niet dat de klager enig antwoord heeft mogen ontvangen over het gevolg dat door de verwerkingsverantwoordelijke aan de gegevenswissing gegeven wordt. Hierdoor heeft de verwerkingsverantwoordelijke gehandeld in strijd met artikel 12.3 en 12.4 AVG, alsook artikel 17.1 AVG.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2023:DEC.20230601.4-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Geschillenkamer is van oordeel dat op grond van bovenstaande analyse dient te worden geconcludeerd dat door de verwerkingsverantwoordelijke een inbreuk op de bepalingen van de AVG werd gepleegd, dewelke rechtvaardigt dat in casu wordt overgegaan tot het nemen van een beslissing op grond van artikel 95, §1, 5° WOG, meer bepaald de verwerkingsverantwoordelijke te bevelen om gevolg te geven aan de uitoefening door de klager van diens recht op gegevenswissing (artikel 17.1 AVG).</p>",
+          "<p class=\"case-section__paragraph\">Onderhavige beslissing is een prima facie beslissing genomen door de Geschillenkamer overeenkomstig artikel 95 WOG op grond van de door de klager ingediende klacht, in het kader van de ‘procedure voorafgaand aan de beslissing ten gronde’ 1 en geen beslissing ten gronde van de Geschillenkamer in de zin van artikel 100 WOG. De Geschillenkamer heeft aldus beslist om op grond van de artikelen 58.2. c) en 95, §1, 5° van de wet van 3 december 2017, de verwerkingsverantwoordelijke te bevelen dat wordt voldaan aan de verzoeken van de betrokkene om zijn rechten uit te oefenen, meer bepaald het recht op gegevenswissing (“recht op vergetelheid”) zoals bepaald in artikel 17 AVG.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 1.75,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 7,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

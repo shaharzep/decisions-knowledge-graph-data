@@ -1,0 +1,469 @@
+{
+  "decision_id": "ECLI:BE:CABRL:2010:ARR.20101005.9",
+  "language": "NL",
+  "metadata": {
+    "id": 10947,
+    "court_ecli_code": "CABRL",
+    "court_name": "Hof van Beroep te Brussel",
+    "decision_date": "2010-10-05",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 6973,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Hof van Beroep te Brussel, 5 oktober 2010, nr. 2008AR637, ECLI:BE:CABRL:2010:ARR.20101005.9"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2010:ARR.20101005.9-001",
+        "name": "S. O.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2010:ARR.20101005.9-002",
+        "name": "K. F.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2010:ARR.20101005.9-003",
+        "name": "De GEMEENTE ANDERLECHT",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Appellanten verhuurden een woning te Barastraat. Volgens het vonnis van eerste aanleg waren de gasleidingen, gasaansluitingen en de evacuatie van verbrandingsgassen niet in goede staat, waardoor twee huurders werden afgevoerd met CO-vergiftiging. Geïntimeerde (de gemeente Anderlecht) nam een verklaring van onbewoonbaarheid en droeg relocatiekosten; de gemeente vorderde deze kosten op de eigenaars. De eerste rechter verklaarde de oorspronkelijke vordering van de gemeente ontvankelijk en (in belangrijke mate) gegrond en veroordeelde appellanten tot betaling van €20.908,13, te verhogen met wettelijke interesten vanaf 7 februari 2007 en tot betaling van gerechtskosten. Het vonnis van eerste aanleg werd betekend op 5 februari 2008; appellanten dienden hun verzoekschrift tot hoger beroep in op 6 maart 2008.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20101005.9-001",
+          "requests": "Appellanten vorderen met de hervorming van het bestreden vonnis de oorspronkelijke vordering van de gemeente Anderlecht ongegrond te verklaren en geïntimeerde te veroordelen tot betaling van de gerechtskosten."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20101005.9-002",
+          "requests": "Appellanten vorderen met de hervorming van het bestreden vonnis de oorspronkelijke vordering van de gemeente Anderlecht ongegrond te verklaren en geïntimeerde te veroordelen tot betaling van de gerechtskosten."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20101005.9-003",
+          "requests": "Geïntimeerde besluit tot de niet-ontvankelijkheid, minstens de ongegrondheid van het hoger beroep met veroordeling van appellanten in alle kosten; incidenteel vordert geïntimeerde de veroordeling van appellanten tot betaling van €5.000 als schadevergoeding wegens tergend en roekeloos hoger beroep."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20101005.9-001",
+          "argument": "Appellanten betwisten de bevindingen van de eerste rechter en stellen dat deze ten onrechte oordeelde dat de onbewoonbaarverklaring terecht was en dat appellanten verantwoordelijk zijn voor onvoorzichtigheden, onder meer bij de aansluiting van de gasinstallatie. Zij betwisten voorts dat het gezin Agbo-Akapovi regelmatig in het onroerend goed verbleef en stellen dat het gemeentebestuur overbodige kosten zou hebben gemaakt. Voor het overige verwijzen appellanten naar de conclusies genomen in eerste aanleg (waarvan zij de inhoud als steun voor hun verzoek tot hervorming aanvoeren).",
+          "treatment": "NIET_BEHANDELD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20101005.9-003",
+          "argument": "Geïntimeerde voert aan dat het ingestelde hoger beroep laattijdig is ingegeven en derhalve niet-ontvankelijk, verwijzend naar artikel 1051 Ger. W. en de berekening van de termijn van één maand vanaf de dag na betekening (d.i. termijn van 6 februari 2008 tot 5 maart 2008), terwijl het verzoekschrift tot hoger beroep op 6 maart 2008 ter griffie werd neergelegd.",
+          "treatment": "AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20101005.9-003",
+          "argument": "Geïntimeerde stelt daarnaast een incidentele vordering dat appellanten veroordeeld worden tot betaling van €5.000 als schadevergoeding wegens tergend en roekeloos hoger beroep, stellende dat het hoger beroep onnodig en met kwade bedoelingen werd ingesteld.",
+          "treatment": "VERWORPEN"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN,\n\nHET HOF, Rechtsprekende na tegenspraak, Gelet op art. 24 van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken; Verklaart het hoger beroep niet toelaatbaar. Verklaart de incidentele vordering van geïntimeerde ontvankelijk doch ongegrond. Veroordeelt appellanten in de gerechtskosten van het hoger beroep, begroot in hoofde van henzelf op 186 euro rolrechten + 2.000 euro rechtsplegingsvergoeding en begroot in hoofde van de Gemeente Anderlecht op 2.000 euro rechtsplegingsvergoeding. Aldus gevonnist en uitgesproken in openbare burgerlijke terechtzitting van de eerste kamer van het hof van beroep te Brussel op 5 oktober 2010.",
+      "outcome": "NIET_ONTVANKELIJKHEID"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-001",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20101005.9-001",
+        "provisionNumber": "artikel 1051",
+        "provisionNumberKey": "1051",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het hof verduidelijkt dat artikel 1051 Ger.W. de termijn van hoger beroep van één maand bepaalt die wordt berekend vanaf de dag na de betekening, lopend van die dag tot de dag vóór dezelfde dag de volgende maand. Het hof constateert dat wanneer de vervaldag op 5 maart viel (woensdag) deze niet wordt verschoven, zodat een daglater ingediend hoger beroep buiten de termijn valt en niet toelaatbaar is.",
+        "relevantFactualContext": "Het bestreden vonnis werd op 5 februari 2008 aan appellanten betekend door gerechtsdeurwaarder Phlypo; de termijn liep van 6 februari 2008 tot 5 maart 2008; appellanten dienden hoger beroep in op 6 maart 2008, dus buiten de termijn."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-002",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20101005.9-001",
+        "provisionNumber": "artikel 744, tweede lid",
+        "provisionNumberKey": "744",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-003",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20101005.9-002",
+        "provisionNumber": "art. 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 op het gebruik der talen in gerechtszaken (wet 15 juni 1935)",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-004",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20101005.9-001",
+        "provisionNumber": "artikel 1022",
+        "provisionNumberKey": "1022",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het hof past artikel 1022 Ger.W. toe als grondslag voor de rechtsplegingsvergoeding en oordeelt dat er geen reden is af te wijken van het bij koninklijk besluit vastgestelde basistarief; op basis van art.1022 en de wet van 21 april 2007 bedraagt het basistarief in deze zaak 2.000 euro.",
+        "relevantFactualContext": "Appellanten worden grotendeels in het ongelijk gesteld; het hof veroordeelt hen tot betaling van gerechtskosten waaronder 186 euro rolrechten en een rechtsplegingsvergoeding van 2.000 euro ten laste van appellanten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-005",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20101005.9-003",
+        "provisionNumber": "artikel 1",
+        "provisionNumberKey": "1",
+        "parentActType": "WET",
+        "parentActName": "wet van 21 april 2007 betreffende de verhaalbaarheid van de erelonen en de kosten verbonden aan de bijstand van de advocaat (wet 21 april 2007)",
+        "parentActDate": "2007-04-21",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-006",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20101005.9-003",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "WET",
+        "parentActName": "wet van 21 april 2007 betreffende de verhaalbaarheid van de erelonen en de kosten verbonden aan de bijstand van de advocaat (wet 21 april 2007)",
+        "parentActDate": "2007-04-21",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van eerste aanleg te Brussel (22ste kamer)",
+        "date": "2008-01-08",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20101005.9-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep te Brussel",
+        "date": "2008-03-06",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20101005.9-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep te Brussel",
+        "date": "2010-09-13",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20101005.9-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Aansprakelijkheidsrecht",
+      "Verhuur woning",
+      "CO-vergiftiging",
+      "Onbewoonbaarverklaring",
+      "Relocatiekosten",
+      "Verhaal relocatiekosten",
+      "Aansprakelijkheid gasinstallatie",
+      "Laattijdig hoger beroep",
+      "Niet-ontvankelijkheid",
+      "Strikte termijninterpretatie"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20101005.9-001",
+        "text": "Artikel 1051 van het Gerechtelijk Wetboek bepaalt dat de termijn van hoger beroep van één maand wordt berekend vanaf de dag na die van de betekening en loopt 'van de zoveelste tot de dag vóór de zoveelste' van de volgende maand; wanneer de vervaldag op de betreffende dag valt, wordt die vervaldag niet automatisch verplaatst, zodat een dag later ingediend hoger beroep buiten de termijn valt en onontvankelijk is.",
+        "courtVerbatim": "De termijn van hoger beroep van één maand wordt berekend vanaf de dag na die van de betekening van het bestreden vonnis, van de zoveelste tot de dag vóór de zoveelste. In casu liep de termijn om hoger beroep in te stellen dan ook van 6 februari 2008 tot 5 maart 2008. 5 maart 2008 was een woensdag zodat de vervaldag van deze termijn niet tot een latere dag wordt verplaatst. Appellanten hebben op 6 maart 2008 hoger beroep ingesteld, anders gezegd buiten de termijn van artikel 1051 Ger. W. Het hoger beroep is niet toelaatbaar.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij beoordeling van de toelaatbaarheid van een hoger beroep ingevolge artikel 1051 Ger.W., met berekening van de éénmaandstermijn na betekening.",
+        "relevantFactualContext": "Het bestreden vonnis werd betekend op 5 februari 2008; de éénmaandstermijn liep van 6 februari 2008 tot 5 maart 2008; appellanten stelden hoger beroep in op 6 maart 2008, derhalve buiten de termijn, waarna het hof het hoger beroep niet-ontvankelijk verklaarde.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20101005.9-002",
+        "text": "Voor toekenning van schadevergoeding wegens 'tergend of roekeloos' ingesteld hoger beroep volstaat louter het feit dat het beroep te laat werd ingesteld niet; de eiser in de incidentele vordering moet aantonen dat het hoger beroep onder zodanige concrete omstandigheden is ingesteld dat iedere redelijk procesdeelnemer zich van het instellen zou hebben onthouden of dat het recht tot hoger beroep op foutieve wijze werd uitgeoefend.",
+        "courtVerbatim": "Het wordt immers niet aangetoond dat appellanten hoger beroep hebben ingesteld in zulke omstandigheden dat iedere rechtsonderhorige, in dezelfde concrete omstandigheden als appellanten geplaatst, zich zou onthouden hebben de zaak ter beoordeling van het hof van beroep voor te leggen of dat hij op foutieve wijze haar recht tot hoger beroep zou hebben uitgeoefend. De enige omstandigheid dat hun rechtsmiddel te laat werd ingesteld laat niet toe het tergende of roekeloze karakter ervan vast te stellen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij beoordeling van een incidentele vordering tot schadevergoeding wegens tergend of roekeloos ingestelde hoger beroep.",
+        "relevantFactualContext": "Geïntimeerde vorderde 5.000 euro wegens tergend en roekeloos hoger beroep; het hof oordeelde dat enkel de laattijdige indiening onvoldoende is om het tergende of roekeloze karakter van het beroep vast te stellen.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 2,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eisers, verhuurders van een onroerend goed, betwistten een vonnis waarbij de gemeente relocatiekosten en schade vorderde na onbewoonbaarverklaring wegens CO‑vergiftiging van huurders. Het hof verklaart het hoger beroep niet‑toelaatbaar wegens laattijdige indiening binnen de éénmaandstermijn (art.1051 Ger. W.) en wijst de incidentele vordering wegens tergend/roekeloos beroep af. Het hof legt de gerechtskosten op aan de eisers en benadrukt dat enkel laattijdigheid onvoldoende is om tergend of roekeloos karakter aan te nemen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Procedure. Gewone rechtsmiddelen. Hoger beroep. Termijn. Artikel 1051 Ger. W. I. De termijn van hoger beroep van één maand wordt berekend vanaf de dag na die van de betekening van het bestreden vonnis, van de zoveelste tot de dag vóór de zoveelste. In casu liep de termijn om hoger beroep in te stellen dan ook van 6 februari 2008 tot 5 maart 2008. 5 maart 2008 was een woensdag zodat de vervaldag van deze termijn niet tot een latere dag wordt verplaatst. Appellanten hebben op 6 maart 2008 hoger beroep ingesteld, anders gezegd buiten de termijn van artikel 1051 Ger. W. Het hoger beroep is niet toelaatbaar. II. De enige omstandigheid dat hun rechtsmiddel te laat werd ingesteld laat niet toe het tergende of roekeloze karakter ervan vast te stellen.</p>",
+          "<p class=\"case-section__paragraph\">Het bestreden vonnis werd op 5 februari 2008 aan beide appellanten betekend bij exploot van gerechtsdeurwaarder Phlypo te Roeselare. De termijn van hoger beroep van één maand wordt berekend vanaf de dag na die van de betekening, van de zoveelste tot de dag vóór de zoveelste. Deze termijn liep dan ook van 6 februari 2008 tot 5 maart 2008. 5 maart 2008 was een woensdag zodat de vervaldag van deze termijn niet tot een latere dag wordt verplaatst. Appellanten hebben op 6 maart 2008 hoger beroep ingesteld, anders gezegd buiten de termijn van artikel 1051 van het Gerechtelijk Wetboek. Het hoger beroep is niet toelaatbaar.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CABRL:2010:ARR.20101005.9-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Voor het overige vergenoegen appellanten zich te verwijzen \"naar de conclusies genomen in eerste aanleg\". Met gezegde conclusies dient het hof echter geen rekening te houden (artikel 744, tweede lid, van het Gerechtelijk Wetboek).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">HET HOF, Rechtsprekende na tegenspraak, Gelet op art. 24 van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken; Verklaart het hoger beroep niet toelaatbaar. Verklaart de incidentele vordering van geïntimeerde ontvankelijk doch ongegrond. Veroordeelt appellanten in de gerechtskosten van het hoger beroep, begroot in hoofde van henzelf op 186 euro rolrechten + 2.000 euro rechtsplegingsvergoeding en begroot in hoofde van de Gemeente Anderlecht op 2.000 euro rechtsplegingsvergoeding. Aldus gevonnist en uitgesproken in openbare burgerlijke te¬rechtzitting van de eerste kamer van het hof van beroep te Brussel op 5 oktober 2010. Waar aanwezig waren: Dhr. E. Janssens de Bisthoven, alleenzetelend Raadsheer, Mevr. B. Heymans, Griffier. B. Heymans E. Janssens de Bisthoven</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De gerechtskosten: De gerechtskosten worden ten laste van appellanten gelegd in hun hoedanigheid van (grotendeels) in het ongelijk gestelde partij. Wat de rechtsplegingsvergoeding betreft is er geen reden om af te wijken van het basistarief zoals vastgesteld bij het K.B. van 26 oktober 2007 tot vaststelling van het tarief van de rechtsplegingsvergoeding bedoeld in art. 1022 Ger. W. en tot vaststelling van de datum van inwerkingtreding van de artikelen 1 tot 13 van de wet van 21 april 2007 betreffende de verhaalbaarheid van de erelonen en de kosten verbonden aan de bijstand van de advocaat. Te dezen bedraagt het basisbedrag 2.000 euro .</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-004",
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-005",
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De gerechtskosten: De gerechtskosten worden ten laste van appellanten gelegd in hun hoedanigheid van (grotendeels) in het ongelijk gestelde partij. Wat de rechtsplegingsvergoeding betreft is er geen reden om af te wijken van het basistarief zoals vastgesteld bij het K.B. van 26 oktober 2007 tot vaststelling van het tarief van de rechtsplegingsvergoeding bedoeld in art. 1022 Ger. W. en tot vaststelling van de datum van inwerkingtreding van de artikelen 1 tot 13 van de wet van 21 april 2007 betreffende de verhaalbaarheid van de erelonen en de kosten verbonden aan de bijstand van de advocaat. Te dezen bedraagt het basisbedrag 2.000 euro .</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-005",
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-004",
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De gerechtskosten: De gerechtskosten worden ten laste van appellanten gelegd in hun hoedanigheid van (grotendeels) in het ongelijk gestelde partij. Wat de rechtsplegingsvergoeding betreft is er geen reden om af te wijken van het basistarief zoals vastgesteld bij het K.B. van 26 oktober 2007 tot vaststelling van het tarief van de rechtsplegingsvergoeding bedoeld in art. 1022 Ger. W. en tot vaststelling van de datum van inwerkingtreding van de artikelen 1 tot 13 van de wet van 21 april 2007 betreffende de verhaalbaarheid van de erelonen en de kosten verbonden aan de bijstand van de advocaat. Te dezen bedraagt het basisbedrag 2.000 euro .</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-006",
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-004",
+          "ART-ECLI:BE:CABRL:2010:ARR.20101005.9-005"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 6,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerProvision": 1.1666666666666667,
+        "provisionsWithMinimalCitations": 6,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2,
+        "avgDecisionsPerProvision": 0.16666666666666666,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20101005.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Procedure. Gewone rechtsmiddelen. Hoger beroep. Termijn. Artikel 1051 Ger. W. I. De termijn van hoger beroep van één maand wordt berekend vanaf de dag na die van de betekening van het bestreden vonnis, van de zoveelste tot de dag vóór de zoveelste. In casu liep de termijn om hoger beroep in te stellen dan ook van 6 februari 2008 tot 5 maart 2008. 5 maart 2008 was een woensdag zodat de vervaldag van deze termijn niet tot een latere dag wordt verplaatst. Appellanten hebben op 6 maart 2008 hoger beroep ingesteld, anders gezegd buiten de termijn van artikel 1051 Ger. W. Het hoger beroep is niet toelaatbaar. II. De enige omstandigheid dat hun rechtsmiddel te laat werd ingesteld laat niet toe het tergende of roekeloze karakter ervan vast te stellen.</p>",
+          "<p class=\"case-section__paragraph\">Het bestreden vonnis werd op 5 februari 2008 aan beide appellanten betekend bij exploot van gerechtsdeurwaarder Phlypo te Roeselare. De termijn van hoger beroep van één maand wordt berekend vanaf de dag na die van de betekening, van de zoveelste tot de dag vóór de zoveelste. Deze termijn liep dan ook van 6 februari 2008 tot 5 maart 2008. 5 maart 2008 was een woensdag zodat de vervaldag van deze termijn niet tot een latere dag wordt verplaatst. Appellanten hebben op 6 maart 2008 hoger beroep ingesteld, anders gezegd buiten de termijn van artikel 1051 van het Gerechtelijk Wetboek. Het hoger beroep is niet toelaatbaar.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20101005.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Procedure. Gewone rechtsmiddelen. Hoger beroep. Termijn. Artikel 1051 Ger. W. I. De termijn van hoger beroep van één maand wordt berekend vanaf de dag na die van de betekening van het bestreden vonnis, van de zoveelste tot de dag vóór de zoveelste. In casu liep de termijn om hoger beroep in te stellen dan ook van 6 februari 2008 tot 5 maart 2008. 5 maart 2008 was een woensdag zodat de vervaldag van deze termijn niet tot een latere dag wordt verplaatst. Appellanten hebben op 6 maart 2008 hoger beroep ingesteld, anders gezegd buiten de termijn van artikel 1051 Ger. W. Het hoger beroep is niet toelaatbaar. II. De enige omstandigheid dat hun rechtsmiddel te laat werd ingesteld laat niet toe het tergende of roekeloze karakter ervan vast te stellen.</p>",
+          "<p class=\"case-section__paragraph\">De incidentele vordering is ongegrond. Het wordt immers niet aangetoond dat appellanten hoger beroep hebben ingesteld in zulke omstandigheden dat iedere rechtsonderhorige, in dezelfde concrete omstandigheden als appellanten geplaatst, zich zou onthouden hebben de zaak ter beoordeling van het hof van beroep voor te leggen of dat hij op foutieve wijze haar recht tot hoger beroep zou hebben uitgeoefend. De enige omstandigheid dat hun rechtsmiddel te laat werd ingesteld laat niet toe het tergende of roekeloze karakter ervan vast te stellen.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerTeaching": 2,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

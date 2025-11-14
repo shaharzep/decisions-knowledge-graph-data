@@ -1,0 +1,1155 @@
+{
+  "decision_id": "ECLI:BE:COPRIV:2018:ARR.20181017.11",
+  "language": "NL",
+  "metadata": {
+    "id": 36487,
+    "court_ecli_code": "COPRIV",
+    "court_name": "Commissie voor de bescherming van de persoonlijke levenssfeer",
+    "decision_date": "2018-10-17",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 37586,
+    "length_category": "very_long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Gegevensbeschermingsautoriteit, 17 oktober 2018, Advies nr. 106/2018, ECLI:BE:COPRIV:2018:ARR.20181017.11"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+        "name": "Gegevensbeschermingsautoriteit",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "name": "Commissie Binnenlandse Zaken van het Parlement",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+        "name": "Commissie voor de bescherming van de persoonlijke levenssfeer (CBPL)",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-004",
+        "name": "Rijksregister",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+        "name": "Minister van Binnenlandse Zaken",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-006",
+        "name": "Europese Commissie",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-007",
+        "name": "Europese Toezichthouder voor gegevensbescherming (EDPS)",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-008",
+        "name": "Frontex",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-009",
+        "name": "An Machtens",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-010",
+        "name": "Willem Debeuckelaere",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De Gegevensbeschermingsautoriteit (GBA) werd op 16 oktober 2018 door de Commissie Binnenlandse Zaken uitgenodigd voor een hoorzitting over het wetsontwerp houdende diverse bepalingen met betrekking tot het Rijksregister en de bevolkingsregisters (DOS 543256). De GBA verwijst naar haar eerder advies nr. 19/2018 van 28 februari 2018 en stelt uit eigen beweging dit advies op om na te gaan in hoeverre dat advies en dat van de CBPL werden gevolgd. Het wetsontwerp introduceert onder meer de mogelijkheid om nieuwe subregisters te creëren in het Rijksregister, een nieuw register van personen vermeld in akten van de burgerlijke stand, wijzigingen rond toegangsmachtigingen en controle, de openstelling van het Rijksregister voor private actoren, en artikel 27 dat voorziet in de registratie van vingerafdrukken op de chip van elektronische identiteitskaarten. De GBA formuleert gedetailleerde kritieken: gebrek aan voorzienbaarheid en kwaliteitsaanscherping van de wettelijke grondslag voor nieuwe subregisters; vaagheid over welke akten en categorieën personen worden opgenomen; strijd met grondwettelijke en EHRM-vereisten; concentratie van bevoegdheden bij de Minister van Binnenlandse Zaken; ontoereikende minimale veiligheidsvereisten voor gebruikers van het Rijksregister; praktische en AVG-conformiteitsproblemen bij openstelling naar de privésector (bewaring, vernietiging, openbaarmaking van lijsten); onduidelijkheden rond logging en interne registers; afbreuk aan automatische lezing van foto en persoonsgegevens zonder limitatieve wettelijke regeling; en aanzienlijke bezorgdheden over artikel 27 (vingerafdrukken), waaronder het ontbreken van een voorafgaande gegevensbeschermingseffectbeoordeling (DPIA), onvoldoende motivering en proportionaliteit, risico's bij opslag van biometrische data op de chip en in tijdelijke gecentraliseerde databank, delegatie van essentiële keuzes aan de Koning en de noodzaak kinderbescherming (onder 14 jaar). Op basis van deze punten brengt de GBA een ongunstig advies uit en beveelt zij aan de parlementariërs de intrekking van de maatregel inzake vingerafdrukken te vragen en vooraf een DPIA en gedegen statistische onderbouwing uit te voeren; voorts adviseert zij te wachten op het verdere Europese wetgevingsproces.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+          "requests": "De Autoriteit verzoekt de parlementariërs de intrekking te vragen van de in artikel 27 voorziene registratie van vingerafdrukken op de elektronische identiteitskaart en vooraf een gegevensbeschermingseffectbeoordeling (DPIA) en concrete statistische onderbouwing op te leggen."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+          "argument": "De Autoriteit betoogt dat het wetsontwerp op meerdere punten niet voldoet aan de vereisten van voorzienbaarheid, proportionaliteit en kwaliteit van wettelijke grondslagen zoals vereist door het EHRM en de Grondwet (o.m. art. 22). Nieuwe subregisters en de omschrijvingen van categorieën personen zijn vaag en niet limitatief, waardoor rechtszekerheid ontbreekt. De delegatie van essentiële beslissingen (toegangsbevoegdheden, lezers van biometrische gegevens) aan de Minister of de Koning is onaanvaardbaar zonder limitatieve wettelijke bepaling. De openstelling van het Rijksregister voor private actoren vereist minimumnormen voor informatiebeveiliging en proportionele bewaartermijnen (conform AVG). Voor artikel 27 pleit de Autoriteit dat het verzamelen en opslaan van vingerafdrukken op de chip van identiteitskaarten een voorafgaande DPIA vergt (AVG art. 35), dat opslag op de chip en in een gecentraliseerde tijdelijke databank ernstige risico's op identiteitsmisbruik en hacking inhouden, dat alternatieven of beperkende technische oplossingen (afgeleide kenmerken of niet-sporende biometrie) overwogen moeten worden en dat kinderen onder 14 jaar moeten worden uitgesloten; zonder deze waarborgen acht zij de maatregel disproportioneel en juridisch onvoldoende verantwoord.",
+          "treatment": "NIET_BEHANDELD"
+        }
+      ],
+      "courtOrder": "OM DIE REDENEN,\n\nNaast de voormelde opmerkingen brengt de Autoriteit een ongunstig advies uit over het wetsontwerp, voornamelijk om reden van zijn artikel 27 dat voorziet in de registratie van de vingerafdrukken op de elektronische chip van de identiteitskaarten.\n\nOm de redenen uiteengezet in onderhavig advies (punten 19 en v.), wordt aan de parlementariërs aanbevolen de intrekking te vragen van deze maatregel van het wetsontwerp ingevolge de noodzaak en de wettelijke verplichting, bepaald in artikel 35.3.b van de AVG, om voorafgaandelijk over te gaan tot de effectbeoordeling ervan op de gegevensbescherming en te beschikken over statistieken en concrete elementen die de ontoereikendheid van ons huidige model van identiteitskaart aantonen in de strijd tegen vervalsing van deze kaart aangezien zij reeds beschikt over een biometrisch element (gelaatsafbeelding) en voorzieningen tegen vervalsing (hologram,...).\n\nIn plaats van vooruit te lopen op het voorstel van EU Verordening van de Europese Commissie zou het wenselijker zijn te wachten tot dit voorstel het einde van het Europese wetgevende proces bereikt, te meer daar dit voorstel reeds een zeer kritisch advies kreeg vanwege de Europese Toezichthouder voor gegevensbescherming (advies 07/2018 van de EDPS van 10 augustus 2018).",
+      "outcome": "ANDERE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+        "provisionNumber": "artikel 23",
+        "provisionNumberKey": "23",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+        "provisionNumber": "artikel 26",
+        "provisionNumberKey": "26",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "provisionNumber": "artikel 2, § 2",
+        "provisionNumberKey": "2",
+        "parentActType": "ANDERE",
+        "parentActName": "wetsontwerp houdende diverse bepalingen met betrekking tot het Rijksregister en de bevolkingsregisters (DOS 543256)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit oordeelt dat artikel 2, §2 van het wetsontwerp de bevoegdheid tot het creëren van subregisters te vaag formuleert en niet voldoet aan de vereisten van voorzienbaarheid en kwaliteit van de wet; volgens de Autoriteit moet de bepaling expliciet en limitatief aangeven welke subregisters kunnen worden opgericht om controleerbaarheid en rechtsgrondslag te waarborgen.",
+        "relevantFactualContext": "Betoog over het toelaten van nieuwe subregisters (bv. Protocolregister en een nieuw register van in akten vermelde personen) zonder limitatieve opsomming of toelichting in de memorie van toelichting."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-004",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+        "provisionNumber": "artikel 6bis",
+        "provisionNumberKey": "6bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 19 juli 1991 betreffende de bevolkingsregisters (wet van 1991)",
+        "parentActDate": "1991-07-19",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "provisionNumber": "artikel 5",
+        "provisionNumberKey": "5",
+        "parentActType": "ANDERE",
+        "parentActName": "het wetsontwerp (DOS 543256)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het wetsontwerp-artikel 5 (invoeging van nieuw art. 2ter) wordt door de Autoriteit geïnterpreteerd als een maatregel die de minister bevoegdheid geeft voor toegangsmachtigingen en die de huidige waarborgen verzwakt; de verwijzing naar toekomstige modaliteiten moet worden gecorrigeerd en aangevuld zodat verificatie en gebruik van het rijksregisternummer conform de AVG verzekerd worden.",
+        "relevantFactualContext": "Wijziging van de WRR-structuur: overdragen van bevoegdheden na afschaffing van het sectoraal comité en introductie van nieuwe regels voor opname van personen vermeld in akten van de burgerlijke stand."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-006",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "provisionNumber": "artikel 2ter",
+        "provisionNumberKey": "2ter",
+        "parentActType": "WET",
+        "parentActName": "de WRR (voorgesteld door het wetsontwerp)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Ontwerpartikel 2ter wordt door de Autoriteit geïnterpreteerd als onvoldoende concreet: het bepaalt niet limitatief welke personen vermeld worden en bevat geen verantwoording van het doel, waardoor de legitimiteit en proportionaliteit van opname in het Rijksregister niet kunnen worden beoordeeld; de wetgever moet deze elementen expliciet vastleggen.",
+        "relevantFactualContext": "Betreft de opname van natuurlijke personen die in een akte van de burgerlijke stand vermeld worden, zonder helder afgebakende categorieën of toelichting in de memorie van toelichting."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-007",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "provisionNumber": "artikel 9",
+        "provisionNumberKey": "9",
+        "parentActType": "ANDERE",
+        "parentActName": "het wetsontwerp (bij wijziging WRR)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit interpreteert ontwerpartikel 9 als een bepaling die de bewaarredenen voor het nieuwe register beperkt tot archivering, wetenschappelijk/historisch onderzoek en statistiek, maar wijst erop dat deze beperkte doeleinden in tegenspraak lijken met de bredere doeleinden in artikel 2 van de WRR en dat die tegenstrijdigheid opgehelderd moet worden om rechtszekerheid en proportionaliteit te waarborgen.",
+        "relevantFactualContext": "Gaat over de bewaar- en gebruiksdoeleinden van het nieuwe 'Burgerlijke staat'-register dat gegevens uit akten van de burgerlijke stand centraliseert."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-008",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "provisionNumber": "artikel 3, 1ste lid, 1° en 3°",
+        "provisionNumberKey": "3",
+        "parentActType": "WET",
+        "parentActName": "de WRR (huidig artikel)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit stelt dat de verwijzing naar de gegevens bedoeld in artikel 3, eerste lid, 1° en 3° van de WRR bij opname in het nieuwe register onaanvaardbaar variabel is; persoonsgegevens die gecentraliseerd worden moeten limitatief door wet vastgelegd worden om te voldoen aan de voorzienbaarheids- en kwaliteitsvereisten van het EHRM en de Grondwet.",
+        "relevantFactualContext": "Discussie over welke persoonsgegevens uit akten van de burgerlijke stand in het Rijksregister worden opgenomen en de onduidelijkheid over variabele opname afhankelijk van de akte."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-009",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "provisionNumber": "artikel 10",
+        "provisionNumberKey": "10",
+        "parentActType": "ANDERE",
+        "parentActName": "het wetsontwerp (wijziging WRR)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Volgens de Autoriteit wijzigt ontwerpartikel 10 artikel 5 van de WRR zodat de minister bevoegd wordt voor toegangsmachtigingen en gebruik van het rijksregisternummer; dit creëert een voorrecht voor de minister als verwerkingsverantwoordelijke en vereist aanvullende waarborgen en expliciete verwijzing naar controlemechanismen conform de AVG.",
+        "relevantFactualContext": "Aanpassing van de bevoegdheidsverdeling na afschaffing van het sectoraal comité, met gevolgen voor machtigingen en toezicht op toegang tot het Rijksregister."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-010",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "provisionNumber": "ontwerpartikel 15",
+        "provisionNumberKey": "15",
+        "parentActType": "WET",
+        "parentActName": "de WRR (toekomstige WRR-bepaling)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit merkt op dat de modaliteiten en voorwaarden voor machtigingen in ontwerpartikel 15 verwijzen naar minder strikte criteria dan voorheen; zij adviseert dat artikel 15 expliciet moet omvatten dat verificatie van toegang en het gebruik van het rijksregisternummer in overeenstemming met de AVG dienen plaats te vinden en dat de voorwaarden worden aangescherpt.",
+        "relevantFactualContext": "Ontwerpartikel 15 regelt de voorwaarden en modaliteiten voor toegangsmachtigingen tot het Rijksregister die richtinggevend zijn voor diverse verwijzingen elders in het wetsontwerp."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-011",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-004",
+        "provisionNumber": "artikel 20",
+        "provisionNumberKey": "20",
+        "parentActType": "WET",
+        "parentActName": "wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens",
+        "parentActDate": "2018-07-30",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit benadrukt dat de vereiste van voorafgaande machtiging bij Koninklijk Besluit moet worden gecoördineerd met artikel 20 van de wet van 30 juli 2018: overdracht van persoonsgegevens door de federale overheid moet in principe gebeuren via een protocol tussen verantwoordelijken, zodat machtigingen en protocollen op elkaar zijn afgestemd en voldoen aan AVG-vereisten.",
+        "relevantFactualContext": "Verwijst naar de noodzaak tot afstemming tussen toekomstige bevoegdheden voor toegangsmachtigingen en de protocolverplichting bij doorgifte van persoonsgegevens tussen overheden en derden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-012",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "provisionNumber": "ontwerpartikel 5ter",
+        "provisionNumberKey": "5ter",
+        "parentActType": "ANDERE",
+        "parentActName": "ontwerpartikel 5ter van de WRR",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit interpreteert ontwerpartikel 5ter als een openstelling van het Rijksregister voor private instellingen met ontoereikende minimale veiligheidsvereisten; zij stelt dat het artikel onvoldoende waarborgen bevat (onvoldoende beveiligingscriteria, problematische verplichting tot onmiddellijke vernietiging, gebrek aan sancties) en dat de wetgever limitatieve beveiligingseisen en handhavingsmechanismen moet invoeren.",
+        "relevantFactualContext": "Biedt private instellingen toegang tot RR-data voor bijwerking van klantendatabanken tegen betaling; bevat verplichtingen voor DPO en een 'gegevensveiligheidsplan' maar zonder concrete minimale eisen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-013",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "provisionNumber": "artikel 12, § 2",
+        "provisionNumberKey": "12",
+        "parentActType": "WET",
+        "parentActName": "de WRR (huidig artikel)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit betreurt de schrapping van artikel 12, §2 en interpreteert de oude bepalingsverwijdering als een verzwakking van de verplichting voor machtigingshouders om een nominatieve lijst bij te houden; zij wijst erop dat het handhaven van die verplichting noodzakelijk is om toegang te beperken tot strikt noodzakelijke personeelsleden.",
+        "relevantFactualContext": "Het wetsontwerp verwijdert de bestaande wettelijke verplichting voor begunstigden van een machtiging om lijsten van bevoegden bij te houden en te actualiseren."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-014",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "provisionNumber": "ontwerpartikel 17, 5de lid",
+        "provisionNumberKey": "17",
+        "parentActType": "ANDERE",
+        "parentActName": "ontwerpartikel 17 van de WRR",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit erkent de invoering van bewaarplicht van loggings en een intern register door ontwerpartikel 17, §5 als een verbetering, maar benadrukt dat het concrete doel van dat interne register wettelijk moet worden omschreven; de verplichting tot loggen moet gekoppeld zijn aan duidelijke doeleinden en handhavingsmechanismen.",
+        "relevantFactualContext": "Ontwerpartikel 17, §5 verplicht de diensten van het Rijksregister tot bijhouden van een register met raadplegingen, inclusief identificatie van gebruiker, geraadpleegde gegevens en datum/uur."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-015",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+        "provisionNumber": "artikel 27",
+        "provisionNumberKey": "27",
+        "parentActType": "ANDERE",
+        "parentActName": "wetsontwerp tot wijziging van artikel 6 van de wet van 19 juli 1991 betreffende de bevolkingsregisters (wet van 1991)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit concludeert dat artikel 27, dat registratie van vingerafdrukken op de chip van de elektronische identiteitskaart voorziet, belangrijke privacy- en proportionaliteitsproblemen oproept: het vergt voorafgaande DPIA (art. 35 AVG), duidelijke wettelijke noodzaak en proportionaliteit, beperkingen op wie mag lezen, technische en organisatorische beschermingsmaatregelen, beperking voor kinderen en verduidelijking van de tijdelijke gecentraliseerde opslag; in huidige vorm zijn de waarborgen ontoereikend.",
+        "relevantFactualContext": "Voorstel tot massale opname van de vingerafdrukken van de volledige bevolking op de e-ID-chip en tijdelijke gecentraliseerde overname van die gegevens gedurende drie maanden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-016",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "WET",
+        "parentActName": "wet van 19 juli 1991 betreffende de bevolkingsregisters (wet van 1991)",
+        "parentActDate": "1991-07-19",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit licht artikel 6 in die zin toe dat het uitlezen en registratie van gegevens op de identiteitskaart enkel mogen gebeuren in overeenstemming met bepalingen ter bescherming van persoonsgegevens; foto en rijksregisternummer mogen slechts worden gebruikt mits wettelijke machtiging of ministerieel besluit, en het KB van 25/03/2003 geldt niet voor de privésector zodat private actoren hun voorafgaande toestemming zullen moeten vragen.",
+        "relevantFactualContext": "Behandeling van de vraag welke gegevens van de elektronische identiteitskaart geautomatiseerd mogen worden uitgelezen en welke machtigingen of toestemmingen daarvoor vereist zijn."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-017",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-006",
+        "provisionNumber": "artikel 1",
+        "provisionNumberKey": "1",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 25 maart 2003 (KB van 25/03/2003)",
+        "parentActDate": "2003-03-25",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit interpreteert artikel 1 van het KB van 25/03/2003 als genomen uitvoering van artikel 6 §7 van de wet van 1991 en derhalve gericht op overheden en openbare ambtenaren; het KB is volgens de Autoriteit niet van toepassing op de privésector, zodat private actoren niet op grond van dat KB kunnen volstaan zonder voorafgaande toestemming van de betrokkene.",
+        "relevantFactualContext": "Discussie over de toepassingssfeer van het KB en de gevolgen voor private actoren die de elektronische identiteitskaart willen uitlezen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-018",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+        "provisionNumber": "artikel 28",
+        "provisionNumberKey": "28",
+        "parentActType": "ANDERE",
+        "parentActName": "wetsontwerp tot wijziging van de wet van 19 juli 1991 betreffende de bevolkingsregisters (wet van 1991)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit beschouwt artikel 28, dat de minister bevoegdheid geeft toegang te verlenen tot het Register van identiteitskaarten, als een ongefundeerde verruiming van begunstigden; zij adviseert dat de toegang tot deze gevoelige registers beperkt moet blijven tot bevoegde autoriteiten (bv. opsporing, vervolging, tenuitvoerlegging) en niet ruimer mag worden opengesteld zonder wettelijke rechtvaardiging.",
+        "relevantFactualContext": "Het wetsontwerp breidt de potentiële begunstigden van het Register van identiteitskaarten uit buiten de huidige limiet tot overheden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-019",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+        "provisionNumber": "artikel 29",
+        "provisionNumberKey": "29",
+        "parentActType": "ANDERE",
+        "parentActName": "wetsontwerp tot wijziging van de wet van 19 juli 1991 betreffende de bevolkingsregisters (wet van 1991)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit bekritiseert dat artikel 29 de uitvoering van de schorsing van elektronische functies bij diefstal of verlies aan de Koning opdraagt; zij oordeelt dat het voorschrijven van onmiddellijke schorsing en nadere regels rechtstreeks in de wet behoort te gebeuren en niet door verregaande delegatie aan de Koning te worden geregeld.",
+        "relevantFactualContext": "Wijziging die bepaalt dat regels over schorsing van e-functies van gestolen of verloren identiteitskaarten voortaan bij Koninklijk besluit worden vastgesteld in plaats van rechtstreeks in de wet."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-020",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+        "provisionNumber": "artikel 6ter, 1ste lid",
+        "provisionNumberKey": "6ter",
+        "parentActType": "WET",
+        "parentActName": "wet van 19 juli 1991 betreffende de bevolkingsregisters (wet van 1991)",
+        "parentActDate": "1991-07-19",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit treedt op tegen de voorgestelde wijziging van artikel 6ter die de schorsing van elektronische functies regelt en merkt op dat de wet duidelijke en onmiddellijke schorsingsregels moet bevatten; delegatie van kernbepalingen inzake onmiddellijke beveiligingsmaatregelen is onwenselijk.",
+        "relevantFactualContext": "Bezorgdheid over de procedure en timing voor het buiten gebruik stellen van elektronische functies van identiteitskaarten bij diefstal of verlies."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-021",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+        "provisionNumber": "ontwerpartikel 6ter, 4de lid",
+        "provisionNumberKey": "6ter",
+        "parentActType": "ANDERE",
+        "parentActName": "ontwerpartikel 6ter van de wet van 1991 (zoals voorgesteld in het wetsontwerp)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit interpreteert het ontwerpartikel 6ter, §4 als een problematische delegatie van essentiële uitvoeringsregels aan de Koning; zij stelt dat bepalingen die de procedures en verantwoordelijken bepalen rond schorsing en aangifte concreet in de wet moeten staan en niet via uitvoeringsbesluiten mogen worden ingevuld.",
+        "relevantFactualContext": "Het wetsontwerp delegeert aan de Koning de vaststelling van nadere regels en de bevoegde autoriteiten voor aangifte bij diefstal/verlies van identiteitskaarten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-022",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+        "provisionNumber": "artikel 30",
+        "provisionNumberKey": "30",
+        "parentActType": "ANDERE",
+        "parentActName": "het wetsontwerp (Checkdoc-toepassing)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit oordeelt dat ontwerpartikel 30, betreffende de Checkdoc-toepassing, onvoldoende waarborgen bevat: het laat identificatie en authenticatie van gebruikers toe ontbreken, maakt transparantie over wie de gegevens raadpleegt onmogelijk en ontbreekt het aan duidelijke bewaartermijnen; zij adviseert voorafgaande risicobeoordeling en strengere authenticatie- en informatieverplichtingen.",
+        "relevantFactualContext": "Regelt toegang tot informatie over de geldigheid van identiteitsdocumenten via Checkdoc; memorie van toelichting schiet tekort inzake identificatie/authenticatie en bewaartermijnen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-023",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-007",
+        "provisionNumber": "artikel 35.2.b",
+        "provisionNumberKey": "35.2",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Algemene verordening gegevensbescherming (AVG, Verordening (EU) 2016/679)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit benadrukt dat artikel 35.2.b AVG vereist dat grootschalige verwerking van bijzondere categorieën gegevens, zoals massale registratie van biometrische gegevens, voorafgaand wordt onderworpen aan een DPIA; het wetsontwerp moet een dergelijke PIA volledig en vooraf aantonen vóór wettelijke inwerkingtreding van de maatregel.",
+        "relevantFactualContext": "Het ontbreken van een uitgevoerde DPIA voor de geplande opname van vingerafdrukken op elektronische identiteitskaarten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-024",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-007",
+        "provisionNumber": "artikel 35.3.b",
+        "provisionNumberKey": "35.3",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Algemene verordening gegevensbescherming (AVG, Verordening (EU) 2016/679)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "In de slotaanbeveling wijst de Autoriteit op artikel 35.3.b AVG als een wettelijke verplichting om vooraf een effectbeoordeling uit te voeren; zij meent dat het ontbreken van zo'n beoordeling een zelfstandige reden is om het wetsartikel over vingerafdrukken in te trekken of op zijn minst uit te stellen totdat een volledige DPIA en onderbouwing beschikbaar zijn.",
+        "relevantFactualContext": "Aanbeveling tot intrekking van artikel 27 op grond van de wettelijke DPIA-verplichting onder de AVG alvorens grootschalige biometrische verwerking te autoriseren."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-025",
+        "internalParentActId": "ACT-ECLI:BE:COPRIV:2018:ARR.20181017.11-007",
+        "provisionNumber": "artikel 9.2.g",
+        "provisionNumberKey": "9.2",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Algemene verordening gegevensbescherming (AVG, Verordening (EU) 2016/679)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Autoriteit benadrukt dat de uitzondering voor verwerking van bijzondere categorieën persoonsgegevens (art. 9.2.g AVG) slechts geldt indien verwerking noodzakelijk is uit zwaarwegend algemeen belang, evenredig is en voorzien is van passende en specifieke waarborgen; zij oordeelt dat de huidige voorstellen voor biometrische registratie die vereisten niet voldoende aantonen of waarborgen.",
+        "relevantFactualContext": "Beoordeling van de rechtvaardiging om biometrische gegevens (vingerafdrukken) te verwerken op grond van algemeen belang en proportionaliteit; bevinding dat huidige motivering en beschermingsmaatregelen ontoereikend zijn."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Gegevensbeschermingsautoriteit",
+        "date": "2018-02-28",
+        "caseNumber": "advies 19/2018",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "CBPL",
+        "date": null,
+        "caseNumber": "nr. 03/2011",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "EU",
+        "courtName": "EDPS",
+        "date": "2018-08-10",
+        "caseNumber": "Advies 07/2018",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Wetsontwerp Rijksregister",
+      "Register burgerlijke stand",
+      "Openstelling privésector",
+      "Toegangsmachtigingen minister",
+      "Registratie vingerafdrukken",
+      "DPIA ontbreekt",
+      "Noodzaak en proportionaliteit",
+      "Beveiligingsrisico chiphack",
+      "Bewaartermijn en vernietiging",
+      "Advies uit eigen beweging",
+      "EDPS kritiek"
+    ],
+    "metadata": {
+      "totalKeywords": 12,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 5,
+        "keyDispute": 4,
+        "distinctiveElement": 2
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+        "text": "Wanneer het Rijksregister bevoegdheid krijgt tot het oprichten van nieuwe subregisters moet de wet op een voorzienbare en kwalitatieve wijze limitatief of expliciet bepalen welke subregisters mogelijk zijn en welke persoonsgegevens zij bevatten; open normen die afhangen van uitvoeringsnormen voldoen niet aan de eisen van voorzienbaarheid en rechtskwaliteit.",
+        "courtVerbatim": "Uit artikel 2, § 2 van het wetsontwerp blijkt dat nieuwe subregisters kunnen worden gecreëerd door het Rijksregister (hierna \"RR\"). De formulering van deze bepaling voldoet niet aan de criteria inzake voorzienbaarheid en kwaliteit van wetten die elke verwerking van persoonsgegevens omkaderen en zoals vereist door het Europees Hof voor de Rechten van de Mens. Artikel 2,§ 2 moet expliciet bepalen welke deze subregisters zijn, andere dan deze die reeds vermeld zijn in artikel 2 § 1 van het ontwerp van WRR ... De persoonsgegevens die gecentraliseerd zullen worden in dit register moeten op limitatieve wijze door de wet worden bepaald.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een wetsbepaling aan het Rijksregister de bevoegdheid geeft om nieuwe subregisters of variabele opname van persoonsgegevens te creëren zonder limitatieve wettelijke omschrijving.",
+        "relevantFactualContext": "Het wetsontwerp (art. 2, §2 en verwante bepalingen) laat het Rijksregister toe subregisters zoals een 'protocolregister' en een register van in akten vermelde personen te creëren en bepaalt deels variabele opname van gegevens afhankelijk van de akte.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-008"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "text": "Voor grootschalige of bijzondere verwerkingen van biometrische gegevens geldt de procedurele verplichting tot een voorafgaande gegevensbeschermingseffectbeoordeling (DPIA); een wettelijk ingevoerde maatregel die een hoog risico inhoudt mag niet in werking treden zonder dat een volledige DPIA vooraf is uitgevoerd en de resultaten in de wetgevingsmotivering zijn weerspiegeld.",
+        "courtVerbatim": "Welnu, de geplande maatregel dient krachtens artikel 35.2.b van de AVG het onderwerp te vormen van een DPIA en dit voorafgaand aan zijn wettelijke omkadering aangezien het zeer waarschijnlijk is dat deze analyse aanleiding geeft tot andere maatregelen of - zoals het geval was met het voorstel van EU Verordening van de Europese Commissie - tot het beperken van het verplichte karakter van de registratie van biometrische gegevens op identiteitskaarten tot de gelaatsafbeelding van de houder en de verduidelijking van het facultatieve karakter van de registratie van de vingerafdrukken.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een wetsvoorstel voorziet in grootschalige verwerking van bijzondere categorieën of biometrische gegevens (bv. massale opname van vingerafdrukken).",
+        "relevantFactualContext": "Het wetsontwerp voorziet in artikel 27 de registratie van vingerafdrukken op de chip van elektronische identiteitskaarten zonder dat een voorafgaande DPIA of voldoende statistische onderbouwing is gevoegd.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-023",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-024"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-004",
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+        "text": "Een uitvoeringsbesluit of KB kan niet zonder meer de toepassingssfeer of de hoofdregels creëren voor verwerkingen van persoonsgegevens die wezenlijk de rechten van betrokkenen raken; essentiële begrenzingen van begunstigden, bevoegdheden of sancties moeten door de wetgever zelf worden vastgelegd en mogen niet op onevenredige wijze aan de Koning worden gedelegeerd.",
+        "courtVerbatim": "De vaststelling van deze nadere regels wordt voortaan verleend aan de Koning. Het nut om dit over te laten aan de Koning is niet duidelijk. Dit zou rechtstreeks in de wet moeten worden voorzien. Het is belangrijk dat deze functies meteen worden geschorst ingeval van diefstal of verlies. Bovendien omvat de delegatie aan de Koning in ontwerpartikel 6ter, §4 eveneens de vaststelling van de autoriteiten bij wie aangifte van de diefstal moet worden gedaan terwijl het 1ste lid van ontwerpartikel 6ter dit reeds bepaalt.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een wetsontwerp delegatie inhoudt aan de Koning (of uitvoeringsnorm) voor kernregels die de omvang van rechten, begunstigden of onmiddellijke beveiligingsmaatregelen bepalen.",
+        "relevantFactualContext": "Ontwerpartikel 6ter wijst aan de Koning de bevoegdheid toe om nadere regels te bepalen over de schorsing van elektronische functies van identiteitskaarten en over de bevoegde autoriteiten voor aangifte bij diefstal/verlies.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-020",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-021"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:ARR.20181017.11-004",
+        "text": "Een uitvoeringsbesluit (KB) dat genomen is ter uitvoering van een wet (bv. KB 25/03/2003) geldt primair voor overheden en ambtenaren; het kan niet zonder meer worden ingeroepen als grondslag voor private actoren om persoonsgegevens te lezen of te registreren: private actoren blijven in principe afhankelijk van voorafgaande toestemming of een specifieke wettelijke grondslag.",
+        "courtVerbatim": "Welnu, de Autoriteit herhaalt dat dit KB van 25 maart 2003 (en meer bepaald zijn artikel 1) werd genomen in uitvoering van artikel 6, § 7 van de Wet van 19 juli 1991 betreffende de bevolkingsregisters en de identiteitskaarten dat aan de Koning de bevoegdheid verleent om \"de overheden en openbare ambtenaren te bepalen op wiens vraag de identiteitskaart moet worden getoond\"; wat het standpunt van de CBPL versterkt bij haar opmerking in cons. 78 : in tegenstelling tot wat wordt gesteld in de Memorie van Toelichting is dit KB niet van toepassing op de privésector. Bijgevolg, volgens de opmaak van ontwerpartikel 6 § 4 van de wet van 1991 zullen alle actoren van de privésector de voorafgaande toestemming moeten vragen van de betrokkene om de identiteitskaart van een persoon te lezen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een uitvoeringsbesluit of ministerieel besluit wordt aangevoerd als rechtsgrondslag voor het uitlezen of registreren van identiteitskaartgegevens door private actoren.",
+        "relevantFactualContext": "De Memorie van Toelichting stelt dat het KB van 25/03/2003 ook voor de privésector geldt, maar de Autoriteit oordeelt dat het KB enkel uitvoering geeft aan wettelijke bevoegdheden en niet geldt als zelfstandige grondslag voor private actoren.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-017",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-016"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De Gegevensbeschermingsautoriteit adviseert over een wetsontwerp betreffende het Rijksregister en de bevolkingsregisters, met name de geplande registratie van vingerafdrukken op de chip van de elektronische identiteitskaart. De Autoriteit brengt een ongunstig advies uit en raadt het parlement aan artikel 27 in te trekken omdat het ontwerp geen voorafgaande gegevensbeschermingseffectbeoordeling (DPIA) bevat, doel en proportionaliteit onvoldoende onderbouwd zijn en essentiële wettelijke waarborgen en beveiligingsmaatregelen ontbreken. Kernpunt: verwerking van biometrische gegevens vereist op grond van de AVG (artikel 35 en artikel 9) strikte noodzaak, proportionaliteit en een limitatieve wettelijke grondslag; delegatie aan uitvoeringsbesluiten is onvoldoende."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, inzonderheid op artikel 23 en 26;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, inzonderheid op artikel 23 en 26;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. Uit artikel 2, § 2 van het wetsontwerp blijkt dat nieuwe subregisters kunnen worden gecreëerd door het Rijksregister (hierna \"RR\"). De formulering van deze bepaling voldoet niet aan de criteria inzake voorzienbaarheid en kwaliteit van wetten die elke verwerking van persoonsgegevens omkaderen en zoals vereist door het Europees Hof voor de Rechten van de Mens. Artikel 2,§ 2 moet expliciet bepalen welke deze subregisters zijn, andere dan deze die reeds vermeld. zijn in artikel 2 § 1 van het ontwerp van WRR (bevolkingsregisters, vreemdelingenregister, wachtregister en consulaire registers) en in artikel 6bis van de wet van 19 juli 1991 betreffende de bevolkingsregisters (Register van identiteitskaarten en vreemdelingenkaarten). Volgens de uitleg opgenomen in de Memorie van toelichting lijkt het te gaan om het Protocolregister en het nieuwe subregister, gecreëerd door onderhavig wetsontwerp, het register van de personen die vermeld worden in een akte van de burgerlijke stand.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. Uit artikel 2, § 2 van het wetsontwerp blijkt dat nieuwe subregisters kunnen worden gecreëerd door het Rijksregister (hierna \"RR\"). De formulering van deze bepaling voldoet niet aan de criteria inzake voorzienbaarheid en kwaliteit van wetten die elke verwerking van persoonsgegevens omkaderen en zoals vereist door het Europees Hof voor de Rechten van de Mens. Artikel 2,§ 2 moet expliciet bepalen welke deze subregisters zijn, andere dan deze die reeds vermeld. zijn in artikel 2 § 1 van het ontwerp van WRR (bevolkingsregisters, vreemdelingenregister, wachtregister en consulaire registers) en in artikel 6bis van de wet van 19 juli 1991 betreffende de bevolkingsregisters (Register van identiteitskaarten en vreemdelingenkaarten). Volgens de uitleg opgenomen in de Memorie van toelichting lijkt het te gaan om het Protocolregister en het nieuwe subregister, gecreëerd door onderhavig wetsontwerp, het register van de personen die vermeld worden in een akte van de burgerlijke stand.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-004",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+        "relatedFullTextCitations": [
+          "<li>Dezelfde opmerkingen kunnen eveneens gemaakt worden bij artikel 5 van het wetsontwerp dat een nieuw artikel 2ter invoegt in de WRR \"Worden vermeld in het Rijksregister, vanaf de door de minister bevoegd voor Binnenlandse Zaken vastgelegde datum, de natuurlijke personen die vermeld worden in een akte van de burgerlijke stand opgemaakt door een ambtenaar van de burgerlijke stand, maar die niet het voorwerp uitmaken van een inschrijving of een vermelding in het Rijksregister van de natuurlijke personen in een andere hoedanigheid.” Welke zijn de betrokken akten van de burgerlijke stand en met welke verantwoording?</li>",
+          "<li>Artikel 10 van het wetsontwerp wijzigt artikel 5 van de WRR om dit aan te passen ingevolge de opheffing van het Sectoraal comité in de schoot van de Commissie voor de bescherming van de persoonlijke levenssfeer. Voortaan zal de minister van Binnenlandse Zaken instaan voor de toegangsmachtigingen tot het Rijksregister en het gebruik van het Rijksregisternummer; wat overeenstemt met zijn rol van verwerkingsverantwoordelijke voor dit register.</li>",
+          "<p class=\"case-section__paragraph\">8. Ontwerpartikel 5, §2 van de WRR verleent aan de Minister de bevoegdheid om, via de diensten van het RR, de toegangen te machtigen tot de bevolkingsregisters. Er wordt verduidelijkt, zoals reeds momenteel het geval is in de WRR, dat deze gegevens niet worden bewaard in het Rijksregister. Deze fictie dient gecorrigeerd te worden aangezien het onmogelijk is om bij een gegevensstroom als tussenpersoon op te treden zonder de bedoelde gegevens gedurende een minimale tijdsspanne te bewaren. Volgens de memorie van Toelichting dient deze formulering zodanig begrepen te worden dat de via de diensten van het Rijksregister geraadpleegde gegevens van de bevolkingsregisters niet beschouwd mogen worden als “wettelijke” gegevens in de zin van de WRR. Wat betekent dit concreet en welke zijn de concrete consequenties inzake verwerking en toegankelijkheid van deze gegevens?</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-006",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-007",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-008",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-006",
+        "relatedFullTextCitations": [
+          "<li>Dezelfde opmerkingen kunnen eveneens gemaakt worden bij artikel 5 van het wetsontwerp dat een nieuw artikel 2ter invoegt in de WRR \"Worden vermeld in het Rijksregister, vanaf de door de minister bevoegd voor Binnenlandse Zaken vastgelegde datum, de natuurlijke personen die vermeld worden in een akte van de burgerlijke stand opgemaakt door een ambtenaar van de burgerlijke stand, maar die niet het voorwerp uitmaken van een inschrijving of een vermelding in het Rijksregister van de natuurlijke personen in een andere hoedanigheid.” Welke zijn de betrokken akten van de burgerlijke stand en met welke verantwoording?</li>",
+          "<p class=\"case-section__paragraph\">Betreffende de creatie van dit nieuwe register van de personen die vermeld worden in een akte van de burgerlijke stand, bestaat er enige vaagheid bij verschillende aspecten; wat moet worden verbeterd om te beantwoorden aan de gevraagde kwaliteitsvereiste:</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-006",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-007",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-007",
+        "relatedFullTextCitations": [
+          "<li>Volgens artikel 9 van het wetsontwerp zullen de gegevens van dit register (\"Burgerlijke staat\") enkel bewaard worden voor archivering in het algemeen belang, voor wetenschappelijk of historisch onderzoek of statistische doeleinden in het algemeen belang. Het betreft hier een contradictie met artikel 2 van de WRR dat andere doeleinden vermeldt waarvoor de gegevens van het RR mogen worden aangewend. Dit punt dient te worden opgehelderd (bovenop de voormelde noodzakelijke verantwoordingen).</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-007",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-006",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-008",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-008",
+        "relatedFullTextCitations": [
+          "<li>Hetzelfde artikel preciseert de gegevens van deze personen die zullen worden opgenomen in het Rijksregister, doch op deels variabele wijze, te weten de gegevens bedoeld in artikel 3, 1ste lid, 1° en 3° van de WRR en de andere gegevens bedoeld in artikel 3 van de WRR voor zover zij vermeld zijn in de desbetreffende akte van de burgerlijke stand. Dit is niet verenigbaar met de kwaliteits- en voorzienbaarheidsvereisten van het EHRM en zou strijdig kunnen bevonden worden met artikel 10 van de Grondwet. De persoonsgegevens die gecentraliseerd zullen worden in dit register moeten op limitatieve wijze door de wet worden bepaald.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-008",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-007",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-006",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-009",
+        "relatedFullTextCitations": [
+          "<li>a. Het wetsontwerp verwijst in meerdere artikelen (cf. onder meer art. 10 en 11), naar de voorwaarden en modaliteiten van de machtiging voor toegang tot het RR, « voorzien in § van ontwerpartikel 5 § 1 ». Welnu, deze voorwaarden staan in ontwerpartikel 15 van de WRR en zijn verminderd ten opzichte van de voorwaarden waarin momenteel wordt voorzien in de WRR in de alinea's 2 en 3 van artikel 5. Enerzijds dient deze verwijzing te worden verbeterd (door eveneens het toekomstige artikel 15 van de WRR te beogen) en anderzijds door de voorwaarden en modaliteiten van de machtiging bedoeld in ontwerpartikel 15 van de WRR aan te vullen met de woorden \"de verificatie of de toegang tot de gevraagde gegevens en het gevraagde gebruik van het Rijksregisternummer conform de AVG zijn\". Het gaat om een voorrecht van de Minister van Binnenlandse Zaken als verwerkingsverantwoordelijke van het Rijksregister.</li>",
+          "<p class=\"case-section__paragraph\">10. Teneinde een correct minimaal beveiligingsniveau door de gebruikers van het Rijksregister te verzekeren dient ontwerpartikel 10 van de WRR de minimaal vereiste veiligheidsmaatregelen te preciseren. Er wordt verwezen naar punt 7.b. van onderhavig advies.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-009",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-010",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-010",
+        "relatedFullTextCitations": [
+          "<li>a. Het wetsontwerp verwijst in meerdere artikelen (cf. onder meer art. 10 en 11), naar de voorwaarden en modaliteiten van de machtiging voor toegang tot het RR, « voorzien in § van ontwerpartikel 5 § 1 ». Welnu, deze voorwaarden staan in ontwerpartikel 15 van de WRR en zijn verminderd ten opzichte van de voorwaarden waarin momenteel wordt voorzien in de WRR in de alinea's 2 en 3 van artikel 5. Enerzijds dient deze verwijzing te worden verbeterd (door eveneens het toekomstige artikel 15 van de WRR te beogen) en anderzijds door de voorwaarden en modaliteiten van de machtiging bedoeld in ontwerpartikel 15 van de WRR aan te vullen met de woorden \"de verificatie of de toegang tot de gevraagde gegevens en het gevraagde gebruik van het Rijksregisternummer conform de AVG zijn\". Het gaat om een voorrecht van de Minister van Binnenlandse Zaken als verwerkingsverantwoordelijke van het Rijksregister.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-010",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-005",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-011",
+        "relatedFullTextCitations": [
+          "<li>c. Ten slotte dient de vereiste van voorafgaande machtiging bij Koninklijk besluit gecoördineerd te worden met artikel 20 van de wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens die bepaalt dat \"Tenzij anders bepaald in bijzondere wetten, in uitvoering van artikel 6.2 van de Verordening formaliseert de federale overheid, wanneer zij op basis van artikel 6.1.c) en e), van de Verordening persoonsgegevens doorgeeft aan enig andere overheid of privéorgaan, voor elke type van verwerking deze doorgifte aan de hand van een protocol dat tot stand komt tussen de initiële verwerkingsverantwoordelijke en de verwerkingsverantwoordelijke ontvanger van de gegevens\".</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-011",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-010",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">9. Ontwerpartikel 5ter van de WRR voorziet in de openstelling van het Rijksregister voor de privésector voor de bijwerking van hun bestanden of databanken van hun cliënteel mits betaling van de diensten van het Rijksregister.</p>",
+          "<li>a. De meerderheid van de opmerkingen die de CBPL dienaangaande maakte werden gevolgd met uitzondering van deze betreffende de noodzaak om het invoeren van minimale veiligheidsmaatregelen op te leggen aan de private en openbare instellingen die op deze basis de wijzigingen van het Rijksregister zullen ontvangen. Ontwerpartikel 5ter, §2, 6° voorziet enkel in de verplichting om een functionaris voor gegevensbescherming aan te wijzen alsook een \"gegevensveiligheidsplan\" permanent ter beschikking van de Gegevensbeschermingsautoriteit te houden zonder verdere precisering. Gelet op het totaal ontoereikende karakter van deze laatste maatregel dient de wetgever in de plaats de minimale veiligheidsmaatregelen te bepalen waaraan deze instellingen moeten voldoen om de gegevenswijzigingen te ontvangen. In dit verband wordt verwezen naar punt 7.b. hiervoor. Er zou door de wetgever kunnen worden voorzien in een verklaring op eer betreffende de invoering van deze maatregelen.</li>",
+          "<li>b. Ontwerpartikel 5ter, §2, 3° zou moeten gecorrigeerd worden aangezien de onmiddellijke vernietiging eisen van de basisidentificatiegegevens van de betrokkene bij de beëindiging van de overeenkomst potentieel strijdig is met de AVG. Bij wijze van voorbeeld, in geval van betwisting met betrekking tot deze overeenkomst kan een langere bewaring conform de AVG worden verantwoord. De woorden \"de gegevens moeten bij de beëindiging van de overeenkomst onmiddellijk vernietigd worden\" zouden moeten worden geschrapt.</li>",
+          "<li>c. Om het effectieve karakter te verzekeren van de verplichting voor de betrokken instellingen om de diensten van het RR in te lichten over de beëindiging van de contractuele overeenkomst waarvoor hen de wijzigingen van de RR-gegevens, voorzien in artikel 5ter, §3 worden meegedeeld, dient in een strafrechtelijke sanctie te worden voorzien ingeval van niet-naleving. Deze verplichting is belangrijk in het licht van het recht op bescherming van persoonsgegevens aangezien zij het legitieme karakter van de bedoelde gegevensstroom in de tijd verzekert. Zonder deze specifieke strafrechtelijke sanctie bestaat er een zeker risico dat deze verplichting dode letter blijft en dat de diensten van het Rijksregister zonder rechtmatige basis zullen doorgaan met het meedelen aan deze instellingen van niet-relevante gegevens.</li>",
+          "<li>d. Het ontwerpartikel 5ter § 4 van de WRR voorziet dat \"De lijst van alle instellingen die gemachtigd zijn door natuurlijke personen om mededeling te krijgen van de wijzigingen aangebracht aan de gegevens van het Rijksregister van de natuurlijke personen, alsook van de doeleinden waarvoor die wijzigingen meegedeeld worden, wordt opgemaakt, bijgewerkt en beschikbaar gesteld op de internetsite van het Rijksregister.\" Aangezien de vaststelling van deze instellingen en de voormelde doeleinden voor mededeling van de gegevens gekoppeld zijn aan de toestemming van iedere betrokkene, mag deze lijst enkel toegankelijk zijn voor iedere fysieke betrokkene en niet openbaar op het internet. Indien het de intentie van de wetgever is om de namen bekend te maken van de instellingen die potentieel van dit systeem gebruik wensen te maken, dient deze bepaling in die zin geherformuleerd te worden opdat zij de intentie van de wetgever correct zou weergeven. In de huidige formulering vormt de door ontwerpartikel 5ter § 4 van de WRR geplande publicatie een verwerking van persoonsgegevens die strijdig is met de AVG.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-012",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-013",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">11. Het wetsontwerp schrapt het huidige artikel 12, § 2, van de WRR dat aan iedere begunstigde van een machtiging voor toegang tot het RR oplegt een nominatieve lijst op te stellen en bij te werken van hun organen of aangestelden die, omwille van hun bevoegdheden, gemachtigd zijn om toegang te hebben tot het RR. De Memorie van Toelichting bevat geen enkele verantwoording voor deze schrapping hoewel deze verplichting de gebruikers van het Rijksregister verplicht om hun personeelsleden die gemachtigd worden om het Rijksregister te raadplegen tot het strikt noodzakelijke te beperken.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">12. De Autoriteit stelt tot haar genoegen de invoering vast van de wettelijke verplichting tot het correct bijhouden van de loggings van de toegangen door de gebruikers tot het Rijksregister alsook van de bestraffing van de niet-naleving van deze verplichting. Dit zal in belangrijke mate de situatie verbeteren waarmee de CBPL herhaaldelijk werd geconfronteerd tijdens controles ingevolge vermoedens van illegaal gebruik van gegevens van het Rijksregister; vaak stelden de verwerkingsverantwoordelijken dat zij bij gebrek aan loggings onmogelijk konden nagaan wie de gegevens had gebruikt.</p>",
+          "<p class=\"case-section__paragraph\">Bovenop het verplichten van deze loggings voorziet ontwerpartikel 17, 5ᵈᵉ lid van de WRR in het bijhouden door de diensten van het RR van een register met de raadplegingen door gebruikers en uitgevoerde mededelingen met opgave van de identificatie van de gebruiker die toegang had tot de gegevens, de geraadpleegde gegevens en datum en uur van de raadpleging. Zoals voor elke verwerking van persoonsgegevens die specifiek wordt omkaderd door de wet dient het concrete doeleinde te worden vermeld waarvoor dit interne register wordt gecreëerd.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">4. De aandacht van de parlementsleden wordt in het bijzonder gevestigd op artikel 27 van het wetsontwerp dat voorziet in de registratie van de vingerafdrukken op de chip van de elektronische identiteitskaarten. Gelet op de impact van deze maatregel op het grondrecht op de bescherming van persoonsgegevens, werd een specifiek hoofdstuk hieraan gewijd. Het volgt aan het einde van dit advies.</p>",
+          "<p class=\"case-section__paragraph\">13. Aangaande artikel 27 van het wetsontwerp tot wijziging van artikel 6 van de van 19 juli 1991 betreffende de bevolkingsregisters (wet van 1991) dat onder meer voorziet in de invoering van de vingerafdrukken, wordt verwezen naar het hoofdstuk van onderhavig advies dat specifiek aan dit onderwerp wordt gewijd (punten 19 en volgende).</p>",
+          "<h2 class=\"case-section__title\">1. Betreffende de registratie van de vingerafdrukken van de volledige bevolking op de chip van de elektronische identiteitskaart (artikel 27 van het wetsontwerp)</h2>",
+          "<p class=\"case-section__paragraph\">2. Het wetsontwerp heeft de kritiek die dienaangaande door de gegevensbeschermingsautoriteit in haar advies 19/2018 van 28 februari 2018 werd geformuleerd (punten 62 tot 71) niet verholpen.</p>",
+          "<p class=\"case-section__paragraph\">3. Zelfs indien is voorzien dat de vingerafdrukken enkel zullen bewaard worden op de chip van de elektronische identiteitskaart, wordt de aandacht van de parlementariërs gevestigd op de volgende punten.</p>",
+          "<p class=\"case-section__paragraph\">4. In tegenstelling tot wat is vermeld in de Memorie van Toelichting, heeft de Europese Commissie geen aanbeveling geformuleerd over de registratie van de vingerafdrukken op de identiteitskaarten doch enkel een voorstel van EU Verordening van de Europese Commissie. neergelegd op 17 april 2018 over de registratie van biometrische gegevens op de Europese identiteitskaarten. Dit voorstel van EU Verordening dat - in tegenstelling tot het thans besproken Belgische wetsontwerp evenwel expliciet op limitatieve wijze de doeleinden verduidelijkt waarvoor biometrische gegevens (gelaatsafbeelding en vingerafdruk) zullen kunnen worden gebruikt - heeft op zijn beurt een zeer kritisch advies gekregen van de Europese Toezichthouder voor gegevensbescherming1 en dient nog verder het Europese wetgevende proces te doorlopen.</p>",
+          "<p class=\"case-section__paragraph\">23. Er staat in de Memorie van toelichting nog steeds geen reële verantwoording voor de geplande maatregel hoewel dit door de Gegevensbeschermingsautoriteit werd gevraagd. Onze identiteitskaart is reeds uitgerust met voorzieningen tegen vervalsing (hologram, …) alsook met een biometrisch element (gelaatsafbeelding). Hoezo is dit concreet ontoereikend? Over welke statistieken beschikt de regering die de geplande maatregel staven?</p>",
+          "<p class=\"case-section__paragraph\">24. In zijn voormeld advies merkte de Europese Toezichthouder voor gegevensbescherming (EDPS) op dat de statistieken niet pleiten in het voordeel van het voorstel van de Europese Commissie dat in dezelfde lijn ligt als dat van de regering. Statistieken van het Europese Grens- en kustwachtagentschap (Frontex) tonen slechts 38.870 gevallen van frauduleus gebruik van nationale identiteitskaarten over de periode 2013-2017. Bovendien stelt men een daling vast van minstens 11% sinds 2015 van het frauduleus gebruik van verblijfsdocumenten door personen uit derde landen.</p>",
+          "<p class=\"case-section__paragraph\">25. De door de regering vooropgestelde gelijkstelling van de identiteitskaarten met de paspoorten om deze maatregel te verantwoorden is onaanvaardbaar: zelfs indien de identiteitskaarten ook als reisdocument kunnen gebruikt worden binnen de Europese Unie, worden zij momenteel niet systematisch gecontroleerd gelet op het recht op vrij verkeer binnen de Europese Unie. Bovendien, en in tegenstelling tot de paspoorten, bieden de identiteitskaarten tal van andere gebruiksmogelijkheden (toepassingen van de privésector,...). Dit punt werd eveneens opgemerkt door de EDPS in zijn advies. Gelet op de verschillen tussen de identiteitskaarten en de paspoorten kan de invoering van veiligheidselementen, die in het raam van paspoorten als passend kunnen worden beschouwd, niet automatisch gebeuren voor de identiteitskaarten maar vereist dit een grondige analyse en overweging die niet lijken te hebben plaatsgevonden.</p>",
+          "<p class=\"case-section__paragraph\">1 Advies 07/2018 van 10 augustus 2018 van de EDPS inzake het voorstel voor een verordening betreffende de versterking van de beveiliging van identiteitskaarten van burgers van de Unie en andere documenten</p>",
+          "<p class=\"case-section__paragraph\">26. Blijkbaar werd geen enkele gegevensbeschermingseffectbeoordeling (DPIA) uitgevoerd over het ontwerp om de vingerafdrukken van de burgers te registreren de chip van de elektronische identiteitskaart. De Memorie van Toelichting vermeldt enkel dat \"een “PIA” zullen worden uitgevoerd.</p>",
+          "<p class=\"case-section__paragraph\">Welnu, de geplande maatregel dient krachtens artikel 35.2.b van de AVG het onderwerp te vormen van een DPIA en dit voorafgaand aan zijn wettelijke omkadering aangezien het zeer waarschijnlijk is dat deze analyse aanleiding geeft tot andere maatregelen of - zoals het geval was met het voorstel van EU Verordening van de Europese Commissie - tot het beperken van het verplichte karakter van de registratie van biometrische gegevens op identiteitskaarten tot de gelaatsafbeelding van de houder en de verduidelijking van het facultatieve karakter van de registratie van de vingerafdrukken².</p>",
+          "<p class=\"case-section__paragraph\">27. Het verbod op de verwerking van biometrische gegevens kan slechts worden opgeheven op basis van artikel 9.2.g van de AVG die niet alleen vereist dat de verwerking noodzakelijk is om redenen van zwaarwegend algemeen belang, maar eveneens dat de evenredigheid met het nagestreefde doel wordt gewaarborgd, en passende en specifieke maatregelen worden getroffen ter bescherming van de grondrechten en de fundamentele belangen van de betrokkenen. Deze zijn momenteel ontoereikend:</p>",
+          "<ul>\n      <li>- a. De keuze van de regering om het digitale beeld van de vingerafdrukken in te zamelen en op te slaan op de chip van de kaart vormt volgens de EDPS niet de meest opportune keuze gelet op het risico van onrechtmatig gebruik van de identiteit in geval van hacking van de gegevens die voorkomen op de elektronische chip van de kaart³. Deze keuze dient dus te worden herzien en de in de chip van de identiteitskaarten opgeslagen dactyloscopische gegevens beperkt te worden tot een onderverzameling van kenmerken afgeleid uit de vingerafdruk of nog tot biometrische technieken die geen sporen nalaten (handomtrek, bloedvatenstelsel van een vinger...).</li>\n    </ul>",
+          "<p class=\"case-section__paragraph\">2 Punt 31 van het advies 07/2018 van de Europese Toezichthouder over dit voorstel van Verordening (vrije vertaling) \"Na vergelijking van de strategische opties geeft een effectbeoordeling aan dat de optie ID 1) de meest gepaste is om de doelstellingen van verhoging van de veiligheid aan de grenzen en in de schoot van de lidstaten te bevorderen alsook het vrije verkeer. Er dient te worden opgemerkt dat de optie ID 1) die de voorkeur krijgt in het verslag over de effectbeoordeling \"een verplichte RFID chip zou integreren met biometrische gegevens (verplichte gelaatsafbeelding, facultatieve vingerafdrukken)\". Met andere woorden, de strategische keuze die ondersteund wordt door de effectbeoordeling bij het voorstel zou optioneel voorzien in de opname van de vingerafdrukken en dus niet als verplichte voorwaarde\". Zelfs indien de Europese Commissie hiermee duidelijk geen rekening heeft gehouden in haar ultiem voorstel; wat wordt bekritiseerd in het advies van de EDPS (cf. infra).</p>",
+          "<p class=\"case-section__paragraph\">3 Zoals aangestipt door de EDPS in zijn advies, \"in geval van een fout in de beveiliging zou het beeld van de vingerafdrukken dat opgeslagen is op een verloren of gestolen identiteitsdocument kunnen worden gerecupereerd en op criminele wijze gebruikt om een valse set vingerafdrukken te creëren die zou toelaten misbruik te maken van de identiteit van de houder van de kaart\".</p>",
+          "<ol>\n      <li>b. In plaats van de taak aan de Koning te delegeren om de autoriteiten te bepalen die gemachtigd zullen zijn om de vingerafdrukken te lezen, behoort dit toe aan de wetgever in de formele zin van het woord.</li>\n      <li>c. Er dient eveneens in de wet te worden bepaald dat het lezen van deze gegevens slechts toegelaten is om de authenticiteit van de identiteitskaart te verifiëren. Er dienen in de wet eveneens reeds maatregelen te worden opgenomen om het aantal leestoestellen die toelaten de vingerafdrukken te lezen te beperken.</li>\n      <li>d. Welke zijn de specifieke beschermingsmaatregelen die werden genomen om de risico's op hacking van het certificaat van de identiteitskaart dat het beeld van de vingerafdrukken zal bevatten te voorkomen, zowel inzake beveiliging van de chip waarop de gegevens worden opgeslagen als de beveiliging van de toestellen om deze gegevens te lezen?</li>\n      <li>e. Welke zijn de beschermingsmaatregelen voor de tijdelijke databank die de vingerafdrukken op gecentraliseerde wijze zal overnemen gedurende 3 maanden en wie zal de verwerkingsverantwoordelijke zijn?</li>\n      <li>f. Tot slot, en zoals aangestipt door de EDPS, zouden kinderen jonger dan 14 jaar niet aan deze maatregel mogen worden onderworpen.</li>\n    </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-015",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-023",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-024",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-025"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">14. Ontwerpartikel 6 §4 van de wet van 1991 regelt het lezen en de registratie van de gegevens van de identiteitskaart door te stellen dat alle hierop voorkomende gegevens met uitzondering van de foto, het Rijksregisternummer en van de vingerafdrukken - kunnen gelezen en/of opgenomen worden, in overeenstemming met de bepalingen inzake de bescherming van de persoonlijke levenssfeer en de persoonsgegevens. Er wordt verduidelijkt dat de foto en het Rijksregisternummer slechts mogen worden gebruikt mits wettelijke machtiging of bij ministerieel besluit.</p>",
+          "<h2 class=\"case-section__title\">15. Ontwerpartikel 6 §4 2de lid in fine van de wet van 1991</h2>",
+          "<p class=\"case-section__paragraph\">conditioneert het uitlezen en het gebruik van de elektronische identiteitskaart aan de noodzaak om vooraf een specifieke en geïnformeerde toestemming te verkrijgen van de titularis en het 4ᵈᵉ lid van diezelfde bepaling stelt dat \"zonder afbreuk te doen aan artikel 1 van het KB van 25/03/2003, de houder van de elektronische identiteitskaart kan weigeren dat zijn gegevens gelezen en/of opgenomen zouden worden, behalve in de door de Koning bij een in Ministerraad overlegd besluit bepaalde gevallen\".</p>",
+          "<p class=\"case-section__paragraph\">Considerans 78 van het advies van de CBPL werd niet gevolgd. De regering leest het KB van 25 maart 2003 op een totaal andere wijze dan de CBPL door te stellen dat dit KB eveneens van toepassing is voor het lezen van de afbeelding van de vingerafdrukken- en rechtvaardigt dit standpunt op basis van het feit dat de foto op de identiteitskaart met het blote oog zichtbaar is.</p>",
+          "<p class=\"case-section__paragraph\">Welnu, de Autoriteit herhaalt dat dit KB van 25 maart 2003 (en meer bepaald zijn artikel 1) werd genomen in uitvoering van artikel 6, § 7 van de Wet van 19 juli 1991 betreffende de bevolkingsregisters en de identiteitskaarten dat aan de Koning de bevoegdheid verleent om \"de overheden en openbare ambtenaren te bepalen op wiens vraag de identiteitskaart moet worden getoond\"; wat het standpunt van de CBPL versterkt bij haar opmerking in cons.78 : in tegenstelling tot wat wordt gesteld in de Memorie van Toelichting is dit KB niet van toepassing op de privésector.</p>",
+          "<p class=\"case-section__paragraph\">Bijgevolg, volgens de opmaak van ontwerpartikel 6 § 4 van de wet van 1991 zullen alle actoren van de privésector de voorafgaande toestemming moeten vragen van de betrokkene om de identiteitskaart van een persoon te lezen. Dit dreigt de werking van de actoren van de privésector die gehouden zijn door een wettelijke bepaling (voorafgaand aan het huidig wetsontwerp) om de identiteit in te zamelen van personen aan de hand van hun identiteitskaart, sterk te bemoeilijken. Teneinde dit te vermijden, dient op het einde van het 2ᵈᵉ lid van het toekomstige art. 6. §4 te worden toegevoegd \"Behoudens strijdige wettelijke bepaling\".</p>",
+          "<p class=\"case-section__paragraph\">Bovendien, naast de wettelijke bepalingen die voorzien in het lezen van de identiteitskaart, kunnen bepaalde soorten contracten (in het algemeen synallagmatische contracten met, voor zover nodig, opeenvolgende prestaties) vereisen dat men zich vergewist van de correcte identiteit van een betrokkene bij de afsluiting ervan en een legitieme basis vormen om te vragen dat de identiteitskaart wordt getoond. Welnu, door de optie van de toestemming hiertoe te beperken, dreigt dit eveneens sommige actoren van de privésector in de onmogelijkheid te plaatsen om de identiteit van hun contractant via deze weg te controleren. In dit verband wordt verwezen naar de Aanbeveling uit eigen beweging van de CBPL nr. 03/2011 over het nemen van een kopie van de identiteitskaart en over het gebruik en de elektronische lezing ervan.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-016",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-017"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-017",
+        "relatedFullTextCitations": [
+          "<h2 class=\"case-section__title\">15. Ontwerpartikel 6 §4 2de lid in fine van de wet van 1991</h2>",
+          "<p class=\"case-section__paragraph\">conditioneert het uitlezen en het gebruik van de elektronische identiteitskaart aan de noodzaak om vooraf een specifieke en geïnformeerde toestemming te verkrijgen van de titularis en het 4ᵈᵉ lid van diezelfde bepaling stelt dat \"zonder afbreuk te doen aan artikel 1 van het KB van 25/03/2003, de houder van de elektronische identiteitskaart kan weigeren dat zijn gegevens gelezen en/of opgenomen zouden worden, behalve in de door de Koning bij een in Ministerraad overlegd besluit bepaalde gevallen\".</p>",
+          "<p class=\"case-section__paragraph\">Welnu, de Autoriteit herhaalt dat dit KB van 25 maart 2003 (en meer bepaald zijn artikel 1) werd genomen in uitvoering van artikel 6, § 7 van de Wet van 19 juli 1991 betreffende de bevolkingsregisters en de identiteitskaarten dat aan de Koning de bevoegdheid verleent om \"de overheden en openbare ambtenaren te bepalen op wiens vraag de identiteitskaart moet worden getoond\"; wat het standpunt van de CBPL versterkt bij haar opmerking in cons.78 : in tegenstelling tot wat wordt gesteld in de Memorie van Toelichting is dit KB niet van toepassing op de privésector.</p>",
+          "<p class=\"case-section__paragraph\">Bijgevolg, volgens de opmaak van ontwerpartikel 6 § 4 van de wet van 1991 zullen alle actoren van de privésector de voorafgaande toestemming moeten vragen van de betrokkene om de identiteitskaart van een persoon te lezen. Dit dreigt de werking van de actoren van de privésector die gehouden zijn door een wettelijke bepaling (voorafgaand aan het huidig wetsontwerp) om de identiteit in te zamelen van personen aan de hand van hun identiteitskaart, sterk te bemoeilijken. Teneinde dit te vermijden, dient op het einde van het 2ᵈᵉ lid van het toekomstige art. 6. §4 te worden toegevoegd \"Behoudens strijdige wettelijke bepaling\".</p>",
+          "<p class=\"case-section__paragraph\">Bovendien, naast de wettelijke bepalingen die voorzien in het lezen van de identiteitskaart, kunnen bepaalde soorten contracten (in het algemeen synallagmatische contracten met, voor zover nodig, opeenvolgende prestaties) vereisen dat men zich vergewist van de correcte identiteit van een betrokkene bij de afsluiting ervan en een legitieme basis vormen om te vragen dat de identiteitskaart wordt getoond. Welnu, door de optie van de toestemming hiertoe te beperken, dreigt dit eveneens sommige actoren van de privésector in de onmogelijkheid te plaatsen om de identiteit van hun contractant via deze weg te controleren. In dit verband wordt verwezen naar de Aanbeveling uit eigen beweging van de CBPL nr. 03/2011 over het nemen van een kopie van de identiteitskaart en over het gebruik en de elektronische lezing ervan.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-017",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-016"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">16. Artikel 28 van het wetsontwerp verleent aan de Minister van Binnenlandse Zaken de bevoegdheid om toegang te verlenen tot het Register van de identiteitskaarten doch zodoende breidt hij eveneens het aantal potentiële begunstigden -die momenteel zijn beperkt tot de openbare overheden - uit en dit zonder enige verantwoording.</p>",
+          "<p class=\"case-section__paragraph\">In de mate dat deze Registers van de identiteitskaarten gevoeliger zijn ten opzichte van het Rijksregister, ingevolge de gegevens die zij bevatten en gelet op het risico op fraude en identiteitsdiefstal dat kan voortvloeien uit een onterecht gebruik van de identiteitsfoto van de kaart, dienen deze registers een beperkte toegang te kennen ten opzichte van het Rijksregister. Een logische optie zou erin bestaan hun toegankelijkheid te beperken tot de bevoegde autoriteiten met het oog op de opsporing van strafbare feiten, onderzoek en vervolging of de tenuitvoerlegging van strafrechtelijke sancties.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-018"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-019",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">17. Artikel 29 van het wetsontwerp wijzigt artikel 6ter van de wet van 1991 in die zin dat het voortaan niet meer in de wet is voorzien dat de elektronische functies van gestolen of verloren identiteitskaarten rechtstreeks door de gemeente worden geschorst of buiten dienst gesteld. De vaststelling van deze nadere regels wordt voortaan verleend aan de Koning. Het nut om dit over te laten aan de Koning is niet duidelijk. Dit zou rechtstreeks in de wet moeten worden voorzien. Het is belangrijk dat deze functies meteen worden geschorst ingeval van diefstal of verlies. Bovendien omvat de delegatie aan de Koning in ontwerpartikel 6ter, 4ᵈᵉ lid eveneens de vaststelling van de autoriteiten bij wie aangifte van de diefstal moet worden gedaan terwijl het 1ˢᵗᵉ lid van ontwerpartikel 6ter dit reeds bepaalt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-019",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-021",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-020"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">17. Artikel 29 van het wetsontwerp wijzigt artikel 6ter van de wet van 1991 in die zin dat het voortaan niet meer in de wet is voorzien dat de elektronische functies van gestolen of verloren identiteitskaarten rechtstreeks door de gemeente worden geschorst of buiten dienst gesteld. De vaststelling van deze nadere regels wordt voortaan verleend aan de Koning. Het nut om dit over te laten aan de Koning is niet duidelijk. Dit zou rechtstreeks in de wet moeten worden voorzien. Het is belangrijk dat deze functies meteen worden geschorst ingeval van diefstal of verlies. Bovendien omvat de delegatie aan de Koning in ontwerpartikel 6ter, 4ᵈᵉ lid eveneens de vaststelling van de autoriteiten bij wie aangifte van de diefstal moet worden gedaan terwijl het 1ˢᵗᵉ lid van ontwerpartikel 6ter dit reeds bepaalt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-020",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-021",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-019"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-021",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">17. Artikel 29 van het wetsontwerp wijzigt artikel 6ter van de wet van 1991 in die zin dat het voortaan niet meer in de wet is voorzien dat de elektronische functies van gestolen of verloren identiteitskaarten rechtstreeks door de gemeente worden geschorst of buiten dienst gesteld. De vaststelling van deze nadere regels wordt voortaan verleend aan de Koning. Het nut om dit over te laten aan de Koning is niet duidelijk. Dit zou rechtstreeks in de wet moeten worden voorzien. Het is belangrijk dat deze functies meteen worden geschorst ingeval van diefstal of verlies. Bovendien omvat de delegatie aan de Koning in ontwerpartikel 6ter, 4ᵈᵉ lid eveneens de vaststelling van de autoriteiten bij wie aangifte van de diefstal moet worden gedaan terwijl het 1ˢᵗᵉ lid van ontwerpartikel 6ter dit reeds bepaalt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-021",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-020",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-019"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-022",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">18. Wat artikel 30 van het wetsontwerp betreft over de toepassing van Checkdoc, werd het advies van de Commissie - die aanbeval te eisen dat de gebruikers van deze toepassing die toegang zouden hebben tot de persoonsgegevens van de burgers (informatie of hun identiteitskaart nog al dan niet geldig is) vooraf zouden worden geïdentificeerd en geauthenticeerd - niet gevolgd.</p>",
+          "<p class=\"case-section__paragraph\">De Memorie van Toelichting vermeldt de onmogelijkheid om te identificeren en te authenticeren gezien de noodzaak van een zo ruim mogelijke toegang tot de dienst. Bijgevolg kunnen de burgers onmogelijk de bestemmelingen kennen van hun persoonsgegevens (informatie of hun identiteitskaart of paspoort nog al dan niet geldig is - werd verloren of gestolen of is vervallen) die deze checkdoc dienst gebruiken, indien zij een vraag om toegang indienen; wat onaanvaardbaar is.</p>",
+          "<p class=\"case-section__paragraph\">Bovendien voorzag de versie van het voorontwerp van wet van dit artikel dat de diensten van het Rijksregister gedurende 10 jaar de gegevens zouden bewaren vanaf de datum van verificatie van documenten waarvan de geldigheid werd nagegaan alsook de gebruikers van de checkdoc informaticatoepassing. Het is belangrijk dat het wetsontwerp eveneens deze precisering herneemt ten behoeve van de voorzienbaarheid ten opzichte van de gebruikers van checkdoc.</p>",
+          "<p class=\"case-section__paragraph\">Indien deze opmerkingen niet worden gevolgd is het op z'n minst belangrijk dat vooraf een risicobeoordeling wordt uitgevoerd van een dergelijke openstelling van de checkdoc toepassing (risico op identiteitsdiefstal, vervalsing van identiteitsdocumenten...) en dat de gekozen optie wordt verantwoord op basis van de conclusies van deze risicoanalyse.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-022"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-023",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Welnu, de geplande maatregel dient krachtens artikel 35.2.b van de AVG het onderwerp te vormen van een DPIA en dit voorafgaand aan zijn wettelijke omkadering aangezien het zeer waarschijnlijk is dat deze analyse aanleiding geeft tot andere maatregelen of - zoals het geval was met het voorstel van EU Verordening van de Europese Commissie - tot het beperken van het verplichte karakter van de registratie van biometrische gegevens op identiteitskaarten tot de gelaatsafbeelding van de houder en de verduidelijking van het facultatieve karakter van de registratie van de vingerafdrukken².</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-023",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-015",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-024"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-024",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Om de redenen uiteengezet in onderhavig advies (punten 19 en v.), wordt aan de parlementariërs aanbevolen de intrekking te vragen van deze maatregel van het wetsontwerp ingevolge de noodzaak en de wettelijke verplichting, bepaald in artikel 35.3.b van de AVG, om voorafgaandelijk over te gaan tot de effectbeoordeling ervan op de gegevensbescherming en te beschikken over statistieken en concrete elementen die de ontoereikendheid van ons huidige model van identiteitskaart aantonen in de strijd tegen vervalsing van deze kaart aangezien zij reeds beschikt over een biometrisch element (gelaatsafbeelding) en voorzieningen tegen vervalsing (hologram,...).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-024",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-015",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-023"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-025",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">27. Het verbod op de verwerking van biometrische gegevens kan slechts worden opgeheven op basis van artikel 9.2.g van de AVG die niet alleen vereist dat de verwerking noodzakelijk is om redenen van zwaarwegend algemeen belang, maar eveneens dat de evenredigheid met het nagestreefde doel wordt gewaarborgd, en passende en specifieke maatregelen worden getroffen ter bescherming van de grondrechten en de fundamentele belangen van de betrokkenen. Deze zijn momenteel ontoereikend:</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-025",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-015",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-023",
+          "ART-ECLI:BE:COPRIV:2018:ARR.20181017.11-024"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+          "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-001"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 25,
+      "citationStatistics": {
+        "totalCitations": 67,
+        "avgCitationsPerProvision": 2.68,
+        "provisionsWithMinimalCitations": 19,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.76,
+        "avgDecisionsPerProvision": 0.4,
+        "provisionsWithNoRelationships": 4
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:ARR.20181017.11-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5. Uit artikel 2, § 2 van het wetsontwerp blijkt dat nieuwe subregisters kunnen worden gecreëerd door het Rijksregister (hierna \"RR\"). De formulering van deze bepaling voldoet niet aan de criteria inzake voorzienbaarheid en kwaliteit van wetten die elke verwerking van persoonsgegevens omkaderen en zoals vereist door het Europees Hof voor de Rechten van de Mens. Artikel 2,§ 2 moet expliciet bepalen welke deze subregisters zijn, andere dan deze die reeds vermeld. zijn in artikel 2 § 1 van het ontwerp van WRR (bevolkingsregisters, vreemdelingenregister, wachtregister en consulaire registers) en in artikel 6bis van de wet van 19 juli 1991 betreffende de bevolkingsregisters (Register van identiteitskaarten en vreemdelingenkaarten). Volgens de uitleg opgenomen in de Memorie van toelichting lijkt het te gaan om het Protocolregister en het nieuwe subregister, gecreëerd door onderhavig wetsontwerp, het register van de personen die vermeld worden in een akte van de burgerlijke stand.</p>",
+          "<li>Hetzelfde artikel preciseert de gegevens van deze personen die zullen worden opgenomen in het Rijksregister, doch op deels variabele wijze, te weten de gegevens bedoeld in artikel 3, 1ste lid, 1° en 3° van de WRR en de andere gegevens bedoeld in artikel 3 van de WRR voor zover zij vermeld zijn in de desbetreffende akte van de burgerlijke stand. Dit is niet verenigbaar met de kwaliteits- en voorzienbaarheidsvereisten van het EHRM en zou strijdig kunnen bevonden worden met artikel 10 van de Grondwet. De persoonsgegevens die gecentraliseerd zullen worden in dit register moeten op limitatieve wijze door de wet worden bepaald.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-001"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:ARR.20181017.11-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">24. In zijn voormeld advies merkte de Europese Toezichthouder voor gegevensbescherming (EDPS) op dat de statistieken niet pleiten in het voordeel van het voorstel van de Europese Commissie dat in dezelfde lijn ligt als dat van de regering. Statistieken van het Europese Grens- en kustwachtagentschap (Frontex) tonen slechts 38.870 gevallen van frauduleus gebruik van nationale identiteitskaarten over de periode 2013-2017. Bovendien stelt men een daling vast van minstens 11% sinds 2015 van het frauduleus gebruik van verblijfsdocumenten door personen uit derde landen.</p>",
+          "<p class=\"case-section__paragraph\">26. Blijkbaar werd geen enkele gegevensbeschermingseffectbeoordeling (DPIA) uitgevoerd over het ontwerp om de vingerafdrukken van de burgers te registreren de chip van de elektronische identiteitskaart. De Memorie van Toelichting vermeldt enkel dat \"een “PIA” zullen worden uitgevoerd.</p>",
+          "<p class=\"case-section__paragraph\">Welnu, de geplande maatregel dient krachtens artikel 35.2.b van de AVG het onderwerp te vormen van een DPIA en dit voorafgaand aan zijn wettelijke omkadering aangezien het zeer waarschijnlijk is dat deze analyse aanleiding geeft tot andere maatregelen of - zoals het geval was met het voorstel van EU Verordening van de Europese Commissie - tot het beperken van het verplichte karakter van de registratie van biometrische gegevens op identiteitskaarten tot de gelaatsafbeelding van de houder en de verduidelijking van het facultatieve karakter van de registratie van de vingerafdrukken².</p>",
+          "<p class=\"case-footer__paragraph\">Om de redenen uiteengezet in onderhavig advies (punten 19 en v.), wordt aan de parlementariërs aanbevolen de intrekking te vragen van deze maatregel van het wetsontwerp ingevolge de noodzaak en de wettelijke verplichting, bepaald in artikel 35.3.b van de AVG, om voorafgaandelijk over te gaan tot de effectbeoordeling ervan op de gegevensbescherming en te beschikken over statistieken en concrete elementen die de ontoereikendheid van ons huidige model van identiteitskaart aantonen in de strijd tegen vervalsing van deze kaart aangezien zij reeds beschikt over een biometrisch element (gelaatsafbeelding) en voorzieningen tegen vervalsing (hologram,...).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-004"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:ARR.20181017.11-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">17. Artikel 29 van het wetsontwerp wijzigt artikel 6ter van de wet van 1991 in die zin dat het voortaan niet meer in de wet is voorzien dat de elektronische functies van gestolen of verloren identiteitskaarten rechtstreeks door de gemeente worden geschorst of buiten dienst gesteld. De vaststelling van deze nadere regels wordt voortaan verleend aan de Koning. Het nut om dit over te laten aan de Koning is niet duidelijk. Dit zou rechtstreeks in de wet moeten worden voorzien. Het is belangrijk dat deze functies meteen worden geschorst ingeval van diefstal of verlies. Bovendien omvat de delegatie aan de Koning in ontwerpartikel 6ter, 4ᵈᵉ lid eveneens de vaststelling van de autoriteiten bij wie aangifte van de diefstal moet worden gedaan terwijl het 1ˢᵗᵉ lid van ontwerpartikel 6ter dit reeds bepaalt.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COPRIV:2018:ARR.20181017.11-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">conditioneert het uitlezen en het gebruik van de elektronische identiteitskaart aan de noodzaak om vooraf een specifieke en geïnformeerde toestemming te verkrijgen van de titularis en het 4ᵈᵉ lid van diezelfde bepaling stelt dat \"zonder afbreuk te doen aan artikel 1 van het KB van 25/03/2003, de houder van de elektronische identiteitskaart kan weigeren dat zijn gegevens gelezen en/of opgenomen zouden worden, behalve in de door de Koning bij een in Ministerraad overlegd besluit bepaalde gevallen\".</p>",
+          "<p class=\"case-section__paragraph\">Considerans 78 van het advies van de CBPL werd niet gevolgd. De regering leest het KB van 25 maart 2003 op een totaal andere wijze dan de CBPL door te stellen dat dit KB eveneens van toepassing is voor de actoren van de privésector.</p>",
+          "<p class=\"case-section__paragraph\">Welnu, de Autoriteit herhaalt dat dit KB van 25 maart 2003 (en meer bepaald zijn artikel 1) werd genomen in uitvoering van artikel 6, § 7 van de Wet van 19 juli 1991 betreffende de bevolkingsregisters en de identiteitskaarten dat aan de Koning de bevoegdheid verleent om \"de overheden en openbare ambtenaren te bepalen op wiens vraag de identiteitskaart moet worden getoond\"; wat het standpunt van de CBPL versterkt bij haar opmerking in cons.78 : in tegenstelling tot wat wordt gesteld in de Memorie van Toelichting is dit KB niet van toepassing op de privésector.</p>",
+          "<p class=\"case-section__paragraph\">Bijgevolg, volgens de opmaak van ontwerpartikel 6 § 4 van de wet van 1991 zullen alle actoren van de privésector de voorafgaande toestemming moeten vragen van de betrokkene om de identiteitskaart van een persoon te lezen. Dit dreigt de werking van de actoren van de privésector die gehouden zijn door een wettelijke bepaling (voorafgaand aan het huidig wetsontwerp) om de identiteit in te zamelen van personen aan de hand van hun identiteitskaart, sterk te bemoeilijken. Teneinde dit te vermijden, dient op het einde van het 2ᵈᵉ lid van het toekomstige art. 6. §4 te worden toegevoegd \"Behoudens strijdige wettelijke bepaling\".</p>",
+          "<p class=\"case-section__paragraph\">Bovendien, naast de wettelijke bepalingen die voorzien in het lezen van de identiteitskaart, kunnen bepaalde soorten contracten (in het algemeen synallagmatische contracten met, voor zover nodig, opeenvolgende prestaties) vereisen dat men zich vergewist van de correcte identiteit van een betrokkene bij de afsluiting ervan en een legitieme basis vormen om te vragen dat de identiteitskaart wordt getoond. Welnu, door de optie van de toestemming hiertoe te beperken, dreigt dit eveneens sommige actoren van de privésector in de onmogelijkheid te plaatsen om de identiteit van hun contractant via deze weg te controleren. In dit verband wordt verwezen naar de Aanbeveling uit eigen beweging van de CBPL nr. 03/2011 over het nemen van een kopie van de identiteitskaart en over het gebruik en de elektronische lezing ervan.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:COPRIV:2018:ARR.20181017.11-001"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 11,
+        "avgCitationsPerTeaching": 2.75,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 8,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 3
+      },
+      "extractionNotes": [
+        "Citations extracted from reasoning sections and relevant application paragraphs; some related decisions cited in Stage 5A appear only outside extracted reasoning paragraphs and are flagged as not found."
+      ]
+    }
+  }
+}

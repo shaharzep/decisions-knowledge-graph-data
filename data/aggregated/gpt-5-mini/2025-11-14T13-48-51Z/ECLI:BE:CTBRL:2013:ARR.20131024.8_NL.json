@@ -1,0 +1,771 @@
+{
+  "decision_id": "ECLI:BE:CTBRL:2013:ARR.20131024.8",
+  "language": "NL",
+  "metadata": {
+    "id": 157122,
+    "court_ecli_code": "CTBRL",
+    "court_name": "Arbeidshof te Brussel",
+    "decision_date": "2013-10-24",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 19365,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidshof te Brussel, 24 oktober 2013, A.R. nr. 2012/AB/438, ECLI:BE:CTBRL:2013:ARR.20131024.8"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+        "name": "LANDSBOND DER ONAFHANKELIJKE ZIEKENFONDSEN",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+        "name": "RIJKSINSTITUUT VOOR ZIEKTE- EN INVALIDITEITSVERZEKERING",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+        "name": "Mevrouw V.D.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Mevrouw V.D. werd erkend in de ziekteverzekering vanaf 10 oktober 2003 en vanaf 15 september 2004 kreeg zij uitkeringen als invalide. Uit een controleverslag betekend op 16 juni 2010 bleek dat zij tijdens de periode 1 oktober 2007 tot en met 31 mei 2008 een aantal dagen had gewerkt. Het controleverslag besloot tot terugvordering van uitkeringen vanaf 1 oktober 2007 tot en met 31 maart 2010, onder voorbehoud van toepassing van artikel 101 GW van 14 juli 1994, en stelde een frauduleuze intentie vast zodat toepassing van de vijfjarige verjaring werd voorgesteld. Op 13 juli 2010 besliste de Hoge Commissie van de Geneeskundige Raad voor Invaliditeit dat artikel 101 toegepast kon worden en dat terugvordering beperkt moest worden tot dagen van effectieve werkhervatting. De Landsbond stelde zijn verzekerde in gebreke en betwistte tegelijk het controleverslag voor de arbeidsrechtbank. Bij vonnis van 30 maart 2012 heeft de arbeidsrechtbank te Brussel de vordering van de Landsbond als ongegrond afgewezen en geoordeeld dat bedrieglijke handelingen bij de verzekerde waren vastgesteld. De Landsbond stelde hoger beroep bij dit hof (verzoekschrift ontvangen 2 mei 2012). De partijen hebben hun middelen en conclusies uiteengezet op de openbare terechtzitting van 26 september 2013; beraad volgde en uitspraak is gedaan op 24 oktober 2013.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+          "argument": "De Landsbond stelt in hoofdorde dat de eerste rechter ten onrechte heeft geoordeeld dat er bedrieglijke handelingen in hoofde van mevrouw V.D. waren. Onder verwijzing naar het cassatiearrest van 4 december 2006 en daarop aansluitende rechtspraak betoogt hij dat bedrieglijk opzet niet kan worden afgeleid uit de loutere vaststelling dat de verzekerde de hervatting van een beroepsactiviteit niet aan de instelling heeft gemeld. De Landsbond verwijst naar de omschrijving van 'bedrieglijke handelingen' in de omzendbrief van 18 oktober 1991 en betoogt dat het Rijksinstituut geen concrete bedrieglijke handeling heeft vastgesteld noch valse stukken of valse verklaringen heeft aangetoond. Voorts wijst de Landsbond erop dat de activiteit niet verborgen werd gehouden maar op normale wijze in het sociaal zekerheidsstelsel werd aangegeven en dat de omvang van de tewerkstelling relatief beperkt was (maximaal 66 dagen deeltijds over acht maanden), zodat geen bewijs van bedrieglijk opzet bestaat. In ondergeschikte orde betwist hij de berekeningswijze van de terugvordering.",
+          "treatment": "AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+          "argument": "Het Rijksinstituut verzet zich tegen het hoger beroep en vraagt bevestiging van het bestreden vonnis op basis van de daarin vervatte motieven. Het Rijksinstituut stelt dat een normaal en voorzichtig persoon behoort te weten dat cumul van arbeidsinkomsten en uitkeringen wegens arbeidsongeschiktheid niet is toegelaten en verwijst naar het inlichtingenblad dat bij aanvraag van uitkeringen moet worden ingevuld en waarin de verzekerde zich ertoe verbindt eventuele inkomsten mee te delen aan de mutualiteit. Het Rijksinstituut vraagt in ondergeschikte orde dat, indien het hof oordeelt dat de vijfjarige termijn niet toepasselijk is, de Landsbond het gedeelte van de vordering dat verjaard is ten laste neemt als administratiekosten overeenkomstig artikel 327, § 2 van het koninklijk besluit.",
+          "treatment": "VERWORPEN"
+        }
+      ],
+      "courtOrder": "Gelet op de Wet van 15 juni 1935 op het taalgebruik in gerechtszaken, in het bijzonder op het artikel 24,\n\nRechtsprekend op tegenspraak,\nVerklaart het hoger beroep ontvankelijk en gegrond. Hervormt het bestreden vonnis.\nVernietigt de bestreden administratieve beslissing van 16 juni 2010 in zoverre zij de Landsbond der Onafhankelijke Ziekenfondsen oplegt tot terugvordering over te gaan van de onverschuldigd betaalde uitkeringen, waarvoor de tweejarige verjaringstermijn verstreken is.\n\nVeroordeelt de Rijksdienst voor Ziekte en Invaliditeitsverzekering tot de kosten van beide aanleggen, tot op heden begroot op 69,56 € dagvaardingskosten, 240,50 € rechtsplegingsvergoeding voor de arbeidsrechtbank en 320,65 € rechtsplegingsvergoeding voor het hof.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+        "provisionNumber": "artikel 101",
+        "provisionNumberKey": "101",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering geneeskundige verzorging en invaliditeit",
+        "parentActDate": "1994-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het hof stelt dat artikel 101, in samenhang met de wetswijziging van 1991, niet toelaat om 'bedrieglijke handelingen' te veronderstellen uit louter het niet-aangeven van een activiteit of uit de duur van een werkhervatting; bedrieglijk opzet moet blijken uit gekarakteriseerd bedrog (bijv. valse stukken of valse verklaringen). De bewijslast voor het bestaan van bedrieglijke handelingen rust op de auteur van de administratieve beslissing.",
+        "relevantFactualContext": "Controleverslag van 16 juni 2010 stelde werkzaamheden vast tussen 1/10/2007 en 31/5/2008; terugvordering gevraagd vanaf 1/10/2007; Hoge Commissie had artikel 101 toegepast, maar het hof vond geen bewijs van gekarakteriseerd bedrog; slechts 66 deeltijdse dagen en de activiteit was aangegeven."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+        "provisionNumber": "artikel 102",
+        "provisionNumberKey": "102",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering geneeskundige verzorging en invaliditeit",
+        "parentActDate": "1994-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het hof beschouwt artikel 102 als behorend tot dezelfde regeling inzake herstel van onverschuldigde prestaties en verjaring; ook hier geldt dat het bestaan van bedrieglijke handelingen niet enkel uit niet-aangifte of de duur van activiteit mag worden afgeleid, maar uit concreet gekarakteriseerd bedrog. Enkel dergelijk bewijs rechtvaardigt toepassing van de bijzondere regeling.",
+        "relevantFactualContext": "De discussie betreft terugvorderingen voor werkzaamheden tussen oktober 2007 en mei 2008; het hof oordeelde dat de administratieve stukken geen aantonen van bedrieglijk opzet en dat de activiteiten in het dossier waren aangegeven."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+        "provisionNumber": "artikel 174, 1° lid, 5° en 6°",
+        "provisionNumberKey": "174",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen",
+        "parentActDate": "1994-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het hof verduidelijkt dat artikel 174 bepaalt dat de vordering tot terugvordering in principe twee jaar verjaart na het einde van de maand van betaling, maar dat de verjaringsregels in §1, 5°, 6° en 7° niet van toepassing zijn wanneer de onrechtmatig verleende prestaties het gevolg zijn van bedrieglijke handelingen; in dat geval geldt een vijfjarige verjaring. Het hof benadrukt tevens het parallellisme tussen de verjaring voor terugvordering en de verjaring voor boeking op de bijzondere rekening.",
+        "relevantFactualContext": "Het bestrijd controleverslag dateert van 16/6/2010 en betreft prestaties betaald van oktober 2007 tot 31/5/2008; het hof oordeelt dat de tweejarige verjaring van toepassing is en dat de vorderingen voor die periode verjaard zijn."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-004",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+        "provisionNumber": "artikel 56",
+        "provisionNumberKey": "56",
+        "parentActType": "WET",
+        "parentActName": "wet van 9 augustus 1963",
+        "parentActDate": "1963-08-09",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+        "provisionNumber": "artikel 325",
+        "provisionNumberKey": "325",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het Koninklijk Besluit van 3 juli 1976 tot uitvoering van de gecoördineerde wetten van 14 juli 1994",
+        "parentActDate": "1976-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het hof interpreteert artikel 325 als bepalend voor het precieze tijdstip waarop onverschuldigde prestaties op de bijzondere rekening moeten worden geboekt, afhankelijk van de wijze waarop de onverschuldigde prestaties zijn vastgesteld. In samenhang met art. 326 en 327 leidt het hof tot de slotsom dat wanneer inschrijving op de bijzondere rekening verjaard is, er geen wettelijke grond bestaat om die prestaties vervolgens als administratiekosten te boeken.",
+        "relevantFactualContext": "Omdat het hof oordeelde dat de tweejarige verjaring toepasselijk was voor de prestaties van okt. 2007–mei 2008, dienden deze niet te worden ingeschreven op de bijzondere rekening en kon geen boeking als administratiekosten plaatsvinden."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-006",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+        "provisionNumber": "artikel 327",
+        "provisionNumberKey": "327",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het Koninklijk Besluit van 3 juli 1976 tot uitvoering van de gecoördineerde wetten van 14 juli 1994",
+        "parentActDate": "1976-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het hof geeft weer dat artikel 327 bepaalt dat bedragen die niet zijn teruggevorderd binnen drie maanden na het verstrijken van de termijn in artikel 326 als administratiekosten worden afgeschreven; het hof oordeelt evenwel dat deze bepaling geen toepassing vindt wanneer de inschrijving op de bijzondere rekening zelf wegens verjaring achterwege blijft, zodat geen grond bestaat om die bedragen als administratiekosten te boeken.",
+        "relevantFactualContext": "Het Rijksinstituut vroeg in ondergeschikte orde dat de Landsbond het verjaarde gedeelte als administratiekosten zou dragen; het hof verwierp dit omdat de inschrijving en terugvordering voor de perioden okt.2007–mei2008 verjaard waren."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-007",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2013:ARR.20131024.8-004",
+        "provisionNumber": "artikel 327, § 2",
+        "provisionNumberKey": "327",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het Koninklijk Besluit van 3 juli 1996 tot uitvoering van de gecoördineerde wetten van 14 juli 1994",
+        "parentActDate": "1996-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-008",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+        "provisionNumber": "artikel 164, alinea 4",
+        "provisionNumberKey": "164",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen",
+        "parentActDate": "1994-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het hof legt uit dat artikel 164, al.4 de verzekeringsinstellingen verplicht onverschuldigd betaalde prestaties op een bijzondere rekening te boeken en dat de verjaringsregels voor die inschrijving parallel lopen met de verjaring voor terugvordering tegenover de verzekerde. Wanneer tussen verzekerde en instelling de tweejarige verjaring geldt, geldt diezelfde termijn ook tussen de verzekeringsinstelling en het Rijksinstituut.",
+        "relevantFactualContext": "In casu betreft het betalingen van okt.2007–mei2008 en een controle van 16/6/2010; het hof concludeert dat de tweejarige verjaring toepasselijk is en dat inschrijving op de bijzondere rekening voor die prestaties verjaard is."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-009",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+        "provisionNumber": "artikel 326",
+        "provisionNumberKey": "326",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "het Koninklijk Besluit van 3 juli 1976 tot uitvoering van de gecoördineerde wetten van 14 juli 1994",
+        "parentActDate": "1976-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het hof geeft aan dat artikel 326 bepaalt dat na inschrijving op de bijzondere rekening de prestaties binnen een termijn van twee jaar dienen te worden teruggevorderd. Het hof oordeelt dat wanneer inschrijving wegens verjaring niet plaatsvindt, de termijn van artikel 326 geen grond kan vormen voor latere boeking of voor het afdwingen van administratiekosten.",
+        "relevantFactualContext": "De controle en betwisting betreffen prestaties betaald tot 31/5/2008; omdat het hof de tweejarige verjaring van toepassing achtte, concludeerde het dat de termijnen van artikel 326 in deze zaak niet leidden tot inschrijving of kosten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-010",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "Wet van 15 juni 1935 op het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "arbeidsrechtbank te Brussel, 28e kamer",
+        "date": "2012-03-30",
+        "caseNumber": "A.R. 10/10746/A",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "2006-12-04",
+        "caseNumber": "S.050071.F",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof Mons",
+        "date": "2009-02-18",
+        "caseNumber": "A.R. 20564",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Mons",
+        "date": "2010-05-19",
+        "caseNumber": "A.R. 2009/A.M./21.554",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Luik",
+        "date": "2008-06-24",
+        "caseNumber": "A.R. 0365203/07",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbrb. Luik",
+        "date": "2007-07-09",
+        "caseNumber": "A.R. 321.999",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-006"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 7,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbrb. Verviers",
+        "date": "2010-06-14",
+        "caseNumber": "A.R. 09/1731.A",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-007"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 8,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Beheerscomité van de Dienst voor Uitkeringen van het Rijksinstituut",
+        "date": "1992-04-29",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-008"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 9,
+        "courtJurisdictionCode": "BE",
+        "courtName": "RIJKSINSTITUUT VOOR ZIEKTE- EN INVALIDITEITSVERZEKERING",
+        "date": "2010-06-16",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-009"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 10,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass",
+        "date": "2008-12-22",
+        "caseNumber": "S.08.0059.F",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-010"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Socialezekerheidsrecht",
+      "Arbeidsongeschiktheidsuitkeringen",
+      "Deeltijdse werkhervatting",
+      "Terugvordering uitkeringen",
+      "Controleverslag",
+      "Bedrieglijk opzet",
+      "Verjaringstermijn",
+      "Bewijslast administratieve beslissing",
+      "Boeking bijzondere rekening",
+      "Toepassing cassatierechtspraak"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+        "text": "Onder artikel 101 en 102 van de gecoördineerde wetten vereist ‘bedrieglijk opzet’ concreet gekarakteriseerd bedrog; dit mag niet louter worden verondersteld uit het niet-aangeven van een activiteit, noch uit de duur of herhaling van een werkhervatting. Bewijselementen zoals valse stukken of valse verklaringen zijn nodig om bedrieglijk opzet aan te nemen.",
+        "courtVerbatim": "In een arrest van 4 december 2006 oordeelde het Hof van Cassatie dat het bestaan van bedrieglijke handelingen niet wettelijk kan worden afgeleid uit de enkele overweging dat de rechthebbende zich op de hoogte had kunnen stellen over zijn verplichtingen ten aanzien van zijn verzekeringsinstelling, noch uit de vaststelling dat de gerechtigde de voortzetting van een activiteit niet aan zijn verzekeringsinstelling heeft aangegeven (Cass. 4.12.2006, S.050071.F,Juridat). Het standpunt van het Hof van Cassatie wijkt af van de vroegere rechtspraak van de rechters ten gronde die vaak de bedrieglijke handeling afleidden uit het loutere feit dat er mocht van uitgegaan worden dat de verzekerde wist dat hij geen beroepsactiviteit mocht cumuleren met arbeidsongeschiktheidsuitkeringen, zonder er aangifte van te doen. Verder moet vastgesteld worden dat het Beheerscomité van de Dienst voor Uitkeringen van het Rijksinstituut in een omzendbrief van 29 april 1992, naar aanleiding van de invoegetreding van de wet van 18 oktober 1991 die het vroegere artikel 56 van de wet van 9 augustus 1963 wijzigde (thans artikel 101 en 102 van de gecoördineerde wet) zelf een gelijkaardige invulling gaf aan het begrip \"bedrieglijk opzet\" ... \"Het loutere feit\", zo wordt in de omzendbrief gesteld, \"dat zonder voorafgaande toestemming een activiteit is hervat mag niet zonder meer worden gelijkgesteld met bedrieglijk opzet in welk geval dus geen beroep op deze bijzondere regeling kan worden gedaan. Het bedrieglijk opzet moet, volgens de parlementaire voorbereiding van de wet, blijken uit het gekarakteriseerd bedrog dat met name kan worden afgeleid uit het gebruik van valse stukken of van valse verklaringen'.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een administratieve terugvordering wordt gemotiveerd met de stelling dat de verzekerde bedrieglijk heeft gehandeld door een werkhervatting te verzwijgen of door de duur/herhaling van werkzaamheden.",
+        "relevantFactualContext": "Controleverslag van 16 juni 2010 constateerde werkzaamheden tussen 1/10/2007 en 31/5/2008; de Hoge Commissie paste artikel 101 toe en stelde frauduleuze intentie vast, terwijl het hof oordeelde dat in het dossier geen gekarakteriseerd bedrog was aangetoond; in de periode werden slechts 66 deeltijdse arbeidsdagen verricht en de activiteit was aangegeven.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CTBRL:2013:ARR.20131024.8-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": true
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-004",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-006",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-007"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+        "text": "Wanneer een administratieve beslissing de verplichting oplegt tot terugvordering wegens veronderstelde bedrieglijke handelingen, rust op de auteur van die administratieve beslissing de bewijslast om het bestaan van die bedrieglijke handelingen aan te tonen; loutere vaststelling van herhaalde of langdurige niet-toegestane activiteiten volstaat niet als bewijs van bedrieglijk opzet.",
+        "courtVerbatim": "Vermits de bestreden administratieve beslissing aan de Landsbond der Onafhankelijke Ziekenfondsen de verplichting oplegt om tot terugvordering over te gaan van de onverschuldigd betaalde uitkeringen, met inachtneming van de bijzondere verjaringstermijn van toepassing bij bedrieglijke handelingen, komt het aan de auteur van deze administratieve beslissing toe het bewijs bij te brengen van het bestaan van bedrieglijke handelingen. De bestreden beslissing beperkt zich tot de vaststelling dat de niet toegelaten activiteiten herhaaldelijk en over een lange periode werden uitgeoefend, zodat de frauduleuze intentie van de betrokkene moet worden weerhouden. Zij stelt aldus geen positieve handeling, of bijzonder opzet vast, onderscheiden van de loutere materiële inbreuk op de wet om geen aangifte gedaan te hebben. De loutere vaststelling dat de niet toegelaten activiteiten herhaaldelijk en over een lange periode werden uitgeoefend, volstaat op zich niet om tot het bestaan van een bedrieglijke handeling te besluiten.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een administratieve maatregel of controleverslag terugvordering oplegt op grond van veronderstelde bedrieglijke handelingen.",
+        "relevantFactualContext": "Het controleverslag van 16/6/2010 beval terugvordering vanaf 1/10/2007; de arbeidsrechtbank en Hoge Commissie oordeelden verschillend over het bestaan van bedrieglijk opzet; het hof vond geen elementen van bewust verbergen en benadrukte dat de activiteit was aangegeven en dat er slechts 66 deeltijdse dagen waren.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+        "text": "De verjaringstermijnen voor terugvordering en voor de inschrijving op de bijzondere rekening lopen parallel: indien tussen verzekerde en verzekeringsinstelling de tweejarige verjaring geldt, geldt diezelfde termijn ook tussen de verzekeringsinstelling en het Rijksinstituut. Wanneer de inschrijving op de bijzondere rekening zelf wegens verjaring achterwege blijft, bestaat geen wettelijke grondslag om die prestaties vervolgens als administratiekosten te boeken.",
+        "courtVerbatim": "Overeenkomstig artikel 174, $1^{\\circ}$ lid, $5^{\\circ}$ en $6^{\\circ}$ van de gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen, verjaart de vordering tot terugvordering ... twee jaar na het einde van de maand waarin de prestaties zijn betaald. Overeenkomstig artikel 174, al. 4 van deze wet gelden de in $5^{\\circ}, 6^{\\circ}$ en $7^{\\circ}$, bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen ... Er bestaat aldus een parallellisme tussen enerzijds de regels inzake de terugvordering van de onverschuldigd betaalde uitkeringen of prestaties van de verzekering geneeskundige verzorging en de verplichting tot inschrijving in de bijzondere rekening. Wanneer in de relaties tussen de verzekeringsinstelling en de verzekerde de tweejarige verjaring van toepassing is, dan geldt ook de tweejarige verjaring voor de inschrijving in de bijzondere rekening. Uit de samenlezing van deze bepalingen blijkt dat, wanneer een prestatie niet moet ingeschreven worden op de bijzondere rekening omdat, zoals in casu, de verplichting tot inschrijving op de bijzondere rekening verjaard was, de verplichting tot boeking van de prestaties - die niet moesten teruggevorderd worden - in de administratiekosten ook geen wettelijke grondslag kan vinden in de bepalingen van de gecoördineerde wetten van 14 juli 1994 en van het uitvoeringsbesluit van 3 juli 1976.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de vraag rijst of onverschuldigd betaalde prestaties nog kunnen worden ingeschreven op de bijzondere rekening of als administratiekosten geboekt, mede in het licht van verjaringsregels.",
+        "relevantFactualContext": "Het betwiste controleverslag dateert van 16/6/2010 en betreft prestaties betaald tussen oktober 2007 en 31/5/2008; het hof oordeelde dat de tweejarige verjaring van toepassing was en dat inschrijving op de bijzondere rekening en latere boeking als administratiekosten voor die perioden verjaard waren.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-008",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-009",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-006"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-008"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 3,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De verzekeringsinstelling (Landsbond) voerde tegen de Rijksdienst een geschil over de terugvordering van onverschuldigde invaliditeitsuitkeringen van een verzekerde wegens werkhervatting en de vraag of de vijfjarige verjaring wegens bedrieglijk opzet van toepassing was. Het Arbeidshof vernietigt de bestreden administratieve beslissing, oordeelt dat bedrieglijke handelingen niet zijn bewezen en stelt dat de gewone tweejare verjaring toepasselijk is zodat de vordering voor de betrokken periode verjaard is. Het hof beklemtoont dat bedrieglijk opzet niet mag worden afgeleid uit louter niet‑melding of de duur van de werkhervatting; de administratie moet positieve bewijsstukken voorleggen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">1. Mevrouw V.D., verzekerde van de Landsbond der Onafhankelijke Ziekenfondsen, werd erkend in de ziekteverzekering vanaf 10 oktober 2003. Sinds 15 september 2004 kreeg zij uitkeringen als invalide. Uit een controleverslag, betekend door het Rijksinstituut voor Ziekte en Invaliditeitsverzekering op 16 juni 2010, bleek dat mevrouw V.D. in die periode van 1 oktober 2007 tot en met 31 mei 2008 een aantal dagen gewerkt had. Het controleverslag besloot tot de terugvordering van de uitkeringen vanaf 1 oktober 2007 tot en met 31 maart 2010, doch onder voorbehoud van de toepassing van artikel 101 van de gecoördineerde wetten van 14 juli 1994 op de verplichte verzekering geneeskundige verzorging en invaliditeit. Volgens het controleverslag diende toepassing gemaakt te worden van de vijfjarige verjaringstermijn, omdat er sprake was van een frauduleuze intentie in hoofde van mevrouw V.D.. Op 13 juli 2010 besliste de Hoge Commissie van de Geneeskundige Raad voor Invaliditeit van het Rijksinstituut dat artikel 101 van de gecoördineerde wetten toegepast kon worden en dat de terugvordering diende beperkt te worden tot de dagen van effectieve werkhervatting.</p>",
+          "<p class=\"case-section__paragraph\">3. Overeenkomstig artikel 174, 1e lid, 5° en 6° van de gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen, verjaart de vordering tot terugvordering van de waarde van de ten onrechte ten laste van de uitkeringsverzekering of ten laste van de verzekering voor geneeskundige verzorging verleende prestaties twee jaar na het einde van de maand waarin de prestaties zijn betaald. Overeenkomstig artikel 174, lid 4, van deze wet gelden de in 5°, 6° en 7°, bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen waarvoor hij wie ze tot baat strekken verantwoordelijk is. In een arrest van 4 december 2006 oordeelde het Hof van Cassatie dat het bestaan van bedrieglijke handelingen niet wettelijk kan worden afgeleid uit de enkele overweging dat de rechthebbende zich op de hoogte had kunnen stellen over zijn verplichtingen ten aanzien van zijn verzekeringsinstelling, noch uit de vaststelling dat de gerechtigde de voortzetting van een activiteit niet aan zijn verzekeringsinstelling heeft aangegeven (Cass. 4.12.2006, S.050071.F,Juridat). Het standpunt van het Hof van Cassatie wijkt af van de vroegere rechtspraak van de rechters ten gronde die vaak de bedrieglijke handeling afleidden uit het loutere feit dat er mocht van uitgegaan worden dat de verzekerde wist dat hij geen beroepsactiviteit mocht cumuleren met arbeidsongeschiktheidsuitkeringen, zonder er aangifte van te doen. De bedrieglijke handelingen, waarvan de wet spreekt, werden aldus afgeleid uit een bedrieglijk inzicht dat in de regel verondersteld werd aanwezig te zijn bij een cumulatie van uitkeringen met een activiteit. Vastgesteld moet worden dat de rechtspraak van het Hof van Cassatie beter aansluit bij de tekst van de wet en een vrij ruime steun gevonden heeft in de rechtspraak (cfr. Arbeidshof Mons, 18.02.2009, A.R. 20564, gewezen na het cassatiearrest van 4.12.2006, Arbh. Mons, 19 mei 2010, A.R. 2009/A.M./21.554, Arbh. Luik, 24.06.2008, A.R. 0365203/07, Arbrb. Luik, 9.07.2007, A.R. 321.999; Arbrb. Verviers, 14.06.2010, A.R. 09/1731.A) en in de rechtsleer (J.F. Funck, Droit de la sécurité sociale, De Boeck, 2006, p.73-74 ; Graulich, Massart en Dumont, « La révision, la récupération de l'indu et la prescription », in « Regards croisés sur la sécurité sociale », 2012, p. 93.) Verder moet vastgesteld worden dat het Beheerscomité van de Dienst voor Uitkeringen van het Rijksinstituut in een omzendbrief van 29 april 1992, naar aanleiding van de invoegetreding van de wet van 18 oktober 1991 die het vroegere artikel 56 van de wet van 9 augustus 1963 wijzigde (thans artikel 101 en 102 van de gecoördineerde wet) zelf een gelijkaardige invulling gaf aan het begrip \"bedrieglijk opzet\", dat bepalend is voor de mogelijkheid van het Beheerscomité om, in behartenswaardige gevallen, geheel of gedeeltelijk af te zien van de in het eerste lid van artikel 101 vermelde terugvordering.</p>",
+          "<blockquote class=\"case-quote\">\"Het loutere feit\", zo wordt in de omzendbrief gesteld, \"dat zonder voorafgaande toestemming een activiteit is hervat mag niet zonder meer worden gelijkgesteld met bedrieglijk opzet in welk geval dus geen beroep op deze bijzondere regeling kan worden gedaan. Het bedrieglijk opzet moet, volgens de parlementaire voorbereiding van de wet, blijken uit het gekarakteriseerd bedrog dat met name kan worden afgeleid uit het gebruik van valse stukken of van valse verklaringen\".</blockquote>",
+          "<p class=\"case-section__paragraph\">4. Vermits de bestreden administratieve beslissing aan de Landsbond der Onafhankelijke Ziekenfondsen de verplichting oplegt om tot terugvordering over te gaan van de onverschuldigd betaalde uitkeringen, met inachtneming van de bijzondere verjaringstermijn van toepassing bij bedrieglijke handelingen, komt het aan de auteur van deze administratieve beslissing toe het bewijs bij te brengen van het bestaan van bedrieglijke handelingen. De bestreden beslissing beperkt zich tot de vaststelling dat de niet toegelaten activiteiten herhaaldelijk en over een lange periode werden uitgeoefend, zodat de frauduleuze intentie van de betrokkene moet worden weerhouden. Zij stelt aldus geen positieve handeling, of bijzonder opzet vast, onderscheiden van de loutere materiële inbreuk op de wet om geen aangifte gedaan te hebben. De loutere vaststelling dat de niet toegelaten activiteiten herhaaldelijk en over een lange periode werden uitgeoefend, volstaat op zich niet om tot het bestaan van een bedrieglijke handeling te besluiten. De duur van de werkhervatting wijst immers op zich niet op een bedrieglijk handelen in hoofde van de verzekerde. De bedrieglijke handeling of het bedrieglijk opzet, of de afwezigheid ervan, kan bestaan zowel bij een korte als bij een langere werkhervatting. De duur van de werkhervatting kan eventueel wel een rol spelen bij de administratieve sanctie die aan de verzekerde kan opgelegd worden. De duur van de werkhervatting zal anderzijds bepalend zijn voor de omvang van de prestaties die de verzekerde moet terugbetalen. Het hof kan ook in het dossier geen elementen vinden die wijzen op een bedrieglijk handelen. Met name werd de werkhervatting niet bewust verborgen gehouden, vermits het om een aangegeven werkhervatting gaat, die overigens in principe door de Landsbond der Onafhankelijke Ziekenfondsen heel snel had kunnen vastgesteld worden aan de hand van de elektronische bijdragebons. Ten overvloede moet opgemerkt worden dat, zoals de Landsbond terecht opmerkt, de omvang van de tewerkstelling moet gerelativeerd worden. Zij is weliswaar gespreid over een periode van 8 maanden, maar in deze periode werden slechts 66 dagen arbeidsprestaties verricht op deeltijdse basis. De hypothese kan niet uitgesloten worden dat de verzekerde, die na deze periode geen prestaties meer verrichtte, enkel heeft willen nagaan in welke mate een werkhervatting mogelijk was. Daarvoor moest zij uiteraard wel de toestemming van de adviserend geneesheer vragen, maar het staat niet vast dat de verzekerde bewust nagelaten heeft deze toelating te vragen. Het bedrieglijk handelen of het bedrieglijk inzicht kan ook niet afgeleid worden uit de omstandigheid dat de verzekerde met kennis van zaken het inkomen uit de niet toegelaten arbeid ontvangen heeft en het voordeel daarvan genoten heeft.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-004",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-006",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-007",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-008",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-009"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">3. Overeenkomstig artikel 174, 1e lid, 5° en 6° van de gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen, verjaart de vordering tot terugvordering van de waarde van de ten onrechte ten laste van de uitkeringsverzekering of ten laste van de verzekering voor geneeskundige verzorging verleende prestaties twee jaar na het einde van de maand waarin de prestaties zijn betaald. Overeenkomstig artikel 174, lid 4, van deze wet gelden de in 5°, 6° en 7°, bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen waarvoor hij wie ze tot baat strekken verantwoordelijk is. In een arrest van 4 december 2006 oordeelde het Hof van Cassatie dat het bestaan van bedrieglijke handelingen niet wettelijk kan worden afgeleid uit de enkele overweging dat de rechthebbende zich op de hoogte had kunnen stellen over zijn verplichtingen ten aanzien van zijn verzekeringsinstelling, noch uit de vaststelling dat de gerechtigde de voortzetting van een activiteit niet aan zijn verzekeringsinstelling heeft aangegeven (Cass. 4.12.2006, S.050071.F,Juridat). Het standpunt van het Hof van Cassatie wijkt af van de vroegere rechtspraak van de rechters ten gronde die vaak de bedrieglijke handeling afleidden uit het loutere feit dat er mocht van uitgegaan worden dat de verzekerde wist dat hij geen beroepsactiviteit mocht cumuleren met arbeidsongeschiktheidsuitkeringen, zonder er aangifte van te doen. De bedrieglijke handelingen, waarvan de wet spreekt, werden aldus afgeleid uit een bedrieglijk inzicht dat in de regel verondersteld werd aanwezig te zijn bij een cumulatie van uitkeringen met een activiteit. Vastgesteld moet worden dat de rechtspraak van het Hof van Cassatie beter aansluit bij de tekst van de wet en een vrij ruime steun gevonden heeft in de rechtspraak (cfr. Arbeidshof Mons, 18.02.2009, A.R. 20564, gewezen na het cassatiearrest van 4.12.2006, Arbh. Mons, 19 mei 2010, A.R. 2009/A.M./21.554, Arbh. Luik, 24.06.2008, A.R. 0365203/07, Arbrb. Luik, 9.07.2007, A.R. 321.999; Arbrb. Verviers, 14.06.2010, A.R. 09/1731.A) en in de rechtsleer (J.F. Funck, Droit de la sécurité sociale, De Boeck, 2006, p.73-74 ; Graulich, Massart en Dumont, « La révision, la récupération de l'indu et la prescription », in « Regards croisés sur la sécurité sociale », 2012, p. 93.) Verder moet vastgesteld worden dat het Beheerscomité van de Dienst voor Uitkeringen van het Rijksinstituut in een omzendbrief van 29 april 1992, naar aanleiding van de invoegetreding van de wet van 18 oktober 1991 die het vroegere artikel 56 van de wet van 9 augustus 1963 wijzigde (thans artikel 101 en 102 van de gecoördineerde wet) zelf een gelijkaardige invulling gaf aan het begrip \"bedrieglijk opzet\", dat bepalend is voor de mogelijkheid van het Beheerscomité om, in behartenswaardige gevallen, geheel of gedeeltelijk af te zien van de in het eerste lid van artikel 101 vermelde terugvordering.</p>",
+          "<blockquote class=\"case-quote\">\"Het loutere feit\", zo wordt in de omzendbrief gesteld, \"dat zonder voorafgaande toestemming een activiteit is hervat mag niet zonder meer worden gelijkgesteld met bedrieglijk opzet in welk geval dus geen beroep op deze bijzondere regeling kan worden gedaan. Het bedrieglijk opzet moet, volgens de parlementaire voorbereiding van de wet, blijken uit het gekarakteriseerd bedrog dat met name kan worden afgeleid uit het gebruik van valse stukken of van valse verklaringen\".</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-004",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-006",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-007",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-008"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">3. Overeenkomstig artikel 174, 1e lid, 5° en 6° van de gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen, verjaart de vordering tot terugvordering van de waarde van de ten onrechte ten laste van de uitkeringsverzekering of ten laste van de verzekering voor geneeskundige verzorging verleende prestaties twee jaar na het einde van de maand waarin de prestaties zijn betaald. Overeenkomstig artikel 174, lid 4, van deze wet gelden de in 5°, 6° en 7°, bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen waarvoor hij wie ze tot baat strekken verantwoordelijk is. In een arrest van 4 december 2006 oordeelde het Hof van Cassatie dat het bestaan van bedrieglijke handelingen niet wettelijk kan worden afgeleid uit de enkele overweging dat de rechthebbende zich op de hoogte had kunnen stellen over zijn verplichtingen ten aanzien van zijn verzekeringsinstelling, noch uit de vaststelling dat de gerechtigde de voortzetting van een activiteit niet aan zijn verzekeringsinstelling heeft aangegeven (Cass. 4.12.2006, S.050071.F,Juridat). Het standpunt van het Hof van Cassatie wijkt af van de vroegere rechtspraak van de rechters ten gronde die vaak de bedrieglijke handeling afleidden uit het loutere feit dat er mocht van uitgegaan worden dat de verzekerde wist dat hij geen beroepsactiviteit mocht cumuleren met arbeidsongeschiktheidsuitkeringen, zonder er aangifte van te doen. De bedrieglijke handelingen, waarvan de wet spreekt, werden aldus afgeleid uit een bedrieglijk inzicht dat in de regel verondersteld werd aanwezig te zijn bij een cumulatie van uitkeringen met een activiteit. Vastgesteld moet worden dat de rechtspraak van het Hof van Cassatie beter aansluit bij de tekst van de wet en een vrij ruime steun gevonden heeft in de rechtspraak (cfr. Arbeidshof Mons, 18.02.2009, A.R. 20564, gewezen na het cassatiearrest van 4.12.2006, Arbh. Mons, 19 mei 2010, A.R. 2009/A.M./21.554, Arbh. Luik, 24.06.2008, A.R. 0365203/07, Arbrb. Luik, 9.07.2007, A.R. 321.999; Arbrb. Verviers, 14.06.2010, A.R. 09/1731.A) en in de rechtsleer (J.F. Funck, Droit de la sécurité sociale, De Boeck, 2006, p.73-74 ; Graulich, Massart en Dumont, « La révision, la récupération de l'indu et la prescription », in « Regards croisés sur la sécurité sociale », 2012, p. 93.) Verder moet vastgesteld worden dat het Beheerscomité van de Dienst voor Uitkeringen van het Rijksinstituut in een omzendbrief van 29 april 1992, naar aanleiding van de invoegetreding van de wet van 18 oktober 1991 die het vroegere artikel 56 van de wet van 9 augustus 1963 wijzigde (thans artikel 101 en 102 van de gecoördineerde wet) zelf een gelijkaardige invulling gaf aan het begrip \"bedrieglijk opzet\", dat bepalend is voor de mogelijkheid van het Beheerscomité om, in behartenswaardige gevallen, geheel of gedeeltelijk af te zien van de in het eerste lid van artikel 101 vermelde terugvordering.</p>",
+          "<p class=\"case-section__paragraph\">7. Overeenkomstig artikel 164, al. 4 van de gecoördineerde wetten van 14 juli 1994 dienen de verzekeringsinstellingen de ten onrechte betaalde prestaties op een bijzondere rekening te boeken. Die prestaties worden teruggevorderd door de verzekeringsinstelling die ze heeft toegekend binnen de door de Koning bepaalde termijnen en met alle middelen, de gerechtelijke inbegrepen. Overeenkomstig artikel 174, al. 1, 7° dient, na een termijn van twee jaar, met ingang van het einde van de maand waarin een prestatie op onrechtmatige wijze door een verzekeringsinstelling betaald is, deze niet meer te worden geboekt in de door artikel 164 bedoelde bijzondere rekening. Overeenkomstig artikel 174, al. 3 gelden de in alinea 1, 5°, 6° en 7° van deze bepaling bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen waarvoor hij wie ze tot baat strekten verantwoordelijk is. In dat geval bedraagt de verjaringstermijn vijf jaar. Er bestaat aldus een parallellisme tussen enerzijds de regels inzake de terugvordering van de onverschuldigd betaalde uitkeringen of prestaties van de verzekering geneeskundige verzorging en de verplichting tot inschrijving in de bijzondere rekening. Wanneer in de relaties tussen de verzekeringsinstelling en de verzekerde de tweejarige verjaring van toepassing is, dan geldt ook de tweejarige verjaring voor de inschrijving in de bijzondere rekening. Wanneer in relatie tussen verzekeringsinstelling en verzekerde de vijfjarige verjaringstermijn van toepassing is, dan geldt die vijfjarige verjaring ook voor de inschrijving in de bijzondere rekening. Vermits het hof geoordeeld heeft dat de tweejarige verjaringstermijn van toepassing was in de verhouding tussen de verzekerde en de verzekeringsinstelling, is de tweejarige verjaringstermijn dan ook in huidige betwisting van toepassing in de relatie tussen de Landsbond en het Rijksinstituut. Het betwiste controleverslag dagtekent van 16 juni 2010. De onverschuldigde prestaties, betaald in de periode oktober 2007 tot 31 mei 2008, waren dan verjaard, ook voor de inschrijving op de bijzondere rekening.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-008",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-009",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-004",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-006",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-007",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-008",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">3. Overeenkomstig artikel 174, 1e lid, 5° en 6° van de gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen, verjaart de vordering tot terugvordering van de waarde van de ten onrechte ten laste van de uitkeringsverzekering of ten laste van de verzekering voor geneeskundige verzorging verleende prestaties twee jaar na het einde van de maand waarin de prestaties zijn betaald. Overeenkomstig artikel 174, lid 4, van deze wet gelden de in 5°, 6° en 7°, bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen waarvoor hij wie ze tot baat strekken verantwoordelijk is. In een arrest van 4 december 2006 oordeelde het Hof van Cassatie dat het bestaan van bedrieglijke handelingen niet wettelijk kan worden afgeleid uit de enkele overweging dat de rechthebbende zich op de hoogte had kunnen stellen over zijn verplichtingen ten aanzien van zijn verzekeringsinstelling, noch uit de vaststelling dat de gerechtigde de voortzetting van een activiteit niet aan zijn verzekeringsinstelling heeft aangegeven (Cass. 4.12.2006, S.050071.F,Juridat). Het standpunt van het Hof van Cassatie wijkt af van de vroegere rechtspraak van de rechters ten gronde die vaak de bedrieglijke handeling afleidden uit het loutere feit dat er mocht van uitgegaan worden dat de verzekerde wist dat hij geen beroepsactiviteit mocht cumuleren met arbeidsongeschiktheidsuitkeringen, zonder er aangifte van te doen. De bedrieglijke handelingen, waarvan de wet spreekt, werden aldus afgeleid uit een bedrieglijk inzicht dat in de regel verondersteld werd aanwezig te zijn bij een cumulatie van uitkeringen met een activiteit. Vastgesteld moet worden dat de rechtspraak van het Hof van Cassatie beter aansluit bij de tekst van de wet en een vrij ruime steun gevonden heeft in de rechtspraak (cfr. Arbeidshof Mons, 18.02.2009, A.R. 20564, gewezen na het cassatiearrest van 4.12.2006, Arbh. Mons, 19 mei 2010, A.R. 2009/A.M./21.554, Arbh. Luik, 24.06.2008, A.R. 0365203/07, Arbrb. Luik, 9.07.2007, A.R. 321.999; Arbrb. Verviers, 14.06.2010, A.R. 09/1731.A) en in de rechtsleer (J.F. Funck, Droit de la sécurité sociale, De Boeck, 2006, p.73-74 ; Graulich, Massart en Dumont, « La révision, la récupération de l'indu et la prescription », in « Regards croisés sur la sécurité sociale », 2012, p. 93.) Verder moet vastgesteld worden dat het Beheerscomité van de Dienst voor Uitkeringen van het Rijksinstituut in een omzendbrief van 29 april 1992, naar aanleiding van de invoegetreding van de wet van 18 oktober 1991 die het vroegere artikel 56 van de wet van 9 augustus 1963 wijzigde (thans artikel 101 en 102 van de gecoördineerde wet) zelf een gelijkaardige invulling gaf aan het begrip \"bedrieglijk opzet\", dat bepalend is voor de mogelijkheid van het Beheerscomité om, in behartenswaardige gevallen, geheel of gedeeltelijk af te zien van de in het eerste lid van artikel 101 vermelde terugvordering.</p>",
+          "<blockquote class=\"case-quote\">\"Het loutere feit\", zo wordt in de omzendbrief gesteld, \"dat zonder voorafgaande toestemming een activiteit is hervat mag niet zonder meer worden gelijkgesteld met bedrieglijk opzet in welk geval dus geen beroep op deze bijzondere regeling kan worden gedaan. Het bedrieglijk opzet moet, volgens de parlementaire voorbereiding van de wet, blijken uit het gekarakteriseerd bedrog dat met name kan worden afgeleid uit het gebruik van valse stukken of van valse verklaringen\".</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-004",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-004",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-006",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-007",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-008"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">6. De stelling van het Rijksinstituut voor Ziekte en Invaliditeitsverzekering, geformuleerd in ondergeschikte orde, dat de onverschuldigd betaalde uitkeringen in ieder geval ten laste moeten blijven van de Landsbond der Onafhankelijke Ziekenfondsen, omdat zij het gevolg zijn van een tekortkoming van de Landsbond en geen vrijstelling werd aangevraagd van de inschrijving in de administratiekosten, overeenkomstig de geëigende procedure zoals die voorzien is door de artikelen 325 e.v. van het Koninklijk Besluit van 3 juli 1976, kan niet gevolgd worden. In de eerste plaats dient vastgesteld te worden dat de bestreden administratieve akte geen dergelijke beslissing inhield. Wanneer de rechtbank of het hof gevat worden door de betwisting van een administratieve rechtshandeling, dan is in de regel de ‘saisine' van de rechter beperkt tot hetgeen het voorwerp uitmaakt van deze administratieve akte. De administratieve overheid kan niet door een tegenvordering of incidentele vordering aan het hof vragen uitspraak te doen over een beslissing die nooit genomen werd.</p>",
+          "<p class=\"case-section__paragraph\">8. Artikel 325 van het Koninklijk Besluit van 3 juli 1976 bepaalt, in uitvoering van artikel 164 van de gecoördineerde wetten, het precieze ogenblik waarop de onverschuldigd betaalde prestaties moeten geboekt worden op de bijzondere rekening, in functie van de wijze waarop de onverschuldigde prestaties zijn vastgesteld geworden. Artikel 326 bepaalt dat na inschrijving op de bijzondere rekening, de prestaties dienen teruggevorderd te worden binnen een termijn van twee jaar. Volgens artikel 327 worden de bedragen van de ten onrechte betaalde prestaties, die nog niet zijn teruggevorderd binnen drie maanden na het aflopen van de termijn bepaald in artikel 326, afgeschreven door ze als administratiekosten te boeken. Uit de samenlezing van deze bepalingen blijkt dat, wanneer een prestatie niet moet ingeschreven worden op de bijzondere rekening omdat, zoals in casu, de verplichting tot inschrijving op de bijzondere rekening verjaard was, de verplichting tot boeking van de prestaties - die niet moesten teruggevorderd worden - in de administratiekosten ook geen wettelijke grondslag kan vinden in de bepalingen van de gecoördineerde wetten van 14 juli 1994 en van het uitvoeringsbesluit van 3 juli 1976. (Cfr. bij analogie Cass. 22.12.2008, S.08.0059.F ECLI:BE:CASS:2008:ARR.20081222.5 ,Juridat, dat oordeelt dat wanneer, ingevolge de toepassing van het Handvest van de Sociaal Verzekerde, een prestatie niet kan teruggevorderd worden van de sociaal verzekerde, de verzekeringsinstelling ook niet kan verplicht worden om deze prestaties te boeken ten laste van haar administratiekosten.)</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-006",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-009",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-008",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-009",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Het Rijksinstituut voor Ziekte en Invaliditeitsverzekering vraagt de bevestiging van het bestreden vonnis op basis van de motieven die erin vervat zijn. Met verwijzing naar andere rechtspraak, dan deze aangehaald door de Landsbond der Onafhankelijke Ziekenfondsen, onderlijnt hij dat een normaal, voorzichtig en oplettende burger hoort te weten dat cumul van arbeidsinkomsten en uitkeringen wegens arbeidsongeschiktheid niet toegelaten is. Hij verwijst ook naar het inlichtingenblad dat de sociaal verzekerde moet invullen op het ogenblik dat hij arbeidsongeschiktheidsuitkeringen aanvraagt, en waarin deze zich ertoe verbindt om eventuele inkomsten mede te delen aan zijn mutualiteit. Het Rijksinstituut vraagt in ondergeschikte orde dat, indien het hof van oordeel zou zijn dat de vijfjarige termijn geen toepassing zou vinden, de Landsbond veroordeeld wordt om het gedeelte van de vordering dat verjaard is ten laste nemen als administratiekosten, overeenkomstig artikel 327,§ 2 van het Koninklijk Besluit van 3 juli 1996 tot uitvoering van gecoördineerde wetten van 14 juli 1994.</p>",
+          "<p class=\"case-section__paragraph\">8. Artikel 325 van het Koninklijk Besluit van 3 juli 1976 bepaalt, in uitvoering van artikel 164 van de gecoördineerde wetten, het precieze ogenblik waarop de onverschuldigd betaalde prestaties moeten geboekt worden op de bijzondere rekening, in functie van de wijze waarop de onverschuldigde prestaties zijn vastgesteld geworden. Artikel 326 bepaalt dat na inschrijving op de bijzondere rekening, de prestaties dienen teruggevorderd te worden binnen een termijn van twee jaar. Volgens artikel 327 worden de bedragen van de ten onrechte betaalde prestaties, die nog niet zijn teruggevorderd binnen drie maanden na het aflopen van de termijn bepaald in artikel 326, afgeschreven door ze als administratiekosten te boeken. Uit de samenlezing van deze bepalingen blijkt dat, wanneer een prestatie niet moet ingeschreven worden op de bijzondere rekening omdat, zoals in casu, de verplichting tot inschrijving op de bijzondere rekening verjaard was, de verplichting tot boeking van de prestaties - die niet moesten teruggevorderd worden - in de administratiekosten ook geen wettelijke grondslag kan vinden in de bepalingen van de gecoördineerde wetten van 14 juli 1994 en van het uitvoeringsbesluit van 3 juli 1976. (Cfr. bij analogie Cass. 22.12.2008, S.08.0059.F ECLI:BE:CASS:2008:ARR.20081222.5 ,Juridat, dat oordeelt dat wanneer, ingevolge de toepassing van het Handvest van de Sociaal Verzekerde, een prestatie niet kan teruggevorderd worden van de sociaal verzekerde, de verzekeringsinstelling ook niet kan verplicht worden om deze prestaties te boeken ten laste van haar administratiekosten.)</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-006",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-007",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-009",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-009",
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Het Rijksinstituut voor Ziekte en Invaliditeitsverzekering vraagt de bevestiging van het bestreden vonnis op basis van de motieven die erin vervat zijn. Met verwijzing naar andere rechtspraak, dan deze aangehaald door de Landsbond der Onafhankelijke Ziekenfondsen, onderlijnt hij dat een normaal, voorzichtig en oplettende burger hoort te weten dat cumul van arbeidsinkomsten en uitkeringen wegens arbeidsongeschiktheid niet toegelaten is. Hij verwijst ook naar het inlichtingenblad dat de sociaal verzekerde moet invullen op het ogenblik dat hij arbeidsongeschiktheidsuitkeringen aanvraagt, en waarin deze zich ertoe verbindt om eventuele inkomsten mede te delen aan zijn mutualiteit. Het Rijksinstituut vraagt in ondergeschikte orde dat, indien het hof van oordeel zou zijn dat de vijfjarige termijn geen toepassing zou vinden, de Landsbond veroordeeld wordt om het gedeelte van de vordering dat verjaard is ten laste nemen als administratiekosten, overeenkomstig artikel 327,§ 2 van het Koninklijk Besluit van 3 juli 1996 tot uitvoering van gecoördineerde wetten van 14 juli 1994.</p>",
+          "<p class=\"case-section__paragraph\">8. Artikel 325 van het Koninklijk Besluit van 3 juli 1976 bepaalt, in uitvoering van artikel 164 van de gecoördineerde wetten, het precieze ogenblik waarop de onverschuldigd betaalde prestaties moeten geboekt worden op de bijzondere rekening, in functie van de wijze waarop de onverschuldigde prestaties zijn vastgesteld geworden. Artikel 326 bepaalt dat na inschrijving op de bijzondere rekening, de prestaties dienen teruggevorderd te worden binnen een termijn van twee jaar. Volgens artikel 327 worden de bedragen van de ten onrechte betaalde prestaties, die nog niet zijn teruggevorderd binnen drie maanden na het aflopen van de termijn bepaald in artikel 326, afgeschreven door ze als administratiekosten te boeken. Uit de samenlezing van deze bepalingen blijkt dat, wanneer een prestatie niet moet ingeschreven worden op de bijzondere rekening omdat, zoals in casu, de verplichting tot inschrijving op de bijzondere rekening verjaard was, de verplichting tot boeking van de prestaties - die niet moesten teruggevorderd worden - in de administratiekosten ook geen wettelijke grondslag kan vinden in de bepalingen van de gecoördineerde wetten van 14 juli 1994 en van het uitvoeringsbesluit van 3 juli 1976. (Cfr. bij analogie Cass. 22.12.2008, S.08.0059.F ECLI:BE:CASS:2008:ARR.20081222.5 ,Juridat, dat oordeelt dat wanneer, ingevolge de toepassing van het Handvest van de Sociaal Verzekerde, een prestatie niet kan teruggevorderd worden van de sociaal verzekerde, de verzekeringsinstelling ook niet kan verplicht worden om deze prestaties te boeken ten laste van haar administratiekosten.)</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-007",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-006",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-009"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">7. Overeenkomstig artikel 164, al. 4 van de gecoördineerde wetten van 14 juli 1994 dienen de verzekeringsinstellingen de ten onrechte betaalde prestaties op een bijzondere rekening te boeken. Die prestaties worden teruggevorderd door de verzekeringsinstelling die ze heeft toegekend binnen de door de Koning bepaalde termijnen en met alle middelen, de gerechtelijke inbegrepen. Overeenkomstig artikel 174, al. 1, 7° dient, na een termijn van twee jaar, met ingang van het einde van de maand waarin een prestatie op onrechtmatige wijze door een verzekeringsinstelling betaald is, deze niet meer te worden geboekt in de door artikel 164 bedoelde bijzondere rekening. Overeenkomstig artikel 174, al. 3 gelden de in alinea 1, 5°, 6° en 7° van deze bepaling bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen waarvoor hij wie ze tot baat strekten verantwoordelijk is. In dat geval bedraagt de verjaringstermijn vijf jaar. Er bestaat aldus een parallellisme tussen enerzijds de regels inzake de terugvordering van de onverschuldigd betaalde uitkeringen of prestaties van de verzekering geneeskundige verzorging en de verplichting tot inschrijving in de bijzondere rekening. Wanneer in de relaties tussen de verzekeringsinstelling en de verzekerde de tweejarige verjaring van toepassing is, dan geldt ook de tweejarige verjaring voor de inschrijving in de bijzondere rekening. Wanneer in relatie tussen verzekeringsinstelling en verzekerde de vijfjarige verjaringstermijn van toepassing is, dan geldt die vijfjarige verjaring ook voor de inschrijving in de bijzondere rekening. Vermits het hof geoordeeld heeft dat de tweejarige verjaringstermijn van toepassing was in de verhouding tussen de verzekerde en de verzekeringsinstelling, is de tweejarige verjaringstermijn dan ook in huidige betwisting van toepassing in de relatie tussen de Landsbond en het Rijksinstituut. Het betwiste controleverslag dagtekent van 16 juni 2010. De onverschuldigde prestaties, betaald in de periode oktober 2007 tot 31 mei 2008, waren dan verjaard, ook voor de inschrijving op de bijzondere rekening.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-008",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-009"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">8. Artikel 325 van het Koninklijk Besluit van 3 juli 1976 bepaalt, in uitvoering van artikel 164 van de gecoördineerde wetten, het precieze ogenblik waarop de onverschuldigd betaalde prestaties moeten geboekt worden op de bijzondere rekening, in functie van de wijze waarop de onverschuldigde prestaties zijn vastgesteld geworden. Artikel 326 bepaalt dat na inschrijving op de bijzondere rekening, de prestaties dienen teruggevorderd te worden binnen een termijn van twee jaar. Volgens artikel 327 worden de bedragen van de ten onrechte betaalde prestaties, die nog niet zijn teruggevorderd binnen drie maanden na het aflopen van de termijn bepaald in artikel 326, afgeschreven door ze als administratiekosten te boeken. Uit de samenlezing van deze bepalingen blijkt dat, wanneer een prestatie niet moet ingeschreven worden op de bijzondere rekening omdat, zoals in casu, de verplichting tot inschrijving op de bijzondere rekening verjaard was, de verplichting tot boeking van de prestaties - die niet moesten teruggevorderd worden - in de administratiekosten ook geen wettelijke grondslag kan vinden in de bepalingen van de gecoördineerde wetten van 14 juli 1994 en van het uitvoeringsbesluit van 3 juli 1976. (Cfr. bij analogie Cass. 22.12.2008, S.08.0059.F ECLI:BE:CASS:2008:ARR.20081222.5 ,Juridat, dat oordeelt dat wanneer, ingevolge de toepassing van het Handvest van de Sociaal Verzekerde, een prestatie niet kan teruggevorderd worden van de sociaal verzekerde, de verzekeringsinstelling ook niet kan verplicht worden om deze prestaties te boeken ten laste van haar administratiekosten.)</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-009",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-005",
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2013:ARR.20131024.8-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">HET ARBEIDSHOF Gelet op de Wet van 15 juni 1935 op het taalgebruik in gerechtszaken, in het bijzonder op het artikel 24, Rechtsprekend op tegenspraak, Verklaart het hoger beroep ontvankelijk en gegrond. Hervormt het bestreden vonnis. Vernietigt de bestreden administratieve beslissing van 16 juni 2010 in zoverre zij de Landsbond der Onafhankelijke Ziekenfondsen oplegt tot terugvordering over te gaan van de onverschuldigd betaalde uitkeringen, waarvoor de tweejarige verjaringstermijn verstreken is. Veroordeelt de Rijksdienst voor Ziekte en Invaliditeitsverzekering tot de kosten van beide aanleggen, tot op heden begroot op 69,56 euro dagvaardingskosten, 240,50 euro rechtsplegingsvergoeding voor de arbeidsrechtbank en 320,65 euro rechtsplegingsvergoeding voor het hof. Aldus gewezen en ondertekend door de zevende kamer van het Arbeidshof te Brussel, samengesteld uit: Fernand KENIS, raadsheer, Ivo VAN DAMME, raadsheer in sociale zaken, werkgever, Karel GACOMS, raadsheer in sociale zaken, werknemer-arbeider, bijgestaan door : Sven VAN DER HOEVEN, griffier. Sven VAN DER HOEVEN Karel GACOMS Ivo VAN DAMME Fernand KENIS en uitgesproken op de openbare terechtzitting van donderdag 24 oktober 2013 door: Fernand KENIS, raadsheer, bijgestaan door Sven VAN DER HOEVEN, griffier. Sven VAN DER HOEVEN Fernand KENIS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2013:ARR.20131024.8-010"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 10,
+      "citationStatistics": {
+        "totalCitations": 19,
+        "avgCitationsPerProvision": 1.9,
+        "provisionsWithMinimalCitations": 9,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.9,
+        "avgDecisionsPerProvision": 3.7,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2013:ARR.20131024.8-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">3. Overeenkomstig artikel 174, 1e lid, 5° en 6° van de gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen, verjaart de vordering tot terugvordering van de waarde van de ten onrechte ten laste van de uitkeringsverzekering of ten laste van de verzekering voor geneeskundige verzorging verleende prestaties twee jaar na het einde van de maand waarin de prestaties zijn betaald. Overeenkomstig artikel 174, lid 4, van deze wet gelden de in 5°, 6° en 7°, bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen waarvoor hij wie ze tot baat strekken verantwoordelijk is. In een arrest van 4 december 2006 oordeelde het Hof van Cassatie dat het bestaan van bedrieglijke handelingen niet wettelijk kan worden afgeleid uit de enkele overweging dat de rechthebbende zich op de hoogte had kunnen stellen over zijn verplichtingen ten aanzien van zijn verzekeringsinstelling, noch uit de vaststelling dat de gerechtigde de voortzetting van een activiteit niet aan zijn verzekeringsinstelling heeft aangegeven (Cass. 4.12.2006, S.050071.F,Juridat). Het standpunt van het Hof van Cassatie wijkt af van de vroegere rechtspraak van de rechters ten gronde die vaak de bedrieglijke handeling afleidden uit het loutere feit dat er mocht van uitgegaan worden dat de verzekerde wist dat hij geen beroepsactiviteit mocht cumuleren met arbeidsongeschiktheidsuitkeringen, zonder er aangifte van te doen. De bedrieglijke handelingen, waarvan de wet spreekt, werden aldus afgeleid uit een bedrieglijk inzicht dat in de regel verondersteld werd aanwezig te zijn bij een cumulatie van uitkeringen met een activiteit. Vastgesteld moet worden dat de rechtspraak van het Hof van Cassatie beter aansluit bij de tekst van de wet en een vrij ruime steun gevonden heeft in de rechtspraak (cfr. Arbeidshof Mons, 18.02.2009, A.R. 20564, gewezen na het cassatiearrest van 4.12.2006, Arbh. Mons, 19 mei 2010, A.R. 2009/A.M./21.554, Arbh. Luik, 24.06.2008, A.R. 0365203/07, Arbrb. Luik, 9.07.2007, A.R. 321.999; Arbrb. Verviers, 14.06.2010, A.R. 09/1731.A) en in de rechtsleer (J.F. Funck, Droit de la sécurité sociale, De Boeck, 2006, p.73-74 ; Graulich, Massart en Dumont, « La révision, la récupération de l'indu et la prescription », in « Regards croisés sur la sécurité sociale », 2012, p. 93.) Verder moet vastgesteld worden dat het Beheerscomité van de Dienst voor Uitkeringen van het Rijksinstituut in een omzendbrief van 29 april 1992, naar aanleiding van de invoegetreding van de wet van 18 oktober 1991 die het vroegere artikel 56 van de wet van 9 augustus 1963 wijzigde (thans artikel 101 en 102 van de gecoördineerde wet) zelf een gelijkaardige invulling gaf aan het begrip \"bedrieglijk opzet\", dat bepalend is voor de mogelijkheid van het Beheerscomité om, in behartenswaardige gevallen, geheel of gedeeltelijk af te zien van de in het eerste lid van artikel 101 vermelde terugvordering.</p>",
+          "<blockquote class=\"case-quote\">\"Het loutere feit\", zo wordt in de omzendbrief gesteld, \"dat zonder voorafgaande toestemming een activiteit is hervat mag niet zonder meer worden gelijkgesteld met bedrieglijk opzet in welk geval dus geen beroep op deze bijzondere regeling kan worden gedaan. Het bedrieglijk opzet moet, volgens de parlementaire voorbereiding van de wet, blijken uit het gekarakteriseerd bedrog dat met name kan worden afgeleid uit het gebruik van valse stukken of van valse verklaringen\".</blockquote>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 6,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2013:ARR.20131024.8-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">4. Vermits de bestreden administratieve beslissing aan de Landsbond der Onafhankelijke Ziekenfondsen de verplichting oplegt om tot terugvordering over te gaan van de onverschuldigd betaalde uitkeringen, met inachtneming van de bijzondere verjaringstermijn van toepassing bij bedrieglijke handelingen, komt het aan de auteur van deze administratieve beslissing toe het bewijs bij te brengen van het bestaan van bedrieglijke handelingen. De bestreden beslissing beperkt zich tot de vaststelling dat de niet toegelaten activiteiten herhaaldelijk en over een lange periode werden uitgeoefend, zodat de frauduleuze intentie van de betrokkene moet worden weerhouden. Zij stelt aldus geen positieve handeling, of bijzonder opzet vast, onderscheiden van de loutere materiële inbreuk op de wet om geen aangifte gedaan te hebben. De loutere vaststelling dat de niet toegelaten activiteiten herhaaldelijk en over een lange periode werden uitgeoefend, volstaat op zich niet om tot het bestaan van een bedrieglijke handeling te besluiten. De duur van de werkhervatting wijst immers op zich niet op een bedrieglijk handelen in hoofde van de verzekerde. De bedrieglijke handeling of het bedrieglijk opzet, of de afwezigheid ervan, kan bestaan zowel bij een korte als bij een langere werkhervatting. De duur van de werkhervatting kan eventueel wel een rol spelen bij de administratieve sanctie die aan de verzekerde kan opgelegd worden. De duur van de werkhervatting zal anderzijds bepalend zijn voor de omvang van de prestaties die de verzekerde moet terugbetalen. Het hof kan ook in het dossier geen elementen vinden die wijzen op een bedrieglijk handelen. Met name werd de werkhervatting niet bewust verborgen gehouden, vermits het om een aangegeven werkhervatting gaat, die overigens in principe door de Landsbond der Onafhankelijke Ziekenfondsen heel snel had kunnen vastgesteld worden aan de hand van de elektronische bijdragebons. Ten overvloede moet opgemerkt worden dat, zoals de Landsbond terecht opmerkt, de omvang van de tewerkstelling moet gerelativeerd worden. Zij is weliswaar gespreid over een periode van 8 maanden, maar in deze periode werden slechts 66 dagen arbeidsprestaties verricht op deeltijdse basis. De hypothese kan niet uitgesloten worden dat de verzekerde, die na deze periode geen prestaties meer verrichtte, enkel heeft willen nagaan in welke mate een werkhervatting mogelijk was. Daarvoor moest zij uiteraard wel de toestemming van de adviserend geneesheer vragen, maar het staat niet vast dat de verzekerde bewust nagelaten heeft deze toelating te vragen. Het bedrieglijk handelen of het bedrieglijk inzicht kan ook niet afgeleid worden uit de omstandigheid dat de verzekerde met kennis van zaken het inkomen uit de niet toegelaten arbeid ontvangen heeft en het voordeel daarvan genoten heeft.</p>",
+          "<p class=\"case-section__paragraph\">3. Overeenkomstig artikel 174, 1e lid, 5° en 6° van de gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen, verjaart de vordering tot terugvordering van de waarde van de ten onrechte ten laste van de uitkeringsverzekering of ten laste van de verzekering voor geneeskundige verzorging verleende prestaties twee jaar na het einde van de maand waarin de prestaties zijn betaald. Overeenkomstig artikel 174, lid 4, van deze wet gelden de in 5°, 6° en 7°, bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen waarvoor hij wie ze tot baat strekken verantwoordelijk is. In een arrest van 4 december 2006 oordeelde het Hof van Cassatie dat het bestaan van bedrieglijke handelingen niet wettelijk kan worden afgeleid uit de enkele overweging dat de rechthebbende zich op de hoogte had kunnen stellen over zijn verplichtingen ten aanzien van zijn verzekeringsinstelling, noch uit de vaststelling dat de gerechtigde de voortzetting van een activiteit niet aan zijn verzekeringsinstelling heeft aangegeven (Cass. 4.12.2006, S.050071.F,Juridat). Het standpunt van het Hof van Cassatie wijkt af van de vroegere rechtspraak van de rechters ten gronde die vaak de bedrieglijke handeling afleidden uit het loutere feit dat er mocht van uitgegaan worden dat de verzekerde wist dat hij geen beroepsactiviteit mocht cumuleren met arbeidsongeschiktheidsuitkeringen, zonder er aangifte van te doen. De bedrieglijke handelingen, waarvan de wet spreekt, werden aldus afgeleid uit een bedrieglijk inzicht dat in de regel verondersteld werd aanwezig te zijn bij een cumulatie van uitkeringen met een activiteit. Vastgesteld moet worden dat de rechtspraak van het Hof van Cassatie beter aansluit bij de tekst van de wet en een vrij ruime steun gevonden heeft in de rechtspraak (cfr. Arbeidshof Mons, 18.02.2009, A.R. 20564, gewezen na het cassatiearrest van 4.12.2006, Arbh. Mons, 19 mei 2010, A.R. 2009/A.M./21.554, Arbh. Luik, 24.06.2008, A.R. 0365203/07, Arbrb. Luik, 9.07.2007, A.R. 321.999; Arbrb. Verviers, 14.06.2010, A.R. 09/1731.A) en in de rechtsleer (J.F. Funck, Droit de la sécurité sociale, De Boeck, 2006, p.73-74 ; Graulich, Massart en Dumont, « La révision, la récupération de l'indu et la prescription », in « Regards croisés sur de la sécurité sociale », 2012, p. 93.) Verder moet vastgesteld worden dat het Beheerscomité van de Dienst voor Uitkeringen van het Rijksinstituut in een omzendbrief van 29 april 1992, naar aanleiding van de invoegetreding van de wet van 18 oktober 1991 die het vroegere artikel 56 van de wet van 9 augustus 1963 wijzigde (thans artikel 101 en 102 van de gecoördineerde wet) zelf een gelijkaardige invulling gaf aan het begrip \"bedrieglijk opzet\", dat bepalend is voor de mogelijkheid van het Beheerscomité om, in behartenswaardige gevallen, geheel of gedeeltelijk af te zien van de in het eerste lid van artikel 101 vermelde terugvordering.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2013:ARR.20131024.8-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">3. Overeenkomstig artikel 174, 1e lid, 5° en 6° van de gecoördineerde wetten van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen, verjaart de vordering tot terugvordering van de waarde van de ten onrechte ten laste van de uitkeringsverzekering of ten laste van de verzekering voor geneeskundige verzorging verleende prestaties twee jaar na het einde van de maand waarin de prestaties zijn betaald. Overeenkomstig artikel 174, lid 4, van deze wet gelden de in 5°, 6° en 7°, bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen waarvoor hij wie ze tot baat strekken verantwoordelijk is. In een arrest van 4 december 2006 oordeelde het Hof van Cassatie dat het bestaan van bedrieglijke handelingen niet wettelijk kan worden afgeleid uit de enkele overweging dat de rechthebbende zich op de hoogte had kunnen stellen over zijn verplichtingen ten aanzien van zijn verzekeringsinstelling, noch uit de vaststelling dat de gerechtigde de voortzetting van een activiteit niet aan zijn verzekeringsinstelling heeft aangegeven (Cass. 4.12.2006, S.050071.F,Juridat). Het standpunt van het Hof van Cassatie wijkt af van de vroegere rechtspraak van de rechters ten gronde die vaak de bedrieglijke handeling afleidden uit het loutere feit dat er mocht van uitgegaan worden dat de verzekerde wist dat hij geen beroepsactiviteit mocht cumuleren met arbeidsongeschiktheidsuitkeringen, zonder er aangifte van te doen. De bedrieglijke handelingen, waarvan de wet spreekt, werden aldus afgeleid uit een bedrieglijk inzicht dat in de regel verondersteld werd aanwezig te zijn bij een cumulatie van uitkeringen met een activiteit. Vastgesteld moet worden dat de rechtspraak van het Hof van Cassatie beter aansluit bij de tekst van de wet en een vrij ruime steun gevonden heeft in de rechtspraak (cfr. Arbeidshof Mons, 18.02.2009, A.R. 20564, gewezen na het cassatiearrest van 4.12.2006, Arbh. Mons, 19 mei 2010, A.R. 2009/A.M./21.554, Arbh. Luik, 24.06.2008, A.R. 0365203/07, Arbrb. Luik, 9.07.2007, A.R. 321.999; Arbrb. Verviers, 14.06.2010, A.R. 09/1731.A) en in de rechtsleer (J.F. Funck, Droit de la sécurité sociale, De Boeck, 2006, p.73-74 ; Graulich, Massart en Dumont, « La révision, la récupération de l'indu et la prescription », in « Regards croisés op de sécurité sociale », 2012, p. 93.) Verder moet vastgesteld worden dat het Beheerscomité van de Dienst voor Uitkeringen van het Rijksinstituut in een omzendbrief van 29 april 1992, naar aanleiding van de invoegetreding van de wet van 18 oktober 1991 die het vroegere artikel 56 van de wet van 9 augustus 1963 wijzigde (thans artikel 101 en 102 van de gecoördineerde wet) zelf een gelijkaardige invulling gaf aan het begrip \"bedrieglijk opzet\", dat bepalend is voor de mogelijkheid van het Beheerscomité om, in behartenswaardige gevallen, geheel of gedeeltelijk af te zien van de in het eerste lid van artikel 101 vermelde terugvordering.</p>",
+          "<p class=\"case-section__paragraph\">7. Overeenkomstig artikel 164, al. 4 van de gecoördineerde wetten van 14 juli 1994 dienen de verzekeringsinstellingen de ten onrechte betaalde prestaties op een bijzondere rekening te boeken. Die prestaties worden teruggevorderd door de verzekeringsinstelling die ze heeft toegekend binnen de door de Koning bepaalde termijnen en met alle middelen, de gerechtelijke inbegrepen. Overeenkomstig artikel 174, al. 1, 7° dient, na een termijn van twee jaar, met ingang van het einde van de maand waarin een prestatie op onrechtmatige wijze door een verzekeringsinstelling betaald is, deze niet meer te worden geboekt in de door artikel 164 bedoelde bijzondere rekening. Overeenkomstig artikel 174, al. 3 gelden de in alinea 1, 5°, 6° en 7° van deze bepaling bedoelde verjaringen niet als het ten onrechte verlenen van prestaties het gevolg is van bedrieglijke handelingen waarvoor hij wie ze tot baat strekten verantwoordelijk is. In dat geval bedraagt de verjaringstermijn vijf jaar. Er bestaat aldus een parallellisme tussen enerzijds de regels inzake de terugvordering van de onverschuldigd betaalde uitkeringen of prestaties van de verzekering geneeskundige verzorging en de verplichting tot inschrijving in de bijzondere rekening. Wanneer in de relaties tussen de verzekeringsinstelling en de verzekerde de tweejarige verjaring van toepassing is, dan geldt ook de tweejarige verjaring voor de inschrijving in de bijzondere rekening. Wanneer in relatie tussen verzekeringsinstelling en verzekerde de vijfjarige verjaringstermijn van toepassing is, dan geldt die vijfjarige verjaring ook voor de inschrijving in de bijzondere rekening. Vermits het hof geoordeeld heeft dat de tweejarige verjaringstermijn van toepassing was in de verhouding tussen de verzekerde en de verzekeringsinstelling, is de tweejarige verjaringstermijn dan ook in huidige betwisting van toepassing in de relatie tussen de Landsbond en het Rijksinstituut. Het betwiste controleverslag dagtekent van 16 juni 2010. De onverschuldigde prestaties, betaald in de periode oktober 2007 tot 31 mei 2008, waren dan verjaard, ook voor de inschrijving op de bijzondere rekening.</p>",
+          "<p class=\"case-section__paragraph\">8. Artikel 325 van het Koninklijk Besluit van 3 juli 1976 bepaalt, in uitvoering van artikel 164 van de gecoördineerde wetten, het precieze ogenblik waarop de onverschuldigd betaalde prestaties moeten geboekt worden op de bijzondere rekening, in functie van de wijze waarop de onverschuldigde prestaties zijn vastgesteld geworden. Artikel 326 bepaalt dat na inschrijving op de bijzondere rekening, de prestaties dienen teruggevorderd te worden binnen een termijn van twee jaar. Volgens artikel 327 worden de bedragen van de ten onrechte betaalde prestaties, die nog niet zijn teruggevorderd binnen drie maanden na het aflopen van de termijn bepaald in artikel 326, afgeschreven door ze als administratiekosten te boeken. Uit de samenlezing van deze bepalingen blijkt dat, wanneer een prestatie niet moet ingeschreven worden op de bijzondere rekening omdat, zoals in casu, de verplichting tot inschrijving op de bijzondere rekening verjaard was, de verplichting tot boeking van de prestaties - die niet moesten teruggevorderd worden - in de administratiekosten ook geen wettelijke grondslag kan vinden in de bepalingen van de gecoördineerde wetten van 14 juli 1994 en van het uitvoeringsbesluit van 3 juli 1976. (Cfr. bij analogie Cass. 22.12.2008, S.08.0059.F ECLI:BE:CASS:2008:ARR.20081222.5 ,Juridat, dat oordeelt dat wanneer, ingevolge de toepassing van het Handvest van de Sociaal Verzekerde, een prestatie niet kan teruggevorderd worden van de sociaal verzekerde, de verzekeringsinstelling ook niet kan verplicht worden om deze prestaties te boeken ten laste van haar administratiekosten.)</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 5,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 2.3333333333333335,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 8,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 8,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

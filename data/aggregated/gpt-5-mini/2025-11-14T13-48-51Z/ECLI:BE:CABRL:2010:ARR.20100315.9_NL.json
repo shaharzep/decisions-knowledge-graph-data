@@ -1,0 +1,641 @@
+{
+  "decision_id": "ECLI:BE:CABRL:2010:ARR.20100315.9",
+  "language": "NL",
+  "metadata": {
+    "id": 150945,
+    "court_ecli_code": "CABRL",
+    "court_name": "Hof van Beroep te Brussel",
+    "decision_date": "2010-03-15",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 18215,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Hof van Beroep te Brussel, 15 maart 2010, Arrest nr. 2006AR3131, ECLI:BE:CABRL:2010:ARR.20100315.9"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+        "name": "De heer A. D.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2010:ARR.20100315.9-002",
+        "name": "De heer A. D. en Mevrouw D. V.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "GEÏNTIMEERDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+        "name": "STAD HALLE",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Eerste geïntimeerden (eigenaar en echtgenote) zijn eigenaar van een woning te Halle aan de Lenniksesteenweg nr. 385. In 1999 en 2000 werden zij herhaaldelijk slachtoffer van overstromingen en modderstromen afkomstig van velden gelegen tegenover hun woning, die toebehoren aan appellant, die vrijwillig tussenkwam in het geding. Incidenten vonden plaats op 30 mei 1999, 3 juni 1999, 14 augustus 1999, 6 mei 2000 en 21 mei 2000. Eerste geïntimeerden dagvaardden aanvankelijk de Stad Halle wegens vermeend gebrekkige rioleringsopvang; zij vorderden aanvankelijk €9.035,12 en de aanstelling van een deskundige. Bij tussenvonnis van 2 januari 2003 werd architect R. Dierickx als deskundige aangesteld; het deskundigenverslag werd neergelegd op 8 december 2004. Na neerlegging van het verslag eisten eerste geïntimeerden solidaire veroordeling van de Stad Halle en appellant, vergoeding van advocatenkosten en kosten van deskundigenonderzoek. De rechtbank van eerste aanleg verklaarde de hoofdvordering ontvankelijk doch ongegrond ten aanzien van de Stad Halle en ontvankelijk en gedeeltelijk gegrond ten aanzien van appellant en veroordeelde appellant tot betaling van €6.050 plus intresten; appellant stelde hoger beroep. De deskundige concludeerde dat de overstromingen veroorzaakt waren door omvangrijke modderstromen afkomstig van de velden van appellant die de rioleringen verstopt hadden; de riolering was primair bestemd om water te verwerken en niet om grote modderstromen te ontvangen. De Stad voerde onder meer aan dat artikel 640 B.W. van toepassing is, dat zij alle redelijke maatregelen had genomen, dat er overmacht zou zijn geweest en dat het rioleringsnet geen abnormaal kenmerk vertoonde.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+          "requests": "Appellant vordert dat het hoger beroep ontvankelijk doch gegrond wordt verklaard en alle vorderingen tegen hem ontvankelijk doch ongegrond worden verklaard."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20100315.9-002",
+          "requests": "Eerste geïntimeerden vorderen vergoeding van schade ten belope van €9.035,12 (na deskundigenverslag vorderen zij solidaire veroordeling tegen Stad Halle en appellant, vergoeding van gerechts- en deskundigenkosten en vergoedende intresten op de gevorderde bedragen)."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+          "requests": "De Stad Halle vordert in hoofdorde dat de vordering ongegrond wordt verklaard; bij wijze van tegeneis vordert zij betaling van haar advocatenkosten (voorlopig begroot op €1) op een tegenvordering van €5.000 en, in ondergeschikte orde, vrijwaring tegen appellant (later dringt zij niet meer aan op vergoeding van advocatenkosten)."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20100315.9-002",
+          "argument": "Eerste geïntimeerden steunen hun vordering op artikel 1382-1383 B.W. en artikel 1384, lid 1 B.W.; zij stellen dat de Stad haar veiligheids- en onderhoudsplicht niet heeft nageleefd en dat de riolering ongeschikt en gebrekkig was om de overlast op te vangen. Voorts vorderen zij solidaire aansprakelijkheid van Stad Halle en appellant wegens de schade veroorzaakt door de modderstromen en vragen vergoeding van materiële schade, genotsderving en morele schade. Na neerlegging van het deskundigenverslag vorderen zij vergoedende intresten op de gevorderde bedragen.",
+          "treatment": "GEDEELTELIJK_AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+          "argument": "Appellant betoogt dat hem geen persoonlijke fout kan worden aangerekend; hij wijst op het gebruik van zijn gronden voor teelten zoals voorheen zonder wijziging en voert aan dat de overlast het gevolg was van weersomstandigheden (overmacht) of van tekortkomingen die niet aan hem kunnen worden toegerekend. Hij bestrijdt aansprakelijkheid en vorderingen zoals geformuleerd door eerste geïntimeerden en stelt dat de deskundige geen grond heeft aangetoond voor een persoonlijke fout van zijnentwege.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+          "argument": "De Stad Halle voert aan dat het geschil primair een burenkwestie is (artikel 640 B.W.), dat zij alle redelijke maatregelen heeft getroffen en dat het rioleringsnet geen abnormaal kenmerk vertoonde; zij betwist aansprakelijkheid en beroept zich op overmacht voor de dagen van extreme neerslag. Zij betoogt tevens dat het deskundigenverslag nietig zou zijn wegens schending van verdedigingrechten (te korte termijn voor opmerkingen en gehaast eindverslag).",
+          "treatment": "VERWORPEN"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN :\n\nHET HOF, Rechtdoende op tegenspraak,\n\nGelet op artikel 24 van de wet van 15 juni 1935 op het taalgebruik in gerechtszaken;\n\nVerklaart het hoger beroep ontvankelijk doch ongegrond.\n\nVerklaart het incidenteel beroep ontvankelijk en gedeeltelijk gegrond.\n\nHervormt het bestreden vonnis behoudens in zoverre hierin de vordering van eerste geïntimeerden tegen de Stad Halle ontvankelijk doch ongegrond wordt verklaard, de vordering van eerste geïntimeerden tegen appellant ontvankelijk en gedeeltelijk gegrond wordt verklaard en de kosten begroot worden,\n\nEn opnieuw rechtsprekende voor het overige,\n\nVeroordeelt appellant om te betalen aan eerste geïntimeerden het bedrag van ZEVENDUIZEND DRIEHONDERD EURO (7.300 euro ) plus de vergoedende intresten aan de wettelijke intrestvoet vanaf 21 mei 2000 tot aan de datum van huidig arrest waarna vermeerderd met de gerechtelijke intresten aan dezelfde intrestvoet.\n\nVerklaart de vordering in vrijwaring van de Stad Halle tegen appellant zonder voorwerp.\n\nGeeft akte aan de Stad Halle dat zij niet verder meer aandringt wat haar vordering betreft tot betaling van de kosten van gerechtelijke en juridische bijstand.\n\nVeroordeelt eerste geïntimeerden in de kosten van beide aanleggen in hoofde van de Stad Halle en veroordeelt appellant in de kosten van beide aanleggen in hoofde van eerste geïntimeerden,deze van eerste aanleg zoals begroot in het vonnis a quo en deze van het hoger beroep in hun geheel begroot\n\n- in hoofde van appellant op euro 1.086 (186 rolrecht + 900 rechtsplegingsvergoeding),\n- in hoofde van eerste geïntimeerden op euro 900 rechtsplegingsvergoeding en\n- in hoofde van de Stad HALLE op euro 900 rechtsplegingsvergoeding.",
+      "outcome": "HERVORMING"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:20100315.9-001",
+        "provisionNumber": "artikel 1384, lid 1",
+        "provisionNumberKey": "1384",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat percelen die bij regen grote hoeveelheden modder doen ontsnappen waardoor rioleringen in korte tijd verstoppen en het wegdek overspoelen, een abnormaal kenmerk vertonen en derhalve als gebrekkig in de zin van artikel 1384, lid 1 B.W. moeten worden beschouwd; dit rechtvaardigt aansprakelijkheid jegens lagere eigenaars voor de door die moddertoevoer veroorzaakte schade.",
+        "relevantFactualContext": "Modderstromen afkomstig van de hoger gelegen velden van appellant hebben bij meerdere gebeurtenissen (1999-2000) de rioleringen volledig verstopt en de openbare weg en woning van eerste geïntimeerden overspoeld."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-002",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+        "provisionNumber": "artikel 640, lid 1",
+        "provisionNumberKey": "640",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verklaart dat de regel van artikel 640, lid 1 (lager gelegen erven moeten normaal het van hoger gelegen erven afvloeiende water ontvangen) niet meebrengt dat lagere eigenaars extreme en massale modderaanvoer moeten dulden; de toepassing van artikel 640 doet niets af aan de beoordeling onder artikel 1384 wanneer sprake is van abnormale modderstromen.",
+        "relevantFactualContext": "De Stad beriep zich op artikel 640, maar het Hof merkt op dat de moddertoevoer dusdanig hevig was dat rioleringen verstopt raakten en het wegdek overspoeld werd, hetgeen de normale waterontvangst ver overstijgt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+        "provisionNumber": "artikel 1382",
+        "provisionNumberKey": "1382",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof bevestigt dat artikel 1382 B.W. aansprakelijkheid op basis van persoonlijke fout vereist; omdat uit het deskundigenverslag blijkt dat appellant zijn grond ongewijzigd gebruikte en geen individuele fout kan worden toegerekend, is de vordering op grond van artikel 1382 tegen appellant ongegrond.",
+        "relevantFactualContext": "Deskundigenverslag vermeldt dat appellant de gronden bleef gebruiken voor teelten zonder wijziging in het gebruik; er zijn geen aanwijzingen dat appellant door een specifieke fout de modderstromen heeft veroorzaakt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-004",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+        "provisionNumber": "artikel 1383",
+        "provisionNumberKey": "1383",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof behandelt artikel 1383 samen met artikel 1382 en oordeelt dat ook onder 1383 de vereiste van schuld of fout dient te worden aangetoond; in casu is geen schuld van appellant bewezen zodat aanspraak op grond van artikel 1383 faalt.",
+        "relevantFactualContext": "Het deskundigenverslag toont aan dat de modderoverlast samenhangt met het gebruikstype van de percelen (teelten) en niet met een specifieke foutieve handeling van appellant."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-005",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+        "provisionNumber": "artikel 544",
+        "provisionNumberKey": "544",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-006",
+        "internalParentActId": "ACT-ECLI:BE:CABRL:2010:ARR.20100315.9-002",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "de wet van 15 juni 1935 op het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van eerste aanleg te Brussel",
+        "date": "2006-09-21",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20100315.9-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep te Brussel",
+        "date": "2006-11-21",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20100315.9-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep te Brussel",
+        "date": "2007-02-21",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20100315.9-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep te Brussel",
+        "date": "2007-03-28",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20100315.9-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep te Brussel",
+        "date": "2007-06-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20100315.9-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep te Brussel",
+        "date": "2010-01-18",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20100315.9-006"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 7,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van eerste aanleg te Brussel",
+        "date": "2003-01-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20100315.9-007"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 8,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van eerste aanleg te Brussel",
+        "date": "2002-05-21",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CABRL:2010:ARR.20100315.9-008"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Aansprakelijkheidsrecht",
+      "Modderstromen",
+      "Overstroming weg",
+      "Hoger gelegen percelen",
+      "Verstopping riolering",
+      "Aansprakelijkheid gemeente",
+      "Aansprakelijkheid eigenaar",
+      "Objectieve aansprakelijkheid",
+      "Overmacht",
+      "Agrarisch gebruik"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+        "text": "Percelen waarvan bij regen grote hoeveelheden modder ontsnappen die in korte tijd rioleringen verstoppen en het wegdek overspoelen, vertonen een abnormaal kenmerk en moeten als gebrekkig worden beschouwd in de zin van artikel 1384, lid 1 B.W.; de toepassing van artikel 640, lid 1 B.W. doet hieraan niets af en lagere eigenaars zijn niet verplicht een dergelijke extreme modderaanvoer te dulden.",
+        "courtVerbatim": "Percelen waarvan echter bij regenweer grote hoeveelheden modder ontsnappen die de rioleringen in de kortste tijd verstoppen en het wegdek overspoelen, vertonen een abnormaal kenmerk en zijn derhalve gebrekkig in de zin van artikel 1384, lid 1 B.W. Hieraan doet de toepassing van artikel 640, lid 1 B.W. niets af. Lager gelegen erven zijn weliswaar jegens de hoger gelegen erven gehouden het water te ontvangen dat daarvan buiten 's mensen toedoen natuurlijk afloopt wat niet impliceert dat de lager gelegen erven een dergelijke toevloed aan modder ook nog zouden dienen te ontvangen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer percelen bij regenmassaal modder doen aflopen die rioleringen snel verstoppen en lager gelegen erven of openbare wegen overspoelen.",
+        "relevantFactualContext": "Modderstromen afkomstig van de hoger gelegen velden van appellant hebben bij meerdere gebeurtenissen (1999-2000) de rioleringen volledig verstopt en de openbare weg en woning van eerste geïntimeerden overspoeld.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20100315.9-002",
+        "text": "Een stedelijk rioleringssysteem is bestemd om water op te vangen en behoeft niet te zijn ontworpen om grote modderstromen te verwerken; de onderhoudsplicht van de stad verplicht niet tot ingrijpende wijzigingen in aanleg (zoals het graven van grachten) en maakt de stad niet aansprakelijk voor schade door plotse, massale modderaanvoer tenzij is bewezen dat het rioleringsnet zelf gebrekkig of verwaarloosd was.",
+        "courtVerbatim": "Een rioleringssysteem dient enkel om water op te vangen en hierbij dient niet voorzien te worden dat grote modderstromen erop afkomen. Het bestaande rioleringsnet vertoonde bijgevolg geen gebrekkig karakter. De onderhoudsplicht van de Stad voortvloeiende uit de wet van 10 april 1841 verplicht deze overigens niet tot het graven van grachten, wat een wijziging in de aanleg betreft en niet behoort tot het onderhoud. Het feit dat de Stad Halle op eigen initiatief overging tot het graven van grachten maakt een loutere welwillendheid uit … Er kan de Stad evenmin verweten worden het bestaande rioleringssysteem zelf onvoldoende onderhouden te hebben en dus verwaarloosd te hebben. Dit blijkt nergens uit. De schade werd bovendien veroorzaakt door een plotse toestroom van modder die de riolering verstopten wat niets met onderhoud van rioleringen te maken heeft.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer massale modderaanvoer van buitenaf de riolering verstopt en er geen aanwijzingen bestaan dat het rioleringsnet zelf gebrekkig was of onvoldoende onderhouden werd.",
+        "relevantFactualContext": "Foto's en het deskundigenverslag tonen dat moddertoevoer zo ernstig was dat de openbare weg gevaarlijk glad en volledig door modder overspoeld was; vóór mei 1999 bestonden geen problemen, en latere verbeteringen door de Stad leidden tot afname van overlast.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+        "text": "Aansprakelijkheid op grond van artikel 1382 en 1383 B.W. vereist bewijs van persoonlijke schuld of fout; voortzetting van een normaal gebruik van eigendom zonder wijziging of zonder specifieke foutelijke handeling is op zichzelf geen grond voor persoonlijke aansprakelijkheid onder deze artikelen.",
+        "courtVerbatim": "Eerste geïntimeerden steunen deze vordering tevens op artikel 1382 - 1383 B.W. … De deskundige stelt in zijn verslag dat de problematiek van de modderstroom zich stelt bij het gebruik van de grond door partij D. omdat de grond wordt gebruikt voor teelten en gewassen en niet als weide. Hij voegt er weliswaar aan toe dat appellant aan het gebruik van zijn gronden niets veranderde en steeds op dezelfde wijze hierop gewassen kweekte. Aan appellant kan bijgevolg geen persoonlijke fout verweten worden. De vordering is dan ook ongegrond in zoverre gestoeld op artikel 1382 - 1383 B.W.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een eiser een vordering instelt wegens schade veroorzaakt door het gebruik van andermans grond en betoogt dat dit door een fout van de eigenaar gebeurde.",
+        "relevantFactualContext": "Het deskundigenverslag vermeldt dat appellant zijn gronden op dezelfde wijze bleef gebruiken (teelten) en dat er geen aanwijzingen zijn voor een specifieke fout of wijziging in gebruik die de modderstromen heeft veroorzaakt.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20100315.9-004",
+        "text": "Overmacht ontslaat van aansprakelijkheid alleen indien de gebeurtenis onvoorzien en onafwendbaar is, de partij die zich op overmacht beroept er geen schuld aan heeft en zij zich heeft gedragen als een normaal voorzichtig persoon; degene die overmacht inroept draagt de bewijslast van de buitengewone aard en onvermijdbaarheid van het voorval.",
+        "courtVerbatim": "Ten onrechte beroept appellant zich op overmacht als schulduitsluitingsgrond. Nergens blijkt uit dat de regenbuien die aanleiding gaven tot water - en vooral modderoverlast buitengewoon waren. ... Overmacht heeft overigens enkel bevrijdende werking, indien de persoon die zich erop beroept er niet zelf schuld aan heeft en hij zich in de ontstane situatie gedragen heeft als een normaal voorzichtig persoon.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een verweerder zich beroept op overmacht wegens weers- of natuurevenementen die schade zouden hebben veroorzaakt.",
+        "relevantFactualContext": "Appellant voerde overmacht aan wegens hevige regenbuien in de periode van de modder- en wateroverlast, maar het hof stelt dat niet is aangetoond dat de regen buitengewoon of onafwendbaar was en dat latere stadsmaatregelen leidden tot beëindiging van de overlast.",
+        "principleType": "LEGAL_TEST",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 1,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 4,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eisers, eigenaars van een woning te Halle die herhaaldelijk werden getroffen door overstromingen en modderstromen afkomstig van hogere percelen, vorderden schadevergoeding tegen de overheid (Stad Halle) en tegen de naburige eigenaar (de verweerder). Het hof verklaart de vordering tegen de overheid ontvankelijk doch ongegrond omdat de riolering geen gebrek vertoonde en de schade veroorzaakt werd door modderstromen van private gronden, maar verklaart de vordering tegen de verweerder gedeeltelijk gegrond en veroordeelt hem tot betaling van €7.300 plus vergoedende intresten. Kernpunt: percelen waarvan bij regen uitzonderlijke modderafvloeiing ontstaat, vertonen een abnormaal kenmerk en maken de eigenaar aansprakelijk op grond van art. 1384, lid 1 BW; een beroep op overmacht wordt verworpen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Percelen waarvan echter bij regenweer grote hoeveelheden modder ontsnappen die de rioleringen in de kortste tijd verstoppen en het wegdek overspoelen, vertonen een abnormaal kenmerk en zijn derhalve gebrekkig in de zin van artikel 1384, lid 1 B.W. Hieraan doet de toepassing van artikel 640, lid 1 B.W. niets af. Lager gelegen erven zijn weliswaar jegens de hoger gelegen erven gehouden het water te ontvangen dat daarvan buiten 's mensen toedoen natuurlijk afloopt wat niet impliceert dat de lager gelegen erven een dergelijke toevloed aan modder ook nog zouden dienen te ontvangen.</p>",
+          "<h3 class=\"case-section__subtitle\">3.2.1. Eerste geïntimeerden steunen deze vordering op artikel 1382 - 1383 B.W. en op artikel 1384 B.W. Zij menen dat de Stad haar veiligheidsplicht niet is nagekomen en dat de bestaande riolering die voornamelijk verstopt werd door modderstromen ongeschikt was voor het gebruik waarvoor zij bestemd is.</h3>",
+          "<h3 class=\"case-section__subtitle\">3.3.1. Eerste geïntimeerden steunen deze vordering tevens op artikel 1382 - 1383 B.W. en op artikel 1384 B.W. Ondergeschikt verwijzen zij naar artikel 544 B.W. Zij zijn de mening toegedaan dat appellant als eigenaar van hoger gelegen erven niet de nodige maatregelen heeft genomen om de grote hoeveelheden water - en vooral modderstromen tegen te houden niettegenstaande de Stad Halle hem uitdrukkelijk gevraagd had de nodige maatregelen te nemen minstens dat zijn erven een gebrekkig karakter vertonen. Appellant betwist deze stelling ten stelligste.</h3>",
+          "<h3 class=\"case-section__subtitle\">3.3.2. De deskundige stelt in zijn verslag dat de problematiek van de modderstroom zich stelt bij het gebruik van de grond door partij D. omdat de grond wordt gebruikt voor teelten en gewassen en niet als weide. Hij voegt er weliswaar aan toe dat appellant aan het gebruik van zijn gronden niets veranderde en steeds op dezelfde wijze hierop gewassen kweekte. Aan appellant kan bijgevolg geen persoonlijke fout verweten worden. De vordering is dan ook ongegrond in zoverre gestoeld op artikel 1382 - 1383 B.W. Percelen waarvan echter bij regenweer grote hoeveelheden modder ontsnappen die de rioleringen in de kortste tijd verstoppen en het wegdek overspelen, vertonen een abnormaal kenmerk en zijn derhalve gebrekkig in de zin van artikel 1384, lid 1 B.W. Hieraan doet de toepassing van artikel 640, lid 1 B.W. niets af. Lager gelegen erven zijn weliswaar jegens de hoger gelegen erven gehouden het water te ontvangen dat daarvan buiten 's mensen toedoen natuurlijk afloopt wat niet impliceert dat de lager gelegen erven een dergelijke toevloed aan modder ook nog zouden dienen te ontvangen.</h3>",
+          "<h3 class=\"case-section__subtitle\">3.3.3. Het bestreden vonnis wordt dan ook bevestigd in zoverre hierin appellant verantwoordelijk wordt gesteld voor de schade op grond van artikel 1384, lid 1 B.W.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+          "ART-ECLI:BE:CABRL:20100315.9-002",
+          "ART-ECLI:BE:CABRL:20100315.9-003",
+          "ART-ECLI:BE:CABRL:20100315.9-004",
+          "ART-ECLI:BE:CABRL:20100315.9-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">2. Percelen waarvan echter bij regenweer grote hoeveelheden modder ontsnappen die de rioleringen in de kortste tijd verstoppen en het wegdek overspoelen, vertonen een abnormaal kenmerk en zijn derhalve gebrekkig in de zin van artikel 1384, lid 1 B.W. Hieraan doet de toepassing van artikel 640, lid 1 B.W. niets af. Lager gelegen erven zijn weliswaar jegens de hoger gelegen erven gehouden het water te ontvangen dat daarvan buiten 's mensen toedoen natuurlijk afloopt wat niet impliceert dat de lager gelegen erven een dergelijke toevloed aan modder ook nog zouden dienen te ontvangen.</p>",
+          "<h3 class=\"case-section__subtitle\">3.2.2. De Stad betwist één en ander. Zij verwijst vooreerst naar artikel 640 B.W. en leidt hieruit af dat het enkel een geschil betreft tussen buren, houdt verder voor alle maatregelen te hebben getroffen die zij redelijkerwijze kon nemen, zelfs maatregelen te hebben genomen die veel verder gingen dan waartoe zij wettelijk gehouden was, dat de kwestieuze riolering geen abnormaal kenmerk vertoonde en ondergeschikt beroept zij zich op overmacht gezien op de dagen waarop de overlast zich voordeed een extreme regenval zou plaats gevonden hebben.</h3>",
+          "<h3 class=\"case-section__subtitle\">3.3.2. De deskundige stelt in zijn verslag dat de problematiek van de modderstroom zich stelt bij het gebruik van de grond door partij D. omdat de grond wordt gebruikt voor teelten en gewassen en niet als weide. Hij voegt er weliswaar aan toe dat appellant aan het gebruik van zijn gronden niets veranderde en steeds op dezelfde wijze hierop gewassen kweekte. Aan appellant kan bijgevolg geen persoonlijke fout verweten worden. De vordering is dan ook ongegrond in zoverre gestoeld op artikel 1382 - 1383 B.W. Percelen waarvan echter bij regenweer grote hoeveelheden modder ontsnappen die de rioleringen in de kortste tijd verstoppen en het wegdek overspelen, vertonen een abnormaal kenmerk en zijn derhalve gebrekkig in de zin van artikel 1384, lid 1 B.W. Hieraan doet de toepassing van artikel 640, lid 1 B.W. niets af. Lager gelegen erven zijn weliswaar jegens de hoger gelegen erven gehouden het water te ontvangen dat daarvan buiten 's mensen toedoen natuurlijk afloopt wat niet impliceert dat de lager gelegen erven een dergelijke toevloed aan modder ook nog zouden dienen te ontvangen.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-002",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">3.2.1. Eerste geïntimeerden steunen deze vordering op artikel 1382 - 1383 B.W. en op artikel 1384 B.W. Zij menen dat de Stad haar veiligheidsplicht niet is nagekomen en dat de bestaande riolering die voornamelijk verstopt werd door modderstromen ongeschikt was voor het gebruik waarvoor zij bestemd is.</h3>",
+          "<h3 class=\"case-section__subtitle\">3.3.1. Eerste geïntimeerden steunen deze vordering tevens op artikel 1382 - 1383 B.W. en op artikel 1384 B.W. Ondergeschikt verwijzen zij naar artikel 544 B.W. Zij zijn de mening toegedaan dat appellant als eigenaar van hoger gelegen erven niet de nodige maatregelen heeft genomen om de grote hoeveelheden water - en vooral modderstromen tegen te houden niettegenstaande de Stad Halle hem uitdrukkelijk gevraagd had de nodige maatregelen te nemen minstens dat zijn erven een gebrekkig karakter vertonen. Appellant betwist deze stelling ten stelligste.</h3>",
+          "<h3 class=\"case-section__subtitle\">3.3.2. De deskundige stelt in zijn verslag dat de problematiek van de modderstroom zich stelt bij het gebruik van de grond door partij D. omdat de grond wordt gebruikt voor teelten en gewassen en niet als weide. Hij voegt er weliswaar aan toe dat appellant aan het gebruik van zijn gronden niets veranderde en steeds op dezelfde wijze hierop gewassen kweekte. Aan appellant kan bijgevolg geen persoonlijke fout verweten worden. De vordering is dan ook ongegrond in zoverre gestoeld op artikel 1382 - 1383 B.W. Percelen waarvan echter bij regenweer grote hoeveelheden modder ontsnappen die de rioleringen in de kortste tijd verstoppen en het wegdek overspelen, vertonen een abnormaal kenmerk en zijn derhalve gebrekkig in de zin van artikel 1384, lid 1 B.W. Hieraan doet de toepassing van artikel 640, lid 1 B.W. niets af. Lager gelegen erven zijn weliswaar jegens de hoger gelegen erven gehouden het water te ontvangen dat daarvan buiten 's mensen toedoen natuurlijk afloopt wat niet impliceert dat de lager gelegen erven een dergelijke toevloed aan modder ook nog zouden dienen te ontvangen.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-004",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-005",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-004",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">3.2.1. Eerste geïntimeerden steunen deze vordering op artikel 1382 - 1383 B.W. en op artikel 1384 B.W. Zij menen dat de Stad haar veiligheidsplicht niet is nagekomen en dat de bestaande riolering die voornamelijk verstopt werd door modderstromen ongeschikt was voor het gebruik waarvoor zij bestemd is.</h3>",
+          "<h3 class=\"case-section__subtitle\">3.3.1. Eerste geïntimeerden steunen deze vordering tevens op artikel 1382 - 1383 B.W. en op artikel 1384 B.W. Ondergeschikt verwijzen zij naar artikel 544 B.W. Zij zijn de mening toegedaan dat appellant als eigenaar van hoger gelegen erven niet de nodige maatregelen heeft genomen om de grote hoeveelheden water - en vooral modderstromen tegen te houden niettegenstaande de Stad Halle hem uitdrukkelijk gevraagd had de nodige maatregelen te nemen minstens dat zijn erven een gebrekkig karakter vertonen. Appellant betwist deze stelling ten stelligste.</h3>",
+          "<h3 class=\"case-section__subtitle\">3.3.2. De deskundige stelt in zijn verslag dat de problematiek van de modderstroom zich stelt bij het gebruik van de grond door partij D. omdat de grond wordt gebruikt voor teelten en gewassen en niet als weide. Hij voegt er weliswaar aan toe dat appellant aan het gebruik van zijn gronden niets veranderde en steeds op dezelfde wijze hierop gewassen kweekte. Aan appellant kan bijgevolg geen persoonlijke fout verweten worden. De vordering is dan ook ongegrond in zoverre gestoeld op artikel 1382 - 1383 B.W. Percelen waarvan echter bij regenweer grote hoeveelheden modder ontsnappen die de rioleringen in de kortste tijd verstoppen en het wegdek overspelen, vertonen een abnormaal kenmerk en zijn derhalve gebrekkig in de zin van artikel 1384, lid 1 B.W. Hieraan doet de toepassing van artikel 640, lid 1 B.W. niets af. Lager gelegen erven zijn weliswaar jegens de hoger gelegen erven gehouden het water te ontvangen dat daarvan buiten 's mensen toedoen natuurlijk afloopt wat niet impliceert dat de lager gelegen erven een dergelijke toevloed aan modder ook nog zouden dienen te ontvangen.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-004",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-005",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-005",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">3.3.1. Eerste geïntimeerden steunen deze vordering tevens op artikel 1382 - 1383 B.W. en op artikel 1384 B.W. Ondergeschikt verwijzen zij naar artikel 544 B.W. Zij zijn de mening toegedaan dat appellant als eigenaar van hoger gelegen erven niet de nodige maatregelen heeft genomen om de grote hoeveelheden water - en vooral modderstromen tegen te houden niettegenstaande de Stad Halle hem uitdrukkelijk gevraagd had de nodige maatregelen te nemen minstens dat zijn erven een gebrekkig karakter vertonen. Appellant betwist deze stelling ten stelligste.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-005",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-004",
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Gelet op artikel 24 van de wet van 15 juni 1935 op het taalgebruik in gerechtszaken;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CABRL:2010:ARR.20100315.9-006"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 6,
+      "citationStatistics": {
+        "totalCitations": 16,
+        "avgCitationsPerProvision": 2.6666666666666665,
+        "provisionsWithMinimalCitations": 2,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 4,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20100315.9-001",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">2. Percelen waarvan echter bij regenweer grote hoeveelheden modder ontsnappen die de rioleringen in de kortste tijd verstoppen en het wegdek overspoelen, vertonen een abnormaal kenmerk en zijn derhalve gebrekkig in de zin van artikel 1384, lid 1 B.W. Hieraan doet de toepassing van artikel 640, lid 1 B.W. niets af. Lager gelegen erven zijn weliswaar jegens de hoger gelegen erven gehouden het water te ontvangen dat daarvan buiten 's mensen toedoen natuurlijk afloopt wat niet impliceert dat de lager gelegen erven een dergelijke toevloed aan modder ook nog zouden dienen te ontvangen.</p>",
+          "        <h3 class=\"case-section__subtitle\">3.3.2. De deskundige stelt in zijn verslag dat de problematiek van de modderstroom zich stelt bij het gebruik van de grond door partij D. omdat de grond wordt gebruikt voor teelten en gewassen en niet als weide. Hij voegt er weliswaar aan toe dat appellant aan het gebruik van zijn gronden niets veranderde en steeds op dezelfde wijze hierop gewassen kweekte. Aan appellant kan bijgevolg geen persoonlijke fout verweten worden. De vordering is dan ook ongegrond in zoverre gestoeld op artikel 1382 - 1383 B.W. Percelen waarvan echter bij regenweer grote hoeveelheden modder ontsnappen die de rioleringen in de kortste tijd verstoppen en het wegdek overspoelen, vertonen een abnormaal kenmerk en zijn derhalve gebrekkig in de zin van artikel 1384, lid 1 B.W. Hieraan doet de toepassing van artikel 640, lid 1 B.W. niets af. Lager gelegen erven zijn weliswaar jegens de hoger gelegen erven gehouden het water te ontvangen dat daarvan buiten 's mensen toedoen natuurlijk afloopt wat niet impliceert dat de lager gelegen erven een dergelijke toevloed aan modder ook nog zouden dienen te ontvangen.</h3>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20100315.9-002",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">1. Een rioleringssysteem dient enkel om water op te vangen en hierbij dient niet voorzien te worden dat grote modderstromen erop afkomen. Het bestaande rioleringsnet vertoonde bijgevolg geen gebrekkig karakter. De stad X is dus niet aansprakelijk</p>",
+          "        <h3 class=\"case-section__subtitle\">3.2.2. De Stad betwist één en ander. Zij verwijst vooreerst naar artikel 640 B.W. en leidt hieruit af dat het enkel een geschil betreft tussen buren, houdt verder voor alle maatregelen te hebben getroffen die zij redelijkerwijze kon nemen, zelfs maatregelen te hebben genomen die veel verder gingen dan waartoe zij wettelijk gehouden was, dat de kwestieuze riolering geen abnormaal kenmerk vertoonde en ondergeschikt beroept zij zich op overmacht gezien op de dagen waarop de overlast zich voordeed een extreme regenval zou plaats gevonden hebben.</h3>",
+          "        <h3 class=\"case-section__subtitle\">3.2.3. De deskundige stelt in zijn verslag dat het rioleringssysteem onvoldoende was op de plaats van de overstromingen vóór het uitgraven van de grachten om haar rol behoorlijk te kunnen vervullen en verder dat de stelselmatige en noodzakelijke aanpassingen hiervan het bewijs zijn . Hieruit kan echter niet afgeleid worden dat de Stad enige fout heeft begaan of dat het bestaande rioleringssysteem gebrekkig was. Uit het verslag van de deskundige blijkt immers dat de overstromingen niet zozeer het gevolg waren van wateroverlast maar wel te wijten waren aan grote modderstromen, afkomstig van de velden van appellant, die de rioleringen volledig verstopten. Uit de bijgebrachte foto's blijkt verder dat de moddertoevoer zo ernstig was dat de openbare weg er gevaarlijk glad bij lag en volledig door modder overspoeld was.</h3>",
+          "        <h3 class=\"case-section__subtitle\">3.2.4. Een rioleringssysteem dient enkel om water op te vangen en hierbij dient niet voorzien te worden dat grote modderstromen erop afkomen. Het bestaande rioleringsnet vertoonde bijgevolg geen gebrekkig karakter. Er is overigens niet bewezen dat indien er enkel water zou afgevloeid zijn van de hoger gelegen velden van appellant het bestaande rioleringssysteem niet afdoend zou gewerkt hebben. Met de massale afvloeiing van modder van een private eigendom heeft de Stad geen uitstaans en zij kan hiervoor niet aansprakelijk gesteld worden noch persoonlijk noch als bewaarder van de zaak.</h3>",
+          "        <h3 class=\"case-section__subtitle\">3.2.5. De onderhoudsplicht van de Stad voortvloeiende uit de wet van 10 april 1841 verplicht deze overigens niet tot het graven van grachten, wat een wijziging in de aanleg betreft en niet behoort tot het onderhoud. Het feit dat de Stad Halle op eigen initiatief overging tot het graven van grachten maakt een loutere welwillendheid uit vanwege de Stad maar impliceert niet dat zij verantwoordelijk kan geacht worden om niet sneller grachten te hebben uitgegraven. Hierbij dient opgemerkt te worden dat vóór mei 1999 - wanneer nog geen enkele gracht was uitgegraven - eerste geïntimeerden geen enkel probleem ondervonden en dus niet te kampen hadden met overstromingen wat aantoont dat de destijds bestaande rioleringen wel degelijk naar behoren gefunctioneerd hebben.</h3>",
+          "        <h3 class=\"case-section__subtitle\">3.2.6. Er kan de Stad evenmin verweten worden het bestaande rioleringssysteem zelf onvoldoende onderhouden te hebben en dus verwaarloosd te hebben. Dit blijkt nergens uit. De schade werd bovendien veroorzaakt door een plotse toestroom van modder die de riolering verstopten wat niets met onderhoud van rioleringen te maken heeft.</h3>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20100315.9-003",
+        "relatedFullTextCitations": [
+          "        <h3 class=\"case-section__subtitle\">3.3.1. Eerste geïntimeerden steunen deze vordering tevens op artikel 1382 - 1383 B.W. en op artikel 1384 B.W. Ondergeschikt verwijzen zij naar artikel 544 B.W. Zij zijn de mening toegedaan dat appellant als eigenaar van hoger gelegen erven niet de nodige maatregelen heeft genomen om de grote hoeveelheden water - en vooral modderstromen tegen te houden niettegenstaande de Stad Halle hem uitdrukkelijk gevraagd had de nodige maatregelen te nemen minstens dat zijn erven een gebrekkig karakter vertonen. Appellant betwist deze stelling ten stelligste.</h3>",
+          "        <h3 class=\"case-section__subtitle\">3.3.2. De deskundige stelt in zijn verslag dat de problematiek van de modderstroom zich stelt bij het gebruik van de grond door partij D. omdat de grond wordt gebruikt voor teelten en gewassen en niet als weide. Hij voegt er weliswaar aan toe dat appellant aan het gebruik van zijn gronden niets veranderde en steeds op dezelfde wijze hierop gewassen kweekte. Aan appellant kan bijgevolg geen persoonlijke fout verweten worden. De vordering is dan ook ongegrond in zoverre gestoeld op artikel 1382 - 1383 B.W. Percelen waarvan echter bij regenweer grote hoeveelheden modder ontsnappen die de rioleringen in de kortste tijd verstoppen en het wegdek overspoelen, vertonen een abnormaal kenmerk en zijn derhalve gebrekkig in de zin van artikel 1384, lid 1 B.W. Hieraan doet de toepassing van artikel 640, lid 1 B.W. niets af. Lager gelegen erven zijn weliswaar jegens de hoger gelegen erven gehouden het water te ontvangen dat daarvan buiten 's mensen toedoen natuurlijk afloopt wat niet impliceert dat de lager gelegen erven een dergelijke toevloed aan modder ook nog zouden dienen te ontvangen.</h3>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CABRL:2010:ARR.20100315.9-004",
+        "relatedFullTextCitations": [
+          "        <h3 class=\"case-section__subtitle\">3.3.4. Ten onrechte beroept appellant zich op overmacht als schulduitsluitingsgrond. Nergens blijkt uit dat de regenbuien die aanleiding gaven tot water - en vooral modderoverlast buitengewoon waren. Het feit dat eerste geïntimeerden na 2000 niet meer het slachtoffer werden van diverse overstromingen is enkel het gevolg van het feit dat de Stad is blijven zoeken naar oplossingen en daar blijkbaar ook in geslaagd is. In deze is er dan ook geen sprake van een onvoorzienbaar en onafwendbaar feit of gebeurtenis die buiten de menselijke wil ligt van diegene die overmacht inroept en die deze niet had kunnen voorzien of afwenden. Overmacht heeft overigens enkel bevrijdende werking, indien de persoon die zich erop beroept er niet zelf schuld aan heeft en hij zich in de ontstane situatie gedragen heeft als een normaal voorzichtig persoon.</h3>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 11,
+        "avgCitationsPerTeaching": 2.75,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "decision_id": "ECLI:BE:TEHAI:2002:JUG.20020116.22",
+  "language": "FR",
+  "metadata": {
+    "id": 129636,
+    "court_ecli_code": "TEHAI",
+    "court_name": "Tribunal de l'entreprise du Hainaut",
+    "decision_date": "2002-01-16",
+    "decision_type_ecli_code": "JUG",
+    "decision_type_name": "Jugement",
+    "md_length": 6246,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Tribunal de Commerce de Charleroi, 16 janvier 2002, RG n A/2001/05698, ECLI:BE:TEHAI:2002:JUG.20020116.22"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:TEHAI:2002:JUG.20020116.22-001",
+        "name": "Madame Laura SCH",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TEHAI:2002:JUG.20020116.22-002",
+        "name": "Mr RC",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Depuis 1987, Mme Laura SCH exploite un restaurant-service traiteur de cuisine franco-italienne à Châtelet, rue du Commerce n°10 sous l'enseigne «LES IV COLONNES». Dans le courant du mois d'octobre 2001, Mr RC a ouvert un restaurant dénommé «LES 4 COLONNES», à Thuillies, route de Beaumont n°138. Suite au refus du défendeur de modifier l'appellation de son établissement, Mme SCH l'a cité par acte d'huissier du 19 décembre 2001 en application de l'article 93 de la loi du 14 juillet 1991 sur les pratiques de commerce pour l'entendre contraindre, sous peine d'astreinte, à cesser toute utilisation de la dénomination «LES 4 COLONNES» et pour obtenir 150.000 frs à titre de dommages et intérêts. Les deux établissements sont situés à une vingtaine de kilomètres l'un de l'autre et appartiennent à la sphère économique de la région de Charleroi, de sorte que leur clientèle peut être susceptible d'être commune.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:TEHAI:2002:JUG.20020116.22-001",
+          "requests": "Mme Laura SCH demande que Mr RC soit contraint, sous peine d'astreinte, de cesser toute utilisation de la dénomination «LES 4 COLONNES» et le paiement d'une somme de 150.000 frs à titre de dommages et intérêts."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:TEHAI:2002:JUG.20020116.22-001",
+          "argument": "La demanderesse invoque l'article 93 de la loi du 14 juillet 1991 relatif aux pratiques du commerce et soutient que l'appellation «LES 4 COLONNES» du défendeur est phonétiquement et visuellement confondante avec sa propre dénomination «LES IV COLONNES», créant un risque de confusion pour le public, compte tenu de la proximité géographique des établissements et de la similitude de leurs activités, et que cette confusion est susceptible de porter atteinte à ses intérêts professionnels justifiant l'ordonnance de cessation et, subsidiairement, une indemnisation.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS \n\nNous, Jean-Philippe LEBEAU, Président du Tribunal de commerce séant à Charleroi, étant assisté de Fabienne VANBERGEN, Greffière,\n\nStatuant contradictoirement comme en référé sur pied de la loi du 14 juillet 1991 ;\nDisons la demande principale recevable et fondée dans la mesure précisée ci-après ;\nOrdonnons la cessation de l'utilisation de la dénomination «LES 4 COLONNES » par le défendeur ainsi que de toute publicité mentionnant ladite dénomination, ce dans le mois de la signification du présent jugement, sous peine d'une astreinte de 500 EURO par jour pour l'enseigne et par infraction constatée pour la publicité ;\n\nDisons la demande non fondée pour ce qui concerne la demande en dommages et intérêts ;\n\nCondamnons la partie défenderesse au paiement des frais et dépens de la société demanderesse non liquidés ;\n\nAutorisons l'exécution provisoire du présent jugement ;\nIl a été fait application de la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire ;\n\nPrononcé en audience publique extraordinaire dans la salle des référés, le DIX SEPT JANVIER DEUX MILLE DEUX.",
+      "outcome": "FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TEHAI:2002:JUG.20020116.22-001",
+        "internalParentActId": "ACT-ECLI:BE:TEHAI:2002:JUG.20020116.22-001",
+        "provisionNumber": "article 93",
+        "provisionNumberKey": "93",
+        "parentActType": "LOI",
+        "parentActName": "loi du 14 juillet 1991 sur les pratiques de commerce",
+        "parentActDate": "1991-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "Le tribunal interprète l'article 93 comme conférant au président, statuant en référé, le pouvoir d'ordonner la cessation d'actes contraires aux usages honnêtes du commerce portant atteinte aux intérêts professionnels d'un autre vendeur, notamment ceux propres à créer une confusion entre établissements. Il peut ordonner la modification d'une appellation commerciale lorsqu'elle prête à confusion et qu'une antériorité existe. La demanderesse n'a pas l'obligation de prouver la concurrence; elle doit démontrer concrètement la confusion ou le risque de confusion et la possibilité d'une atteinte à ses intérêts. Le tribunal retient comme critères la ressemblance phonétique/visuelle, la distance/aire d'influence et la nature des activités.",
+        "relevantFactualContext": "La demanderesse exploite depuis 1987 le restaurant 'LES IV COLONNES' à Châtelet; le défendeur a ouvert en octobre 2001 'LES 4 COLONNES' à Thuillies, à une vingtaine de kilomètres. Le tribunal a constaté identité phonétique et forte ressemblance visuelle, similitude d'activité et aire géographique commune, créant un risque concret de confusion justifiant la cessation demandée."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": []
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit commercial",
+      "Restaurant-traiteur",
+      "Enseigne similaire",
+      "Appellations proches",
+      "Proximité géographique",
+      "Risque de confusion",
+      "Antériorité commerciale",
+      "Cessation de l'usage",
+      "Dommages-intérêts refusés",
+      "Procédure en référé"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:TEHAI:2002:JUG.20020116.22-001",
+        "text": "L'article 93 de la loi du 14 juillet 1991 confère au président du tribunal de commerce, statuant comme en référé, le pouvoir d'ordonner la cessation d'actes contraires aux usages honnêtes du commerce portant atteinte aux intérêts professionnels d'un autre vendeur, y compris d'ordonner la modification d'une appellation commerciale lorsqu'elle prête à confusion et qu'une antériorité existe.",
+        "courtVerbatim": "En application de l'article 93 LPC, le président du tribunal de commerce, statuant comme en référé, a le pouvoir d'ordonner la cessation de tout acte contraire aux usages honnêtes en matière commerciale par lequel un vendeur peut porter atteinte aux intérêts professionnels d'un autre vendeur, et notamment de tout acte de nature à créer la confusion entre des établissements concurrents. Il peut en conséquence ordonner la modification d'une appellation commerciale lorsque celle-ci prête à confusion avec celle utilisée par un autre commerçant qui peut se prévaloir de l'antériorité.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque, en référé, une partie invoque l'article 93 LPC pour obtenir la cessation ou la modification d'actes ou d'appellations commerciales susceptibles de porter atteinte aux intérêts professionnels d'un autre vendeur, notamment par création d'une confusion entre établissements.",
+        "relevantFactualContext": "La demanderesse exploitait un restaurant sous l'enseigne «LES IV COLONNES»; le défendeur a ouvert un établissement nommé «LES 4 COLONNES» à une vingtaine de kilomètres, entraînant, selon le tribunal, une identité phonétique et une forte ressemblance visuelle créant un risque concret de confusion.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "COMPETITION_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:TEHAI:2002:JUG.20020116.22-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TEHAI:2002:JUG.20020116.22-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TEHAI:2002:JUG.20020116.22-002",
+        "text": "Pour obtenir, en référé sur le fondement de l'article 93 LPC, la cessation ou la modification d'une appellation commerciale, la demanderesse n'a pas à établir l'existence d'une concurrence; elle doit démontrer concrètement la confusion ou le risque de confusion et la possibilité d'une atteinte à ses intérêts. L'appréciation du risque de confusion repose principalement sur la ressemblance phonétique ou visuelle, la distance/aire d'influence des établissements et la nature des activités exercées.",
+        "courtVerbatim": "Dans cette hypothèse, la partie demanderesse ne doit pas établir que le défendeur est un concurrent mais il lui incombe de démontrer concrètement la confusion ou le risque de confusion qui résulte de l'utilisation d'une appellation semblable à sa dénomination, ainsi que la possibilité d'une atteinte à ses intérêts. L'appréciation du risque de confusion se fait sur base des critères suivants : - La ressemblance phonétique ou visuelle entre les dénominations ; - la distance entre les entreprises, qui tiendra compte de leur rayonnement ; - la nature des activités exercées, celles-ci ne devant pas être absolument identiques ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une partie réclame en référé la cessation ou la modification d'une appellation commerciale en alléguant un risque de confusion avec une dénomination antérieure.",
+        "relevantFactualContext": "Le tribunal a constaté que «LES IV COLONNES» et «LES 4 COLONNES» sont identiques phonétiquement et ressemblantes visuellement ; situés à une vingtaine de kilomètres dans la même sphère économique et exerçant des activités similaires, ils présentent un risque concret de confusion justifiant la cessation.",
+        "principleType": "LEGAL_TEST",
+        "legalArea": "COMPETITION_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:TEHAI:2002:JUG.20020116.22-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TEHAI:2002:JUG.20020116.22-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TEHAI:2002:JUG.20020116.22-003",
+        "text": "Le président du tribunal de commerce, statuant comme en référé, ne statue pas sur l'action en réparation et ne peut, en principe, condamner au paiement de dommages-intérêts ; la réparation pécuniaire relève du juge du fond qui est compétent pour statuer sur les demandes en dommages et intérêts.",
+        "courtVerbatim": "Par contre, il n'y a pas lieu de condamner le défendeur au paiement de dommages et intérêts ; l'action en réparation est en effet du ressort du juge du fonds et non du Président du tribunal siégeant comme en référé ( Voy.V. d'HUART et A.F.HONHON, in Pratiques du commerce, Formation permanente CUP, Volume XVI-avril 1997, page 83 ).",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque, dans une procédure en référé sur le fondement de l'article 93 LPC, la demanderesse sollicite des dommages-intérêts en complément d'une mesure de cessation ou de modification.",
+        "relevantFactualContext": "La demanderesse demandait, en référé, la cessation de l'utilisation d'une dénomination et la condamnation à des dommages-intérêts ; le tribunal a ordonné la cessation mais a refusé d'accorder des dommages-intérêts, renvoyant l'action en réparation au juge du fond.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TEHAI:2002:JUG.20020116.22-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 1,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, exploitant d'un restaurant sous l'enseigne LES IV COLONNES, a assigné le défendeur pour l'usage de la dénomination LES 4 COLONNES en invoquant un risque de confusion. Le tribunal, statuant en référé sur la base de l'article 93 de la loi du 14 juillet 1991, ordonne la cessation de l'utilisation et de la publicité sous astreinte de 500 EUR par jour en raison de la ressemblance phonétique/visuelle et de la proximité géographique; la demande de dommages‑intérêts est rejetée comme relevant du juge du fond."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:TEHAI:2002:JUG.20020116.22-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Depuis l'année 1987, Mme L. SCH exploite un restaurant- service traiteur de cuisine franco-italienne à CHATELET, rue du Commerce n° 10 sous l'enseigne \" LES IV COLONNES \". Dans le courant du mois d'octobre 2001, Mr RC a pour sa part ouvert un restaurant dénommé \" LES 4 COLONNES \", à THUILLIES, route de Beaumont n° 138. Suite au refus de l'intéressé de modifier l'appellation de son établissement, Mme SCH l'a cité par acte d'huissier du 19 décembre 2001 en application de l'article 93 de la loi du 14 juillet 1991 sur les pratiques de commerce, pour l'entendre contraindre, sous peine d'astreinte, à cesser toute utilisation de la dénomination \" LES 4 COLONNES \"de même qu'à payer une somme de 150.000 frs à titre de dommages et intérêts.</p>",
+          "<p class=\"case-section__paragraph\">En application de l'article 93 LPC, le président du tribunal de commerce, statuant comme en référé, a le pouvoir d'ordonner la cessation de tout acte contraire aux usages honnêtes en matière commerciale par lequel un vendeur peut porter atteinte aux intérêts professionnels d'un autre vendeur, et notamment de tout acte de nature à créer la confusion entre des établissements concurrents. Il peut en conséquence ordonner la modification d'une appellation commerciale lorsque celle-ci prête à confusion avec celle utilisée par un autre commerçant qui peut se prévaloir de l'antériorité. Dans cette hypothèse, la partie demanderesse ne doit pas établir que le défendeur est un concurrent mais il lui incombe de démontrer concrètement la confusion ou le risque de confusion qui résulte de l'utilisation d'une appellation semblable à sa dénomination, ainsi que la possibilité d'une atteinte à ses intérêts. ( Voy. P. VAN OMMESLAGHE et X. DIEUX, Examen de JP ; Les sociétés commerciales, RCJB 1992 pages 667 et 668 n° 40 ) L'appréciation du risque de confusion se fait sur base des critères suivants :</p>",
+          "<p class=\"case-section__paragraph\">En l'espèce, le tribunal doit admettre que les deux appellations \"LES IV COLONNES \" et \" LES 4 COLONNES \" sont identiques phonétiquement et ressemblantes visuellement en sorte qu'il n'est concrètement pas possible de distinguer le restaurant concerné lorsque l'on évoque l'un ou l'autre ; le fait que le numéro soit dans un cas écrit en chiffre romain plutôt qu'arabe ne modifie pas les difficultés d'identification dans le chef d'un fournisseur ou d'un client. Cependant, la possibilité de créer la confusion ne résulte pas uniquement de l'utilisation d'éléments ressemblants mais des liens que cette ressemblance entre les entreprises suggère au public auquel elles s'adressent. Il convient donc de se demander si les deux restaurants en cause s'adressent à un public semblable, en raison de leur aire d'influence géographique et de la similitude de leurs activités ; ce dernier point doit d'ores et déjà être considéré comme acquis, s'agissant de deux restaurants. Qu'en est il de leur influence géographique ? Les deux établissements sont situés à une vingtaine de kilomètres l'un de l'autre, l'un à Châtelet, l'autre à Thuillies ; le tribunal doit constater à cet égard que les deux localités font parties de la sphère économique de la région de Charleroi en sorte que la clientèle drainée est susceptible d'être commune. En conséquence, l'identification des deux restaurants au moyen d'une appellation aussi proche dans une aire géographique semblable crée un risque de confusion dans l'esprit de toute personne intéressée en tant que fournisseur ou client, susceptible de nuire à celle qui, la première, a développé un fonds de commerce sous le nom commercial concerné. Il y a donc lieu de constater l'existence d'un acte contraire aux usages honnêtes en matière commerciale, prohibé par l'article 93 LPC, et de déclarer l'action principale fondée de ce point de vue. Par contre, il n'y a pas lieu de condamner le défendeur au paiement de dommages et intérêts ; l'action en réparation est en effet du ressort du juge du fonds et non du Président du tribunal siégeant comme en référé ( Voy.V. d'HUART et A.F.HONHON, in Pratiques du commerce, Formation permanente CUP, Volume XVI-avril 1997, page 83 )</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TEHAI:2002:JUG.20020116.22-001"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 1,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerProvision": 3,
+        "provisionsWithMinimalCitations": 0,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:TEHAI:2002:JUG.20020116.22-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">En application de l'article 93 LPC, le président du tribunal de commerce, statuant comme en référé, a le pouvoir d'ordonner la cessation de tout acte contraire aux usages honnêtes en matière commerciale par lequel un vendeur peut porter atteinte aux intérêts professionnels d'un autre vendeur, et notamment de tout acte de nature à créer la confusion entre des établissements concurrents. Il peut en conséquence ordonner la modification d'une appellation commerciale lorsque celle-ci prête à confusion avec celle utilisée par un autre commerçant qui peut se prévaloir de l'antériorité. Dans cette hypothèse, la partie demanderesse ne doit pas établir que le défendeur est un concurrent mais il lui incombe de démontrer concrètement la confusion ou le risque de confusion qui résulte de l'utilisation d'une appellation semblable à sa dénomination, ainsi que la possibilité d'une atteinte à ses intérêts. ( Voy. P. VAN OMMESLAGHE et X. DIEUX, Examen de JP ; Les sociétés commerciales, RCJB 1992 pages 667 et 668 n° 40 ) L'appréciation du risque de confusion se fait sur base des critères suivants :</p>",
+          "<p class=\"case-section__paragraph\">En l'espèce, le tribunal doit admettre que les deux appellations \"LES IV COLONNES \" et \" LES 4 COLONNES \" sont identiques phonétiquement et ressemblantes visuellement en sorte qu'il n'est concrètement pas possible de distinguer le restaurant concerné lorsque l'on évoque l'un ou l'autre ; le fait que le numéro soit dans un cas écrit en chiffre romain plutôt qu'arabe ne modifie pas les difficultés d'identification dans le chef d'un fournisseur ou d'un client. Cependant, la possibilité de créer la confusion ne résulte pas uniquement de l'utilisation d'éléments ressemblants mais des liens que cette ressemblance entre les entreprises suggère au public auquel elles s'adressent. Il convient donc de se demander si les deux restaurants en cause s'adressent à un public semblable, en raison de leur aire d'influence géographique et de la similitude de leurs activités ; ce dernier point doit d'ores et déjà être considéré comme acquis, s'agissant de deux restaurants. Qu'en est il de leur influence géographique ? Les deux établissements sont situés à une vingtaine de kilomètres l'un de l'autre, l'un à Châtelet, l'autre à Thuillies ; le tribunal doit constater à cet égard que les deux localités font parties de la sphère économique de la région de Charleroi en sorte que la clientèle drainée est susceptible d'être commune. En conséquence, l'identification des deux restaurants au moyen d'une appellation aussi proche dans une aire géographique semblable crée un risque de confusion dans l'esprit de toute personne intéressée en tant que fournisseur ou client, susceptible de nuire à celle qui, la première, a développé un fonds de commerce sous le nom commercial concerné. Il y a donc lieu de constater l'existence d'un acte contraire aux usages honnêtes en matière commerciale, prohibé par l'article 93 LPC, et de déclarer l'action principale fondée de ce point de vue. Par contre, il n'y a pas lieu de condamner le défendeur au paiement de dommages et intérêts ; l'action en réparation est en effet du ressort du juge du fonds et non du Président du tribunal siégeant comme en référé ( Voy.V. d'HUART et A.F.HONHON, in Pratiques du commerce, Formation permanente CUP, Volume XVI-avril 1997, page 83 )</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TEHAI:2002:JUG.20020116.22-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">En application de l'article 93 LPC, le président du tribunal de commerce, statuant comme en référé, a le pouvoir d'ordonner la cessation de tout acte contraire aux usages honnêtes en matière commerciale par lequel un vendeur peut porter atteinte aux intérêts professionnels d'un autre vendeur, et notamment de tout acte de nature à créer la confusion entre des établissements concurrents. Il peut en conséquence ordonner la modification d'une appellation commerciale lorsque celle-ci prête à confusion avec celle utilisée par un autre commerçant qui peut se prévaloir de l'antériorité. Dans cette hypothèse, la partie demanderesse ne doit pas établir que le défendeur est un concurrent mais il lui incombe de démontrer concrètement la confusion ou le risque de confusion qui résulte de l'utilisation d'une appellation semblable à sa dénomination, ainsi que la possibilité d'une atteinte à ses intérêts. ( Voy. P. VAN OMMESLAGHE et X. DIEUX, Examen de JP ; Les sociétés commerciales, RCJB 1992 pages 667 et 668 n° 40 ) L'appréciation du risque de confusion se fait sur base des critères suivants :</p>",
+          "<ul>\n            <li>La ressemblance phonétique ou visuelle entre les dénominations ;</li>\n            <li>la distance entre les entreprises, qui tiendra compte de leur rayonnement ;</li>\n            <li>la nature des activités exercées, celles-ci ne devant pas être absolument identiques ; ( Voy. DE CALUWE, DELCORDE et LEURQUIN, \" Les pratiques du commerce \", Larcier n° 27.2, 27.5 et 11.117, 11.120 et suivants )</li>\n        </ul>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TEHAI:2002:JUG.20020116.22-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">En l'espèce, le tribunal doit admettre que les deux appellations \"LES IV COLONNES \" et \" LES 4 COLONNES \" sont identiques phonétiquement et ressemblantes visuellement en sorte qu'il n'est concrètement pas possible de distinguer le restaurant concerné lorsque l'on évoque l'un ou l'autre ; le fait que le numéro soit dans un cas écrit en chiffre romain plutôt qu'arabe ne modifie pas les difficultés d'identification dans le chef d'un fournisseur ou d'un client. Cependant, la possibilité de créer la confusion ne résulte pas uniquement de l'utilisation d'éléments ressemblants mais des liens que cette ressemblance entre les entreprises suggère au public auquel elles s'adressent. Il convient donc de se demander si les deux restaurants en cause s'adressent à un public semblable, en raison de leur aire d'influence géographique et de la similitude de leurs activités ; ce dernier point doit d'ores et déjà être considéré comme acquis, s'agissant de deux restaurants. Qu'en est il de leur influence géographique ? Les deux établissements sont situés à une vingtaine de kilomètres l'un de l'autre, l'un à Châtelet, l'autre à Thuillies ; le tribunal doit constater à cet égard que les deux localités font parties de la sphère économique de la région de Charleroi en sorte que la clientèle drainée est susceptible d'être commune. En conséquence, l'identification des deux restaurants au moyen d'une appellation aussi proche dans une aire géographique semblable crée un risque de confusion dans l'esprit de toute personne intéressée en tant que fournisseur ou client, susceptible de nuire à celle qui, la première, a développé un fonds de commerce sous le nom commercial concerné. Il y a donc lieu de constater l'existence d'un acte contraire aux usages honnêtes en matière commerciale, prohibé par l'article 93 LPC, et de déclarer l'action principale fondée de ce point de vue. Par contre, il n'y a pas lieu de condamner le défendeur au paiement de dommages et intérêts ; l'action en réparation est en effet du ressort du juge du fonds et non du Président du tribunal siégeant comme en référé ( Voy.V. d'HUART et A.F.HONHON, in Pratiques du commerce, Formation permanente CUP, Volume XVI-avril 1997, page 83 )</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 5,
+        "avgCitationsPerTeaching": 1.6666666666666667,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 3,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

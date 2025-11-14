@@ -1,0 +1,951 @@
+{
+  "decision_id": "ECLI:BE:GBAPD:2020:ARR.20200630.8",
+  "language": "NL",
+  "metadata": {
+    "id": 147944,
+    "court_ecli_code": "GBAPD",
+    "court_name": "Gegevensbeschermingsautoriteit",
+    "decision_date": "2020-06-30",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 27192,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Geschillenkamer van de Gegevensbeschermingsautoriteit, 30 juni 2020, DO5-2019-01240, ECLI:BE:GBAPD:2020:ARR.20200630.8"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "name": "De heer X",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "name": "Y (eerste verweerder)",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "VERWEERDER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2020:ARR.20200630.8-003",
+        "name": "de heer Z",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "VERWEERDER"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op 25 februari 2019 diende de klager een klacht in bij de Gegevensbeschermingsautoriteit tegen de verweerders wegens verspreiding via e-mail aan derden (onder meer W en vrijwilligers/medewerkers van Y) van een screenshot van een op Facebook beschikbare profielfoto van de klager zonder zijn toestemming; de klager stelde dat de foto niet vrij toegankelijk was en dat de tweede verweerder de foto had bewerkt zodat enkel het aangezicht van de klager zichtbaar was. De klacht werd op 8 juli 2019 ontvankelijk verklaard en op 23 juli 2019 gereed verklaard voor behandeling ten gronde. De verweerders stelden in hun conclusie van antwoord (ontvangen 4 september 2019) dat de tweede verweerder handelde als werknemer in naam en voor rekening van de eerste verweerder, en overlegden een vaststelling door gerechtsdeurwaarder waaruit zou blijken dat de foto openbaar toegankelijk was; zij beriepen zich voor zover van toepassing op het gerechtvaardigd belang (art. 6.1 f) AVG) en verwezen naar een vonnis van de Sportrechtbank dat aan de klager een algemeen aanwezigheidsverbod van 1 jaar oplegde. De klager bracht in repliek (8 oktober 2019) onder meer naar voren dat er wel sprake is van verwerking en dat verweerders zich niet kunnen beroepen op gerechtvaardigd belang voor het toevoegen van de foto als bijlage. De verweerders vroegen een gehoor en wezen erop dat de tweede verweerder handelde in uitvoering van instructies van de eerste verweerder; op 27 mei 2020 werden de partijen gehoord. Verweerder 1 bevestigde dat de e-mail met foto in haar naam en opdracht werd verzonden teneinde organisatoren en sportcommissarissen in staat te stellen het aanwezigheidsverbod te handhaven.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+          "argument": "De klager voerde aan dat de verspreiding van de profielafbeelding per e-mail zonder toestemming een verwerking van persoonsgegevens uitmaakt en dat de verweerders zich niet rechtsgeldig op het gerechtvaardigd belang (art. 6.1 f) AVG) kunnen beroepen voor het hergebruik van de foto als bijlage; hij stelde dat de foto volgens hem afgeschermd was en dat het onnodig was de foto als bijlage te voegen omdat derden die de afbeelding nodig hadden deze via Facebook zelf konden raadplegen, en hij verwees naar het ontbreken van toestemming en de vereisten van artikel 12 AVG voor antwoorden op verzoeken om wissing.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+          "argument": "De verweerders stelden dat de tweede verweerder handelde als werknemer en in naam en voor rekening van de eerste verweerder, dat de betwiste profielfoto openbaar toegankelijk was (vaststelling door gerechtsdeurwaarder) en dat, voor zover sprake is van verwerking, deze gerechtvaardigd en noodzakelijk was op grond van het gerechtvaardigd belang (art. 6.1 f) AVG) voor de uitvoering en handhaving van het vonnis van de Sportrechtbank (aanwezigheidsverbod); voorts stelden zij dat de foto minimaal was bewerkt (andere persoon verwijderd) en enkel noodzakelijk was ter identificatie om naleving van het verbod mogelijk te maken.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN,\n\nbeslist de Geschillenkamer van de Gegevensbeschermingsautoriteit, na beraadslaging, om op grond van artikel 100, § 1, 1° WOG, voorliggende klacht te seponeren. Op basis van de informatie waarover de Geschillenkamer op dit ogenblik beschikt, acht zij het op heden niet mogelijk om verder gevolg te geven aan de klacht.\n\nTegen deze beslissing kan op grond van artikel 108, §1 WOG, beroep worden aangetekend binnen een termijn van dertig dagen, vanaf de kennisgeving, bij het Marktenhof, met de Gegevensbeschermingsautoriteit als verweerder.",
+      "outcome": "ONGEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "provisionNumber": "artikel 58",
+        "provisionNumberKey": "58",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "provisionNumber": "artikel 60",
+        "provisionNumberKey": "60",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-003",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "provisionNumber": "artikel 61",
+        "provisionNumberKey": "61",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-004",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "provisionNumber": "artikel 62, §1",
+        "provisionNumberKey": "62",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-005",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "provisionNumber": "artikel 95, §1, 1°",
+        "provisionNumberKey": "95",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-006",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "provisionNumber": "artikel 98",
+        "provisionNumberKey": "98",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-007",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "provisionNumber": "artikel 99",
+        "provisionNumberKey": "99",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-008",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "provisionNumber": "overweging 15",
+        "provisionNumberKey": "15",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "De Kamer leest overweging 15 in samenhang met artikel 2.1 AVG en verklaart dat de uitzondering voor dossiers die niet volgens specifieke criteria zijn gestructureerd slechts ziet op handmatige verwerkingen; digitale hergebruik/doorzending van een online toegankelijke profielfoto per e-mail valt niet onder die uitzondering en vormt wel een verwerking onder de AVG.",
+        "relevantFactualContext": "Een op Facebook openbaar gepubliceerde profielfoto werd door verweerder als bijlage via e-mail aan specifieke derden (sportcommissarissen en organisator) verzonden in het kader van handhaving van een aanwezigheidsverbod."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-009",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-010",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.20200630.8-003",
+        "provisionNumber": "artikel 124",
+        "provisionNumberKey": "124",
+        "parentActType": "WET",
+        "parentActName": "wet van 13 juni 2005 betreffende de elektronische communicatie",
+        "parentActDate": "2005-06-13",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-011",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "provisionNumber": "artikel 4, 7)",
+        "provisionNumberKey": "4.7",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "De Kamer interpreteert artikel 4, 7) AVG als bepalend dat degene die het doel en de middelen van de verwerking vaststelt de verwerkingsverantwoordelijke is; omdat de e-mail met de foto in naam en opdracht van verweerder 1 door haar werknemer werd verzonden en zij het doel en de middelen bepaalde, moet verweerder 1 als verwerkingsverantwoordelijke worden aangemerkt.",
+        "relevantFactualContext": "De tweede verweerder handelde als werknemer en stuurde in opdracht van eerste verweerder een e-mail met de profielfoto als bijlage om uitvoering te geven aan een door de Sportrechtbank opgelegd aanwezigheidsverbod."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-012",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "provisionNumber": "artikel 6, lid 1",
+        "provisionNumberKey": "6.1",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "De Kamer verduidelijkt artikel 6.1, punt f) AVG en volgt de jurisprudentie: een beroep op het gerechtvaardigd belang vergt drie cumulatieve voorwaarden — een gerechtvaardigd doel, de noodzakelijkheid van de verwerking voor dat doel, en een belangenafweging waarin de fundamentele rechten en vrijheden van de betrokkene niet prevaleren — en past deze doel-, noodzakelijkheid- en afwegingstoets concreet toe in de zaak.",
+        "relevantFactualContext": "De verweerders beroepen zich op artikel 6.1 f) AVG om de foto te gebruiken ter identificatie en handhaving van het aanwezigheidsverbod; de foto werd als bewerkte bijlage verzonden aan sportcommissarissen en organisatoren."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-013",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "provisionNumber": "artikel 2, lid 1",
+        "provisionNumberKey": "2.1",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "De Kamer leest artikel 2.1 AVG samen met overweging 15 en concludeert dat de uitsluiting voor dossiers die niet volgens specifieke criteria zijn gestructureerd uitsluitend betrekking heeft op handmatige verwerkingen; elektronische hergebruik of doorzending van een online foto valt niet onder die uitsluiting en valt wel onder het toepassingsgebied van de AVG.",
+        "relevantFactualContext": "Het geschil betreft het hergebruik van een online op Facebook gepubliceerde profielfoto die via e-mail aan specifieke derden werd doorgezonden; de Kamer oordeelt dat dit wél onder 'verwerking' valt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-014",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "provisionNumber": "artikel 4, 2)",
+        "provisionNumberKey": "4.2",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "De Kamer benadrukt dat artikel 4.2 AVG een ruime definitie van 'verwerking' bevat die handelingen als verzamelen, raadplegen, gebruiken, verstrekken door doorzending en verspreiden omvat, al dan niet geautomatiseerd; op die grond kwalificeert het verzenden van de profielfoto als bijlage aan specifieke derden als verwerking onder de AVG.",
+        "relevantFactualContext": "De foto, openbaar op Facebook, werd geconsulteerd, bewerkt en als bijlage per e-mail doorgegeven aan sportcommissarissen en organisator, wat de Kamer als concrete verwerking aanmerkt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-015",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "provisionNumber": "artikel 5, lid 1, sub c)",
+        "provisionNumberKey": "5.1",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "De Kamer past artikel 5.1.c) AVG (data-minimalisatie) toe en oordeelt dat de bewerking van de profielfoto zodat enkel het aangezicht van de klager zichtbaar bleef, en het beperken van verspreiding aan relevante ontvangers, strookt met het minimalisatiebeginsel en dus niet onnodig ingrijpend is voor het nagestreefde doel.",
+        "relevantFactualContext": "De profielfoto werd bewerkt zodat de andere persoon niet meer zichtbaar was en vervolgens als bijlage verzonden aan sportcommissarissen om naleving van het aanwezigheidsverbod te controleren."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-016",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.20200630.8-002",
+        "provisionNumber": "overweging 47",
+        "provisionNumberKey": "47",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": "2016/679",
+        "provisionInterpretation": "De Kamer gebruikt overweging 47 als leidraad bij de afwegingstoets: bij het wegen van het gerechtvaardigd belang moet rekening gehouden worden met de redelijke verwachtingen van de betrokkene ten tijde van de gegevensverzameling. Hoewel openbaar plaatsen de verwachting vergroot dat derden de gegevens kunnen raadplegen, vereist rechtmatigheid een rechtsgrond; in casu vindt de Kamer, rekening houdend met het vonnis en het toezichtdoel, het beroep op gerechtvaardigd belang aanvaardbaar.",
+        "relevantFactualContext": "De klager had de foto publiekelijk beschikbaar gemaakt op Facebook; de verwijzing en verspreiding diende ertoe organisatoren en commissarissen in staat te stellen het door de Sportrechtbank opgelegde aanwezigheidsverbod te handhaven."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-017",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "provisionNumber": "artikel 100, §1, 1°",
+        "provisionNumberKey": "100",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-018",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:ARR.20200630.20200630.8-001",
+        "provisionNumber": "artikel 108, §1",
+        "provisionNumberKey": "108",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2019-07-23",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2019-08-23",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2019-10-08",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2019-10-30",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Geschillenkamer van de Gegevensbeschermingsautoriteit",
+        "date": "2020-05-27",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "EU",
+        "courtName": "Hof van Justitie van de Europese Unie",
+        "date": "2017-05-04",
+        "caseNumber": "C-13/16",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-006"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 7,
+        "courtJurisdictionCode": "EU",
+        "courtName": "Hof van Justitie van de Europese Unie",
+        "date": "2019-12-11",
+        "caseNumber": "C-708/18",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-007"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Hergebruik profielfoto",
+      "Facebook profielfoto",
+      "E-mail met bijlage",
+      "Werknemer namens werkgever",
+      "Verwerking persoonsgegevens",
+      "Gerechtvaardigd belang",
+      "Noodzakelijkheidstoets",
+      "Minimale gegevensverwerking",
+      "Handhaving aanwezigheidsverbod"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "text": "Voor de toepassing van artikel 4.7 AVG geldt dat degene die het doel en de middelen van de verwerking bepaalt als verwerkingsverantwoordelijke moet worden aangemerkt; handelt een werknemer in naam en opdracht en bepaalt de organisatie het doel en de middelen, dan is die organisatie verwerkingsverantwoordelijke.",
+        "courtVerbatim": "Met het oog op de uitvoering van dit aanwezigheidsverbod opgelegd aan de klager werd in opdracht van verweerder 1 door verweerder 2 een e-mail gericht aan de sportcommissarissen van een welbepaald, nakend event in de W, alsook in \"carbon copy\" (cc) aan de organiserende instelling. Verweerder 1 bevestigt dat een foto van de klager in bijlage werd toegevoegd teneinde de bestemmelingen van de e-mail toe te laten deze te herkennen indien de klager zich ondanks het aanwezigheidsverbod toch zou aanmelden.\n\nHet geheel van deze vaststellingen brengt de Geschillenkamer ertoe te besluiten dat de eerste verweerder het doel en de middelen voor de uitvoering van het vonnis van de Sportrechtbank heeft bepaald doordat de e-mail met de foto in bijlage in haar naam en opdracht werd verzonden door de tweede verweerder die louter optrad in zijn functie van werknemer van de eerste verweerder en in die hoedanigheid ertoe is gehouden om de hem toegewezen taken te volbrengen. Aldus moet de eerste verweerder worden aangemerkt als verwerkingsverantwoordelijke in de zin van artikel 4. 7) AVG.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een werknemer in naam en opdracht handelt en de organisatie het doel en de middelen van die verwerking bepaalt.",
+        "relevantFactualContext": "Een werknemer stuurde in opdracht van de werkgever een e-mail met een foto van de betrokkene als bijlage om uitvoering te geven aan een door de Sportrechtbank opgelegd aanwezigheidsverbod.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-011"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "text": "Het elektronische hergebruik of de doorzending van een online openbaar toegankelijke profielfoto aan specifieke derden kwalificeert als 'verwerking' onder de AVG; de in artikel 2.1 gelezen samen met overweging 15 genoemde uitzondering voor dossiers die niet volgens specifieke criteria zijn gestructureerd, ziet uitsluitend op handmatige verwerkingen en sluit elektronisch hergebruik niet uit.",
+        "courtVerbatim": "In zoverre de verweerder aanvoert dat het hergebruik van de profielfoto die vrij beschikbaar is op Facebook geen verwerking zou uitmaken in de zin van artikel 4. 2) AVG omwille van het feit dat de klager niet aantoont dat de foto volgens specifieke criteria werd gestructureerd, merkt de Geschillenkamer daaromtrent op dat artikel 2.1) AVG gelezen in samenhang met overweging 15 van de AVG weliswaar een uitsluiting uit het toepassingsgebied van de AVG voorziet voor dossiers of een verzameling dossiers en de omslagen ervan, die niet volgens specifieke criteria zijn gestructureerd, maar deze uitzondering geldt enkel voor handmatige verwerkingen. In voorliggend geval gaat het echter om het hergebruik van een online toegankelijke foto die door middel van een e-mailbericht wordt overgemaakt aan welbepaalde derden.\n\nDe Geschillenkamer is van oordeel dat er dus wel degelijk sprake is van een verwerking in de zin van artikel 4. 2) AVG, aangezien de foto op geautomatiseerde wijze aan de hand van bepaalde technologieën werd geraadpleegd om vervolgens te worden gebruikt en doorgezonden aan derden.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij elektronisch hergebruik of doorzending van online toegankelijke persoonsgegevens aan welbepaalde derden.",
+        "relevantFactualContext": "Een op Facebook openbaar gepubliceerde profielfoto werd door verweerder als bijlage via e-mail aan sportcommissarissen en de organisator verzonden; de Kamer oordeelt dat dit onder de definitie van verwerking valt.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-013",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-008",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-014"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:ARR.20200630.8-003",
+        "text": "Een beroep op artikel 6.1 f) AVG (gerechtvaardigd belang) vergt drie cumulatieve voorwaarden die cumulatief moeten worden aangetoond: (1) een gerechtvaardigd doel, (2) de noodzaak van de verwerking voor dat doel, en (3) een belangenafweging waarbij de fundamentele rechten en vrijheden van de betrokkene niet zwaarder wegen dan het nagestreefde belang.",
+        "courtVerbatim": "Overeenkomstig artikel 6.1 f) AVG en de rechtspraak van het Hof van Justitie van de Europese Unie (hierna \"het Hof\") dient aan drie cumulatieve voorwaarden te zijn voldaan opdat een verwerkingsverantwoordelijke zich rechtsgeldig kan beroepen op deze rechtmatigheidsgrond, \"te weten, in de eerste plaats, de behartiging van een gerechtvaardigd belang van de voor de verwerking verantwoordelijke of van de derde(n) aan wie de gegevens worden verstrekt, in de tweede plaats, de noodzaak van de verwerking van de persoonsgegevens voor de behartiging van het gerechtvaardigde belang, en, in de derde plaats, de voorwaarde dat de fundamentele rechten en vrijheden van de bij de gegevensbescherming betrokken persoon niet prevaleren\" (arrest \"Rigas\").\n\nTeneinde zich conform artikel 6.1 f) AVG te kunnen beroepen op de rechtmatigheidsgrond van het \"gerechtvaardigd belang\", dient de verwerkingsverantwoordelijke met andere woorden aan te tonen dat:\n\n- de belangen die deze met de verwerking nastreeft, als gerechtvaardigd kunnen worden erkend (de \"doeltoets\");\n- de beoogde verwerking noodzakelijk is voor de verwezenlijking van deze belangen (de \"noodzakelijkheidstoets\"); en\n- de afweging van deze belangen ten opzichte van de belangen, fundamentele vrijheden en grondrechten van betrokkenen doorweegt in het voordeel van de verwerkingsverantwoordelijke (de \"afwegingstoets\").",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de verwerkingsverantwoordelijke zich beroept op gerechtvaardigd belang als rechtsgrond voor verwerking.",
+        "relevantFactualContext": "De verweerders beroepen zich op artikel 6.1 f) AVG om de foto te gebruiken ter identificatie en handhaving van een aanwezigheidsverbod; de Kamer past de doel-, noodzakelijkheid- en afwegingstoets concreet toe.",
+        "principleType": "LEGAL_TEST",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:GBAPD:2020:ARR.20200630.8-004"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-012"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-006",
+          "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-007"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:ARR.20200630.8-004",
+        "text": "Bij de afweging volgens artikel 6.1 f) AVG moeten het minimalisatiebeginsel en de redelijke verwachtingen van de betrokkene worden meegewogen; het beperken van een afbeelding tot enkel het voor identificatie noodzakelijke en het richten van verspreiding tot relevante ontvangers kan de proportionaliteit en rechtmatigheid van de verwerking ondersteunen.",
+        "courtVerbatim": "De bewerking van de profielfoto erin bestond dat de andere persoon die op de profielfoto stond niet meer zichtbaar was, zodat enkel nog de afbeelding van de klager te zien was op de foto. Hierdoor hebben de verweerders het beginsel van minimale gegevensverwerking (artikel 5.1. c) AVG) gerespecteerd, aangezien de afbeelding van de andere persoon geenszins vereist was voor het nagestreefde doeleinde, zijnde handhaving van het aanwezigheidsverbod.\n\nTeneinde na te gaan of aan de derde voorwaarde van artikel 6.1 f) AVG - de zogenaamde \"afwegingstoets\" tussen de belangen van de verwerkingsverantwoordelijke, enerzijds, en de fundamentele vrijheden en grondrechten van betrokkene, anderzijds - kan worden voldaan, dient overeenkomstig overweging 47 AVG rekening te worden gehouden met de redelijke verwachtingen van de betrokkene. Er dient meer bepaald te worden geëvalueerd of \"betrokkene op het tijdstip en in het kader van de verzameling van de persoonsgegevens redelijkerwijs mag verwachten dat verwerking met dat doel kan plaatsvinden\".\n\nDoordat de klager zelf de foto heeft gepubliceerd op zodanige wijze dat deze vrij toegankelijk is voor eenieder, is de Geschillenkamer van oordeel dat het binnen de redelijke verwachtingen van de klager valt dat derden zich toegang verschaffen tot de publiek gedeelde informatie en deze gebruiken. De verzameling en het gebruik van de openbaar gemaakte persoonsgegevens door deze derden is evenwel slechts rechtmatig in zoverre de verwerking van die persoonsgegevens is gebaseerd op een rechtsgrond zoals bepaald in artikel 6.1. AVG.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer bij beroep op gerechtvaardigd belang vragen bestaan over proportionaliteit, minimalisatie en de redelijke verwachtingen van de betrokkene.",
+        "relevantFactualContext": "De profielfoto werd bewerkt zodat alleen het aangezicht zichtbaar bleef en enkel verzonden aan sportcommissarissen en de organisator ter handhaving van een aanwezigheidsverbod; de Kamer oordeelt dat dit minimalisatie en de redelijke verwachtingen meeweegt.",
+        "principleType": "BALANCING_TEST",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPD:2020:ARR.20200630.8-003",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-015",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-016",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-012"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-006",
+          "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-007"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 1,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 1,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser klaagde de vennootschap en een werknemer aan wegens het per e-mail verspreiden van zijn op Facebook beschikbare profielfoto zonder toestemming ter identificatie in verband met een door de Sportrechtbank opgelegd aanwezigheidsverbod. De Geschillenkamer oordeelt dat de vennootschap als verwerkingsverantwoordelijke dient te worden aangemerkt en dat de hergebruik van de openbaar toegankelijke foto rechtmatig was op grond van artikel 6.1 f) AVG omdat de verwerking noodzakelijk was voor de uitvoering van het vonnis, proportioneel en beperkt (minimisatie) en de belangenafweging in het voordeel van de verwerkingsverantwoordelijke uitviel. De klacht wordt geseponeerd."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "relatedFullTextCitations": [
+          "<li>3. Op 8 juli 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG, wordt de klager hiervan in kennis gesteld op grond van artikel 61 WOG en wordt de klacht op grond van artikel 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-003",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "relatedFullTextCitations": [
+          "<li>3. Op 8 juli 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG, wordt de klager hiervan in kennis gesteld op grond van artikel 61 WOG en wordt de klacht op grond van artikel 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-003",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-003",
+        "relatedFullTextCitations": [
+          "<li>3. Op 8 juli 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG, wordt de klager hiervan in kennis gesteld op grond van artikel 61 WOG en wordt de klacht op grond van artikel 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-003",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-004",
+        "relatedFullTextCitations": [
+          "<li>3. Op 8 juli 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG, wordt de klager hiervan in kennis gesteld op grond van artikel 61 WOG en wordt de klacht op grond van artikel 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-004",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-005",
+        "relatedFullTextCitations": [
+          "<li>4. Op 23 juli 2019 beslist de Geschillenkamer op grond van artikel 95, §1, 1° en artikel 98 WOG dat het dossier gereed is voor behandeling ten gronde.</li>",
+          "<li>5. Op 24 juli 2019 worden de betrokken partijen per aangetekende zending in kennis gesteld van de bepalingen zoals vermeld in artikel 95, §2, alsook van deze in artikel 98 WOG. Tevens worden zij op grond van artikel 99 WOG in kennis gesteld van de termijnen om hun verweermiddelen in te dienen. De uiterste datum voor ontvangst van de conclusie van antwoord van de verweerders werd daarbij vastgelegd op 6 september 2019, deze voor de conclusie van repliek van de klager op 7 oktober 2019.</li>",
+          "<li>6. Op 6 augustus 2019 vragen de verweerders een kopie van het dossier (artikel 95, §2, 3° WOG).</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-005",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-006",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-006",
+        "relatedFullTextCitations": [
+          "<li>4. Op 23 juli 2019 beslist de Geschillenkamer op grond van artikel 95, §1, 1° en artikel 98 WOG dat het dossier gereed is voor behandeling ten gronde.</li>",
+          "<li>5. Op 24 juli 2019 worden de betrokken partijen per aangetekende zending in kennis gesteld van de bepalingen zoals vermeld in artikel 95, §2, alsook van deze in artikel 98 WOG. Tevens worden zij op grond van artikel 99 WOG in kennis gesteld van de termijnen om hun verweermiddelen in te dienen. De uiterste datum voor ontvangst van de conclusie van antwoord van de verweerders werd daarbij vastgelegd op 6 september 2019, deze voor de conclusie van repliek van de klager op 7 oktober 2019.</li>",
+          "<li>8. Op 14 augustus 2019 geven de verweerders te kennen verweermiddelen te zullen indienen (artikel 98, 2° WOG), alsook om de conclusiekalender aan te passen.</li>",
+          "<p class=\"case-section__paragraph\">Op 30 oktober 2019 ontvangt de Geschillenkamer de conclusie van repliek van de verweerders. Daarin geven deze te kennen gebruik te willen maken van de mogelijkheid om te worden gehoord (artikel 98, 2° WOG). De verweerders hernemen de elementen van de conclusie van antwoord en voegen daaraan toe dat de klager artikel 124 van de wet van 13 juni 2005 betreffende de elektronische communicatie, heeft geschonden omdat hij met opzet kennis heeft genomen van een e-mailbericht dat niet aan hem was gericht.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-006",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-005",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-007",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-007",
+        "relatedFullTextCitations": [
+          "<li>5. Op 24 juli 2019 worden de betrokken partijen per aangetekende zending in kennis gesteld van de bepalingen zoals vermeld in artikel 95, §2, alsook van deze in artikel 98 WOG. Tevens worden zij op grond van artikel 99 WOG in kennis gesteld van de termijnen om hun verweermiddelen in te dienen. De uiterste datum voor ontvangst van de conclusie van antwoord van de verweerders werd daarbij vastgelegd op 6 september 2019, deze voor de conclusie van repliek van de klager op 7 oktober 2019.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.20200630.8-007",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-005",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-008",
+        "relatedFullTextCitations": [
+          "<li>10. Op 4 september 2019 ontvangt de Geschillenkamer de conclusie van antwoord vanwege de verweerders. De verweerders stellen dat de tweede verweerder optrad in zijn hoedanigheid van werknemer die handelde in naam en voor rekening van de eerste verweerder. De verweerders tonen vervolgens door middel van vaststelling door een gerechtsdeurwaarder aan dat de foto waarop de klacht betrekking heeft, openbaar toegankelijk is voor iedereen en dus geenszins was afgeschermd. Vooreerst zou er volgens de verweerders geen verwerking plaatsvinden, omdat de klager niet aantoont dat de foto volgens specifieke criteria werd gestructureerd. De verweerders verwijzen in dat verband naar overweging 15 AVG. In zoverre er wel sprake zou zijn van een verwerking beroepen de verweerders zich op het gerechtvaardigd belang als rechtsgrond (artikel 6.1 f) AVG) en verwijst daartoe naar het vonnis van de Sportrechtbank waarbij aan de klager het verbod werd opgelegd om gedurende 1 jaar aanwezig te zijn op trainingen, kampioenschappen of enige andere wedstrijd van om het even welke aard, georganiseerd onder de sportieve autoriteit van de eerste verweerder.</li>",
+          "<li>21. In zoverre de verweerder aanvoert dat het hergebruik van de profielfoto die vrij beschikbaar is op Facebook geen verwerking zou uitmaken in de zin van artikel 4. 2) AVG omwille van het feit dat de klager niet aantoont dat de foto volgens specifieke criteria werd gestructureerd, merkt de Geschillenkamer daaromtrent op dat artikel 2.1) AVG gelezen in samenhang met overweging 15 van de AVG weliswaar een uitsluiting uit het toepassingsgebied van de AVG voorziet voor dossiers of een verzameling dossiers en de omslagen ervan, die niet volgens specifieke criteria zijn gestructureerd, maar deze uitzondering geldt enkel voor handmatige verwerkingen. In voorliggend geval gaat het echter om het hergebruik van een online toegankelijke foto die door middel van een e-mailbericht wordt overgemaakt aan welbepaalde derden.</li>",
+          "<p class=\"case-section__paragraph\">¹ Overweging 15 AVG. Om te voorkomen dat een ernstig risico op omzeiling zou ontstaan, dient de bescherming van natuurlijke personen technologieneutraal te zijn en mag zij niet afhankelijk zijn van de gebruikte technologieën. De bescherming van natuurlijke personen dient te gelden bij zowel geautomatiseerde verwerking van persoonsgegevens als handmatige verwerking daarvan indien de persoonsgegevens zijn opgeslagen of bedoeld zijn om te worden opgeslagen in een bestand. Dossiers of een verzameling dossiers en de omslagen ervan, die niet volgens specifieke criteria zijn gestructureerd, mogen niet onder het toepassingsgebied van deze richtlijn te vallen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-008",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-013",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-009",
+        "relatedFullTextCitations": [
+          "<li>11. In de conclusie gaan de verweerders ook nader in op het verzoek van de klager om gevolg te geven aan zijn recht op gegevenswissing, waarop door de verweerders niet werd gereageerd overeenkomstig de vereisten van artikel 12 AVG. De verweerders geven als reden daartoe aan dat uit het verzoek van de klager niet bleek dat om enige reactie werd verzocht. De Geschillenkamer kan dienaangaande enkel vaststellen dat het uitblijven van reactie vanwege de verweerders op dit verzoek geen deel uitmaakt van de klacht.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.20200630.8-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Op 30 oktober 2019 ontvangt de Geschillenkamer de conclusie van repliek van de verweerders. Daarin geven deze te kennen gebruik te willen maken van de mogelijkheid om te worden gehoord (artikel 98, 2° WOG). De verweerders hernemen de elementen van de conclusie van antwoord en voegen daaraan toe dat de klager artikel 124 van de wet van 13 juni 2005 betreffende de elektronische communicatie, heeft geschonden omdat hij met opzet kennis heeft genomen van een e-mailbericht dat niet aan hem was gericht.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.20200630.8-010",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 4. 7) AVG</p>",
+          "<p class=\"case-section__paragraph\">Voor de toepassing van deze verordening wordt verstaan onder:</p>",
+          "<ol>\n            <li>7) „verwerkingsverantwoordelijke”: een natuurlijke persoon of rechtspersoon, een overheidsinstantie, een dienst of een ander orgaan die/dat, alleen of samen met anderen, het doel van en de middelen voor de verwerking van persoonsgegevens vaststelt; wanneer de doelstellingen van en de middelen voor deze verwerking in het Unierecht of het lidstatelijke recht worden vastgesteld, kan daarin worden bepaald wie de verwerkingsverantwoordelijke is of volgens welke criteria deze wordt aangewezen;</li>\n        </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.20200630.8-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 6.1. AVG</p>",
+          "<ol>\n            <li>1. De verwerking is alleen rechtmatig indien en voor zover aan ten minste een van de onderstaande voorwaarden is voldaan:</li>\n            <li>f) de verwerking is noodzakelijk voor de behartiging van de gerechtvaardigde belangen van de verwerkingsverantwoordelijke of van een derde, behalve wanneer de belangen of de grondrechten en de fundamentele vrijheden van de betrokkene die tot bescherming van persoonsgegevens nopen, zwaarder wegen dan die belangen, met name wanneer de betrokkene een kind is.</li>\n        </ol>",
+          "<p class=\"case-section__paragraph\">De eerste alinea, punt f), geldt niet voor de verwerking door overheidsinstanties in het kader van de uitoefening van hun taken.</p>",
+          "<li>24. De Geschillenkamer stelt dat zowel het raadplegen, als het gebruiken van een foto een verwerking is in de zin van de AVG en dat deze verwerking alleen is toegestaan op basis van een verwerkingsgrondslag in artikel 6.1 AVG. Het feit dat de foto vrij toegankelijk werd gemaakt door de betrokkene zelf, laat geenszins het vrije hergebruik toe van de foto door derden die deze raadplegen.</li>",
+          "<li>25. De AVG houdt een aanzienlijke beperking in van de mogelijkheid tot het hergebruik van openbaar raadpleegbare persoonsgegevens. De Geschillenkamer benadrukt hiermee dat het principe voorop staat dat het feit dat iemands profielfoto vrij toegankelijk is voor het publiek, niet betekent dat anderen deze vrij mogen gebruiken. Het gebruik ervan is slechts mogelijk indien daartoe een rechtsgrond aanwezig is. De verweerder beroept zich daartoe op zijn gerechtvaardigd belang (artikel 6.1 f) AVG).</li>",
+          "<li>26. Overeenkomstig artikel 6.1 f) AVG en de rechtspraak van het Hof van Justitie van de Europese Unie (hierna “het Hof”) dient aan drie cumulatieve voorwaarden te zijn voldaan opdat een verwerkingsverantwoordelijke zich rechtsgeldig kan beroepen op deze rechtmatigheidsgrond, “te weten, in de eerste plaats, de behartiging van een gerechtvaardigd belang van de voor de verwerking verantwoordelijke of van de derde(n) aan wie de gegevens worden verstrekt, in de tweede plaats, de noodzaak van de verwerking van de persoonsgegevens voor de behartiging van het gerechtvaardigde belang, en, in de derde plaats, de voorwaarde dat de fundamentele rechten en vrijheden van de bij de gegevensbescherming betrokken persoon niet prevaleren” (arrest “Rigas”³).</li>",
+          "<li>27. Teneinde zich conform artikel 6.1 f) AVG te kunnen beroepen op de rechtmatigheidsgrond van het “gerechtvaardigd belang”, dient de verwerkingsverantwoordelijke met andere woorden aan te tonen dat:\n                <ul>\n                    <li>de belangen die deze met de verwerking nastreeft, als gerechtvaardigd kunnen worden erkend (de “doeltoets”);</li>\n                    <li>de beoogde verwerking noodzakelijk is voor de verwezenlijking van deze belangen (de “noodzakelijkheidstoets”); en</li>\n                    <li>de afweging van deze belangen ten opzichte van de belangen, fundamentele vrijheden en grondrechten van betrokkenen doorweegt in het voordeel van de verwerkingsverantwoordelijke (de “afwegingstoets”).</li>\n                </ul>\n            </li>",
+          "<li>33. Teneinde na te gaan of aan de derde voorwaarde van artikel 6.1 f) AVG - de zogenaamde “afwegingstoets” tussen de belangen van de verwerkingsverantwoordelijke, enerzijds, en de fundamentele vrijheden en grondrechten van betrokkene, anderzijds - kan worden voldaan, dient overeenkomstig overweging 47 AVG rekening te worden gehouden met de redelijke verwachtingen van de betrokkene. Er dient meer bepaald te worden geëvalueerd of “betrokkene op het tijdstip en in het kader van de verzameling van de persoonsgegevens redelijkerwijs mag verwachten dat verwerking met dat doel kan plaatsvinden” 5.</li>",
+          "<li>35. Doordat de klager zelf de foto heeft gepubliceerd op zodanige wijze dat deze vrij toegankelijk is voor eenieder, is de Geschillenkamer van oordeel dat het binnen de redelijke verwachtingen van de klager valt dat derden zich toegang verschaffen tot de publiek gedeelde informatie en deze gebruiken. De verzameling en het gebruik van de openbaar gemaakte persoonsgegevens door deze derden is evenwel slechts rechtmatig in zoverre de verwerking van die persoonsgegevens is gebaseerd op een rechtsgrond zoals bepaald in artikel 6.1. AVG. De Geschillenkamer stelt vast dat de verweerders zich terecht beroepen op artikel 6.1. f) AVG7, aangezien het vonnis van de Sportrechtbank naast het aanwezigheidsverbod opgelegd aan de klager, ook stipuleert dat de griffier van het secretariaat van verweerder 1 wordt verzocht om dit verbod ter kennis te brengen van alle organisatoren van wedstrijden op Belgisch grondgebied. Hoewel het vonnis niet oplegt om aan deze kennisgeving van het aanwezigheidsverbod ook een foto van de klager toe te voegen, is het evenwel noodzakelijk om met het oog op controle van de naleving van het aanwezigheidsverbod in hoofde van de klager, dat de organisatoren van wedstrijden op Belgisch grondgebied beschikken over enig middel, zijnde de foto van de klager, om deze desgevallend – bij niet-naleving van het verbod – te kunnen identificeren.</li>",
+          "<p class=\"case-section__paragraph\">³ HvJEU, 4 mei 2017, C-13/16, Valsts policijas Rīgas reģiona pārvaldes Kārtības policijas pārvalde tegen Rīgas pašvaldības SIA „Rīgas satiksme”, overweging 28. Zie ook HvJEU, 11 december 2019, C-708/18, TK t/ Asociaţia de Proprietari blok M5A-ScaraA, overweging 40.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-012",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-015",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-016"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-006",
+          "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-007"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-013",
+        "relatedFullTextCitations": [
+          "<li>21. In zoverre de verweerder aanvoert dat het hergebruik van de profielfoto die vrij beschikbaar is op Facebook geen verwerking zou uitmaken in de zin van artikel 4. 2) AVG omwille van het feit dat de klager niet aantoont dat de foto volgens specifieke criteria werd gestructureerd, merkt de Geschillenkamer daaromtrent op dat artikel 2.1) AVG gelezen in samenhang met overweging 15 van de AVG weliswaar een uitsluiting uit het toepassingsgebied van de AVG voorziet voor dossiers of een verzameling dossiers en de omslagen ervan, die niet volgens specifieke criteria zijn gestructureerd, maar deze uitzondering geldt enkel voor handmatige verwerkingen. In voorliggend geval gaat het echter om het hergebruik van een online toegankelijke foto die door middel van een e-mailbericht wordt overgemaakt aan welbepaalde derden.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-013",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-008",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-014",
+        "relatedFullTextCitations": [
+          "<li>22. In zoverre de verweerder aanvoert dat het hergebruik van de profielfoto die vrij beschikbaar is op Facebook geen verwerking zou uitmaken in de zin van artikel 4. 2) AVG omwille van het feit dat de klager niet aantoont dat de foto volgens specifieke criteria werd gestructureerd, merkt de Geschillenkamer daaromtrent op dat artikel 2.1) AVG gelezen in samenhang met overweging 15 van de AVG weliswaar een uitsluiting uit het toepassingsgebied van de AVG voorziet voor dossiers of een verzameling dossiers en de omslagen ervan, die niet volgens specifieke criteria zijn gestructureerd, maar deze uitzondering geldt enkel voor handmatige verwerkingen. In voorliggend geval gaat het echter om het hergebruik van een online toegankelijke foto die door middel van een e-mailbericht wordt overgemaakt aan welbepaalde derden.</li>",
+          "<p class=\"case-section__paragraph\">² Artikel 4.2) AVG: Voor de toepassing van deze verordening wordt verstaan onder: „verwerking”: een bewerking of een geheel van bewerkingen met betrekking tot persoonsgegevens of een geheel van persoonsgegevens, al dan niet uitgevoerd via geautomatiseerde procedés, zoals het verzamelen, vastleggen, ordenen, structureren, opslaan, bijwerken of wijzigen, opvragen, raadplegen, gebruiken, verstrekken door middel van doorzending, verspreiden of op andere wijze ter beschikking stellen, aligneren of combineren, afschermen, wissen of vernietigen van gegevens;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-014",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-008",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-015",
+        "relatedFullTextCitations": [
+          "<li>31. De Geschillenkamer merkt op dat de bewerking van de profielfoto erin bestond dat de andere persoon die op de profielfoto stond niet meer zichtbaar was, zodat enkel nog de afbeelding van de klager te zien was op de foto. Hierdoor hebben de verweerders het beginsel van minimale gegevensverwerking (artikel 5.1. c) AVG) gerespecteerd, aangezien de afbeelding van de andere persoon geenszins vereist was voor het nagestreefde doeleinde, zijnde handhaving van het aanwezigheidsverbod.</li>",
+          "<li>32. Daarnaast stelt de Geschillenkamer vast dat de foto van de klager noodzakelijk was voor zijn identificatie, vermits het doeleinde bestaande uit de handhaving van het aanwezigheidsverbod opgelegd aan de klager niet redelijkerwijs op een andere wijze kan worden verwezenlijkt 4 dan door de verwerking van een foto. De wijze waarop de foto ter beschikking wordt gesteld, hetzij via bijlage bij de betreffende e-mail, hetzij door rechtstreekse raadpleging van de Facebook pagina van de klager, is daarbij niet relevant. Ook op dit punt werd het beginsel van minimale gegevensverwerking (artikel 5.1. c) AVG) nageleefd.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.20200630.8-015",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-012",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">5 Overweging 47 AVG.</p>",
+          "<li>33. Teneinde na te gaan of aan de derde voorwaarde van artikel 6.1 f) AVG - de zogenaamde “afwegingstoets” tussen de belangen van de verwerkingsverantwoordelijke, enerzijds, en de fundamentele vrijheden en grondrechten van betrokkene, anderzijds - kan worden voldaan, dient overeenkomstig overweging 47 AVG rekening te worden gehouden met de redelijke verwachtingen van de betrokkene. Er dient meer bepaald te worden geëvalueerd of “betrokkene op het tijdstip en in het kader van de verzameling van de persoonsgegevens redelijkerwijs mag verwachten dat verwerking met dat doel kan plaatsvinden” 5.</li>",
+          "<li>34. Dit wordt eveneens benadrukt door het Hof in zijn arrest “TK t/ Asociaţia de Proprietari blok M5A-ScaraA” van 11 december 20196, waarin het stelt:</li>",
+          "<blockquote class=\"case-quote\">\n            <p>“Ook relevant voor deze afweging zijn de redelijke verwachtingen van de betrokkene dat zijn of haar persoonsgegevens niet zullen worden verwerkt wanneer, in de gegeven omstandigheden van het geval, de betrokkene redelijkerwijs geen verdere verwerking van de gegevens kan verwachten”.</p>\n        </blockquote>",
+          "<li>35. Doordat de klager zelf de foto heeft gepubliceerd op zodanige wijze dat deze vrij toegankelijk is voor eenieder, is de Geschillenkamer van oordeel dat het binnen de redelijke verwachtingen van de klager valt dat derden zich toegang verschaffen tot de publiek gedeelde informatie en deze gebruiken. De verzameling en het gebruik van de openbaar gemaakte persoonsgegevens door deze derden is evenwel slechts rechtmatig in zoverre de verwerking van die persoonsgegevens is gebaseerd op een rechtsgrond zoals bepaald in artikel 6.1. AVG. De Geschillenkamer stelt vast dat de verweerders zich terecht beroepen op artikel 6.1. f) AVG7, aangezien het vonnis van de Sportrechtbank naast het aanwezigheidsverbod opgelegd aan de klager, ook stipuleert dat de griffier van het secretariaat van verweerder 1 wordt verzocht om dit verbod ter kennis te brengen van alle organisatoren van wedstrijden op Belgisch grondgebied. Hoewel het vonnis niet oplegt om aan deze kennisgeving van het aanwezigheidsverbod ook een foto van de klager toe te voegen, is het evenwel noodzakelijk om met het oog op controle van de naleving van het aanwezigheidsverbod in hoofde van de klager, dat de organisatoren van wedstrijden op Belgisch grondgebied beschikken over enig middel, zijnde de foto van de klager, om deze desgevallend – bij niet-naleving van het verbod – te kunnen identificeren.</li>",
+          "<p class=\"case-section__paragraph\">6 HvJEU, 11 december 2019, C-708/18, TK t/ Asociaţia de Proprietari blok M5A-ScaraA, overweging 58.</p>",
+          "<p class=\"case-section__paragraph\">7 Overweging 47 AVG. De gerechtvaardigde belangen van een verwerkingsverantwoordelijke, waaronder die van een verwerkingsverantwoordelijke aan wie de persoonsgegevens kunnen worden verstrekt, of van een derde, kan een rechtsgrond bieden voor verwerking, mits de belangen of de grondrechten en de fundamentele vrijheden van de betrokkene niet zwaarder wegen, rekening houdend met de redelijke verwachtingen van de betrokkene op basis van zijn verhouding met de verwerkingsverantwoordelijke. Een dergelijk gerechtvaardigd belang kan bijvoorbeeld aanwezig zijn wanneer sprake is van een relevante en passende verhouding tussen de betrokkene en de verwerkingsverantwoordelijke, in situaties waarin de betrokkene een klant is of in dienst is van de verwerkingsverantwoordelijke. In elk geval is een zorgvuldige beoordeling geboden om te bepalen of sprake is van een gerechtvaardigd belang, alsook om te bepalen of een betrokkene op het tijdstip en in het kader van de verzameling van de persoonsgegevens redelijkerwijs mag verwachten dat verwerking met dat doel kan plaatsvinden. De belangen en de grondrechten van de betrokkene kunnen met name zwaarder wegen dan het belang van de verwerkingsverantwoordelijke wanneer persoonsgegevens worden verwerkt in omstandigheden waarin de betrokkenen redelijkerwijs geen verdere verwerking verwachten. Aangezien het aan de wetgever staat om de rechtsgrond voor persoonsgegevensverwerking door overheidsinstanties te creëren, mag die rechtsgrond niet van toepassing zijn op de verwerking door overheidsinstanties in het kader van de uitvoering van hun taken. De verwerking van persoonsgegevens die strikt noodzakelijk is voor fraudevoorkoming is ook een gerechtvaardigd belang van de verwerkingsverantwoordelijke in kwestie. De verwerking van persoonsgegevens ten behoeve van direct marketing kan worden beschouwd als uitgevoerd met het oog op een gerechtvaardigd belang. (eigen onderlijning)</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-016",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-012",
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:ARR.20200630.8-007"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-017",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-footer__title\">OM DEZE REDENEN, beslist de Geschillenkamer van de Gegevensbeschermingsautoriteit, na beraadslaging, om op grond van artikel 100, §1, 1° WOG, voorliggende klacht te seponeren. Op basis van de informatie waarover de Geschillenkamer op dit ogenblik beschikt, acht zij het op heden niet mogelijk om verder gevolg te geven aan de klacht.</h3>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-017"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:ARR.20200630.8-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Tegen deze beslissing kan op grond van artikel 108, §1 WOG, beroep worden aangetekend binnen een termijn van dertig dagen, vanaf de kennisgeving, bij het Marktenhof, met de Gegevensbeschermingsautoriteit als verweerder.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:ARR.20200630.20200630.8-018"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 18,
+      "citationStatistics": {
+        "totalCitations": 43,
+        "avgCitationsPerProvision": 2.388888888888889,
+        "provisionsWithMinimalCitations": 12,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.7777777777777777,
+        "avgDecisionsPerProvision": 0.16666666666666666,
+        "provisionsWithNoRelationships": 4
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:ARR.20200630.8-001",
+        "relatedFullTextCitations": [
+          "<li>19. Met het oog op de uitvoering van dit aanwezigheidsverbod opgelegd aan de klager werd in opdracht van verweerder 1 door verweerder 2 een e-mail gericht aan de sportcommissarissen van een welbepaald, nakend event in de W, alsook in “carbon copy” (cc) aan de organiserende instelling. Verweerder 1 bevestigt dat een foto van de klager in bijlage werd toegevoegd teneinde de bestemmelingen van de e-mail toe te laten deze te herkennen indien de klager zich ondanks het aanwezigheidsverbod toch zou aanmelden.</li>",
+          "<li>20. Het geheel van deze vaststellingen brengt de Geschillenkamer ertoe te besluiten dat de eerste verweerder het doel en de middelen voor de uitvoering van het vonnis van de Sportrechtbank heeft bepaald doordat de e-mail met de foto in bijlage in haar naam en opdracht werd verzonden door de tweede verweerder die louter optrad in zijn functie van werknemer van de eerste verweerder en in die hoedanigheid ertoe is gehouden om de hem toegewezen taken te volbrengen. Aldus moet de eerste verweerder worden aangemerkt als verwerkingsverantwoordelijke in de zin van artikel 4. 7) AVG.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:ARR.20200630.8-002",
+        "relatedFullTextCitations": [
+          "<li>21. In zoverre de verweerder aanvoert dat het hergebruik van de profielfoto die vrij beschikbaar is op Facebook geen verwerking zou uitmaken in de zin van artikel 4. 2) AVG omwille van het feit dat de klager niet aantoont dat de foto volgens specifieke criteria werd gestructureerd, merkt de Geschillenkamer daaromtrent op dat artikel 2.1) AVG gelezen in samenhang met overweging 15 van de AVG weliswaar een uitsluiting uit het toepassingsgebied van de AVG voorziet voor dossiers of een verzameling dossiers en de omslagen ervan, die niet volgens specifieke criteria zijn gestructureerd, maar deze uitzondering geldt enkel voor handmatige verwerkingen¹. In voorliggend geval gaat het echter om het hergebruik van een online toegankelijke foto die door middel van een e-mailbericht wordt overgemaakt aan welbepaalde derden.</li>",
+          "<li>22. De Geschillenkamer is van oordeel dat er dus wel degelijk sprake is van een verwerking in de zin van artikel 4. 2) AVG², aangezien de foto op geautomatiseerde wijze aan de hand van bepaalde.</li>",
+          "<p class=\"case-section__paragraph\">¹ Overweging 15 AVG. Om te voorkomen dat een ernstig risico op omzeiling zou ontstaan, dient de bescherming van natuurlijke personen technologieneutraal te zijn en mag zij niet afhankelijk zijn van de gebruikte technologieën. De bescherming van natuurlijke personen dient te gelden bij zowel geautomatiseerde verwerking van persoonsgegevens als handmatige verwerking daarvan indien de persoonsgegevens zijn opgeslagen of bedoeld zijn om te worden opgeslagen in een bestand. Dossiers of een verzameling dossiers en de omslagen ervan, die niet volgens specifieke criteria zijn gestructureerd, mogen niet onder het toepassingsgebied van deze richtlijn te vallen.</p>",
+          "<p class=\"case-section__paragraph\">² Artikel 4.2) AVG: Voor de toepassing van deze verordening wordt verstaan onder: „verwerking”: een bewerking of een geheel van bewerkingen met betrekking tot persoonsgegevens of een geheel van persoonsgegevens, al dan niet uitgevoerd via geautomatiseerde procedés, zoals het verzamelen, vastleggen, ordenen, structureren, opslaan, bijwerken of wijzigen, opvragen, raadplegen, gebruiken, verstrekken door middel van doorzending, verspreiden of op andere wijze ter beschikking stellen, aligneren of combineren, afschermen, wissen of vernietigen van gegevens;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:ARR.20200630.8-003",
+        "relatedFullTextCitations": [
+          "<li>26. Overeenkomstig artikel 6.1 f) AVG en de rechtspraak van het Hof van Justitie van de Europese Unie (hierna “het Hof”) dient aan drie cumulatieve voorwaarden te zijn voldaan opdat een verwerkingsverantwoordelijke zich rechtsgeldig kan beroepen op deze rechtmatigheidsgrond, “te weten, in de eerste plaats, de behartiging van een gerechtvaardigd belang van de voor de verwerking verantwoordelijke of van de derde(n) aan wie de gegevens worden verstrekt, in de tweede plaats, de noodzaak van de verwerking van de persoonsgegevens voor de behartiging van het gerechtvaardigde belang, en, in de derde plaats, de voorwaarde dat de fundamentele rechten en vrijheden van de bij de gegevensbescherming betrokken persoon niet prevaleren” (arrest “Rigas”³).</li>",
+          "<li>27. Teneinde zich conform artikel 6.1 f) AVG te kunnen beroepen op de rechtmatigheidsgrond van het “gerechtvaardigd belang”, dient de verwerkingsverantwoordelijke met andere woorden aan te tonen dat:\n                <ul>\n                    <li>de belangen die deze met de verwerking nastreeft, als gerechtvaardigd kunnen worden erkend (de “doeltoets”);</li>\n                    <li>de beoogde verwerking noodzakelijk is voor de verwezenlijking van deze belangen (de “noodzakelijkheidstoets”); en</li>\n                    <li>de afweging van deze belangen ten opzichte van de belangen, fundamentele vrijheden en grondrechten van betrokkenen doorweegt in het voordeel van de verwerkingsverantwoordelijke (de “afwegingstoets”).</li>\n                </ul>\n            </li>",
+          "<p class=\"case-section__paragraph\">³ HvJEU, 4 mei 2017, C-13/16, Valsts policijas Rīgas reģiona pārvaldes Kārtības policijas pārvalde tegen Rīgas pašvaldības SIA „Rīgas satiksme”, overweging 28. Zie ook HvJEU, 11 december 2019, C-708/18, TK t/ Asociaţia de Proprietari blok M5A-ScaraA, overweging 40.</p>",
+          "<p class=\"case-section__paragraph\">6 HvJEU, 11 december 2019, C-708/18, TK t/ Asociaţia de Proprietari blok M5A-ScaraA, overweging 58.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:ARR.20200630.8-004",
+        "relatedFullTextCitations": [
+          "<li>31. De Geschillenkamer merkt op dat de bewerking van de profielfoto erin bestond dat de andere persoon die op de profielfoto stond niet meer zichtbaar was, zodat enkel nog de afbeelding van de klager te zien was op de foto. Hierdoor hebben de verweerders het beginsel van minimale gegevensverwerking (artikel 5.1. c) AVG) gerespecteerd, aangezien de afbeelding van de andere persoon geenszins vereist was voor het nagestreefde doeleinde, zijnde handhaving van het aanwezigheidsverbod.</li>",
+          "<li>32. Daarnaast stelt de Geschillenkamer vast dat de foto van de klager noodzakelijk was voor zijn identificatie, vermits het doeleinde bestaande uit de handhaving van het aanwezigheidsverbod opgelegd aan de klager niet redelijkerwijs op een andere wijze kan worden verwezenlijkt 4 dan door de verwerking van een foto. De wijze waarop de foto ter beschikking wordt gesteld, hetzij via bijlage bij de betreffende e-mail, hetzij door rechtstreekse raadpleging van de Facebook pagina van de klager, is daarbij niet relevant. Ook op dit punt werd het beginsel van minimale gegevensverwerking (artikel 5.1. c) AVG) nageleefd.</li>",
+          "<li>33. Teneinde na te gaan of aan de derde voorwaarde van artikel 6.1 f) AVG - de zogenaamde “afwegingstoets” tussen de belangen van de verwerkingsverantwoordelijke, enerzijds, en de fundamentele vrijheden en grondrechten van betrokkene, anderzijds - kan worden voldaan, dient overeenkomstig overweging 47 AVG rekening te worden gehouden met de redelijke verwachtingen van de betrokkene. Er dient meer bepaald te worden geëvalueerd of “betrokkene op het tijdstip en in het kader van de verzameling van de persoonsgegevens redelijkerwijs mag verwachten dat verwerking met dat doel kan plaatsvinden” 5.</li>",
+          "<li>34. Dit wordt eveneens benadrukt door het Hof in zijn arrest “TK t/ Asociaţia de Proprietari blok M5A-ScaraA” van 11 december 20196, waarin het stelt:</li>",
+          "<blockquote class=\"case-quote\">\n            <p>“Ook relevant voor deze afweging zijn de redelijke verwachtingen van de betrokkene dat zijn of haar persoonsgegevens niet zullen worden verwerkt wanneer, in de gegeven omstandigheden van het geval, de betrokkene redelijkerwijs geen verdere verwerking van de gegevens kan verwachten”.</p>\n        </blockquote>",
+          "<p class=\"case-section__paragraph\">³ HvJEU, 4 mei 2017, C-13/16, Valsts policijas Rīgas reģiona pārvaldes Kārtības policijas pārvalde tegen Rīgas pašvaldības SIA „Rīgas satiksme”, overweging 28. Zie ook HvJEU, 11 december 2019, C-708/18, TK t/ Asociaţia de Proprietari blok M5A-ScaraA, overweging 40.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 16,
+        "avgCitationsPerTeaching": 4,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 8,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 4,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

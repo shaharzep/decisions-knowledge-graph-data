@@ -1,0 +1,415 @@
+{
+  "decision_id": "ECLI:BE:COVHDP:2009:DEC.20091117.10",
+  "language": "FR",
+  "metadata": {
+    "id": 116522,
+    "court_ecli_code": "COVHDP",
+    "decision_date": "2009-11-17",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Décision",
+    "md_length": 8878,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commission relative à l'indemnité, 17 novembre 2009, n° 333.F, ECLI:BE:COVHDP:2009:DEC.20091117.10"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COVHDP:2009:DEC.20091117.10-001",
+        "name": "A.K. T.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COVHDP:2009:DEC.20091117.10-002",
+        "name": "LE MINISTRE DE LA JUSTICE",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEFENDEUR"
+      }
+    ],
+    "currentInstance": {
+      "facts": "T. A.K. a été visé par des mandats d'arrêt internationaux délivrés par le juge d'instruction près le tribunal de première instance de Liège (14 mai 1997 et 11 février 1999). Il a été arrêté à Dubaï le 15 octobre 1999 et détenu à Dubaï du 15 octobre 1997 au 7 février 1998 (116 jours), puis libéré sous condition et assigné à résidence à Dubaï du 7 février 1998 au 7 octobre 1998 (243 jours). Il a été expulsé vers l'Italie et arrêté par les autorités italiennes le 10 novembre 1998; sur le sol belge, il a été détenu du 11 février 1999 au 2 avril 1999. Il était prévenu d'avoir, entre le 1er décembre 1994 et le 25 janvier 1996, participé à une association destinée à commettre des atteintes aux personnes ou aux biens, commis des faux en écritures et soustrait des véhicules de luxe; il a été libéré contre une caution le 2 avril 1999. La chambre du conseil du tribunal de première instance de Liège a rendu une ordonnance de non-lieu le 13 août 2007 constatant la prescription de l'action publique. L'intéressé prétend avoir subi au total 499 jours de détention dont 51 jours en Belgique. Le requérant a introduit une requête en indemnisation le 12 février 2008; par décision du 22 août 2008 le ministre a refusé d'accorder une indemnité; le requérant a saisi la Commission qui a instruit le dossier et entendu les parties.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COVHDP:2009:DEC.20091117.10-001",
+          "requests": "Le requérant demande l'octroi d'une indemnité au titre de la détention préventive inopérante résultant de l'ordonnance de non-lieu et de la durée totale de sa privation de liberté."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:COVHDP:2009:DEC.20091117.10-001",
+          "argument": "Le requérant soutient que l'ordonnance de non-lieu résultant de la prescription de l'action publique ouvre droit à l'indemnité prévue par la loi du 13 mars 1973 et qu'il n'est pas tenu de produire des éléments démontrant son innocence; il affirme avoir subi au total 499 jours de détention (51 jours en Belgique), réclame réparation du dommage moral évalué et le remboursement de ses frais de défense, et invoque l'impossibilité matérielle et juridique de se rendre en Belgique pour expliquer les détentions antérieures.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:COVHDP:2009:DEC.20091117.10-002",
+          "argument": "Le ministre soutient que la détention antérieure à la remise sur le territoire belge a été provoquée par le propre comportement du requérant (non-respect de l'engagement de se présenter, refus d'identifier des personnes, déclarations fluctuantes, voyages internationaux contrariant l'allégation d'impossibilité de se rendre en Belgique), et fait valoir l'absence de preuve des montants des frais de défense ainsi que l'absence de dommage matériel établi; il demande le rejet ou la réduction de la demande d'indemnité.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        }
+      ],
+      "courtOrder": "La Commission, statuant en audience publique, après avoir siégé à huis clos pour l'instruction,\n\nReçoit le recours, le déclare partiellement fondé.\n\nAlloue au requérant une indemnité de 1.530 euros.",
+      "outcome": "AUTRE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COVHDP:2009:DEC.20091117.10-001",
+        "internalParentActId": "ACT-ECLI:BE:COVHDP:2009:DEC.20091117.10-001",
+        "provisionNumber": "article 28, § 1er, b)",
+        "provisionNumberKey": "28",
+        "parentActType": "LOI",
+        "parentActName": "loi du 13 mars 1973 relative à l'indemnité en cas de détention préventive inopérante",
+        "parentActDate": "1973-03-13",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission interprète l'article 28, § 1er, b) en estimant que le texte ne distingue pas les causes du non-lieu (la prescription en faisant partie) et, conformément à l'arrêt CEDH (Capeau c. Belgique), que le requérant n'est pas tenu de justifier d'éléments prouvant son innocence; pour l'application de la disposition seules la durée de la détention et le comportement du requérant doivent être pris en compte. Elle précise en outre que la notion de «propre comportement» n'est pas limitée aux seuls motifs figurant dans le mandat d'arrêt ou la décision d'instruction.",
+        "relevantFactualContext": "Le requérant a été détenu à Dubaï du 15/10/1997 au 07/02/1998 (116 jours), assigné à résidence du 07/02/1998 au 07/10/1998 (243 jours), expulsé puis arrêté en Italie le 10/11/1998 et détenu en Belgique du 11/02/1999 au 02/04/1999. La chambre du conseil a constaté la prescription et rendu un non-lieu le 13/08/2007. La Commission retient des éléments de comportement (manquement à l'engagement de se présenter en Belgique, refus d'identifier certaines personnes, déclarations fluctuantes, voyages) au"
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Liège",
+        "date": "1997-05-14",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Liège",
+        "date": "1999-10-15",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Liège",
+        "date": "1999-02-11",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Liège",
+        "date": "1998-11-10",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "chambre du conseil",
+        "date": "2007-08-13",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "INT",
+        "courtName": "Cour européenne des droits de l'homme",
+        "date": "2005-01-13",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-006"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit administratif",
+      "Détention préventive à l'étranger",
+      "Mandat d'arrêt international",
+      "Assignation à résidence",
+      "Non-lieu pour prescription",
+      "Indemnité détention préventive",
+      "Preuve de l'innocence",
+      "Propre comportement",
+      "Détentions provoquées par le prévenu",
+      "Jurisprudence CEDH"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2009:DEC.20091117.10-001",
+        "text": "L'article 28, § 1er, b) de la loi du 13 mars 1973 ne distingue pas entre les causes pouvant conduire à un non-lieu : un non-lieu résultant de la prescription de l'action publique doit être considéré comme produisant les mêmes effets au regard du droit à indemnité que tout autre non-lieu, afin de préserver l'égalité devant la loi et d'éviter d'imputer au requérant l'impossibilité de faire constater son innocence au fond.",
+        "courtVerbatim": "Le texte de cet article ne fait aucune distinction entre les cas pouvant conduire à un non-lieu. Le constat de la prescription de l'action publique par les juridictions d'instruction conduit également à un non-lieu. Introduire une distinction là où le texte lui-même ne le fait pas est de nature à heurter le principe de l'égalité des citoyens devant la loi. Il en est d'autant plus ainsi que la personne bénéficiant d'un non-lieu résultant de la prescription de l'action publique n'est pas à même de faire constater au fond son innocence et serait ainsi privée d'un droit à une indemnité sans que cela ne puisse lui être imputé.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la loi prévoit une indemnité en cas de non-lieu et que le non-lieu résulte de la prescription de l'action publique.",
+        "relevantFactualContext": "La chambre du conseil a constaté la prescription de l'action publique et rendu un non-lieu le 13 août 2007 pour le requérant qui avait été détenu à l'étranger puis en Belgique; la Commission a examiné si la prescription devait priver le requérant du droit à indemnité.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COVHDP:2009:DEC.20091117.10-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2009:DEC.20091117.10-002",
+        "text": "Interprétée à la lumière de la jurisprudence de la Cour européenne des droits de l'homme, la disposition exigeante d'éléments démontrant l'innocence ne doit pas conduire à faire peser sur le requérant l'obligation de prouver effectivement son innocence : pour l'application de l'article, seul doivent être pris en compte la durée de la détention et le comportement du requérant.",
+        "courtVerbatim": "Eu égard à l'arrêt rendu le 13 janvier 2005 par la Cour européenne des droits de l'homme (Capeau c. Belgique), cette disposition doit être interprétée en ce sens que le requérant ne doit pas justifier d'éléments de fait ou de droit démontrant son innocence, seule la durée de la détention et le comportement du requérant devant entrer en ligne de compte.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique quand la loi semble conditionner l'indemnité à la justification de l'innocence après un non-lieu; le juge doit alors restreindre l'exigence conformément à la CEDH.",
+        "relevantFactualContext": "La Commission, en se référant à l'arrêt CEDH (Capeau c. Belgique, 13/01/2005), conclut que le requérant n'est pas tenu de démontrer son innocence et que l'appréciation doit porter sur la durée de la détention et son comportement.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COVHDP:2009:DEC.20091117.10-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2009:DEC.20091117.10-003",
+        "text": "La notion de « propre comportement » qui exclut le droit à indemnité lorsqu'il a provoqué la détention doit être entendue largement et n'est pas limitée aux seuls motifs figurant dans le mandat d'arrêt ou la décision d'instruction : des actes tels que le non-respect d'un engagement de se présenter, le refus d'identifier des personnes, des déclarations fluctuantes ou des déplacements volontaires peuvent être considérés comme provoquant la détention.",
+        "courtVerbatim": "Contrairement à ce que soutient le requérant, la notion de «propre comportement» ne se limite pas aux seuls motifs se trouvant explicitement dans le mandat d'arrêt ou dans la décision d'une la juridiction d'instruction. Compte tenu du non-respect de l'engagement pris par le requérant de se présenter sur le territoire belge (mandat d'arrêt du 11 février 1999), la détention antérieure à sa remise sur le territoire belge a été provoquée par son propre comportement. Celui-ci résulte également du refus du requérant d'identifier certaines personnes sur photo (procès-verbal n¹00621/98 du 31 mars 2008) et des déclarations fluctuantes quant aux renseignements récoltés pour M. D. P. (procès-verbal n° 100621/98 du 31 mars 2008 et procès-verbal n° 100351/99 du 13 février 1999). L'impossibilité matérielle et juridique vantée par le requérant, mis en détention et ensuite assigné à résidence aux fins d'extradition, de se rendre en Belgique n'est pas établie et est, en partie, démentie par le voyage effectué en Syrie par le requérant à partir de l'Italie.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors de l'appréciation de l'existence d'un « propre comportement » ayant provoqué ou contribué à la détention préventive pour écarter le droit à indemnité.",
+        "relevantFactualContext": "La Commission a estimé que la détention antérieure à la remise en Belgique avait été provoquée par le non-respect de l'engagement de se présenter, le refus d'identification, des déclarations fluctuantes et des déplacements effectués par le requérant, alors que la détention subie en Belgique du 11/02/1999 au 02/04/1999 ne l'était pas.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COVHDP:2009:DEC.20091117.10-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur a sollicité du ministre de la Justice une indemnité pour détention préventive inopérante liée à des arrestations à l'étranger puis en Belgique, la contestation portant sur l'exigence de preuve d'innocence et sur l'exclusion des détentions provoquées par son propre comportement. La Commission déclare le recours partiellement fondé et octroie 1 530 euros, estimant que le non-lieu par prescription ouvre droit à indemnité sans démonstration d'innocence et que seules les détentions effectivement provoquées par le comportement du demandeur doivent être écartées."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COVHDP:2009:DEC.20091117.10-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 28, § 1er, b), de la loi du 13 mars 1973 relative à l'indemnité en cas de détention préventive inopérante, dispose que peut prétendre à une indemnité toute personne qui aura été détenue préventivement pendant plus de huit jours sans que cette détention ou son maintien ait été provoqué par son propre comportement, si après avoir bénéficié d'une ordonnance ou d'un arrêt de non-lieu, elle justifie d'éléments de fait ou de droit démontrant son innocence. Le texte de cet article ne fait aucune distinction entre les cas pouvant conduire à un non-lieu. Le constat de la prescription de l'action publique par les juridictions d'instruction conduit également à un non-lieu. Introduire une distinction là où le texte lui-même ne le fait pas est de nature à heurter le principe de l'égalité des citoyens devant la loi. Il en est d'autant plus ainsi que la personne bénéficiant d'un non-lieu résultant de la prescription de l'action publique n'est pas à même de faire constater au fond son innocence et serait ainsi privée d'un droit à une indemnité sans que cela ne puisse lui être imputé.</p>",
+          "<p class=\"case-section__paragraph\">Eu égard à l'arrêt rendu le 13 janvier 2005 par la Cour européenne des droits de l'homme (Capeau c. Belgique), cette disposition doit être interprétée en ce sens que le requérant ne doit pas justifier d'éléments de fait ou de droit démontrant son innocence, seule la durée de la détention et le comportement du requérant devant entrer en ligne de compte.</p>",
+          "<p class=\"case-section__paragraph\">Contrairement à ce que soutient le requérant, la notion de « propre comportement » ne se limite pas aux seuls motifs se trouvant explicitement dans le mandat d'arrêt ou dans la décision d'une la juridiction d'instruction.</p>",
+          "<p class=\"case-section__paragraph\">Compte tenu du non-respect de l'engagement pris par le requérant de se présenter sur le territoire belge (mandat d'arrêt du 11 février 1999), la détention antérieure à sa remise sur le territoire belge a été provoquée par son propre comportement. Celui-ci résulte également du refus du requérant d'identifier certaines personnes sur photo (procès-verbal n°100621/98 du 31 mars 2008) et des déclarations fluctuantes quant aux renseignements récoltés pour M. D. P.(procès-verbal n°100621/98 du 31 mars 2008 et procès-verbal n° 100351/99 du 13 février 1999). L'impossibilité matérielle et juridique vantée par le requérant, mis en détention et ensuite assigné à résidence aux fins d'extradition, de se rendre en Belgique n'est pas établie et est, en partie, démentie par le voyage effectué en Syrie par le requérant à partir de l'Italie.</p>",
+          "<p class=\"case-section__paragraph\">En revanche, la détention, subie du 11 février 1999 au 2 avril 1999, n'a pas été provoquée par le propre comportement du requérant. Les documents produits par le requérant ne permettent pas d'établir un dommage matériel ou une « atteinte à l'image » résultant de cette détention. Quant au surplus du dommage moral, le requérant et, à titre subsidiaire, le ministre s'accordent pour un montant de 30 euros par jour de détention, soit au total 1.530 euros. Quant aux frais de défense, le requérant ne fournit aucune preuve des montants versés. Enfin, l'octroi d'intérêts légaux ne rentre pas dans les prévisions de la loi du 13 mars 1973 précitée.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COVHDP:2009:DEC.20091117.10-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-005",
+          "DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-006"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 1,
+      "citationStatistics": {
+        "totalCitations": 5,
+        "avgCitationsPerProvision": 5,
+        "provisionsWithMinimalCitations": 0,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 2,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2009:DEC.20091117.10-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 28, § 1er, b), de la loi du 13 mars 1973 relative à l'indemnité en cas de détention préventive inopérante, dispose que peut prétendre à une indemnité toute personne qui aura été détenue préventivement pendant plus de huit jours sans que cette détention ou son maintien ait été provoqué par son propre comportement, si après avoir bénéficié d'une ordonnance ou d'un arrêt de non-lieu, elle justifie d'éléments de fait ou de droit démontrant son innocence. Le texte de cet article ne fait aucune distinction entre les cas pouvant conduire à un non-lieu. Le constat de la prescription de l'action publique par les juridictions d'instruction conduit également à un non-lieu. Introduire une distinction là où le texte lui-même ne le fait pas est de nature à heurter le principe de l'égalité des citoyens devant la loi. Il en est d'autant plus ainsi que la personne bénéficiant d'un non-lieu résultant de la prescription de l'action publique n'est pas à même de faire constater au fond son innocence et serait ainsi privée d'un droit à une indemnité sans que cela ne puisse lui être imputé.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2009:DEC.20091117.10-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 28, § 1er, b), de la loi du 13 mars 1973 relative à l'indemnité en cas de détention préventive inopérante, dispose que peut prétendre à une indemnité toute personne qui aura été détenue préventivement pendant plus de huit jours sans que cette détention ou son maintien ait été provoqué par son propre comportement, si après avoir bénéficié d'une ordonnance ou d'un arrêt de non-lieu, elle justifie d'éléments de fait ou de droit démontrant son innocence. Le texte de cet article ne fait aucune distinction entre les cas pouvant conduire à un non-lieu. Le constat de la prescription de l'action publique par les juridictions d'instruction conduit également à un non-lieu. Introduire une distinction là où le texte lui-même ne le fait pas est de nature à heurter le principe de l'égalité des citoyens devant la loi. Il en est d'autant plus ainsi que la personne bénéficiant d'un non-lieu résultant de la prescription de l'action publique n'est pas à même de faire constater au fond son innocence et serait ainsi privée d'un droit à une indemnité sans que cela ne puisse lui être imputé.</p>",
+          "<p class=\"case-section__paragraph\">Eu égard à l'arrêt rendu le 13 janvier 2005 par la Cour européenne des droits de l'homme (Capeau c. Belgique), cette disposition doit être interprétée en ce sens que le requérant ne doit pas justifier d'éléments de fait ou de droit démontrant son innocence, seule la durée de la détention et le comportement du requérant devant entrer en ligne de compte.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-003"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COVHDP:2009:DEC.20091117.10-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 28, § 1er, b), de la loi du 13 mars 1973 relative à l'indemnité en cas de détention préventive inopérante, dispose que peut prétendre à une indemnité toute personne qui aura été détenue préventivement pendant plus de huit jours sans que cette détention ou son maintien ait été provoqué par son propre comportement, si après avoir bénéficié d'une ordonnance ou d'un arrêt de non-lieu, elle justifie d'éléments de fait ou de droit démontrant son innocence. Le texte de cet article ne fait aucune distinction entre les cas pouvant conduire à un non-lieu. Le constat de la prescription de l'action publique par les juridictions d'instruction conduit également à un non-lieu. Introduire une distinction là où le texte lui-même ne le fait pas est de nature à heurter le principe de l'égalité des citoyens devant la loi. Il en est d'autant plus ainsi que la personne bénéficiant d'un non-lieu résultant de la prescription de l'action publique n'est pas à même de faire constater au fond son innocence et serait ainsi privée d'un droit à une indemnité sans que cela ne puisse lui être imputé.</p>",
+          "<p class=\"case-section__paragraph\">Contrairement à ce que soutient le requérant, la notion de « propre comportement » ne se limite pas aux seuls motifs se trouvant explicitement dans le mandat d'arrêt ou dans la décision d'une la juridiction d'instruction.</p>",
+          "<p class=\"case-section__paragraph\">Compte tenu du non-respect de l'engagement pris par le requérant de se présenter sur le territoire belge (mandat d'arrêt du 11 février 1999), la détention antérieure à sa remise sur le territoire belge a été provoquée par son propre comportement. Celui-ci résulte également du refus du requérant d'identifier certaines personnes sur photo (procès-verbal n°100621/98 du 31 mars 2008) et des déclarations fluctuantes quant aux renseignements récoltés pour M. D. P.(procès-verbal n°100621/98 du 31 mars 2008 et procès-verbal n° 100351/99 du 13 février 1999). L'impossibilité matérielle et juridique vantée par le requérant, mis en détention et ensuite assigné à résidence aux fins d'extradition, de se rendre en Belgique n'est pas établie et est, en partie, démentie par le voyage effectué en Syrie par le requérant à partir de l'Italie.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 6,
+        "avgCitationsPerTeaching": 2,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 3,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 1
+      },
+      "extractionNotes": [
+        "Teaching TEACH-ECLI:BE:COVHDP:2009:DEC.20091117.10-002 references a CEDH decision in the text (13/01/2005, Capeau c. Belgique) but the relatedCitedDecisionsId provided points to DEC-ECLI:BE:COVHDP:2009:DEC.20091117.10-003 which does not appear in the extracted reasoning citations; flagged for review."
+      ]
+    }
+  }
+}

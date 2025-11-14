@@ -1,0 +1,308 @@
+{
+  "decision_id": "ECLI:BE:NTRCND:2006:ARR.20060306.9",
+  "language": "FR",
+  "metadata": {
+    "id": 88926,
+    "court_ecli_code": "NTRCND",
+    "decision_date": "2006-03-06",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 2651,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arrêt, 6 mars 2006, n° 05.0002.F, ECLI:BE:NTRCND:2006:ARR.20060306.9"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2006:ARR.20060306.9-001",
+        "name": "un greffier en chef",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2006:ARR.20060306.9-002",
+        "name": "la responsable du greffe",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2006:ARR.20060306.9-003",
+        "name": "une technicienne de surface",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2006:ARR.20060306.9-004",
+        "name": "les membres du greffe",
+        "type": "DE_FACTO_ASSOCIATION",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2006:ARR.20060306.9-005",
+        "name": "le Juge de paix",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2006:ARR.20060306.9-006",
+        "name": "les magistrats, les notaires et les experts",
+        "type": "OTHER",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2006:ARR.20060306.9-007",
+        "name": "Le Conseil",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Le texte indique qu'un seul fait est intervenu dans le délai de six mois de la connaissance des faits, de sorte que d'autres faits plus anciens peuvent être invoqués s'ils relèvent d'une même intention ou pour apprécier la gravité globale. Le délai de six mois est entré en vigueur le 14 février 2005; les faits antérieurs à cette date peuvent donc être invoqués dans un délai de six mois prenant cours à dater de l'entrée en vigueur de la loi nouvelle. Les faits ont été dénoncés le 15 juillet 2005. Concrètement, il est reproché au greffier en chef d'avoir organisé les périodes de congés et, sans prendre les dispositions requises, laissé le greffe fermé durant les heures d'ouverture et de fermeture, alors que l'organisation du service n'incombe pas à une technicienne de surface. Il est également reproché à la personne concernée d'avoir fermé le greffe par mesure de rétorsion lorsqu'elle n'avait pas été conviée à certaines excursions organisées avec les magistrats, notaires et experts, et de refuser de siéger avec le Juge de paix pour des difficultés relationnelles, alors que le rôle du greffier est de siéger avec le juge; si elle se sentait mentalement incapable, elle aurait dû, le cas échéant, être placée en incapacité de travail et non décider elle-même de ne pas siéger.",
+      "requests": [],
+      "arguments": [],
+      "courtOrder": "Le Conseil considère que la sanction la plus adéquate en l'espèce serait une réprimande compte tenu de la relative gravité des faits.",
+      "outcome": "CONDAMNATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": []
+  },
+  "citedDecisions": {
+    "citedDecisions": []
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit disciplinaire",
+      "Greffier en chef",
+      "Fermeture du greffe",
+      "Refus de siéger",
+      "Non-assurance du service",
+      "Prescription disciplinaire",
+      "Proportionnalité de la sanction",
+      "Sanction disciplinaire",
+      "Opportunité des poursuites",
+      "Délai de six mois"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060306.9-001",
+        "text": "En matière disciplinaire, lorsque au moins un fait nouveau intervient dans le délai de six mois à compter de la connaissance des faits, des faits plus anciens peuvent être invoqués pour asseoir la gravité des faits nouveaux ou pour démontrer que l'ensemble ancien+récent justifie une peine plus sévère. De plus, si le délai de six mois est institué par une loi entrée en vigueur postérieurement à certains faits, les faits antérieurs à l'entrée en vigueur peuvent être examinés dans le délai de six mois courant à compter de l'entrée en vigueur de la loi nouvelle.",
+        "courtVerbatim": "Dès lors qu'un seul fait est intervenu dans le délai de six mois de la connaissance des faits, d'autres faits plus anciens peuvent être invoqués soit pour asseoir la gravité des faits nouveaux parce qu'ils relèvent d'une même intention, soit pour démontrer que l'ensemble des faits, anciens et récents, justifie d'envisager l'application d'une peine majeure. En outre, le délai de six mois est un délai qui n'est entré en vigueur que le 14 février 2005 en telle sorte que les faits antérieurs à cette date peuvent être invoqués dans un délai de six mois prenant cours à dater de l'entrée en vigueur de la loi nouvelle. Dénoncés le 15 juillet 2005, les faits anciens doivent donc être examinés, sous réserve de l'éventuelle opportunité des poursuites disciplinaires pour de tels faits plus anciens.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un fait nouveau tombe dans le délai de six mois et que des faits antérieurs existent, ou lorsque le délai de six mois résulte d'une loi entrée en vigueur après la commission de faits antérieurs.",
+        "relevantFactualContext": "La Cour examine des faits anciens dénoncés le 15 juillet 2005 après l'entrée en vigueur d'une loi instituant un délai de six mois le 14 février 2005, et admet d'examiner ces faits anciens afin d'apprécier la gravité globale des manquements.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060306.9-002",
+        "text": "Un greffier en chef peut organiser les périodes de congés pour autant que le travail soit accompli, mais il a l'obligation de prendre les dispositions nécessaires pour assurer une présence pendant toutes les heures d'ouverture et de fermeture du greffe; il ne peut déléguer ce service à une technicienne de surface, ni fermer délibérément le greffe en mesure de rétorsion, et des difficultés relationnelles avec le magistrat ne justifient pas le refus de siéger — en cas d'incapacité psychique la mise en incapacité de travail doit être utilisée.",
+        "courtVerbatim": "S'il ne peut être reproché, au titre de faits susceptibles de sanction disciplinaire, à un greffier en chef d'organiser les périodes de congés comme il l'entend pour autant que le travail soit accompli, il n'est par contre pas admissible que la responsable du greffe ne prenne pas les dispositions requises pour assurer une présence durant toutes les heures d'ouverture et de fermeture du greffe. Il n'incombe pas à une technicienne de surface d'assurer le service. De même, ce n'est pas parce que les membres du greffe partent en excursion avec les magistrats, les notaires et les experts sans y convier la personne concernée, qui de toute manière n'y aurait pas participé, qu'elle est en droit de fermer le greffe par mesure de rétorsion. Un greffier en chef ne peut délibérément fermer un greffe sans veiller à ce que le service soit assuré, pour quelque motif que ce soit. Des difficultés relationnelles avec le Juge de paix ne justifient en aucune façon un refus de siéger avec lui. Le rôle même d'un greffier est de siéger avec le juge. Si la personne concernée se sentait mentalement incapable de siéger avec lui, elle devait alors, le cas échéant, être placée en incapacité de travail mais non s'arroger le pouvoir de décider elle-même de ne pas siéger.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors de l'appréciation disciplinaire d'un greffier en chef qui organise les congés ou décide d'absence/fermeture du greffe et justifie la portée de ses obligations de service.",
+        "relevantFactualContext": "Le greffier en chef avait pris des dispositions entraînant l'absence de service pendant les heures d'ouverture et a fermé le greffe en riposte à des tensions relationnelles avec le Juge de paix; la Cour rappelle que le service doit être assuré et que l'incapacité doit être constatée médicalement.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060306.9-003",
+        "text": "Lors de l'appréciation disciplinaire, des faits intrinsèquement graves peuvent voir leur caractère de gravité atténué par les circonstances de la cause; en conséquence, des comportements qui, isolément, pourraient justifier une sanction majeure peuvent n'en justifier qu'une sanction mineure lorsque l'ensemble des éléments contextuels l'impose, le principe de proportionnalité devant guider le choix de la sanction.",
+        "courtVerbatim": "Les faits retenus sont assurément suffisamment graves et justifient l'application d'une sanction disciplinaire. Cependant, ces faits qui pourraient justifier une sanction majeure ne méritent pas cette mesure lorsqu'ils sont replacés dans les circonstances de la cause. Les faits intrinsèquement graves perdent donc leur caractère de gravité pour ne plus justifier qu'une sanction mineure. Le Conseil considère que la sanction la plus adéquate en l'espèce serait une réprimande compte tenu de la relative gravité des faits.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors du choix de la sanction disciplinaire lorsque des faits graves sont nuancés par les circonstances factuelles et disciplinaires pertinentes.",
+        "relevantFactualContext": "La Cour constate des manquements jugés suffisamment graves pour une sanction disciplinaire mais, au vu des circonstances, décide que seule une réprimande proportionnée est appropriée plutôt qu'une sanction majeure.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le greffier en chef fait l'objet de poursuites disciplinaires pour avoir fermé le greffe, omis de prendre les dispositions nécessaires pour assurer la présence pendant les heures d'ouverture et refusé de siéger avec le juge de paix. La juridiction admet que des faits antérieurs peuvent être invoqués dans le délai de six mois à compter de l'entrée en vigueur de la loi, retient la gravité des faits mais, au regard des circonstances, atténue la sanction et prononce une réprimande."
+  },
+  "provisionCitations": {
+    "citedProvisions": [],
+    "metadata": {
+      "totalProvisions": 0,
+      "citationStatistics": {
+        "totalCitations": 0,
+        "avgCitationsPerProvision": 0,
+        "provisionsWithMinimalCitations": 0,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060306.9-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dès lors qu'un seul fait est intervenu dans le délai de six mois de la connaissance des faits, d'autres faits plus anciens peuvent être invoqués soit pour asseoir la gravité des faits nouveaux parce qu'ils relèvent d'une même intention, soit pour démontrer que l'ensemble des faits, anciens et récents, justifie d'envisager l'application d'une peine majeure. En outre, le délai de six mois est un délai qui n'est entré en vigueur que le 14 février 2005 en telle sorte que les faits antérieurs à cette date peuvent être invoqués dans un délai de six mois prenant cours à dater de l'entrée en vigueur de la loi nouvelle. Dénoncés le 15 juillet 2005, les faits anciens doivent donc être examinés, sous réserve de l'éventuelle opportunité des poursuites disciplinaires pour de tels faits plus anciens. S'il ne peut être reproché, au titre de faits susceptibles de sanction disciplinaire, à un greffier en chef d'organiser les périodes de congés comme il l'entend pour autant que le travail soit accompli, il n'est par contre pas admissible que la responsable du greffe ne prenne pas les dispositions requises pour assurer une présence durant toutes les heures d'ouverture et de fermeture du greffe. Il n'incombe pas à une technicienne de surface d'assurer le service. De même, ce n'est pas parce que les membres du greffe partent en excursion avec les magistrats, les notaires et les experts sans y convier la personne concernée, qui de toute manière n'y aurait pas participé, qu'elle est en droit de fermer le greffe par mesure de rétorsion. Un greffier en chef ne peut délibérément fermer un greffe sans veiller à ce que le service soit assuré, pour quelque motif que ce soit. Des difficultés relationnelles avec le Juge de paix ne justifient en aucune façon un refus de siéger avec lui. Le rôle même d'un greffier est de siéger avec le juge. Si la personne concernée se sentait mentalement incapable de siéger avec lui, elle devait alors, le cas échéant, être placée en incapacité de travail mais non s'arroger le pouvoir de décider elle-même de ne pas siéger. Les faits retenus sont assurément suffisamment graves et justifient l'application d'une sanction disciplinaire. Cependant, ces faits qui pourraient justifier une sanction majeure ne méritent pas cette mesure lorsqu'ils sont replacés dans les circonstances de la cause. Les faits intrinsèquement graves perdent donc leur caractère de gravité pour ne plus justifier qu'une sanction mineure. Le Conseil considère que la sanction la plus adéquate en l'espèce serait une réprimande compte tenu de la relative gravité des faits.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060306.9-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dès lors qu'un seul fait est intervenu dans le délai de six mois de la connaissance des faits, d'autres faits plus anciens peuvent être invoqués soit pour asseoir la gravité des faits nouveaux parce qu'ils relèvent d'une même intention, soit pour démontrer que l'ensemble des faits, anciens et récents, justifie d'envisager l'application d'une peine majeure. En outre, le délai de six mois est un délai qui n'est entré en vigueur que le 14 février 2005 en telle sorte que les faits antérieurs à cette date peuvent être invoqués dans un délai de six mois prenant cours à dater de l'entrée en vigueur de la loi nouvelle. Dénoncés le 15 juillet 2005, les faits anciens doivent donc être examinés, sous réserve de l'éventuelle opportunité des poursuites disciplinaires pour de tels faits plus anciens. S'il ne peut être reproché, au titre de faits susceptibles de sanction disciplinaire, à un greffier en chef d'organiser les périodes de congés comme il l'entend pour autant que le travail soit accompli, il n'est par contre pas admissible que la responsable du greffe ne prenne pas les dispositions requises pour assurer une présence durant toutes les heures d'ouverture et de fermeture du greffe. Il n'incombe pas à une technicienne de surface d'assurer le service. De même, ce n'est pas parce que les membres du greffe partent en excursion avec les magistrats, les notaires et les experts sans y convier la personne concernée, qui de toute manière n'y aurait pas participé, qu'elle est en droit de fermer le greffe par mesure de rétorsion. Un greffier en chef ne peut délibérément fermer un greffe sans veiller à ce que le service soit assuré, pour quelque motif que ce soit. Des difficultés relationnelles avec le Juge de paix ne justifient en aucune façon un refus de siéger avec lui. Le rôle même d'un greffier est de siéger avec le juge. Si la personne concernée se sentait mentalement incapable de siéger avec lui, elle devait alors, le cas échéant, être placée en incapacité de travail mais non s'arroger le pouvoir de décider elle-même de ne pas siéger. Les faits retenus sont assurément suffisamment graves et justifient l'application d'une sanction disciplinaire. Cependant, ces faits qui pourraient justifier une sanction majeure ne méritent pas cette mesure lorsqu'ils sont replacés dans les circonstances de la cause. Les faits intrinsèquement graves perdent donc leur caractère de gravité pour ne plus justifier qu'une sanction mineure. Le Conseil considère que la sanction la plus adéquate en l'espèce serait une réprimande compte tenu de la relative gravité des faits.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060306.9-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dès lors qu'un seul fait est intervenu dans le délai de six mois de la connaissance des faits, d'autres faits plus anciens peuvent être invoqués soit pour asseoir la gravité des faits nouveaux parce qu'ils relèvent d'une même intention, soit pour démontrer que l'ensemble des faits, anciens et récents, justifie d'envisager l'application d'une peine majeure. En outre, le délai de six mois est un délai qui n'est entré en vigueur que le 14 février 2005 en telle sorte que les faits antérieurs à cette date peuvent être invoqués dans un délai de six mois prenant cours à dater de l'entrée en vigueur de la loi nouvelle. Dénoncés le 15 juillet 2005, les faits anciens doivent donc être examinés, sous réserve de l'éventuelle opportunité des poursuites disciplinaires pour de tels faits plus anciens. S'il ne peut être reproché, au titre de faits susceptibles de sanction disciplinaire, à un greffier en chef d'organiser les périodes de congés comme il l'entend pour autant que le travail soit accompli, il n'est par contre pas admissible que la responsable du greffe ne prenne pas les dispositions requises pour assurer une présence durant toutes les heures d'ouverture et de fermeture du greffe. Il n'incombe pas à une technicienne de surface d'assurer le service. De même, ce n'est pas parce que les membres du greffe partent en excursion avec les magistrats, les notaires et les experts sans y convier la personne concernée, qui de toute manière n'y aurait pas participé, qu'elle est en droit de fermer le greffe par mesure de rétorsion. Un greffier en chef ne peut délibérément fermer un greffe sans veiller à ce que le service soit assuré, pour quelque motif que ce soit. Des difficultés relationnelles avec le Juge de paix ne justifient en aucune façon un refus de siéger avec lui. Le rôle même d'un greffier est de siéger avec le juge. Si la personne concernée se sentait mentalement incapable de siéger avec lui, elle devait alors, le cas échéant, être placée en incapacité de travail mais non s'arroger le pouvoir de décider elle-même de ne pas siéger. Les faits retenus sont assurément suffisamment graves et justifient l'application d'une sanction disciplinaire. Cependant, ces faits qui pourraient justifier une sanction majeure ne méritent pas cette mesure lorsqu'ils sont replacés dans les circonstances de la cause. Les faits intrinsèquement graves perdent donc leur caractère de gravité pour ne plus justifier qu'une sanction mineure. Le Conseil considère que la sanction la plus adéquate en l'espèce serait une réprimande compte tenu de la relative gravité des faits.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 0,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "decision_id": "ECLI:BE:CASS:1997:ARR.19970102.4",
+  "language": "FR",
+  "metadata": {
+    "id": 133346,
+    "court_ecli_code": "CASS",
+    "court_name": "Cour de cassation",
+    "decision_date": "1997-01-02",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 10844,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cass., 2 janvier 1997, Arr. F.96.0056.F, ECLI:BE:CASS:1997:ARR.19970102.4"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+        "name": "Les demandeurs (deux conjoints)",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR_EN_CASSATION"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CASS:1997:ARR.19970102.4-002",
+        "name": "Le défendeur (l'administration fiscale)",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEFENDEUR_EN_CASSATION"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Les demandeurs, deux conjoints, ont formé un recours fiscal à l'encontre des cotisations enrôlées à leur nom pour les exercices d'imposition 1990 et 1991. Les rémunérations payées à l'un des conjoints par l'Organisation Eurocontrol étaient exonérées en vertu de l'article 3, alinéa 1er, du Protocole additionnel à la Convention Eurocontrol, modifié par le Protocole du 21 novembre 1978. La cour d'appel de Liège, par arrêt du 21 février 1996, a décidé que les cotisations litigieuses avaient été légalement établies et que l'administration avait légalement tenu compte de la rémunération exonérée payée par Eurocontrol pour déterminer l'impôt applicable aux autres revenus des deux demandeurs, estimant que le Protocole autorise les États contractants à tenir compte de ces traitements pour déterminer l'impôt applicable à tout autre revenu et que l'article 87quater du Code des impôts s'applique en l'espèce.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+          "argument": "Les demandeurs soutenaient que l'article 87quater du Code des impôts sur les revenus ne s'applique qu'aux \"conventions internationales préventives de la double imposition\" et que le Protocole du 21 novembre 1978 relatif à Eurocontrol ne relève pas de cette catégorie mais institue un impôt au profit de l'Organisation puis exonère ces rémunérations de l'impôt national; en conséquence, l'application de l'article 87quater devait être écartée et il n'était pas légal pour l'État belge d'inclure ces rémunérations exonérées dans la base servant au calcul de l'impôt applicable aux autres revenus des demandeurs.",
+          "treatment": "ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS,\n\nCasse l'arrêt attaqué;\n\nOrdonne que mention du présent arrêt sera faite en marge de l'arrêt cassé;\n\nRéserve les dépens pour qu'il soit statué sur ceux-ci par le juge du fond.",
+      "outcome": "CASSATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+        "internalParentActId": "ACT-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+        "provisionNumber": "article 87quater",
+        "provisionNumberKey": "87quater",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (coordonné par arrêté royal du 26 février 1964)",
+        "parentActDate": "1964-02-26",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour estime que l'article 87quater vise exclusivement les «conventions internationales préventives de la double imposition» et doit être interprété strictement : il dispose que les revenus exonérés par de telles conventions sont pris en considération pour déterminer l'impôt, mais que celui-ci est réduit proportionnellement à la part des revenus exonérés. Son application ne saurait être étendue par analogie aux traités organiques comme le Protocole Eurocontrol.",
+        "relevantFactualContext": "L'administration a tenu compte des rémunérations versées par Eurocontrol, exonérées en vertu de l'article 3, al.1er, du Protocole additionnel, pour déterminer l'impôt applicable aux autres revenus des époux pour les exercices 1990 et 1991; la cour d'appel avait appliqué l'article 87quater à ces rémunérations."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:1997:ARR.19970102.4-002",
+        "internalParentActId": "ACT-ECLI:BE:CASS:1997:ARR.19970102.4-002",
+        "provisionNumber": "article 87ter",
+        "provisionNumberKey": "87ter",
+        "parentActType": "CODE",
+        "parentActName": "Code des impôts sur les revenus (forme antérieure de l'article 87quater, introduit par la loi du 11 avril 1983 et devenu 87quater par la loi du 28 décembre 1983)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:1997:ARR.19970102.4-003",
+        "internalParentActId": "ACT-ECLI:BE:CASS:1997:ARR.19970102.4-003",
+        "provisionNumber": "article 3, alinéa 1er",
+        "provisionNumberKey": "3",
+        "parentActType": "TRAITE",
+        "parentActName": "Protocole additionnel du 6 juillet 1970 à la Convention internationale de coopération pour la sécurité de la navigation aérienne «Eurocontrol» du 13 décembre 1960, tel que modifié par l'article 1er du Protocole du 21 novembre 1978 (Protocole approuvé par la loi du 27 novembre 1980; Protocole additionnel approuvé par la loi du 15 mars 1972)",
+        "parentActDate": "1970-07-06",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 3, alinéa 1er, comme instituant un impôt au profit d'Eurocontrol sur les traitements et salaires et comme exonérant ces rémunérations de l'impôt national à la date d'application; la phrase finale constitue une faculté pour les Etats contractants de tenir compte de ces salaires pour déterminer l'impôt sur d'autres revenus (réserve de progressivité). La Cour constate que le législateur belge n'a pas exercé cette faculté, de sorte que l'exonération est pleine en droit belge.",
+        "relevantFactualContext": "Le demandeur percevait des traitements payés par Eurocontrol exonérés sous l'article 3(1) modifié; la question en litige était de savoir si et comment ces rémunérations devaient être prises en compte pour déterminer l'impôt sur ses autres revenus pour les exercices concern és."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:1997:ARR.19970102.4-004",
+        "internalParentActId": "ACT-ECLI:BE:CASS:1997:ARR.19970102.4-004",
+        "provisionNumber": "article 1er",
+        "provisionNumberKey": "1",
+        "parentActType": "TRAITE",
+        "parentActName": "Protocole du 21 novembre 1978 (au Protocole additionnel du 6 juillet 1970), approuvé par la loi du 27 novembre 1980",
+        "parentActDate": "1978-11-21",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CASS:1997:ARR.19970102.4-005",
+        "internalParentActId": "ACT-ECLI:BE:CASS:1997:ARR.19970102.4-005",
+        "provisionNumber": "article 24, alinéa 2, 1°",
+        "provisionNumberKey": "24",
+        "parentActType": "TRAITE",
+        "parentActName": "convention belgo‑néerlandaise",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "cour d'appel de Liège",
+        "date": "1996-02-21",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CASS:1997:ARR.19970102.4-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit fiscal",
+      "Rémunération organisation internationale exonérée",
+      "Protocole additionnel",
+      "Exonération de traitements",
+      "Imposition des conjoints",
+      "Nature convention organique",
+      "Prise en compte revenus exonérés",
+      "Réserve de progressivité",
+      "Interprétation stricte fiscale",
+      "Refus d'extension par analogie"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+        "text": "L'article 3, alinéa 1er, du Protocole additionnel Eurocontrol institue un impôt au profit de l'Organisation sur les traitements et salaires et dispose que, à la date d'application de cet impôt, ces rémunérations sont exonérées de l'impôt national. Lorsque le traité laisse une faculté aux Etats de tenir compte de ces salaires pour déterminer l'impôt applicable à d'autres revenus, cet effet suppose une mise en œuvre positive par le législateur national; à défaut d'une disposition nationale exerçant cette faculté, l'exonération est pleine en droit interne.",
+        "courtVerbatim": "Attendu que l'article 3, alinéa 1er, du Protocole additionnel visé en tête du moyen, tel que modifié par le Protocole du 21 novembre 1978, dispose :\n\n\"... Les membres du personnel de l'Organisation ... sont soumis à un impôt au profit de l'Organisation, sur les traitements et salaires qui leur sont versés par ladite organisation ... A la date d'application de cet impôt, les traitements et salaires sont exonérés de l'impôt national sur le revenu. Les Etats contractants peuvent toutefois tenir compte des traitements et salaires ainsi exonérés lorsqu'ils déterminent le montant de l'impôt applicable à tout autre revenu\"\n\n; que, conformément à la réserve de progressivité contenue dans cette dernière phrase, le législateur belge aurait pu disposer que lorsqu'un membre du personnel d'Eurocontrol, dont les rémunérations sont exonérées en vertu de l'article 3, alinéa 1er, précité, recueille d'autres revenus imposables en Belgique, le montant de l'impôt applicable à ces autres revenus doit être déterminé compte tenu des rémunérations exonérées en vertu dudit article 3, alinéa 1er; que toutefois, la loi belge ne contient pas de disposition en ce sens ...; que le législateur belge n'a donc pas utilisé la faculté que lui conférait ledit Protocole additionnel, en sorte que les rémunérations du demandeur sont totalement exonérées de l'impôt belge des personnes physiques en vertu de l'article 3, alinéa 1er, précité, sans application de la réserve de progressivité;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un agent d'une organisation internationale perçoit des traitements exonérés par un traité organique et que se pose la question de leur prise en compte pour déterminer l'impôt national sur d'autres revenus.",
+        "relevantFactualContext": "Le demandeur percevait des traitements payés par Eurocontrol exonérés en vertu de l'article 3, alinéa 1er, modifié; la question litigieuse était de savoir si et comment ces rémunérations devaient être prises en compte pour déterminer l'impôt national sur d'autres revenus pour les exercices concernés.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-003"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CASS:1997:ARR.19970102.4-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:1997:ARR.19970102.4-002",
+        "text": "L'article 87quater du Code des impôts sur les revenus se rapporte exclusivement aux «conventions internationales préventives de la double imposition» et doit être interprété strictement : cette disposition fiscale ne peut être étendue par analogie aux traités organiques instituant un impôt au profit d'une organisation internationale (comme le Protocole Eurocontrol) pour faire peser sur l'Etat national l'obligation de compenser ou de tenir compte de rémunérations exonérées en vertu de ces traités.",
+        "courtVerbatim": "Attendu que certes l'article 87quater du Code des impôts sur les revenus (1964), dans sa version applicable aux exercices litigieux, dispose que\n\n\"les revenus exonérés en vertu de conventions internationales préventives de la double imposition sont pris en considération pour la détermination de l'impôt, mais celui-ci est réduit proportionnellement à la partie des revenus exonérés dans le total des revenus\"\n\n; que toutefois, d'après ses termes mêmes, cette disposition ne concerne que les \"conventions internationales préventives de la double imposition\"; que la Convention internationale de coopération pour la sécurité de la navigation aérienne \"Eurocontrol\", complétée par le Protocole additionnel précité, n'est pas une convention \"préventive de la double imposition\"; ... que toutefois l'article 87quater est de stricte interprétation, comme toute disposition de la loi fiscale; que son application ne peut dès lors être étendue par analogie pour remédier à une lacune de la loi fiscale; d'où il suit qu'en décidant que l'article 87quater précité est applicable aux rémunérations du demandeur, exonérées en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel précité, l'arrêt viole ledit article 87quater;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors de l'examen de l'étendue d'une disposition fiscale relative aux conventions préventives de double imposition et de la question de son application à des traités organiques instituant des exonérations.",
+        "relevantFactualContext": "La cour d'appel avait appliqué l'article 87quater pour tenir compte, dans la détermination de l'impôt des demandeurs pour 1990 et 1991, des rémunérations versées par Eurocontrol et exonérées en vertu de l'article 3, alinéa 1er, du Protocole additionnel; la Cour de cassation a censuré cette application.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "CASSATION",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CASS:1997:ARR.19970102.4-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "CASSATION",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 2,
+        "appeal": 0,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, membre du personnel d'Eurocontrol, conteste que l'administration ait pris en compte, pour calculer l'impôt sur d'autres revenus, des rémunérations exonérées par l'article 3, alinéa 1er du Protocole additionnel modifié. La Cour de cassation casse l'arrêt d'appel qui avait appliqué l'article 87quater du Code des impôts pour intégrer ces salaires exonérés dans la base imposable destinée à déterminer l'impôt des autres revenus. Elle rappelle que le Protocole d'Eurocontrol n'est pas une convention préventive de la double imposition et que l'article 87quater, de stricte interprétation, ne peut être étendu pour pallier une lacune législative."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">LA COUR, Vu l'arrêt attaqué, rendu le 21 février 1996 par la cour d'appel de Liège; Sur le moyen pris de la violation de l'article 87quater du Code des impôts sur les revenus (coordonné par arrêté royal du 26 février 1964), antérieurement article 87ter, introduit par la loi du 11 avril 1983, et de l'article 3, alinéa 1er, du Protocole additionnel du 6 juillet 1970 (approuvé par la loi du 15 mars 1972) à la Convention internationale de coopération pour la sécurité de la navigation aérienne Eurocontrol du 13 décembre 1960 (approuvée par la loi du 12 mars 1962) tel que ledit article 3, alinéa 1er, a été modifié par l'article 1er du Protocole du 21 novembre 1978 (approuvé par la loi du 27 novembre 1980), en ce que, saisie du recours fiscal des demandeurs qui faisait valoir notamment le moyen suivant : <blockquote class=\"case-quote\">\"l'article 87quater du Code des impôts sur les revenus est censé être appliqué lorsque les revenus sont exonérés en vertu des conventions internationales préventives de la double imposition. Le protocole du 21 novembre 1978 ne peut être assimilé à une convention internationale préventive de la double imposition (...). L'application de l'article 87quater doit dès lors être ... écartée...\"</blockquote>, la cour d'appel décide que les cotisations litigieuses enrôlées au nom des demandeurs pour les exercices d'imposition 1990 et 1991 ont été légalement établies et que l'administration a légalement tenu compte de la rémunération payée au demandeur par Eurocontrol, exonérée en vertu de l'article 3, alinéa 1er, du Protocole additionnel précité, modifié par le Protocole du 21 novembre 1978, pour déterminer l'impôt applicable aux autres revenus des deux demandeurs, aux motifs \"qu'il ressort en réalité de l'ensemble des dispositions qu'ils visent que le Protocole ne règle pas la base imposable mais exempte uniquement d'impôts certains revenus; qu'il suit que le Protocole n'empêche pas l'Etat belge de tenir compte, lors de la détermination de la base imposable en Belgique, des traitements versés par Eurocontrol et dès lors de les inclure dans le montant servant de base de calcul à la cotisation établie au nom des deux conjoints (...); que si l'un des conjoints recueille des revenus qui sont exonérés par convention ..., la loi-réforme (du 7 décembre 1988) n'a pas modifié, fût-ce implicitement, le texte de l'article 87quater du Code des impôts sur les revenus (...); que ceci est conforme au Protocole du 21 novembre 1978 qui autorise explicitement les Etats contractants à tenir compte des traitements et salaires versés par l'Organisation Eurocontrol pour déterminer le montant de l'impôt applicable à tout autre revenu, de sorte que cet instrument international ne fait pas de restriction en ce qui concerne les personnes dont l'imposition des revenus est susceptible d'être influencée par les traitements et salaires exonérés ...\", alors que :</p>",
+          "<p class=\"case-section__paragraph\">que, sans doute, l'article 87quater du Code des impôts sur les revenus dispose, dans son texte applicable aux exercices d'imposition concernés : <blockquote class=\"case-quote\">\"les revenus exonérés en vertu de conventions internationales préventives de la double imposition sont pris en considération pour la détermination de l'impôt, mais celui-ci est réduit proportionnellement à la partie des revenus exonérés dans le total des revenus\"</blockquote>; que toutefois, d'après ses termes mêmes, cette disposition ne concerne que les \"conventions internationales préventives de la double imposition\"; que la Convention internationale de coopération pour la sécurité de la navigation aérienne \"Eurocontrol\", complétée par le Protocole additionnel, n'est pas une convention \"préventive de la double imposition\"; qu'au contraire, elle institue un impôt au profit de l'Organisation sur les traitements et salaires des membres du personnel de celle-ci et exonère ensuite ces rémunérations de l'impôt national sur les revenus; que les traités multilatéraux organiques d'organisation internationale instituent généralement ce genre de privilège fiscal en faveur de leurs agents; que celui-ci, qu'il soit accordé ou non avec réserve de progressivité, a pour but, à la fois, de garantir l'indépendance des agents de l'organisation vis-à-vis des autorités de leur propre pays et d'éviter, dans l'intérêt de l'organisation internationale elle-même, que des agents de nationalités ou de résidences différentes touchent des rEAC UTE;munérations qui, après impôt, seraient différentes; que pareilles conventions n'ont donc nullement pour objet de prévenir des doubles impositions; que, certes, la clause de réserve de progressivité contenue dans l'article 3, alinéa 1er, du Protocole additionnel précité est analogue à celle qui figure dans la plupart des conventions belges préventives des doubles impositions (voir, par exemple, article 24, alinéa 2, 1°, de la convention belgo-néerlandaise) et que la ratio legis de la règle édictée par l'article 87quater précité existe également pour les rémunérations exonérées en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel; que toutefois l'article 87quater est de stricte interprétation, comme toute disposition de la loi fiscale; que son application ne peut dès lors être étendue par analogie pour remédier à une lacune de la loi fiscale; d'où il suit qu'en décidant que l'article 87quater précité est applicable aux rémunérations du demandeur, exonérées en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel précité, l'arrêt viole ledit article 87quater; que si l'arrêt signifie qu'en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel précité, et indépendamment de toute application de l'article 87quater, les rémunérations exonérées payées par Eurocontrol au demandeur doivent être prises en considération pour la détermination de l'impôt des personnes physiques dû par le demandeur sur tout autre revenu, l'arrêt viole ledit article 3, alinéa 1er, dudit Protocole additionnel :</p>",
+          "<p class=\"case-section__paragraph\">Attendu que pour cumuler les revenus professionnels des demandeurs en vue du calcul de l'impôt incombant à la demanderesse, l'arrêt se fonde sur le fait que la loi-réforme du 7 décembre 1988 supprimant le cumul des revenus professionnels des époux n'a pas modifié l'article 87quater du Code des impôts sur les revenus (1964); que cette considération démontre que pour procéder au calcul de cet impôt, la cour d'appel a fait application de l'article 87quater précité;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que certes l'article 87quater du Code des impôts sur les revenus (1964), dans sa version applicable aux exercices litigieux, dispose que <blockquote class=\"case-quote\">\"les revenus exonérés en vertu de conventions internationales préventives de la double imposition sont pris en considération pour la détermination de l'impôt, mais celui-ci est réduit proportionnellement à la partie des revenus exonérés dans le total des revenus\"</blockquote>; que toutefois la Convention internationale de coopération pour la sécurité de la navigation aérienne \"Eurocontrol\" complétée par le Protocole additionnel précité, n'a pas pour objet de prévenir les doubles impositions et n'est, dès lors, pas comprise parmi les conventions visées à l'article 87quater du Code des impôts sur les revenus (1964); que l'arrêt qui en décide autrement ne justifie pas légalement sa décision;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-003",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-002",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-004",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:1997:ARR.19970102.4-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:1997:ARR.19970102.4-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">LA COUR, Vu l'arrêt attaqué, rendu le 21 février 1996 par la cour d'appel de Liège; Sur le moyen pris de la violation de l'article 87quater du Code des impôts sur les revenus (coordonné par arrêté royal du 26 février 1964), antérieurement article 87ter, introduit par la loi du 11 avril 1983, et de l'article 3, alinéa 1er, du Protocole additionnel du 6 juillet 1970 (approuvé par la loi du 15 mars 1972) à la Convention internationale de coopération pour la sécurité de la navigation aérienne Eurocontrol du 13 décembre 1960 (approuvée par la loi du 12 mars 1962) tel que ledit article 3, alinéa 1er, a été modifié par l'article 1er du Protocole du 21 novembre 1978 (approuvé par la loi du 27 novembre 1980), en ce que, saisie du recours fiscal des demandeurs qui faisait valoir notamment le moyen suivant : <blockquote class=\"case-quote\">\"l'article 87quater du Code des impôts sur les revenus est censé être appliqué lorsque les revenus sont exonérés en vertu des conventions internationales préventives de la double imposition. Le protocole du 21 novembre 1978 ne peut être assimilé à une convention internationale préventive de la double imposition (...). L'application de l'article 87quater doit dès lors être ... écartée...\"</blockquote>, la cour d'appel décide que les cotisations litigieuses enrôlées au nom des demandeurs pour les exercices d'imposition 1990 et 1991 ont été légalement établies et que l'administration a légalement tenu compte de la rémunération payée au demandeur par Eurocontrol, exonérée en vertu de l'article 3, alinéa 1er, du Protocole additionnel précité, modifié par le Protocole du 21 novembre 1978, pour déterminer l'impôt applicable aux autres revenus des deux demandeurs, aux motifs \"qu'il ressort en réalité de l'ensemble des dispositions qu'ils visent que le Protocole ne règle pas la base imposable mais exempte uniquement d'impôts certains revenus; qu'il suit que le Protocole n'empêche pas l'Etat belge de tenir compte, lors de la détermination de la base imposable en Belgique, des traitements versés par Eurocontrol et dès lors de les inclure dans le montant servant de base de calcul à la cotisation établie au nom des deux conjoints (...); que si l'un des conjoints recueille des revenus qui sont exonérés par convention ..., la loi-réforme (du 7 décembre 1988) n'a pas modifié, fût-ce implicitement, le texte de l'article 87quater du Code des impôts sur les revenus (...); que ceci est conforme au Protocole du 21 novembre 1978 qui autorise explicitement les Etats contractants à tenir compte des traitements et salaires versés par l'Organisation Eurocontrol pour déterminer le montant de l'impôt applicable à tout autre revenu, de sorte que cet instrument international ne fait pas de restriction en ce qui concerne les personnes dont l'imposition des revenus est susceptible d'être influencée par les traitements et salaires exonérés ...\", alors que :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-002",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:1997:ARR.19970102.4-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">LA COUR, Vu l'arrêt attaqué, rendu le 21 février 1996 par la cour d'appel de Liège; Sur le moyen pris de la violation de l'article 87quater du Code des impôts sur les revenus (coordonné par arrêté royal du 26 février 1964), antérieurement article 87ter, introduit par la loi du 11 avril 1983, et de l'article 3, alinéa 1er, du Protocole additionnel du 6 juillet 1970 (approuvé par la loi du 15 mars 1972) à la Convention internationale de coopération pour la sécurité de la navigation aérienne Eurocontrol du 13 décembre 1960 (approuvée par la loi du 12 mars 1962) tel que ledit article 3, alinéa 1er, a été modifié par l'article 1er du Protocole du 21 novembre 1978 (approuvé par la loi du 27 novembre 1980), en ce que, saisie du recours fiscal des demandeurs qui faisait valoir notamment le moyen suivant : <blockquote class=\"case-quote\">\"l'article 87quater du Code des impôts sur les revenus est censé être appliqué lorsque les revenus sont exonérés en vertu des conventions internationales préventives de la double imposition. Le protocole du 21 novembre 1978 ne peut être assimilé à une convention internationale préventive de la double imposition (...). L'application de l'article 87quater doit dès lors être ... écartée...\"</blockquote>, la cour d'appel décide que les cotisations litigieuses enrôlées au nom des demandeurs pour les exercices d'imposition 1990 et 1991 ont été légalement établies et que l'administration a légalement tenu compte de la rémunération payée au demandeur par Eurocontrol, exonérée en vertu de l'article 3, alinéa 1er, du Protocole additionnel précité, modifié par le Protocole du 21 novembre 1978, pour déterminer l'impôt applicable aux autres revenus des deux demandeurs, aux motifs \"qu'il ressort en réalité de l'ensemble des dispositions qu'ils visent que le Protocole ne règle pas la base imposable mais exempte uniquement d'impôts certains revenus; qu'il suit que le Protocole n'empêche pas l'Etat belge de tenir compte, lors de la détermination de la base imposable en Belgique, des traitements versés par Eurocontrol et dès lors de les inclure dans le montant servant de base de calcul à la cotisation établie au nom des deux conjoints (...); que si l'un des conjoints recueille des revenus qui sont exonérés par convention ..., la loi-réforme (du 7 décembre 1988) n'a pas modifié, fût-ce implicitement, le texte de l'article 87quater du Code des impôts sur les revenus (...); que ceci est conforme au Protocole du 21 novembre 1978 qui autorise explicitement les Etats contractants à tenir compte des traitements et salaires versés par l'Organisation Eurocontrol pour déterminer le montant de l'impôt applicable à tout autre revenu, de sorte que cet instrument international ne fait pas de restriction en ce qui concerne les personnes dont l'imposition des revenus est susceptible d'être influencée par les traitements et salaires exonérés ...\", alors que :</p>",
+          "<p class=\"case-section__paragraph\">l'article 3, alinéa 1er, du Protocole additionnel visé en tête du moyen, tel que modifié par le Protocole du 21 novembre 1978, dispose : <blockquote class=\"case-quote\">\"... Les membres du personnel de l'Organisation ... sont soumis à un impôt au profit de l'Organisation, sur les traitements et salaires qui leur sont versés par ladite organisation ... A la date d'application de ces impôts, les traitements et salaires sont exonérés de l'impôt national sur le revenu. Les Etats contractants peuvent toutefois tenir compte des traitements et salaires ainsi exonérés lorsqu'ils déterminent le montant de l'impôt applicable à tout autre revenu\"</blockquote>; que, conformément à la réserve de progressivité contenue dans cette dernière phrase, le législateur belge aurait pu disposer que lorsqu'un membre du personnel d'Eurocontrol, dont les rémunérations sont exonérées en vertu de l'article 3, alinéa 1er, précité, recueille d'autres revenus imposables en Belgique, le montant de l'impôt applicable à ces autres revenus doit être déterminé compte tenu des rémunérations exonérées en vertu dudit article 3, alinéa 1er; que toutefois, la loi belge ne contient pas de disposition en ce sens qui soit propre aux membres du personnel de l'organisation internationale Eurocontrol ou commune aux agents des organisations internationales dont les traitements seraient exonérés sous réserve de progressivité en vertu du traité qui les institue ou de conventions complémentaires; que le législateur belge n'a donc pas utilisé la faculté que lui conférait ledit Protocole additionnel, en sorte que les rémunérations du demandeur sont totalement exonérées de l'impôt belge des personnes physiques en vertu de l'article 3, alinéa 1er, précité, sans application de la réserve de progressivité;</p>",
+          "<p class=\"case-section__paragraph\">que, sans doute, l'article 87quater du Code des impôts sur les revenus dispose, dans son texte applicable aux exercices d'imposition concernés : <blockquote class=\"case-quote\">\"les revenus exonérés en vertu de conventions internationales préventives de la double imposition sont pris en considération pour la détermination de l'impôt, mais celui-ci est réduit proportionnellement à la partie des revenus exonérés dans le total des revenus\"</blockquote>; que toutefois, d'après ses termes mêmes, cette disposition ne concerne que les \"conventions internationales préventives de la double imposition\"; que la Convention internationale de coopération pour la sécurité de la navigation aérienne \"Eurocontrol\", complétée par le Protocole additionnel, n'est pas une convention \"préventive de la double imposition\"; qu'au contraire, elle institue un impôt au profit de l'Organisation sur les traitements et salaires des membres du personnel de celle-ci et exonère ensuite ces rémunérations de l'impôt national sur les revenus; que les traités multilatéraux organiques d'organisation internationale instituent généralement ce genre de privilège fiscal en faveur de leurs agents; que celui-ci, qu'il soit accordé ou non avec réserve de progressivité, a pour but, à la fois, de garantir l'indépendance des agents de l'organisation vis-à-vis des autorités de leur propre pays et d'éviter, dans l'intérêt de l'organisation internationale elle-même, que des agents de nationalités ou de résidences différentes touchent des rEAC UTE;munérations qui, après impôt, seraient différentes; que pareilles conventions n'ont donc nullement pour objet de prévenir des doubles impositions; que, certes, la clause de réserve de progressivité contenue dans l'article 3, alinéa 1er, du Protocole additionnel précité est analogue à celle qui figure dans la plupart des conventions belges préventives des doubles impositions (voir, par exemple, article 24, alinéa 2, 1°, de la convention belgo-néerlandaise) et que la ratio legis de la règle édictée par l'article 87quater précité existe également pour les rémunérations exonérées en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel; que toutefois l'article 87quater est de stricte interprétation, comme toute disposition de la loi fiscale; que son application ne peut dès lors être étendue par analogie pour remédier à une lacune de la loi fiscale; d'où il suit qu'en décidant que l'article 87quater précité est applicable aux rémunérations du demandeur, exonérées en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel précité, l'arrêt viole ledit article 87quater; que si l'arrêt signifie qu'en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel précité, et indépendamment de toute application de l'article 87quater, les rémunérations exonérées payées par Eurocontrol au demandeur doivent être prises en considération pour la détermination de l'impôt des personnes physiques dû par le demandeur sur tout autre revenu, l'arrêt viole ledit article 3, alinéa 1er, dudit Protocole additionnel :</p>",
+          "<p class=\"case-section__paragraph\">Attendu que l'article 3, alinéa 1er, du Protocole additionnel du 6 juillet 1970 à la Convention internationale de coopération pour la sécurité de la navigation aérienne \"Eurocontrol\" du 13 décembre 1960, tel que cet article a été modifié par l'article 1er du Protocole du 21 novembre 1978 approuvé par la loi du 27 novembre 1980, prévoit notamment que : <blockquote class=\"case-quote\">\"(...) les membres du personnel de l'Organisation (...) sont soumis à un impôt au profit de l'Organisation, sur les traitements et salaires qui leur sont versés par ladite Organisation (...). A la date d'application de cet impôt, les traitements et salaires sont exonérés de l'impôt national sur le revenu. Les Etats contractants peuvent toutefois tenir compte des traitements et salaires ainsi exonérés lorsqu'ils déterminent le montant de l'impôt applicable à tout autre revenu\"</blockquote>;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que le législateur belge n'a pas fait usage de la faculté que lui confère la dernière phrase de l'article 3, alinéa 1er, précité et n'a notamment pas déterminé la façon dont il serait tenu compte des traitements et salaires versés par \"Eurocontrol\" pour calculer le montant de l'impôt applicable à tout autre revenu;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-003",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-004",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-002",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CASS:1997:ARR.19970102.4-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:1997:ARR.19970102.4-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">LA COUR, Vu l'arrêt attaqué, rendu le 21 février 1996 par la cour d'appel de Liège; Sur le moyen pris de la violation de l'article 87quater du Code des impôts sur les revenus (coordonné par arrêté royal du 26 février 1964), antérieurement article 87ter, introduit par la loi du 11 avril 1983, et de l'article 3, alinéa 1er, du Protocole additionnel du 6 juillet 1970 (approuvé par la loi du 15 mars 1972) à la Convention internationale de coopération pour la sécurité de la navigation aérienne Eurocontrol du 13 décembre 1960 (approuvée par la loi du 12 mars 1962) tel que ledit article 3, alinéa 1er, a été modifié par l'article 1er du Protocole du 21 novembre 1978 (approuvé par la loi du 27 novembre 1980), en ce que, saisie du recours fiscal des demandeurs qui faisait valoir notamment le moyen suivant : <blockquote class=\"case-quote\">\"l'article 87quater du Code des impôts sur les revenus est censé être appliqué lorsque les revenus sont exonérés en vertu des conventions internationales préventives de la double imposition. Le protocole du 21 novembre 1978 ne peut être assimilé à une convention internationale préventive de la double imposition (...). L'application de l'article 87quater doit dès lors être ... écartée...\"</blockquote>, la cour d'appel décide que les cotisations litigieuses enrôlées au nom des demandeurs pour les exercices d'imposition 1990 et 1991 ont été légalement établies et que l'administration a légalement tenu compte de la rémunération payée au demandeur par Eurocontrol, exonérée en vertu de l'article 3, alinéa 1er, du Protocole additionnel précité, modifié par le Protocole du 21 novembre 1978, pour déterminer l'impôt applicable aux autres revenus des deux demandeurs, aux motifs \"qu'il ressort en réalité de l'ensemble des dispositions qu'ils visent que le Protocole ne règle pas la base imposable mais exempte uniquement d'impôts certains revenus; qu'il suit que le Protocole n'empêche pas l'Etat belge de tenir compte, lors de la détermination de la base imposable en Belgique, des traitements versés par Eurocontrol et dès lors de les inclure dans le montant servant de base de calcul à la cotisation établie au nom des deux conjoints (...); que si l'un des conjoints recueille des revenus qui sont exonérés par convention ..., la loi-réforme (du 7 décembre 1988) n'a pas modifié, fût-ce implicitement, le texte de l'article 87quater du Code des impôts sur les revenus (...); que ceci est conforme au Protocole du 21 novembre 1978 qui autorise explicitement les Etats contractants à tenir compte des traitements et salaires versés par l'Organisation Eurocontrol pour déterminer le montant de l'impôt applicable à tout autre revenu, de sorte que cet instrument international ne fait pas de restriction en ce qui concerne les personnes dont l'imposition des revenus est susceptible d'être influencée par les traitements et salaires exonérés ...\", alors que :</p>",
+          "<p class=\"case-section__paragraph\">l'article 3, alinéa 1er, du Protocole additionnel visé en tête du moyen, tel que modifié par le Protocole du 21 novembre 1978, dispose : <blockquote class=\"case-quote\">\"... Les membres du personnel de l'Organisation ... sont soumis à un impôt au profit de l'Organisation, sur les traitements et salaires qui leur sont versés par ladite organisation ... A la date d'application de ces impôts, les traitements et salaires sont exonérés de l'impôt national sur le revenu. Les Etats contractants peuvent toutefois tenir compte des traitements et salaires ainsi exonérés lorsqu'ils déterminent le montant de l'impôt applicable à tout autre revenu\"</blockquote>; que, conformément à la réserve de progressivité contenue dans cette dernière phrase, le législateur belge aurait pu disposer que lorsqu'un membre du personnel d'Eurocontrol, dont les rémunérations sont exonérées en vertu de l'article 3, alinéa 1er, précité, recueille d'autres revenus imposables en Belgique, le montant de l'impôt applicable à ces autres revenus doit être déterminé compte tenu des rémunérations exonérées en vertu dudit article 3, alinéa 1er; que toutefois, la loi belge ne contient pas de disposition en ce sens qui soit propre aux membres du personnel de l'organisation internationale Eurocontrol ou commune aux agents des organisations internationales dont les traitements seraient exonérés sous réserve de progressivité en vertu du traité qui les institue ou de conventions complémentaires; que le législateur belge n'a donc pas utilisé la faculté que lui conférait ledit Protocole additionnel, en sorte que les rémunérations du demandeur sont totalement exonérées de l'impôt belge des personnes physiques en vertu de l'article 3, alinéa 1er, précité, sans application de la réserve de progressivité;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que l'article 3, alinéa 1er, du Protocole additionnel du 6 juillet 1970 à la Convention internationale de coopération pour la sécurité de la navigation aérienne \"Eurocontrol\" du 13 décembre 1960, tel que cet article a été modifié par l'article 1er du Protocole du 21 novembre 1978 approuvé par la loi du 27 novembre 1980, prévoit notamment que : <blockquote class=\"case-quote\">\"(...) les membres du personnel de l'Organisation (...) sont soumis à un impôt au profit de l'Organisation, sur les traitements et salaires qui leur sont versés par ladite Organisation (...). A la date d'application de cet impôt, les traitements et salaires sont exonérés de l'impôt national sur le revenu. Les Etats contractants peuvent toutefois tenir compte des traitements et salaires ainsi exonérés lorsqu'ils déterminent le montant de l'impôt applicable à tout autre revenu\"</blockquote>;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-004",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-003",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CASS:1997:ARR.19970102.4-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">que, sans doute, l'article 87quater du Code des impôts sur les revenus dispose, dans son texte applicable aux exercices d'imposition concernés : <blockquote class=\"case-quote\">\"les revenus exonérés en vertu de conventions internationales préventives de la double imposition sont pris en considération pour la détermination de l'impôt, mais celui-ci est réduit proportionnellement à la partie des revenus exonérés dans le total des revenus\"</blockquote>; que toutefois, d'après ses termes mêmes, cette disposition ne concerne que les \"conventions internationales préventives de la double imposition\"; que la Convention internationale de coopération pour la sécurité de la navigation aérienne \"Eurocontrol\", complétée par le Protocole additionnel, n'est pas une convention \"préventive de la double imposition\"; qu'au contraire, elle institue un impôt au profit de l'Organisation sur les traitements et salaires des membres du personnel de celle-ci et exonère ensuite ces rémunérations de l'impôt national sur les revenus; que les traités multilatéraux organiques d'organisation internationale instituent généralement ce genre de privilège fiscal en faveur de leurs agents; que celui-ci, qu'il soit accordé ou non avec réserve de progressivité, a pour but, à la fois, de garantir l'indépendance des agents de l'organisation vis-à-vis des autorités de leur propre pays et d'éviter, dans l'intérêt de l'organisation internationale elle-même, que des agents de nationalités ou de résidences différentes touchent des rEAC UTE;munérations qui, après impôt, seraient différentes; que pareilles conventions n'ont donc nullement pour objet de prévenir des doubles impositions; que, certes, la clause de réserve de progressivité contenue dans l'article 3, alinéa 1er, du Protocole additionnel précité est analogue à celle qui figure dans la plupart des conventions belges préventives des doubles impositions (voir, par exemple, article 24, alinéa 2, 1°, de la convention belgo-néerlandaise) et que la ratio legis de la règle édictée par l'article 87quater précité existe également pour les rémunérations exonérées en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel; que toutefois l'article 87quater est de stricte interprétation, comme toute disposition de la loi fiscale; que son application ne peut dès lors être étendue par analogie pour remédier à une lacune de la loi fiscale; d'où il suit qu'en décidant que l'article 87quater précité est applicable aux rémunérations du demandeur, exonérées en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel précité, l'arrêt viole ledit article 87quater; que si l'arrêt signifie qu'en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel précité, et indépendamment de toute application de l'article 87quater, les rémunérations exonérées payées par Eurocontrol au demandeur doivent être prises en considération pour la détermination de l'impôt des personnes physiques dû par le demandeur sur tout autre revenu, l'arrêt viole ledit article 3, alinéa 1er, dudit Protocole additionnel :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-005",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+          "ART-ECLI:BE:CASS:1997:ARR.19970102.4-003"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 5,
+      "citationStatistics": {
+        "totalCitations": 14,
+        "avgCitationsPerProvision": 2.8,
+        "provisionsWithMinimalCitations": 2,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 4,
+        "avgDecisionsPerProvision": 0.4,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:1997:ARR.19970102.4-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">LA COUR, Vu l'arrêt attaqué, rendu le 21 février 1996 par la cour d'appel de Liège; Sur le moyen pris de la violation de l'article 87quater du Code des impôts sur les revenus (coordonné par arrêté royal du 26 février 1964), antérieurement article 87ter, introduit par la loi du 11 avril 1983, devenu article 87quater en vertu de la loi du 28 décembre 1983, et de l'article 3, alinéa 1er, du Protocole additionnel du 6 juillet 1970 (approuvé par la loi du 15 mars 1972) à la Convention internationale de coopération pour la sécurité de la navigation aérienne Eurocontrol du 13 décembre 1960 (approuvée par la loi du 12 mars 1962) tel que ledit article 3, alinéa 1er, a été modifié par l'article 1er du Protocole du 21 novembre 1978 (approuvé par la loi du 27 novembre 1980), en ce que, saisie du recours fiscal des demandeurs qui faisait valoir notamment le moyen suivant : <blockquote class=\"case-quote\">\"l'article 87quater du Code des impôts sur les revenus est censé être appliqué lorsque les revenus sont exonérés en vertu des conventions internationales préventives de la double imposition. Le protocole du 21 novembre 1978 ne peut être assimilé à une convention internationale préventive de la double imposition (...). L'application de l'article 87quater doit dès lors être ... écartée...\"</blockquote>, la cour d'appel décide que les cotisations litigieuses enrôlées au nom des demandeurs pour les exercices d'imposition 1990 et 1991 ont été légalement établies et que l'administration a légalement tenu compte de la rémunération payée au demandeur par Eurocontrol, exonérée en vertu de l'article 3, alinéa 1er, du Protocole additionnel précité, modifié par le Protocole du 21 novembre 1978, pour déterminer l'impôt applicable aux autres revenus des deux demandeurs, aux motifs \"qu'il ressort en réalité de l'ensemble des dispositions qu'ils visent que le Protocole ne règle pas la base imposable mais exempte uniquement d'impôts certains revenus; qu'il suit que le Protocole n'empêche pas l'Etat belge de tenir compte, lors de la détermination de la base imposable en Belgique, des traitements versés par Eurocontrol et dès lors de les inclure dans le montant servant de base de calcul à la cotisation établie au nom des deux conjoints (...); que si l'un des conjoints recueille des revenus qui sont exonérés par convention ..., la loi-réforme (du 7 décembre 1988) n'a pas modifié, fût-ce implicitement, le texte de l'article 87quater du Code des impôts sur les revenus (...); que ceci est conforme au Protocole du 21 novembre 1978 qui autorise explicitement les Etats contractants à tenir compte des traitements et salaires versés par l'Organisation Eurocontrol pour déterminer le montant de l'impôt applicable à tout autre revenu, de sorte que cet instrument international ne fait pas de restriction en ce qui concerne les personnes dont l'imposition des revenus est susceptible d'être influencée par les traitements et salaires exonérés ...\", alors que :</p>",
+          "<p class=\"case-section__paragraph\">l'article 3, alinéa 1er, du Protocole additionnel visé en tête du moyen, tel que modifié par le Protocole du 21 novembre 1978, dispose : <blockquote class=\"case-quote\">\"... Les membres du personnel de l'Organisation ... sont soumis à un impôt au profit de l'Organisation, sur les traitements et salaires qui leur sont versés par ladite organisation ... A la date d'application de ces impôts, les traitements et salaires sont exonérés de l'impôt national sur le revenu. Les Etats contractants peuvent toutefois tenir compte des traitements et salaires ainsi exonérés lorsqu'ils déterminent le montant de l'impôt applicable à tout autre revenu\"</blockquote>; que, conformément à la réserve de progressivité contenue dans cette dernière phrase, le législateur belge aurait pu disposer que lorsqu'un membre du personnel d'Eurocontrol, dont les rémunérations sont exonérées en vertu de l'article 3, alinéa 1er, précité, recueille d'autres revenus imposables en Belgique, le montant de l'impôt applicable à ces autres revenus doit être déterminé compte tenu des rémunérations exonérées en vertu dudit article 3, alinéa 1er; que toutefois, la loi belge ne contient pas de disposition en ce sens qui soit propre aux membres du personnel de l'organisation internationale Eurocontrol ou commune aux agents des organisations internationales dont les traitements seraient exonérés sous réserve de progressivité en vertu du traité qui les institue ou de conventions complémentaires; que le législateur belge n'a donc pas utilisé la faculté que lui conférait ledit Protocole additionnel, en sorte que les rémunérations du demandeur sont totalement exonérées de l'impôt belge des personnes physiques en vertu de l'article 3, alinéa 1er, précité, sans application de la réserve de progressivité;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que l'article 3, alinéa 1er, du Protocole additionnel du 6 juillet 1970 à la Convention internationale de coopération pour la sécurité de la navigation aérienne \"Eurocontrol\" du 13 décembre 1960, tel que cet article a été modifié par l'article 1er du Protocole du 21 novembre 1978 approuvé par la loi du 27 novembre 1980, prévoit notamment que : <blockquote class=\"case-quote\">\"(...) les membres du personnel de l'Organisation (...) sont soumis à un impôt au profit de l'Organisation, sur les traitements et salaires qui leur sont versés par ladite Organisation (...). A la date d'application de cet impôt, les traitements et salaires sont exonérés de l'impôt national sur le revenu. Les Etats contractants peuvent toutefois tenir compte des traitements et salaires ainsi exonérés lorsqu'ils déterminent le montant de l'impôt applicable à tout autre revenu\"</blockquote>;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que le législateur belge n'a pas fait usage de la faculté que lui confère la dernière phrase de l'article 3, alinéa 1er, précité et n'a notamment pas déterminé la façon dont il serait tenu compte des traitements et salaires versés par \"Eurocontrol\" pour calculer le montant de l'impôt applicable à tout autre revenu;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CASS:1997:ARR.19970102.4-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">LA COUR, Vu l'arrêt attaqué, rendu le 21 février 1996 par la cour d'appel de Liège; Sur le moyen pris de la violation de l'article 87quater du Code des impôts sur les revenus (coordonné par arrêté royal du 26 février 1964), antérieurement article 87ter, introduit par la loi du 11 avril 1983, devenu article 87quater en vertu de la loi du 28 décembre 1983, et de l'article 3, alinéa 1er, du Protocole additionnel du 6 juillet 1970 (approuvé par la loi du 15 mars 1972) à la Convention internationale de coopération pour la sécurité de la navigation aérienne Eurocontrol du 13 décembre 1960 (approuvée par la loi du 12 mars 1962) tel que ledit article 3, alinéa 1er, a été modifié par l'article 1er du Protocole du 21 novembre 1978 (approuvé par la loi du 27 novembre 1980), en ce que, saisie du recours fiscal des demandeurs qui faisait valoir notamment le moyen suivant : <blockquote class=\"case-quote\">\"l'article 87quater du Code des impôts sur les revenus est censé être appliqué lorsque les revenus sont exonérés en vertu des conventions internationales préventives de la double imposition. Le protocole du 21 novembre 1978 ne peut être assimilé à une convention internationale préventive de la double imposition (...). L'application de l'article 87quater doit dès lors être ... écartée...\"</blockquote>, la cour d'appel décide que les cotisations litigieuses enrôlées au nom des demandeurs pour les exercices d'imposition 1990 et 1991 ont été légalement établies et que l'administration a légalement tenu compte de la rémunération payée au demandeur par Eurocontrol, exonérée en vertu de l'article 3, alinéa 1er, du Protocole additionnel précité, modifié par le Protocole du 21 novembre 1978, pour déterminer l'impôt applicable aux autres revenus des deux demandeurs, aux motifs \"qu'il ressort en réalité de l'ensemble des dispositions qu'ils visent que le Protocole ne règle pas la base imposable mais exempte uniquement d'impôts certains revenus; qu'il suit que le Protocole n'empêche pas l'Etat belge de tenir compte, lors de la détermination de la base imposable en Belgique, des traitements versés par Eurocontrol et dès lors de les inclure dans le montant servant de base de calcul à la cotisation établie au nom des deux conjoints (...); que si l'un des conjoints recueille des revenus qui sont exonérés par convention ..., la loi-réforme (du 7 décembre 1988) n'a pas modifié, fût-ce implicitement, le texte de l'article 87quater du Code des impôts sur les revenus (...); que ceci est conforme au Protocole du 21 novembre 1978 qui autorise explicitement les Etats contractants à tenir compte des traitements et salaires versés par l'Organisation Eurocontrol pour déterminer le montant de l'impôt applicable à tout autre revenu, de sorte que cet instrument international ne fait pas de restriction en ce qui concerne les personnes dont l'imposition des revenus est susceptible d'être influencée par les traitements et salaires exonérés ...\", alors que :</p>",
+          "<p class=\"case-section__paragraph\">que, sans doute, l'article 87quater du Code des impôts sur les revenus dispose, dans son texte applicable aux exercices d'imposition concernés : <blockquote class=\"case-quote\">\"les revenus exonérés en vertu de conventions internationales préventives de la double imposition sont pris en considération pour la détermination de l'impôt, mais celui-ci est réduit proportionnellement à la partie des revenus exonérés dans le total des revenus\"</blockquote>; que toutefois, d'après ses termes mêmes, cette disposition ne concerne que les \"conventions internationales préventives de la double imposition\"; que la Convention internationale de coopération pour la sécurité de la navigation aérienne \"Eurocontrol\", complétée par le Protocole additionnel, n'est pas une convention \"préventive de la double imposition\"; qu'au contraire, elle institue un impôt au profit de l'Organisation sur les traitements et salaires des membres du personnel de celle-ci et exonère ensuite ces rémunérations de l'impôt national sur les revenus; que les traités multilatéraux organiques d'organisation internationale instituent généralement ce genre de privilège fiscal en faveur de leurs agents; que celui-ci, qu'il soit accordé ou non avec réserve de progressivité, a pour but, à la fois, de garantir l'indépendance des agents de l'organisation vis-à-vis des autorités de leur propre pays et d'éviter, dans l'intérêt de l'organisation internationale elle-même, que des agents de nationalités ou de résidences différentes touchent des rEAC UTE;munérations qui, après impôt, seraient différentes; que pareilles conventions n'ont donc nullement pour objet de prévenir des doubles impositions; que, certes, la clause de réserve de progressivité contenue dans l'article 3, alinéa 1er, du Protocole additionnel précité est analogue à celle qui figure dans la plupart des conventions belges préventives des doubles impositions (voir, par exemple, article 24, alinéa 2, 1°, de la convention belgo-néerlandaise) et que la ratio legis de la règle édictée par l'article 87quater précité existe également pour les rémunérations exonérées en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel; que toutefois l'article 87quater est de stricte interprétation, comme toute disposition de la loi fiscale; que son application ne peut dès lors être étendue par analogie pour remédier à une lacune de la loi fiscale; d'où il suit qu'en décidant que l'article 87quater précité est applicable aux rémunérations du demandeur, exonérées en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel précité, l'arrêt viole ledit article 87quater; que si l'arrêt signifie qu'en vertu de l'article 3, alinéa 1er, précité du Protocole additionnel précité, et indépendamment de toute application de l'article 87quater, les rémunérations exonérées payées par Eurocontrol au demandeur doivent être prises en considération pour la détermination de l'impôt des personnes physiques dû par le demandeur sur tout autre revenu, l'arrêt viole ledit article 3, alinéa 1er, dudit Protocole additionnel :</p>",
+          "<p class=\"case-section__paragraph\">Attendu que pour cumuler les revenus professionnels des demandeurs en vue du calcul de l'impôt incombant à la demanderesse, l'arrêt se fonde sur le fait que la loi-réforme du 7 décembre 1988 supprimant le cumul des revenus professionnels des époux n'a pas modifié l'article 87quater du Code des impôts sur les revenus (1964); que cette considération démontre que pour procéder au calcul de cet impôt, la cour d'appel a fait application de l'article 87quater précité;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que certes l'article 87quater du Code des impôts sur les revenus (1964), dans sa version applicable aux exercices litigieux, dispose que <blockquote class=\"case-quote\">\"les revenus exonérés en vertu de conventions internationales préventives de la double imposition sont pris en considération pour la détermination de l'impôt, mais celui-ci est réduit proportionnellement à la partie des revenus exonérés dans le total des revenus\"</blockquote>; que toutefois la Convention internationale de coopération pour la sécurité de la navigation aérienne \"Eurocontrol\" complétée par le Protocole additionnel précité, n'a pas pour objet de prévenir les doubles impositions et n'est, dès lors, pas comprise parmi les conventions visées à l'article 87quater du Code des impôts sur les revenus (1964); que l'arrêt qui en décide autrement ne justifie pas légalement sa décision;</p>",
+          "<p class=\"case-section__paragraph\">Que le moyen est fondé;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 9,
+        "avgCitationsPerTeaching": 4.5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

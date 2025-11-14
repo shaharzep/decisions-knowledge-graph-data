@@ -1,0 +1,572 @@
+{
+  "decision_id": "ECLI:BE:TTBRL:2012:ARR.20121115.4",
+  "language": "FR",
+  "metadata": {
+    "id": 149726,
+    "court_ecli_code": "TTBRL",
+    "court_name": "Tribunal du travail francophone de Bruxelles",
+    "decision_date": "2012-11-15",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 26169,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Tribunal du travail de Bruxelles, 15 novembre 2012, R.G. n° 10/11561/A, ECLI:BE:TTBRL:2012:ARR.20121115.4"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+        "name": "A.S.B.L. ACERTA SUD SECRETARIAT SOCIAL",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+        "name": "Monsieur J. T.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR"
+      }
+    ],
+    "currentInstance": {
+      "facts": "L'ASBL Acerta Sud Secrétariat Social (ancienne dénomination: Alia Secrétariat social) a engagé M. J. T. à partir du 16 mars 2006 en qualité de directeur régional. Le 31 août 2009, les parties ont signé une convention de fin de contrat de travail de commun accord, effective au 15 septembre 2009, dont l'article 2 contient une renonciation générale de «tous les droits dans le cadre de la loi sur les contrats de travail» et à toute action contractuelle ou autre indemnisation. Acerta a découvert qu'en date du 11 janvier 2008 M. T. avait constitué une SPRL «Salary Solution» au sein de laquelle il figurait comme gérant, et l'a accusé d'actes de concurrence déloyale et de violation de l'obligation de confidentialité, en particulier d'avoir, après la fin du contrat, réalisé des prestations de \"pay roll\" pour la SPRL TM Titre-Services (client qui, selon Acerta, a cessé sa collaboration avec Acerta depuis le 1er janvier 2010). Par courriers échangés (29/04/2010, 12/05/2010, 09/06/2010) les parties se sont opposées sur la qualification et l'étendue du préjudice; Acerta a réclamé une provision de 47.282,04 EUR puis, dans sa citation du 27 août 2010, a agi en paiement de 94.876,65 EUR à titre de dommages-intérêts, intérêts et frais, et a fixé l'indemnité de procédure à 3.300 EUR. La conciliation a échoué; l'affaire a été plaidée le 8 octobre 2012 et jugée en audience publique le 15 novembre 2012.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+          "requests": "Condamner Monsieur J. T. à payer 94.876,65 EUR à titre de dommages et intérêts, majorés des intérêts légaux et judiciaires (à capitaliser le cas échéant), condamner aux dépens y compris une indemnité de procédure fixée à 3.300 EUR, et rendre le jugement exécutoire nonobstant tout recours sans caution ni cantonnement."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+          "requests": "Prononcer l'irrecevabilité de la demande de l'ASBL en raison de l'exception de transaction prévue par la convention du 31/08/2009 et, subsidiairement, condamner l'ASBL pour indemnité de procédure (demande de condamnation au montant maximal invoqué par le défendeur)."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+          "argument": "M. J. T. invoque principalement l'exception de transaction prévue à l'article 2 de la convention de fin de contrat du 31/08/2009 qui stipule que «les deux parties renoncent expressément à tous les droits dans le cadre de la loi sur les contrats de travail et renoncent à toute action contractuelle ou autre indemnisation, sur base de quelque législation que se soit». Il soutient que cette renonciation réciproque emporte irrecevabilité de l'action d'Acerta, y compris pour des droits éventuels ou faits dont les parties n'avaient pas connaissance au moment de la convention.",
+          "treatment": "ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+          "argument": "L'ASBL soutient que l'exception de transaction ne saurait faire obstacle à sa demande parce qu'elle ne pouvait renoncer à des droits découlant d'activités concurrentielles déloyales dont elle n'avait pas connaissance au moment de la signature, et qu'en tout état de cause certains faits constitutifs (concurrence déloyale, violation du secret) se seraient produits après la rupture du contrat; elle expose en outre la preuve et le calcul du préjudice (provision 47.282,04 EUR, demande totale 94.876,65 EUR).",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS,\n\nLE TRIBUNAL,\n\nStatuant après avoir entendu les deux parties,\n\nDéclare la demande irrecevable;\n\nEn déboute l'A.S.B.L. ACERTA SUD SECRETARIAT SOCIAL ;\n\nCondamne l'A.S.B.L. ACERTA SUD SECRETARIAT SOCIAL aux dépens, liquidés à $3.300 €$, étant l'indemnité de procédure (montant de base) ;\n\nDit n'y avoir lieu à exécution provisoire.",
+      "outcome": "IRRECEVABILITE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+        "internalParentActId": "ACT-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+        "provisionNumber": "article 173° a)",
+        "provisionNumberKey": "173",
+        "parentActType": "LOI",
+        "parentActName": "la loi sur les contrats de travail (loi du 3 juillet 1978 relative aux contrats de travail)",
+        "parentActDate": "1978-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+        "internalParentActId": "ACT-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+        "provisionNumber": "article 9",
+        "provisionNumberKey": "9",
+        "parentActType": "AUTRE",
+        "parentActName": "contrat de travail de Monsieur J. T.",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-003",
+        "internalParentActId": "ACT-ECLI:BE:TTBRL:2012:ARR.20121115.4-003",
+        "provisionNumber": "article 2",
+        "provisionNumberKey": "2",
+        "parentActType": "AUTRE",
+        "parentActName": "convention de fin de contrat de travail de commun accord du 31 août 2009",
+        "parentActDate": "2009-08-31",
+        "parentActNumber": null,
+        "provisionInterpretation": "Le tribunal considère que l'article 2 de la convention constitue une transaction contenant des concessions réciproques manifestant la volonté des parties de renoncer à «tous les droits dans le cadre de la loi sur les contrats de travail». Cette formulation, non limitée, emporte renonciation à tous les droits éventuels, y compris ceux dont les parties n'avaient pas connaissance lors de la signature, et rend l'action de l'ASBL irrecevable.",
+        "relevantFactualContext": "Convention du 31/08/2009 mettant fin au contrat de travail et comprenant l'article 2 par lequel les deux parties renoncent expressément à tous droits; l'ASBL intente postérieurement une action pour concurrence déloyale et violation de confidentialité fondée sur le contrat et la loi."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-004",
+        "internalParentActId": "ACT-ECLI:BE:TTBRL:2012:ARR.20121115.4-003",
+        "provisionNumber": "article 3",
+        "provisionNumberKey": "3",
+        "parentActType": "AUTRE",
+        "parentActName": "convention de fin de contrat de travail de commun accord du 31 août 2009",
+        "parentActDate": "2009-08-31",
+        "parentActNumber": null,
+        "provisionInterpretation": "Le tribunal relève que l'article 3 constitue la seule restriction convenue à la renonciation générale: M. T. ne renonce pas à sa rémunération due pour le mois en cours ni à son pécule de vacances de départ; autrement, l'article 2 opère une renonciation générale sans autres réserves.",
+        "relevantFactualContext": "La convention précise expressément ces exceptions (rémunération du mois en cours et pécule de vacances); le tribunal s'appuie sur cette clause pour constater l'absence d'autres réserves lors de l'examen de l'exception de transaction."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-005",
+        "internalParentActId": "ACT-ECLI:BE:TTBRL:2012:ARR.20121115.4-004",
+        "provisionNumber": "article 2049",
+        "provisionNumberKey": "2049",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Le tribunal applique l'article 2049 en retenant que l'étendue des renonciations dans une transaction se détermine selon la volonté réelle des parties; lorsqu'il s'agit de «tirer un trait sur le passé», une formulation générale suffit et il n'est pas exigé d'énumérer exhaustivement les contestations visées.",
+        "relevantFactualContext": "Article mobilisé pour analyser l'article 2 de la convention du 31/08/2009 et conclure que la renonciation générale couvre les prétentions tirées du contrat de travail, y compris celles inconnues au moment de la signature."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-006",
+        "internalParentActId": "ACT-ECLI:BE:TTBRL:2012:ARR.20121115.4-004",
+        "provisionNumber": "article 2052",
+        "provisionNumberKey": "2052",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Le tribunal rappelle qu'en vertu de l'article 2052 les transactions ont l'autorité de la chose jugée en dernier ressort et ne peuvent être attaquées pour erreur de droit ni pour lésion; cet effet emporte l'impossibilité pour l'ASBL de contester ultérieurement les renonciations figurant dans la convention.",
+        "relevantFactualContext": "Article invoqué pour écarter la contestation par l'ASBL des renonciations contenues dans la convention et pour déclarer la demande irrecevable."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-007",
+        "internalParentActId": "ACT-ECLI:BE:TTBRL:2012:ARR.20121115.4-005",
+        "provisionNumber": "article 1022",
+        "provisionNumberKey": "1022",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (Code judiciaire — loi du 10 octobre 1967 contenant le Code judiciaire, modifiée par la loi du 3 août 1992)",
+        "parentActDate": "1967-10-10",
+        "parentActNumber": null,
+        "provisionInterpretation": "Le tribunal interprète l'article 1022 comme visant le caractère déraisonnable des actes de procédure pour majorer l'indemnité; il souligne que l'irrecevabilité de la demande n'implique pas automatiquement ce caractère déraisonnable au sens de l'article 1022, de sorte que seule l'indemnité de base est due par l'ASBL en l'espèce.",
+        "relevantFactualContext": "M. T. demandait la condamnation de l'ASBL au montant maximal de l'indemnité de procédure en alléguant le caractère déraisonnable de l'action; le tribunal, tout en jugeant la demande irrecevable, constate l'absence d'élément établissant cette déraisonnabilité et limite l'indemnité au montant de base."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-008",
+        "internalParentActId": "ACT-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+        "provisionNumber": "article 17",
+        "provisionNumberKey": "17",
+        "parentActType": "LOI",
+        "parentActName": "la loi du 3 juillet 1978 relative aux contrats de travail",
+        "parentActDate": "1978-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "TRIBUNAL DU TRAVAIL DE BRUXELLES",
+        "date": "2012-11-15",
+        "caseNumber": "R.G. n° 10/11561/A",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1995-05-18",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1993-03-31",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1974-09-26",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit du travail",
+      "Contrat de travail",
+      "Convention de fin",
+      "Constitution SPRL concurrente",
+      "Débauchage de clientèle",
+      "Exception de transaction",
+      "Concurrence déloyale",
+      "Violation confidentialité",
+      "Dommages-intérêts",
+      "Renonciation générale"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+        "text": "Une transaction conclue à l'occasion de la fin d'un contrat de travail qui exprime la volonté réciproque de renoncer «à tous les droits dans le cadre de la loi sur les contrats de travail» constitue une renonciation générale couvrant les prétentions connues ou inconnues au moment de la signature; une énumération exhaustive des contestations n'est pas exigée. Seules les réserves explicitement convenues par les parties limitent cette renonciation.",
+        "courtVerbatim": "3/ Le tribunal considère que :\n3.1. L'article 2 de la convention susvisée contient des concessions réciproques (des deux parties), et ce dans le cadre de la fin du contrat de travail : il s'agit d'une transaction, ce que l'ASBL ne conteste d'ailleurs nullement;\n3.2. L'ASBL n'invoque aucun vice de consentement à la conclusion de cette convention de transaction ;\n3.3. L'ASBL et Monsieur T. renoncent, réciproquement, «à tous les droits dans le cadre de la loi sur les contrats de travail » : cette formulation ne contient pas de limites, en manière telle que ce sont tous les droits que l'une et l'autre partie pouvaient tirer de la loi relative aux contrats de travail, qui y sont visés ; la volonté, clairement exprimée, des deux parties est de renoncer à tous les droits éventuels pouvant encore découler du contrat de travail (et même, encore plus généralement, découlant de la loi qui régit le contrat de travail) ; une énumération des droits éventuels auxquels il est renoncé n'était dès lors, pas requise.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une convention de fin de contrat contient une clause de transaction exprimant une renonciation générale à tous droits découlant du contrat de travail, sans réserve explicite.",
+        "relevantFactualContext": "Convention de fin de contrat du 31/08/2009 contenant un article 2 par lequel les deux parties renoncent expressément «à tous les droits dans le cadre de la loi sur les contrats de travail», l'article 3 ne réservant que la rémunération du mois en cours et le pécule de vacances; l'ASBL a intenté ensuite une action pour concurrence déloyale et violation de confidentialité.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-003",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-004",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-005",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-006"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+        "text": "La déclaration d'irrecevabilité d'une demande n'implique pas automatiquement, au sens de l'article 1022 du Code judiciaire, que les actes de procédure aient été «déraisonnables» justifiant l'indemnité maximale; pour obtenir une indemnité majorée, il faut rapporter des éléments concrets établissant le caractère déraisonnable des actes, faute de quoi seule l'indemnité de base est due.",
+        "courtVerbatim": "Monsieur T. demande la condamnation de l'ASBL au montant maximal de l'indemnité de procédure, invoquant le caractère déraisonnable de celle-ci.\n\nLa décision du tribunal, considérant la demande irrecevable, ne se fonde sur aucun de ces éléments.\n\nD'autre part, il ne résulte pas de ce que la demande est irrecevable, qu'elle eût automatiquement, un caractère déraisonnable, au sens de l'article 1022 du Code judiciaire.\n\nL'ASBL ne peut être condamnée qu'au seul montant de base de l'indemnité de procédure.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une partie sollicite une indemnité de procédure majorée pour «caractère déraisonnable» des actes alors que la demande principale a été déclarée irrecevable.",
+        "relevantFactualContext": "Après que le tribunal a déclaré la demande de l'ASBL irrecevable, le défendeur demanda l'indemnité maximale pour actes prétendument déraisonnables; le tribunal n'a relevé aucun élément établissant la déraisonnabilité et a limité l'indemnité au montant de base (indemnité de procédure liquidée à 3.300 €).",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-007"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "La société a assigné l'employé pour concurrence déloyale et violation de l'obligation de confidentialité, sollicitant des dommages‑intérêts pour la perte d'un client. Le tribunal a déclaré l'action irrecevable, a débouté la société, l'a condamnée aux dépens et à l'indemnité de procédure de 3 300 €, et a refusé l'exécution provisoire. Il retient comme principe décisif que la clause transactionnelle de la convention de fin de contrat, par laquelle les parties ont renoncé à tous leurs droits au titre de la loi sur les contrats de travail, couvre également les actions fondées sur des faits non encore connus et fait obstacle à la présente action."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+        "relatedFullTextCitations": [
+          "<li>vous avez violé l'obligation de secret et de confidentialité qui pèse sur vous, après la cessation de votre contrat de travail, en application de l'article 17 3° a) de la loi sur les contrats de travail et de l'article 9 de votre contrat de travail ;</li>",
+          "<li><p>a le même objet que la convention de transaction (puisque l'action se fonde sur un droit que l'ASBL tire du contrat de travail et de (l'article 17 de) la loi du 3 juillet 1978 relative aux contrats de travail, auquel les parties ont renoncé) ;</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+        "relatedFullTextCitations": [
+          "<li>vous avez violé l'obligation de secret et de confidentialité qui pèse sur vous, après la cessation de votre contrat de travail, en application de l'article 17 3° a) de la loi sur les contrats de travail et de l'article 9 de votre contrat de travail ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-003",
+        "relatedFullTextCitations": [
+          "<li><p>Le 31 août 2009, les parties ont conclu une convention par laquelle elles mettaient fin à leur contrat de travail, de commun accord, avec effet au 15 septembre 2009, sans préavis ni indemnité. L'article 2 de la convention de « fin de contrat de travail de commun accord » précise : « Par la présente, les deux parties renoncent expressément à tous les droits dans le cadre de la loi sur les contrats de travail et renoncent à toute action contractuelle ou autre indemnisation, sur base de quelque législation que se soit ».</p></li>",
+          "<li><p>Monsieur T. invoque, à titre principal, l'irrecevabilité de la demande, en raison d'une « exception de transaction ». Il se réfère à l'article 2 de la convention, conclue avec l'ASBL, de « fin de contrat de travail de commun accord » du 31 août 2009 qui stipule :</p>\n<blockquote class=\"case-quote\">« Par la présente, les deux parties renoncent expressément à tous les droits dans le cadre de la loi sur les contrats de travail et renoncent à toute action contractuelle ou autre indemnisation, sur base (de) quelque législation que (ce) soit ».</blockquote>\n</li>",
+          "<li><p>L'article 2 de la convention susvisée contient des concessions réciproques (des deux parties), et ce dans le cadre de la fin du contrat de travail : il s'agit d'une transaction, ce que l'ASBL ne conteste d'ailleurs nullement;</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-003",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-004",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-005",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-006",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-003",
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-004",
+        "relatedFullTextCitations": [
+          "<li><p>L'ASBL et Monsieur T. renoncent, réciproquement, « à tous les droits dans le cadre de la loi sur les contrats de travail » : cette formulation ne contient pas de limites, en manière telle que ce sont tous les droits que l'une et l'autre partie pouvaient tirer de la loi relative aux contrats de travail, qui y sont visés ; la volonté, clairement exprimée, des deux parties est de renoncer à tous les droits éventuels pouvant encore découler du contrat de travail (et même, encore plus généralement, découlant de la loi qui régit le contrat de travail) ; une énumération des droits éventuels auxquels il est renoncé n'était dès lors, pas requise. La seule « restriction » à cette renonciation, voulue par les parties, est inscrite à l'article 3 de la convention de « fin de contrat de travail de commun accord » du 31 août 2009 : Monsieur T. ne renonce pas à sa rémunération « due pour le mois en cours » ni à son pécule de vacances de départ.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-004",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 2049 du Code civil stipule que :</p>",
+          "<blockquote class=\"case-quote\">« Les transactions ne règlent que les différends qui s'y trouvent compris, soit que les parties aient manifesté leur intention par des expressions spéciales ou générales, soit que l'on reconnaisse cette intention par une suite nécessaire de ce qui est exprimé. »</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-005",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-003",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-003",
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L'article 2052 du Code civil dispose que :</p>",
+          "<blockquote class=\"case-quote\">« Les transactions ont, entre les parties, l'autorité de la chose jugée en dernier ressort. Elles ne peuvent être attaquées pour cause d'erreur de droit, ni pour cause de lésion. »</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-006",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-005",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-003",
+          "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Monsieur T. demande la condamnation de l'ASBL au montant maximal de l'indemnité de procédure, invoquant le caractère déraisonnable de celle-ci. Monsieur T. expose que ce « caractère déraisonnable » résulterait de ce que les actes de concurrence déloyale sont inexistants et/ou non établis, et que l'ASBL « utiliserait » la présente procédure, dans le cadre d'un autre litige (en cours) qui l'oppose à une autre de ses ex-employée. La décision du tribunal, considérant la demande irrecevable, ne se fonde sur aucun de ces éléments. D'autre part, il ne résulte pas de ce que la demande est irrecevable, qu'elle eût automatiquement, un caractère déraisonnable, au sens de l'article 1022 du Code judiciaire. L'ASBL ne peut être condamnée qu'au seul montant de base de l'indemnité de procédure.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-008",
+        "relatedFullTextCitations": [
+          "<li>vous avez violé l'obligation de secret et de confidentialité qui pèse sur vous, après la cessation de votre contrat de travail, en application de l'article 17 3° a) de la loi sur les contrats de travail et de l'article 9 de votre contrat de travail ;</li>",
+          "<li>vous vous êtes rendu coupable de concurrence déloyale à son égard, violant de la sorte l'obligation de non-concurrence déloyale pesant sur vous, après la cessation de votre contrat de travail, en application de l'article 17 3° b) de la loi sur les contrats de travail ;</li>",
+          "<li><p>a le même objet que la convention de transaction (puisque l'action se fonde sur un droit que l'ASBL tire du contrat de travail et de (l'article 17 de) la loi du 3 juillet 1978 relative aux contrats de travail, auquel les parties ont renoncé) ;</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-008",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+          "ART-ECLI:BE:TTBRL:2012:ARR.20121115.4-003"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 8,
+      "citationStatistics": {
+        "totalCitations": 15,
+        "avgCitationsPerProvision": 1.875,
+        "provisionsWithMinimalCitations": 6,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.875,
+        "avgDecisionsPerProvision": 1.125,
+        "provisionsWithNoRelationships": 1
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:TTBRL:2012:ARR.20121115.4-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Principes applicables :</p>",
+          "<blockquote class=\"case-quote\">«La transaction est un contrat synallagmatique entre des parties qui se font mutuellement des concessions en vue de terminer ou de prévenir une contestation» (Cass., 18 mai 1995, Pas., 1995, I, 519; voir aussi Cass., 31 mars 1993, Pas., 1993, 343; Cass., 26 septembre 1974, Pas., 1975, I, 111).</blockquote>",
+          "<p class=\"case-section__paragraph\">L'article 2049 du Code civil stipule que :</p>",
+          "<blockquote class=\"case-quote\">« Les transactions ne règlent que les différends qui s'y trouvent compris, soit que les parties aient manifesté leur intention par des expressions spéciales ou générales, soit que l'on reconnaisse cette intention par une suite nécessaire de ce qui est exprimé. »</blockquote>",
+          "<p class=\"case-section__paragraph\">L'article 2052 du Code civil dispose que :</p>",
+          "<blockquote class=\"case-quote\">« Les transactions ont, entre les parties, l'autorité de la chose jugée en dernier ressort. Elles ne peuvent être attaquées pour cause d'erreur de droit, ni pour cause de lésion. »</blockquote>",
+          "<p class=\"case-section__paragraph\">Application en l'espèce :</p>",
+          "<li><p>Monsieur T. invoque, à titre principal, l'irrecevabilité de la demande, en raison d'une « exception de transaction ». Il se réfère à l'article 2 de la convention, conclue avec l'ASBL, de « fin de contrat de travail de commun accord » du 31 août 2009 qui stipule que :</p>",
+          "<blockquote class=\"case-quote\">« Par la présente, les deux parties renoncent expressément à tous les droits dans le cadre de la loi sur les contrats de travail et renoncent à toute action contractuelle ou autre indemnisation, sur base de quelque législation que se soit ».</blockquote>",
+          "<li><p>L'ASBL estime que l'exception de transaction ne peut être invoquée, au motif qu'elle n'a pu renoncer à « ses droits découlant de l'exercice d'activités concurrentielles déloyales (...) dont elle n'avait pas connaissance au moment de la signature de ladite convention ».</p></li>",
+          "<li><p>Le tribunal considère que :</p>",
+          "<li><p>L'article 2 de la convention susvisée contient des concessions réciproques (des deux parties), et ce dans le cadre de la fin du contrat de travail : il s'agit d'une transaction, ce que l'ASBL ne conteste d'ailleurs nullement;</p></li>",
+          "<li><p>L'ASBL n'invoque aucun vice de consentement à la conclusion de cette convention de transaction ;</p></li>",
+          "<li><p>L'ASBL et Monsieur T. renoncent, réciproquement, « à tous les droits dans le cadre de la loi sur les contrats de travail » : cette formulation ne contient pas de limites, en manière telle que ce sont tous les droits que l'une et l'autre partie pouvaient tirer de la loi relative aux contrats de travail, qui y sont visés ; la volonté, clairement exprimée, des deux parties est de renoncer à tous les droits éventuels pouvant encore découler du contrat de travail (et même, encore plus généralement, découlant de la loi qui régit le contrat de travail) ; une énumération des droits éventuels auxquels il est renoncé n'était dès lors, pas requise. La seule « restriction » à cette renonciation, voulue par les parties, est inscrite à l'article 3 de la convention de « fin de contrat de travail de commun accord » du 31 août 2009 : Monsieur T. ne renonce pas à sa rémunération « due pour le mois en cours » ni à son pécule de vacances de départ.</p></li>",
+          "<li><p>Il ne ressort d'aucun élément du dossier que les parties auraient été en litige au moment de la conclusion de la convention de « fin de contrat de travail de commun accord » ; les parties ont donc, nécessairement, entendu prévenir toute contestation (future) entre elles ;</p></li>",
+          "<li><p>L'article 2 de la convention susvisée précise, en outre, que les deux parties « renoncent à toute action contractuelle ou autre indemnisation, sur base (de) quelque législation que (ce) soit ». Par ce biais, les parties étendent encore leurs renonciations réciproques : elles s'interdisent toute action, sur base contractuelle ou extracontractuelle, quel qu'en soit le fondement légal. A cet égard également, aucune restriction n'est posée par les parties.</p></li>",
+          "<li><p>Les renonciations ainsi formulées portent donc sur tous les droits et sur toutes les actions, qu'une partie aurait pu faire valoir, ou intenter, vis-à-vis de l'autre, découlant de leur relation de travail. Ces renonciations portent également sur des éléments dont les parties (ou l'une d'elle) n'aurai(en)t « pas eu connaissance » au moment de la conclusion de leur convention du 31 août 2009, puisqu'aucune restriction ni réserve quelconque à cet égard n'a été convenue, et que la volonté des parties ne pouvaient être que de prévenir d'éventuels litiges, y compris donc des litiges fondés sur des éléments dont les parties n'avaient pas encore connaissance à ce moment.</p></li>",
+          "<p class=\"case-section__paragraph\">En conclusion :</p>",
+          "<p class=\"case-section__paragraph\">L'action de l'ASBL :</p>",
+          "<li><p>concerne les mêmes parties que celles ayant conclu la convention de transaction ;</p></li>",
+          "<li><p>a le même objet que la convention de transaction (puisque l'action se fonde sur un droit que l'ASBL tire du contrat de travail et de (l'article 17 de) la loi du 3 juillet 1978 relative aux contrats de travail, auquel les parties ont renoncé) ;</p></li>",
+          "<li><p>se base sur le même fait juridique que ladite transaction, à savoir : le contrat de travail, sa rupture et toutes les conséquences (y compris d'éventuels litiges fondés sur des faits non encore connus) en découlant.</p></li>",
+          "<p class=\"case-section__paragraph\">Le tribunal considère, par conséquent, que l'action de l'ASBL est irrecevable, en raison de l'exception de transaction.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-001"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TTBRL:2012:ARR.20121115.4-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Monsieur T. demande la condamnation de l'ASBL au montant maximal de l'indemnité de procédure, invoquant le caractère déraisonnable de celle-ci. Monsieur T. expose que ce « caractère déraisonnable » résulterait de ce que les actes de concurrence déloyale sont inexistants et/ou non établis, et que l'ASBL « utiliserait » la présente procédure, dans le cadre d'un autre litige (en cours) qui l'oppose à une autre de ses ex-employée. La décision du tribunal, considérant la demande irrecevable, ne se fonde sur aucun de ces éléments. D'autre part, il ne résulte pas de ce que la demande est irrecevable, qu'elle eût automatiquement, un caractère déraisonnable, au sens de l'article 1022 du Code judiciaire. L'ASBL ne peut être condamnée qu'au seul montant de base de l'indemnité de procédure.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 24,
+        "avgCitationsPerTeaching": 12,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 1
+      },
+      "extractionNotes": [
+        "DEC-ECLI:BE:TTBRL:2012:ARR.20121115.4-001 (la présente décision) n'est pas explicitement citée dans les passages de motivation extraits ; les précédents de la Cass. (18/05/1995 et 31/03/1993) sont cités et validés."
+      ]
+    }
+  }
+}

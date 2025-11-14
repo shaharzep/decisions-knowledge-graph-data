@@ -1,0 +1,842 @@
+{
+  "decision_id": "ECLI:BE:AHANT:2004:ARR.20040603.3",
+  "language": "NL",
+  "metadata": {
+    "id": 10142,
+    "court_ecli_code": "AHANT",
+    "court_name": "Arbeidshof te Antwerpen",
+    "decision_date": "2004-06-03",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 23278,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidshof te Antwerpen, 3 juni 2004, A.R. 2020161, ECLI:BE:AHANT:2004:ARR.20040603.3"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2004:ARR.20040603.3-001",
+        "name": "RVA",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2004:ARR.20040603.3-002",
+        "name": "Z.S.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "GEÏNTIMEERDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2004:ARR.20040603.3-003",
+        "name": "Openbaar Ministerie",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "OPENBAAR_MINISTERIE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De RVA stelde hoger beroep in tegen het vonnis van de Arbeidsrechtbank te Hasselt van 27 maart 2002. Geïntimeerde Z.S. bood zich aan voor een betrekking als stikster bij de sociale werkplaats \"D. P.\" en verscheen op het sollicitatiegesprek met een islamitische hoofddoek. De werkgever vroeg dat personeel zonder hoofddoek zou werken om veiligheidsredenen; op het sollicitatiegesprek verklaarde geïntimeerde dat zij de hoofddoek niet zou afzetten tijdens het werk. Het hof beval een plaatsopneming (tussenarrest 12 december 2002) en hield plaatsopneming op 27 februari 2003. Uit de plaatsopneming en verhoren bleek dat het dragen van een hoofddoek een veiligheidsrisico kon inhouden in die werkplaats. Appellant vorderde onder meer dat de weigering van geïntimeerde als werkweigering te beschouwen was en dat de beslissing van de RVA tot uitsluiting van uitkeringen gerechtvaardigd was. Geïntimeerde beriep zich op godsdienstvrijheid en stelde dat de betrekking niet passend was omdat zij de hoofddoek moest blijven dragen. Het hof oordeelde dat de vraag van de werkgever om zonder hoofddoek te werken in casu een gerechtvaardigde en redelijke eis was, maar dat de aangeboden betrekking niet passend was voor geïntimeerde gelet op haar oprechte godsdienstovertuiging en de proportionaliteitstoets; het hoger beroep werd ongegrond verklaard en het vonnis van eerste aanleg bevestigd om deels andere motieven.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2004:ARR.20040603.3-001",
+          "argument": "Appellant (RVA) stelde dat geïntimeerde door haar verklaring op het sollicitatiegesprek dat zij de hoofddoek niet zou afzetten tijdens het werk impliciet het aangeboden werk heeft geweigerd en aldus onbeschikbaar was; appellant voerde aan dat religieuze bezwaren bij de beoordeling van passendheid geen absolute immuniteit mogen verlenen en dat het algemene en gewone gedrag van moslimvrouwen in België toont dat de meerderheid zonder hoofddoek kan werken wanneer arbeidsomstandigheden dit vereisen, zodat de oprechtheid en graad van overtuiging niet doorslaggevend zouden zijn.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2004:ARR.20040603.3-002",
+          "argument": "Geïntimeerde voerde aan dat het dragen van de hoofddoek een dwingend religieus voorschrift van haar islamitische overtuiging vormt en dat het aanvaarden van de betrekking, die vereiste dat zonder hoofddoek gewerkt werd, haar vrijheid van godsdienst en gewetensbeleving zou schenden; zij bracht stukken bij ter staving van de ernst van haar overtuiging (uittreksel Koran, eerdere procedures omtrent fotograferen met hoofddoek) en betoogde dat zij geen redelijke alternatieven kon treffen, zodat de betrekking ongeschikt/ niet passend was voor haar.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "Na beraadslaging, recht doende op tegenspraak.\nHet tussenarrest van 12 december 2002 verder uitwerkend,\nVerklaart het hoger beroep ongegrond.\nBevestigt om deels andere motieven het vonnis van de Arbeidsrechtbank te Hasselt van 27 maart 2002.\n\nVerwijst appellant, conform artikel 1017, $2^{\\text {de }}$ lid van het Gerechtelijk Wetboek, in de kosten van de huidige beroepsprocedure; deze in hoofde van geïntimeerde vereffend op 55,77 EUR aanvullende rechtsplegingsvergoeding plaatsopneming en 136,84 EUR rechtsplegingsvergoeding hoger beroep. Laat deze kosten in hoofde van appellant onvereffend bij gebreke aan afgifte van kostenstaat.",
+      "outcome": "ONGEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-001",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-001",
+        "provisionNumber": "art. 580",
+        "provisionNumberKey": "580",
+        "parentActType": "ANDERE",
+        "parentActName": "werkloosheidsreglementering",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-002",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-002",
+        "provisionNumber": "artikel 792",
+        "provisionNumberKey": "792",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-003",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-003",
+        "provisionNumber": "artikel 20, 2°",
+        "provisionNumberKey": "20",
+        "parentActType": "WET",
+        "parentActName": "Arbeidsovereenkomstenwet (wet betreffende arbeidsovereenkomsten)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof begrijpt artikel 20, 2° als een verplichting van de werkgever, 'als een goed huisvader', te zorgen voor behoorlijke arbeidsomstandigheden inzake veiligheid en gezondheid. Dit geeft de werkgever het recht om technische voorschriften en gedrags- of kledingvoorschriften op te leggen; dergelijke voorschriften zijn toelaatbaar wanneer zij een objectief veiligheidsdoel nastreven en niet ingegeven zijn door discriminerende motieven.",
+        "relevantFactualContext": "Na plaatsopneming in de sociale werkplaats 'D. P.' stelde het Hof vast dat de aard van het werk en de gebruikte machines een reëel veiligheidsrisico inhielden bij het dragen van een hoofddoek; in totaal 23 werknemers (7 allochtone), op het ogenblik van bezoek geen draagsters van hoofddoek aanwezig; werkgever had geëist dat tijdens het werk de hoofddoek werd verwijderd."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-004",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-004",
+        "provisionNumber": "artikel 9 §2",
+        "provisionNumberKey": "9",
+        "parentActType": "VERDRAG",
+        "parentActName": "Europees Verdrag van de Rechten van de Mens (E.V.R.M.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 9 §2 EVRM verticale directe werking heeft en door de openbare overheid, inclusief appellant, in haar betrekkingen met burgers gerespecteerd moet worden. Beperkingen van godsdienstvrijheid zijn slechts toegestaan indien bij wet voorzien en noodzakelijk in een democratische samenleving (openbare orde, gezondheid, zedelijkheid of bescherming van de rechten en vrijheden van anderen); dit kader dient bij de beoordeling te worden toegepast.",
+        "relevantFactualContext": "Geïntimeerde beroept zich op de islam en bracht Koransteksten en eerdere procedures (o.a. ivm identiteitskaartfoto) aan; zij weigerde de hoofddoek af te zetten tijdens sollicitatie, waardoor Hof bij balans tussen veiligheidseis van werkgever en haar godsdienstvrijheid moest toetsen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-005",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-004",
+        "provisionNumber": "artikel 9.2",
+        "provisionNumberKey": "9.2",
+        "parentActType": "VERDRAG",
+        "parentActName": "Europees Verdrag voor de Rechten van de Mens (EVRM)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof benadrukt dat artikel 9.2 EVRM beperkingen aan geloofsuitoefening afbakent: zij mogen alleen bij wet en indien noodzakelijk in een democratische samenleving worden opgelegd ter bescherming van openbare orde, gezondheid, zedelijkheid of de rechten van anderen. De overheid mag zich niet mengen in de legitimiteit van geloofsuitingen en moet rekening houden met tolerantie jegens religieuze minderheden.",
+        "relevantFactualContext": "In het geschil weegt het Hof de persoonlijke ernst van de godsdienstovertuiging van geïntimeerde (Koranbijlage, eerdere rechtsgedingen) af tegen de door werkgever aangevoerde veiligheidsvereiste en de impact van beperking op haar werkbeschikbaarheid."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-006",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-005",
+        "provisionNumber": "artikel 22",
+        "provisionNumberKey": "22",
+        "parentActType": "ANDERE",
+        "parentActName": "Ministerieel Besluit van 26 november 1991 ter uitvoering van het Werkloosheidsbesluit",
+        "parentActDate": "1991-11-26",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof oordeelt dat de in artikel 22 tot 32bis opgesomde criteria objectieve maatstaven vormen voor de beoordeling van een passende dienstbetrekking, maar niet limitatief zijn; daarbij mogen ook religieuze motieven in aanmerking worden genomen, in overeenstemming met grondwettelijke en internationale waarborgen voor godsdienstvrijheid.",
+        "relevantFactualContext": "Bij de beoordeling of de aangeboden betrekking passend was, paste het Hof deze criteria toe en hield rekening met het feit dat geïntimeerde de hoofddoek weigerde af te leggen bij het verrichten van de aangeboden arbeid."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-007",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-005",
+        "provisionNumber": "artikel 32bis",
+        "provisionNumberKey": "32bis",
+        "parentActType": "ANDERE",
+        "parentActName": "Ministerieel Besluit van 26 november 1991 ter uitvoering van het Werkloosheidsbesluit",
+        "parentActDate": "1991-11-26",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 22 tot en met 32bis objectieve, niet-uitputtende criteria bieden voor de vraag of een betrekking passend is; expliciet laat het Hof religieuze bezwaren toe als factor bij die beoordeling, mits toetsing aan ernst en proportionaliteit van het bezwaar.",
+        "relevantFactualContext": "Hof overwoog dat de door geïntimeerde aangevoerde religieuze verplichting (hoofddoek) en de concrete arbeidsomstandigheden samen tot de conclusie leidden dat de aangeboden betrekking voor haar niet passend was."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-008",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-006",
+        "provisionNumber": "artikel 19",
+        "provisionNumberKey": "19",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet van België",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof leest artikel 19 van de Grondwet als een garantie van godsdienstvrijheid en vrije uitoefening die door de openbare overheid, waaronder appellant, gerespecteerd moet worden; dit recht ondersteunt dat religieuze motieven bij de beoordeling van de passendheid van een betrekking in aanmerking worden genomen.",
+        "relevantFactualContext": "Geïntimeerde bracht Koranverzen en eerdere procedures aan waaruit blijkt dat zij ernst maakt van het dragen van de hoofddoek; het Hof nam dit mee bij de toetsing of de aangeboden betrekking haar vrijheid van godsdienst onaanvaardbaar zou aantasten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-009",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-007",
+        "provisionNumber": "artikel 51",
+        "provisionNumberKey": "51",
+        "parentActType": "ANDERE",
+        "parentActName": "Werkloosheidsbesluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "De bestreden administratieve beslissing had geïntimeerde uitgesloten van uitkeringen voor 18 weken op grond van artikel 51 wegens weigering van een passende betrekking; het Hof oordeelde evenwel dat de aangeboden betrekking niet passend was en dat haar weigering niet ten kwade kon worden geduid."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-010",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-007",
+        "provisionNumber": "artikel 56",
+        "provisionNumberKey": "56",
+        "parentActType": "ANDERE",
+        "parentActName": "Werkloosheidsbesluit",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "Het Hof stelt uit de bestreden beslissing dat geïntimeerde niet werd geacht in strijd te zijn met artikel 56 van het Werkloosheidsbesluit; de sanctie volgde uitsluitend op grond van artikel 51."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-011",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:2004:ARR.20040603.3-002",
+        "provisionNumber": "artikel 1017, 2de lid",
+        "provisionNumberKey": "1017",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidsrechtbank te Hasselt",
+        "date": "2002-03-27",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof te Antwerpen, afdeling Hasselt",
+        "date": "2002-04-26",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof te Antwerpen, afdeling Hasselt",
+        "date": "2002-07-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof te Antwerpen, afdeling Hasselt",
+        "date": "2002-05-28",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof te Antwerpen, afdeling Hasselt",
+        "date": "2002-12-12",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof te Antwerpen, afdeling Hasselt",
+        "date": "2003-02-27",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-006"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 7,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof te Antwerpen, afdeling Hasselt",
+        "date": "2004-01-16",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-007"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 8,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof te Antwerpen, afdeling Hasselt",
+        "date": "2003-07-15",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-008"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 9,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidshof te Antwerpen, afdeling Hasselt",
+        "date": "2004-04-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-009"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 10,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbrb. Hasselt",
+        "date": "1995-03-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-010"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 11,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1983-12-12",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-011"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 12,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1984-01-30",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-012"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 13,
+        "courtJurisdictionCode": "INT",
+        "courtName": "E.H.R.M.",
+        "date": "1996-09-26",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-013"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 14,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Gent, afd. Brugge",
+        "date": "1998-12-24",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-014"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 15,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Bergen",
+        "date": "1985-11-08",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-015"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 16,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidsrechtbank te Hasselt",
+        "date": "2000-03-22",
+        "caseNumber": "A.R. 993631",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-016"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 17,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbh. Gent, afd. Brugge",
+        "date": "1998-04-24",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-017"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Arbeidsrecht",
+      "Sollicitatie",
+      "Sociale werkplaats",
+      "Islamitische hoofddoek",
+      "Aanbod dienstbetrekking",
+      "Godsdienstvrijheid",
+      "Impliciete werkweigering",
+      "Passendheid van betrekking",
+      "Veiligheidseis werkgever",
+      "Plaatsopneming"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2004:ARR.20040603.3-001",
+        "text": "Artikel 20, 2° van de Arbeidsovereenkomstenwet verplicht de werkgever om, als goed huisvader, te zorgen voor behoorlijke arbeidsomstandigheden op het vlak van veiligheid en gezondheid. In uitvoering daarvan mag de werkgever technische voorschriften en gedrags- of kledingvoorschriften opleggen; dergelijke voorschriften zijn toelaatbaar voor zover zij een objectief veiligheidsdoel nastreven en niet ingegeven zijn door discriminerende motieven.",
+        "courtVerbatim": "Conform artikel 20, $2^{\u00186}$ van de Arbeidsovereenkomstenwet is de werkgever verplicht \"als een goed huisvader\" te zorgen dat de arbeid wordt verricht in behoorlijke omstandigheden met betrekking tot de veiligheid en de gezondheid van de werknemer. De werkgever mag en kan bevelen geven inzake de technische verwezenlijking van het werk. Deze bevelen beperken zich niet tot het louter materiële aspect maar strekken zich eveneens uit tot het recht van de werkgever om te bevelen zich op een bepaalde manier te kleden. Kortom, het is de werkgever die de bedrijfscultuur bepaalt.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een werkgever veiligheids- of technische voorschriften stelt die ook regels inzake kledij of gedrag tijdens het werk omvatten.",
+        "relevantFactualContext": "Na plaatsopneming in de sociale werkplaats stelde het Hof vast dat de aard van het werk en de gebruikte machines een re\u0000ebel veiligheidsrisico inhielden bij het dragen van een hoofddoek; de werkgever had geëist dat tijdens het werk de hoofddoek werd verwijderd.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2004:ARR.20040603.3-002",
+        "text": "Een werkweigering kan zowel rechtstreeks/expliciet als onrechtstreeks/impliciet zijn. Een verklaring of gedrag tijdens de sollicitatie waaruit indirect blijkt dat de sollicitant niet zal voldoen aan een redelijke en gerechtvaardigde voorwaarde van de werkgever (bijv. weigering om te voldoen aan een veiligheidsvoorschrift) kan als impliciete werkweigering worden aangemerkt en de aanwerving onmogelijk maken.",
+        "courtVerbatim": "Immers bij werkweigering kan het gaan om een directe/expliciete of om een indirecte/impliciete werkweigering. Bij een indirecte of impliciete werkweigering gaat het om verklaringen van de werkloze - of eventueel om een gedraging of handelwijze - waaruit onrechtstreeks kan worden afgeleid dat de werkloze het werk niet wil aannemen of uitvoeren. ... Door tijdens het eerste en enige sollicitatiegesprek te verklaren dat de hoofddoek niet zou worden verwijderd, heeft geïntimeerde haar aanwerving onmogelijk gemaakt. De door geïntimeerde verstrekte verklaring en ingenomen houding dienen als een impliciete werkweigering te worden aangemerkt.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een sollicitant tijdens selectiegesprek verklaart niet te zullen voldoen aan een door de werkgever gerechtvaardigde werkeis.",
+        "relevantFactualContext": "Geïntimeerde verklaarde tijdens het ene sollicitatiegesprek dat zij de hoofddoek niet zou verwijderen; het Hof oordeelde dat deze verklaring, gegeven tegenover een redelijke eis van de werkgever, de aanwerving onmogelijk maakte en als impliciete werkweigering moest worden gezien.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-009"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2004:ARR.20040603.3-003",
+        "text": "Bij de beoordeling of een aangeboden betrekking niet passend is wegens religieuze bezwaren hanteert het Hof een dubbele toets: (1) ernst van de overtuiging — de betrokkene moet aantonen dat hij/zij die overtuiging oprecht en consequent in verleden en heden naleeft; en (2) proportionaliteit — nagaan of de weigering de maatschappelijke solidariteit of de inzetbaarheid voor de arbeidsmarkt buiten verhouding zou schaden. De rechter mag niet als theoloog optreden en moet vermijden dat geloof als alibi wordt gebanaliseerd.",
+        "courtVerbatim": "Bij deze beoordeling wordt een dubbele toets gehanteerd: die van de ernst en die van de proportionaliteit. a) Wat de ernst betreft ... is het noodzakelijk dat de betrokkene in het verleden en het heden de principes waar hij achter staat even ernstig heeft genomen als hij thans verlangt van de gemeenschap. ... Het moet gaan om \"een oprechte en ernstige overtuiging die noodzakelijk verbonden is met een objectieve en absolute norm die door een georganiseerde groep wordt aangekleefd.\" ... b) Wat de proportionaliteit betreft dient nagegaan of de eis die de werkloze stelt niet buiten verhouding staat tot de maatschappelijke solidariteit. De rechter dient na te gaan of de werkloze door een onredelijk voorbehoud de mogelijkheden tot arbeidsbemiddeling en tewerkstelling te zeer hypothekeert.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een werkloze zich beroept op religieuze bezwaren om een aangeboden betrekking te weigeren en de rechter moet beoordelen of die weigering de betrekking ongeschikt maakt.",
+        "relevantFactualContext": "Geïntimeerde voerde een religieuze verplichting (hoofddoek) aan; het Hof stelde vast dat zij deze overtuiging op serieuze wijze betoonde (stukken en eerdere procedures) en dat het dragen van een hoofddoek slechts een beperkte onbeschikbaarheid voor de arbeidsmarkt veroorzaakte, zodat het weigeren proportioneel en daardoor de betrekking niet passend was.",
+        "principleType": "BALANCING_TEST",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-006",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-007",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-008",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-004"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-011",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-009",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-010"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 1,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 3,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De RVA vorderde dat een werkloze haar uitkering verloor nadat zij een aangeboden betrekking weigerde omdat zij weigerde tijdens het werk haar islamitische hoofddoek af te nemen. Het Arbeidshof verklaart het hoger beroep ongegrond en bevestigt het vonnis van de arbeidsrechtbank: hoewel de werkgever uit veiligheidsmotieven een hoofddoekverbod kon eisen, oordeelt het Hof dat de aangeboden betrekking niet passend was voor de werkloze in het licht van haar oprechte religieuze overtuiging. Het Hof benadrukt de dubbele toets van ernst en proportionaliteit waarbij moet worden nagegaan of de geloofsovertuiging oprecht en consequent is en of de gevraagde aanpassing de maatschappelijke solidariteit onevenredig belast."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vierde Kamer Tegensprekelijk eindarrest art. 580 werkloosheid AFDELING HASSELT</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">- het bestreden eindvonnis van de Arbeidsrechtbank te Hasselt gewezen op tegenspraak tussen partijen op 27 maart 2002 en hen behoorlijk ter kennis gebracht bij gerechtsbrief van 2 april 2002 conform artikel 792 van het Gerechtelijk Wetboek;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Met voormeld tussenarrest heeft het Hof een plaatsopneming bevolen in de sociale werkplaats \"D. P.\", zijnde de werkgever waarvan het werkaanbod uitging dat volgens appellant door geïntimeerde ten onrechte als niet-passend zou geweigerd zijn geweest. Het Hof wenste met name te weten of de door de werkgever gestelde eis tot verwijdering van de islamitische hoofddoek een redelijke en gerechtvaardigde eis was en niet ingegeven was door andere motieven dan de door hem vooropgestelde veiligheidsreden. Na het plaatsbezoek staat voor het Hof vast dat de eis van de werkgever zeker niet door racistische motieven was ingegeven. In de werkplaats waren immers op een globaal personeelsbestand van 23 personen, 7 personen van allochtone afkomst tewerkgesteld. Verder kon de visu vastgesteld worden dat van alle op het ogenblik van de plaatsopneming aanwezige allochtone arbeidsters geen enkele een hoofddoek droeg. Tenslotte is gebleken uit de aard van het uitgevoerde werk en de hiertoe benodigde machines dat het dragen van de hoofddoek inderdaad een veiligheidsrisico inhield. Conform artikel 20, 2° van de Arbeidsovereenkomstenwet is de werkgever verplicht <blockquote class=\"case-quote\">\"als een goed huisvader\"</blockquote> te zorgen dat de arbeid wordt verricht in behoorlijke omstandigheden met betrekking tot de veiligheid en de gezondheid van de werknemer. De werkgever mag en kan bevelen geven inzake de technische verwezenlijking van het werk. Deze bevelen beperken zich niet tot het louter materiële aspect maar strekken zich eveneens uit tot het recht van de werkgever om te bevelen zich op een bepaalde manier te kleden. Kortom, het is de werkgever die de bedrijfscultuur bepaalt (Palumbo M. en Radermecker C. <blockquote class=\"case-quote\">\"Le voile islamique ou 'l'éternel' conflit tussen een impératif religieux et une norme étatique, noot onder Arbrb. Hasselt, 1 maart 1995, Soc. Kron. 1996, 409-410\"</blockquote>). Van de werkgever kan niet worden gevraagd dat hij in naam van de godsdienstvrijheid afwijkingen moet toestaan op het algemeen arbeids- en veiligheidsregime. Het belang van de onderneming en haar werknemers moet steeds het uitgangspunt zijn. Wanneer de werkgever omwille van godsdienstige principes de veiligheid van zijn werknemers in het gedrang zou brengen pleegt hij een inbreuk op artikel 9 ,§ 2 van het Europees Verdrag van de Rechten van de Mens, alsook op artikel 20, 2° van de Arbeidsovereenkomstenwet. Dit risico mag de werkgever niet nemen. Rekening houdend met het voorgaande is het Hof van mening dat de vraag van de werkgever, \"D. P.\", om zijn personeel te zien werken zonder hoofddoek in casu mag worden aangemerkt als een gerechtvaardigde en redelijke eis. Overigens wordt zulks ook niet betwist door geïntimeerde (cfr. beroepsbesluiten geïntimeerde ontvangen ter griffie van het Hof op 28.05.2002, p. 3, alinea 6).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-003",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-004",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-010",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-013"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In art. 22 tot 32bis van het Ministerieel Besluit van 26 november 1991 ter uitvoering van het Werkloosheidsbesluit, zijn een aantal objectieve criteria opgesomd voor de beoordeling van een passende dienstbetrekking. Deze criteria zijn echter niet limitatief (Cass. 12 december 1983, Arr. Cass. 1983-84, 430 en Cass. 30 januari 1984, Arr. Cass. 1983- 84, 643). Zo mogen religieuze motieven ook in aanmerking genomen worden om het passend karakter van een dienstbetrekking te beoordelen, hetgeen volgt uit de grondwettelijke bepalingen en de bescherming door internationale verdragen. Zo bepaalt artikel 19 van de Grondwet het volgende: <blockquote class=\"case-quote\">\"De vrijheid van eredienst, de vrije openbare uitoefening ervan, alsmede de vrijheid om (op) elk gebied zijn mening te uiten, zijn gewaarborgd, behoudens bestraffing van de misdrijven die ter gelegenheid van het gebruikmaken van die vrijheden worden gepleegd.\"</blockquote> Verder is er ook artikel 9.2 E.V.R.M. dat luidt als volgt: <blockquote class=\"case-quote\">\"Vrijheid van gedachte, geweten en godsdienst. \"1. Eenieder heeft het recht op vrijheid van gedachte, geweten en godsdienst; dit recht omvat tevens de vrijheid om van godsdienst of overtuiging te veranderen, alsmede de vrijheid hetzij alleen, hetzij met anderen, zowel in het openbaar als in zijn particuliere leven zijn godsdienst of overtuiging te belijden door de eredienst, door het onderwijzen ervan, door de praktische toepassing ervan en het onderhouden van de geboden en voorschriften. \"2. De vrijheid van godsdienst of overtuiging te belijden kan aan geen andere beperkingen zijn onderworpen dan die welke bij de wet zijn voorzien, en die in een democratische samenleving nodig zijn voor de openbare orde, gezondheid of zedelijkheid of de bescherming van de rechten en vrijheden van anderen.\"</blockquote> Deze bepaling heeft verticale directe werking in de Belgische rechtsorde. Net als artikel 19 van de Grondwet dient zij door de openbare overheid - en inzonderheid door appellant - in diens betrekkingen met de bestuurde - en inzonderheid met geïntimeerde - te worden gerespecteerd (zie Cuypers, D., De Kempen, M., Meeusen, C., <blockquote class=\"case-quote\">\"Culturele minderheden in het sociaal recht\", in Recht en verdraagzaamheid in de multiculturele samenleving, Antwerpen, Maklu, 1993, 269-270; Groeninckx, P., en Pieters, D., \"Expressievrijheid en werkloosheid\", T.S.R. 1982, 335-336)</blockquote>.</p>",
+          "<p class=\"case-section__paragraph\">Blijkens zijn beroepsakte en beroepsbesluiten betwist appellant ook niet dat een werkloze een passende dienstbetrekking kan weigeren op grond van religieuze bezwaren. Tevens erkent appellant het voorschrift van de islam dat vrouwen hun schoonheid niet aan vreemde mannen mogen tonen derhalve dat zij hun hoofd moeten bedekt houden. Appellant kan, naar de mening van het Hof, ook moeilijk anders nu artikel 9 E.V.R.M. de overheden van de Verdragstaten verbiedt om zich in te laten met de legitimiteit zelf en de modaliteiten van de geloofsuitingen (E.H.R.M., 26 september 1996 inzake M e.a. t/ Griekenland, Publ. Cour Eur. D.H.; Serie A, 1996, 1365, overweging nr. 47). Volgens appellant moet de rechter echter nagaan of de vrijheid van godsdienstbeleving in het gedrang komt door het aanvaarden van de betrekking, doch hierbij is volgens appellant de oprechtheid en de graad van overtuiging of godsdienstbeleving niet relevant. Wat volgens appellant moet beoordeeld worden is het algemene en gewone gedrag van de moslimbevolking in België, waarbij hij vaststelt dat de meerderheid van de vrouwelijke moslims er geen probleem van maakt om zonder hoofddoek te werken wanneer specifieke arbeidsomstandigheden dit vereisen.</p>",
+          "<p class=\"case-section__paragraph\">Het Hof is het niet eens met de argumentatie van appellant. Het is juist dat de rechter moet oordelen over de vraag hoe fundamentele rechten en vrijheden met de werkloosheidsreglementering kunnen worden verzoend. Dit heeft dan ook tot gevolg dat in bepaalde gevallen een werknemer een aangeboden dienstbetrekking kan afwijzen wegens zijn religieuze opvattingen, meer bepaald wanneer vanuit deze motieven een morele dwang op het handelen van het betrokken individu uitgaat en hij geen andere regelingen had kunnen treffen om aan zijn religieuze verplichtingen te voldoen. In de praktijk komt het hierop neer dat de gemeenschap de gelovigen toestaat bij het beoordelen van het passend karakter van de hen aangeboden dienstbetrekking de hen voorgeschreven regels en leer te eerbiedigen voor zover zulks geen overmatige belasting voor de samenleving meebrengt. Bij deze beoordeling wordt een dubbele toets gehanteerd: die van de ernst en die van de proportionaliteit.</p>",
+          "<p class=\"case-section__paragraph\">Wat de ernst betreft van het godsdienstige bezwaar is het noodzakelijk dat de betrokkene in het verleden en het heden de principes waar hij achter staat even ernstig heeft genomen als hij thans verlangt van de gemeenschap. Deze toets naar de ernst betekent geenszins dat de rechter zich als theoloog moet gedragen maar moet voorkomen dat de godsdienst als alibi wordt gebruikt om zich te onttrekken aan maatschappelijke verplichtingen. Het moet gaan om <blockquote class=\"case-quote\">\"een oprechte en ernstige overtuiging die noodzakelijk verbonden is met een objectieve en absolute norm die door een georganiseerde groep wordt aangekleefd.\"</blockquote> Van de weigerende werkloze wordt een principiële belijdenis en een praktische consequentheid verwacht. Het onderzoek naar de ernst van de redenen mag evenwel niet afglijden naar een evaluatie naar de getoetste mening zelf. Een verwijzing naar <blockquote class=\"case-quote\">\"andere vreemdelingen\"</blockquote>, die zich wel <blockquote class=\"case-quote\">\"aanpassen\"</blockquote> gaat niet op en miskent de essentie van een fundamentele geloofs- of gewetens overtuiging. Wanneer de rechter zich als theoloog gaat gedragen en het geloof op eigen gezag gaat onderzoeken, gaat hij zijn rol te buiten. Men verglijdt alsdan naar een zuivere redelijkheidstoetsing, die geen enkel verschil meer maakt tussen ernstige geloofs- en gewetens overtuiging en andere motieven. Daarom is het fout gewetensproblemen te beoordelen zoals praktische bezwaren. Het resultaat van deze gelijkschakeling is dat gewetensproblemen worden gebanaliseerd, zodat ze als irrelevant en uitermate onpraktisch terzijde worden geschoven. Door dergelijke banalisering verliezen grondrechten alle betekenis en worden ze geschonden. Binnen het systeem van de sociale zekerheid hebben de klassieke liberale grondrechten, waaronder de geloofsvrijheid, de gewetens- en de meningsvrijheid, hun plaats. Er anders over oordelen zou al snel de sociale zekerheid herleiden tot een bureaucratische aangelegenheid, waarbij het respect voor de menselijke persoon verloren gaat. Het bestaan van een <blockquote class=\"case-quote\">\"duale\"</blockquote> rechtsorde, waardoor men bij de berechting van sociale geschillen in mindere mate rekening moet houden met fundamentele rechten, dient kordaat te worden afgewezen (D. Cuypers, <blockquote class=\"case-quote\">Werkloosheid; passende dienstbetrekkingen en godsdienst, noot onder Arbh. Gent, afd. Brugge, 24 december 1998, R.W. 1998-1999, nr. 25 p. 852 en volg.</blockquote>). Blijkens een arrest van het Europees Hof van de Rechten van de Mens moeten de Verdragstaten zich ervan onthouden om door starre administratieve procedures feitelijk iedere afwijkende godsdienst onmogelijk te maken (E.H.R.M., 26 september 1996 inzake M e.a. t/Griekenland, Publ. Cour Eur. D.H., Serie A, 1996, 1364 e.v.). Maatschappelijke tolerantie en de bescherming van religieuze minderheden vereisen dat in de mate van het mogelijke rekening wordt gehouden met hun godsdienstige verplichtingen (D. Cuypers, M. Kempen en C. Meeusen, <blockquote class=\"case-quote\">\"Culturele minderheden in het sociaal recht\", in Recht en verdraagzaamheid in de multiculturele samenleving, Antw. Maklu, 1993, 269 e.v.</blockquote>). Een maatschappij die zich beroept op beginselen van menselijke waardigheid en vrijheid kan een enkeling niet om zelfs dringende materiële redenen verplichten tot het aanvaarden van een dienstbetrekking waarvan de aard zelf hem noopt tot handelen tegen zijn diepste overtuiging in. Een dienstbetrekking die tegen een overtuiging ingaat verliest haar passend karakter wanneer zij een eerlijke en ernstige overtuiging schendt, die noodzakelijk teruggaat op een objectief en absoluut voorschrift (Arbh. Bergen, 8 november 1985, J.T.T. 1986, blz. 293-296). In casu toont geïntimeerde, die zich beroept op de Islam, vooreerst aan dat het dragen van een hoofddoek één van de dwingende voorschriften is voor de islamitische gelovige vrouwen, zoals blijkt uit het door haar bijgebrachte uittreksel uit de Koran (stuk 3 geïntimeerde), hoofdstuk 24, Annoer, verzen 1, 2 en 32, waar het volgende te lezen staat: <blockquote class=\"case-quote\">\"1. In naam van Allah,... 2. Dit is een hoofdstuk, dat Wij hebben geopenbaard en verplichtend gesteld... 32. En zeg tot de gelovige vrouwen dat zij ook haar ogen neergeslagen houden en hun passies beheersen, en dat zij haar schoonheid niet tonen dan hetgeen ervan zichtbaar moet zijn, en dat zij haar hoofddoeken over haar boezem laten hangen, en dat zij haar schoonheid niet tonen behalve aan haar echtgenoot of haar vader of de vader van haar echtgenoot, of haar zonen of de zonen van haar broeders, of de zonen van haar zusters of haar vrouwen,...\"</blockquote> Verder bewijst zij dat zij iemand is die op ernstige wijze het islamitisch geloof belijdt. Uit de door geïntimeerde bijgebrachte gegevens blijkt namelijk dat geïntimeerde in meerdere gerechtelijke procedures betrokken is geweest naar aanleiding van een eerdere weigering van de gemeente (stad) ... om haar in 1999 een nieuwe identiteitskaart af te leveren omdat zij op de bijhorende foto afgebeeld wenste te worden met een hoofddoek (zij brengt stukken bij van een procedure tegen de stad ... in kortgeding bij de Rechtbank van Eerste aanleg te Hasselt - stukken 5, 6 en 7 geïntimeerde). Dit heeft voor haar zelfs geleid tot een verlies van het recht op werkloosheidsuitkeringen vanaf 9 september 1999 (wegens het niet langer beschikken over een geldige verblijfsvergunning), R.V.A.-beslissing waartegen door haar beroep werd ingesteld bij de Arbeidsrechtbank te Hasselt en die door deze rechtbank vernietigd werd (vonnis van 22.03.2000 - A.R. 993631 - een kopie werd bijgebracht door geïntimeerde - niet geïnventariseerd). Uit deze gegevens blijkt dat geïntimeerde op strijdbare wijze wenst op te komen voor haar godsdienstvrijheiden beleving; uit de bewoordingen van de beschikking in kortgeding van de Rechtbank van Eerste Aanleg blijkt daarenboven dat het dragen van een hoofddoek om godsdienstige redenen bevestigd werd door de Iman van de moskee te ... (stuk 5 geïntimeerde).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-004",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-003",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-006",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-007",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-008",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-011",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-012",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-013",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-014",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-015",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-016",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In art. 22 tot 32bis van het Ministerieel Besluit van 26 november 1991 ter uitvoering van het Werkloosheidsbesluit, zijn een aantal objectieve criteria opgesomd voor de beoordeling van een passende dienstbetrekking. Deze criteria zijn echter niet limitatief (Cass. 12 december 1983, Arr. Cass. 1983-84, 430 en Cass. 30 januari 1984, Arr. Cass. 1983- 84, 643). Zo mogen religieuze motieven ook in aanmerking genomen worden om het passend karakter van een dienstbetrekking te beoordelen, hetgeen volgt uit de grondwettelijke bepalingen en de bescherming door internationale verdragen. Zo bepaalt artikel 19 van de Grondwet het volgende: <blockquote class=\"case-quote\">\"De vrijheid van eredienst, de vrije openbare uitoefening ervan, alsmede de vrijheid om (op) elk gebied zijn mening te uiten, zijn gewaarborgd, behoudens bestraffing van de misdrijven die ter gelegenheid van het gebruikmaken van die vrijheden worden gepleegd.\"</blockquote> Verder is er ook artikel 9.2 E.V.R.M. dat luidt als volgt: <blockquote class=\"case-quote\">\"Vrijheid van gedachte, geweten en godsdienst. \"1. Eenieder heeft het recht op vrijheid van gedachte, geweten en godsdienst; dit recht omvat tevens de vrijheid om van godsdienst of overtuiging te veranderen, alsmede de vrijheid hetzij alleen, hetzij met anderen, zowel in het openbaar als in zijn particuliere leven zijn godsdienst of overtuiging te belijden door de eredienst, door het onderwijzen ervan, door de praktische toepassing ervan en het onderhouden van de geboden en voorschriften. \"2. De vrijheid van godsdienst of overtuiging te belijden kan aan geen andere beperkingen zijn onderworpen dan die welke bij de wet zijn voorzien, en die in een democratische samenleving nodig zijn voor de openbare orde, gezondheid of zedelijkheid of de bescherming van de rechten en vrijheden van anderen.\"</blockquote> Deze bepaling heeft verticale directe werking in de Belgische rechtsorde. Net als artikel 19 van de Grondwet dient zij door de openbare overheid - en inzonderheid door appellant - in diens betrekkingen met de bestuurde - en inzonderheid met geïntimeerde - te worden gerespecteerd (zie Cuypers, D., De Kempen, M., Meeusen, C., <blockquote class=\"case-quote\">\"Culturele minderheden in het sociaal recht\", in Recht en verdraagzaamheid in de multiculturele samenleving, Antwerpen, Maklu, 1993, 269-270; Groeninckx, P., en Pieters, D., \"Expressievrijheid en werkloosheid\", T.S.R. 1982, 335-336)</blockquote>.</p>",
+          "<p class=\"case-section__paragraph\">Blijkens zijn beroepsakte en beroepsbesluiten betwist appellant ook niet dat een werkloze een passende dienstbetrekking kan weigeren op grond van religieuze bezwaren. Tevens erkent appellant het voorschrift van de islam dat vrouwen hun schoonheid niet aan vreemde mannen mogen tonen derhalve dat zij hun hoofd moeten bedekt houden. Appellant kan, naar de mening van het Hof, ook moeilijk anders nu artikel 9 E.V.R.M. de overheden van de Verdragstaten verbiedt om zich in te laten met de legitimiteit zelf en de modaliteiten van de geloofsuitingen (E.H.R.M., 26 september 1996 inzake M e.a. t/ Griekenland, Publ. Cour Eur. D.H.; Serie A, 1996, 1365, overweging nr. 47). Volgens appellant moet de rechter echter nagaan of de vrijheid van godsdienstbeleving in het gedrang komt door het aanvaarden van de betrekking, doch hierbij is volgens appellant de oprechtheid en de graad van overtuiging of godsdienstbeleving niet relevant. Wat volgens appellant moet beoordeeld worden is het algemene en gewone gedrag van de moslimbevolking in België, waarbij hij vaststelt dat de meerderheid van de vrouwelijke moslims er geen probleem van maakt om zonder hoofddoek te werken wanneer specifieke arbeidsomstandigheden dit vereisen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-005",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-006",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-007",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-008",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-003",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-011",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-012"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In art. 22 tot 32bis van het Ministerieel Besluit van 26 november 1991 ter uitvoering van het Werkloosheidsbesluit, zijn een aantal objectieve criteria opgesomd voor de beoordeling van een passende dienstbetrekking. Deze criteria zijn echter niet limitatief (Cass. 12 december 1983, Arr. Cass. 1983-84, 430 en Cass. 30 januari 1984, Arr. Cass. 1983- 84, 643). Zo mogen religieuze motieven ook in aanmerking genomen worden om het passend karakter van een dienstbetrekking te beoordelen, hetgeen volgt uit de grondwettelijke bepalingen en de bescherming door internationale verdragen. Zo bepaalt artikel 19 van de Grondwet het volgende: <blockquote class=\"case-quote\">\"De vrijheid van eredienst, de vrije openbare uitoefening ervan, alsmede de vrijheid om (op) elk gebied zijn mening te uiten, zijn gewaarborgd, behoudens bestraffing van de misdrijven die ter gelegenheid van het gebruikmaken van die vrijheden worden gepleegd.\"</blockquote> Verder is er ook artikel 9.2 E.V.R.M. dat luidt als volgt: <blockquote class=\"case-quote\">\"Vrijheid van gedachte, geweten en godsdienst. \"1. Eenieder heeft het recht op vrijheid van gedachte, geweten en godsdienst; dit recht omvat tevens de vrijheid om van godsdienst of overtuiging te veranderen, alsmede de vrijheid hetzij alleen, hetzij met anderen, zowel in het openbaar als in zijn particuliere leven zijn godsdienst of overtuiging te belijden door de eredienst, door het onderwijzen ervan, door de praktische toepassing ervan en het onderhouden van de geboden en voorschriften. \"2. De vrijheid van godsdienst of overtuiging te belijden kan aan geen andere beperkingen zijn onderworpen dan die welke bij de wet zijn voorzien, en die in een democratische samenleving nodig zijn voor de openbare orde, gezondheid of zedelijkheid of de bescherming van de rechten en vrijheden van anderen.\"</blockquote> Deze bepaling heeft verticale directe werking in de Belgische rechtsorde. Net als artikel 19 van de Grondwet dient zij door de openbare overheid - en inzonderheid door appellant - in diens betrekkingen met de bestuurde - en inzonderheid met geïntimeerde - te worden gerespecteerd (zie Cuypers, D., De Kempen, M., Meeusen, C., <blockquote class=\"case-quote\">\"Culturele minderheden in het sociaal recht\", in Recht en verdraagzaamheid in de multiculturele samenleving, Antwerpen, Maklu, 1993, 269-270; Groeninckx, P., en Pieters, D., \"Expressievrijheid en werkloosheid\", T.S.R. 1982, 335-336)</blockquote>.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-006",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-007",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-008",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-004",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-011",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-012"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In art. 22 tot 32bis van het Ministerieel Besluit van 26 november 1991 ter uitvoering van het Werkloosheidsbesluit, zijn een aantal objectieve criteria opgesomd voor de beoordeling van een passende dienstbetrekking. Deze criteria zijn echter niet limitatief (Cass. 12 december 1983, Arr. Cass. 1983-84, 430 en Cass. 30 januari 1984, Arr. Cass. 1983- 84, 643). Zo mogen religieuze motieven ook in aanmerking genomen worden om het passend karakter van een dienstbetrekking te beoordelen, hetgeen volgt uit de grondwettelijke bepalingen en de bescherming door internationale verdragen. Zo bepaalt artikel 19 van de Grondwet het volgende: <blockquote class=\"case-quote\">\"De vrijheid van eredienst, de vrije openbare uitoefening ervan, alsmede de vrijheid om (op) elk gebied zijn mening te uiten, zijn gewaarborgd, behoudens bestraffing van de misdrijven die ter gelegenheid van het gebruikmaken van die vrijheden worden gepleegd.\"</blockquote> Verder is er ook artikel 9.2 E.V.R.M. dat luidt als volgt: <blockquote class=\"case-quote\">\"Vrijheid van gedachte, geweten en godsdienst. \"1. Eenieder heeft het recht op vrijheid van gedachte, geweten en godsdienst; dit recht omvat tevens de vrijheid om van godsdienst of overtuiging te veranderen, alsmede de vrijheid hetzij alleen, hetzij met anderen, zowel in het openbaar als in zijn particuliere leven zijn godsdienst of overtuiging te belijden door de eredienst, door het onderwijzen ervan, door de praktische toepassing ervan en het onderhouden van de geboden en voorschriften. \"2. De vrijheid van godsdienst of overtuiging te belijden kan aan geen andere beperkingen zijn onderworpen dan die welke bij de wet zijn voorzien, en die in een democratische samenleving nodig zijn voor de openbare orde, gezondheid of zedelijkheid of de bescherming van de rechten en vrijheden van anderen.\"</blockquote> Deze bepaling heeft verticale directe werking in de Belgische rechtsorde. Net als artikel 19 van de Grondwet dient zij door de openbare overheid - en inzonderheid door appellant - in diens betrekkingen met de bestuurde - en inzonderheid met geïntimeerde - te worden gerespecteerd (zie Cuypers, D., De Kempen, M., Meeusen, C., <blockquote class=\"case-quote\">\"Culturele minderheden in het sociaal recht\", in Recht en verdraagzaamheid in de multiculturele samenleving, Antwerpen, Maklu, 1993, 269-270; Groeninckx, P., en Pieters, D., \"Expressievrijheid en werkloosheid\", T.S.R. 1982, 335-336)</blockquote>.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-007",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-006",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-008",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-004",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-011",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-012"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In art. 22 tot 32bis van het Ministerieel Besluit van 26 november 1991 ter uitvoering van het Werkloosheidsbesluit, zijn een aantal objectieve criteria opgesomd voor de beoordeling van een passende dienstbetrekking. Deze criteria zijn echter niet limitatief (Cass. 12 december 1983, Arr. Cass. 1983-84, 430 en Cass. 30 januari 1984, Arr. Cass. 1983- 84, 643). Zo mogen religieuze motieven ook in aanmerking genomen worden om het passend karakter van een dienstbetrekking te beoordelen, hetgeen volgt uit de grondwettelijke bepalingen en de bescherming door internationale verdragen. Zo bepaalt artikel 19 van de Grondwet het volgende: <blockquote class=\"case-quote\">\"De vrijheid van eredienst, de vrije openbare uitoefening ervan, alsmede de vrijheid om (op) elk gebied zijn mening te uiten, zijn gewaarborgd, behoudens bestraffing van de misdrijven die ter gelegenheid van het gebruikmaken van die vrijheden worden gepleegd.\"</blockquote> Verder is er ook artikel 9.2 E.V.R.M. dat luidt als volgt: <blockquote class=\"case-quote\">\"Vrijheid van gedachte, geweten en godsdienst. \"1. Eenieder heeft het recht op vrijheid van gedachte, geweten en godsdienst; dit recht omvat tevens de vrijheid om van godsdienst of overtuiging te veranderen, alsmede de vrijheid hetzij alleen, hetzij met anderen, zowel in het openbaar als in zijn particuliere leven zijn godsdienst of overtuiging te belijden door de eredienst, door het onderwijzen ervan, door de praktische toepassing ervan en het onderhouden van de geboden en voorschriften. \"2. De vrijheid van godsdienst of overtuiging te belijden kan aan geen andere beperkingen zijn onderworpen dan die welke bij de wet zijn voorzien, en die in een democratische samenleving nodig zijn voor de openbare orde, gezondheid of zedelijkheid of de bescherming van de rechten en vrijheden van anderen.\"</blockquote> Deze bepaling heeft verticale directe werking in de Belgische rechtsorde. Net als artikel 19 van de Grondwet dient zij door de openbare overheid - en inzonderheid door appellant - in diens betrekkingen met de bestuurde - en inzonderheid met geïntimeerde - te worden gerespecteerd (zie Cuypers, D., De Kempen, M., Meeusen, C., <blockquote class=\"case-quote\">\"Culturele minderheden in het sociaal recht\", in Recht en verdraagzaamheid in de multiculturele samenleving, Antwerpen, Maklu, 1993, 269-270; Groeninckx, P., en Pieters, D., \"Expressievrijheid en werkloosheid\", T.S.R. 1982, 335-336)</blockquote>.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-008",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-006",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-007",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-004",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-011",
+          "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-012"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Wat de proportionaliteit betreft dient nagegaan of de eis die de werkloze stelt niet buiten verhouding staat tot de maatschappelijke solidariteit. De rechter dient na te gaan of de werkloze door een onredelijk voorbehoud de mogelijkheden tot arbeidsbemiddeling en tewerkstelling te zeer hypothekeert. De mate van niet-beschikbaarheid is derhalve relevant (D. Cuypers, <blockquote class=\"case-quote\">Werkloosheid; passende dienstbetrekking en godsdienst, noot onder Arbh. Gent, afd. Brugge 24 april 1998, R.W. 1998-1999, nr. 25, p. 855</blockquote>). Het Hof is in casu van oordeel dat het godsdienstig gebod om een hoofddoek te dragen in aanwezigheid van vreemde personen de islamitische vrouw niet onbeschikbaar maakt voor de algemene arbeidsmarkt, gezien de meeste werkzaamheden perfect verenigbaar zijn met het dragen van een hoofddoek. Het voormelde wordt overigens ook door appellant erkend nu uit de oproeping voor verhoor bij de diensten van het werkloosheidsbureau te Hasselt blijkt dat geïntimeerde zich diende te verantwoorden voor haar eventuele onbeschikbaarheid voor de algemene arbeidsmarkt en uit de bestreden administratieve beslissing van appellant blijkt dat deze dit feit zelf niet weerhouden heeft. Geïntimeerde werd uiteindelijk enkel uitgesloten van de uitkeringen voor een periode van 18 weken wegens het weigeren van een passende dienstbetrekking d.w.z. op grond van artikel 51 Werkloosheidsbesluit. Geïntimeerde werd niet geacht in overtreding te zijn met artikel 56 van het zelfde besluit. Het is zeker zo dat het in casu gaat om een beperkte niet-beschikbaarheid die de overgrote meerderheid van de betrekkingen onberoerd laat. De eis die geïntimeerde stelt, namelijk het mogen blijven dragen van de hoofddoek tijdens het werk, is niet als buiten-proportioneel te bestempelen. Verder is ook gebleken dat geïntimeerde geen andere regelingen heeft kunnen treffen om aan haar religieuze verplichtingen te voldoen en aan het gestelde probleem een andere oplossing te geven. Uit haar verklaringen blijkt dat zij voorstelde af te zien van de verzekering waarop de werkgever zich beriep om het verwijderen van de hoofddoek te eisen, doch de werkgever weigerde dit. Ook stelde geïntimeerde voor elders werk te zoeken als stikster. Uit hetgeen voorafgaat volgt dat de aangeboden dienstbetrekking niet passend was voor geïntimeerde zodat haar niet ten kwade kan geduid worden dat zij deze geweigerd heeft. Het hoger beroep is ongegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-009",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Wat de proportionaliteit betreft dient nagegaan of de eis die de werkloze stelt niet buiten verhouding staat tot de maatschappelijke solidariteit. De rechter dient na te gaan of de werkloze door een onredelijk voorbehoud de mogelijkheden tot arbeidsbemiddeling en tewerkstelling te zeer hypothekeert. De mate van niet-beschikbaarheid is derhalve relevant (D. Cuypers, <blockquote class=\"case-quote\">Werkloosheid; passende dienstbetrekking en godsdienst, noot onder Arbh. Gent, afd. Brugge 24 april 1998, R.W. 1998-1999, nr. 25, p. 855</blockquote>). Het Hof is in casu van oordeel dat het godsdienstig gebod om een hoofddoek te dragen in aanwezigheid van vreemde personen de islamitische vrouw niet onbeschikbaar maakt voor de algemene arbeidsmarkt, gezien de meeste werkzaamheden perfect verenigbaar zijn met het dragen van een hoofddoek. Het voormelde wordt overigens ook door appellant erkend nu uit de oproeping voor verhoor bij de diensten van het werkloosheidsbureau te Hasselt blijkt dat geïntimeerde zich diende te verantwoorden voor haar eventuele onbeschikbaarheid voor de algemene arbeidsmarkt en uit de bestreden administratieve beslissing van appellant blijkt dat deze dit feit zelf niet weerhouden heeft. Geïntimeerde werd uiteindelijk enkel uitgesloten van de uitkeringen voor een periode van 18 weken wegens het weigeren van een passende dienstbetrekking d.w.z. op grond van artikel 51 Werkloosheidsbesluit. Geïntimeerde werd niet geacht in overtreding te zijn met artikel 56 van het zelfde besluit. Het is zeker zo dat het in casu gaat om een beperkte niet-beschikbaarheid die de overgrote meerderheid van de betrekkingen onberoerd laat. De eis die geïntimeerde stelt, namelijk het mogen blijven dragen van de hoofddoek tijdens het werk, is niet als buiten-proportioneel te bestempelen. Verder is ook gebleken dat geïntimeerde geen andere regelingen heeft kunnen treffen om aan haar religieuze verplichtingen te voldoen en aan het gestelde probleem een andere oplossing te geven. Uit haar verklaringen blijkt dat zij voorstelde af te zien van de verzekering waarop de werkgever zich beriep om het verwijderen van de hoofddoek te eisen, doch de werkgever weigerde dit. Ook stelde geïntimeerde voor elders werk te zoeken als stikster. Uit hetgeen voorafgaat volgt dat de aangeboden dienstbetrekking niet passend was voor geïntimeerde zodat haar niet ten kwade kan geduid worden dat zij deze geweigerd heeft. Het hoger beroep is ongegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-010",
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Het tussenarrest van 12 december 2002 verder uitwerkend, Verklaart het hoger beroep ongegrond. Bevestigt om deels andere motieven het vonnis van de Arbeidsrechtbank te Hasselt van 27 maart 2002. Verwijst appellant, conform artikel 1017, 2de lid van het Gerechtelijk Wetboek, in de kosten van de huidige beroepsprocedure; deze in hoofde van geïntimeerde vereffend op 55,77 EUR aanvullende rechtsplegingsvergoeding plaatsopneming en 136,84 EUR rechtsplegingsvergoeding hoger beroep. Laat deze kosten in hoofde van appellant onvereffend bij gebreke aan afgifte van kostenstaat. Aldus gewezen en uitgesproken door de vierde kamer van het Arbeidshof te Antwerpen, afdeling Hasselt, zitting houdend te Hasselt in openbare terechtzitting van drie juni tweeduizend en vier, waar aanwezig waren: dhr. G. V., Kamervoorzitter, dhr. R. G., Raadsheer in sociale zaken, werkgever, dhr. J. S., Raadsheer in sociale zaken, werknemer-arbeider, mevr. L. K., e.a. Adjunct-griffier,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:2004:ARR.20040603.3-011"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 11,
+      "citationStatistics": {
+        "totalCitations": 13,
+        "avgCitationsPerProvision": 1.1818181818181819,
+        "provisionsWithMinimalCitations": 10,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.3636363636363638,
+        "avgDecisionsPerProvision": 2,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2004:ARR.20040603.3-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Met voormeld tussenarrest heeft het Hof een plaatsopneming bevolen in de sociale werkplaats \"D. P.\", zijnde de werkgever waarvan het werkaanbod uitging dat volgens appellant door geïntimeerde ten onrechte als niet-passend zou geweigerd zijn geweest. Het Hof wenste met name te weten of de door de werkgever gestelde eis tot verwijdering van de islamitische hoofddoek een redelijke en gerechtvaardigde eis was en niet ingegeven was door andere motieven dan de door hem vooropgestelde veiligheidsreden. Na het plaatsbezoek staat voor het Hof vast dat de eis van de werkgever zeker niet door racistische motieven was ingegeven. In de werkplaats waren immers op een globaal personeelsbestand van 23 personen, 7 personen van allochtone afkomst tewerkgesteld. Verder kon de visu vastgesteld worden dat van alle op het ogenblik van de plaatsopneming aanwezige allochtone arbeidsters geen enkele een hoofddoek droeg. Tenslotte is gebleken uit de aard van het uitgevoerde werk en de hiertoe benodigde machines dat het dragen van de hoofddoek inderdaad een veiligheidsrisico inhield. Conform artikel 20, 2° van de Arbeidsovereenkomstenwet is de werkgever verplicht <blockquote class=\"case-quote\">\"als een goed huisvader\"</blockquote> te zorgen dat de arbeid wordt verricht in behoorlijke omstandigheden met betrekking tot de veiligheid en de gezondheid van de werknemer. De werkgever mag en kan bevelen geven inzake de technische verwezenlijking van het werk. Deze bevelen beperken zich niet tot het louter materiële aspect maar strekken zich eveneens uit tot het recht van de werkgever om te bevelen zich op een bepaalde manier te kleden. Kortom, het is de werkgever die de bedrijfscultuur bepaalt (Palumbo M. en Radermecker C. <blockquote class=\"case-quote\">\"Le voile islamique ou 'l'éternel' conflit tussen een impératif religieux et une norme étatique, noot onder Arbrb. Hasselt, 1 maart 1995, Soc. Kron. 1996, 409-410\"</blockquote>). Van de werkgever kan niet worden gevraagd dat hij in naam van de godsdienstvrijheid afwijkingen moet toestaan op het algemeen arbeids- en veiligheidsregime. Het belang van de onderneming en haar werknemers moet steeds het uitgangspunt zijn. Wanneer de werkgever omwille van godsdienstige principes de veiligheid van zijn werknemers in het gedrang zou brengen pleegt hij een inbreuk op artikel 9 ,§ 2 van het Europees Verdrag van de Rechten van de Mens, alsook op artikel 20, 2° van de Arbeidsovereenkomstenwet. Dit risico mag de werkgever niet nemen. Rekening houdend met het voorgaande is het Hof van mening dat de vraag van de werkgever, \"D. P.\", om zijn personeel te zien werken zonder hoofddoek in casu mag worden aangemerkt als een gerechtvaardigde en redelijke eis. Overigens wordt zulks ook niet betwist door geïntimeerde (cfr. beroepsbesluiten geïntimeerde ontvangen ter griffie van het Hof op 28.05.2002, p. 3, alinea 6).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2004:ARR.20040603.3-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Geïntimeerde, hierin gevolgd door de eerste rechter, stelt dat zij de aangeboden dienstbetrekking niet heeft geweigerd. Zij zou enkel naar waarheid de vraag van de werkgever in verband met het afzetten van de hoofddoek voor de stiktest hebben beantwoord. Het feit dat zij terzelfder tijd een voorbehoud geformuleerd heeft waaruit een onverenigbaarheid bleek tussen de eigen vrije godsdienstbeleving en de gestelde jobvereisten, betekent nog niet dat uit haar verklaringen een haar verwijtbare werkweigering vermag te worden afgeleid, aldus geïntimeerde en de eerste rechter. Het Hof is het niet eens met voormeld standpunt. Immers bij werkweigering kan het gaan om een directe/expliciete of om een indirecte/impliciete werkweigering. Bij een directe of expliciete werkweigering deelt de werkloze met zoveel woorden rechtstreeks - direct, onomwonden - mee dat hij het aangeboden werk niet wil aannemen of uitvoeren. Dergelijke situatie heeft zich in casu inderdaad niet voorgedaan; geïntimeerde heeft op geen enkel ogenblik expliciet meegedeeld het werk niet te willen accepteren. Bij een indirecte of impliciete werkweigering gaat het om verklaringen van de werkloze - of eventueel om een gedraging of handelwijze - waaruit onrechtstreeks kan worden afgeleid dat de werkloze het werk niet wil aannemen of uitvoeren. In functie van de aan geïntimeerde verweten inbreuk op de werkloosheidsreglementering, dient hier te worden beoordeeld of zij ten overstaan van de werkgever een voorbehoud, interpreteerbaar als impliciete werkweigering, geformuleerd heeft. Door de werkgever werd op het desbetreffende formulier als reden van niet-aanwerving van geïntimeerde het volgende vermeld: <blockquote class=\"case-quote\">\"Na gesprek niet op stikproef toegelaten: reden: wenst hoofddoek niet af te zetten tijdens het werk.\"</blockquote> Uit de processen-verbaal van verhoor van de directeur van \"D. P.\" en van geïntimeerde respectievelijk op 10 april 2001 en 12 april 2001 evenals uit het verhoor van geïntimeerde bij de directeur van het werkloosheidsbureau Hasselt d.d. 22 mei 2001, blijkt naar het oordeel van het Hof afdoende dat geïntimeerde zich op het sollicitatiegesprek aanbood getooid met een hoofddoek - hetgeen weliswaar haar volste recht is - doch ook dat zij met zoveel woorden te kennen heeft gegeven dat zij deze hoofddoek niet wenste te verwijderen tijdens het werk. Zoals hoger reeds vermeld mag de werkgever aan zijn personeel bepaalde eisen stellen inzake het dragen van kledij tijdens het werk en dient meer specifiek de vraag van de werkgever om zijn personeel te zien werken zonder hoofddoek in huidig geval aangemerkt te worden als een gerechtvaardigde en redelijke eis (zie sub A). Echter, door tijdens het eerste en enige sollicitatiegesprek te verklaren dat de hoofddoek niet zou worden verwijderd, heeft geïntimeerde haar aanwerving onmogelijk gemaakt. De werkgever die zich tijdens een sollicitatiegesprek geconfronteerd weet met een sollicitant die, in reactie op de niet onredelijke vraag om zich qua kledij te conformeren aan de wensen van de werkgever, onmiddellijk een weigerachtige houding inneemt, zal niet geneigd zijn om over te gaan tot een aanwerving van bedoelde sollicitant. De door geïntimeerde verstrekte verklaring en ingenomen houding dienen als een impliciete werkweigering te worden aangemerkt.</p>",
+          "<p class=\"case-section__paragraph\">Wat de proportionaliteit betreft dient nagegaan of de eis die de werkloze stelt niet buiten verhouding staat tot de maatschappelijke solidariteit. De rechter dient na te gaan of de werkloze door een onredelijk voorbehoud de mogelijkheden tot arbeidsbemiddeling en tewerkstelling te zeer hypothekeert. De mate van niet-beschikbaarheid is derhalve relevant (D. Cuypers, <blockquote class=\"case-quote\">Werkloosheid; passende dienstbetrekking en godsdienst, noot onder Arbh. Gent, afd. Brugge 24 april 1998, R.W. 1998-1999, nr. 25, p. 855</blockquote>). Het Hof is in casu van oordeel dat het godsdienstig gebod om een hoofddoek te dragen in aanwezigheid van vreemde personen de islamitische vrouw niet onbeschikbaar maakt voor de algemene arbeidsmarkt, gezien de meeste werkzaamheden perfect verenigbaar zijn met het dragen van een hoofddoek. Het voormelde wordt overigens ook door appellant erkend nu uit de oproeping voor verhoor bij de diensten van het werkloosheidsbureau te Hasselt blijkt dat geïntimeerde zich diende te verantwoorden voor haar eventuele onbeschikbaarheid voor de algemene arbeidsmarkt en uit de bestreden administratieve beslissing van appellant blijkt dat deze dit feit zelf niet weerhouden heeft. Geïntimeerde werd uiteindelijk enkel uitgesloten van de uitkeringen voor een periode van 18 weken wegens het weigeren van een passende dienstbetrekking d.w.z. op grond van artikel 51 Werkloosheidsbesluit. Geïntimeerde werd niet geacht in overtreding te zijn met artikel 56 van het zelfde besluit. Het is zeker zo dat het in casu gaat om een beperkte niet-beschikbaarheid die de overgrote meerderheid van de betrekkingen onberoerd laat. De eis die geïntimeerde stelt, namelijk het mogen blijven dragen van de hoofddoek tijdens het werk, is niet als buiten-proportioneel te bestempelen. Verder is ook gebleken dat geïntimeerde geen andere regelingen heeft kunnen treffen om aan haar religieuze verplichtingen te voldoen en aan het gestelde probleem een andere oplossing te geven. Uit haar verklaringen blijkt dat zij voorstelde af te zien van de verzekering waarop de werkgever zich beriep om het verwijderen van de hoofddoek te eisen, doch de werkgever weigerde dit. Ook stelde geïntimeerde voor elders werk te zoeken als stikster. Uit hetgeen voorafgaat volgt dat de aangeboden dienstbetrekking niet passend was voor geïntimeerde zodat haar niet ten kwade kan geduid worden dat zij deze geweigerd heeft. Het hoger beroep is ongegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2004:ARR.20040603.3-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In art. 22 tot 32bis van het Ministerieel Besluit van 26 november 1991 ter uitvoering van het Werkloosheidsbesluit, zijn een aantal objectieve criteria opgesomd voor de beoordeling van een passende dienstbetrekking. Deze criteria zijn echter niet limitatief (Cass. 12 december 1983, Arr. Cass. 1983-84, 430 en Cass. 30 januari 1984, Arr. Cass. 1983- 84, 643). Zo mogen religieuze motieven ook in aanmerking genomen worden om het passend karakter van een dienstbetrekking te beoordelen, hetgeen volgt uit de grondwettelijke bepalingen en de bescherming door internationale verdragen. Zo bepaalt artikel 19 van de Grondwet het volgende: <blockquote class=\"case-quote\">\"De vrijheid van eredienst, de vrije openbare uitoefening ervan, alsmede de vrijheid om (op) elk gebied zijn mening te uiten, zijn gewaarborgd, behoudens bestraffing van de misdrijven die ter gelegenheid van het gebruikmaken van die vrijheden worden gepleegd.\"</blockquote> Verder is er ook artikel 9.2 E.V.R.M. dat luidt als volgt: <blockquote class=\"case-quote\">\"Vrijheid van gedachte, geweten en godsdienst. \"1. Eenieder heeft het recht op vrijheid van gedachte, geweten en godsdienst; dit recht omvat tevens de vrijheid om van godsdienst of overtuiging te veranderen, alsmede de vrijheid hetzij alleen, hetzij met anderen, zowel in het openbaar als in zijn particuliere leven zijn godsdienst of overtuiging te belijden door de eredienst, door het onderwijzen ervan, door de praktische toepassing ervan en het onderhouden van de geboden en voorschriften. \"2. De vrijheid van godsdienst of overtuiging te belijden kan aan geen andere beperkingen zijn onderworpen dan die welke bij de wet zijn voorzien, en die in een democratische samenleving nodig zijn voor de openbare orde, gezondheid of zedelijkheid of de bescherming van de rechten en vrijheden van anderen.\"</blockquote> Deze bepaling heeft verticale directe werking in de Belgische rechtsorde. Net als artikel 19 van de Grondwet dient zij door de openbare overheid - en inzonderheid door appellant - in diens betrekkingen met de bestuurde - en inzonderheid met geïntimeerde - te worden gerespecteerd (zie Cuypers, D., De Kempen, M., Meeusen, C., <blockquote class=\"case-quote\">\"Culturele minderheden in het sociaal recht\", in Recht en verdraagzaamheid in de multiculturele samenleving, Antwerpen, Maklu, 1993, 269-270; Groeninckx, P., en Pieters, D., \"Expressievrijheid en werkloosheid\", T.S.R. 1982, 335-336)</blockquote>.</p>",
+          "<p class=\"case-section__paragraph\">Het Hof is het niet eens met de argumentatie van appellant. Het is juist dat de rechter moet oordelen over de vraag hoe fundamentele rechten en vrijheden met de werkloosheidsreglementering kunnen worden verzoend. Dit heeft dan ook tot gevolg dat in bepaalde gevallen een werknemer een aangeboden dienstbetrekking kan afwijzen wegens zijn religieuze opvattingen, meer bepaald wanneer vanuit deze motieven een morele dwang op het handelen van het betrokken individu uitgaat en hij geen andere regelingen had kunnen treffen om aan zijn religieuze verplichtingen te voldoen. In de praktijk komt het hierop neer dat de gemeenschap de gelovigen toestaat bij het beoordelen van het passend karakter van de hen aangeboden dienstbetrekking de hen voorgeschreven regels en leer te eerbiedigen voor zover zulks geen overmatige belasting voor de samenleving meebrengt. Bij deze beoordeling wordt een dubbele toets gehanteerd: die van de ernst en die van de proportionaliteit.</p>",
+          "<p class=\"case-section__paragraph\">Wat de ernst betreft van het godsdienstige bezwaar is het noodzakelijk dat de betrokkene in het verleden en het heden de principes waar hij achter staat even ernstig heeft genomen als hij thans verlangt van de gemeenschap. Deze toets naar de ernst betekent geenszins dat de rechter zich als theoloog moet gedragen maar moet voorkomen dat de godsdienst als alibi wordt gebruikt om zich te onttrekken aan maatschappelijke verplichtingen. Het moet gaan om <blockquote class=\"case-quote\">\"een oprechte en ernstige overtuiging die noodzakelijk verbonden is met een objectieve en absolute norm die door een georganiseerde groep wordt aangekleefd.\"</blockquote> Van de weigerende werkloze wordt een principiële belijdenis en een praktische consequentheid verwacht. Het onderzoek naar de ernst van de redenen mag evenwel niet afglijden naar een evaluatie naar de getoetste mening zelf. Een verwijzing naar <blockquote class=\"case-quote\">\"andere vreemdelingen\"</blockquote>, die zich wel <blockquote class=\"case-quote\">\"aanpassen\"</blockquote> gaat niet op en miskent de essentie van een fundamentele geloofs- of gewetens overtuiging. Wanneer de rechter zich als theoloog gaat gedragen en het geloof op eigen gezag gaat onderzoeken, gaat hij zijn rol te buiten. Men verglijdt alsdan naar een zuivere redelijkheidstoetsing, die geen enkel verschil meer maakt tussen ernstige geloofs- en gewetens overtuiging en andere motieven. Daarom is het fout gewetensproblemen te beoordelen zoals praktische bezwaren. Het resultaat van deze gelijkschakeling is dat gewetensproblemen worden gebanaliseerd, zodat ze als irrelevant en uitermate onpraktisch terzijde worden geschoven. Door dergelijke banalisering verliezen grondrechten alle betekenis en worden ze geschonden. Binnen het systeem van de sociale zekerheid hebben de klassieke liberale grondrechten, waaronder de geloofsvrijheid, de gewetens- en de meningsvrijheid, hun plaats. Er anders over oordelen zou al snel de sociale zekerheid herleiden tot een bureaucratische aangelegenheid, waarbij het respect voor de menselijke persoon verloren gaat. Het bestaan van een <blockquote class=\"case-quote\">\"duale\"</blockquote> rechtsorde, waardoor men bij de berechting van sociale geschillen in mindere mate rekening moet houden met fundamentele rechten, dient kordaat te worden afgewezen (D. Cuypers, <blockquote class=\"case-quote\">Werkloosheid; passende dienstbetrekkingen en godsdienst, noot onder Arbh. Gent, afd. Brugge, 24 december 1998, R.W. 1998-1999, nr. 25 p. 852 en volg.</blockquote>). Blijkens een arrest van het Europees Hof van de Rechten van de Mens moeten de Verdragstaten zich ervan onthouden om door starre administratieve procedures feitelijk iedere afwijkende godsdienst onmogelijk te maken (E.H.R.M., 26 september 1996 inzake M e.a. t/Griekenland, Publ. Cour Eur. D.H., Serie A, 1996, 1364 e.v.). Maatschappelijke tolerantie en de bescherming van religieuze minderheden vereisen dat in de mate van het mogelijke rekening wordt gehouden met hun godsdienstige verplichtingen (D. Cuypers, M. Kempen en C. Meeusen, <blockquote class=\"case-quote\">\"Culturele minderheden in het sociaal recht\", in Recht en verdraagzaamheid in de multiculturele samenleving, Antw. Maklu, 1993, 269 e.v.</blockquote>). Een maatschappij die zich beroept op beginselen van menselijke waardigheid en vrijheid kan een enkeling niet om zelfs dringende materiële redenen verplichten tot het aanvaarden van een dienstbetrekking waarvan de aard zelf hem noopt tot handelen tegen zijn diepste overtuiging in. Een dienstbetrekking die tegen een overtuiging ingaat verliest haar passend karakter wanneer zij een eerlijke en ernstige overtuiging schendt, die noodzakelijk teruggaat op een objectief en absoluut voorschrift (Arbh. Bergen, 8 november 1985, J.T.T. 1986, blz. 293-296). In casu toont geïntimeerde, die zich beroept op de Islam, vooreerst aan dat het dragen van een hoofddoek één van de dwingende voorschriften is voor de islamitische gelovige vrouwen, zoals blijkt uit het door haar bijgebrachte uittreksel uit de Koran (stuk 3 geïntimeerde), hoofdstuk 24, Annoer, verzen 1, 2 en 32, waar het volgende te lezen staat: <blockquote class=\"case-quote\">\"1. In naam van Allah,... 2. Dit is een hoofdstuk, dat Wij hebben geopenbaard en verplichtend gesteld... 32. En zeg tot de gelovige vrouwen dat zij ook haar ogen neergeslagen houden en hun passies beheersen, en dat zij haar schoonheid niet tonen dan hetgeen ervan zichtbaar moet zijn, en dat zij haar hoofddoeken over haar boezem laten hangen, en dat zij haar schoonheid niet tonen behalve aan haar echtgenoot of haar vader of de vader van haar echtgenoot, of haar zonen of de zonen van haar broeders, of de zonen van haar zusters of haar vrouwen,... \"</blockquote> Verder bewijst zij dat zij iemand is die op ernstige wijze het islamitisch geloof belijdt. Uit de door geïntimeerde bijgebrachte gegevens blijkt namelijk dat geïntimeerde in meerdere gerechtelijke procedures betrokken is geweest naar aanleiding van een eerdere weigering van de gemeente (stad) ... om haar in 1999 een nieuwe identiteitskaart af te leveren omdat zij op de bijhorende foto afgebeeld wenste te worden met een hoofddoek (zij brengt stukken bij van een procedure tegen de stad ... in kortgeding bij de Rechtbank van Eerste aanleg te Hasselt - stukken 5, 6 en 7 geïntimeerde). Dit heeft voor haar zelfs geleid tot een verlies van het recht op werkloosheidsuitkeringen vanaf 9 september 1999 (wegens het niet langer beschikken over een geldige verblijfsvergunning), R.V.A.-beslissing waartegen door haar beroep werd ingesteld bij de Arbeidsrechtbank te Hasselt en die door deze rechtbank vernietigd werd (vonnis van 22.03.2000 - A.R. 993631 - een kopie werd bijgebracht door geïntimeerde - niet geïnventariseerd). Uit deze gegevens blijkt dat geïntimeerde op strijdbare wijze wenst op te komen voor haar godsdienstvrijheiden beleving; uit de bewoordingen van de beschikking in kortgeding van de Rechtbank van Eerste Aanleg blijkt daarenboven dat het dragen van een hoofddoek om godsdienstige redenen bevestigd werd door de Iman van de moskee te ... (stuk 5 geïntimeerde).</p>",
+          "<p class=\"case-section__paragraph\">Wat de proportionaliteit betreft dient nagegaan of de eis die de werkloze stelt niet buiten verhouding staat tot de maatschappelijke solidariteit. De rechter dient na te gaan of de werkloze door een onredelijk voorbehoud de mogelijkheden tot arbeidsbemiddeling en tewerkstelling te zeer hypothekeert. De mate van niet-beschikbaarheid is derhalve relevant (D. Cuypers, <blockquote class=\"case-quote\">Werkloosheid; passende dienstbetrekking en godsdienst, noot onder Arbh. Gent, afd. Brugge 24 april 1998, R.W. 1998-1999, nr. 25, p. 855</blockquote>). Het Hof is in casu van oordeel dat het godsdienstig gebod om een hoofddoek te dragen in aanwezigheid van vreemde personen de islamitische vrouw niet onbeschikbaar maakt voor de algemene arbeidsmarkt, gezien de meeste werkzaamheden perfect verenigbaar zijn met het dragen van een hoofddoek. Het voormelde wordt overigens ook door appellant erkend nu uit de oproeping voor verhoor bij de diensten van het werkloosheidsbureau te Hasselt blijkt dat geïntimeerde zich diende te verantwoorden voor haar eventuele onbeschikbaarheid voor de algemene arbeidsmarkt en uit de bestreden administratieve beslissing van appellant blijkt dat deze dit feit zelf niet weerhouden heeft. Geïntimeerde werd uiteindelijk enkel uitgesloten van de uitkeringen voor een periode van 18 weken wegens het weigeren van een passende dienstbetrekking d.w.z. op grond van artikel 51 Werkloosheidsbesluit. Geïntimeerde werd niet geacht in overtreding te zijn met artikel 56 van het zelfde besluit. Het is zeker zo dat het in casu gaat om een beperkte niet-beschikbaarheid die de overgrote meerderheid van de betrekkingen onberoerd laat. De eis die geïntimeerde stelt, namelijk het mogen blijven dragen van de hoofddoek tijdens het werk, is niet als buiten-proportioneel te bestempelen. Verder is ook gebleken dat geïntimeerde geen andere regelingen heeft kunnen treffen om aan haar religieuze verplichtingen te voldoen en aan het gestelde probleem een andere oplossing te geven. Uit haar verklaringen blijkt dat zij voorstelde af te zien van de verzekering waarop de werkgever zich beriep om het verwijderen van de hoofddoek te eisen, doch de werkgever weigerde dit. Ook stelde geïntimeerde voor elders werk te zoeken als stikster. Uit hetgeen voorafgaat volgt dat de aangeboden dienstbetrekking niet passend was voor geïntimeerde zodat haar niet ten kwade kan geduid worden dat zij deze geweigerd heeft. Het hoger beroep is ongegrond.</p>",
+          "<p class=\"case-section__paragraph\">Met voormeld tussenarrest heeft het Hof een plaatsopneming bevolen in de sociale werkplaats \"D. P.\", zijnde de werkgever waarvan het werkaanbod uitging dat volgens appellant door geïntimeerde ten onrechte als niet-passend zou geweigerd zijn geweest. Het Hof wenste met name te weten of de door de werkgever gestelde eis tot verwijdering van de islamitische hoofddoek een redelijke en gerechtvaardigde eis was en niet ingegeven was door andere motieven dan de door hem vooropgestelde veiligheidsreden. Na het plaatsbezoek staat voor het Hof vast dat de eis van de werkgever zeker niet door racistische motieven was ingegeven. In de werkplaats waren immers op een globaal personeelsbestand van 23 personen, 7 personen van allochtone afkomst tewerkgesteld. Verder kon de visu vastgesteld worden dat van alle op het ogenblik van de plaatsopneming aanwezige allochtone arbeidsters geen enkele een hoofddoek droeg. Tenslotte is gebleken uit de aard van het uitgevoerde werk en de hiertoe benodigde machines dat het dragen van de hoofddoek inderdaad een veiligheidsrisico inhield. Conform artikel 20, 2° van de Arbeidsovereenkomstenwet is de werkgever verplicht <blockquote class=\"case-quote\">\"als een goed huisvader\"</blockquote> te zorgen dat de arbeid wordt verricht in behoorlijke omstandigheden met betrekking tot de veiligheid en de gezondheid van de werknemer. De werkgever mag en kan bevelen geven inzake de technische verwezenlijking van het werk. Deze bevelen beperken zich niet tot het louter materiële aspect maar strekken zich eveneens uit tot het recht van de werkgever om te bevelen zich op een bepaalde manier te kleden. Kortom, het is de werkgever die de bedrijfscultuur bepaalt (Palumbo M. en Radermecker C. <blockquote class=\"case-quote\">\"Le voile islamique ou 'l'éternel' conflit tussen een impératif religieux et une norme étatique, noot onder Arbrb. Hasselt, 1 maart 1995, Soc. Kron. 1996, 409-410\"</blockquote>). Van de werkgever kan niet worden gevraagd dat hij in naam van de godsdienstvrijheid afwijkingen moet toestaan op het algemeen arbeids- en veiligheidsregime. Het belang van de onderneming en haar werknemers moet steeds het uitgangspunt zijn. Wanneer de werkgever omwille van godsdienstige principes de veiligheid van zijn werknemers in het gedrang zou brengen pleegt hij een inbreuk op artikel 9 ,§ 2 van het Europees Verdrag van de Rechten van de Mens, alsook op artikel 20, 2° van de Arbeidsovereenkomstenwet. Dit risico mag de werkgever niet nemen. Rekening houdend met het voorgaande is het Hof van mening dat de vraag van de werkgever, \"D. P.\", om zijn personeel te zien werken zonder hoofddoek in casu mag worden aangemerkt als een gerechtvaardigde en redelijke eis. Overigens wordt zulks ook niet betwist door geïntimeerde (cfr. beroepsbesluiten geïntimeerde ontvangen ter griffie van het Hof op 28.05.2002, p. 3, alinea 6).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-009"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 8,
+        "avgCitationsPerTeaching": 2.6666666666666665,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 6,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 1
+      },
+      "extractionNotes": [
+        "DEC-ECLI:BE:AHANT:2004:ARR.20040603.3-009 was claimed but no matching reference (date/citation) was found in the extracted reasoning paragraphs; flagged for review."
+      ]
+    }
+  }
+}

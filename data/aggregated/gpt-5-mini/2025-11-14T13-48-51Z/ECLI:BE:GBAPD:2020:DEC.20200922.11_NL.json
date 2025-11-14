@@ -1,0 +1,1015 @@
+{
+  "decision_id": "ECLI:BE:GBAPD:2020:DEC.20200922.11",
+  "language": "NL",
+  "metadata": {
+    "id": 137935,
+    "court_ecli_code": "GBAPD",
+    "court_name": "Gegevensbeschermingsautoriteit",
+    "decision_date": "2020-09-22",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Rechterlijke beslissing",
+    "md_length": 18073,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Geschillenkamer van de Gegevensbeschermingsautoriteit, 22 september 2020, Beslissing 63/2020, Dossier DO5-2019-05675, ECLI:BE:GBAPD:2020:DEC.20200922.11"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "name": "X.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "name": "Google Belgium NV",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "VERWEERDER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPD:2020:DEC.20200922.11-003",
+        "name": "Google LLC",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "VERWEERDER"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op 28 oktober 2019 diende de klager bij de Gegevensbeschermingsautoriteit een klacht in tegen de verweerder betreffende de weigering van een verzoek tot verwijdering van URL's die verschijnen op \"Google.be\" en \"Google.com\" in de resultaten na een zoekopdracht op naam van de klager. Op 14 november 2019 werd de klacht ontvankelijk verklaard en overgemaakt aan de Geschillenkamer. De Geschillenkamer verklaarde het dossier gereed voor behandeling op 13 maart 2020 en stelde termijnen vast voor het indienen van verweermiddelen. De verweerder vroeg bijkomende informatie en gaf aanvankelijk geen gevolg aan het verwijderingsverzoek. Tijdens de procedure gaven partijen aan dat de URL's niet langer beschikbaar waren via Google Zoeken; op 5 mei 2020 meldde de klager afstand te doen van zijn klacht omdat de betreffende URL's niet meer beschikbaar waren, en op 12 mei 2020 bevestigde de verweerder dat de URL's waren verwijderd en aanvaardde hij de afstand van de klacht. De Geschillenkamer ontving geen conclusies van partijen binnen de gestelde termijnen en verzocht op 3 augustus 2020 om nadere toelichting over de beweegredenen voor de verwijdering; de verweerder antwoordde op 4 september 2020 dat het removals team de zaak had heroverwogen en dat partijen de procedure niet wensen voort te zetten, waarna ook de klager op 4 september 2020 bevestigde dat zijn verzoek beantwoord was en hij de zaak niet verder wenste te zetten.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+          "requests": "De klager verzocht de verwijdering van de URL's die verschijnen op \"Google.be\" en \"Google.com\" in de zoekresultaten bij een zoekopdracht op naam van de klager."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "OM DEZE REDENEN, \n\nbeslist de Geschillenkamer van de Gegevensbeschermingsautoriteit, na beraadslaging, om op grond van art. 100, $\\S 1,1^{\\circ} \\mathrm{WOG}$, voorliggende klacht te seponeren. Op basis van de informatie waarover de Geschillenkamer op dit ogenblik beschikt, acht zij het op heden dan ook niet mogelijk om verder gevolg te geven aan de klacht.\n\nTegen deze beslissing kan op grond van art. 108, §1 WOG, beroep worden aangetekend binnen een termijn van dertig dagen, vanaf de kennisgeving, bij het Marktenhof, met de Gegevensbeschermingsautoriteit als verweerder.",
+      "outcome": "GEEN_AANLEIDING_TOT_UITSPRAAK"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 58",
+        "provisionNumberKey": "58",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 60",
+        "provisionNumberKey": "60",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-003",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 62, §1",
+        "provisionNumberKey": "62",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-004",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 95, §1, 1°",
+        "provisionNumberKey": "95",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-005",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 98",
+        "provisionNumberKey": "98",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-006",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 99",
+        "provisionNumberKey": "99",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-007",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "provisionNumber": "artikel 12, lid 4",
+        "provisionNumberKey": "12",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-008",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "provisionNumber": "artikel 17",
+        "provisionNumberKey": "17",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "provisionNumber": "artikel 77",
+        "provisionNumberKey": "77",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 77 AVG geeft betrokkenen het recht een klacht in te dienen bij een toezichthoudende autoriteit; de Geschillenkamer benadrukt dat zij op grond van dit recht ook kan nagaan of een klager onder druk is gezet om zijn klachtrecht niet langer uit te oefenen, en dus de vrijwilligheid van intrekkingen kan toetsen.",
+        "relevantFactualContext": "Partijen bereikten een regeling waarbij de klager de klacht introk en de URLs werden verwijderd; de Kamer noemt expliciet dat zij kan onderzoeken of die intrekking vrijwillig was."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 4, §1",
+        "provisionNumberKey": "4",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 4 §1 WOG stelt de Geschillenkamer vast als een orgaan van de GBA met zekere autonomie; de Kamer interpreteert dit als grondslag voor haar onafhankelijke bevoegdheid om de naleving van de AVG te onderzoeken en zelfstandig beslissingen te nemen, ook bij intrekking van klachten.",
+        "relevantFactualContext": "De klacht van X tegen Google werd aan de Geschillenkamer overgemaakt en later door partijen ingetrokken; de Kamer beroept zich op haar autonomie om het onderzoek desalniettemin voort te zetten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "provisionNumber": "artikel 51.1",
+        "provisionNumberKey": "51.1",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 51.1 AVG verplicht lidstaten één of meerdere onafhankelijke toezichthoudende autoriteiten aan te stellen ter bescherming van grondrechten bij verwerking; de Kamer verklaart dat deze verplichting de basis vormt voor de nationale autoriteit (GBA) om toezicht te houden en de effectieve toepassing van de AVG te waarborgen.",
+        "relevantFactualContext": "De Kamer steunt zich op deze opdracht om, ook na de intrekking door de klager, de rechtmatigheid van de weigering van Google tot verwijdering te kunnen toetsen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "provisionNumber": "artikel 51.2",
+        "provisionNumberKey": "51.2",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 51.2 AVG bepaalt dat toezichthoudende autoriteiten onafhankelijk moeten zijn en voorzien in taken en bevoegdheden; de Kamer leest dit als steun voor haar autonome en actieve rol bij het onderzoeken van mogelijke inbreuken op de AVG.",
+        "relevantFactualContext": "In het dossier ging het om een verzoek tot verwijdering van zoekresultaten dat aanvankelijk werd geweigerd en later alsnog werd ingewilligd; de Kamer beroept zich op haar onafhankelijke taak om dergelijke kwesties te onderzoeken."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "provisionNumber": "artikel 52.1",
+        "provisionNumberKey": "52.1",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 52.1 AVG plaatst de taken van toezichthouders binnen een kader van rechtsbescherming en rechtsstatelijke waarborgen; de Kamer ziet hierin een grond om haar toezichthoudende controle zorgvuldig, transparant en met oog voor effectieve toepassing van het recht uit te oefenen.",
+        "relevantFactualContext": "De Kamer benadrukt het belang van haar controlebevoegdheid bij de beoordeling of de weigering van Google tot wissing al dan niet een inbreuk vormde."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "provisionNumber": "artikel 57",
+        "provisionNumberKey": "57",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 57 AVG kent toezichthouders concrete opdrachten en bevoegdheden toe om de naleving van de AVG te waarborgen; de Kamer verwijst naar deze bepalingen als juridische grondslag voor haar actieve rol bij het behandelen van klachten en het onderzoeken van de rechtmatigheid van verwerkingshandelingen.",
+        "relevantFactualContext": "De Kamer probeerde de feiten te beoordelen omtrent Google's aanvankelijke weigering tot verwijdering, doch kon dat niet volledig wegens gebrek aan inzendingen door partijen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "provisionNumber": "artikel 58",
+        "provisionNumberKey": "58",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 58 AVG verleent toezichthouders handhavingsbevoegdheden, waaronder onderzoek en het nemen van maatregelen; de Kamer noemt deze bevoegdheden als rechtvaardiging om ook naar vroegere handelen van een verwerkingsverantwoordelijke te kijken, zelfs indien de klacht later zonder voorwerp werd.",
+        "relevantFactualContext": "Hoewel Google later de betreffende URLs verwijderde, vermeldt de Kamer dat zij op grond van deze bevoegdheden de eerdere weigering had mogen onderzoeken."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "provisionNumber": "artikel 57.2",
+        "provisionNumberKey": "57.2",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 57.2 AVG verplicht elke toezichthoudende autoriteit het indienen van klachten door betrokkenen mogelijk te maken; de Kamer leest dit als een plicht tot actieve toegankelijkheid en behandeling van klachten zodat betrokkenen effectief rechtsbescherming genieten.",
+        "relevantFactualContext": "De klager diende een verzoek tot verwijdering in waarna de verweerder aanvankelijk weigerde; de Kamer wijst op haar taak om dergelijke klachten te behandelen en te onderzoeken."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-017",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-003",
+        "provisionNumber": "artikel 8",
+        "provisionNumberKey": "8",
+        "parentActType": "VERDRAG",
+        "parentActName": "het Handvest van de grondrechten van de Europese Unie (Handvest)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 8 van het Handvest garandeert het recht op bescherming van persoonsgegevens; de Kamer verbindt dit recht expliciet aan de opdracht van de GBA en gebruikt het als rechtsgrond voor haar toezicht op de verwerking van persoonsgegevens in deze zaak.",
+        "relevantFactualContext": "De klacht betrof privacy-gerelateerde gegevens van de klager in zoekresultaten; de Kamer ziet art.8 als relevante grondslag voor haar beoordeling."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-018",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-004",
+        "provisionNumber": "artikel 16",
+        "provisionNumberKey": "16",
+        "parentActType": "VERDRAG",
+        "parentActName": "het Verdrag betreffende de werking van de Europese Unie (VWEU)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 16 VWEU erkent het recht op bescherming van persoonsgegevens en legitimeert nationale toezichthouders; de Kamer verwijst naar dit artikel om haar taak en bevoegdheid in het kader van de AVG te onderbouwen en het nuttig effect van Europees recht te verzekeren.",
+        "relevantFactualContext": "De Kamer baseert haar bevoegdheid mede op EU-grondslagen bij het onderzoeken van de klacht van X tegen Google over verwijderingsverzoeken."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-019",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "provisionNumber": "artikel 51",
+        "provisionNumberKey": "51",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016 (algemene verordening gegevensbescherming, AVG)",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 51 AVG bepaalt de noodzaak van onafhankelijke toezichthouders ter bescherming van persoonsgegevens; de Kamer benadrukt dat deze bepaling de nationale organisatie van toezicht en de plicht tot doeltreffende handhaving ondersteunt.",
+        "relevantFactualContext": "Deze zaak illustreert de rol van de GBA als nationale toezichthouder bij een verzoek tot verwijdering van zoekresultaten en de opvolging van een ingetrokken klacht."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-020",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 94, 1°",
+        "provisionNumberKey": "94",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-021",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 96, §1",
+        "provisionNumberKey": "96",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-022",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 100, §1, 1°",
+        "provisionNumberKey": "100",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-023",
+        "internalParentActId": "ACT-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "provisionNumber": "artikel 108, §1",
+        "provisionNumberKey": "108",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Gegevensbeschermingsautoriteit",
+        "date": "2019-10-28",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Geschillenkamer",
+        "date": "2020-04-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Geschillenkamer",
+        "date": "2020-05-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Geschillenkamer",
+        "date": "2020-08-03",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Verzoek verwijdering URL's",
+      "Zoekresultaten op naam",
+      "Vermeende buitenlandse veroordeling",
+      "Vrijwillige latere verwijdering",
+      "Recht op wissing",
+      "Weigering tot verwijdering",
+      "Gebrek aan feitelijke elementen",
+      "Bevoegdheid Geschillenkamer",
+      "Seponering wegens feitengebrek"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "text": "Zodra een klacht aan de Geschillenkamer is overgemaakt, blijft de Kamer bevoegd en onafhankelijk om de naleving van de AVG te onderzoeken en de effectieve toepassing ervan te waken, ook indien de klager de klacht intrekt of de klacht zonder voorwerp wordt verklaard.",
+        "courtVerbatim": "Voorop staat dat eenmaal de Geschillenkamer is gevat, zij bevoegd is om in volledige onafhankelijkheid de naleving van de AVG te onderzoeken en te waken over de effectieve toepassing ervan, en dit ongeacht de intrekking van de klacht door de klager of het zonder voorwerp worden ervan.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een klacht ontvankelijk is verklaard en aan de Geschillenkamer is overgedragen maar later door de klager wordt ingetrokken of als zonder voorwerp wordt beschouwd.",
+        "relevantFactualContext": "De klager trok zijn klacht in nadat de betreffende URL's uit de zoekresultaten waren verwijderd; ondanks deze intrekking besloot de Geschillenkamer het onderzoek voort te zetten en de naleving van de AVG te toetsen.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+            "TEACH-ECLI:BE:GBAPD:2020:DEC.20200922.11-003"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "text": "De Geschillenkamer kan de wettigheid van een eerdere weigering van een verzoek tot wissing beoordelen op het tijdstip van de feiten; een latere naleving door de verwerkingsverantwoordelijke heft een voorafgaande mogelijke inbreuk niet op en mag niet worden aangewend om toezicht te ontduiken.",
+        "courtVerbatim": "Toegespitst op de onderhavige zaak betekent dit het volgende: Hoewel de partijen een regeling hebben getroffen waardoor de klacht zonder voorwerp zou zijn geworden, blijft de Geschillenkamer desalniettemin bevoegd om de wettigheid te onderzoeken van de redenen tot weigering, zoals deze zich stelden op het ogenblik van de feiten. De loutere vaststelling dat in de loop van de procedure voor de Geschillenkamer de verweerder alsnog heeft voldaan aan het verzoek van de klager is enerzijds niet van aard om enige inbreuk die zich mogelijks voordien stelde in hoofde van de verweerder op te heffen. Zo niet, zou het voor de verwerkingsverantwoordelijken volstaan om pas gevolg te geven aan de verzoeken tot uitoefening van de rechten van de betrokkenen tijdens de procedure om op die wijze gevrijwaard te zijn voor enige voorafgaande inbreuk zoals uiteengezet in de klacht.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een verwerkingsverantwoordelijke aanvankelijk een verzoek tot wissing heeft geweigerd maar later alsnog gevolg geeft tijdens de procedure.",
+        "relevantFactualContext": "De verweerder had aanvankelijk geweigerd het verwijderingsverzoek in te willigen maar verwijderde later de URL's; daardoor kon de Kamer wegens gebrek aan bewijs niet vaststellen of de eerdere weigering terecht was.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:DEC.20200922.11-003",
+        "text": "Wanneer partijen een regeling treffen die leidt tot intrekking of seponering van een klacht, behoudt de Geschillenkamer zich het recht voor de inhoud van die regeling te beoordelen en na te gaan of de intrekking vrijwillig was, waaronder onderzoek naar eventuele druk uitgeoefend op de klager om zijn klachtrecht niet langer uit te oefenen.",
+        "courtVerbatim": "Ook behoudt zij zich het recht voor om desgevallend de inhoud van een dergelijke regeling te beoordelen en bijvoorbeeld ook na te gaan of een klager onder druk is gezet om zijn in artikel 77 AVG gewaarborgde klachtrecht niet langer uit te oefenen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer partijen tijdens de procedure een regeling treffen die leidt tot intrekking van de klacht of het zonder voorwerp verklaren ervan.",
+        "relevantFactualContext": "Partijen bereikten een regeling waardoor de klacht werd ingetrokken en de relevante URL's werden verwijderd; de Kamer verzocht nadere toelichting en stelde dat zij desgevallend kan toetsen of de intrekking vrijwillig was.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 2,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser verzocht de vennootschap om verwijdering van URL's in Google-zoekresultaten (verzoek tot wissing/recht op vergetelheid) wegens vermeende onjuiste vermelding van een veroordeling. De Geschillenkamer besluit de klacht te seponeren omdat partijen de desbetreffende links intussen hebben laten verwijderen maar er geen conclusies of feitelijke bewijsstukken werden voorgelegd, zodat een inhoudelijk oordeel over een eventuele AVG‑inbreuk niet mogelijk is. Kernpunt: de Kamer bevestigt haar zelfstandige bevoegdheid om te onderzoeken ondanks intrekking van de klacht, maar legt seponering op bij gebrek aan voldoende feitelijke elementen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "relatedFullTextCitations": [
+          "<li>Op 14 november 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG en wordt de klacht op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "relatedFullTextCitations": [
+          "<li>Op 14 november 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG en wordt de klacht op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-003",
+        "relatedFullTextCitations": [
+          "<li>Op 14 november 2019 wordt de klacht ontvankelijk verklaard op grond van de artikelen 58 en 60 WOG en wordt de klacht op grond van art. 62, §1 WOG overgemaakt aan de Geschillenkamer.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-003",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-004",
+        "relatedFullTextCitations": [
+          "<li>Op 13 maart 2020 beslist de Geschillenkamer op grond van art. 95, §1, 1° en art. 98 WOG dat het dossier gereed is voor behandeling ten gronde.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-004",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-005",
+        "relatedFullTextCitations": [
+          "<li>Op 13 maart 2020 beslist de Geschillenkamer op grond van art. 95, §1, 1° en art. 98 WOG dat het dossier gereed is voor behandeling ten gronde.</li>",
+          "<li>Op dezelfde datum worden de betrokken partijen per aangetekende zending in kennis gesteld van de bepalingen zoals vermeld in artikel 95, §2, alsook van deze in art. 98 WOG. Tevens worden zij op grond van art. 99 WOG in kennis gesteld van de termijnen om hun verweermiddelen in te dienen. De uiterste datum voor ontvangst van de conclusie van antwoord van de verweerder werd daarbij vastgelegd op 24 april 2020, deze voor de conclusie van repliek van de klager op 8 mei 2020 en deze voor de conclusie van repliek van de verweerder op 22 mei 2020.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-005",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-004",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-006",
+        "relatedFullTextCitations": [
+          "<li>Op dezelfde datum worden de betrokken partijen per aangetekende zending in kennis gesteld van de bepalingen zoals vermeld in artikel 95, §2, alsook van deze in art. 98 WOG. Tevens worden zij op grond van art. 99 WOG in kennis gesteld van de termijnen om hun verweermiddelen in te dienen. De uiterste datum voor ontvangst van de conclusie van antwoord van de verweerder werd daarbij vastgelegd op 24 april 2020, deze voor de conclusie van repliek van de klager op 8 mei 2020 en deze voor de conclusie van repliek van de verweerder op 22 mei 2020.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-006",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-007",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">Artikel 12.4 AVG</h3>",
+          "<ol>\n<li>Wanneer de verwerkingsverantwoordelijke geen gevolg geeft aan het verzoek van de betrokkene, deelt hij deze laatste onverwijld en uiterlijk binnen één maand na ontvangst van het verzoek mee waarom het verzoek zonder gevolg is gebleven, en informeert hij hem over de mogelijkheid om klacht in te dienen bij een toezichthoudende autoriteit en beroep bij de rechter in te stellen.</li>\n</ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-008",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">Artikel 17 AVG</h3>",
+          "<ol>\n<li>De betrokkene heeft het recht van de verwerkingsverantwoordelijke zonder onredelijke vertraging wissing van hem betreffende persoonsgegevens te verkrijgen en de verwerkingsverantwoordelijke is verplicht persoonsgegevens zonder onredelijke vertraging te wissen wanneer een van de volgende gevallen van toepassing is:\n<ol>\n<li>de persoonsgegevens zijn niet langer nodig voor de doeleinden waarvoor zij zijn verzameld of anderszins verwerkt;</li>\n<li>de betrokkene trekt de toestemming waarop de verwerking overeenkomstig artikel 6, lid 1, punt a), of artikel 9, lid 2, punt a), berust, in, en er is geen andere rechtsgrond voor de verwerking;</li>\n<li>de betrokkene maakt overeenkomstig artikel 21, lid 1, bezwaar tegen de verwerking, en er zijn geen prevalerende dwingende gerechtvaardigde gronden voor de verwerking, of de betrokkene maakt bezwaar tegen de verwerking overeenkomstig artikel 21, lid 2;</li>\n<li>de persoonsgegevens zijn onrechtmatig verwerkt;</li>\n<li>de persoonsgegevens moeten worden gewist om te voldoen aan een in het Unierecht of het lidstatelijke recht neergelegde wettelijke verplichting die op de verwerkingsverantwoordelijke rust;</li>\n<li>de persoonsgegevens zijn verzameld in verband met een aanbod van diensten van de informatiemaatschappij als bedoeld in artikel 8, lid 1.</li>\n</ol>\n</li>\n<li>Wanneer de verwerkingsverantwoordelijke de persoonsgegevens openbaar heeft gemaakt en overeenkomstig lid 1 verplicht is de persoonsgegevens te wissen, neemt hij, rekening houdend met de beschikbare technologie en de uitvoeringskosten, redelijke maatregelen, waaronder technische maatregelen, om verwerkingsverantwoordelijken die de persoonsgegevens verwerken, ervan op de hoogte te stellen dat de betrokkene de verwerkingsverantwoordelijken heeft verzocht om iedere koppeling naar, of kopie of reproductie van die persoonsgegevens te wissen.</li>\n<li>De leden 1 en 2 zijn niet van toepassing voor zover verwerking nodig is:\n<ol>\n<li>voor het uitoefenen van het recht op vrijheid van meningsuiting en informatie;</li>\n<li>voor het nakomen van een in een het Unierecht of het lidstatelijke recht neergelegde wettelijke verwerkingsverplichting die op de verwerkingsverantwoordelijke rust, of voor het vervullen van een taak van algemeen belang of het uitoefenen van het openbaar gezag dat aan de verwerkingsverantwoordelijke is verleend;</li>\n<li>om redenen van algemeen belang op het gebied van volksgezondheid overeenkomstig artikel 9, lid 2, punten h) en i), en artikel 9, lid 3;</li>\n<li>met het oog op archivering in het algemeen belang, wetenschappelijk of historisch onderzoek of statistische doeleinden overeenkomstig artikel 89, lid 1, voor zover het in lid 1 bedoelde recht de verwezenlijking van de doeleinden van die verwerking onmogelijk dreigt te maken of ernstig in het gedrang dreigt te brengen;</li>\n<li>voor de instelling, uitoefening of onderbouwing van een rechtsvordering.</li>\n</ol>\n</li>\n</ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009",
+        "relatedFullTextCitations": [
+          "<li>Bij gebrek aan feitelijke elementen in dit dossier in het bijzonder is het de Geschillenkamer niet mogelijk om de haar toebedeelde toezichthoudende taak uit te oefenen op een effectieve wijze. Uiteraard heeft zij het recht om mogelijke inbreuken te onderzoeken die zich stellen in andere zaken die aan haar zouden worden voorgelegd ter beoordeling en waarin partijen een regeling treffen. Ook behoudt zij zich het recht voor om desgevallend de inhoud van een dergelijke regeling te beoordelen en bijvoorbeeld ook na te gaan of een klager onder druk is gezet om zijn in artikel 77 AVG gewaarborgde klachtrecht niet langer uit te oefenen.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+        "relatedFullTextCitations": [
+          "<li>Zoals uitgezet in haar Beslissing 17/2020,¹ is de Geschillenkamer een orgaan van de GBA, opgericht krachtens artikel 4(1) van de WOG, met een zekere autonomie en neemt zij haar beslissingen volledig onafhankelijk. De GBA is in België de autoriteit die verantwoordelijk is voor de controle van de naleving van de AVG in de zin van artikel 8 van het Handvest van de grondrechten van de Europese Unie, artikel 16 van het Verdrag inzake de werking van de Europese Unie en artikel 51 van de AVG. Deze controle door de GBA en haar Geschillenkamer is een essentieel element voor de bescherming van personen bij de verwerking van persoonsgegevens, zoals meer bepaald georganiseerd door de AVG.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+        "relatedFullTextCitations": [
+          "<li>Krachtens de artikels 51.1, 51.2 en 52.1 van de AVG moeten de lidstaten immers een of meerdere onafhankelijke autoriteiten belasten met het toezicht op de toepassing van de AVG om aldus de vrijheden en grondrechten te beschermen van natuurlijke personen bij de verwerking, en om het vrije verkeer van persoonsgegevens binnen de Unie mogelijk te maken. Deze controleautoriteiten moeten hun bevoegdheden uitoefenen met het oog op een doeltreffende toepassing van het Europees recht inzake de bescherming van gegevens, met inbegrip van de AVG. Het verzekeren van het nuttige effect van het Europese recht is een van de belangrijkste taken van de autoriteiten van de lidstaten volgens het recht van de Europese Unie.2</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+        "relatedFullTextCitations": [
+          "<li>Krachtens de artikels 51.1, 51.2 en 52.1 van de AVG moeten de lidstaten immers een of meerdere onafhankelijke autoriteiten belasten met het toezicht op de toepassing van de AVG om aldus de vrijheden en grondrechten te beschermen van natuurlijke personen bij de verwerking, en om het vrije verkeer van persoonsgegevens binnen de Unie mogelijk te maken. Deze controleautoriteiten moeten hun bevoegdheden uitoefenen met het oog op een doeltreffende toepassing van het Europees recht inzake de bescherming van gegevens, met inbegrip van de AVG. Het verzekeren van het nuttige effect van het Europese recht is een van de belangrijkste taken van de autoriteiten van de lidstaten volgens het recht van de Europese Unie.2</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+        "relatedFullTextCitations": [
+          "<li>Krachtens de artikels 51.1, 51.2 en 52.1 van de AVG moeten de lidstaten immers een of meerdere onafhankelijke autoriteiten belasten met het toezicht op de toepassing van de AVG om aldus de vrijheden en grondrechten te beschermen van natuurlijke personen bij de verwerking, en om het vrije verkeer van persoonsgegevens binnen de Unie mogelijk te maken. Deze controleautoriteiten moeten hun bevoegdheden uitoefenen met het oog op een doeltreffende toepassing van het Europees recht inzake de bescherming van gegevens, met inbegrip van de AVG. Het verzekeren van het nuttige effect van het Europese recht is een van de belangrijkste taken van de autoriteiten van de lidstaten volgens het recht van de Europese Unie.2</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+        "relatedFullTextCitations": [
+          "<li>Zij moeten de uitoefening van grondrechten inzake de bescherming van persoonsgegevens mogelijk maken. De controleautoriteiten moeten daartoe een actieve rol spelen door middel van opdrachten en bevoegdheden die ze krijgen krachtens de artikels 57 en 58 van de AVG. Zo moet bijvoorbeeld krachtens artikel 57.2 van de AVG elke controleautoriteit het indienen van klachten door een betrokken persoon of door een organisme “mogelijk maken”. Het is dan ook logisch dat de behandeling van deze klacht de uitoefening van rechten mogelijk moet maken en moet bijdragen tot een betere controle van de burgers over de eigen persoonsgegevens.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+        "relatedFullTextCitations": [
+          "<li>Zij moeten de uitoefening van grondrechten inzake de bescherming van persoonsgegevens mogelijk maken. De controleautoriteiten moeten daartoe een actieve rol spelen door middel van opdrachten en bevoegdheden die ze krijgen krachtens de artikels 57 en 58 van de AVG. Zo moet bijvoorbeeld krachtens artikel 57.2 van de AVG elke controleautoriteit het indienen van klachten door een betrokken persoon of door een organisme “mogelijk maken”. Het is dan ook logisch dat de behandeling van deze klacht de uitoefening van rechten mogelijk moet maken en moet bijdragen tot een betere controle van de burgers over de eigen persoonsgegevens.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016",
+        "relatedFullTextCitations": [
+          "<li>Zij moeten de uitoefening van grondrechten inzake de bescherming van persoonsgegevens mogelijk maken. De controleautoriteiten moeten daartoe een actieve rol spelen door middel van opdrachten en bevoegdheden die ze krijgen krachtens de artikels 57 en 58 van de AVG. Zo moet bijvoorbeeld krachtens artikel 57.2 van de AVG elke controleautoriteit het indienen van klachten door een betrokken persoon of door een organisme “mogelijk maken”. Het is dan ook logisch dat de behandeling van deze klacht de uitoefening van rechten mogelijk moet maken en moet bijdragen tot een betere controle van de burgers over de eigen persoonsgegevens.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-016",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-011",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-012",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-013",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-014",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-015",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-009"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPD:2020:DEC.20200922.11-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-017",
+        "relatedFullTextCitations": [
+          "<li>Zoals uitgezet in haar Beslissing 17/2020,¹ is de Geschillenkamer een orgaan van de GBA, opgericht krachtens artikel 4(1) van de WOG, met een zekere autonomie en neemt zij haar beslissingen volledig onafhankelijk. De GBA is in België de autoriteit die verantwoordelijk is voor de controle van de naleving van de AVG in de zin van artikel 8 van het Handvest van de grondrechten van de Europese Unie, artikel 16 van het Verdrag inzake de werking van de Europese Unie en artikel 51 van de AVG. Deze controle door de GBA en haar Geschillenkamer is een essentieel element voor de bescherming van personen bij de verwerking van persoonsgegevens, zoals meer bepaald georganiseerd door de AVG.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-017",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-018",
+        "relatedFullTextCitations": [
+          "<li>Zoals uitgezet in haar Beslissing 17/2020,¹ is de Geschillenkamer een orgaan van de GBA, opgericht krachtens artikel 4(1) van de WOG, met een zekere autonomie en neemt zij haar beslissingen volledig onafhankelijk. De GBA is in België de autoriteit die verantwoordelijk is voor de controle van de naleving van de AVG in de zin van artikel 8 van het Handvest van de grondrechten van de Europese Unie, artikel 16 van het Verdrag inzake de werking van de Europese Unie en artikel 51 van de AVG. Deze controle door de GBA en haar Geschillenkamer is een essentieel element voor de bescherming van personen bij de verwerking van persoonsgegevens, zoals meer bepaald georganiseerd door de AVG.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-018",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-019",
+        "relatedFullTextCitations": [
+          "<li>Zoals uitgezet in haar Beslissing 17/2020,¹ is de Geschillenkamer een orgaan van de GBA, opgericht krachtens artikel 4(1) van de WOG, met een zekere autonomie en neemt zij haar beslissingen volledig onafhankelijk. De GBA is in België de autoriteit die verantwoordelijk is voor de controle van de naleving van de AVG in de zin van artikel 8 van het Handvest van de grondrechten van de Europese Unie, artikel 16 van het Verdrag inzake de werking van de Europese Unie en artikel 51 van de AVG. Deze controle door de GBA en haar Geschillenkamer is een essentieel element voor de bescherming van personen bij de verwerking van persoonsgegevens, zoals meer bepaald georganiseerd door de AVG.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-019",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-020",
+        "relatedFullTextCitations": [
+          "<li>In voorliggend dossier mocht de Geschillenkamer van de partijen geen conclusies en bijhorende bijlagen ontvangen teneinde in staat te worden gesteld om de feiten die ten grondslag liggen aan de klacht te beoordelen, rekening houdend met de wettelijke en administratieve bepalingen, alsook met de rechtspraak en rechtsleer. Ook heeft de Geschillenkamer geen onderzoek gevraagd aan de Inspectiedienst, overeenkomstig artikel 94, 1ᵉ, WOG, binnen de daartoe gestelde termijn van dertig dagen (artikel 96, § 1, WOG).</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-020",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-021"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-021",
+        "relatedFullTextCitations": [
+          "<li>In voorliggend dossier mocht de Geschillenkamer van de partijen geen conclusies en bijhorende bijlagen ontvangen teneinde in staat te worden gesteld om de feiten die ten grondslag liggen aan de klacht te beoordelen, rekening houdend met de wettelijke en administratieve bepalingen, alsook met de rechtspraak en rechtsleer. Ook heeft de Geschillenkamer geen onderzoek gevraagd aan de Inspectiedienst, overeenkomstig artikel 94, 1ᵉ, WOG, binnen de daartoe gestelde termijn van dertig dagen (artikel 96, § 1, WOG).</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-021",
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-020"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-022",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">beslist de Geschillenkamer van de Gegevensbeschermingsautoriteit, na beraadslaging, om op grond van art. 100, §1, 1° WOG, voorliggende klacht te seponeren. Op basis van de informatie waarover de Geschillenkamer op dit ogenblik beschikt, acht zij het op heden dan ook niet mogelijk om verder gevolg te geven aan de klacht.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-022"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-023",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Tegen deze beslissing kan op grond van art. 108, §1 WOG, beroep worden aangetekend binnen een termijn van dertig dagen, vanaf de kennisgeving, bij het Marktenhof, met de Gegevensbeschermingsautoriteit als verweerder.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPD:2020:DEC.20200922.11-023"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 23,
+      "citationStatistics": {
+        "totalCitations": 26,
+        "avgCitationsPerProvision": 1.1304347826086958,
+        "provisionsWithMinimalCitations": 23,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 4.086956521739131,
+        "avgDecisionsPerProvision": 0.34782608695652173,
+        "provisionsWithNoRelationships": 4
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:DEC.20200922.11-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Voorop staat dat eenmaal de Geschillenkamer is gevat, zij bevoegd is om in volledige onafhankelijkheid de naleving van de AVG te onderzoeken en te waken over de effectieve toepassing ervan, en dit ongeacht de intrekking van de klacht door de klager of het zonder voorwerp worden ervan.</p>",
+          "<ol start=\"17\">\n<li>Zoals uitgezet in haar Beslissing 17/2020,¹ is de Geschillenkamer een orgaan van de GBA, opgericht krachtens artikel 4(1) van de WOG, met een zekere autonomie en neemt zij haar beslissingen volledig onafhankelijk. De GBA is in België de autoriteit die verantwoordelijk is voor de controle van de naleving van de AVG in de zin van artikel 8 van het Handvest van de grondrechten van de Europese Unie, artikel 16 van het Verdrag inzake de werking van de Europese Unie en artikel 51 van de AVG. Deze controle door de GBA en haar Geschillenkamer is een essentieel element voor de bescherming van personen bij de verwerking van persoonsgegevens, zoals meer bepaald georganiseerd door de AVG.</li>\n</ol>",
+          "<ol start=\"18\">\n<li>Krachtens de artikels 51.1, 51.2 en 52.1 van de AVG moeten de lidstaten immers een of meerdere onafhankelijke autoriteiten belasten met het toezicht op de toepassing van de AVG om aldus de vrijheden en grondrechten te beschermen van natuurlijke personen bij de verwerking, en om het vrije verkeer van persoonsgegevens binnen de Unie mogelijk te maken. Deze controleautoriteiten moeten hun bevoegdheden uitoefenen met het oog op een doeltreffende toepassing van het Europees recht inzake de bescherming van gegevens, met inbegrip van de AVG. Het verzekeren van het nuttige effect van het Europese recht is een van de belangrijkste taken van de autoriteiten van de lidstaten volgens het recht van de Europese Unie.2</li>\n<li>Zij moeten de uitoefening van grondrechten inzake de bescherming van persoonsgegevens mogelijk maken. De controleautoriteiten moeten daartoe een actieve rol spelen door middel van opdrachten en bevoegdheden die ze krijgen krachtens de artikels 57 en 58 van de AVG. Zo moet bijvoorbeeld krachtens artikel 57.2 van de AVG elke controleautoriteit het indienen van klachten door een betrokken persoon of door een organisme “mogelijk maken”. Het is dan ook logisch dat de behandeling van deze klacht de uitoefening van rechten mogelijk moet maken en moet bijdragen tot een betere controle van de burgers over de eigen persoonsgegevens.</li>\n<li>Eén en ander is in de nationale wetgeving uitgewerkt in de WOG. Het Marktenhof heeft daarbij benadrukt dat in het Belgisch recht de GBA (en a fortiori de Geschillenkamer) moet worden aangemerkt als een administratieve overheid en niet als een gerechtelijke instantie.</li>\n<li>Samengevat, het toezicht door de Geschillenkamer is niet primair gericht op het beslechten van geschillen tussen partijen, maar is één van de instrumenten van de GBA om toe te zien op de naleving van de regels inzake gegevensbescherming, in overeenstemming met het bepaalde in de EU Verdragen, de AVG en de WOG.</li>\n<li>Als een klacht is ingediend en vervolgens als ontvankelijke klacht ter behandeling aan de Geschillenkamer is overgedragen, moet de Geschillenkamer beoordelen of de gerelateerde feiten een inbreuk vormen op een van de wettelijke bepalingen waarvan de GBA de naleving moet controleren.3 Die controle strekt zich ook uit tot het beoordelen van overtredingen die (vermoedelijk) zijn beëindigd op het moment van de beoordeling door de Geschillenkamer.</li>\n</ol>",
+          "<p class=\"case-section__paragraph\">Hoewel de partijen een regeling hebben getroffen waardoor de klacht zonder voorwerp zou zijn geworden, blijft de Geschillenkamer desalniettemin bevoegd om de wettigheid te onderzoeken van de redenen tot weigering, zoals deze zich stelden op het ogenblik van de feiten, in hoofde van de verweerder om gevolg te geven aan de uitoefening door de klager van zijn recht op gegevenswissing.</p>",
+          "<ol start=\"24\">\n<li>De loutere vaststelling dat in de loop van de procedure voor de Geschillenkamer de verweerder alsnog heeft voldaan aan het verzoek van de klager is enerzijds niet van aard om enige inbreuk die zich mogelijks voordien stelde in hoofde van de verweerder op te heffen, en is anderzijds niet van aard om de bevoegde organen van de Gegevensbeschermingsautoriteit, waaronder de Geschillenkamer, de uitoefening van haar respectievelijke bevoegdheden te ontzeggen.</li>\n<li>Zo niet, zou het voor de verwerkingsverantwoordelijken volstaan om pas gevolg te geven aan de verzoeken tot uitoefening van de rechten van de betrokkenen tijdens de procedure om op die wijze gevrijwaard te zijn voor enige voorafgaande inbreuk zoals uiteengezet in de klacht. De daadwerkelijke controle die elke toezichthoudende autoriteit, zoals de Gegevensbeschermingsautoriteit en in het bijzonder de Geschillenkamer, zoals hierboven uiteengezet, dient te verrichten, verzet zich daartegen zonder twijfel.</li>\n<li>In voorliggend dossier mocht de Geschillenkamer van de partijen geen conclusies en bijhorende bijlagen ontvangen teneinde in staat te worden gesteld om de feiten die ten grondslag liggen aan de klacht te beoordelen, rekening houdend met de wettelijke en administratieve bepalingen, alsook met de rechtspraak en rechtsleer. Ook heeft de Geschillenkamer geen onderzoek gevraagd aan de Inspectiedienst, overeenkomstig artikel 94, 1ᵉ, WOG, binnen de daartoe gestelde termijn van dertig dagen (artikel 96, § 1, WOG).</li>\n<li>Bij gebrek aan feitelijke elementen in dit dossier in het bijzonder is het de Geschillenkamer niet mogelijk om de haar toebedeelde toezichthoudende taak uit te oefenen op een effectieve wijze. Uiteraard heeft zij het recht om mogelijke inbreuken te onderzoeken die zich stellen in andere zaken die aan haar zouden worden voorgelegd ter beoordeling en waarin partijen een regeling treffen. Ook behoudt zij zich het recht voor om desgevallend de inhoud van een dergelijke regeling te beoordelen en bijvoorbeeld ook na te gaan of een klager onder druk is gezet om zijn in artikel 77 AVG gewaarborgde klachtrecht niet langer uit te oefenen.</li>\n<li>Op basis van de elementen van het dossier kan de Geschillenkamer enkel tot het besluit komen dat de verweerder alsnog gevolg heeft gegeven aan het verzoek van de klager om over te gaan tot wissing van de URL’s die het voorwerp uitmaken van de klacht en die betrekking hebben op</li>\n</ol>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 8,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:DEC.20200922.11-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Hoewel de partijen een regeling hebben getroffen waardoor de klacht zonder voorwerp zou zijn geworden, blijft de Geschillenkamer desalniettemin bevoegd om de wettigheid te onderzoeken van de redenen tot weigering, zoals deze zich stelden op het ogenblik van de feiten, in hoofde van de verweerder om gevolg te geven aan de uitoefening door de klager van zijn recht op gegevenswissing.</p>",
+          "<ol start=\"24\">\n<li>De loutere vaststelling dat in de loop van de procedure voor de Geschillenkamer de verweerder alsnog heeft voldaan aan het verzoek van de klager is enerzijds niet van aard om enige inbreuk die zich mogelijks voordien stelde in hoofde van de verweerder op te heffen, en is anderzijds niet van aard om de bevoegde organen van de Gegevensbeschermingsautoriteit, waaronder de Geschillenkamer, de uitoefening van haar respectievelijke bevoegdheden te ontzeggen.</li>\n<li>Zo niet, zou het voor de verwerkingsverantwoordelijken volstaan om pas gevolg te geven aan de verzoeken tot uitoefening van de rechten van de betrokkenen tijdens de procedure om op die wijze gevrijwaard te zijn voor enige voorafgaande inbreuk zoals uiteengezet in de klacht. De daadwerkelijke controle die elke toezichthoudende autoriteit, zoals de Gegevensbeschermingsautoriteit en in het bijzonder de Geschillenkamer, zoals hierboven uiteengezet, dient te verrichten, verzet zich daartegen zonder twijfel.</li>\n<li>In voorliggend dossier mocht de Geschillenkamer van de partijen geen conclusies en bijhorende bijlagen ontvangen teneinde in staat te worden gesteld om de feiten die ten grondslag liggen aan de klacht te beoordelen, rekening houdend met de wettelijke en administratieve bepalingen, alsook met de rechtspraak en rechtsleer. Ook heeft de Geschillenkamer geen onderzoek gevraagd aan de Inspectiedienst, overeenkomstig artikel 94, 1ᵉ, WOG, binnen de daartoe gestelde termijn van dertig dagen (artikel 96, § 1, WOG).</li>\n<li>Bij gebrek aan feitelijke elementen in dit dossier in het bijzonder is het de Geschillenkamer niet mogelijk om de haar toebedeelde toezichthoudende taak uit te oefenen op een effectieve wijze. Uiteraard heeft zij het recht om mogelijke inbreuken te onderzoeken die zich stellen in andere zaken die aan haar zouden worden voorgelegd ter beoordeling en waarin partijen een regeling treffen. Ook behoudt zij zich het recht voor om desgevallend de inhoud van een dergelijke regeling te beoordelen en bijvoorbeeld ook na te gaan of een klager onder druk is gezet om zijn in artikel 77 AVG gewaarborgde klachtrecht niet langer uit te oefenen.</li>\n<li>Op basis van de elementen van het dossier kan de Geschillenkamer enkel tot het besluit komen dat de verweerder alsnog gevolg heeft gegeven aan het verzoek van de klager om over te gaan tot wissing van de URL’s die het voorwerp uitmaken van de klacht en die betrekking hebben op</li>\n</ol>",
+          "<ol start=\"18\">\n<li>Krachtens de artikels 51.1, 51.2 en 52.1 van de AVG moeten de lidstaten immers een of meerdere onafhankelijke autoriteiten belasten met het toezicht op de toepassing van de AVG om aldus de vrijheden en grondrechten te beschermen van natuurlijke personen bij de verwerking, en om het vrije verkeer van persoonsgegevens binnen de Unie mogelijk te maken. Deze controleautoriteiten moeten hun bevoegdheden uitoefenen met het oog op een doeltreffende toepassing van het Europees recht inzake de bescherming van gegevens, met inbegrip van de AVG. Het verzekeren van het nuttige effect van het Europese recht is een van de belangrijkste taken van de autoriteiten van de lidstaten volgens het recht van de Europese Unie.2</li>\n<li>Zij moeten de uitoefening van grondrechten inzake de bescherming van persoonsgegevens mogelijk maken. De controleautoriteiten moeten daartoe een actieve rol spelen door middel van opdrachten en bevoegdheden die ze krijgen krachtens de artikels 57 en 58 van de AVG. Zo moet bijvoorbeeld krachtens artikel 57.2 van de AVG elke controleautoriteit het indienen van klachten door een betrokken persoon of door een organisme “mogelijk maken”. Het is dan ook logisch dat de behandeling van deze klacht de uitoefening van rechten mogelijk moet maken en moet bijdragen tot een betere controle van de burgers over de eigen persoonsgegevens.</li>\n<li>Eén en ander is in de nationale wetgeving uitgewerkt in de WOG. Het Marktenhof heeft daarbij benadrukt dat in het Belgisch recht de GBA (en a fortiori de Geschillenkamer) moet worden aangemerkt als een administratieve overheid en niet als een gerechtelijke instantie.</li>\n<li>Samengevat, het toezicht door de Geschillenkamer is niet primair gericht op het beslechten van geschillen tussen partijen, maar is één van de instrumenten van de GBA om toe te zien op de naleving van de regels inzake gegevensbescherming, in overeenstemming met het bepaalde in de EU Verdragen, de AVG en de WOG.</li>\n<li>Als een klacht is ingediend en vervolgens als ontvankelijke klacht ter behandeling aan de Geschillenkamer is overgedragen, moet de Geschillenkamer beoordelen of de gerelateerde feiten een inbreuk vormen op een van de wettelijke bepalingen waarvan de GBA de naleving moet controleren.3 Die controle strekt zich ook uit tot het beoordelen van overtredingen die (vermoedelijk) zijn beëindigd op het moment van de beoordeling door de Geschillenkamer.</li>\n</ol>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPD:2020:DEC.20200922.11-003",
+        "relatedFullTextCitations": [
+          "<ol start=\"24\">\n<li>De loutere vaststelling dat in de loop van de procedure voor de Geschillenkamer de verweerder alsnog heeft voldaan aan het verzoek van de klager is enerzijds niet van aard om enige inbreuk die zich mogelijks voordien stelde in hoofde van de verweerder op te heffen, en is anderzijds niet van aard om de bevoegde organen van de Gegevensbeschermingsautoriteit, waaronder de Geschillenkamer, de uitoefening van haar respectievelijke bevoegdheden te ontzeggen.</li>\n<li>Zo niet, zou het voor de verwerkingsverantwoordelijken volstaan om pas gevolg te geven aan de verzoeken tot uitoefening van de rechten van de betrokkenen tijdens de procedure om op die wijze gevrijwaard te zijn voor enige voorafgaande inbreuk zoals uiteengezet in de klacht. De daadwerkelijke controle die elke toezichthoudende autoriteit, zoals de Gegevensbeschermingsautoriteit en in het bijzonder de Geschillenkamer, zoals hierboven uiteengezet, dient te verrichten, verzet zich daartegen zonder twijfel.</li>\n<li>In voorliggend dossier mocht de Geschillenkamer van de partijen geen conclusies en bijhorende bijlagen ontvangen teneinde in staat te worden gesteld om de feiten die ten grondslag liggen aan de klacht te beoordelen, rekening houdend met de wettelijke en administratieve bepalingen, alsook met de rechtspraak en rechtsleer. Ook heeft de Geschillenkamer geen onderzoek gevraagd aan de Inspectiedienst, overeenkomstig artikel 94, 1ᵉ, WOG, binnen de daartoe gestelde termijn van dertig dagen (artikel 96, § 1, WOG).</li>\n<li>Bij gebrek aan feitelijke elementen in dit dossier in het bijzonder is het de Geschillenkamer niet mogelijk om de haar toebedeelde toezichthoudende taak uit te oefenen op een effectieve wijze. Uiteraard heeft zij het recht om mogelijke inbreuken te onderzoeken die zich stellen in andere zaken die aan haar zouden worden voorgelegd ter beoordeling en waarin partijen een regeling treffen. Ook behoudt zij zich het recht voor om desgevallend de inhoud van een dergelijke regeling te beoordelen en bijvoorbeeld ook na te gaan of een klager onder druk is gezet om zijn in artikel 77 AVG gewaarborgde klachtrecht niet langer uit te oefenen.</li>\n<li>Op basis van de elementen van het dossier kan de Geschillenkamer enkel tot het besluit komen dat de verweerder alsnog gevolg heeft gegeven aan het verzoek van de klager om over te gaan tot wissing van de URL’s die het voorwerp uitmaken van de klacht en die betrekking hebben op</li>\n</ol>",
+          "<p class=\"case-section__paragraph\">Hoewel de partijen een regeling hebben getroffen waardoor de klacht zonder voorwerp zou zijn geworden, blijft de Geschillenkamer desalniettemin bevoegd om de wettigheid te onderzoeken van de redenen tot weigering, zoals deze zich stelden op het ogenblik van de feiten, in hoofde van de verweerder om gevolg te geven aan de uitoefening door de klager van zijn recht op gegevenswissing.</p>",
+          "<ol start=\"18\">\n<li>Krachtens de artikels 51.1, 51.2 en 52.1 van de AVG moeten de lidstaten immers een of meerdere onafhankelijke autoriteiten belasten met het toezicht op de toepassing van de AVG om aldus de vrijheden en grondrechten te beschermen van natuurlijke personen bij de verwerking, en om het vrije verkeer van persoonsgegevens binnen de Unie mogelijk te maken. Deze controleautoriteiten moeten hun bevoegdheden uitoefenen met het oog op een doeltreffende toepassing van het Europees recht inzake de bescherming van gegevens, met inbegrip van de AVG. Het verzekeren van het nuttige effect van het Europese recht is een van de belangrijkste taken van de autoriteiten van de lidstaten volgens het recht van de Europese Unie.2</li>\n<li>Zij moeten de uitoefening van grondrechten inzake de bescherming van persoonsgegevens mogelijk maken. De controleautoriteiten moeten daartoe een actieve rol spelen door middel van opdrachten en bevoegdheden die ze krijgen krachtens de artikels 57 en 58 van de AVG. Zo moet bijvoorbeeld krachtens artikel 57.2 van de AVG elke controleautoriteit het indienen van klachten door een betrokken persoon of door een organisme “mogelijk maken”. Het is dan ook logisch dat de behandeling van deze klacht de uitoefening van rechten mogelijk moet maken en moet bijdragen tot een betere controle van de burgers over de eigen persoonsgegevens.</li>\n<li>Eén en ander is in de nationale wetgeving uitgewerkt in de WOG. Het Marktenhof heeft daarbij benadrukt dat in het Belgisch recht de GBA (en a fortiori de Geschillenkamer) moet worden aangemerkt als een administratieve overheid en niet als een gerechtelijke instantie.</li>\n<li>Samengevat, het toezicht door de Geschillenkamer is niet primair gericht op het beslechten van geschillen tussen partijen, maar is één van de instrumenten van de GBA om toe te zien op de naleving van de regels inzake gegevensbescherming, in overeenstemming met het bepaalde in de EU Verdragen, de AVG en de WOG.</li>\n<li>Als een klacht is ingediend en vervolgens als ontvankelijke klacht ter behandeling aan de Geschillenkamer is overgedragen, moet de Geschillenkamer beoordelen of de gerelateerde feiten een inbreuk vormen op een van de wettelijke bepalingen waarvan de GBA de naleving moet controleren.3 Die controle strekt zich ook uit tot het beoordelen van overtredingen die (vermoedelijk) zijn beëindigd op het moment van de beoordeling door de Geschillenkamer.</li>\n</ol>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 11,
+        "avgCitationsPerTeaching": 3.6666666667,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 12,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 3,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

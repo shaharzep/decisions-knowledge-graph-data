@@ -1,0 +1,499 @@
+{
+  "decision_id": "ECLI:BE:ORGNT:2006:JUG.20060906.16",
+  "language": "NL",
+  "metadata": {
+    "id": 149008,
+    "court_ecli_code": "ORGNT",
+    "court_name": "Ondernemingsrechtbank Gent",
+    "decision_date": "2006-09-06",
+    "decision_type_ecli_code": "JUG",
+    "decision_type_name": "Vonnis",
+    "md_length": 16510,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Rechtbank van Koophandel te Kortrijk (Vijfde Kamer), 6 september 2006, AR 4463/05, ECLI:BE:ORGNT:2006:JUG.20060906.16"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+        "name": "Mter. Johan VYNCKIER, curator van het faillissement van de NV L.D. SPARES & EQUIPMENT",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ORGNT:2006:JUG.20060906.16-002",
+        "name": "De heer A",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "VERWEERDER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ORGNT:2006:JUG.20060906.16-003",
+        "name": "NV KBC BANK",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "TUSSENKOMENDE_PARTIJ"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ORGNT:2006:JUG.20060906.16-004",
+        "name": "NV L.D. SPARES & EQUIPMENT",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "ANDERE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ORGNT:2006:JUG.20060906.16-005",
+        "name": "Deutsche Bank A.G.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De curator, Mter. Johan Vynckier, werd aangesteld over het faillissement van de NV L.D. Spares & Equipment (faillietverklaring 25 september 1998). Met dagvaarding van 14 september 1999 vordert de curator van A betaling van openstaande facturen en eist hij uiteindelijk euro 26.283,78 te vermeerderen met moratoire en gerechtelijke rente. A vordert met dagvaarding van 10 oktober 2005 de gedwongen tussenkomst van NV KBC Bank en vrijwaring door KBC, en stelt een tegenvordering tot schuldvergelijking op grond van een door Deutsche Bank AG betaalde bankgarantie (oorspronkelijk 200.000 DM, gereduceerd en effectief betaald 100.000 DM plus 300 DM kosten, volgens A totaal 100.300 DM = circa euro 51.282,58). De curator betwist dat er wederkerige vorderingen bestaan en stelt dat de betaling door Deutsche Bank AG het karakter draagt van een autonome bankgarantie, zodat A geen vordering ten laste van het faillissement of van KBC kan ontlenen; voorts stelt de curator dat verzoek tot opname in het faillissements-passief verjaard is (art. 72, §3 en §4 faillissementswet). De rechtbank nam bewijsstukken en pleidooien in beraad en behandelde de vorderingen als faillissementsgebonden.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+          "requests": "De curator vordert de veroordeling van A tot betaling van euro 26.283,78, te vermeerderen met moratoire rente vanaf 29 september 1998 en vervolgens de gerechtelijke rente tot volledige betaling, alsmede de vergoeding van de proceskosten."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:ORGNT:2006:JUG.20060906.16-002",
+          "requests": "A vordert de gedwongen tussenkomst van NV KBC Bank en veroordeling van NV KBC Bank tot vrijwaring tegen alle sommen waartoe hij mogelijk zou worden veroordeeld; voorts vordert A vaststelling van schuldvergelijking en betaling door de curator van circa euro 24.998,08 of opname van dat bedrag in het gewoon passief van het faillissement."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+          "argument": "De curator betoogt dat zijn vordering strekt tot betaling van openstaande facturen voor leveringen door de gefailleerde vennootschap en dat, bij gebrek aan overtuigende tegenbewijzen, zijn herleide vordering van euro 26.283,78 toewijsbaar is; dat moratoire en gerechtelijke rente bij wettelijke voet aan hem moeten worden toegekend; dat de betaling door Deutsche Bank AG een autonome bankgarantie betreft waardoor geen wederkerige schuldvordering tussen A en de gefailleerde bestaat; en dat de vordering van A tot opname in het passief verjaard is krachtens art. 72, §3 e.v. faillissementswet.",
+          "treatment": "AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:ORGNT:2006:JUG.20060906.16-002",
+          "argument": "A stelt dat Deutsche Bank AG na afroep van de garantie de som van 100.300 DM aan hem heeft aangerekend en dat die betaling verband hield met een kredietgarantie ten behoeve van de uitvoering van een agentuurovereenkomst tussen A en de gefailleerde, zodat er volgens A wederkerige vorderingen bestaan en schuldvergelijking ingeroepen kan worden; A stelt eveneens dat hij recht heeft op opname in het passief voor circa euro 24.998,08 en dat KBC gehouden is tot vrijwaring wegens de garantiebetaling die zij ontving.",
+          "treatment": "VERWORPEN"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN\n\nDE RECHTBANK, recht doende op tegenspraak, Alle anders luidende en/of tegenstrijdige conclusies van de hand wijzend; Verklaart de hoofdeis, zoals door de curator herleid, ontvankelijk en gegrond; Veroordeelt A tot de betaling aan de curator van euro 26.283,78 (zesentwintig duizend tweehonderd en drieëntachtig euro en achtenzeventig cent), te vermeerderen met de moratoire rente aan 7 % vanaf 29 september 1998 tot de dag van de dagvaarding en daarna te vermeerderen met de gerechtelijke rente aan 7 % tot de dag van de betaling; Verklaart de tegeneis tot opname in het passief van het faillissement van de NV L.D. Spares & Equipment verjaard en derhalve niet ontvankelijk; Verklaart de tegeneis tot veroordeling van de curator en tot vaststelling van enige vordering van A lastens de NV L.D. Spares & Equipment ontvankelijk, doch wijst deze af als ongegrond; Verklaart de vordering van A tot de gedwongen tussenkomst in de procedure lastens de NV KBC Bank ontvankelijk, doch wijst de vordering tot veroordeling van de NV KBC Bank tot vrijwaring van A af als ongegrond; Verwijst A tot al de kosten van het geding en stelt deze aan de kant van de curator tot op heden vast op euro 316,51 kosten van dagvaarding en rolstelling en aan de kant van de NV KBC Bank op euro 364,40 geïndexeerde rechtsplegingsvergoeding; Onverminderd de toepassing van art. 1024 Ger.W.; Verklaart dit vonnis uitvoerbaar bij voorraad, niettegenstaande elke voorziening en zonder borgstelling; Verklaart dit vonnis uitvoerbaar bij voorraad, niettegenstaande elke voorziening en zonder borgstelling ;",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+        "internalParentActId": "ACT-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+        "provisionNumber": "artikel 2",
+        "provisionNumberKey": "2",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 op het gebruik van talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-002",
+        "internalParentActId": "ACT-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+        "provisionNumber": "artikel 37",
+        "provisionNumberKey": "37",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 op het gebruik van talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-003",
+        "internalParentActId": "ACT-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+        "provisionNumber": "artikel 41",
+        "provisionNumberKey": "41",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 op het gebruik van talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-004",
+        "internalParentActId": "ACT-ECLI:BE:ORGNT:2006:JUG.20060906.16-002",
+        "provisionNumber": "artikel 72, § 3 en 4",
+        "provisionNumberKey": "72",
+        "parentActType": "WET",
+        "parentActName": "faillissementswet",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De rechtbank licht art. 72, §§ 3 en 4 faillissementswet uit en stelt dat §3 bepaalt dat het recht tot vordering van opname in het faillissements‑passief verjaart drie jaar na het faillietverklarend vonnis, behoudens uitzonderingen voor vorderingen die tijdens de vereffening in tussenkomst- of vrijwaringsprocedures worden vastgesteld; §4 biedt een verjaringstermijn van zes maanden voor tijdens de vereffening door een andere rechtbank vastgestelde vorderingen, te rekenen vanaf het eindvonnis dat rechtsgeldig is geworden. De rechtbank concludeert dat geen uitzondering van toepassing is en past derhalve de driejaarsverjaring toe.",
+        "relevantFactualContext": "Het faillietverklarend vonnis dateert van 25-09-1998; de vordering tot opname werd ingeleid met besluiten neergelegd op 29 januari 2002 (30 januari 2002), dus buiten de driejarige termijn, waardoor de vordering volgens de rechtbank verjaard is."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-005",
+        "internalParentActId": "ACT-ECLI:BE:ORGNT:2006:JUG.20060906.16-003",
+        "provisionNumber": "artikel 1024",
+        "provisionNumberKey": "1024",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Rechtbank van Koophandel te Kortrijk",
+        "date": "1998-09-25",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:ORGNT:2006:JUG.20060906.16-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De rechtbank",
+        "date": "2006-06-28",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:ORGNT:2006:JUG.20060906.16-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Brussel, 25 februari 1982, B.R.H., 1982, 349",
+        "date": "1982-02-25",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:ORGNT:2006:JUG.20060906.16-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Faillissementsrecht",
+      "Agentuurovereenkomst",
+      "Openstaande facturen",
+      "Autonome bankgarantie",
+      "Verhaal op opdrachtgever",
+      "Schuldvergelijking",
+      "Vordering tot vrijwaring",
+      "Verjaring passiefopname",
+      "Aansprakelijkheid garant",
+      "Geen boedelschuld"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+        "text": "Het recht om opname in het faillissements‑passief te vorderen verjaart, behoudens uitzonderingen, in beginsel drie jaar te rekenen vanaf het faillietverklarend vonnis (art. 72, §3 faillissementswet toepasbaar vóór 2005). Een bijzondere zesmaandenstermijn geldt slechts voor schuldvorderingen die tijdens de vereffening door een andere rechtbank zijn vastgesteld (art. 72, §4). Indien geen uitzonderingen van §3 of §4 van toepassing zijn, is de driejaarsverjaring doorslaggevend.",
+        "courtVerbatim": "Volledig terecht wijst de curator er ook op dat de vordering van A tot opname in het passief van het faillissement van de NV L.D. Spares & Equipment, overeenkomstig het toen geldend art. 72, § 3 en 4, faillissementswet, verjaard is. Art. 72, § 3 faillissementswet, (toepasselijk tot de wetswijziging van 2005), bedong dat het recht opname te vorderen in het passief van een faillissement verjaart na verloop van drie jaar te rekenen van het faillietverklarend vonnis, behalve voor de schuldvordering die vastgesteld wordt in een procedure tot tussenkomst of vrijwaring, vervolgd of ingesteld tijdens de vereffening. Art. 72 § 4 faillissementswet bedingt dat het recht opname te vorderen voor een schuldvordering tijdens de vereffening vastgesteld door een andere rechtbank dan de rechtbank die het faillissement heeft uitgesproken, verjaart na verloop van zes maanden te rekenen van de dag waarop het eindvonnis kracht van rechterlijk gewijsde heeft gekregen. Geen van die voormelde uitzonderingen zijn in voorliggende betwisting voorhanden, zodat de verjaringstermijn van drie jaar moet worden toegepast. Het faillietverklarend vonnis dateert van 25 september 1998. De vordering tot opname dateert van 29 januari 2002 (besluiten neergelegd op 30 januari 2002). De vordering tot opname in het passief van het faillissement van de NV L.D. Spares & Equipment is derhalve als verjaard af te wijzen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een vordering tot opname in het faillissements‑passief na een faillietverklaring wordt ingesteld en beoordeeld moet worden of de algemene driejaarsverjaring of een van de in art. 72, §§3–4 bedoelde uitzonderingen geldt.",
+        "relevantFactualContext": "Het faillietverklarend vonnis dateert van 25-09-1998; de vordering tot opname werd ingeleid met besluiten neergelegd op 29 januari 2002 (30 januari 2002), dus buiten de driejarige termijn, waardoor de rechtbank de vordering wegens verjaring verwerpt.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-004"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:ORGNT:2006:JUG.20060906.16-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ORGNT:2006:JUG.20060906.16-002",
+        "text": "Een bankgarantie die zich onherroepelijk en tot onverwijlde betaling verbindt is een autonome (directe) verbintenis van de garant en niet accessoir zoals een borgtocht; de garant heeft een zelfstandige betalingsverplichting tegenover de begunstigde en die verbintenis is niet subsidiair ten opzichte van de primaire schuld van de debiteur.",
+        "courtVerbatim": "De rechtbank stelt verder vast dat A geenszins betwist dat Deutsche Bank A.G. een garantieovereenkomst heeft gesloten met de NV KBC Bank. Uit de bewoordingen van de verbintenis aangegaan door Deutsche Bank A.G. kan overigens slechts het aangaan van een garantieovereenkomst afgeleid worden. Het gebruik van de bewoordingen \"onherroepelijk\" en \"onverwijlde betaling\" wijzen op een autonome garantie (Van Quickenborne M., A.P.R., \"Borgtocht\", nr. 909). In de garantieverklaring van Deutsche Bank A.G. wordt de afroepbaarheid niet afhankelijk gemaakt van de wanprestatie van de NV L.D. Spares & Equipment. Het volstaat dat de NV KBC Bank melding maakt van het feit dat de NV L.D. Spares & Equipment niet betaalt. De beweerde wanprestatie volstaat dus voor de aanspraak op de gestelde garantie (Zie type iii van garantieovereenkomsten, aangehaald door Van Quickenborne M., A.P.R., \"Borgtocht\", nr. 902 en vergelijk Brussel, 25 februari 1982, B.R.H., 1982, 349). Deutsche Bank A.G. heeft zich verbonden haar eigen schuld te betalen. Zij verbond zich niet de schuld van de NV L.D. Spares & Equipment te betalen of schadevergoeding wegens niet‑nakoming van de betalingsverbintenis door die vennootschap te betalen. Anders dan bij borgtocht het geval is, is de verbintenis van de bank onder bankgarantie niet subsidiair. Deutsche Bank A.G. verbond zich namelijk niet voor het geval de NV L.D. Spares & Equipment haar verbintenis niet nakwam, maar voor het geval aan de voorwaarden van de garantie voldaan was (J. Blomkwist, \"Borgtocht\", Deventer 1991, 17, aangehaald door Van Quickenborne M., A.P.R., \"Borgtocht\", nr. 906). De garant verbindt zich niet de (primaire) verbintenis van de debiteur te volbrengen. De garantieovereenkomst heeft geen accessoir karakter.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een partij stelt dat een betaling krachtens bankgarantie gelijkgesteld moet worden met betaling door de oorspronkelijke schuldenaar of met borgtocht, en onderzocht moet worden of de garantie autonoom dan wel accessoir is.",
+        "relevantFactualContext": "Deutsche Bank A.G. betaalde aan NV KBC Bank 100.000 DM op basis van een onherroepelijke bankgarantie; A werd vervolgens door Deutsche Bank aangesproken voor terugbetaling van dat bedrag, waarna A een tegenvordering tegen de curator en vordering tot schuldvergelijking aanvoert.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:ORGNT:2006:JUG.20060906.16-003",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:ORGNT:2006:JUG.20060906.16-002"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ORGNT:2006:JUG.20060906.16-003",
+        "text": "Schuldvergelijking (compensatie) vergt dat tussen twee personen wederkerige en opeisbare schuldvorderingen bestaan jegens elkaar; indien zulke wederkerigheid ontbreekt, is schuldvergelijking uitgesloten en kunnen betalingen door derden (bijvoorbeeld onder een autonome bankgarantie) geen grond vormen voor compensatie met vorderingen tegen de failliete schuldenaar.",
+        "courtVerbatim": "De recuperatie door Deutsche Bank A.G. van de gelden die deze in uitvoering van de autonome garantieovereenkomst betaalde aan de NV KBC Bank, levert voor A ook geen vorderingrecht op lastens de NV L.D. Spares & Equipment. Er zijn in voorliggend geval dus geen wederzijdse schuldvorderingen voorhanden. En slechts wanneer twee personen elkaars schuldenaar zijn, kan tussen hen schuldvergelijking plaatsgrijpen, waardoor de twee schulden teniet gaan voor het kleinst verschuldigd bedrag.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer wordt gesteld dat een betaling door een derde (bijv. garant) tot compensatie met vorderingen jegens de failliete vennootschap zou moeten leiden; toets of wederkerige schulden tussen dezelfde personen bestaan.",
+        "relevantFactualContext": "Deutsche Bank betaalde uit hoofde van de autonome garantie, waarna werd betoogd dat die betaling compensatie mogelijk maakte met de vorderingen van de curator; de rechtbank oordeelt dat er geen wederkerige vorderingen tussen A en de failliete vennootschap bestaan en wijst de tegenvordering af.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:ORGNT:2006:JUG.20060906.16-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De curator vordert van de verweerder betaling van openstaande facturen van de gefailleerde vennootschap, terwijl de verweerder tegenvorderingen en vrijwaring van de bank inroept. De rechtbank verklaart de hoofdeis ontvankelijk en gegrond en bepaalde het verschuldigde bedrag op €26.283,78 met rente; de tegenvordering tot opname in het faillissements‑passief is verjaard en de overige tegenvorderingen en de vordering tot vrijwaring tegen de bank worden afgewezen. Beslissend is dat de betaling door een derde op grond van een autonome bankgarantie een zelfstandige verbintenis vormt, zodat geen schuldvergelijking of rechtstreeks vorderingsrecht ten laste van de gefailleerde of de bank bestaat."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De rechtbank heeft de partijen gehoord in de openbare zitting van 28 juni 2006 en heeft kennis genomen van de neergelegde stukken, hierbij toepassing makend van de artikelen 2, 37 en 41 van de wet van 15 juni 1935 op het gebruik van talen in gerechtszaken.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-002",
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De rechtbank heeft de partijen gehoord in de openbare zitting van 28 juni 2006 en heeft kennis genomen van de neergelegde stukken, hierbij toepassing makend van de artikelen 2, 37 en 41 van de wet van 15 juni 1935 op het gebruik van talen in gerechtszaken.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-002",
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De rechtbank heeft de partijen gehoord in de openbare zitting van 28 juni 2006 en heeft kennis genomen van de neergelegde stukken, hierbij toepassing makend van de artikelen 2, 37 en 41 van de wet van 15 juni 1935 op het gebruik van talen in gerechtszaken.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-003",
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Volledig terecht wijst de curator er ook op dat de vordering van A tot opname in het passief van het faillissement van de NV L.D. Spares &amp; Equipment, overeenkomstig het toen geldend art. 72, § 3 en 4, faillissementswet, verjaard is. Art. 72, § 3 faillissementswet, (toepasselijk tot de wetswijziging van 2005), bedong dat het recht opname te vorderen in het passief van een faillissement verjaart na verloop van drie jaar te rekenen van het faillietverklarend vonnis, behalve voor de schuldvordering die vastgesteld wordt in een procedure tot tussenkomst of vrijwaring, vervolgd of ingesteld tijdens de vereffening. Art. 72 § 4 faillissementswet bedingt dat het recht opname te vorderen voor een schuldvordering tijdens de vereffening vastgesteld door een andere rechtbank dan de rechtbank die het faillissement heeft uitgesproken, verjaart na verloop van zes maanden te rekenen van de dag waarop het eindvonnis kracht van rechterlijk gewijsde heeft gekregen. Geen van die voormelde uitzonderingen zijn in voorliggende betwisting voorhanden, zodat de verjaringstermijn van drie jaar moet worden toegepast. Het faillietverklarend vonnis dateert van 25 september 1998. De vordering tot opname dateert van 29 januari 2002 (besluiten neergelegd op 30 januari 2002). De vordering tot opname in het passief van het faillissement van de NV L.D. Spares &amp; Equipment is derhalve als verjaard af te wijzen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:ORGNT:2006:JUG.20060906.16-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">DE RECHTBANK, recht doende op tegenspraak, Alle anders luidende en/of tegenstrijdige conclusies van de hand wijzend; Verklaart de hoofdeis, zoals door de curator herleid, ontvankelijk en gegrond; Veroordeelt A tot de betaling aan de curator van euro 26.283,78 (zesentwintig duizend tweehonderd en drieëntachtig euro en achtenzeventig cent), te vermeerderen met de moratoire rente aan 7 % vanaf 29 september 1998 tot de dag van de dagvaarding en daarna te vermeerderen met de gerechtelijke rente aan 7 % tot de dag van de betaling; Verklaart de tegeneis tot opname in het passief van het faillissement van de NV L.D. Spares &amp; Equipment verjaard en derhalve niet ontvankelijk; Verklaart de tegeneis tot veroordeling van de curator en tot vaststelling van enige vordering van A lastens de NV L.D. Spares &amp; Equipment ontvankelijk, doch wijst deze af als ongegrond; Verklaart de vordering van A tot de gedwongen tussenkomst in de procedure lastens de NV KBC Bank ontvankelijk, doch wijst de vordering tot veroordeling van de NV KBC Bank tot vrijwaring van A af als ongegrond; Verwijst A tot al de kosten van het geding en stelt deze aan de kant van de curator tot op heden vast op euro 316,51 kosten van dagvaarding en rolstelling en aan de kant van de NV KBC Bank op euro 364,40 geïndexeerde rechtsplegingsvergoeding; Onverminderd de toepassing van art. 1024 Ger.W.; Verklaart dit vonnis uitvoerbaar bij voorraad, niettegenstaande elke voorziening en zonder borgstelling; Verklaart dit vonnis uitvoerbaar bij voorraad, niettegenstaande elke voorziening en zonder borgstelling ; Aldus het vonnis uitgesproken in het gerechtsgebouw II te Kortrijk in openbare terechtzitting op woensdag, ZES SEPTEMBER TWEEDUIZEND EN ZES. Aanwezig : de heren L. Vandenbroucke, rechter; A. Deceuninck en M. Vervaeke, rechters in handelszaken, beiden door de Voorzitter aangewezen in vervanging van de plaatsvervangende rechters in handelszaken F. Vankeirsbilck en J. Bral, wettig verhinderd zijnde de uitspraak van huidig vonnis bij te wonen waarover zij mede hebben beraadslaagd; mevrouw Ch. Busschaert, griffier.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ORGNT:2006:JUG.20060906.16-005"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 5,
+      "citationStatistics": {
+        "totalCitations": 5,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 5,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.2,
+        "avgDecisionsPerProvision": 0.2,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:ORGNT:2006:JUG.20060906.16-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Volledig terecht wijst de curator er ook op dat de vordering van A tot opname in het passief van het faillissement van de NV L.D. Spares & Equipment, overeenkomstig het toen geldend art. 72, § 3 en 4, faillissementswet, verjaard is. Art. 72, § 3 faillissementswet, (toepasselijk tot de wetswijziging van 2005), bedong dat het recht opname te vorderen in het passief van een faillissement verjaart na verloop van drie jaar te rekenen van het faillietverklarend vonnis, behalve voor de schuldvordering die vastgesteld wordt in een procedure tot tussenkomst of vrijwaring, vervolgd of ingesteld tijdens de vereffening. Art. 72 § 4 faillissementswet bedingt dat het recht opname te vorderen voor een schuldvordering tijdens de vereffening vastgesteld door een andere rechtbank dan de rechtbank die het faillissement heeft uitgesproken, verjaart na verloop van zes maanden te rekenen van de dag waarop het eindvonnis kracht van rechterlijk gewijsde heeft gekregen. Geen van die voormelde uitzonderingen zijn in voorliggende betwisting voorhanden, zodat de verjaringstermijn van drie jaar moet worden toegepast. Het faillietverklarend vonnis dateert van 25 september 1998. De vordering tot opname dateert van 29 januari 2002 (besluiten neergelegd op 30 januari 2002). De vordering tot opname in het passief van het faillissement van de NV L.D. Spares & Equipment is derhalve als verjaard af te wijzen.</p>",
+          "<p class=\"case-footer__paragraph\">DE RECHTBANK, recht doende op tegenspraak, Alle anders luidende en/of tegenstrijdige conclusies van de hand wijzend; Verklaart de hoofdeis, zoals door de curator herleid, ontvankelijk en gegrond; Veroordeelt A tot de betaling aan de curator van euro 26.283,78 (zesentwintig duizend tweehonderd en drieëntachtig euro en achtenzeventig cent), te vermeerderen met de moratoire rente aan 7 % vanaf 29 september 1998 tot de dag van de dagvaarding en daarna te vermeerderen met de gerechtelijke rente aan 7 % tot de dag van de betaling; Verklaart de tegeneis tot opname in het passief van het faillissement van de NV L.D. Spares & Equipment verjaard en derhalve niet ontvankelijk; Verklaart de tegeneis tot veroordeling van de curator en tot vaststelling van enige vordering van A lastens de NV L.D. Spares & Equipment ontvankelijk, doch wijst deze af als ongegrond; Verklaart de vordering van A tot de gedwongen tussenkomst in de procedure lastens de NV KBC Bank ontvankelijk, doch wijst de vordering tot veroordeling van de NV KBC Bank tot vrijwaring van A af als ongegrond; Verwijst A tot al de kosten van het geding en stelt deze aan de kant van de curator tot op heden vast op euro 316,51 kosten van dagvaarding en rolstelling en aan de kant van de NV KBC Bank op euro 364,40 geïndexeerde rechtsplegingsvergoeding; Onverminderd de toepassing van art. 1024 Ger.W.; Verklaart dit vonnis uitvoerbaar bij voorraad, niettegenstaande elke voorziening en zonder borgstelling; Verklaart dit vonnis uitvoerbaar bij voorraad, niettegenstaande elke voorziening en zonder borgstelling ; Aldus het vonnis uitgesproken in het gerechtsgebouw II te Kortrijk in openbare terechtzitting op woensdag, ZES SEPTEMBER TWEEDUIZEND EN ZES. Aanwezig : de heren L. Vandenbroucke, rechter; A. Deceuninck en M. Vervaeke, rechters in handelszaken, beiden door de Voorzitter aangewezen in vervanging van de plaatsvervangende rechters in handelszaken F. Vankeirsbilck en J. Bral, wettig verhinderd zijnde de uitspraak van huidig vonnis bij te wonen waarover zij mede hebben beraadslaagd; mevrouw Ch. Busschaert, griffier.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ORGNT:2006:JUG.20060906.16-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De tegeneis van A is gebaseerd op zijn beweerde rechten op de terugbetaling door de NV L.D. Spares & Equipment van een bedrag van euro 51.282,58 (= 100.300 DM). De feiten omtrent die tegeneis worden als volgt omschreven. Op 14 november 1994 verbond Deutsche Bank AG er zich toe om aan de NV KBC Bank een bedrag van 200.000,00 DM te betalen bij de bevestiging dat de NV L.D. Spares & Equipment een toegestaan krediet van dat bedrag niet zou terugbetalen. De bevestigingsbrief van Deutsche Bank luidt, vrij vertaald, als volgt: \"Wij werden ervan in kennis gesteld dat u bereid bent de firma NV L.D. Spares & Equipment, België, hierna de kredietnemer genoemd, een krediet van 200.000 DM te verlenen, mits de terugbetaling door een bank gegarandeerd wordt. In die omstandigheden verbinden wij, Deutsche Bank AG, filiaal Kassel, Keulsestraat 13-15, Kassel, ons hierbij onherroepelijk u onverwijld een bedrag van 200.000 DM, inbegrepen de vervallen rente en andere kredietkosten, te betalen, wanneer u ons tegelijk schriftelijk bevestigt dat het van ons gevorderd bedrag het openstaand kredietbedrag (inbegrepen de vervallen rente en andere kredietkosten) vertegenwoordigt, dat de kredietnemer, ondanks uw aanmaning, niet vereffende.\" Deze garantie had oorspronkelijk een looptijd tot 30 november 1995, werd naderhand verlengd en het kapitaal van de garantie werd gereduceerd tot 100.000,00 DM. Na de faillietverklaring van de NV L.D. Spares & Equipment heeft de NV KBC Bank aanspraak gemaakt op die garantie en Deutsche Bank A.G. heeft aan de NV KBC Bank 100.000,00 DM betaald. A houdt voor dat Deutsche Bank A.G. haar uiteindelijk belastte met het bedrag van 100.300,00 DM, namelijk de hoofdsom van 100.000,00 DM en 300,00 DM kosten. Hij vervolgt dat die betaling van die 100.000,00 DM gebeurde in het kader van een kredietgarantie die verstrekt werd voor de goede uitvoering van de agentuurovereenkomst gesloten tussen hem en de NV L.D. Spares & Equipment, de vordering van de curator eveneens betrekking heeft op de uitvoering van die agentuurovereenkomst, zodat schuldvergelijking overeenkomstig de wet is ingetreden, minstens nog gerechtelijk kan worden vastgesteld, ondanks het tussengekomen faillissement.</p>",
+          "<p class=\"case-section__paragraph\">De rechtbank stelt verder vast dat A geenszins betwist dat Deutsche Bank A.G. een garantieovereenkomst heeft gesloten met de NV KBC Bank. Uit de bewoordingen van de verbintenis aangegaan door Deutsche Bank A.G. kan overigens slechts het aangaan van een garantieovereenkomst afgeleid worden. Het gebruik van de bewoordingen \"onherroepelijk\" en \"onverwijlde betaling\" wijzen op een autonome garantie (Van Quickenborne M., A.P.R., \"Borgtocht\", nr. 909). In de garantieverklaring van Deutsche Bank A.G. wordt de afroepbaarheid niet afhankelijk gemaakt van de wanprestatie van de NV L.D. Spares & Equipment. Het volstaat dat de NV KBC Bank melding maakt van het feit dat de NV L.D. Spares & Equipment niet betaalt. De beweerde wanprestatie volstaat dus voor de aanspraak op de gestelde garantie (Zie type iii van garantieovereenkomsten, aangehaald door Van Quickenborne M., A.P.R., \"Borgtocht\", nr. 902 en vergelijk Brussel, 25 februari 1982, B.R.H., 1982, 349). Deutsche Bank A.G. heeft zich verbonden haar eigen schuld te betalen. Zij verbond zich niet de schuld van de NV L.D. Spares & Equipment te betalen of schadevergoeding wegens niet‑nakoming van de betalingsverbintenis door die vennootschap te betalen. Anders dan bij borgtocht het geval is, is de verbintenis van de bank onder bankgarantie niet subsidiair. Deutsche Bank A.G. verbond zich namelijk niet voor het geval de NV L.D. Spares & Equipment haar verbintenis niet nakwam, maar voor het geval aan de voorwaarden van de garantie voldaan was (J. Blomkwist, \"Borgtocht\", Deventer 1991, 17, aangehaald door Van Quickenborne M., A.P.R., \"Borgtocht\", nr. 906). De garant verbindt zich niet de (primaire) verbintenis van de debiteur te volbrengen. De garantieovereenkomst heeft geen accessoir karakter.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:ORGNT:2006:JUG.20060906.16-002"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ORGNT:2006:JUG.20060906.16-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De tegeneis van A is gebaseerd op zijn beweerde rechten op de terugbetaling door de NV L.D. Spares & Equipment van een bedrag van euro 51.282,58 (= 100.300 DM). De feiten omtrent die tegeneis worden als volgt omschreven. Op 14 november 1994 verbond Deutsche Bank AG er zich toe om aan de NV KBC Bank een bedrag van 200.000,00 DM te betalen bij de bevestiging dat de NV L.D. Spares & Equipment een toegestaan krediet van dat bedrag niet zou terugbetalen. De bevestigingsbrief van Deutsche Bank luidt, vrij vertaald, als volgt: \"Wij werden ervan in kennis gesteld dat u bereid bent de firma NV L.D. Spares & Equipment, België, hierna de kredietnemer genoemd, een krediet van 200.000 DM te verlenen, mits de terugbetaling door een bank gegarandeerd wordt. In die omstandigheden verbinden wij, Deutsche Bank AG, filiaal Kassel, Keulsestraat 13-15, Kassel, ons hierbij onherroepelijk u onverwijld een bedrag van 200.000 DM, inbegrepen de vervallen rente en andere kredietkosten, te betalen, wanneer u ons tegelijk schriftelijk bevestigt dat het van ons gevorderd bedrag het openstaand kredietbedrag (inbegrepen de vervallen rente en andere kredietkosten) vertegenwoordigt, dat de kredietnemer, ondanks uw aanmaning, niet vereffende.\" Deze garantie had oorspronkelijk een looptijd tot 30 november 1995, werd naderhand verlengd en het kapitaal van de garantie werd gereduceerd tot 100.000,00 DM. Na de faillietverklaring van de NV L.D. Spares & Equipment heeft de NV KBC Bank aanspraak gemaakt op die garantie en Deutsche Bank A.G. heeft aan de NV KBC Bank 100.000,00 DM betaald. A houdt voor dat Deutsche Bank A.G. haar uiteindelijk belastte met het bedrag van 100.300,00 DM, namelijk de hoofdsom van 100.000,00 DM en 300,00 DM kosten. Hij vervolgt dat die betaling van die 100.000,00 DM gebeurde in het kader van een kredietgarantie die verstrekt werd voor de goede uitvoering van de agentuurovereenkomst gesloten tussen hem en de NV L.D. Spares & Equipment, de vordering van de curator eveneens betrekking heeft op de uitvoering van die agentuurovereenkomst, zodat schuldvergelijking overeenkomstig de wet is ingetreden, minstens nog gerechtelijk kan worden vastgesteld, ondanks het tussengekomen faillissement.</p>",
+          "<p class=\"case-section__paragraph\">De rechtbank stelt verder vast dat A geenszins betwist dat Deutsche Bank A.G. een garantieovereenkomst heeft gesloten met de NV KBC Bank. Uit de bewoordingen van de verbintenis aangegaan door Deutsche Bank A.G. kan overigens slechts het aangaan van een garantieovereenkomst afgeleid worden. Het gebruik van de bewoordingen \"onherroepelijk\" en \"onverwijlde betaling\" wijzen op een autonome garantie (Van Quickenborne M., A.P.R., \"Borgtocht\", nr. 909). In de garantieverklaring van Deutsche Bank A.G. wordt de afroepbaarheid niet afhankelijk gemaakt van de wanprestatie van de NV L.D. Spares & Equipment. Het volstaat dat de NV KBC Bank melding maakt van het feit dat de NV L.D. Spares & Equipment niet betaalt. De beweerde wanprestatie volstaat dus voor de aanspraak op de gestelde garantie (Zie type iii van garantieovereenkomsten, aangehaald door Van Quickenborne M., A.P.R., \"Borgtocht\", nr. 902 en vergelijk Brussel, 25 februari 1982, B.R.H., 1982, 349). Deutsche Bank A.G. heeft zich verbonden haar eigen schuld te betalen. Zij verbond zich niet de schuld van de NV L.D. Spares & Equipment te betalen of schadevergoeding wegens niet‑nakoming van de betalingsverbintenis door die vennootschap te betalen. Anders dan bij borgtocht het geval is, is de verbintenis van de bank onder bankgarantie niet subsidiair. Deutsche Bank A.G. verbond zich namelijk niet voor het geval de NV L.D. Spares & Equipment haar verbintenis niet nakwam, maar voor het geval aan de voorwaarden van de garantie voldaan was (J. Blomkwist, \"Borgtocht\", Deventer 1991, 17, aangehaald door Van Quickenborne M., A.P.R., \"Borgtocht\", nr. 906). De garant verbindt zich niet de (primaire) verbintenis van de debiteur te volbrengen. De garantieovereenkomst heeft geen accessoir karakter. (Dirix E. en De Corte R., \"Beginselen van Belgische Privaatrecht, XII Zekerheidsrechten\", uitgave 1999, nr. 425). Het feit dat Deutsche Bank A.G. verhaal uitoefende op haar opdrachtgever, A, die het uitbetaalde bedrag en de kosten van de bankgarantie, op haar rekening gedebiteerd zag, wijzigt in niets voorgaande beoordeling. Deutsche Bank A.G. heeft een eigen verbintenis uitgevoerd, is niet opgetreden als borgtocht, zodat A dus niet als eventuele achterborg rechten kan laten gelden ten opzichte van de NV L.D. Spares & Equipment en / of de NV KBC Bank. Evenmin beweert A dat er tussen hem en de NV L.D. Spares & Equipment een overeenkomst werd gesloten, laat staan dat hij deze aantoont, op grond waarvan hij een aanspraak zou kunnen verantwoorden naar de NV L.D. Spares & Equipment toe voor het feit dat hij er voor zorgde dat haar bankier, Deutsche Bank A.G., de bankgarantie stelde, zoals geëist door de NV KBC Bank. Op die grond kan A evenmin aanspraak maken op schuldvergelijking tussen wat hij aan Deutsche Bank A.G. heeft moeten betalen en de vordering van de curator. Noch Deutsche Bank A.G., noch A hebben een vordering op de NV L.D. Spares & Equipment. De gelden werden op grond van een autonome garantie uitbetaald aan de NV KBC Bank. De recuperatie door Deutsche Bank A.G. van de gelden die deze in uitvoering van de autonome garantieovereenkomst betaalde aan de NV KBC Bank, levert voor A ook geen vorderingrecht op lastens de NV L.D. Spares & Equipment. Er zijn in voorliggend geval dus geen wederzijdse schuldvorderingen voorhanden. En slechts wanneer twee personen elkaars schuldenaar zijn, kan tussen hen schuldvergelijking plaatsgrijpen, waardoor de twee schulden teniet gaan voor het kleinst verschuldigd bedrag. De tegenvordering, voor zover ontvankelijk, is in elk geval ongegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 6,
+        "avgCitationsPerTeaching": 2,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 1,
+        "totalDecisionsNotFound": 1
+      },
+      "extractionNotes": [
+        "Citations for TEACH-ECLI:BE:ORGNT:2006:JUG.20060906.16-002 and TEACH-ECLI:BE:ORGNT:2006:JUG.20060906.16-003 share the same court paragraphs (reasoning). DEC-ECLI:BE:ORGNT:2006:JUG.20060906.16-002 was not found cited in the extracted reasoning paragraphs and is therefore flagged as not found."
+      ]
+    }
+  }
+}

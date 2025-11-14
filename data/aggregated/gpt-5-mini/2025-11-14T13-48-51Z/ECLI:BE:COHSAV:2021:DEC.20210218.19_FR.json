@@ -1,0 +1,572 @@
+{
+  "decision_id": "ECLI:BE:COHSAV:2021:DEC.20210218.19",
+  "language": "FR",
+  "metadata": {
+    "id": 26314,
+    "court_ecli_code": "COHSAV",
+    "decision_date": "2021-02-18",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Décision",
+    "md_length": 8401,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commission pour l'aide financière aux victimes d'actes intentionnels de violence et aux sauveteurs occasionnels, 18 février 2021, ECLI:BE:COHSAV:2021:DEC.20210218.19"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+        "name": "Mademoiselle Laetitia X.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+        "name": "Jean-Philippe Z.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "PREVENU"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+        "name": "Murielle Y.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "PARTIE_CIVILE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+        "name": "Délégué du Ministre",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+        "name": "Commission pour l'aide financière aux victimes d'actes intentionnels de violence et aux sauveteurs occasionnels",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Par requête parvenue le 8 novembre 2018, le conseil de la requérante expose que sa cliente, Mademoiselle Laetitia X., née en 1997, a été victime d'actes intentionnels de violence entre le 31 juillet 2010 et le 1er février 2011, alors qu'elle avait 13 ans, et postule l'octroi d'une aide principale de 30.000 €. Les faits rapportés sont des attentats à la pudeur et des viols commis par le petit ami de sa cousine, Jean-Philippe Z. Par jugement du 19 janvier 2015, le tribunal de première instance a condamné Jean-Philippe Z. à 6 ans d'emprisonnement et l'a condamné à payer à la partie civile Murielle Y., en sa qualité de représentante légale de sa fille Laetitia X., la somme de 15.000 €. Cet arrêt a été confirmé par la Cour d'appel le 10 novembre 2015 et le pourvoi en cassation de Jean-Philippe Z. a été rejeté par arrêt du ../../2016. Sur le plan médical, un rapport d'expert judiciaire du 20 novembre 2013 fait état d'un trauma psychique durable et de séquelles psychiques graves possibles; un rapport du 4 juillet 2019 (Dr Aurélie S.) conclut à un état anxio-dépressif d'intensité légère, prise de poids, personnalité en construction et orientation possible vers un registre borderline, avec nécessité de réévaluation. Le Délégué du Ministre a déposé un avis le 16/09/2020 proposant de déclarer la demande recevable et d'octroyer une aide en équité; la conseil de la requérante a, par écrit du 08/10/2020, précisé qu'une incapacité psychique de 15 % demeurait et a communiqué une évaluation psychiatrique récente. La feuille d'audience du 23 décembre 2020 indique que la requérante n'était pas présente; le Ministre et son délégué n'étaient pas présents non plus.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "requests": "La requérante postule l'octroi d'une aide principale de 30.000 € pour le dommage matériel et moral confondu."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "argument": "La requérante, par l'intermédiaire de son conseil, soutient qu'elle a subi un préjudice psychique et moral important du fait des attentats à la pudeur et des viols subis alors qu'elle était mineure, produit des rapports d'expertise (Dr C., 20/11/2013 et Dr A. S., 04/07/2019) faisant état d'un trauma psychique persistant et d'un état anxio-dépressif, et indique qu'une incapacité psychique de l'ordre de 15 % demeure; elle demande en conséquence une aide principale de 30.000 € en réparation, en équité, du préjudice matériel et moral confondu.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS: \n\nVu les articles 30 à 41 de la loi du $1^{\\text {er }}$ août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016, 3 février 2019, les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative.\n\nLa Commission, statuant par défaut à l'égard de la partie requérante et à l'égard du délégué du Ministre, en audience publique,\n\n- déclare la demande recevable et partiellement fondée ;\n- alloue une aide principale d'un montant forfaitaire de $15.000 €$ en ce compris l'indemnité de procédure.\n\nAinsi fait en langue française, le 18 février 2021.",
+      "outcome": "FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+        "provisionNumber": "article 31, 1°",
+        "provisionNumberKey": "31",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+        "provisionNumber": "article 32, § 1er, 1°",
+        "provisionNumberKey": "32",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Commission applique l'article 32, §1er comme énonçant les critères à prendre en compte pour l'octroi de l'aide, en retenant notamment le dommage moral (1°) et les frais matériels (7°). Elle s'en sert pour apprécier le préjudice subi et fixe le montant de l'aide en équité, sans prétendre garantir la réparation intégrale.",
+        "relevantFactualContext": "La requérante a subi attentats à la pudeur et viols lorsqu'elle était mineure; expertises médicales relèvent des séquelles psychiques (état anxio-dépressif, IP estimée ~15%); l'auteur a été condamné; le tribunal civil a alloué €15.000; la requérante demande €30.000."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 01/08/1985) modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009, 31 mai 2016 et 3 février 2019",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+        "provisionNumber": "article 41",
+        "provisionNumberKey": "41",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres (loi du 01/08/1985) modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009, 31 mai 2016 et 3 février 2019",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+        "provisionNumber": "article 28",
+        "provisionNumberKey": "28",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence (arrêté royal du 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-006",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+        "provisionNumber": "article 33",
+        "provisionNumberKey": "33",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence (arrêté royal du 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-007",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+        "provisionNumber": "article 39",
+        "provisionNumberKey": "39",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative (lois coordonnées du 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-008",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+        "provisionNumber": "article 42",
+        "provisionNumberKey": "42",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative (lois coordonnées du 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de ...",
+        "date": "2015-01-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2021:DEC.20210218.19-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour d'appel de ...",
+        "date": "2015-11-10",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2021:DEC.20210218.19-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit administratif",
+      "Violences sexuelles sur mineure",
+      "Attentats à la pudeur",
+      "Auteur cohabitant avec victime",
+      "Séquelles psychiques",
+      "Recevabilité demande d'aide",
+      "Indemnisation en équité",
+      "Évaluation préjudice psychique",
+      "Cumul avec réparation judiciaire",
+      "Décision par défaut"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+        "text": "Pour l'octroi d'une aide principale visée à l'article 31, 1°, la Commission doit apprécier le préjudice en se fondant notamment sur le dommage moral et, le cas échéant, sur les frais matériels prévus à l'article 32, §1er; ces éléments constituent la base de l'évaluation et de la fixation du montant de l'aide.",
+        "courtVerbatim": "que pour l'octroi d'une aide aux personnes visées à l'article 31,1°, l'article 32, § 1er, 1°, stipule que la Commission se fonde notamment sur le dommage moral ; que pour l'octroi d'une aide aux personnes visées à l'article 31,1°, l'article 32, § 1er, 7°, stipule que la Commission se fonde notamment sur les frais matériels ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une demande d'aide principale au titre de l'article 31, 1° est examinée par la Commission et que l'évaluation du préjudice moral et/ou des frais matériels est requise.",
+        "relevantFactualContext": "La requérante, mineure au moment des faits, a subi attentats à la pudeur et viols; des expertises relèvent des séquelles psychiques (état anxio-dépressif, IP ~15%); le tribunal civil a alloué €15.000; la requérante demande €30.000 devant la Commission.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+        "text": "La Commission fixe le montant de l'aide en équité; ce montant est déterminé au vu de l'appréciation du dommage moral et des frais matériels et ne vise pas nécessairement à assurer la réparation intégrale du préjudice telle que fixée par une juridiction civile.",
+        "courtVerbatim": "que le montant de l'aide est fixé en équité et ne correspond pas nécessairement à la réparation intégrale du préjudice subi.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la Commission détermine le quantum de l'aide principale à accorder après appréciation du dommage moral et des frais matériels.",
+        "relevantFactualContext": "La Commission, tenant compte du jugement civil ayant alloué €15.000 et des expertises médicales, fixe une aide principale forfaitaire de €15.000 en équité, alors que la requérante demandait €30.000.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "MEDIUM",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur a saisi la Commission pour l'aide aux victimes d'actes intentionnels de violence, sollicitant une aide principale de 30 000 € pour des agressions sexuelles subies durant sa minorité. La Commission, constatant la condamnation pénale de l'auteur et le préjudice psychique et moral, a déclaré la demande recevable et a octroyé en équité une aide principale forfaitaire de 15 000 € comprenant l'indemnité de procédure. La Commission souligne que le montant est fixé en équité et n'implique pas la réparation intégrale du préjudice."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">que l'article 31, 1 °, de la loi du 1er août 1985 portant des mesures fiscales et autres, stipule que «les personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence peuvent demander une aide»;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1 °, l'article 32, §1er, 1 °, stipule que la Commission se fonde notamment sur le dommage moral;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1 °, l'article 32, §1er, 7 °, stipule que la Commission se fonde notamment sur les frais matériels;</p>",
+          "<p class=\"case-section__paragraph\">que le tribunal lui a accordé la somme de 15.000 euros à titre de réparation du préjudice matériel et moral confondu à majorer des intérêts.</p>",
+          "<p class=\"case-section__paragraph\">que le montant de l'aide est fixé en équité et ne correspond pas nécessairement à la réparation intégrale du préjudice subi.</p>",
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016, 3 février 2019, les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-006",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-007",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "DEC-ECLI:BE:COHSAV:2021:DEC.20210218.19-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1 °, l'article 32, §1er, 1 °, stipule que la Commission se fonde notamment sur le dommage moral;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1 °, l'article 32, §1er, 7 °, stipule que la Commission se fonde notamment sur les frais matériels;</p>",
+          "<p class=\"case-section__paragraph\">que le tribunal lui a accordé la somme de 15.000 euros à titre de réparation du préjudice matériel et moral confondu à majorer des intérêts.</p>",
+          "<p class=\"case-section__paragraph\">que le montant de l'aide est fixé en équité et ne correspond pas nécessairement à la réparation intégrale du préjudice subi.</p>",
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016, 3 février 2019, les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-006",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-007",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "DEC-ECLI:BE:COHSAV:2021:DEC.20210218.19-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016, 3 février 2019, les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-006",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-007",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016, 3 février 2019, les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-006",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-007",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016, 3 février 2019, les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-006",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-007",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016, 3 février 2019, les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-006",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-007",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016, 3 février 2019, les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-007",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-006",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars, 22 avril 2003, 27 décembre 2004, 13 janvier 2006, 27 décembre 2006, 30 décembre 2009 et 31 mai 2016, 3 février 2019, les articles 28 à 33 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-008",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-003",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-004",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-005",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-006",
+          "ART-ECLI:BE:COHSAV:2021:DEC.20210218.19-007"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 8,
+      "citationStatistics": {
+        "totalCitations": 17,
+        "avgCitationsPerProvision": 2.125,
+        "provisionsWithMinimalCitations": 6,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 8,
+        "avgDecisionsPerProvision": 0.5,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:DEC.20210218.19-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">que l'article 31, 1 °, de la loi du 1er août 1985 portant des mesures fiscales et autres, stipule que «les personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence peuvent demander une aide»;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1 °, l'article 32, §1er, 1 °, stipule que la Commission se fonde notamment sur le dommage moral;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1 °, l'article 32, §1er, 7 °, stipule que la Commission se fonde notamment sur les frais matériels;</p>",
+          "<p class=\"case-section__paragraph\">que suite aux faits dont elle a été victime, la requérante a subi un préjudice psychique et moral important;</p>",
+          "<p class=\"case-section__paragraph\">que le tribunal lui a accordé la somme de 15.000 euros à titre de réparation du préjudice matériel et moral confondu à majorer des intérêts.</p>",
+          "<p class=\"case-section__paragraph\">que la requérante postule l'octroi d'une aide principale de 30.000 euros pour le dommage matériel et moral confondu ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2021:DEC.20210218.19-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">que l'article 31, 1 °, de la loi du 1er août 1985 portant des mesures fiscales et autres, stipule que «les personnes qui subissent un préjudice physique ou psychique important résultant directement d'un acte intentionnel de violence peuvent demander une aide»;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1 °, l'article 32, §1er, 1 °, stipule que la Commission se fonde notamment sur le dommage moral;</p>",
+          "<p class=\"case-section__paragraph\">que pour l'octroi d'une aide aux personnes visées à l'article 31, 1 °, l'article 32, §1er, 7 °, stipule que la Commission se fonde notamment sur les frais matériels;</p>",
+          "<p class=\"case-section__paragraph\">que le montant de l'aide est fixé en équité et ne correspond pas nécessairement à la réparation intégrale du préjudice subi.</p>",
+          "<p class=\"case-section__paragraph\">Dans son avis du 16 septembre 2020, le Délégué de Monsieur le Ministre propose à la Commission de déclarer cette demande d'aide principale recevable et d'octroyer une aide en équité suite à l'agression dont a été victime la requérante.</p>",
+          "<p class=\"case-footer__paragraph\">La Commission, statuant par défaut à l'égard de la partie requérante et à l'égard du délégué du Ministre, en audience publique, - déclare la demande recevable et partiellement fondée; - alloue une aide principale d'un montant forfaitaire de 15.000 euros en ce compris l'indemnité de procédure.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 13,
+        "avgCitationsPerTeaching": 6.5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 4,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

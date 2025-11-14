@@ -1,0 +1,686 @@
+{
+  "decision_id": "ECLI:BE:AHANT:2001:ARR.20011212.7",
+  "language": "NL",
+  "metadata": {
+    "id": 40141,
+    "court_ecli_code": "AHANT",
+    "court_name": "Arbeidshof te Antwerpen",
+    "decision_date": "2001-12-12",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 17909,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidshof te Antwerpen, 12 december 2001, ECLI:BE:AHANT:2001:ARR.20011212.7"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
+        "name": "R.D.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2001:ARR.20011212.7-002",
+        "name": "L.V.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2001:ARR.20011212.7-003",
+        "name": "NV T.-B.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:AHANT:2001:ARR.20011212.7-004",
+        "name": "BVBA R.D.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op 27 februari 1990 sloten partijen een overeenkomst getiteld \"overeenkomst tot uitbating van een dienststation\" waarbij de echtgenoten R.D.-L.V. een dienststation, eigendom van NV T.-B., zouden uitbaten vanaf 2 april 1990 en waarbij werd bepaald dat de echtgenoten als zelfstandige handelaars zouden optreden. Op 13 april 1993 werd voor hetzelfde station een tweede vrijwel identieke overeenkomst gesloten tussen NV T.-B. en de BVBA R.D., waarbij vanaf dan alle rechten en verplichtingen werden toegekend aan de BVBA. De echtgenoten vorderden bij dagvaarding van 7 januari 1998 (neergelegd 13 januari 1998) de NV te veroordelen tot betaling van 10 miljoen BEF achterstallig loon, vakantiegeld en eindejaarspremie voor de periode april 1990 tot december 1997, vermeerderen met verwijlintresten en gerechtelijke interesten, en later aanvullend een opzeggingsvergoeding voor elk van beiden en aflevering van sociale documenten. De Arbeidsrechtbank te Antwerpen verklaarde de vordering ontvankelijk doch ongegrond bij vonnis van 20 oktober 1998. Bij hoger beroep vorderen de echtgenoten vernietiging van het vonnis a quo en opnieuw ontvankelijk en gegrond verklaren van de oorspronkelijke vorderingen; de NV stelt incidenteel dat de oorspronkelijke vordering onontvankelijk is en vordert subsidiair bevestiging van het vonnis a quo met veroordeling tot kosten. Met een aangetekende brief van 29 september 1997 betekende de NV een opzegging aan de BVBA R.D. van vijf maanden ingaand 3 oktober 1997 tot 2 maart 1998.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
+          "requests": "Appellanten vorderen het vonnis a quo te vernietigen en opnieuw recht doende de oorspronkelijke vorderingen ontvankelijk en gegrond te verklaren met veroordeling van de NV tot de kosten."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2001:ARR.20011212.7-003",
+          "requests": "Geïntimeerde vordert, zij het impliciet, incidenteel de oorspronkelijke vordering onontvankelijk te verklaren; in ondergeschikte orde bevestiging van het vonnis a quo met veroordeling van de echtgenoten R.D.-L.V. tot de kosten."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
+          "argument": "De echtgenoten R.D.-L.V. stellen dat tussen hen en NV T.-B. een arbeids­overeenkomst bestond die ononderbroken zou zijn uitgevoerd tot 2 maart 1998, en steunen hun vorderingen op het ontbreken van betaling van loon, vakantiegeld en eindejaarspremie over de periode april 1990 tot december 1997 en op een opzeggingsvergoeding. Zij beroepen zich impliciet op het bestaan van een gezagsverhouding en op toepasselijkheid van collectieve arbeidsovereenkomsten betreffende minimumloon en ontslagvergoedingen om hun aanspraken te staven.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2001:ARR.20011212.7-003",
+          "argument": "NV T.-B. voert aan dat de oorspronkelijke overeenkomst van 27 februari 1990 werd vervangen door de overeenkomst van 13 april 1993 met de BVBA R.D., zodat de BVBA in de plaats is getreden van de echtgenoten en de vorderingen van de echtgenoten onontvankelijk zouden zijn. Dit is aangevoerd als incidenteel verweer tegen de ontvankelijkheid van de oorspronkelijke vordering.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:AHANT:2001:ARR.20011212.7-003",
+          "argument": "NV T.-B. betoogt voorts dat uit de gesloten overeenkomsten blijkt dat de echtgenoten en later de BVBA als zelfstandige uitbaters fungeerden: er is geen bewijs van overeengekomen loon, inkomsten bestonden uit winstverschil tussen inkoop en verkoop, de verplichtingen in de overeenkomst zijn kenmerkend voor een zelfstandige uitbating (boekenhouding, personeel in te schakelen, bedrijfsrisico bij uitbaters, vrij bepalen openingsuren), en er ontbreekt bewijs van een gezagsverhouding die kenmerkend is voor een arbeidsovereenkomst.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "OP DIE GRONDEN, \n\n## HET HOF,\n\nGelet op de bepalingen van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken.\n\nRecht doende op tegenspraak.\nVerklaart het hoger beroep en het incidenteel beroep ontvankelijk doch ongegrond.\n\nBevestigt het vonnis van de Arbeidsrechtbank te Antwerpen van 20 oktober 1998.\n\n---\n\nLegt de kosten van hoger beroep ten laste van de echtgenoten R.D.-L.V..\nVereffent deze aan de zijde van geïntimeerde op 10.560 BEF rechtsplegingsvergoeding en vereffent deze aan de zijde van appellanten eveneens op 10.560 BEF.",
+      "outcome": "BEVESTIGING"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20011212.7-001",
+        "provisionNumber": "artikel 1056",
+        "provisionNumberKey": "1056",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2001:ARR.20011212.7-002",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20011212.7-001",
+        "provisionNumber": "artikel 747, §2",
+        "provisionNumberKey": "747",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2001:ARR.20011212.7-003",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20011212.7-002",
+        "provisionNumber": "artikel 2",
+        "provisionNumberKey": "2",
+        "parentActType": "WET",
+        "parentActName": "Arbeidsovereenkomstenwet",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 2 (in samenhang met artikel 3) de wezenlijke bestanddelen van de arbeidsovereenkomst bepaalt: een overeenkomst waarbij partijen zich verbinden arbeid te verrichten tegen loon en onder gezag van de werkgever. Voor het bestaan van een arbeidsovereenkomst is bewijs vereist van arbeid, loon en gezagsverhouding; het ontbreken van (afgesproken) loon en van aanwijzingen voor gezag sluit de kwalificatie als arbeidsovereenkomst uit.",
+        "relevantFactualContext": "Partijen sloten een overeenkomst van 27-02-1990 (later vervangen door akte 13-04-1993); de echtgenoten kregen volgens dossier nooit loon en er is geen bewijs van overeengekomen loon of van een gezagsverhouding; inkomsten bestonden uit winst uit exploitatie."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2001:ARR.20011212.7-004",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20011212.7-002",
+        "provisionNumber": "artikel 3",
+        "provisionNumberKey": "3",
+        "parentActType": "WET",
+        "parentActName": "Arbeidsovereenkomstenwet",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof verklaart dat artikel 3, in aansluiting op artikel 2, inhoudt dat voor een arbeidsovereenkomst moet blijken dat de werknemer arbeid verricht onder het gezag van de werkgever. Het ontbreken van aanwijzingen voor een voor de arbeid typische gezagsverhouding leidt ertoe dat geen arbeidsovereenkomst kan worden aangenomen.",
+        "relevantFactualContext": "In casu ontbreken bewijsstukken van bevelen, arbeidsorganisatie of verplichtingen die de zelfstandige samenwerking overstijgen; contractuele bepalingen geven ruimte voor eigen personeel en organisatie, zodat geen gezagsverhouding blijkt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2001:ARR.20011212.7-005",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20011212.7-003",
+        "provisionNumber": "artikel 6",
+        "provisionNumberKey": "6",
+        "parentActType": "ANDERE",
+        "parentActName": "overeenkomst van 27 februari 1990 (contract tussen partijen)",
+        "parentActDate": "1990-02-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof bespreekt artikel 6 van de commerciële overeenkomst en oordeelt dat de daarin opgenomen verplichtingen (zoals naleving van aanbevelingen, het altijd beschikken over voldoende en geschoold personeel en het voeren van boekhouding) kenmerken zijn van een samenwerkings- en exploitatiecontract en geen aanwijzing vormen van een juridische ondergeschiktheid of van een gezagsverhouding die kenmerkend is voor een arbeidsovereenkomst.",
+        "relevantFactualContext": "Artikel 6 bevat clausules over naleving van door NV gegeven aanbevelingen (verwijzend naar een niet-gedeponeerd handboek), plicht tot voldoende personeel en boekhouding die door derden gehouden kan worden; er is geen bewijs dat NV concrete bevelen gaf over organisatie of uitvoering van werk."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-006",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20011212.7-003",
+        "provisionNumber": "artikel 13",
+        "provisionNumberKey": "13",
+        "parentActType": "ANDERE",
+        "parentActName": "overeenkomst van 27 februari 1990 (contract tussen partijen)",
+        "parentActDate": "1990-02-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof merkt op dat de bepaling in artikel 13 dat de overeenkomst intuitu personae werd afgesloten, niet afdoet aan de feitelijke inhoud van de contractuele bedingen. Artikel 13 leidt op zichzelf niet tot de kwalificatie van de verhouding als arbeidsovereenkomst wanneer de overige bedingen wezenlijke zelfstandige exploitatie en geen gezagsverhouding aantonen.",
+        "relevantFactualContext": "Artikel 13 noemt de overeenkomst intuïtupersonae; later werd de exploitatie voortgezet via een BVBA en bestellingen werden vanaf april 1993 in naam van de BVBA geplaatst, wat het zelfstandige karakter van de exploitatie bevestigt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-007",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20011212.7-003",
+        "provisionNumber": "artikel 10",
+        "provisionNumberKey": "10",
+        "parentActType": "ANDERE",
+        "parentActName": "overeenkomst van 27 februari 1990 (contract tussen partijen)",
+        "parentActDate": "1990-02-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof gebruikt artikel 10 om vast te stellen dat de echtgenoten contractueel volledig verantwoordelijk en aansprakelijk werden gesteld voor de uitbating en dat zij de NV moeten vrijwaren voor vorderingen. Deze toewijzing van verantwoordelijkheden en risico's past bij zelfstandige exploitatie en ondersteunt de conclusie dat geen arbeidsovereenkomst bestond.",
+        "relevantFactualContext": "Artikel 10 legt de aansprakelijkheid voor de uitbating bij de echtgenoten; in de praktijk droegen zij aankoopkosten, verzekeringen, waarborgen en het bedrijfsrisico, en rekenden zij de inkomsten uit verkoop niet aan NV af."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:2001:ARR.20011212.7-008",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20011212.7-001",
+        "provisionNumber": "artikel 319, eerste lid",
+        "provisionNumberKey": "319",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-009",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:20011212.7-001",
+        "provisionNumber": "artikel 779",
+        "provisionNumberKey": "779",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidsrechtbank te Antwerpen",
+        "date": "1998-01-13",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "2000-03-06",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1998-05-25",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Arbeidsrechtbank te Antwerpen",
+        "date": "1998-10-20",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Arbeidsrecht",
+      "Uitbating dienststation",
+      "Overeenkomst zelfstandige uitbating",
+      "Overdracht aan vennootschap",
+      "Geen loonuitbetaling",
+      "Bestaan arbeidsovereenkomst",
+      "Gezagsverhouding betwist",
+      "Ontvankelijkheid vordering",
+      "Opzeggingsvergoeding gevorderd",
+      "Franchiseachtige relatie"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
+        "text": "Voor het bestaan van een arbeidsovereenkomst is vereist dat partijen overeenstemming hebben over de wezenlijke bestanddelen: de verrichting van arbeid, de vergoeding (loon) en de gezagsverhouding. Deze drie elementen zijn cumulatief; het ontbreken van één van deze wezenlijke bestanddelen sluit de kwalificatie als arbeidsovereenkomst uit.",
+        "courtVerbatim": "Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten (vgl. artikelen 2 en 3 Arbeidsovereen-komstenwet). Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de kwalificatie van een relatie als arbeidsovereenkomst betwist wordt en moet worden vastgesteld of arbeid, loon en gezagsverhouding bestaan.",
+        "relevantFactualContext": "Eisers vorderen achterstallig loon voor de uitbating van een dienststation; het Hof beoordeelt of de relatie met de NV kwalificeert als arbeidsovereenkomst of als zelfstandige exploitatie.",
+        "principleType": "LEGAL_TEST",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-002",
+            "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-003",
+            "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-004"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-003",
+          "ART-ECLI:BE:AHANT:20011212.7-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-002",
+        "text": "Het overeengekomen loon is een wezenlijk bestanddeel van de arbeidsovereenkomst; bij afwezigheid van een loonverbintenis kan geen arbeidsovereenkomst worden aangenomen. Collectieve arbeidsovereenkomsten die een minimumloon bepalen veronderstellen op hun beurt het bestaan van een arbeidsovereenkomst en zijn niet toepasbaar wanneer dat bestaan ontbreekt.",
+        "courtVerbatim": "Vooreerst laat geen enkel element uit het dossier toe te besluiten dat de NV tegenover de echtgenoten R.D.-L.V. een loonverbintenis is aangegaan, terwijl het ook niet ter discussie staat dat de echtgenoten R.D.-L.V. nooit loon voor hun prestaties hebben ontvangen. Het is dan ook volkomen terecht dat de NV besluit tot de afwezigheid van het voor het bestaan van een arbeidsovereenkomst onontbeerlijke loonelement. Zonder overeengekomen loon is er immers geen sprake van een arbeidsovereenkomst en derhalve evenmin van een verplichting om loon te betalen. A fortiori vinden de door de echtgenoten R.D.-L.V. ingeroepen collectieve arbeidsovereenkomsten m.b.t. de betaling van een minimumloon, geen toepassing nu deze overeenkomsten het bestaan van een arbeidsovereenkomst vooronderstellen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer partijen geen overeenkomst of bewijs over vergoeding/loon voor verrichte werkzaamheden kunnen aantonen.",
+        "relevantFactualContext": "In het dossier bleek geen bewijs van een overeengekomen loon; de inkomsten van appellanten bestonden uit winst uit exploitatie en zij ontvingen geen loon van de NV.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-003",
+          "ART-ECLI:BE:AHANT:20011212.7-004"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:AHANT:20011212.7-008",
+          "DEC-ECLI:BE:AHANT:20011212.7-009"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-003",
+        "text": "Een gezagsverhouding moet blijken uit concrete aanwijzingen zoals het geven van bevelen of organisatorische instructies, verplichtingen omtrent organisatie of uitvoering die de zelfstandige samenwerking overstijgen, verplichting tot persoonlijke prestatie of opgelegde arbeidstijden. Contractuele bepalingen die enkel aanbevelingen bevatten, ruimte laten voor eigen personeel of voorzien in externe boekhouding, volstaan niet om juridische ondergeschiktheid aan te nemen.",
+        "courtVerbatim": "Evenzeer ontbreekt in casu het bewijs van het bestaan van een voor de arbeidsovereenkomst kenmerkende gezagsverhouding. Wat in casu hoe dan ook ontbreekt is het bewijs van bevelen en/of verplichtingen inzake de organisatie en de uitvoering van de arbeid, die het kader van een samenwerking op zelfstandige basis overstijgen en die wijzen op een gezagsverhouding. De overeenkomst bevat integendeel verschillende bepalingen waaruit blijkt dat rekening werd gehouden met de mogelijkheid voor de echtgenoten R.D.L.V. om door henzelf betaald personeel in te schakelen en hen zelfs de verplichting oplegt \"altijd voldoende en geschoold personeel\" te hebben. Eenzelfde bemerking geldt de verplichting tot het houden van een wettelijke boekhouding, die de echtgenoten R.D.-L.V. konden laten bijhouden door een derde.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij beoordeling of contractuele en feitelijke elementen wijzen op juridische ondergeschiktheid dan wel op zelfstandige exploitatie.",
+        "relevantFactualContext": "De overeenkomst bevatte aanbevelingen, verplichting tot voldoende en geschoold personeel en de mogelijkheid externe boekhouding te laten houden; er is geen bewijs van bevelen, verplichtingen inzake organisatie of opgelegde arbeidstijden.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-004",
+          "ART-ECLI:BE:AHANT:20011212.7-005",
+          "ART-ECLI:BE:AHANT:20011212.7-007",
+          "ART-ECLI:BE:AHANT:20011212.7-006"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-004",
+        "text": "De kwalificatie van een contractuele relatie laat zich niet bepalen door loutere benamingen of clausules (bijv. 'intuitu personae') of door formele overdracht alleen; de feitelijke inhoud van de bedingen en het concrete gedrag van partijen (zoals bestellingen in naam van een vennootschap en het ontbreken van protest) bepalen of een oorspronkelijke overeenkomst is beëindigd en door een nieuwe overeenkomst vervangen.",
+        "courtVerbatim": "Het Hof merkt op dat de bepaling in artikel 13 dat de overeenkomst intuitu personae werd afgesloten, niet afdoet aan de feitelijke inhoud van de contractuele bedingen. Artikel 13 leidt op zichzelf niet tot de kwalificatie van de verhouding als arbeidsovereenkomst wanneer de overige bedingen wezenlijke zelfstandige exploitatie en geen gezagsverhouding aantonen. Het staat immers niet ter discussie dat, sedert het sluiten van de nieuwe overeenkomst, alle bestellingen werden geplaatst in naam en voor rekening van de BVBA, terwijl door de echtgenoten R.D.-L.V. in eigen naam geen enkele bestelling meer werd geplaatst. Dit gegeven ... volstaat als bewijs dat zij hebben ingestemd met de beëindiging van de eerste overeenkomst en de vervanging ervan door de tweede overeenkomst.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer formele clausules of de latere handelwijze van partijen worden aangevoerd om arbeidsrechtelijke kwalificatie of voortzetting/beëindiging van een overeenkomst te staven.",
+        "relevantFactualContext": "De oorspronkelijke overeenkomst van 27 februari 1990 werd later vervangen door een overeenkomst van 13 april 1993 met een BVBA; bestellingen werden sindsdien in naam van de BVBA geplaatst en partijen protesteerden niet, wat het Hof als instemming met vervanging aanneemt.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:AHANT:20011212.7-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-006",
+          "ART-ECLI:BE:AHANT:20011212.7-005",
+          "ART-ECLI:BE:AHANT:20011212.7-007"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 2,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 1,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 3,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 4,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eisers vorderen van de vennootschap betaling van achterstallig loon, vakantiegeld en een opzeggingsvergoeding en betogen dat zij werknemers waren ondanks schriftelijke uitbatingsovereenkomsten. Het Arbeidshof verklaart het hoger beroep ontvankelijk doch ongegrond en bevestigt het vonnis van de Arbeidsrechtbank, waarbij de eisers in de kosten worden veroordeeld. Het hof oordeelt dat er geen arbeidsovereenkomst bestond omdat er geen overeengekomen loon noch aanwijzingen van een juridische gezagsverhouding zijn en de contractuele regeling wezenlijk duidt op zelfstandige exploitatie met ondernemingsrisico en vervanging door een BVBA."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">het verzoekschrift tot hoger beroep, ingediend ter griffie van dit hof op 19 maart 1999 en ter kennis gebracht overeenkomstig artikel 1056 van het Gerechtelijk Wetboek op 22 maart 1999;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">de beschikking d.d. 19 april 2001 van de heer Eerste Voorzitter van dit Hof overeenkomstig artikel 747, §2 van het Gerechtelijk Wetboek,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig de gemeenrechtelijke regels inzake de bewijsvoering behoort het aan de echtgenoten R.D.-L.V. het bewijs te leveren van het bestaan van de arbeidsovereenkomst waarop zij hun vorderingen steunen. Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten (vgl. artikelen 2 en 3 Arbeidsovereen-komstenwet). Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding. Het ontbreken van een overeenkomst m.b.t. één van deze wezenlijke elementen impliceert meteen noodzakelijk dat partijen niet verbonden zijn door een arbeidsovereenkomst. (vgl. m.b.t. het loon als wezenlijk element van de arbeidsovereenkomst Cass. 6 maart 2000, Arr. Cass. 2000, 154; Cass. 25 mei 1998, Arr. Cass. 1998, 270; DE VOS, M. \"Loon naar Belgisch arbeidsovereenkomstenrecht\", MAKLU, 2001, 80-170 en de aldaar geciteerde rechtspraak en rechtsleer) In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding. Vooreerst laat geen enkel element uit het dossier toe te besluiten dat de NV tegenover de echtgenoten R.D.-L.V. een loonverbintenis is aangegaan, terwijl het ook niet ter discussie staat dat de echtgenoten R.D.-L.V. nooit loon voor hun prestaties hebben ontvangen, wat zij overigens precies aanvoeren als oorzaak voor de vorderingen gesteld in de inleidende dagvaarding. Het blijkt integendeel uit de voorgebrachte overeenkomsten dat, aanvankelijk met de echtgenoten R.D.-L.V. en later met de BVBA R.D., een overeenkomst werd aangegaan waarbij (in essentie) de NV zich ertoe verbond de infrastructuur van het dienststation ter beschikking te stellen, terwijl de uitbaters zich ertoe verbonden dit station op de overeengekomen wijze uit te baten en zich exclusief bij de NV te bevoorraden m.b.t. motorbrandstoffen, smeermiddelen verwarmings-brandstoffen en andere aanverwante producten, aan overeengekomen prijzen. Over de (mogelijke) inkomsten van de echtgenoten R.D.-L.V. uit de overeengekomen uitbating, bewaren deze overeenkomsten echter het stilzwijgen. Concreet bestonden de inkomsten die de echtgenoten R.D.-L.V. en de BVBA R.D. in het kader van de uitbating behaalden, uit de door hen gerealiseerde winst, met name het verschil tussen de door hen betaalde aankoopprijs voor de door de NV geleverde producten en de vanwege de klanten ontvangen verkoopprijs, eventueel aangevuld met de winsten gerealiseerd in het kader van de verkoop van andere producten of het leveren van bijkomende diensten. Het is dan ook volkomen terecht dat de NV besluit tot de afwezigheid van het voor het bestaan van een arbeidsovereenkomst onontbeerlijke loonelement (vgl. eerste beroepsconclusies van de NV p.21). Het verweer dat de echtgenoten R.D.-L.V. in dit kader ontwikkelen (vgl. eerste beroepsconclusie van de echtgenoten R.D.-L.V. p.9) is manifest onjuist. Zonder overeengekomen loon is er immers geen sprake van een arbeidsovereenkomst en derhalve evenmin van een verplichting om loon te betalen. A fortiori vinden de door de echtgenoten R.D.-L.V. ingeroepen collectieve arbeidsovereenkomsten m.b.t. de betaling van een minimumloon, geen toepassing nu deze overeenkomsten het bestaan van een arbeidsovereenkomst vooronderstellen (vgl. DEVOS, M., o.c., 90-91 en de aldaar geciteerde rechtsleer). Evenzeer ontbreekt in casu het bewijs van het bestaan van een voor de arbeidsovereenkomst kenmerkende gezagsverhouding, terwijl het in dit kader geformuleerde bewijsaanbod als niet dienend moet worden afgewezen, nu het niet van aard is de besluitvorming in dit dossier te beïnvloeden. De op de echtgenoten R.D.-L.V. in het kader van de op 27 februari 1990 gesloten overeenkomst rustende verplichtingen en de uit diezelfde overeenkomst aan de NV toegekende correlatieve rechten blijken immers inherent te zijn aan de aard van deze overeenkomst en de inschakeling ervan in een groot commercieel geheel, zonder dat zij evenwel doen blijken van een juridische ondergeschiktheid. De echtgenoten R.D.-L.V. hechten in dit verband blijkbaar zeer veel belang aan de verplichting de aanbevelingen van de NV te respecteren, opgenomen in artikel 6 van de overeenkomst van 27 februari 1990, doch bij nazicht blijkt de overeenkomst in dit verband telkens te verwijzen naar aanbevelingen die werden vermeld of nog zouden worden vermeld in een handboek, handboek dat zij evenwel niet neerleggen en waarvan zij de inhoud niet preciseren. Wat in casu hoe dan ook ontbreekt is het bewijs van bevelen en/of verplichtingen inzake de organisatie en de uitvoering van de arbeid, die het kader van een samenwerking op zelfstandige basis overstijgen en die wijzen op een gezagsverhouding. Het is in dit verband belangwekkend de beperkingen die aan de echtgenoten R.D.-L.V. contractueel werden of konden worden opgelegd, te vergelijken met de vrijheid van handelen die hen restte bij de uitbating van het dienststation. Een eerste frappante vaststelling daarbij is het ontbreken van de verplichting voor de echtgenoten R.D.-L.V. om zelf de prestaties die het (hoofd)voorwerp van de overeenkomst uitmaken (verkoop aan klanten van motorbrandstoffen en het verlenen van onderhouds- en herstellingsdiensten) te verrichten. De overeenkomst bevat integendeel verschillende bepalingen waaruit blijkt dat rekening werd gehouden met de mogelijkheid voor de echtgenoten R.D.-L.V. om door henzelf betaald personeel in te schakelen en hen zelfs de verplichting oplegt \"altijd voldoende en geschoold personeel\" te hebben.(vgl. art.6,4 stuk 1 bundel de echtgenoten R.D.-L.V.). Eenzelfde bemerking geldt de verplichting tot het houden van een wettelijke boekhouding, die de echtgenoten R.D.-L.V., overeenkomstig het bepaalde in artikel 6, 5 van de overeenkomst, konden laten bijhouden door een derde, eens te meer op hun kosten. A fortiori werd in de overeenkomst nergens bepaald dat de echtgenoten R.D.-L.V. samen dienden in te staan voor de verkoop en de te verlenen diensten, zodat zij onderling volledig vrij konden bepalen wie van beiden wat en wanneer zou doen. Dat de uitbatingsovereenkomst zelf intuitu personae werd afgesloten, zoals bepaald in artikel 13 van de overeenkomst, doet uiteraard geen afbreuk aan het voorgaande. In dezelfde logica ontbreekt evident ook de verplichting voor de echtgenoten R.D.-L.V. om hun eventuele afwezigheden te recht-vaardigen en om een door de NV opgelegde arbeidstijdregeling te respecteren. In dit verband dient er tevens op gewezen te worden dat de openingsuren vrij konden worden bepaald door de echtgenoten R.D.-L.V., mits bij de vaststelling ervan rekening werd gehouden met de plaatselijke gebruiken en de behoeften van de klanten. Evenzeer frappant is de vaststelling dat het bedrijfsrisico van de uitbating volledig werd gelegd op de echtgenoten R.D.-L.V., die contractueel moesten instaan: voor de aankoop van de te koop aangeboden producten waarvan zij ook eigenaar werden, het overgrote gedeelte van de kosten verbonden aan de uitbating, het sluiten van de in dit kader gebruikelijke verzekeringscontracten en daarenboven ook een belangrijke waarborg dienden te stellen teneinde de betaling van de facturen en beschadiging of verdwijning van uitrusting te waarborgen. In de logica van het tussen partijen overeengekomen samenwerkingsverband bestond er uiteraard geen verplichting voor de echtgenoten R.D.-L.V. om de inkomsten van de door hen gerealiseerde verkopen af te rekenen met de NV. Artikel 10 van de overeenkomst maakt de echtgenoten R.D.-L.V. bovendien volledig verantwoordelijk voor de uitbating van het dienststation, met de verplichting de NV te vrijwaren voor alle vorderingen die verband houden met de uitbating. Het is voor het Hof dan ook duidelijk dat de echtgenoten R.D.-L.V. ab initio een eigen onderneming hebben uitgebaat, wat enkele jaren later nog duidelijker bleek toen zij de uitbating van het dienststation verder zetten in het kader van een handelsvennootschap. Dat zij niet de eigenaar waren van de infrastructuur en het handelsfonds doet daaraan geen afbreuk. Het Hof wenst in dit verband en ten overvloede te bevestigen dat het overduidelijk is dat de initiële overeenkomst een einde nam en vervangen werd door de overeenkomst ondertekend op 13 april 1993. Als zaakvoerder van de BVBA R.D. was de heer R.D. uiteraard op de hoogte van het bestaan en de inhoud van de tweede overeenkomst en derhalve van het feit dat alle rechten en verplichtingen, die voor de echtgenoten R.D.-L.V. voortsproten uit de overeenkomst van 27 februari 1990, vanaf april 1993 werden toegekend of opgelegd aan de BVBA. Dat de echtgenoten R.D.-L.V. thans trachten munt te slaan uit het feit dat juridisch een onderscheid moet worden gemaakt tussen de heer R.D., optredend in eigen naam als natuurlijke persoon, en de heer R.D., optredend in zijn hoedanigheid van zaakvoerder van de BVBA R.D., is dan ook volkomen misplaatst. Het staat immers niet ter discussie dat, sedert het sluiten van de nieuwe overeenkomst, alle bestellingen werden geplaatst in naam en voor rekening van de BVBA, terwijl door de echtgenoten R.D.-L.V. in eigen naam geen enkele bestelling meer werd geplaatst. Dit gegeven gekoppeld aan het feit dat zij noodzakelijk op de hoogte waren van het bestaan van de tweede overeenkomst, zonder desbetreffend enig protest te uiten, volstaat als bewijs dat zij hebben ingestemd met de beëindiging van de eerste overeenkomst en de vervanging ervan door de tweede overeenkomst. Gelet op het voorgaande is het hoger beroep niet gegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-003",
+          "ART-ECLI:BE:AHANT:20011212.7-004",
+          "ART-ECLI:BE:AHANT:20011212.7-005",
+          "ART-ECLI:BE:AHANT:20011212.7-006",
+          "ART-ECLI:BE:AHANT:20011212.7-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-002",
+          "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig de gemeenrechtelijke regels inzake de bewijsvoering behoort het aan de echtgenoten R.D.-L.V. het bewijs te leveren van het bestaan van de arbeidsovereenkomst waarop zij hun vorderingen steunen. Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten (vgl. artikelen 2 en 3 Arbeidsovereen-komstenwet). Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding. Het ontbreken van een overeenkomst m.b.t. één van deze wezenlijke elementen impliceert meteen noodzakelijk dat partijen niet verbonden zijn door een arbeidsovereenkomst. (vgl. m.b.t. het loon als wezenlijk element van de arbeidsovereenkomst Cass. 6 maart 2000, Arr. Cass. 2000, 154; Cass. 25 mei 1998, Arr. Cass. 1998, 270; DE VOS, M. \"Loon naar Belgisch arbeidsovereenkomstenrecht\", MAKLU, 2001, 80-170 en de aldaar geciteerde rechtspraak en rechtsleer) In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding. Vooreerst laat geen enkel element uit het dossier toe te besluiten dat de NV tegenover de echtgenoten R.D.-L.V. een loonverbintenis is aangegaan, terwijl het ook niet ter discussie staat dat de echtgenoten R.D.-L.V. nooit loon voor hun prestaties hebben ontvangen, wat zij overigens precies aanvoeren als oorzaak voor de vorderingen gesteld in de inleidende dagvaarding. Het blijkt integendeel uit de voorgebrachte overeenkomsten dat, aanvankelijk met de echtgenoten R.D.-L.V. en later met de BVBA R.D., een overeenkomst werd aangegaan waarbij (in essentie) de NV zich ertoe verbond de infrastructuur van het dienststation ter beschikking te stellen, terwijl de uitbaters zich ertoe verbonden dit station op de overeengekomen wijze uit te baten en zich exclusief bij de NV te bevoorraden m.b.t. motorbrandstoffen, smeermiddelen verwarmings-brandstoffen en andere aanverwante producten, aan overeengekomen prijzen. Over de (mogelijke) inkomsten van de echtgenoten R.D.-L.V. uit de overeengekomen uitbating, bewaren deze overeenkomsten echter het stilzwijgen. Concreet bestonden de inkomsten die de echtgenoten R.D.-L.V. en de BVBA R.D. in het kader van de uitbating behaalden, uit de door hen gerealiseerde winst, met name het verschil tussen de door hen betaalde aankoopprijs voor de door de NV geleverde producten en de vanwege de klanten ontvangen verkoopprijs, eventueel aangevuld met de winsten gerealiseerd in het kader van de verkoop van andere producten of het leveren van bijkomende diensten. Het is dan ook volkomen terecht dat de NV besluit tot de afwezigheid van het voor het bestaan van een arbeidsovereenkomst onontbeerlijke loonelement (vgl. eerste beroepsconclusies van de NV p.21). Het verweer dat de echtgenoten R.D.-L.V. in dit kader ontwikkelen (vgl. eerste beroepsconclusie van de echtgenoten R.D.-L.V. p.9) is manifest onjuist. Zonder overeengekomen loon is er immers geen sprake van een arbeidsovereenkomst en derhalve evenmin van een verplichting om loon te betalen. A fortiori vinden de door de echtgenoten R.D.-L.V. ingeroepen collectieve arbeidsovereenkomsten m.b.t. de betaling van een minimumloon, geen toepassing nu deze overeenkomsten het bestaan van een arbeidsovereenkomst vooronderstellen (vgl. DEVOS, M., o.c., 90-91 en de aldaar geciteerde rechtsleer). Evenzeer ontbreekt in casu het bewijs van het bestaan van een voor de arbeidsovereenkomst kenmerkende gezagsverhouding, terwijl het in dit kader geformuleerde bewijsaanbod als niet dienend moet worden afgewezen, nu het niet van aard is de besluitvorming in dit dossier te beïnvloeden. De op de echtgenoten R.D.-L.V. in het kader van de op 27 februari 1990 gesloten overeenkomst rustende verplichtingen en de uit diezelfde overeenkomst aan de NV toegekende correlatieve rechten blijken immers inherent te zijn aan de aard van deze overeenkomst en de inschakeling ervan in een groot commercieel geheel, zonder dat zij evenwel doen blijken van een juridische ondergeschiktheid. De echtgenoten R.D.-L.V. hechten in dit verband blijkbaar zeer veel belang aan de verplichting de aanbevelingen van de NV te respecteren, opgenomen in artikel 6 van de overeenkomst van 27 februari 1990, doch bij nazicht blijkt de overeenkomst in dit verband telkens te verwijzen naar aanbevelingen die werden vermeld of nog zouden worden vermeld in een handboek, handboek dat zij evenwel niet neerleggen en waarvan zij de inhoud niet preciseren. Wat in casu hoe dan ook ontbreekt is het bewijs van bevelen en/of verplichtingen inzake de organisatie en de uitvoering van de arbeid, die het kader van een samenwerking op zelfstandige basis overstijgen en die wijzen op een gezagsverhouding. Het is in dit verband belangwekkend de beperkingen die aan de echtgenoten R.D.-L.V. contractueel werden of konden worden opgelegd, te vergelijken met de vrijheid van handelen die hen restte bij de uitbating van het dienststation. Een eerste frappante vaststelling daarbij is het ontbreken van de verplichting voor de echtgenoten R.D.-L.V. om zelf de prestaties die het (hoofd)voorwerp van de overeenkomst uitmaken (verkoop aan klanten van motorbrandstoffen en het verlenen van onderhouds- en herstellingsdiensten) te verrichten. De overeenkomst bevat integendeel verschillende bepalingen waaruit blijkt dat rekening werd gehouden met de mogelijkheid voor de echtgenoten R.D.-L.V. om door henzelf betaald personeel in te schakelen en hen zelfs de verplichting oplegt \"altijd voldoende en geschoold personeel\" te hebben.(vgl. art.6,4 stuk 1 bundel de echtgenoten R.D.-L.V.). Eenzelfde bemerking geldt de verplichting tot het houden van een wettelijke boekhouding, die de echtgenoten R.D.-L.V., overeenkomstig het bepaalde in artikel 6, 5 van de overeenkomst, konden laten bijhouden door een derde, eens te meer op hun kosten. A fortiori werd in de overeenkomst nergens bepaald dat de echtgenoten R.D.-L.V. samen dienden in te staan voor de verkoop en de te verlenen diensten, zodat zij onderling volledig vrij konden bepalen wie van beiden wat en wanneer zou doen. Dat de uitbatingsovereenkomst zelf intuitu personae werd afgesloten, zoals bepaald in artikel 13 van de overeenkomst, doet uiteraard geen afbreuk aan het voorgaande. In dezelfde logica ontbreekt evident ook de verplichting voor de echtgenoten R.D.-L.V. om hun eventuele afwezigheden te recht-vaardigen en om een door de NV opgelegde arbeidstijdregeling te respecteren. In dit verband dient er tevens op gewezen te worden dat de openingsuren vrij konden worden bepaald door de echtgenoten R.D.-L.V., mits bij de vaststelling ervan rekening werd gehouden met de plaatselijke gebruiken en de behoeften van de klanten. Evenzeer frappant is de vaststelling dat het bedrijfsrisico van de uitbating volledig werd gelegd op de echtgenoten R.D.-L.V., die contractueel moesten instaan: voor de aankoop van de te koop aangeboden producten waarvan zij ook eigenaar werden, het overgrote gedeelte van de kosten verbonden aan de uitbating, het sluiten van de in dit kader gebruikelijke verzekeringscontracten en daarenboven ook een belangrijke waarborg dienden te stellen teneinde de betaling van de facturen en beschadiging of verdwijning van uitrusting te waarborgen. In de logica van het tussen partijen overeengekomen samenwerkingsverband bestond er uiteraard geen verplichting voor de echtgenoten R.D.-L.V. om de inkomsten van de door hen gerealiseerde verkopen af te rekenen met de NV. Artikel 10 van de overeenkomst maakt de echtgenoten R.D.-L.V. bovendien volledig verantwoordelijk voor de uitbating van het dienststation, met de verplichting de NV te vrijwaren voor alle vorderingen die verband houden met de uitbating. Het is voor het Hof dan ook duidelijk dat de echtgenoten R.D.-L.V. ab initio een eigen onderneming hebben uitgebaat, wat enkele jaren later nog duidelijker bleek toen zij de uitbating van het dienststation verder zetten in het kader van een handelsvennootschap. Dat zij niet de eigenaar waren van de infrastructuur en het handelsfonds doet daaraan geen afbreuk. Het Hof wenst in dit verband en ten overvloede te bevestigen dat het overduidelijk is dat de initiële overeenkomst een einde nam en vervangen werd door de overeenkomst ondertekend op 13 april 1993. Als zaakvoerder van de BVBA R.D. was de heer R.D. uiteraard op de hoogte van het bestaan en de inhoud van de tweede overeenkomst en derhalve van het feit dat alle rechten en verplichtingen, die voor de echtgenoten R.D.-L.V. voortsproten uit de overeenkomst van 27 februari 1990, vanaf april 1993 werden toegekend of opgelegd aan de BVBA. Dat de echtgenoten R.D.-L.V. thans trachten munt te slaan uit het feit dat juridisch een onderscheid moet worden gemaakt tussen de heer R.D., optredend in eigen naam als natuurlijke persoon, en de heer R.D., optredend in zijn hoedanigheid van zaakvoerder van de BVBA R.D., is dan ook volkomen misplaatst. Het staat immers niet ter discussie dat, sedert het sluiten van de nieuwe overeenkomst, alle bestellingen werden geplaatst in naam en voor rekening van de BVBA, terwijl door de echtgenoten R.D.-L.V. in eigen naam geen enkele bestelling meer werd geplaatst. Dit gegeven gekoppeld aan het feit dat zij noodzakelijk op de hoogte waren van het bestaan van de tweede overeenkomst, zonder desbetreffend enig protest te uiten, volstaat als bewijs dat zij hebben ingestemd met de beëindiging van de eerste overeenkomst en de vervanging ervan door de tweede overeenkomst. Gelet op het voorgaande is het hoger beroep niet gegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-004",
+          "ART-ECLI:BE:AHANT:20011212.7-003",
+          "ART-ECLI:BE:AHANT:20011212.7-005",
+          "ART-ECLI:BE:AHANT:20011212.7-006",
+          "ART-ECLI:BE:AHANT:20011212.7-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-002",
+          "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig de gemeenrechtelijke regels inzake de bewijsvoering behoort het aan de echtgenoten R.D.-L.V. het bewijs te leveren van het bestaan van de arbeidsovereenkomst waarop zij hun vorderingen steunen. Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten (vgl. artikelen 2 en 3 Arbeidsovereen-komstenwet). Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding. Het ontbreken van een overeenkomst m.b.t. één van deze wezenlijke elementen impliceert meteen noodzakelijk dat partijen niet verbonden zijn door een arbeidsovereenkomst. (vgl. m.b.t. het loon als wezenlijk element van de arbeidsovereenkomst Cass. 6 maart 2000, Arr. Cass. 2000, 154; Cass. 25 mei 1998, Arr. Cass. 1998, 270; DE VOS, M. \"Loon naar Belgisch arbeidsovereenkomstenrecht\", MAKLU, 2001, 80-170 en de aldaar geciteerde rechtspraak en rechtsleer) In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding. Vooreerst laat geen enkel element uit het dossier toe te besluiten dat de NV tegenover de echtgenoten R.D.-L.V. een loonverbintenis is aangegaan, terwijl het ook niet ter discussie staat dat de echtgenoten R.D.-L.V. nooit loon voor hun prestaties hebben ontvangen, wat zij overigens precies aanvoeren als oorzaak voor de vorderingen gesteld in de inleidende dagvaarding. Het blijkt integendeel uit de voorgebrachte overeenkomsten dat, aanvankelijk met de echtgenoten R.D.-L.V. en later met de BVBA R.D., een overeenkomst werd aangegaan waarbij (in essentie) de NV zich ertoe verbond de infrastructuur van het dienststation ter beschikking te stellen, terwijl de uitbaters zich ertoe verbonden dit station op de overeengekomen wijze uit te baten en zich exclusief bij de NV te bevoorraden m.b.t. motorbrandstoffen, smeermiddelen verwarmings-brandstoffen en andere aanverwante producten, aan overeengekomen prijzen. Over de (mogelijke) inkomsten van de echtgenoten R.D.-L.V. uit de overeengekomen uitbating, bewaren deze overeenkomsten echter het stilzwijgen. Concreet bestonden de inkomsten die de echtgenoten R.D.-L.V. en de BVBA R.D. in het kader van de uitbating behaalden, uit de door hen gerealiseerde winst, met name het verschil tussen de door hen betaalde aankoopprijs voor de door de NV geleverde producten en de vanwege de klanten ontvangen verkoopprijs, eventueel aangevuld met de winsten gerealiseerd in het kader van de verkoop van andere producten of het leveren van bijkomende diensten. Het is dan ook volkomen terecht dat de NV besluit tot de afwezigheid van het voor het bestaan van een arbeidsovereenkomst onontbeerlijke loonelement (vgl. eerste beroepsconclusies van de NV p.21). Het verweer dat de echtgenoten R.D.-L.V. in dit kader ontwikkelen (vgl. eerste beroepsconclusie van de echtgenoten R.D.-L.V. p.9) is manifest onjuist. Zonder overeengekomen loon is er immers geen sprake van een arbeidsovereenkomst en derhalve evenmin van een verplichting om loon te betalen. A fortiori vinden de door de echtgenoten R.D.-L.V. ingeroepen collectieve arbeidsovereenkomsten m.b.t. de betaling van een minimumloon, geen toepassing nu deze overeenkomsten het bestaan van een arbeidsovereenkomst vooronderstellen (vgl. DEVOS, M., o.c., 90-91 en de aldaar geciteerde rechtsleer). Evenzeer ontbreekt in casu het bewijs van het bestaan van een voor de arbeidsovereenkomst kenmerkende gezagsverhouding, terwijl het in dit kader geformuleerde bewijsaanbod als niet dienend moet worden afgewezen, nu het niet van aard is de besluitvorming in dit dossier te beïnvloeden. De op de echtgenoten R.D.-L.V. in het kader van de op 27 februari 1990 gesloten overeenkomst rustende verplichtingen en de uit diezelfde overeenkomst aan de NV toegekende correlatieve rechten blijken immers inherent te zijn aan de aard van deze overeenkomst en de inschakeling ervan in een groot commercieel geheel, zonder dat zij evenwel doen blijken van een juridische ondergeschiktheid. De echtgenoten R.D.-L.V. hechten in dit verband blijkbaar zeer veel belang aan de verplichting de aanbevelingen van de NV te respecteren, opgenomen in artikel 6 van de overeenkomst van 27 februari 1990, doch bij nazicht blijkt de overeenkomst in dit verband telkens te verwijzen naar aanbevelingen die werden vermeld of nog zouden worden vermeld in een handboek, handboek dat zij evenwel niet neerleggen en waarvan zij de inhoud niet preciseren. Wat in casu hoe dan ook ontbreekt is het bewijs van bevelen en/of verplichtingen inzake de organisatie en de uitvoering van de arbeid, die het kader van een samenwerking op zelfstandige basis overstijgen en die wijzen op een gezagsverhouding. Het is in dit verband belangwekkend de beperkingen die aan de echtgenoten R.D.-L.V. contractueel werden of konden worden opgelegd, te vergelijken met de vrijheid van handelen die hen restte bij de uitbating van het dienststation. Een eerste frappante vaststelling daarbij is het ontbreken van de verplichting voor de echtgenoten R.D.-L.V. om zelf de prestaties die het (hoofd)voorwerp van de overeenkomst uitmaken (verkoop aan klanten van motorbrandstoffen en het verlenen van onderhouds- en herstellingsdiensten) te verrichten. De overeenkomst bevat integendeel verschillende bepalingen waaruit blijkt dat rekening werd gehouden met de mogelijkheid voor de echtgenoten R.D.-L.V. om door henzelf betaald personeel in te schakelen en hen zelfs de verplichting oplegt \"altijd voldoende en geschoold personeel\" te hebben.(vgl. art.6,4 stuk 1 bundel de echtgenoten R.D.-L.V.). Eenzelfde bemerking geldt de verplichting tot het houden van een wettelijke boekhouding, die de echtgenoten R.D.-L.V., overeenkomstig het bepaalde in artikel 6, 5 van de overeenkomst, konden laten bijhouden door een derde, eens te meer op hun kosten. A fortiori werd in de overeenkomst nergens bepaald dat de echtgenoten R.D.-L.V. samen dienden in te staan voor de verkoop en de te verlenen diensten, zodat zij onderling volledig vrij konden bepalen wie van beiden wat en wanneer zou doen. Dat de uitbatingsovereenkomst zelf intuitu personae werd afgesloten, zoals bepaald in artikel 13 van de overeenkomst, doet uiteraard geen afbreuk aan het voorgaande. In dezelfde logica ontbreekt evident ook de verplichting voor de echtgenoten R.D.-L.V. om hun eventuele afwezigheden te recht-vaardigen en om een door de NV opgelegde arbeidstijdregeling te respecteren. In dit verband dient er tevens op gewezen te worden dat de openingsuren vrij konden worden bepaald door de echtgenoten R.D.-L.V., mits bij de vaststelling ervan rekening werd gehouden met de plaatselijke gebruiken en de behoeften van de klanten. Evenzeer frappant is de vaststelling dat het bedrijfsrisico van de uitbating volledig werd gelegd op de echtgenoten R.D.-L.V., die contractueel moesten instaan: voor de aankoop van de te koop aangeboden producten waarvan zij ook eigenaar werden, het overgrote gedeelte van de kosten verbonden aan de uitbating, het sluiten van de in dit kader gebruikelijke verzekeringscontracten en daarenboven ook een belangrijke waarborg dienden te stellen teneinde de betaling van de facturen en beschadiging of verdwijning van uitrusting te waarborgen. In de logica van het tussen partijen overeengekomen samenwerkingsverband bestond er uiteraard geen verplichting voor de echtgenoten R.D.-L.V. om de inkomsten van de door hen gerealiseerde verkopen af te rekenen met de NV. Artikel 10 van de overeenkomst maakt de echtgenoten R.D.-L.V. bovendien volledig verantwoordelijk voor de uitbating van het dienststation, met de verplichting de NV te vrijwaren voor alle vorderingen die verband houden met de uitbating. Het is voor het Hof dan ook duidelijk dat de echtgenoten R.D.-L.V. ab initio een eigen onderneming hebben uitgebaat, wat enkele jaren later nog duidelijker bleek toen zij de uitbating van het dienststation verder zetten in het kader van een handelsvennootschap. Dat zij niet de eigenaar waren van de infrastructuur en het handelsfonds doet daaraan geen afbreuk. Het Hof wenst in dit verband en ten overvloede te bevestigen dat het overduidelijk is dat de initiële overeenkomst een einde nam en vervangen werd door de overeenkomst ondertekend op 13 april 1993. Als zaakvoerder van de BVBA R.D. was de heer R.D. uiteraard op de hoogte van het bestaan en de inhoud van de tweede overeenkomst en derhalve van het feit dat alle rechten en verplichtingen, die voor de echtgenoten R.D.-L.V. voortsproten uit de overeenkomst van 27 februari 1990, vanaf april 1993 werden toegekend of opgelegd aan de BVBA. Dat de echtgenoten R.D.-L.V. thans trachten munt te slaan uit het feit dat juridisch een onderscheid moet worden gemaakt tussen de heer R.D., optredend in eigen naam als natuurlijke persoon, en de heer R.D., optredend in zijn hoedanigheid van zaakvoerder van de BVBA R.D., is dan ook volkomen misplaatst. Het staat immers niet ter discussie dat, sedert het sluiten van de nieuwe overeenkomst, alle bestellingen werden geplaatst in naam en voor rekening van de BVBA, terwijl door de echtgenoten R.D.-L.V. in eigen naam geen enkele bestelling meer werd geplaatst. Dit gegeven gekoppeld aan het feit dat zij noodzakelijk op de hoogte waren van het bestaan van de tweede overeenkomst, zonder desbetreffend enig protest te uiten, volstaat als bewijs dat zij hebben ingestemd met de beëindiging van de eerste overeenkomst en de vervanging ervan door de tweede overeenkomst. Gelet op het voorgaande is het hoger beroep niet gegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-005",
+          "ART-ECLI:BE:AHANT:20011212.7-003",
+          "ART-ECLI:BE:AHANT:20011212.7-004",
+          "ART-ECLI:BE:AHANT:20011212.7-006",
+          "ART-ECLI:BE:AHANT:20011212.7-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-002",
+          "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig de gemeenrechtelijke regels inzake de bewijsvoering behoort het aan de echtgenoten R.D.-L.V. het bewijs te leveren van het bestaan van de arbeidsovereenkomst waarop zij hun vorderingen steunen. Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten (vgl. artikelen 2 en 3 Arbeidsovereen-komstenwet). Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding. Het ontbreken van een overeenkomst m.b.t. één van deze wezenlijke elementen impliceert meteen noodzakelijk dat partijen niet verbonden zijn door een arbeidsovereenkomst. (vgl. m.b.t. het loon als wezenlijk element van de arbeidsovereenkomst Cass. 6 maart 2000, Arr. Cass. 2000, 154; Cass. 25 mei 1998, Arr. Cass. 1998, 270; DE VOS, M. \"Loon naar Belgisch arbeidsovereenkomstenrecht\", MAKLU, 2001, 80-170 en de aldaar geciteerde rechtspraak en rechtsleer) In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding. Vooreerst laat geen enkel element uit het dossier toe te besluiten dat de NV tegenover de echtgenoten R.D.-L.V. een loonverbintenis is aangegaan, terwijl het ook niet ter discussie staat dat de echtgenoten R.D.-L.V. nooit loon voor hun prestaties hebben ontvangen, wat zij overigens precies aanvoeren als oorzaak voor de vorderingen gesteld in de inleidende dagvaarding. Het blijkt integendeel uit de voorgebrachte overeenkomsten dat, aanvankelijk met de echtgenoten R.D.-L.V. en later met de BVBA R.D., een overeenkomst werd aangegaan waarbij (in essentie) de NV zich ertoe verbond de infrastructuur van het dienststation ter beschikking te stellen, terwijl de uitbaters zich ertoe verbonden dit station op de overeengekomen wijze uit te baten en zich exclusief bij de NV te bevoorraden m.b.t. motorbrandstoffen, smeermiddelen verwarmings-brandstoffen en andere aanverwante producten, aan overeengekomen prijzen. Over de (mogelijke) inkomsten van de echtgenoten R.D.-L.V. uit de overeengekomen uitbating, bewaren deze overeenkomsten echter het stilzwijgen. Concreet bestonden de inkomsten die de echtgenoten R.D.-L.V. en de BVBA R.D. in het kader van de uitbating behaalden, uit de door hen gerealiseerde winst, met name het verschil tussen de door hen betaalde aankoopprijs voor de door de NV geleverde producten en de vanwege de klanten ontvangen verkoopprijs, eventueel aangevuld met de winsten gerealiseerd in het kader van de verkoop van andere producten of het leveren van bijkomende diensten. Het is dan ook volkomen terecht dat de NV besluit tot de afwezigheid van het voor het bestaan van een arbeidsovereenkomst onontbeerlijke loonelement (vgl. eerste beroepsconclusies van de NV p.21). Het verweer dat de echtgenoten R.D.-L.V. in dit kader ontwikkelen (vgl. eerste beroepsconclusie van de echtgenoten R.D.-L.V. p.9) is manifest onjuist. Zonder overeengekomen loon is er immers geen sprake van een arbeidsovereenkomst en derhalve evenmin van een verplichting om loon te betalen. A fortiori vinden de door de echtgenoten R.D.-L.V. ingeroepen collectieve arbeidsovereenkomsten m.b.t. de betaling van een minimumloon, geen toepassing nu deze overeenkomsten het bestaan van een arbeidsovereenkomst vooronderstellen (vgl. DEVOS, M., o.c., 90-91 en de aldaar geciteerde rechtsleer). Evenzeer ontbreekt in casu het bewijs van het bestaan van een voor de arbeidsovereenkomst kenmerkende gezagsverhouding, terwijl het in dit kader geformuleerde bewijsaanbod als niet dienend moet worden afgewezen, nu het niet van aard is de besluitvorming in dit dossier te beïnvloeden. De op de echtgenoten R.D.-L.V. in het kader van de op 27 februari 1990 gesloten overeenkomst rustende verplichtingen en de uit diezelfde overeenkomst aan de NV toegekende correlatieve rechten blijken immers inherent te zijn aan de aard van deze overeenkomst en de inschakeling ervan in een groot commercieel geheel, zonder dat zij evenwel doen blijken van een juridische ondergeschiktheid. De echtgenoten R.D.-L.V. hechten in dit verband blijkbaar zeer veel belang aan de verplichting de aanbevelingen van de NV te respecteren, opgenomen in artikel 6 van de overeenkomst van 27 februari 1990, doch bij nazicht blijkt de overeenkomst in dit verband telkens te verwijzen naar aanbevelingen die werden vermeld of nog zouden worden vermeld in een handboek, handboek dat zij evenwel niet neerleggen en waarvan zij de inhoud niet preciseren. Wat in casu hoe dan ook ontbreekt is het bewijs van bevelen en/of verplichtingen inzake de organisatie en de uitvoering van de arbeid, die het kader van een samenwerking op zelfstandige basis overstijgen en die wijzen op een gezagsverhouding. Het is in dit verband belangwekkend de beperkingen die aan de echtgenoten R.D.-L.V. contractueel werden of konden worden opgelegd, te vergelijken met de vrijheid van handelen die hen restte bij de uitbating van het dienststation. Een eerste frappante vaststelling daarbij is het ontbreken van de verplichting voor de echtgenoten R.D.-L.V. om zelf de prestaties die het (hoofd)voorwerp van de overeenkomst uitmaken (verkoop aan klanten van motorbrandstoffen en het verlenen van onderhouds- en herstellingsdiensten) te verrichten. De overeenkomst bevat integendeel verschillende bepalingen waaruit blijkt dat rekening werd gehouden met de mogelijkheid voor de echtgenoten R.D.-L.V. om door henzelf betaald personeel in te schakelen en hen zelfs de verplichting oplegt \"altijd voldoende en geschoold personeel\" te hebben.(vgl. art.6,4 stuk 1 bundel de echtgenoten R.D.-L.V.). Eenzelfde bemerking geldt de verplichting tot het houden van een wettelijke boekhouding, die de echtgenoten R.D.-L.V., overeenkomstig het bepaalde in artikel 6, 5 van de overeenkomst, konden laten bijhouden door een derde, eens te meer op hun kosten. A fortiori werd in de overeenkomst nergens bepaald dat de echtgenoten R.D.-L.V. samen dienden in te staan voor de verkoop en de te verlenen diensten, zodat zij onderling volledig vrij konden bepalen wie van beiden wat en wanneer zou doen. Dat de uitbatingsovereenkomst zelf intuitu personae werd afgesloten, zoals bepaald in artikel 13 van de overeenkomst, doet uiteraard geen afbreuk aan het voorgaande. In dezelfde logica ontbreekt evident ook de verplichting voor de echtgenoten R.D.-L.V. om hun eventuele afwezigheden te recht-vaardigen en om een door de NV opgelegde arbeidstijdregeling te respecteren. In dit verband dient er tevens op gewezen te worden dat de openingsuren vrij konden worden bepaald door de echtgenoten R.D.-L.V., mits bij de vaststelling ervan rekening werd gehouden met de plaatselijke gebruiken en de behoeften van de klanten. Evenzeer frappant is de vaststelling dat het bedrijfsrisico van de uitbating volledig werd gelegd op de echtgenoten R.D.-L.V., die contractueel moesten instaan: voor de aankoop van de te koop aangeboden producten waarvan zij ook eigenaar werden, het overgrote gedeelte van de kosten verbonden aan de uitbating, het sluiten van de in dit kader gebruikelijke verzekeringscontracten en daarenboven ook een belangrijke waarborg dienden te stellen teneinde de betaling van de facturen en beschadiging of verdwijning van uitrusting te waarborgen. In de logica van het tussen partijen overeengekomen samenwerkingsverband bestond er uiteraard geen verplichting voor de echtgenoten R.D.-L.V. om de inkomsten van de door hen gerealiseerde verkopen af te rekenen met de NV. Artikel 10 van de overeenkomst maakt de echtgenoten R.D.-L.V. bovendien volledig verantwoordelijk voor de uitbating van het dienststation, met de verplichting de NV te vrijwaren voor alle vorderingen die verband houden met de uitbating. Het is voor het Hof dan ook duidelijk dat de echtgenoten R.D.-L.V. ab initio een eigen onderneming hebben uitgebaat, wat enkele jaren later nog duidelijker bleek toen zij de uitbating van het dienststation verder zetten in het kader van een handelsvennootschap. Dat zij niet de eigenaar waren van de infrastructuur en het handelsfonds doet daaraan geen afbreuk. Het Hof wenst in dit verband en ten overvloede te bevestigen dat het overduidelijk is dat de initiële overeenkomst een einde nam en vervangen werd door de overeenkomst ondertekend op 13 april 1993. Als zaakvoerder van de BVBA R.D. was de heer R.D. uiteraard op de hoogte van het bestaan en de inhoud van de tweede overeenkomst en derhalve van het feit dat alle rechten en verplichtingen, die voor de echtgenoten R.D.-L.V. voortsproten uit de overeenkomst van 27 februari 1990, vanaf april 1993 werden toegekend of opgelegd aan de BVBA. Dat de echtgenoten R.D.-L.V. thans trachten munt te slaan uit het feit dat juridisch een onderscheid moet worden gemaakt tussen de heer R.D., optredend in eigen naam als natuurlijke persoon, en de heer R.D., optredend in zijn hoedanigheid van zaakvoerder van de BVBA R.D., is dan ook volkomen misplaatst. Het staat immers niet ter discussie dat, sedert het sluiten van de nieuwe overeenkomst, alle bestellingen werden geplaatst in naam en voor rekening van de BVBA, terwijl door de echtgenoten R.D.-L.V. in eigen naam geen enkele bestelling meer werd geplaatst. Dit gegeven gekoppeld aan het feit dat zij noodzakelijk op de hoogte waren van het bestaan van de tweede overeenkomst, zonder desbetreffend enig protest te uiten, volstaat als bewijs dat zij hebben ingestemd met de beëindiging van de eerste overeenkomst en de vervanging ervan door de tweede overeenkomst. Gelet op het voorgaande is het hoger beroep niet gegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-006",
+          "ART-ECLI:BE:AHANT:20011212.7-003",
+          "ART-ECLI:BE:AHANT:20011212.7-004",
+          "ART-ECLI:BE:AHANT:20011212.7-005",
+          "ART-ECLI:BE:AHANT:20011212.7-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-002",
+          "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig de gemeenrechtelijke regels inzake de bewijsvoering behoort het aan de echtgenoten R.D.-L.V. het bewijs te leveren van het bestaan van de arbeidsovereenkomst waarop zij hun vorderingen steunen. Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten (vgl. artikelen 2 en 3 Arbeidsovereen-komstenwet). Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding. Het ontbreken van een overeenkomst m.b.t. één van deze wezenlijke elementen impliceert meteen noodzakelijk dat partijen niet verbonden zijn door een arbeidsovereenkomst. (vgl. m.b.t. het loon als wezenlijk element van de arbeidsovereenkomst Cass. 6 maart 2000, Arr. Cass. 2000, 154; Cass. 25 mei 1998, Arr. Cass. 1998, 270; DE VOS, M. \"Loon naar Belgisch arbeidsovereenkomstenrecht\", MAKLU, 2001, 80-170 en de aldaar geciteerde rechtspraak en rechtsleer) In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding. Vooreerst laat geen enkel element uit het dossier toe te besluiten dat de NV tegenover de echtgenoten R.D.-L.V. een loonverbintenis is aangegaan, terwijl het ook niet ter discussie staat dat de echtgenoten R.D.-L.V. nooit loon voor hun prestaties hebben ontvangen, wat zij overigens precies aanvoeren als oorzaak voor de vorderingen gesteld in de inleidende dagvaarding. Het blijkt integendeel uit de voorgebrachte overeenkomsten dat, aanvankelijk met de echtgenoten R.D.-L.V. en later met de BVBA R.D., een overeenkomst werd aangegaan waarbij (in essentie) de NV zich ertoe verbond de infrastructuur van het dienststation ter beschikking te stellen, terwijl de uitbaters zich ertoe verbonden dit station op de overeengekomen wijze uit te baten en zich exclusief bij de NV te bevoorraden m.b.t. motorbrandstoffen, smeermiddelen verwarmings-brandstoffen en andere aanverwante producten, aan overeengekomen prijzen. Over de (mogelijke) inkomsten van de echtgenoten R.D.-L.V. uit de overeengekomen uitbating, bewaren deze overeenkomsten echter het stilzwijgen. Concreet bestonden de inkomsten die de echtgenoten R.D.-L.V. en de BVBA R.D. in het kader van de uitbating behaalden, uit de door hen gerealiseerde winst, met name het verschil tussen de door hen betaalde aankoopprijs voor de door de NV geleverde producten en de vanwege de klanten ontvangen verkoopprijs, eventueel aangevuld met de winsten gerealiseerd in het kader van de verkoop van andere producten of het leveren van bijkomende diensten. Het is dan ook volkomen terecht dat de NV besluit tot de afwezigheid van het voor het bestaan van een arbeidsovereenkomst onontbeerlijke loonelement (vgl. eerste beroepsconclusies van de NV p.21). Het verweer dat de echtgenoten R.D.-L.V. in dit kader ontwikkelen (vgl. eerste beroepsconclusie van de echtgenoten R.D.-L.V. p.9) is manifest onjuist. Zonder overeengekomen loon is er immers geen sprake van een arbeidsovereenkomst en derhalve evenmin van een verplichting om loon te betalen. A fortiori vinden de door de echtgenoten R.D.-L.V. ingeroepen collectieve arbeidsovereenkomsten m.b.t. de betaling van een minimumloon, geen toepassing nu deze overeenkomsten het bestaan van een arbeidsovereenkomst vooronderstellen (vgl. DEVOS, M., o.c., 90-91 en de aldaar geciteerde rechtsleer). Evenzeer ontbreekt in casu het bewijs van het bestaan van een voor de arbeidsovereenkomst kenmerkende gezagsverhouding, terwijl het in dit kader geformuleerde bewijsaanbod als niet dienend moet worden afgewezen, nu het niet van aard is de besluitvorming in dit dossier te beïnvloeden. De op de echtgenoten R.D.-L.V. in het kader van de op 27 februari 1990 gesloten overeenkomst rustende verplichtingen en de uit diezelfde overeenkomst aan de NV toegekende correlatieve rechten blijken immers inherent te zijn aan de aard van deze overeenkomst en de inschakeling ervan in een groot commercieel geheel, zonder dat zij evenwel doen blijken van een juridische ondergeschiktheid. De echtgenoten R.D.-L.V. hechten in dit verband blijkbaar zeer veel belang aan de verplichting de aanbevelingen van de NV te respecteren, opgenomen in artikel 6 van de overeenkomst van 27 februari 1990, doch bij nazicht blijkt de overeenkomst in dit verband telkens te verwijzen naar aanbevelingen die werden vermeld of nog zouden worden vermeld in een handboek, handboek dat zij evenwel niet neerleggen en waarvan zij de inhoud niet preciseren. Wat in casu hoe dan ook ontbreekt is het bewijs van bevelen en/of verplichtingen inzake de organisatie en de uitvoering van de arbeid, die het kader van een samenwerking op zelfstandige basis overstijgen en die wijzen op een gezagsverhouding. Het is in dit verband belangwekkend de beperkingen die aan de echtgenoten R.D.-L.V. contractueel werden of konden worden opgelegd, te vergelijken met de vrijheid van handelen die hen restte bij de uitbating van het dienststation. Een eerste frappante vaststelling daarbij is het ontbreken van de verplichting voor de echtgenoten R.D.-L.V. om zelf de prestaties die het (hoofd)voorwerp van de overeenkomst uitmaken (verkoop aan klanten van motorbrandstoffen en het verlenen van onderhouds- en herstellingsdiensten) te verrichten. De overeenkomst bevat integendeel verschillende bepalingen waaruit blijkt dat rekening werd gehouden met de mogelijkheid voor de echtgenoten R.D.-L.V. om door henzelf betaald personeel in te schakelen en hen zelfs de verplichting oplegt \"altijd voldoende en geschoold personeel\" te hebben.(vgl. art.6,4 stuk 1 bundel de echtgenoten R.D.-L.V.). Eenzelfde bemerking geldt de verplichting tot het houden van een wettelijke boekhouding, die de echtgenoten R.D.-L.V., overeenkomstig het bepaalde in artikel 6, 5 van de overeenkomst, konden laten bijhouden door een derde, eens te meer op hun kosten. A fortiori werd in de overeenkomst nergens bepaald dat de echtgenoten R.D.-L.V. samen dienden in te staan voor de verkoop en de te verlenen diensten, zodat zij onderling volledig vrij konden bepalen wie van beiden wat en wanneer zou doen. Dat de uitbatingsovereenkomst zelf intuitu personae werd afgesloten, zoals bepaald in artikel 13 van de overeenkomst, doet uiteraard geen afbreuk aan het voorgaande. In dezelfde logica ontbreekt evident ook de verplichting voor de echtgenoten R.D.-L.V. om hun eventuele afwezigheden te recht-vaardigen en om een door de NV opgelegde arbeidstijdregeling te respecteren. In dit verband dient er tevens op gewezen te worden dat de openingsuren vrij konden worden bepaald door de echtgenoten R.D.-L.V., mits bij de vaststelling ervan rekening werd gehouden met de plaatselijke gebruiken en de behoeften van de klanten. Evenzeer frappant is de vaststelling dat het bedrijfsrisico van de uitbating volledig werd gelegd op de echtgenoten R.D.-L.V., die contractueel moesten instaan: voor de aankoop van de te koop aangeboden producten waarvan zij ook eigenaar werden, het overgrote gedeelte van de kosten verbonden aan de uitbating, het sluiten van de in dit kader gebruikelijke verzekeringscontracten en daarenboven ook een belangrijke waarborg dienden te stellen teneinde de betaling van de facturen en beschadiging of verdwijning van uitrusting te waarborgen. In de logica van het tussen partijen overeengekomen samenwerkingsverband bestond er uiteraard geen verplichting voor de echtgenoten R.D.-L.V. om de inkomsten van de door hen gerealiseerde verkopen af te rekenen met de NV. Artikel 10 van de overeenkomst maakt de echtgenoten R.D.-L.V. bovendien volledig verantwoordelijk voor de uitbating van het dienststation, met de verplichting de NV te vrijwaren voor alle vorderingen die verband houden met de uitbating. Het is voor het Hof dan ook duidelijk dat de echtgenoten R.D.-L.V. ab initio een eigen onderneming hebben uitgebaat, wat enkele jaren later nog duidelijker bleek toen zij de uitbating van het dienststation verder zetten in het kader van een handelsvennootschap. Dat zij niet de eigenaar waren van de infrastructuur en het handelsfonds doet daaraan geen afbreuk. Het Hof wenst in dit verband en ten overvloede te bevestigen dat het overduidelijk is dat de initiële overeenkomst een einde nam en vervangen werd door de overeenkomst ondertekend op 13 april 1993. Als zaakvoerder van de BVBA R.D. was de heer R.D. uiteraard op de hoogte van het bestaan en de inhoud van de tweede overeenkomst en derhalve van het feit dat alle rechten en verplichtingen, die voor de echtgenoten R.D.-L.V. voortsproten uit de overeenkomst van 27 februari 1990, vanaf april 1993 werden toegekend of opgelegd aan de BVBA. Dat de echtgenoten R.D.-L.V. thans trachten munt te slaan uit het feit dat juridisch een onderscheid moet worden gemaakt tussen de heer R.D., optredend in eigen naam als natuurlijke persoon, en de heer R.D., optredend in zijn hoedanigheid van zaakvoerder van de BVBA R.D., is dan ook volkomen misplaatst. Het staat immers niet ter discussie dat, sedert het sluiten van de nieuwe overeenkomst, alle bestellingen werden geplaatst in naam en voor rekening van de BVBA, terwijl door de echtgenoten R.D.-L.V. in eigen naam geen enkele bestelling meer werd geplaatst. Dit gegeven gekoppeld aan het feit dat zij noodzakelijk op de hoogte waren van het bestaan van de tweede overeenkomst, zonder desbetreffend enig protest te uiten, volstaat als bewijs dat zij hebben ingestemd met de beëindiging van de eerste overeenkomst en de vervanging ervan door de tweede overeenkomst. Gelet op het voorgaande is het hoger beroep niet gegrond.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-007",
+          "ART-ECLI:BE:AHANT:20011212.7-003",
+          "ART-ECLI:BE:AHANT:20011212.7-004",
+          "ART-ECLI:BE:AHANT:20011212.7-005",
+          "ART-ECLI:BE:AHANT:20011212.7-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-002",
+          "DEC-ECLI:BE:AHANT:2001:ARR.20011212.7-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Gelet op de bepalingen van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken. Recht doende op tegenspraak. Verklaart het hoger beroep en het incidenteel beroep ontvankelijk doch ongegrond. Bevestigt het vonnis van de Arbeidsrechtbank te Antwerpen van 20 oktober 1998. Legt de kosten van hoger beroep ten laste van de echtgenoten R.D.-L.V.. Vereffent deze aan de zijde van geïntimeerde op 10.560 BEF rechtsplegingsvergoeding en vereffent deze aan de zijde van appellanten eveneens op 10.560 BEF. Aldus gewezen en uitgesproken door de tweede kamer van het Arbeidshof te Antwerpen, afdeling Antwerpen, zitting houdend te Antwerpen op de openbare terechtzitting van 12 december 2001, waar aanwezig waren : mevrouw L. BOEYKENS, Raadsheer wnd. Voorzitter, de heer, F. GIELEN, Raadsheer in sociale zaken, als werkgever, aangewezen bij beschikking d.d. 12 december 2001 door mevrouw L. BOEYKENS, Raadsheer, waarnemend Voorzitter, die de Eerste Voorzitter, verhinderd zijnde, vervangt (artikel 319, eerste lid Ger.W.) om de heer D. VAN DEN BOSSCHE, Raadsheer in sociale zaken, als werkgever, die wettig verhinderd is om de uitspraak van dit arrest, waarover hij mede beraadslaagd heeft, bij te wonen, op het ogenblik van de uitspraak te vervangen. (art. 779 Ger.W.) de heer M. WEYNS, Raadsheer in sociale zaken als werknemer-bediende, mevrouw L. PELEMANS, Griffier.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-008",
+          "ART-ECLI:BE:AHANT:20011212.7-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:AHANT:20011212.7-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Gelet op de bepalingen van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken. Recht doende op tegenspraak. Verklaart het hoger beroep en het incidenteel beroep ontvankelijk doch ongegrond. Bevestigt het vonnis van de Arbeidsrechtbank te Antwerpen van 20 oktober 1998. Legt de kosten van hoger beroep ten laste van de echtgenoten R.D.-L.V.. Vereffent deze aan de zijde van geïntimeerde op 10.560 BEF rechtsplegingsvergoeding en vereffent deze aan de zijde van appellanten eveneens op 10.560 BEF. Aldus gewezen en uitgesproken door de tweede kamer van het Arbeidshof te Antwerpen, afdeling Antwerpen, zitting houdend te Antwerpen op de openbare terechtzitting van 12 december 2001, waar aanwezig waren : mevrouw L. BOEYKENS, Raadsheer wnd. Voorzitter, de heer, F. GIELEN, Raadsheer in sociale zaken, als werkgever, aangewezen bij beschikking d.d. 12 december 2001 door mevrouw L. BOEYKENS, Raadsheer, waarnemend Voorzitter, die de Eerste Voorzitter, verhinderd zijnde, vervangt (artikel 319, eerste lid Ger.W.) om de heer D. VAN DEN BOSSCHE, Raadsheer in sociale zaken, als werkgever, die wettig verhinderd is om de uitspraak van dit arrest, waarover hij mede beraadslaagd heeft, bij te wonen, op het ogenblik van de uitspraak te vervangen. (art. 779 Ger.W.) de heer M. WEYNS, Raadsheer in sociale zaken als werknemer-bediende, mevrouw L. PELEMANS, Griffier.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:AHANT:20011212.7-009",
+          "ART-ECLI:BE:AHANT:20011212.7-008"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 9,
+      "citationStatistics": {
+        "totalCitations": 9,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 9,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.4444444444444446,
+        "avgDecisionsPerProvision": 1.1111111111111112,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig de gemeenrechtelijke regels inzake de bewijsvoering behoort het aan de echtgenoten R.D.-L.V. het bewijs te leveren van het bestaan van de arbeidsovereenkomst waarop zij hun vorderingen steunen. Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten (vgl. artikelen 2 en 3 Arbeidsovereen-komstenwet). Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding. Het ontbreken van een overeenkomst m.b.t. één van deze wezenlijke elementen impliceert meteen noodzakelijk dat partijen niet verbonden zijn door een arbeidsovereenkomst. (vgl. m.b.t. het loon als wezenlijk element van de arbeidsovereenkomst Cass. 6 maart 2000, Arr. Cass. 2000, 154; Cass. 25 mei 1998, Arr. Cass. 1998, 270; DE VOS, M. \"Loon naar Belgisch arbeidsovereenkomstenrecht\", MAKLU, 2001, 80-170 en de aldaar geciteerde rechtspraak en rechtsleer) In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding. Vooreerst laat geen enkel element uit het dossier toe te besluiten dat de NV tegenover de echtgenoten R.D.-L.V. een loonverbintenis is aangegaan, terwijl het ook niet ter discussie staat dat de echtgenoten R.D.-L.V. nooit loon voor hun prestaties hebben ontvangen, wat zij overigens precies aanvoeren als oorzaak voor de vorderingen gesteld in de inleidende dagvaarding. Het blijkt integendeel uit de voorgebrachte overeenkomsten dat, aanvankelijk met de echtgenoten R.D.-L.V. en later met de BVBA R.D., een overeenkomst werd aangegaan waarbij (in essentie) de NV zich ertoe verbond de infrastructuur van het dienststation ter beschikking te stellen, terwijl de uitbaters zich ertoe verbonden dit station op de overeengekomen wijze uit te baten en zich exclusief bij de NV te bevoorraden m.b.t. motorbrandstoffen, smeermiddelen verwarmings-brandstoffen en andere aanverwante producten, aan overeengekomen prijzen. Over de (mogelijke) inkomsten van de echtgenoten R.D.-L.V. uit de overeengekomen uitbating, bewaren deze overeenkomsten echter het stilzwijgen. Concreet bestonden de inkomsten die de echtgenoten R.D.-L.V. en de BVBA R.D. in het kader van de uitbating behaalden, uit de door hen gerealiseerde winst, met name het verschil tussen de door hen betaalde aankoopprijs voor de door de NV geleverde producten en de vanwege de klanten ontvangen verkoopprijs, eventueel aangevuld met de winsten gerealiseerd in het kader van de verkoop van andere producten of het leveren van bijkomende diensten. Het is dan ook volkomen terecht dat de NV besluit tot de afwezigheid van het voor het bestaan van een arbeidsovereenkomst onontbeerlijke loonelement (vgl. eerste beroepsconclusies van de NV p.21). Het verweer dat de echtgenoten R.D.-L.V. in dit kader ontwikkelen (vgl. eerste beroepsconclusie van de echtgenoten R.D.-L.V. p.9) is manifest onjuist. Zonder overeengekomen loon is er immers geen sprake van een arbeidsovereenkomst en derhalve evenmin van een verplichting om loon te betalen. A fortiori vinden de door de echtgenoten R.D.-L.V. ingeroepen collectieve arbeidsovereenkomsten m.b.t. de betaling van een minimumloon, geen toepassing nu deze overeenkomsten het bestaan van een arbeidsovereenkomst vooronderstellen (vgl. DEVOS, M., o.c., 90-91 en de aldaar geciteerde rechtsleer). Evenzeer ontbreekt in casu het bewijs van het bestaan van een voor de arbeidsovereenkomst kenmerkende gezagsverhouding, terwijl het in dit kader geformuleerde bewijsaanbod als niet dienend moet worden afgewezen, nu het niet van aard is de besluitvorming in dit dossier te beïnvloeden. De op de echtgenoten R.D.-L.V. in het kader van de op 27 februari 1990 gesloten overeenkomst rustende verplichtingen en de uit diezelfde overeenkomst aan de NV toegekende correlatieve rechten blijken immers inherent te zijn aan de aard van deze overeenkomst en de inschakeling ervan in een groot commercieel geheel, zonder dat zij evenwel doen blijken van een juridische ondergeschiktheid. De echtgenoten R.D.-L.V. hechten in dit verband blijkbaar zeer veel belang aan de verplichting de aanbevelingen van de NV te respecteren, opgenomen in artikel 6 van de overeenkomst van 27 februari 1990, doch bij nazicht blijkt de overeenkomst in dit verband telkens te verwijzen naar aanbevelingen die werden vermeld of nog zouden worden vermeld in een handboek, handboek dat zij evenwel niet neerleggen en waarvan zij de inhoud niet preciseren. Wat in casu hoe dan ook ontbreekt is het bewijs van bevelen en/of verplichtingen inzake de organisatie en de uitvoering van de arbeid, die het kader van een samenwerking op zelfstandige basis overstijgen en die wijzen op een gezagsverhouding. Het is in dit verband belangwekkend de beperkingen die aan de echtgenoten R.D.-L.V. contractueel werden of konden worden opgelegd, te vergelijken met de vrijheid van handelen die hen restte bij de uitbating van het dienststation. Een eerste frappante vaststelling daarbij is het ontbreken van de verplichting voor de echtgenoten R.D.-L.V. om zelf de prestaties die het (hoofd)voorwerp van de overeenkomst uitmaken (verkoop aan klanten van motorbrandstoffen en het verlenen van onderhouds- en herstellingsdiensten) te verrichten. De overeenkomst bevat integendeel verschillende bepalingen waaruit blijkt dat rekening werd gehouden met de mogelijkheid voor de echtgenoten R.D.-L.V. om door henzelf betaald personeel in te schakelen en hen zelfs de verplichting oplegt \"altijd voldoende en geschoold personeel\" te hebben.(vgl. art.6,4 stuk 1 bundel de echtgenoten R.D.-L.V.). Eenzelfde bemerking geldt de verplichting tot het houden van een wettelijke boekhouding, die de echtgenoten R.D.-L.V., overeenkomstig het bepaalde in artikel 6, 5 van de overeenkomst, konden laten bijhouden door een derde, eens te meer op hun kosten. A fortiori werd in de overeenkomst nergens bepaald dat de echtgenoten R.D.-L.V. samen dienden in te staan voor de verkoop en de te verlenen diensten, zodat zij onderling volledig vrij konden bepalen wie van beiden wat en wanneer zou doen. Dat de uitbatingsovereenkomst zelf intuitu personae werd afgesloten, zoals bepaald in artikel 13 van de overeenkomst, doet uiteraard geen afbreuk aan het voorgaande. In dezelfde logica ontbreekt evident ook de verplichting voor de echtgenoten R.D.-L.V. om hun eventuele afwezigheden te recht-vaardigen en om een door de NV opgelegde arbeidstijdregeling te respecteren. In dit verband dient er tevens op gewezen te worden dat de openingsuren vrij konden worden bepaald door de echtgenoten R.D.-L.V., mits bij de vaststelling ervan rekening werd gehouden met de plaatselijke gebruiken en de behoeften van de klanten. Evenzeer frappant is de vaststelling dat het bedrijfsrisico van de uitbating volledig werd gelegd op de echtgenoten R.D.-L.V., die contractueel moesten instaan: voor de aankoop van de te koop aangeboden producten waarvan zij ook eigenaar werden, het overgrote gedeelte van de kosten verbonden aan de uitbating, het sluiten van de in dit kader gebruikelijke verzekeringscontracten en daarenboven ook een belangrijke waarborg dienden te stellen teneinde de betaling van de facturen en beschadiging of verdwijning van uitrusting te waarborgen. In de logica van het tussen partijen overeengekomen samenwerkingsverband bestond er uiteraard geen verplichting voor de echtgenoten R.D.-L.V. om de inkomsten van de door hen gerealiseerde verkopen af te rekenen met de NV. Artikel 10 van de overeenkomst maakt de echtgenoten R.D.-L.V. bovendien volledig verantwoordelijk voor de uitbating van het dienststation, met de verplichting de NV te vrijwaren voor alle vorderingen die verband houden met de uitbating. Het is voor het Hof dan ook duidelijk dat de echtgenoten R.D.-L.V. ab initio een eigen onderneming hebben uitgebaat, wat enkele jaren later nog duidelijker bleek toen zij de uitbating van het dienststation verder zetten in het kader van een handelsvennootschap. Dat zij niet de eigenaar waren van de infrastructuur en het handelsfonds doet daaraan geen afbreuk. Het Hof wenst in dit verband en ten overvloede te bevestigen dat het overduidelijk is dat de initiële overeenkomst een einde nam en vervangen werd door de overeenkomst ondertekend op 13 april 1993. Als zaakvoerder van de BVBA R.D. was de heer R.D. uiteraard op de hoogte van het bestaan en de inhoud van de tweede overeenkomst en derhalve van het feit dat alle rechten en verplichtingen, die voor de echtgenoten R.D.-L.V. voortsproten uit de overeenkomst van 27 februari 1990, vanaf april 1993 werden toegekend of opgelegd aan de BVBA. Dat de echtgenoten R.D.-L.V. thans trachten munt te slaan uit het feit dat juridisch een onderscheid moet worden gemaakt tussen de heer R.D., optredend in eigen naam als natuurlijke persoon, en de heer R.D., optredend in zijn hoedanigheid van zaakvoerder van de BVBA R.D., is dan ook volkomen misplaatst. Het staat immers niet ter discussie dat, sedert het sluiten van de nieuwe overeenkomst, alle bestellingen werden geplaatst in naam en voor rekening van de BVBA, terwijl door de echtgenoten R.D.-L.V. in eigen naam geen enkele bestelling meer werd geplaatst. Dit gegeven gekoppeld aan het feit dat zij noodzakelijk op de hoogte waren van het bestaan van de tweede overeenkomst, zonder desbetreffend enig protest te uiten, volstaat als bewijs dat zij hebben ingestemd met de beëindiging van de eerste overeenkomst en de vervanging ervan door de tweede overeenkomst. Gelet op het voorgaande is het hoger beroep niet gegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig de gemeenrechtelijke regels inzake de bewijsvoering behoort het aan de echtgenoten R.D.-L.V. het bewijs te leveren van het bestaan van de arbeidsovereenkomst waarop zij hun vorderingen steunen. Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten (vgl. artikelen 2 en 3 Arbeidsovereen-komstenwet). Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding. Het ontbreken van een overeenkomst m.b.t. één van deze wezenlijke elementen impliceert meteen noodzakelijk dat partijen niet verbonden zijn door een arbeidsovereenkomst. (vgl. m.b.t. het loon als wezenlijk element van de arbeidsovereenkomst Cass. 6 maart 2000, Arr. Cass. 2000, 154; Cass. 25 mei 1998, Arr. Cass. 1998, 270; DE VOS, M. \"Loon naar Belgisch arbeidsovereenkomstenrecht\", MAKLU, 2001, 80-170 en de aldaar geciteerde rechtspraak en rechtsleer) In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding. Vooreerst laat geen enkel element uit het dossier toe te besluiten dat de NV tegenover de echtgenoten R.D.-L.V. een loonverbintenis is aangegaan, terwijl het ook niet ter discussie staat dat de echtgenoten R.D.-L.V. nooit loon voor hun prestaties hebben ontvangen, wat zij overigens precies aanvoeren als oorzaak voor de vorderingen gesteld in de inleidende dagvaarding. Het blijkt integendeel uit de voorgebrachte overeenkomsten dat, aanvankelijk met de echtgenoten R.D.-L.V. en later met de BVBA R.D., een overeenkomst werd aangegaan waarbij (in essentie) de NV zich ertoe verbond de infrastructuur van het dienststation ter beschikking te stellen, terwijl de uitbaters zich ertoe verbonden dit station op de overeengekomen wijze uit te baten en zich exclusief bij de NV te bevoorraden m.b.t. motorbrandstoffen, smeermiddelen verwarmings-brandstoffen en andere aanverwante producten, aan overeengekomen prijzen. Over de (mogelijke) inkomsten van de echtgenoten R.D.-L.V. uit de overeengekomen uitbating, bewaren deze overeenkomsten echter het stilzwijgen. Concreet bestonden de inkomsten die de echtgenoten R.D.-L.V. en de BVBA R.D. in het kader van de uitbating behaalden, uit de door hen gerealiseerde winst, met name het verschil tussen de door hen betaalde aankoopprijs voor de door de NV geleverde producten en de vanwege de klanten ontvangen verkoopprijs, eventueel aangevuld met de winsten gerealiseerd in het kader van de verkoop van andere producten of het leveren van bijkomende diensten. Het is dan ook volkomen terecht dat de NV besluit tot de afwezigheid van het voor het bestaan van een arbeidsovereenkomst onontbeerlijke loonelement (vgl. eerste beroepsconclusies van de NV p.21). Het verweer dat de echtgenoten R.D.-L.V. in dit kader ontwikkelen (vgl. eerste beroepsconclusie van de echtgenoten R.D.-L.V. p.9) is manifest onjuist. Zonder overeengekomen loon is er immers geen sprake van een arbeidsovereenkomst en derhalve evenmin van een verplichting om loon te betalen. A fortiori vinden de door de echtgenoten R.D.-L.V. ingeroepen collectieve arbeidsovereenkomsten m.b.t. de betaling van een minimumloon, geen toepassing nu deze overeenkomsten het bestaan van een arbeidsovereenkomst vooronderstellen (vgl. DEVOS, M., o.c., 90-91 en de aldaar geciteerde rechtsleer). Evenzeer ontbreekt in casu het bewijs van het bestaan van een voor de arbeidsovereenkomst kenmerkende gezagsverhouding, terwijl het in dit kader geformuleerde bewijsaanbod als niet dienend moet worden afgewezen, nu het niet van aard is de besluitvorming in dit dossier te beïnvloeden. De op de echtgenoten R.D.-L.V. in het kader van de op 27 februari 1990 gesloten overeenkomst rustende verplichtingen en de uit diezelfde overeenkomst aan de NV toegekende correlatieve rechten blijken immers inherent te zijn aan de aard van deze overeenkomst en de inschakeling ervan in een groot commercieel geheel, zonder dat zij evenwel doen blijken van een juridische ondergeschiktheid. De echtgenoten R.D.-L.V. hechten in dit verband blijkbaar zeer veel belang aan de verplichting de aanbevelingen van de NV te respecteren, opgenomen in artikel 6 van de overeenkomst van 27 februari 1990, doch bij nazicht blijkt de overeenkomst in dit verband telkens te verwijzen naar aanbevelingen die werden vermeld of nog zouden worden vermeld in een handboek, handboek dat zij evenwel niet neerleggen en waarvan zij de inhoud niet preciseren. Wat in casu hoe dan ook ontbreekt is het bewijs van bevelen en/of verplichtingen inzake de organisatie en de uitvoering van de arbeid, die het kader van een samenwerking op zelfstandige basis overstijgen en die wijzen op een gezagsverhouding. Het is in dit verband belangwekkend de beperkingen die aan de echtgenoten R.D.-L.V. contractueel werden of konden worden opgelegd, te vergelijken met de vrijheid van handelen die hen restte bij de uitbating van het dienststation. Een eerste frappante vaststelling daarbij is het ontbreken van de verplichting voor de echtgenoten R.D.-L.V. om zelf de prestaties die het (hoofd)voorwerp van de overeenkomst uitmaken (verkoop aan klanten van motorbrandstoffen en het verlenen van onderhouds- en herstellingsdiensten) te verrichten. De overeenkomst bevat integendeel verschillende bepalingen waaruit blijkt dat rekening werd gehouden met de mogelijkheid voor de echtgenoten R.D.-L.V. om door henzelf betaald personeel in te schakelen en hen zelfs de verplichting oplegt \"altijd voldoende en geschoold personeel\" te hebben.(vgl. art.6,4 stuk 1 bundel de echtgenoten R.D.-L.V.). Eenzelfde bemerking geldt de verplichting tot het houden van een wettelijke boekhouding, die de echtgenoten R.D.-L.V., overeenkomstig het bepaalde in artikel 6, 5 van de overeenkomst, konden laten bijhouden door een derde, eens te meer op hun kosten. A fortiori werd in de overeenkomst nergens bepaald dat de echtgenoten R.D.-L.V. samen dienden in te staan voor de verkoop en de te verlenen diensten, zodat zij onderling volledig vrij konden bepalen wie van beiden wat en wanneer zou doen. Dat de uitbatingsovereenkomst zelf intuitu personae werd afgesloten, zoals bepaald in artikel 13 van de overeenkomst, doet uiteraard geen afbreuk aan het voorgaande. In dezelfde logica ontbreekt evident ook de verplichting voor de echtgenoten R.D.-L.V. om hun eventuele afwezigheden te recht-vaardigen en om een door de NV opgelegde arbeidstijdregeling te respecteren. In dit verband dient er tevens op gewezen te worden dat de openingsuren vrij konden worden bepaald door de echtgenoten R.D.-L.V., mits bij de vaststelling ervan rekening werd gehouden met de plaatselijke gebruiken en de behoeften van de klanten. Evenzeer frappant is de vaststelling dat het bedrijfsrisico van de uitbating volledig werd gelegd op de echtgenoten R.D.-L.V., die contractueel moesten instaan: voor de aankoop van de te koop aangeboden producten waarvan zij ook eigenaar werden, het overgrote gedeelte van de kosten verbonden aan de uitbating, het sluiten van de in dit kader gebruikelijke verzekeringscontracten en daarenboven ook een belangrijke waarborg dienden te stellen teneinde de betaling van de facturen en beschadiging of verdwijning van uitrusting te waarborgen. In de logica van het tussen partijen overeengekomen samenwerkingsverband bestond er uiteraard geen verplichting voor de echtgenoten R.D.-L.V. om de inkomsten van de door hen gerealiseerde verkopen af te rekenen met de NV. Artikel 10 van de overeenkomst maakt de echtgenoten R.D.-L.V. bovendien volledig verantwoordelijk voor de uitbating van het dienststation, met de verplichting de NV te vrijwaren voor alle vorderingen die verband houden met de uitbating. Het is voor het Hof dan ook duidelijk dat de echtgenoten R.D.-L.V. ab initio een eigen onderneming hebben uitgebaat, wat enkele jaren later nog duidelijker bleek toen zij de uitbating van het dienststation verder zetten in het kader van een handelsvennootschap. Dat zij niet de eigenaar waren van de infrastructuur en het handelsfonds doet daaraan geen afbreuk. Het Hof wenst in dit verband en ten overvloede te bevestigen dat het overduidelijk is dat de initiële overeenkomst een einde nam en vervangen werd door de overeenkomst ondertekend op 13 april 1993. Als zaakvoerder van de BVBA R.D. was de heer R.D. uiteraard op de hoogte van het bestaan en de inhoud van de tweede overeenkomst en derhalve van het feit dat alle rechten en verplichtingen, die voor de echtgenoten R.D.-L.V. voortsproten uit de overeenkomst van 27 februari 1990, vanaf april 1993 werden toegekend of opgelegd aan de BVBA. Dat de echtgenoten R.D.-L.V. thans trachten munt te slaan uit het feit dat juridisch een onderscheid moet worden gemaakt tussen de heer R.D., optredend in eigen naam als natuurlijke persoon, en de heer R.D., optredend in zijn hoedanigheid van zaakvoerder van de BVBA R.D., is dan ook volkomen misplaatst. Het staat immers niet ter discussie dat, sedert het sluiten van de nieuwe overeenkomst, alle bestellingen werden geplaatst in naam en voor rekening van de BVBA, terwijl door de echtgenoten R.D.-L.V. in eigen naam geen enkele bestelling meer werd geplaatst. Dit gegeven gekoppeld aan het feit dat zij noodzakelijk op de hoogte waren van het bestaan van de tweede overeenkomst, zonder desbetreffend enig protest te uiten, volstaat als bewijs dat zij hebben ingestemd met de beëindiging van de eerste overeenkomst en de vervanging ervan door de tweede overeenkomst. Gelet op het voorgaande is het hoger beroep niet gegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:AHANT:20011212.7-008",
+            "DEC-ECLI:BE:AHANT:20011212.7-009"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig de gemeenrechtelijke regels inzake de bewijsvoering behoort het aan de echtgenoten R.D.-L.V. het bewijs te leveren van het bestaan van de arbeidsovereenkomst waarop zij hun vorderingen steunen. Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten (vgl. artikelen 2 en 3 Arbeidsovereen-komstenwet). Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding. Het ontbreken van een overeenkomst m.b.t. één van deze wezenlijke elementen impliceert meteen noodzakelijk dat partijen niet verbonden zijn door een arbeidsovereenkomst. (vgl. m.b.t. het loon als wezenlijk element van de arbeidsovereenkomst Cass. 6 maart 2000, Arr. Cass. 2000, 154; Cass. 25 mei 1998, Arr. Cass. 1998, 270; DE VOS, M. \"Loon naar Belgisch arbeidsovereenkomstenrecht\", MAKLU, 2001, 80-170 en de aldaar geciteerde rechtspraak en rechtsleer) In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding. Vooreerst laat geen enkel element uit het dossier toe te besluiten dat de NV tegenover de echtgenoten R.D.-L.V. een loonverbintenis is aangegaan, terwijl het ook niet ter discussie staat dat de echtgenoten R.D.-L.V. nooit loon voor hun prestaties hebben ontvangen, wat zij overigens precies aanvoeren als oorzaak voor de vorderingen gesteld in de inleidende dagvaarding. Het blijkt integendeel uit de voorgebrachte overeenkomsten dat, aanvankelijk met de echtgenoten R.D.-L.V. en later met de BVBA R.D., een overeenkomst werd aangegaan waarbij (in essentie) de NV zich ertoe verbond de infrastructuur van het dienststation ter beschikking te stellen, terwijl de uitbaters zich ertoe verbonden dit station op de overeengekomen wijze uit te baten en zich exclusief bij de NV te bevoorraden m.b.t. motorbrandstoffen, smeermiddelen verwarmings-brandstoffen en andere aanverwante producten, aan overeengekomen prijzen. Over de (mogelijke) inkomsten van de echtgenoten R.D.-L.V. uit de overeengekomen uitbating, bewaren deze overeenkomsten echter het stilzwijgen. Concreet bestonden de inkomsten die de echtgenoten R.D.-L.V. en de BVBA R.D. in het kader van de uitbating behaalden, uit de door hen gerealiseerde winst, met name het verschil tussen de door hen betaalde aankoopprijs voor de door de NV geleverde producten en de vanwege de klanten ontvangen verkoopprijs, eventueel aangevuld met de winsten gerealiseerd in het kader van de verkoop van andere producten of het leveren van bijkomende diensten. Het is dan ook volkomen terecht dat de NV besluit tot de afwezigheid van het voor het bestaan van een arbeidsovereenkomst onontbeerlijke loonelement (vgl. eerste beroepsconclusies van de NV p.21). Het verweer dat de echtgenoten R.D.-L.V. in dit kader ontwikkelen (vgl. eerste beroepsconclusie van de echtgenoten R.D.-L.V. p.9) is manifest onjuist. Zonder overeengekomen loon is er immers geen sprake van een arbeidsovereenkomst en derhalve evenmin van een verplichting om loon te betalen. A fortiori vinden de door de echtgenoten R.D.-L.V. ingeroepen collectieve arbeidsovereenkomsten m.b.t. de betaling van een minimumloon, geen toepassing nu deze overeenkomsten het bestaan van een arbeidsovereenkomst vooronderstellen (vgl. DEVOS, M., o.c., 90-91 en de aldaar geciteerde rechtsleer). Evenzeer ontbreekt in casu het bewijs van het bestaan van een voor de arbeidsovereenkomst kenmerkende gezagsverhouding, terwijl het in dit kader geformuleerde bewijsaanbod als niet dienend moet worden afgewezen, nu het niet van aard is de besluitvorming in dit dossier te beïnvloeden. De op de echtgenoten R.D.-L.V. in het kader van de op 27 februari 1990 gesloten overeenkomst rustende verplichtingen en de uit diezelfde overeenkomst aan de NV toegekende correlatieve rechten blijken immers inherent te zijn aan de aard van deze overeenkomst en de inschakeling ervan in een groot commercieel geheel, zonder dat zij evenwel doen blijken van een juridische ondergeschiktheid. De echtgenoten R.D.-L.V. hechten in dit verband blijkbaar zeer veel belang aan de verplichting de aanbevelingen van de NV te respecteren, opgenomen in artikel 6 van de overeenkomst van 27 februari 1990, doch bij nazicht blijkt de overeenkomst in dit verband telkens te verwijzen naar aanbevelingen die werden vermeld of nog zouden worden vermeld in een handboek, handboek dat zij evenwel niet neerleggen en waarvan zij de inhoud niet preciseren. Wat in casu hoe dan ook ontbreekt is het bewijs van bevelen en/of verplichtingen inzake de organisatie en de uitvoering van de arbeid, die het kader van een samenwerking op zelfstandige basis overstijgen en die wijzen op een gezagsverhouding. Het is in dit verband belangwekkend de beperkingen die aan de echtgenoten R.D.-L.V. contractueel werden of konden worden opgelegd, te vergelijken met de vrijheid van handelen die hen restte bij de uitbating van het dienststation. Een eerste frappante vaststelling daarbij is het ontbreken van de verplichting voor de echtgenoten R.D.-L.V. om zelf de prestaties die het (hoofd)voorwerp van de overeenkomst uitmaken (verkoop aan klanten van motorbrandstoffen en het verlenen van onderhouds- en herstellingsdiensten) te verrichten. De overeenkomst bevat integendeel verschillende bepalingen waaruit blijkt dat rekening werd gehouden met de mogelijkheid voor de echtgenoten R.D.-L.V. om door henzelf betaald personeel in te schakelen en hen zelfs de verplichting oplegt \"altijd voldoende en geschoold personeel\" te hebben.(vgl. art.6,4 stuk 1 bundel de echtgenoten R.D.-L.V.). Eenzelfde bemerking geldt de verplichting tot het houden van een wettelijke boekhouding, die de echtgenoten R.D.-L.V., overeenkomstig het bepaalde in artikel 6, 5 van de overeenkomst, konden laten bijhouden door een derde, eens te meer op hun kosten. A fortiori werd in de overeenkomst nergens bepaald dat de echtgenoten R.D.-L.V. samen dienden in te staan voor de verkoop en de te verlenen diensten, zodat zij onderling volledig vrij konden bepalen wie van beiden wat en wanneer zou doen. Dat de uitbatingsovereenkomst zelf intuitu personae werd afgesloten, zoals bepaald in artikel 13 van de overeenkomst, doet uiteraard geen afbreuk aan het voorgaande. In dezelfde logica ontbreekt evident ook de verplichting voor de echtgenoten R.D.-L.V. om hun eventuele afwezigheden te recht-vaardigen en om een door de NV opgelegde arbeidstijdregeling te respecteren. In dit verband dient er tevens op gewezen te worden dat de openingsuren vrij konden worden bepaald door de echtgenoten R.D.-L.V., mits bij de vaststelling ervan rekening werd gehouden met de plaatselijke gebruiken en de behoeften van de klanten. Evenzeer frappant is de vaststelling dat het bedrijfsrisico van de uitbating volledig werd gelegd op de echtgenoten R.D.-L.V., die contractueel moesten instaan: voor de aankoop van de te koop aangeboden producten waarvan zij ook eigenaar werden, het overgrote gedeelte van de kosten verbonden aan de uitbating, het sluiten van de in dit kader gebruikelijke verzekeringscontracten en daarenboven ook een belangrijke waarborg dienden te stellen teneinde de betaling van de facturen en beschadiging of verdwijning van uitrusting te waarborgen. In de logica van het tussen partijen overeengekomen samenwerkingsverband bestond er uiteraard geen verplichting voor de echtgenoten R.D.-L.V. om de inkomsten van de door hen gerealiseerde verkopen af te rekenen met de NV. Artikel 10 van de overeenkomst maakt de echtgenoten R.D.-L.V. bovendien volledig verantwoordelijk voor de uitbating van het dienststation, met de verplichting de NV te vrijwaren voor alle vorderingen die verband houden met de uitbating. Het is voor het Hof dan ook duidelijk dat de echtgenoten R.D.-L.V. ab initio een eigen onderneming hebben uitgebaat, wat enkele jaren later nog duidelijker bleek toen zij de uitbating van het dienststation verder zetten in het kader van een handelsvennootschap. Dat zij niet de eigenaar waren van de infrastructuur en het handelsfonds doet daaraan geen afbreuk. Het Hof wenst in dit verband en ten overvloede te bevestigen dat het overduidelijk is dat de initiële overeenkomst een einde nam en vervangen werd door de overeenkomst ondertekend op 13 april 1993. Als zaakvoerder van de BVBA R.D. was de heer R.D. uiteraard op de hoogte van het bestaan en de inhoud van de tweede overeenkomst en derhalve van het feit dat alle rechten en verplichtingen, die voor de echtgenoten R.D.-L.V. voortsproten uit de overeenkomst van 27 februari 1990, vanaf april 1993 werden toegekend of opgelegd aan de BVBA. Dat de echtgenoten R.D.-L.V. thans trachten munt te slaan uit het feit dat juridisch een onderscheid moet worden gemaakt tussen de heer R.D., optredend in eigen naam als natuurlijke persoon, en de heer R.D., optredend in zijn hoedanigheid van zaakvoerder van de BVBA R.D., is dan ook volkomen misplaatst. Het staat immers niet ter discussie dat, sedert het sluiten van de nieuwe overeenkomst, alle bestellingen werden geplaatst in naam en voor rekening van de BVBA, terwijl door de echtgenoten R.D.-L.V. in eigen naam geen enkele bestelling meer werd geplaatst. Dit gegeven gekoppeld aan het feit dat zij noodzakelijk op de hoogte waren van het bestaan van de tweede overeenkomst, zonder desbetreffend enig protest te uiten, volstaat als bewijs dat zij hebben ingestemd met de beëindiging van de eerste overeenkomst en de vervanging ervan door de tweede overeenkomst. Gelet op het voorgaande is het hoger beroep niet gegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig de gemeenrechtelijke regels inzake de bewijsvoering behoort het aan de echtgenoten R.D.-L.V. het bewijs te leveren van het bestaan van de arbeidsovereenkomst waarop zij hun vorderingen steunen. Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij de echtgenoten R.D.-L.V. zich ertoe verbonden tegen loon, onder gezag van de NV arbeid te verrichten (vgl. artikelen 2 en 3 Arbeidsovereen-komstenwet). Het bestaan van een arbeidsovereenkomst vereist derhalve het akkoord van de partijen over de wezenlijke elementen ervan, met name arbeid, loon en gezagsverhouding. Het ontbreken van een overeenkomst m.b.t. één van deze wezenlijke elementen impliceert meteen noodzakelijk dat partijen niet verbonden zijn door een arbeidsovereenkomst. (vgl. m.b.t. het loon als wezenlijk element van de arbeidsovereenkomst Cass. 6 maart 2000, Arr. Cass. 2000, 154; Cass. 25 mei 1998, Arr. Cass. 1998, 270; DE VOS, M. \"Loon naar Belgisch arbeidsovereenkomstenrecht\", MAKLU, 2001, 80-170 en de aldaar geciteerde rechtspraak en rechtsleer) In casu ontbreekt zowel het bewijs van een overeengekomen loon, als het bewijs van een voor een arbeidsovereenkomst kenmerkende gezagsverhouding. Vooreerst laat geen enkel element uit het dossier toe te besluiten dat de NV tegenover de echtgenoten R.D.-L.V. een loonverbintenis is aangegaan, terwijl het ook niet ter discussie staat dat de echtgenoten R.D.-L.V. nooit loon voor hun prestaties hebben ontvangen, wat zij overigens precies aanvoeren als oorzaak voor de vorderingen gesteld in de inleidende dagvaarding. Het blijkt integendeel uit de voorgebrachte overeenkomsten dat, aanvankelijk met de echtgenoten R.D.-L.V. en later met de BVBA R.D., een overeenkomst werd aangegaan waarbij (in essentie) de NV zich ertoe verbond de infrastructuur van het dienststation ter beschikking te stellen, terwijl de uitbaters zich ertoe verbonden dit station op de overeengekomen wijze uit te baten en zich exclusief bij de NV te bevoorraden m.b.t. motorbrandstoffen, smeermiddelen verwarmings-brandstoffen en andere aanverwante producten, aan overeengekomen prijzen. Over de (mogelijke) inkomsten van de echtgenoten R.D.-L.V. uit de overeengekomen uitbating, bewaren deze overeenkomsten echter het stilzwijgen. Concreet bestonden de inkomsten die de echtgenoten R.D.-L.V. en de BVBA R.D. in het kader van de uitbating behaalden, uit de door hen gerealiseerde winst, met name het verschil tussen de door hen betaalde aankoopprijs voor de door de NV geleverde producten en de vanwege de klanten ontvangen verkoopprijs, eventueel aangevuld met de winsten gerealiseerd in het kader van de verkoop van andere producten of het leveren van bijkomende diensten. Het is dan ook volkomen terecht dat de NV besluit tot de afwezigheid van het voor het bestaan van een arbeidsovereenkomst onontbeerlijke loonelement (vgl. eerste beroepsconclusies van de NV p.21). Het verweer dat de echtgenoten R.D.-L.V. in dit kader ontwikkelen (vgl. eerste beroepsconclusie van de echtgenoten R.D.-L.V. p.9) is manifest onjuist. Zonder overeengekomen loon is er immers geen sprake van een arbeidsovereenkomst en derhalve evenmin van een verplichting om loon te betalen. A fortiori vinden de door de echtgenoten R.D.-L.V. ingeroepen collectieve arbeidsovereenkomsten m.b.t. de betaling van een minimumloon, geen toepassing nu deze overeenkomsten het bestaan van een arbeidsovereenkomst vooronderstellen (vgl. DEVOS, M., o.c., 90-91 en de aldaar geciteerde rechtsleer). Evenzeer ontbreekt in casu het bewijs van het bestaan van een voor de arbeidsovereenkomst kenmerkende gezagsverhouding, terwijl het in dit kader geformuleerde bewijsaanbod als niet dienend moet worden afgewezen, nu het niet van aard is de besluitvorming in dit dossier te beïnvloeden. De op de echtgenoten R.D.-L.V. in het kader van de op 27 februari 1990 gesloten overeenkomst rustende verplichtingen en de uit diezelfde overeenkomst aan de NV toegekende correlatieve rechten blijken immers inherent te zijn aan de aard van deze overeenkomst en de inschakeling ervan in een groot commercieel geheel, zonder dat zij evenwel doen blijken van een juridische ondergeschiktheid. De echtgenoten R.D.-L.V. hechten in dit verband blijkbaar zeer veel belang aan de verplichting de aanbevelingen van de NV te respecteren, opgenomen in artikel 6 van de overeenkomst van 27 februari 1990, doch bij nazicht blijkt de overeenkomst in dit verband telkens te verwijzen naar aanbevelingen die werden vermeld of nog zouden worden vermeld in een handboek, handboek dat zij evenwel niet neerleggen en waarvan zij de inhoud niet preciseren. Wat in casu hoe dan ook ontbreekt is het bewijs van bevelen en/of verplichtingen inzake de organisatie en de uitvoering van de arbeid, die het kader van een samenwerking op zelfstandige basis overstijgen en die wijzen op een gezagsverhouding. Het is in dit verband belangwekkend de beperkingen die aan de echtgenoten R.D.-L.V. contractueel werden of konden worden opgelegd, te vergelijken met de vrijheid van handelen die hen restte bij de uitbating van het dienststation. Een eerste frappante vaststelling daarbij is het ontbreken van de verplichting voor de echtgenoten R.D.-L.V. om zelf de prestaties die het (hoofd)voorwerp van de overeenkomst uitmaken (verkoop aan klanten van motorbrandstoffen en het verlenen van onderhouds- en herstellingsdiensten) te verrichten. De overeenkomst bevat integendeel verschillende bepalingen waaruit blijkt dat rekening werd gehouden met de mogelijkheid voor de echtgenoten R.D.-L.V. om door henzelf betaald personeel in te schakelen en hen zelfs de verplichting oplegt \"altijd voldoende en geschoold personeel\" te hebben.(vgl. art.6,4 stuk 1 bundel de echtgenoten R.D.-L.V.). Eenzelfde bemerking geldt de verplichting tot het houden van een wettelijke boekhouding, die de echtgenoten R.D.-L.V., overeenkomstig het bepaalde in artikel 6, 5 van de overeenkomst, konden laten bijhouden door een derde, eens te meer op hun kosten. A fortiori werd in de overeenkomst nergens bepaald dat de echtgenoten R.D.-L.V. samen dienden in te staan voor de verkoop en de te verlenen diensten, zodat zij onderling volledig vrij konden bepalen wie van beiden wat en wanneer zou doen. Dat de uitbatingsovereenkomst zelf intuitu personae werd afgesloten, zoals bepaald in artikel 13 van de overeenkomst, doet uiteraard geen afbreuk aan het voorgaande. In dezelfde logica ontbreekt evident ook de verplichting voor de echtgenoten R.D.-L.V. om hun eventuele afwezigheden te recht-vaardigen en om een door de NV opgelegde arbeidstijdregeling te respecteren. In dit verband dient er tevens op gewezen te worden dat de openingsuren vrij konden worden bepaald door de echtgenoten R.D.-L.V., mits bij de vaststelling ervan rekening werd gehouden met de plaatselijke gebruiken en de behoeften van de klanten. Evenzeer frappant is de vaststelling dat het bedrijfsrisico van de uitbating volledig werd gelegd op de echtgenoten R.D.-L.V., die contractueel moesten instaan: voor de aankoop van de te koop aangeboden producten waarvan zij ook eigenaar werden, het overgrote gedeelte van de kosten verbonden aan de uitbating, het sluiten van de in dit kader gebruikelijke verzekeringscontracten en daarenboven ook een belangrijke waarborg dienden te stellen teneinde de betaling van de facturen en beschadiging of verdwijning van uitrusting te waarborgen. In de logica van het tussen partijen overeengekomen samenwerkingsverband bestond er uiteraard geen verplichting voor de echtgenoten R.D.-L.V. om de inkomsten van de door hen gerealiseerde verkopen af te rekenen met de NV. Artikel 10 van de overeenkomst maakt de echtgenoten R.D.-L.V. bovendien volledig verantwoordelijk voor de uitbating van het dienststation, met de verplichting de NV te vrijwaren voor alle vorderingen die verband houden met de uitbating. Het is voor het Hof dan ook duidelijk dat de echtgenoten R.D.-L.V. ab initio een eigen onderneming hebben uitgebaat, wat enkele jaren later nog duidelijker bleek toen zij de uitbating van het dienststation verder zetten in het kader van een handelsvennootschap. Dat zij niet de eigenaar waren van de infrastructuur en het handelsfonds doet daaraan geen afbreuk. Het Hof wenst in dit verband en ten overvloede te bevestigen dat het overduidelijk is dat de initiële overeenkomst een einde nam en vervangen werd door de overeenkomst ondertekend op 13 april 1993. Als zaakvoerder van de BVBA R.D. was de heer R.D. uiteraard op de hoogte van het bestaan en de inhoud van de tweede overeenkomst en derhalve van het feit dat alle rechten en verplichtingen, die voor de echtgenoten R.D.-L.V. voortsproten uit de overeenkomst van 27 februari 1990, vanaf april 1993 werden toegekend of opgelegd aan de BVBA. Dat de echtgenoten R.D.-L.V. thans trachten munt te slaan uit het feit dat juridisch een onderscheid moet worden gemaakt tussen de heer R.D., optredend in eigen naam als natuurlijke persoon, en de heer R.D., optredend in zijn hoedanigheid van zaakvoerder van de BVBA R.D., is dan ook volkomen misplaatst. Het staat immers niet ter discussie dat, sedert het sluiten van de nieuwe overeenkomst, alle bestellingen werden geplaatst in naam en voor rekening van de BVBA, terwijl door de echtgenoten R.D.-L.V. in eigen naam geen enkele bestelling meer werd geplaatst. Dit gegeven gekoppeld aan het feit dat zij noodzakelijk op de hoogte waren van het bestaan van de tweede overeenkomst, zonder desbetreffend enig protest te uiten, volstaat als bewijs dat zij hebben ingestemd met de beëindiging van de eerste overeenkomst en de vervanging ervan door de tweede overeenkomst. Gelet op het voorgaande is het hoger beroep niet gegrond.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 4,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 11,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 2
+      },
+      "extractionNotes": []
+    }
+  }
+}

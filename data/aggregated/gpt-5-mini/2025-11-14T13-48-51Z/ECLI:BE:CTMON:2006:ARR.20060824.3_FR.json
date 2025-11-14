@@ -1,0 +1,867 @@
+{
+  "decision_id": "ECLI:BE:CTMON:2006:ARR.20060824.3",
+  "language": "FR",
+  "metadata": {
+    "id": 137707,
+    "court_ecli_code": "CTMON",
+    "court_name": "Cour du travail de Mons",
+    "decision_date": "2006-08-24",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 36661,
+    "length_category": "very_long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour du travail de Mons, 24 août 2006, RG n° 18.494, ECLI:BE:CTMON:2006:ARR.20060824.3"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "name": "X, établissement public",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+        "name": "Y (parent de Stéphanie)",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTMON:2006:ARR.20060824.3-003",
+        "name": "Z (épouse de Y)",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTMON:2006:ARR.20060824.3-004",
+        "name": "A (mutuelle)",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "INTIME"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTMON:2006:ARR.20060824.3-005",
+        "name": "Ministère Public",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "MINISTERE_PUBLIC"
+      }
+    ],
+    "currentInstance": {
+      "facts": "La présente affaire concerne une demande d'intervention du Fonds Spécial de Solidarité pour la prise en charge de frais liés à des séances/traitements dispensés aux États‑Unis en faveur de Stéphanie, née le 9 octobre 1979, atteinte d'une encéphalite congénitale avec quadriparésie spastique. Une demande initiale d'intervention a été introduite le 13 mai 1996 par le médecin‑conseil de A pour Stéphanie auprès du Fonds, portée par la mutuelle A. Le Collège des médecins directeurs de X a rendu une décision défavorable datée du 28 février 1997 (notifiée au médecin‑directeur le 9 juin 1997 et à Y le 5 septembre 1997) estimant que le cas n'était pas \"digne d'intérêt\" et relevant notamment l'absence de prescription par un médecin spécialiste belge et l'initiative personnelle des parents pour les séjours aux USA. La mutuelle a répercuté cette décision à Y. Y et Z, agissant en qualité d'administrateurs légaux de leur fille au moment de l'introduction initiale, ont saisi le tribunal du travail de Charleroi (requête déposée le 5 décembre 1997) pour obtenir l'intervention du Fonds et le remboursement d'un montant équivalant à 176.962 anciens francs belges (soit 4.386,77 EUR). Le tribunal du travail a donné gain de cause aux intimés en considérant le cas \"digne d'intérêt\". X a interjeté appel; la Cour a réouvert les débats, entendu les parties et reçu l'avis du Ministère Public. La Cour retient que les juridictions du travail sont compétentes pour apprécier le caractère \"digne d'intérêt\" et conclut que l'appréciation de l'administration était manifestement déraisonnable au vu des pièces médicales établissant la rareté et la gravité de l'affection et l'amélioration constatée après les soins aux États‑Unis. La Cour confirme que Y et Z ont intérêt et qualité pour agir et que la mutuelle A doit être mise hors cause.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+          "requests": "X demande l'annulation ou la réformation du jugement déféré rendu en faveur des intimés et la condamnation incidente de la demande tendant au remboursement de 4.386,77 EUR, en soutenant l'irrecevabilité ou l'incompétence du tribunal pour se substituer au Collège des médecins directeurs."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+          "requests": "Y et Z sollicitent la confirmation de la décision attaquée et l'intervention du Fonds Spécial de Solidarité pour certaines séances/formation dispensées aux États‑Unis, correspondant au remboursement partiel des frais justifiés (voyage, honoraires, logement, location de voiture)."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+          "argument": "X soutient que le tribunal du travail ne pouvait se substituer au Collège des médecins directeurs compétent pour apprécier et décider du caractère \"digne d'intérêt\" au sens de l'article 25 de la loi coordonnée du 14 juillet 1994 et des arrêtés royaux d'exécution; dès lors, il n'appartient pas au juge d'apprécier l'opportunité d'une intervention ni de fixer son montant, d'autant que, selon X, les séjours aux États‑Unis n'auraient pas été prescrits par un médecin spécialiste belge et ne répondraient pas aux conditions de l'article 294 de l'arrêté royal du 3 juillet 1996, de sorte que la réparation ordonnée par le premier juge excède sa compétence ou empiète sur un pouvoir discrétionnaire administratif.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+          "argument": "Les intimés (Y et Z) font valoir que le Fonds Spécial de Solidarité, en vertu de l'article 25, §4, peut, dans des cas \"dignes d'intérêt\", prendre en charge la quote‑part et les frais de déplacement/séjour pour des prestations à l'étranger et que cette notion s'apprécie de manière autonome sans renvoi strict aux conditions de l'article 294. Ils soutiennent en outre que les juridictions du travail sont compétentes, en vertu de l'article 167 des lois coordonnées et de l'article 580 du code judiciaire, pour apprécier tant la légalité externe qu'interne et la raisonabilité de l'appréciation administrative, de sorte que la décision défavorable du Collège, insuffisamment motivée au fond et manifestement déraisonnable au regard des pièces médicales, doit être infirmée ou regardée comme inopérante.",
+          "treatment": "ACCEPTE"
+        }
+      ],
+      "courtOrder": "Par ces motifs,\nLa Cour,\nStatuant contradictoirement, sauf à l'égard de A qui a fait défaut,\nEcartant toutes conclusions autres,\nVu la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire et notamment l'article 24,\nVu l'avis écrit conforme de Monsieur l'avocat général Dominique HAUTIER,\nDéclare l'appel de X dépourvu de fondement, et confirme le jugement déféré sous la seule réserve ou précision que :\n- c'est bien Y et Z qui avaient et conservent intérêt ainsi que qualité pour agir, tant en premier degré qu'en instance d'appel,\n- la seconde partie intimée, A, doit être mise hors cause,\n- ni X, ni le Fonds Spécial de Solidarité, nonobstant la consécration du cas digne d'intérêt, ne peuvent, au regard des considérations émises in fine du point 7-1 de la présente décision, être directement condamnés à payer, mais devront toutefois réexaminer le cas en fonction des dispositions budgétaires découlant des règles spécifiques de l'article 25, paragraphe premier, de la loi coordonnée du 14 juillet 1994,\nCondamne, en application de l'article 1017, alinéa 2, du code judiciaire, la partie appelante aux dépens d'appel non liquidés.",
+      "outcome": "NON_FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "provisionNumber": "article 580",
+        "provisionNumberKey": "580",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (Code judiciaire)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 580, 2°, du Code judiciaire comme conférant au tribunal du travail la compétence pour connaître des contestations relatives aux droits et obligations des travailleurs salariés découlant de la législation de l'assurance maladie-invalidité; cette référence soutient la compétence de pleine juridiction pour apprécier si un cas est \"digne d'intérêt\".",
+        "relevantFactualContext": "Litige né d'une décision du Collège des médecins directeurs refusant l'intervention du Fonds Spécial de Solidarité pour des soins/formation aux États-Unis concernant Stéphanie; les intimés contestent ce refus devant le tribunal du travail."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+        "provisionNumber": "article 25",
+        "provisionNumberKey": "25",
+        "parentActType": "LOI",
+        "parentActName": "loi coordonnée du 14 juillet 1994 relative à l'assurance obligatoire soins de santé et indemnités",
+        "parentActDate": "1994-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 25, §4, comme autorisant, par dérogation au §2, le Collège des médecins directeurs à décider que le Fonds Spécial de Solidarité peut prendre en charge la quote-part personnelle et les frais de voyage et de séjour dans des \"cas dignes d'intérêt\"; cette appréciation est autonome par rapport aux conditions du paragraphe 2 et doit être définie et appréciée raisonnablement par le juge du fond.",
+        "relevantFactualContext": "Demande d'intervention pour frais de traitements/séances de formation aux États-Unis; le Collège a refusé en invoquant l'absence de prescription et d'autorisation, contestation portant sur le caractère \"digne d'intérêt\" du cas."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-003",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+        "provisionNumber": "article 167",
+        "provisionNumberKey": "167",
+        "parentActType": "LOI",
+        "parentActName": "loi coordonnée du 14 juillet 1994 relative à l'assurance obligatoire soins de santé et indemnités",
+        "parentActDate": "1994-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour retient que l'article 167 confère au tribunal du travail la compétence pour connaître des contestations relatives aux droits et obligations résultant de la législation et de la réglementation de l'assurance obligatoire soins de santé et indemnités; cette compétence fonde la compétence de pleine juridiction pour apprécier le caractère \"digne d'intérêt\".",
+        "relevantFactualContext": "Contestations sur l'octroi par le Fonds Spécial de Solidarité de la prise en charge de frais liés au traitement/formation d'une bénéficiaire atteinte d'une affection rare et grave."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-004",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+        "provisionNumber": "article 191",
+        "provisionNumberKey": "191",
+        "parentActType": "LOI",
+        "parentActName": "loi coordonnée du 14 juillet 1994 relative à l'assurance obligatoire soins de santé et indemnités",
+        "parentActDate": "1994-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour note que l'article 191 décrit les ressources destinées au financement du Fonds Spécial de Solidarité et que le montant annuel est fixé par le Ministre; de là découle la limite selon laquelle un tribunal, constatant le droit à l'intervention, ne peut ipso facto condamner directement le Fonds ou l'institution à payer hors du cadre des règles budgétaires prévues.",
+        "relevantFactualContext": "Le jugement déféré reconnaît un droit au remboursement (176.962 FB / 4.386,77 EUR) mais la Cour précise que le paiement effectif dépend des dispositions budgétaires du Fonds telles que visées par l'article 191."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-005",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+        "provisionNumber": "article 32",
+        "provisionNumberKey": "32",
+        "parentActType": "LOI",
+        "parentActName": "loi coordonnée du 14 juillet 1994 relative à l'assurance obligatoire soins de santé et indemnités",
+        "parentActDate": "1994-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour applique l'article 32 de la loi coordonnée comme définissant la qualité de bénéficiaire en matière d'assurance maladie-invalidité: sur ce fondement elle conclut que Y possède l'intérêt et la qualité pour agir tant en premier degré qu'en appel au titre des droits revendiqués.",
+        "relevantFactualContext": "La demande initiale visait la prise en charge pour Stéphanie; la décision administrative a été notifiée à Y et les parents ont agi en qualité d'administrateurs légaux de leur fille, ce qui fonde leur qualité pour agir."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-006",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+        "provisionNumber": "article 33",
+        "provisionNumberKey": "33",
+        "parentActType": "LOI",
+        "parentActName": "loi coordonnée du 14 juillet 1994 relative à l'assurance obligatoire soins de santé et indemnités",
+        "parentActDate": "1994-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour considère, conjointement avec l'article 32, que l'article 33 contribue à définir la qualité de bénéficiaire découlant du statut de travailleur salarié; ces dispositions confirment l'intérêt et la qualité des intimés pour agir devant la juridiction du travail.",
+        "relevantFactualContext": "Les éléments de procédure montrent que la demande et la notification visaient Y et que les parents ont agi pour le compte de leur fille mineure puis mandatée, établissant ainsi leur qualité pour contester le refus du Fonds."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-007",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "provisionNumber": "article 704",
+        "provisionNumberKey": "704",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (Code judiciaire)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 704 du Code judiciaire comme n'imposant aucune forme particulière à la requête introductive: il suffit qu'il existe un écrit manifestant la volonté de saisir la juridiction; l'absence de signature ou d'un mandat spécial préalable n'affecte pas nécessairement la validité du recours introduit par un tiers au nom de l'intéressé.",
+        "relevantFactualContext": "La requête introductive déposée initialement était informelle et non signée; la Cour retient que cette forme est suffisante et ne vicie pas la recevabilité des recours formés contre le refus du Fonds."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-008",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "provisionNumber": "article 848",
+        "provisionNumberKey": "848",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (Code judiciaire)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle l'article 848 du Code judiciaire qui organise le mécanisme du désaveu lorsqu'un acte de procédure a été accompli au nom d'une personne sans représentation; elle en déduit que le simple fait d'une représentation imparfaite n'entraîne pas automatiquement l'irrecevabilité si la personne concernée est représentée légalement ou ratifie l'acte en temps utile.",
+        "relevantFactualContext": "Le recours introductif a été formé par un représentant syndical pour les parents de Stéphanie; la Cour constate que, du fait de la qualité de représentants légaux des parents et d'une ratification ultérieure, il n'y a pas de désaveu empêchant la recevabilité."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-009",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-003",
+        "provisionNumber": "article 2",
+        "provisionNumberKey": "2",
+        "parentActType": "LOI",
+        "parentActName": "loi du 29 juillet 1991 relative à la motivation formelle des actes administratifs",
+        "parentActDate": "1991-07-29",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que l'article 2 impose aux autorités administratives une motivation formelle des actes; en l'espèce elle examine la décision de refus et juge que la notification contient l'indication des considérations de droit et de fait requises par cet article, de sorte qu'il n'y a pas d'annulation pour défaut de motivation formelle.",
+        "relevantFactualContext": "La décision du Collège des médecins directeurs du 9 juin 1997, notifiée le 5 septembre 1997, comportait des motifs (absence de prescription/autorisation) que la Cour considère suffisants au regard de la loi de 1991."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-010",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-003",
+        "provisionNumber": "article 3",
+        "provisionNumberKey": "3",
+        "parentActType": "LOI",
+        "parentActName": "loi du 29 juillet 1991 relative à la motivation formelle des actes administratifs",
+        "parentActDate": "1991-07-29",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 3 comme exigeant que la motivation indique les considérations de droit et de fait servant de fondement à la décision et qu'elle soit adéquate; en l'espèce la Cour juge que la contestation porte sur le fond de la motivation (erreur en fait ou en droit) et non sur son absence formelle.",
+        "relevantFactualContext": "La motivation du refus contenait des motifs factuels et juridiques relatifs à l'absence de prescription par un spécialiste belge et d'autorisation du médecin-conseil, motifs évalués par la Cour."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-011",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-004",
+        "provisionNumber": "article 2",
+        "provisionNumberKey": "2",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 26 février 2001 (arrêté d'exécution relatif au Fonds/Procédures)",
+        "parentActDate": "2001-02-26",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-012",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-005",
+        "provisionNumber": "article 294, paragraphe premier",
+        "provisionNumberKey": "294",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 3 juillet 1996 portant exécution de la loi coordonnée du 14 juillet 1994",
+        "parentActDate": "1996-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour indique que l'article 294, §1, régit le remboursement des prestations fournies à l'étranger mais que, lorsqu'une demande est formulée sur la base de l'article 25, §4, l'appréciation du caractère \"digne d'intérêt\" s'apprécie indépendamment des conditions strictes de l'article 294; ainsi l'absence d'autorisation au titre de l'article 294 ne suffit pas à écarter automatiquement l'intervention du Fonds.",
+        "relevantFactualContext": "Le Collège a refusé l'intervention en se fondant notamment sur l'absence d'une prescription par un spécialiste belge et d'une autorisation du médecin-conseil au titre de l'article 294; la Cour juge ces éléments insuffisants pour écarter le caractère digne d'intérêt au regard de l'article 25, §4."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-013",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "provisionNumber": "article 767",
+        "provisionNumberKey": "767",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (Code judiciaire)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-014",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "provisionNumber": "article 1017, alinéa 2",
+        "provisionNumberKey": "1017",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (Code judiciaire)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-015",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-006",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-016",
+        "internalParentActId": "ACT-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "provisionNumber": "article 779",
+        "provisionNumberKey": "779",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (Code judiciaire)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour de céans",
+        "date": "2005-08-04",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal du travail de Charleroi",
+        "date": "1997-12-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass",
+        "date": "1976-05-26",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour du Travail de Bruxelles, 8e chambre",
+        "date": "1999-09-15",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Sécurité sociale",
+      "Demande Fonds spécial",
+      "Soins aux États-Unis",
+      "Formation parents",
+      "Affection rare et grave",
+      "Cas digne d'intérêt",
+      "Compétence juridictions du travail",
+      "Contrôle pouvoir discrétionnaire",
+      "Motivation administrative",
+      "Compétence de pleine juridiction"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "text": "Lorsque les juridictions du travail sont compétentes pour statuer sur un droit aux indemnités ou prestations, elles disposent d'une compétence de pleine juridiction pour connaître aussi des litiges relatifs à la mise en oeuvre effective de ce droit et peuvent contrôler non seulement la légalité externe mais aussi la légalité interne des décisions administratives, en vérifiant si l'appréciation de l'administration est raisonnable ou manifestement déraisonnable.",
+        "courtVerbatim": "Si le juge est compétent pour statuer sur le droit aux indemnités d'incapacité de travail ou aux prestations, il doit de la même manière pouvoir se prononcer dans les litiges relatifs à la mise en oeuvre effective de ce droit... Ce contrôle s'effectue non seulement par rapport à la légalité externe de la décision (...), mais encore vis-à-vis de la légalité dite interne (concernant la motivation en droit et en fait). Qui plus est, le juge contrôle si l'appréciation de l'administration est raisonnable. Même si cela touche à l'opportunité, le juge pourra de la sorte vérifier si l'appréciation de l'administration est ou non manifestement déraisonnable.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une juridiction du travail est saisie d'un recours contre une décision administrative portant sur le droit ou la mise en oeuvre effective d'indemnités ou prestations sociales.",
+        "relevantFactualContext": "Appel contre le refus d'intervention du Fonds Spécial de Solidarité ; la Cour a contrôlé si le Collège des médecins directeurs avait, de façon raisonnable, apprécié le caractère «digne d'intérêt».",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-003",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+        "text": "L'appréciation du caractère «digne d'intérêt» au titre de l'article 25, §4, de la loi coordonnée du 14 juillet 1994 est autonome par rapport aux conditions du §2 et à celles de l'article 294; il appartient au juge du fond d'en définir le contenu de manière raisonnable et proportionnée en fonction des éléments de fait qui lui sont soumis.",
+        "courtVerbatim": "Les termes «par dérogation au paragraphe 2» permettent de comprendre qu'une demande articulée sur base du paragraphe 4 ne doit pas répondre aux conditions strictes du paragraphe 2, et qu'elle s'apprécie par conséquent de manière autonome sur base de la notion du cas digne d'intérêt... Il appartient donc au juge du fond de donner corps de manière raisonnable et proportionnée à cette notion en fonction des éléments de fait qui lui sont soumis.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique aux demandes fondées sur l'article 25, §4, visant l'intervention du Fonds Spécial de Solidarité pour prestations ou frais à l'étranger.",
+        "relevantFactualContext": "Demande d'intervention pour frais liés à traitements/formation aux États‑Unis ; la Cour a jugé que le caractère «digne d'intérêt» devait être apprécié indépendamment des conditions de l'article 294 et par le juge du fond.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-012"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:2006:ARR.20060824.3-003",
+        "text": "Lorsqu'un tribunal du travail constate l'existence d'un droit à l'intervention du Fonds Spécial de Solidarité, il ne peut toutefois, en raison du mode de financement fixé annuellement par le Ministre (article 191), condamner directement le Fonds ou l'institution à payer ; la consécration du droit conduit à ce que le Fonds réexamine la prise en charge selon ses règles budgétaires et réglementaires.",
+        "courtVerbatim": "La seule restriction à apporter est qu'un tribunal, saisi d'une telle contestation, ne pourra formellement, à supposer qu'il estime la demande d'intervention du Fonds Spécial de Solidarité fondée, condamner cette institution ou X à payer, vu que l'article 25, paragraphe premier, prévoit que : «... les ressources destinées au financement du Fonds Spécial de Solidarité ... dont le montant est fixé, pour chaque année civile, par le Ministre compétent.»",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un juge reconnaît le droit à une intervention financière d'un Fonds public dont le financement annuel est fixé par voie budgétaire ou réglementaire.",
+        "relevantFactualContext": "La Cour a reconnu le caractère digne d'intérêt et le droit au remboursement mais a précisé que le paiement effectif dépend des dispositions budgétaires du Fonds telles que prévues à l'article 191.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-004",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:2006:ARR.20060824.3-004",
+        "text": "L'article 704 du Code judiciaire n'impose aucune forme particulière à la requête introductive : il suffit l'existence d'un écrit manifestant la volonté de saisir la juridiction; cette demande peut être formulée par un tiers en son nom, l'absence d'un mandat spécial préalable ou d'une signature n'affectant pas nécessairement la recevabilité, la seule limite étant le désaveu organisé par l'article 848 qui permet à la personne concernée de faire déclarer l'acte non avenu si elle n'a pas autorisé ou ratifié l'acte.",
+        "courtVerbatim": "La requête visée par l'article 704 du code judiciaire n'est soumise à aucune forme particulière. Ainsi, suffit l'existence d'un écrit dont même l'absence de signature n'en affecte pas la validité... Cette demande peut d'ailleurs être formulée par l'intéressé(e) ou, en son nom, par un tiers, quel qu'il soit, et dans ce contexte, un mandat spécial préalable n'est même pas nécessaire et ne doit pas être invoqué. Il existe une seule limite à cette possibilité pour un tiers de former une requête pour autrui : celle du désaveu organisé par l'article 848 du code judiciaire.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lors de l'examen de la recevabilité d'une requête introductive déposée sous forme informelle ou par un tiers au nom de l'intéressé.",
+        "relevantFactualContext": "La requête initiale déposée devant le tribunal du travail était informelle et non signée, introduite par un représentant syndical pour les parents ; la Cour a jugé que cette forme restait suffisante et recevable, l'irrecevabilité n'intervenant qu'en cas de désaveu visé à l'article 848.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-007",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-008"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 4,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "L'établissement public appelant conteste le refus d'intervention du Fonds Spécial de Solidarité concernant le remboursement de frais liés à un traitement et à des séances de formation dispensés aux États‑Unis en faveur d'une assurée, les intimés étant les parents agissant pour leur fille. La Cour du travail de Mons confirme le jugement de première instance, déclare l'appel dépourvu de fondement, reconnaît le «cas digne d'intérêt» et ordonne le réexamen du dossier par le Fonds selon ses règles budgétaires sans condamner directement l'établissement public au paiement. Principe clé: la juridiction du travail dispose d'une compétence de pleine juridiction pour contrôler la légalité externe et interne et la raisonnabilité de l'appréciation administrative sur la notion factuelle de «digne d'intérêt»."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">On considère que si le juge est compétent pour statuer sur le droit aux indemnités d'incapacité de travail ou aux prestations, il doit de la même manière pouvoir se prononcer dans les litiges relatifs à la mise en oeuvre effective de ce droit, c'est-à-dire ceux relatifs à la date de prise de cours du droit aux indemnités ou aux prestations, c'est-à-dire ceux concernant la date de leur paiement, de leur fourniture ou de leur prise en charge. En effet, le droit aux indemnités ou aux prestations et le bénéfice effectif ou concret de celles-ci sont à ce point indissociables qu'ils constituent ensemble le \" droit subjectif \" aux dites indemnités ou prestations (voir en ce sens Cour du Travail de Bruxelles, 8e chambre, 15 septembre 1999, Chroniques de droit social 2000,9, page 449). Dans ce cadre, même lorsque l'administration exerce un pouvoir qualifié de discrétionnaire ou d'appréciation, le juge doit pouvoir contrôler la décision. Ce contrôle s'effectue non seulement par rapport à la légalité externe de la décision (compétence de l'auteur, vices de forme éventuels, régularité de la procédure, etc...), mais encore vis-à-vis de la légalité dite interne (concernant la motivation en droit et en fait). Qui plus est, le juge contrôle si l'appréciation de l'administration est raisonnable. Même si cela touche à l'opportunité, le juge pourra de la sorte vérifier si l'appréciation de l'administration est ou non manifestement déraisonnable, et si tel est le cas, l'illégalité relevée pourra justifier une réparation conforme aux limites de la demande articulée devant lui (voir Cour du Travail de Bruxelles, arrêt précité, Chroniques de droit social, 2000,9, page 450). En l'espèce, si l'on peut admettre que le Collège des médecins directeurs dispose d'un pouvoir discrétionnaire dans la manière dont il gère son budget, budget sur lequel il n'a d'ailleurs aucune maîtrise en termes d'attribution ou d'importance, il n'en reste pas moins que cette autorité administrative a été amenée à se prononcer sur l'appréciation des termes \" digne d'intérêt \", notion de pur fait qui peut parfaitement être soumise à l'appréciation d'une juridiction du travail, laquelle dispose en tel cas et sur ce point précis d'une compétence de pleine juridiction. Au sujet de cette compétence de pleine juridiction, on ajoutera qu'elle découle des termes :</p>",
+          "<ul>\n<li>de l'article 167 des lois coordonnées du 14 juillet 1994 qui prévoit que : \"... les contestations relatives aux droits et obligations résultant de la législation et de la réglementation concernant l'assurance obligatoire soins de santé et indemnités relèvent de la compétence du tribunal du travail... \",</li>\n<li>de l'article 580,2°, du code judiciaire qui stipule que : \"... le tribunal du travail connaît... (2°) les contestations relatives aux droits et obligations des travailleurs salariés résultant des lois et règlements prévus au 1° (lequel vise toute la matière de l'assurance obligatoire maladie-invalidité) \".</li>\n</ul>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+        "relatedFullTextCitations": [
+          "<li>la demande initiale d'intervention du 13 mai 1996 émane du médecin conseil de A pour Stéphanie , sur base de l'article 25 de la loi coordonnée du 14 juillet 1994 (voir pièce reprise sous la rubrique n°1 du dossier de X tel que communiqué à l'auditorat du travail de Charleroi le 23 janvier 1998),</li>",
+          "<p class=\"case-section__paragraph\">Concernant l'appréciation des cas dits \" dignes d'intérêt \", l'absence de pouvoir de substitution découlerait des termes de l'article 25, paragraphe 4, de la loi coordonnée qui prévoit que :</p>",
+          "<blockquote class=\"case-quote\">\"... par dérogation au deuxième paragraphe, le Collège des médecins directeurs peut décider, dans des cas digne d'intérêt, que le fonds peut prendre en charge... \"</blockquote>",
+          "<p class=\"case-section__paragraph\">Si le Fonds Spécial de Solidarité visé par l'article 25 des lois coordonnées du 14 juillet 1994 intervient à titre principal dans le coût de prestations de santé exceptionnelles qui ne sont pas visées dans la nomenclature, et ce à des conditions strictes, il peut également prendre en charge le coût de traitements et de frais de déplacement à l'étranger dans des cas dignes d'intérêt qui ne répondent pas à ces conditions très strictes. Dans ce contexte, les textes applicables ne se référeraient aucunement à la notion de pouvoir discrétionnaire dans le chef du Collège des médecins directeurs. De plus, tant l'article 167 des lois coordonnées du 14 juillet 1994 que l'article 580 du code judiciaire prévoyant la compétence des juridictions du travail en la matière, s'exprimeraient sans restriction aucune quant à l'étendue de ladite compétence. Ainsi, si l'on peut effectivement admettre que le Collège des médecins directeurs dispose d'un pouvoir discrétionnaire dans la manière dont il gère son budget, on ne verrait pas en quoi sa décision se prononçant sur l'appréciation des cas \" dignes d'intérêt \", notion de pur fait, ne pourrait être soumise à l'appréciation d'un tribunal dans le cadre de la compétence de pleine juridiction qui lui est dévolue par les textes précités. Au sujet de la notion et de la portée des termes \" digne d'intérêt \", après avoir rappelé les termes de l'article 25, paragraphe 2, de la loi du 14 juillet 1994, et surtout les conditions énoncées par cette disposition, les intimés mettent en exergue le texte du paragraphe 4 qui prévoit que :</p>",
+          "<blockquote class=\"case-quote\">\" Par dérogation au paragraphe 2, le Collège des médecins directeurs peut décider dans des cas dignes d'intérêt que le Fonds Spécial de Solidarité peut prendre en charge la quote-part personnelle du bénéficiaire pour des prestations de santé dispensées à l'étranger ainsi que les frais de voyage et de séjour du bénéficiaire et, le cas échéant, de la personne qui l'accompagne... \"</blockquote>",
+          "<blockquote class=\"case-quote\">\" ...il n'est pas satisfait aux dispositions de l'article 25,paragraphe 4, de la loi relative à l'assurance obligatoire soins de santé et indemnités coordonnée le 14 juillet 1994. Il ne s'agit pas d'un cas digne d'intérêt au sens de l'article 25,paragraphe 4, de la loi coordonnée le 14 juillet 1994. En effet, d'après les éléments du dossier, il semble que les séjours aux Etats-Unis n'aient pas été prescrits par un médecin spécialiste belge, spécialisé dans le traitement de l'affection concernée, et que la décision de se rendre aux USA résulte d'une initiative personnelle des parents de l'enfant. De plus, le dossier ne fait pas état d'une autorisation du médecin-conseil pour des soins à l'étranger. Les prestations effectuées aux USA ne peuvent dès lors pas être remboursées dans le cadre de l'article 294,paragraphe premier, de l'arrêté royal du 3 juillet 1996 portant exécution de la loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. La réglementation concernant les soins à l'étranger établie par l'article 294,paragraphe premier, de l'arrêté royal du 3 juillet 1996 susmentionné, ne peut être contournée par l'octroi d'une intervention dans le cadre du Fonds Spécial de Solidarité... \"</blockquote>",
+          "<blockquote class=\"case-quote\">\" Par dérogation au paragraphe 2, le Collège des médecins directeurs peut décider, dans des cas dignes d'intérêt, que le Fonds Spécial de Solidarité peut prendre en charge la quote-part personnelle du bénéficiaire pour des prestations de santé dispensées à l'étranger, ainsi que les frais de voyage et de séjour du bénéficiaire et, le cas échéant, de la personne qui l'accompagne. Le Roi détermine, après avis du Comité de l'assurance, les conditions et les modalités selon lesquelles l'intervention peut être accordée \"</blockquote>",
+          "<p class=\"case-section__paragraph\">Les termes \" par dérogation au paragraphe 2 \" permettent de comprendre qu'une demande articulée sur base du paragraphe 4 ne doit pas répondre aux conditions strictes du paragraphe 2, et qu'elle s'apprécie par conséquent de manière autonome sur base de la notion du cas digne d'intérêt, et exclusivement :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-012",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-004",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-003",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-011"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">On considère que si le juge est compétent pour statuer sur le droit aux indemnités d'incapacité de travail ou aux prestations, il doit de la même manière pouvoir se prononcer dans les litiges relatifs à la mise en oeuvre effective de ce droit, c'est-à-dire ceux relatifs à la date de prise de cours du droit aux indemnités ou aux prestations, c'est-à-dire ceux concernant la date de leur paiement, de leur fourniture ou de leur prise en charge. En effet, le droit aux indemnités ou aux prestations et le bénéfice effectif ou concret de celles-ci sont à ce point indissociables qu'ils constituent ensemble le \" droit subjectif \" aux dites indemnités ou prestations (voir en ce sens Cour du Travail de Bruxelles, 8e chambre, 15 septembre 1999, Chroniques de droit social 2000,9, page 449). Dans ce cadre, même lorsque l'administration exerce un pouvoir qualifié de discrétionnaire ou d'appréciation, le juge doit pouvoir contrôler la décision. Ce contrôle s'effectue non seulement par rapport à la légalité externe de la décision (compétence de l'auteur, vices de forme éventuels, régularité de la procédure, etc...), mais encore vis-à-vis de la légalité dite interne (concernant la motivation en droit et en fait). Qui plus est, le juge contrôle si l'appréciation de l'administration est raisonnable. Même si cela touche à l'opportunité, le juge pourra de la sorte vérifier si l'appréciation de l'administration est ou non manifestement déraisonnable, et si tel est le cas, l'illégalité relevée pourra justifier une réparation conforme aux limites de la demande articulée devant lui (voir Cour du Travail de Bruxelles, arrêt précité, Chroniques de droit social, 2000,9, page 450). En l'espèce, si l'on peut admettre que le Collège des médecins directeurs dispose d'un pouvoir discrétionnaire dans la manière dont il gère son budget, budget sur lequel il n'a d'ailleurs aucune maîtrise en termes d'attribution ou d'importance, il n'en reste pas moins que cette autorité administrative a été amenée à se prononcer sur l'appréciation des termes \" digne d'intérêt \", notion de pur fait qui peut parfaitement être soumise à l'appréciation d'une juridiction du travail, laquelle dispose en tel cas et sur ce point précis d'une compétence de pleine juridiction. Au sujet de cette compétence de pleine juridiction, on ajoutera qu'elle découle des termes :</p>",
+          "<ul>\n<li>de l'article 167 des lois coordonnées du 14 juillet 1994 qui prévoit que : \"... les contestations relatives aux droits et obligations résultant de la législation et de la réglementation concernant l'assurance obligatoire soins de santé et indemnités relèvent de la compétence du tribunal du travail... \",</li>\n<li>de l'article 580,2°, du code judiciaire qui stipule que : \"... le tribunal du travail connaît... (2°) les contestations relatives aux droits et obligations des travailleurs salariés résultant des lois et règlements prévus au 1° (lequel vise toute la matière de l'assurance obligatoire maladie-invalidité) \".</li>\n</ul>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-003",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La seule restriction à apporter est qu'un tribunal, saisi d'une telle contestation, ne pourra formellement, à supposer qu'il estime la demande d'intervention du Fonds Spécial de Solidarité fondée, condamner cette institution ou X à payer, vu que l'article 25, paragraphe premier, prévoit que le Fonds Spécial de Solidarité est financé par un prélèvement sur les ressources de l'assurance énumérées à l'article 191 de la loi coordonnée du 14 juillet 1994, et dont le montant est fixé, pour chaque année civile, par le Ministre compétent (on notera que ce mode de financement est demeuré identique depuis la création du Fonds Spécial de Solidarité). On remarquera toutefois pour en terminer sur ce point que le premier juge paraît avoir été conscient de cet aspect vu qu'il n'a nullement condamné X et/ou le Fonds Spécial de Solidarité à payer la somme de 176.962 anciens francs belges ou 4386,77 EUR, mais a simplement rédigé son dispositif de la manière suivante :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-004",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La manière dont la demande initiale a été formulée, et surtout son contenu permettent concrètement de se rendre compte que les parents de Stéphanie et particulièrement son père, avait dès le départ l'intention d'agir, non seulement en son nom personnel en qualité de bénéficiaire visé aux articles 32 et 33 de la loi coordonnée du 14 juillet 1994, qualité découlant de son statut de travailleurs salarié, mais encore en qualité de représentant et d'administrateur de la personne et des biens de sa fille mineure à l'époque de la toute première demande. Le fait que cela n'ait à la limite pas été clairement précisé dans la requête informelle introduite devant le tribunal du travail sur pied de l'article 704 du code judiciaire ne peut porter à conséquence sur le plan juridique par rapport à la validité des recours introduits tant en premier degré qu'au niveau de la Cour. Cela découle du fait que la requête visée par l'article 704 du code judiciaire n'est soumise à aucune forme particulière. Ainsi, suffit l'existence d'un écrit dont même l'absence de signature n'en affecte pas la validité (voir Cass., 26 mai 1976, Pas., I, 1976, page 1034). Pareil écrit doit seulement manifester la volonté d'un(e) assuré(e) social(e) de saisir la juridiction du travail compétente de la décision administrative qu'il (ou elle) conteste. Cette demande peut d'ailleurs être formulée par l'intéressé(e) ou, en son nom, par un tiers, quel qu'il soit, et dans ce contexte, un mandat spécial préalable n'est même pas nécessaire et ne doit pas être invoqué. Il existe une seule limite à cette possibilité pour un tiers de former une requête pour autrui : celle du désaveu organisé par l'article 848 du code judiciaire. Cette disposition porte qu'au cas où un acte procédure aurait été accompli au nom d'une personne, en l'absence de toute représentation légale sans qu'elle l'ait permis, ou ratifié (même tacitement), elle pourra demander au juge de le déclarer non avenu, tandis que les autres parties présentes à la cause peuvent introduire les mêmes demandes, à moins que la personne au nom de laquelle l'acte à été accompli ne le ratifie ou ne le confirme en temps utile. Même à imaginer que tel désaveu soit intervenu au travers de la voix de X, les recours sont parfaitement recevables, aucune ratification ne devant en l'espèce intervenir pour l'enfant mineur dans la mesure où ses parents en sont d'office les représentants légaux. Dès que l'enfant concerné a atteint la majorité, il a conféré à ses parents, un mandat général par acte notarié, qui ne peut toutefois valoir en qualité de procuration spécifique pour ses parents dans le cadre du présent litige, étant entendu que ces derniers sont déjà représentés par un délégué syndical, lui-même muni d'une procuration. Même si l'on pouvait considérer que Stéphanie conserve, à côté de son père agissant en qualité de bénéficiaire visé aux articles 32 et 33 de la loi coordonnée du 14 mai 1994, un intérêt personnel, et à tout le moins moral, comme sa mère d'ailleurs, il y a toutefois lieu de conclure, en fonction des éléments qui précèdent, que les intimés ne peuvent être considérés comme agissant en qualité de représentants de leur fille qui les aurait dûment et spécifiquement mandatés à cet effet dans le cadre de la présente procédure. En d'autres termes et à titre principal, c'est bien Y qui a la qualité de bénéficiaire en assurance maladie invalidité au sens de l'article 32 de la loi coordonnée du 14 juillet 1994. C'est de même l'intéressé qui a introduit la demande initiale auprès du Fonds Spécial de Solidarité, et en cette qualité. C'est de même à lui que la décision administrative a été notifiée, ce qui fonde dans son chef, comme dans celui de son épouse, intérêt et qualité pour agir, tant en premier degré qu'en instance d'appel. On indiquera pour le reste sur le plan procédural que la mutuelle doit effectivement être mise hors cause pour ne pas être la débitrice directe ou indirecte des droits revendiqués.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-005",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-006",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-007",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:20060824.3-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La manière dont la demande initiale a été formulée, et surtout son contenu permettent concrètement de se rendre compte que les parents de Stéphanie et particulièrement son père, avait dès le départ l'intention d'agir, non seulement en son nom personnel en qualité de bénéficiaire visé aux articles 32 et 33 de la loi coordonnée du 14 juillet 1994, qualité découlant de son statut de travailleurs salarié, mais encore en qualité de représentant et d'administrateur de la personne et des biens de sa fille mineure à l'époque de la toute première demande. Le fait que cela n'ait à la limite pas été clairement précisé dans la requête informelle introduite devant le tribunal du travail sur pied de l'article 704 du code judiciaire ne peut porter à conséquence sur le plan juridique par rapport à la validité des recours introduits tant en premier degré qu'au niveau de la Cour. Cela découle du fait que la requête visée par l'article 704 du code judiciaire n'est soumise à aucune forme particulière. Ainsi, suffit l'existence d'un écrit dont même l'absence de signature n'en affecte pas la validité (voir Cass., 26 mai 1976, Pas., I, 1976, page 1034). Pareil écrit doit seulement manifester la volonté d'un(e) assuré(e) social(e) de saisir la juridiction du travail compétente de la décision administrative qu'il (ou elle) conteste. Cette demande peut d'ailleurs être formulée par l'intéressé(e) ou, en son nom, par un tiers, quel qu'il soit, et dans ce contexte, un mandat spécial préalable n'est même pas nécessaire et ne doit pas être invoqué. Il existe une seule limite à cette possibilité pour un tiers de former une requête pour autrui : celle du désaveu organisé par l'article 848 du code judiciaire. Cette disposition porte qu'au cas où un acte procédure aurait été accompli au nom d'une personne, en l'absence de toute représentation légale sans qu'elle l'ait permis, ou ratifié (même tacitement), elle pourra demander au juge de le déclarer non avenu, tandis que les autres parties présentes à la cause peuvent introduire les mêmes demandes, à moins que la personne au nom de laquelle l'acte à été accompli ne le ratifie ou ne le confirme en temps utile. Même à imaginer que tel désaveu soit intervenu au travers de la voix de X, les recours sont parfaitement recevables, aucune ratification ne devant en l'espèce intervenir pour l'enfant mineur dans la mesure où ses parents en sont d'office les représentants légaux. Dès que l'enfant concerné a atteint la majorité, il a conféré à ses parents, un mandat général par acte notarié, qui ne peut toutefois valoir en qualité de procuration spécifique pour ses parents dans le cadre du présent litige, étant entendu que ces derniers sont déjà représentés par un délégué syndical, lui-même muni d'une procuration. Même si l'on pouvait considérer que Stéphanie conserve, à côté de son père agissant en qualité de bénéficiaire visé aux articles 32 et 33 de la loi coordonnée du 14 juillet 1994, un intérêt personnel, et à tout le moins moral, comme sa mère d'ailleurs, il y a toutefois lieu de conclure, en fonction des éléments qui précèdent, que les intimés ne peuvent être considérés comme agissant en qualité de représentants de leur fille qui les aurait dûment et spécifiquement mandatés à cet effet dans le cadre de la présente procédure. En d'autres termes et à titre principal, c'est bien Y qui a la qualité de bénéficiaire en assurance maladie invalidité au sens de l'article 32 de la loi coordonnée du 14 juillet 1994. C'est de même l'intéressé qui a introduit la demande initiale auprès du Fonds Spécial de Solidarité, et en cette qualité. C'est de même à lui que la décision administrative a été notifiée, ce qui fonde dans son chef, comme dans celui de son épouse, intérêt et qualité pour agir, tant en premier degré qu'en instance d'appel. On indiquera pour le reste sur le plan procédural que la mutuelle doit effectivement être mise hors cause pour ne pas être la débitrice directe ou indirecte des droits revendiqués.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-006",
+          "ART-ECLI:BE:CTMON:20060824.3-005",
+          "ART-ECLI:BE:CTMON:20060824.3-007",
+          "ART-ECLI:BE:CTMON:20060824.3-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La manière dont la demande initiale a été formulée, et surtout son contenu permettent concrètement de se rendre compte que les parents de Stéphanie et particulièrement son père, avait dès le départ l'intention d'agir, non seulement en son nom personnel en qualité de bénéficiaire visé aux articles 32 et 33 de la loi coordonnée du 14 juillet 1994, qualité découlant de son statut de travailleurs salarié, mais encore en qualité de représentant et d'administrateur de la personne et des biens de sa fille mineure à l'époque de la toute première demande. Le fait que cela n'ait à la limite pas été clairement précisé dans la requête informelle introduite devant le tribunal du travail sur pied de l'article 704 du code judiciaire ne peut porter à conséquence sur le plan juridique par rapport à la validité des recours introduits tant en premier degré qu'au niveau de la Cour. Cela découle du fait que la requête visée par l'article 704 du code judiciaire n'est soumise à aucune forme particulière. Ainsi, suffit l'existence d'un écrit dont même l'absence de signature n'en affecte pas la validité (voir Cass., 26 mai 1976, Pas., I, 1976, page 1034). Pareil écrit doit seulement manifester la volonté d'un(e) assuré(e) social(e) de saisir la juridiction du travail compétente de la décision administrative qu'il (ou elle) conteste. Cette demande peut d'ailleurs être formulée par l'intéressé(e) ou, en son nom, par un tiers, quel qu'il soit, et dans ce contexte, un mandat spécial préalable n'est même pas nécessaire et ne doit pas être invoqué. Il existe une seule limite à cette possibilité pour un tiers de former une requête pour autrui : celle du désaveu organisé par l'article 848 du code judiciaire. Cette disposition porte qu'au cas où un acte procédure aurait été accompli au nom d'une personne, en l'absence de toute représentation légale sans qu'elle l'ait permis, ou ratifié (même tacitement), elle pourra demander au juge de le déclarer non avenu, tandis que les autres parties présentes à la cause peuvent introduire les mêmes demandes, à moins que la personne au nom de laquelle l'acte à été accompli ne le ratifie ou ne le confirme en temps utile. Même à imaginer que tel désaveu soit intervenu au travers de la voix de X, les recours sont parfaitement recevables, aucune ratification ne devant en l'espèce intervenir pour l'enfant mineur dans la mesure où ses parents en sont d'office les représentants légaux. Dès que l'enfant concerné a atteint la majorité, il a conféré à ses parents, un mandat général par acte notarié, qui ne peut toutefois valoir en qualité de procuration spécifique pour ses parents dans le cadre du présent litige, étant entendu que ces derniers sont déjà représentés par un délégué syndical, lui-même muni d'une procuration. Même si l'on pouvait considérer que Stéphanie conserve, à côté de son père agissant en qualité de bénéficiaire visé aux articles 32 et 33 de la loi coordonnée du 14 juillet 1994, un intérêt personnel, et à tout le moins moral, comme sa mère d'ailleurs, il y a toutefois lieu de conclure, en fonction des éléments qui précèdent, que les intimés ne peuvent être considérés comme agissant en qualité de représentants de leur fille qui les aurait dûment et spécifiquement mandatés à cet effet dans le cadre de la présente procédure. En d'autres termes et à titre principal, c'est bien Y qui a la qualité de bénéficiaire en assurance maladie invalidité au sens de l'article 32 de la loi coordonnée du 14 juillet 1994. C'est de même l'intéressé qui a introduit la demande initiale auprès du Fonds Spécial de Solidarité, et en cette qualité. C'est de même à lui que la décision administrative a été notifiée, ce qui fonde dans son chef, comme dans celui de son épouse, intérêt et qualité pour agir, tant en premier degré qu'en instance d'appel. On indiquera pour le reste sur le plan procédural que la mutuelle doit effectivement être mise hors cause pour ne pas être la débitrice directe ou indirecte des droits revendiqués.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-007",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-008",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-005",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La manière dont la demande initiale a été formulée, et surtout son contenu permettent concrètement de se rendre compte que les parents de Stéphanie et particulièrement son père, avait dès le départ l'intention d'agir, non seulement en son nom personnel en qualité de bénéficiaire visé aux articles 32 et 33 de la loi coordonnée du 14 juillet 1994, qualité découlant de son statut de travailleurs salarié, mais encore en qualité de représentant et d'administrateur de la personne et des biens de sa fille mineure à l'époque de la toute première demande. Le fait que cela n'ait à la limite pas été clairement précisé dans la requête informelle introduite devant le tribunal du travail sur pied de l'article 704 du code judiciaire ne peut porter à conséquence sur le plan juridique par rapport à la validité des recours introduits tant en premier degré qu'au niveau de la Cour. Cela découle du fait que la requête visée par l'article 704 du code judiciaire n'est soumise à aucune forme particulière. Ainsi, suffit l'existence d'un écrit dont même l'absence de signature n'en affecte pas la validité (voir Cass., 26 mai 1976, Pas., I, 1976, page 1034). Pareil écrit doit seulement manifester la volonté d'un(e) assuré(e) social(e) de saisir la juridiction du travail compétente de la décision administrative qu'il (ou elle) conteste. Cette demande peut d'ailleurs être formulée par l'intéressé(e) ou, en son nom, par un tiers, quel qu'il soit, et dans ce contexte, un mandat spécial préalable n'est même pas nécessaire et ne doit pas être invoqué. Il existe une seule limite à cette possibilité pour un tiers de former une requête pour autrui : celle du désaveu organisé par l'article 848 du code judiciaire. Cette disposition porte qu'au cas où un acte procédure aurait été accompli au nom d'une personne, en l'absence de toute représentation légale sans qu'elle l'ait permis, ou ratifié (même tacitement), elle pourra demander au juge de le déclarer non avenu, tandis que les autres parties présentes à la cause peuvent introduire les mêmes demandes, à moins que la personne au nom de laquelle l'acte à été accompli ne le ratifie ou ne le confirme en temps utile. Même à imaginer que tel désaveu soit intervenu au travers de la voix de X, les recours sont parfaitement recevables, aucune ratification ne devant en l'espèce intervenir pour l'enfant mineur dans la mesure où ses parents en sont d'office les représentants légaux. Dès que l'enfant concerné a atteint la majorité, il a conféré à ses parents, un mandat général par acte notarié, qui ne peut toutefois valoir en qualité de procuration spécifique pour ses parents dans le cadre du présent litige, étant entendu que ces derniers sont déjà représentés par un délégué syndical, lui-même muni d'une procuration. Même si l'on pouvait considérer que Stéphanie conserve, à côté de son père agissant en qualité de bénéficiaire visé aux articles 32 et 33 de la loi coordonnée du 14 juillet 1994, un intérêt personnel, et à tout le moins moral, comme sa mère d'ailleurs, il y a toutefois lieu de conclure, en fonction des éléments qui précèdent, que les intimés ne peuvent être considérés comme agissant en qualité de représentants de leur fille qui les aurait dûment et spécifiquement mandatés à cet effet dans le cadre de la présente procédure. En d'autres termes et à titre principal, c'est bien Y qui a la qualité de bénéficiaire en assurance maladie invalidité au sens de l'article 32 de la loi coordonnée du 14 juillet 1994. C'est de même l'intéressé qui a introduit la demande initiale auprès du Fonds Spécial de Solidarité, et en cette qualité. C'est de même à lui que la décision administrative a été notifiée, ce qui fonde dans son chef, comme dans celui de son épouse, intérêt et qualité pour agir, tant en premier degré qu'en instance d'appel. On indiquera pour le reste sur le plan procédural que la mutuelle doit effectivement être mise hors cause pour ne pas être la débitrice directe ou indirecte des droits revendiqués.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-008",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-007",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-005",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-006"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La loi du 29 juillet 1991 relative à la motivation formelle des actes administratifs prévoit que :</p>",
+          "<ul>\n<li>article 2 : les actes administratifs des autorités administratives doivent faire l'objet d'une motivation formelle,</li>\n<li>article 3 : la motivation exigée consiste en l'indication, dans l'acte, des considérations de droit et de fait servant de fondement à la décision. Elle doit être adéquate (càd proportionnée).</li>\n</ul>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-009",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-010",
+        "relatedFullTextCitations": [
+          "<ul>\n<li>article 2 : les actes administratifs des autorités administratives doivent faire l'objet d'une motivation formelle,</li>\n<li>article 3 : la motivation exigée consiste en l'indication, dans l'acte, des considérations de droit et de fait servant de fondement à la décision. Elle doit être adéquate (càd proportionnée).</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">La simple lecture de la décision entreprise du 9 juin 1997 notifiée le 5 septembre 1997 par la mutuelle à Y permet de se rendre compte qu'il y a eu respect de l'exigence de motivation formelle consistant à indiquer dans l'acte les considérations de droit et de fait fondant la position prise ou adoptée par l'administration. La circonstance que cette motivation soit le cas échéant erronée en fait ou en droit relève du fond du litige et pas de l'application du respect strict de la loi du 29 juillet 1991. De même, le fait que l'acte administratif visé aboutisse à un refus pur et simple ne veut pas dire qu'il soit disproportionné. Cela n'est en effet que la conclusion présentée comme logique de la motivation avancée, même si celle-ci s'avère ultérieurement inappropriée. Il ne peut donc être question d'une annulation de l'acte administratif entrepris sur base de la loi du 29 juillet 1991.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-010",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Cette position serait confortée par le texte de l'article 2 de l'arrêté royal du 26 février 2001 qui, en ses troisième et quatrième paragraphes, indique que...</p>",
+          "<blockquote class=\"case-quote\">(,§3) \"... Le collège médecins directeurs décide du caractère digne d'intérêt du cas. Il peut à cet effet ordonner des mesures d'instructions supplémentaires... \" (,§4) \"... L'intervention est déterminée... par le collège des médecins directeurs... \"</blockquote>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-011",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Qui plus est, il ressortirait du dossier que le séjour des parents de Mademoiselle Stéphanie aux Etats-Unis n'aurait pas été prescrit par un médecin spécialiste belge, spécialisé dans le traitement de l'affection concernée, mais découlerait d'une initiative strictement personnelle. De même, le dossier ne ferait en aucune manière état d'une autorisation du médecin-conseil pour des soins prodigués à l'étranger, de sorte que des prestations effectuées aux Etats-Unis ne pourraient pas être remboursées dans le cadre de l'article 294, paragraphe premier, de l'arrêté royal du 3 juillet 1996 portant exécution de la loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994 en matière d'assurance maladie invalidité, disposition qui ne pourrait être contournée par l'octroi d'une intervention dans le cadre du Fonds Spécial de Solidarité. Pour le reste, X estime que les considérations émises par le jugement déféré quant à la rareté de l'affection et au sujet de l'efficacité du traitement aux USA ne seraient aucunement démontrées. X se pose d'ailleurs la question de savoir s'il s'agit réellement d'un traitement alors qu'il est question du remboursement de séances de formation des parents de l'assurée aux Etats-Unis.</p>",
+          "<blockquote class=\"case-quote\">\" ...il n'est pas satisfait aux dispositions de l'article 25,paragraphe 4, de la loi relative à l'assurance obligatoire soins de santé et indemnités coordonnée le 14 juillet 1994. Il ne s'agit pas d'un cas digne d'intérêt au sens de l'article 25,paragraphe 4, de la loi coordonnée le 14 juillet 1994. En effet, d'après les éléments du dossier, il semble que les séjours aux Etats-Unis n'aient pas été prescrits par un médecin spécialiste belge, spécialisé dans le traitement de l'affection concernée, et que la décision de se rendre aux USA résulte d'une initiative personnelle des parents de l'enfant. De plus, le dossier ne fait pas état d'une autorisation du médecin-conseil pour des soins à l'étranger. Les prestations effectuées aux USA ne peuvent dès lors pas être remboursées dans le cadre de l'article 294,paragraphe premier, de l'arrêté royal du 3 juillet 1996 portant exécution de la loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. La réglementation concernant les soins à l'étranger établie par l'article 294,paragraphe premier, de l'arrêté royal du 3 juillet 1996 susmentionné, ne peut être contournée par l'octroi d'une intervention dans le cadre du Fonds Spécial de Solidarité... \"</blockquote>",
+          "<p class=\"case-section__paragraph\">La conclusion en est que le Fonds Spécial de Solidarité peut également intervenir, même si les conditions de l'article 294, paragraphe premier, ne sont pas réunies. Au sujet des termes \" digne d'intérêt \", tant le texte de la loi coordonnée que les travaux préparatoires sont muets. De même, aucun arrêté d'exécution, et en tout cas pas celui du 3 juillet 1996, n'a donné à ces mots une quelconque définition. Il appartient donc au juge du fond de donner corps de manière raisonnable et proportionnée à cette notion en fonction des éléments de fait qui lui sont soumis. À cet égard, il y a lieu de noter :</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-012",
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-013",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vu l'avis écrit déposé au greffe le 7 juin 2006 et sa notification subséquente conformément au prescrit l'article 767 du code judiciaire.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Condamne, en application de l'article 1017, alinéa 2, du code judiciaire, la partie appelante aux dépens d'appel non liquidés.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-014"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire et notamment l'article 24,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Application de l'article 779 du Code judiciaire</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-016"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 16,
+      "citationStatistics": {
+        "totalCitations": 29,
+        "avgCitationsPerProvision": 1.8125,
+        "provisionsWithMinimalCitations": 14,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.5,
+        "avgDecisionsPerProvision": 0.25,
+        "provisionsWithNoRelationships": 4
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:2006:ARR.20060824.3-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">On considère que si le juge est compétent pour statuer sur le droit aux indemnités d'incapacité de travail ou aux prestations, il doit de la même manière pouvoir se prononcer dans les litiges relatifs à la mise en oeuvre effective de ce droit, c'est-à-dire ceux relatifs à la date de prise de cours du droit aux indemnités ou aux prestations, c'est-à-dire ceux concernant la date de leur paiement, de leur fourniture ou de leur prise en charge. En effet, le droit aux indemnités ou aux prestations et le bénéfice effectif ou concret de celles-ci sont à ce point indissociables qu'ils constituent ensemble le \" droit subjectif \" aux dites indemnités ou prestations (voir en ce sens Cour du Travail de Bruxelles, 8e chambre, 15 septembre 1999, Chroniques de droit social 2000,9, page 449). Dans ce cadre, même lorsque l'administration exerce un pouvoir qualifié de discrétionnaire ou d'appréciation, le juge doit pouvoir contrôler la décision. Ce contrôle s'effectue non seulement par rapport à la légalité externe de la décision (compétence de l'auteur, vices de forme éventuels, régularité de la procédure, etc...), mais encore vis-à-vis de la légalité dite interne (concernant la motivation en droit et en fait). Qui plus est, le juge contrôle si l'appréciation de l'administration est raisonnable. Même si cela touche à l'opportunité, le juge pourra de la sorte vérifier si l'appréciation de l'administration est ou non manifestement déraisonnable, et si tel est le cas, l'illégalité relevée pourra justifier une réparation conforme aux limites de la demande articulée devant lui (voir Cour du Travail de Bruxelles, arrêt précité, Chroniques de droit social, 2000,9, page 450). En l'espèce, si l'on peut admettre que le Collège des médecins directeurs dispose d'un pouvoir discrétionnaire dans la manière dont il gère son budget, budget sur lequel il n'a d'ailleurs aucune maîtrise en termes d'attribution ou d'importance, il n'en reste pas moins que cette autorité administrative a été amenée à se prononcer sur l'appréciation des termes \" digne d'intérêt \", notion de pur fait qui peut parfaitement être soumise à l'appréciation d'une juridiction du travail, laquelle dispose en tel cas et sur ce point précis d'une compétence de pleine juridiction. Au sujet de cette compétence de pleine juridiction, on ajoutera qu'elle découle des termes :</p>",
+          "<ul>\n<li>de l'article 167 des lois coordonnées du 14 juillet 1994 qui prévoit que : \"... les contestations relatives aux droits et obligations résultant de la législation et de la réglementation concernant l'assurance obligatoire soins de santé et indemnités relèvent de la compétence du tribunal du travail... \",</li>\n<li>de l'article 580,2°, du code judiciaire qui stipule que : \"... le tribunal du travail connaît... (2°) les contestations relatives aux droits et obligations des travailleurs salariés résultant des lois et règlements prévus au 1° (lequel vise toute la matière de l'assurance obligatoire maladie-invalidité) \".</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">La seule restriction à apporter est qu'un tribunal, saisi d'une telle contestation, ne pourra formellement, à supposer qu'il estime la demande d'intervention du Fonds Spécial de Solidarité fondée, condamner cette institution ou X à payer, vu que l'article 25, paragraphe premier, prévoit que : \"... les contestations relatives aux droits et obligations résultant de la législation et de la réglementation concernant l'assurance obligatoire soins de santé et indemnités relèvent de la compétence du tribunal du travail... \",</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-003"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:2006:ARR.20060824.3-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">l'article 25, paragraphe 4, de la loi coordonnée du 14 juillet 1994, en sa mouture applicable à l'époque de la demande et de la décision initiale, indiquait que :</p>",
+          "<blockquote class=\"case-quote\">\" Par dérogation au paragraphe 2, le Collège des médecins directeurs peut décider, dans des cas dignes d'intérêt, que le Fonds Spécial de Solidarité peut prendre en charge la quote-part personnelle du bénéficiaire pour des prestations de santé dispensées à l'étranger, ainsi que les frais de voyage et de séjour du bénéficiaire et, le cas échéant, de la personne qui l'accompagne. Le Roi détermine, après avis du Comité de l'assurance, les conditions et les modalités selon lesquelles l'intervention peut être accordée \".</blockquote>",
+          "<p class=\"case-section__paragraph\">Les termes \" par dérogation au paragraphe 2 \" permettent de comprendre qu'une demande articulée sur base du paragraphe 4 ne doit pas répondre aux conditions strictes du paragraphe 2, et qu'elle s'apprécie par conséquent de manière autonome sur base de la notion du cas digne d'intérêt, et exclusivement :</p>",
+          "<p class=\"case-section__paragraph\">La conclusion en est que le Fonds Spécial de Solidarité peut également intervenir, même si les conditions de l'article 294, paragraphe premier, ne sont pas réunies. Au sujet des termes \" digne d'intérêt \", tant le texte de la loi coordonnée que les travaux préparatoires sont muets. De même, aucun arrêté d'exécution, et en tout cas pas celui du 3 juillet 1996, n'a donné à ces mots une quelconque définition. Il appartient donc au juge du fond de donner corps de manière raisonnable et proportionnée à cette notion en fonction des éléments de fait qui lui sont soumis. À cet égard, il y a lieu de noter :</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:2006:ARR.20060824.3-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La seule restriction à apporter est qu'un tribunal, saisi d'une telle contestation, ne pourra formellement, à supposer qu'il estime la demande d'intervention du Fonds Spécial de Solidarité fondée, condamner cette institution ou X à payer, vu que l'article 25, paragraphe premier, prévoit que : \"... les contestations relatives aux droits et obligations résultant de la législation et de la réglementation concernant l'assurance obligatoire soins de santé et indemnités relèvent de la compétence du tribunal du travail... \",</p>",
+          "<blockquote class=\"case-quote\">\" Dit pour droit que les demandeurs ont droit au remboursement de la somme de 4386,77 EUR ou 176.962 anciens francs belges à charge du Fonds Spécial de Solidarité de X, augmentée des intérêts légaux à dater du 5 décembre 1997 \"</blockquote>",
+          "<p class=\"case-section__paragraph\">La consécration du droit en de tels termes ne pourrait qu'amener le Fonds Spécial de Solidarité à prendre le cas en charge en fonction de ses dispositions budgétaires découlant des règles spécifiques de l'article 25, paragraphe premier, de la loi coordonnée du 14 juillet 1994.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:CTMON:2006:ARR.20060824.3-004"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTMON:2006:ARR.20060824.3-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">La manière dont la demande initiale a été formulée, et surtout son contenu permettent concrètement de se rendre compte que les parents de Stéphanie et particulièrement son père, avait dès le départ l'intention d'agir, non seulement en son nom personnel en qualité de bénéficiaire visé aux articles 32 et 33 de la loi coordonnée du 14 juillet 1994, qualité découlant de son statut de travailleurs salarié, mais encore en qualité de représentant et d'administrateur de la personne et des biens de sa fille mineure à l'époque de la toute première demande. Le fait que cela n'ait à la limite pas été clairement précisé dans la requête informelle introduite devant le tribunal du travail sur pied de l'article 704 du code judiciaire ne peut porter à conséquence sur le plan juridique par rapport à la validité des recours introduits tant en premier degré qu'au niveau de la Cour. Cela découle du fait que la requête visée par l'article 704 du code judiciaire n'est soumise à aucune forme particulière. Ainsi, suffit l'existence d'un écrit dont même l'absence de signature n'en affecte pas la validité (voir Cass., 26 mai 1976, Pas., I, 1976, page 1034). Pareil écrit doit seulement manifester la volonté d'un(e) assuré(e) social(e) de saisir la juridiction du travail compétente de la décision administrative qu'il (ou elle) conteste. Cette demande peut d'ailleurs être formulée par l'intéressé(e) ou, en son nom, par un tiers, quel qu'il soit, et dans ce contexte, un mandat spécial préalable n'est même pas nécessaire et ne doit pas être invoqué. Il existe une seule limite à cette possibilité pour un tiers de former une requête pour autrui : celle du désaveu organisé par l'article 848 du code judiciaire. Cette disposition porte qu'au cas où un acte procédure aurait été accompli au nom d'une personne, en l'absence de toute représentation légale sans qu'elle l'ait permis, ou ratifié (même tacitement), elle pourra demander au juge de le déclarer non avenu, tandis que les autres parties présentes à la cause peuvent introduire les mêmes demandes, à moins que la personne au nom de laquelle l'acte à été accompli ne le ratifie ou ne le confirme en temps utile. Même à imaginer que tel désaveu soit intervenu au travers de la voix de X, les recours sont parfaitement recevables, aucune ratification ne devant en l'espèce intervenir pour l'enfant mineur dans la mesure où ses parents en sont d'office les représentants légaux. Dès que l'enfant concerné a atteint la majorité, il a conféré à ses parents, un mandat général par acte notarié, qui ne peut toutefois valoir en qualité de procuration spécifique pour ses parents dans le cadre du présent litige, étant entendu que ces derniers sont déjà représentés par un délégué syndical, lui-même muni d'une procuration. Même si l'on pouvait considérer que Stéphanie conserve, à côté de son père agissant en qualité de bénéficiaire visé aux articles 32 et 33 de la loi coordonnée du 14 mai 1994, un intérêt personnel, et à tout le moins moral, comme sa mère d'ailleurs, il y a toutefois lieu de conclure, en fonction des éléments qui précèdent, que les intimés ne peuvent être considérés comme agissant en qualité de représentants de leur fille qui les aurait dûment et spécifiquement mandatés à cet effet dans le cadre de la présente procédure. En d'autres termes et à titre principal, c'est bien Y qui a la qualité de bénéficiaire en assurance maladie invalidité au sens de l'article 32 de la loi coordonnée du 14 juillet 1994. C'est de même l'intéressé qui a introduit la demande initiale auprès du Fonds Spécial de Solidarité, et en cette qualité. C'est de même à lui que la décision administrative a été notifiée, ce qui fonde dans son chef, comme dans celui de son épouse, intérêt et qualité pour agir, tant en premier degré qu'en instance d'appel. On indiquera pour le reste sur le plan procédural que la mutuelle doit effectivement être mise hors cause pour ne pas être la débitrice directe ou indirecte des droits revendiqués.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 11,
+        "avgCitationsPerTeaching": 2.75,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 7,
+        "totalProvisionsNotFound": 1,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 1
+      },
+      "extractionNotes": [
+        "L'article 191 (ART-ECLI:BE:CTMON:2006:ARR.20060824.3-004) n'est pas expressément nommé dans les passages extraits; signalé pour TEACH-ECLI:BE:CTMON:2006:ARR.20060824.3-003.",
+        "Le passage citant Cass., 26 mai 1976 (DEC-ECLI:BE:CTMON:2006:ARR.20060824.3-003) figure ailleurs dans le texte (par. sur l'article 704) mais n'est pas present dans les mêmes paragraphes que la compétence de pleine juridiction; marqué comme non validé pour l'enseignement 001."
+      ]
+    }
+  }
+}

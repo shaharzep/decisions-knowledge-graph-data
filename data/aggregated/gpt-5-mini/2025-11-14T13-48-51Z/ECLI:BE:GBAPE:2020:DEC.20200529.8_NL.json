@@ -1,0 +1,1074 @@
+{
+  "decision_id": "ECLI:BE:GBAPE:2020:DEC.20200529.8",
+  "language": "NL",
+  "metadata": {
+    "id": 108149,
+    "court_ecli_code": "GBAPE",
+    "decision_date": "2020-05-29",
+    "decision_type_ecli_code": "DEC",
+    "decision_type_name": "Rechterlijke beslissing",
+    "md_length": 29491,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Geschillenkamer van de Gegevensbeschermingsautoriteit, 29 mei 2020, Beslissing ten gronde 28/2020, Dossier DO5-2019-04191, ECLI:BE:GBAPE:2020:DEC.20200529.8"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "name": "X, \"de klager\"",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "KLAGER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "name": "Y VZW, \"de verweerder\"",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "VERWEERDER"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op 8 augustus 2019 diende de klager een klacht in bij de Gegevensbeschermingsautoriteit tegen verweerder wegens de herhaaldelijke ontvangst per post van promotiemateriaal van verweerder, ondanks herhaalde verzoeken om dit te staken en om wissen van zijn persoonsgegevens. Klager verzocht per e-mail van 5 juli 2019 verweerder zijn adres onmiddellijk te schrappen en geen post meer te sturen. De klacht werd ontvankelijk verklaard op 27 augustus 2019 en overgemaakt aan de Geschillenkamer; de Geschillenkamer verklaarde de klacht gereed voor behandeling ten gronde op 12 september 2019 en stelde partijen op 12 september 2019 in kennis van termijnen voor het indienen van verweermiddelen. Klager bezorgde per e-mail van 6 oktober 2019 foto's van nieuwe publiciteit en per e-mail van 7 december 2019 meldde hij opnieuw ontvangst van promotiemateriaal (bewijsstukken, waaronder een brief gedateerd 26 november 2019). Verweerder diende verweermiddelen in op 10 oktober 2019 en gaf aan dat de gegevens van klager in haar databank stonden omdat klager in 2012 een gift deed, dat zij donateursgegevens tien jaar bewaart en dat men de vraag van klager 'over het hoofd gezien' had maar dat men ervoor zou zorgen dat klager geen post meer zou ontvangen. Op 27 april 2020 stelde de Geschillenkamer verweerder in kennis van het voornemen tot opleggen van een administratieve geldboete en van het boetebedrag; daarop ontving de Geschillenkamer geen reactie van verweerder betreffende dit voornemen.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+          "requests": "Klager verzocht dat verweerder stopt met het toesturen van promotiemateriaal en zijn persoonsgegevens wist overeenkomstig artikel 17 AVG; hij diende hiertoe een klacht in bij de Gegevensbeschermingsautoriteit en legde bewijsstukken voor van verdere verzendingen."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+          "argument": "Verweerder voert in haar verweerschrift van 10 oktober 2019 aan dat de persoonsgegevens van klager in haar donateursdatabank waren opgenomen omdat klager in 2012 een gift deed en dat zij de gegevens van donateurs nog tien jaar bijhoudt zoals vermeld in haar privacy-clausule. Voor haar fondsenwervende activiteiten beroept verweerder zich op het 'gerechtvaardigd belang' (artikel 6.1, f) AVG) als rechtsgrondslag voor direct marketing en niet op expliciete toestemming; zij stelt dat zij af en toe voormalige donateurs aanschrijft in de hoop dat zij opnieuw zullen schenken en dat het verzoek van klager om verzending te staken 'over het hoofd gezien' werd en intussen zou zijn gecorrigeerd.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+          "argument": "Klager stelt dat hij op 5 juli 2019 bezwaar maakte tegen de verwerking van zijn persoonsgegevens voor direct marketing en tevens verzocht zijn persoonsgegevens te wissen, krachtens artikel 21.2 en artikel 17 AVG, en dat verweerder ondanks dat bezwaar en ondanks de kennisgeving van de klacht door de Autoriteit blijft sturen, hetgeen de onmiddellijke stopzetting van verwerking voor direct marketing en de verplichting tot wissing vordert volgens die bepalingen; klager overlegt bewijsstukken van nieuwe verzendingen in oktober en november 2019.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN, \n\nbeslist de Geschillenkamer van de Gegevensbeschermingsautoriteit, na beraadslaging, om:\n\n- op grond van artikel 58.2 c) en g) AVG en artikel 100, §1, $6^{\\circ}$ WOG de verweerder te gelasten een gunstig gevolg te geven aan het verzoek tot gegevenswissing van klager overeenkomstig van artikel 17.1 c) AVG binnen de termijn van één maand na ontvangst van deze beslissing en de klager alsook de Geschillenkamer hiervan binnen dezelfde termijn in kennis te stellen; en\n\n---\n\n- op grond van artikel 83 AVG en de artikelen 100, §1, 130 en 101 WOG een administratieve geldboete van 1000 EUR op te leggen aan verweerder wegens schending van de artikelen 6.1, 17.1 c) en d), 21.2, 21.3 en 21.4 AVG.\n\nTegen deze beslissing kan op grond van artikel 108, §1 WOG beroep worden aangetekend binnen een termijn van dertig dagen, vanaf de kennisgeving, bij het Marktenhof, met de Gegevensbeschermingsautoriteit als verweerder.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "provisionNumber": "artikel 58",
+        "provisionNumberKey": "58",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "provisionNumber": "artikel 61",
+        "provisionNumberKey": "61",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-003",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "provisionNumber": "artikel 62, §1",
+        "provisionNumberKey": "62",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-004",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "provisionNumber": "artikels 95, §1, 1°",
+        "provisionNumberKey": "95",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-005",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "provisionNumber": "artikel 98",
+        "provisionNumberKey": "98",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-006",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "provisionNumber": "artikel 99",
+        "provisionNumberKey": "99",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-007",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "provisionNumber": "artikel 6.1",
+        "provisionNumberKey": "6.1",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer legt uit dat artikel 6.1, f) cumulatief drie voorwaarden vereist om zich op het gerechtvaardigd belang te beroepen: (1) er moet een gerechtvaardigd belang bestaan (doeltoets), (2) de verwerking moet noodzakelijk zijn voor dat belang (noodzakelijkheidstoets) en (3) een belangenafweging moet aantonen dat de fundamentele rechten en vrijheden van betrokkene niet prevaleren (afwegingstoets). Bij die afweging dienen onder meer de redelijke verwachtingen van de betrokkene en aanvullende waarborgen (gegevensminimalisatie, transparantie, reëel opt‑outrecht) in aanmerking te worden genomen.",
+        "relevantFactualContext": "Verweerder beriep zich op het gerechtvaardigd belang voor fondsenwerving gericht aan vroegere donateurs, hield donorgegevens tot 10 jaar bij en bleef ondanks het bezwaar van klager en kennisgeving door de Autoriteit direct marketingberichten sturen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-008",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "provisionNumber": "artikel 17.1, c)",
+        "provisionNumberKey": "17.1",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer stelt dat artikel 17.1, c) het recht op wissing toekent wanneer de betrokkene overeenkomstig artikel 21 bezwaar maakt en er geen prevalerende dwingende gerechtvaardigde gronden voor de verwerking bestaan; in dat geval moeten persoonsgegevens zonder onredelijke vertraging worden gewist.",
+        "relevantFactualContext": "Klager verzocht per e‑mail d.d. 5 juli 2019 om geen promotie meer te ontvangen en om wissing van zijn gegevens; verweerder gaf hieraan geen gevolg en bleef promotiemateriaal toesturen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-009",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "provisionNumber": "artikel 17",
+        "provisionNumberKey": "17",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "provisionNumber": "artikel 21.2",
+        "provisionNumberKey": "21.2",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer verklaart dat artikel 21.2 de betrokkene te allen tijde het recht geeft bezwaar te maken tegen de verwerking van zijn persoonsgegevens voor direct marketing, inclusief profilering voor direct marketing; dit recht moet kosteloos en onbeperkt kunnen worden uitgeoefend.",
+        "relevantFactualContext": "Klager maakte herhaaldelijk bezwaar tegen ontvangst van promotiemateriaal en verzocht tegelijk om wissing, maar verweerder bleef desondanks direct marketing sturen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-011",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "provisionNumber": "artikel 21.3",
+        "provisionNumberKey": "21.3",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer interpreteert artikel 21.3 strikt: wanneer een betrokkene bezwaar maakt tegen verwerking ten behoeve van direct marketing, moet verwerking voor die doeleinden onmiddellijk en zonder bijkomend onderzoek worden gestaakt; geen afweging of nader onderzoek is vereist.",
+        "relevantFactualContext": "Ondanks het bezwaar van klager zette verweerder de verwerking voort gedurende ten minste vijf maanden na het bezwaar en drie maanden na de kennisgeving van de klacht."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-012",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "provisionNumber": "artikel 21.4",
+        "provisionNumberKey": "21.4",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer legt uit dat artikel 21.4 vereist dat het recht van bezwaar duidelijk, uitdrukkelijk en gescheiden bij het eerste contact wordt meegedeeld en dat controllers dit recht in alle direct marketingberichten moeten faciliteren; het volstaat niet dit enkel in de privacyverklaring te vermelden.",
+        "relevantFactualContext": "De door klager overgelegde marketingberichten vermeldden geen mogelijkheid tot bezwaar; verweerder verwees slechts naar zijn privacyverklaring en toonde geen afdoende faciliteit voor opt‑out aan."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-013",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "provisionNumber": "artikel 58.2 c)",
+        "provisionNumberKey": "58.2",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-014",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "provisionNumber": "artikel 83",
+        "provisionNumberKey": "83",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-015",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "provisionNumber": "artikel 83.5",
+        "provisionNumberKey": "83.5",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-016",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "provisionNumber": "artikel 83.2",
+        "provisionNumberKey": "83.2",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
+        "parentActDate": "2016-04-27",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer gebruikt artikel 83.2 als toetsingskader voor de hoogte van administratieve geldboeten: het bepaalt factoren zoals aard, ernst en duur van de inbreuk, het eerste of recidiverende karakter, de samenwerking met de toezichthouder en de grootte/omzet van de overtreder; deze factoren worden gewogen bij het bepalen van een proportionele boete.",
+        "relevantFactualContext": "Bij de sanctiebepaling hield de Kamer rekening met het voortdurende karakter van de inbreuk (minstens vijf maanden na bezwaar), het feit dat het de eerste vastgestelde inbreuk betrof, de beperkte samenwerking van verweerder en zijn beperkte omzet."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-017",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "provisionNumber": "artikel 100, §1, 6°",
+        "provisionNumberKey": "100",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-018",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "provisionNumber": "artikel 130",
+        "provisionNumberKey": "130",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-019",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "provisionNumber": "artikel 101",
+        "provisionNumberKey": "101",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-020",
+        "internalParentActId": "ACT-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "provisionNumber": "artikel 108, §1",
+        "provisionNumberKey": "108",
+        "parentActType": "WET",
+        "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
+        "parentActDate": "2017-12-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Gegevensbeschermingsautoriteit",
+        "date": "2019-08-08",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Geschillenkamer",
+        "date": "2019-08-27",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Geschillenkamer",
+        "date": "2019-09-12",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Gegevensbeschermingsautoriteit",
+        "date": "2019-10-06",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Geschillenkamer",
+        "date": "2019-10-10",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Gegevensbeschermingsautoriteit",
+        "date": "2019-12-07",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-006"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 7,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Gegevensbeschermingsautoriteit",
+        "date": "2020-01-17",
+        "caseNumber": "Aanbeveling nr. 01/2020",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-007"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 8,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJEU",
+        "date": "2017-05-04",
+        "caseNumber": "C-13/16",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-008"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 9,
+        "courtJurisdictionCode": "EU",
+        "courtName": "HvJEU",
+        "date": "2019-12-11",
+        "caseNumber": "C-708/18",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-009"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 10,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Beroep Brussel (sectie Marktenhof)",
+        "date": "2020-02-19",
+        "caseNumber": "Arrest 2020/1471",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-010"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Gegevensbescherming",
+      "Ongevraagde postreclame",
+      "Herhaald promotiemateriaal",
+      "Voormalige donateur",
+      "Verzoek tot wissing",
+      "Bezwaar tegen direct marketing",
+      "Recht op wissing",
+      "Gerechtvaardigd belang betwist",
+      "Ontbrekende bezwaarinformatie",
+      "Postale fondsenwerving"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "text": "Wanneer een betrokkene bezwaar maakt tegen de verwerking van persoonsgegevens voor direct marketing (artikel 21 AVG), moet de verwerkingsverantwoordelijke de verwerking voor die doeleinden onmiddellijk en zonder bijkomend onderzoek staken; dit recht geldt te allen tijde en kosteloos en maakt deel uit van de rechtmatigheidsvoorwaarden voor direct marketing.",
+        "courtVerbatim": "Overeenkomstig overweging 70 AVG heeft de betrokkene, in geval van een verwerking van persoonsgegevens ten behoeve van direct marketing, het recht te allen tijde en kosteloos bezwaar te maken tegen deze verwerking, en dit ongeacht of het een aanvankelijke dan wel een verdere verwerking betreft. Artikel 21.3 AVG bepaalt wat dit betreft dat, \"wanneer een betrokkene bezwaar maakt tegen de verwerking ten behoeve van direct marketing, de persoonsgegevens niet meer voor deze doeleinden [worden] verwerkt\". In het kader van direct marketing dient een dergelijk bezwaar bijgevolg onmiddellijk en zonder bijkomend onderzoek aanleiding te geven tot de regelrechte stopzetting van elke verwerking van gegevens van betrokkene ten behoeve van die direct marketing.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een betrokkene overeenkomstig artikel 21 AVG bezwaar maakt tegen verwerking voor direct marketing.",
+        "relevantFactualContext": "Klager verzocht per e‑mail d.d. 5 juli 2019 dat de verweerder hem geen promotie meer zou sturen; verweerder zette de direct marketing voort gedurende ten minste vijf maanden na dat bezwaar en drie maanden na kennisgeving door de Autoriteit.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:GBAPE:2020:DEC.20200529.8-004"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-011"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-008"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "text": "De rechtmatigheid van verwerking op grond van artikel 6.1, f) AVG (gerechtvaardigd belang) vereist het doorlopen van drie cumulatieve toetsen: (1) vaststelling van een gerechtvaardigd belang (doeltoets), (2) noodzakelijkheid van de verwerking voor dat belang (noodzakelijkheidstoets), en (3) een belangenafweging die aantoont dat de fundamentele rechten en vrijheden van de betrokkene niet prevaleren (afwegingstoets).",
+        "courtVerbatim": "Overeenkomstig artikel 6.1, f) AVG en de rechtspraak van het Hof van Justitie van de Europese Unie dient immers aan drie cumulatieve voorwaarden te zijn voldaan opdat een verwerkingsverantwoordelijke zich rechtsgeldig kan beroepen op deze rechtmatigheidsgrond, \"te weten, in de eerste plaats, de behartiging van een gerechtvaardigd belang van de voor de verwerking verantwoordelijke of van de derde(n) aan wie de gegevens worden verstrekt, in de tweede plaats, de noodzaak van de verwerking van de persoonsgegevens voor de behartiging van het gerechtvaardigde belang, en, in de derde plaats, de voorwaarde dat de fundamentele rechten en vrijheden van de bij de gegevensbescherming betrokken persoon niet prevalererl' (arrest \"Rigas\").\" Teneinde zich conform artikel 6.1, f) AVG te kunnen beroepen op de rechtmatigheidsgrond van het \"gerechtvaardigd belang\", dient de verwerkingsverantwoordelijke met andere woorden aan te tonen dat: 1) de belangen die deze met de verwerking nastreeft, als gerechtvaardigd kunnen worden erkend (de \"doeltoets\"); 2) de beoogde verwerking noodzakelijk is voor de verwezenlijking van deze belangen (de \"noodzakelijkheidstoets\"); en 3) de afweging van deze belangen ten opzichte van de belangen, fundamentele vrijheden en grondrechten van betrokkenen doorweegt in het voordeel van de verwerkingsverantwoordelijke (de \"afwegingstoets\").",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een verwerkingsverantwoordelijke zich beroept op artikel 6.1, f) AVG voor verwerking ten behoeve van direct marketing of soortgelijke doeleinden.",
+        "relevantFactualContext": "Verweerder beriep zich op het gerechtvaardigd belang voor fondsenwerving richting vroegere donateurs en stelde dat het bewaren en gebruiken van donorgegevens noodzakelijk was voor prospectieactiviteiten.",
+        "principleType": "LEGAL_TEST",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-007"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-009",
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-010",
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-011"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200529.8-003",
+        "text": "Het recht van bezwaar tegen verwerking ten behoeve van direct marketing moet duidelijk, uitdrukkelijk en gescheiden bij het eerste contact aan de betrokkene worden meegedeeld en in alle direct marketingberichten worden gefaciliteerd; het volstaat niet dit enkel in de privacyverklaring te vermelden.",
+        "courtVerbatim": "Overeenkomstig overweging 70 AVG, in fine, alsook artikel 21.4 AVG dient de verwerkingsverantwoordelijke dit recht van bezwaar in het kader van direct marketing bovendien te faciliteren: \"Wanneer persoonsgegevens worden verwerkt ten behoeve van direct marketing dient de betrokkene, ongeacht of het een aanvankelijke dan wel een verdere verwerking betreft, het recht te hebben te allen tijde en kosteloos bezwaar te maken tegen deze verwerking, ook in het geval van profilering voor zover deze betrekking heeft op de direct marketing. Dat recht moet uitdrukkelijk, op duidelijke wijze en gescheiden van overige informatie, onder de aandacht van de betrokkene worden gebracht.\" \"Het in de leden 1 en 2 bedoelde recht wordt uiterlijk op het moment van het eerste contact met de betrokkene uitdrukkelijk onder de aandacht van betrokkene gebracht en duidelijk en gescheiden van enige andere informatie weergegeven.\" De verwerkingsverantwoordelijke moet het recht van bezwaar bijgevolg duidelijk kenbaar maken, in eenvoudige en ondubbelzinnige taal en dit in alle direct marketingberichten, vanaf het eerste bericht. Het is niet voldoende om de mogelijkheid dit recht uit te oefenen op te nemen in de privacyverklaring; deze mogelijkheid moet uitdrukkelijk aan de betrokkene worden voorgesteld.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij het eerste contact met of in elke direct marketingcommunicatie richting de betrokkene.",
+        "relevantFactualContext": "Marketingberichten van verweerder vermeldden geen mogelijkheid tot bezwaar; verweerder verwees enkel naar zijn privacyverklaring en toonde geen afdoende opt‑outfaciliteit aan.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-012",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-008",
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-011"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200529.8-004",
+        "text": "Wanneer een betrokkene bezwaar maakt tegen verwerking voor direct marketing en er geen prevalerende dwingende gerechtvaardigde gronden voor de verwerking bestaan, verleent artikel 17.1, c) AVG de betrokkene het recht op wissing zonder onredelijke vertraging; controllers moeten een verzoek tot wissing gevolg geven indien geen zwaardere gerechtvaardigde gronden bestaan.",
+        "courtVerbatim": "Betrokkene formuleert niet enkel een bezwaar tegen de verwerking van zijn persoonsgegevens voor direct marketingdoeleinden doch verzoekt verweerder in zijn e-mail d.d. 5 juli 2019 eveneens zijn gegevens te schrappen. Hiermee beroept betrokkene zich op zijn recht ex artikel 17 AVG. Overeenkomstig artikel 17.1, c) AVG beschikt betrokkene ten aanzien van de verwerkingsverantwoordelijke inderdaad over het recht \"zonder onredelijke vertraging wissing van hem betreffende persoonsgegevens te verkrijgen\" wanneer eerstgenoemde \"bezwaar [maakt] tegen de verwerking overeenkomstig artikel 21, lid 2\".",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer betrokkene overeenkomstig artikel 21 AVG bezwaar maakt en geen prevalerende dwingende gerechtvaardigde gronden voor verwerking bestaan.",
+        "relevantFactualContext": "Klager vroeg om wissing van zijn gegevens tegelijk met zijn bezwaar; verweerder gaf hieraan geen gevolg en bleef promotiemateriaal sturen, waardoor de Autoriteit oordeelde dat artikel 17.1, c) AVG werd geschonden.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-008",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 1,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser klaagt dat de vennootschap hem herhaaldelijk promotiemateriaal per post heeft toegezonden ondanks een uitdrukkelijk bezwaar en verzoek tot wissing van zijn persoonsgegevens. De Geschillenkamer kwalificeert dit als direct marketing, oordeelt dat de vennootschap de artikelen 6.1, 17.1 c) en d), 21.2, 21.3 en 21.4 AVG heeft geschonden, gelast binnen één maand wissing van de gegevens en legt een administratieve geldboete van €1000 op. Kernpunt: bij direct marketing moet een bezwaar onmiddellijk en kosteloos worden gehonoreerd en kan niet worden afgedaan met een beroep op het gerechtvaardigd belang indien geen duidelijke opt-out vanaf het eerste contact en geen afdoende belangenafweging en waarborgen zijn geboden."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Op 27 augustus 2019 wordt de klacht ontvankelijk verklaard op grond van artikel 58 WOG, wordt de klager hiervan in kennis gesteld overeenkomstig artikel 61 WOG en wordt de klacht op grond van artikel 62, §1 WOG, overgemaakt aan de Geschillenkamer.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Op 27 augustus 2019 wordt de klacht ontvankelijk verklaard op grond van artikel 58 WOG, wordt de klager hiervan in kennis gesteld overeenkomstig artikel 61 WOG en wordt de klacht op grond van artikel 62, §1 WOG, overgemaakt aan de Geschillenkamer.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-003",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Op 27 augustus 2019 wordt de klacht ontvankelijk verklaard op grond van artikel 58 WOG, wordt de klager hiervan in kennis gesteld overeenkomstig artikel 61 WOG en wordt de klacht op grond van artikel 62, §1 WOG, overgemaakt aan de Geschillenkamer.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-003",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-004",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Op 12 september 2019 beslist de Geschillenkamer op grond van de artikelen 95, §1, 1°, en 98 WOG dat de klacht gereed is voor behandeling ten gronde.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-004",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-005",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Op 12 september 2019 beslist de Geschillenkamer op grond van de artikelen 95, §1, 1°, en 98 WOG dat de klacht gereed is voor behandeling ten gronde.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-005",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-006",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Per aangetekende brief van 12 september 2019 worden partijen in kennis gesteld van het feit dat de klacht gereed is voor behandeling ten gronde en worden zij tevens op grond van artikel 99 WOG in kennis gesteld van de termijnen om hun verweermiddelen in te dienen.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-007",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n      <p class=\"case-section__paragraph\">“1. De verwerking is alleen rechtmatig indien en voor zover aan ten minste een van de onderstaande voorwaarden is voldaan:</p>\n      <ul>\n        <li><p class=\"case-section__paragraph\">a) de betrokkene heeft toestemming gegeven voor de verwerking van zijn persoonsgegevens voor een of meer specifieke doeleinden;</p></li>\n        <li><p class=\"case-section__paragraph\">b) de verwerking is noodzakelijk voor de uitvoering van een overeenkomst waarbij de betrokkene partij is, of om op verzoek van de betrokkene vóór de sluiting van een overeenkomst maatregelen te nemen;</p></li>\n        <li><p class=\"case-section__paragraph\">c) de verwerking is noodzakelijk om te voldoen aan een wettelijke verplichting die op de verwerkingsverantwoordelijke rust;</p></li>\n        <li><p class=\"case-section__paragraph\">d) de verwerking is noodzakelijk om de vitale belangen van de betrokkene of van een andere natuurlijke persoon te beschermen;</p></li>\n        <li><p class=\"case-section__paragraph\">e) de verwerking is noodzakelijk voor de vervulling van een taak van algemeen belang of van een taak in het kader van de uitoefening van het openbaar gezag dat aan de verwerkingsverantwoordelijke is opgedragen;</p></li>\n        <li><p class=\"case-section__paragraph\">f) de verwerking is noodzakelijk voor de behartiging van de gerechtvaardigde belangen van de verwerkingsverantwoordelijke of van een derde, behalve wanneer de belangen of de grondrechten en de fundamentele vrijheden van de betrokkene die tot bescherming van persoonsgegevens nopen, zwaarder wegen dan die belangen, met name wanneer de betrokkene een kind is. De eerste alinea, punt f), geldt niet voor de verwerking door overheidsinstanties in het kader van de uitoefening van hun taken.”</p></li>\n      </ul>\n    </blockquote>",
+          "<li><p class=\"case-section__paragraph\">In zijn verweerschrift d.d. 10 oktober 2019 verklaart verweerder dat deze zich voor zijn direct marketing ten aanzien van vroegere donateurs met oog op fondsenwerving beroept op het “gerechtvaardigd belang” (artikel 6.1, f) AVG) als wettelijke grondslag voor de verwerking van persoonsgegevens en niet op de expliciete toestemming van de betrokkenen (artikel 6.1, a) AVG), teneinde “een zo groot mogelijk doelpubliek aan te (mogen) spreken”.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Hoewel de AVG het gebruik van het gerechtvaardigd belang als rechtmatigheidsgrond voor de verwerking van persoonsgegevens voor direct marketingdoeleinden niet volledig uitsluit, betekent dit geenszins dat elke verwerking voor prospectiedoeleinden als gerechtvaardigd kan worden beschouwd.4</p></li>",
+          "<li><p class=\"case-section__paragraph\">Overeenkomstig artikel 6.1, f) AVG en de rechtspraak van het Hof van Justitie van de Europese Unie (hierna “het Hof”) dient immers aan drie cumulatieve voorwaarden te zijn voldaan opdat een verwerkingsverantwoordelijke zich rechtsgeldig kan beroepen op deze rechtmatigheidsgrond, “te weten, in de eerste plaats, de behartiging van een gerechtvaardigd belang van de voor de verwerking verantwoordelijke of van de derde(n) aan wie de gegevens worden verstrekt, in de tweede plaats, de noodzaak van de verwerking van de persoonsgegevens voor de behartiging van het gerechtvaardigde belang, en, in de derde plaats, de voorwaarde dat de fundamentele rechten en vrijheden van de bij de gegevensbescherming betrokken persoon niet prevaleren” (arrest “Rigas”5).</p></li>",
+          "<li><p class=\"case-section__paragraph\">Teneinde zich conform artikel 6.1, f) AVG te kunnen beroepen op de rechtmatigheidsgrond van het “gerechtvaardigd belang”, dient de verwerkingsverantwoordelijke met andere woorden aan te tonen dat:</p>\n        <ol>\n          <li><p class=\"case-section__paragraph\">de belangen die deze met de verwerking nastreeft, als gerechtvaardigd kunnen worden erkend (de “doeltoets”);</p></li>\n          <li><p class=\"case-section__paragraph\">de beoogde verwerking noodzakelijk is voor de verwezenlijking van deze belangen (de “noodzakelijkheidstoets”);</p></li>\n        </ol>\n      </li>",
+          "<ol start=\"33\">\n      <li><p class=\"case-section__paragraph\">de afweging van deze belangen ten opzichte van de belangen, fundamentele vrijheden en grondrechten van betrokkenen doorweegt in het voordeel van de verwerkingsverantwoordelijke (de “afwegingstoets”).</p></li>\n      <li><p class=\"case-section__paragraph\">Wat betreft de eerste voorwaarde (de zogenaamde “doeltoets”), erkent de AVG dat de verwerking van persoonsgegevens ten behoeve van direct marketing in se kan worden beschouwd als uitgevoerd met oog op een gerechtvaardigd belang. 6</p></li>\n      <li><p class=\"case-section__paragraph\">In casu betreft het direct marketingberichten gericht aan vroegere donateurs met oog op de promotie van de diensten van verweerder en het werven van fondsen door deze laatste bij deze gewezen donateurs. Het belang dat verweerder als verwerkingsverantwoordelijke nastreefde kan overeenkomstig overweging 47 AVG op zich als gerechtvaardigd te worden beschouwd. Er wordt bijgevolg voldaan aan de eerste voorwaarde vervat in artikel 6.1, f) AVG.</p></li>\n      <li><p class=\"case-section__paragraph\">Teneinde te voldoen aan de tweede voorwaarde, dient te worden aangetoond dat de verwerking noodzakelijk is voor de verwezenlijking van de nagestreefde doeleinden. Dit betekent meer bepaald dat de vraag dient te worden gesteld of met andere middelen hetzelfde resultaat kan worden bereikt zonder verwerking van persoonsgegevens of zonder een onnodig ingrijpende verwerking voor de betrokkenen.7</p></li>\n      <li><p class=\"case-section__paragraph\">In casu kan worden beschouwd dat de verwerking van persoonsgegevens noodzakelijk was voor de verwezenlijking van het door verwerkingsverantwoordelijke omschreven doeleinde, met name het richten van direct marketingberichten per brief aan gewezen donateurs met oog op fondsenwerving. Teneinde deze direct marketing te richten aan betrokkenen wordt hun naam en adres verwerkt. Het aldus door verwerkingsverantwoordelijke omschreven doeleinde kon inderdaad niet worden bereikt zonder de hiervoor vermelde persoonsgegevensverwerking.</p></li>\n      <li><p class=\"case-section__paragraph\">Het feit dat het belang dat de verwerkingsverantwoordelijke nastreeft gerechtvaardigd is en dat de verwerking van persoonsgegevens noodzakelijk is voor het bereiken van dit doeleinde volstaat evenwel niet opdat de verwerkingsverantwoordelijke zich rechtsgeldig kan beroepen op artikel 6.1, f) AVG.</p></li>\n      <li><p class=\"case-section__paragraph\">Teneinde na te gaan of aan de derde voorwaarde van artikel 6.1, f) AVG - de zogenaamde “afwegingstoets” tussen de belangen van de verwerkingsverantwoordelijke, enerzijds, en de fundamentele vrijheden en grondrechten van betrokkene, anderzijds - kan worden voldaan, dient overeenkomstig overweging 47 AVG vooreerst rekening te worden gehouden met de redelijke</p></li>\n    </ol>",
+          "<ol start=\"38\">\n      <li><p class=\"case-section__paragraph\">verwachtingen van de betrokkene. Er dient meer bepaald te worden geëvalueerd of “betrokkene op het tijdstip en in het kader van de verzameling van de persoonsgegevens redelijkerwijs mag verwachten dat verwerking met dat doel kan plaatsvinden”8.</p>\n        <blockquote class=\"case-quote\">\n          <p class=\"case-section__paragraph\">Dit wordt eveneens benadrukt door het Hof in zijn arrest “TK t/ Asociaţia de Proprietari bloc M5A-ScaraA” van 11 december 20199, waarin het stelt:</p>\n          <p class=\"case-section__paragraph\">“Ook relevant voor deze afweging zijn de redelijke verwachtingen van de betrokkene dat zijn of haar persoonsgegevens niet zullen worden verwerkt wanneer, in de gegeven omstandigheden van het geval, de betrokkene redelijkerwijs geen verdere verwerking van de gegevens kan verwachten”.</p>\n        </blockquote>\n      </li>\n      <li><p class=\"case-section__paragraph\">In casu rijst de vraag of klager redelijkerwijs kon verwachten dat zijn persoonsgegevens ruim zeven jaar na de verzameling ervan zouden worden gebruikt voor direct marketingdoeleinden met oog op fondsenwerving.</p></li>\n      <li><p class=\"case-section__paragraph\">Een tweede element waar, naast de redelijke verwachtingen van de betrokkene, rekening mee dient te worden gehouden door een verwerkingsverantwoordelijke die voornemens is het gerechtvaardigd belang als rechtmatigheidsgrond te gebruiken, is zijn verplichting om aanvullende waarborgen te voorzien ten voordele van betrokkene. Dit wordt benadrukt door de Groep 29 in zijn Advies 06/201410:</p>\n        <blockquote class=\"case-quote\">\n          <p class=\"case-section__paragraph\">“Bij deze afweging moet juist een aantal factoren volledig in overweging worden genomen, zodat wordt verzekerd dat voldoende rekening wordt gehouden met het belang en de fundamentele rechten van de betrokkenen […]. Factoren waarmee rekening moet worden gehouden bij de afweging zijn onder andere:</p>\n          <ul>\n            <li><p class=\"case-section__paragraph\">aanvullende waarborgen die ongewenste gevolgen voor de betrokkene kunnen beperken, zoals gegevensminimalisatie, privacyverbeterende technologieën, verbeterde transparantie, het algemene en onvoorwaardelijke recht op “opt-out” en gegevensoverdraagbaarheid.”</p></li>\n          </ul>\n        </blockquote>\n      </li>\n      <li><p class=\"case-section__paragraph\">Het voorzien van een recht om bezwaar te maken tegen de verwerking is hierbij een essentieel element. Zonder het aanbieden van een reëel en doeltreffend recht van bezwaar kan namelijk geen evenwicht gevonden worden tussen de gerechtvaardigde belangen die de</p></li>\n    </ol>",
+          "<ol start=\"43\">\n      <li><p class=\"case-section__paragraph\">verwerkingsverantwoordelijke nastreeft en de fundamentele vrijheden en grondrechten van betrokkene.</p></li>\n      <li><p class=\"case-section__paragraph\">Het onvoorwaardelijke karakter van dit recht van bezwaar is specifiek voor verwerkingen ten behoeve van direct marketing en wordt gewaarborgd door artikel 21.3 AVG (zie supra). Zoals hierboven vermeld, dient dit bezwaar in het kader van direct marketing onmiddellijk en zonder bijkomend onderzoek aanleiding te geven tot de regelrechte stopzetting van elke verwerking van gegevens van betrokkene ten behoeve van die direct marketing.11</p></li>\n      <li><p class=\"case-section__paragraph\">Overeenkomstig overweging 70 AVG, in fine, alsook artikel 21.4 AVG dient de verwerkingsverantwoordelijke dit recht van bezwaar in het kader van direct marketing bovendien te faciliteren:</p>\n        <blockquote class=\"case-quote\">\n          <p class=\"case-section__paragraph\">“Wanneer persoonsgegevens worden verwerkt ten behoeve van direct marketing dient de betrokkene, ongeacht of het een aanvankelijke dan wel een verdere verwerking betreft, het recht te hebben te allen tijde en kosteloos bezwaar te maken tegen deze verwerking, ook in het geval van profilering voor zover deze betrekking heeft op de direct marketing. Dat recht moet uitdrukkelijk, op duidelijke wijze en gescheiden van overige informatie, onder de aandacht van de betrokkene worden gebracht.”12</p>\n          <p class=\"case-section__paragraph\">“Het in de leden 1 en 2 bedoelde recht wordt uiterlijk op het moment van het eerste contact met de betrokkene uitdrukkelijk onder de aandacht van betrokkene gebracht en duidelijk en gescheiden van enige andere informatie weergegeven.”13</p>\n        </blockquote>\n      </li>",
+          "<ol start=\"46\">\n      <li><p class=\"case-section__paragraph\">verplichting is overigens niet nieuw en bestond, voor de inwerkingtreding van de AVG, reeds uit kracht van artikel 7 van de Richtlijn 95/46/EG.¹⁶</p></li>\n      <li><p class=\"case-section__paragraph\">In casu voldoet verweerder niet aan deze verplichting opgelegd door artikel 21.4 AVG en verduidelijkt door overweging 70 AVG. Verweerder verwijst in zijn verweer naar zijn privacyverklaring doch toont niet aan dat hij de uitoefening van het recht van bezwaar afdoende heeft gefaciliteerd, zoals vereist door artikel 21.4 AVG. Op de marketingberichten die als bewijsstukken werden overgemaakt door klager, wordt de mogelijkheid tot het uitoefenen van het recht van bezwaar immers niet vermeld.</p></li>\n      <li><p class=\"case-section__paragraph\">Verweerder heeft bijgevolg het algemene en onvoorwaardelijke recht op bezwaar dat geldt bij de verwerking van persoonsgegevens voor direct marketing niet afdoende gegarandeerd en niet voldaan aan zijn verplichting om ab initio afdoende aanvullende waarborgen te voorzien die eventuele ongewenste gevolgen voor de betrokkene konden beperken.</p></li>\n      <li><p class=\"case-section__paragraph\">Aangezien dit element essentieel is teneinde zich als verwerkingsverantwoordelijke rechtsgeldig te kunnen beroepen op artikel 6.1, f) AVG (gerechtvaardigd belang) als rechtmatigheidsgrond voor de verwerking van persoonsgegevens met oog op direct marketing, dient in casu te worden besloten dat niet is voldaan aan de derde voorwaarde (“afwegingstoets”) en verweerder de verwerking op grond van artikel 6.1, f) AVG niet rechtsgeldig kon verderzetten.</p></li>\n      <li><p class=\"case-section__paragraph\">Verweerder schendt aldus artikel 6.1 en artikel 21.4 AVG.</p></li>\n      <li><p class=\"case-section__paragraph\">Inbreuken op bovenstaande bepalingen zijn onderworpen aan de in artikel 83.5 AVG vermelde administratieve geldboeten.</p></li>\n      <li><p class=\"case-section__paragraph\">Rekening houdend met de criteria vervat in artikel 83.2 AVG alsook de rechtspraak van het Marktenhof¹⁷, motiveert de Geschillenkamer het opleggen van een administratieve sanctie in casu op grond van de volgende omstandigheden:</p>\n        <ul>\n          <li><p class=\"case-section__paragraph\">de aard, de ernst en de duur van de inbreuk (artikel 83.2, a) AVG), met name het voortdurende karakter van de inbreuk op artikelen 6.1, 17.1, c) en d), 21.2, 21.3 en 21.4 AVG gedurende ten minste vijf maanden na het laatste bezwaar en verzoek tot gegevenswissing van klager en drie maanden na de kennisgeving van de klacht aan verweerder door de Gegevensbeschermingsautoriteit;</p></li>\n        </ul>\n      </li>\n    </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-007",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-012",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-007",
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-008",
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-009"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-008",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n      <p class=\"case-section__paragraph\">“1. De betrokkene heeft het recht van de verwerkingsverantwoordelijke zonder onredelijke vertraging wissing van hem betreffende persoonsgegevens te verkrijgen en de verwerkingsverantwoordelijke is verplicht persoonsgegevens zonder onredelijke vertraging te wissen wanneer een van de volgende gevallen van toepassing is: (…) c) de betrokkene maakt overeenkomstig artikel 21, lid 1, bezwaar tegen de verwerking, en er zijn geen prevalerende dwingende gerechtvaardigde gronden voor de verwerking, of de betrokkene maakt bezwaar tegen de verwerking overeenkomstig artikel 21, lid 2.</p>\n    </blockquote>",
+          "<li><p class=\"case-section__paragraph\">Betrokkene formuleert niet enkel een bezwaar tegen de verwerking van zijn persoonsgegevens voor direct marketingdoeleinden doch verzoekt verweerder in zijn e-mail d.d. 5 juli 2019 eveneens zijn gegevens te schrappen. Hiermee beroept betrokkene zich op zijn recht ex artikel 17 AVG.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Overeenkomstig artikel 17.1, c) AVG beschikt betrokkene ten aanzien van de verwerkingsverantwoordelijke inderdaad over het recht “zonder onredelijke vertraging wissing van hem betreffende persoonsgegevens te verkrijgen” wanneer eerstgenoemde “bezwaar [maakt] tegen de verwerking overeenkomstig artikel 21, lid 2”.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Verweerder geeft echter geen gunstig gevolg aan dit verzoek tot gegevenswissing van klager en schendt zodoende eveneens artikel 17.1, c) AVG.</p></li>",
+          "<li><p class=\"case-footer__paragraph\">op grond van artikel 58.2 c) en g) AVG en artikel 100, §1, 6° WOG de verweerder te gelasten een gunstig gevolg te geven aan het verzoek tot gegevenswissing van klager overeenkomstig van artikel 17.1 c) AVG binnen de termijn van één maand na ontvangst van deze beslissing en de klager alsook de Geschillenkamer hiervan binnen dezelfde termijn in kennis te stellen; en</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-008",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-011",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-013",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-017"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-007"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-009",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n      <p class=\"case-section__paragraph\">“1. De betrokkene heeft het recht van de verwerkingsverantwoordelijke zonder onredelijke vertraging wissing van hem betreffende persoonsgegevens te verkrijgen en de verwerkingsverantwoordelijke is verplicht persoonsgegevens zonder onredelijke vertraging te wissen wanneer een van de volgende gevallen van toepassing is: (…) d) de persoonsgegevens zijn onrechtmatig verwerkt;”</p>\n    </blockquote>",
+          "<li><p class=\"case-section__paragraph\">Betrokkene formuleert niet enkel een bezwaar tegen de verwerking van zijn persoonsgegevens voor direct marketingdoeleinden doch verzoekt verweerder in zijn e-mail d.d. 5 juli 2019 eveneens zijn gegevens te schrappen. Hiermee beroept betrokkene zich op zijn recht ex artikel 17 AVG.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Verweerder geeft echter geen gunstig gevolg aan dit verzoek tot gegevenswissing van klager en schendt zodoende eveneens artikel 17.1, c) AVG.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-009",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-008",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-007"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n      <p class=\"case-section__paragraph\">“2. Wanneer persoonsgegevens ten behoeve van direct marketing worden verwerkt, heeft de betrokkene te allen tijde het recht bezwaar te maken tegen de verwerking van hem betreffende persoonsgegevens voor dergelijke marketing, met inbegrip van profilering die betrekking heeft op direct marketing.”</p>\n    </blockquote>",
+          "<li><p class=\"case-section__paragraph\">In casu geeft verweerder evenwel geen gunstig gevolg aan het bezwaar geformuleerd door betrokkene op grond van artikel 21.2 AVG en zet de gegevensverwerking voor direct marketingdoeleinden verder, en dit ten minste vijf maanden na het laatste bezwaar van klager en drie maanden na de kennisgeving van de klacht aan verweerder door de Gegevensbeschermingsautoriteit.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Verweerder schendt aldus de artikelen 21.2 en 21.3 AVG.</p></li>",
+          "<li><p class=\"case-footer__paragraph\">op grond van artikel 83 AVG en de artikelen 100, §1, 13° en 101 WOG een administratieve geldboete van 1000 EUR op te leggen aan verweerder wegens schending van de artikelen 6.1, 17.1 c) en d), 21.2, 21.3 en 21.4 AVG.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-011",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-007"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-011",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n      <p class=\"case-section__paragraph\">“3. Wanneer de betrokkene bezwaar maakt tegen verwerking ten behoeve van direct marketing, worden de persoonsgegevens niet meer voor deze doeleinden verwerkt.”</p>\n    </blockquote>",
+          "<li><p class=\"case-section__paragraph\">In het kader van direct marketing dient een dergelijk bezwaar bijgevolg onmiddellijk en zonder bijkomend onderzoek aanleiding te geven tot de regelrechte stopzetting van elke verwerking van gegevens van betrokkene ten behoeve van die direct marketing3.</p></li>",
+          "<li><p class=\"case-section__paragraph\">Verweerder schendt aldus de artikelen 21.2 en 21.3 AVG.</p></li>",
+          "<li><p class=\"case-footer__paragraph\">op grond van artikel 83 AVG en de artikelen 100, §1, 13° en 101 WOG een administratieve geldboete van 1000 EUR op te leggen aan verweerder wegens schending van de artikelen 6.1, 17.1 c) en d), 21.2, 21.3 en 21.4 AVG.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-011",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-007"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-012",
+        "relatedFullTextCitations": [
+          "<blockquote class=\"case-quote\">\n      <p class=\"case-section__paragraph\">“4. Het in de leden 1 en 2 bedoelde recht wordt uiterlijk op het moment van het eerste contact met de betrokkene uitdrukkelijk onder de aandacht van de betrokkene gebracht en duidelijk en gescheiden van enige andere informatie weergegeven.”</p>\n    </blockquote>",
+          "<blockquote class=\"case-quote\">\n          <p class=\"case-section__paragraph\">“Wanneer persoonsgegevens worden verwerkt ten behoeve van direct marketing dient de betrokkene, ongeacht of het een aanvankelijke dan wel een verdere verwerking betreft, het recht te hebben te allen tijde en kosteloos bezwaar te maken tegen deze verwerking, ook in het geval van profilering voor zover deze betrekking heeft op de direct marketing. Dat recht moet uitdrukkelijk, op duidelijke wijze en gescheiden van overige informatie, onder de aandacht van de betrokkene worden gebracht.”12</p>\n          <p class=\"case-section__paragraph\">“Het in de leden 1 en 2 bedoelde recht wordt uiterlijk op het moment van het eerste contact met de betrokkene uitdrukkelijk onder de aandacht van betrokkene gebracht en duidelijk en gescheiden van enige andere informatie weergegeven.”13</p>\n        </blockquote>",
+          "<li><p class=\"case-section__paragraph\">In casu voldoet verweerder niet aan deze verplichting opgelegd door artikel 21.4 AVG en verduidelijkt door overweging 70 AVG. Verweerder verwijst in zijn verweer naar zijn privacyverklaring doch toont niet aan dat hij de uitoefening van het recht van bezwaar afdoende heeft gefaciliteerd, zoals vereist door artikel 21.4 AVG. Op de marketingberichten die als bewijsstukken werden overgemaakt door klager, wordt de mogelijkheid tot het uitoefenen van het recht van bezwaar immers niet vermeld.</p></li>",
+          "<li><p class=\"case-footer__paragraph\">op grond van artikel 83 AVG en de artikelen 100, §1, 13° en 101 WOG een administratieve geldboete van 1000 EUR op te leggen aan verweerder wegens schending van de artikelen 6.1, 17.1 c) en d), 21.2, 21.3 en 21.4 AVG.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-012",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-007",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-010",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-007",
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-009"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-013",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-footer__paragraph\">op grond van artikel 58.2 c) en g) AVG en artikel 100, §1, 6° WOG de verweerder te gelasten een gunstig gevolg te geven aan het verzoek tot gegevenswissing van klager overeenkomstig van artikel 17.1 c) AVG binnen de termijn van één maand na ontvangst van deze beslissing en de klager alsook de Geschillenkamer hiervan binnen dezelfde termijn in kennis te stellen; en</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-013",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-017",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-014",
+        "relatedFullTextCitations": [
+          "<ol start=\"46\">\n      <li><p class=\"case-section__paragraph\">Aangezien dit element essentieel is teneinde zich als verwerkingsverantwoordelijke rechtsgeldig te kunnen beroepen op artikel 6.1, f) AVG (gerechtvaardigd belang) als rechtmatigheidsgrond voor de verwerking van persoonsgegevens met oog op direct marketing, dient in casu te worden besloten dat niet is voldaan aan de derde voorwaarde (“afwegingstoets”) en verweerder de verwerking op grond van artikel 6.1, f) AVG niet rechtsgeldig kon verderzetten.</p></li>\n      <li><p class=\"case-section__paragraph\">Verweerder schendt aldus artikel 6.1 en artikel 21.4 AVG.</p></li>\n      <li><p class=\"case-section__paragraph\">Inbreuken op bovenstaande bepalingen zijn onderworpen aan de in artikel 83.5 AVG vermelde administratieve geldboeten.</p></li>\n      <li><p class=\"case-section__paragraph\">Rekening houdend met de criteria vervat in artikel 83.2 AVG alsook de rechtspraak van het Marktenhof¹⁷, motiveert de Geschillenkamer het opleggen van een administratieve sanctie in casu op grond van de volgende omstandigheden:</p>\n        <ul>\n          <li><p class=\"case-section__paragraph\">de aard, de ernst en de duur van de inbreuk (artikel 83.2, a) AVG), met name het voortdurende karakter van de inbreuk op artikelen 6.1, 17.1, c) en d), 21.2, 21.3 en 21.4 AVG gedurende ten minste vijf maanden na het laatste bezwaar en verzoek tot gegevenswissing van klager en drie maanden na de kennisgeving van de klacht aan verweerder door de Gegevensbeschermingsautoriteit;</p></li>\n        </ul>\n      </li>\n    </ol>",
+          "<li><p class=\"case-footer__paragraph\">op grond van artikel 83 AVG en de artikelen 100, §1, 13° en 101 WOG een administratieve geldboete van 1000 EUR op te leggen aan verweerder wegens schending van de artikelen 6.1, 17.1 c) en d), 21.2, 21.3 en 21.4 AVG.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-014",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-015",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-016"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-015",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Inbreuken op bovenstaande bepalingen zijn onderworpen aan de in artikel 83.5 AVG vermelde administratieve geldboeten.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-015",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-014",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-016"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-016",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-section__paragraph\">Rekening houdend met de criteria vervat in artikel 83.2 AVG alsook de rechtspraak van het Marktenhof¹⁷, motiveert de Geschillenkamer het opleggen van een administratieve sanctie in casu op grond van de volgende omstandigheden:</p>\n        <ul>\n          <li><p class=\"case-section__paragraph\">de aard, de ernst en de duur van de inbreuk (artikel 83.2, a) AVG), met name het voortdurende karakter van de inbreuk op artikelen 6.1, 17.1, c) en d), 21.2, 21.3 en 21.4 AVG gedurende ten minste vijf maanden na het laatste bezwaar en verzoek tot gegevenswissing van klager en drie maanden na de kennisgeving van de klacht aan verweerder door de Gegevensbeschermingsautoriteit;</p></li>\n        </ul>\n      </li>\n    </ol>",
+          "<ol start=\"52\">\n      <li><p class=\"case-section__paragraph\">het feit dat het de eerste vastgestelde inbreuk betreft in hoofde van de betrokken verwerkingsverantwoordelijke (artikel 83.2, e) AVG);</p></li>\n      <li><p class=\"case-section__paragraph\">de mate waarin er met de toezichthoudende autoriteit is samengewerkt om de inbreuk te verhelpen en de mogelijke negatieve gevolgen daarvan te beperken (artikel 83.2, f) AVG): in tegenstelling tot wat verweerder stelt in zijn verweer d.d. 10 oktober 2019, neemt deze ondanks het bezwaar en verzoek tot gegevenswissing van klager en de kennisgeving van de klacht door de Gegevensbeschermingsautoriteit niet de nodige maatregelen teneinde onverwijld een einde te stellen aan de hierboven beschreven inbreuken; verweerder zet de gegevensverwerking op grond van artikel 6.1, f) AVG (gerechtvaardigd belang) voor direct marketingdoeleinden verder; en</p></li>\n      <li><p class=\"case-section__paragraph\">het feit dat verweerder een vereniging zonder winstoogmerk is met een beperkte omzet (artikel 83.2, k) AVG).</p></li>\n      <li><p class=\"case-section__paragraph\">De Geschillenkamer wijst erop dat de andere criteria van artikel 83.2 AVG in dit geval niet van aard zijn dat zij leiden tot een andere administratieve geldboete dan die welke de Geschillenkamer in het kader van deze beslissing heeft vastgesteld.</p></li>\n      <li><p class=\"case-section__paragraph\">De Geschillenkamer is van oordeel dat deze boete proportioneel is gelet op de door verweerder in het Belgisch Staatsblad gepubliceerde jaarrekening voor het boekjaar 2018 (positief resultaat van 518.120 EUR).</p></li>\n      <li><p class=\"case-section__paragraph\">Gelet op het belang van transparantie met betrekking tot de besluitvorming van de Geschillenkamer, wordt deze beslissing gepubliceerd op de website van de Gegevensbeschermingsautoriteit. Het is evenwel niet nodig dat daartoe de identificatiegegevens van de partijen rechtstreeks worden bekendgemaakt.</p></li>\n    </ol>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-016",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-014",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-015"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-017",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-footer__paragraph\">op grond van artikel 58.2 c) en g) AVG en artikel 100, §1, 6° WOG de verweerder te gelasten een gunstig gevolg te geven aan het verzoek tot gegevenswissing van klager overeenkomstig van artikel 17.1 c) AVG binnen de termijn van één maand na ontvangst van deze beslissing en de klager alsook de Geschillenkamer hiervan binnen dezelfde termijn in kennis te stellen; en</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-017",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-013",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-018",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Gelet op de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, hierna WOG;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-018"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-019",
+        "relatedFullTextCitations": [
+          "<li><p class=\"case-footer__paragraph\">op grond van artikel 83 AVG en de artikelen 100, §1, 13° en 101 WOG een administratieve geldboete van 1000 EUR op te leggen aan verweerder wegens schending van de artikelen 6.1, 17.1 c) en d), 21.2, 21.3 en 21.4 AVG.</p></li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-019",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-014",
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-017"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-020",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Tegen deze beslissing kan op grond van artikel 108, §1 WOG beroep worden aangetekend binnen een termijn van dertig dagen, vanaf de kennisgeving, bij het Marktenhof, met de Gegevensbeschermingsautoriteit als verweerder.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:GBAPE:2020:DEC.20200529.8-020"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 20,
+      "citationStatistics": {
+        "totalCitations": 45,
+        "avgCitationsPerProvision": 2.25,
+        "provisionsWithMinimalCitations": 14,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.7,
+        "avgDecisionsPerProvision": 0.65,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200529.8-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De Geschillenkamer oordeelt dat het toesturen van dergelijke publiciteit dient te worden beschouwd als “direct marketing” in de zin van artikel 21 AVG. Zij hanteert daarbij de definitie zoals opgenomen in Aanbeveling 1/2020 van de Gegevensbeschermingsautoriteit betreffende de verwerking van persoonsgegevens voor direct marketingdoeleinden, luidende:</p>",
+          "<p class=\"case-section__paragraph\">“Elke communicatie, in welke vorm dan ook, gevraagd of ongevraagd, afkomstig van een organisatie of persoon en gericht op de promotie of verkoop van diensten, producten (al dan niet tegen betaling), alsmede merken of ideeën, geadresseerd door een organisatie of persoon die handelt in een commerciële of niet-commerciële context, die rechtstreeks gericht is aan een of meer natuurlijke personen in een privé- of professionele context en die de verwerking van persoonsgegevens met zich meebrengt”.₁</p>",
+          "<p class=\"case-section__paragraph\">Overeenkomstig overweging 70 AVG heeft de betrokkene, in geval van een verwerking van persoonsgegevens ten behoeve van direct marketing, het recht te allen tijde en kosteloos bezwaar te maken tegen deze verwerking, en dit ongeacht of het een aanvankelijke dan wel een verdere verwerking betreft.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 21.3 AVG bepaalt wat dit betreft dat, “wanneer een betrokkene bezwaar maakt tegen de verwerking ten behoeve van direct marketing, de persoonsgegevens niet meer voor deze doeleinden [worden] verwerkt”.</p>",
+          "<p class=\"case-section__paragraph\">In het kader van direct marketing dient een dergelijk bezwaar bijgevolg onmiddellijk en zonder bijkomend onderzoek aanleiding te geven tot de regelrechte stopzetting van elke verwerking van gegevens van betrokkene ten behoeve van die direct marketing3.</p>",
+          "<p class=\"case-section__paragraph\">In casu geeft verweerder evenwel geen gevolg aan het bezwaar geformuleerd door betrokkene op grond van artikel 21.2 AVG en zet de gegevensverwerking voor direct marketingdoeleinden verder, en dit ten minste vijf maanden na het laatste bezwaar van klager en drie maanden na de kennisgeving van de klacht aan verweerder door de Gegevensbeschermingsautoriteit.</p>",
+          "<p class=\"case-section__paragraph\">Verweerder schendt aldus de artikelen 21.2 en 21.3 AVG.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-008"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200529.8-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In zijn verweerschrift d.d. 10 oktober 2019 verklaart verweerder dat deze zich voor zijn direct marketing ten aanzien van vroegere donateurs met oog op fondsenwerving beroept op het “gerechtvaardigd belang” (artikel 6.1, f) AVG) als wettelijke grondslag voor de verwerking van persoonsgegevens en niet op de expliciete toestemming van de betrokkenen (artikel 6.1, a) AVG), teneinde “een zo groot mogelijk doelpubliek aan te (mogen) spreken”.</p>",
+          "<p class=\"case-section__paragraph\">Overeenkomstig artikel 6.1, f) AVG en de rechtspraak van het Hof van Justitie van de Europese Unie (hierna “het Hof”) dient immers aan drie cumulatieve voorwaarden te zijn voldaan opdat een verwerkingsverantwoordelijke zich rechtsgeldig kan beroepen op deze rechtmatigheidsgrond, “te weten, in de eerste plaats, de behartiging van een gerechtvaardigd belang van de voor de verwerking verantwoordelijke of van de derde(n) aan wie de gegevens worden verstrekt, in de tweede plaats, de noodzaak van de verwerking van de persoonsgegevens voor de behartiging van het gerechtvaardigde belang, en, in de derde plaats, de voorwaarde dat de fundamentele rechten en vrijheden van de bij de gegevensbescherming betrokken persoon niet prevaleren” (arrest “Rigas”5).</p>",
+          "<p class=\"case-section__paragraph\">de belangen die deze met de verwerking nastreeft, als gerechtvaardigd kunnen worden erkend (de “doeltoets”);</p>",
+          "<p class=\"case-section__paragraph\">de beoogde verwerking noodzakelijk is voor de verwezenlijking van deze belangen (de “noodzakelijkheidstoets”);</p>",
+          "<p class=\"case-section__paragraph\">de afweging van deze belangen ten opzichte van de belangen, fundamentele vrijheden en grondrechten van betrokkenen doorweegt in het voordeel van de verwerkingsverantwoordelijke (de “afwegingstoets”).</p>",
+          "<p class=\"case-section__paragraph\">5 HvJEU, 4 mei 2017, C-13/16, Valsts policijas Rīgas reģiona pārvaldes Kārtības policijas pārvalde tegen Rīgas pašvaldības SIA „Rīgas satiksme”, overweging 28. Zie ook HvJEU, 11 december 2019, C-708/18, TK t/ Asociaţia de Proprietari bloc M5A-ScaraA, overweging 40.</p>",
+          "<p class=\"case-section__paragraph\">17 Hof van Beroep Brussel (sectie Marktenhof), Arrest 2020/1471 van 19 februari 2020.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-011"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200529.8-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig overweging 70 AVG, in fine, alsook artikel 21.4 AVG dient de verwerkingsverantwoordelijke dit recht van bezwaar in het kader van direct marketing bovendien te faciliteren:</p>",
+          "<p class=\"case-section__paragraph\">“Wanneer persoonsgegevens worden verwerkt ten behoeve van direct marketing dient de betrokkene, ongeacht of het een aanvankelijke dan wel een verdere verwerking betreft, het recht te hebben te allen tijde en kosteloos bezwaar te maken tegen deze verwerking, ook in het geval van profilering voor zover deze betrekking heeft op de direct marketing. Dat recht moet uitdrukkelijk, op duidelijke wijze en gescheiden van overige informatie, onder de aandacht van de betrokkene worden gebracht.”12</p>",
+          "<p class=\"case-section__paragraph\">“Het in de leden 1 en 2 bedoelde recht wordt uiterlijk op het moment van het eerste contact met de betrokkene uitdrukkelijk onder de aandacht van betrokkene gebracht en duidelijk en gescheiden van enige andere informatie weergegeven.”13</p>",
+          "<p class=\"case-section__paragraph\">De verwerkingsverantwoordelijke moet het recht van bezwaar bijgevolg duidelijk kenbaar maken, in eenvoudige en ondubbelzinnige taal en dit in alle direct marketingberichten, vanaf het eerste bericht. Het is niet voldoende om de mogelijkheid dit recht uit te oefenen op te nemen in de privacyverklaring; deze mogelijkheid moet uitdrukkelijk aan de betrokkene worden voorgesteld.15</p>",
+          "<p class=\"case-section__paragraph\">In casu geeft verweerder evenwel geen gevolg aan het bezwaar geformuleerd door betrokkene op grond van artikel 21.2 AVG en zet de gegevensverwerking voor direct marketingdoeleinden verder, en dit ten minste vijf maanden na het laatste bezwaar van klager en drie maanden na de kennisgeving van de klacht aan verweerder door de Gegevensbeschermingsautoriteit.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-008",
+            "DEC-ECLI:BE:GBAPE:2020:DEC.20200529.8-011"
+          ]
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:GBAPE:2020:DEC.20200529.8-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Betrokkene formuleert niet enkel een bezwaar tegen de verwerking van zijn persoonsgegevens doch verzoekt verweerder in zijn e-mail d.d. 5 juli 2019 eveneens zijn gegevens te schrappen. Hiermee beroept betrokkene zich op zijn recht ex artikel 17 AVG.</p>",
+          "<p class=\"case-section__paragraph\">Overeenkomstig artikel 17.1, c) AVG beschikt betrokkene ten aanzien van de verwerkingsverantwoordelijke inderdaad over het recht “zonder onredelijke vertraging wissing van hem betreffende persoonsgegevens te verkrijgen” wanneer eerstgenoemde “bezwaar [maakt] tegen de verwerking overeenkomstig artikel 21, lid 2”.</p>",
+          "<p class=\"case-section__paragraph\">Verweerder geeft echter geen gunstig gevolg aan dit verzoek tot gegevenswissing van klager en schendt zodoende eveneens artikel 17.1, c) AVG.</p>",
+          "<p class=\"case-section__paragraph\">In casu geeft verweerder evenwel geen gevolg aan het bezwaar geformuleerd door betrokkene op grond van artikel 21.2 AVG en zet de gegevensverwerking voor direct marketingdoeleinden verder, en dit ten minste vijf maanden na het laatste bezwaar van klager en drie maanden na de kennisgeving van de klacht aan verweerder door de Gegevensbeschermingsautoriteit.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 23,
+        "avgCitationsPerTeaching": 5.75,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 7,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 4
+      },
+      "extractionNotes": [
+        "Multiple teachings share factual paragraphs (e.g. the paragraph stating that the respondent continued processing despite the objection was used for several teachings).",
+        "Some related decisions listed in Stage 5A were not found within the extracted reasoning paragraphs and are flagged in relationshipValidation."
+      ]
+    }
+  }
+}

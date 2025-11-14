@@ -1,0 +1,611 @@
+{
+  "decision_id": "ECLI:BE:TELIE:2003:JUG.20030226.8",
+  "language": "FR",
+  "metadata": {
+    "id": 129639,
+    "court_ecli_code": "TELIE",
+    "court_name": "Tribunal de l'entreprise de Liège",
+    "decision_date": "2003-02-26",
+    "decision_type_ecli_code": "JUG",
+    "decision_type_name": "Jugement",
+    "md_length": 10615,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Tribunal de l'entreprise de Liège, 26 février 2003, Jugement n° A/03.0178, ECLI:BE:TELIE:2003:JUG.20030226.8"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "name": "WD XX",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2003:JUG.20030226.8-002",
+        "name": "9038-9487 QUEBEC INC (faisant les affaires sous la dénomination « CANADAN MEN INTERNATIONAL »)",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2003:JUG.20030226.8-003",
+        "name": "DDGJM",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2003:JUG.20030226.8-004",
+        "name": "SPRL FUN INTERNATIONAL",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "DEFENDEUR"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Monsieur W (WD XX) a constitué dans les années 1990 au Canada une troupe d'artistes spécialisée dans le strip-tease masculin, inspirée du concept des « Chippendales ». Il détient auprès du Bureau Benelux un certificat d'enregistrement de la marque figurative CANADIAN MEN INTERNATIONAL, The Best Male Entertainment. Un contrat conclu en 1994 garantissait à Monsieur D l'exclusivité de la représentation du groupe pour l'Europe; un avenant intitulé « contrat de tournée européenne » du 14 février 2001 a confirmé cette exclusivité pour trois ans. Pour la tournée débutant en mars 2003, Monsieur D a suspendu l'exécution du contrat et a engagé une autre troupe canadienne se produisant sous la dénomination « C.M.I. » (CREATIVE MALE INNOVATION), comprenant certains anciens éléments de Canadian Men. Les demandeurs ont intenté des procédures au Canada et en Belgique. Ils allèguent que les défendeurs utilisent abusivement la renommée de Monsieur W, reproduisent des photos, articles et éléments publicitaires appartenant aux demandeurs (constats d'huissier des 3 janvier et 11 février 2003) et diffusent ces éléments sur Internet (sites www.cmi.st et www.fun-inter.be), de nature à entraîner une confusion entre les troupes et à constituer des actes contraires aux usages honnêtes en matière commerciale.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+          "requests": "Les demanderesses demandent que soit constaté et dit pour droit que les parties défenderesses se rendent coupables d'une violation des usages honnêtes en matière commerciale et qu'il leur soit en conséquence fait interdiction, sous peine d'astreinte, d'organiser, de promouvoir, de faire de la publicité et de retenir des salles, soit par eux-mêmes soit par des tiers, pour un spectacle provenant des demandeurs mais exploité au profit des défendeurs ; en particulier interdiction de produire toute copie du spectacle du premier demandeur présentée sous le nom 'Creative Male Innovation'."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+          "argument": "Les demanderesses soutiennent que, indépendamment de la question contractuelle, les défendeurs se rendent coupables d'actes de concurrence déloyale et de parasitisme au sens de la loi du 14 juillet 1991 sur les pratiques du commerce et sur l'information et la protection du consommateur (articles 93-95), en usurpant la notoriété et les éléments publicitaires de Canadian Men International (photos, folders, feuille d'érable, abréviation C.M.I., présence d'artistes anciens de Canadian Men) et en créant une publicité susceptible d'induire le public en erreur; elles produisent à l'appui des constats d'huissier et des copies de sites Internet.",
+          "treatment": "ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:TELIE:2003:JUG.20030226.8-003",
+          "argument": "Les défendeurs soutiennent que le spectacle du demandeur ne présente pas de caractère d'originalité protégeable par le droit d'auteur et que le concept des 'Chippendales' est tombé dans le domaine public ; ils ajoutent que l'activité artistique alléguée n'entre pas dans le champ du droit commercial et que, par conséquent, l'action en cessation fondée sur la loi du 14 juillet 1991 serait inapplicable. Ils invoquent ainsi l'absence de protection intellectuelle et l'incompétence du juge de la cessation pour des actes relevant prétendument du droit de la propriété intellectuelle ou du contrat.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "Par ces motifs :\n\nLe Tribunal, en la personne de son président, Statuant contradictoirement, Se déclare compétent pour connaltre de la demande, La dit recevable et en partie fondée, Constate que Monsieur DD et la SPRL Fun International se rendent coupables d'actes contraires aux usages honnêtes en matière commerciale en organisant une campagne publicitaire de nature à entrainer la confusion entre la troupe dénommée CANADIAN MEN INTERNATIONAL et CREATIVE MALE INNOVATION ; que ces actes sont de nature à porter atteinte aux intérêts professionnels des demandeurs ainsi qu'à ceux des consommateurs, au sens des articles 93 et 94 de la loi du 14 juillet 1991 ; en ordonne la cessation, sous peine d'une astreinte de mille euros (1000) par infraction constatée dans les 48 heures suivant la signification du présent jugement ;\n\nCondamne les parties défenderesses aux dépens, liquidés dans le chef des demandeurs à la somme de 560,39 euros (articles 1021 et 1022 du code judiciaire).",
+      "outcome": "FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "provisionNumber": "article 851",
+        "provisionNumberKey": "851",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "Les défendeurs demandaient que les demandeurs consignent chacun la somme de 7.500 euros en application des articles 851 et 852; le Tribunal rejette cette demande au motif qu'aucune condamnation pécuniaire n'est réclamée à l'encontre des demandeurs."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-002",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "provisionNumber": "article 852",
+        "provisionNumberKey": "852",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "Les défendeurs invoquaient les articles 851 et 852 pour exiger une consignation de 7.500 euros par demanderesse; le Tribunal estime que cette demande est sans fondement en l'absence de réclamation pécuniaire contre les demandeurs."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-003",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "provisionNumber": "article 29",
+        "provisionNumberKey": "29",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Le Tribunal indique que la litispendance, visée par l'article 29 du Code judiciaire, suppose identité de parties et d'objet mais ne peut être retenue lorsque les procédures sont de nature différente; en l'espèce, une instance au fond ne saurait être considérée comme litispendante d'une procédure pendante en référé.",
+        "relevantFactualContext": "Les défendeurs soutenaient l'existence d'une instance en référé pendante devant le juge de Verviers présentant identité de cause et de parties; le Tribunal rejette l'exception de litispendance."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-004",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "provisionNumber": "article 565",
+        "provisionNumberKey": "565",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Le Tribunal rappelle qu'en vertu de l'article 565 le renvoi de la cause peut être ordonné en cas de litispendance, mais précise que ce mécanisme n'est applicable que si la litispendance est constituée; il en déduit que l'article 565 ne permet pas de renvoyer une instance au fond devant un juge saisi en référé lorsque la litispendance n'est pas établie.",
+        "relevantFactualContext": "Il était demandé de renvoyer la cause devant le juge des référés de Verviers en application de l'article 565; le Tribunal refuse le renvoi au motif que la litispendance n'existe pas entre une procédure au fond et une procédure en référé."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-005",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:JUG.20030226.8-002",
+        "provisionNumber": "article 96",
+        "provisionNumberKey": "96",
+        "parentActType": "LOI",
+        "parentActName": "loi du 14 juillet 1991 sur les pratiques du commerce et sur l'information et la protection du consommateur",
+        "parentActDate": "1991-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "Le Tribunal interprète l'article 96 comme excluant du champ d'application de l'action en cessation les actes de contrefaçon sanctionnés par le droit de la propriété intellectuelle; il précise toutefois que cette exclusion n'emporte pas l'incompétence lorsque la demande vise également d'autres comportements déloyaux ou non strictement contractuels relevant du juge de la cessation.",
+        "relevantFactualContext": "Les défendeurs prétendaient que le \"pillage\" constituerait de la contrefaçon relevant du droit intellectuel; le Tribunal estime que la demande englobe aussi d'autres manquements (publicité trompeuse, parasitisme) relevant de sa compétence."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-006",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:JUG.20030226.8-002",
+        "provisionNumber": "article 95",
+        "provisionNumberKey": "95",
+        "parentActType": "LOI",
+        "parentActName": "loi du 14 juillet 1991 sur les pratiques du commerce et sur l'information et la protection du consommateur",
+        "parentActDate": "1991-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "Le Tribunal retient que l'article 95 incrimine les actes de concurrence déloyale, en particulier le parasitisme et la publicité trompeuse; il l'applique pour qualifier l'usage sans droit d'éléments promotionnels et la reproduction de documents comme susceptibles d'entraîner une confusion et de constituer un comportement déloyal.",
+        "relevantFactualContext": "Les constats d'huissier montrent l'utilisation de photos, documents et affiches propriété des demandeurs, leur reproduction sur Internet, l'usage de la feuille d'érable et de l'abréviation C.M.I., ainsi que la présence d'anciens artistes, éléments jugés susceptibles d'entraîner confusion."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-007",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:JUG.20030226.8-002",
+        "provisionNumber": "article 93",
+        "provisionNumberKey": "93",
+        "parentActType": "LOI",
+        "parentActName": "loi du 14 juillet 1991 sur les pratiques du commerce et sur l'information et la protection du consommateur",
+        "parentActDate": "1991-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "Le Tribunal considère que l'article 93 vise à protéger les intérêts professionnels des opérateurs contre des pratiques commerciales déloyales; il l'invoque pour constater que les actes reprochés portaient atteinte aux intérêts professionnels des demandeurs.",
+        "relevantFactualContext": "La campagne publicitaire litigieuse et l'utilisation d'éléments visuels identifiants sont retenues comme portant atteinte aux intérêts professionnels des demandeurs en créant un risque de confusion."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-008",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:JUG.20030226.8-002",
+        "provisionNumber": "article 94",
+        "provisionNumberKey": "94",
+        "parentActType": "LOI",
+        "parentActName": "loi du 14 juillet 1991 sur les pratiques du commerce et sur l'information et la protection du consommateur",
+        "parentActDate": "1991-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "Le Tribunal interprète l'article 94 comme protégeant les consommateurs contre des pratiques commerciales trompeuses; il l'applique pour conclure que la publicité litigieuse est susceptible de tromper le public consommateur et justifie la cessation.",
+        "relevantFactualContext": "La reproduction de matériel publicitaire, l'usage d'éléments distinctifs et la similitude des présentations ont été jugés de nature à tromper les consommateurs et à créer une confusion entre les spectacles."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-009",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "provisionNumber": "article 1021",
+        "provisionNumberKey": "1021",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-010",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "provisionNumber": "article 1022",
+        "provisionNumberKey": "1022",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": []
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit commercial",
+      "Spectacle masculin",
+      "Tournée européenne",
+      "Contrat d'exclusivité",
+      "Utilisation de photos",
+      "Concurrence déloyale",
+      "Parasitisme commercial",
+      "Publicité trompeuse",
+      "Action en cessation",
+      "Conflit transfrontalier"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "text": "Une demande de consignation fondée sur les articles 851 et 852 du Code judiciaire exige l'existence d'une prétention à condamnation pécuniaire contre la partie visée ; en l'absence de réclamation d'une somme contre le demandeur, la consignation sollicitée est sans fondement.",
+        "courtVerbatim": "Attendu que les défendeurs postulent, sur pied des articles 851 et 852 du code judiciaire, que les demandeurs soient tenus de consigner chacun une somme de 7.500 euros ; que cette demande est sans fondement dès lors qu'il n'est postulé aucune condamnation de somme à l'encontre des demandeurs ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une partie sollicite la consignation prévue aux articles 851 et 852 sans qu'une condamnation pécuniaire soit réclamée contre la partie visée.",
+        "relevantFactualContext": "Les défendeurs demandaient que les demanderesses consignent chacune 7.500 euros en vertu des articles 851 et 852; le Tribunal rejette cette demande au motif qu'aucune condamnation pécuniaire n'est réclamée à l'encontre des demandeurs.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:JUG.20030226.8-002",
+        "text": "La litispendance, au sens de l'article 29 du Code judiciaire, suppose identité de parties et d'objet et ne peut être retenue entre des procédures de nature différente; en particulier, une instance au fond ne constitue pas litispendance d'une procédure pendante en référé, de sorte que le renvoi visé par l'article 565 n'est opérable que si la litispendance est effectivement constituée.",
+        "courtVerbatim": "Attendu que les défendeurs font valoir que le juge des référés du Tribunal de première instance de Verviers est présentement saisi d'un litige se mouvant entre mêmes parties et présentant une identité de cause et d'objet au sens de l'article 29 du code judiciaire ; qu'il y a dès lors lieu de renvoyer la cause devant ce tribunal en application de l'article 565 du code judiciaire ; que cette exception est de même sans fondement, la litispendance ne pouvant être rencontrée entre une instance pendante au fond, comme la présente, et une autre pendante en référé (G.de Leval, La compétence, Editions de l'ULG, 2002-2003, p.4.2) ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une partie soulève l'exception de litispendance entre deux procédures dont l'une est au fond et l'autre en référé.",
+        "relevantFactualContext": "Les défendeurs invoquaient une instance pendante en référé devant le juge de Verviers et demandaient renvoi au titre de l'article 565; le Tribunal rejette l'exception au motif que la litispendance ne peut être établie entre une procédure au fond et une procédure en référé.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-003",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:JUG.20030226.8-003",
+        "text": "L'article 96 de la loi du 14 juillet 1991 exclut de l'action en cessation les actes de contrefaçon sanctionnés par le droit de la propriété intellectuelle, mais cette exclusion n'entraîne pas l'incompétence automatique du juge de la cessation lorsque la demande vise également d'autres comportements déloyaux ou non strictement contractuels relevant de sa compétence.",
+        "courtVerbatim": "Attendu que les défendeurs font valoir que le libellé de la demande fait état d'un « pillage » de la création de Monsieur W ; qu'il pourrait de la sorte être fait application de l'exclusion prévue à l'article 96 de la loi sur les pratiques du commerce, écartant du champ d'application de l'action en cessation les actes de contrefaçon sanctionnés par les lois relatives aux droits intellectuels ; que cette exception est elle aussi sans fondement dans la mesure où ce libellé se réfère à d'autres actes rentrant dans la compétence du juge de la cessation ; que pour le même motif, l'exception d'incompétence déduite de la seule violation du contrat avenu entre parties ne peut être retenue ; que la demande se fonde en effet sur des manquements non strictement contractuels ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la demande en cessation comporte des allégations à la fois de contrefaçon et d'autres pratiques commerciales déloyales ou non contractuelles.",
+        "relevantFactualContext": "Les défendeurs soutenaient que les actes constitueraient de la contrefaçon relevant du droit intellectuel; le Tribunal estime que la demande englobe aussi d'autres manquements (publicité trompeuse, parasitisme) relevant de sa compétence et rejette l'exception d'incompétence fondée sur l'article 96.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "INTELLECTUAL_PROPERTY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-005"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:JUG.20030226.8-004",
+        "text": "Aux fins d'une action en cessation fondée sur la loi du 14 juillet 1991, les actes de concurrence déloyale — notamment le parasitisme et la publicité trompeuse — sont caractérisés lorsque l'usage sans droit d'éléments promotionnels (photos, affiches, signes distinctifs, reprises d'artistes) est de nature à créer une confusion pour le public; de tels actes peuvent porter atteinte aux intérêts professionnels et aux consommateurs et justifier la cessation.",
+        "courtVerbatim": "Attendu que s'il est vrai que les droits dérivés du dépôt de marque dont est titulaire Monsieur W sont de faible intensité, ils interdisent néanmoins les actes de concurrence déloyale, au sens de l'article 95 de la loi, en particulier le parasitisme et la publicité trompeuse ; que les constats opérés par l'huissier Raty en date des 3 janvier et 11 février 2003 relèvent que Monsieur D et Fun International «utilisaient manifestement une série de photos, documents et affiches, propriété - ou relatives à l'image - (de Monsieur W) ... » ; que ces actes connaissent un retentissement important dans la mesure où ils sont aussi reproduits sur le réseau Internet ... ; que diverses données sont de nature, prises dans leur ensemble, d'entraîner la confusion entre les deux spectacles : les clichés photographiques, la feuille d'érable, l'abréviation C.M.I. (désignant aussi bien Canadian Men International que Creative Male Innovation...), la présence au sein de Creative Male d'artistes qui se sont précédemment produits pour Canadian Men, etc. ; que dans cette mesure, et cette mesure seule, l'action est fondée ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque l'utilisation non autorisée d'éléments promotionnels ou d'identifiants est susceptible, prise dans leur ensemble, d'entraîner une confusion entre offres concurrentes.",
+        "relevantFactualContext": "Constats d'huissier établissant l'utilisation de photos, documents et affiches appartenant aux demandeurs, reproduction sur Internet, usage de la feuille d'érable et de l'abréviation C.M.I., et présence d'anciens artistes conduisant le Tribunal à constater un risque de confusion et à ordonner la cessation.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "COMPETITION_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-006",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-007",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-008"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur et la société demanderesse ont agi contre un défendeur individuel et la société défenderesse pour pratiques commerciales déloyales, alléguant appropriation de la notoriété et usage trompeur de documents promotionnels entraînant un risque de confusion entre deux troupes. Le tribunal, statuant en partie en faveur des demandeurs, constate des actes contraires aux usages honnêtes en matière commerciale, ordonne la cessation de la campagne publicitaire et impose une astreinte de 1 000 euros par infraction, en plus de condamner les défendeurs aux dépens. Il relève que, malgré la faible intensité des droits de marque, ceux-ci protègent contre le parasitisme et la publicité trompeuse au sens de la loi du 14 juillet 1991."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "relatedFullTextCitations": [
+          "<li>L'exception de la caution de l'étranger demandeur. Attendu que les défendeurs postulent, sur pied des articles 851 et 852 du code judiciaire, que les demandeurs soient tenus de consigner chacun une somme de 7.500 euros ; que cette demande est sans fondement dès lors qu'il n'est postulé aucune condamnation de somme à l'encontre des demandeurs ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-002",
+        "relatedFullTextCitations": [
+          "<li>L'exception de la caution de l'étranger demandeur. Attendu que les défendeurs postulent, sur pied des articles 851 et 852 du code judiciaire, que les demandeurs soient tenus de consigner chacun une somme de 7.500 euros ; que cette demande est sans fondement dès lors qu'il n'est postulé aucune condamnation de somme à l'encontre des demandeurs ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-002",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-003",
+        "relatedFullTextCitations": [
+          "<li>L'exception de litispendance Attendu que les défendeurs font valoir que le juge des référés du Tribunal de première instance de Verviers est présentement saisi d'un litige se mouvant entre mêmes parties et présentant une identité de cause et d'objet au sens de l'article 29 du code judiciaire ; qu'il y a dès lors lieu de renvoyer la cause devant ce tribunal en application de l'article 565 du code judiciaire ; que cette exception est de même sans fondement, la litispendance ne pouvant être rencontrée entre une instance pendante au fond, comme la présente, et une autre pendante en référé (G.de Leval, La compétence, Editions de l'ULG, 2002-2003, p.4.2) ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-003",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-004",
+        "relatedFullTextCitations": [
+          "<li>L'exception de litispendance Attendu que les défendeurs font valoir que le juge des référés du Tribunal de première instance de Verviers est présentement saisi d'un litige se mouvant entre mêmes parties et présentant une identité de cause et d'objet au sens de l'article 29 du code judiciaire ; qu'il y a dès lors lieu de renvoyer la cause devant ce tribunal en application de l'article 565 du code judiciaire ; que cette exception est de même sans fondement, la litispendance ne pouvant être rencontrée entre une instance pendante au fond, comme la présente, et une autre pendante en référé (G.de Leval, La compétence, Editions de l'ULG, 2002-2003, p.4.2) ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-004",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-005",
+        "relatedFullTextCitations": [
+          "<li>L'exception d'incompétence Attendu que les défendeurs font valoir que le libellé de la demande fait état d'un « pillage » de la création de Monsieur W ; qu'il pourrait de la sorte être fait application de l'exclusion prévue à l'article 96 de la loi sur les pratiques du commerce, écartant du champ d'application de l'action en cessation les actes de contrefaçon sanctionnés par les lois relatives aux droits intellectuels ; que cette exception est elle aussi sans fondement dans la mesure oN ce libellé se réfère à d'autres actes rentrant dans la compétence du juge de la cessation ; que pour le même motif, l'exception d'incompétence déduite de la seule violation du contrat avenu entre parties ne peut être retenue ; que la demande se fonde en effet sur des manquements non strictement contractuels ;</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que s'il est vrai que les droits dérivés du dépôt de marque dont est titulaire Monsieur W sont de faible intensité, ils interdisent néanmoins les actes de concurrence déloyale, au sens de l'article 95 de la loi, en particulier le parasitisme et la publicité trompeuse ; que les constats opérés par l'huissier Raty en date des 3 janvier et 11 février 2003 relèvent que Monsieur D et Fun International «utilisaient manifestement une série de photos, documents et affiches, propriété - ou relatives et l'image- (de Monsieur W) ou de la société Canadian Men International et des fins publicitaires ou commerciales et ce, malgré les protestations de ce dernier.... » ; que ces actes connaissent un retentissement important dans la mesure ou ils sont aussi reproduits sur le réseau Internet, spécialement sur les sites www.cmi.st et www.fun-inter.be; que diverses données sont de nature, prises dans leur ensemble, d'entrainer la confusion entre les deux spectacles : les clichés photographiques, la feuille d'érable, l'abréviation C.M.I. (désignant aussi bien Canadian Men International que Creative MRle Innovation...), la présence au sein de Creative MRle d'artistes qui se sont précédemment produits pour Canadian Men, etc.... ; que dans cette mesure, et cette mesure seule, l'action est fondée ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Le Tribunal, en la personne de son président, Statuant contradictoirement, Se déclare compétent pour connaltre de la demande, La dit recevable et en partie fondée, Constate que Monsieur DD et la SPRL Fun International se rendent coupables d'actes contraires aux usages honnêtes en matière commerciale en organisant une campagne publicitaire de nature à entrainer la confusion entre la troupe dénommée CANADIAN MEN INTERNATIONAL et CREATIVE MALE INNOVATION ; que ces actes sont de nature à porter atteinte aux intérêts professionnels des demandeurs ainsi qu'à ceux des consommateurs, au sens des articles 93 et 94 de la loi du 14 juillet 1991 ; en ordonne la cessation, sous peine d'une astreinte de mille euros (1000) par infraction constatée dans les 48 heures suivant la signification du présent jugement ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-007",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-008"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Le Tribunal, en la personne de son président, Statuant contradictoirement, Se déclare compétent pour connaltre de la demande, La dit recevable et en partie fondée, Constate que Monsieur DD et la SPRL Fun International se rendent coupables d'actes contraires aux usages honnêtes en matière commerciale en organisant une campagne publicitaire de nature à entrainer la confusion entre la troupe dénommée CANADIAN MEN INTERNATIONAL et CREATIVE MALE INNOVATION ; que ces actes sont de nature à porter atteinte aux intérêts professionnels des demandeurs ainsi qu'à ceux des consommateurs, au sens des articles 93 et 94 de la loi du 14 juillet 1991 ; en ordonne la cessation, sous peine d'une astreinte de mille euros (1000) par infraction constatée dans les 48 heures suivant la signification du présent jugement ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-008",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Condamne les parties défenderesses aux dépens, liquidés dans le chef des demandeurs à la somme de 560,39 euros (articles 1021 et 1022 du code judiciaire).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-009",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-010"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Condamne les parties défenderesses aux dépens, liquidés dans le chef des demandeurs à la somme de 560,39 euros (articles 1021 et 1022 du code judiciaire).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-010",
+          "ART-ECLI:BE:TELIE:2003:JUG.20030226.8-009"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 10,
+      "citationStatistics": {
+        "totalCitations": 10,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 10,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.8,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:JUG.20030226.8-001",
+        "relatedFullTextCitations": [
+          "<li>L'exception de la caution de l'étranger demandeur. Attendu que les défendeurs postulent, sur pied des articles 851 et 852 du code judiciaire, que les demandeurs soient tenus de consigner chacun une somme de 7.500 euros ; que cette demande est sans fondement dès lors qu'il n'est postulé aucune condamnation de somme à l'encontre des demandeurs ;</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:JUG.20030226.8-002",
+        "relatedFullTextCitations": [
+          "<li>L'exception de litispendance Attendu que les défendeurs font valoir que le juge des référés du Tribunal de première instance de Verviers est présentement saisi d'un litige se mouvant entre mêmes parties et présentant une identité de cause et d'objet au sens de l'article 29 du code judiciaire ; qu'il y a dès lors lieu de renvoyer la cause devant ce tribunal en application de l'article 565 du code judiciaire ; que cette exception est de même sans fondement, la litispendance ne pouvant être rencontrée entre une instance pendante au fond, comme la présente, et une autre pendante en référé (G.de Leval, La compétence, Editions de l'ULG, 2002-2003, p.4.2) ;</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:JUG.20030226.8-003",
+        "relatedFullTextCitations": [
+          "<li>L'exception d'incompétence Attendu que les défendeurs font valoir que le libellé de la demande fait état d'un « pillage » de la création de Monsieur W ; qu'il pourrait de la sorte être fait application de l'exclusion prévue à l'article 96 de la loi sur les pratiques du commerce, écartant du champ d'application de l'action en cessation les actes de contrefaçon sanctionnés par les lois relatives aux droits intellectuels ; que cette exception est elle aussi sans fondement dans la mesure oN ce libellé se réfère à d'autres actes rentrant dans la compétence du juge de la cessation ; que pour le même motif, l'exception d'incompétence déduite de la seule violation du contrat avenu entre parties ne peut être retenue ; que la demande se fonde en effet sur des manquements non strictement contractuels ;</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:JUG.20030226.8-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que s'il est vrai que les droits dérivés du dépôt de marque dont est titulaire Monsieur W sont de faible intensité, ils interdisent néanmoins les actes de concurrence déloyale, au sens de l'article 95 de la loi, en particulier le parasitisme et la publicité trompeuse ; que les constats opérés par l'huissier Raty en date des 3 janvier et 11 février 2003 relèvent que Monsieur D et Fun International «utilisaient manifestement une série de photos, documents et affiches, propriété - ou relatives et l'image- (de Monsieur W) ou de la société Canadian Men International et des fins publicitaires ou commerciales et ce, malgré les protestations de ce dernier.... » ; que ces actes connaissent un retentissement important dans la mesure ou ils sont aussi reproduits sur le réseau Internet, spécialement sur les sites www.cmi.st et www.fun-inter.be; que diverses données sont de nature, prises dans leur ensemble, d'entrainer la confusion entre les deux spectacles : les clichés photographiques, la feuille d'érable, l'abréviation C.M.I. (désignant aussi bien Canadian Men International que Creative MRle Innovation...), la présence au sein de Creative MRle d'artistes qui se sont précédemment produits pour Canadian Men, etc.... ; que dans cette mesure, et cette mesure seule, l'action est fondée ;</p>",
+          "<p class=\"case-footer__paragraph\">Le Tribunal, en la personne de son président, Statuant contradictoirement, Se déclare compétent pour connaltre de la demande, La dit recevable et en partie fondée, Constate que Monsieur DD et la SPRL Fun International se rendent coupables d'actes contraires aux usages honnêtes en matière commerciale en organisant une campagne publicitaire de nature à entrainer la confusion entre la troupe dénommée CANADIAN MEN INTERNATIONAL et CREATIVE MALE INNOVATION ; que ces actes sont de nature à porter atteinte aux intérêts professionnels des demandeurs ainsi qu'à ceux des consommateurs, au sens des articles 93 et 94 de la loi du 14 juillet 1991 ; en ordonne la cessation, sous peine d'une astreinte de mille euros (1000) par infraction constatée dans les 48 heures suivant la signification du présent jugement ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 5,
+        "avgCitationsPerTeaching": 1.25,
+        "teachingsWithMinimalCitations": 4,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 8,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

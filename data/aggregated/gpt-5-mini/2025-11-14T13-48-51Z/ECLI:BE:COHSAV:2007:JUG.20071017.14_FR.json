@@ -1,0 +1,416 @@
+{
+  "decision_id": "ECLI:BE:COHSAV:2007:JUG.20071017.14",
+  "language": "FR",
+  "metadata": {
+    "id": 45933,
+    "court_ecli_code": "COHSAV",
+    "decision_date": "2007-10-17",
+    "decision_type_ecli_code": "JUG",
+    "decision_type_name": "Jugement",
+    "md_length": 4386,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commission pour l'aide financière aux victimes d'actes intentionnels de violence, 17 octobre 2007, M1480 / 2384, ECLI:BE:COHSAV:2007:JUG.20071017.14"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+        "name": "Madame Irène Y.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+        "name": "Délégué du Ministre de la Justice",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "MINISTERE_PUBLIC"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Par requête introduite le 01/10/2001, la requérante expose qu'elle a été victime d'un acte intentionnel de violence et postule une aide principale. Dans la nuit du 26/05/2001, vers 3h15, la requérante et son époux, alors hôteliers, ont été réveillés par des individus masqués qui se sont introduits dans leur hôtel, ont exigé les clés du coffre-fort, les ont roués de coups et ligotés avec des draps de lit; les agresseurs se sont enfuis avec une importante somme d'argent et des bijoux. Le 24/05/2005 la chambre du conseil du Tribunal de première instance a rendu une ordonnance de non-lieu pour cause d'auteur inconnu; les requérants ne se sont pas constitués partie civile. Le 15/03/2006 une ordonnance d'expertise médicale a été rendue et confiée à l'Office médico-légal (OML) qui, par rapport du 19/03/2007, constate des plaies et hématomes de la face, un trauma psychique, céphalées et troubles mnésiques, une décompensation psychique temporaire et l'apparition d'un cystocèle; la requérante conserve un syndrome cervical subjectif sur arthrose préexistante (2%) et un syndrome anxieux mineur (5%). Les incapacités temporaires et permanentes retenues sont: ITT 100% du 26/05/2001 au 15/06/2001; ITP 50% du 16/06/2001 au 30/06/2001; ITP 25% du 01/07/2001 au 31/07/2001; ITP 15% du 01/08/2001 au 30/09/2001; ITP 10% du 01/10/2001 au 25/11/2001; consolidation le 26/11/2001 avec une IPP de 7%. La Commission a examiné le dossier, le mémoire en réponse du délégué du Ministre déposé le 24/07/2007, la réplique de la requérante du 28/08/2007, le rapport établi le 04/07/2007, les pièces comptables établissant les répercussions professionnelles, les frais de soins exposés et l'absence d'intervention d'une assurance.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+          "requests": "La requérante demande une aide principale dont le montant est laissé à l'appréciation de la Commission."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "PAR CES MOTIFS :\n\nVu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, les articles 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,\n\nLa Commission, statuant contradictoirement à l'égard de la requérante et par défaut à l'égard du délégué du Ministre, en audience publique,\n\n- déclare la demande recevable et partiellement fondée ;\n- alloue à la requérante une aide principale de $9.000 €$.",
+      "outcome": "AUTRE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres, modifiée par les lois des 26 mars et 22 avril 2003",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+        "provisionNumber": "article 41",
+        "provisionNumberKey": "41",
+        "parentActType": "LOI",
+        "parentActName": "loi du 1er août 1985 portant des mesures fiscales et autres, modifiée par les lois des 26 mars et 22 avril 2003",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+        "provisionNumber": "article 28",
+        "provisionNumberKey": "28",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-004",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+        "provisionNumber": "article 32",
+        "provisionNumberKey": "32",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-005",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+        "provisionNumber": "article 39",
+        "provisionNumberKey": "39",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-006",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+        "provisionNumber": "article 42",
+        "provisionNumberKey": "42",
+        "parentActType": "LOI",
+        "parentActName": "lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Commission",
+        "date": "2001-10-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2007:JUG.20071017.14-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "chambre du conseil du Tribunal de première instance d'....",
+        "date": "2005-05-24",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2007:JUG.20071017.14-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit des victimes",
+      "Intrusion nocturne",
+      "Vol avec violence",
+      "Agression et ligotement",
+      "Dommages corporels et psychiques",
+      "Recevabilité aide principale",
+      "Taux d'IPP",
+      "Preuves préjudice professionnel",
+      "Décision ex aequo et bono"
+    ],
+    "metadata": {
+      "totalKeywords": 9,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 3,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+        "text": "Pour l'octroi d'une aide principale, la Commission tient compte, de manière appréciative, d'éléments tels que le dommage moral subi, les séquelles permanentes (taux d'invalidité permanente), les répercussions sur la situation professionnelle établies par pièces comptables, les frais de soins et l'absence d'intervention d'une assurance ; statuant ex aequo et bono, elle apprécie ces éléments pour déterminer l'octroi et le montant de l'aide.",
+        "courtVerbatim": "Tenant compte,\n\n- de ce que la requérante a subi un dommage moral ;\n- de ce que la requérante conserve des séquelles des faits, fixées au taux d'invalidité permanente de $7 \\%$;\n- de ce que les répercussions des faits sur sa situation professionnelle ont été établies sur base des pièces comptables produites à l'audience ;\n- des frais de soins exposés lors de l'audience ;\n- de l'absence d'intervention d'une assurance ;\n\n---\n\nla Commission statuant ex aequo et bono, estime devoir accorder à la requérante une aide principale de $9.000 €$.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une victime d'un acte intentionnel de violence introduit une demande d'aide principale et que l'évaluation porte sur préjudices corporels, séquelles permanentes, répercussions professionnelles, frais de soins et absence d'assurance.",
+        "relevantFactualContext": "Dans la nuit du 26/05/2001, la requérante et son époux, propriétaires d'un hôtel, ont été agressés, présentant plaies, hématomes et trauma psychique ; expertise médico-légale établissant une consolidation avec IPP de 7 % et pièces comptables produites démontrant des répercussions professionnelles ; ordonnance de non-lieu pour auteur inconnu.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 1
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, victime d'une agression nocturne avec violences, vols et lésions physiques et psychiques, saisit la Commission pour l'aide principale aux victimes d'actes intentionnels de violence. La Commission déclare la demande recevable et, statuant ex aequo et bono, alloue une aide principale de 9.000 € en retenant une invalidité permanente de 7 %, les répercussions professionnelles et l'absence d'assurance; elle confirme qu'une aide peut être attribuée malgré l'auteur inconnu et l'absence de constitution de partie civile."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, les articles 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-004",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-005",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, les articles 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-004",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-005",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, les articles 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-004",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-005",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, les articles 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-004",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-005",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, les articles 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-005",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-004",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-006"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Vu les articles 30 à 41 de la loi du 1er août 1985 portant des mesures fiscales et autres modifiée par les lois des 26 mars et 22 avril 2003, les articles 28 à 32 de l'arrêté royal du 18 décembre 1986 relatif à la Commission pour l'aide aux victimes d'actes intentionnels de violence, les articles 39 à 42 des lois coordonnées du 18 juillet 1966 sur l'emploi des langues en matière administrative,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-006",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-004",
+          "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-005"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 6,
+      "citationStatistics": {
+        "totalCitations": 6,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 6,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 6,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+        "relatedFullTextCitations": [
+          "<h3 class=\"case-section__subtitle\">Fondement de la décision</h3>",
+          "<p class=\"case-section__paragraph\">Tenant compte,</p>",
+          "<ul>\n<li>de ce que la requérante a subi un dommage moral ;</li>\n<li>de ce que la requérante conserve des séquelles des faits, fixées au taux d'invalidité permanente de 7 % ;</li>\n<li>de ce que les répercussions des faits sur sa situation professionnelle ont été établies sur base des pièces comptables produites à l'audience ;</li>\n<li>des frais de soins exposés lors de l'audience ;</li>\n<li>de l'absence d'intervention d'une assurance ;</li>\n</ul>",
+          "<p class=\"case-section__paragraph\">la Commission statuant ex aequo et bono, estime devoir accorder à la requérante une aide principale de 9.000 euros.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-001",
+            "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-002",
+            "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-003",
+            "ART-ECLI:BE:COHSAV:2007:JUG.20071017.14-004"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerTeaching": 4,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 0,
+        "totalProvisionsNotFound": 4,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": [
+        "Relevant provisions (articles 30-41; 28-32; 39-42) appear only in the footer paragraph (<p class=\"case-footer__paragraph\">...) and were not extracted because the teaching is substantive and reasoning-section citations were prioritized; therefore provisions are not validated here."
+      ]
+    }
+  }
+}

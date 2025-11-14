@@ -1,0 +1,377 @@
+{
+  "decision_id": "ECLI:BE:TELIE:2003:ARR.20030821.1",
+  "language": "FR",
+  "metadata": {
+    "id": 9596,
+    "court_ecli_code": "TELIE",
+    "court_name": "Tribunal de l'entreprise de Liège",
+    "decision_date": "2003-08-21",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 9348,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Tribunal de l'entreprise de Liège, 21 août 2003, Rôle A/03/0843, ECLI:BE:TELIE:2003:ARR.20030821.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+        "name": "S.P.R.L. SUPRÊME",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "TIERS_OPPOSANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2003:ARR.20030821.1-002",
+        "name": "Maître Dominique LEGRAND",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2003:ARR.20030821.1-003",
+        "name": "S.A. MAISON ANDRE",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2003:ARR.20030821.1-004",
+        "name": "Société anonyme FORTIS BANQUE",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "PARTIE_INTERVENANTE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2003:ARR.20030821.1-005",
+        "name": "Société anonyme CBC BANQUE",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "PARTIE_INTERVENANTE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:TELIE:2003:ARR.20030821.1-006",
+        "name": "Société anonyme CHARCUTERIES LIEGEOISES",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "PARTIE_INTERVENANTE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Par jugement du 19 juin 2003 le Tribunal a autorisé Maître Dominique Legrand, agissant en qualité de curateur à la faillite de la SA MAISON ANDRE, à vendre les immeubles dépendant de cette faillite pour un prix minimum de 425.000 euro. Deux candidats avaient alors fait offre : la SPRL SUPREME pour 470.000 euro (395.000 pour l'immeuble et 75.000 pour les actifs mobiliers) et la SA CHARCUTERIE LIEGEOISE pour 510.000 euro (425.000 pour l'immeuble et 85.000 pour les mobiliers). Le curateur, en accord avec le juge-commissaire, a adressé le 26 juin 2003 aux deux soumissionnaires un cahier des charges fixant des modalités pour la remise d'une ultime offre (dépôt sous enveloppe fermée chez Me Michel Furnémont avant le 9 juillet 2003, ouverture le 10 juillet 2003 et signature immédiate du compromis avec le plus offrant sans possibilité de surenchère, offres minimales, garantie bancaire, acompte de 50.000 conservé en étude, preuve de solvabilité). Lors de l'ouverture des offres, les montants étaient 566.000 pour la SPRL SUPREME et 576.000 pour le concurrent; l'avocat de l'opposante a alors indiqué qu'une garantie bancaire de 600.000 euro existait et a remis une offre manuscrite pour ce montant. Le curateur a refusé de prendre en considération cette nouvelle offre et, conformément au cahier des charges, a passé l'acte de vente sous seing privé pour le prix de 450.500 euro pour l'immeuble, sous la condition suspensive de l'absence de recours contre le jugement du 19 juin 2003. La tierce opposition de la SPRL SUPREME a été introduite par acte du 14 juillet 2003 et des actes d'intervention volontaire ont été déposés les 17 et 24 juillet 2003; l'affaire a été entendue le 7 août 2003.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+          "requests": "Revoir la décision du 19 juin 2003 autorisant la vente de gré à gré et qu'il soit dit pour droit: 1) que la vente de gré à gré des immeubles dépendant de la faillite de la SA ANDRE ne pourra intervenir que pour une offre minimale globale pour tous les actifs immobiliers et mobiliers de 600.000 euro hors frais d'acte, soit pour les immeubles une somme minimum de 505.000 euro hors frais; 2) que les candidats acquéreurs pourront formuler dans le mois de la décision à intervenir une ultime offre accompagnée de garanties bancaires."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+          "argument": "L'opposante soutient que le jugement du 19 juin 2003 autorisant la vente a fixé un prix nettement inférieur aux offres qu'elle formule actuellement et que le tribunal doit tenir compte des nouveaux éléments (notamment la garantie bancaire de 600.000 euro et l'offre manuscrite remise après l'ouverture) ; elle invoque la violation des droits des créanciers si l'autorisation de vendre est maintenue à ce prix et critique la procédure mise en place par la curatelle, en particulier la rapidité exigée pour la remise des offres, en soutenant que les créanciers ne sont pas liés par un cahier des charges et que la procédure a lésé l'égalité de traitement des soumissionnaires.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS.\n\nLe Tribunal, statuant contradictoirement, Dit l'opposition recevable mais non fondée, en déboute la SPRL SUPREME, La condamne aux dépens, liquidés dans son chef à la somme de 577,75 euro et dans celui de la SA CHARCUTERIE LIÉGEOISE à la somme de 334,66 euro",
+      "outcome": "NON_FONDE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+        "provisionNumber": "article 1193 ter",
+        "provisionNumberKey": "1193ter",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que l'article 1193 ter du Code judiciaire encadre strictement la procédure de vente de gré à gré et impose la succession d'actes suivants : requête, autorisation du juge‑commissaire, rapport d'expertise, projet d'acte, convocation des créanciers hypothécaires, audition du curateur, dépôt de conclusions et jugement. Lorsqu'elle est respectée, l'autorisation rendue est inattaquable ; la Cour constate que ces prescriptions ont été observées en l'espèce.",
+        "relevantFactualContext": "Par jugement du 19 juin 2003 le curateur a été autorisé à vendre; la curatelle a adressé un cahier des charges, procédé à l'ouverture des offres et, après refus d'une offre manuscrite, a signé un acte sous seing privé conformément à la procédure visée."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-002",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+        "provisionNumber": "article 322",
+        "provisionNumberKey": "322",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-003",
+        "internalParentActId": "ACT-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+        "provisionNumber": "article 779",
+        "provisionNumberKey": "779",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Tribunal de céans",
+        "date": "2003-06-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:TELIE:2003:ARR.20030821.1-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit de la faillite",
+      "Vente amiable",
+      "Curateur à la faillite",
+      "Cahier des charges",
+      "Offres concurrentes",
+      "Opposition tierce",
+      "Validité de la vente",
+      "Respect cahier des charges",
+      "Garantie bancaire exigée",
+      "Offres sous enveloppe"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+        "text": "La procédure de vente de gré à gré en matière de faillite est strictement encadrée par l'article 1193 ter du Code judiciaire : la succession d'actes prescrite (requête, autorisation du juge‑commissaire, rapport d'expertise, projet d'acte, convocation des créanciers hypothécaires, audition du curateur, dépôt de conclusions, jugement) doit être respectée; lorsque ces prescriptions sont observées, l'autorisation rendue est inattaquable.",
+        "courtVerbatim": "la procédure de vente de gré à gré a été suivie conformément aux dispositions de l'article 1193 ter du code judiciaire requête, autorisation du juge-commissaire, rapport d'expertise, projet d'acte, convocation des créanciers hypothécaires, audition du curateur et dépôt de conclusions, jugement ; que ce dernier est dès lors inattaquable ; qu'il a été respecté par la curatelle ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une vente de gré à gré est réalisée dans une procédure de faillite et que la succession d'actes prévue par l'article 1193 ter doit être vérifiée.",
+        "relevantFactualContext": "Par jugement antérieur le curateur a été autorisé à vendre; la curatelle a suivi la procédure (requête, autorisation, rapport, projet d'acte, convocation, audition, dépôt de conclusions, jugement) avant de procéder à la vente sous seing privé.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:TELIE:2003:ARR.20030821.1-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:TELIE:2003:ARR.20030821.1-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:ARR.20030821.1-002",
+        "text": "Un cahier des charges établi après l'autorisation judiciaire peut valablement organiser les modalités d'une ultime offre (délais, modalités d'ouverture, exigence de garantie bancaire, condition de solvabilité) pour mettre les offres en concurrence et protéger la masse; si le cahier des charges est clair et précis, les concurrents qui déposent une offre sont liés par ses règles et le non‑respect de celles-ci peut justifier l'éviction du soumissionnaire.",
+        "courtVerbatim": "par ailleurs, le cahier des charges -parfaitement clair et précis- - élaboré ensuite de ce jugement ne malmène en rien les règles de liquidation; qu'il avait pour objet de mettre les offres en concurrence en présentant toutes les garanties poss ibles d'un départage loyal et honnête ;qu'il était de nature à obtenir un prix optimal au profit de la masse ;que le dépôt et l'examen des offres ont en effet été soumis à diverses règles , lesquelles, admises par les concurrents de par l'émission de leur offre, les obligeaient à l'égard de la curatelle ;que l'opposante n'a pas été en mesure de les respecter et doit dès lors être évincée du processus de vente ;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un cahier des charges organise une ultime offre après autorisation judiciaire et que sa validité et ses effets sur les soumissionnaires sont contestés.",
+        "relevantFactualContext": "Après l'autorisation de vendre, le curateur a adressé un cahier des charges précisant modalités, délais et garanties; des offres ont été déposées puis une offre manuscrite hors cahier des charges a été présentée et écartée par le curateur pour non‑conformité aux règles posées.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-001"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:TELIE:2003:ARR.20030821.1-001"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "La société opposante conteste la procédure de vente amiable menée par le curateur de la société en faillite, principalement quant à l'admission d'une offre tardive et aux modalités du cahier des charges pour une ultime offre. Le tribunal déclare l'opposition recevable mais non fondée et confirme l'autorisation de vente, estimant la procédure et le cahier des charges conformes aux règles de la faillite et au droit civil. Principe retenu : des règles contractuelles claires imposées aux soumissionnaires lient ces derniers et protègent l'intérêt de la masse."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que cette argumentation est sans valeur ; que la curatelle a en l'espèce agi dans le strict respect du droit de la faillite d'une part, du droit commun des obligations contractuelles de l'autre; que la procédure de vente de gré à gré a été suivie conformément aux dispositions de l'article 1193 ter du code judiciaire requête, autorisation du juge-commissaire, rapport d'expertise, projet d'acte, convocation des créanciers hypothécaires, audition du curateur et dépôt de conclusions, jugement ; que ce dernier est dès lors inattaquable ; qu'il a été respecté par la curatelle ;que par ailleurs, le cahier des charges -parfaitement clair et précis- - élaboré ensuite de ce jugement ne malmène en rien les règles de liquidation; qu'il avait pour objet de mettre les offres en concurrence en présentant toutes les garanties pos sibles d'un départage loyal et honnête ;qu'il était de nature à obtenir un prix optimal au profit de la masse ;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:TELIE:2003:ARR.20030821.1-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Monsieur Thierry DELOBEL, Avocat âgé de plus de 30 ans inscrit au Tableau de l'Ordre désigné pour remplacer l'assesseur empêché (article 322 du Code judiciaire.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Madame Simone CURNEL, désigné par ordonnance présidentielle de ce jour en remplacement de Monsieur Jean-Marie BECKER, Juge légitimement empêché d'assister au prononcé du jugement au délibéré duquel elle a participé (article 779 du Code judiciaire).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:TELIE:2003:ARR.20030821.1-003"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 3,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0.3333333333333333,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:ARR.20030821.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que l'opposante fait valoir qu'en ce jugement, le tribunal a autorisé la vente à un prix nettement inférieur aux offres qu'elle formule actuellement ; qu'il doit tenir compte des nouveaux éléments de fait qui lui sont désormais soumis et violerait de « manière flagrante » les droits des créanciers en maintenant l'autorisation de vendre à ce prix ; qu'elle critique au surplus la procédure mise en place par la curatelle, en particulier la rapidité exigée pour la remise des offres en considérant que les créanciers ne sont nullement tenus par un cahier des charges ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette argumentation est sans valeur ; que la curatelle a en l'espèce agi dans le strict respect du droit de la faillite d'une part, du droit commun des obligations contractuelles de l'autre; que la procédure de vente de gré à gré a été suivie conformément aux dispositions de l'article 1193 ter du code judiciaire requête, autorisation du juge-commissaire, rapport d'expertise, projet d'acte, convocation des créanciers hypothécaires, audition du curateur et dépôt de conclusions, jugement ; que ce dernier est dès lors inattaquable ; qu'il a été respecté par la curatelle ;que par ailleurs, le cahier des charges -parfaitement clair et précis- - élaboré ensuite de ce jugement ne malmène en rien les règles de liquidation; qu'il avait pour objet de mettre les offres en concurrence en présentant toutes les garanties poss ibles d'un départage loyal et honnête ;qu'il était de nature à obtenir un prix optimal au profit de la masse ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:TELIE:2003:ARR.20030821.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Rôle général n° A/03/0843. Folio n° 3293 Par jugement du 19 juin 2003 le Tribunal de céans a autorisé Maître Dominique Legrand, agissant en sa qualité de curateur à la faillite de la SA MAISON ANDRE, à vendre les immeubles (bâtiment et matériel) dépendant de cette faillite pour le prix minimum de 425 000. Deux amateurs avaient alors fait offre respectivement pour 470 000 euro (SPRL SUPREME : 395 000 euro pour l'immeuble et 75 000 euro pour les actifs mobiliers) et 510 000 euro (SA CHARCUTERIE LIEGEOISE : 425 000 euro pour l'immeuble et 85 000 euro pour les actifs mobiliers). Pour départager ces offres, le curateur, en accord avec le juge commissaire, a envoyé le 26 juin 2003 aux deux amateurs une lettre recommandée contenant un cahier des charges relatif à la remise d'une « ultime offre » dont les modalités étaient définies comme suit :</p>",
+          "<blockquote class=\"case-quote\">\n            <ol>\n                <li>« les offres définitives doivent être remises sous enveloppe fermée en l'étude de Me Michel Furnémont, notaire (...) pour le mercredi 9 juillet 2003 à minuit au plus tard (...)</li>\n                <li>II sera procédé à l'ouverture des enveloppes par Me Michel Furnémont le jeudi 10 juillet à 14 heures, en son étude, en présence de l'ensemble des adjudicataires ayant remis une offre. II sera ensuite procédé immédiatement à la signature du compromis de vente, valant vente définitive, avec le soumissionnaire ayant formulé l'offre la plus élevée, sans aucune possibilité de surenchère.</li>\n                <li>L'offre doit cependant être équivalente ou supérieure aux dernières offres formulées auprès du curateur, soit au minimum 425 000 euro relativement à l'immeuble et 85 000 euro relativement aux actifs mobiliers et doit être assortie, pour sa totalité, d'une garantie bancaire.</li>\n                <li>En outre, tout soumissionnaire doit faire la preuve de sa solvabilité, avec paiement ou la remise d'un chèque bancaire certifié, d'un acompte de 50.000, qui sera conservé en l'étude de Me Michel Furnémont jusqu'à la passation de l'acte authentique de vent qui interviendra dans le mois au plus tard de la signature du compromis de vente. (...)</li>\n                <li>Par le fait de déposer une offre, tout soumissionnaire accepte expressément les règles ainsi définies. Toute difficulté éventuelle sera tranchée sans aucun appel, ni recours, par Me Michel Furnémont, Notaire ».</li>\n            </ol>\n        </blockquote>",
+          "<p class=\"case-section__paragraph\">L'ouverture des enveloppes s'est déroulée comme prévu. L'offre globale de la SPRL SUPREME s'est élevée à 566.000, celle de son concurrent à 576.000. A ce moment, le conseil de l'opposante a indiqué que sa cliente disposait d'une garantie bancaire pour 600.000 euro et a remis au curateur une offre manuscrite portant sur ce montant. Maître Legrand a manifesté son refus de prendre en considération cette nouvelle offre et a, conformément au cahier des charges, passé l'acte de vente sous seing privé pour le prix de 450.500, relativement à la vente de l'immeuble sous la condition suspensive de l'absence de recours contre le jugement du 19 juin précédent.</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette argumentation est sans valeur ; que la curatelle a en l'espèce agi dans le strict respect du droit de la faillite d'une part, du droit commun des obligations contractuelles de l'autre; que la procédure de vente de gré à gré a été suivie conformément aux dispositions de l'article 1193 ter du code judiciaire requête, autorisation du juge-commissaire, rapport d'expertise, projet d'acte, convocation des créanciers hypothécaires, audition du curateur et dépôt de conclusions, jugement ; que ce dernier est dès lors inattaquable ; qu'il a été respecté par la curatelle ;que par ailleurs, le cahier des charges -parfaitement clair et précis- - élaboré ensuite de ce jugement ne malmène en rien les règles de liquidation; qu'il avait pour objet de mettre les offres en concurrence en présentant toutes les garanties poss ibles d'un départage loyal et honnête ;qu'il était de nature à obtenir un prix optimal au profit de la masse ;</p>",
+          "<p class=\"case-section__paragraph\">Attendu en vérité que l'opposante - sous le noble mais hypocrite couvert du respect des règles d'ordre public du droit de la faillite- n'accepte pas son échec et voudrait l'effacer en demandant au tribunal de rayer d'un trait de plume les principes tout aussi fondamentaux du droit civil ;que le dépôt et l'examen des offres ont en effet été soumis à diverses règles , lesquelles, admises par les concurrents de par l'émission de leur offre, les obligeaient à l'égard de la curatelle ;que l'opposante n'a pas été en mesure de les respecter et doit dès lors être évincée du processus de vente ;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 3.5,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "decision_id": "ECLI:BE:HBGNT:2011:AVIS.20110131.4",
+  "language": "NL",
+  "metadata": {
+    "id": 48956,
+    "court_ecli_code": "HBGNT",
+    "decision_date": "2011-01-31",
+    "decision_type_ecli_code": "AVIS",
+    "decision_type_name": "Advies",
+    "md_length": 10794,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Hof van beroep te Gent, 31 januari 2011, 2010/AR/1112, ECLI:BE:HBGNT:2011:AVIS.20110131.4"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001",
+        "name": "DEO VOLENTE B.V.B.A.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:HBGNT:2011:AVIS.20110131.4-002",
+        "name": "OPDEDRYNCK B.V.B.A.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "GEÏNTIMEERDE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Met dagvaarding van 24 november 2009 vordert de BVBA Opdedrynck betaling van 17.958,21 EUR (hoofdsom 13.067,75 EUR, intresten 3.583,68 EUR en verhoging 1.306,78 EUR) voortvloeiend uit 14 facturen gedateerd van 31 januari 2007 tot en met 31 maart 2008 betreffende (gedeeltelijk) de kostprijs van de volledige hernieuwing van de elektrische installatie van het vaartuig \"De Zwerver\". De eerste rechter verklaarde de vordering ontvankelijk en gegrond en veroordeelde Deo Volente tot betaling, stellende dat de rechtsvordering in beginsel onder art. 270 Zeewet valt en dat stilzwijgen en ontstane betalingsbeloftes een erkenning en stuiting van verjaring zouden inhouden. De appellante heeft tegen dit vonnis hoger beroep ingesteld bij verzoekschrift neergelegd op 23 april 2010 tegen het vonnis van 25 maart 2010. Het bestreden vonnis is betekend op 11 mei 2010, na neerlegging van de beroepsakte; het hoger beroep is aldus tijdig. Na een beslag heeft de appellante betaling verricht; het hof overweegt dat die betaling niet zonder meer als berusting kan worden beschouwd en dat berusting ondubbelzinnig moet blijken. De facturen en bijlagen (meetbrief van 15 maart 2007, zeebrief 26 juni 2007) wijzen erop dat het overgrote deel van de werken in maart/juni 2007 werd uitgevoerd en aanvaard, zodat de vorderingen van 24 november 2009 buiten de éénjarige verjaringstermijn van art. 270 Zeewet vallen.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001",
+          "requests": "Vordert de vernietiging van het bestreden vonnis en de afwijzing van de oorspronkelijke vordering van de geïntimeerde als onontvankelijk of minstens ongegrond; formuleert een tegenvordering tot terugbetaling van hetgeen zij ingevolge het bestreden vonnis heeft betaald."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2011:AVIS.20110131.4-002",
+          "requests": "Vraagt de afwijzing van het hoger beroep als onontvankelijk en ongegrond en de afwijzing van de tegenvordering als ongegrond."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001",
+          "argument": "De appellante voert aan dat de vorderingen van de geïntimeerde onder art. 270 van de Zeewet vallen en derhalve onderworpen zijn aan de éénjarige verjaringstermijn voor leveringen en werken aan het schip. Zij stelt dat het merendeel van de werken reeds in maart/juni 2007 werd uitgevoerd en aanvaard (meetbrief 15-3-2007, zeebrief 26-6-2007) en dat de laatst gedateerde factuur van 31 maart 2008 aanleiding geeft tot verjaring ten opzichte van de dagvaarding van 24 november 2009. Voorts betoogt zij dat haar latere betaling na beslag geen berusting betekent maar slechts tegemoetkomt aan de bij voorraad uitvoerbaarheid van het bestreden vonnis en dat berusting ondubbelzinnig moet blijken.",
+          "treatment": "AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2011:AVIS.20110131.4-002",
+          "argument": "De geïntimeerde betoogt dat de vordering niet verjaard is omdat de appellante stilzwijgend heeft gereageerd op facturen en ingebrekestellingen en betaalbeloftes, wat neerkomt op erkenning en stuiting van de verjaring; zij wijst ook op betalingen in 2007-2008 en op mogelijke subsidies die de feiten zouden beïnvloeden.",
+          "treatment": "VERWORPEN"
+        }
+      ],
+      "courtOrder": "OP DEZE GRONDEN, HET HOF,\n\nRecht doende op tegenspraak;\n\nBevestigt dat toepassing is gemaakt van artikel 24 van de Wet van 15 juni 1935 op het taalgebruik in gerechtszaken;\n\nVerklaart het hoger beroep ontvankelijk en gegrond;\n\nVernietigt het bestreden vonnis;\n\nOpnieuw recht doende:\n\nVerklaart de oorspronkelijke vordering van de geïntimeerde onontvankelijk wegens verjaring.\n\nVeroordeelt de geïntimeerde tot de gerechtskosten verbonden aan de beide aanleggen, die niet nader cijfermatig hoeven vastgesteld te worden aan haar zijde daar zij definitief te haren laste blijven, en vastgesteld aan de zijde van de appellante op 1.100,00 EUR rechtsplegingsvergoeding procedure voor de eerste rechter, 186,00 EUR rolrecht beroepsakte en 1.100,00 EUR rechtsplegingsvergoeding beroepsprocedure.\n\nOnverminderd art. 1024 Ger.W.",
+      "outcome": "VERNIETIGING"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001",
+        "provisionNumber": "art. 270",
+        "provisionNumberKey": "270",
+        "parentActType": "WET",
+        "parentActName": "de Zeewet ",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof interpreteert art. 270 van de Zeewet als het opleggen van een éénjarige verjaring voor rechtsvorderingen wegens leveringen die noodzakelijk zijn voor de uitrusting van het schip en voor loon/gedaan werk; ook omvangrijke werken vallen onder die korte verjaring en de tekst kent geen nuancering die grote omvang uitsluit.",
+        "relevantFactualContext": "De gevorderde facturen betreffen de volledige hernieuwing van de elektrische installatie van het schip \"De Zwerver\"; meest werkzaamheden waren uitgevoerd en aanvaard in maart/juni 2007 (meetbrief 15-03-2007, zeebrief 26-06-2007) en de laatste factuur dateert van 31-03-2008, zodat de vordering buiten de éénjarige termijn viel."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-002",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2011:AVIS.20110131.4-002",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "Wet van 15 juni 1935 op het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-003",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2011:AVIS.20110131.4-003",
+        "provisionNumber": "artikel 1024",
+        "provisionNumberKey": "1024",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van koophandel te Brugge, afdeling Oostende, derde kamer",
+        "date": "2010-03-25",
+        "caseNumber": "A/1016/09",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Zeerecht",
+      "Werken aan schip",
+      "Elektrische installatie",
+      "Leveringsfacturen",
+      "Betaling na beslag",
+      "Verjaring Zeewet",
+      "Stuiting door erkenning",
+      "Betaling en berusting",
+      "Terugvordering na vernietiging",
+      "Voorlopige uitvoerbaarheid"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001",
+        "text": "Artikel 270 van de Zeewet maakt de eenjarige verjaring van toepassing op rechtsvorderingen ten aanzien van leveringen en verrichte werken die noodzakelijk zijn voor de uitrusting van het schip; de tekst sluit niet uit dat ook omvangrijke of grootschalige werken onder deze korte verjaring vallen.",
+        "courtVerbatim": "Tevergeefs blijkt de geïntimeerde in te roepen dat de door haar gevorderde facturen betrekking hebben op werken die de bedoelde leveringen en werken zoals omschreven in art. 270 van de Zeewet zouden overstijgen door hun grote omvang. Deze nuancering is evenwel niet te lezen in art. 270 van de Zeewet: elke levering noodzakelijk voor de uitrusting, dan wel elk werk aan het schip wordt 'getroffen' door de korte verjaringsregel.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer vorderingen slaan op leveringen of werken ten behoeve van de uitrusting of bevoorrading van een schip, ongeacht de omvang van die werken.",
+        "relevantFactualContext": "De gevorderde facturen betroffen de volledige hernieuwing van de elektrische installatie van het vaartuig “De Zwerver”; het hof oordeelde dat ook dergelijke omvangrijke werken onder art. 270 vallen.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:HBGNT:2011:AVIS.20110131.4-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2011:AVIS.20110131.4-002",
+        "text": "De éénjarige verjaring van artikel 270 Zeewet begint te lopen vanaf de levering/oplevering of vanaf het ogenblik waarop de werken zijn uitgevoerd en aanvaard; bewijs van oplevering/aanvaarding (bv. meetbrief, zeebrief) bepaalt het aanvangszeitpunt van de verjaringstermijn.",
+        "courtVerbatim": "Het feit dat de appellante een meetbrief kan voorleggen daterende van 15 maart 2007 en een daaropvolgende zeebrief van 26 juni 2007 (zie stukken 2 en 1, dossier appellante), geeft aan dat het overgrote gedeelte van de werken alsdan (maart/juni 2007) was uitgevoerd en meteen ook aanvaard. Het voorwerp van de facturen beantwoordt aan de éénjarige verjaring van art. 270 van de Zeewet zoals hierboven geciteerd: het betreft leveringen die noodzakelijk zijn voor de uitrusting en voor het overige ook werken gedaan aan \"De Zwerver\".",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer leveringen of werken aan een schip zijn voltooid en een aanvaarding of opleveringshandeling (documentair of feitelijk) kan worden vastgesteld.",
+        "relevantFactualContext": "De meeste werken waren uitgevoerd en aanvaard in maart/juni 2007 (meetbrief 15-03-2007, zeebrief 26-06-2007) terwijl de laatste factuur dateerde van 31-03-2008, zodat de vordering buiten de éénjarige termijn viel.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2011:AVIS.20110131.4-003",
+        "text": "Een betaling die plaatsvindt ter uitvoering van een bij voorraad uitvoerbaar vonnis en/of ter voldoening na beslag, mag niet automatisch worden aangemerkt als berusting of afstand van de verjaringsvordering; berusting vereist een ondubbelzinnige handeling waarvan met voldoende zekerheid kan worden afgeleid dat de schuldenaar de voordelen van verjaring heeft opgegeven.",
+        "courtVerbatim": "Uit haar betaling kan op geen enkele wijze worden besloten dat de appellante zou hebben berust, zelfs wanneer de betaling zonder enig voorbehoud zou zijn geschied. Het bestreden vonnis is immers bij voorraad uitvoerbaar en de appellante heeft - mede na beslag op het schip - betaald. De betaling kan hoe dan ook louter begrepen worden als de tegemoetkoming aan de voorlopige uitvoerbaarheid van het bestreden vonnis, zonder dat de betaling als een berusting moet worden aangezien. Berusting moet overigens ondubbelzinnig zijn, zoniet kan zij niet worden vastgesteld.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een debiteur betaalt nadat het vonnis uitvoerbaar is verklaard of na beslag, en de tegenpartij stelt dat die betaling/wijziging berusting inhoudt.",
+        "relevantFactualContext": "Na bevel tot betalen en uitvoerend beslag betaalde de appellante; het hof oordeelde dat deze betaling bedoeld was om de voorlopige uitvoerbaarheid tegemoet te komen en niet als berusting kon gelden.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2011:AVIS.20110131.4-004",
+        "text": "Een stilzwijgen of gebrek aan reactie op facturen of aanmaningen, ook van een handelaar, vormt niet ipso facto een erkenning die de stuiting of onderbreking van de verjaring tot gevolg heeft; vereist is een concrete rechtshandeling waaruit ondubbelzinnig blijkt dat de schuldenaar afstand doet van verjaringsvoordelen.",
+        "courtVerbatim": "Een stilzwijgen, zelfs wanneer afkomstig van een handelaar, op een aanmaning tot betalen, zelfs wanneer er in die aanmaning gewezen wordt op een belofte van de schuldenaar tot betalen - overigens vaag geformuleerd zonder vermelding van enig bedrag -, geldt niet als erkenning die de stuiting van de verjaring als gevolg zou hebben gehad. Er moet een handeling zijn vanwege de schuldenaar waaruit met voldoende zekerheid naar recht kan besloten worden dat de schuldenaar afstand heeft gedaan van de voordelen van de verjaring.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer sprake is van louter stilzwijgen of vage betalingsbeloften zonder concrete daad die door schuldenaar werd gesteld, en de schuldeiser stelt stuiting.",
+        "relevantFactualContext": "Geïntimeerde verwees naar het stilzwijgen van de appellante op facturen en aanmaningen; het hof oordeelde dat dergelijk stilzwijgen geen erkenning was die de verjaring zou hebben gestuit.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 2,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 4,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser, een vennootschap, vordert betaling van meerdere facturen voor werkzaamheden en leveringen aan de elektrische installatie van een vaartuig tegen de vennootschap appellante. Het hof verklaart het hoger beroep ontvankelijk en gegrond, vernietigt het bestreden vonnis en oordeelt dat de oorspronkelijke vordering onontvankelijk is wegens verjaring krachtens artikel 270 van de Zeewet met toepassing van de eenjarige verjaringstermijn voor leveringen en werken aan een schip. Het hof benadrukt dat stilzwijgen en latere betalingen geen ondubbelzinnige erkenning zijn die de verjaring stuiten en veroordeelt de eiser tot de proceskosten."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De eerste rechter verklaart de vordering van de geïntimeerde ontvankelijk en gegrond. De appellante wordt veroordeeld tot betaling van het gevorderde en tot alle gerechtskosten. Hierbij bevestigt de eerste rechter dat de rechtsvordering van de geïntimeerde in beginsel valt onder art. 270 van de Zeewet, met name onder de éénjarige verjaringstermijn. Anderzijds overweegt de eerste rechter dat de appellante, handelaarster zijnde, ten opzichte van de diverse ingebrekestellingen - die bovendien de bevestiging inhielden van betalingsbeloftes - op geen enkele wijze heeft gereageerd, zodat er sprake is van een erkenning van de schuld, met de stuiting van de verjaring ervan als gevolg. De eerste rechter stelt vast dat de rechtsvordering in die omstandigheden niet verjaard is.</p>",
+          "<p class=\"case-section__paragraph\">De facturen waarvan de geïntimeerde de betaling vordert, hebben - zoals de geïntimeerde expliciet bevestigt - betrekking op (een gedeelte van de) kostprijs van de gehele hernieuwing van de elektrische installatie van het vaartuig \"De Zwerver\". De appellante beroept zich op art. 270 Zeewet en roept de verjaring van de vordering van de geïntimeerde in. Art. 270 van de Zeewet bepaalt onder meer:</p>",
+          "<blockquote class=\"case-quote\"> Voorts verjaren: (...) - de rechtsvorderingen wegens het leveren van zaken die noodzakelijk zijn voor de uitrusting en de bevoorrading van het schip, een jaar na de levering; - de rechtsvorderingen wegens loon van werklieden en wegens gedaan werk, een jaar na de oplevering van het werk; (...) </blockquote>",
+          "<p class=\"case-section__paragraph\">Zoals hierboven vastgesteld, de facturen, waarvan de laatste dateert van 31 maart 2008, hebben betrekking op de (volledige) hernieuwing van de elektrische installatie van het schip \"De Zwerver\". Het feit dat de appellante een meetbrief kan voorleggen daterende van 15 maart 2007 en een daaropvolgende zeebrief van 26 juni 2007 (zie stukken 2 en 1, dossier appellante), geeft aan dat het overgrote gedeelte van de werken alsdan (maart/juni 2007) was uitgevoerd en meteen ook aanvaard. Er zij ook niet uit het oog verloren dat het merendeel van de overige facturen hoe dan ook is betaald en er in het verloop van de facturen een belangrijke tijdspanne (meer dan acht maanden) is tussen de factuur van 31 januari 2007 (9.958,58 EUR) en de opvolgende vanaf 18 oktober 2007 (samen 3.109,17 EUR - wat aangeeft dat einde januari 2007 het overgrootste gedeelte van de volledige hernieuwing van de elektrische installatie al achter de rug was). Het voorwerp van de facturen beantwoordt aan de éénjarige verjaring van art. 270 van de Zeewet zoals hierboven geciteerd: het betreft leveringen die noodzakelijk zijn voor de uitrusting en voor het overige ook werken gedaan aan \"De Zwerver\". Tevergeefs blijkt de geïntimeerde in te roepen dat de door haar gevorderde facturen betrekking hebben op werken die de bedoelde leveringen en werken zoals omschreven in art. 270 van de Zeewet zouden overstijgen door hun grote omvang. Deze nuancering is evenwel niet te lezen in art. 270 van de Zeewet: elke levering noodzakelijk voor de uitrusting, dan wel elk werk aan het schip wordt ‘getroffen' door de korte verjaringsregel. Het is duidelijk dat de rechtsvorderingen, voorwerp van de dagvaarding van 24 november 2009, buiten de éénjarige vervaltermijn vallen, waar de laatste factuur hoe dan ook dateert van 31 maart 2008. Zij zijn verjaard met toepassing van art. 270 van de Zeewet, zesde en zevende streepjes. De kwestieuze verjaring berust niet op een vermoeden van betaling. De wetgever heeft een verval willen inbouwen tegen de desbetreffende schuldeiser die niet gehandeld heeft binnen een bepaalde periode. De oorspronkelijke vordering van de geïntimeerde is onontvankelijk wegens verjaring.</p>",
+          "<p class=\"case-section__paragraph\">Tevergeefs beroept de geïntimeerde zich op het stilzwijgen van de appellante op de facturen en aanmaningen. Een stilzwijgen, zelfs wanneer afkomstig van een handelaar, op een aanmaning tot betalen, zelfs wanneer er in die aanmaning gewezen wordt op een belofte van de schuldenaar tot betalen - overigens vaag geformuleerd zonder vermelding van enig bedrag -, geldt niet als erkenning die de stuiting van de verjaring als gevolg zou hebben gehad. Er moet een handeling zijn vanwege de schuldenaar waaruit met voldoende zekerheid naar recht kan besloten worden dat de schuldenaar afstand heeft gedaan van de voordelen van de verjaring. Een andere benadering zou ertoe leiden dat aan de handelaar in vergelijking met een \"gewone\" burger een bijkomende verplichting zou worden opgelegd om naderhand met succes gebeurlijk beroep te kunnen doen op de verjaring, met name de verplichting om te protesteren tegen de factuur (facturen) dan wel de aanmaning(en).</p>",
+          "<p class=\"case-section__paragraph\">Eveneens vergeefs wijst de geïntimeerde op diverse betalingen die zijn geschied in 2007 en 2008 voor een totaal van 28.000 EUR. Uit het bij de dagvaarding mede betekend rekeninguittreksel en stuk nr. 1, dossier van de geïntimeerde, kan worden opgemaakt dat de geïntimeerde de betaling van diverse facturen vordert, waarop er nog niets is (af)betaald is geworden - evenmin enig voorschot - . Waar er geen afbetaling noch voorschot is betaald op de facturen die door de geïntimeerde worden gevorderd, hoeft er op dit argument van de geïntimeerde niet verder te worden op ingegaan.</p>",
+          "<p class=\"case-section__paragraph\">Dat de geïntimeerde voor de werken subsidies zou hebben ontvangen, is in de relatie tussen de partijen niet aan de orde.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Bevestigt dat toepassing is gemaakt van artikel 24 van de Wet van 15 juni 1935 op het taalgebruik in gerechtszaken;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Onverminderd art. 1024 Ger.W.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-003"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 3,
+      "citationStatistics": {
+        "totalCitations": 9,
+        "avgCitationsPerProvision": 3,
+        "provisionsWithMinimalCitations": 2,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0.3333333333333333,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De facturen waarvan de geïntimeerde de betaling vordert, hebben - zoals de geïntimeerde expliciet bevestigt - betrekking op (een gedeelte van de) kostprijs van de gehele hernieuwing van de elektrische installatie van het vaartuig \"De Zwerver\". De appellante beroept zich op art. 270 Zeewet en roept de verjaring van de vordering van de geïntimeerde in. Art. 270 van de Zeewet bepaalt onder meer:</p>",
+          "<blockquote class=\"case-quote\"> Voorts verjaren: (...) - de rechtsvorderingen wegens het leveren van zaken die noodzakelijk zijn voor de uitrusting en de bevoorrading van het schip, een jaar na de levering; - de rechtsvorderingen wegens loon van werklieden en wegens gedaan werk, een jaar na de oplevering van het werk; (...) </blockquote>",
+          "<p class=\"case-section__paragraph\">Zoals hierboven vastgesteld, de facturen, waarvan de laatste dateert van 31 maart 2008, hebben betrekking op de (volledige) hernieuwing van de elektrische installatie van het schip \"De Zwerver\". Het feit dat de appellante een meetbrief kan voorleggen daterende van 15 maart 2007 en een daaropvolgende zeebrief van 26 juni 2007 (zie stukken 2 en 1, dossier appellante), geeft aan dat het overgrote gedeelte van de werken alsdan (maart/juni 2007) was uitgevoerd en meteen ook aanvaard. Er zij ook niet uit het oog verloren dat het merendeel van de overige facturen hoe dan ook is betaald en er in het verloop van de facturen een belangrijke tijdspanne (meer dan acht maanden) is tussen de factuur van 31 januari 2007 (9.958,58 EUR) en de opvolgende vanaf 18 oktober 2007 (samen 3.109,17 EUR - wat aangeeft dat einde januari 2007 het overgrootste gedeelte van de volledige hernieuwing van de elektrische installatie al achter de rug was). Het voorwerp van de facturen beantwoordt aan de éénjarige verjaring van art. 270 van de Zeewet zoals hierboven geciteerd: het betreft leveringen die noodzakelijk zijn voor de uitrusting en voor het overige ook werken gedaan aan \"De Zwerver\". Tevergeefs blijkt de geïntimeerde in te roepen dat de door haar gevorderde facturen betrekking hebben op werken die de bedoelde leveringen en werken zoals omschreven in art. 270 van de Zeewet zouden overstijgen door hun grote omvang. Deze nuancering is evenwel niet te lezen in art. 270 van de Zeewet: elke levering noodzakelijk voor de uitrusting, dan wel elk werk aan het schip wordt ‘getroffen' door de korte verjaringsregel. Het is duidelijk dat de rechtsvorderingen, voorwerp van de dagvaarding van 24 november 2009, buiten de éénjarige vervaltermijn vallen, waar de laatste factuur hoe dan ook dateert van 31 maart 2008. Zij zijn verjaard met toepassing van art. 270 van de Zeewet, zesde en zevende streepjes. De kwestieuze verjaring berust niet op een vermoeden van betaling. De wetgever heeft een verval willen inbouwen tegen de desbetreffende schuldeiser die niet gehandeld heeft binnen een bepaalde periode. De oorspronkelijke vordering van de geïntimeerde is onontvankelijk wegens verjaring.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2011:AVIS.20110131.4-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Zoals hierboven vastgesteld, de facturen, waarvan de laatste dateert van 31 maart 2008, hebben betrekking op de (volledige) hernieuwing van de elektrische installatie van het schip \"De Zwerver\". Het feit dat de appellante een meetbrief kan voorleggen daterende van 15 maart 2007 en een daaropvolgende zeebrief van 26 juni 2007 (zie stukken 2 en 1, dossier appellante), geeft aan dat het overgrote gedeelte van de werken alsdan (maart/juni 2007) was uitgevoerd en meteen ook aanvaard. Er zij ook niet uit het oog verloren dat het merendeel van de overige facturen hoe dan ook is betaald en er in het verloop van de facturen een belangrijke tijdspanne (meer dan acht maanden) is tussen de factuur van 31 januari 2007 (9.958,58 EUR) en de opvolgende vanaf 18 oktober 2007 (samen 3.109,17 EUR - wat aangeeft dat einde januari 2007 het overgrootste gedeelte van de volledige hernieuwing van de elektrische installatie al achter de rug was). Het voorwerp van de facturen beantwoordt aan de éénjarige verjaring van art. 270 van de Zeewet zoals hierboven geciteerd: het betreft leveringen die noodzakelijk zijn voor de uitrusting en voor het overige ook werken gedaan aan \"De Zwerver\". Tevergeefs blijkt de geïntimeerde in te roepen dat de door haar gevorderde facturen betrekking hebben op werken die de bedoelde leveringen en werken zoals omschreven in art. 270 van de Zeewet zouden overstijgen door hun grote omvang. Deze nuancering is evenwel niet te lezen in art. 270 van de Zeewet: elke levering noodzakelijk voor de uitrusting, dan wel elk werk aan het schip wordt ‘getroffen' door de korte verjaringsregel. Het is duidelijk dat de rechtsvorderingen, voorwerp van de dagvaarding van 24 november 2009, buiten de éénjarige vervaltermijn vallen, waar de laatste factuur hoe dan ook dateert van 31 maart 2008. Zij zijn verjaard met toepassing van art. 270 van de Zeewet, zesde en zevende streepjes. De kwestieuze verjaring berust niet op een vermoeden van betaling. De wetgever heeft een verval willen inbouwen tegen de desbetreffende schuldeiser die niet gehandeld heeft binnen een bepaalde periode. De oorspronkelijke vordering van de geïntimeerde is onontvankelijk wegens verjaring.</p>",
+          "<blockquote class=\"case-quote\"> Voorts verjaren: (...) - de rechtsvorderingen wegens het leveren van zaken die noodzakelijk zijn voor de uitrusting en de bevoorrading van het schip, een jaar na de levering; - de rechtsvorderingen wegens loon van werklieden en wegens gedaan werk, een jaar na de oplevering van het werk; (...) </blockquote>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2011:AVIS.20110131.4-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Na dit voormelde beslag is dan door de appellante overgegaan tot betaling. Uit haar betaling kan op geen enkele wijze worden besloten dat de appellante zou hebben berust, zelfs wanneer de betaling zonder enig voorbehoud zou zijn geschied. Het bestreden vonnis is immers bij voorraad uitvoerbaar en de appellante heeft - mede na beslag op het schip - betaald. De betaling kan hoe dan ook louter begrepen worden als de tegemoetkoming aan de voorlopige uitvoerbaarheid van het bestreden vonnis, zonder dat de betaling als een berusting moet worden aangezien. Berusting moet overigens ondubbelzinnig zijn, zoniet kan zij niet worden vastgesteld.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2011:AVIS.20110131.4-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Tevergeefs beroept de geïntimeerde zich op het stilzwijgen van de appellante op de facturen en aanmaningen. Een stilzwijgen, zelfs wanneer afkomstig van een handelaar, op een aanmaning tot betalen, zelfs wanneer er in die aanmaning gewezen wordt op een belofte van de schuldenaar tot betalen - overigens vaag geformuleerd zonder vermelding van enig bedrag -, geldt niet als erkenning die de stuiting van de verjaring als gevolg zou hebben gehad. Er moet een handeling zijn vanwege de schuldenaar waaruit met voldoende zekerheid naar recht kan besloten worden dat de schuldenaar afstand heeft gedaan van de voordelen van de verjaring. Een andere benadering zou ertoe leiden dat aan de handelaar in vergelijking met een \"gewone\" burger een bijkomende verplichting zou worden opgelegd om naderhand met succes gebeurlijk beroep te kunnen doen op de verjaring, met name de verplichting om te protesteren tegen de factuur (facturen) dan wel de aanmaning(en).</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [
+            "ART-ECLI:BE:HBGNT:2011:AVIS.20110131.4-001"
+          ],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 1.75,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 2,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

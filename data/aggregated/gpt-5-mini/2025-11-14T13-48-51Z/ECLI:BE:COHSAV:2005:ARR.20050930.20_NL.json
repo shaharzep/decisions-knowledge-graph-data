@@ -1,0 +1,439 @@
+{
+  "decision_id": "ECLI:BE:COHSAV:2005:ARR.20050930.20",
+  "language": "NL",
+  "metadata": {
+    "id": 165844,
+    "court_ecli_code": "COHSAV",
+    "decision_date": "2005-09-30",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 5012,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commissie voor financiële hulp aan slachtoffers van opzettelijke gewelddaden en aan de occasionele redders, 30 september 2005, A.R. M50482, B.R. 4171, ECLI:BE:COHSAV:2005:ARR.20050930.20"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050930.20-001",
+        "name": "de heer Marc X.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050930.20-002",
+        "name": "Afgevaardigde van de Minister van Justitie",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "OPENBAAR_MINISTERIE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050930.20-003",
+        "name": "V-TAX & V-RENT N.V.",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op 1 januari 2005, 's nachts, was verzoeker, als taxichauffeur, in zijn voertuig iets aan het eten met het raampje open toen een onbekende hem met een mes aan de keel bedreigde en geld eiste in het Engels; verzoeker gaf ongeveer € 400 waarna de dader wegfietste. Verzoeker was zwaar geschokt; een getuige bevestigde min of meer zijn verklaring (geen mes opgemerkt). Aan verzoeker werd het statuut van benadeelde persoon toegekend. De zaak werd door het Parket van de Procureur des Konings te ... op 10 mei 2005 geseponeerd wegens onbekende dader. De werkgever weigerde de feiten ernstig te nemen en ontsloeg verzoeker op staande voet (bijgevoegde correspondentie met V-TAX & V-RENT N.V.); over de rechtmatigheid van dit ontslag zal een procedure voor de Arbeidsrechtbank worden gevoerd. Verzoeker verklaart geen uitkeringen te hebben ontvangen en verdiende ongeveer € 800 netto per maand. Volgens twee attesten van Dokter Van Cleemput was er volledige tijdelijke arbeidsongeschiktheid van 7 januari 2005 tot en met 31 maart 2005 (84 dagen). In de begroting van de schade wordt gevraagd: kosten kopiename dossier € 3,50; loonverlies € 210,40; erelonen advocaat € 300,00; morele schade € 750,00; tijdelijke arbeidsongeschiktheid € 1.250,00 (totaal € 2.513,90).",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050930.20-001",
+          "requests": "Verzoek tot toekenning van een financiële hulp van € 2.513,90 (verzoekschrift van 31 mei 2005, neergelegd op het secretariaat op 6 juni 2005)."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "# OP DIE GRONDEN, \n\nDe Commissie,\n\nGelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986.\n\nStelt vast dat het verzoekschrift thans niet in staat is bij gebrek aan onvoldoende inlichtingen.\n\nVerzendt de zaak naar de bijzondere rol.\n\nAldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005.",
+      "outcome": "GEEN_AANLEIDING_TOT_UITSPRAAK"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-001",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.20-001",
+        "provisionNumber": "artikel 31, 1ste",
+        "provisionNumberKey": "31",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende financiële hulp aan slachtoffers van opzettelijke gewelddaden (wet van 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie leest artikel 31, 1ste als de grondslag om financiële hulp toe te kennen aan personen die ernstige lichamelijke of psychische schade hebben geleden als rechtstreeks gevolg van een opzettelijke gewelddaad. Zij benadrukt dat voor toekenning moet worden aangetoond dat de schade ernstig is en rechtstreeks voortvloeit uit de daad, waarbij medische attesten en bewijs van tijdelijke of blijvende arbeidsongeschiktheid doorslaggevend zijn voor de beoordeling.",
+        "relevantFactualContext": "Verzoeker werd tijdens een nachtelijke taxirit met een mes bedreigd en gaf ca. €400; hij verklaart zwaar geschokt te zijn. Neergelegde medische attesten vermelden tijdelijke arbeidsongeschiktheid (attesten van Dr. Van Cleemput en een attest van Dr. Annet) maar vertonen inconsistenties (eerste 6 dagen geen attest). Parket seponeerde wegens onbekende dader; verzoeker verloor zijn baan."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-002",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.20-002",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 18 december 1986 tot uitvoering van de wet van 1 augustus 1985 (K.B. van 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-003",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.20-002",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 18 december 1986 tot uitvoering van de wet van 1 augustus 1985 (K.B. van 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-004",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.20-003",
+        "provisionNumber": "artikel 17, § 1",
+        "provisionNumberKey": "17",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken (gecoörd. wetten 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-005",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.20-003",
+        "provisionNumber": "artikel 39",
+        "provisionNumberKey": "39",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken (gecoörd. wetten 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-006",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.20-003",
+        "provisionNumber": "artikel 42",
+        "provisionNumberKey": "42",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken (gecoörd. wetten 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-007",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.20-001",
+        "provisionNumber": "artikel 37bis",
+        "provisionNumberKey": "37bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 august 1985 betreffende financiële hulp aan slachtoffers van opzettelijke gewelddaden (wet van 01/08/1985), zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003 en de programmawet van 27 december 2004",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-008",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.20-002",
+        "provisionNumber": "artikel 28",
+        "provisionNumberKey": "28",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 18 december 1986 tot uitvoering van de wet van 1 augustus 1985 (K.B. van 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-009",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.20-002",
+        "provisionNumber": "artikel 34",
+        "provisionNumberKey": "34",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 18 december 1986 tot uitvoering van de wet van 1 augustus 1985 (K.B. van 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie",
+        "date": "2005-05-31",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2005:ARR.20050930.20-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie",
+        "date": "2005-06-06",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2005:ARR.20050930.20-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie",
+        "date": "2005-07-13",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2005:ARR.20050930.20-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "de afgevaardigde van de Minister van Justitie",
+        "date": "2005-08-04",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2005:ARR.20050930.20-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De Commissie",
+        "date": "2005-09-06",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2005:ARR.20050930.20-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Parket van de Procureur des Konings te ...",
+        "date": "2005-05-10",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2005:ARR.20050930.20-006"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Bestuursrecht",
+      "Taxichauffeur",
+      "Beroving met mes",
+      "Geldovergave",
+      "Tijdelijke arbeidsongeschiktheid",
+      "Ontslag op staande voet",
+      "Financiële hulp slachtoffers",
+      "Bewijslast medische attesten",
+      "Arbeidsongevallenverzekering afhandeling",
+      "Aanvullende toelichting gevraagd"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2005:ARR.20050930.20-001",
+        "text": "Artikel 31, 1ste vereist dat financiële hulp wordt toegekend alleen aan personen die ernstige lichamelijke of psychische schade hebben geleden die rechtstreeks voortvloeit uit een opzettelijke gewelddaad; bij de beoordeling zijn medische attesten en bewijs van tijdelijke of blijvende arbeidsongeschiktheid doorslaggevend. Bij gebrek aan consistente of voldoende medische stukken of bij onduidelijkheid over relevante procedures (bv. arbeidsgerechtelijke procedure of arbeidsongevallenverzekeraar) kan de Commissie de beslissing uitstellen en nadere toelichtingen vorderen.",
+        "courtVerbatim": "Artikel 31, $1^{\\text {ste }}$ bepaalt dat de Commissie een financiële hulp kan toekennen aan personen die ernstige lichamelijke of psychische schade ondervinden als rechtstreeks gevolg van een opzettelijke gewelddaad.\n\nVerzoeker heeft geen blijvende invaliditeit of blijvende werkonbekwaamheid opgelopen. Hij legt overigens geen stukken voor waaruit een tijdelijke arbeidsongeschiktheid blijkt.\n\nDoor Dokter Van Cleemput werden twee medische attesten geschreven: één voor arbeidsonderbreking vanaf 7/01/2005 en één vanaf 08/01/2005 tot en met 28/02/2005. Van de eerste 6 dagen wordt echter geen medisch attest voorgelegd.\n\nVerder legt verzoeker een medisch attest voor van Dokter Annet d.d. 26 februari 2005 wegens \"arbeidsongeschiktheid om mentale redenen\".\n\nEr blijft twijfel over de ernst van het lichamelijk letsel.\nEr is overigens niets geweten over de procedure voor de Arbeidsrechtbank.\nDeed verzoeker aangifte bij de arbeidsongevallenverzekeraar?\nHet komt derhalve gepast voor de zaak uit te stellen teneinde nadere toelichtingen te verschaffen. Meer in het bijzonder wordt het volgende gevraagd:\n\n- kan de verzoeker nadere uitleg verstrekken nopens het verloop van de procedure voor de arbeidsrechtbank;\n- welk is de afhandeling door de Arbeidsongevallenverzekeraar?",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een aanvraag krachtens artikel 31 wordt beoordeeld en de ernst of causaliteit van het letsel of het bestaan van tijdelijke/blijvende arbeidsongeschiktheid niet overtuigend is aangetoond of medische stukken inconsistenties vertonen.",
+        "relevantFactualContext": "Verzoeker werd tijdens een nachtelijke taxirit met een mes bedreigd en gaf circa €400; neergelegde medische attesten vermelden tijdelijke arbeidsongeschiktheid maar vertonen inconsistenties (geen attest voor de eerste 6 dagen). Parket seponeerde wegens onbekende dader; verzoeker verloor zijn baan. De Commissie vraagt nadere informatie en stelt de zaak uit wegens onvoldoende inlichtingen.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-001"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 1
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser, een taxichauffeur die bij een gewapende overval geld verloor en tijdelijke arbeidsongeschiktheid en ontslag aanvoert, verzocht de Commissie om financiële hulp voor materiële en morele schade. De Commissie oordeelt dat krachtens art. 31 toekenning afhankelijk is van voldoende bewijs van ernstige lichamelijke of psychische schade en tijdelijke arbeidsongeschiktheid; wegens ontbrekende medische attesten en ontbrekende informatie over de arbeidsrechtbankprocedure en de afhandeling door de arbeidsongevallenverzekeraar verklaart zij het verzoek thans onbeoordeelbaar en verwijst de zaak naar de bijzondere rol voor nadere toelichting."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 31, 1ste bepaalt dat de Commissie een financiële hulp kan toekennen aan personen die ernstige lichamelijke of psychische schade ondervinden als rechtstreeks gevolg van een opzettelijke gewelddaad. Verzoeker heeft geen blijvende invaliditeit of blijvende werkonbekwaamheid opgelopen. Hij legt overigens geen stukken voor waaruit een tijdelijke arbeids-ongeschiktheid blijkt. Door Dokter Van Cleemput werden twee medische attesten geschreven: één voor arbeidsonderbreking vanaf 7/01/2005 en één vanaf 08/01/2005 tot en met 28/02/2005. Van de eerste 6 dagen wordt echter geen medisch attest voorgelegd. Verder legt verzoeker een medisch attest voor van Dokter Annet d.d. 26 februari 2005 wegens ¿arbeidsongeschiktheid om mentale redenen¿. Er blijft twijfel over de ernst van het lichamelijk letsel. Er is overigens niets geweten over de procedure voor de Arbeidsrechtbank. Deed verzoeker aangifte bij de arbeidsongevallenverzekeraar? Het komt derhalve gepast voor de zaak uit te stellen teneinde nadere toelich-tingen te verschaffen. Meer in het bijzonder wordt het volgende gevraagd:</p>",
+          "<ul>\n<li>kan de verzoeker nadere uitleg verstrekken nopens het verloop van de procedure voor de arbeidsrechtbank;</li>\n<li>welk is de afhandeling door de Arbeidsongevallenverzekeraar?</li>\n</ul>",
+          "<p class=\"case-footer__paragraph\">Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-001",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-009"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-002",
+        "relatedFullTextCitations": [
+          "\"\"],\"relatedInternalProvisionsId\":[\"ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-002\"],\"relatedInternalDecisionsId\":[]},{ "
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.20-002"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 9,
+      "citationStatistics": {
+        "totalCitations": 9,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 6,
+        "provisionsWithNoCitations": 2
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 5.666666666666667,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2005:ARR.20050930.20-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 31, 1ste bepaalt dat de Commissie een financiële hulp kan toekennen aan personen die ernstige lichamelijke of psychische schade ondervinden als rechtstreeks gevolg van een opzettelijke gewelddaad. Verzoeker heeft geen blijvende invaliditeit of blijvende werkonbekwaamheid opgelopen. Hij legt overigens geen stukken voor waaruit een tijdelijke arbeids-ongeschiktheid blijkt. Door Dokter Van Cleemput werden twee medische attesten geschreven: één voor arbeidsonderbreking vanaf 7/01/2005 en één vanaf 08/01/2005 tot en met 28/02/2005. Van de eerste 6 dagen wordt echter geen medisch attest voorgelegd. Verder legt verzoeker een medisch attest voor van Dokter Annet d.d. 26 februari 2005 wegens ¿arbeidsongeschiktheid om mentale redenen¿. Er blijft twijfel over de ernst van het lichamelijk letsel. Er is overigens niets geweten over de procedure voor de Arbeidsrechtbank. Deed verzoeker aangifte bij de arbeidsongevallenverzekeraar? Het komt derhalve gepast voor de zaak uit te stellen teneinde nadere toelich-tingen te verschaffen. Meer in het bijzonder wordt het volgende gevraagd:</p>",
+          "<ul>\n<li>kan de verzoeker nadere uitleg verstrekken nopens het verloop van de procedure voor de arbeidsrechtbank;</li>\n<li>welk is de afhandeling door de Arbeidsongevallenverzekeraar?</li>\n</ul>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerTeaching": 2,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

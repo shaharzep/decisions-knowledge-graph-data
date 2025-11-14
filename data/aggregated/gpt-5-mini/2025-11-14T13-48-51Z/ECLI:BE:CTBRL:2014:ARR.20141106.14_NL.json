@@ -1,0 +1,695 @@
+{
+  "decision_id": "ECLI:BE:CTBRL:2014:ARR.20141106.14",
+  "language": "NL",
+  "metadata": {
+    "id": 47061,
+    "court_ecli_code": "CTBRL",
+    "court_name": "Arbeidshof te Brussel",
+    "decision_date": "2014-11-06",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 19752,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidshof te Brussel, 6 november 2014, ECLI:BE:CTBRL:2014:ARR.20141106.14"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2014:ARR.20141106.14-001",
+        "name": "RIJKSDIENST VOOR ARBEIDSVOORZIENING",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+        "name": "RJ",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "GEÏNTIMEERDE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "RJ was arbeidsongeschikt erkend van 27 april 2010 tot en met 29 februari 2012. Daarna schreef hij zich in bij de VDAB als werkzoekende. Op 26 juni 2012 werd hij uitgenodigd voor een intakegesprek; men bood hem een activeringsscreening aan en verwees hem naar de gespecialiseerde screening Leuven. Er werd een doorverwijzingskaart voorgelegd die onder meer vermeldde dat de begeleider inzagerecht zou krijgen om het VDAB-dossier aan te vullen en dat persoonsgegevens zouden worden gebruikt om tewerkstellingsmogelijkheden te bevorderen. RJ tekende het document in eerste instantie maar maakte nadien voorbehoud en vroeg nadere precisering over wie toegang tot zijn gegevens zou hebben; hij diende een klacht in bij de klachtenmanager van de VDAB en de trajectbegeleiding werd opgeschort pending de klacht. Nadat een negatief antwoord kwam, werd de doorverwijzingskaart opnieuw voorgelegd maar RJ weigerde nog te ondertekenen omdat de klachtenmanager melding had gemaakt van mogelijke aanpassingen in het jaarverslag en RJ eerst duidelijkheid wilde. De VDAB maakte het dossier over aan de Rijksdienst voor Arbeidsvoorziening, die RJ opriep en bij beslissing van 16 januari 2013 RJ voor onbepaalde duur uitsloot van het genot van uitkeringen omdat hij geweigerd zou hebben een trajectovereenkomst te ondertekenen. RJ betwistte die beslissing bij verzoekschrift van 9 april 2013 voor de arbeidsrechtbank te Leuven. Bij vonnis van 6 januari 2014 verklaarde die rechtbank de vordering ontvankelijk en gedeeltelijk gegrond en herkwalificeerde de feiten als stopzetting of mislukking van het begeleidingsplan ten gevolge van foutieve houding, met een door de rechtbank bepaalde uitsluiting van 4 weken met uitstel. De Rijksdienst stelde tegen dat vonnis hoger beroep bij dit hof op 4 februari 2014; RJ stelde een incidenteel beroep en vroeg de volledige vernietiging van de bestreden sanctie.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+          "requests": "Hij vraagt de volledige vernietiging van de bestreden sanctie."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2014:ARR.20141106.14-001",
+          "argument": "De Rijksdienst voor Arbeidsvoorziening voert aan dat de eerste rechter ten onrechte de feiten heeft geherkwalificeerd als stopzetting of mislukking van het begeleidingsplan: volgens de Rijksdienst veronderstelt een dergelijke kwalificatie dat er een trajectovereenkomst werd opgesteld, wat hier niet het geval was omdat RJ weigerde de doorverwijzingskaart te ondertekenen. In subsidiaire bewoordingen stelt de Rijksdienst dat, zelfs indien de feiten als stopzetting of mislukking moeten worden gekwalificeerd, de opgelegde sanctie onvoldoende is gezien RJ voldoende geïnformeerd zou zijn geweest over de mogelijke gevolgen en er geen aanwijzingen zouden zijn dat de VDAB wettelijke regels inzake verwerking van sociale en gezondheidsgegevens heeft geschonden.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+          "argument": "RJ betoogt dat hij terecht weigerde de doorverwijzingskaart te ondertekenen in de voorgestelde bewoording, omdat die niet aangaf welke functies of personen precies toegang tot de in het VDAB-dossier opgenomen medische gegevens zouden hebben; mondeling was hem meegedeeld dat ook het diensthoofd kon inkijken, maar dit stond niet op het formulier en er was geen afdoende antwoord gegeven via de klachtenprocedure. RJ stelt dat hij nooit geweigerd heeft aan de voorgestelde activeringsscreening mee te werken maar slechts garanties verlangde dat medische gegevens zouden worden beschermd en slechts onder de verantwoordelijkheid van een beroepsbeoefenaar in de gezondheidszorg verwerkt zouden worden. Hij verwijst tevens naar onvolledige informatie door de consulente omtrent de mogelijke gevolgen van niet-ondertekenen.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "Gelet op de Wet van 15 juni 1935 op het taalgebruik in gerechtszaken, in het bijzonder op het artikel 24,\n\nRechtsprekend op tegenspraak,\nGelet op het eensluidend schriftelijk advies van mevrouw Nathalie Van Den Brande, eerste substituut-arbeidsauditeur, afgevaardigd om haar ambt te vervullen bij het auditoraat-generaal,\n\nVerklaart het hoofdberoep en het incidenteel beroep ontvankelijk.\n\nVerklaart het hoofdberoep ongegrond.\n\nVerklaart het incidenteel beroep gegrond. Vernietigt de bestreden administratieve beslissing van 16 januari 2013 in zoverre zij RJ voor onbepaalde tijd uitsluit uit het recht op werkloosheidsuitkeringen.\n\nVeroordeelt in toepassing van artikel 1017, al. 2 van het Gerechtelijk Wetboek de Rijksdienst voor Arbeidsvoorziening tot de kosten van het hoger beroep, tot op heden begroot in hoofde van RJ op $€ 160,36$.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-001",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.14-001",
+        "provisionNumber": "artikel 580, 2°",
+        "provisionNumberKey": "580",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger. W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.14-001",
+        "provisionNumber": "art. 785",
+        "provisionNumberKey": "785",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger. W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-003",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.14-001",
+        "provisionNumber": "artikel 1017, alinea 2",
+        "provisionNumberKey": "1017",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger. W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-004",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+        "provisionNumber": "artikel 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "Wet van 15 juni 1935 op het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-005",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.14-003",
+        "provisionNumber": "artikel 51, § 1",
+        "provisionNumberKey": "51",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 25 november 1991 houdende de werkloosheidsreglementering (werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof leest artikel 51, §1 als een bepaling die categorieën van 'werkloosheid wegens omstandigheden afhankelijk van zijn wil' afbakent en verwijst naar de verdere sanctieregeling; de kwalificatie (bv. weigering tot deelname versus stopzetting/mislukking) bepaalt welk sanctieniveau uit de daarop toepasselijke artikelen volgt.",
+        "relevantFactualContext": "De RVA heeft RJ definitief uitgesloten omdat zij meende dat hij weigerde de doorverwijzingskaart te ondertekenen; RJ had echter privacyvoorbehoud gemaakt, wijzigingen voorgesteld en nadere uitleg gevraagd zonder de begeleiding onherroepelijk te weigeren."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-006",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.14-003",
+        "provisionNumber": "artikel 52",
+        "provisionNumberKey": "52",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 25 november 1991 houdende de werkloosheidsreglementering (werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-007",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.14-003",
+        "provisionNumber": "artikel 54",
+        "provisionNumberKey": "54",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 25 november 1991 houdende de werkloosheidsreglementering (werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-008",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.14-003",
+        "provisionNumber": "artikel 52bis, § 1, 4°",
+        "provisionNumberKey": "52bis",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 25 november 1991 houdende de werkloosheidsreglementering (werkloosheidsbesluit)",
+        "parentActDate": "1991-11-25",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof interpreteert artikel 52bis, §1, 4° als regelgevend voor gevallen van stopzetting of mislukking van een begeleidingsplan ten gevolge van foutief gedrag, waarbij de opgelegde uitsluiting tijdelijk is (minstens 4 weken, maximaal 52 weken). Het Hof contrasteert dit met de weigering van deelname (artikel 52bis, §2, 3°) die een uitsluiting voor onbepaalde duur kan meebrengen.",
+        "relevantFactualContext": "RVA had RJ voor onbepaalde duur uitgesloten wegens vermeende weigering de trajectovereenkomst te ondertekenen; het Hof onderzocht of diens houding viel onder stopzetting/mislukking of onder een feitelijke weigering en oordeelde dat RJ niet definitief weigerde."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-009",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.14-004",
+        "provisionNumber": "artikel 22",
+        "provisionNumberKey": "22",
+        "parentActType": "GRONDWET",
+        "parentActName": "Grondwet (Belgische Grondwet)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof beschouwt artikel 22 als grondslag voor bescherming van het privéleven die vereist dat inmenging bij verwerking van medische gegevens een wettelijke basis en voldoende waarborgen heeft; gebrekkige informatie over toegang en verwerking kan een verzoek tot aanpassing van verwerking rechtvaardigen om de grondwettelijke bescherming te waarborgen.",
+        "relevantFactualContext": "RJ vreesde dat medische gegevens uit de gespecialiseerde screening door onbepaalde VDAB-medewerkers zouden kunnen worden ingezien; hij vroeg precisering wie toegang heeft en garanties over verwerking onder bevoegdheid van een zorgbeoefenaar."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-010",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.2014-005",
+        "provisionNumber": "artikel 8",
+        "provisionNumberKey": "8",
+        "parentActType": "VERDRAG",
+        "parentActName": "Europees Verdrag voor de Rechten van de Mens (CEDH)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof gebruikt artikel 8 EVRM als toetsnorm: elke inmenging in het recht op privéleven moet bij wet voorzien zijn en noodzakelijk zijn in een democratische samenleving; dit plaatst een strikte toets op de verwerking van gezondheidsgegevens en de noodzaak van duidelijke wettelijke of wettelijke grondslagen en waarborgen.",
+        "relevantFactualContext": "De verwerking van RJ's medische gegevens door VDAB en opname in het elektronisch dossier werd beoordeeld tegenover de vereisten van artikel 8, gelet op het ontbreken van duidelijke garanties over toegang en verwerking."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-011",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.2014-006",
+        "provisionNumber": "artikel 4",
+        "provisionNumberKey": "4",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof citeert artikel 4 als norm dat persoonsgegevens slechts voor welomschreven, gerechtvaardigde en proportionele doeleinden mogen worden verkregen en verwerkt; gegevens moeten toereikend en niet overmatig zijn en mogen enkel voor de beoogde doeleinden worden gebruikt, wat vereist dat de aard van de in het dossier opgenomen 'advies' duidelijk wordt gemaakt.",
+        "relevantFactualContext": "In de doorverwijzingskaart werd niet uitgelegd wat met 'advies' bedoeld werd en welke gegevens precies in het elektronisch dossier zouden worden opgenomen, waardoor RJ onvoldoende kon beoordelen welke medische informatie voor welke doeleinden zou worden verwerkt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-012",
+        "internalParentActId": "ACT-ECLI:BE:CTBRL:2014:ARR.20141106.2014-006",
+        "provisionNumber": "artikel 7, § 1",
+        "provisionNumberKey": "7",
+        "parentActType": "WET",
+        "parentActName": "wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens",
+        "parentActDate": "1992-12-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof geeft een restrictieve lezing van artikel 7: verwerking van gezondheidsgegevens is in principe verboden en de in artikel 7, §2 genoemde uitzonderingen moeten beperkt worden geïnterpreteerd; schriftelijke toestemming en de uitzondering voor sociale zekerheid zijn tegelijk mogelijk maar toestemming kan te allen tijde worden ingetrokken en artikel 7, §4 vereist dat gezondheidsgegevens onder verantwoordelijkheid van een zorgbeoefenaar worden verwerkt tenzij een uitzondering van toepassing is.",
+        "relevantFactualContext": "Uit het dossier bleek geen bevestiging dat de medische gegevens van de gespecialiseerde screening onder de verantwoordelijkheid van een gezondheidsbeoefenaar zouden worden verwerkt; RJ kreeg geen afdoende garanties over beroepsgeheim en verwerking volgens artikel 7."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "arbeidsrechtbank te Leuven",
+        "date": "2014-01-06",
+        "caseNumber": "A.R. 13 / 601 / A",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Rijksdienst voor Arbeidsvoorziening",
+        "date": "2013-01-16",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "arbeidsrechtbank te Leuven",
+        "date": "2013-04-09",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "arbeidsrechtbank te Leuven",
+        "date": "2004-01-06",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Grondwettelijk Hof",
+        "date": "2008-02-14",
+        "caseNumber": "15/2008",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-005"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Socialezekerheidsrecht",
+      "VDAB begeleidingsplan",
+      "Activeringsscreening",
+      "Weigering ondertekenen",
+      "Opname medische gegevens",
+      "Onbepaalde uitsluiting",
+      "Herkwalificatie feiten",
+      "Privacybescherming",
+      "Verwerking gezondheidsgegevens",
+      "Inzage elektronisch dossier"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2014:ARR.20141106.14-001",
+        "text": "Bij toepassing van de werkloosheidsreglementering bepaalt de kwalificatie van 'werkloosheid wegens omstandigheden afhankelijk van zijn wil' welk sanctieniveau volgt: een stopzetting of mislukking wegens foutieve houding leidt tot een tijdelijke uitsluiting (minstens 4 weken, maximaal 52 weken), terwijl een feitelijke weigering tot deelname de sanctie van volledige uitsluiting voor onbepaalde duur kan meebrengen. De kwalificatie berust op een feitelijke beoordeling van de houding van de werkloze en vergt niet noodzakelijk de voorafgaande ondertekening van een trajectovereenkomst; een voorbehoud of verzoek tot verduidelijking is op zich geen definitieve weigering.",
+        "courtVerbatim": "Het sanctieniveau is afhankelijk van de kwalificatie. Meer bepaald stelt artikel 52bis, § 1, 4° Werkloosheidsbesluit ingeval van stopzetting of de mislukking van het begeleidingsplan voorop dat de werkloze voor een bepaalde tijd (minstens 4 weken, maximum 52 weken) kan worden uitgesloten, terwijl artikel 52bis, § 2, 3° Werkloosheidsbesluit aan de weigering van deelname de sanctie van de volledige uitsluiting voor onbepaalde duur koppelt. De bestreden administratieve beslissing gaat er dan ook ten onrechte van uit dat RJ zou geweigerd hebben mee te werken aan een begeleidingstraject of inschakelingsparcours.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer moet worden vastgesteld of gedrag van een werkloze kwalificeert als 'weigering van deelname' of als 'stopzetting/mislukking wegens foutieve houding' en welk sanctieniveau daarop volgt.",
+        "relevantFactualContext": "De Rijksdienst voor Arbeidsvoorziening sloot RJ met onmiddellijke ingang voor onbepaalde duur uit omdat hij weigerde de doorverwijzingskaart/trajectovereenkomst te ondertekenen; de arbeidsrechtbank kwalificeerde de feiten echter als stopzetting/mislukking wegens foutieve houding en legde een tijdelijke uitsluiting op.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-005",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-008",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-006",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-007"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-001",
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+        "text": "Bij verwerking van gezondheidsgegevens in het kader van activeringsscreening vereist de grondwettelijke en verdragsrechtelijke toets een wettelijke basis en voldoende waarborgen: persoonsgegevens moeten voor welomschreven, gerechtvaardigde en proportionele doeleinden worden verwerkt; gezondheidgegevens zijn in principe verboden tenzij een uitzondering geldt en mogen slechts worden verwerkt onder de verantwoordelijkheid van een beroepsbeoefenaar van de gezondheidszorg (artikel 7, §4) tenzij een wettelijke uitzondering geldt. Ontoereikende informatie over wie toegang heeft tot het elektronisch dossier en welke gegevens als 'advies' worden opgenomen rechtvaardigt dat de betrokkene om aanpassing/verduidelijking verzoekt en kan rechtvaardigen dat het uitstel van ondertekening niet als definitieve weigering wordt beschouwd.",
+        "courtVerbatim": "Overeenkomstig artikel 22 van de Grondwet heeft eenieder recht op eerbiediging van zijn privéleven ... Dit grondrecht op privacy werd in het kader van de Belgische wetgeving geconcretiseerd in de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens. Overeenkomstig artikel 4 van de wet dienen persoonsgegevens voor welbepaalde, uitdrukkelijk omschreven en gerechtvaardigde doeleinden te worden verkregen, en dienen zij toereikend, terzake dienend en niet overmatig te zijn. Overeenkomstig artikel 7, § 1 van de wet is de verwerking van persoonsgegevens die de gezondheid betreffen in principe verboden. ... Overeenkomstig artikel 7, § 4 van de wet mogen persoonsgegevens betreffende de gezondheid ... enkel worden verwerkt onder de verantwoordelijkheid van een beroepsbeoefenaar van de gezondheidszorg. Uit dit overzicht blijkt dat RJ op geen enkel ogenblik van de VDAB de bevestiging kreeg dat de medische gegevens ... gedekt zouden zijn door het beroepsgeheim ... In het licht van deze elementen is het hof van oordeel dat RJ voldoende elementen had om een aanpassing te vragen van de doorverwijzingskaart. RJ heeft nooit geweigerd mee te werken aan het voorgestelde begeleidingstraject ... Hij heeft enkel gevraagd dat hem gewaarborgd zou worden dat zijn medische gegevens niet via het elektronisch dossier aan het om het even wie bekend zouden kunnen zijn.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer arbeids- of activeringsdiensten gezondheidsgegevens van een werkloze willen opnemen in een elektronisch dossier en onduidelijkheid bestaat over doeleinden, toegang en verantwoordelijke verwerking.",
+        "relevantFactualContext": "De doorverwijzingskaart vermeldde dat een begeleider inzagerecht kreeg en dat er een 'advies' in het elektronisch VDAB-dossier zou worden opgenomen, zonder te preciseren wie exact toegang zou hebben of wat met 'advies' bedoeld was; RJ vroeg verduidelijking en garanties over beroepsgeheim en verwerking onder verantwoordelijkheid van een zorgbeoefenaar.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "DATA_PROTECTION",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-009",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-010",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-011",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-012"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-006"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 2,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser (werkzoekende) betwistte een administratieve beslissing van de Rijksdienst voor Arbeidsvoorziening die hem voor onbepaalde tijd uitsloot van werkloosheidsuitkeringen wegens vermeende weigering een trajectovereenkomst te ondertekenen. Het Arbeidshof verklaart het incidenteel beroep gegrond en vernietigt de uitsluiting, oordelend dat de eiser niet weigerde mee te werken maar begrijpelijke en onvoldoende beantwoorde vragen had over inzage en verwerking van medische gegevens in het VDAB-dossier. Het hof benadrukt dat verwerking van gezondheidsgegevens aan strikte wettelijke voorwaarden is onderworpen en dat gebrek aan duidelijke informatie over wie toegang heeft tot die gegevens een weigering om te ondertekenen kan rechtvaardigen."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">kennisgeving per gerechtsbrief (art. 580, 2°, Ger. W.)</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De heer Ivo Van Damme, raadsheer in sociale zaken, werkgever, die aan het beraad heeft deelgenomen, verkeert in de onmogelijkheid om het arrest te ondertekenen. Overeenkomstig art. 785 Ger. W. wordt het arrest ondertekend door Fernand Kenis, raadsheer en Karel Gacoms, raadsheer in sociale zaken, werknemer-arbeider.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Veroordeelt in toepassing van artikel 1017, al. 2 van het Gerechtelijk Wetboek de Rijksdienst voor Arbeidsvoorziening tot de kosten van het hoger beroep, tot op heden begroot in hoofde van RJ op € 160,36.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Gelet op de Wet van 15 juni 1935 op het taalgebruik in gerechtszaken, in het bijzonder op het artikel 24,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 51, § 1 van het Koninklijk Besluit van 25 november 1991 houdende de werkloosheidsreglementering (verder het werkloosheidsbesluit) bepaalt dat de werknemer die werkloos is of wordt wegens omstandigheden afhankelijk van zijn wil uitgesloten kan worden van het genot van werkloosheidsuitkeringen overeenkomstig de artikelen 52 tot 54 van het Werkloosheidsbesluit.</p>",
+          "<p class=\"case-section__paragraph\">Onder ‘werkloosheid wegens omstandigheden afhankelijk van zijn wil’ wordt onder meer verstaan: 5°: de weigering van de werkloze deel te nemen aan een begeleidingsplan of aan een inschakelingsparcours hem voorgesteld door de bevoegde dienst voor arbeidsbemiddeling en / of beroepsopleiding en 6°: de stopzetting of de mislukking van het in 5° bedoelde begeleidingsplan of inschakelingsparcours ten gevolge van een foutieve houding van de werkloze.</p>",
+          "<p class=\"case-section__paragraph\">Het sanctieniveau is afhankelijk van de kwalificatie. Meer bepaald stelt artikel 52bis, § 1, 4° Werkloosheidsbesluit ingeval van stopzetting of de mislukking van het begeleidingsplan voorop dat de werkloze voor een bepaalde tijd (minstens 4 weken, maximum 52 weken) kan worden uitgesloten, terwijl artikel 52bis, § 2, 3° Werkloosheidsbesluit aan de weigering van deelname de sanctie van de volledige uitsluiting voor onbepaalde duur koppelt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-005",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-006",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-007",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 51, § 1 van het Koninklijk Besluit van 25 november 1991 houdende de werkloosheidsreglementering (verder het werkloosheidsbesluit) bepaalt dat de werknemer die werkloos is of wordt wegens omstandigheden afhankelijk van zijn wil uitgesloten kan worden van het genot van werkloosheidsuitkeringen overeenkomstig de artikelen 52 tot 54 van het Werkloosheidsbesluit.</p>",
+          "<p class=\"case-section__paragraph\">Onder ‘werkloosheid wegens omstandigheden afhankelijk van zijn wil’ wordt onder meer verstaan: 5°: de weigering van de werkloze deel te nemen aan een begeleidingsplan of aan een inschakelingsparcours hem voorgesteld door de bevoegde dienst voor arbeidsbemiddeling en / of beroepsopleiding en 6°: de stopzetting of de mislukking van het in 5° bedoelde begeleidingsplan of inschakelingsparcours ten gevolge van een foutieve houding van de werkloze.</p>",
+          "<p class=\"case-section__paragraph\">Het sanctieniveau is afhankelijk van de kwalificatie. Meer bepaald stelt artikel 52bis, § 1, 4° Werkloosheidsbesluit ingeval van stopzetting of de mislukking van het begeleidingsplan voorop dat de werkloze voor een bepaalde tijd (minstens 4 weken, maximum 52 weken) kan worden uitgesloten, terwijl artikel 52bis, § 2, 3° Werkloosheidsbesluit aan de weigering van deelname de sanctie van de volledige uitsluiting voor onbepaalde duur koppelt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-006",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-005",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-007",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Artikel 51, § 1 van het Koninklijk Besluit van 25 november 1991 houdende de werkloosheidsreglementering (verder het werkloosheidsbesluit) bepaalt dat de werknemer die werkloos is of wordt wegens omstandigheden afhankelijk van zijn wil uitgesloten kan worden van het genot van werkloosheidsuitkeringen overeenkomstig de artikelen 52 tot 54 van het Werkloosheidsbesluit.</p>",
+          "<p class=\"case-section__paragraph\">Onder ‘werkloosheid wegens omstandigheden afhankelijk van zijn wil’ wordt onder meer verstaan: 5°: de weigering van de werkloze deel te nemen aan een begeleidingsplan of aan een inschakelingsparcours hem voorgesteld door de bevoegde dienst voor arbeidsbemiddeling en / of beroepsopleiding en 6°: de stopzetting of de mislukking van het in 5° bedoelde begeleidingsplan of inschakelingsparcours ten gevolge van een foutieve houding van de werkloze.</p>",
+          "<p class=\"case-section__paragraph\">Het sanctieniveau is afhankelijk van de kwalificatie. Meer bepaald stelt artikel 52bis, § 1, 4° Werkloosheidsbesluit ingeval van stopzetting of de mislukking van het begeleidingsplan voorop dat de werkloze voor een bepaalde tijd (minstens 4 weken, maximum 52 weken) kan worden uitgesloten, terwijl artikel 52bis, § 2, 3° Werkloosheidsbesluit aan de weigering van deelname de sanctie van de volledige uitsluiting voor onbepaalde duur koppelt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:20141106.14-007",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-005",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-006",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij beslissing van 16 januari 2013 werd RJ echter door de Rijksdienst voor Arbeidsvoorziening voor onbepaalde duur uitgesloten uit het genot van uitkeringen omdat hij geweigerd had een trajectovereenkomst te ondertekenen.</p>",
+          "<p class=\"case-section__paragraph\">Bij vonnis van 6 januari 2004, dat ter kennis werd gebracht van de Rijksdienst voor Arbeidsvoorziening op 13 januari 2014, heeft de arbeidsrechtbank te Leuven de vordering ontvankelijk en gedeeltelijk gegrond verklaard. De arbeidsrechtbank was van oordeel dat de feiten niet konden gekwalificeerd worden als een weigering om een trajectovereenkomst te ondertekenen, maar wel als de stopzetting of de mislukking van het begeleidingsplan ingevolge de foutieve houding van de werkloze, in welk geval enkel een sanctie van uitsluiting kan opgelegd worden voor een periode van 4 weken tot ten hoogste 52 weken. De arbeidsrechtbank bepaalde de duur van uitsluiting, rekening houdend met de persoonlijkheid van de betrokkene, zijn goede trouw en de feitelijke omstandigheden van het dossier op 4 weken met uitstel.</p>",
+          "<p class=\"case-section__paragraph\">Het sanctieniveau is afhankelijk van de kwalificatie. Meer bepaald stelt artikel 52bis, § 1, 4° Werkloosheidsbesluit ingeval van stopzetting of de mislukking van het begeleidingsplan voorop dat de werkloze voor een bepaalde tijd (minstens 4 weken, maximum 52 weken) kan worden uitgesloten, terwijl artikel 52bis, § 2, 3° Werkloosheidsbesluit aan de weigering van deelname de sanctie van de volledige uitsluiting voor onbepaalde duur koppelt.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-008",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-005",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-006",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-007"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig artikel 22 van de Grondwet heeft eenieder recht op eerbiediging van zijn privéleven en zijn gezinsleven, behoudens in de gevallen en onder de voorwaarden door de wet bepaalt.</p>",
+          "<p class=\"case-section__paragraph\">Dit grondrecht op privacy werd in het kader van de Belgische wetgeving (onder meer) geconcretiseerd in de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens. Overeenkomstig artikel 4 van de wet dienen persoonsgegevens voor welbepaalde, uitdrukkelijk omschreven en gerechtvaardigde doeleinden te worden verkregen, en dienen zij toereikend, terzake dienend en niet overmatig te zijn. Ze moeten uitgaan van de doeleinden waarvoor ze worden verkregen of waarvoor zij verder worden verwerkt. Overeenkomstig artikel 7, § 1 van de wet is de verwerking van persoonsgegevens die de gezondheid betreffen in principe verboden. Artikel 7, § 2 formuleert daarop een aantal uitzonderingen. Deze uitzonderingen dienen beperkt geïnterpreteerd te worden (Grondwettelijk Hof, 15/2008 van 14/02/2008, B 27). Een eerst uitzondering (a) is deze waarbij de betrokkene schriftelijk heeft toegestemd in een dergelijke verwerking. In dat geval kan die toestemming echter ten allen tijde door de betrokkene worden ingetrokken. Een andere uitzondering is (c) wanneer de verwerking noodzakelijk is voor de verwezenlijking van een doelstelling vastgesteld door of krachtens de wet met het oog op de toepassing van de sociale zekerheid. Overeenkomstig artikel 7, § 4 van de wet mogen persoonsgegevens betreffende de gezondheid (behoudens schriftelijke toestemming van de betrokkene of wanneer de verwerking noodzakelijk is voor het voorkomen van een dringend gevaar of voor de beteugeling van een bepaalde strafrechtelijke inbreuk), enkel worden verwerkt onder de verantwoordelijkheid van een beroepsbeoefenaar van de gezondheidszorg.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-009",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-010",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-011",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-012"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig artikel 8 van het Europees Verdrag voor de Rechten van de Mens heeft eenieder recht op eerbiediging van zijn privéleven, zijn gezinsleven, zijn huis en zijn briefwisseling. Geen inmenging van enig openbaar gezag is toegestaan met betrekking tot de uitoefening van dit recht dan voor zover dit bij de wet is voorzien en in een democratische samenleving nodig is voor de veiligheid van het land, de openbare veiligheid of het</p>",
+          "<p class=\"case-section__paragraph\">economisch welzijn van het land, de bescherming van de openbare orde en het voorkomen van strafbare feiten, de bescherming van de gezondheid of de goede zeden of voor de bescherming van de rechten en vrijheden van anderen.</p>",
+          "<p class=\"case-section__paragraph\">Dit grondrecht op privacy werd in het kader van de Belgische wetgeving (onder meer) geconcretiseerd in de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens. Overeenkomstig artikel 4 van de wet dienen persoonsgegevens voor welbepaalde, uitdrukkelijk omschreven en gerechtvaardigde doeleinden te worden verkregen, en dienen zij toereikend, terzake dienend en niet overmatig te zijn. Ze moeten uitgaan van de doeleinden waarvoor ze worden verkregen of waarvoor zij verder worden verwerkt. Overeenkomstig artikel 7, § 1 van de wet is de verwerking van persoonsgegevens die de gezondheid betreffen in principe verboden. Artikel 7, § 2 formuleert daarop een aantal uitzonderingen. Deze uitzonderingen dienen beperkt geïnterpreteerd te worden (Grondwettelijk Hof, 15/2008 van 14/02/2008, B 27). Een eerst uitzondering (a) is deze waarbij de betrokkene schriftelijk heeft toegestemd in een dergelijke verwerking. In dat geval kan die toestemming echter ten allen tijde door de betrokkene worden ingetrokken. Een andere uitzondering is (c) wanneer de verwerking noodzakelijk is voor de verwezenlijking van een doelstelling vastgesteld door of krachtens de wet met het oog op de toepassing van de sociale zekerheid. Overeenkomstig artikel 7, § 4 van de wet mogen persoonsgegevens betreffende de gezondheid (behoudens schriftelijke toestemming van de betrokkene of wanneer de verwerking noodzakelijk is voor het voorkomen van een dringend gevaar of voor de beteugeling van een bepaalde strafrechtelijke inbreuk), enkel worden verwerkt onder de verantwoordelijkheid van een beroepsbeoefenaar van de gezondheidszorg.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-010",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-009",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-011",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-012"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dit grondrecht op privacy werd in het kader van de Belgische wetgeving (onder meer) geconcretiseerd in de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens. Overeenkomstig artikel 4 van de wet dienen persoonsgegevens voor welbepaalde, uitdrukkelijk omschreven en gerechtvaardigde doeleinden te worden verkregen, en dienen zij toereikend, terzake dienend en niet overmatig te zijn. Ze moeten uitgaan van de doeleinden waarvoor ze worden verkregen of waarvoor zij verder worden verwerkt. Overeenkomstig artikel 7, § 1 van de wet is de verwerking van persoonsgegevens die de gezondheid betreffen in principe verboden. Artikel 7, § 2 formuleert daarop een aantal uitzonderingen. Deze uitzonderingen dienen beperkt geïnterpreteerd te worden (Grondwettelijk Hof, 15/2008 van 14/02/2008, B 27). Een eerst uitzondering (a) is deze waarbij de betrokkene schriftelijk heeft toegestemd in een dergelijke verwerking. In dat geval kan die toestemming echter ten allen tijde door de betrokkene worden ingetrokken. Een andere uitzondering is (c) wanneer de verwerking noodzakelijk is voor de verwezenlijking van een doelstelling vastgesteld door of krachtens de wet met het oog op de toepassing van de sociale zekerheid. Overeenkomstig artikel 7, § 4 van de wet mogen persoonsgegevens betreffende de gezondheid (behoudens schriftelijke toestemming van de betrokkene of wanneer de verwerking noodzakelijk is voor het voorkomen van een dringend gevaar of voor de beteugeling van een bepaalde strafrechtelijke inbreuk), enkel worden verwerkt onder de verantwoordelijkheid van een beroepsbeoefenaar van de gezondheidszorg.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-011",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-012",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-009",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-005"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Dit grondrecht op privacy werd in het kader van de Belgische wetgeving (onder meer) geconcretiseerd in de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens. Overeenkomstig artikel 4 van de wet dienen persoonsgegevens voor welbepaalde, uitdrukkelijk omschreven en gerechtvaardigde doeleinden te worden verkregen, en dienen zij toereikend, terzake dienend en niet overmatig te zijn. Ze moeten uitgaan van de doeleinden waarvoor ze worden verkregen of waarvoor zij verder worden verwerkt. Overeenkomstig artikel 7, § 1 van de wet is de verwerking van persoonsgegevens die de gezondheid betreffen in principe verboden. Artikel 7, § 2 formuleert daarop een aantal uitzonderingen. Deze uitzonderingen dienen beperkt geïnterpreteerd te worden (Grondwettelijk Hof, 15/2008 van 14/02/2008, B 27). Een eerst uitzondering (a) is deze waarbij de betrokkene schriftelijk heeft toegestemd in een dergelijke verwerking. In dat geval kan die toestemming echter ten allen tijde door de betrokkene worden ingetrokken. Een andere uitzondering is (c) wanneer de verwerking noodzakelijk is voor de verwezenlijking van een doelstelling vastgesteld door of krachtens de wet met het oog op de toepassing van de sociale zekerheid. Overeenkomstig artikel 7, § 4 van de wet mogen persoonsgegevens betreffende de gezondheid (behoudens schriftelijke toestemming van de betrokkene of wanneer de verwerking noodzakelijk is voor het voorkomen van een dringend gevaar of voor de beteugeling van een bepaalde strafrechtelijke inbreuk), enkel worden verwerkt onder de verantwoordelijkheid van een beroepsbeoefenaar van de gezondheidszorg.</p>",
+          "<p class=\"case-section__paragraph\">Uit dit overzicht blijkt dat RJ op geen enkel ogenblik van de VDAB de bevestiging kreeg dat de medische gegevens, die verzameld werden in het kader van de specifieke activeringsscreening, gedekt zouden zijn door het beroepsgeheim van de persoon belast met de specifieke screening, en dat de verzamelde medische gegevens enkel verwerkt zouden worden onder de verantwoordelijkheid van een beroepsbeoefenaar in de gezondheidszorg, zoals vereist door artikel 7, § 4 van de wet van 8 december 1992.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-012",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-011",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-009",
+          "ART-ECLI:BE:CTBRL:2014:ARR.20141106.14-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-005"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 12,
+      "citationStatistics": {
+        "totalCitations": 23,
+        "avgCitationsPerProvision": 1.9166666666666667,
+        "provisionsWithMinimalCitations": 7,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3,
+        "avgDecisionsPerProvision": 1,
+        "provisionsWithNoRelationships": 4
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2014:ARR.20141106.14-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Bij beslissing van 16 januari 2013 werd RJ echter door de Rijksdienst voor Arbeidsvoorziening voor onbepaalde duur uitgesloten uit het genot van uitkeringen omdat hij geweigerd had een trajectovereenkomst te ondertekenen.</p>",
+          "<p class=\"case-section__paragraph\">Bij vonnis van 6 januari 2004, dat ter kennis werd gebracht van de Rijksdienst voor Arbeidsvoorziening op 13 januari 2014, heeft de arbeidsrechtbank te Leuven de vordering ontvankelijk en gedeeltelijk gegrond verklaard. De arbeidsrechtbank was van oordeel dat de feiten niet konden gekwalificeerd worden als een weigering om een trajectovereenkomst te ondertekenen, maar wel als de stopzetting of de mislukking van het begeleidingsplan ingevolge de foutieve houding van de werkloze, in welk geval enkel een sanctie van uitsluiting kan opgelegd worden voor een periode van 4 weken tot ten hoogste 52 weken. De arbeidsrechtbank bepaalde de duur van uitsluiting, rekening houdend met de persoonlijkheid van de betrokkene, zijn goede trouw en de feitelijke omstandigheden van het dossier op 4 weken met uitstel.</p>",
+          "<p class=\"case-section__paragraph\">Artikel 51, § 1 van het Koninklijk Besluit van 25 november 1991 houdende de werkloosheidsreglementering (verder het werkloosheidsbesluit) bepaalt dat de werknemer die werkloos is of wordt wegens omstandigheden afhankelijk van zijn wil uitgesloten kan worden van het genot van werkloosheidsuitkeringen overeenkomstig de artikelen 52 tot 54 van het Werkloosheidsbesluit.</p>",
+          "<p class=\"case-section__paragraph\">Onder ‘werkloosheid wegens omstandigheden afhankelijk van zijn wil’ wordt onder meer verstaan: 5°: de weigering van de werkloze deel te nemen aan een begeleidingsplan of aan een inschakelingsparcours hem voorgesteld door de bevoegde dienst voor arbeidsbemiddeling en / of beroepsopleiding en 6°: de stopzetting of de mislukking van het in 5° bedoelde begeleidingsplan of inschakelingsparcours ten gevolge van een foutieve houding van de werkloze.</p>",
+          "<p class=\"case-section__paragraph\">Het sanctieniveau is afhankelijk van de kwalificatie. Meer bepaald stelt artikel 52bis, § 1, 4° Werkloosheidsbesluit ingeval van stopzetting of de mislukking van het begeleidingsplan voorop dat de werkloze voor een bepaalde tijd (minstens 4 weken, maximum 52 weken) kan worden uitgesloten, terwijl artikel 52bis, § 2, 3° Werkloosheidsbesluit aan de weigering van deelname de sanctie van de volledige uitsluiting voor onbepaalde duur koppelt.</p>",
+          "<p class=\"case-section__paragraph\">De bestreden administratieve beslissing gaat er dan ook ten onrechte van uit dat RJ zou geweigerd hebben mee te werken aan een begeleidingstraject of inschakelingsparcours. De administratieve beslissing dient dan ook vernietigd te worden.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 2,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTBRL:2014:ARR.20141106.14-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig artikel 22 van de Grondwet heeft eenieder recht op eerbiediging van zijn privéleven en zijn gezinsleven, behoudens in de gevallen en onder de voorwaarden door de wet bepaalt.</p>",
+          "<p class=\"case-section__paragraph\">Overeenkomstig artikel 8 van het Europees Verdrag voor de Rechten van de Mens heeft eenieder recht op eerbiediging van zijn privéleven, zijn gezinsleven, zijn huis en zijn briefwisseling. Geen inmenging van enig openbaar gezag is toegestaan met betrekking tot de uitoefening van dit recht dan voor zover dit bij de wet is voorzien en in een democratische samenleving nodig is voor de veiligheid van het land, de openbare veiligheid of het</p>",
+          "<p class=\"case-section__paragraph\">economisch welzijn van het land, de bescherming van de openbare orde en het voorkomen van strafbare feiten, de bescherming van de gezondheid of de goede zeden of voor de bescherming van de rechten en vrijheden van anderen.</p>",
+          "<p class=\"case-section__paragraph\">Dit grondrecht op privacy werd in het kader van de Belgische wetgeving (onder meer) geconcretiseerd in de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens. Overeenkomstig artikel 4 van de wet dienen persoonsgegevens voor welbepaalde, uitdrukkelijk omschreven en gerechtvaardigde doeleinden te worden verkregen, en dienen zij toereikend, terzake dienend en niet overmatig te zijn. Ze moeten uitgaan van de doeleinden waarvoor ze worden verkregen of waarvoor zij verder worden verwerkt. Overeenkomstig artikel 7, § 1 van de wet is de verwerking van persoonsgegevens die de gezondheid betreffen in principe verboden. Artikel 7, § 2 formuleert daarop een aantal uitzonderingen. Deze uitzonderingen dienen beperkt geïnterpreteerd te worden (Grondwettelijk Hof, 15/2008 van 14/02/2008, B 27). Een eerst uitzondering (a) is deze waarbij de betrokkene schriftelijk heeft toegestemd in een dergelijke verwerking. In dat geval kan die toestemming echter ten allen tijde door de betrokkene worden ingetrokken. Een andere uitzondering is (c) wanneer de verwerking noodzakelijk is voor de verwezenlijking van een doelstelling vastgesteld door of krachtens de wet met het oog op de toepassing van de sociale zekerheid. Overeenkomstig artikel 7, § 4 van de wet mogen persoonsgegevens betreffende de gezondheid (behoudens schriftelijke toestemming van de betrokkene of wanneer de verwerking noodzakelijk is voor het voorkomen van een dringend gevaar of voor de beteugeling van een bepaalde strafrechtelijke inbreuk), enkel worden verwerkt onder de verantwoordelijkheid van een beroepsbeoefenaar van de gezondheidszorg.</p>",
+          "<p class=\"case-section__paragraph\">Uit het verslag van de VDAB, zoals dit voorkomt in het administratief dossier neergelegd door de Rijksdienst voor Arbeidsvoorziening, blijkt dat aan RJ een aanbod werd geformuleerd over een tender zorg ten einde een zicht te krijgen op welke “medische, mentale psychische en psychiatrische problematiek” hem belemmerden in zijn zoektocht naar werk. Daarbij werd hij doorverwezen naar een “gespecialiseerde screening”. Volgens artikel 4 van de doorverwijzingskaart die moest ondertekend worden, diende RJ inzagerecht te geven aan de begeleider van de gespecialiseerde screening “zodat deze in functie van het project het VDAB dossier kon aanvullen via het cliëntvolgsysteem”.</p>",
+          "<p class=\"case-section__paragraph\">Zoals blijkt uit het administratief dossier en uit het email-verkeer dat plaatsvond tussen RJ en de klachtenmanager van de VDAB, en zoals uitvoerig wordt toegelicht in de besluiten, was RJ erover bezorgd dat, door de opname van de gegevens van de gespecialiseerde screening in het VDAB dossier, een aantal personen kennis zouden kunnen nemen van zijn medische gegevens, zonder dat precies aangeduid werd wie deze personen waren. Hij wenste dat gepreciseerd werd wie allemaal kennis kon nemen van deze gegevens.</p>",
+          "<p class=\"case-section__paragraph\">Uit de briefwisseling met de klachtenmanager (cfr. brief klachtenmanager van de 13 augustus 2012) blijkt dat aan RJ wel een aantal geruststellingen werden gegeven over de discretie waarmee zijn dossier zou behandeld worden, over de deontologische verplichtingen van de medewerkers en het feit dat deze gehouden waren aan het beroepsgeheim en de privacywetgeving. Er werd hem echter geen afdoend antwoord gegeven op de vraag wie allemaal inzake kon krijgen van zijn dossier. Er werd gesteld dat de gegevens enkel konden worden ingezien door de medewerkers die betrokken waren bij de begeleiding naar werk, maar dat het niet mogelijk was om te bepalen wie dit zou zijn. In de loop van de begeleiding konden immers andere begeleiders betrokken worden bij de zoektocht naar werk.</p>",
+          "<p class=\"case-section__paragraph\">RJ reageerde daarop in zijn schrijven van 14 augustus 2012 en wees erop dat met de bestaande formulering potentieel iedereen die bij de VDAB werkte zijn gegevens kon inzien. Hij vroeg ook nadere toelichting over de wijze waarop het advies van de screeningdienst in het dossier werd opgenomen. Op dit laatste schrijven kreeg RJ enkel als antwoord dat de VDAB hem bedankte voor de suggestie om de doorverwijzing aan te passen en dat de VDAB voorstellen zou formuleren aan de bevoegde dienst om te kijken in hoeverre het mogelijk was om die voorstellen in praktijk te brengen.</p>",
+          "<p class=\"case-section__paragraph\">Uit dit overzicht blijkt dat RJ op geen enkel ogenblik van de VDAB de bevestiging kreeg dat de medische gegevens, die verzameld werden in het kader van de specifieke activeringsscreening, gedekt zouden zijn door het beroepsgeheim van de persoon belast met de specifieke screening, en dat de verzamelde medische gegevens enkel verwerkt zouden worden onder de verantwoordelijkheid van een beroepsbeoefenaar in de gezondheidszorg, zoals vereist door artikel 7, § 4 van de wet van 8 december 1992.</p>",
+          "<p class=\"case-section__paragraph\">Het is uiteraard niet uitgesloten dat de VDAB wel de nodige voorzorgen neemt om te zorgen dat medische gegevens niet via het elektronisch dossier verspreid worden, maar het is zeker dat RJ daarover onvoldoende geïnformeerd werd. Indien in het schrijven van de klachtenmanager van 13 augustus 2012 wel vermeld wordt dat enkel het advies wordt weggeschreven in het elektronisch dossier, wordt nergens gepreciseerd wat onder de term “advies” precies bedoeld wordt, en werd aan RJ ook niet geantwoord op zijn bijkomende vraag dienaangaande.</p>",
+          "<p class=\"case-section__paragraph\">In het licht van deze elementen is het hof van oordeel dat RJ voldoende elementen had om een aanpassing te vragen van de doorverwijzingskaart, teneinde zijn grondwettelijk gewaarborgd recht op privacy gerespecteerd te zien. RJ heeft nooit geweigerd mee te werken aan het voorgestelde begeleidingstraject en in het bijzonder de voorgestelde activeringsscreening. Hij heeft enkel gevraagd dat hem gewaarborgd zou worden dat zijn medische gegevens niet via het elektronisch dossier aan het om het even wie bekend zouden kunnen zijn.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": [
+            "DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-006"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 17,
+        "avgCitationsPerTeaching": 8.5,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 8,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 2,
+        "totalDecisionsNotFound": 1
+      },
+      "extractionNotes": [
+        "Related decision ID DEC-ECLI:BE:CTBRL:2014:ARR.20141106.14-006 claimed for TEACH-...-002 not present in provided citedDecisions list; text references Grondwettelijk Hof 15/2008 but claimed ID does not match."
+      ]
+    }
+  }
+}

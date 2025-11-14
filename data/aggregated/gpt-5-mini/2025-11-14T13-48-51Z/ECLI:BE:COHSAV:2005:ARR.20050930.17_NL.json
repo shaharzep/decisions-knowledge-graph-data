@@ -1,0 +1,645 @@
+{
+  "decision_id": "ECLI:BE:COHSAV:2005:ARR.20050930.17",
+  "language": "NL",
+  "metadata": {
+    "id": 145818,
+    "court_ecli_code": "COHSAV",
+    "decision_date": "2005-09-30",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 4751,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Commissie voor financiële hulp aan slachtoffers van opzettelijke gewelddaden en aan de occasionele redders, 30 september 2005, A.R. M41295, B.R. 3937, ECLI:BE:COHSAV:2005:ARR.20050930.17"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050930.17-001",
+        "name": "de heer Daniël X.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050930.17-002",
+        "name": "Eddy Z.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "BEKLAAGDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+        "name": "afgevaardigde van de Minister van Justitie",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Op 25 december 2001 kreeg verzoeker tijdens een vechtpartij in een café te ... een slag tegen het linkeroor, gepleegd door Eddy Z. Verzoeker was onmiddellijk doof links en duizelig; er was bloed in de gehoorgang en er werd een traumatische perforatie van het trommelvlies van het linkeroor vastgesteld. Dr. Aelvoet stelde een arbeidsongeschiktheid vast van 100% van 26/12/2001 tot en met 28/02/2002 en van 50% van 01/03/2002 tot en met 15/03/2002. Consolidatiedatum: 16/03/2002 met een blijvende invaliditeit van 2%. Bij vonnis van de Rechtbank van Eerste Aanleg d.d. 16/10/2003 werd Eddy Z. bij verstek veroordeeld tot betaling van € 6.144,37. De dader is ambtshalve afgeschreven sedert 22/12/2003. Verzoeker overlegde polisvoorwaarden (KBC) die bij insolventie voorzien; de waarborg voorziet slechts tussenkomst in geval van vastgestelde insolvabiliteit van tegenpartij. Het verzoekschrift van verzoeker dateert van 27/12/2004 en werd neergelegd op 29/12/2004; hij verzocht om een hulp van € 6.475,08. De Commissie nam kennis van onderzoeksverrichtingen, het verslag van 3/5/2005 en het advies van de afgevaardigde van de Minister van Justitie van 13/6/2005. Verzoeker verscheen niet op de openbare zitting van 6/9/2005.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:COHSAV:2005:ARR.20050930.17-001",
+          "requests": "Verzoeker verzoekt om toekenning van een hulp van € 6.475,08."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "OP DIE GRONDEN,\n\nDe Commissie,\nGelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986.\n\nVerklaart het verzoek onontvankelijk.",
+      "outcome": "NIET_ONTVANKELIJKHEID"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-001",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-001",
+        "provisionNumber": "artikel 11",
+        "provisionNumberKey": "11",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 18 december 1986 (K.B. van 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-002",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-001",
+        "provisionNumber": "artikel 12",
+        "provisionNumberKey": "12",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 18 december 1986 (K.B. van 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-002",
+        "provisionNumber": "artikel 31",
+        "provisionNumberKey": "31",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden (wet van 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-002",
+        "provisionNumber": "artikel 31bis",
+        "provisionNumberKey": "31bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden (wet van 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": "De Commissie leest artikel 31bis (3de) van de wet van 1 augustus 1985 als een drempelvoorwaarde: er moet een definitieve rechterlijke beslissing over de strafvordering bestaan en de verzoeker moet schadevergoeding hebben nagestreefd. Ontbreekt een dergelijke definitieve beslissing, dan leidt dit tot onontvankelijkheid van het verzoek; de beslissing tot seponering door de Procureur des Konings geldt volgens de Commissie niet als een definitieve gerechtelijke beslissing over de strafvordering.",
+        "relevantFactualContext": "De Commissie stelt dat in deze zaak geen definitieve rechterlijke beslissing over de strafvordering is genomen: de Procureur des Konings nam een beslissing tot seponering, welke door de Commissie niet als een definitieve gerechtelijke beslissing wordt beschouwd, en daarom is het verzoek onontvankelijk."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:20050930.17-005",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-002",
+        "provisionNumber": "artikel 32",
+        "provisionNumberKey": "32",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden (wet van 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-002",
+        "provisionNumber": "artikel 33",
+        "provisionNumberKey": "33",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden (wet van 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-002",
+        "provisionNumber": "artikel 33bis",
+        "provisionNumberKey": "33bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden (wet van 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+        "provisionNumber": "artikel 17, §1",
+        "provisionNumberKey": "17",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken (gecoörd. wetten van 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+        "provisionNumber": "artikel 39",
+        "provisionNumberKey": "39",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken (gecoörd. wetten van 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+        "provisionNumber": "artikel 42",
+        "provisionNumberKey": "42",
+        "parentActType": "WET",
+        "parentActName": "gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken (gecoörd. wetten van 18/07/1966)",
+        "parentActDate": "1966-07-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-002",
+        "provisionNumber": "artikel 37bis",
+        "provisionNumberKey": "37bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 1 augustus 1985 betreffende de hulp aan slachtoffers van opzettelijke gewelddaden (wet van 01/08/1985)",
+        "parentActDate": "1985-08-01",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-001",
+        "provisionNumber": "artikel 28",
+        "provisionNumberKey": "28",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 18 december 1986 (K.B. van 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013",
+        "internalParentActId": "ACT-ECLI:BE:COHSAV:2005:ARR.20050930.17-001",
+        "provisionNumber": "artikel 34",
+        "provisionNumberKey": "34",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 18 december 1986 (K.B. van 18/12/1986)",
+        "parentActDate": "1986-12-18",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Rechtbank van Eerste Aanleg",
+        "date": "2003-10-16",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2005:ARR.20050930.17-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Rechtbank van Eerste Aanleg",
+        "date": "2003-12-22",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:COHSAV:2005:ARR.20050930.17-002"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Slachtofferhulp",
+      "Cafévechtpartij",
+      "Oorletsel",
+      "Tijdelijke arbeidsongeschiktheid",
+      "Insolvabiliteit dader",
+      "Ontvankelijkheid verzoek",
+      "Vereiste definitieve strafvordering",
+      "Vergoeding via polis",
+      "Geen subjectief recht",
+      "Seponering geen definitieve beslissing"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2005:ARR.20050930.17-001",
+        "text": "Artikel 31bis, derde lid, van de wet van 1 augustus 1985 vormt een drempelvoorwaarde voor de ontvankelijkheid van een verzoek tot financiële hulp: er moet een definitieve rechterlijke beslissing over de strafvordering bestaan en de verzoeker moet schadevergoeding hebben nagestreefd. Ontbreekt een dergelijke definitieve beslissing, dan is het verzoek onontvankelijk; een beslissing tot seponering door de Procureur des Konings geldt niet als een definitieve gerechtelijke beslissing over de strafvordering.",
+        "courtVerbatim": "Artikel 31 bis, 3de van de wet van 1 augustus 1985 stelt immers: \"Er is een definitieve rechterlijke beslissing over de strafvordering genomen en de verzoeker heeft schadevergoeding nagestreefd ...\".\n\nIn casu is hier geen definitieve rechterlijke beslissing over de strafvordering genomen. De beslissing tot seponering door de Procureur des Konings te ... geldt niet als definitieve gerechtelijke beslissing over de strafvordering.\n\nDerhalve is het verzoek onontvankelijk.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een verzoek tot financiële hulp onder artikel 31bis(3) wordt beoordeeld en er geen definitieve rechterlijke beslissing over de strafvordering bestaat of de verzoeker geen schadevergoeding heeft nagestreefd.",
+        "relevantFactualContext": "In deze zaak werd geen definitieve rechterlijke beslissing over de strafvordering genomen: de Procureur des Konings nam een beslissing tot seponering, welke de Commissie niet als een definitieve gerechtelijke beslissing beschouwt; om die reden verklaarde de Commissie het verzoek onontvankelijk.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:COHSAV:20050930.17-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 1
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser verzoekt om een financiële hulp wegens opzettelijke geweldpleging waarbij hij onmiddellijk en blijvend gehoorbeschadiging leed. De Commissie verklaart het verzoek onontvankelijk omdat, op grond van artikel 31bis §3 van de wet van 1 augustus 1985, er geen definitieve rechterlijke beslissing over de strafvordering is genomen (de beslissing tot seponering door de Procureur des Konings geldt niet als zodanig), zodat de ontvankelijkheidsvoorwaarde niet is vervuld. De Commissie merkt voorts op dat de verhaalsmogelijkheden tegen de dader quasi onbestaande zijn."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De kansen op verhaal tegenover de daders zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Artikel 31 bis, 3de van de wet van 1 augustus 1985 stelt immers: ¿ Er is een definitieve rechterlijke beslissing over de strafvordering genomen en de verzoeker heeft schadevergoeding nagestreefd ¿¿. In casu is hier geen definitieve rechterlijke beslissing over de strafvordering genomen. De beslissing tot seponering door de Procureur des Konings te ¿ geldt niet als definitieve gerechtelijke beslissing over de strafvordering. Derhalve is het verzoek onontvankelijk.</p>",
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+          "ART-ECLI:BE:COHSAV:20050930.17-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:20050930.17-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De kansen op verhaal tegenover de daders zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Artikel 31 bis, 3de van de wet van 1 augustus 1985 stelt immers: ¿ Er is een definitieve rechterlijke beslissing over de strafvordering genomen en de verzoeker heeft schadevergoeding nagestreefd ¿¿. In casu is hier geen definitieve rechterlijke beslissing over de strafvordering genomen. De beslissing tot seponering door de Procureur des Konings te ¿ geldt niet als definitieve gerechtelijke beslissing over de strafvordering. Derhalve is het verzoek onontvankelijk.</p>",
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:20050930.17-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De kansen op verhaal tegenover de daders zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Artikel 31 bis, 3de van de wet van 1 augustus 1985 stelt immers: ¿ Er is een definitieve rechterlijke beslissing over de strafvordering genomen en de verzoeker heeft schadevergoeding nagestreefd ¿¿. In casu is hier geen definitieve rechterlijke beslissing over de strafvordering genomen. De beslissing tot seponering door de Procureur des Konings te ¿ geldt niet als definitieve gerechtelijke beslissing over de strafvordering. Derhalve is het verzoek onontvankelijk.</p>",
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+          "ART-ECLI:BE:COHSAV:20050930.17-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De kansen op verhaal tegenover de daders zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Artikel 31 bis, 3de van de wet van 1 augustus 1985 stelt immers: ¿ Er is een definitieve rechterlijke beslissing over de strafvordering genomen en de verzoeker heeft schadevergoeding nagestreefd ¿¿. In casu is hier geen definitieve rechterlijke beslissing over de strafvordering genomen. De beslissing tot seponering door de Procureur des Konings te ¿ geldt niet als definitieve gerechtelijke beslissing over de strafvordering. Derhalve is het verzoek onontvankelijk.</p>",
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+          "ART-ECLI:BE:COHSAV:20050930.17-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+          "ART-ECLI:BE:COHSAV:20050930.17-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+          "ART-ECLI:BE:COHSAV:20050930.17-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+          "ART-ECLI:BE:COHSAV:20050930.17-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+          "ART-ECLI:BE:COHSAV:20050930.17-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+          "ART-ECLI:BE:COHSAV:20050930.17-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-013",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-008",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-009",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-010",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-003",
+          "ART-ECLI:BE:COHSAV:20050930.17-005",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-006",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-007",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-004",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-011",
+          "ART-ECLI:BE:COHSAV:2005:ARR.20050930.17-012"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 13,
+      "citationStatistics": {
+        "totalCitations": 16,
+        "avgCitationsPerProvision": 1.2307692307692308,
+        "provisionsWithMinimalCitations": 11,
+        "provisionsWithNoCitations": 2
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 9.461538461538462,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:COHSAV:2005:ARR.20050930.17-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het verzoekschrift aan de Commissie is regelmatig naar de vorm en het werd tijdig neergelegd. De kansen op verhaal tegenover de daders zijn quasi onbestaande. De wetgeving betreffende de hulp aan slachtoffers van opzettelijke gewelddaden verleent aan de slachtoffers geen subjectief recht op \"schadeloosstelling\", maar wel op het eventueel bekomen van een \"hulp\", gesteund op het principe van de collectieve solidariteit. Uit de aard zelf van de hulp volgt dat de \"volledige vergoeding\" van het door de slachtoffers geleden nadeel niet wordt gewaarborgd. Bij het beoordelen van een hulp dienen de voorschriften van de artikelen 31, 31bis, 32, 33 en 33bis van de wet van 1 augustus 1985 nageleefd te worden. Artikel 31 bis, 3de van de wet van 1 augustus 1985 stelt immers: ¿ Er is een definitieve rechterlijke beslissing over de strafvordering genomen en de verzoeker heeft schadevergoeding nagestreefd ¿¿. In casu is hier geen definitieve rechterlijke beslissing over de strafvordering genomen. De beslissing tot seponering door de Procureur des Konings te ¿ geldt niet als definitieve gerechtelijke beslissing over de strafvordering. Derhalve is het verzoek onontvankelijk.</p>",
+          "<p class=\"case-footer__paragraph\">De Commissie, Gelet op de artikelen 17 § 1, 39 tot 42 van de gecoördineerde wetten van 18 juli 1966 tot regeling van het taalgebruik in bestuurszaken, de artikelen 31 tot 37bis van de wet van 1 augustus 1985, zoals gewijzigd door de wetten van 26 maart 2003 en 22 april 2003, de programmawet van 27 december 2004 en de artikelen 28 tot 34 van het K.B. van 18 december 1986. Verklaart het verzoek onontvankelijk. Aldus uitgesproken te Brussel, in openbare zitting en in de Nederlandse taal op 30 september 2005. De secretaris a.i., De voorzitter, M. STEYAERT P. DRAULANS</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerTeaching": 2,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": [
+        "Included the primary reasoning paragraph (VI. Beoordeling) where artikel 31bis(3) is articulated and applied; also included the footer declaration referencing artikelen 31-37bis and the final onontvankelijkverklaring since the teaching is procedural in nature."
+      ]
+    }
+  }
+}

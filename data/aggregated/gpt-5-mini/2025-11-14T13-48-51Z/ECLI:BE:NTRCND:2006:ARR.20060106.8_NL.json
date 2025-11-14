@@ -1,0 +1,475 @@
+{
+  "decision_id": "ECLI:BE:NTRCND:2006:ARR.20060106.8",
+  "language": "NL",
+  "metadata": {
+    "id": 128968,
+    "court_ecli_code": "NTRCND",
+    "decision_date": "2006-01-06",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 3169,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Nationale Tuchtraad, 06 januari 2006, Arrest nr. 05.0004.n, ECLI:BE:NTRCND:2006:ARR.20060106.8"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+        "name": "de betrokken magistraat",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "BEKLAAGDE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+        "name": "Nationale Tuchtraad",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "ANDERE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "In de nieuwe dienstregeling krijgt een parketmagistraat een andere affectatie. Hij kan niet instemmen met die nieuwe affectatie en met het feit dat zijn vroegere opdrachten, waarop hij een aanzienlijke achterstand had opgelopen, hem worden ontnomen. Als protest schrijft hij een brief aan zijn collega's en een andere brief naar de procureur-generaal waarin hij niet alleen hevige kritiek heft op de nieuwe dienstregeling en zijn nieuwe affectatie, maar ook fel uithaalt naar zijn korpsoverste en bepaalde collega's met persoonlijke aanvallen en onterechte beschuldigingen die hun gezag en reputatie aantasten. Voor de Nationale Tuchtraad laat hij gelden dat zijn recht op vrije meningsuiting hem toelaat dergelijke brieven te schrijven. De Nationale Tuchtraad onderzocht de grens tussen vrije meningsuiting en ambtsplichten, wees op toepasselijke verdragsbepalingen en rechtspraak en oordeelde dat de uitoefening van de vrije meningsuiting binnen de perken van ambtsplichten, waardigheid van het ambt en de goede werking van justitie moet gebeuren; overtreding van die beroepsplichten is krachtens de artikelen 404 en 405 Gerechtelijk Wetboek tuchtrechtelijk strafbaar.",
+      "requests": [],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "argument": "De betrokken magistraat voert aan dat zijn recht op vrije meningsuiting hem toelaat dergelijke protestbrieven te schrijven, zowel aan zijn collega\u0002s als aan de procureur-generaal, als uiting van verzet tegen zijn nieuwe affectatie en tegen het ontnemen van zijn eerdere opdrachten; hij betoogt dat die uitingen binnen zijn vrijheid van meningsuiting vallen en daarom geen tuchtrechtelijke sanctie mogen rechtvaardigen.",
+          "treatment": "VERWORPEN"
+        }
+      ],
+      "courtOrder": "Concreet oordeelt de Nationale Tuchtraad dat de verstandhouding binnen het korps en de goede werking van de instelling door de door de betrokken magistraat geschreven en opgestuurde brieven ernstig gestoord. Daardoor heeft hij grovelijk misbruik gemaakt van zijn vrijheid van meningsuiting, waarvoor hij de verantwoordelijkheid moet dragen. Dergelijke handelswijze druist in tegen de loyaliteit die eenieder ten aanzien van zijn korps verschuldigd is en is derhalve een deontologische fout die de goede verstandhouding binnen het korps en de werking van dit laatste ten zeerste in het gedrang brengt. De waardigheid van het ambt en de goede werking van justitie komen aldus in het gedrang.",
+      "outcome": "ANDERE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+        "internalParentActId": "ACT-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+        "provisionNumber": "artikel 10, §2",
+        "provisionNumberKey": "10",
+        "parentActType": "VERDRAG",
+        "parentActName": "Europese Conventie voor de Rechten van de Mens (EVRM)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer leest artikel 10, §2 EVRM aldus dat de uitoefening van de vrijheid van meningsuiting niet absoluut is en aan door de wet bepaalde sancties kan worden onderworpen die in een democratische samenleving nodig zijn ter bescherming van onder meer openbare orde, goede naam, rechten van anderen of ter waarborging van het gezag en de onpartijdigheid van de rechterlijke macht; die vrijheid brengt plichten en verantwoordelijkheden mee.",
+        "relevantFactualContext": "Een parketmagistraat stuurde protestbrieven aan collega’s en de procureur-generaal met felle kritiek, persoonlijke aanvallen en onterechte beschuldigingen die het gezag en de reputatie van oversten en collega’s aantasten en de goede werking van het korps ernstig verstoren."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+        "internalParentActId": "ACT-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+        "provisionNumber": "artikel 19, §3",
+        "provisionNumberKey": "19",
+        "parentActType": "VERDRAG",
+        "parentActName": "Internationaal Verdrag inzake Burgerrechten en Politieke Rechten (IVBPR)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer merkt op dat artikel 19.3 IVBPR, zoals door België toepasselijk verklaard, dezelfde strekking heeft als artikel 10, §2 EVRM: vrijheid van meningsuiting kan wettelijk worden beperkt en gesanctioneerd indien die beperkingen in een democratische samenleving noodzakelijk zijn ter bescherming van openbare orde, reputatie of rechten van derden of ter waarborging van de rechterlijke macht.",
+        "relevantFactualContext": "Dezelfde brieven met felle kritiek en persoonlijke aanvallen van de magistraat vormden de feitelijke grondslag voor het toepassen van deze beperkingen op de vrijheid van meningsuiting."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+        "internalParentActId": "ACT-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+        "provisionNumber": "artikel 404",
+        "provisionNumberKey": "404",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer stelt dat de overtreding van beroepsplichten tuchtrechtelijk strafbaar is krachtens artikel 404 Gerechtelijk Wetboek; gedragingen die de waardigheid van het ambt, de loyaliteit tegenover het korps en de goede werking van justitie aantasten, worden als deontologische fouten aangemerkt en kunnen leiden tot disciplinaire sancties op grond van deze bepaling.",
+        "relevantFactualContext": "Door het schrijven en verzenden van aanvallende en onterechte brieven werd de verstandhouding binnen het korps en de werking van de instelling ernstig verstoord, hetgeen volgens de Kamer een schending van de beroepsplichten vormt waarop artikel 404 ziet."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-004",
+        "internalParentActId": "ACT-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+        "provisionNumber": "artikel 405",
+        "provisionNumberKey": "405",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De Kamer geeft aan dat artikel 405 Gerechtelijk Wetboek, samen met artikel 404, de tuchtrechtelijke bestraffing van het niet-naleven van ambtelijke plichten regelt; dit onderstreept dat misbruik van de vrijheid van meningsuiting in het ambt, wanneer het de waardigheid van het ambt en de goede werking van justitie schaadt, disciplinaire gevolgen kan hebben.",
+        "relevantFactualContext": "De door de betrokken magistraat geuite persoonlijke aanvallen en ongegronde beschuldigingen hebben volgens de Kamer de loyaliteit tegenover het korps en de goede werking van justitie in het gedrang gebracht, wat toepassing van artikel 405 rechtvaardigt."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "2000-06-27",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "INT",
+        "courtName": "EHRM",
+        "date": "2002-03-14",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "2004-11-12",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Tuchtrecht",
+      "Affectatiewijziging",
+      "Opdrachten ontnomen",
+      "Protestbrieven",
+      "Persoonlijke aanvallen",
+      "Vrijheid van meningsuiting",
+      "Ambtsplichtenschending",
+      "Tuchtrechtelijke sanctie",
+      "EVRM-toetsing"
+    ],
+    "metadata": {
+      "totalKeywords": 9,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 3,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+        "text": "De uitoefening van de vrijheid van meningsuiting is niet absoluut: krachtens artikel 10 §2 EVRM en artikel 19 §3 IVBPR kan die vrijheid door wetgevende sancties worden beperkt wanneer zulke beperkingen in een democratische samenleving noodzakelijk zijn ter bescherming van openbare orde, goede naam, de rechten van anderen of ter waarborging van het gezag en de onpartijdigheid van de rechterlijke macht; de vrijheid brengt plichten en verantwoordelijkheden met zich mee en moet worden afgewogen tegen die belangen.",
+        "courtVerbatim": "In zijn advies oordeelt de Nationale Tuchtraad dat het recht op vrije meningsuiting niet absoluut is en plichten en verantwoordelijkheden met zich meebrengt (zie Jacques Velu en Rusen Ergec: Convention européenne des Droits de l'Homme, RPDB, Complément VII, 365 e.v., nr. 761; Rusen Ergec, ¿La Convention européenne des Droits de l'Homme¿, overzicht rechtspraak, RCJB, 2002, p. 198, nr. 183; EHRM 27 juni 2000, Constnatinescu tegen Roemenië; EHRM 14 maart 2002, De Diego Nafria tegen Spanje; Cass. 12 november 2004, www.cas.be). Zo kan overeenkomstig artikel 10. 2. EVRM de uitoefening van de vrije meningsuiting worden onderworpen aan sancties door de wet bepaald en die in een democratische samenleving nodig zijn in het belang van, onder meer, de bescherming van de openbare orde, de goede naam of de rechten van anderen of om het gezag of de onpartijdigheid van de rechterlijke macht te waarborgen. Artikel 19.3. IVBPR, zoals door België in de bekrachtigingsoorkonde toepasselijk verklaard, heeft dezelfde strekking.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer de uitoefening van de vrijheid van meningsuiting botst met de bescherming van openbare orde, de goede naam of de rechten van derden of met het gezag en de onpartijdigheid van de rechterlijke macht, en plichten/restricties in het ambt aan de orde zijn.",
+        "relevantFactualContext": "Een parketmagistraat stuurde protestbrieven aan collega’s en aan de procureur-generaal met felle kritiek, persoonlijke aanvallen en onterechte beschuldigingen die het gezag en de reputatie van oversten en collega’s aantasten en de goede werking van het korps ernstig verstoren.",
+        "principleType": "BALANCING_TEST",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:NTRCND:2006:ARR.20060106.8-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+        "text": "Ambtsdragers (hier: magistraten) dienen hun vrijheid van meningsuiting binnen de grenzen van hun ambtsplichten, de waardigheid van het ambt en de goede werking van justitie uit te oefenen; een schending van die beroepsplichten kan tuchtrechtelijk worden sanctioneerd op grond van de artikelen 404 en 405 van het Gerechtelijk Wetboek wanneer de uiting die grenzen overschrijdt.",
+        "courtVerbatim": "Op grond daarvan oordeelt de Nationale Tuchtraad dat de betrokken magistraat in de uitoefening van zijn recht op vrije meningsuiting diende te handelen binnen de perken van zijn ambtsplichten, van de waardigheid van zijn ambt en van de goede werking van justitie. De overtreding van die beroepsplichten is krachtens de artikelen 404 en 405 Gerechtelijk Wetboek tuchtrechtelijk strafbaar.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een ambtsdrager uitlatingen doet die het kader van ambtsplichten, waardigheid van het ambt of de goede werking van de instelling raken.",
+        "relevantFactualContext": "De Nationale Tuchtraad beoordeelde brieven waarin de magistraat felle kritiek, persoonlijke aanvallen en onterechte beschuldigingen uitte, en stelde dat die gedragingen buiten de perken van zijn ambtsplichten vielen en tuchtrechtelijk strafbaar waren.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:NTRCND:2006:ARR.20060106.8-003"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-004",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+        "text": "Wanneer een ambtsdrager in geschriften (bv. protestbrieven) persoonlijke aanvallen en ongegronde beschuldigingen uit die het gezag of de reputatie van oversten en collega’s aantasten en de verstandhouding binnen het korps en de goede werking van de instelling ernstig verstoren, vormt dit een grievous/grovelijk misbruik van vrijheid van meningsuiting en een deontologische fout die tot tuchtrechtelijke aansprakelijkheid kan leiden.",
+        "courtVerbatim": "Concreet oordeelt de Nationale Tuchtraad dat de verstandhouding binnen het korps en de goede werking van de instelling door de door de betrokken magistraat geschreven en opgestuurde brieven ernstig gestoord. Daardoor heeft hij grovelijk misbruik gemaakt van zijn vrijheid van meningsuiting, waarvoor hij de verantwoordelijkheid moet dragen. Dergelijke handelswijze druist in tegen de loyaliteit die eenieder ten aanzien van zijn korps verschuldigd is en is derhalve een deontologische fout die de goede verstandhouding binnen het korps en de werking van dit laatste ten zeerste in het gedrang brengt. De waardigheid van het ambt en de goede werking van justitie komen aldus in het gedrang.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer communicatie van een ambtsdrager persoonlijke aanvallen en ongegronde beschuldigingen bevat die de interne verstandhouding en de werking van de magistratuur aantasten.",
+        "relevantFactualContext": "De magistraat stuurde brieven aan collega’s en de procureur-generaal met hevige kritiek, persoonlijke aanvallen en onterechte beschuldigingen die volgens de Raad de verstandhouding binnen het korps en de werking van de instelling ernstig verstoorden.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-004",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-002"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-003"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "LOW",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 2,
+        "balancing": 1,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 2,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De betrokken magistraat richtte protestbrieven aan collega’s en de procureur‑generaal waarin hij scherpe kritiek uitte op zijn nieuwe affectatie en persoonlijke aanvallen en onterechte beschuldigingen tegenover korpsoversten en collega’s formuleerde. De Nationale Tuchtraad oordeelde dat vrije meningsuiting niet absoluut is voor magistraten en dat hij binnen de perken van ambtsplichten, waardigheid en de goede werking van justitie moest blijven; zijn brieven vormen een grove misbruik van die vrijheid en een deontologische fout. De gedragingen zijn tuchtrechtelijk strafbaar op grond van artikels 404 en 405 Gerechtelijk Wetboek."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In de nieuwe dienstregeling, krijgt een parketmagistraat een andere affectatie. Hij kan evenwel niet instemmen met die nieuwe affectatie en vooral met het feit dat zijn vroegere opdrachten, waar hij nochtans een aanzienlijke achterstand had opgelopen, hem worden ontnomen. Als protest schrijft hij een brief aan zijn collega's en een andere brief naar de procureur general waar hij niet enkel hevige kritiek heft op de nieuwe dienstregeling, darain begrepen zijn nieuwe affectatie, maar ook fel uithaalt naar zijn korpsoverste en bepaalde collega's door tegen hen persoonlijke aanvallen en onterechte beschuldigingen uit die van aard zijn hun gezag en hun reputatie aan te tasten. Voor de Nationale Tuchtraad laat hij gelden dat zijn recht op vrije meningsuiting hem toelaat dergelijke brieven te schrijven. In zijn advies oordeelt de Nationale Tuchtraad dat het recht op vrije meningsuiting niet absoluut is en plichten en verantwoordelijkheden met zich meebrengt (zie Jacques Velu en Rusen Ergec: Convention européenne des Droits de l'Homme, RPDB, Complément VII, 365 e.v., nr. 761; Rusen Ergec, ¿La Convention européenne des Droits de l'Homme¿, overzicht rechtspraak, RCJB, 2002, p. 198, nr. 183; EHRM 27 juni 2000, Constnatinescu tegen Roemenië; EHRM 14 maart 2002, De Diego Nafria tegen Spanië; Cass. 12 november 2004, www.cas.be). Zo kan overeenkomstig artikel 10. 2. EVRM de uitoefening van de vrije meningsuiting worden onderworpen aan sancties door de wet bepaald en die in een democratische samenleving nodig zijn in het belang van, onder meer, de bescherming van de openbare orde, de goede naam of de rechten van anderen of om het gezag of de onpartijdigheid van de rechterlijke macht te waarborgen. Artikel 19.3. IVBPR, zoals door België in de bekrachtigingsoorkonde toepasselijk verklaard, heeft dezelfde strekking. Op grond daarvan oordeelt de Nationale Tuchtraad dat de betrokken magistraat in de uitoefening van zijn recht op vrije meningsuiting diende te handelen binnen de perken van zijn ambtsplichten, van de waardigheid van zijn ambt en van de goede werking van justitie. De overtreding van die beroepsplichten is krachtens de artikelen 404 en 405 Gerechtelijk Wetboek tuchtrechtelijk strafbaar. Deze door de wet bepaalde beperkingen van de vrije meningsuiting zijn door de wetgever nodig geacht in onze democratische samenleving en leveren geen miskenning op van de vermelde verdragrechtelijke bepalingen. Concreet oordeelt de Nationale Tuchtraad dat de verstandhouding binnen het korps en de goede werking van de instelling door de door de betrokken magistraat geschreven en opgestuurde brieven ernstig gestoord. Daardoor heeft hij grovelijk misbruik gemaakt van zijn vrijheid van meningsuiting, waarvoor hij de verantwoordelijkheid moet dragen. Dergelijke handelswijze druist in tegen de loyaliteit die eenieder ten aanzien van zijn korps verschuldigd is en is derhalve een deontologische fout die de goede verstandhouding binnen het korps en de werking van dit laatste ten zeerste in het gedrang brengt. De waardigheid van het ambt en de goede werking van justitie komen aldus in het gedrang.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In de nieuwe dienstregeling, krijgt een parketmagistraat een andere affectatie. Hij kan evenwel niet instemmen met die nieuwe affectatie en vooral met het feit dat zijn vroegere opdrachten, waar hij nochtans een aanzienlijke achterstand had opgelopen, hem worden ontnomen. Als protest schrijft hij een brief aan zijn collega's en een andere brief naar de procureur general waar hij niet enkel hevige kritiek heft op de nieuwe dienstregeling, darain begrepen zijn nieuwe affectatie, maar ook fel uithaalt naar zijn korpsoverste en bepaalde collega's door tegen hen persoonlijke aanvallen en onterechte beschuldigingen uit die van aard zijn hun gezag en hun reputatie aan te tasten. Voor de Nationale Tuchtraad laat hij gelden dat zijn recht op vrije meningsuiting hem toelaat dergelijke brieven te schrijven. In zijn advies oordeelt de Nationale Tuchtraad dat het recht op vrije meningsuiting niet absoluut is en plichten en verantwoordelijkheden met zich meebrengt (zie Jacques Velu en Rusen Ergec: Convention européenne des Droits de l'Homme, RPDB, Complément VII, 365 e.v., nr. 761; Rusen Ergec, ¿La Convention européenne des Droits de l'Homme¿, overzicht rechtspraak, RCJB, 2002, p. 198, nr. 183; EHRM 27 juni 2000, Constnatinescu tegen Roemenië; EHRM 14 maart 2002, De Diego Nafria tegen Spanië; Cass. 12 november 2004, www.cas.be). Zo kan overeenkomstig artikel 10. 2. EVRM de uitoefening van de vrije meningsuiting worden onderworpen aan sancties door de wet bepaald en die in een democratische samenleving nodig zijn in het belang van, onder meer, de bescherming van de openbare orde, de goede naam of de rechten van anderen of om het gezag of de onpartijdigheid van de rechterlijke macht te waarborgen. Artikel 19.3. IVBPR, zoals door België in de bekrachtigingsoorkonde toepasselijk verklaard, heeft dezelfde strekking. Op grond daarvan oordeelt de Nationale Tuchtraad dat de betrokken magistraat in de uitoefening van zijn recht op vrije meningsuiting diende te handelen binnen de perken van zijn ambtsplichten, van de waardigheid van zijn ambt en van de goede werking van justitie. De overtreding van die beroepsplichten is krachtens de artikelen 404 en 405 Gerechtelijk Wetboek tuchtrechtelijk strafbaar. Deze door de wet bepaalde beperkingen van de vrije meningsuiting zijn door de wetgever nodig geacht in onze democratische samenleving en leveren geen miskenning op van de vermelde verdragrechtelijke bepalingen. Concreet oordeelt de Nationale Tuchtraad dat de verstandhouding binnen het korps en de goede werking van de instelling door de door de betrokken magistraat geschreven en opgestuurde brieven ernstig gestoord. Daardoor heeft hij grovelijk misbruik gemaakt van zijn vrijheid van meningsuiting, waarvoor hij de verantwoordelijkheid moet dragen. Dergelijke handelswijze druist in tegen de loyaliteit die eenieder ten aanzien van zijn korps verschuldigd is en is derhalve een deontologische fout die de goede verstandhouding binnen het korps en de werking van dit laatste ten zeerste in het gedrang brengt. De waardigheid van het ambt en de goede werking van justitie komen aldus in het gedrang.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In de nieuwe dienstregeling, krijgt een parketmagistraat een andere affectatie. Hij kan evenwel niet instemmen met die nieuwe affectatie en vooral met het feit dat zijn vroegere opdrachten, waar hij nochtans een aanzienlijke achterstand had opgelopen, hem worden ontnomen. Als protest schrijft hij een brief aan zijn collega's en een andere brief naar de procureur general waar hij niet enkel hevige kritiek heft op de nieuwe dienstregeling, darain begrepen zijn nieuwe affectatie, maar ook fel uithaalt naar zijn korpsoverste en bepaalde collega's door tegen hen persoonlijke aanvallen en onterechte beschuldigingen uit die van aard zijn hun gezag en hun reputatie aan te tasten. Voor de Nationale Tuchtraad laat hij gelden dat zijn recht op vrije meningsuiting hem toelaat dergelijke brieven te schrijven. In zijn advies oordeelt de Nationale Tuchtraad dat het recht op vrije meningsuiting niet absoluut is en plichten en verantwoordelijkheden met zich meebrengt (zie Jacques Velu en Rusen Ergec: Convention européenne des Droits de l'Homme, RPDB, Complément VII, 365 e.v., nr. 761; Rusen Ergec, ¿La Convention européenne des Droits de l'Homme¿, overzicht rechtspraak, RCJB, 2002, p. 198, nr. 183; EHRM 27 juni 2000, Constnatinescu tegen Roemenië; EHRM 14 maart 2002, De Diego Nafria tegen Spanië; Cass. 12 november 2004, www.cas.be). Zo kan overeenkomstig artikel 10. 2. EVRM de uitoefening van de vrije meningsuiting worden onderworpen aan sancties door de wet bepaald en die in een democratische samenleving nodig zijn in het belang van, onder meer, de bescherming van de openbare orde, de goede naam of de rechten van anderen of om het gezag of de onpartijdigheid van de rechterlijke macht te waarborgen. Artikel 19.3. IVBPR, zoals door België in de bekrachtigingsoorkonde toepasselijk verklaard, heeft dezelfde strekking. Op grond daarvan oordeelt de Nationale Tuchtraad dat de betrokken magistraat in de uitoefening van zijn recht op vrije meningsuiting diende te handelen binnen de perken van zijn ambtsplichten, van de waardigheid van zijn ambt en van de goede werking van justitie. De overtreding van die beroepsplichten is krachtens de artikelen 404 en 405 Gerechtelijk Wetboek tuchtrechtelijk strafbaar. Deze door de wet bepaalde beperkingen van de vrije meningsuiting zijn door de wetgever nodig geacht in onze democratische samenleving en leveren geen miskenning op van de vermelde verdragrechtelijke bepalingen. Concreet oordeelt de Nationale Tuchtraad dat de verstandhouding binnen het korps en de goede werking van de instelling door de door de betrokken magistraat geschreven en opgestuurde brieven ernstig gestoord. Daardoor heeft hij grovelijk misbruik gemaakt van zijn vrijheid van meningsuiting, waarvoor hij de verantwoordelijkheid moet dragen. Dergelijke handelswijze druist in tegen de loyaliteit die eenieder ten aanzien van zijn korps verschuldigd is en is derhalve een deontologische fout die de goede verstandhouding binnen het korps en de werking van dit laatste ten zeerste in het gedrang brengt. De waardigheid van het ambt en de goede werking van justitie komen aldus in het gedrang.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-003"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In de nieuwe dienstregeling, krijgt een parketmagistraat een andere affectatie. Hij kan evenwel niet instemmen met die nieuwe affectatie en vooral met het feit dat zijn vroegere opdrachten, waar hij nochtans een aanzienlijke achterstand had opgelopen, hem worden ontnomen. Als protest schrijft hij een brief aan zijn collega's en een andere brief naar de procureur general waar hij niet enkel hevige kritiek heft op de nieuwe dienstregeling, darain begrepen zijn nieuwe affectatie, maar ook fel uithaalt naar zijn korpsoverste en bepaalde collega's door tegen hen persoonlijke aanvallen en onterechte beschuldigingen uit die van aard zijn hun gezag en hun reputatie aan te tasten. Voor de Nationale Tuchtraad laat hij gelden dat zijn recht op vrije meningsuiting hem toelaat dergelijke brieven te schrijven. In zijn advies oordeelt de Nationale Tuchtraad dat het recht op vrije meningsuiting niet absoluut is en plichten en verantwoordelijkheden met zich meebrengt (zie Jacques Velu en Rusen Ergec: Convention européenne des Droits de l'Homme, RPDB, Complément VII, 365 e.v., nr. 761; Rusen Ergec, ¿La Convention européenne des Droits de l'Homme¿, overzicht rechtspraak, RCJB, 2002, p. 198, nr. 183; EHRM 27 juni 2000, Constnatinescu tegen Roemenië; EHRM 14 maart 2002, De Diego Nafria tegen Spanië; Cass. 12 november 2004, www.cas.be). Zo kan overeenkomstig artikel 10. 2. EVRM de uitoefening van de vrije meningsuiting worden onderworpen aan sancties door de wet bepaald en die in een democratische samenleving nodig zijn in het belang van, onder meer, de bescherming van de openbare orde, de goede naam of de rechten van anderen of om het gezag of de onpartijdigheid van de rechterlijke macht te waarborgen. Artikel 19.3. IVBPR, zoals door België in de bekrachtigingsoorkonde toepasselijk verklaard, heeft dezelfde strekking. Op grond daarvan oordeelt de Nationale Tuchtraad dat de betrokken magistraat in de uitoefening van zijn recht op vrije meningsuiting diende te handelen binnen de perken van zijn ambtsplichten, van de waardigheid van zijn ambt en van de goede werking van justitie. De overtreding van die beroepsplichten is krachtens de artikelen 404 en 405 Gerechtelijk Wetboek tuchtrechtelijk strafbaar. Deze door de wet bepaalde beperkingen van de vrije meningsuiting zijn door de wetgever nodig geacht in onze democratische samenleving en leveren geen miskenning op van de vermelde verdragrechtelijke bepalingen. Concreet oordeelt de Nationale Tuchtraad dat de verstandhouding binnen het korps en de goede werking van de instelling door de door de betrokken magistraat geschreven en opgestuurde brieven ernstig gestoord. Daardoor heeft hij grovelijk misbruik gemaakt van zijn vrijheid van meningsuiting, waarvoor hij de verantwoordelijkheid moet dragen. Dergelijke handelswijze druist in tegen de loyaliteit die eenieder ten aanzien van zijn korps verschuldigd is en is derhalve een deontologische fout die de goede verstandhouding binnen het korps en de werking van dit laatste ten zeerste in het gedrang brengt. De waardigheid van het ambt en de goede werking van justitie komen aldus in het gedrang.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-004",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "ART-ECLI:BE:NTRCND:2006:ARR.20060106.8-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+          "DEC-ECLI:BE:NTRCND:2006:ARR.20060106.8-003"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 4,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 4,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 4,
+        "avgDecisionsPerProvision": 3,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060106.8-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In de nieuwe dienstregeling, krijgt een parketmagistraat een andere affectatie. Hij kan evenwel niet instemmen met die nieuwe affectatie en vooral met het feit dat zijn vroegere opdrachten, waar hij nochtans een aanzienlijke achterstand had opgelopen, hem worden ontnomen. Als protest schrijft hij een brief aan zijn collega's en een andere brief naar de procureur general waar hij niet enkel hevige kritiek heft op de nieuwe dienstregeling, darain begrepen zijn nieuwe affectatie, maar ook fel uithaalt naar zijn korpsoverste en bepaalde collega's door tegen hen persoonlijke aanvallen en onterechte beschuldigingen uit die van aard zijn hun gezag en hun reputatie aan te tasten. Voor de Nationale Tuchtraad laat hij gelden dat zijn recht op vrije meningsuiting hem toelaat dergelijke brieven te schrijven. In zijn advies oordeelt de Nationale Tuchtraad dat het recht op vrije meningsuiting niet absoluut is en plichten en verantwoordelijkheden met zich meebrengt (zie Jacques Velu en Rusen Ergec: Convention européenne des Droits de l'Homme, RPDB, Complément VII, 365 e.v., nr. 761; Rusen Ergec, ¿La Convention européenne des Droits de l'Homme¿, overzicht rechtspraak, RCJB, 2002, p. 198, nr. 183; EHRM 27 juni 2000, Constnatinescu tegen Roemenië; EHRM 14 maart 2002, De Diego Nafria tegen Spanië; Cass. 12 november 2004, www.cas.be). Zo kan overeenkomstig artikel 10. 2. EVRM de uitoefening van de vrije meningsuiting worden onderworpen aan sancties door de wet bepaald en die in een democratische samenleving nodig zijn in het belang van, onder meer, de bescherming van de openbare orde, de goede naam of de rechten van anderen of om het gezag of de onpartijdigheid van de rechterlijke macht te waarborgen. Artikel 19.3. IVBPR, zoals door België in de bekrachtigingsoorkonde toepasselijk verklaard, heeft dezelfde strekking. Op grond daarvan oordeelt de Nationale Tuchtraad dat de betrokken magistraat in de uitoefening van zijn recht op vrije meningsuiting diende te handelen binnen de perken van zijn ambtsplichten, van de waardigheid van zijn ambt en van de goede werking van justitie. De overtreding van die beroepsplichten is krachtens de artikelen 404 en 405 Gerechtelijk Wetboek tuchtrechtelijk strafbaar. Deze door de wet bepaalde beperkingen van de vrije meningsuiting zijn door de wetgever nodig geacht in onze democratische samenleving en leveren geen miskenning op van de vermelde verdragrechtelijke bepalingen. Concreet oordeelt de Nationale Tuchtraad dat de verstandhouding binnen het korps en de goede werking van de instelling door de door de betrokken magistraat geschreven en opgestuurde brieven ernstig gestoord. Daardoor heeft hij grovelijk misbruik gemaakt van zijn vrijheid van meningsuiting, waarvoor hij de verantwoordelijkheid moet dragen. Dergelijke handelswijze druist in tegen de loyaliteit die eenieder ten aanzien van zijn korps verschuldigd is en is derhalve een deontologische fout die de goede verstandhouding binnen het korps en de werking van dit laatste ten zeerste in het gedrang brengt. De waardigheid van het ambt en de goede werking van justitie komen aldus in het gedrang.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060106.8-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In de nieuwe dienstregeling, krijgt een parketmagistraat een andere affectatie. Hij kan evenwel niet instemmen met die nieuwe affectatie en vooral met het feit dat zijn vroegere opdrachten, waar hij nochtans een aanzienlijke achterstand had opgelopen, hem worden ontnomen. Als protest schrijft hij een brief aan zijn collega's en een andere brief naar de procureur general waar hij niet enkel hevige kritiek heft op de nieuwe dienstregeling, darain begrepen zijn nieuwe affectatie, maar ook fel uithaalt naar zijn korpsoverste en bepaalde collega's door tegen hen persoonlijke aanvallen en onterechte beschuldigingen uit die van aard zijn hun gezag en hun reputatie aan te tasten. Voor de Nationale Tuchtraad laat hij gelden dat zijn recht op vrije meningsuiting hem toelaat dergelijke brieven te schrijven. In zijn advies oordeelt de Nationale Tuchtraad dat het recht op vrije meningsuiting niet absoluut is en plichten en verantwoordelijkheden met zich meebrengt (zie Jacques Velu en Rusen Ergec: Convention européenne des Droits de l'Homme, RPDB, Complément VII, 365 e.v., nr. 761; Rusen Ergec, ¿La Convention européenne des Droits de l'Homme¿, overzicht rechtspraak, RCJB, 2002, p. 198, nr. 183; EHRM 27 juni 2000, Constnatinescu tegen Roemenië; EHRM 14 maart 2002, De Diego Nafria tegen Spanië; Cass. 12 november 2004, www.cas.be). Zo kan overeenkomstig artikel 10. 2. EVRM de uitoefening van de vrije meningsuiting worden onderworpen aan sancties door de wet bepaald en die in een democratische samenleving nodig zijn in het belang van, onder meer, de bescherming van de openbare orde, de goede naam of de rechten van anderen of om het gezag of de onpartijdigheid van de rechterlijke macht te waarborgen. Artikel 19.3. IVBPR, zoals door België in de bekrachtigingsoorkonde toepasselijk verklaard, heeft dezelfde strekking. Op grond daarvan oordeelt de Nationale Tuchtraad dat de betrokken magistraat in de uitoefening van zijn recht op vrije meningsuiting diende te handelen binnen de perken van zijn ambtsplichten, van de waardigheid van zijn ambt en van de goede werking van justitie. De overtreding van die beroepsplichten is krachtens de artikelen 404 en 405 Gerechtelijk Wetboek tuchtrechtelijk strafbaar. Deze door de wet bepaalde beperkingen van de vrije meningsuiting zijn door de wetgever nodig geacht in onze democratische samenleving en leveren geen miskenning op van de vermelde verdragrechtelijke bepalingen. Concreet oordeelt de Nationale Tuchtraad dat de verstandhouding binnen het korps en de goede werking van de instelling door de door de betrokken magistraat geschreven en opgestuurde brieven ernstig gestoord. Daardoor heeft hij grovelijk misbruik gemaakt van zijn vrijheid van meningsuiting, waarvoor hij de verantwoordelijkheid moet dragen. Dergelijke handelswijze druist in tegen de loyaliteit die eenieder ten aanzien van zijn korps verschuldigd is en is derhalve een deontologische fout die de goede verstandhouding binnen het korps en de werking van dit laatste ten zeerste in het gedrang brengt. De waardigheid van het ambt en de goede werking van justitie komen aldus in het gedrang.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:NTRCND:2006:ARR.20060106.8-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">In de nieuwe dienstregeling, krijgt een parketmagistraat een andere affectatie. Hij kan evenwel niet instemmen met die nieuwe affectatie en vooral met het feit dat zijn vroegere opdrachten, waar hij nochtans een aanzienlijke achterstand had opgelopen, hem worden ontnomen. Als protest schrijft hij een brief aan zijn collega's en een andere brief naar de procureur general waar hij niet enkel hevige kritiek heft op de nieuwe dienstregeling, darain begrepen zijn nieuwe affectatie, maar ook fel uithaalt naar zijn korpsoverste en bepaalde collega's door tegen hen persoonlijke aanvallen en onterechte beschuldigingen uit die van aard zijn hun gezag en hun reputatie aan te tasten. Voor de Nationale Tuchtraad laat hij gelden dat zijn recht op vrije meningsuiting hem toelaat dergelijke brieven te schrijven. In zijn advies oordeelt de Nationale Tuchtraad dat het recht op vrije meningsuiting niet absoluut is en plichten en verantwoordelijkheden met zich meebrengt (zie Jacques Velu en Rusen Ergec: Convention européenne des Droits de l'Homme, RPDB, Complément VII, 365 e.v., nr. 761; Rusen Ergec, ¿La Convention européenne des Droits de l'Homme¿, overzicht rechtspraak, RCJB, 2002, p. 198, nr. 183; EHRM 27 juni 2000, Constnatinescu tegen Roemenië; EHRM 14 maart 2002, De Diego Nafria tegen Spanië; Cass. 12 november 2004, www.cas.be). Zo kan overeenkomstig artikel 10. 2. EVRM de uitoefening van de vrije meningsuiting worden onderworpen aan sancties door de wet bepaald en die in een democratische samenleving nodig zijn in het belang van, onder meer, de bescherming van de openbare orde, de goede naam of de rechten van anderen of om het gezag of de onpartijdigheid van de rechterlijke macht te waarborgen. Artikel 19.3. IVBPR, zoals door België in de bekrachtigingsoorkonde toepasselijk verklaard, heeft dezelfde strekking. Op grond daarvan oordeelt de Nationale Tuchtraad dat de betrokken magistraat in de uitoefening van zijn recht op vrije meningsuiting diende te handelen binnen de perken van zijn ambtsplichten, van de waardigheid van zijn ambt en van de goede werking van justitie. De overtreding van die beroepsplichten is krachtens de artikelen 404 en 405 Gerechtelijk Wetboek tuchtrechtelijk strafbaar. Deze door de wet bepaalde beperkingen van de vrije meningsuiting zijn door de wetgever nodig geacht in onze democratische samenleving en leveren geen miskenning op van de vermelde verdragrechtelijke bepalingen. Concreet oordeelt de Nationale Tuchtraad dat de verstandhouding binnen het korps en de goede werking van de instelling door de door de betrokken magistraat geschreven en opgestuurde brieven ernstig gestoord. Daardoor heeft hij grovelijk misbruik gemaakt van zijn vrijheid van meningsuiting, waarvoor hij de verantwoordelijkheid moet dragen. Dergelijke handelswijze druist in tegen de loyaliteit die eenieder ten aanzien van zijn korps verschuldigd is en is derhalve een deontologische fout die de goede verstandhouding binnen het korps en de werking van dit laatste ten zeerste in het gedrang brengt. De waardigheid van het ambt en de goede werking van justitie komen aldus in het gedrang.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 4,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 3,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 10,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 9,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

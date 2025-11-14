@@ -1,0 +1,621 @@
+{
+  "decision_id": "ECLI:BE:HBGNT:2008:ARR.20081009.6",
+  "language": "NL",
+  "metadata": {
+    "id": 118928,
+    "court_ecli_code": "HBGNT",
+    "decision_date": "2008-10-09",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 14604,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Hof van beroep te Gent, 09 oktober 2008, Arrest nr. 2008/AR/148, ECLI:BE:HBGNT:2008:ARR.20081009.6"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:HBGNT:2008:ARR.20081009.6-001",
+        "name": "E.H.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELLANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:HBGNT:2008:ARR.20081009.6-002",
+        "name": "PROCUREUR-GENERAAL BIJ HET HOF VAN BEROEP TE GENT",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "OPENBAAR_MINISTERIE"
+      },
+      {
+        "id": "PARTY-ECLI:BE:HBGNT:2008:ARR.20081009.6-003",
+        "name": "E.M.S.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "GEÏNTIMEERDE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "De procureur des Konings bij de rechtbank van eerste aanleg te Dendermonde dagvaardde op 19 september 2006 de appellant en de tweede geïntimeerde met het verzoek het huwelijk van 29 juli 2003 te Midar (Marokko) nietig te verklaren of minstens niet tegenstelbaar en zonder uitwerking in België, en de overschrijving en randmelding in de Belgische registers te bevelen en kosten toe te wijzen. Bij vonnis van 22 november 2007 verklaarde de rechtbank van eerste aanleg te Dendermonde de vordering toelaatbaar en gegrond; het verzoek van de appellant om het voordeel van het putatief huwelijk toe te kennen (art.201 B.W.) werd afgewezen. De appellant stelde tijdig hoger beroep bij verzoekschrift neergelegd op 16 januari 2008. Op de openbare terechtzitting van 5 september 2008 verscheen de tweede geïntimeerde niet hoewel zij per gerechtsbrief op 26 maart 2008 was verwittigd en die gerechtsbrief volgens het dossier op 28 maart 2008 persoonlijk door de posterij is besteld. De eerste geïntimeerde liet een politioneel onderzoek verrichten waarvan de resultaten in eerste aanleg werden weergegeven; uit die stukken concludeerde de eerste rechter dat sprake was van een schijnhuwelijk. De appellant is op 11 augustus 2006 te Nador (Marokko) opnieuw gehuwd met Z. E.. Het hof heeft de aangebrachte stukken en conclusies ingezien en kwam tot beoordeling van de rechtsvragen inzake toepasselijk recht, bewijslast en de toepasselijkheid van art.146bis B.W. en art.201 B.W.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2008:ARR.20081009.6-001",
+          "requests": "De appellant vordert de vernietiging van het bestreden vonnis en dat het hof de oorspronkelijke vordering van de eerste geïntimeerde als ongegrond verwerpt, met verwijzing van de eerste geïntimeerde in de kosten; subsidiair verzoekt hij toekenning van het voordeel van het putatief huwelijk (art.201 B.W.)."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2008:ARR.20081009.6-002",
+          "requests": "De eerste geïntimeerde verzoekt de afwijzing van het hoger beroep als ongegrond en de integrale bevestiging van het bestreden vonnis, met verwijzing van de appellant in de kosten van beide instanties."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2008:ARR.20081009.6-001",
+          "argument": "De appellant betoogt dat de eerste rechter ten onrechte heeft geoordeeld dat er sprake is van een schijnhuwelijk of van een gedwongen/gearangeerd huwelijk; hij stelt dat de verklaringen niet eenduidig bewijzen dat de intentie ontbrak een duurzame levensgemeenschap te stichten en voert aan dat de elementen van het politioneel onderzoek en zijn verklaringen onvoldoende en tegenstrijdig zijn om de nietigheid van het huwelijk te staven. Hij verzoekt het hof het bestreden vonnis te vernietigen en de vordering van de eerste geïntimeerde af te wijzen; subsidiair vordert hij het voordeel van het putatief huwelijk.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:HBGNT:2008:ARR.20081009.6-002",
+          "argument": "De eerste geïntimeerde stelt dat het huwelijk tussen de appellant en de tweede geïntimeerde werd gesloten uitsluitend met het oogmerk de appellant een verblijfsrechtelijk voordeel te verschaffen en dat minstens één van de echtgenoten geen intentie had een duurzame levensgemeenschap te stichten. Hij steunt op de resultaten van een op zijn verzoek uitgevoerd politioneel onderzoek en op de tegenstrijdige verklaringen van partijen, en beroept zich op art.146bis B.W. om nietigheid vast te stellen en op de bewijsregels van het Belgisch recht om die veinzing aan te tonen. Het verzoek van de eerste geïntimeerde beoogt bevestiging van het vonnis van eerste aanleg.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "Gelet op art. 24 van de wet van 15 juni 1935 op het taalgebruik in gerechtszaken;\n\nVerklaart het hoger beroep ontvankelijk doch ongegrond.\n\nBevestigt het bestreden vonnis, dus ook waar het zegt voor recht dat het huwelijk dat op 29 juli 2003 te Midar (Marokko) werd gesloten tussen: E. H., van Marokkaanse nationaliteit, geboren te en E.M.S., van Belgische nationaliteit, geboren te nietig is en geen uitwerking zal hebben in België.\n\nVeroordeelt de appellant tot de kosten van het geding, aan de zijde van de geïntimeerden niet te begroten.",
+      "outcome": "ONGEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-001",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2008:ARR.20081009.6-001",
+        "provisionNumber": "art. 747 §2, 1e tot 3e lid / §3, 1e en 2e lid",
+        "provisionNumberKey": "747",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-002",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2008:ARR.20081009.6-001",
+        "provisionNumber": "art. 624, 1e",
+        "provisionNumberKey": "624",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof brengt voort dat artikel 624, 1e Ger.W. territoriale bevoegdheid bepaalt door verwijzing naar het domicilie van partijen; dit artikel wordt door het Hof toegepast als criterium om te besluiten dat de rechtbank van Dendermonde bevoegd is omdat partijen te Temse gedomicilieerd waren ten tijde van betekening.",
+        "relevantFactualContext": "De vordering tot nietigverklaring werd betekend op 19 september 2006; zowel appellant als tweede geïntimeerde waren bij betekening gedomicilieerd te Temse, wat het Hof als grond voor de bevoegdheidsvaststelling aanhaalt."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-003",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2008:ARR.20081009.6-002",
+        "provisionNumber": "art. 1a)",
+        "provisionNumberKey": "1a",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "EG‑verordening nr. 2201/2003 van de Raad van 27 november 2003 (Brussel IIbis, inwerking 1 maart 2005)",
+        "parentActDate": "2003-11-27",
+        "parentActNumber": "2201/2003",
+        "provisionInterpretation": "Het Hof stelt dat artikel 1a) van Verordening 2201/2003 de bevoegdheidsregels voor huwelijkszaken omvat en, in samenhang met artikel 3, toestaat dat een vordering tot nietigverklaring van een internationaal huwelijk in België wordt ingesteld. Het artikel wordt door het Hof toegepast om de nationale toegang tot de Belgische rechter voor dergelijke vorderingen te bevestigen.",
+        "relevantFactualContext": "De openbare orde vergt beslissing over nietigverklaring; de vordering werd door de procureur des Konings ingeleid en het Hof oordeelt dat op grond van art.1a) de zaak in België kon worden ingesteld."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-004",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2008:ARR.20081009.6-002",
+        "provisionNumber": "art. 3",
+        "provisionNumberKey": "3",
+        "parentActType": "EU_VERORDENING",
+        "parentActName": "EG‑verordening nr. 2201/2003 van de Raad van 27 november 2003 (Brussel IIbis)",
+        "parentActDate": "2003-11-27",
+        "parentActNumber": "2201/2003",
+        "provisionInterpretation": "Het Hof gebruikt artikel 3 van Verordening 2201/2003 in samenhang met artikel 1a) om te bepalen dat de Belgische rechter bevoegd is ten aanzien van de nietigverklaring; artikel 3 wordt door het Hof opgevat als een norm die, binnen het kader van de verordening, de territoriale toegang tot nationale rechtbanken regelt voor huwelijksbetwistingen.",
+        "relevantFactualContext": "De vordering tot nietigverklaring werd ingeleid na inwerkingtreding van Brussel IIbis (1 maart 2005) en het Hof concludeert dat krachtens art.3 de nationale rechtbank van Dendermonde bevoegd is de materie te behandelen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-005",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2008:ARR.20081009.6-003",
+        "provisionNumber": "art. 146bis",
+        "provisionNumberKey": "146bis",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof interpreteert artikel 146bis B.W. als de nationale regel die een schijnhuwelijk definieert: geen huwelijk wanneer uit de omstandigheden blijkt dat minstens één echtgenoot kennelijk uitsluitend op het verkrijgen van verblijfsvoordeel uit was en niet op het totstandbrengen van een duurzame levensgemeenschap. Het Hof benadrukt dat het bewijs volgens Belgische procesregels door alle middelen kan worden geleverd, dat de bewijsmiddelen eenduidig en niet tegengesproken moeten zijn (een beslissend karakter), en dat zodra de intentie tot duurzame gemeenschap bewezen is het huwelijk geldig blijft, ook al speelden andere motieven mee.",
+        "relevantFactualContext": "Het Hof neemt de resultaten van het politioneel onderzoek en de tegenstrijdige verklaringen tussen partijen over de totstandkoming van het huwelijk over; de feiten in het dossier (politie-inlichtingen, persoonlijke betekening van de gerechtsbrief) worden door het Hof aangehaald om te concluderen dat minstens één echtgenoot niet de intentie had een duurzame levensgemeenschap te stichten."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-006",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2008:ARR.20081009.6-003",
+        "provisionNumber": "art. 201",
+        "provisionNumberKey": "201",
+        "parentActType": "WETBOEK",
+        "parentActName": "Burgerlijk Wetboek (B.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof legt artikel 201 B.W. uit als de regeling van het putatief huwelijk: de burgerlijke gevolgen van het huwelijk blijven bestaan ten aanzien van de echtgenoot te goeder trouw en de kinderen totdat de vernietiging uitvoerbaar is. Het Hof stelt dat goede trouw de enige voorwaarde is voor dit voordeel en dat goede trouw niet wordt vermoed maar door degene die het inroept bewezen moet worden; de bewijslast berust bij de echtgenoot die zich op art.201 beroept.",
+        "relevantFactualContext": "De appellant vordert het voordeel van het putatief huwelijk maar het Hof oordeelt dat hij de vereiste goede trouw niet heeft bewezen; de bestaande elementen uit het politioneel onderzoek en zijn verklaring (wens tot hervatting van samenleven) volstaan volgens het Hof niet om goede trouw vast te stellen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-007",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2008:ARR.20081009.6-001",
+        "provisionNumber": "art. 1024",
+        "provisionNumberKey": "1024",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-008",
+        "internalParentActId": "ACT-ECLI:BE:HBGNT:2008:ARR.20081009.6-004",
+        "provisionNumber": "art. 24",
+        "provisionNumberKey": "24",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 betreffende het taalgebruik in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van beroep te Gent",
+        "date": "2008-01-16",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:HBGNT:2008:ARR.20081009.6-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "de tweede kamer van de rechtbank van eerste aanleg te Dendermonde",
+        "date": "2007-11-22",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:HBGNT:2008:ARR.20081009.6-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van beroep te Gent",
+        "date": "2008-09-05",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:HBGNT:2008:ARR.20081009.6-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van eerste aanleg te Dendermonde",
+        "date": "2006-09-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:HBGNT:2008:ARR.20081009.6-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "rechtbank van eerste aanleg te Dendermonde",
+        "date": "2006-05-30",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:HBGNT:2008:ARR.20081009.6-005"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Familierecht",
+      "Internationaal huwelijk",
+      "Schijnhuwelijk",
+      "Verblijfsvoordeel",
+      "Politieonderzoek",
+      "Nietigheid van huwelijk",
+      "Ontbreken duurzame levensgemeenschap",
+      "Bewijslast schijnhuwelijk",
+      "Voordeel putatief huwelijk",
+      "Toepassing Brussel IIbis"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20081009.6-001",
+        "text": "Krachtens Brussel IIbis (art.1a en art.3 van Verordening 2201/2003) kan een vordering tot nietigverklaring van een internationaal huwelijk in België worden ingesteld; de territoriale bevoegdheid wordt nationaal bepaald en volgt, voor de aanhangige procedure, de regel van domiciliëring van partijen (art.624 Ger.W.). Een huwelijk in het buitenland sluit de Belgische bevoegdheid tot nietigverklaring niet uit omdat de nietigverklaring het achterliggend rechtsfeit (negotium) en niet louter het instrumentum raakt.",
+        "courtVerbatim": "Krachtens art.1a) en 3 van de EG‑verordening nr. 2201/2003 ... kon desbetreffende vordering tot nietigverklaring worden ingesteld in België. De territoriaal bevoegde rechtbank is deze van Dendermonde, de appellant en de tweede geïntimeerde ten tijde van het aan hen betekend inleidend exploot gedomicilieerd zijnde te Temse (art.624,1e Ger.W.). De omstandigheid dat het huwelijk voor een vreemde autoriteit werd gesloten impliceert niet dat de Belgische rechter het geveinsde huwelijk niet zou kunnen nietig verklaren. De nietigverklaring beoogt immers niet de akte (instrumentum) te treffen, maar de achterliggende toestand die in deze akte werd opgetekend (negotium).",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een vordering tot nietigverklaring van een internationaal huwelijk in België wordt ingesteld en territoriale bevoegdheid dient te worden vastgesteld.",
+        "relevantFactualContext": "De vordering tot nietigverklaring werd door de procureur des Konings ingeleid en betekend op 19 september 2006; partijen waren bij betekening gedomicilieerd te Temse en het huwelijk was te Midar (Marokko) gesloten.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "FAMILY_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-003",
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-004",
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20081009.6-002",
+        "text": "De rechtsgevolgen van echtscheiding en van nietigverklaring van een huwelijk verschillen van rechtswege: echtscheiding werkt ex nunc, terwijl de nietigverklaring van het huwelijk terugwerkende kracht (ex tunc) heeft. Bij de beoordeling van een vordering tot nietigverklaring is de eerdere ontbinding door echtscheiding daarom irrelevant voor de bestaanstoestand ten tijde van het huwelijk.",
+        "courtVerbatim": "De omstandigheid dat dezen reeds uit de echt zijn gescheiden is terzake niet relevant. De ontbinding van het huwelijk door echtscheiding ressorteert immers slechts gevolgen ex nunc, terwijl de nietigverklaring van het huwelijk gevolgen heeft ex tunc.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer voorafgaande echtscheiding en een vordering tot nietigverklaring van hetzelfde huwelijk samen aan de orde zijn.",
+        "relevantFactualContext": "Partijen waren reeds door vonnis van 30 mei 2006 uit de echt gescheiden; het Hof oordeelt dat die ontbinding geen invloed heeft op de latere vordering tot nietigverklaring van het eerdere huwelijk.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "FAMILY_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20081009.6-003",
+        "text": "Onder art.146bis B.W. is er sprake van een schijnhuwelijk wanneer uit een geheel van omstandigheden blijkt dat minstens één echtgenoot kennelijk uitsluitend is toegetreden met het oog op het verkrijgen van een verblijfsvoordeel en niet op het totstandbrengen van een duurzame levensgemeenschap. Het bewijs wordt geleverd volgens de Belgische procesregels door alle middelen (inclusief vermoedens); omdat intentie zelden absoluut kenbaar is, moeten de aangebrachte bewijsmiddelen een beslissend karakter hebben, namelijk een eenduidig en niet‑tegengesproken vermoeden. Bewezen intentie tot duurzame levensgemeenschap maakt het huwelijk geldig, ook indien andere motieven meespeelden.",
+        "courtVerbatim": "Overeenkomstig art. 146bis B.W. ... is er naar Belgisch recht geen huwelijk wanneer, ondanks de gegeven formele toestemmingen tot het huwelijk, uit een geheel van omstandigheden blijkt dat de intentie van minstens één van de echtgenoten kennelijk niet is gericht tot het totstandbrengen van een duurzame levensgemeenschap, maar enkel op het bekomen van een verblijfsrechtelijk voordeel dat verbonden is aan de staat van gehuwde. Bijgevolg dient aangetoond te worden, om te kunnen spreken van een schijnhuwelijk, dat minstens één van de echtgenoten tot het huwelijk is toegetreden, uitsluitend om een andere reden dan een gezinsstichting. Het bewijs van die veinzing wordt geleverd overeenkomstig de Belgische wet, die de procedure regelt, hetzij door alle middelen van recht, vermoedens inbegrepen. Aangezien de intentie van de gehuwden nooit met absolute zekerheid te achterhalen valt, dienen de aangebrachte bewijsmiddelen een beslissend karakter te hebben, met name een eenduidig en niet tegengesproken vermoeden. Eens de aanwezigheid van de intentie ten tijde van het huwelijk om een duurzame levensgemeenschap te vormen bewezen wordt, is het huwelijk geldig, zelfs indien ook andere motieven hebben meegespeeld bij het totstandkomen van het huwelijk. Het betrachten van een verblijfsvoordeel, een materieel voordeel of om het even welk huwelijksvoordeel is immers legitiem en zeker niet onverenigbaar met de werkelijke wil om te huwen voor zover de aanstaande echtgenoten naast het beogen van een huwelijksvoordeel ook de bedoeling hebben gehad om een gebonden levensgemeenschap tot stand te brengen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij beoordeling of een huwelijk schijnhuwelijk is omdat minstens één echtgenoot uitsluitend op verblijfsvoordeel gericht zou zijn.",
+        "relevantFactualContext": "Het hof acht, op basis van politionele inlichtingen en tegenstrijdige verklaringen van partijen, bewezen dat het huwelijk minstens ten dele totstandkwam met het oog op verblijfsvoordeel, zodat het als schijnhuwelijk werd aangemerkt.",
+        "principleType": "LEGAL_TEST",
+        "legalArea": "FAMILY_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-005"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20081009.6-004",
+        "text": "Het voordeel van het putatief huwelijk (art.201 B.W.) bestaat voor de echtgenoot te goeder trouw en de kinderen erin dat de burgerlijke gevolgen van het huwelijk in stand blijven tot uitvoerbaarheid van de vernietiging. Goede trouw is de enige voorwaarde en wordt niet vermoed; de echtgenoot die zich op art.201 beroept moet de goede trouw bewijzen en draagt aldus de bewijslast.",
+        "courtVerbatim": "Het voordeel van het putatief huwelijk in de zin van art. 201 B.W. geldt ten aanzien van de echtgenoot te goeder trouw en ten aanzien van de kinderen. Het bestaat erin dat de burgerlijke gevolgen van het huwelijk in stand worden gehouden tot op het ogenblik waarop de beslissing van vernietiging van het huwelijk kan ten uitvoer gebracht worden, zijnde nadat het vonnis in kracht van gewijsde is getreden. De goede trouw is de enige voorwaarde voor de erkenning van het putatief huwelijk. De goede trouw wordt niet vermoed, doch moet worden bewezen door de echtgenoot die het voordeel van het putatief huwelijk inroept.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een echtgenoot aanspraak maakt op de bescherming van de burgerlijke gevolgen van een later nietig verklaard huwelijk op grond van putatieve goede trouw.",
+        "relevantFactualContext": "De appellant vorderde het voordeel van het putatief huwelijk maar slaagde er niet in de vereiste goede trouw aan te tonen; het Hof oordeelde dat zijn verklaringen en politionele elementen onvoldoende waren om goede trouw te bewijzen.",
+        "principleType": "BURDEN_PROOF",
+        "legalArea": "FAMILY_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-006"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 2,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 0,
+        "legal_test": 1,
+        "burden_proof": 1
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 4,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser (procureur des Konings) vordert nietigverklaring van een internationaal gesloten huwelijk tussen de verweerder en een Belgische echtgenote, stellende dat het een schijnhuwelijk was met het oog op verblijfsvoordeel. Het hof verklaart het hoger beroep ontvankelijk doch ongegrond en bevestigt het bestreden vonnis dat het huwelijk van 29 juli 2003 nietig is en in België geen uitwerking heeft; de verweerder wordt veroordeeld in de kosten. Kernpunt: op grond van Belgisch internationaal privaatrecht en art.146bis BW kan een schijnhuwelijk worden bewezen door onder meer politioneel onderzoek, en het voordeel van het putatief huwelijk wordt geweigerd bij gebrek aan goede trouw."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Op de buitengewone openbare terechtzitting van 5 september 2008 is de tweede geïntimeerde niet verschenen noch werd zij daarop vertegenwoordigd, alhoewel zij per gerechtsbrief verzonden op 26 maart 2008 op voet van art. 747§2 - 1e tot 3e lid / §3- 1e en 2e lid Ger.W. van de bepaalde rechtsdag was verwittigd geworden.</p>",
+          "<p class=\"case-section__paragraph\">De eerste geïntimeerde heeft ter terechtzitting het voordeel van het voornoemd wetsartikel ingeroepen lastens de tweede geïntimeerde. Op dit verzoek kan worden ingegaan.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-002",
+        "relatedFullTextCitations": [
+          "<li>Alleszins op het ogenblik van het inleidend exploot had de appellant de Marokkaanse nationaliteit. De tweede geïntimeerde had en heeft nog steeds de Belgische nationaliteit. De appellant en de tweede geïntimeerde huwden op 29 juli 2003 te Midar (Marokko). De partijen zijn met onderlinge toestemming uit de echt gescheiden op grond van een vonnis op 30 mei 2006 uitgesproken door de rechtbank van eerste aanleg te Dendermonde. De appellant is op 11 augustus 2006 te Nador (Marokko) terug in het huwelijk getreden met een zekere Z. E.. De vraag stelt zich naar de geldigheid van desbetreffend internationaal huwelijk tussen de appellant en de tweede geïntimeerde. De omstandigheid dat dezen reeds uit de echt zijn gescheiden is terzake niet relevant. De ontbinding van het huwelijk door echtscheiding ressorteert immers slechts gevolgen ex nunc, terwijl de nietigverklaring van het huwelijk gevolgen heeft ex tunc. De openbare orde vereist dat zou worden beslist nopens de vordering van de eerste geïntimeerde tot nietigverklaring van het huwelijk. De vordering tot nietigverklaring van het huwelijk aangegaan door de appellant en de tweede geïntimeerde werd ingeleid op verzoek van de procureur des Konings bij de rechtbank van eerste aanleg te Dendermonde bij dagvaarding aan de appellant en de tweede geïntimeerde betekend op 19 september 2006. Krachtens art.1a) en 3 van de EG-verordening nr. 2201/2003 van de Raad van 27 november 2003 betreffende de bevoegdheid, de erkenning en de tenuitvoerlegging van beslissingen in huwelijkszaken en inzake de ouderlijke verantwoordelijkheid en tot intrekking van Verordening (EG) nr. 1347/2000 voor gemeenschappelijke kinderen (PB 2003 L 338,1, 19, kortweg Brussel IIbis-V°) genaamd), met inwerkingtreding op 1 maart 2005, kon desbetreffende vordering tot nietigverklaring worden ingesteld in België. De territoriaal bevoegde rechtbank is deze van Dendermonde, de appellant en de tweede geïntimeerde ten tijde van het aan hen betekend inleidend exploot gedomicilieerd zijnde te Temse (art.624,1e Ger.W.) De omstandigheid dat het huwelijk voor een vreemde autoriteit werd gesloten impliceert niet dat de Belgische rechter het geveinsde huwelijk niet zou kunnen nietig verklaren. De nietigverklaring beoogt immers niet de akte (instrumentum) te treffen, maar de achterliggende toestand die in deze akte werd opgetekend (negotium).</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-002",
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-003",
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-004"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2008:ARR.20081009.6-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-003",
+        "relatedFullTextCitations": [
+          "<li>Alleszins op het ogenblik van het inleidend exploot had de appellant de Marokkaanse nationaliteit. De tweede geïntimeerde had en heeft nog steeds de Belgische nationaliteit. De appellant en de tweede geïntimeerde huwden op 29 juli 2003 te Midar (Marokko). De partijen zijn met onderlinge toestemming uit de echt gescheiden op grond van een vonnis op 30 mei 2006 uitgesproken door de rechtbank van eerste aanleg te Dendermonde. De appellant is op 11 augustus 2006 te Nador (Marokko) terug in het huwelijk getreden met een zekere Z. E.. De vraag stelt zich naar de geldigheid van desbetreffend internationaal huwelijk tussen de appellant en de tweede geïntimeerde. De omstandigheid dat dezen reeds uit de echt zijn gescheiden is terzake niet relevant. De ontbinding van het huwelijk door echtscheiding ressorteert immers slechts gevolgen ex nunc, terwijl de nietigverklaring van het huwelijk gevolgen heeft ex tunc. De openbare orde vereist dat zou worden beslist nopens de vordering van de eerste geïntimeerde tot nietigverklaring van het huwelijk. De vordering tot nietigverklaring van het huwelijk aangegaan door de appellant en de tweede geïntimeerde werd ingeleid op verzoek van de procureur des Konings bij de rechtbank van eerste aanleg te Dendermonde bij dagvaarding aan de appellant en de tweede geïntimeerde betekend op 19 september 2006. Krachtens art.1a) en 3 van de EG-verordening nr. 2201/2003 van de Raad van 27 november 2003 betreffende de bevoegdheid, de erkenning en de tenuitvoerlegging van beslissingen in huwelijkszaken en inzake de ouderlijke verantwoordelijkheid en tot intrekking van Verordening (EG) nr. 1347/2000 voor gemeenschappelijke kinderen (PB 2003 L 338,1, 19, kortweg Brussel IIbis-V°) genaamd), met inwerkingtreding op 1 maart 2005, kon desbetreffende vordering tot nietigverklaring worden ingesteld in België. De territoriaal bevoegde rechtbank is deze van Dendermonde, de appellant en de tweede geïntimeerde ten tijde van het aan hen betekend inleidend exploot gedomicilieerd zijnde te Temse (art.624,1e Ger.W.) De omstandigheid dat het huwelijk voor een vreemde autoriteit werd gesloten impliceert niet dat de Belgische rechter het geveinsde huwelijk niet zou kunnen nietig verklaren. De nietigverklaring beoogt immers niet de akte (instrumentum) te treffen, maar de achterliggende toestand die in deze akte werd opgetekend (negotium).</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-003",
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-004",
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:HBGNT:2008:ARR.20081009.6-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-004",
+        "relatedFullTextCitations": [
+          "<li>Overeenkomstig art. 146bis B.W. [ingevoegd bij art.12 wet van 4 mei 1999 (B.S. 1.VII.1999) met inwerkingtreding op 1 januari 2000] is er naar Belgisch recht geen huwelijk wanneer, ondanks de gegeven formele toestemmingen tot het huwelijk, uit een geheel van omstandigheden blijkt dat de intentie van minstens één van de echtgenoten kennelijk niet is gericht tot het totstandbrengen van een duurzame levensgemeenschap, maar enkel op het bekomen van een verblijfsrechtelijk voordeel dat verbonden is aan de staat van gehuwde. Bijgevolg dient aangetoond te worden, om te kunnen spreken van een schijnhuwelijk, dat minstens één van de echtgenoten tot het huwelijk is toegetreden, uitsluitend om een andere reden dan een gezinsstichting. Het bewijs van die veinzing wordt geleverd overeenkomstig de Belgische wet, die de procedure regelt, hetzij door alle middelen van recht, vermoedens inbegrepen. Aangezien de intentie van de gehuwden nooit met absolute zekerheid te achterhalen valt, dienen de aangebrachte bewijsmiddelen een beslissend karakter te hebben, met name een eenduidig en niet tegengesproken vermoeden. Eens de aanwezigheid van de intentie ten tijde van het huwelijk om een duurzame levensgemeenschap te vormen bewezen wordt, is het huwelijk geldig, zelfs indien ook andere motieven hebben meegespeeld bij het totstandkomen van het huwelijk. Het betrachten van een verblijfsvoordeel, een materieel voordeel of om het even welk huwelijksvoordeel is immers legitiem en zeker niet onverenigbaar met de werkelijke wil om te huwen voor zover de aanstaande echtgenoten naast het beogen van een huwelijksvoordeel ook de bedoeling hebben gehad om een gebonden levensgemeenschap tot stand te brengen.</li>",
+          "<li>De eerste geïntimeerde slaagt naar het oordeel van het hof in zijn bewijslast van het bestaan van een schijnhuwelijk en gebrek aan intentie bij de appellant en de tweede geïntimeerde, minstens bij één van hen om een duurzame levensgemeenschap te stichten. De redengeving en de grondige analyse van de aangebrachte resultaten van het op verzoek van de eerste geïntimeerde uitgevoerd politioneel onderzoek (zie onder meer de verstrekte inlichtingen op p.12 van kaft I van het politioneel onderzoek) door de eerste rechter, worden in de huidige instantie door de grieven, middelen en conclusies van de appellant niet weerlegd en worden door het hof herhaald en tot de zijne gemaakt. De appellant heeft het verkeerd voor wanneer hij argumenteert dat de eerste rechter heeft beslist tot het bestaan van een gedwongen of gearrangeerd huwelijk. De eerste rechter heeft één en ander slechts aangebracht aangezien ook hier de verklaringen van de appellant en de tweede geïntimeerde strijdig waren: volgens de appellant was hun huwelijk reeds jaren voordien door de respectieve ouders geregeld, terwijl de tweede geïntimeerde integendeel voorhield dat zij met de appellant uit liefde getrouwd is en dat er van ouderlijk arrangement geen sprake was. De loutere omstandigheid dat de appellant meent een aantal ‘klassieke' ingrediënten van schijnhuwelijk niet te kunnen ontwaren in de situatie tussen hemzelf en de tweede geïntimeerde, hebben geenszins tot gevolg dat er redelijke twijfel kan bestaan over het feit dat het huwelijk tussen beiden enkel gericht was tot het bekomen van een verblijfsrechtelijk voordeel dat verbonden is met de staat van gehuwde. De eerste rechter heeft derhalve juist beslist.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Ondergeschikt vordert de appellant dat hem het voordeel van het putatief huwelijk (art.201 B.W.) wordt toegekend.</p>",
+          "<li>Het voordeel van het putatief huwelijk in de zin van art. 201 B.W. geldt ten aanzien van de echtgenoot te goeder trouw en ten aanzien van de kinderen. Het bestaat erin dat de burgerlijke gevolgen van het huwelijk in stand worden gehouden tot op het ogenblik waarop de beslissing van vernietiging van het huwelijk kan ten uitvoer gebracht worden, zijnde nadat het vonnis in kracht van gewijsde is getreden. De goede trouw is de enige voorwaarde voor de erkenning van het putatief huwelijk. De goede trouw wordt niet vermoed, doch moet worden bewezen door de echtgenoot die het voordeel van het putatief huwelijk inroept. De appellant bewijst die goede trouw in zijne hoofde niet. De verschillende elementen van het door de eerste geïntimeerde overgelegd politioneel onderzoek in hun onderlinge samenhang kunnen allesbehalve als dusdanig dienen. De loutere omstandigheid dat de appellant aan de politie verklaarde op 7 februari 2006 nog steeds de wens te hebben om het samenleven te hernemen met de tweede geïntimeerde - van wie hij sinds oktober 2004 gescheiden leeft - volstaat hiertoe uiteraard niet. De eerste rechter heeft ook dienaangaande een juiste beslissing genomen.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-006",
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-006",
+        "relatedFullTextCitations": [
+          "<li>Overeenkomstig art. 146bis B.W. [ingevoegd bij art.12 wet van 4 mei 1999 (B.S. 1.VII.1999) met inwerkingtreding op 1 januari 2000] is er naar Belgisch recht geen huwelijk wanneer, ondanks de gegeven formele toestemmingen tot het huwelijk, uit een geheel van omstandigheden blijkt dat de intentie van minstens één van de echtgenoten kennelijk niet is gericht tot het totstandbrengen van een duurzame levensgemeenschap, maar enkel op het bekomen van een verblijfsrechtelijk voordeel dat verbonden is aan de staat van gehuwde. Bijgevolg dient aangetoond te worden, om te kunnen spreken van een schijnhuwelijk, dat minstens één van de echtgenoten tot het huwelijk is toegetreden, uitsluitend om een andere reden dan een gezinsstichting. Het bewijs van die veinzing wordt geleverd overeenkomstig de Belgische wet, die de procedure regelt, hetzij door alle middelen van recht, vermoedens inbegrepen. Aangezien de intentie van de gehuwden nooit met absolute zekerheid te achterhalen valt, dienen de aangebrachte bewijsmiddelen een beslissend karakter te hebben, met name een eenduidig en niet tegengesproken vermoeden. Eens de aanwezigheid van de intentie ten tijde van het huwelijk om een duurzame levensgemeenschap te vormen bewezen wordt, is het huwelijk geldig, zelfs indien ook andere motieven hebben meegespeeld bij het totstandkomen van het huwelijk. Het betrachten van een verblijfsvoordeel, een materieel voordeel of om het even welk huwelijksvoordeel is immers legitiem en zeker niet onverenigbaar met de werkelijke wil om te huwen voor zover de aanstaande echtgenoten naast het beogen van een huwelijksvoordeel ook de bedoeling hebben gehad om een gebonden levensgemeenschap tot stand te brengen.</li>",
+          "<li>De eerste geïntimeerde slaagt naar het oordeel van het hof in zijn bewijslast van het bestaan van een schijnhuwelijk en gebrek aan intentie bij de appellant en de tweede geïntimeerde, minstens bij één van hen om een duurzame levensgemeenschap te stichten. De redengeving en de grondige analyse van de aangebrachte resultaten van het op verzoek van de eerste geïntimeerde uitgevoerd politioneel onderzoek (zie onder meer de verstrekte inlichtingen op p.12 van kaft I van het politioneel onderzoek) door de eerste rechter, worden in de huidige instantie door de grieven, middelen en conclusies van de appellant niet weerlegd en worden door het hof herhaald en tot de zijne gemaakt. De appellant heeft het verkeerd voor wanneer hij argumenteert dat de eerste rechter heeft beslist tot het bestaan van een gedwongen of gearrangeerd huwelijk. De eerste rechter heeft één en ander slechts aangebracht aangezien ook hier de verklaringen van de appellant en de tweede geïntimeerde strijdig waren: volgens de appellant was hun huwelijk reeds jaren voordien door de respectieve ouders geregeld, terwijl de tweede geïntimeerde integendeel voorhield dat zij met de appellant uit liefde getrouwd is en dat er van ouderlijk arrangement geen sprake was. De loutere omstandigheid dat de appellant meent een aantal ‘klassieke' ingrediënten van schijnhuwelijk niet te kunnen ontwaren in de situatie tussen hemzelf en de tweede geïntimeerde, hebben geenszins tot gevolg dat er redelijke twijfel kan bestaan over het feit dat het huwelijk tussen beiden enkel gericht was tot het bekomen van een verblijfsrechtelijk voordeel dat verbonden is met de staat van gehuwde. De eerste rechter heeft derhalve juist beslist.</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-005"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">De eerste rechter kan evenzeer worden bijgetreden waar hij heeft beslist over de kosten. De kosten van betekening van het bestreden vonnis worden geregeld door art. 1024 Ger.W. De kosten van het hoger beroep tenslotte vallen ten laste van de appellant. Deze worden aan de zijde van de beide geïntimeerden begroot op 0,00 EUR. Ook de eventuele kosten van de betekening van het huidig arrest worden geregeld door art. 1024 Ger.W.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-footer__paragraph\">Gelet op art. 24 van de wet van 15 juni 1935 op het taalgebruik in gerechtszaken;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:HBGNT:2008:ARR.20081009.6-008"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 8,
+      "citationStatistics": {
+        "totalCitations": 11,
+        "avgCitationsPerProvision": 1.375,
+        "provisionsWithMinimalCitations": 8,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1.875,
+        "avgDecisionsPerProvision": 0.375,
+        "provisionsWithNoRelationships": 4
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20081009.6-001",
+        "relatedFullTextCitations": [
+          "<li>Alleszins op het ogenblik van het inleidend exploot had de appellant de Marokkaanse nationaliteit. De tweede geïntimeerde had en heeft nog steeds de Belgische nationaliteit. De appellant en de tweede geïntimeerde huwden op 29 juli 2003 te Midar (Marokko). De partijen zijn met onderlinge toestemming uit de echt gescheiden op grond van een vonnis op 30 mei 2006 uitgesproken door de rechtbank van eerste aanleg te Dendermonde. De appellant is op 11 augustus 2006 te Nador (Marokko) terug in het huwelijk getreden met een zekere Z. E.. De vraag stelt zich naar de geldigheid van desbetreffend internationaal huwelijk tussen de appellant en de tweede geïntimeerde. De omstandigheid dat dezen reeds uit de echt zijn gescheiden is terzake niet relevant. De ontbinding van het huwelijk door echtscheiding ressorteert immers slechts gevolgen ex nunc, terwijl de nietigverklaring van het huwelijk gevolgen heeft ex tunc. De openbare orde vereist dat zou worden beslist nopens de vordering van de eerste geïntimeerde tot nietigverklaring van het huwelijk. De vordering tot nietigverklaring van het huwelijk aangegaan door de appellant en de tweede geïntimeinde werd ingeleid op verzoek van de procureur des Konings bij de rechtbank van eerste aanleg te Dendermonde bij dagvaarding aan de appellant en de tweede geïntimeinde betekend op 19 september 2006. Krachtens art.1a) en 3 van de EG-verordening nr. 2201/2003 van de Raad van 27 november 2003 betreffende de bevoegdheid, de erkenning en de tenuitvoerlegging van beslissingen in huwelijkszaken en inzake de ouderlijke verantwoordelijkheid en tot intrekking van Verordening (EG) nr. 1347/2000 voor gemeenschappelijke kinderen (PB 2003 L 338,1, 19, kortweg Brussel IIbis-V°) genaamd), met inwerkingtreding op 1 maart 2005, kon desbetreffende vordering tot nietigverklaring worden ingesteld in België. De territoriaal bevoegde rechtbank is deze van Dendermonde, de appellant en de tweede geïntimeerde ten tijde van het aan hen betekend inleidend exploot gedomicilieerd zijnde te Temse (art.624,1e Ger.W.) De omstandigheid dat het huwelijk voor een vreemde autoriteit werd gesloten impliceert niet dat de Belgische rechter het geveinsde huwelijk niet zou kunnen nietig verklaren. De nietigverklaring beoogt immers niet de akte (instrumentum) te treffen, maar de achterliggende toestand die in deze akte werd opgetekend (negotium).</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20081009.6-002",
+        "relatedFullTextCitations": [
+          "<li>Alleszins op het ogenblik van het inleidend exploot had de appellant de Marokkaanse nationaliteit. De tweede geïntimeerde had en heeft nog steeds de Belgische nationaliteit. De appellant en de tweede geïntimeinde huwden op 29 juli 2003 te Midar (Marokko). De partijen zijn met onderlinge toestemming uit de echt gescheiden op grond van een vonnis op 30 mei 2006 uitgesproken door de rechtbank van eerste aanleg te Dendermonde. De appellant is op 11 augustus 2006 te Nador (Marokko) terug in het huwelijk getreden met een zekere Z. E.. De vraag stelt zich naar de geldigheid van desbetreffend internationaal huwelijk tussen de appellant en de tweede geïntimeinde. De omstandigheid dat dezen reeds uit de echt zijn gescheiden is terzake niet relevant. De ontbinding van het huwelijk door echtscheiding ressorteert immers slechts gevolgen ex nunc, terwijl de nietigverklaring van het huwelijk gevolgen heeft ex tunc. De openbare orde vereist dat zou worden beslist nopens de vordering van de eerste geïntimeerde tot nietigverklaring van het huwelijk. De vordering tot nietigverklaring van het huwelijk aangegaan door de appellant en de tweede geïntimeinde werd ingeleid op verzoek van de procureur des Konings bij de rechtbank van eerste aanleg te Dendermonde bij dagvaarding aan de appellant en de tweede geïntimeinde betekend op 19 september 2006. Krachtens art.1a) en 3 van de EG-verordening nr. 2201/2003 van de Raad van 27 november 2003 betreffende de bevoegdheid, de erkenning en de tenuitvoerlegging van beslissingen in huwelijkszaken en inzake de ouderlijke verantwoordelijkheid en tot intrekking van Verordening (EG) nr. 1347/2000 voor gemeenschappelijke kinderen (PB 2003 L 338,1, 19, kortweg Brussel IIbis-V°) genaamd), met inwerkingtreding op 1 maart 2005, kon desbetreffende vordering tot nietigverklaring worden ingesteld in België. De territoriaal bevoegde rechtbank is deze van Dendermonde, de appellant en de tweede geïntimeinde ten tijde van het aan hen betekend inleidend exploot gedomicilieerd zijnde te Temse (art.624,1e Ger.W.) De omstandigheid dat het huwelijk voor een vreemde autoriteit werd gesloten impliceert niet dat de Belgische rechter het geveinsde huwelijk niet zou kunnen nietig verklaren. De nietigverklaring beoogt immers niet de akte (instrumentum) te treffen, maar de achterliggende toestand die in deze akte werd opgetekend (negotium).</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20081009.6-003",
+        "relatedFullTextCitations": [
+          "<li>Overeenkomstig art. 146bis B.W. [ingevoegd bij art.12 wet van 4 mei 1999 (B.S. 1.VII.1999) met inwerkingtreding op 1 januari 2000] is er naar Belgisch recht geen huwelijk wanneer, ondanks de gegeven formele toestemmingen tot het huwelijk, uit een geheel van omstandigheden blijkt dat de intentie van minstens één van de echtgenoten kennelijk niet is gericht tot het totstandbrengen van een duurzame levensgemeenschap, maar enkel op het bekomen van een verblijfsrechtelijk voordeel dat verbonden is aan de staat van gehuwde. Bijgevolg dient aangetoond te worden, om te kunnen spreken van een schijnhuwelijk, dat minstens één van de echtgenoten tot het huwelijk is toegetreden, uitsluitend om een andere reden dan een gezinsstichting. Het bewijs van die veinzing wordt geleverd overeenkomstig de Belgische wet, die de procedure regelt, hetzij door alle middelen van recht, vermoedens inbegrepen. Aangezien de intentie van de gehuwden nooit met absolute zekerheid te achterhalen valt, dienen de aangebrachte bewijsmiddelen een beslissend karakter te hebben, met name een eenduidig en niet tegengesproken vermoeden. Eens de aanwezigheid van de intentie ten tijde van het huwelijk om een duurzame levensgemeenschap te vormen bewezen wordt, is het huwelijk geldig, zelfs indien ook andere motieven hebben meegespeeld bij het totstandkomen van het huwelijk. Het betrachten van een verblijfsvoordeel, een materieel voordeel of om het even welk huwelijksvoordeel is immers legitiem en zeker niet onverenigbaar met de werkelijke wil om te huwen voor zover de aanstaande echtgenoten naast het beogen van een huwelijksvoordeel ook de bedoeling hebben gehad om een gebonden levensgemeenschap tot stand te brengen.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:HBGNT:2008:ARR.20081009.6-004",
+        "relatedFullTextCitations": [
+          "<li>Het voordeel van het putatief huwelijk in de zin van art. 201 B.W. geldt ten aanzien van de echtgenoot te goeder trouw en ten aanzien van de kinderen. Het bestaat erin dat de burgerlijke gevolgen van het huwelijk in stand worden gehouden tot op het ogenblik waarop de beslissing van vernietiging van het huwelijk kan ten uitvoer gebracht worden, zijnde nadat het vonnis in kracht van gewijsde is getreden. De goede trouw is de enige voorwaarde voor de erkenning van het putatief huwelijk. De goede trouw wordt niet vermoed, doch moet worden bewezen door de echtgenoot die het voordeel van het putatief huwelijk inroept. De appellant bewijst die goede trouw in zijne hoofde niet. De verschillende elementen van het door de eerste geïntimeinde overgelegd politioneel onderzoek in hun onderlinge samenhang kunnen allesbehalve als dusdanig dienen. De loutere omstandigheid dat de appellant aan de politie verklaarde op 7 februari 2006 nog steeds de wens te hebben om het samenleven te hernemen met de tweede geïntimeinde - van wie hij sinds oktober 2004 gescheiden leeft - volstaat hiertoe uiteraard niet. De eerste rechter heeft ook dienaangaande een juiste beslissing genomen.</li>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 4,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 4,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

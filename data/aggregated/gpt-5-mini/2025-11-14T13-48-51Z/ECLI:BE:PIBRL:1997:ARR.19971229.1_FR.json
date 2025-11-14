@@ -1,0 +1,383 @@
+{
+  "decision_id": "ECLI:BE:PIBRL:1997:ARR.19971229.1",
+  "language": "FR",
+  "metadata": {
+    "id": 149158,
+    "court_ecli_code": "PIBRL",
+    "court_name": "Tribunal de première instance francophone de Bruxelles",
+    "decision_date": "1997-12-29",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 3869,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Tribunal de première instance francophone de Bruxelles, 29 décembre 1997, Arrêt n° 1346993, ECLI:BE:PIBRL:1997:ARR.19971229.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+        "name": "SPRL Lambimo",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:PIBRL:1997:ARR.19971229.1-002",
+        "name": "Défendeurs (propriétaires de l'appartement rue du C., Neder-over-Heembeek)",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEFENDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:PIBRL:1997:ARR.19971229.1-003",
+        "name": "Mr. et Mme L.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "AUTRE"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Les défendeurs étaient propriétaires d'un appartement situé dans un immeuble à appartements multiples rue du C. à Neder-over-Heembeek, dont la demanderesse est le syndic; le 8.07.1992, les parties ont signé un contrat par lequel la demanderesse était chargée de chercher un acheteur pour l'appartement des défendeurs; à défaut de renonciation par lettre recommandée avec préavis d'un mois, le contrat se renouvelait tacitement de mois en mois; la mission avait un caractère exclusif; le 30 1 1.1992, la demanderesse a écrit aux défendeurs qu'elle avait appris qu'un sieur L. se portait acquéreur de l'appartement et qu'elle leur rappelait leurs obligations découlant du contrat; le 1 12 1992, les défendeurs ont écrit à la demanderesse qu'elle ne leur avait proposé aucun amateur valable et qu'ils mettaient fin au mandat; le 28. 12. 1992, les défendeurs ont passé l'acte authentique de vente de leur appartement avec Mr. et Mme L.; la demanderesse justifie avoir effectué en pratique un certain nombre de prestations, notamment la publicité faite pour la vente de l'appartement de juillet à décembre 1992.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+          "requests": "En ordre principal d'entendre condamner les défendeurs à payer à la demanderesse la somme de 107.550f; à majorer des intérêts judiciaires; en ordre infiniment subsidiaire d'entendre condamner les défendeurs à payer à la demanderesse une indemnité fixée ex aequo et bono à 75.000f;"
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+          "argument": "La demanderesse soutient qu'en vertu de l'article 8 de la convention entre parties elle a droit aux honoraires de vente de 3% et que l'article 8 précise notamment qu'au cas où le propriétaire vendeur trouverait acquéreur, soit directement, soit par l'entremise d'un tiers, la SPRL Lambimo aurait droit à la totalité des honoraires décrits à l'article 9 sans devoir justifier de ses activités, à titre d'indemnité forfaitaire. Elle met en avant la nature exclusive de la mission et les démarches accomplies (publicité, recherche d'acheteur) pour justifier sa prétention aux honoraires ou, subsidiairement, à une indemnité ex aequo et bono.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:PIBRL:1997:ARR.19971229.1-002",
+          "argument": "Les défendeurs exposent que la demanderesse, pendant les six mois du contrat, n'a trouvé aucun amateur valable pour l'appartement; que la clause de l'article 8 qui attribue les honoraires même si le propriétaire trouve lui-même un acquéreur doit être déclarée nulle au regard des articles 31 à 33 de la loi du 14.07.1991 sur les pratiques du commerce et la protection du consommateur en raison d'un déséquilibre manifeste entre les droits et obligations des parties; ils soutiennent qu'en cas de non-exécution de la convention par la demanderesse il n'existe pas de sanction symétrique, de sorte que la clause est abusive et doit être écartée.",
+          "treatment": "PARTIELLEMENT_ACCEPTE"
+        }
+      ],
+      "courtOrder": "PAR CES MOTIFS, LE TRIBUNAL,\n\nVu la loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire, modifiée par la loi du 10 octobre 1967;\n\nStatuant contradictoirement,\n\n- Déclare la demande recevable et fondée dans la mesure suivante\n- Condamne les défendeurs à payer à la demanderesse la somme de 75.000- francs;\n- Condamne les défendeurs aux dépens liquidés à 7.914- francs + 12.300- francs pour la demanderesse et à 12.300- francs pour eux-mêmes;\n\nDit n'y avoir lieu d'autoriser l'exécution provisoire du présent jugement nonobstant tout recours et sans caution.",
+      "outcome": "CONDAMNATION"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+        "internalParentActId": "ACT-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+        "provisionNumber": "article 8",
+        "provisionNumberKey": "8",
+        "parentActType": "AUTRE",
+        "parentActName": "convention entre parties (contrat de mandat exclusif signé le 8 juillet 1992)",
+        "parentActDate": "1992-07-08",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour déclare la clause de l'article 8 nulle au regard de l'article 31 de la loi du 14.07.1991 dans la mesure où elle stipule que, si le propriétaire trouve lui‑même un acquéreur, la SPRL a droit à la totalité des honoraires décrits à l'article 9 sans devoir justifier de ses activités. La Chambre retient que cette stipulation crée un déséquilibre manifeste en octroyant une indemnité forfaitaire sans exigence de justification des prestations.",
+        "relevantFactualContext": "Contrat de mandat exclusif signé le 08.07.1992 (renouvelable tacitement); les défendeurs ont conclu la vente le 28.12.1992 eux‑mêmes; la demanderesse avait réalisé des prestations (publicité de juillet à décembre 1992) que les défendeurs contestent comme insuffisantes."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-002",
+        "internalParentActId": "ACT-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+        "provisionNumber": "article 9",
+        "provisionNumberKey": "9",
+        "parentActType": "AUTRE",
+        "parentActName": "convention entre parties (contrat de mandat exclusif signé le 8 juillet 1992)",
+        "parentActDate": "1992-07-08",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-003",
+        "internalParentActId": "ACT-ECLI:BE:PIBRL:19971229.1-002",
+        "provisionNumber": "article 31",
+        "provisionNumberKey": "31",
+        "parentActType": "LOI",
+        "parentActName": "loi du 14 juillet 1991 sur les pratiques du commerce et sur l'information et la protection du consommateur",
+        "parentActDate": "1991-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour applique l'article 31 de la loi du 14.07.1991 pour annuler la stipulation contractuelle litigieuse : elle considère que l'article 31 permet de sanctionner les clauses qui créent un déséquilibre manifeste en conférant au professionnel un droit forfaitaire aux honoraires sans exiger qu'il justifie des prestations accomplies. En l'espèce, cette disposition justifie la nullité de la clause critiquée.",
+        "relevantFactualContext": "La clause en cause attribuait au mandataire le droit à l'intégralité des honoraires même si le vendeur trouvait l'acheteur lui‑même; la vente a été passée par les défendeurs le 28.12.1992 alors que la demanderesse avait effectué des démarches publicitaires de juillet à décembre 1992."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-004",
+        "internalParentActId": "ACT-ECLI:BE:PIBRL:19971229.1-002",
+        "provisionNumber": "article 33",
+        "provisionNumberKey": "33",
+        "parentActType": "LOI",
+        "parentActName": "loi du 14 juillet 1991 sur les pratiques du commerce et sur l'information et la protection du consommateur",
+        "parentActDate": "1991-07-14",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": []
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit de la consommation",
+      "Mandat de recherche exclusif",
+      "Vente immobilière",
+      "Résiliation du mandat",
+      "Syndic mandataire",
+      "Clause abusive",
+      "Honoraires d'agence",
+      "Déséquilibre contractuel",
+      "Réparation ex aequo"
+    ],
+    "metadata": {
+      "totalKeywords": 9,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 3,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+        "text": "Une clause contractuelle qui, au profit du professionnel, prévoit le droit à une indemnité forfaitaire correspondant à la totalité des honoraires sans exiger la justification des prestations accomplies crée un déséquilibre manifeste au sens de l'article 31 de la loi du 14 juillet 1991 et doit être déclarée nulle.",
+        "courtVerbatim": "Attendu que la clause de l'article 8 est effectivement nulle au regard de l'article 31 de la loi sur les pratiques du commerce et sur l'information et la protection du consommateur du 14.07 1991, en ce qu'elle stipule qu'au cas où le propriétaire vendeur trouverait lui-même un acquéreur, la demanderesse a droit à la totalité de ses honoraires sans devoir justifier de ses activités;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une clause contractuelle attribue au professionnel un droit forfaitaire à l'intégralité des honoraires sans exigence de justification des prestations, au point de créer un déséquilibre manifeste entre les parties.",
+        "relevantFactualContext": "Contrat de mandat exclusif signé le 08.07.1992; l'article 8 prévoyait qu'en cas de découverte d'un acquéreur par le propriétaire celui-ci devait payer la totalité des honoraires sans justification; les défendeurs ont conclu la vente le 28.12.1992.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:PIBRL:1997:ARR.19971229.1-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRL:1997:ARR.19971229.1-002",
+        "text": "Lorsque la clause contractuelle est annulée pour déséquilibre manifeste, le professionnel conserve le droit à une rémunération pour les prestations effectivement exécutées; le tribunal peut, à défaut d'accord entre les parties, évaluer et fixer cette rémunération ex aequo et bono.",
+        "courtVerbatim": "Attendu que par ailleurs la demanderesse justifie en pratique un certain nombre de prestations, notamment la publicité faite pour la vente de l'appartement, de juillet à décembre 1992; Attendu que la demanderesse a droit à une rémunération pour ces prestations, Attendu que cette rémunération peut être fixée ex aequo et bono à 75.000f;",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque, après nullité d'une clause indemnitaire créant un déséquilibre, le professionnel a accompli des prestations dont la rémunération n'est pas réglée par une clause valide.",
+        "relevantFactualContext": "La demanderesse a effectué des démarches publicitaires de juillet à décembre 1992; la clause forfaitaire d'article 8 étant nulle, le tribunal a fixé la rémunération ex aequo et bono à 75.000 francs.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-002",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "La demanderesse, syndic chargé en mandat exclusif de rechercher un acquéreur pour l'appartement des défendeurs, demande le paiement d'honoraires après la vente intervenue malgré la résiliation du mandat. Le tribunal déclare nulle la clause prévoyant le paiement intégral des honoraires lorsque le propriétaire trouve lui‑même un acquéreur au regard de l'article 31 de la loi du 14 juillet 1991 pour déséquilibre manifeste, alloue néanmoins à la demanderesse une rémunération ex aequo et bono de 75.000 francs et condamne les défendeurs à cette somme et aux dépens."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que la demanderesse expose qu'en vertu de l'article 8 de la convention entre parties, elle a droit aux honoraires de vente de 3%; que l'article 8 de la convention précise notamment qu'au cas où le propriétaire vendeur trouverait acquéreur, soit directement, soit par l'entremise d'un tiers, la SPRL Lambimo aurait droit à la totalité des honoraires décrits à l'article 9 sans devoir justifier de ses activités, à titre d'indemnité forfaitaire;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que les défendeurs exposent que la demanderesse, pendant les six mois du contrat, n'a trouvé aucun amateur pour l'appartement; que la clause susdite de l'article 8 doit être déclarée nulle au regard des articles 31 à 33 de la loi du 14.07.1991 sur les pratiques du commerce et la protection du consommateur; qu'il y a un déséquilibre manifeste entre les droits et obligations des parties; que si la demanderesse n'exécute pas la convention, elle n'a aucune sanction alors que l'inverse n'est pas vrai;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que la clause de l'article 8 est effectivement nulle au regard de l'article 31 de la loi sur les pratiques du commerce et sur l'information et la protection du consommateur du 14.07 1991, en ce qu'elle stipule qu'au cas où le propriétaire vendeur trouverait lui-même un acquéreur, la demanderesse a droit à la totalité de ses honoraires sans devoir justifier de ses activités;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-002",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-003",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que la demanderesse expose qu'en vertu de l'article 8 de la convention entre parties, elle a droit aux honoraires de vente de 3%; que l'article 8 de la convention précise notamment qu'au cas où le propriétaire vendeur trouverait acquéreur, soit directement, soit par l'entremise d'un tiers, la SPRL Lambimo aurait droit à la totalité des honoraires décrits à l'article 9 sans devoir justifier de ses activités, à titre d'indemnité forfaitaire;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-002",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que les défendeurs exposent que la demanderesse, pendant les six mois du contrat, n'a trouvé aucun amateur pour l'appartement; que la clause susdite de l'article 8 doit être déclarée nulle au regard des articles 31 à 33 de la loi du 14.07.1991 sur les pratiques du commerce et la protection du consommateur; qu'il y a un déséquilibre manifeste entre les droits et obligations des parties; que si la demanderesse n'exécute pas la convention, elle n'a aucune sanction alors que l'inverse n'est pas vrai;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que la clause de l'article 8 est effectivement nulle au regard de l'article 31 de la loi sur les pratiques du commerce et sur l'information et la protection du consommateur du 14.07 1991, en ce qu'elle stipule qu'au cas où le propriétaire vendeur trouverait lui-même un acquéreur, la demanderesse a droit à la totalité de ses honoraires sans devoir justifier de ses activités;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-003",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que les défendeurs exposent que la demanderesse, pendant les six mois du contrat, n'a trouvé aucun amateur pour l'appartement; que la clause susdite de l'article 8 doit être déclarée nulle au regard des articles 31 à 33 de la loi du 14.07.1991 sur les pratiques du commerce et la protection du consommateur; qu'il y a un déséquilibre manifeste entre les droits et obligations des parties; que si la demanderesse n'exécute pas la convention, elle n'a aucune sanction alors que l'inverse n'est pas vrai;</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-004",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-003",
+          "ART-ECLI:BE:PIBRL:1997:ARR.19971229.1-001"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 4,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerProvision": 1.75,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 0
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRL:1997:ARR.19971229.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que la demanderesse expose qu'en vertu de l'article 8 de la convention entre parties, elle a droit aux honoraires de vente de 3%; que l'article 8 de la convention précise notamment qu'au cas où le propriétaire vendeur trouverait acquéreur, soit directement, soit par l'entremise d'un tiers, la SPRL Lambimo aurait droit à la totalité des honoraires décrits à l'article 9 sans devoir justifier de ses activités, à titre d'indemnité forfaitaire;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que les défendeurs exposent que la demanderesse, pendant les six mois du contrat, n'a trouvé aucun amateur pour l'appartement; que la clause susdite de l'article 8 doit être déclarée nulle au regard des articles 31 à 33 de la loi du 14.07.1991 sur les pratiques du commerce et la protection du consommateur; qu'il y a un déséquilibre manifeste entre les droits et obligations des parties; que si la demanderesse n'exécute pas la convention, elle n'a aucune sanction alors que l'inverse n'est pas vrai;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que la clause de l'article 8 est effectivement nulle au regard de l'article 31 de la loi sur les pratiques du commerce et sur l'information et la protection du consommateur du 14.07 1991, en ce qu'elle stipule qu'au cas où le propriétaire vendeur trouverait lui-même un acquéreur, la demanderesse a droit à la totalité de ses honoraires sans devoir justifier de ses activités;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:PIBRL:1997:ARR.19971229.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Attendu que la demanderesse expose qu'en vertu de l'article 8 de la convention entre parties, elle a droit aux honoraires de vente de 3%; que l'article 8 de la convention précise notamment qu'au cas où le propriétaire vendeur trouverait acquéreur, soit directement, soit par l'entremise d'un tiers, la SPRL Lambimo aurait droit à la totalité des honoraires décrits à l'article 9 sans devoir justifier de ses activités, à titre d'indemnité forfaitaire;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que la clause de l'article 8 est effectivement nulle au regard de l'article 31 de la loi sur les pratiques du commerce et sur l'information et la protection du consommateur du 14.07 1991, en ce qu'elle stipule qu'au cas où le propriétaire vendeur trouverait lui-même un acquéreur, la demanderesse a droit à la totalité de ses honoraires sans devoir justifier de ses activités;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que par ailleurs la demanderesse justifie en pratique un certain nombre de prestations, notamment la publicité faite pour la vente de l'appartement, de juillet à décembre 1992;</p>",
+          "<p class=\"case-section__paragraph\">Attendu que la demanderesse a droit à une rémunération pour ces prestations,</p>",
+          "<p class=\"case-section__paragraph\">Attendu que cette rémunération peut être fixée ex aequo et bono à 75.000f;</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "citationStatistics": {
+        "totalCitations": 8,
+        "avgCitationsPerTeaching": 4,
+        "teachingsWithMinimalCitations": 0,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 5,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

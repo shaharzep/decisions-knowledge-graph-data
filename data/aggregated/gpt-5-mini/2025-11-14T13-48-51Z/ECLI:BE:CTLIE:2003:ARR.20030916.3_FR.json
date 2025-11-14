@@ -1,0 +1,540 @@
+{
+  "decision_id": "ECLI:BE:CTLIE:2003:ARR.20030916.3",
+  "language": "FR",
+  "metadata": {
+    "id": 157449,
+    "court_ecli_code": "CTLIE",
+    "court_name": "Cour du travail de Liège",
+    "decision_date": "2003-09-16",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 23621,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Cour du travail de Liège, 16 septembre 2003, R.G. 29.041/00, Rép. 1350, ECLI:BE:CTLIE:2003:ARR.20030916.3"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+        "name": "Monsieur G...",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "APPELANT"
+      },
+      {
+        "id": "PARTY-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+        "name": "S.P.R.L. DATACO",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "INTIME"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Monsieur G... était gérant de la S.P.R.L. S.S.O., auteur d'un logiciel exploité sur caisses enregistreuses; cette société fut déclarée en faillite et, en avril 1998, le fonds de commerce (dont le logiciel) fut vendu à la S.P.R.L. EASY LINK. Par lettre du 24 mars 1998 (remplacée par celle du 23 avril), la S.P.R.L. EASY LINK confia à la S.P.R.L. DATACO, représentée par Monsieur J..., la sous-traitance de l'analyse et de l'achèvement du logiciel, pour réalisation d'un produit commercialisable dans un délai d'environ neuf mois; EASY LINK reprendrait les sources à l'expiration du délai après paiement des factures. Le 8 avril 1998 la S.P.R.L. DATACO engagea Monsieur G... comme employé; il était chargé, en tant que programmeur, de la réécriture et amélioration du logiciel acquis par EASY LINK; il travaillait principalement à son domicile à Lier et accessoirement dans des locaux destinés à EASY LINK à Malines. Le 24 novembre 1998 EASY LINK annonça à sa clientèle que le nouveau logiciel était disponible; Monsieur G... procéda ensuite à des installations chez plusieurs clients et produisit des factures établies par EASY LINK en novembre et décembre 1998. Par divers courriers (décembre 1998-janvier 1999) Monsieur G... réclama la régularisation de son contrat chez EASY LINK; DATACO modifia les modalités de lieu de travail et, le 25 janvier 1999, Monsieur G... notifia sa démission avec préavis d'un mois et demi à compter du 1/2/1999; par lettre du 11 février 1999 il déclara que, suite aux événements, il considérait que l'employeur avait définitivement mis fin à son contrat et qu'il ne serait plus en service dès le 15/02/1999. Le 15 mars 1999 la S.P.R.L. DATACO asségna Monsieur G... en paiement de l'indemnité compensatoire de préavis (rémunération d'un mois). Le jugement du 1er décembre 1999 condamna Monsieur G... au paiement de 82.246 francs à titre d'indemnité de rupture (majorée d'intérêts) et le condamna à payer 16.233 francs pour non-restitution d'un véhicule; le jugement du 29 mars 2000 le condamna à restituer sous astreinte un facturier et une caisse enregistreuse. Les parties firent appel; en procédure d'appel la Cour a réexaminé les faits et motifs au vu des pièces et des plaidoiries.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+          "requests": "M. G... sollicite la mise à néant du jugement du 1er décembre 1999 en tant qu'il le condamne au paiement de l'indemnité de rupture de 82.246 francs et demande d'être déchargé de la condamnation relative aux dommages-intérêts pour non-restitution du véhicule; il attaque également le jugement du 29 mars 2000 condamnant à restituer un facturier et une caisse enregistreuse et demande d'être déchargé de cette restitution."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+          "requests": "La S.P.R.L. DATACO critique la formulation retenue pour la base de calcul des intérêts de retard sur l'indemnité de rupture figurant au jugement du 1er décembre 1999 et réclame, subsidiairement, l'obtention de dommages-intérêts pour inexécution fautive des obligations contractuelles de Monsieur G... (préjudice évalué provisionnellement à un franc)."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+          "argument": "M. G... soutient que son contrat de travail avec la S.P.R.L. DATACO est nul en raison d'une mise illicite à la disposition de la S.P.R.L. EASY LINK, au sens de l'article 31 de la loi du 24 juillet 1987; il fait valoir que, dès que, en novembre 1998, il a travaillé exclusivement pour EASY LINK et que celle-ci exerçait l'autorité sur lui, il convient de considérer la nullité du contrat avec DATACO, que le contrat de travail réputé existerait alors avec EASY LINK et qu'il pouvait mettre fin audit contrat sans préavis ni indemnité, de sorte que DATACO n'avait pas droit à une indemnité compensatoire de préavis.",
+          "treatment": "ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+          "argument": "M. G... conteste la condamnation à payer 16.233 francs pour non-restitution du véhicule; il fait valoir, en substance, des moyens relatifs aux modalités de remise et aux circonstances de la mise à disposition du véhicule et soutient qu'il n'a pas manqué à son obligation de restitution de manière donnant droit à la somme réclamée par DATACO.",
+          "treatment": "REJETE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+          "argument": "M. G... soutient qu'il n'est pas en possession du facturier et de la caisse enregistreuse et conteste la condamnation du 29 mars 2000 à restituer ces objets; il fait valoir que la société ne prouve pas avoir remis ces choses à son attention ni avoir obtenu un accusé de réception, de sorte qu'il demande d'être déchargé de la condamnation à restitution.",
+          "treatment": "ACCEPTE"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+          "argument": "La S.P.R.L. DATACO critique la formulation adoptée par le jugement du 1er décembre 1999 pour déterminer la base de calcul des intérêts de retard sur l'indemnité de rupture mise à la charge de Monsieur G... et demande la correction de cette formulation par la Cour d'appel.",
+          "treatment": "SANS_OBJET"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+          "argument": "La S.P.R.L. DATACO prétend, quant aux dommages-intérêts invoqués pour inexécution fautive des obligations contractuelles de Monsieur G..., que ce dernier n'a pas été en mesure de finaliser de manière opérationnelle le programme dont la réécriture lui avait été confiée et réclame réparation du préjudice résultant de cette inexécution; elle n'a toutefois pas précisé et évalué de façon suffisante son propre dommage.",
+          "treatment": "REJETE"
+        }
+      ],
+      "courtOrder": "L'appel principal, en tant que dirigé contre le jugement du $1^{\\text {er }}$ décembre 1999, est largement fondé.\n\nCe jugement est annulé en ce qu'il condamne Monsieur G... à payer à la S.P.R.L. DATACO la somme de 82.246 francs, majorée des intérêts, à titre d'indemnité de rupture. Il est confirmé en ce qu'il le condamne à payer à cette s ociété la somme de 16.233 francs, majorée des intérêts, à titre de dommages-intérêts pour non-restitution du véhicule.\n\n---\n\nL'appel principal, en tant que dirigé contre le jugement du 29 mars 2000, est fondé.\n\nCe jugement est annulé en ce qu'il condamne Monsieur G... à restituer à la S.P.R.L. DATACO, sous peine d'astreinte, un facturier et une caisse enregistreuse.\n\nL'appel incident, dirigé contre le jugement du 1 ${ }^{\\text {er }}$ décembre 1999, est sans objet quant à la base de calcul des intérêts de retard sur l'indemnité de rupture mise à charge de Monsieur G... par ce jugement.\n\nL'appel incident est, pour le surplus, non fondé.\nLedit jugement est confirmé en ce qu'il déboute la S.P.R.L. DATACO de sa prétention à obtenir des dommages -intérêts pour inexécution fautive des obligations contractuelles de Monsieur G...\n\nLa S.P.R.L. DATACO prend en charge 9/10 de tous les dépens de Monsieur G..., liquidés pour lui aux montants de 239,47 € pour la première instance et $267,73 €$ pour l'appel.",
+      "outcome": "ANNULATION_PARTIELLE"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+        "provisionNumber": "article 24",
+        "provisionNumberKey": "24",
+        "parentActType": "LOI",
+        "parentActName": "loi du 15 juin 1935 concernant l'emploi des langues en matière judiciaire",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+        "provisionNumber": "article 31, § 1er",
+        "provisionNumberKey": "31",
+        "parentActType": "LOI",
+        "parentActName": "loi du 24 juillet 1987 sur le travail temporaire, le travail intérimaire et la mise de travailleurs à la disposition d'utilisateurs",
+        "parentActDate": "1987-07-24",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 31 dans son ensemble comme prohibant, hors du régime légal du travail temporaire/intérimaire, la mise à disposition de travailleurs par un employeur à un utilisateur; elle rappelle que, selon les §§ 2 et 3, un tel contrat est nul et le travailleur est réputé lié à l'utilisateur, pouvant mettre fin au contrat sans préavis ni indemnité.",
+        "relevantFactualContext": "DATACO a engagé M. G le 8/04/1998 dans le cadre d'un contrat de sous-traitance avec EASY LINK; à partir de novembre 1998 (au plus tard le 24/11/1998) M. G a travaillé exclusivement pour EASY LINK et a reçu ses directives de M. J, de sorte que la Cour considère la mise à disposition comme illicite et le contrat comme nul à cette date."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-003",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+        "provisionNumber": "article 32",
+        "provisionNumberKey": "32",
+        "parentActType": "LOI",
+        "parentActName": "loi du 24 juillet 1987 sur le travail temporaire, le travail intérimaire et la mise de travailleurs à la disposition d'utilisateurs",
+        "parentActDate": "1987-07-24",
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour relève que l'article 32 prévoit des situations de mise à disposition autorisées mais qu'il exige un caractère temporaire ou exceptionnel; elle conclut que la mise à disposition constatée ne répondait pas à ces conditions et n'entrait donc pas dans le champ d'application d'un dispositif autorisé par l'article 32.",
+        "relevantFactualContext": "La S.P.R.L. DATACO avait sous-traité la réécriture du logiciel à EASY LINK; la Cour constate qu'à compter de novembre 1998 le travail confié à M. G bénéficiait exclusivement à EASY LINK et ne présentait pas un caractère purement temporaire ou exceptionnel."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-004",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2003:ARR.20030916.3-003",
+        "provisionNumber": "article 39, § 1er",
+        "provisionNumberKey": "39",
+        "parentActType": "LOI",
+        "parentActName": "loi du 3 juillet 1978 relative aux contrats de travail",
+        "parentActDate": "1978-07-03",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": "La S.P.R.L. DATACO a assigné M. G le 15/03/1999 en paiement de l'indemnité compensatoire de la partie du préavis restant à courir en invoquant l'article 39 §1er; le jugement de première instance avait condamné M. G sur cette base, constatant l'absence de motif grave invoqué par lui, mais la Cour d'appel annule cette condamnation en raison de la nullité du contrat constatée sous l'article 31."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-005",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2003:ARR.20030916.3-004",
+        "provisionNumber": "article 1875",
+        "provisionNumberKey": "1875",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour considère que la convention de prêt à usage impose à l'emprunteur l'obligation de rendre la chose prêtée au prêteur (art. 1875) mais que cette disposition ne fixe pas le lieu d'exécution; il convient dès lors d'appliquer les règles générales du Code civil pour déterminer où la restitution doit avoir lieu.",
+        "relevantFactualContext": "Par convention du 8/02/1999 DATACO a mis une voiture à la disposition de M. G qui devait la restituer à première réquisition; M. G n'a pas rendu le véhicule au siège de DATACO à Liège, entraînant des frais de récupération évalués à 16.233 francs."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-006",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2003:ARR.20030916.3-004",
+        "provisionNumber": "article 1247",
+        "provisionNumberKey": "1247",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour interprète l'article 1247 comme disposant que, lorsqu'une obligation porte sur une chose déterminée et que le lieu d'exécution n'est pas fixé par la convention, l'exécution doit avoir lieu à l'endroit où se trouvait la chose au moment de la naissance de l'obligation; appliqué au prêt du véhicule, cela impose la restitution au lieu où il avait été remis.",
+        "relevantFactualContext": "Le véhicule avait été remis à M. G au siège de DATACO à Liège; comme il ne l'a pas rendu, la Cour juge que l'obligation de restitution s'exécute au lieu où la chose avait été remise, justifiant la condamnation au remboursement des frais encourus pour la récupérer."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-007",
+        "internalParentActId": "ACT-ECLI:BE:CTLIE:2003:ARR.20030916.3-004",
+        "provisionNumber": "article 1943",
+        "provisionNumberKey": "1943",
+        "parentActType": "CODE",
+        "parentActName": "Code civil",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "La Cour rappelle que l'article 1943 prévoit, pour le contrat de dépôt, une règle dérogatoire imposant la restitution au lieu où se trouve la chose lors de la restitution; elle souligne cependant que cette dérogation ne vaut pas pour le prêt à usage, de sorte que le régime du prêt impose la restitution au lieu où la chose a été remise.",
+        "relevantFactualContext": "La Cour distingue le prêt à usage du dépôt: ici la convention du 8/02/1999 est qualifiée de prêt à usage et non de dépôt, de sorte que la restitution devait s'effectuer au siège de DATACO à Liège et non au lieu où la chose se trouvait lors de la demande de restitution."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour du travail de Liège",
+        "date": "2001-09-17",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTLIE:2003:ARR.20030916.3-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour du travail de Liège",
+        "date": "1999-12-01",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTLIE:2003:ARR.20030916.3-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cour du travail de Liège",
+        "date": "2000-03-29",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:CTLIE:2003:ARR.20030916.3-003"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit du travail",
+      "Contrat de travail",
+      "Sous-traitance",
+      "Développement logiciel",
+      "Travail à domicile",
+      "Mise à disposition illicite",
+      "Nullité du contrat",
+      "Préavis et indemnité",
+      "Restitution du matériel",
+      "Application loi travail temporaire"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+        "text": "La mise à disposition d'un travailleur est illicite au sens de l'article 31, §1 de la loi du 24 juillet 1987 lorsque, en dehors du régime légal du travail temporaire/intérimaire, le travailleur exécute ses prestations essentiellement pour le compte d'un tiers utilisateur, reçoit de celui-ci des ordres et directives et que la situation ne présente pas un caractère purement temporaire ou exceptionnel au sens de l'article 32.",
+        "courtVerbatim": "Il y a donc lieu de constater qu'à compter de novembre 1998, Monsieur G... a travaillé exclusivement pour le compte et au bénéfice de la S.P.R.L. EASY LINK. Aussi faut-il considérer que c'est celle-ci que Monsieur J... représentait quand, pour l'exécution d'un tel travail, il donnait des ordres et directives à Monsieur G... Ce dernier était de la sorte soumis au pouvoir d'autorité de la S.P.R.L. EASY LINK. Cette société était en somme le véritable employeur de l'intéressé. Comme le lien contractuel avec la S.P.R.L. DATACO subsistait en apparence, Monsieur G... se trouvait dans la situation d'un travailleur mis par elle à la disposition de la S.P.R.L. EASY LINK. Cette mise à disposition était toutefois illicite au regard de l'article 31, § 1er, de la loi du 24 juillet 1987. Ajoutons qu'elle ne correspondait pas à une mise à disposition autorisée en vertu de l'article 32 de la même loi. Elle ne présentait pas non plus un caractère purement temporaire ou exceptionnel",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'un employeur a engagé un travailleur qui, dans les faits, exécute ses tâches principalement pour le compte d'un tiers utilisateur et reçoit de ce tiers les ordres et directives, sans que la mise présente un caractère purement temporaire ou exceptionnel.",
+        "relevantFactualContext": "DATACO a engagé M. G le 8/04/1998 dans le cadre d'un contrat de sous-traitance avec EASY LINK; à partir de novembre 1998 M. G a travaillé exclusivement pour EASY LINK et a reçu ses directives de M. J, de sorte que la Cour a constaté la mise à disposition illicite ne relevant pas de l'article 32.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-ECLI:BE:CTLIE:2003:ARR.20030916.3-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+        "text": "Lorsque la mise à disposition est illicite, les §§2 et 3 de l'article 31 de la loi du 24 juillet 1987 entraînent la nullité du contrat conclu avec le sous-traitant dès le début de l'exécution chez l'utilisateur; le travailleur est réputé lié par un contrat de travail avec l'utilisateur, réputé à durée indéterminée, et peut mettre fin à ce contrat sans préavis ni indemnité.",
+        "courtVerbatim": "Il découle de l'article 31, §§ 2 et 3, de la loi du 24 juillet 1987 que, dès le 24 novembre 1998 au plus tard, le contrat de travail conclu entre Monsieur G... et la S.P.R.L. DATACO était nul et que l'intéressé était lié à la S.P.R.L. EASY LINK par un tel contrat, réputé à durée indéterminée, auquel il pouvait mettre fin sans préavis ni indemnité.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique quand la situation factuelle révèle une mise à disposition illicite au sens de l'article 31 (travail fourni pour le compte et sous l'autorité de l'utilisateur et absence de caractère temporaire/exceptionnel).",
+        "relevantFactualContext": "La Cour a constaté qu'à compter de novembre 1998 le lien de fait était avec EASY LINK; en conséquence, elle a jugé que le contrat avec DATACO était nul et que M. G était réputé lié à EASY LINK, pouvant rompre sans préavis ni indemnité.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2003:ARR.20030916.3-003",
+        "text": "Pour le prêt à usage, l'article 1875 du Code civil impose à l'emprunteur l'obligation de rendre la chose au prêteur; à défaut de clause fixant le lieu d'exécution, l'article 1247 impose que l'obligation s'exécute au lieu où se trouvait la chose au moment de la naissance de l'obligation: l'emprunteur doit restituer l'objet au lieu où il lui a été remis. L'article 1943, applicable au dépôt, constitue une dérogation qui ne s'applique pas au prêt à usage.",
+        "courtVerbatim": "Dans le cas d'espèce, compte tenu de la situation juridique des parties lors des faits, leur convention du 8 février 1999 s'analyse comme un prêt à usage. Le Code civil, en son article 1875, prévoit que l'emprunteur est obligé de rendre au prêteur la chose prêtée, mais il ne précise pas où. Il faut dès lors se référer aux règles générales figurant dans l'article 1247 du même code. D'après cette disposition, lorsqu'une obligation porte sur un corps certain et que le lieu de l'exécution n'est pas désigné par la convention, elle doit être exécutée dans le lieu où était, au temps de l'obligation, la chose qui en fait l'objet. C'est par dérogation à cette règle que, par exemple, le Code civil porte en son article 1943, à propos du contrat de dépôt, que la restitution doit se faire au lieu où se trouve la chose lors de cette restitution. Une telle dérogation n'existe cependant pas pour le prêt à usage. Il suit que l'emprunteur, notamment quand il déplace la chose prêtée, est tenu de la rendre au lieu où son obligation de restitution est née, c'est-à-dire là où la chose prêtée lui a été remise (cf. DE PAGE, Traité..., titre III, n 471).",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique pour les contrats qualifiés de prêt à usage: lorsqu'il n'est pas prévu de lieu d'exécution, la restitution doit être exécutée au lieu où la chose se trouvait lors de la naissance de l'obligation (lieu de remise).",
+        "relevantFactualContext": "Par convention du 8/02/1999 DATACO a mis une voiture à la disposition de M. G qui devait la restituer à la première réquisition; le véhicule avait été remis au siège de DATACO à Liège et M. G ne l'a pas rendu, justifiant la condamnation au remboursement des frais de récupération.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-005",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-006",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-007"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 0,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 3,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur, un travailleur, conteste une condamnation au paiement d'une indemnité de rupture réclamée par la société qui l’avait engagé et la société réclame aussi restitution de matériel et dommages‑intérêts. La Cour annule la condamnation de l'employé au paiement de l'indemnité de rupture, confirme la condamnation portant remboursement des frais liés au véhicule et annule l'ordre de restitution du facturier et de la caisse enregistreuse; la société est déboutée de sa demande en dommages‑intérêts. La Cour retient comme principe essentiel que la mise à disposition illicite du travailleur à un utilisateur rend le contrat initial nul en application de l'article 31 de la loi du 24 juillet 1987, permettant au travailleur de rompre sans préavis ni indemnité."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vu la loi du 15 juin 1935 concernant l'emploi des langues en matière judiciaire, en particulier son article 24,</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">En degré d'appel, Monsieur G... prend d'abord moyen de la nullité de son contrat de travail avec la S.P.R.L. DATACO du fait que cette dernière l'avait mis illicitement à la disposition de la S.P.R.L. EASY LINK. Il en déduit qu'il était libéré de l'obligation, pour se séparer de la S.P.R.L. DATACO, de lui donner un préavis de démission et, donc, de lui payer une indemnité compensatoire de tout ou partie de ce préavis. Il base sa thèse sur l'article 31 de la loi du 24 juillet 1987 sur le travail temporaire, le travail intérimaire et la mise de travailleurs à la disposition d'utilisateurs. Selon le § 1er de cet article 31, est interdite l'activité d'une personne physique ou morale qui consiste, en dehors des règles légales organisant le travail temporaire et le travail intérimaire, à mettre des travailleurs qu'elle a engagés à la disposition de tiers qui utilisent ces travailleurs et exercent sur eux une part quelconque de l'autorité appartenant normalement à l'employeur. D'après le § 2, le contrat par lequel un travailleur est engagé pour être mis à la disposition d'un utilisateur est nul dès le début de l'exécution du travail chez ce dernier. Suivant le § 3, c'est avec l'utilisateur que le travailleur est considéré comme lié par un contrat de travail, réputé à durée indéterminée, dès le début de l'exécution des prestations ; toutefois, le travailleur peut mettre fin à ce contrat sans préavis ni indemnité. En l'espèce, la S.P.R.L. DATACO a embauché Monsieur G... en qualité d'employé le 8 avril 1998. Elle démontre par ailleurs avoir conclu à cette époque avec la S.P.R.L. EASY LINK, en cours de formation, un contrat de sous-traitance. Celui-ci se définit comme étant un contrat d'entreprise par lequel le sous-traitant s'engage à effectuer certains travaux, avec le concours de son propre personnel, pour le compte d'un entrepreneur principal, moyennant un prix convenu entre les parties (J.-F. GERARD, \" La mise de travailleurs à la disposition d'utilisateurs, Orient., 1992, p. 16). L'objet du contrat d'entreprise en général, et du contrat de sous-traitance en particulier, consiste dans l'exécution d'un travail déterminé (M. GOLDFAYS et M.-N. VANDERHOVEN, \" La mise à disposition de travailleurs \", J.T.T., 2001, p. 422). En l'occurrence, la S.P.R.L. DATACO s'était engagée envers la S.P.R.L. EASY LINK à sous-traiter la réécriture du logiciel, appartenant à cette dernière, jusqu'à la réalisation d'un produit fini commercialisable. Il est également établi à suffisance que la S.P.R.L. DATACO a fait appel aux services de Monsieur G... pour mener à bien cette tâche précise. Il est admis que, dans le cadre d'une sous-traitance, le travailleur du sous-traitant n'est pas mis, en principe, à la disposition de l'entrepreneur principal en violation de la loi du 24 juillet 1987 (ibid.). En effet, ce travailleur fournit son activité uniquement pour le compte du sous-traitant qui, grâce à lui, honore ses obligations envers l'entrepreneur principal. Surtout, il est soumis au seul pouvoir d'autorité du sous-traitant, sans que ce pouvoir soit délégué en tout ou en partie à l'entrepreneur principal (sauf dans la mesure prévue par l'article 31, § 1er, de ladite loi, en son nouvel alinéa 2 introduit, postérieurement aux faits litigieux, par la loi-programme du 12 août 2000). Ainsi donc, en la présente cause, aussi longtemps que la S.P.R.L. DATACO a exécuté son contrat de sous-traitance avec la S.P.R.L. EASY LINK, Monsieur G... n'a pas été mis illicitement à la disposition de celle-ci ; il ne travaillait que pour la S.P.R.L. DATACO et, quand il recevait des directives de Monsieur J..., c'est de cette dernière société qu'il était censé les recevoir. Cela étant, il s'impose de considérer que cette situation a pris fin en novembre 1998 et, au plus tard, le 24 de ce mois. En effet, à cette date, la S.P.R.L. EASY LINK a présenté par courrier à sa clientèle le nouveau logiciel comme immédiatement prêt à la vente. L'exécution du contrat de sous-traitance était donc achevée, le travail convenu étant terminé. Au demeurant, le délai de neuf mois, initialement estimé comme raisonnable, était à peu près expiré. Certes, la S.P.R.L. DATACO prétend que la réécriture et l'amélioration du logiciel étaient toujours en cours et que celui-ci ne sera jamais finalisé ni effectivement commercialisé. Elle ne prouve cependant pas ses allégations, que contredisent les pièces produites par Monsieur G... Ce dernier expose aussi qu'à partir de novembre 1998, il a travaillé directement pour la S.P.R.L. EASY LINK, effectuant les installations du nouveau logiciel, et toutes autres prestations annexes, auprès de la clientèle de celle-ci, acquise dans le fonds de commerce de la S.P.R.L. S.S.O. Quoiqu'il n'avait pas accès à la comptabilité de la S.P.R.L. EASY LINK, il a pu déposer les photocopies de trois factures établies par cette société à destination de ses clients, datées des 6 novembre, 24 décembre et 28 décembre 1998, relativement à des interventions accomplies par lui. De son côté, la S.P.R.L. DATACO ne prouve pas qu'après novembre 1998, il aurait consacré l'essentiel de son temps à poursuivre la mise au point du logiciel, comme elle le soutient, ou qu'il aurait exercé une quelconque autre activité auprès de sa clientèle à elle ou, plus généralement, pour son propre profit. Il y a donc lieu de constater qu'à compter de novembre 1998, Monsieur G... a travaillé exclusivement pour le compte et au bénéfice de la S.P.R.L. EASY LINK. Aussi faut-il considérer que c'est celle-ci que Monsieur J... représentait quand, pour l'exécution d'un tel travail, il donnait des ordres et directives à Monsieur G... Ce dernier était de la sorte soumis au pouvoir d'autorité de la S.P.R.L. EASY LINK. Cette société était en somme le véritable employeur de l'intéressé. C'est d'ailleurs pourquoi il a demandé à Monsieur J..., mais en vain, d'officialiser son contrat avec ladite S.P.R.L.. Comme le lien contractuel avec la S.P.R.L. DATACO subsistait en apparence, Monsieur G... se trouvait dans la situation d'un travailleur mis par elle à la disposition de la S.P.R.L. EASY LINK. Cette mise à disposition était toutefois illicite au regard de l'article 31, § 1er, de la loi du 24 juillet 1987. Ajoutons qu'elle ne correspondait pas à une mise à disposition autorisée en vertu de l'article 32 de la même loi. Elle ne présentait pas non plus un caractère purement temporaire ou exceptionnel car, les réclamations de Monsieur G... restant sans suite, elle semblait devoir durer aussi longtemps que le contrat de travail lui-même. Il faut encore préciser que la mise à disposition légalement prohibée couvre non seulement le cas où le travailleur est engagé en vue de cette mise à disposition, mais également le cas où celle-ci n'intervient qu'un certain temps après l'engagement (B. NYSSEN, La mise de travailleurs à la disposition d'utilisateurs, U.C.L., Académie du droit, 28 sept. 2000, p.1). Il découle de l'article 31, §§ 2 et 3, de la loi du 24 juillet 1987 que, dès le 24 novembre 1998 au plus tard, le contrat de travail conclu entre Monsieur G... et la S.P.R.L. DATACO était nul et que l'intéressé était lié à la S.P.R.L. EASY LINK par un tel contrat, réputé à durée indéterminée, auquel il pouvait mettre fin sans préavis ni indemnité. Il est indifférent qu'il ait annoncé à la S.P.R.L. DATACO, le 25 janvier 1999, la rupture d'un contrat nul, puis qu'il ait constaté, à la date du 15 février 1999, la résiliation de ce contrat. Partant, la S.P.R.L. DATACO était sans droit pour lui réclamer une indemnité compensatoire et c'est à tort que le jugement du 1er décembre 1999 le condamne au paiement de pareille indemnité. A cet égard, l'appel principal est donc fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-003"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">En degré d'appel, Monsieur G... prend d'abord moyen de la nullité de son contrat de travail avec la S.P.R.L. DATACO du fait que cette dernière l'avait mis illicitement à la disposition de la S.P.R.L. EASY LINK. Il en déduit qu'il était libéré de l'obligation, pour se séparer de la S.P.R.L. DATACO, de lui donner un préavis de démission et, donc, de lui payer une indemnité compensatoire de tout ou partie de ce préavis. Il base sa thèse sur l'article 31 de la loi du 24 juillet 1987 sur le travail temporaire, le travail intérimaire et la mise de travailleurs à la disposition d'utilisateurs. Selon le § 1er de cet article 31, est interdite l'activité d'une personne physique ou morale qui consiste, en dehors des règles légales organisant le travail temporaire et le travail intérimaire, à mettre des travailleurs qu'elle a engagés à la disposition de tiers qui utilisent ces travailleurs et exercent sur eux une part quelconque de l'autorité appartenant normalement à l'employeur. D'après le § 2, le contrat par lequel un travailleur est engagé pour être mis à la disposition d'un utilisateur est nul dès le début de l'exécution du travail chez ce dernier. Suivant le § 3, c'est avec l'utilisateur que le travailleur est considéré comme lié par un contrat de travail, réputé à durée indéterminée, dès le début de l'exécution des prestations ; toutefois, le travailleur peut mettre fin à ce contrat sans préavis ni indemnité. En l'espèce, la S.P.R.L. DATACO a embauché Monsieur G... en qualité d'employé le 8 avril 1998. Elle démontre par ailleurs avoir conclu à cette époque avec la S.P.R.L. EASY LINK, en cours de formation, un contrat de sous-traitance. Celui-ci se définit comme étant un contrat d'entreprise par lequel le sous-traitant s'engage à effectuer certains travaux, avec le concours de son propre personnel, pour le compte d'un entrepreneur principal, moyennant un prix convenu entre les parties (J.-F. GERARD, \" La mise de travailleurs à la disposition d'utilisateurs, Orient., 1992, p. 16). L'objet du contrat d'entreprise en général, et du contrat de sous-traitance en particulier, consiste dans l'exécution d'un travail déterminé (M. GOLDFAYS et M.-N. VANDERHOVEN, \" La mise à disposition de travailleurs \", J.T.T., 2001, p. 422). En l'occurrence, la S.P.R.L. DATACO s'était engagée envers la S.P.R.L. EASY LINK à sous-traiter la réécriture du logiciel, appartenant à cette dernière, jusqu'à la réalisation d'un produit fini commercialisable. Il est également établi à suffisance que la S.P.R.L. DATACO a fait appel aux services de Monsieur G... pour mener à bien cette tâche précise. Il est admis que, dans le cadre d'une sous-traitance, le travailleur du sous-traitant n'est pas mis, en principe, à la disposition de l'entrepreneur principal en violation de la loi du 24 juillet 1987 (ibid.). En effet, ce travailleur fournit son activité uniquement pour le compte du sous-traitant qui, grâce à lui, honore ses obligations envers l'entrepreneur principal. Surtout, il est soumis au seul pouvoir d'autorité du sous-traitant, sans que ce pouvoir soit délégué en tout ou en partie à l'entrepreneur principal (sauf dans la mesure prévue par l'article 31, § 1er, de ladite loi, en son nouvel alinéa 2 introduit, postérieurement aux faits litigieux, par la loi-programme du 12 août 2000). Ainsi donc, en la présente cause, aussi longtemps que la S.P.R.L. DATACO a exécuté son contrat de sous-traitance avec la S.P.R.L. EASY LINK, Monsieur G... n'a pas été mis illicitement à la disposition de celle-ci ; il ne travaillait que pour la S.P.R.L. DATACO et, quand il recevait des directives de Monsieur J..., c'est de cette dernière société qu'il était censé les recevoir. Cela étant, il s'impose de considérer que cette situation a pris fin en novembre 1998 et, au plus tard, le 24 de ce mois. En effet, à cette date, la S.P.R.L. EASY LINK a présenté par courrier à sa clientèle le nouveau logiciel comme immédiatement prêt à la vente. L'exécution du contrat de sous-traitance était donc achevée, le travail convenu étant terminé. Au demeurant, le délai de neuf mois, initialement estimé comme raisonnable, était à peu près expiré. Certes, la S.P.R.L. DATACO prétend que la réécriture et l'amélioration du logiciel étaient toujours en cours et que celui-ci ne sera jamais finalisé ni effectivement commercialisé. Elle ne prouve cependant pas ses allégations, que contredisent les pièces produites par Monsieur G... Ce dernier expose aussi qu'à partir de novembre 1998, il a travaillé directement pour la S.P.R.L. EASY LINK, effectuant les installations du nouveau logiciel, et toutes autres prestations annexes, auprès de la clientèle de celle-ci, acquise dans le fonds de commerce de la S.P.R.L. S.S.O. Quoiqu'il n'avait pas accès à la comptabilité de la S.P.R.L. EASY LINK, il a pu déposer les photocopies de trois factures établies par cette société à destination de ses clients, datées des 6 novembre, 24 décembre et 28 décembre 1998, relativement à des interventions accomplies par lui. De son côté, la S.P.R.L. DATACO ne prouve pas qu'après novembre 1998, il aurait consacré l'essentiel de son temps à poursuivre la mise au point du logiciel, comme elle le soutient, ou qu'il aurait exercé une quelconque autre activité auprès de sa clientèle à elle ou, plus généralement, pour son propre profit. Il y a donc lieu de constater qu'à compter de novembre 1998, Monsieur G... a travaillé exclusivement pour le compte et au bénéfice de la S.P.R.L. EASY LINK. Aussi faut-il considérer que c'est celle-ci que Monsieur J... représentait quand, pour l'exécution d'un tel travail, il donnait des ordres et directives à Monsieur G... Ce dernier était de la sorte soumis au pouvoir d'autorité de la S.P.R.L. EASY LINK. Cette société était en somme le véritable employeur de l'intéressé. C'est d'ailleurs pourquoi il a demandé à Monsieur J..., mais en vain, d'officialiser son contrat avec ladite S.P.R.L.. Comme le lien contractuel avec la S.P.R.L. DATACO subsistait en apparence, Monsieur G... se trouvait dans la situation d'un travailleur mis par elle à la disposition de la S.P.R.L. EASY LINK. Cette mise à disposition était toutefois illicite au regard de l'article 31, § 1er, de la loi du 24 juillet 1987. Ajoutons qu'elle ne correspondait pas à une mise à disposition autorisée en vertu de l'article 32 de la même loi. Elle ne présentait pas non plus un caractère purement temporaire ou exceptionnel car, les réclamations de Monsieur G... restant sans suite, elle semblait devoir durer aussi longtemps que le contrat de travail lui-même. Il faut encore préciser que la mise à disposition légalement prohibée couvre non seulement le cas où le travailleur est engagé en vue de cette mise à disposition, mais également le cas où celle-ci n'intervient qu'un certain temps après l'engagement (B. NYSSEN, La mise de travailleurs à la disposition d'utilisateurs, U.C.L., Académie du droit, 28 sept. 2000, p.1). Il découle de l'article 31, §§ 2 et 3, de la loi du 24 juillet 1987 que, dès le 24 novembre 1998 au plus tard, le contrat de travail conclu entre Monsieur G... et la S.P.R.L. DATACO était nul et que l'intéressé était lié à la S.P.R.L. EASY LINK par un tel contrat, réputé à durée indéterminée, auquel il pouvait mettre fin sans préavis ni indemnité. Il est indifférent qu'il ait annoncé à la S.P.R.L. DATACO, le 25 janvier 1999, la rupture d'un contrat nul, puis qu'il ait constaté, à la date du 15 février 1999, la résiliation de ce contrat. Partant, la S.P.R.L. DATACO était sans droit pour lui réclamer une indemnité compensatoire et c'est à tort que le jugement du 1er décembre 1999 le condamne au paiement de pareille indemnité. A cet égard, l'appel principal est donc fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-003",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Monsieur G..., initialement défendeur, sollicite la mise à néant du jugement du 1er décembre 1999 en ce que ce dernier le condamne à payer à la S.P.R.L. DATACO, demanderesse originaire, un montant de 82.246 francs \" à titre d'indemnité de rupture, à majorer des intérêts au taux légal sur la somme nette revenant à la partie demanderesse depuis le 11/2/1999 \".</p>\n<p class=\"case-section__paragraph\">A.- Rappel des faits</p>\n<p class=\"case-section__paragraph\">Monsieur G... était le gérant d'une S.P.R.L. S.S.O. ayant son siège à Heist-op-den-Berg, près d'Anvers. Elle commercialisait un logiciel, conçu par lui, permettant l'exploitation sur ordinateur des données fournies par des caisses enregistreuses. Cette société a été déclarée en faillite. En avril 1998, la curatelle a vendu le fonds de commerce, au prix de 550.000 francs (dont 340.000 francs pour le logiciel), à une S.P.R.L. EASY LINK. Celle-ci était alors une société en formation. Son siège d'exploitation devait être installé à Malines. Elle avait pour gérant Monsieur J... Ce dernier était également le gérant de la S.P.R.L. DATACO, établie à Liège, ayant pour objet la vente et le placement de caisses enregistreuses, ainsi que d'ordinateurs et de balances. Par lettre du 24 mars 1998, date qui sera remplacée par celle du 23 avril suivant, la S.P.R.L. EASY LINK, représentée par Monsieur J..., a confié à la S.P.R.L. DATACO la mission d'analyser et de terminer, jusqu'à la réalisation d'un produit commercialisable, un logiciel de liaison entre les caisses enregistreuses SHARP et un ordinateur. Il était prévu que le développement final devrait intervenir, avec l'aide d'un programmateur occupé à temps plein, dans un délai raisonnable de neuf mois. Il était aussi précisé que la S.P.R.L. EASY LINK reprendrait possession des sources à l'expiration de ce délai et après le règlement des factures établies par la S.P.R.L. DATACO pour son travail de sous-traitance. Le 8 avril 1998, la S.P.R.L. DATACO a engagé Monsieur G... en qualité d'employé. Le contrat signé ne précisait pas l'objet des prestations convenues ; cependant, les parties s'accordent actuellement à reconnaître que l'intéressé était chargé, en tant que programmeur, de la réécriture et de l'amélioration du logiciel, dont il était l'auteur, acquis par la S.P.R.L. EASY LINK. Le lieu du travail n'était pas non plus déterminé ; toutefois, Monsieur G... soutient, ce que confirment plusieurs pièces, qu'il était occupé principalement à son domicile sis à Lier, où tout l'appareillage informatique nécessaire avait été mis en place, et accessoirement dans des locaux destinés à la S.P.R.L. EASY LINK à Malines. Par courrier commercial du 24 novembre 1998, la S.P.R.L. EASY LINK a annoncé à sa clientèle que le nouveau logiciel était disponible. Monsieur G... l'a ensuite installé chez plusieurs clients. Par lettre du 2 décembre 1998, il s'est adressé à Monsieur P..., administrateur de la S.P.R.L. EASY LINK, en le priant d'intervenir auprès de Monsieur J... afin que celui-ci procède à \" la mise en ordre légale de (son) contrat chez EASY LINK \". Par correspondances du 17 décembre 1998 envoyées à la fois aux sociétés DATACO et EASY LINK, à l'intention de Monsieur J..., leur gérant commun, Monsieur G... a réclamé à ce dernier diverses régularisations. Il lui a notamment demandé \" de régler correctement (son) contrat à la firme EASY LINK \". Il expliquait : \" Je suis déjà depuis neuf mois au travail à temps plein (...) dans le cadre des activités de cette firme, mais je suis encore relié par contrat à votre autre firme, DATACO sprl \". Par courrier à en-tête de la S.P.R.L. DATACO du 6 janvier 1999, Monsieur J... a reconnu le bien-fondé de l'une des réclamations présentées et a contesté les autres. Mais il n'a fait aucune allusion à un contrat avec la S.P.R.L. EASY LINK. Il a par ailleurs décidé que Monsieur G... devait travailler, non plus à son adresse privée, mais dans les bureaux de la S.P.R.L. DATACO ou auprès de la clientèle. Toujours par lettre à en-tête de la S.P.R.L. DATACO, datée du 22 janvier 1999, Monsieur J... a écrit à Monsieur G... : \" Pour des raisons de réorganisation, à compter de ce jour, votre activité professionnelle s'exercera uniquement à notre siège social à Liège (...) ou au départ de celui-ci \". Ce document, indiquant qu'il est établi en deux exemplaires, est signé par Monsieur J... et par Monsieur G... sous la mention \" Lu le 22/01/1999 \", cependant que les mots \" et approuvé \", qui étaient dactylographiés, ont été biffés à la main avec, en regard, le paraphe des deux signataires. Par lettre recommandée à la poste envoyée le 25 janvier 1999 à la S.P.R.L. DATACO, Monsieur G... a notifié sa démission, sans la motiver, moyennant un préavis d'un mois et demi devant débuter le 1er février suivant. Après diverses péripéties, par une nouvelle lettre recommandée à la poste du 11 février 1999, Monsieur G... a écrit à la S.P.R.L. DATACO, à l'attention de Monsieur J..., dans les termes ci-après : \" Suite aux événements récents, à des correspondances récentes et à notre entretien du mardi (lire : lundi) 08/02/1999, je dois regrettablement constater que vous me rendez impossible l'exécution de mon contrat de travail. En conséquence, je considère que vous avez définitivement mis un terme à mon contrat de travail et je ne serai plus en service dès le 15/02/1999 (...) \". Le 15 mars 1999, la S.P.R.L. DATACO a assigné Monsieur G... en vue de sa condamnation au paiement de l'indemnité compensatoire de la partie du préavis qui, le 15 février 1999, restait à courir, soit la rémunération d'un mois, en application de l'article 39, § 1er, de la loi du 3 juillet 1978 relative aux contrats de travail. Le jugement attaqué du 1er décembre 1999 fait droit à cette demande. Il constate que Monsieur G... n'a pas notifié de motif grave de rupture à son employeur, qu'il ne prouve aucun acte équipollent à rupture dans le chef de ce dernier et qu'il n'offre pas de démontrer des faits pertinents et précis qui pourraient justifier ses griefs à l'égard de celui-ci.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-004"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Monsieur G... conteste aussi le jugement du 1er décembre 1999 en ce que celui-ci le condamne à payer à la S.P.R.L. DATACO la somme de 16.233 francs à titre de dommages-intérêts pour non-restitution du véhicule appartenant à cette société, à majorer des intérêts judiciaires prenant cours le 15 mars 1999. Il demande à être déchargé de cette condamnation. Par convention du 8 février 1999, la S.P.R.L. DATACO a mis une voiture à la disposition de Monsieur G... qui s'est engagé à la conduire en bon père de famille et à la restituer à la première réquisition dans l'état où elle lui était confiée. Par courrier du 15 février suivant, elle a prié l'intéressé de rendre ce véhicule au siège de la société à Liège. Monsieur G... n'a pas obtempéré à cette invitation ; il semble s'en être tenu aux termes de sa lettre du 11 février précédent, selon laquelle tout le matériel appartenant à la S.P.R.L. DATACO ou à la S.P.R.L. EASY LINK pouvait être enlevé à son domicile à Lier. Actuellement, les parties litigantes s'opposent sur la question de savoir si l'obligation de restitution devait être exécutée au domicile du créancier ou à celui du débiteur de cette obligation. Dans le cas d'espèce, compte tenu de la situation juridique des parties lors des faits, leur convention du 8 février 1999 s'analyse comme un prêt à usage. Le Code civil, en son article 1875, prévoit que l'emprunteur est obligé de rendre au prêteur la chose prêtée, mais il ne précise pas où. Il faut dès lors se référer aux règles générales figurant dans l'article 1247 du même code. D'après cette disposition, lorsqu'une obligation porte sur un corps certain et que le lieu de l'exécution n'est pas désigné par la convention, elle doit être exécutée dans le lieu où était, au temps de l'obligation, la chose qui en fait l'objet. C'est par dérogation à cette règle que, par exemple, le Code civil porte en son article 1943, à propos du contrat de dépôt, que la restitution doit se faire au lieu où se trouve la chose lors de cette restitution. Une telle dérogation n'existe cependant pas pour le prêt à usage. Il suit que l'emprunteur, notamment quand il déplace la chose prêtée, est tenu de la rendre au lieu où son obligation de restitution est née, c'est-à-dire là où la chose prêtée lui a été remise (cf. DE PAGE, Traité..., titre III, n° 471). En l'espèce, Monsieur G... devait rendre le véhicule au siège de la société à Liège, ce dont il s'est abstenu. La somme de 16.233 francs, dont le détail a été repris dans le précédent arrêt de la Cour, correspond au remboursement des frais exposés par la S.P.R.L. DATACO pour récupérer la voiture à Lier, dans l'état où elle devait se trouver. Il échet de confirmer la condamnation de Monsieur G... au paiement de ce montant. A ce sujet, l'appel principal est non fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-005",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-006",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Monsieur G... conteste aussi le jugement du 1er décembre 1999 en ce que celui-ci le condamne à payer à la S.P.R.L. DATACO la somme de 16.233 francs à titre de dommages-intérêts pour non-restitution du véhicule appartenant à cette société, à majorer des intérêts judiciaires prenant cours le 15 mars 1999. Il demande à être déchargé de cette condamnation. Par convention du 8 février 1999, la S.P.R.L. DATACO a mis une voiture à la disposition de Monsieur G... qui s'est engagé à la conduire en bon père de famille et à la restituer à la première réquisition dans l'état où elle lui était confiée. Par courrier du 15 février suivant, elle a prié l'intéressé de rendre ce véhicule au siège de la société à Liège. Monsieur G... n'a pas obtempéré à cette invitation ; il semble s'en être tenu aux termes de sa lettre du 11 février précédent, selon laquelle tout le matériel appartenant à la S.P.R.L. DATACO ou à la S.P.R.L. EASY LINK pouvait être enlevé à son domicile à Lier. Actuellement, les parties litigantes s'opposent sur la question de savoir si l'obligation de restitution devait être exécutée au domicile du créancier ou à celui du débiteur de cette obligation. Dans le cas d'espèce, compte tenu de la situation juridique des parties lors des faits, leur convention du 8 février 1999 s'analyse comme un prêt à usage. Le Code civil, en son article 1875, prévoit que l'emprunteur est obligé de rendre au prêteur la chose prêtée, mais il ne précise pas où. Il faut dès lors se référer aux règles générales figurant dans l'article 1247 du même code. D'après cette disposition, lorsqu'une obligation porte sur un corps certain et que le lieu de l'exécution n'est pas désigné par la convention, elle doit être exécutée dans le lieu où était, au temps de l'obligation, la chose qui en fait l'objet. C'est par dérogation à cette règle que, par exemple, le Code civil porte en son article 1943, à propos du contrat de dépôt, que la restitution doit se faire au lieu où se trouve la chose lors de cette restitution. Une telle dérogation n'existe cependant pas pour le prêt à usage. Il suit que l'emprunteur, notamment quand il déplace la chose prêtée, est tenu de la rendre au lieu où son obligation de restitution est née, c'est-à-dire là où la chose prêtée lui a été remise (cf. DE PAGE, Traité..., titre III, n° 471). En l'espèce, Monsieur G... devait rendre le véhicule au siège de la société à Liège, ce dont il s'est abstenu. La somme de 16.233 francs, dont le détail a été repris dans le précédent arrêt de la Cour, correspond au remboursement des frais exposés par la S.P.R.L. DATACO pour récupérer la voiture à Lier, dans l'état où elle devait se trouver. Il échet de confirmer la condamnation de Monsieur G... au paiement de ce montant. A ce sujet, l'appel principal est non fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-006",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-005",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Monsieur G... conteste aussi le jugement du 1er décembre 1999 en ce que celui-ci le condamne à payer à la S.P.R.L. DATACO la somme de 16.233 francs à titre de dommages-intérêts pour non-restitution du véhicule appartenant à cette société, à majorer des intérêts judiciaires prenant cours le 15 mars 1999. Il demande à être déchargé de cette condamnation. Par convention du 8 février 1999, la S.P.R.L. DATACO a mis une voiture à la disposition de Monsieur G... qui s'est engagé à la conduire en bon père de famille et à la restituer à la première réquisition dans l'état où elle lui était confiée. Par courrier du 15 février suivant, elle a prié l'intéressé de rendre ce véhicule au siège de la société à Liège. Monsieur G... n'a pas obtempéré à cette invitation ; il semble s'en être tenu aux termes de sa lettre du 11 février précédent, selon laquelle tout le matériel appartenant à la S.P.R.L. DATACO ou à la S.P.R.L. EASY LINK pouvait être enlevé à son domicile à Lier. Actuellement, les parties litigantes s'opposent sur la question de savoir si l'obligation de restitution devait être exécutée au domicile du créancier ou à celui du débiteur de cette obligation. Dans le cas d'espèce, compte tenu de la situation juridique des parties lors des faits, leur convention du 8 février 1999 s'analyse comme un prêt à usage. Le Code civil, en son article 1875, prévoit que l'emprunteur est obligé de rendre au prêteur la chose prêtée, mais il ne précise pas où. Il faut dès lors se référer aux règles générales figurant dans l'article 1247 du même code. D'après cette disposition, lorsqu'une obligation porte sur un corps certain et que le lieu de l'exécution n'est pas désigné par la convention, elle doit être exécutée dans le lieu où était, au temps de l'obligation, la chose qui en fait l'objet. C'est par dérogation à cette règle que, par exemple, le Code civil porte en son article 1943, à propos du contrat de dépôt, que la restitution doit se faire au lieu où se trouve la chose lors de cette restitution. Une telle dérogation n'existe cependant pas pour le prêt à usage. Il suit que l'emprunteur, notamment quand il déplace la chose prêtée, est tenu de la rendre au lieu où son obligation de restitution est née, c'est-à-dire là où la chose prêtée lui a été remise (cf. DE PAGE, Traité..., titre III, n° 471). En l'espèce, Monsieur G... devait rendre le véhicule au siège de la société à Liège, ce dont il s'est abstenu. La somme de 16.233 francs, dont le détail a été repris dans le précédent arrêt de la Cour, correspond au remboursement des frais exposés par la S.P.R.L. DATACO pour récupérer la voiture à Lier, dans l'état où elle devait se trouver. Il échet de confirmer la condamnation de Monsieur G... au paiement de ce montant. A ce sujet, l'appel principal est non fondé.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-007",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-005",
+          "ART-ECLI:BE:CTLIE:2003:ARR.20030916.3-006"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 7,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 7,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 2.142857142857143,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 2
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2003:ARR.20030916.3-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">En degré d'appel, Monsieur G... prend d'abord moyen de la nullité de son contrat de travail avec la S.P.R.L. DATACO du fait que cette dernière l'avait mis illicitement à la disposition de la S.P.R.L. EASY LINK. Il en déduit qu'il était libéré de l'obligation, pour se séparer de la S.P.R.L. DATACO, de lui donner un préavis de démission et, donc, de lui payer une indemnité compensatoire de tout ou partie de ce préavis. Il base sa thèse sur l'article 31 de la loi du 24 juillet 1987 sur le travail temporaire, le travail intérimaire et la mise de travailleurs à la disposition d'utilisateurs. Selon le § 1er de cet article 31, est interdite l'activité d'une personne physique ou morale qui consiste, en dehors des règles légales organisant le travail temporaire et le travail intérimaire, à mettre des travailleurs qu'elle a engagés à la disposition de tiers qui utilisent ces travailleurs et exercent sur eux une part quelconque de l'autorité appartenant normalement à l'employeur. D'après le § 2, le contrat par lequel un travailleur est engagé pour être mis à la disposition d'un utilisateur est nul dès le début de l'exécution du travail chez ce dernier. Suivant le § 3, c'est avec l'utilisateur que le travailleur est considéré comme lié par un contrat de travail, réputé à durée indéterminée, dès le début de l'exécution des prestations ; toutefois, le travailleur peut mettre fin à ce contrat sans préavis ni indemnité. En l'espèce, la S.P.R.L. DATACO a embauché Monsieur G... en qualité d'employé le 8 avril 1998. Elle démontre par ailleurs avoir conclu à cette époque avec la S.P.R.L. EASY LINK, en cours de formation, un contrat de sous-traitance. Celui-ci se définit comme étant un contrat d'entreprise par lequel le sous-traitant s'engage à effectuer certains travaux, avec le concours de son propre personnel, pour le compte d'un entrepreneur principal, moyennant un prix convenu entre les parties (J.-F. GERARD, \" La mise de travailleurs à la disposition d'utilisateurs, Orient., 1992, p. 16). L'objet du contrat d'entreprise en général, et du contrat de sous-traitance en particulier, consiste dans l'exécution d'un travail déterminé (M. GOLDFAYS et M.-N. VANDERHOVEN, \" La mise à disposition de travailleurs \", J.T.T., 2001, p. 422). En l'occurrence, la S.P.R.L. DATACO s'était engagée envers la S.P.R.L. EASY LINK à sous-traiter la réécriture du logiciel, appartenant à cette dernière, jusqu'à la réalisation d'un produit fini commercialisable. Il est également établi à suffisance que la S.P.R.L. DATACO a fait appel aux services de Monsieur G... pour mener à bien cette tâche précise. Il est admis que, dans le cadre d'une sous-traitance, le travailleur du sous-traitant n'est pas mis, en principe, à la disposition de l'entrepreneur principal en violation de la loi du 24 juillet 1987 (ibid.). En effet, ce travailleur fournit son activité uniquement pour le compte du sous-traitant qui, grâce à lui, honore ses obligations envers l'entrepreneur principal. Surtout, il est soumis au seul pouvoir d'autorité du sous-traitant, sans que ce pouvoir soit délégué en tout ou en partie à l'entrepreneur principal (sauf dans la mesure prévue par l'article 31, § 1er, de ladite loi, en son nouvel alinéa 2 introduit, postérieurement aux faits litigieux, par la loi-programme du 12 août 2000). Ainsi donc, en la présente cause, aussi longtemps que la S.P.R.L. DATACO a exécuté son contrat de sous-traitance avec la S.P.R.L. EASY LINK, Monsieur G... n'a pas été mis illicitement à la disposition de celle-ci ; il ne travaillait que pour la S.P.R.L. DATACO et, quand il recevait des directives de Monsieur J..., c'est de cette dernière société qu'il était censé les recevoir. Cela étant, il s'impose de considérer que cette situation a pris fin en novembre 1998 et, au plus tard, le 24 de ce mois. En effet, à cette date, la S.P.R.L. EASY LINK a présenté par courrier à sa clientèle le nouveau logiciel comme immédiatement prêt à la vente. L'exécution du contrat de sous-traitance était donc achevée, le travail convenu étant terminé. Au demeurant, le délai de neuf mois, initialement estimé comme raisonnable, était à peu près expiré. Certes, la S.P.R.L. DATACO prétend que la réécriture et l'amélioration du logiciel étaient toujours en cours et que celui-ci ne sera jamais finalisé ni effectivement commercialisé. Elle ne prouve cependant pas ses allégations, que contredisent les pièces produites par Monsieur G... Ce dernier expose aussi qu'à partir de novembre 1998, il a travaillé directement pour la S.P.R.L. EASY LINK, effectuant les installations du nouveau logiciel, et toutes autres prestations annexes, auprès de la clientèle de celle-ci, acquise dans le fonds de commerce de la S.P.R.L. S.S.O. Quoiqu'il n'avait pas accès à la comptabilité de la S.P.R.L. EASY LINK, il a pu déposer les photocopies de trois factures établies par cette société à destination de ses clients, datées des 6 novembre, 24 décembre et 28 décembre 1998, relativement à des interventions accomplies par lui. De son côté, la S.P.R.L. DATACO ne prouve pas qu'après novembre 1998, il aurait consacré l'essentiel de son temps à poursuivre la mise au point du logiciel, comme elle le soutient, ou qu'il aurait exercé une quelconque autre activité auprès de sa clientèle à elle ou, plus généralement, pour son propre profit. Il y a donc lieu de constater qu'à compter de novembre 1998, Monsieur G... a travaillé exclusivement pour le compte et au bénéfice de la S.P.R.L. EASY LINK. Aussi faut-il considérer que c'est celle-ci que Monsieur J... représentait quand, pour l'exécution d'un tel travail, il donnait des ordres et directives à Monsieur G... Ce dernier était de la sorte soumis au pouvoir d'autorité de la S.P.R.L. EASY LINK. Cette société était en somme le véritable employeur de l'intéressé. C'est d'ailleurs pourquoi il a demandé à Monsieur J..., mais en vain, d'officialiser son contrat avec ladite S.P.R.L.. Comme le lien contractuel avec la S.P.R.L. DATACO subsistait en apparence, Monsieur G... se trouvait dans la situation d'un travailleur mis par elle à la disposition de la S.P.R.L. EASY LINK. Cette mise à disposition était toutefois illicite au regard de l'article 31, § 1er, de la loi du 24 juillet 1987. Ajoutons qu'elle ne correspondait pas à une mise à disposition autorisée en vertu de l'article 32 de la même loi. Elle ne présentait pas non plus un caractère purement temporaire ou exceptionnel car, les réclamations de Monsieur G... restant sans suite, elle semblait devoir durer aussi longtemps que le contrat de travail lui-même. Il faut encore préciser que la mise à disposition légalement prohibée couvre non seulement le cas où le travailleur est engagé en vue de cette mise à disposition, mais également le cas où celle-ci n'intervient qu'un certain temps après l'engagement (B. NYSSEN, La mise de travailleurs à la disposition d'utilisateurs, U.C.L., Académie du droit, 28 sept. 2000, p.1). Il découle de l'article 31, §§ 2 et 3, de la loi du 24 juillet 1987 que, dès le 24 novembre 1998 au plus tard, le contrat de travail conclu entre Monsieur G... et la S.P.R.L. DATACO était nul et que l'intéressé était lié à la S.P.R.L. EASY LINK par un tel contrat, réputé à durée indéterminée, auquel il pouvait mettre fin sans préavis ni indemnité. Il est indifférent qu'il ait annoncé à la S.P.R.L. DATACO, le 25 janvier 1999, la rupture d'un contrat nul, puis qu'il ait constaté, à la date du 15 février 1999, la résiliation de ce contrat. Partant, la S.P.R.L. DATACO était sans droit pour lui réclamer une indemnité compensatoire et c'est à tort que le jugement du 1er décembre 1999 le condamne au paiement de pareille indemnité. A cet égard, l'appel principal est donc fondé.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 2,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2003:ARR.20030916.3-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">En degré d'appel, Monsieur G... prend d'abord moyen de la nullité de son contrat de travail avec la S.P.R.L. DATACO du fait que cette dernière l'avait mis illicitement à la disposition de la S.P.R.L. EASY LINK. Il en déduit qu'il était libéré de l'obligation, pour se séparer de la S.P.R.L. DATACO, de lui donner un préavis de démission et, donc, de lui payer une indemnité compensatoire de tout ou partie de ce préavis. Il base sa thèse sur l'article 31 de la loi du 24 juillet 1987 sur le travail temporaire, le travail intérimaire et la mise de travailleurs à la disposition d'utilisateurs. Selon le § 1er de cet article 31, est interdite l'activité d'une personne physique ou morale qui consiste, en dehors des règles légales organisant le travail temporaire et le travail intérimaire, à mettre des travailleurs qu'elle a engagés à la disposition de tiers qui utilisent ces travailleurs et exercent sur eux une part quelconque de l'autorité appartenant normalement à l'employeur. D'après le § 2, le contrat par lequel un travailleur est engagé pour être mis à la disposition d'un utilisateur est nul dès le début de l'exécution du travail chez ce dernier. Suivant le § 3, c'est avec l'utilisateur que le travailleur est considéré comme lié par un contrat de travail, réputé à durée indéterminée, dès le début de l'exécution des prestations ; toutefois, le travailleur peut mettre fin à ce contrat sans préavis ni indemnité. En l'espèce, la S.P.R.L. DATACO a embauché Monsieur G... en qualité d'employé le 8 avril 1998. Elle démontre par ailleurs avoir conclu à cette époque avec la S.P.R.L. EASY LINK, en cours de formation, un contrat de sous-traitance. Celui-ci se définit comme étant un contrat d'entreprise par lequel le sous-traitant s'engage à effectuer certains travaux, avec le concours de son propre personnel, pour le compte d'un entrepreneur principal, moyennant un prix convenu entre les parties (J.-F. GERARD, \" La mise de travailleurs à la disposition d'utilisateurs, Orient., 1992, p. 16). L'objet du contrat d'entreprise en général, et du contrat de sous-traitance en particulier, consiste dans l'exécution d'un travail déterminé (M. GOLDFAYS et M.-N. VANDERHOVEN, \" La mise à disposition de travailleurs \", J.T.T., 2001, p. 422). En l'occurrence, la S.P.R.L. DATACO s'était engagée envers la S.P.R.L. EASY LINK à sous-traiter la réécriture du logiciel, appartenant à cette dernière, jusqu'à la réalisation d'un produit fini commercialisable. Il est également établi à suffisance que la S.P.R.L. DATACO a fait appel aux services de Monsieur G... pour mener à bien cette tâche précise. Il est admis que, dans le cadre d'une sous-traitance, le travailleur du sous-traitant n'est pas mis, en principe, à la disposition de l'entrepreneur principal en violation de la loi du 24 juillet 1987 (ibid.). En effet, ce travailleur fournit son activité uniquement pour le compte du sous-traitant qui, grâce à lui, honore ses obligations envers l'entrepreneur principal. Surtout, il est soumis au seul pouvoir d'autorité du sous-traitant, sans que ce pouvoir soit délégué en tout ou en partie à l'entrepreneur principal (sauf dans la mesure prévue par l'article 31, § 1er, de ladite loi, en son nouvel alinéa 2 introduit, postérieurement aux faits litigieux, par la loi-programme du 12 août 2000). Ainsi donc, en la présente cause, aussi longtemps que la S.P.R.L. DATACO a exécuté son contrat de sous-traitance avec la S.P.R.L. EASY LINK, Monsieur G... n'a pas été mis illicitement à la disposition de celle-ci ; il ne travaillait que pour la S.P.R.L. DATACO et, quand il recevait des directives de Monsieur J..., c'est de cette dernière société qu'il était censé les recevoir. Cela étant, il s'impose de considérer que cette situation a pris fin en novembre 1998 et, au plus tard, le 24 de ce mois. En effet, à cette date, la S.P.R.L. EASY LINK a présenté par courrier à sa clientèle le nouveau logiciel comme immédiatement prêt à la vente. L'exécution du contrat de sous-traitance était donc achevée, le travail convenu étant terminé. Au demeurant, le délai de neuf mois, initialement estimé comme raisonnable, était à peu près expiré. Certes, la S.P.R.L. DATACO prétend que la réécriture et l'amélioration du logiciel étaient toujours en cours et que celui-ci ne sera jamais finalisé ni effectivement commercialisé. Elle ne prouve cependant pas ses allégations, que contredisent les pièces produites par Monsieur G... Ce dernier expose aussi qu'à partir de novembre 1998, il a travaillé directement pour la S.P.R.L. EASY LINK, effectuant les installations du nouveau logiciel, et toutes autres prestations annexes, auprès de la clientèle de celle-ci, acquise dans le fonds de commerce de la S.P.R.L. S.S.O. Quoiqu'il n'avait pas accès à la comptabilité de la S.P.R.L. EASY LINK, il a pu déposer les photocopies de trois factures établies par cette société à destination de ses clients, datées des 6 novembre, 24 décembre et 28 décembre 1998, relativement à des interventions accomplies par lui. De son côté, la S.P.R.L. DATACO ne prouve pas qu'après novembre 1998, il aurait consacré l'essentiel de son temps à poursuivre la mise au point du logiciel, comme elle le soutient, ou qu'il aurait exercé une quelconque autre activité auprès de sa clientèle à elle ou, plus généralement, pour son propre profit. Il y a donc lieu de constater qu'à compter de novembre 1998, Monsieur G... a travaillé exclusivement pour le compte et au bénéfice de la S.P.R.L. EASY LINK. Aussi faut-il considérer que c'est celle-ci que Monsieur J... représentait quand, pour l'exécution d'un tel travail, il donnait des ordres et directives à Monsieur G... Ce dernier était de la sorte soumis au pouvoir d'autorité de la S.P.R.L. EASY LINK. Cette société était en somme le véritable employeur de l'intéressé. C'est d'ailleurs pourquoi il a demandé à Monsieur J..., mais en vain, d'officialiser son contrat avec ladite S.P.R.L.. Comme le lien contractuel avec la S.P.R.L. DATACO subsistait en apparence, Monsieur G... se trouvait dans la situation d'un travailleur mis par elle à la disposition de la S.P.R.L. EASY LINK. Cette mise à disposition était toutefois illicite au regard de l'article 31, § 1er, de la loi du 24 juillet 1987. Ajoutons qu'elle ne correspondait pas à une mise à disposition autorisée en vertu de l'article 32 de la même loi. Elle ne présentait pas non plus un caractère purement temporaire ou exceptionnel car, les réclamations de Monsieur G... restant sans suite, elle semblait devoir durer aussi longtemps que le contrat de travail lui-même. Il faut encore préciser que la mise à disposition légalement prohibée couvre non seulement le cas où le travailleur est engagé en vue de cette mise à disposition, mais également le cas où celle-ci n'intervient qu'un certain temps après l'engagement (B. NYSSEN, La mise de travailleurs à la disposition d'utilisateurs, U.C.L., Académie du droit, 28 sept. 2000, p.1). Il découle de l'article 31, §§ 2 et 3, de la loi du 24 juillet 1987 que, dès le 24 novembre 1998 au plus tard, le contrat de travail conclu entre Monsieur G... et la S.P.R.L. DATACO était nul et que l'intéressé était lié à la S.P.R.L. EASY LINK par un tel contrat, réputé à durée indéterminée, auquel il pouvait mettre fin sans préavis ni indemnité. Il est indifférent qu'il ait annoncé à la S.P.R.L. DATACO, le 25 janvier 1999, la rupture d'un contrat nul, puis qu'il ait constaté, à la date du 15 février 1999, la résiliation de ce contrat. Partant, la S.P.R.L. DATACO était sans droit pour lui réclamer une indemnité compensatoire et c'est à tort que le jugement du 1er décembre 1999 le condamne au paiement de pareille indemnité. A cet égard, l'appel principal est donc fondé.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:CTLIE:2003:ARR.20030916.3-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Monsieur G... conteste aussi le jugement du 1er décembre 1999 en ce que celui-ci le condamne à payer à la S.P.R.L. DATACO la somme de 16.233 francs à titre de dommages-intérêts pour non-restitution du véhicule appartenant à cette société, à majorer des intérêts judiciaires prenant cours le 15 mars 1999. Il demande à être déchargé de cette condamnation. Par convention du 8 février 1999, la S.P.R.L. DATACO a mis une voiture à la disposition de Monsieur G... qui s'est engagé à la conduire en bon père de famille et à la restituer à la première réquisition dans l'état où elle lui était confiée. Par courrier du 15 février suivant, elle a prié l'intéressé de rendre ce véhicule au siège de la société à Liège. Monsieur G... n'a pas obtempéré à cette invitation ; il semble s'en être tenu aux termes de sa lettre du 11 février précédent, selon laquelle tout le matériel appartenant à la S.P.R.L. DATACO ou à la S.P.R.L. EASY LINK pouvait être enlevé à son domicile à Lier. Actuellement, les parties litigantes s'opposent sur la question de savoir si l'obligation de restitution devait être exécutée au domicile du créancier ou à celui du débiteur de cette obligation. Dans le cas d'espèce, compte tenu de la situation juridique des parties lors des faits, leur convention du 8 février 1999 s'analyse comme un prêt à usage. Le Code civil, en son article 1875, prévoit que l'emprunteur est obligé de rendre au prêteur la chose prêtée, mais il ne précise pas où. Il faut dès lors se référer aux règles générales figurant dans l'article 1247 du même code. D'après cette disposition, lorsqu'une obligation porte sur un corps certain et que le lieu de l'exécution n'est pas désigné par la convention, elle doit être exécutée dans le lieu où était, au temps de l'obligation, la chose qui en fait l'objet. C'est par dérogation à cette règle que, par exemple, le Code civil porte en son article 1943, à propos du contrat de dépôt, que la restitution doit se faire au lieu où se trouve la chose lors de cette restitution. Une telle dérogation n'existe cependant pas pour le prêt à usage. Il suit que l'emprunteur, notamment quand il déplace la chose prêtée, est tenu de la rendre au lieu où son obligation de restitution est née, c'est-à-dire là où la chose prêtée lui a été remise (cf. DE PAGE, Traité..., titre III, n° 471). En l'espèce, Monsieur G... devait rendre le véhicule au siège de la société à Liège, ce dont il s'est abstenu. La somme de 16.233 francs, dont le détail a été repris dans le précédent arrêt de la Cour, correspond au remboursement des frais exposés par la S.P.R.L. DATACO pour récupérer la voiture à Lier, dans l'état où elle devait se trouver. Il échet de confirmer la condamnation de Monsieur G... au paiement de ce montant. A ce sujet, l'appel principal est non fondé.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerTeaching": 1,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 6,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "decision_id": "ECLI:BE:RVSCE:2025:ARR.262.410",
+  "language": "FR",
+  "metadata": {
+    "id": 169572,
+    "court_ecli_code": "RVSCE",
+    "decision_date": "2025-02-19",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrêt",
+    "md_length": 3083,
+    "length_category": "medium"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Conseil d'État, 19 février 2025, n° 262.410, A.240.206/XI-24.580, ECLI:BE:RVSCE:2025:ARR.262.410"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:RVSCE:2025:ARR.262.410-001",
+        "name": "N.N.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "DEMANDEUR"
+      },
+      {
+        "id": "PARTY-ECLI:BE:RVSCE:2025:ARR.262.410-002",
+        "name": "l'État belge",
+        "type": "PUBLIC_AUTHORITY",
+        "proceduralRole": "DEFENDEUR"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Par une requête introduite le 4 octobre 2023, la partie requérante demande l'annulation de la décision du 8 août 2023 de la partie adverse selon laquelle elle est âgée de plus de 18 ans. Le dossier administratif a été déposé et les mémoires en réponse et en réplique ont été régulièrement échangés. Mme Valérie Michiels, premier auditeur, a rédigé un rapport sur la base de l'article 12 du règlement général de procédure concluant au rejet du recours, rapport notifié à la requérante et réputé connu le 24 juin 2024. L'auditeur rapporteur a rédigé une note le 30 juillet 2024 demandant la mise en œuvre de la procédure prévue à l'article 14quater. Par lettre du 2 août 2024, le greffe a informé la requérante que la chambre allait statuer en décrétant le désistement d'instance à moins qu'elle ne demande, dans un délai de quinze jours, à être entendue; la requérante est réputée avoir pris connaissance de ce courrier le 12 août 2024. En vertu de l'article 21 des lois sur le Conseil d'État, alinéa 7, la requérante n'ayant pas demandé la poursuite de la procédure dans le délai imparti et n'ayant pas demandé à être entendue, elle est présumée s'être désistée de son recours, circonstance qui justifie que les dépens soient supportés par la partie requérante.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:RVSCE:2025:ARR.262.410-001",
+          "requests": "Demande l'annulation de la décision du 8 août 2023 de la partie adverse selon laquelle elle est âgée de plus de 18 ans."
+        }
+      ],
+      "arguments": [],
+      "courtOrder": "## PAR CES MOTIFS, <br> LE CONSEIL D'ÉTAT DÉCIDE :\n\n## Article $1^{\\text {er }}$.\n\nLe désistement d'instance est décrété.\n\n## Article 2.\n\nLa partie requérante supporte les dépens, à savoir le droit de rôle de 200 euros.",
+      "outcome": "DESISTEMENT"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2025:ARR.262.410-001",
+        "internalParentActId": "ACT-ECLI:BE:RVSCE:2025:ARR.262.410-001",
+        "provisionNumber": "article 12",
+        "provisionNumberKey": "12",
+        "parentActType": "AUTRE",
+        "parentActName": "règlement général de procédure du Conseil d'État",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2025:ARR.262.410-002",
+        "internalParentActId": "ACT-ECLI:BE:RVSCE:2025:ARR.262.410-002",
+        "provisionNumber": "article 14quater",
+        "provisionNumberKey": "14quater",
+        "parentActType": "ARRETE_ROYAL",
+        "parentActName": "arrêté du Régent du 23 août 1948 déterminant la procédure devant la section du contentieux administratif du Conseil d'État",
+        "parentActDate": "1948-08-23",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2025:ARR.262.410-003",
+        "internalParentActId": "ACT-ECLI:BE:RVSCE:2025:ARR.262.410-003",
+        "provisionNumber": "article 21, alinéa 7",
+        "provisionNumberKey": "21",
+        "parentActType": "LOI",
+        "parentActName": "lois sur le Conseil d'État, coordonnées le 12 janvier 1973",
+        "parentActDate": "1973-01-12",
+        "parentActNumber": null,
+        "provisionInterpretation": "Le Conseil d'État interprète l'article 21, alinéa 7 comme instituant une présomption légale de désistement d'instance au profit de la partie requérante lorsque celle-ci n'introduit aucune demande de poursuite de la procédure dans les trente jours suivant la notification d'un rapport de l'auditeur concluant au rejet du recours; cette présomption autorise à décréter le désistement et à imputer les dépens à la requérante.",
+        "relevantFactualContext": "Le rapport de l'auditeur a été notifié (réputée prise de connaissance le 24 juin 2024); la partie requérante n'a pas demandé la poursuite de la procédure dans le délai de trente jours et n'a pas demandé à être entendue, ce qui a conduit la chambre à décréter le désistement et à faire supporter les dépens à la requérante."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Conseil d'État",
+        "date": "2023-10-04",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:RVSCE:2025:ARR.262.410-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Conseil d'État",
+        "date": "2024-06-24",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:RVSCE:2025:ARR.262.410-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "section du contentieux administratif du Conseil d'État",
+        "date": "2024-07-30",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:RVSCE:2025:ARR.262.410-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Conseil d'État",
+        "date": "2024-08-02",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:RVSCE:2025:ARR.262.410-004"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Droit administratif",
+      "Détermination de l'âge",
+      "Décision administrative",
+      "Requête en annulation",
+      "Absence de suite de procédure",
+      "Contestation de majorité",
+      "Recevabilité du recours",
+      "Désistement d'instance",
+      "Dépens à la charge du requérant",
+      "Présomption légale de désistement"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:RVSCE:2025:ARR.262.410-001",
+        "text": "L'article 21, al. 7, des lois sur le Conseil d'État institue une présomption légale de désistement d'instance lorsque la partie requérante n'introduit aucune demande de poursuite de la procédure dans les trente jours suivant la notification d'un rapport de l'auditeur concluant au rejet du recours; cette présomption permet à la chambre de décréter le désistement et d'imputer les dépens à la requérante.",
+        "courtVerbatim": "L'article 21 des lois sur le Conseil d'État, coordonnées le 12 janvier 1973, dispose en son alinéa 7 , qu'il existe, dans le chef de la partie requérante, une présomption de désistement d'instance lorsqu'elle n'introduit aucune demande de poursuite de la procédure dans un délai de trente jours à compter de la notification d'un rapport de l'auditeur concluant au rejet du recours.\n\nLa partie requérante n'ayant pas introduit de demande de poursuite de la procédure dans le délai imparti et n'ayant pas non plus demandé à être entendue, elle est donc présumée légalement se désister de son recours. Cette circonstance justifie que les dépens soient supportés par la partie requérante.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque, après notification d'un rapport d'auditeur concluant au rejet du recours, la partie requérante n'introduit aucune demande de poursuite dans les trente jours et ne demande pas à être entendue.",
+        "relevantFactualContext": "Le rapport de l'auditeur a été notifié et réputé connu le 24 juin 2024; la partie requérante n'a pas demandé la poursuite de la procédure dans le délai de trente jours et n'a pas demandé à être entendue, ce qui a conduit la chambre à décréter le désistement et à imputer les dépens à la requérante.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "ADMINISTRATIVE_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "APPEAL",
+          "binding": true,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:RVSCE:2025:ARR.262.410-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "extractedCourtLevel": "APPEAL",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 1,
+        "first_instance": 0
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "Le demandeur conteste la décision administrative constatant qu'il est majeur (plus de 18 ans) et introduit un recours contre l'État. Le Conseil d'État a décrété le désistement d'instance pour absence de demande de poursuite après le rapport de l'auditeur et a condamné le demandeur aux dépens (droit de rôle de 200 €), en application de la présomption légale de désistement prévue à l'article 21."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2025:ARR.262.410-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le dossier administratif a été déposé. Les mémoires en réponse et en réplique ont été régulièrement échangés. Mme Valérie Michiels, premier auditeur au Conseil d’État, a rédigé un rapport sur la base de l’article 12 du règlement général de procédure concluant au rejet du recours. Le rapport a été notifié à la partie requérante qui est réputée en avoir pris connaissance le 24 juin 2024.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:RVSCE:2025:ARR.262.410-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:RVSCE:2025:ARR.262.410-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2025:ARR.262.410-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L’auditeur rapporteur a rédigé une note le 30 juillet 2024 demandant que soit mise en œuvre la procédure organisée par l’article 14quater de l’arrêté du Régent du 23 août 1948 déterminant la procédure devant la section du contentieux administratif du Conseil d’État. Par une lettre datée du 2 août 2024, le greffe a notifié à la partie requérante que la chambre allait statuer en décrétant le désistement d’instance à moins qu’elle ne demande, dans un délai de quinze jours, à être entendue. La partie requérante est réputée avoir pris connaissance de ce courrier le 12 août 2024. Il est fait application des dispositions relatives à l’emploi des langues, inscrites au titre VI, chapitre II, des lois sur le Conseil d’État, coordonnées le 12 janvier 1973.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:RVSCE:2025:ARR.262.410-002"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:RVSCE:2025:ARR.262.410-003",
+          "DEC-ECLI:BE:RVSCE:2025:ARR.262.410-004"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:RVSCE:2025:ARR.262.410-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">L’article 21 des lois sur le Conseil d’État, coordonnées le 12 janvier 1973, dispose en son alinéa 7, qu’il existe, dans le chef de la partie requérante, une présomption de désistement d’instance lorsqu’elle n’introduit aucune demande de poursuite de la procédure dans un délai de trente jours à compter de la notification d’un rapport de l’auditeur concluant au rejet du recours. La partie requérante n’ayant pas introduit de demande de poursuite de la procédure dans le délai imparti et n’ayant pas non plus demandé à être entendue, elle est donc présumée légalement se désister de son recours. Cette circonstance justifie que les dépens soient supportés par la partie requérante.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:RVSCE:2025:ARR.262.410-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:RVSCE:2025:ARR.262.410-002"
+        ]
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 3,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 1.3333333333333333,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:RVSCE:2025:ARR.262.410-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Le dossier administratif a été déposé. Les mémoires en réponse et en réplique ont été régulièrement échangés. Mme Valérie Michiels, premier auditeur au Conseil d’État, a rédigé un rapport sur la base de l’article 12 du règlement général de procédure concluant au rejet du recours. Le rapport a été notifié à la partie requérante qui est réputée en avoir pris connaissance le 24 juin 2024.</p>",
+          "<p class=\"case-section__paragraph\">L’article 21 des lois sur le Conseil d’État, coordonnées le 12 janvier 1973, dispose en son alinéa 7, qu’il existe, dans le chef de la partie requérante, une présomption de désistement d’instance lorsqu’elle n’introduit aucune demande de poursuite de la procédure dans un délai de trente jours à compter de la notification d’un rapport de l’auditeur concluant au rejet du recours. La partie requérante n’ayant pas introduit de demande de poursuite de la procédure dans le délai imparti et n’ayant pas non plus demandé à être entendue, elle est donc présumée légalement se désister de son recours. Cette circonstance justifie que les dépens soient supportés par la partie requérante.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 1,
+      "citationStatistics": {
+        "totalCitations": 2,
+        "avgCitationsPerTeaching": 2,
+        "teachingsWithMinimalCitations": 1,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 1,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

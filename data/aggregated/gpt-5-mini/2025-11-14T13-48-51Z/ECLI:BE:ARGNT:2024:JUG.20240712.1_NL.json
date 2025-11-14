@@ -1,0 +1,424 @@
+{
+  "decision_id": "ECLI:BE:ARGNT:2024:JUG.20240712.1",
+  "language": "NL",
+  "metadata": {
+    "id": 60556,
+    "court_ecli_code": "ARGNT",
+    "decision_date": "2024-07-12",
+    "decision_type_ecli_code": "JUG",
+    "decision_type_name": "Vonnis",
+    "md_length": 11884,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Arbeidsrechtbank Gent, afdeling Ieper, 12 juli 2024, Rolnummer 24/51/A, ECLI:BE:ARGNT:2024:JUG.20240712.1"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-001",
+        "name": "ALGEMEEN BELGISCH VAKVERBOND (A.B.V.V.)",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-002",
+        "name": "X. P. nv",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "VERWEERDER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-003",
+        "name": "ALGEMEEN CHRISTELIJK VAKVERBOND (A.C.V.)",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "TUSSENKOMENDE_PARTIJ"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-004",
+        "name": "ALGEMENE CENTRALE DER LIBERALE VAKBONDEN VAN BELGIE (A.C.L.V.B.)",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "TUSSENKOMENDE_PARTIJ"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-005",
+        "name": "NATIONALE CONFEDERATIE VOOR HET KADERPERSONEEL (N.C.K.)",
+        "type": "LEGAL_ENTITY",
+        "proceduralRole": "TUSSENKOMENDE_PARTIJ"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-006",
+        "name": "B. N.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "TUSSENKOMENDE_PARTIJ"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-007",
+        "name": "M. G.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "TUSSENKOMENDE_PARTIJ"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-008",
+        "name": "J. E.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "TUSSENKOMENDE_PARTIJ"
+      },
+      {
+        "id": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-009",
+        "name": "S. S.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "TUSSENKOMENDE_PARTIJ"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Bij X. P. nv werden op 16 mei 2024 sociale verkiezingen voor het CPBW gehouden, met een afzonderlijk stembureau voor de bedienden. Het proces-verbaal van het stembureau vermeldde 26 ontvangen stembiljetten, 26 kiezers die deelnamen, 0 teruggenomen en 31 niet gebruikte stembiljetten; verder werd vermeld dat er 25 geldige stembiljetten en 1 ongeldige waren, maar bij de uiteindelijke uitslag in het PV slechts 23 stemmen werden gerekend. Het ABVV diende op 23 mei 2024 een vordering in tot nietigverklaring of verbetering van de verkiezingsuitslag en tot, desgevallend, organisatie van nieuwe verkiezingen. De werkgever X. P. erkende een materiële vergissing bij het tellen en stelde voor de verzegelde omslag met stembiljetten aan de rechtbank over te maken voor hertelling; het ABVV ging daarmee akkoord. Op 11 juni 2024 opende de rechtbank de verzegelde omslag in het openbaar en telde in aanwezigheid van partijen en raadsman: in totaal 26 stembiljetten, 0 blanco, 1 ongeldige (gestemd op beide vakbonden) en 25 geldige stembiljetten. De rechtbank telde de geldige stemmen per lijst en kandidaat (ACV: volledige lijst 8, onvolledige lijst 10, naamstemmen J. E. 5 en S. S. 9; ABVV: volledige lijst 2, onvolledige 5, naamstemmen B. N. 3 en M. G. 4). Alle aanwezige partijen verklaarden zich akkoord met de controle en de resultaten. De rechtbank constateerde een materiële vergissing in het oorspronkelijke PV en besliste dat het PV moet worden aangepast overeenkomstig de hertelling; de vergissing had geen invloed op de verdeling van mandaten. Met betrekking tot gerechtskosten oordeelde de rechtbank dat geen van de partijen als in het ongelijk gestelde partij kan worden beschouwd en verwees elk van de partijen in haar eigen kosten, waarbij aan de zijde van eisende partij 1.800 EUR rechtsplegingsvergoeding en 24 EUR bijdrage aan het Begrotingsfonds werden vereffend.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-001",
+          "requests": "Het ABVV vordert dat de verkiezingen van het CPBW van 16 mei 2024 bij X. P. nv voor het afzonderlijk stembureau van de bedienden worden vernietigd, of minstens dat tot verbetering van de verkiezingsuitslag zoals opgenomen in het proces-verbaal wordt overgegaan; desgevallend herziening van verkiesbaarheidscijfers en aanduiding van verkozenen of organisatie van nieuwe sociale verkiezingen; veroordeling van de verwerende partij tot de kosten."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-002",
+          "requests": "X. P. vordert dat de vordering van het ABVV wordt afgewezen als ongegrond; verzoekt opening van de verzegelde omslag met stembiljetten en hertelling van de resultaten en, naargelang de hertelling, de nodige rechtzetting; oordeelt dat partijen elk hun eigen kosten dragen."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-001",
+          "argument": "Het ABVV stelt dat er een duidelijke discrepantie bestaat tussen het aantal aangetroffen geldige stembiljetten (25) en de in het proces-verbaal opgenomen uitslag (23 stemmen), zodat ten minste verbetering van de verkiezingsuitslag moet volgen en, in het uiterste geval, nietigverklaring of hernieuwing van de verkiezingen kan worden gerechtvaardigd indien de correctie de verdeling van mandaten beïnvloedt. Het ABVV vordert controle van de stembiljetten en aanpassing van het PV en beroept zich op de rechtsmiddelen om ongerechtigheden in de verkiezingsprocedure te herstellen.",
+          "treatment": "AANVAARD"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:ARGNT:2024:JUG.20240712.1-002",
+          "argument": "De werkgever erkent dat er een materiële fout bij het tellen kan zijn en betoogt dat de juiste wijze van herstel bestaat in het openen van de verzegelde omslag en een hertelling van de stembiljetten door de rechtbank, waarna eventuele correcties van het PV kunnen worden doorgevoerd; zij verzet zich tegen een onmiddellijke nietigverklaring van de verkiezingen indien een simpele hertelling en correctie volstaan om de juiste uitslag vast te stellen.",
+          "treatment": "GEDEELTELIJK_AANVAARD"
+        }
+      ],
+      "courtOrder": "OM DEZE REDENEN DE RECHTBANK \n\nRechtsprekend op tegenspraak ten aanzien van het ABVV, X. P. NV, en mevrouw E. J.; in afwezigheid van de overige partijen.\n\nAlle andere en strijdige conclusies verwerpend;\n\nVerklaart de vordering van eisende partij ontvankelijk en als volgt gegrond:\n\nZegt voor recht dat het PV van het stembureau van de bedienden met betrekking tot de sociale verkiezingen bij X. P. NV van 16 mei 2024 moet worden aangepast, conform de resultaten van de telling waarvan akte genomen in het PV van de openbare zitting van 11 juni 2024 zoals hiervoor weergegeven.\n\nVerwijst elk van de partijen in haar eigen kosten, aan de zijde van eisende partij vereffend op 1.800 EUR rechtsplegingsvergoeding en 24 EUR bijdrage aan het Begrotingsfonds voor juridische tweedelijnsbijstand en aan de zijde van verwerende partij niet vereffend bij gebrek aan omstandige opgave.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-001",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:2024:JUG.20240712.1-001",
+        "provisionNumber": "artikel 2 en volgende",
+        "provisionNumberKey": "2",
+        "parentActType": "WET",
+        "parentActName": "wet van 15 juni 1935 op het gebruik der talen in gerechtszaken",
+        "parentActDate": "1935-06-15",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-002",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:2024:JUG.20240712.1-002",
+        "provisionNumber": "artikel 78bis",
+        "provisionNumberKey": "78bis",
+        "parentActType": "WET",
+        "parentActName": "wet van 4 december 2007",
+        "parentActDate": "2007-12-04",
+        "parentActNumber": null,
+        "provisionInterpretation": "De rechtbank leest artikel 78bis aldus dat de arbeidsrechtbank bevoegd is om te oordelen over beroepen die binnen dertien dagen na de aanplakking van de uitslag worden ingesteld door werkgever, werknemers of representatieve werknemers- en kaderorganisaties, en die betrekking hebben op gehele of gedeeltelijke nietigverklaring van de verkiezingen, stopzetting van de procedure of verbetering van de uitslag; de bepaling fungeert hier als ontvankelijkheids- en termijnregel.",
+        "relevantFactualContext": "De verkiezingen vonden plaats op 16/05/2024; de samenstelling werd aangeplakt op 18/05/2024; het beroep dateert van 23/05/2024, zodat het binnen de in artikel 78bis gestelde termijn tijdig en vormelijk regelmatig is ingediend."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-003",
+        "internalParentActId": "ACT-ECLI:BE:ARGNT:2024:JUG.20240712.1-003",
+        "provisionNumber": "artikel 1017, lid 2",
+        "provisionNumberKey": "1017",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger. W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Artikel 1017, lid 2 Ger. W. bepaalt dat de in het ongelijk gestelde partij tot de gerechtskosten wordt veroordeeld. De rechtbank past deze regel toe maar stelt dat wanneer geen enkele partij als ongelijk kan worden beschouwd — zoals wanneer beide partijen dezelfde beslissing nastreven — er geen grond is om één partij tot kosten te veroordelen.",
+        "relevantFactualContext": "Beide partijen verzochten hertelling en rechtzetting van het proces-verbaal; gezien dat zowel eisende als verwerende partij dezelfde rechtsgang hebben gevolgd en geen partij duidelijk in het ongelijk is gesteld, beslist de rechtbank dat ieder zijn eigen kosten draagt."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": []
+  },
+  "keywords": {
+    "customKeywords": [
+      "Arbeidsrecht",
+      "Sociale verkiezingen",
+      "CPBW-verkiezingen",
+      "Afzonderlijk stembureau bedienden",
+      "Telling stembiljetten",
+      "Nietigheid verkiezingen",
+      "Verbetering verkiezingsuitslag",
+      "Fout in proces-verbaal",
+      "Toewijzing ontbrekende stemmen",
+      "Hertelling door rechtbank"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:2024:JUG.20240712.1-001",
+        "text": "Artikel 78bis van de wet van 4 december 2007 maakt de arbeidsrechtbank bevoegd voor beroepen betreffende sociale verkiezingen die binnen dertien dagen na de aanplakking van de uitslag door werkgever, werknemers of representatieve werknemers- en kaderorganisaties worden ingesteld; de bepaling fungeert als ontvankelijkheids- en termijnregel voor verzoeken tot gehele of gedeeltelijke nietigverklaring, stopzetting van de procedure of verbetering van de uitslag.",
+        "courtVerbatim": "Overeenkomstig artikel 78bis van de wet van 4 december 2007 doet de arbeidsrechtbank uitspraak over de beroepen die binnen dertien dagen na de aanplakking van de uitslag van de verkiezing zijn ingesteld door de werkgever, de werknemers of de betrokken representatieve werknemers en kaderledenorganisaties en die betrekking hebben op een verzoek tot gehele of gedeeltelijke nietigverklaring van de verkiezingen of van een beslissing tot stopzetting van de procedure, of een verzoek tot verbetering van de verkiezingsuitslag. In het voorliggende geval vonden de verkiezingen plaats op 16 mei 2024 (dag Y). De aanplakking van de samenstelling van het CPBW gebeurde op 18 mei 2024 (dag Y + 2). Het beroep dateert van 23 mei 2024, zodat het in ieder geval tijdig is. Het verzoekschrift is voorts regelmatig naar de vorm. De vordering is bijgevolg ontvankelijk.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer een partij of representatieve werknemersorganisatie binnen dertien dagen na de aanplakking van de verkiezingsuitslag een beroep instelt met het oog op nietigverklaring, stopzetting of verbetering van de uitslag.",
+        "relevantFactualContext": "De verkiezingen vonden plaats op 16/05/2024; de samenstelling werd aangeplakt op 18/05/2024; het beroep dateert van 23/05/2024, zodat het binnen de in artikel 78bis gestelde termijn tijdig en vormelijk regelmatig is ingediend.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-002"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:2024:JUG.20240712.1-002",
+        "text": "Wanneer de rechter bij opening van de verzegelde omslag en hertelling vaststelt dat het proces-verbaal een materiële vergissing bevat in de telling van stembiljetten of toerekening van stemmen, dient het proces-verbaal te worden aangepast in overeenstemming met de door de rechtbank vastgestelde resultaten, inclusief de daarop gebaseerde kiescijfers, verdeling van zetels, aanwijzing van effectief verkozenen en rangschikking van niet-verkozen kandidaten.",
+        "courtVerbatim": "Uit het voorgaande volgt dat er inderdaad sprake is van een materiële vergissing in het PV van het stembureau van de bedienden van 16 mei 2024, die voor het overige echter geen invloed heeft op de verdeling van de mandaten. Het PV en meer in het bijzonder de aanduiding van het aantal stemmen per lijst en per kandidaat, alsook de kiescijfers en de daaruit volgende berekeningen van de verdeling van de zetels, van de verkiesbaarheidscijfers, van de aanwijzing van de effectief verkozenen, plaatsvervangers en rangschikking van de niet-verkozen kandidaten, moet worden aangepast in overeenstemming met de resultaten zoals hiervoor weergegeven, en zoals gevorderd door alle aanwezige partijen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Toepasbaar indien een hertelling of controle door de rechtbank aantoont dat het oorspronkelijke proces-verbaal materiële fouten bevat in de telling of toerekening van stemmen.",
+        "relevantFactualContext": "De rechtbank opende de verzegelde omslag en stelde vast dat er 26 stembiljetten waren, waarvan 25 geldig; het oorspronkelijke PV vermeldde echter slechts 23 stemmen. Na hertelling stelde de rechtbank de juiste toerekening van stemmen vast en alle aanwezige partijen gingen akkoord met de resultaten; de rechtbank beval aanpassing van het PV conform de hertelling.",
+        "principleType": "APPLICATION_STANDARD",
+        "legalArea": "EMPLOYMENT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:2024:JUG.20240712.1-003",
+        "text": "Artikel 1017, lid 2 Gerechtelijk Wetboek bepaalt dat de in het ongelijk gestelde partij de gerechtskosten draagt; wanneer evenwel geen enkele partij als zijnde 'in het ongelijk gestelde' kan worden beschouwd — bijvoorbeeld omdat beide partijen dezelfde vordering nastreven of beide om hertelling en rechtzetting hebben verzocht — bestaat er geen grond om één van de partijen tot de kosten te veroordelen, zodat elke partij in beginsel haar eigen kosten draagt.",
+        "courtVerbatim": "Wat betreft de gerechtskosten vordert het ABVV dat deze worden ten laste gelegd van de werkgever. De rechtbank wijst erop dat overeenkomstig artikel 1017, lid 2 Ger. W. de in het ongelijk gestelde partij moet worden veroordeeld tot de gerechtskosten. In het voorliggende geval kan geen van de partijen worden beschouwd als zijnde de in het ongelijk gestelde partij. Uiteindelijk vroegen zowel eisende als verwerende partij een hertelling van de stemmen en desgevallend een rechtzetting van het PV van de stemverrichtingen. Zij hadden bovendien geen andere keuze dan dit te doen via een procedure voor de rechtbank. Er is geen grond om één van de partijen te veroordelen. Elk van de partijen moet haar eigen kosten dragen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer beide partijen vergelijkbare vorderingen hebben ingesteld of dezelfde procedure hebben gevraagd, zodat geen partij evident 'in het ongelijk' is gesteld door de rechtbank.",
+        "relevantFactualContext": "Zowel het ABVV als X. P. vorderden hertelling en, indien nodig, rechtzetting van het proces-verbaal; aangezien geen partij duidelijk in het ongelijk werd gesteld en beide partijen dezelfde rechtsgang volgden, besliste de rechtbank dat elke partij haar eigen kosten draagt.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 1,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 3
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser (het ABVV) betwistte het proces‑verbaal van de sociale verkiezingen voor het CPBW bij de vennootschap wegens een discrepantie tussen het aantal geldige stembiljetten en de in het pv opgenomen telling. De rechtbank verklaarde de vordering ontvankelijk, opende de verzegelde omslag, voerde een hertelling uit, stelde een materiële telfout vast en beval de aanpassing van het proces‑verbaal overeenkomstig de door de rechtbank vastgestelde resultaten, waarbij de zetelverdeling ongewijzigd bleef. Kernpunt: een materiële telfout rechtvaardigt door de rechtbank uitgevoerde opening en hertelling en rectificatie van het pv; partijen dragen elk hun eigen gerechtskosten."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Het ABVV leidde haar vordering in met een tegensprekelijk verzoekschrift dat op de griffie werd ontvangen op 23 mei 2024. Namens X. P. werden conclusies neergelegd op 31 mei 2024. Namens het ABVV werden conclusies neergelegd op 3 juni 2024. Het ABVV en X. P., alsook mevrouw E. J. (als partij mede inzake) werden gehoord in hun middelen en conclusies op de openbare terechtzitting van 11 juni 2024. De overige partijen mede inzake waren niet aanwezig. De debatten werden vervolgens gesloten. De rechtbank nam kennis van de stukken van de rechtspleging en de stukkenbundels van eisende partij en van verwerende partijen. De rechtspleging verliep in het Nederlands overeenkomstig artikel 2 en volgende van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-001"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Overeenkomstig artikel 78bis van de wet van 4 december 2007 doet de arbeidsrechtbank uitspraak over de beroepen die binnen dertien dagen na de aanplakking van de uitslag van de verkiezing zijn ingesteld door de werkgever, de werknemers of de betrokken representatieve werknemers en kaderledenorganisaties en die betrekking hebben op een verzoek tot gehele of gedeeltelijke nietigverklaring van de verkiezingen of van een beslissing tot stopzetting van de procedure, of een verzoek tot verbetering van de verkiezingsuitslag. In het voorliggende geval vonden de verkiezingen plaats op 16 mei 2024 (dag Y). De aanplakking van de samenstelling van het CPBW gebeurde op 18 mei 2024 (dag Y + 2). Het beroep dateert van 23 mei 2024, zodat het in ieder geval tijdig is. Het verzoekschrift is voorts regelmatig naar de vorm. De vordering is bijgevolg ontvankelijk.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-002"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Uit het voorgaande volgt dat er inderdaad sprake is van een materiële vergissing in het PV van het stembureau van de bedienden van 16 mei 2024, die voor het overige echter geen invloed heeft op de verdeling van de mandaten. Het PV en meer in het bijzonder de aanduiding van het aantal stemmen per lijst en per kandidaat, alsook de kiescijfers en de daaruit volgende berekeningen van de verdeling van de zetels, van de verkiesbaarheidscijfers, van de aanwijzing van de effectief verkozenen, plaatsvervangers en rangschikking van de niet-verkozen kandidaten, moet worden aangepast in overeenstemming met de resultaten zoals hiervoor weergegeven, en zoals gevorderd door alle aanwezige partijen. Wat betreft de gerechtskosten vordert het ABVV dat deze worden ten laste gelegd van de werkgever. De rechtbank wijst erop dat overeenkomstig artikel 1017, lid 2 Ger. W. de in het ongelijk gestelde partij moet worden veroordeeld tot de gerechtskosten. In het voorliggende geval kan geen van de partijen worden beschouwd als zijnde de in het ongelijk gestelde partij. Uiteindelijk vroegen zowel eisende als verwerende partij een hertelling van de stemmen en desgevallend een rechtzetting van het PV van de stemverrichtingen. Zij hadden bovendien geen andere keuze dan dit te doen via een procedure voor de rechtbank. Er is geen grond om één van de partijen te veroordelen. Elk van de partijen moet haar eigen kosten dragen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:ARGNT:2024:JUG.20240712.1-003"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 3,
+      "citationStatistics": {
+        "totalCitations": 3,
+        "avgCitationsPerProvision": 1,
+        "provisionsWithMinimalCitations": 3,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 1,
+        "avgDecisionsPerProvision": 0,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:2024:JUG.20240712.1-001",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">Overeenkomstig artikel 78bis van de wet van 4 december 2007 doet de arbeidsrechtbank uitspraak over de beroepen die binnen dertien dagen na de aanplakking van de uitslag van de verkiezing zijn ingesteld door de werkgever, de werknemers of de betrokken representatieve werknemers en kaderledenorganisaties en die betrekking hebben op een verzoek tot gehele of gedeeltelijke nietigverklaring van de verkiezingen of van een beslissing tot stopzetting van de procedure, of een verzoek tot verbetering van de verkiezingsuitslag. In het voorliggende geval vonden de verkiezingen plaats op 16 mei 2024 (dag Y). De aanplakking van de samenstelling van het CPBW gebeurde op 18 mei 2024 (dag Y + 2). Het beroep dateert van 23 mei 2024, zodat het in ieder geval tijdig is. Het verzoekschrift is voorts regelmatig naar de vorm. De vordering is bijgevolg ontvankelijk.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:2024:JUG.20240712.1-002",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">Uit het de conclusies en de stukken van partijen blijkt dat bij X. P. sociale verkiezingen werden georganiseerd voor het CPBW op 16 mei 2024. In het proces-verbaal van het stembureau van de bedienden staat het volgende te lezen:</p>",
+          "        <p class=\"case-section__paragraph\">In het bijzijn van de verschijnende partijen wordt de omslag met gebruikte stembiljetten door de Voorzitter geopend. Deze omslag heeft navolgende inhoud :</p>",
+          "        <ul>\n            <li>\n                <p class=\"case-section__paragraph\">25 stembrieven van de verkiezingen van de personeelsafgevaardigden voor het CPBW bij verwerende partij, gehouden op 16/5/2024, stembureau van de bedienden.</p>\n            </li>\n            <li>\n                <p class=\"case-section__paragraph\">1 afzonderlijke omslag, met het opschrift “ONGELDIG”, op dezelfde wijze verzegeld als de hoofdomslag.</p>\n            </li>\n        </ul>",
+          "        <p class=\"case-section__paragraph\">De rechtbank gaat over tot controle van de geldigheid der stembiljetten in beide omslagen en stelt vast :</p>",
+          "        <ul>\n            <li>\n                <p class=\"case-section__paragraph\">aantal stembiljetten : 26</p>\n            </li>\n            <li>\n                <p class=\"case-section__paragraph\">aantal blanco stembiljetten : 0</p>\n            </li>\n            <li>\n                <p class=\"case-section__paragraph\">aantal ongeldige stembiljetten : 1 (gestemd op beide vakbonden)</p>\n            </li>\n            <li>\n                <p class=\"case-section__paragraph\">aantal geldige stembiljetten : 25</p>\n            </li>\n        </ul>",
+          "        <p class=\"case-section__paragraph\">De omslag met ongebruikte stembiljetten wordt door de rechtbank niet geopend. Alle aanwezige partijen verklaren zich akkoord met de controle der geldigheid en met de resultaten van de telling door de rechtbank. De verschijnende partijen : het ABVV, NV X. P. en mevr. J. E. vragen bij vonnis de aanpassing van het resultaat van de telling der uitgebrachte stemmen.</p>",
+          "        <p class=\"case-section__paragraph\">Uit het voorgaande volgt dat er inderdaad sprake is van een materiële vergissing in het PV van het stembureau van de bedienden van 16 mei 2024, die voor het overige echter geen invloed heeft op de verdeling van de mandaten. Het PV en meer in het bijzonder de aanduiding van het aantal stemmen per lijst en per kandidaat, alsook de kiescijfers en de daaruit volgende berekeningen van de verdeling van de zetels, van de verkiesbaarheidscijfers, van de aanwijzing van de effectief verkozenen, plaatsvervangers en rangschikking van de niet-verkozen kandidaten, moet worden aangepast in overeenstemming met de resultaten zoals hiervoor weergegeven, en zoals gevorderd door alle aanwezige partijen. Wat betreft de gerechtskosten vordert het ABVV dat deze worden ten laste gelegd van de werkgever. De rechtbank wijst erop dat overeenkomstig artikel 1017, lid 2 Ger. W. de in het ongelijk gestelde partij moet worden veroordeeld tot de gerechtskosten. In het voorliggende geval kan geen van de partijen worden beschouwd als zijnde de in het ongelijk gestelde partij. Uiteindelijk vroegen zowel eisende als verwerende partij een hertelling van de stemmen en desgevallend een rechtzetting van het PV van de stemverrichtingen. Zij hadden bovendien geen andere keuze dan dit te doen via een procedure voor de rechtbank. Er is geen grond om één van de partijen te veroordelen. Elk van de partijen moet haar eigen kosten dragen.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 0,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:ARGNT:2024:JUG.20240712.1-003",
+        "relatedFullTextCitations": [
+          "        <p class=\"case-section__paragraph\">Uit het voorgaande volgt dat er inderdaad sprake is van een materiële vergissing in het PV van het stembureau van de bedienden van 16 mei 2024, die voor het overige echter geen invloed heeft op de verdeling van de mandaten. Het PV en meer in het bijzonder de aanduiding van het aantal stemmen per lijst en per kandidaat, alsook de kiescijfers en de daaruit volgende berekeningen van de verdeling van de zetels, van de verkiesbaarheidscijfers, van de aanwijzing van de effectief verkozenen, plaatsvervangers en rangschikking van de niet-verkozen kandidaten, moet worden aangepast in overeenstemming met de resultaten zoals hiervoor weergegeven, en zoals gevorderd door alle aanwezige partijen. Wat betreft de gerechtskosten vordert het ABVV dat deze worden ten laste gelegd van de werkgever. De rechtbank wijst erop dat overeenkomstig artikel 1017, lid 2 Ger. W. de in het ongelijk gestelde partij moet worden veroordeeld tot de gerechtskosten. In het voorliggende geval kan geen van de partijen worden beschouwd als zijnde de in het ongelijk gestelde partij. Uiteindelijk vroegen zowel eisende als verwerende partij een hertelling van de stemmen en desgevallend een rechtzetting van het PV van de stemverrichtingen. Zij hadden bovendien geen andere keuze dan dit te doen via een procedure voor de rechtbank. Er is geen grond om één van de partijen te veroordelen. Elk van de partijen moet haar eigen kosten dragen.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 3,
+      "citationStatistics": {
+        "totalCitations": 9,
+        "avgCitationsPerTeaching": 3,
+        "teachingsWithMinimalCitations": 2,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 2,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 0,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": []
+    }
+  }
+}

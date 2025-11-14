@@ -1,0 +1,978 @@
+{
+  "decision_id": "ECLI:BE:EAANT:2014:ARR.20140430.20",
+  "language": "NL",
+  "metadata": {
+    "id": 57838,
+    "court_ecli_code": "EAANT",
+    "court_name": "Rechtbank van Eerste Aanleg te Antwerpen",
+    "decision_date": "2014-04-30",
+    "decision_type_ecli_code": "ARR",
+    "decision_type_name": "Arrest",
+    "md_length": 18773,
+    "length_category": "long"
+  },
+  "comprehensive": {
+    "reference": {
+      "citationReference": "Rechtbank van eerste aanleg Antwerpen, afdeling Mechelen, vierde kamer, 30 april 2014, A.R. nr. 13/926/A, ECLI:BE:EAANT:2014:ARR.20140430.20"
+    },
+    "parties": [
+      {
+        "id": "PARTY-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "name": "Mevrouw L. S.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "EISER"
+      },
+      {
+        "id": "PARTY-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+        "name": "De heer R. S.",
+        "type": "NATURAL_PERSON",
+        "proceduralRole": "VERWEERDER"
+      }
+    ],
+    "currentInstance": {
+      "facts": "Partijen zijn gescheiden bij vonnis van 22 oktober 1998; bij onderhandse regelingsakte en authentieke akte van 15 juni 1998 werd onder meer geregeld dat de heer S. aan mevrouw S. onderhoudsgeld betaalt. De overeenkomst bepaalde initieel 65.000 BEF jaarlijks te indexeren; bij bereiken van 60 jaar wordt het onderhoudsgeld herleid tot 50.000 BEF (geïndexeerd) en bij 65 jaar tot 40.000 BEF (geïndexeerd). Daarnaast verbond de heer S. zich tot betaling van alle medische kosten en jaarlijks een extra forfait van 15.000 BEF als tussenkomst in farmaceutische producten tot de leeftijd van 60 jaar. Volgens de bewoordingen en de gehanteerde indexatieformules in de akte moest vanaf de maand na de 60ste verjaardag de herleide onderhoudsuitkering worden berekend met een aanvangsindex van februari 2012. Tot en met februari 2012 werd door verweerder een maandelijks geïndexeerd onderhoudsgeld van € 2.127,13 betaald. Verweerder verklaart dat hij vanaf 12 februari 2012 € 1.239,47 per maand betaalde en later naar eigen zeggen maandelijks € 1.257,00 betaalt, berekend volgens een door hem gebruikte indexatiemethode (januari-indexen). Eiseres betwist die herleiding en indexatie en vordert een uitlegging van de regelingsakte zodat het herleide bedrag vanaf 1 maart 2012 als basisonderhoudsgeld € 1.239,47 vermeerderd met € 396,39 (resulterend in € 1.635,86) moet gelden, vervolgens jaarlijks aan te passen volgens de in de akte voorziene formule met aanvangsindex februari 2012.",
+      "requests": [
+        {
+          "partyId": "PARTY-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+          "requests": "Eiseres vordert dat bij uitvoerbaar vonnis wordt vastgesteld dat de herleiding van het vanaf 1 maart 2012 verschuldigde onderhoudsgeld moet worden uitgelegd als het basisonderhoudsgeld (€ 1.239,47) vermeerderd met € 396,39, zodat vanaf 1 maart 2012 € 1.635,86 per maand verschuldigd is, jaarlijks aan te passen aan de index volgens de in de akte vermelde formule; zij vordert tevens veroordeling van verweerder in de gerechtskosten, met een rechtsplegingsvergoeding van € 1.320,00."
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+          "requests": "Verweerder vordert onontvankelijkheid of minstens ongegrondheid van de vordering en verlangt veroordeling van eiseres in de gerechtskosten, met een rechtsplegingsvergoeding aan zijn zijde van € 1.320,00."
+        }
+      ],
+      "arguments": [
+        {
+          "partyId": "PARTY-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+          "argument": "Verweerder betoogt primair dat de rechtbank van eerste aanleg onbevoegd is om thans de uitlegging van de regelingsakte te geven omdat zij geen inhoudelijke controle mocht of kon uitvoeren bij de echtscheiding (verwijzing naar art. 795 en vroegere art. 1297 en 1298 Gerechtelijk Wetboek) en dat geen enkele rechtbank gehouden kan zijn de draagwijdte van een door partijen onderling akkoord gesloten overeenkomst te bepalen. Voorts stelt hij dat de regelingsakte als geheel het karakter van een dading heeft, zodat de exceptie van dading (vernietigbaarheid) de ontvankelijkheid zou uitsluiten.",
+          "treatment": "VERWORPEN"
+        },
+        {
+          "partyId": "PARTY-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+          "argument": "Eiseres voert aan dat de exceptie van onbevoegdheid ontoelaatbaar is omdat verweerder geen alternatieve bevoegde rechter aanduidt (aanroep van art. 855 Ger. Wb.) en dat de rechtbank wel bevoegd is om de draagwijdte van de regelingsakte te interpreteren; zij beroept zich ook op artikel 568 Ger. Wb. voor materiële bevoegdheid en artikel 624, §1, 1° Ger. Wb. voor territoriale bevoegdheid. Eiseres betoogt voorts dat een vordering tot uitlegging evenzeer kan gelden voor een overeenkomst die als dading wordt beschouwd, zodat de exceptie van dading geen reden tot niet-ontvankelijkheid vormt.",
+          "treatment": "AANVAARD"
+        }
+      ],
+      "courtOrder": "Dit vonnis wordt uitgesproken op tegenspraak;\nDe bepalingen van de wet van 15 juni 1935 op het gebruik der talen in gerechtszaken en op de latere aanvullingen en wijzigingen daaraan werden in acht genomen;\n\nDe wetten van 26 juni 2000 en 30 juni 2000 betreffende de invoering van de euro en de in uitvoering hiervan genomen koninklijke besluiten van 20 juli 2000 werden eveneens in acht genomen;\n\nDe vordering van mevrouw $S$. is ontvankelijk en gegrond zoals hierna bepaald;\n\nDe rechtbank zegt voor recht dat de in de regelingsakte van 15 juni 1998 overeengekomen herleiding van het door de heer S. aan mevrouw S. vanaf 1 maart 2012 verschuldigde onderhouds-geld dient te worden uitgelegd als zijnde :\nhet basisonderhoudsgeld ( $€ 1.239,47 €$ ) vermeerderd met $€$ 396,39 (indexatie van $€$ 1.239,47 vanaf 1 september 1999 tot en met de laatste indexatie op 1 september 2011),\nzodat de heer S. vanaf 1 maart 2012 aan mevrouw S. een maandelijks onderhoudsgeld verschuldigd is van duizend zeshonderd vijfendertig euro zesentachtig cent ( $€ 1.635,86$ ), jaarlijks aan te passen aan de index der consumptieprijzen volgens de formule :\nbasisonderhoudsgeld ( $€$ 1.635,86) x nieuw indexcijfer (februari 2013,2014, 2015 enz...\nbasisindexcijfer februari 2012 (138,59-basis 1996)\nDe heer S. wordt veroordeeld tot de gerechtskosten, voor mevrouw S. begroot op $€$ 237,62 (dagvaardingskosten) $+€$ 1.320,00 (rechtsplegingsvergoeding), en voor hemzelf op nihil.",
+      "outcome": "GEGROND"
+    }
+  },
+  "provisions": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "provisionNumber": "artikel 747 §1",
+        "provisionNumberKey": "747",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "provisionNumber": "artikel 795",
+        "provisionNumberKey": "795",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-003",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "provisionNumber": "artikel 1297",
+        "provisionNumberKey": "1297",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-004",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "provisionNumber": "artikel 1298",
+        "provisionNumberKey": "1298",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-005",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "provisionNumber": "artikel 855",
+        "provisionNumberKey": "855",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "Het Hof stelt dat artikel 855 G.W. voorschrijft dat een partij die de bevoegdheid van de rechter betwist, slechts een exceptie kan maken indien zij tegelijk meedeelt welke rechter volgens haar wél bevoegd is; het ontbreken van die aanduiding maakt de exceptie ontoelaatbaar.",
+        "relevantFactualContext": "Verweerder voerde een exceptie van onbevoegdheid in maar wees geen alternatieve bevoegde rechtbank aan; de rechtbank oordeelt dat daardoor de exceptie niet kan worden aanvaard."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "provisionNumber": "artikel 793",
+        "provisionNumberKey": "793",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "provisionNumber": "artikel 568, lid 1",
+        "provisionNumberKey": "568",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-008",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:20140430.20-001",
+        "provisionNumber": "artikel 624, 1°",
+        "provisionNumberKey": "624",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-009",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+        "provisionNumber": "artikel 2044",
+        "provisionNumberKey": "2044",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De rechtbank volgt de recente Cassatieleer en stelt dat de vraag of een regelingsakte een dading is in de zin van artikel 2044 BW niet langer beslissend is; een regelingsakte wordt als een bijzondere familiaalrechtelijke overeenkomst beschouwd en valt onder de algemene regels van het verbintenissenrecht.",
+        "relevantFactualContext": "Verweerder riep de exceptie van dading in om uitlegging van de regelingsakte te verhinderen; de rechtbank verwerpt die exceptie en behandelt de interpretatie van de onderhoudsclausule."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-010",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:20140430.20-002",
+        "provisionNumber": "artikel 887",
+        "provisionNumberKey": "887",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De rechtbank verwijst naar Cassatie en neemt de daaropvolgende uitleg over dat vernietiging van een regelingsakte wegens benadeling krachtens artikel 887 BW uitgesloten is voor dit soort bijzondere familiaalrechtelijke overeenkomsten; zulke vernietiging is niet aan de orde.",
+        "relevantFactualContext": "In het kader van de discussie of de regelingsakte als dading kon gelden, werd aangevoerd dat vernietiging wegens benadeling mogelijk is; de rechtbank wijst dit af en past de Cassatieregel toe."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:20140430.20-011",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:20140430.20-002",
+        "provisionNumber": "artikel 888",
+        "provisionNumberKey": "888",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "In navolging van recente rechtspraak oordeelt de rechtbank dat artikel 888 BW geen grond biedt om een regelingsakte te vernietigen wegens benadeling; voor dit type akte is beroep op artikel 888 in dit verband uitgesloten.",
+        "relevantFactualContext": "Partijen betwistten of de onderhoudsregeling vernietigbaar was wegens benadeling; de rechtbank volgt Cassatie en verwerpt die mogelijkheid."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:20140430.20-012",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:20140430.20-002",
+        "provisionNumber": "artikel 1156",
+        "provisionNumberKey": "1156",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Burgerlijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De rechtbank interpreteert artikel 1156 BW als regel dat bij uitlegging van een overeenkomst eerst de gemeenschappelijke bedoeling van partijen moet worden vastgesteld; daarvoor gelden primair de bewoordingen van de akte en subsidiarisch de extrinsieke omstandigheden om de werkelijke draagwijdte te achterhalen.",
+        "relevantFactualContext": "Artikel 1156 wordt toegepast bij de betwisting over de betekenis van de clausule die het onderhoudsgeld bij het bereiken van 60 jaar herleidt; de rechtbank gebruikt bewoordingen en omstandigheden om de gemeenschappelijke wil vast te stellen."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:20140430.20-013",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:20140430.20-001",
+        "provisionNumber": "artikel 1017, lid 1",
+        "provisionNumberKey": "1017",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:20140430.20-014",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:20140430.20-001",
+        "provisionNumber": "artikel 1022",
+        "provisionNumberKey": "1022",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:20140430.20-015",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:20140430.20-001",
+        "provisionNumber": "artikel 1018, 6°",
+        "provisionNumberKey": "1018",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:20140430.20-016",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:20140430.20-003",
+        "provisionNumber": "artikel 3",
+        "provisionNumberKey": "3",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "K.B. van 26 oktober 2007",
+        "parentActDate": "2007-10-26",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:EAANT:20140430.20-017",
+        "internalParentActId": "ACT-ECLI:BE:EAANT:20140430.20-001",
+        "provisionNumber": "artikel 1398",
+        "provisionNumberKey": "1398",
+        "parentActType": "WETBOEK",
+        "parentActName": "het Gerechtelijk Wetboek",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": "De rechtbank legt artikel 1398 G.W. uit als een bevoegdheid voor de rechter om voorlopige tenuitvoerlegging van vonnissen toe te staan, maar benadrukt dat dit een uitzondering blijft op de regel dat gewone rechtsmiddelen schorsende werking hebben; toekenning vereist daarom bijzondere voorzichtigheid en afdoende redenen.",
+        "relevantFactualContext": "Eiseres verzocht uitvoerbaarheid bij voorraad van het vonnis; de rechtbank overwoog de noodzaak van afdoende redenen en concludeerde dat die ontbreken, zodat uitvoerbaarheid bij voorraad niet wordt toegekend."
+      }
+    ]
+  },
+  "citedDecisions": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De rechtbank van eerste aanleg Antwerpen, afdeling Mechelen, vierde kamer",
+        "date": "2013-06-10",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De rechtbank van eerste aanleg Antwerpen, afdeling Mechelen, vierde kamer",
+        "date": "2013-06-28",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De rechtbank van eerste aanleg Antwerpen, afdeling Mechelen, vierde kamer",
+        "date": "2014-02-24",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "De rechtbank van eerste aanleg Antwerpen, afdeling Mechelen, vierde kamer",
+        "date": "2014-04-03",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-004"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 5,
+        "courtJurisdictionCode": "BE",
+        "courtName": "derde kamer van deze rechtbank",
+        "date": "1998-10-22",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-005"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 6,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1978-11-10",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-006"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 7,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1988-03-24",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-007"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 8,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "1998-05-07",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-008"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 9,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Cass.",
+        "date": "2010-04-22",
+        "caseNumber": "C.09.0253.N",
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-009"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 10,
+        "courtJurisdictionCode": "BE",
+        "courtName": "Hof van Cassatie",
+        "date": "2012-11-09",
+        "caseNumber": "C.12.0146.N",
+        "ecli": null,
+        "treatment": "FOLLOWED",
+        "type": "PRECEDENT",
+        "internalDecisionId": "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-010"
+      }
+    ]
+  },
+  "keywords": {
+    "customKeywords": [
+      "Familierecht",
+      "Echtscheidingsregeling",
+      "Alimentatie na echtscheiding",
+      "Herleide onderhoudsuitkering",
+      "Indexatieclausule",
+      "Uitleg overeenkomst",
+      "Indexatieformule",
+      "Exceptie dading",
+      "Bevoegdheid betwist",
+      "Interpretatie regelingsakte"
+    ],
+    "metadata": {
+      "totalKeywords": 10,
+      "keywordBreakdown": {
+        "legalDomain": 1,
+        "factualSituation": 4,
+        "keyDispute": 4,
+        "distinctiveElement": 1
+      },
+      "validationChecks": {
+        "keywordCountInRange": true,
+        "allKeywordsShort": true,
+        "noGenericTerms": true,
+        "noPartyNames": true,
+        "balancedMix": true
+      }
+    }
+  },
+  "legalTeachings": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "text": "Een rechtbank van eerste aanleg heeft rechtsmacht om de betekenis van een door partijen gesloten overeenkomst vast te stellen wanneer partijen tijdens de uitvoering uiteenlopende interpretaties geven; het feit dat de overeenkomst voortvloeit uit een echtscheidingsregeling of dat de oorspronkelijke scheidingsrechter een beperkte formele controle had, sluit nadere uitleg door de uitvoerende rechtbank niet uit.",
+        "courtVerbatim": "Vooreerst dient, in het licht van de argumentatie van verweerder, een begripsverwarring uitgeklaard. De rechtbank is immers van oordeel dat eerder haar \"rechtsmacht\" dan haar \"bevoegdheid\" in beeld komt, mede gelet op volgende opmerking van verweerder ... Het begrip \"rechtsmacht\" heeft betrekking op de uitoefening van de rechterlijke macht. Het begrip \"bevoegdheid\" slaat op de rechtsmacht die de wetgever aan een bepaalde rechter concreet heeft toebedeeld. In die optiek is het logisch dat verweerder geen bevoegde rechter aanduidt. Hij voert in feite aan dat deze rechtbank geen rechtsmacht heeft om de regelingsakte te interpreteren. Er kan evenwel geen twijfel over bestaan dat deze rechtbank wel degelijk rechtsmacht heeft om de overeenkomst van partijen uit te leggen. Wanneer immers de partijen tijdens de uitvoering van de overeenkomst elk een verschillende draagwijdte geven aan de door hen gebruikte bewoordingen, is het de rechter die de precieze betekenis van de wilsverklaring van de partijen zal moeten vaststellen (zie o.m. ...).",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer partijen tijdens de uitvoering van een overeenkomst verschillende betekenis geven aan contractsbepalingen en de uitleg daarvan ter beoordeling aan de rechtbank wordt voorgelegd.",
+        "relevantFactualContext": "Partijen twisten over de betekenis van een clausule in een regelingsakte die verbonden is aan hun echtscheiding; verweerder voerde een exceptie van onbevoegdheid in zonder alternatieve bevoegde rechtbank aan te duiden.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "FAMILY_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-005",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-008"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-008",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-009"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+        "text": "Een regelingsakte tussen partijen bij echtscheiding wordt beschouwd als een bijzondere familiaalrechtelijke overeenkomst onderworpen aan de algemene regels van het verbintenissenrecht; de vraag of zij als 'dading' kwalificeert (artikel 2044 BW) is voor de beoordeling niet langer beslissend en een vernietiging wegens benadeling op grond van artikelen 887 of 888 BW is voor dit type akte doorgaans uitgesloten.",
+        "courtVerbatim": "Ingevolge recente rechtspraak van het Hof van Cassatie is de vraag of een regelingsakte een dading uitmaakt in de zin van artikel 2044 van het burgerlijk wetboek trouwens niet langer relevant. In zijn arrest van 9 november 2012 (C.12.0146.N), oordeelde het Hof immers: \"Deze regelingsakte is een familiaalrechtelijke overeenkomst van bijzondere aard die onderworpen is aan de algemene regels van het verbintenissenrecht, met dien verstande dat zij gelet op haar aard en strekking niet kan worden aangevochten wegens dwaling of benadeling ...\" Ook de exceptie van dading wordt derhalve afgewezen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing wanneer wordt betwist of een regelingsakte verbonden aan echtscheiding als dading kwalificeert en of zij vernietigbaar is wegens dwaling of benadeling.",
+        "relevantFactualContext": "Verweerder stelde de exceptie van dading in om de uitlegging van de onderhoudsregeling te verhinderen; de rechtbank volgt de Cassatieregel (C.12.0146.N) en wijst de exceptie van dading af.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "FAMILY_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-009",
+          "ART-ECLI:BE:EAANT:20140430.20-010",
+          "ART-ECLI:BE:EAANT:20140430.20-011"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-010"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:EAANT:2014:ARR.20140430.20-003",
+        "text": "Bij uitlegging van een overeenkomst moet de rechter in de eerste plaats de gemeenschappelijke bedoeling van partijen vaststellen: eerst de bewoordingen van de akte (primaire toets) en, subsidiair, extrinsieke omstandigheden om de werkelijke draagwijdte van de wilsverklaring te bepalen.",
+        "courtVerbatim": "Luidens artikel 1156 van het burgerlijk wetboek moet de rechtbank in de eerste plaats de gemeenschappelijke bedoeling van de partijen nagaan. Teneinde de gemeenschappelijke bedoeling van de partijen te achterhalen, zal eerst een beroep worden gedaan op de bewoordingen van de akte tot vaststelling van de overeenkomst. Naast de bewoordingen van de akte zelf, kan ook worden gekeken naar de extrinsieke omstandigheden om de werkelijke draagwijdte te bepalen van wat de partijen gezamenlijk hebben gewild.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij een geschil over de betekenis van contractuele bepalingen, waaronder clausules in een regelingsakte.",
+        "relevantFactualContext": "De discussie betrof de uitleg van een clausule die het onderhoudsgeld bij het bereiken van 60 jaar herleidt; de rechtbank paste artikel 1156 toe en bekeek zowel de bewoordingen van de akte als de extrinsieke omstandigheden.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-012"
+        ],
+        "relatedCitedDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-008",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-009"
+        ],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:EAANT:2014:ARR.20140430.20-004",
+        "text": "Uitvoerbaarheid bij voorraad is een uitzonderingsmaatregel op de regel dat gewone rechtsmiddelen schorsende werking hebben; toekenning vergt bijzondere omzichtigheid en moet worden gedragen door afdoende redenen; bij ontbreken daarvan dient uitvoerbaarheid bij voorraad te worden geweigerd.",
+        "courtVerbatim": "Overeenkomstig artikel 1398 van het gerechtelijk wetboek kan de rechter, behoudens de uitzonderingen die de wet bepaalt, de voorlopige tenuitvoerlegging van de vonnissen toestaan. Het gerechtelijk wetboek gaat evenwel uit van de regel dat de gewone rechtsmiddelen schorsende werking hebben, waarop de uitvoerbaarheid bij voorraad een uitzondering vormt. Een beslissing tot uitvoerbaarheid bij voorraad kan dan ook enkel met de nodige omzichtigheid toegekend worden. De rechtbank is van oordeel dat er in deze zaak geen afdoende redenen voorhanden zijn om af te wijken van het principe van de schorsende werking van gewone rechtsmiddelen.",
+        "courtVerbatimLanguage": "NL",
+        "factualTrigger": "Van toepassing bij een verzoek om voorlopige tenuitvoerlegging (uitvoerbaarheid bij voorraad) van een vonnis ondanks het bestaan van schorsende rechtsmiddelen.",
+        "relevantFactualContext": "Eiseres verzocht uitvoerbaarheid bij voorraad zonder borgstelling; de rechtbank meende dat er geen afdoende redenen waren om af te wijken van de normale schorsende werking en wees het verzoek af.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-017"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 3,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 1,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 0,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  },
+  "microSummary": {
+    "microSummary": "De eiser vordert uitleg van een clausule uit een regelingsakte over de herleiding en indexatie van haar onderhoudsgeld tegen de verweerder. De rechtbank verklaart de vordering gegrond en legt uit dat de herleiding vanaf 1 maart 2012 moet worden gelezen als het basisonderhoud (€1.239,47) vermeerderd met eerdere indexaties (€396,39) tot een nieuw maandelijks basisbedrag van €1.635,86, dat jaarlijks wordt aangepast met als aanvangsindex februari 2012 en opvolgende indexcijfers van februari. De rechtbank wees de excepties van onbevoegdheid en dading af en benadrukte dat zij bevoegd is de gemeenschappelijke bedoeling van partijen vast te stellen aan de hand van tekst en extrinsieke omstandigheden."
+  },
+  "provisionCitations": {
+    "citedProvisions": [
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "relatedFullTextCitations": [
+          "<li>de beschikking van 28 juni 2013 verleend overeenkomstig artikel 747 §1 van het gerechtelijk wetboek</li>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-001"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-002"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verweerder voert in de eerste plaats aan dat de rechtbank van eerste aanleg onbevoegd is om thans een uitlegging of interpretatie te geven van een overeenkomst waarvan zij geen inhoudelijke controle heeft mogen of kunnen uitvoeren. Hij wijst op de bepalingen van artikel 795 en de vroegere artikelen 1297 en 1298 van het gerechtelijk wetboek, en merkt op dat de rechtbank van eerste aanleg die destijds de echtscheiding heeft uitgesproken, conform de toenmalige wetgeving, enkel een formele controle heeft uitgevoerd. Volgens eiseres miskent verweerder met de door hem opgeworpen exceptie van onbevoegdheid artikel 855 van het gerechtelijk wetboek, dat voorschrijft dat de partij die de bevoegdheid van de rechter voor wie de zaak aanhangig is, alleen mag afwijzen in zover zij meedeelt welke rechter volgens haar bevoegd is. Nu verweerder geen bevoegde rechter aanduidt, is zijn exceptie van onbevoegdheid ontoelaatbaar, aldus eiseres. Eiseres betoogt voorts dat zij de rechtbank adieert om de draagwijdte van de regelingsakte te interpreteren, en dat de rechtbank van eerste aanleg kennis neemt van alle vorderingen ongeacht de aard of het bedrag (artikel 568 van het gerechtelijk wetboek).</p>",
+          "<p class=\"case-section__paragraph\">Vooreerst dient, in het licht van de argumentatie van verweerder, een begripsverwarring uitgeklaard. De rechtbank is immers van oordeel dat eerder haar \"rechtsmacht\" dan haar \"bevoegdheid\" in beeld komt, mede gelet op volgende opmerking van verweerder (p. 5 van zijn conclusie) : \"Concluant meent dat geen enkele rechtbank gehouden kan zijn de draagwijdte te bepalen van een overeenkomst die het gevolg is van een onderling akkoord tussen partijen.\" Het begrip \"rechtsmacht\" heeft betrekking op de uitoefening van de rechterlijke macht. De rechter kan slechts recht spreken voor zover hij hiertoe macht heeft. Wanneer het voorwerp van de vordering niet tot het imperium van de rechterlijke macht behoort, moet de rechter bij gebrek aan rechtsmacht de zaak uit handen geven (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 222, nrs. 461-462). Het begrip \"bevoegdheid\" slaat op de rechtsmacht die de wetgever aan een bepaalde rechter concreet heeft toebedeeld. Een rechter is slechts bevoegd wanneer hem de macht werd verleend om daadwerkelijk kennis te nemen van de vordering die voor hem is gebracht (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 223, nr. 464). In die optiek is het logisch dat verweerder geen bevoegde rechter aanduidt. Hij voert in feite aan dat deze rechtbank geen rechtsmacht heeft om de regelingsakte te interpreteren. Er kan evenwel geen twijfel over bestaan dat deze rechtbank wel degelijk rechtsmacht heeft om de overeenkomst van partijen uit te leggen. Wanneer immers de partijen tijdens de uitvoering van de overeenkomst elk een verschillende draagwijdte geven aan de door hen gebruikte bewoordingen, is het de rechter die de precieze betekenis van de wilsverklaring van de partijen zal moeten vaststellen (zie o.m. W. DE BONDT, \"Uitlegging van overeenkomsten naar de geest: mogelijkheden, grenzen en alternatieven\", RW 1996-97, 1001, en diverse cassatiearresten waarin de interpretatie van een overeenkomst aan bod komt : Cass. 10 november 1978, RW 1979-80, 1479, noot A. VAN OEVELEN; Cass. 24 maart 1988, Arr.Cass. 1987-88, 972; Cass. 7 mei 1998, Larcier Cass. 1998, 164; Cass. 22 april 2010, C.09.0253.N ECLI:BE:CASS:2010:ARR.20100422.15 , www.juridat.be). Eiseres merkt nog terecht op dat de artikelen 793 en 795 van het gerechtelijk wetboek (aangevuld en gewijzigd bij wet van 24 oktober 2013 - BS 24 januari 2014) hier niet relevant zijn, aangezien zij niet de uitlegging van een rechterlijke beslissing vraagt. Voor zover als nodig kan tot slot worden opgemerkt dat deze rechtbank zowel materieel (artikel 568, lid 1 van het gerechtelijk wetboek) als territoriaal (artikel 624, 1° van het gerechtelijk wetboek) bevoegd is om kennis te nemen van het geschil.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-003",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-004",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-005",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-008",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-009"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verweerder voert in de eerste plaats aan dat de rechtbank van eerste aanleg onbevoegd is om thans een uitlegging of interpretatie te geven van een overeenkomst waarvan zij geen inhoudelijke controle heeft mogen of kunnen uitvoeren. Hij wijst op de bepalingen van artikel 795 en de vroegere artikelen 1297 en 1298 van het gerechtelijk wetboek, en merkt op dat de rechtbank van eerste aanleg die destijds de echtscheiding heeft uitgesproken, conform de toenmalige wetgeving, enkel een formele controle heeft uitgevoerd. Volgens eiseres miskent verweerder met de door hem opgeworpen exceptie van onbevoegdheid artikel 855 van het gerechtelijk wetboek, dat voorschrijft dat de partij die de bevoegdheid van de rechter voor wie de zaak aanhangig is, alleen mag afwijzen in zover zij meedeelt welke rechter volgens haar bevoegd is. Nu verweerder geen bevoegde rechter aanduidt, is zijn exceptie van onbevoegdheid ontoelaatbaar, aldus eiseres. Eiseres betoogt voorts dat zij de rechtbank adieert om de draagwijdte van de regelingsakte te interpreteren, en dat de rechtbank van eerste aanleg kennis neemt van alle vorderingen ongeacht de aard of het bedrag (artikel 568 van het gerechtelijk wetboek).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-003",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-004",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-005",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verweerder voert in de eerste plaats aan dat de rechtbank van eerste aanleg onbevoegd is om thans een uitlegging of interpretatie te geven van een overeenkomst waarvan zij geen inhoudelijke controle heeft mogen of kunnen uitvoeren. Hij wijst op de bepalingen van artikel 795 en de vroegere artikelen 1297 en 1298 van het gerechtelijk wetboek, en merkt op dat de rechtbank van eerste aanleg die destijds de echtscheiding heeft uitgesproken, conform de toenmalige wetgeving, enkel een formele controle heeft uitgevoerd. Volgens eiseres miskent verweerder met de door hem opgeworpen exceptie van onbevoegdheid artikel 855 van het gerechtelijk wetboek, dat voorschrijft dat de partij die de bevoegdheid van de rechter voor wie de zaak aanhangig is, alleen mag afwijzen in zover zij meedeelt welke rechter volgens haar bevoegd is. Nu verweerder geen bevoegde rechter aanduidt, is zijn exceptie van onbevoegdheid ontoelaatbaar, aldus eiseres. Eiseres betoogt voorts dat zij de rechtbank adieert om de draagwijdte van de regelingsakte te interpreteren, en dat de rechtbank van eerste aanleg kennis neemt van alle vorderingen ongeacht de aard of het bedrag (artikel 568 van het gerechtelijk wetboek).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-004",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-003",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-005",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-005",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verweerder voert in de eerste plaats aan dat de rechtbank van eerste aanleg onbevoegd is om thans een uitlegging of interpretatie te geven van een overeenkomst waarvan zij geen inhoudelijke controle heeft mogen of kunnen uitvoeren. Hij wijst op de bepalingen van artikel 795 en de vroegere artikelen 1297 en 1298 van het gerechtelijk wetboek, en merkt op dat de rechtbank van eerste aanleg die destijds de echtscheiding heeft uitgesproken, conform de toenmalige wetgeving, enkel een formele controle heeft uitgevoerd. Volgens eiseres miskent verweerder met de door hem opgeworpen exceptie van onbevoegdheid artikel 855 van het gerechtelijk wetboek, dat voorschrijft dat de partij die de bevoegdheid van de rechter voor wie de zaak aanhangig is, alleen mag afwijzen in zover zij meedeelt welke rechter volgens haar bevoegd is. Nu verweerder geen bevoegde rechter aanduidt, is zijn exceptie van onbevoegdheid ontoelaatbaar, aldus eiseres. Eiseres betoogt voorts dat zij de rechtbank adieert om de draagwijdte van de regelingsakte te interpreteren, en dat de rechtbank van eerste aanleg kennis neemt van alle vorderingen ongeacht de aard of het bedrag (artikel 568 van het gerechtelijk wetboek).</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-005",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-003",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-004",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-007"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vooreerst dient, in het licht van de argumentatie van verweerder, een begripsverwarring uitgeklaard. De rechtbank is immers van oordeel dat eerder haar \"rechtsmacht\" dan haar \"bevoegdheid\" in beeld komt, mede gelet op volgende opmerking van verweerder (p. 5 van zijn conclusie) : \"Concluant meent dat geen enkele rechtbank gehouden kan zijn de draagwijdte te bepalen van een overeenkomst die het gevolg is van een onderling akkoord tussen partijen.\" Het begrip \"rechtsmacht\" heeft betrekking op de uitoefening van de rechterlijke macht. De rechter kan slechts recht spreken voor zover hij hiertoe macht heeft. Wanneer het voorwerp van de vordering niet tot het imperium van de rechterlijke macht behoort, moet de rechter bij gebrek aan rechtsmacht de zaak uit handen geven (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 222, nrs. 461-462). Het begrip \"bevoegdheid\" slaat op de rechtsmacht die de wetgever aan een bepaalde rechter concreet heeft toebedeeld. Een rechter is slechts bevoegd wanneer hem de macht werd verleend om daadwerkelijk kennis te nemen van de vordering die voor hem is gebracht (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 223, nr. 464). In die optiek is het logisch dat verweerder geen bevoegde rechter aanduidt. Hij voert in feite aan dat deze rechtbank geen rechtsmacht heeft om de regelingsakte te interpreteren. Er kan evenwel geen twijfel over bestaan dat deze rechtbank wel degelijk rechtsmacht heeft om de overeenkomst van partijen uit te leggen. Wanneer immers de partijen tijdens de uitvoering van de overeenkomst elk een verschillende draagwijdte geven aan de door hen gebruikte bewoordingen, is het de rechter die de precieze betekenis van de wilsverklaring van de partijen zal moeten vaststellen (zie o.m. W. DE BONDT, \"Uitlegging van overeenkomsten naar de geest: mogelijkheden, grenzen en alternatieven\", RW 1996-97, 1001, en diverse cassatiearresten waarin de interpretatie van een overeenkomst aan bod komt : Cass. 10 november 1978, RW 1979-80, 1479, noot A. VAN OEVELEN; Cass. 24 maart 1988, Arr.Cass. 1987-88, 972; Cass. 7 mei 1998, Larcier Cass. 1998, 164; Cass. 22 april 2010, C.09.0253.N ECLI:BE:CASS:2010:ARR.20100422.15 , www.juridat.be). Eiseres merkt nog terecht op dat de artikelen 793 en 795 van het gerechtelijk wetboek (aangevuld en gewijzigd bij wet van 24 oktober 2013 - BS 24 januari 2014) hier niet relevant zijn, aangezien zij niet de uitlegging van een rechterlijke beslissing vraagt. Voor zover als nodig kan tot slot worden opgemerkt dat deze rechtbank zowel materieel (artikel 568, lid 1 van het gerechtelijk wetboek) als territoriaal (artikel 624, 1° van het gerechtelijk wetboek) bevoegd is om kennis te nemen van het geschil.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-008"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-008",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140422.15-009"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verweerder voert in de eerste plaats aan dat de rechtbank van eerste aanleg onbevoegd is om thans een uitlegging of interpretatie te geven van een overeenkomst waarvan zij geen inhoudelijke controle heeft mogen of kunnen uitvoeren. Hij wijst op de bepalingen van artikel 795 en de vroegere artikelen 1297 en 1298 van het gerechtelijk wetboek, en merkt op dat de rechtbank van eerste aanleg die destijds de echtscheiding heeft uitgesproken, conform de toenmalige wetgeving, enkel een formele controle heeft uitgevoerd. Volgens eiseres miskent verweerder met de door hem opgeworpen exceptie van onbevoegdheid artikel 855 van het gerechtelijk wetboek, dat voorschrijft dat de partij die de bevoegdheid van de rechter voor wie de zaak aanhangig is, alleen mag afwijzen in zover zij meedeelt welke rechter volgens haar bevoegd is. Nu verweerder geen bevoegde rechter aanduidt, is zijn exceptie van onbevoegdheid ontoelaatbaar, aldus eiseres. Eiseres betoogt voorts dat zij de rechtbank adieert om de draagwijdte van de regelingsakte te interpreteren, en dat de rechtbank van eerste aanleg kennis neemt van alle vorderingen ongeacht de aard of het bedrag (artikel 568 van het gerechtelijk wetboek).</p>",
+          "<p class=\"case-section__paragraph\">Vooreerst dient, in het licht van de argumentatie van verweerder, een begripsverwarring uitgeklaard. De rechtbank is immers van oordeel dat eerder haar \"rechtsmacht\" dan haar \"bevoegdheid\" in beeld komt, mede gelet op volgende opmerking van verweerder (p. 5 van zijn conclusie) : \"Concluant meent dat geen enkele rechtbank gehouden kan zijn de draagwijdte te bepalen van een overeenkomst die het gevolg is van een onderling akkoord tussen partijen.\" Het begrip \"rechtsmacht\" heeft betrekking op de uitoefening van de rechterlijke macht. De rechter kan slechts recht spreken voor zover hij hiertoe macht heeft. Wanneer het voorwerp van de vordering niet tot het imperium van de rechterlijke macht behoort, moet de rechter bij gebrek aan rechtsmacht de zaak uit handen geven (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 222, nrs. 461-462). Het begrip \"bevoegdheid\" slaat op de rechtsmacht die de wetgever aan een bepaalde rechter concreet heeft toebedeeld. Een rechter is slechts bevoegd wanneer hem de macht werd verleend om daadwerkelijk kennis te nemen van de vordering die voor hem is gebracht (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 223, nr. 464). In die optiek is het logisch dat verweerder geen bevoegde rechter aanduidt. Hij voert in feite aan dat deze rechtbank geen rechtsmacht heeft om de regelingsakte te interpreteren. Er kan evenwel geen twijfel over bestaan dat deze rechtbank wel degelijk rechtsmacht heeft om de overeenkomst van partijen uit te leggen. Wanneer immers de partijen tijdens de uitvoering van de overeenkomst elk een verschillende draagwijdte geven aan de door hen gebruikte bewoordingen, is het de rechter die de precieze betekenis van de wilsverklaring van de partijen zal moeten vaststellen (zie o.m. W. DE BONDT, \"Uitlegging van overeenkomsten naar de geest: mogelijkheden, grenzen en alternatieven\", RW 1996-97, 1001, en diverse cassatiearresten waarin de interpretatie van een overeenkomst aan bod komt : Cass. 10 november 1978, RW 1979-80, 1479, noot A. VAN OEVELEN; Cass. 24 maart 1988, Arr.Cass. 1987-88, 972; Cass. 7 mei 1998, Larcier Cass. 1998, 164; Cass. 22 april 2010, C.09.0253.N ECLI:BE:CASS:2010:ARR.20100422.15 , www.juridat.be). Eiseres merkt nog terecht op dat de artikelen 793 en 795 van het gerechtelijk wetboek (aangevuld en gewijzigd bij wet van 24 oktober 2013 - BS 24 januari 2014) hier niet relevant zijn, aangezien zij niet de uitlegging van een rechterlijke beslissing vraagt. Voor zover als nodig kan tot slot worden opgemerkt dat deze rechtbank zowel materieel (artikel 568, lid 1 van het gerechtelijk wetboek) als territoriaal (artikel 624, 1° van het gerechtelijk wetboek) bevoegd is om kennis te nemen van het geschil.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-008",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-003",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-004",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-005"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-008",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.2010-009"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-008",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vooreerst dient, in het licht van de argumentatie van verweerder, een begripsverwarring uitgeklaard. De rechtbank is immers van oordeel dat eerder haar \"rechtsmacht\" dan haar \"bevoegdheid\" in beeld komt, mede gelet op volgende opmerking van verweerder (p. 5 van zijn conclusie) : \"Concluant meent dat geen enkele rechtbank gehouden kan zijn de draagwijdte te bepalen van een overeenkomst die het gevolg is van een onderling akkoord tussen partijen.\" Het begrip \"rechtsmacht\" heeft betrekking op de uitoefening van de rechterlijke macht. De rechter kan slechts recht spreken voor zover hij hiertoe macht heeft. Wanneer het voorwerp van de vordering niet tot het imperium van de rechterlijke macht behoort, moet de rechter bij gebrek aan rechtsmacht de zaak uit handen geven (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 222, nrs. 461-462). Het begrip \"bevoegdheid\" slaat op de rechtsmacht die de wetgever aan een bepaalde rechter concreet heeft toebedeeld. Een rechter is slechts bevoegd wanneer hem de macht werd verleend om daadwerkelijk kennis te nemen van de vordering die voor hem is gebracht (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 223, nr. 464). In die optiek is het logisch dat verweerder geen bevoegde rechter aanduidt. Hij voert in feite aan dat deze rechtbank geen rechtsmacht heeft om de regelingsakte te interpreteren. Er kan evenwel geen twijfel over bestaan dat deze rechtbank wel degelijk rechtsmacht heeft om de overeenkomst van partijen uit te leggen. Wanneer immers de partijen tijdens de uitvoering van de overeenkomst elk een verschillende draagwijdte geven aan de door hen gebruikte bewoordingen, is het de rechter die de precieze betekenis van de wilsverklaring van de partijen zal moeten vaststellen (zie o.m. W. DE BONDT, \"Uitlegging van overeenkomsten naar de geest: mogelijkheden, grenzen en alternatieven\", RW 1996-97, 1001, en diverse cassatiearresten waarin de interpretatie van een overeenkomst aan bod komt : Cass. 10 november 1978, RW 1979-80, 1479, noot A. VAN OEVELEN; Cass. 24 maart 1988, Arr.Cass. 1987-88, 972; Cass. 7 mei 1998, Larcier Cass. 1998, 164; Cass. 22 april 2010, C.09.0253.N ECLI:BE:CASS:2010:ARR.20100422.15 , www.juridat.be). Eiseres merkt nog terecht op dat de artikelen 793 en 795 van het gerechtelijk wetboek (aangevuld en gewijzigd bij wet van 24 oktober 2013 - BS 24 januari 2014) hier niet relevant zijn, aangezien zij niet de uitlegging van een rechterlijke beslissing vraagt. Voor zover als nodig kan tot slot worden opgemerkt dat deze rechtbank zowel materieel (artikel 568, lid 1 van het gerechtelijk wetboek) als territoriaal (artikel 624, 1° van het gerechtelijk wetboek) bevoegd is om kennis te nemen van het geschil.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-008",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-003"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-006",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-007",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-008",
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.20-009"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-009",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verder houdt verweerder voor dat de vordering van eiseres niet ontvankelijk is op grond van de exceptie van dading. De overeenkomst inzake de uitkering na echtscheiding maakt volgens hem een geheel uit met de overige vermogensrechtelijke regelingen van de regelingsakte, die het karakter van een dading hebben. Er is echter geen reden om te besluiten dat een vordering tot uitlegging geen betrekking kan hebben op een overeenkomst van dading (zie J.H. HERBOTS, S. STIJNS, E. DEGROOTE, W. LAUWERS en I. SAMOY, \"Overzicht van rechtspraak. Bijzondere overeenkomsten (1995-1998)\", TPR 2002, p. 886-890, nrs. 1054-1056, en de verwijzingen naar rechtspraak in de voetnoten), zodat de vraag of de overeenkomst inzake de onderhoudsuitkering na echtscheiding al dan niet een dading betreft, geen antwoord behoeft. Omtrent de draagwijdte van een dading kan evenzeer betwisting bestaan tussen de daarbij betrokken partijen, en het komt de rechter toe dergelijk geschil te beslechten. Ingevolge recente rechtspraak van het Hof van Cassatie is de vraag of een regelingsakte een dading uitmaakt in de zin van artikel 2044 van het burgerlijk wetboek trouwens niet langer relevant. In zijn arrest van 9 november 2012 ( C.12.0146.N ECLI:BE:CASS:2012:ARR.20121109.6 ), oordeelde het Hof immers : \"2. Deze regelingsakte is een familiaalrechtelijke overeenkomst van bijzondere aard die onderworpen is aan de algemene regels van het verbintenissenrecht, met dien verstande dat zij gelet op haar aard en strekking niet kan worden aangevochten wegens dwaling of benadeling aangezien de partijen geacht worden deze risico's bij het sluiten van de overeenkomst te hebben verdisconteerd. 3. De appelrechters die oordelen dat de regelingsakte niet enkel beoogt een einde te stellen aan de onverdeeldheid, maar ook een aantal andere regelingen bevat en dat \"voor de beoordeling van de gelijkwaardigheid der prestaties, men (er) niet buiten (kan) om de speciale aard en context van dat soort overeenkomsten mede in rekening te brengen\" en op die gronden beslissen dat een vernietiging van de regelingsakte wegens benadeling krachtens de artikelen 887 en 888 Burgerlijk Wetboek is uitgesloten, verantwoorden hun beslissing naar recht.\" Ook de exceptie van dading wordt derhalve afgewezen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-009",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-010",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.2012-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-010",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verder houdt verweerder voor dat de vordering van eiseres niet ontvankelijk is op grond van de exceptie van dading. De overeenkomst inzake de uitkering na echtscheiding maakt volgens hem een geheel uit met de overige vermogensrechtelijke regelingen van de regelingsakte, die het karakter van een dading hebben. Er is echter geen reden om te besluiten dat een vordering tot uitlegging geen betrekking kan hebben op een overeenkomst van dading (zie J.H. HERBOTS, S. STIJNS, E. DEGROOTE, W. LAUWERS en I. SAMOY, \"Overzicht van rechtspraak. Bijzondere overeenkomsten (1995-1998)\", TPR 2002, p. 886-890, nrs. 1054-1056, en de verwijzingen naar rechtspraak in de voetnoten), zodat de vraag of de overeenkomst inzake de onderhoudsuitkering na echtscheiding al dan niet een dading betreft, geen antwoord behoeft. Omtrent de draagwijdte van een dading kan evenzeer betwisting bestaan tussen de daarbij betrokken partijen, en het komt de rechter toe dergelijk geschil te beslechten. Ingevolge recente rechtspraak van het Hof van Cassatie is de vraag of een regelingsakte een dading uitmaakt in de zin van artikel 2044 van het burgerlijk wetboek trouwens niet langer relevant. In zijn arrest van 9 november 2012 ( C.12.0146.N ECLI:BE:CASS:2012:ARR.20121109.6 ), oordeelde het Hof immers : \"2. Deze regelingsakte is een familiaalrechtelijke overeenkomst van bijzondere aard die onderworpen is aan de algemene regels van het verbintenissenrecht, met dien verstande dat zij gelet op haar aard en strekking niet kan worden aangevochten wegens dwaling of benadeling aangezien de partijen geacht worden deze risico's bij het sluiten van de overeenkomst te hebben verdisconteerd. 3. De appelrechters die oordelen dat de regelingsakte niet enkel beoogt een einde te stellen aan de onverdeeldheid, maar ook een aantal andere regelingen bevat en dat \"voor de beoordeling van de gelijkwaardigheid der prestaties, men (er) niet buiten (kan) om de speciale aard en context van dat soort overeenkomsten mede in rekening te brengen\" en op die gronden beslissen dat een vernietiging van de regelingsakte wegens benadeling krachtens de artikelen 887 en 888 Burgerlijk Wetboek is uitgesloten, verantwoorden hun beslissing naar recht.\" Ook de exceptie van dading wordt derhalve afgewezen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-010",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-009",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-011"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.2012-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-011",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verder houdt verweerder voor dat de vordering van eiseres niet ontvankelijk is op grond van de exceptie van dading. De overeenkomst inzake de uitkering na echtscheiding maakt volgens hem een geheel uit met de overige vermogensrechtelijke regelingen van de regelingsakte, die het karakter van een dading hebben. Er is echter geen reden om te besluiten dat een vordering tot uitlegging geen betrekking kan hebben op een overeenkomst van dading (zie J.H. HERBOTS, S. STIJNS, E. DEGROOTE, W. LAUWERS en I. SAMOY, \"Overzicht van rechtspraak. Bijzondere overeenkomsten (1995-1998)\", TPR 2002, p. 886-890, nrs. 1054-1056, en de verwijzingen naar rechtspraak in de voetnoten), zodat de vraag of de overeenkomst inzake de onderhoudsuitkering na echtscheiding al dan niet een dading betreft, geen antwoord behoeft. Omtrent de draagwijdte van een dading kan evenzeer betwisting bestaan tussen de daarbij betrokken partijen, en het komt de rechter toe dergelijk geschil te beslechten. Ingevolge recente rechtspraak van het Hof van Cassatie is de vraag of een regelingsakte een dading uitmaakt in de zin van artikel 2044 van het burgerlijk wetboek trouwens niet langer relevant. In zijn arrest van 9 november 2012 ( C.12.0146.N ECLI:BE:CASS:2012:ARR.20121109.6 ), oordeelde het Hof immers : \"2. Deze regelingsakte is een familiaalrechtelijke overeenkomst van bijzondere aard die onderworpen is aan de algemene regels van het verbintenissenrecht, met dien verstande dat zij gelet op haar aard en strekking niet kan worden aangevochten wegens dwaling of benadeling aangezien de partijen geacht worden deze risico's bij het sluiten van de overeenkomst te hebben verdisconteerd. 3. De appelrechters die oordelen dat de regelingsakte niet enkel beoogt een einde te stellen aan de onverdeeldheid, maar ook een aantal andere regelingen bevat en dat \"voor de beoordeling van de gelijkwaardigheid der prestaties, men (er) niet buiten (kan) om de speciale aard en context van dat soort overeenkomsten mede in rekening te brengen\" en op die gronden beslissen dat een vernietiging van de regelingsakte wegens benadeling krachtens de artikelen 887 en 888 Burgerlijk Wetboek is uitgesloten, verantwoorden hun beslissing naar recht.\" Ook de exceptie van dading wordt derhalve afgewezen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-011",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-009",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-010"
+        ],
+        "relatedInternalDecisionsId": [
+          "DEC-ECLI:BE:EAANT:2014:ARR.20140430.2012-010"
+        ]
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-012",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Luidens artikel 1156 van het burgerlijk wetboek moet de rechtbank in de eerste plaats de gemeenschappelijke bedoeling van de partijen nagaan. Teneinde de gemeenschappelijke bedoeling van de partijen te achterhalen, zal eerst een beroep worden gedaan op de bewoordingen van de akte tot vaststelling van de overeenkomst. Naast de bewoordingen van de akte zelf, kan ook worden gekeken naar de extrinsieke omstandigheden om de werkelijke draagwijdte te bepalen van wat de partijen gezamenlijk hebben gewild. Tot en met de maand februari 2012, waarin eiseres 60 werd, betaalde verweerder een maandelijks geïndexeerd onderhoudsgeld van euro 2.127,13. Indien geoordeeld zou worden dat vanaf de maand na de 60ste verjaardag van eiseres verweerder maandelijks slechts 50.000 BEF of euro 1.239,47 verschuldigd is, zou dit een wel zeer drastische terugval van de onderhoudsuitkering inhouden. Eiseres merkt ook terecht op dat dergelijke redenering geen rekening houdt met de muntontwaarding voor wat betreft het bedrag van 50.000 BEF. Er kan voorts bezwaarlijk worden aangenomen dat eiseres op latere leeftijd beter in staat zou zijn om zich een bijkomend inkomen te verschaffen, zoals verweerder voorhoudt met betrekking tot de vermindering van het onderhoudsgeld. Verder dient vastgesteld dat de regelingsakte bij de herleide bedragen van 50.000 BEF en 40.000 BEF \"geïndexeerd\" vermeldt, terwijl voor het initiële bedrag van 65.000 BEF \"te indexeren\" is vermeld. De in de regelingsakte voorziene uitbetaling van 2.200.000 BEF, hetzij thans euro 54.536,58, binnen de maand na de 65ste verjaardag van eiseres, kan door verweerder niet worden aangegrepen ter staving van zijn standpunt. Niet alleen vindt deze uitbetaling pas plaats 5 jaar na de eerste herleiding van de onderhoudsuitkering, maar daarenboven betreft het een deelbedrag van de oplegsom van 13.200.000 BEF die verweerder aan eiseres verschuldigd is \"in het kader van de overname van onroerend goed en overname van roerende waarden\" (zie hoofdstuk \"E. Opleg\" van de regelingsakte). De rechtbank treedt dan ook het standpunt van eiseres betreffende de interpretatie van voormelde clausule van de regelingsakte bij. Cijfermatig wordt de berekening van het bedrag van euro 1.635,86 door verweerder niet op ernstige wijze betwist.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-012"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-013",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verweerder wordt als in het ongelijk gestelde partij tot de gerechtskosten veroordeeld (artikel 1017, lid 1 van het gerechtelijk wetboek). De gerechtskosten omvatten onder meer de rechtsplegingsvergoe-ding, zoals bepaald in artikel 1022 van het gerechtelijk wetboek (artikel 1018, 6° van het gerechtelijk wetboek). De vordering tot uitlegging valt te aanzien als een niet in geld waardeerbare vordering, waarvoor artikel 3 van het K.B. van 26 oktober 2007 (na indexatie) voor de rechtsplegingsvergoeding een basisbedrag van euro 1.320,00 vooropstelt. Partijen richten zich ook naar dit basisbedrag.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-013",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-014",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-015",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-014",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verweerder wordt als in het ongelijk gestelde partij tot de gerechtskosten veroordeeld (artikel 1017, lid 1 van het gerechtelijk wetboek). De gerechtskosten omvatten onder meer de rechtsplegingsvergoe-ding, zoals bepaald in artikel 1022 van het gerechtelijk wetboek (artikel 1018, 6° van het gerechtelijk wetboek). De vordering tot uitlegging valt te aanzien als een niet in geld waardeerbare vordering, waarvoor artikel 3 van het K.B. van 26 oktober 2007 (na indexatie) voor de rechtsplegingsvergoeding een basisbedrag van euro 1.320,00 vooropstelt. Partijen richten zich ook naar dit basisbedrag.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-014",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-013",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-015",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-015",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verweerder wordt als in het ongelijk gestelde partij tot de gerechtskosten veroordeeld (artikel 1017, lid 1 van het gerechtelijk wetboek). De gerechtskosten omvatten onder meer de rechtsplegingsvergoe-ding, zoals bepaald in artikel 1022 van het gerechtelijk wetboek (artikel 1018, 6° van het gerechtelijk wetboek). De vordering tot uitlegging valt te aanzien als een niet in geld waardeerbare vordering, waarvoor artikel 3 van het K.B. van 26 oktober 2007 (na indexatie) voor de rechtsplegingsvergoeding een basisbedrag van euro 1.320,00 vooropstelt. Partijen richten zich ook naar dit basisbedrag.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-015",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-013",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-014",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-016"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-016",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verweerder wordt als in het ongelijk gestelde partij tot de gerechtskosten veroordeeld (artikel 1017, lid 1 van het gerechtelijk wetboek). De gerechtskosten omvatten onder meer de rechtsplegingsvergoe-ding, zoals bepaald in artikel 1022 van het gerechtelijk wetboek (artikel 1018, 6° van het gerechtelijk wetboek). De vordering tot uitlegging valt te aanzien als een niet in geld waardeerbare vordering, waarvoor artikel 3 van het K.B. van 26 oktober 2007 (na indexatie) voor de rechtsplegingsvergoeding een basisbedrag van euro 1.320,00 vooropstelt. Partijen richten zich ook naar dit basisbedrag.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-016",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-013",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-014",
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-015"
+        ],
+        "relatedInternalDecisionsId": []
+      },
+      {
+        "internalProvisionId": "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-017",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Eiseres vordert om het tussen te komen vonnis uitvoerbaar te verklaren bij voorraad, niettegenstaande alle verhaal en zonder borgstelling noch kantonnement. Volgens verweerder staaft eiseres haar eis met geen enkel argument. Overeenkomstig artikel 1398 van het gerechtelijk wetboek kan de rechter, behoudens de uitzonderingen die de wet bepaalt, de voorlopige tenuitvoerlegging van de vonnissen toestaan. Het gerechtelijk wetboek gaat evenwel uit van de regel dat de gewone rechtsmiddelen schorsende werking hebben, waarop de uitvoerbaarheid bij voorraad een uitzondering vormt. Een beslissing tot uitvoerbaarheid bij voorraad kan dan ook enkel met de nodige omzichtigheid toegekend worden. De rechtbank is van oordeel dat er in deze zaak geen afdoende redenen voorhanden zijn om af te wijken van het principe van de schorsende werking van gewone rechtsmiddelen.</p>"
+        ],
+        "relatedInternalProvisionsId": [
+          "ART-ECLI:BE:EAANT:2014:ARR.20140430.20-017"
+        ],
+        "relatedInternalDecisionsId": []
+      }
+    ],
+    "metadata": {
+      "totalProvisions": 17,
+      "citationStatistics": {
+        "totalCitations": 19,
+        "avgCitationsPerProvision": 1.1176470588235294,
+        "provisionsWithMinimalCitations": 17,
+        "provisionsWithNoCitations": 0
+      },
+      "relationshipStatistics": {
+        "avgProvisionsPerProvision": 3.823529411764706,
+        "avgDecisionsPerProvision": 1.1764705882352942,
+        "provisionsWithNoRelationships": 3
+      }
+    }
+  },
+  "teachingCitations": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-ECLI:BE:EAANT:2014:ARR.20140430.20-001",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verweerder voert in de eerste plaats aan dat de rechtbank van eerste aanleg onbevoegd is om thans een uitlegging of interpretatie te geven van een overeenkomst waarvan zij geen inhoudelijke controle heeft mogen of kunnen uitvoeren. Hij wijst op de bepalingen van artikel 795 en de vroegere artikelen 1297 en 1298 van het gerechtelijk wetboek, en merkt op dat de rechtbank van eerste aanleg die destijds de echtscheiding heeft uitgesproken, conform de toenmalige wetgeving, enkel een formele controle heeft uitgevoerd. Volgens eiseres miskent verweerder met de door hem opgeworpen exceptie van onbevoegdheid artikel 855 van het gerechtelijk wetboek, dat voorschrijft dat de partij die de bevoegdheid van de rechter voor wie de zaak aanhangig is, alleen mag afwijzen in zover zij meedeelt welke rechter volgens haar bevoegd is. Nu verweerder geen bevoegde rechter aanduidt, is zijn exceptie van onbevoegdheid ontoelaatbaar, aldus eiseres. Eiseres betoogt voorts dat zij de rechtbank adieert om de draagwijdte van de regelingsakte te interpreteren, en dat de rechtbank van eerste aanleg kennis neemt van alle vorderingen ongeacht de aard of het bedrag (artikel 568 van het gerechtelijk wetboek).</p>",
+          "<p class=\"case-section__paragraph\">Vooreerst dient, in het licht van de argumentatie van verweerder, een begripsverwarring uitgeklaard. De rechtbank is immers van oordeel dat eerder haar \"rechtsmacht\" dan haar \"bevoegdheid\" in beeld komt, mede gelet op volgende opmerking van verweerder (p. 5 van zijn conclusie) : \"Concluant meent dat geen enkele rechtbank gehouden kan zijn de draagwijdte te bepalen van een overeenkomst die het gevolg is van een onderling akkoord tussen partijen.\" Het begrip \"rechtsmacht\" heeft betrekking op de uitoefening van de rechterlijke macht. De rechter kan slechts recht spreken voor zover hij hiertoe macht heeft. Wanneer het voorwerp van de vordering niet tot het imperium van de rechterlijke macht behoort, moet de rechter bij gebrek aan rechtsmacht de zaak uit handen geven (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 222, nrs. 461-462). Het begrip \"bevoegdheid\" slaat op de rechtsmacht die de wetgever aan een bepaalde rechter concreet heeft toebedeeld. Een rechter is slechts bevoegd wanneer hem de macht werd verleend om daadwerkelijk kennis te nemen van de vordering die voor hem is gebracht (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 223, nr. 464). In die optiek is het logisch dat verweerder geen bevoegde rechter aanduidt. Hij voert in feite aan dat deze rechtbank geen rechtsmacht heeft om de regelingsakte te interpreteren. Er kan evenwel geen twijfel over bestaan dat deze rechtbank wel degelijk rechtsmacht heeft om de overeenkomst van partijen uit te leggen. Wanneer immers de partijen tijdens de uitvoering van de overeenkomst elk een verschillende draagwijdte geven aan de door hen gebruikte bewoordingen, is het de rechter die de precieze betekenis van de wilsverklaring van de partijen zal moeten vaststellen (zie o.m. W. DE BONDT, \"Uitlegging van overeenkomsten naar de geest: mogelijkheden, grenzen en alternatieven\", RW 1996-97, 1001, en diverse cassatiearresten waarin de interpretatie van een overeenkomst aan bod komt : Cass. 10 november 1978, RW 1979-80, 1479, noot A. VAN OEVELEN; Cass. 24 maart 1988, Arr.Cass. 1987-88, 972; Cass. 7 mei 1998, Larcier Cass. 1998, 164; Cass. 22 april 2010, C.09.0253.N ECLI:BE:CASS:2010:ARR.20100422.15 , www.juridat.be). Eiseres merkt nog terecht op dat de artikelen 793 en 795 van het gerechtelijk wetboek (aangevuld en gewijzigd bij wet van 24 oktober 2013 - BS 24 januari 2014) hier niet relevant zijn, aangezien zij niet de uitlegging van een rechterlijke beslissing vraagt. Voor zover nodig kan tot slot worden opgemerkt dat deze rechtbank zowel materieel (artikel 568, lid 1 van het gerechtelijk wetboek) als territoriaal (artikel 624, 1° van het gerechtelijk wetboek) bevoegd is om kennis te nemen van het geschil.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 4,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:EAANT:2014:ARR.20140430.20-002",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Verder houdt verweerder voor dat de vordering van eiseres niet ontvankelijk is op grond van de exceptie van dading. De overeenkomst inzake de uitkering na echtscheiding maakt volgens hem een geheel uit met de overige vermogensrechtelijke regelingen van de regelingsakte, die het karakter van een dading hebben. Er is echter geen reden om te besluiten dat een vordering tot uitlegging geen betrekking kan hebben op een overeenkomst van dading (zie J.H. HERBOTS, S. STIJNS, E. DEGROOTE, W. LAUWERS en I. SAMOY, \"Overzicht van rechtspraak. Bijzondere overeenkomsten (1995-1998)\", TPR 2002, p. 886-890, nrs. 1054-1056, en de verwijzingen naar rechtspraak in de voetnoten), zodat de vraag of de overeenkomst inzake de onderhoudsuitkering na echtscheiding al dan niet een dading betreft, geen antwoord behoeft. Omtrent de draagwijdte van een dading kan evenzeer betwisting bestaan tussen de daarbij betrokken partijen, en het komt de rechter toe dergelijk geschil te beslechten. Ingevolge recente rechtspraak van het Hof van Cassatie is de vraag of een regelingsakte een dading uitmaakt in de zin van artikel 2044 van het burgerlijk wetboek trouwens niet langer relevant. In zijn arrest van 9 november 2012 ( C.12.0146.N ECLI:BE:CASS:2012:ARR.20121109.6 ), oordeelde het Hof immers : \"2. Deze regelingsakte is een familiaalrechtelijke overeenkomst van bijzondere aard die onderworpen is aan de algemene regels van het verbintenissenrecht, met dien verstande dat zij gelet op haar aard en strekking niet kan worden aangevochten wegens dwaling of benadeling aangezien de partijen geacht worden deze risico's bij het sluiten van de overeenkomst te hebben verdisconteerd. 3. De appelrechters die oordelen dat de regelingsakte niet enkel beoogt een einde te stellen aan de onverdeeldheid, maar ook een aantal andere regelingen bevat en dat \"voor de beoordeling van de gelijkwaardigheid der prestaties, men (er) niet buiten (kan) om de speciale aard en context van dat soort overeenkomsten mede in rekening te brengen\" en op die gronden beslissen dat een vernietiging van de regelingsakte wegens benadeling krachtens de artikelen 887 en 888 Burgerlijk Wetboek is uitgesloten, verantwoorden hun beslissing naar recht.\" Ook de exceptie van dading wordt derhalve afgewezen.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 3,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 1,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:EAANT:2014:ARR.20140430.20-003",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Vooreerst dient, in het licht van de argumentatie van verweerder, een begripsverwarring uitgeklaard. De rechtbank is immers van oordeel dat eerder haar \"rechtsmacht\" dan haar \"bevoegdheid\" in beeld komt, mede gelet op volgende opmerking van verweerder (p. 5 van zijn conclusie) : \"Concluant meent dat geen enkele rechtbank gehouden kan zijn de draagwijdte te bepalen van een overeenkomst die het gevolg is van een onderling akkoord tussen partijen.\" Het begrip \"rechtsmacht\" heeft betrekking op de uitoefening van de rechterlijke macht. De rechter kan slechts recht spreken voor zover hij hiertoe macht heeft. Wanneer het voorwerp van de vordering niet tot het imperium van de rechterlijke macht behoort, moet de rechter bij gebrek aan rechtsmacht de zaak uit handen geven (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 222, nrs. 461-462). Het begrip \"bevoegdheid\" slaat op de rechtsmacht die de wetgever aan een bepaalde rechter concreet heeft toebedeeld. Een rechter is slechts bevoegd wanneer hem de macht werd verleend om daadwerkelijk kennis te nemen van de vordering die voor hem is gebracht (J. LAENENS, K. BROECKX, D. SCHEERS en P. THIRIAR, Handboek gerechtelijk recht, Antwerpen, Intersentia, 2012, p. 223, nr. 464). In die optiek is het logisch dat verweerder geen bevoegde rechter aanduidt. Hij voert in feite aan dat deze rechtbank geen rechtsmacht heeft om de regelingsakte te interpreteren. Er kan evenwel geen twijfel over bestaan dat deze rechtbank wel degelijk rechtsmacht heeft om de overeenkomst van partijen uit te leggen. Wanneer immers de partijen tijdens de uitvoering van de overeenkomst elk een verschillende draagwijdte geven aan de door hen gebruikte bewoordingen, is het de rechter die de precieze betekenis van de wilsverklaring van de partijen zal moeten vaststellen (zie o.m. W. DE BONDT, \"Uitlegging van overeenkomsten naar de geest: mogelijkheden, grenzen en alternatieven\", RW 1996-97, 1001, en diverse cassatiearresten waarin de interpretatie van een overeenkomst aan bod komt : Cass. 10 november 1978, RW 1979-80, 1479, noot A. VAN OEVELEN; Cass. 24 maart 1988, Arr.Cass. 1987-88, 972; Cass. 7 mei 1998, Larcier Cass. 1998, 164; Cass. 22 april 2010, C.09.0253.N ECLI:BE:CASS:2010:ARR.20100422.15 , www.juridat.be). Eiseres merkt nog terecht op dat de artikelen 793 en 795 van het gerechtelijk wetboek (aangevuld en gewijzigd bij wet van 24 oktober 2013 - BS 24 januari 2014) hier niet relevant zijn, aangezien zij niet de uitlegging van een rechterlijke beslissing vraagt. Voor zover nodig kan tot slot worden opgemerkt dat deze rechtbank zowel materieel (artikel 568, lid 1 van het gerechtelijk wetboek) als territoriaal (artikel 624, 1° van het gerechtelijk wetboek) bevoegd is om kennis te nemen van het geschil.</p>",
+          "<p class=\"case-section__paragraph\">Luidens artikel 1156 van het burgerlijk wetboek moet de rechtbank in de eerste plaats de gemeenschappelijke bedoeling van de partijen nagaan. Teneinde de gemeenschappelijke bedoeling van de partijen te achterhalen, zal eerst een beroep worden gedaan op de bewoordingen van de akte tot vaststelling van de overeenkomst. Naast de bewoordingen van de akte zelf, kan ook worden gekeken naar de extrinsieke omstandigheden om de werkelijke draagwijdte te bepalen van wat de partijen gezamenlijk hebben gewild. Tot en met de maand februari 2012, waarin eiseres 60 werd, betaalde verweerder een maandelijks geïndexeerd onderhoudsgeld van euro 2.127,13. Indien geoordeeld zou worden dat vanaf de maand na de 60ste verjaardag van eiseres verweerder maandelijks slechts 50.000 BEF of euro 1.239,47 verschuldigd is, zou dit een wel zeer drastische terugval van de onderhoudsuitkering inhouden. Eiseres merkt ook terecht op dat dergelijke redenering geen rekening houdt met de muntontwaarding voor wat betreft het bedrag van 50.000 BEF. Er kan voorts bezwaarlijk worden aangenomen dat eiseres op latere leeftijd beter in staat zou zijn om zich een bijkomend inkomen te verschaffen, zoals verweerder voorhoudt met betrekking tot de vermindering van het onderhoudsgeld. Verder dient vastgesteld dat de regelingsakte bij de herleide bedragen van 50.000 BEF en 40.000 BEF \"geïndexeerd\" vermeldt, terwijl voor het initiële bedrag van 65.000 BEF \"te indexeren\" is vermeld. De in de regelingsakte voorziene uitbetaling van 2.200.000 BEF, hetzij thans euro 54.536,58, binnen de maand na de 65ste verjaardag van eiseres, kan door verweerder niet worden aangegrepen ter staving van zijn standpunt. Niet alleen vindt deze uitbetaling pas plaats 5 jaar na de eerste herleiding van de onderhoudsuitkering, maar daarenboven betreft het een deelbedrag van de oplegsom van 13.200.000 BEF die verweerder aan eiseres verschuldigd is \"in het kader van de overname van onroerend goed en overname van roerende waarden\" (zie hoofdstuk \"E. Opleg\" van de regelingsakte). De rechtbank treedt dan ook het standpunt van eiseres betreffende de interpretatie van voormelde clausule van de regelingsakte bij. Cijfermatig wordt de berekening van het bedrag van euro 1.635,86 door verweerder niet op ernstige wijze betwist.</p>",
+          "<p class=\"case-section__paragraph\">Voor wat betreft de in aanmerking te nemen indexcijfers, dient samen met eiseres geoordeeld dat het aanvangsindexcijfer dat van de maand februari 2012 is, en het nieuwe indexcijfer dat van de maand februari 2013, en zo verder. In de door verweerder vooropgestelde indexatieformule worden de indexcijfers van de maanden januari gebruikt, maar zulks is niet in overeenstemming met de bepalingen van de regelingsakte. De daarin voorziene indexatieformule schrijft voor dat het aanvangsindexcijfer dat van de maand voorafgaand aan de eerste betaling van het onderhoudsgeld is, en het nieuwe indexcijfer dat van de maand dewelke de maand van aanpassing voorafgaat. Welnu, de betaling van de initiële onderhoudsuitkering moest gebeuren \"tot en met de maand waarin mevrouw S. 60 jaar wordt\", dus gold de herleide onderhoudsuitkering vanaf de maand maart 2012 (eiseres werd 60 jaar op 12 februari 2012), en is het toe te passen aanvangsindexcijfer dat van de maand februari 2012.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 4,
+          "decisionsNotFoundInCitations": []
+        }
+      },
+      {
+        "teachingId": "TEACH-ECLI:BE:EAANT:2014:ARR.20140430.20-004",
+        "relatedFullTextCitations": [
+          "<p class=\"case-section__paragraph\">Eiseres vordert om het tussen te komen vonnis uitvoerbaar te verklaren bij voorraad, niettegenstaande alle verhaal en zonder borgstelling noch kantonnement. Volgens verweerder staaft eiseres haar eis met geen enkel argument. Overeenkomstig artikel 1398 van het gerechtelijk wetboek kan de rechter, behoudens de uitzonderingen die de wet bepaalt, de voorlopige tenuitvoerlegging van de vonnissen toestaan. Het gerechtelijk wetboek gaat evenwel uit van de regel dat de gewone rechtsmiddelen schorsende werking hebben, waarop de uitvoerbaarheid bij voorraad een uitzondering vormt. Een beslissing tot uitvoerbaarheid bij voorraad kan dan ook enkel met de nodige omzichtigheid toegekend worden. De rechtbank is van oordeel dat er in deze zaak geen afdoende redenen voorhanden zijn om af te wijken van het principe van de schorsende werking van gewone rechtsmiddelen.</p>"
+        ],
+        "relationshipValidation": {
+          "provisionsValidated": 1,
+          "provisionsNotFoundInCitations": [],
+          "decisionsValidated": 0,
+          "decisionsNotFoundInCitations": []
+        }
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "citationStatistics": {
+        "totalCitations": 7,
+        "avgCitationsPerTeaching": 1.75,
+        "teachingsWithMinimalCitations": 3,
+        "teachingsWithNoCitations": 0
+      },
+      "validationSummary": {
+        "totalProvisionsValidated": 8,
+        "totalProvisionsNotFound": 0,
+        "totalDecisionsValidated": 9,
+        "totalDecisionsNotFound": 0
+      },
+      "extractionNotes": [
+        "Paragraaf 3.2 is opgenomen bij meerdere teachings omdat die zowel de doctrine over uitlegging als specifieke cassatiearresten bespreekt; enkele citaten worden gedeeld tussen teachings."
+      ]
+    }
+  }
+}
