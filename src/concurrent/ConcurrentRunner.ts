@@ -196,6 +196,15 @@ export class ConcurrentRunner {
         })
       );
       this.logger.info('Preprocessing completed');
+
+      // Filter out null rows (skipped by preprocessRow)
+      const beforeFilterCount = processedRows.length;
+      processedRows = processedRows.filter((row): row is NonNullable<typeof row> => row !== null);
+      const skippedCount = beforeFilterCount - processedRows.length;
+
+      if (skippedCount > 0) {
+        this.logger.info(`Filtered out ${skippedCount} rows that were skipped by preprocessing`);
+      }
     }
 
     return processedRows;

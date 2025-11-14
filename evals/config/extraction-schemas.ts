@@ -101,6 +101,22 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
   'clean-decision-markdown': [
     'cleanedMarkdown',        // Markdown with LaTeX removed/converted
   ],
+
+  /**
+   * RFTC Stage 2: Teaching citation enrichment (Agent 5B)
+   */
+  'enrich-teaching-citations': [
+    'legalTeachings',         // Array of teachings with HTML citations and relationship validation
+    'metadata',               // Citation statistics and validation summary
+  ],
+
+  /**
+   * RFTC Stage 2: Provision citation enrichment (Agent 2D)
+   */
+  'enrich-provision-citations': [
+    'citedProvisions',        // Array of provisions with HTML citations and relationship mappings
+    'metadata',               // Citation statistics and relationship statistics
+  ],
 };
 
 /**

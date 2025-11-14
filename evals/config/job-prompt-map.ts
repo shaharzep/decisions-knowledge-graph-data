@@ -51,10 +51,10 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
   // Stage 6 (uncomment when ready)
   // 'extract-stage6': 'llm-as-a-judge_STAGE 6.md',
 
-  // RFTC: Citations (uncomment when ready)
-  // 'extract-legal-teachings': 'llm-as-a-judge_RFTC_1_legalTeachings.md',
-  // 'extract-cited-provisions': 'llm-as-a-judge_RFTC_2_citedProvisions.md',
-  // 'extract-cited-decisions': 'llm-as-a-judge_RFTC_3_citedDecisions.md',
+  // RFTC Stage 2: Citation enrichment (Agent 2D, 5B)
+  'enrich-teaching-citations': 'llm-as-a-judge_RFTC_1_legalTeachings.md',
+  'enrich-provision-citations': 'llm-as-a-judge_RFTC_2_citedProvisions.md',
+  // 'enrich-decision-citations': 'llm-as-a-judge_RFTC_3_citedDecisions.md',
 };
 
 /**
