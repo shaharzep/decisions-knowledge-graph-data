@@ -19,7 +19,7 @@ export const JOB_MAPPINGS: JobMapping[] = [
   },
   {
     jobId: 'interpret-provisions',
-    outputField: 'provisions',
+    outputField: 'citedProvisions',
     description: 'Stage 2C: Provisions with interpretation (includes 2A+2B data)'
   },
   {
@@ -29,7 +29,7 @@ export const JOB_MAPPINGS: JobMapping[] = [
   },
   {
     jobId: 'extract-keywords',
-    outputField: 'keywords',
+    outputField: 'customKeywords',
     description: 'Stage 4: Keywords extraction'
   },
   {
@@ -44,12 +44,12 @@ export const JOB_MAPPINGS: JobMapping[] = [
   },
   {
     jobId: 'enrich-provision-citations',
-    outputField: 'provisionCitations',
+    outputField: 'relatedCitationsLegalProvisions',
     description: 'Agent 2D: Provision HTML citations and relationships'
   },
   {
     jobId: 'enrich-teaching-citations',
-    outputField: 'teachingCitations',
+    outputField: 'relatedCitationsLegalTeachings',
     description: 'Agent 5B: Teaching HTML citations and validation'
   }
 ];

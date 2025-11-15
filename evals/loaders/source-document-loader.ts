@@ -287,7 +287,7 @@ export async function loadSourceDocumentForRFTC(
   }
 
   // 2. Transform HTML to add data-id attributes
-  const { transformedHtml } = transformDecisionHtml(decisionId, full_html);
+  const { transformedHtml, blocks } = transformDecisionHtml(decisionId, full_html);
 
   // 3. Load dependencies
   const dependencies = await loadDependenciesForRFTC(
@@ -298,6 +298,7 @@ export async function loadSourceDocumentForRFTC(
 
   const result: RFTCSourceData = {
     transformedHtml,
+    blocks,
     dependencies,
     url: url_official_publication || undefined,
   };

@@ -138,6 +138,7 @@ export type GroundTruthData = string | GroundTruthSnippets;
  */
 export interface RFTCSourceData {
   transformedHtml: string;  // HTML with data-id attributes embedded on content blocks
+  blocks: any[];            // Array of block metadata (blockId, plainText, elementType)
   dependencies: {
     legalTeachingsInput: any[];   // From Agent 5A (extract-legal-teachings)
     citedProvisions: any[];        // From Agent 2C (interpret-provisions)

@@ -69,17 +69,18 @@ export interface MergeStatistics {
 export interface AggregatedDecision {
   decision_id: string;
   language: string;
-  metadata: DecisionMetadata;
 
-  // Job outputs
-  comprehensive?: any;
-  provisions?: any;
+  // Job outputs (comprehensive fields extracted to top level)
+  citationReference?: any;
+  parties?: any;
+  currentInstance?: any;
+  citedProvisions?: any;
   citedDecisions?: any;
-  keywords?: any;
+  customKeywords?: any;
   legalTeachings?: any;
   microSummary?: any;
-  provisionCitations?: any;
-  teachingCitations?: any;
+  relatedCitationsLegalProvisions?: any;
+  relatedCitationsLegalTeachings?: any;
 }
 
 /**

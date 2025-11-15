@@ -14,10 +14,9 @@ import {
   MergeOptions,
   JobLoadResult,
   MergeStatistics,
-  AggregatedDecision,
-  DecisionMetadata
+  AggregatedDecision
 } from './types.js';
-import { JOB_MAPPINGS, METADATA_FIELDS, EXCLUDED_FIELDS, getOutputField } from './jobMappings.js';
+import { JOB_MAPPINGS, EXCLUDED_FIELDS, getOutputField } from './jobMappings.js';
 
 /**
  * Main orchestrator for merging all job results
@@ -255,15 +254,10 @@ function mergeDecisions(completeKeys: Set<string>, jobResults: JobLoadResult[]):
   for (const key of completeKeys) {
     const [decision_id, language] = key.split('|');
 
-    // Get first job's data for metadata extraction
-    const firstJob = jobResults[0];
-    const firstDecision = firstJob.data.get(key)!;
-
     // Build aggregated decision
     const merged: AggregatedDecision = {
       decision_id,
-      language,
-      metadata: extractMetadata(firstDecision)
+      language
     };
 
     // Add data from each job
@@ -274,7 +268,25 @@ function mergeDecisions(completeKeys: Set<string>, jobResults: JobLoadResult[]):
       if (outputField) {
         // Extract job-specific fields (exclude metadata and common fields)
         const jobData = extractJobData(decision);
-        (merged as any)[outputField] = jobData;
+
+        // Clean job data (remove metadata, flatten nested structures)
+        const cleanedData = cleanJobData(jobData, outputField);
+
+        // Special handling for comprehensive - extract fields to top level
+        if (outputField === 'comprehensive') {
+          if (cleanedData.citationReference) {
+            (merged as any).citationReference = cleanedData.citationReference;
+          }
+          if (cleanedData.parties) {
+            (merged as any).parties = cleanedData.parties;
+          }
+          if (cleanedData.currentInstance) {
+            (merged as any).currentInstance = cleanedData.currentInstance;
+          }
+          // Don't assign comprehensive field itself
+        } else {
+          (merged as any)[outputField] = cleanedData;
+        }
       }
     }
 
@@ -285,21 +297,6 @@ function mergeDecisions(completeKeys: Set<string>, jobResults: JobLoadResult[]):
   aggregated.sort((a, b) => a.decision_id.localeCompare(b.decision_id));
 
   return aggregated;
-}
-
-/**
- * Extract metadata fields from decision object
- */
-function extractMetadata(decision: any): DecisionMetadata {
-  const metadata: DecisionMetadata = {};
-
-  for (const field of METADATA_FIELDS) {
-    if (field in decision) {
-      (metadata as any)[field] = decision[field];
-    }
-  }
-
-  return metadata;
 }
 
 /**
@@ -315,4 +312,93 @@ function extractJobData(decision: any): any {
   }
 
   return jobData;
+}
+
+/**
+ * Clean job data by removing metadata objects and flattening nested structures
+ *
+ * @param jobData - Raw job data extracted from decision
+ * @param outputField - Output field name (citedProvisions, citedDecisions, etc.)
+ * @returns Cleaned job data
+ */
+function cleanJobData(jobData: any, outputField: string): any {
+  switch (outputField) {
+    case 'citedProvisions':
+      // Extract nested citedProvisions array
+      return jobData.citedProvisions || jobData;
+
+    case 'citedDecisions':
+      // Extract nested citedDecisions array
+      return jobData.citedDecisions || jobData;
+
+    case 'customKeywords':
+      // Extract only customKeywords array (remove metadata)
+      return jobData.customKeywords || jobData;
+
+    case 'legalTeachings':
+      // Extract nested legalTeachings array (remove metadata)
+      return jobData.legalTeachings || jobData;
+
+    case 'microSummary':
+      // Extract nested microSummary string
+      return jobData.microSummary || jobData;
+
+    case 'relatedCitationsLegalProvisions':
+      // Remove metadata from top level and relationshipValidation from each provision
+      const cleanedProvisions: any = {};
+
+      if (jobData.citedProvisions && Array.isArray(jobData.citedProvisions)) {
+        cleanedProvisions.citedProvisions = jobData.citedProvisions.map((provision: any) => {
+          const { relationshipValidation, ...cleanedProvision } = provision;
+          return cleanedProvision;
+        });
+      }
+
+      return cleanedProvisions;
+
+    case 'relatedCitationsLegalTeachings':
+      // Remove metadata from top level and relationshipValidation from each teaching
+      const cleanedTeachings: any = {};
+
+      if (jobData.legalTeachings && Array.isArray(jobData.legalTeachings)) {
+        cleanedTeachings.legalTeachings = jobData.legalTeachings.map((teaching: any) => {
+          const { relationshipValidation, ...cleanedTeaching } = teaching;
+          return cleanedTeaching;
+        });
+      }
+
+      return cleanedTeachings;
+
+    case 'comprehensive':
+      // Flatten comprehensive structure - extract reference, parties, and currentInstance
+      const flattened: any = {};
+
+      // Extract citationReference string from reference object
+      if (jobData.reference && jobData.reference.citationReference) {
+        flattened.citationReference = jobData.reference.citationReference;
+      }
+
+      // Extract parties array
+      if (jobData.parties) {
+        flattened.parties = jobData.parties;
+      }
+
+      // Extract currentInstance object
+      if (jobData.currentInstance) {
+        flattened.currentInstance = jobData.currentInstance;
+      }
+
+      // Include any other fields that might exist
+      for (const [key, value] of Object.entries(jobData)) {
+        if (key !== 'reference' && key !== 'parties' && key !== 'currentInstance') {
+          flattened[key] = value;
+        }
+      }
+
+      return flattened;
+
+    default:
+      // Pass through for unknown fields
+      return jobData;
+  }
 }

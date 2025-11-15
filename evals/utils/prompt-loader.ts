@@ -148,6 +148,7 @@ function formatTemplateStylePrompt(
     const rftcData = groundTruthData as RFTCSourceData;
 
     formatted = formatted
+      .replace('{blocks}', JSON.stringify(rftcData.blocks, null, 2))
       .replace('{transformedHtml}', rftcData.transformedHtml)
       .replace(
         '{legalTeachingsInput}',
@@ -217,7 +218,7 @@ function formatAppendStylePrompt(
   // For append style, ground truth should always be full text
   const sourceDocument = typeof groundTruthData === 'string'
     ? groundTruthData
-    : groundTruthData.snippets.join('\n\n'); // Fallback: concatenate snippets
+    : (groundTruthData.snippets ? groundTruthData.snippets.join('\n\n') : JSON.stringify(groundTruthData, null, 2)); // Fallback: concatenate snippets or stringify
 
   let appendedContent = `${promptTemplate}
 
