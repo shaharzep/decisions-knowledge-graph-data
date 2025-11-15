@@ -84,6 +84,7 @@ export function logEvaluation(
     sourceDocument: string | null;  // Allow null for RFTC jobs
     extractedData: any;
     url?: string;
+    rftcData?: any;  // RFTC data (transformed HTML + dependencies)
   },
   output: any,
   scores: {
@@ -109,13 +110,26 @@ export function logEvaluation(
     length_category?: string;
   }
 ) {
+  // Build base input object
+  const braintrustInput: any = {
+    decision_id: input.decisionId,
+    url: input.url || 'N/A',
+    source_document_length: input.sourceDocument?.length || 0,  // Handle null for RFTC jobs
+    extracted_data: input.extractedData, // Full extracted JSON for viewing
+  };
+
+  // Add RFTC-specific data for block-based citation jobs (for review in Braintrust)
+  if (input.rftcData) {
+    // Include full legal teachings from Stage 5A input (not just IDs)
+    const legalTeachings = input.rftcData.dependencies?.legalTeachingsInput || [];
+
+    braintrustInput.transformed_html = input.rftcData.transformedHtml;
+    braintrustInput.legal_teachings = legalTeachings;  // Full teaching objects
+    braintrustInput.legal_teachings_count = legalTeachings.length;
+  }
+
   experiment.log({
-    input: {
-      decision_id: input.decisionId,
-      url: input.url || 'N/A',
-      source_document_length: input.sourceDocument?.length || 0,  // Handle null for RFTC jobs
-      extracted_data: input.extractedData, // Full extracted JSON for viewing
-    },
+    input: braintrustInput,
     output: output, // Full evaluation result with all details
     scores: {
       // ONLY overall score as a score column (normalized to 0-1 for Braintrust)

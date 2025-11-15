@@ -272,6 +272,7 @@ export async function runEvaluation(
             sourceDocument: input.sourceDocument,
             extractedData: input.extractedData,  // Full data with metadata
             url: input.metadata?.url,
+            rftcData: input.rftcData,  // RFTC data (transformed HTML + dependencies)
           },
           evaluation,
           scores,
