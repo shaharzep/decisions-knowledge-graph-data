@@ -1,27 +1,32 @@
 /**
- * Enrich Provision Citations Prompt - Agent 2D (Stage 2)
+ * Enrich Provision Citations Prompt - Agent 2D (Stage 2) - BLOCK-BASED
  *
- * This prompt is a well-tested, production-ready template for enriching cited provisions
- * (articles of law) with exact HTML citations for UI highlighting and relationship mapping.
+ * This prompt instructs the LLM to identify which text blocks contain each cited provision
+ * and extract relevant snippets for debugging/validation.
  *
- * DO NOT MODIFY - Copy exact from prompts-txts/P2_STAGE 2_ARTICLES OF LAW.md
+ * NEW ARCHITECTURE:
+ * - LLM receives blocks array (plainText, blockId, elementType)
+ * - LLM searches blocks to find provisions
+ * - LLM returns blockId + relevantSnippet (not full HTML)
+ * - Resilient to HTML formatting changes
  */
 
 export const ENRICH_PROVISION_CITATIONS_PROMPT = `# ROLE
 
-You are a citation enrichment specialist adding exact HTML citations to cited provisions (articles of law) for UI highlighting. Your extractions enable lawyers to instantly locate every passage where a provision is cited, interpreted, or applied in the full decision text.
+You are a citation enrichment specialist identifying which text blocks contain each cited provision (article of law) from Belgian court decisions. Your identifications enable lawyers to instantly locate and highlight every passage where a provision is cited, interpreted, or applied in the full decision text.
 
 ---
 
 # MISSION
 
 For each cited provision extracted in Stages 2A-2C:
-1. **Extract ALL HTML passages** where this provision is cited, interpreted, or applied
-2. **Map provision relationships** - Identify which other provisions are discussed alongside this provision
-3. **Map decision relationships** - Identify which precedents are discussed in the context of this provision
+1. **Identify ALL blocks** where this provision is cited, interpreted, or applied
+2. **Extract relevant snippets** from each block showing why it's relevant (for debugging)
+3. **Map provision relationships** - Identify which other provisions are discussed alongside this provision
+4. **Map decision relationships** - Identify which precedents are discussed in the context of this provision
 
 **Quality Standard - The Deletion Test**:
-If you removed all \`relatedFullTextCitations\` from the decision, this provision would never be mentioned. No reference to it would remain.
+If you removed all identified blocks from the decision, this provision would never be mentioned. No reference to it would remain.
 
 ---
 
@@ -32,31 +37,40 @@ If you removed all \`relatedFullTextCitations\` from the decision, this provisio
 **User Experience Goal:**
 \`\`\`javascript
 // Lawyer clicks "Show in Full Text" for Article 31
-provision.relatedFullTextCitations.forEach(citation => {
-  highlightInHTML(fullText.html, citation);  // String match & highlight
+provision.citations.forEach(citation => {
+  const block = document.querySelector(\`[data-id="\${citation.blockId}"]\`);
+  block.classList.add('highlight');  // Highlight this block
+  block.scrollIntoView();            // Scroll to it
 });
 \`\`\`
 
 **What This Means:**
-- Lawyer sees ALL passages discussing this provision instantly highlighted
-- Can copy exact quotes showing how courts interpret this provision
-- Discovers context and co-cited provisions
-- Identifies precedents interpreting this provision
+- Lawyer sees ALL blocks discussing this provision instantly highlighted
+- Can read context and locate specific relevant sentences
+- Discovers all places where provision is mentioned, interpreted, or applied
+- Identifies co-cited provisions and precedents
 - Understands how provision was applied to case facts
 
-## Your Three Responsibilities
+## Your Four Responsibilities
 
-**1. Extract Complete HTML Citations**
-- Find EVERY paragraph citing, interpreting, or applying this provision
-- Include ALL HTML tags exactly as they appear
+**1. Identify Complete Block Set**
+- Find EVERY block (paragraph/heading) citing, interpreting, or applying this provision
+- Include blocks with formal citations
+- Include blocks interpreting provision
+- Include blocks applying provision to facts
 - Don't miss passages using indirect references ("cette disposition", "ledit article")
 
-**2. Map Provision Relationships**
-- ALWAYS include provision's own ID (self-reference)
+**2. Extract Relevant Snippets**
+- From each block's plain text, extract 50-500 char snippet showing WHY it's relevant
+- Purpose: Debugging and validation (humans will review these)
+- Copy exact text from block's \`plainText\` field
+
+**3. Map Provision Relationships**
+- ALWAYS include provision's own ID (self-reference) as first element
 - Identify provisions discussed in same context
 - Track provisions compared or combined with this provision
 
-**3. Map Decision Relationships**
+**4. Map Decision Relationships**
 - Identify precedents cited when interpreting this provision
 - Track decisions establishing interpretation of this provision
 - Link precedents applied in context of this provision
@@ -132,10 +146,29 @@ You will receive:
 
 1. **Decision ID**: \`{decisionId}\`
 2. **Procedural Language**: \`{proceduralLanguage}\`
-3. **Full Text HTML**: \`{fullText.html}\`
+3. **Decision Text Blocks**: \`{blocks}\`
+   - Each block represents a paragraph, heading, or section from the decision
+   - Each block has:
+     - \`blockId\`: Unique identifier (e.g., "ECLI:BE:CASS:2024:ARR.001:block-017")
+     - \`plainText\`: Clean text content (no HTML tags)
+     - \`elementType\`: HTML tag type ("p", "h2", "blockquote", "li", etc.)
+     - \`charCount\`: Length of plain text
+   - Example:
+     \`\`\`json
+     [
+       {
+         "blockId": "ECLI:BE:CASS:2024:ARR.001:block-017",
+         "plainText": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre pour l'égalité des chances...",
+         "elementType": "p",
+         "charCount": 254
+       }
+     ]
+     \`\`\`
 4. **Cited Provisions**: \`{citedProvisions}\` (Array with all fields from Stages 2A-2C)
 5. **Legal Teachings**: \`{legalTeachings}\` (For cross-reference)
 6. **Cited Decisions**: \`{citedDecisions}\` (For relationship mapping)
+
+**IMPORTANT**: The decision's full text is provided as blocks (item 3). You will search these blocks to find where each provision is discussed.
 
 ---
 
@@ -221,139 +254,119 @@ For each provision from Stages 2A-2C:
 
 **Context**: These refer back to recently cited provision
 
-## Step 3: Scan HTML Systematically
+## Step 3: Search Blocks for Provision
 
-**Scan order:**
+**Search the \`blocks\` array to find ALL blocks that cite, interpret, or apply this provision.**
 
-**Priority 1: Reasoning Sections**
-1. Look for "Considérant que"/"Overwegende dat" headers
-2. Search these sections for all provision patterns
-3. Extract complete semantic units
+**Search Strategies:**
 
-**Priority 2: Procedural Sections**
-1. Look for "Vu"/"Gelet op" headers
-2. Search for formal citations
-3. Extract if provision appears
+**A. Direct Number Search (Primary)**
+- Search block \`plainText\` for provision number patterns
+- French: "article 31", "l'article 31", "art. 31", "de l'article 31"
+- Dutch: "artikel 31", "het artikel 31", "art. 31", "van artikel 31"
+- Check variations: spaces ("§ 2" vs "§2"), punctuation, formatting
 
-**Priority 3: Other Sections**
-1. Facts sections if provision applied to facts
-2. Judgment sections if provision basis for ruling
-3. Extract relevant passages
+**B. With Parent Act**
+- Search for provision + act name
+- "article 31 de la loi du 10 mai 2007"
+- "artikel 31 van de wet van 10 mei 2007"
+- "article 31 du Code de droit économique"
+
+**C. Indirect References**
+- After finding explicit citations, search nearby blocks (within 2-3 blocks)
+- French: "cette disposition", "ledit article", "la disposition précitée", "ce texte"
+- Dutch: "deze bepaling", "voornoemd artikel", "de voormelde bepaling", "deze tekst"
+- These refer back to recently cited provision
+
+**D. Section-Aware Search**
+- Priority 1: Reasoning sections (blocks with "Considérant"/"Overwegende" language)
+- Priority 2: Procedural sections (blocks with "Vu"/"Gelet op")
+- Priority 3: Facts and judgment sections
+- Search ALL sections - provisions appear throughout Belgian decisions
 
 **Search Tips:**
-- Don't just search first occurrence - scan ENTIRE document
-- Check all section types
-- Look for variations in spacing and punctuation
+- Scan ENTIRE blocks array, not just first match
+- Check all section types (reasoning, procedural, facts, judgment)
+- Look for spacing variations ("art. 31" vs "art.31")
 - Search for indirect references after finding explicit citations
+- Consider paragraph/section numbering variations
 
-## Step 4: Extract Complete HTML Citations
+## Step 4: Extract Block IDs and Snippets
 
-**For each mention found:**
+**For each relevant block:**
 
-### A. Identify Semantic Unit
+1. **Record the block ID**: Copy the exact \`blockId\` from the block object
+   - Example: \`"ECLI:BE:CASS:2024:ARR.001:block-017"\`
 
-**Complete paragraph minimum:**
-\`\`\`html
-<!-- CORRECT -->
-<p>L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre peut ester en justice à condition de prouver l'accord d'une personne lésée identifiée.</p>
-\`\`\`
+2. **Extract the relevant snippet**: From the block's \`plainText\`, copy the portion that specifically discusses this provision
+   - **If entire block discusses provision**: Extract 100-300 characters that best represent provision's discussion
+   - **If only part is relevant**: Extract the relevant sentence/clause (50-300 chars)
+   - **Must be exact substring**: Copy directly from \`plainText\` field (character-perfect)
+   - **Purpose**: Debugging and validation - shows WHY this block is relevant
 
-**NOT fragment:**
-\`\`\`html
-<!-- INCORRECT -->
-"l'article 31, § 2"
-\`\`\`
+3. **Example**:
+   \`\`\`json
+   {
+     "blockId": "ECLI:BE:CASS:2024:ARR.001:block-017",
+     "relevantSnippet": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre peut ester en justice à condition de prouver l'accord d'une personne lésée identifiée."
+   }
+   \`\`\`
 
-### B. Include Context if Needed
+**Rules:**
+- Return blocks in the order they appear in the decision (blocks are already ordered)
+- Multiple provisions can reference the same block - that's expected and correct
+- Extract meaningful snippets (50-500 chars) that show WHY this block is relevant
+- Include ALL blocks where the provision is cited, interpreted, or applied
+- Snippets must be actual substrings of the block's \`plainText\` (for validation)
 
-**If provision reference spans multiple paragraphs, extract all:**
-\`\`\`html
-<p>L'article 31, § 2, impose une condition de recevabilité.</p>
-<p>Cette condition consiste à prouver l'accord d'une victime identifiée.</p>
-<p>Toutefois, la Cour interprète cette disposition à la lumière de l'objectif général de la loi.</p>
-\`\`\`
-
-**Extract all three paragraphs** - they form complete discussion of provision
-
-### C. Preserve ALL HTML
-
-**Include everything exactly:**
-\`\`\`html
-<!-- CORRECT - All tags, attributes, formatting preserved -->
-<p class="reasoning">Aux termes de l'<strong>article 31, § 2</strong>, le Centre doit prouver l'accord d'une <em>personne lésée identifiée</em>.</p>
-\`\`\`
-
-**NOT stripped:**
-\`\`\`html
-<!-- INCORRECT - Tags removed -->
-<p>Aux termes de l'article 31, § 2, le Centre doit prouver l'accord d'une personne lésée identifiée.</p>
-\`\`\`
-
-### D. Extract Character-Perfect
-
-**Test each citation:**
-- \`fullText.html.includes(citation)\` must return \`true\`
-- Same spacing, punctuation, special characters
-- No modifications whatsoever
-
-### E. Handle Different Discussion Types
-
-**Extract all types of provision discussion:**
+**Handle Different Discussion Types:**
 
 **1. Formal Citation**
-\`\`\`html
-<p>Vu l'article 31, § 2, de la loi du 10 mai 2007.</p>
-\`\`\`
-→ Extract (shows provision is legal basis)
+- Block containing: "Vu l'article 31, § 2, de la loi du 10 mai 2007."
+→ Extract block ID + snippet showing formal citation
 
 **2. Interpretation**
-\`\`\`html
-<p>La Cour interprète l'article 31, § 2, comme exigeant la preuve de l'accord d'une victime, sauf lorsque la discrimination affecte un nombre indéterminé de personnes.</p>
-\`\`\`
-→ Extract (shows how court interprets provision)
+- Block containing: "La Cour interprète l'article 31, § 2, comme exigeant..."
+→ Extract block ID + snippet showing court's interpretation
 
 **3. Application to Facts**
-\`\`\`html
-<p>En l'espèce, l'article 31, § 2, ne fait pas obstacle à l'action du Centre car les offres d'emploi discriminatoires touchaient potentiellement toute personne intéressée.</p>
-\`\`\`
-→ Extract (shows provision applied to case)
+- Block containing: "En l'espèce, l'article 31, § 2, ne fait pas obstacle..."
+→ Extract block ID + snippet showing application
 
 **4. Comparison with Other Provisions**
-\`\`\`html
-<p>L'article 31, § 2, doit être lu en combinaison avec l'article 29 qui définit les critères protégés.</p>
-\`\`\`
-→ Extract (shows provision relationship)
+- Block containing: "L'article 31, § 2, doit être lu en combinaison avec l'article 29..."
+→ Extract block ID + snippet showing relationship
 
 **5. Precedent Application**
-\`\`\`html
-<p>Comme jugé par la Cour dans son arrêt du 5 mars 2018, l'article 31, § 2, ne s'applique pas aux discriminations généralisées.</p>
-\`\`\`
-→ Extract (shows precedent interpreting provision)
+- Block containing: "Comme jugé par la Cour dans son arrêt du 5 mars 2018, l'article 31, § 2..."
+→ Extract block ID + snippet showing precedent
 
 ## Step 5: Apply Completeness Check (Deletion Test)
 
 **For each provision, verify:**
 
-**Imagine removing all extracted citations from HTML:**
+**Imagine removing all identified blocks from the decision:**
 - Would this provision disappear completely?
-- Would no reference to it remain?
+- Would no reference to it remain in the remaining blocks?
 
-**If NO (provision would still exist somewhere):**
-- ⚠️ You missed passages - go back to Step 2
+**If NO (provision would still exist in other blocks):**
+- ⚠️ You missed blocks - go back to Step 3
 - Search with broader patterns
-- Check indirect references ("cette disposition")
-- Scan all section types (not just reasoning)
+- Check indirect references ("cette disposition", "ledit article")
+- Scan all section types (reasoning, procedural, facts, judgment)
 - Look for provision number variations
+- Check nearby blocks after finding explicit citations
 
 **If YES (provision completely gone):**
-- ✅ Extraction is complete
+- ✅ Identification is complete
 
 **Common Missed Patterns:**
-- Provision mentioned with abbreviated parent act
-- Provision referenced indirectly ("cette disposition")
-- Provision in procedural "Vu"/"Gelet op" sections
-- Provision variations ("art. 31" vs "article 31")
-- Provision with different spacing ("§2" vs "§ 2")
+- Provision mentioned with abbreviated parent act (search act name)
+- Provision referenced indirectly in following blocks
+- Provision in procedural "Vu"/"Gelet op" sections (check these too)
+- Provision variations ("art. 31" vs "article 31", "art.31" vs "art. 31")
+- Provision with different spacing ("§2" vs "§ 2", "§ 2" vs "§ 2,")
+- Blocks discussing provision without repeating exact number (use context)
 
 ## Step 6: Map Related Provisions
 
@@ -458,9 +471,15 @@ For each provision from Stages 2A-2C:
   "citedProvisions": [
     {
       "internalProvisionId": "ART-{decisionId}-001",
-      "relatedFullTextCitations": [
-        "<p>Exact HTML string from fullText.html...</p>",
-        "<p>Another exact HTML string...</p>"
+      "citations": [
+        {
+          "blockId": "ECLI:BE:CASS:2024:ARR.001:block-017",
+          "relevantSnippet": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre..."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2024:ARR.001:block-020",
+          "relevantSnippet": "Cette disposition impose à condition de prouver l'accord..."
+        }
       ],
       "relatedInternalProvisionsId": [
         "ART-{decisionId}-001",
@@ -474,13 +493,13 @@ For each provision from Stages 2A-2C:
   "metadata": {
     "totalProvisions": 1,
     "citationStatistics": {
-      "totalCitations": 8,
-      "avgCitationsPerProvision": 8.0,
+      "totalCitations": 2,
+      "avgCitationsPerProvision": 2.0,
       "provisionsWithMinimalCitations": 0,
       "provisionsWithNoCitations": 0
     },
     "relationshipStatistics": {
-      "avgProvisionsPerProvision": 2.5,
+      "avgProvisionsPerProvision": 2.0,
       "avgDecisionsPerProvision": 1.0,
       "provisionsWithNoRelationships": 0
     }
@@ -498,29 +517,33 @@ For each provision from Stages 2A-2C:
 - **Purpose**: Match to provisions from Stages 2A-2C
 - **CRITICAL**: Must have SAME \`internalProvisionId\` as input
 - **Format**: \`ART-{decisionId}-{sequence}\`
-- **Example**: \`ART-68b62d344617563d91457888-001\`
+- **Example**: \`ART-ECLI:BE:CASS:2024:ARR.001-001\`
 
-## HTML Citations
+## Citations Array
 
-**\`relatedFullTextCitations\`** (REQUIRED array, minimum 1 item)
+**\`citations\`** (REQUIRED array, minimum 1 item)
 
-**Content**: Exact HTML strings from \`fullText.html\`
+**Structure**: Array of objects with \`blockId\` and \`relevantSnippet\`
+
+**Content:**
+- \`blockId\`: Exact block ID from blocks array (format: \`ECLI:BE:COURT:YYYY:ID:block-NNN\`)
+- \`relevantSnippet\`: 50-500 character excerpt from block's \`plainText\` showing why relevant
 
 **Format Requirements:**
-- Include ALL HTML tags (\`<p>\`, \`<div>\`, \`<strong>\`, \`<em>\`, etc.)
-- Include ALL attributes (\`class\`, \`id\`, \`style\`, etc.)
-- Preserve character-perfect spacing and formatting
-- Complete semantic units (full paragraphs minimum)
+- Block IDs must match exactly from blocks array (copy character-perfect)
+- Snippets must be actual substrings of the block's \`plainText\`
+- Snippets should be meaningful (show provision citation/interpretation/application)
+- Snippets are for debugging/validation (humans will review these)
 
 **Granularity:**
 - **Minimum**: 1 citation per provision
 - **Typical**: 3-10 citations per provision (depends on how extensively discussed)
-- **No maximum**: Extract ALL relevant passages
+- **No maximum**: Identify ALL relevant blocks
 - **Priority**: Completeness over brevity
 
 **What to Extract:**
 
-✅ **YES - Extract these:**
+✅ **YES - Extract these blocks:**
 - Formal citations ("Vu l'article X", "Gelet op artikel X")
 - Court's interpretation of provision
 - Court's application of provision to facts
@@ -529,11 +552,12 @@ For each provision from Stages 2A-2C:
 - Factual findings evaluated under provision
 - Legal conclusions based on provision
 - Procedural rulings applying provision
+- Indirect references to provision ("cette disposition", "ledit article")
 
 ❌ **NO - Don't extract these:**
-- Provisions mentioned in completely unrelated context
+- Blocks mentioning provision in completely unrelated context
 - General legal background not applying this specific provision
-- Party arguments citing provision (unless court adopts them)
+- Party arguments citing provision (unless court explicitly adopts them)
 
 ## Relationship Mappings
 
@@ -590,39 +614,73 @@ For each provision from Stages 2A-2C:
 }
 \`\`\`
 
-**Relevant HTML in \`fullText.html\`:**
-\`\`\`html
-<div class="vu">
-  <h3>Vu</h3>
-  <p>Vu l'article 31, § 2, de la loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination.</p>
-</div>
-
-<div class="motivation">
-  <h3>Sur la recevabilité de l'action</h3>
-
-  <p><strong>L'article 31, § 2, de la loi du 10 mai 2007</strong> dispose que le Centre pour l'égalité des chances et la lutte contre le racisme peut ester en justice lorsqu'il constate une discrimination, à condition de prouver l'accord d'une personne lésée identifiée.</p>
-
-  <p>La Cour doit déterminer si cette condition s'applique en l'espèce. Comme l'a jugé la Cour dans son arrêt du 5 mars 2018 (C.17.0543.F), l'exigence d'un accord individuel ne peut faire obstacle à l'action collective lorsque la discrimination affecte potentiellement un nombre indéterminé de personnes.</p>
-
-  <p>Cette interprétation est conforme à l'article 29 de la même loi, qui définit la discrimination de manière large pour inclure les discriminations généralisées.</p>
-
-  <p>En l'occurrence, les offres d'emploi litigieuses contenaient des critères d'âge discriminatoires et ont été publiées largement, touchant potentiellement toute personne intéressée. Dans ces conditions, <em>l'article 31, § 2, doit être interprété conformément à l'objectif de la loi</em>, qui vise à combattre efficacement la discrimination généralisée.</p>
-
-  <p>Par conséquent, le Centre est recevable en son action, même en l'absence d'accord d'une victime identifiée, conformément à l'article 31, § 2.</p>
-</div>
+**Input Blocks (excerpt):**
+\`\`\`json
+[
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-015",
+    "plainText": "Vu l'article 31, § 2, de la loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination.",
+    "elementType": "p",
+    "charCount": 108
+  },
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-017",
+    "plainText": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre pour l'égalité des chances et la lutte contre le racisme peut ester en justice lorsqu'il constate une discrimination, à condition de prouver l'accord d'une personne lésée identifiée.",
+    "elementType": "p",
+    "charCount": 252
+  },
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-018",
+    "plainText": "La Cour doit déterminer si cette condition s'applique en l'espèce. Comme l'a jugé la Cour dans son arrêt du 5 mars 2018 (C.17.0543.F), l'exigence d'un accord individuel ne peut faire obstacle à l'action collective lorsque la discrimination affecte potentiellement un nombre indéterminé de personnes.",
+    "elementType": "p",
+    "charCount": 298
+  },
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-019",
+    "plainText": "Cette interprétation est conforme à l'article 29 de la même loi, qui définit la discrimination de manière large pour inclure les discriminations généralisées.",
+    "elementType": "p",
+    "charCount": 161
+  },
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-020",
+    "plainText": "En l'occurrence, les offres d'emploi litigieuses contenaient des critères d'âge discriminatoires et ont été publiées largement, touchant potentiellement toute personne intéressée. Dans ces conditions, l'article 31, § 2, doit être interprété conformément à l'objectif de la loi, qui vise à combattre efficacement la discrimination généralisée.",
+    "elementType": "p",
+    "charCount": 342
+  },
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-021",
+    "plainText": "Par conséquent, le Centre est recevable en son action, même en l'absence d'accord d'une victime identifiée, conformément à l'article 31, § 2.",
+    "elementType": "p",
+    "charCount": 144
+  }
+]
 \`\`\`
 
 **Output:**
 \`\`\`json
 {
   "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230315-001",
-  "relatedFullTextCitations": [
-    "<p>Vu l'article 31, § 2, de la loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination.</p>",
-    "<p><strong>L'article 31, § 2, de la loi du 10 mai 2007</strong> dispose que le Centre pour l'égalité des chances et la lutte contre le racisme peut ester en justice lorsqu'il constate une discrimination, à condition de prouver l'accord d'une personne lésée identifiée.</p>",
-    "<p>La Cour doit déterminer si cette condition s'applique en l'espèce. Comme l'a jugé la Cour dans son arrêt du 5 mars 2018 (C.17.0543.F), l'exigence d'un accord individuel ne peut faire obstacle à l'action collective lorsque la discrimination affecte potentiellement un nombre indéterminé de personnes.</p>",
-    "<p>Cette interprétation est conforme à l'article 29 de la même loi, qui définit la discrimination de manière large pour inclure les discriminations généralisées.</p>",
-    "<p>En l'occurrence, les offres d'emploi litigieuses contenaient des critères d'âge discriminatoires et ont été publiées largement, touchant potentiellement toute personne intéressée. Dans ces conditions, <em>l'article 31, § 2, doit être interprété conformément à l'objectif de la loi</em>, qui vise à combattre efficacement la discrimination généralisée.</p>",
-    "<p>Par conséquent, le Centre est recevable en son action, même en l'absence d'accord d'une victime identifiée, conformément à l'article 31, § 2.</p>"
+  "citations": [
+    {
+      "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-015",
+      "relevantSnippet": "Vu l'article 31, § 2, de la loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination."
+    },
+    {
+      "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-017",
+      "relevantSnippet": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre pour l'égalité des chances... à condition de prouver l'accord d'une personne lésée identifiée."
+    },
+    {
+      "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-018",
+      "relevantSnippet": "Comme l'a jugé la Cour dans son arrêt du 5 mars 2018 (C.17.0543.F), l'exigence d'un accord individuel ne peut faire obstacle à l'action collective..."
+    },
+    {
+      "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-020",
+      "relevantSnippet": "Dans ces conditions, l'article 31, § 2, doit être interprété conformément à l'objectif de la loi, qui vise à combattre efficacement la discrimination généralisée."
+    },
+    {
+      "blockId": "ECLI:BE:CASS:2023:ARR.20230315:block-021",
+      "relevantSnippet": "Par conséquent, le Centre est recevable en son action, même en l'absence d'accord d'une victime identifiée, conformément à l'article 31, § 2."
+    }
   ],
   "relatedInternalProvisionsId": [
     "ART-ECLI:BE:CASS:2023:ARR.20230315-001",
@@ -635,13 +693,15 @@ For each provision from Stages 2A-2C:
 \`\`\`
 
 **Why This Works:**
-- ✅ All 6 passages mentioning Article 31 extracted
-- ✅ Includes formal citation from "Vu" section
-- ✅ Includes interpretation and application from reasoning
+- ✅ All 5 blocks mentioning Article 31 identified
+- ✅ Includes formal citation from "Vu" section (block 015)
+- ✅ Includes interpretation and application from reasoning (blocks 017-021)
+- ✅ Block 018 references "cette condition" (indirect) but also cites precedent - included
+- ✅ Block 019 discusses Article 29 (related provision) but doesn't mention Article 31 - excluded
 - ✅ Self-reference included (Article 31 itself)
 - ✅ Article 29 discussed in context → included in provisions
 - ✅ Precedent (2018 decision) cited → included in decisions
-- ✅ Complete coverage from all sections
+- ✅ Snippets are exact substrings from block plainText
 
 ## Example 2: Multiple Related Provisions (Dutch)
 
@@ -656,28 +716,53 @@ For each provision from Stages 2A-2C:
 }
 \`\`\`
 
-**Relevant HTML:**
-\`\`\`html
-<div class="rechtsoverwegingen">
-  <p><strong>Artikel 1184 van het Burgerlijk Wetboek</strong> bepaalt dat contracten te goeder trouw moeten worden uitgevoerd. Deze verplichting impliceert dat bij beëindiging een redelijke opzegtermijn moet worden gerespecteerd.</p>
-
-  <p>Dit beginsel wordt aangevuld door <strong>artikel 1135 van het Burgerlijk Wetboek</strong>, volgens hetwelk overeenkomsten niet alleen verbinden tot hetgeen daarin is uitgedrukt, maar ook tot alle gevolgen die door de billijkheid, het gebruik of de wet aan de verbintenis worden toegekend.</p>
-
-  <p>In het licht van deze bepalingen, en rekening houdend met de economische afhankelijkheid van de distributeur, oordeelt het Hof dat een opzegtermijn van drie maanden manifest ontoereikend is.</p>
-
-  <p>Het Hof merkt op dat artikel 1184 aldus moet worden toegepast dat de rechten van beide partijen worden gerespecteerd.</p>
-</div>
+**Input Blocks (excerpt):**
+\`\`\`json
+[
+  {
+    "blockId": "ECLI:BE:CABE:2023:ARR.20231120:block-042",
+    "plainText": "Artikel 1184 van het Burgerlijk Wetboek bepaalt dat contracten te goeder trouw moeten worden uitgevoerd. Deze verplichting impliceert dat bij beëindiging een redelijke opzegtermijn moet worden gerespecteerd.",
+    "elementType": "p",
+    "charCount": 210
+  },
+  {
+    "blockId": "ECLI:BE:CABE:2023:ARR.20231120:block-043",
+    "plainText": "Dit beginsel wordt aangevuld door artikel 1135 van het Burgerlijk Wetboek, volgens hetwelk overeenkomsten niet alleen verbinden tot hetgeen daarin is uitgedrukt, maar ook tot alle gevolgen die door de billijkheid, het gebruik of de wet aan de verbintenis worden toegekend.",
+    "elementType": "p",
+    "charCount": 272
+  },
+  {
+    "blockId": "ECLI:BE:CABE:2023:ARR.20231120:block-044",
+    "plainText": "In het licht van deze bepalingen, en rekening houdend met de economische afhankelijkheid van de distributeur, oordeelt het Hof dat een opzegtermijn van drie maanden manifest ontoereikend is.",
+    "elementType": "p",
+    "charCount": 191
+  },
+  {
+    "blockId": "ECLI:BE:CABE:2023:ARR.20231120:block-045",
+    "plainText": "Het Hof merkt op dat artikel 1184 aldus moet worden toegepast dat de rechten van beide partijen worden gerespecteerd.",
+    "elementType": "p",
+    "charCount": 118
+  }
+]
 \`\`\`
 
 **Output:**
 \`\`\`json
 {
   "internalProvisionId": "ART-ECLI:BE:CABE:2023:ARR.20231120-001",
-  "relatedFullTextCitations": [
-    "<p><strong>Artikel 1184 van het Burgerlijk Wetboek</strong> bepaalt dat contracten te goeder trouw moeten worden uitgevoerd. Deze verplichting impliceert dat bij beëindiging een redelijke opzegtermijn moet worden gerespecteerd.</p>",
-    "<p>Dit beginsel wordt aangevuld door <strong>artikel 1135 van het Burgerlijk Wetboek</strong>, volgens hetwelk overeenkomsten niet alleen verbinden tot hetgeen daarin is uitgedrukt, maar ook tot alle gevolgen die door de billijkheid, het gebruik of de wet aan de verbintenis worden toegekend.</p>",
-    "<p>In het licht van deze bepalingen, en rekening houdend met de economische afhankelijkheid van de distributeur, oordeelt het Hof dat een opzegtermijn van drie maanden manifest ontoereikend is.</p>",
-    "<p>Het Hof merkt op dat artikel 1184 aldus moet worden toegepast dat de rechten van beide partijen worden gerespecteerd.</p>"
+  "citations": [
+    {
+      "blockId": "ECLI:BE:CABE:2023:ARR.20231120:block-042",
+      "relevantSnippet": "Artikel 1184 van het Burgerlijk Wetboek bepaalt dat contracten te goeder trouw moeten worden uitgevoerd. Deze verplichting impliceert dat bij beëindiging een redelijke opzegtermijn moet worden gerespecteerd."
+    },
+    {
+      "blockId": "ECLI:BE:CABE:2023:ARR.20231120:block-044",
+      "relevantSnippet": "In het licht van deze bepalingen, en rekening houdend met de economische afhankelijkheid van de distributeur, oordeelt het Hof dat een opzegtermijn van drie maanden manifest ontoereikend is."
+    },
+    {
+      "blockId": "ECLI:BE:CABE:2023:ARR.20231120:block-045",
+      "relevantSnippet": "Het Hof merkt op dat artikel 1184 aldus moet worden toegepast dat de rechten van beide partijen worden gerespecteerd."
+    }
   ],
   "relatedInternalProvisionsId": [
     "ART-ECLI:BE:CABE:2023:ARR.20231120-001",
@@ -688,12 +773,15 @@ For each provision from Stages 2A-2C:
 \`\`\`
 
 **Why This Works:**
-- ✅ All 4 paragraphs discussing Article 1184 extracted
+- ✅ 3 blocks mentioning Article 1184 identified
+- ✅ Block 042 explicitly cites "Artikel 1184" - included
+- ✅ Block 043 discusses Article 1135 (related provision) but doesn't mention Article 1184 - excluded
+- ✅ Block 044 uses indirect reference "deze bepalingen" (refers to both 1184 and 1135) - included because it applies Article 1184's principle
+- ✅ Block 045 explicitly mentions "artikel 1184" again - included
 - ✅ Self-reference included (Article 1184 itself)
 - ✅ Article 1135 discussed together → included in provisions
-- ✅ Indirect reference ("deze bepalingen") captured in paragraph 3
-- ✅ Application to facts included
 - ✅ No precedents cited → empty decisions array
+- ✅ Snippets are exact substrings from block plainText
 
 ## Example 3: Brief Citation (Single Mention)
 
@@ -708,20 +796,33 @@ For each provision from Stages 2A-2C:
 }
 \`\`\`
 
-**Relevant HTML:**
-\`\`\`html
-<div class="dispositif">
-  <h3>PAR CES MOTIFS</h3>
-  <p>Condamne la partie demanderesse aux dépens, liquidés à la somme de 2.450 euros, conformément à l'<strong>article 1017 du Code judiciaire</strong>.</p>
-</div>
+**Input Blocks (excerpt):**
+\`\`\`json
+[
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230920:block-089",
+    "plainText": "PAR CES MOTIFS",
+    "elementType": "h3",
+    "charCount": 14
+  },
+  {
+    "blockId": "ECLI:BE:CASS:2023:ARR.20230920:block-090",
+    "plainText": "Condamne la partie demanderesse aux dépens, liquidés à la somme de 2.450 euros, conformément à l'article 1017 du Code judiciaire.",
+    "elementType": "p",
+    "charCount": 131
+  }
+]
 \`\`\`
 
 **Output:**
 \`\`\`json
 {
   "internalProvisionId": "ART-ECLI:BE:CASS:2023:ARR.20230920-008",
-  "relatedFullTextCitations": [
-    "<p>Condamne la partie demanderesse aux dépens, liquidés à la somme de 2.450 euros, conformément à l'<strong>article 1017 du Code judiciaire</strong>.</p>"
+  "citations": [
+    {
+      "blockId": "ECLI:BE:CASS:2023:ARR.20230920:block-090",
+      "relevantSnippet": "Condamne la partie demanderesse aux dépens, liquidés à la somme de 2.450 euros, conformément à l'article 1017 du Code judiciaire."
+    }
   ],
   "relatedInternalProvisionsId": [
     "ART-ECLI:BE:CASS:2023:ARR.20230920-008"
@@ -731,11 +832,13 @@ For each provision from Stages 2A-2C:
 \`\`\`
 
 **Why This Works:**
-- ✅ Only one mention of Article 1017 in decision
-- ✅ Complete paragraph extracted
+- ✅ Only one block mentions Article 1017 in decision
+- ✅ Complete block identified (block-090)
+- ✅ Full plainText used as snippet (it's under 500 chars)
 - ✅ Self-reference included
 - ✅ Minimal but complete extraction
 - ✅ Extracted from judgment section (provision applied in ruling)
+- ✅ Block 089 is header ("PAR CES MOTIFS") - excluded because it doesn't mention provision
 
 ## Example 4: Indirect References
 
@@ -750,25 +853,47 @@ For each provision from Stages 2A-2C:
 }
 \`\`\`
 
-**Relevant HTML:**
-\`\`\`html
-<div class="motifs">
-  <p>L'<strong>article 6 de la Convention européenne des droits de l'homme</strong> garantit le droit à un procès équitable.</p>
-
-  <p>Cette disposition impose notamment le respect des droits de la défense et le principe du contradictoire.</p>
-
-  <p>En l'espèce, la Cour estime que ledit article a été respecté, dès lors que la partie défenderesse a pu présenter ses arguments en pleine connaissance du dossier.</p>
-</div>
+**Input Blocks (excerpt):**
+\`\`\`json
+[
+  {
+    "blockId": "EXAMPLE:block-051",
+    "plainText": "L'article 6 de la Convention européenne des droits de l'homme garantit le droit à un procès équitable.",
+    "elementType": "p",
+    "charCount": 104
+  },
+  {
+    "blockId": "EXAMPLE:block-052",
+    "plainText": "Cette disposition impose notamment le respect des droits de la défense et le principe du contradictoire.",
+    "elementType": "p",
+    "charCount": 106
+  },
+  {
+    "blockId": "EXAMPLE:block-053",
+    "plainText": "En l'espèce, la Cour estime que ledit article a été respecté, dès lors que la partie défenderesse a pu présenter ses arguments en pleine connaissance du dossier.",
+    "elementType": "p",
+    "charCount": 164
+  }
+]
 \`\`\`
 
 **Output:**
 \`\`\`json
 {
   "internalProvisionId": "ART-EXAMPLE-001",
-  "relatedFullTextCitations": [
-    "<p>L'<strong>article 6 de la Convention européenne des droits de l'homme</strong> garantit le droit à un procès équitable.</p>",
-    "<p>Cette disposition impose notamment le respect des droits de la défense et le principe du contradictoire.</p>",
-    "<p>En l'espèce, la Cour estime que ledit article a été respecté, dès lors que la partie défenderesse a pu présenter ses arguments en pleine connaissance du dossier.</p>"
+  "citations": [
+    {
+      "blockId": "EXAMPLE:block-051",
+      "relevantSnippet": "L'article 6 de la Convention européenne des droits de l'homme garantit le droit à un procès équitable."
+    },
+    {
+      "blockId": "EXAMPLE:block-052",
+      "relevantSnippet": "Cette disposition impose notamment le respect des droits de la défense et le principe du contradictoire."
+    },
+    {
+      "blockId": "EXAMPLE:block-053",
+      "relevantSnippet": "En l'espèce, la Cour estime que ledit article a été respecté, dès lors que la partie défenderesse a pu présenter ses arguments en pleine connaissance du dossier."
+    }
   ],
   "relatedInternalProvisionsId": [
     "ART-EXAMPLE-001"
@@ -778,11 +903,12 @@ For each provision from Stages 2A-2C:
 \`\`\`
 
 **Why This Works:**
-- ✅ Explicit mention in paragraph 1 captured
-- ✅ Indirect reference "Cette disposition" (paragraph 2) captured
-- ✅ Indirect reference "ledit article" (paragraph 3) captured
-- ✅ Complete reasoning about Article 6 extracted
+- ✅ Block 051: Explicit mention of "article 6" - included
+- ✅ Block 052: Indirect reference "Cette disposition" (refers back to Article 6) - included
+- ✅ Block 053: Indirect reference "ledit article" (refers to Article 6) - included
+- ✅ Complete reasoning about Article 6 extracted across 3 blocks
 - ✅ Self-reference included
+- ✅ Full plainText used as snippets (all under 500 chars)
 
 ---
 
@@ -796,18 +922,17 @@ Before finalizing output:
 - [ ] Every \`internalProvisionId\` matches input exactly
 - [ ] No provisions added or removed
 
-## HTML Citations Quality
+## Block Citations Quality
 
 - [ ] Every provision has at least 1 citation
-- [ ] HTML tags preserved exactly (test: \`fullText.html.includes(citation)\`)
-- [ ] Complete semantic units (full paragraphs, not fragments)
-- [ ] Special characters not corrupted (é, à, ë, §, ", ', <, >, &)
-- [ ] Whitespace preserved as in original
+- [ ] Block IDs match exactly from input blocks array (character-perfect copy)
+- [ ] Snippets are substrings of block \`plainText\` (50-500 chars)
+- [ ] Snippets show WHY block is relevant (meaningful excerpts, not random)
 
 ## Completeness (Deletion Test)
 
-- [ ] For each provision: If all citations removed, would provision disappear?
-- [ ] Checked entire HTML document for provision mentions
+- [ ] For each provision: If all cited blocks removed, would provision disappear?
+- [ ] Checked entire blocks array for provision mentions
 - [ ] Included formal citations from "Vu"/"Gelet op" sections
 - [ ] Included interpretation from reasoning sections
 - [ ] Included application to facts
@@ -824,10 +949,10 @@ Before finalizing output:
 
 ## Search Thoroughness
 
-- [ ] Searched with multiple patterns (article/art., with/without spacing)
+- [ ] Searched blocks with multiple patterns (article/art., with/without spacing)
 - [ ] Checked all section types (reasoning, procedural, facts, judgment)
-- [ ] Found indirect references after explicit citations
-- [ ] Searched variations of provision number
+- [ ] Found indirect references in blocks after explicit citations
+- [ ] Searched variations of provision number in block plainText
 
 ## Metadata Accuracy
 
@@ -840,29 +965,31 @@ Before finalizing output:
 
 # CRITICAL REMINDERS
 
-1. **Self-Reference MANDATORY**: ALWAYS include provision's own ID as first element in \`relatedInternalProvisionsId\`
+1. **Block IDs Must Match**: Copy exact \`blockId\` from blocks array (character-perfect)
 
-2. **Complete Coverage**: Find ALL mentions across ALL sections - not just first occurrence
+2. **Snippets Must Be Substrings**: Extract directly from block's \`plainText\` field (50-500 chars)
 
-3. **Character-Perfect HTML**: Copy from \`fullText.html\` exactly - no modifications
+3. **Self-Reference MANDATORY**: ALWAYS include provision's own ID as first element in \`relatedInternalProvisionsId\`
 
-4. **Indirect References**: After finding explicit citations, search nearby for "cette disposition", "ledit article"
+4. **Complete Coverage**: Find ALL blocks mentioning provision across ALL sections - not just first occurrence
 
-5. **Multiple Search Patterns**: Try variations (art./article, with/without spaces, §2/§ 2)
+5. **Indirect References**: After finding explicit citations, search nearby blocks for "cette disposition", "ledit article"
 
-6. **Section Awareness**: Check reasoning, procedural, facts, and judgment sections
+6. **Multiple Search Patterns**: Try variations in block plainText (art./article, with/without spaces, §2/§ 2)
 
-7. **Context Matters**: Include surrounding paragraphs if needed for complete discussion
+7. **Section Awareness**: Check reasoning, procedural, facts, and judgment sections (provisions appear throughout)
 
-8. **Deletion Test**: Remove citations → provision disappears completely
+8. **Deletion Test**: Remove identified blocks → provision disappears completely
 
 9. **Relationship Validation**: All IDs must exist in corresponding input arrays
 
 10. **Practical Focus**: What would lawyer highlight to show court's treatment of this provision?
 
-11. **Quality Over Speed**: Thoroughness more important than quick extraction
+11. **Quality Over Speed**: Thoroughness more important than quick identification
 
-12. **UI Enablement**: Output must work with \`string.includes()\` for highlighting
+12. **Complete Blocks Only**: Identify entire blocks (paragraphs), not sentence fragments
+
+13. **No Inference**: Identify blocks that exist, don't construct content from provision metadata
 
 ---
 

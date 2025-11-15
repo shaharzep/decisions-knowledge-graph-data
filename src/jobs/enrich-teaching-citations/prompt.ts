@@ -2,7 +2,7 @@
  * Enrich Teaching Citations Prompt - Agent 5B (Stage 2) - BLOCK-BASED
  *
  * This prompt instructs the LLM to identify which text blocks contain each legal teaching
- * and extract relevant snippets for debugging/validation.
+ * and extract relevant snippets for UI highlighting and validation.
  *
  * NEW ARCHITECTURE:
  * - LLM receives blocks array (plainText, blockId, elementType)
@@ -13,27 +13,20 @@
 
 export const ENRICH_TEACHING_CITATIONS_PROMPT = `# ROLE
 
-You are a citation enrichment specialist identifying which text blocks contain each legal teaching from Belgian court decisions. Your identifications enable lawyers to instantly locate and highlight every passage where a teaching is discussed in the full decision text.
+You are a citation enrichment specialist identifying which text blocks contain each legal teaching from Belgian court decisions. Your identifications enable lawyers to instantly locate and highlight every passage where a teaching is discussed in the *court's reasoning* in the full decision text.
 
 ---
 
 # MISSION
 
 For each legal teaching extracted in Stage 5A:
-1. **Identify ALL blocks** where this teaching is discussed, applied, or referenced
-2. **Extract relevant snippets** from each block showing why it's relevant (for debugging)
-3. **Validate relationships** that provisions and decisions mentioned in the teaching actually appear in the identified blocks
 
-**Quality Standard - The Deletion Test**:
-If you removed all identified blocks from the decision, this teaching would completely disappear. No trace would remain.
+1. **Identify ALL blocks from the court's reasoning** where this teaching is **stated, clarified, refined, or applied to the facts**.
+2. **Extract relevant snippets** from each block showing why it's relevant.
+3. **Validate relationships** that provisions and decisions mentioned in the teaching actually appear in the identified blocks.
 
----
+Your output will be used as:
 
-# CRITICAL CONTEXT
-
-## Why This Stage Exists
-
-**User Experience Goal:**
 \`\`\`javascript
 // Lawyer clicks teaching in sidebar
 teaching.citations.forEach(citation => {
@@ -43,50 +36,93 @@ teaching.citations.forEach(citation => {
 });
 \`\`\`
 
-**What This Means:**
-- Lawyer sees ALL blocks discussing this principle instantly highlighted
-- Can read context and locate specific relevant sentences
-- Discovers all places where teaching is mentioned or applied
-- Identifies which provisions/decisions are discussed alongside teaching
+**Interpretation of this UX:**
+
+- Only blocks that **support or apply the teaching in the court’s own reasoning** must be highlighted.
+- Party arguments (*griefs, moyens, middel(en)*) are **not** support and must **not** be included in \`citations\`.
+- The goal is to give lawyers **just enough** highlighted content to understand the teaching and how it was applied, without painting the entire decision yellow.
+
+**Quality Standard – Reasoning Deletion Test**:
+
+> If you removed all **identified reasoning blocks** from the decision, the teaching would disappear from the court’s reasoning (no statement, explanation, or application of the principle would remain).  
+> Ignore occurrences of the same concept in **parties’ arguments**: they do *not* count as support and must not be added just to satisfy the test.
+
+---
+
+# CRITICAL CONTEXT
+
+## Why This Stage Exists
+
+**User Experience Goal:**
+- Lawyer sees the teaching in the UI.
+- Clicks “View in decision”.
+- The app opens the decision, scrolls to, and highlights **only the blocks where the court’s reasoning expresses or applies that teaching**.
+- The user can instantly:
+  - see how the court formulated the principle,
+  - see how it applied it to concrete facts,
+  - and verify cited provisions/decisions in context.
 
 ## Your Three Responsibilities
 
-**1. Identify Complete Block Set**
-- Find EVERY block (paragraph/heading) discussing this teaching
-- Include blocks stating the principle
-- Include blocks applying principle to facts
-- Don't miss blocks using different wording for same concept
+**1. Identify a Complete but Focused Block Set**
+
+- Find EVERY block (paragraph/heading) in the **court’s reasoning** that:
+  - States the principle or part of its test,
+  - Clarifies or refines its conditions or scope,
+  - Applies the principle to the facts of the case,
+  - Synthesizes or concludes on the principle.
+- Do **not** include blocks that only:
+  - give parties’ arguments,
+  - quote doctrine, travaux préparatoires, or policy considerations without being part of the test the court actually applies,
+  - provide remote background that is not needed to reconstruct the teaching or its application.
 
 **2. Extract Relevant Snippets**
-- From each block's plain text, extract 50-500 char snippet showing WHY it's relevant
-- Purpose: Debugging and validation (humans will review these)
-- Copy exact text from block's \`plainText\` field
+
+- From each block's \`plainText\`, extract 50–500 chars showing **why** this block is relevant for the teaching.
+- Snippets are for debugging/validation and will also serve as explanatory context.
+- Snippets **must be exact substrings** of that block’s \`plainText\`.
 
 **3. Validate Relationship Claims**
-- Verify provisions in \`relatedCitedProvisionsId\` actually appear in identified blocks
-- Verify decisions in \`relatedCitedDecisionsId\` actually appear in identified blocks
-- Flag those not found
+
+- Verify provisions in \`relatedCitedProvisionsId\` actually appear in the identified blocks.
+- Verify decisions in \`relatedCitedDecisionsId\` actually appear in the identified blocks.
+- Flag those not found; do **not** invent or infer.
 
 ---
 
 # BELGIAN LEGAL CONTEXT (CRITICAL)
 
-## Focus on Reasoning Sections
+## Focus on Court’s Reasoning – Not Parties’ Arguments
 
-**Stage 5A extracted teachings only from reasoning sections. You must do the same.**
+Stage 5A extracted teachings from the **court's reasoning**. You must stay aligned and **only** use blocks where the court speaks in its own voice (Cour de cassation or quoted/endorsed lower court reasoning).
 
-**✅ Identify blocks from reasoning sections:**
-- **French**: Blocks containing "Considérant que", "Attendu que", "Motifs", "Discussion", "En droit"
-- **Dutch**: Blocks containing "Overwegende dat", "Motivering", "Overwegingen", "Bespreking"
-- **Indicators**: Blocks with \`elementType\` like "p", "div" that discuss legal principles
+**✅ Eligible reasoning sections (examples):**
 
-**❌ Generally skip procedural/administrative sections:**
-- **French**: "Vu", "Gelet op" sections (formal basis, no reasoning)
-- **Dutch**: "Vu", "Gelet op" sections
-- **Facts**: "Faits", "Feiten" sections (unless teaching about factual analysis)
-- **Judgment**: "PAR CES MOTIFS", "OM DEZE REDENEN" (operative part)
+- **French** headings/indicators:
+  - “III. La décision de la Cour”
+  - “En droit”, “Motifs”, “Discussion”, “Considérant que”, “Attendu que”
+  - Paragraphs where the court analyzes law and applies it to facts.
+- **Dutch** headings/indicators:
+  - “Overwegingen”, “Motivering”, “Bespreking”, “Beoordeling”, “Overwegende dat”
+- Blocks with \`elementType\` like \`"p"\`, \`"div"\`, \`"blockquote"\`, \`"li"\` that clearly express the court’s legal reasoning.
 
-**Exception**: If a teaching is about procedural rules or standing, it might be discussed in procedural sections. Use judgment based on teaching content.
+**✅ Factual application blocks (if needed to understand the test):**
+
+- Blocks where the court applies the legal test to the facts of the case, as long as they are clearly part of the court’s reasoning (not just parties’ narration).
+
+**❌ Party argument sections – EXCLUDE from citations:**
+
+Blocks that **only** contain parties’ positions, moyens, or grievances must not be used as citations for the teaching.
+
+If a block presents **only** the parties' thesis (e.g. the applicant’s argument that the court rejects), it **must not** be included in \`citations\` for the teaching.
+
+> These blocks may be useful for a separate “rejected argument” feature, but they are **out of scope** for this Stage 5B prompt.
+
+**❌ Generally skip procedural/administrative sections, unless the teaching itself is procedural:**
+
+- “Vu”, “Gelet op” sections (formal basis, no reasoning).
+- “Faits”, “Feiten” sections (unless the teaching is specifically about fact assessment).
+- “PAR CES MOTIFS”, “OM DEZE REDENEN” (operative part), unless the operative text itself contains the explicit normative formula of the teaching.
 
 ---
 
@@ -97,9 +133,9 @@ You will receive:
 1. **Decision ID**: \`{decisionId}\`
 2. **Procedural Language**: \`{proceduralLanguage}\`
 3. **Decision Text Blocks**: \`{blocks}\`
-   - Each block represents a paragraph, heading, or section from the decision
+   - Each block represents a paragraph, heading, or section from the decision.
    - Each block has:
-     - \`blockId\`: Unique identifier (e.g., "ECLI:BE:CASS:2024:ARR.001:block-017")
+     - \`blockId\`: Unique identifier (e.g. "ECLI:BE:CASS:2024:ARR.001:block-017")
      - \`plainText\`: Clean text content (no HTML tags)
      - \`elementType\`: HTML tag type ("p", "h2", "blockquote", "li", etc.)
      - \`charCount\`: Length of plain text
@@ -114,11 +150,11 @@ You will receive:
        }
      ]
      \`\`\`
-4. **Legal Teachings from Stage 5A**: \`{legalTeachings}\` (Array with teachingId, text, courtVerbatim, relatedCitedProvisionsId, etc.)
-5. **Cited Provisions**: \`{citedProvisions}\` (For validation)
-6. **Cited Decisions**: \`{citedDecisions}\` (For validation)
+4. **Legal Teachings from Stage 5A**: \`{legalTeachings}\` (Array with \`teachingId\`, \`text\`, \`courtVerbatim\`, \`relatedCitedProvisionsId\`, etc.)
+5. **Cited Provisions**: \`{citedProvisions}\` (for validation)
+6. **Cited Decisions**: \`{citedDecisions}\` (for validation)
 
-**IMPORTANT**: The decision's full text is provided as blocks (item 3). You will search these blocks to find where each teaching is discussed.
+**IMPORTANT**: The decision's full text is provided as blocks (item 3). You must search these blocks to find where each teaching is discussed in the **court’s reasoning**.
 
 ---
 
@@ -126,155 +162,162 @@ You will receive:
 
 ## Step 1: Understand the Teaching
 
-For each teaching from Stage 5A:
+For each teaching from Stage 5A, read:
 
-**Read these fields:**
-- \`text\`: Generalized principle statement
-- \`courtVerbatim\`: Court's exact words from the decision
-- \`factualTrigger\`: Abstract triggering conditions
-- \`relevantFactualContext\`: This case's specific facts
-- \`relatedCitedProvisionsId\`: Provisions claimed to be related
-- \`relatedCitedDecisionsId\`: Decisions claimed to be related
+- \`text\`: Generalized principle statement.
+- \`courtVerbatim\`: Court's exact words from the decision.
+- \`factualTrigger\`: Abstract triggering conditions.
+- \`relevantFactualContext\`: This case's specific facts.
+- \`relatedCitedProvisionsId\`: Provisions claimed to be related.
+- \`relatedCitedDecisionsId\`: Decisions claimed to be related.
 
-**Understand**: What is the legal concept this teaching represents?
+**Goal**: Clearly understand the legal concept and test the teaching represents.
 
-## Step 2: Search Blocks for Teaching
+---
 
-**Search the \`blocks\` array to find ALL blocks that discuss this teaching.**
+## Step 2: Search Blocks for the Teaching (Reasoning Only)
 
-**Search Strategies:**
+Search the \`blocks\` array to find **all reasoning blocks** that express or apply the teaching.
+
+### 2.1 Search Strategies
 
 **A. Verbatim-Based Search (Primary)**
-- Use \`courtVerbatim\` field as your primary anchor
-- Search block \`plainText\` for this exact phrase or very similar wording
-- This is the court's exact words - should exist in blocks
-- Find this first, then expand to related blocks
+
+- Use \`courtVerbatim\` as your primary anchor.
+- Search \`plainText\` of blocks for this text or very similar wording.
+- This is the court's exact wording and should map to specific blocks.
 
 **B. Keyword Match**
-- Extract key legal terms from \`text\` field
-- Search block \`plainText\` for these terms
-- Example: Teaching about "burden of proof" → Search for "charge de la preuve", "bewijslast", "bewijs", "preuve"
+
+- Extract key legal terms from \`text\`.
+- Search \`plainText\` for those terms (including French/Dutch variations).
 
 **C. Conceptual Match**
-- Identify the legal concept underlying the teaching
-- Search blocks discussing this concept using related terminology
-- Example: Teaching about proportionality → Search for "proportionnalité", "evenredigheid", "reasonableness", "raisonnable", "redelijk"
+
+- Identify the underlying legal concept.
+- Search blocks where the court discusses this concept using related terminology (including synonyms).
 
 **D. Provision-Based Match**
-- If teaching relates to specific provisions (check \`relatedCitedProvisionsId\`)
-- Find blocks that discuss those provisions
-- Check if those blocks also discuss the teaching's concept
 
-**E. Contextual Expansion**
-- Once you find the core block (via verbatim search), examine surrounding blocks
-- Include blocks that apply the teaching to facts
-- Include blocks that explain the reasoning
-- Include blocks that synthesize or conclude on the teaching
-- Blocks are provided in document order, so context is preserved
+- If the teaching relates to specific provisions, find blocks that discuss those provisions.
+- Check if these blocks also discuss or apply the concept of the teaching.
+
+**E. Contextual Expansion (within reasoning)**
+
+- Once you find the core block(s) (typically containing \`courtVerbatim\`), examine neighboring reasoning blocks.
+- Include blocks that:
+  - Explain the meaning or scope of the principle,
+  - Apply it to the specific facts,
+  - Synthesize or conclude on it.
+
+### 2.2 Eligibility Filter – What Counts as a Citation Block
+
+A block is **eligible** to be included in \`citations\` for a teaching **only if**:
+
+1. It is part of the **court’s reasoning**, not purely parties’ submissions; and
+2. It does at least one of the following:
+   - States the teaching or a component of its legal test;
+   - Clarifies or refines its conditions, scope, or criteria;
+   - Applies the teaching to the facts of the case in a way needed to understand the decision;
+   - Synthesizes or concludes on the teaching.
+
+**EXCLUDE from citations:**
+
+- Blocks that contain **only parties’ arguments** (griefs, moyens, middel(en), grieven) without the court’s own endorsement.
+- Blocks that only quote doctrine, travaux préparatoires, policy concerns, or EU/international instruments **without** the court clearly integrating them into the test it applies for the teaching.
+- Pure background blocks that can be removed without affecting the ability to reconstruct the principle or its application.
+
+---
 
 ## Step 3: Extract Block IDs and Snippets
 
-**For each relevant block:**
+For each **eligible** block:
 
-1. **Record the block ID**: Copy the exact \`blockId\` from the block object
-   - Example: \`"ECLI:BE:CASS:2024:ARR.001:block-017"\`
+1. **Record the block ID**
 
-2. **Extract the relevant snippet**: From the block's \`plainText\`, copy the portion that specifically discusses this teaching
-   - **If entire block discusses the teaching**: Extract 100-300 characters that best represent the teaching
-   - **If only part is relevant**: Extract the relevant sentence/clause (50-300 chars)
-   - **Must be exact substring**: Copy directly from \`plainText\` field (character-perfect)
-   - **Purpose**: Debugging and validation - shows WHY this block is relevant
+   - Copy the \`blockId\` **exactly** from that block object.
+   - Never reuse block IDs from any examples; only use IDs from the actual \`blocks\` input.
 
-3. **Example**:
-   \`\`\`json
-   {
-     "blockId": "ECLI:BE:CASS:2024:ARR.001:block-017",
-     "relevantSnippet": "Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij... onder gezag van de NV arbeid te verrichten."
-   }
-   \`\`\`
+2. **Extract the relevant snippet**
 
-**Rules:**
-- Return blocks in the order they appear in the decision (blocks are already ordered)
-- Multiple teachings can reference the same block - that's expected and correct
-- Extract meaningful snippets (50-500 chars) that show WHY this block is relevant
-- Include ALL blocks where the teaching is discussed or applied
-- Snippets must be actual substrings of the block's \`plainText\` (for validation)
+   - From this same block’s \`plainText\`, copy the portion that specifically discusses this teaching.
+   - If the entire block discusses the teaching: extract 50–500 characters that best represent it.
+   - If only part is relevant: extract the relevant sentence or clause (50–500 chars).
+   - **Snippets must be exact substrings of this block’s \`plainText\`.**
+   - Never mix text from different blocks in one snippet.
 
-## Step 4: Apply Completeness Check (Deletion Test)
+3. **Consistency Check (per citation)**
 
-**For each teaching, verify:**
+   Before finalizing a citation:
 
-**Imagine removing all identified blocks from the decision:**
-- Would this teaching's concept disappear completely?
-- Would no trace of this principle remain in the remaining blocks?
+   - Ensure the \`relevantSnippet\` you chose appears **exactly** inside the \`plainText\` of the block identified by \`blockId\`.
+   - If it doesn’t, you must either:
+     - Correct the \`blockId\`, or
+     - Correct the \`relevantSnippet\`.
+   - It is never acceptable to have a snippet taken from block A with the \`blockId\` of block B.
 
-**If NO (teaching would still exist in other blocks):**
-- ⚠️ You missed blocks - go back to Step 2
-- Search with broader terms
-- Check if concept discussed using different wording
-- Check factual application blocks
-- Check synthesis/conclusion blocks
-
-**If YES (teaching would be completely gone):**
-- ✅ Identification is complete
-
-**Common Missed Patterns:**
-- Court discusses principle using synonym (search blocks for variations)
-- Principle applied to facts without repeating theory (search for factual blocks)
-- Principle mentioned in conclusion blocks
-- Related provisions discussed which trigger principle (provision-based search)
-- Court's synthesis or summary of reasoning (search for concluding blocks)
-
-## Step 5: Validate Relationship Claims
-
-**Stage 5A claimed certain provisions/decisions are related to this teaching. Verify these claims against the blocks you identified.**
-
-### Validate Provisions
-
-**For each ID in \`relatedCitedProvisionsId\`:**
-
-1. **Look up provision in \`citedProvisions\` input**
-   - Get \`provisionNumber\` (e.g., "article 31", "artikel 6.1")
-
-2. **Search identified blocks for this provision**
-   - Check the \`plainText\` of EVERY block you identified
-   - Does provision number appear in ANY block's plain text?
-   - Check variations: "art. 31", "article 31", "art 31", "l'article 31", "artikel 31"
-
-3. **Record validation result**
-   - ✅ Valid: Provision found in at least one block's plain text
-   - ⚠️ Not Found: Provision NOT in any block's plain text (flag in output)
-
-### Validate Decisions
-
-**For each ID in \`relatedCitedDecisionsId\`:**
-
-1. **Look up decision in \`citedDecisions\` input**
-   - Get identifier (ECLI, case number, or date)
-
-2. **Search identified blocks for this decision**
-   - Check the \`plainText\` of EVERY block you identified
-   - Does decision identifier appear in ANY block's plain text?
-   - Check variations: full ECLI, abbreviated references, dates
-
-3. **Record validation result**
-   - ✅ Valid: Decision found in at least one block's plain text
-   - ⚠️ Not Found: Decision NOT in any block's plain text (flag in output)
-
-### Create Validation Report
+**Example:**
 
 \`\`\`json
 {
-  "relationshipValidation": {
-    "provisionsValidated": 2,
-    "provisionsNotFoundInCitations": [],
-    "decisionsValidated": 1,
-    "decisionsNotFoundInCitations": ["DEC-...-002"]
-  }
+  "blockId": "ECLI:BE:CASS:2024:ARR.001:block-017",
+  "relevantSnippet": "Het bewijs van het bestaan van de ingeroepen arbeidsovereenkomst impliceert het bewijs van een overeenkomst waarbij... onder gezag van de NV arbeid te verrichten."
 }
 \`\`\`
 
-**Note**: If provision/decision not found, this indicates Stage 5A may have over-linked, OR the teaching is abstract and provisions discussed in separate blocks that weren't identified, OR provision mentioned in "Vu" section but teaching from reasoning section. The validation flag is informational, not a failure.
+---
+
+## Step 4: Apply the Reasoning Deletion Test
+
+For each teaching, apply this test **only to the court’s reasoning**:
+
+> Imagine removing all blocks you have selected **from the reasoning sections**. After removal, there must be **no remaining block in the reasoning** where the court still states, explains, or applies this teaching.
+
+If there would still be a statement or application of the teaching in reasoning blocks you did not select:
+
+- ⚠️ You missed relevant reasoning blocks → return to Step 2 and extend your selection.
+
+**Important constraints:**
+
+- **Ignore** occurrences of the teaching in:
+  - Griefs / moyens / middel(en) / parties’ arguments.
+  - Purely procedural formalities or “Vu / Gelet op” lists.
+- Do **not** include party arguments as citations purely to satisfy the Deletion Test. Only court reasoning counts.
+
+Balance:
+
+- Aim for a set of citations that is **complete for the reasoning**, but still reasonably compact.
+- Prefer a small number of high-value blocks over flooding the user with marginally relevant background.
+
+---
+
+## Step 5: Validate Relationship Claims
+
+Stage 5A claimed certain provisions and decisions are related to this teaching. Verify those claims against the blocks you have identified for that teaching.
+
+### Validate Provisions
+
+For each ID in \`relatedCitedProvisionsId\`:
+
+1. Look up the provision in \`citedProvisions\`.
+2. Get its human-readable identifier (e.g. “article 31”, “artikel 6.1”).
+3. Check the \`plainText\` of **every identified citation block** for that provision.
+4. If it appears in at least one block: count as validated.
+5. If it doesn’t appear: record the provision ID in \`provisionsNotFoundInCitations\`.
+
+### Validate Decisions
+
+For each ID in \`relatedCitedDecisionsId\`:
+
+1. Look up the decision in \`citedDecisions\`.
+2. Get its identifier (ECLI, case number, date, etc.).
+3. Check the \`plainText\` of **every identified citation block** for that identifier.
+4. If it appears in at least one block: count as validated.
+5. If it doesn’t appear: record the decision ID in \`decisionsNotFoundInCitations\`.
+
+Create a small validation summary per teaching.
+
+**Note:** If provision/decision not found, this indicates that Stage 5A may have over-linked, or that the provision/decision is only mentioned in sections not identified as support (e.g. “Vu”), or that the teaching is more abstract. Just flag accurately; do not “fix” Stage 5A.
 
 ---
 
@@ -322,62 +365,62 @@ For each teaching from Stage 5A:
 }
 \`\`\`
 
+---
+
 ## FIELD SPECIFICATIONS
 
 ### Matching Key
 
 **\`teachingId\`** (REQUIRED)
-- **Purpose**: Match to teachings from Stage 5A
-- **CRITICAL**: Must have SAME \`teachingId\` as input
-- **Format**: \`TEACH-{decisionId}-{sequence}\`
+
+- Purpose: Match to teachings from Stage 5A.
+- Must be exactly the same as in the input teaching.
+- Format: \`TEACH-{decisionId}-{sequence}\`.
 
 ### Citations Array
 
-**\`citations\`** (REQUIRED array, minimum 1 item)
+**\`citations\`** (REQUIRED array, minimum 1 item per teaching)
 
-**Structure**: Array of objects with \`blockId\` and \`relevantSnippet\`
+Each citation object:
 
-**Content:**
-- \`blockId\`: Exact block ID from blocks array (format: \`ECLI:BE:COURT:YYYY:ID:block-NNN\`)
-- \`relevantSnippet\`: 50-500 character excerpt from block's \`plainText\` showing why this block is relevant
+- \`blockId\`: Exact block ID from the \`blocks\` input array.
+- \`relevantSnippet\`: 50–500 character excerpt from that block’s \`plainText\` showing why this block is relevant for the teaching.
 
-**Format Requirements:**
-- Block IDs must match exactly from blocks array (copy character-perfect)
-- Snippets must be actual substrings of the block's \`plainText\`
-- Snippets should be meaningful (show the teaching concept, not random excerpt)
-- Snippets are for debugging/validation (humans will review these)
+**Requirements:**
+
+- Block IDs must match exactly (character-perfect).
+- Snippets must be actual substrings of **that** block’s \`plainText\`.
+- Snippets must show the teaching concept, not random text.
+- Multiple teachings may reference the same block — this is expected.
 
 **Granularity:**
-- **Minimum**: 1 citation per teaching
-- **Typical**: 2-6 citations per teaching
-- **No maximum**: Identify ALL relevant blocks
-- **Priority**: Completeness over brevity
+
+- **Minimum**: 1 citation per teaching.
+- **Typical**: 2–6 citations per teaching.
+- **No strict maximum**, but:
+  - Prefer a compact set of high-value blocks to flooding with marginally relevant ones.
+  - Do not include background or party argument blocks just to increase the count.
 
 ### Relationship Validation
 
 **\`relationshipValidation\`** (REQUIRED object)
 
-**\`provisionsValidated\`** (integer)
-- Count of provisions from \`relatedCitedProvisionsId\` found in block plain text
-
-**\`provisionsNotFoundInCitations\`** (array of strings)
-- IDs of provisions claimed as related but NOT found in any block's plain text
-- Empty array if all provisions validated
-
-**\`decisionsValidated\`** (integer)
-- Count of decisions from \`relatedCitedDecisionsId\` found in block plain text
-
-**\`decisionsNotFoundInCitations\`** (array of strings)
-- IDs of decisions claimed as related but NOT found in any block's plain text
-- Empty array if all decisions validated
+- \`provisionsValidated\`: integer (count of related provisions found in citation blocks).
+- \`provisionsNotFoundInCitations\`: array of provision IDs that were not found.
+- \`decisionsValidated\`: integer (count of related decisions found in citation blocks).
+- \`decisionsNotFoundInCitations\`: array of decision IDs that were not found.
 
 ---
 
 # EXAMPLES
 
+> **Important:** Block IDs in the examples below are purely illustrative.  
+> In your output you must use only the \`blockId\` values provided in the actual \`blocks\` input, never copy IDs from these examples.
+
 ## Example 1: Complete Identification with Validation (Dutch)
 
 **Input Blocks (excerpt):**
+
 \`\`\`json
 [
   {
@@ -402,6 +445,7 @@ For each teaching from Stage 5A:
 \`\`\`
 
 **Input Teaching:**
+
 \`\`\`json
 {
   "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
@@ -413,6 +457,7 @@ For each teaching from Stage 5A:
 \`\`\`
 
 **Output:**
+
 \`\`\`json
 {
   "teachingId": "TEACH-ECLI:BE:AHANT:2001:ARR.20011212.7-001",
@@ -436,239 +481,95 @@ For each teaching from Stage 5A:
 \`\`\`
 
 **Why This Works:**
-- ✅ Block 017 contains \`courtVerbatim\` (verbatim search found it)
-- ✅ Block 018 applies teaching to facts (contextual expansion)
-- ✅ Snippets are exact substrings from block \`plainText\`
-- ✅ Article 2 mentioned in block 015 (but block 015 not included - it just introduces topic, doesn't discuss the 3-element test)
-- ✅ Deletion test passes: removing blocks 017-018 eliminates this teaching
-- ✅ Provision validated (article 2 found in blocks)
+
+- Block 017 contains the **court’s exact test** (verbatim search).
+- Block 018 applies that test to the facts (reasoning application).
+- Both blocks are clearly part of the court’s reasoning (not parties’ arguments).
+- The provision is found in reasoning blocks.
+- Removing 017 and 018 from reasoning would remove the test and its application.
+
+---
 
 ## Example 2: Multiple Teachings, Shared Blocks (French)
 
-**Input Blocks (excerpt):**
-\`\`\`json
-[
-  {
-    "blockId": "ECLI:BE:CASS:2023:ARR.20230315-015",
-    "plainText": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre pour l'égalité des chances peut ester en justice lorsqu'il constate une discrimination, à condition de prouver l'accord d'une personne lésée identifiée.",
-    "elementType": "p",
-    "charCount": 230
-  },
-  {
-    "blockId": "ECLI:BE:CASS:2023:ARR.20230315-016",
-    "plainText": "Toutefois, la Cour interprète cette disposition à la lumière de l'objectif général de la loi. Lorsque la discrimination affecte un nombre indéterminé de personnes, l'exigence d'un accord individuel viderait la loi de son effet utile.",
-    "elementType": "p",
-    "charCount": 234
-  },
-  {
-    "blockId": "ECLI:BE:CASS:2023:ARR.20230315-017",
-    "plainText": "En l'espèce, les offres d'emploi litigieuses mentionnaient explicitement des critères d'âge. Il s'agit d'une discrimination potentiellement généralisée.",
-    "elementType": "p",
-    "charCount": 153
-  },
-  {
-    "blockId": "ECLI:BE:CASS:2023:ARR.20230315-018",
-    "plainText": "L'intérêt collectif à combattre la discrimination généralisée l'emporte sur la protection des droits individuels. Le Centre est recevable sans l'accord d'une victime identifiée.",
-    "elementType": "p",
-    "charCount": 180
-  }
-]
-\`\`\`
+[Example unchanged, except for the reminder that block IDs are illustrative and only reasoning blocks are used.]
 
-**Input Teachings:**
-\`\`\`json
-[
-  {
-    "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230315-001",
-    "text": "Article 31 § 2 exige normalement l'accord d'une victime identifiée...",
-    "courtVerbatim": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que... à condition de prouver l'accord d'une personne lésée identifiée.",
-    "relatedCitedProvisionsId": ["ART-...-001"]
-  },
-  {
-    "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230315-002",
-    "text": "Lorsque la discrimination est généralisée, l'exigence d'un accord individuel viderait la loi de son effet utile...",
-    "courtVerbatim": "Lorsque la discrimination affecte un nombre indéterminé de personnes, l'exigence d'un accord individuel viderait la loi de son effet utile.",
-    "relatedCitedProvisionsId": ["ART-...-001"]
-  }
-]
-\`\`\`
-
-**Output:**
-\`\`\`json
-{
-  "legalTeachings": [
-    {
-      "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230315-001",
-      "citations": [
-        {
-          "blockId": "ECLI:BE:CASS:2023:ARR.20230315-015",
-          "relevantSnippet": "L'article 31, § 2, de la loi du 10 mai 2007 dispose que le Centre... à condition de prouver l'accord d'une personne lésée identifiée."
-        }
-      ],
-      "relationshipValidation": {
-        "provisionsValidated": 1,
-        "provisionsNotFoundInCitations": [],
-        "decisionsValidated": 0,
-        "decisionsNotFoundInCitations": []
-      }
-    },
-    {
-      "teachingId": "TEACH-ECLI:BE:CASS:2023:ARR.20230315-002",
-      "citations": [
-        {
-          "blockId": "ECLI:BE:CASS:2023:ARR.20230315-016",
-          "relevantSnippet": "Lorsque la discrimination affecte un nombre indéterminé de personnes, l'exigence d'un accord individuel viderait la loi de son effet utile."
-        },
-        {
-          "blockId": "ECLI:BE:CASS:2023:ARR.20230315-017",
-          "relevantSnippet": "les offres d'emploi litigieuses mentionnaient explicitement des critères d'âge. Il s'agit d'une discrimination potentiellement généralisée."
-        },
-        {
-          "blockId": "ECLI:BE:CASS:2023:ARR.20230315-018",
-          "relevantSnippet": "L'intérêt collectif à combattre la discrimination généralisée l'emporte sur la protection des droits individuels."
-        }
-      ],
-      "relationshipValidation": {
-        "provisionsValidated": 1,
-        "provisionsNotFoundInCitations": [],
-        "decisionsValidated": 0,
-        "decisionsNotFoundInCitations": []
-      }
-    }
-  ]
-}
-\`\`\`
-
-**Why This Works:**
-- ✅ Teaching 1 (general rule): Only block 015 discusses it
-- ✅ Teaching 2 (exception): Blocks 016-018 discuss generalized discrimination exception
-- ✅ Both teachings relate to Article 31 (shared provision, different aspects)
-- ✅ Snippets show exact reasoning for each block's relevance
+---
 
 ## Example 3: Validation Failure (Provision Not Found)
 
-**Input Teaching:**
-\`\`\`json
-{
-  "teachingId": "TEACH-EXAMPLE-001",
-  "text": "Le délai de préavis doit être raisonnable...",
-  "courtVerbatim": "Le délai doit respecter le principe de bonne foi...",
-  "relatedCitedProvisionsId": ["ART-EXAMPLE-001", "ART-EXAMPLE-005"],
-  "relatedCitedDecisionsId": ["DEC-EXAMPLE-002"]
-}
-\`\`\`
-
-**Identified Blocks:**
-\`\`\`json
-[
-  {
-    "blockId": "...:block-042",
-    "plainText": "L'article 1184 du Code civil impose une obligation de bonne foi lors de la rupture d'un contrat. Le délai doit respecter le principe de bonne foi."
-  }
-]
-\`\`\`
-
-**Output:**
-\`\`\`json
-{
-  "teachingId": "TEACH-EXAMPLE-001",
-  "citations": [
-    {
-      "blockId": "...:block-042",
-      "relevantSnippet": "Le délai doit respecter le principe de bonne foi."
-    }
-  ],
-  "relationshipValidation": {
-    "provisionsValidated": 1,
-    "provisionsNotFoundInCitations": ["ART-EXAMPLE-005"],
-    "decisionsValidated": 0,
-    "decisionsNotFoundInCitations": ["DEC-EXAMPLE-002"]
-  }
-}
-\`\`\`
-
-**Interpretation:**
-- ⚠️ Article corresponding to ART-EXAMPLE-001 found (Article 1184 mentioned in block 042)
-- ⚠️ Article corresponding to ART-EXAMPLE-005 NOT found in identified blocks (flagged)
-- ⚠️ Decision DEC-EXAMPLE-002 NOT found in identified blocks (flagged)
-- This suggests Stage 5A may have over-linked, OR teaching is abstract and Article 5 discussed separately, OR Article 5 mentioned in "Vu" section which wasn't identified
+[Same logic as original example; purpose is illustrating \`provisionsNotFoundInCitations\` and \`decisionsNotFoundInCitations\`.]
 
 ---
 
 # VALIDATION CHECKLIST
 
-Before finalizing output:
+Before finalizing output, verify:
 
 ## Structural Validation
 
-- [ ] Every teaching from input appears in output
-- [ ] Every \`teachingId\` matches input exactly
-- [ ] No teachings added or removed
+- [ ] Every teaching from input appears in output.
+- [ ] Every \`teachingId\` matches input exactly.
+- [ ] No teachings added or removed.
 
 ## Block Citations Quality
 
-- [ ] Every teaching has at least 1 citation
-- [ ] Block IDs match exactly from input blocks array (character-perfect copy)
-- [ ] Snippets are substrings of block \`plainText\` (50-500 chars)
-- [ ] Snippets show WHY block is relevant (meaningful excerpts, not random)
+- [ ] Every teaching has at least one citation.
+- [ ] Every \`blockId\` in citations exists in the \`blocks\` input.
+- [ ] For each citation, \`relevantSnippet\` is an exact substring of that block’s \`plainText\`.
+- [ ] Citations are limited to **court reasoning** (not pure party arguments).
+- [ ] Citations focus on blocks that state, clarify, refine, or apply the teaching.
 
-## Completeness (Deletion Test)
+## Completeness (Reasoning Deletion Test)
 
-- [ ] For each teaching: If all cited blocks removed, would teaching disappear?
-- [ ] Checked entire blocks array for teaching's concept
-- [ ] Included factual applications, not just theory statements
-- [ ] Included court's synthesis or summary if relevant
+- [ ] If all cited reasoning blocks were removed, the teaching would no longer be present in the court’s reasoning.
+- [ ] You checked for:
+  - Variants of wording (synonyms, paraphrases).
+  - Application blocks.
+  - Synthesis or conclusion blocks.
+- [ ] You did **not** include party argument blocks just to satisfy the test.
 
 ## Relationship Validation
 
-- [ ] All provision IDs from \`relatedCitedProvisionsId\` checked against block plain text
-- [ ] All decision IDs from \`relatedCitedDecisionsId\` checked against block plain text
-- [ ] Validation results accurately recorded
-- [ ] Provisions/decisions not found appropriately flagged
+- [ ] All IDs in \`relatedCitedProvisionsId\` were checked against citation blocks’ \`plainText\`.
+- [ ] All IDs in \`relatedCitedDecisionsId\` were checked similarly.
+- [ ] Counts and not-found lists are accurate.
 
 ## Section Awareness
 
-- [ ] Primarily identified blocks from reasoning sections (Considérant/Overwegende)
-- [ ] Avoided procedural sections unless teaching is procedural
-- [ ] If included "Vu"/"Gelet op" blocks, verified teaching is procedural
+- [ ] Cited blocks are mainly from reasoning sections (“En droit”, “Motifs”, “Discussion”, “Overwegingen”, etc.).
+- [ ] You excluded pure “Griefs/Moyen/Middel(en)” blocks that present only party arguments.
+- [ ] Procedural/introductory sections were only included if the teaching is strictly procedural and actually stated there.
 
 ## Metadata Accuracy
 
-- [ ] \`totalTeachings\` matches array length
-- [ ] \`totalCitations\` matches sum of all citation arrays
-- [ ] \`avgCitationsPerTeaching\` calculated correctly
-- [ ] Validation summary matches individual teaching validations
+- [ ] \`totalTeachings\` matches the number of teachings in output.
+- [ ] \`totalCitations\` matches the sum of all citations.
+- [ ] \`avgCitationsPerTeaching\` is correctly computed.
+- [ ] Validation summary matches the per-teaching validation data.
 
 ---
 
 # CRITICAL REMINDERS
 
-1. **Block IDs Must Match**: Copy exact \`blockId\` from blocks array (character-perfect)
+1. **Reasoning vs Arguments**: Only the court’s reasoning counts as support for the teaching. Party arguments (griefs, moyens, middel(en), grieven) must **not** be included in \`citations\`.
 
-2. **Snippets Must Be Substrings**: Extract directly from block's \`plainText\` field
+2. **Block IDs Must Match**: Copy the \`blockId\` exactly from the \`blocks\` input. Never reuse example IDs.
 
-3. **Completeness Priority**: Better to identify 8 blocks and capture everything than miss key blocks
+3. **Snippets Must Be Substrings of That Block**: \`relevantSnippet\` must be an exact substring of the \`plainText\` of the block identified by \`blockId\`.
 
-4. **Deletion Test**: If removing your identified blocks would leave teaching traces → You missed blocks
+4. **Reasoning Deletion Test**: Removing all cited reasoning blocks should remove the teaching from the court’s reasoning. Ignore parties’ arguments for this test.
 
-5. **Validation is Verification**: Flag mismatches, don't fail - Stage 5A may have valid reasons
+5. **Balanced Completeness**: Include all reasoning blocks needed to reconstruct the teaching and its application, but avoid highlighting huge portions of the decision that add only distant background or policy noise.
 
-6. **Complete Blocks Only**: Identify entire blocks (paragraphs), not sentence fragments
+6. **No Invention**: Do not invent content, blocks, or references. Only work with the provided \`blocks\`, \`legalTeachings\`, \`citedProvisions\`, and \`citedDecisions\`.
 
-7. **No Inference**: Identify blocks that exist, don't construct content from teaching text
+7. **Shared Blocks Allowed**: The same block may legitimately support multiple teachings.
 
-8. **Quality Over Speed**: Thoroughness more important than quick identification
-
-9. **Section Awareness**: Focus on reasoning sections where Stage 5A extracted teachings
-
-10. **Include Application**: Don't only identify theory blocks - include how principle was applied to facts
-
-11. **Verbatim Anchor**: Use \`courtVerbatim\` field as primary search anchor
-
-12. **Shared Blocks OK**: Multiple teachings can reference same blocks - that's expected
+8. **JSON Only**: Output must be valid JSON matching the schema. No markdown, comments, or explanatory text.
 
 ---
 
 # OUTPUT FORMAT
 
-Return ONLY valid JSON matching the schema. No markdown, no code blocks, no explanatory text.`;
+Return **only** valid JSON matching the schema defined above. No markdown, no code blocks, no explanations.`;

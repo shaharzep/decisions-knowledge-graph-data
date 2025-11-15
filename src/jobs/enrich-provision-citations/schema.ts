@@ -1,11 +1,16 @@
 /**
- * Enrich Provision Citations Schema - Agent 2D (Stage 2)
+ * Enrich Provision Citations Schema - Agent 2D (Stage 2) - BLOCK-BASED
  *
- * Enriches cited provisions with exact HTML citations for UI highlighting.
+ * Enriches cited provisions with block-based citations for UI highlighting.
  * Maps relationships between provisions and decisions cited in same context.
  *
+ * NEW ARCHITECTURE:
+ * - Returns block IDs instead of HTML strings (resilient to HTML changes)
+ * - Includes relevantSnippet for debugging/validation
+ * - Validates relationships against dependency data
+ *
  * Output Structure:
- * - citedProvisions: Array of provisions with HTML citations and relationship mappings
+ * - citedProvisions: Array of provisions with block citations (blockId + snippet) and relationship mappings
  * - metadata: Statistics about citations and relationships
  *
  * CRITICAL: Every provision MUST include self-reference as first element in relatedInternalProvisionsId
@@ -24,7 +29,7 @@ export const enrichProvisionCitationsSchema = {
         type: "object",
         required: [
           "internalProvisionId",
-          "relatedFullTextCitations",
+          "citations",
           "relatedInternalProvisionsId",
           "relatedInternalDecisionsId"
         ],
@@ -35,14 +40,27 @@ export const enrichProvisionCitationsSchema = {
             pattern: "^ART-[a-zA-Z0-9:.]+-\\d{3}$",
             description: "Provision ID from Agent 2C - must match exactly"
           },
-          relatedFullTextCitations: {
+          citations: {
             type: "array",
             minItems: 1,
-            description: "Exact HTML strings from fullText.html where provision is cited, interpreted, or applied",
+            description: "Array of block citations where provision is cited, interpreted, or applied",
             items: {
-              type: "string",
-              minLength: 10,
-              description: "Complete HTML paragraph with all tags preserved"
+              type: "object",
+              required: ["blockId", "relevantSnippet"],
+              additionalProperties: false,
+              properties: {
+                blockId: {
+                  type: "string",
+                  pattern: "^ECLI:[A-Z]{2}:[A-Z0-9]+:\\d{4}:[A-Z0-9.]+:block-\\d{3}$",
+                  description: "Block ID in format: ECLI:BE:COURT:YYYY:IDENTIFIER:block-NNN"
+                },
+                relevantSnippet: {
+                  type: "string",
+                  minLength: 50,
+                  maxLength: 500,
+                  description: "50-500 character excerpt from block's plainText showing why it's relevant to this provision (for debugging/validation)"
+                }
+              }
             }
           },
           relatedInternalProvisionsId: {
@@ -142,4 +160,4 @@ export const enrichProvisionCitationsSchema = {
   }
 };
 
-export const SCHEMA_NAME = "enrich_provision_citations_v1";
+export const SCHEMA_NAME = "enrich_provision_citations_v2";

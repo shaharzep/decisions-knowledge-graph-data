@@ -1,13 +1,16 @@
 /**
  * Enrich Provision Citations Job Configuration - Agent 2D (Stage 2)
  *
- * Enriches cited provisions from Agent 2C with exact HTML citations for UI highlighting.
+ * ARCHITECTURE: BLOCK-BASED (v2)
+ *
+ * Enriches cited provisions from Agent 2C with block-based citations for UI highlighting.
  * Maps relationships between provisions and decisions cited in same context.
  *
  * CRITICAL FEATURES:
+ * - Block-based citations: Returns block IDs + snippets instead of HTML strings
  * - Self-reference MANDATORY: Every provision MUST include its own ID as first element
  *   in relatedInternalProvisionsId array
- * - Character-perfect HTML extraction for string.includes() matching in UI
+ * - Robust UI highlighting via CSS selectors: querySelector([data-id="..."])
  * - Provision-to-provision relationship mapping (co-cited, compared, combined)
  * - Provision-to-decision relationship mapping (precedents interpreting provisions)
  * - Comprehensive search: reasoning, procedural, facts, and judgment sections

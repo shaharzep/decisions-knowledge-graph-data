@@ -330,7 +330,7 @@ async function loadDependenciesForRFTC(
   // Dependency mapping per job type
   const depJobs: Record<
     string,
-    { input: string; provisions: string; decisions: string }
+    { input: string; provisions: string; decisions: string; teachings?: string }
   > = {
     'enrich-teaching-citations': {
       input: 'extract-legal-teachings', // Agent 5A
@@ -338,7 +338,8 @@ async function loadDependenciesForRFTC(
       decisions: 'extract-cited-decisions', // Agent 3
     },
     'enrich-provision-citations': {
-      input: 'interpret-provisions', // Agent 2C (self)
+      input: 'interpret-provisions', // Agent 2C (provisions to enrich)
+      teachings: 'extract-legal-teachings', // Agent 5A (for cross-reference)
       provisions: 'interpret-provisions', // Agent 2C (for cross-refs)
       decisions: 'extract-cited-decisions', // Agent 3
     },
@@ -352,15 +353,21 @@ async function loadDependenciesForRFTC(
   }
 
   // Load each dependency
-  const [inputResult, provisionsResult, decisionsResult] = await Promise.all([
+  const [inputResult, provisionsResult, decisionsResult, teachingsResult] = await Promise.all([
     loadLatestJobResult(baseDir, deps.input, decisionId, language),
     loadLatestJobResult(baseDir, deps.provisions, decisionId, language),
     loadLatestJobResult(baseDir, deps.decisions, decisionId, language),
+    deps.teachings ? loadLatestJobResult(baseDir, deps.teachings, decisionId, language) : Promise.resolve(null),
   ]);
 
+  // For teaching citations: inputResult has legalTeachings
+  // For provision citations: inputResult has citedProvisions, teachingsResult has legalTeachings
+  const legalTeachings = inputResult?.legalTeachings || teachingsResult?.legalTeachings || [];
+  const citedProvisionsData = inputResult?.citedProvisions || provisionsResult?.citedProvisions || [];
+
   return {
-    legalTeachingsInput: inputResult?.legalTeachings || [],
-    citedProvisions: provisionsResult?.citedProvisions || [],
+    legalTeachingsInput: legalTeachings,
+    citedProvisions: citedProvisionsData,
     citedDecisions: decisionsResult?.citedDecisions || [],
   };
 }

@@ -2,12 +2,24 @@ import { JobConfig } from "../JobConfig.js";
 import { ENRICH_PROVISION_CITATIONS_PROMPT } from "./prompt.js";
 import { enrichProvisionCitationsSchema, SCHEMA_NAME } from "./schema.js";
 import { TestSetLoader } from "../../utils/testSetLoader.js";
+import { transformDecisionHtml } from "../../utils/htmlTransformer.js";
 
 /**
  * Enrich Provision Citations Job Configuration - Agent 2D (Stage 2)
  *
- * Enriches cited provisions from Agent 2C with exact HTML citations for UI highlighting.
+ * ARCHITECTURE: BLOCK-BASED (v2)
+ *
+ * Enriches cited provisions from Agent 2C with block-based citations for UI highlighting.
  * Maps relationships between provisions and decisions cited in same context.
+ *
+ * CRITICAL FEATURES:
+ * - Block-based citations: Returns block IDs + snippets instead of HTML strings
+ * - Self-reference MANDATORY: Every provision MUST include its own ID as first element
+ *   in relatedInternalProvisionsId array
+ * - Robust UI highlighting via CSS selectors: querySelector([data-id="..."])
+ * - Provision-to-provision relationship mapping (co-cited, compared, combined)
+ * - Provision-to-decision relationship mapping (precedents interpreting provisions)
+ * - Comprehensive search: reasoning, procedural, facts, and judgment sections
  *
  * DEPENDENCIES (all required):
  * - interpret-provisions (Agent 2C): Source of provisions to enrich
@@ -19,7 +31,6 @@ import { TestSetLoader } from "../../utils/testSetLoader.js";
  * EXECUTION MODE: Evaluation mode on 197-decision test set (not full-data pipeline)
  *
  * SKIP LOGIC: If ANY of the 3 dependencies is missing, row cannot be processed
- * (dependency enrichment will fail validation)
  */
 
 const config: JobConfig = {
@@ -117,7 +128,7 @@ const config: JobConfig = {
   })(),
 
   /**
-   * Preprocessing: Check dependencies and skip if any missing
+   * Preprocessing: Check dependencies, transform HTML to blocks
    *
    * DependencyResolver loads and attaches dependencies to row:
    * - row.agent2c.citedProvisions
@@ -126,6 +137,9 @@ const config: JobConfig = {
    *
    * We explicitly check if ANY dependency is missing and skip the row
    * to avoid wasting API calls on incomplete data.
+   *
+   * Then we transform HTML to add stable data-id attributes and extract
+   * block metadata for LLM processing.
    */
   preprocessRow: async (row: any) => {
     // Check if all 3 required dependencies are present
@@ -145,8 +159,19 @@ const config: JobConfig = {
       return null; // Skip this row
     }
 
-    // All dependencies present - proceed with processing
-    return row;
+    // Transform HTML to add block IDs and extract metadata
+    const { transformedHtml, blocks } = transformDecisionHtml(
+      row.decision_id,
+      row.full_html
+    );
+
+    // Enrich row with blocks data
+    return {
+      ...row,
+      transformed_html: transformedHtml,
+      blocks: blocks,
+      blocks_json: JSON.stringify(blocks, null, 2)
+    };
   },
 
   /**
@@ -166,7 +191,7 @@ const config: JobConfig = {
    * Injects 6 variables into prompt template:
    * 1. {decisionId} - ECLI identifier
    * 2. {proceduralLanguage} - FR or NL
-   * 3. {fullText.html} - HTML from decision_fulltext1
+   * 3. {blocks} - JSON array of block metadata (NEW: replaces {fullText.html})
    * 4. {citedProvisions} - JSON array from Agent 2C
    * 5. {legalTeachings} - JSON array from Agent 5A
    * 6. {citedDecisions} - JSON array from Agent 3
@@ -178,7 +203,7 @@ const config: JobConfig = {
     return ENRICH_PROVISION_CITATIONS_PROMPT
       .replace("{decisionId}", row.decision_id || "")
       .replace("{proceduralLanguage}", row.language_metadata || "FR")
-      .replace("{fullText.html}", row.full_html || "")
+      .replace("{blocks}", row.blocks_json || "[]")
       .replace("{citedProvisions}", JSON.stringify(row.agent2c?.citedProvisions || [], null, 2))
       .replace("{legalTeachings}", JSON.stringify(row.agent5a?.legalTeachings || [], null, 2))
       .replace("{citedDecisions}", JSON.stringify(row.agent3?.citedDecisions || [], null, 2));
@@ -188,7 +213,7 @@ const config: JobConfig = {
    * Output JSON Schema
    *
    * Validates:
-   * - citedProvisions: Array with internalProvisionId, relatedFullTextCitations, relationship mappings
+   * - citedProvisions: Array with internalProvisionId, citations (blockId + snippet), relationship mappings
    * - metadata: Statistics about citations and relationship mappings
    */
   outputSchema: enrichProvisionCitationsSchema,
@@ -204,7 +229,7 @@ const config: JobConfig = {
    * Using gpt-5-mini with MEDIUM reasoning effort for citation extraction.
    * This is a complex task requiring:
    * - Semantic understanding of legal concepts
-   * - Character-perfect HTML extraction
+   * - Block search and identification across document structure
    * - Relationship mapping logic
    */
   provider: "openai",
