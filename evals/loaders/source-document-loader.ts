@@ -9,7 +9,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import pLimit from 'p-limit';
 import { DatabaseConfig } from '../../src/config/database.js';
-import { transformDecisionHtml } from '../../src/utils/htmlTransformer.js';
+import { generateBlocksFromMarkdown } from '../../src/utils/markdownToHtml.js';
 import { RFTCSourceData } from '../types.js';
 
 /**
@@ -242,13 +242,13 @@ const rftcDocumentCache = new Map<string, RFTCSourceData>();
 /**
  * Load source document for RFTC evaluation
  *
- * Returns transformed HTML (with data-id attributes) + dependencies
- * instead of markdown. Used for evaluating block-based citation jobs.
+ * Generates blocks from markdown (load → pandoc → transform) + dependencies.
+ * Used for evaluating block-based citation jobs.
  *
  * @param decisionId - ECLI identifier
  * @param language - Procedural language (FR or NL)
  * @param jobType - RFTC job type ('enrich-teaching-citations' or 'enrich-provision-citations')
- * @returns Transformed HTML + dependencies
+ * @returns Blocks + dependencies
  */
 export async function loadSourceDocumentForRFTC(
   decisionId: string,
@@ -262,32 +262,26 @@ export async function loadSourceDocumentForRFTC(
     return rftcDocumentCache.get(cacheKey)!;
   }
 
-  // 1. Load HTML from decision_fulltext1
-  const htmlQuery = `
-    SELECT df.full_html, d.url_official_publication
+  // 1. Get URL for metadata (optional)
+  const urlQuery = `
+    SELECT d.url_official_publication
     FROM decisions1 d
-    INNER JOIN decision_fulltext1 df ON df.decision_id = d.id
     WHERE d.decision_id = $1 AND d.language_metadata = $2
     LIMIT 1
   `;
 
-  const rows: any = await DatabaseConfig.executeReadOnlyQuery(htmlQuery, [
+  const rows: any = await DatabaseConfig.executeReadOnlyQuery(urlQuery, [
     decisionId,
     language,
   ]);
 
-  if (!rows || rows.length === 0) {
-    throw new Error(`HTML not found for ${decisionId} (${language})`);
-  }
+  const url_official_publication = rows?.[0]?.url_official_publication;
 
-  const { full_html, url_official_publication } = rows[0];
-
-  if (!full_html || full_html.trim() === '') {
-    throw new Error(`HTML is empty for ${decisionId} (${language})`);
-  }
-
-  // 2. Transform HTML to add data-id attributes
-  const { transformedHtml, blocks } = transformDecisionHtml(decisionId, full_html);
+  // 2. Generate blocks from markdown (load markdown → convert to HTML → transform to blocks)
+  const { blocks } = await generateBlocksFromMarkdown(
+    decisionId,
+    language
+  );
 
   // 3. Load dependencies
   const dependencies = await loadDependenciesForRFTC(
@@ -297,7 +291,7 @@ export async function loadSourceDocumentForRFTC(
   );
 
   const result: RFTCSourceData = {
-    transformedHtml,
+    transformedHtml: '',  // No longer needed by eval prompts (using blocks only)
     blocks,
     dependencies,
     url: url_official_publication || undefined,

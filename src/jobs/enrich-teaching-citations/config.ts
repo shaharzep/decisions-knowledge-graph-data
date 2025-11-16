@@ -2,7 +2,7 @@ import { JobConfig } from "../JobConfig.js";
 import { ENRICH_TEACHING_CITATIONS_PROMPT } from "./prompt.js";
 import { enrichTeachingCitationsSchema, SCHEMA_NAME } from "./schema.js";
 import { TestSetLoader } from "../../utils/testSetLoader.js";
-import { transformDecisionHtml } from "../../utils/htmlTransformer.js";
+import { generateBlocksFromMarkdown } from "../../utils/markdownToHtml.js";
 
 /**
  * Enrich Teaching Citations Job Configuration - Agent 5B (Stage 2) - BLOCK-BASED
@@ -10,8 +10,10 @@ import { transformDecisionHtml } from "../../utils/htmlTransformer.js";
  * Enriches legal teachings from Agent 5A with block-based citations for UI highlighting.
  * Validates that claimed provision/decision relationships exist in extracted blocks.
  *
- * NEW ARCHITECTURE:
- * - Transforms HTML to add data-id attributes to blocks
+ * ARCHITECTURE:
+ * - Loads markdown from decisions_md.full_md
+ * - Converts markdown → HTML using pandoc
+ * - Transforms HTML → blocks with data-id attributes
  * - Returns block IDs instead of HTML strings (resilient to HTML changes)
  * - Includes relevantSnippet for debugging/validation
  * - LLM searches blocks array (plain text) instead of full HTML
@@ -21,7 +23,7 @@ import { transformDecisionHtml } from "../../utils/htmlTransformer.js";
  * - interpret-provisions (Agent 2C): Provisions for validation
  * - extract-cited-decisions (Agent 3): Decisions for validation
  *
- * HTML SOURCE: decision_fulltext1.full_html (database column, NOT from job)
+ * MARKDOWN SOURCE: decisions_md.full_md (converted to HTML via pandoc)
  *
  * EXECUTION MODE: Evaluation mode on 197-decision test set (not full-data pipeline)
  *
@@ -150,18 +152,17 @@ const config: JobConfig = {
       return null; // Skip this row
     }
 
-    // Transform HTML and generate blocks
-    const { transformedHtml, blocks } = transformDecisionHtml(
+    // Generate blocks from markdown (load markdown → convert to HTML → transform to blocks)
+    const { blocks, blocksJson } = await generateBlocksFromMarkdown(
       row.decision_id,
-      row.full_html
+      row.language_metadata
     );
 
-    // All dependencies present and HTML transformed - proceed with processing
+    // All dependencies present and blocks generated - proceed with processing
     return {
       ...row,
-      transformed_html: transformedHtml,  // HTML with data-id attributes
       blocks: blocks,                     // Array of block metadata
-      blocks_json: JSON.stringify(blocks, null, 2)  // For prompt injection
+      blocks_json: blocksJson              // JSON string for prompt injection
     };
   },
 

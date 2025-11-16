@@ -2,7 +2,7 @@ import { JobConfig } from "../JobConfig.js";
 import { ENRICH_PROVISION_CITATIONS_PROMPT } from "./prompt.js";
 import { enrichProvisionCitationsSchema, SCHEMA_NAME } from "./schema.js";
 import { TestSetLoader } from "../../utils/testSetLoader.js";
-import { transformDecisionHtml } from "../../utils/htmlTransformer.js";
+import { generateBlocksFromMarkdown } from "../../utils/markdownToHtml.js";
 
 /**
  * Enrich Provision Citations Job Configuration - Agent 2D (Stage 2)
@@ -26,7 +26,7 @@ import { transformDecisionHtml } from "../../utils/htmlTransformer.js";
  * - extract-legal-teachings (Agent 5A): Teachings for cross-reference
  * - extract-cited-decisions (Agent 3): Decisions for relationship mapping
  *
- * HTML SOURCE: decision_fulltext1.full_html (database column, NOT from job)
+ * MARKDOWN SOURCE: decisions_md.full_md (converted to HTML via pandoc)
  *
  * EXECUTION MODE: Evaluation mode on 197-decision test set (not full-data pipeline)
  *
@@ -138,8 +138,8 @@ const config: JobConfig = {
    * We explicitly check if ANY dependency is missing and skip the row
    * to avoid wasting API calls on incomplete data.
    *
-   * Then we transform HTML to add stable data-id attributes and extract
-   * block metadata for LLM processing.
+   * Then we generate blocks from markdown (load → pandoc → transform)
+   * to create block metadata with stable data-id attributes for LLM processing.
    */
   preprocessRow: async (row: any) => {
     // Check if all 3 required dependencies are present
@@ -159,18 +159,17 @@ const config: JobConfig = {
       return null; // Skip this row
     }
 
-    // Transform HTML to add block IDs and extract metadata
-    const { transformedHtml, blocks } = transformDecisionHtml(
+    // Generate blocks from markdown (load markdown → convert to HTML → transform to blocks)
+    const { blocks, blocksJson } = await generateBlocksFromMarkdown(
       row.decision_id,
-      row.full_html
+      row.language_metadata
     );
 
     // Enrich row with blocks data
     return {
       ...row,
-      transformed_html: transformedHtml,
       blocks: blocks,
-      blocks_json: JSON.stringify(blocks, null, 2)
+      blocks_json: blocksJson
     };
   },
 
