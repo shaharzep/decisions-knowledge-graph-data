@@ -12,8 +12,7 @@ You will receive:
 3. **Decision ID**: Unique identifier for the decision
 4. **Cited Provisions (Input)**: Provisions from Stages 2A-2C (input to Stage 2D)
 5. **Stage 2D Output**: Provisions enriched with block citations and relationships
-6. **Legal Teachings**: For cross-reference (optional)
-7. **Cited Decisions**: For relationship verification
+6. **Cited Decisions**: For relationship verification
 
 Your job: Verify Stage 2D correctly identified ALL relevant blocks in the court's reasoning for each provision, with accurate block IDs, meaningful snippets, and correct relationship discovery.
 
@@ -216,7 +215,7 @@ Accuracy rate = (citations_valid / citations_tested) × 100
 1. **Understand the provision**
    - Note \`provisionNumber\` (e.g., "article 31, § 2")
    - Note \`parentActName\`
-   - This is a concrete article number (easier to search than abstract teaching)
+   - This is a concrete article number
 
 2. **Build search patterns**
    - French: "article 31", "l'article 31", "art. 31", "art 31"
@@ -603,14 +602,14 @@ Maximum score: 100
 
 ---
 
-### Score 0-49: Critical Failure (Blocker → REVIEW_SAMPLES)
+### Score 0-49: Critical Failure (Blocker → FIX_PROMPT)
 
 - ❌ Structural integrity failure OR
 - ❌ Self-reference <75% compliant OR
 - ❌ Block ID accuracy <70% OR
 - ❌ Completeness <50%
 
-**Recommendation**: REVIEW_SAMPLES (fundamental failure, manual review required)
+**Recommendation**: FIX_PROMPT (fundamental failure, do not deploy)
 
 ---
 
@@ -786,7 +785,10 @@ Maximum score: 100
 **REVIEW_SAMPLES** (Manual Inspection Required):
 - Score 50-64 AND verdict = REVIEW_REQUIRED
 - Unclear if issues are systematic or sample-specific
-- OR Score <50 OR verdict = FAIL (critical issues present)
+
+**FIX_PROMPT** (Do Not Deploy):
+- Score <50 OR verdict = FAIL
+- Critical issues present
 
 ---
 

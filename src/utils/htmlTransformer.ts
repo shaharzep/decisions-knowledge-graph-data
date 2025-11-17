@@ -145,3 +145,44 @@ export function transformDecisionHtml(
     totalBlocks: blocks.length
   };
 }
+
+/**
+ * Extract blocks from HTML that already has data-id attributes
+ *
+ * This function is used when HTML has been pre-transformed (e.g., from decision_fulltext1.full_html).
+ * Unlike transformDecisionHtml, this function:
+ * 1. Does NOT add new data-id attributes
+ * 2. Reads existing data-id attributes from HTML
+ * 3. Extracts block metadata only
+ *
+ * @param transformedHtml - HTML with existing data-id attributes
+ * @returns Array of block metadata
+ *
+ * @example
+ * const blocks = extractBlocksFromTransformedHtml(
+ *   '<p data-id="ECLI:BE:CASS:2024:ARR.001:block-001">Court reasoning...</p>'
+ * );
+ * // blocks = [{ blockId: "...:block-001", plainText: "Court reasoning...", ... }]
+ */
+export function extractBlocksFromTransformedHtml(transformedHtml: string): Block[] {
+  const $ = cheerio.load(transformedHtml);
+  const blocks: Block[] = [];
+
+  // Select all elements with data-id attribute
+  $('[data-id]').each((_, element) => {
+    const $el = $(element);
+    const blockId = $el.attr('data-id');
+    const plainText = $el.text().trim();
+
+    // Skip elements without valid data-id or empty text
+    if (!blockId || !plainText || plainText.length === 0) {
+      return;
+    }
+
+    // Build block metadata using existing blockId
+    const block = extractBlockMetadata($el, blockId);
+    blocks.push(block);
+  });
+
+  return blocks;
+}

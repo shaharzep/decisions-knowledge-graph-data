@@ -21,6 +21,7 @@ import { transformDecisionHtml, Block } from './htmlTransformer.js';
 export interface BlocksResult {
   blocks: Block[];
   blocksJson: string;
+  transformedHtml: string;  // HTML with data-id attributes
 }
 
 /**
@@ -183,12 +184,13 @@ export async function generateBlocksFromMarkdown(
     const html = await convertMarkdownToHtml(markdown);
 
     // Step 3: Transform HTML to blocks
-    const { blocks } = transformDecisionHtml(decisionId, html);
+    const { blocks, transformedHtml } = transformDecisionHtml(decisionId, html);
 
     // Step 4: Prepare result
     const result: BlocksResult = {
       blocks,
-      blocksJson: JSON.stringify(blocks, null, 2)
+      blocksJson: JSON.stringify(blocks, null, 2),
+      transformedHtml
     };
 
     // Step 5: Cache the result

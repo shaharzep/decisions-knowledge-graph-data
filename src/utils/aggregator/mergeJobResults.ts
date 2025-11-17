@@ -284,6 +284,9 @@ function mergeDecisions(completeKeys: Set<string>, jobResults: JobLoadResult[]):
             (merged as any).currentInstance = cleanedData.currentInstance;
           }
           // Don't assign comprehensive field itself
+        } else if (outputField === 'extractedReferences') {
+          // Special handling for extractedReferences - extract to top level
+          (merged as any).extractedReferences = cleanedData;
         } else {
           (merged as any)[outputField] = cleanedData;
         }
@@ -342,6 +345,10 @@ function cleanJobData(jobData: any, outputField: string): any {
     case 'microSummary':
       // Extract nested microSummary string
       return jobData.microSummary || jobData;
+
+    case 'extractedReferences':
+      // Extract extractedReferences array from Agent 2B
+      return jobData.extractedReferences || jobData;
 
     case 'relatedCitationsLegalProvisions':
       // Remove metadata from top level and relationshipValidation from each provision

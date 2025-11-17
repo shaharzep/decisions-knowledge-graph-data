@@ -9,7 +9,6 @@ import { JobMapping } from './types.js';
  *
  * EXCLUDES:
  * - extract-provisions-2a (data included in interpret-provisions)
- * - enrich-provisions (data included in interpret-provisions)
  */
 export const JOB_MAPPINGS: JobMapping[] = [
   {
@@ -18,9 +17,14 @@ export const JOB_MAPPINGS: JobMapping[] = [
     description: 'Stage 1: Parties, facts, arguments, court order'
   },
   {
+    jobId: 'enrich-provisions',
+    outputField: 'extractedReferences',
+    description: 'Agent 2B: Regex-extracted provision references'
+  },
+  {
     jobId: 'interpret-provisions',
     outputField: 'citedProvisions',
-    description: 'Stage 2C: Provisions with interpretation (includes 2A+2B data)'
+    description: 'Stage 2C: Provisions with interpretation (includes 2A data)'
   },
   {
     jobId: 'extract-cited-decisions',

@@ -74,6 +74,7 @@ export interface AggregatedDecision {
   citationReference?: any;
   parties?: any;
   currentInstance?: any;
+  extractedReferences?: any;  // From Agent 2B (enrich-provisions)
   citedProvisions?: any;
   citedDecisions?: any;
   customKeywords?: any;

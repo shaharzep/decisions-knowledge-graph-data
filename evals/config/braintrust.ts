@@ -120,12 +120,24 @@ export function logEvaluation(
 
   // Add RFTC-specific data for block-based citation jobs (for review in Braintrust)
   if (input.rftcData) {
-    // Include full legal teachings from Stage 5A input (not just IDs)
-    const legalTeachings = input.rftcData.dependencies?.legalTeachingsInput || [];
+    // Include transformed HTML (full HTML with data-id attributes)
+    braintrustInput.transformed_html = input.rftcData.transformedHtml || '';
 
-    braintrustInput.transformed_html = input.rftcData.transformedHtml;
+    // Include decision blocks (transformed HTML as blocks)
+    braintrustInput.blocks = input.rftcData.blocks || [];
+    braintrustInput.blocks_count = input.rftcData.blocks?.length || 0;
+
+    // Include dependencies for citation jobs
+    const legalTeachings = input.rftcData.dependencies?.legalTeachingsInput || [];
+    const citedProvisions = input.rftcData.dependencies?.citedProvisions || [];
+    const citedDecisions = input.rftcData.dependencies?.citedDecisions || [];
+
     braintrustInput.legal_teachings = legalTeachings;  // Full teaching objects
     braintrustInput.legal_teachings_count = legalTeachings.length;
+    braintrustInput.cited_provisions = citedProvisions;  // Full provision objects
+    braintrustInput.cited_provisions_count = citedProvisions.length;
+    braintrustInput.cited_decisions = citedDecisions;  // Full decision objects
+    braintrustInput.cited_decisions_count = citedDecisions.length;
   }
 
   experiment.log({

@@ -12,14 +12,16 @@ import { generateBlocksFromMarkdown } from "../../utils/markdownToHtml.js";
  * Enriches cited provisions from Agent 2C with block-based citations for UI highlighting.
  * Maps relationships between provisions and decisions cited in same context.
  *
- * CRITICAL FEATURES:
+ * CRITICAL FEATURES (v2.0):
  * - Block-based citations: Returns block IDs + snippets instead of HTML strings
- * - Self-reference MANDATORY: Every provision MUST include its own ID as first element
- *   in relatedInternalProvisionsId array
+ * - Comprehensive extraction: All section types (formal basis, party arguments, reasoning)
+ * - Rich metadata tagging: citationType, relevanceScore, confidence, sectionType, courtResponse
+ * - NO self-references: Relationships exclude the provision itself (v2.0 removed this)
  * - Robust UI highlighting via CSS selectors: querySelector([data-id="..."])
+ * - Complex relationship objects: With co-occurrence counts and relationship sources
  * - Provision-to-provision relationship mapping (co-cited, compared, combined)
  * - Provision-to-decision relationship mapping (precedents interpreting provisions)
- * - Comprehensive search: reasoning, procedural, facts, and judgment sections
+ * - Comprehensive search: reasoning, procedural, facts, judgment, formal basis, party arguments
  *
  * DEPENDENCIES (all required):
  * - interpret-provisions (Agent 2C): Source of provisions to enrich
@@ -234,7 +236,7 @@ const config: JobConfig = {
   provider: "openai",
   openaiProvider: "azure",
   model: "gpt-5-mini",
-  maxCompletionTokens: 128000,
+  maxCompletionTokens: 64000,
   reasoningEffort: "medium",
   verbosity: "low",
 
@@ -243,7 +245,7 @@ const config: JobConfig = {
    *
    * Standard concurrency for evaluation runs on test set.
    */
-  concurrencyLimit: 200,
+  concurrencyLimit: 300,
 
   /**
    * Evaluation Mode (NOT full-data pipeline)

@@ -1,19 +1,19 @@
 /**
- * Enrich Provision Citations Schema - Agent 2D (Stage 2) - BLOCK-BASED
+ * Enrich Provision Citations Schema - Agent 2D (Stage 4) - BLOCK-BASED
  *
  * Enriches cited provisions with block-based citations for UI highlighting.
- * Maps relationships between provisions and decisions cited in same context.
+ * Maps simple relationships between provisions and decisions cited in same reasoning blocks.
  *
- * NEW ARCHITECTURE:
- * - Returns block IDs instead of HTML strings (resilient to HTML changes)
- * - Includes relevantSnippet for debugging/validation
- * - Validates relationships against dependency data
+ * SIMPLIFIED ARCHITECTURE (Stage 4):
+ * - Focus on court's reasoning blocks only (exclude party arguments and Vu/Gelet op)
+ * - Simple citation objects: blockId + relevantSnippet only (no complex metadata)
+ * - Simple relationship arrays: provision/decision IDs (no co-occurrence counts or sources)
+ * - MANDATORY self-reference: First element of relatedInternalProvisionsId must be provision's own ID
+ * - Simple metadata with section distribution tracking
  *
  * Output Structure:
- * - citedProvisions: Array of provisions with block citations (blockId + snippet) and relationship mappings
- * - metadata: Statistics about citations and relationships
- *
- * CRITICAL: Every provision MUST include self-reference as first element in relatedInternalProvisionsId
+ * - citedProvisions: Array of provisions with simple block citations and relationship arrays
+ * - metadata: Basic statistics and section distribution
  */
 
 export const enrichProvisionCitationsSchema = {
@@ -24,7 +24,7 @@ export const enrichProvisionCitationsSchema = {
     citedProvisions: {
       type: "array",
       minItems: 0,
-      description: "Array of enriched provisions with citations and relationships (can be 0 if no provisions in input)",
+      description: "Array of enriched provisions with block citations and relationships (can be 0 if no provisions in input)",
       items: {
         type: "object",
         required: [
@@ -42,11 +42,14 @@ export const enrichProvisionCitationsSchema = {
           },
           citations: {
             type: "array",
-            minItems: 1,
-            description: "Array of block citations where provision is cited, interpreted, or applied",
+            minItems: 0,
+            description: "Array of block citations where provision appears in court's reasoning (can be 0 if provision not substantively discussed)",
             items: {
               type: "object",
-              required: ["blockId", "relevantSnippet"],
+              required: [
+                "blockId",
+                "relevantSnippet"
+              ],
               additionalProperties: false,
               properties: {
                 blockId: {
@@ -56,9 +59,8 @@ export const enrichProvisionCitationsSchema = {
                 },
                 relevantSnippet: {
                   type: "string",
-                  minLength: 50,
-                  maxLength: 500,
-                  description: "50-500 character excerpt from block's plainText showing why it's relevant to this provision (for debugging/validation)"
+                  minLength: 1,
+                  description: "Excerpt from block's plainText showing why it's relevant (no strict length limit, extract what's meaningful)"
                 }
               }
             }
@@ -66,7 +68,7 @@ export const enrichProvisionCitationsSchema = {
           relatedInternalProvisionsId: {
             type: "array",
             minItems: 1,
-            description: "Provision IDs discussed in same context - MUST include self-reference as first element",
+            description: "CRITICAL: First element MUST be provision's own ID (self-reference). Then other provisions discussed in same blocks. Deduplicated.",
             items: {
               type: "string",
               pattern: "^ART-[a-zA-Z0-9:.]+-\\d{3}$"
@@ -74,7 +76,8 @@ export const enrichProvisionCitationsSchema = {
           },
           relatedInternalDecisionsId: {
             type: "array",
-            description: "Decision IDs cited when interpreting this provision (can be empty)",
+            minItems: 0,
+            description: "Decision IDs discussed in same blocks as this provision. Can be empty. Deduplicated.",
             items: {
               type: "string",
               pattern: "^DEC-[a-zA-Z0-9:.]+-\\d{3}$"
@@ -88,7 +91,9 @@ export const enrichProvisionCitationsSchema = {
       required: [
         "totalProvisions",
         "citationStatistics",
-        "relationshipStatistics"
+        "relationshipStatistics",
+        "sectionDistribution",
+        "extractionNotes"
       ],
       additionalProperties: false,
       properties: {
@@ -102,7 +107,6 @@ export const enrichProvisionCitationsSchema = {
           required: [
             "totalCitations",
             "avgCitationsPerProvision",
-            "provisionsWithMinimalCitations",
             "provisionsWithNoCitations"
           ],
           additionalProperties: false,
@@ -110,22 +114,17 @@ export const enrichProvisionCitationsSchema = {
             totalCitations: {
               type: "integer",
               minimum: 0,
-              description: "Total HTML citations extracted across all provisions"
+              description: "Total citations extracted across all provisions"
             },
             avgCitationsPerProvision: {
               type: "number",
               minimum: 0,
               description: "Average number of citations per provision"
             },
-            provisionsWithMinimalCitations: {
-              type: "integer",
-              minimum: 0,
-              description: "Count of provisions with 1-2 citations (may need review)"
-            },
             provisionsWithNoCitations: {
               type: "integer",
               minimum: 0,
-              description: "Count of provisions with 0 citations (error condition)"
+              description: "Count of provisions with zero citations (correct if provision only in Vu/Gelet op or party arguments)"
             }
           }
         },
@@ -133,26 +132,65 @@ export const enrichProvisionCitationsSchema = {
           type: "object",
           required: [
             "avgProvisionsPerProvision",
-            "avgDecisionsPerProvision",
-            "provisionsWithNoRelationships"
+            "avgDecisionsPerProvision"
           ],
           additionalProperties: false,
           properties: {
             avgProvisionsPerProvision: {
               type: "number",
               minimum: 1.0,
-              description: "Average provisions per provision (minimum 1.0 due to self-reference)"
+              description: "Average related provisions per provision (MUST be >= 1.0 due to mandatory self-reference)"
             },
             avgDecisionsPerProvision: {
               type: "number",
               minimum: 0,
-              description: "Average decisions per provision"
-            },
-            provisionsWithNoRelationships: {
+              description: "Average related decisions per provision"
+            }
+          }
+        },
+        sectionDistribution: {
+          type: "object",
+          required: [
+            "reasoningBlocks",
+            "partyArgumentBlocks",
+            "vuGeletOpBlocks",
+            "factsBlocks",
+            "judgmentBlocks"
+          ],
+          additionalProperties: false,
+          properties: {
+            reasoningBlocks: {
               type: "integer",
               minimum: 0,
-              description: "Count of provisions with only self-reference (no other relationships)"
+              description: "Count of citations from court's reasoning sections"
+            },
+            partyArgumentBlocks: {
+              type: "integer",
+              minimum: 0,
+              description: "Count of citations from party argument sections (should be 0 - party arguments must be excluded)"
+            },
+            vuGeletOpBlocks: {
+              type: "integer",
+              minimum: 0,
+              description: "Count of citations from Vu/Gelet op sections (should be 0 or very low - formal citations should generally be excluded)"
+            },
+            factsBlocks: {
+              type: "integer",
+              minimum: 0,
+              description: "Count of citations from factual background sections"
+            },
+            judgmentBlocks: {
+              type: "integer",
+              minimum: 0,
+              description: "Count of citations from judgment/operative sections"
             }
+          }
+        },
+        extractionNotes: {
+          type: "array",
+          description: "Optional notes about extraction quality or issues",
+          items: {
+            type: "string"
           }
         }
       }

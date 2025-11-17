@@ -278,7 +278,7 @@ export async function loadSourceDocumentForRFTC(
   const url_official_publication = rows?.[0]?.url_official_publication;
 
   // 2. Generate blocks from markdown (load markdown → convert to HTML → transform to blocks)
-  const { blocks } = await generateBlocksFromMarkdown(
+  const { blocks, transformedHtml } = await generateBlocksFromMarkdown(
     decisionId,
     language
   );
@@ -291,7 +291,7 @@ export async function loadSourceDocumentForRFTC(
   );
 
   const result: RFTCSourceData = {
-    transformedHtml: '',  // No longer needed by eval prompts (using blocks only)
+    transformedHtml,  // HTML with data-id attributes for Braintrust review
     blocks,
     dependencies,
     url: url_official_publication || undefined,

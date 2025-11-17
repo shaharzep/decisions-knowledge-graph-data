@@ -82,7 +82,8 @@ Examples:
 
 Jobs Merged:
   - extract-comprehensive (Stage 1)
-  - interpret-provisions (Stage 2C, includes 2A+2B)
+  - enrich-provisions (Agent 2B - extractedReferences)
+  - interpret-provisions (Stage 2C, includes 2A)
   - extract-cited-decisions (Stage 3)
   - extract-keywords (Stage 4)
   - extract-legal-teachings (Stage 5A)

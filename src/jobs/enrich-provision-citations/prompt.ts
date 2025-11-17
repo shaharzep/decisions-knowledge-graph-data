@@ -27,14 +27,14 @@ For each cited provision extracted in Stages 2A-2C:
 
 Your output will be used as:
 
-\`\`\`javascript
+\\\`\\\`\\\`javascript
 // Lawyer clicks provision in sidebar
 provision.citations.forEach(citation => {
-  const block = document.querySelector(\`[data-id="\${citation.blockId}"]\`);
+  const block = document.querySelector(\\\`[data-id="\${citation.blockId}"]\\\`);
   block.classList.add('highlight');  // Highlight this block
   block.scrollIntoView();            // Scroll to it
 });
-\`\`\`
+\\\`\\\`\\\`
 
 **Interpretation of this UX:**
 
@@ -201,8 +201,7 @@ You will receive:
      ]
      \`\`\`
 4. **Cited Provisions from Stages 2A-2C**: \`{citedProvisions}\` (Array with \`internalProvisionId\`, \`provisionNumber\`, \`parentActName\`, etc.)
-5. **Legal Teachings**: \`{legalTeachings}\` (Optional, for cross-reference)
-6. **Cited Decisions**: \`{citedDecisions}\` (For relationship discovery)
+5. **Cited Decisions**: \`{citedDecisions}\` (For relationship discovery)
 
 **IMPORTANT**: The decision's full text is provided as blocks (item 3). You must search these blocks to find where each provision is discussed in the **court's reasoning**.
 
@@ -336,19 +335,19 @@ For each **eligible** block:
    **Examples:**
 
    ✅ **Good snippet** (shows interpretation):
-   \`\`\`
+\\\`\\\`\\\`
    "L'article 31, § 2, impose la preuve de l'accord d'une personne lésée identifiée. Toutefois, cette exigence doit être interprétée à la lumière de l'objectif général de la loi."
-   \`\`\`
+\\\`\\\`\\\`
 
    ✅ **Good snippet** (shows application):
-   \`\`\`
+\\\`\\\`\\\`
    "En l'espèce, l'article 31 ne fait pas obstacle à la demande du Centre, dès lors que la discrimination affecte un nombre indéterminé de personnes."
-   \`\`\`
+\\\`\\\`\\\`
 
    ❌ **Poor snippet** (too vague):
-   \`\`\`
+\\\`\\\`\\\`
    "La Cour considère..."
-   \`\`\`
+\\\`\\\`\\\`
 
 3. **Consistency Check (per citation)**
 
