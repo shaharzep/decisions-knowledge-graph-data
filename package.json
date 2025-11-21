@@ -7,6 +7,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/cli.ts",
+    "dev:highmem": "node --max-old-space-size=8192 node_modules/.bin/tsx src/cli.ts",
     "start": "node dist/cli.js",
     "test-decision": "tsx test-decision.ts",
     "lint": "eslint src --ext .ts",
@@ -18,7 +19,11 @@
     "analyze-results": "tsx evals/analyze-cli.ts",
     "analyze-full-data": "tsx scripts/analyze-full-data.ts",
     "analyze:citations": "tsx src/scripts/analyze-cited-decisions.ts",
-    "merge:results": "tsx src/cli/merge-results.ts"
+    "merge:results": "tsx src/cli/merge-results.ts",
+    "merge:html-jsons": "tsx scripts/merge-html-jsons.ts",
+    "clean:html-jsons": "tsx scripts/clean-html-jsons.ts",
+    "clean:html-wrappers": "tsx scripts/clean-html-wrapper-tags.ts",
+    "resume:html": "tsx scripts/resume-html-conversion.ts"
   },
   "keywords": [
     "legal",

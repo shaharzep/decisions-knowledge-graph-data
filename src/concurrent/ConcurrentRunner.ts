@@ -429,9 +429,9 @@ export class ConcurrentRunner {
       results.push(...batchResults);
 
       // Add delay between batches to avoid rate limits (skip on last batch)
-      if (batchStart + batchSize < decisions.length) {
-        await new Promise((resolve) => setTimeout(resolve, 500)); // 500ms between batches
-      }
+      // if (batchStart + batchSize < decisions.length) {
+      //   await new Promise((resolve) => setTimeout(resolve, 500)); // 500ms between batches
+      // }
     }
 
     return results;
