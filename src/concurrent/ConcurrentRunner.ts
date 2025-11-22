@@ -7,6 +7,7 @@ import { ClaudeConcurrentClient, CompletionSettings as ClaudeCompletionSettings 
 import { ConcurrentProcessor, ProcessedResult } from './ConcurrentProcessor.js';
 import { extractJsonFromResponse } from '../utils/validators.js';
 import { DependencyResolver } from '../core/DependencyResolver.js';
+import pLimit from 'p-limit';
 
 // Union type for completion settings
 type CompletionSettings = OpenAICompletionSettings | ClaudeCompletionSettings;
@@ -147,10 +148,8 @@ export class ConcurrentRunner {
    *
    * Uses job config query and parameters to fetch decisions.
    * Preloads dependencies if configured.
-   * Enriches rows with dependency data.
-   * Applies preprocessing if defined.
    *
-   * @returns Array of decision rows
+   * @returns Array of raw decision rows
    */
   private async loadDecisions(): Promise<any[]> {
     this.logger.debug('Executing database query');
@@ -173,41 +172,10 @@ export class ConcurrentRunner {
       await this.dependencyResolver.preload();
     }
 
-    // Step 3: Enrich rows with dependencies and apply preprocessing
-    let processedRows = rows;
-    if (this.config.preprocessRow || this.dependencyResolver) {
-      this.logger.info('Preprocessing rows with dependencies and custom hooks');
-      processedRows = await Promise.all(
-        rows.map(async (row, index) => {
-          this.logger.debug(`Processing row ${index + 1}/${rows.length}`);
+    // NOTE: Preprocessing is now done just-in-time in executeConcurrent
+    // to avoid OOM errors when processing large datasets with heavy preprocessing.
 
-          // First, enrich with dependencies (if configured)
-          let enrichedRow = row;
-          if (this.dependencyResolver) {
-            enrichedRow = await this.dependencyResolver.enrichRow(enrichedRow);
-          }
-
-          // Then, apply custom preprocessing (if defined)
-          if (this.config.preprocessRow) {
-            enrichedRow = await this.config.preprocessRow(enrichedRow);
-          }
-
-          return enrichedRow;
-        })
-      );
-      this.logger.info('Preprocessing completed');
-
-      // Filter out null rows (skipped by preprocessRow)
-      const beforeFilterCount = processedRows.length;
-      processedRows = processedRows.filter((row): row is NonNullable<typeof row> => row !== null);
-      const skippedCount = beforeFilterCount - processedRows.length;
-
-      if (skippedCount > 0) {
-        this.logger.info(`Filtered out ${skippedCount} rows that were skipped by preprocessing`);
-      }
-    }
-
-    return processedRows;
+    return rows;
   }
 
   /**
@@ -380,9 +348,10 @@ export class ConcurrentRunner {
    *
    * Uses batch processing with delays to avoid rate limits.
    * Processes in batches of N concurrent requests with 500ms delay between batches.
+   * Performs Just-In-Time (JIT) preprocessing to keep memory usage low.
    * Tracks progress and logs every 10 completions.
    *
-   * @param decisions Array of decision rows
+   * @param decisions Array of raw decision rows
    * @param onResult Optional callback invoked immediately after each result completes
    * @returns Array of processed results
    */
@@ -391,18 +360,54 @@ export class ConcurrentRunner {
     onResult?: ResultCallback
   ): Promise<ProcessedResult[]> {
     const batchSize = this.options.concurrencyLimit;
-    let completedCount = 0;
+    let completedCount = 0; // Tracks completed API calls
+    let processedCount = 0; // Tracks successfully preprocessed rows (for ID generation)
     const totalCount = decisions.length;
     const results: ProcessedResult[] = [];
 
     // Process in batches
     for (let batchStart = 0; batchStart < decisions.length; batchStart += batchSize) {
-      const batch = decisions.slice(batchStart, Math.min(batchStart + batchSize, decisions.length));
+      const rawBatch = decisions.slice(batchStart, Math.min(batchStart + batchSize, decisions.length));
+      
+      // JIT Preprocessing for this batch
+      // We use p-limit here as well to ensure we don't overload if batch size is huge (though it matches concurrencyLimit)
+      const limit = pLimit(this.options.concurrencyLimit);
+      
+      const preprocessedBatchPromises = rawBatch.map((row) => 
+        limit(async () => {
+          let enrichedRow = row;
+          
+          // 1. Enrich with dependencies
+          if (this.dependencyResolver) {
+            enrichedRow = await this.dependencyResolver.enrichRow(enrichedRow);
+          }
+          
+          // 2. Apply custom preprocessing
+          if (this.config.preprocessRow) {
+            enrichedRow = await this.config.preprocessRow(enrichedRow);
+          }
+          
+          return enrichedRow;
+        })
+      );
 
-      // Process batch in parallel
-      const batchPromises = batch.map(async (decision, batchIndex) => {
-        const globalIndex = batchStart + batchIndex;
-        const result = await this.processSingleDecision(decision, globalIndex);
+      const preprocessedBatchResults = await Promise.all(preprocessedBatchPromises);
+      
+      // Filter out nulls
+      const validBatchItems: any[] = [];
+      for (const item of preprocessedBatchResults) {
+        if (item !== null) {
+          validBatchItems.push(item);
+        }
+      }
+
+      // Process valid items in parallel
+      const batchPromises = validBatchItems.map(async (decision) => {
+        // Use a running count for the ID to ensure uniqueness and stability across batches
+        // This replaces the global index from the pre-filtered array approach
+        const currentIdIndex = processedCount++; 
+        
+        const result = await this.processSingleDecision(decision, currentIdIndex);
 
         // Stream result immediately if callback provided
         if (onResult) {
@@ -418,20 +423,20 @@ export class ConcurrentRunner {
 
         // Log progress every 10 completions or at the end
         if (completedCount % 10 === 0 || completedCount === totalCount) {
-          this.logger.info(`Progress: ${completedCount}/${totalCount} completed${onResult ? ' (streaming)' : ''}`);
+          this.logger.info(`Progress: ${completedCount}/${totalCount} processed${onResult ? ' (streaming)' : ''}`);
         }
 
         return result;
       });
 
-      // Wait for batch to complete
+      // Wait for batch execution to complete
       const batchResults = await Promise.all(batchPromises);
       results.push(...batchResults);
 
       // Add delay between batches to avoid rate limits (skip on last batch)
-      // if (batchStart + batchSize < decisions.length) {
-      //   await new Promise((resolve) => setTimeout(resolve, 500)); // 500ms between batches
-      // }
+      if (batchStart + batchSize < decisions.length) {
+        await new Promise((resolve) => setTimeout(resolve, 500)); // 500ms between batches
+      }
     }
 
     return results;

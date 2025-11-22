@@ -1,7 +1,9 @@
 import { JobConfig } from "../JobConfig.js";
 import { ENRICH_TEACHING_CITATIONS_PROMPT } from "./prompt.js";
 import { enrichTeachingCitationsSchema, SCHEMA_NAME } from "./schema.js";
+
 import { extractBlocksFromTransformedHtml } from "../../utils/htmlTransformer.js";
+import { DatabaseConfig } from "../../config/database.js";
 import fs from "fs";
 import path from "path";
 
@@ -241,7 +243,6 @@ const config: JobConfig = {
       d.id,
       d.decision_id,
       d.language_metadata,
-      df.full_html,
       LENGTH(df.full_html) as html_length
     FROM decisions1 d
     INNER JOIN decision_fulltext1 df
@@ -301,8 +302,22 @@ const config: JobConfig = {
       return null;
     }
 
+    // Lazy load full_html for this specific decision
+    // This prevents loading 64k HTML strings into memory at once
+    const htmlResult = await DatabaseConfig.executeReadOnlyQuery(
+      'SELECT full_html FROM decision_fulltext1 WHERE decision_id = $1',
+      [row.id]
+    );
+
+    if (!htmlResult || htmlResult.length === 0 || !htmlResult[0].full_html) {
+      console.warn(`⚠️  Could not load HTML for decision ${row.decision_id} (${row.language_metadata}), skipping`);
+      return null;
+    }
+
+    const fullHtml = htmlResult[0].full_html;
+
     // Extract blocks from pre-transformed HTML
-    const blocks = extractBlocksFromTransformedHtml(row.full_html);
+    const blocks = extractBlocksFromTransformedHtml(fullHtml);
 
     if (blocks.length === 0) {
       console.warn(`⚠️  No blocks found in HTML for decision ${row.decision_id} (${row.language_metadata}), skipping`);
@@ -390,7 +405,7 @@ const config: JobConfig = {
   provider: "openai",
   openaiProvider: "azure",
   model: "gpt-5-mini",
-  maxCompletionTokens: 128000,
+  maxCompletionTokens: 64000,
   reasoningEffort: "medium",
   verbosity: "low",
 
