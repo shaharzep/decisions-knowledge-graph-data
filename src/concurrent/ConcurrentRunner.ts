@@ -47,7 +47,7 @@ export class ConcurrentRunner {
         options.concurrencyLimit ??
         config.concurrencyLimit ??
         200,
-      timeout: options.timeout || 300000, // 10 minutes default (required for Claude)
+      timeout: options.timeout || 600000, // 10 minutes default (required for Claude)
     };
     this.logger = new JobLogger(`ConcurrentRunner:${config.id}`);
 

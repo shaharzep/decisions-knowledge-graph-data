@@ -216,6 +216,57 @@ function buildProcessableDecisions(): Array<{ decision_id: string; language: str
 
 const PROCESSABLE_DECISIONS = buildProcessableDecisions();
 
+// =====================================================================================
+// RESUME LOGIC
+// =====================================================================================
+// If RESUME=true, filter out decisions that were already successfully processed
+// in the most recent full-data run.
+let decisionsToProcess = PROCESSABLE_DECISIONS;
+
+if (process.env.RESUME === 'true') {
+  console.log('\n⏯️  RESUME MODE DETECTED');
+  
+  const resultsDir = path.join(process.cwd(), 'full-data', 'enrich-teaching-citations');
+  const completedSet = new Set<string>();
+  let runsFound = 0;
+
+  if (fs.existsSync(resultsDir)) {
+    const timestamps = fs.readdirSync(resultsDir)
+      .filter(name => /^\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}-\d{3}Z/.test(name))
+      .sort()
+      .reverse();
+
+    console.log(`   Found ${timestamps.length} previous runs to aggregate.`);
+    runsFound = timestamps.length;
+
+    for (const ts of timestamps) {
+      try {
+        const completedDecisions = loadSuccessfulDecisions('enrich-teaching-citations', ts);
+        console.log(`   - Run ${ts}: ${completedDecisions.length} decisions`);
+        for (const p of completedDecisions) {
+          completedSet.add(`${p.decision_id}||${p.language}`);
+        }
+      } catch (error) {
+        console.warn(`   ⚠️  Could not load results for run ${ts}: ${error}`);
+      }
+    }
+  }
+
+  if (runsFound > 0 && completedSet.size > 0) {
+    decisionsToProcess = PROCESSABLE_DECISIONS.filter(p => {
+      const key = `${p.decision_id}||${p.language}`;
+      return !completedSet.has(key);
+    });
+    
+    console.log(`\n   Total unique completed decisions: ${completedSet.size}`);
+    console.log(`   Skipping ${completedSet.size} already processed decisions.`);
+    console.log(`   Remaining to process: ${decisionsToProcess.length}`);
+  } else {
+    console.log('   No previous successful runs found to resume from. Starting fresh.');
+  }
+  console.log('=====================================================================================\n');
+}
+
 const config: JobConfig = {
   id: "enrich-teaching-citations",
 
@@ -261,8 +312,8 @@ const config: JobConfig = {
    * Loads only decisions that exist in ALL THREE full-data results (5A ∩ 2C ∩ 3).
    */
   dbQueryParams: [
-    PROCESSABLE_DECISIONS.map(p => p.decision_id),
-    PROCESSABLE_DECISIONS.map(p => p.language)
+    decisionsToProcess.map(p => p.decision_id),
+    decisionsToProcess.map(p => p.language)
   ],
 
   /**
@@ -405,7 +456,7 @@ const config: JobConfig = {
   provider: "openai",
   openaiProvider: "azure",
   model: "gpt-5-mini",
-  maxCompletionTokens: 64000,
+  maxCompletionTokens: 128000,
   reasoningEffort: "medium",
   verbosity: "low",
 
