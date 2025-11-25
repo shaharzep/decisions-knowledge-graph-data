@@ -456,7 +456,7 @@ const config: JobConfig = {
   provider: "openai",
   openaiProvider: "azure",
   model: "gpt-5-mini",
-  maxCompletionTokens: 128000,
+  maxCompletionTokens: 64000,
   reasoningEffort: "medium",
   verbosity: "low",
 

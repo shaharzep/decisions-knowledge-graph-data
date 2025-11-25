@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
+
 
 // Configuration
 const BASE_DIR = path.join(process.cwd(), 'full-data');
@@ -14,13 +14,14 @@ const COMPLETED_JOBS = [
   { id: 'extract-cited-decisions', field: 'citedDecisions' },
   { id: 'extract-keywords', field: 'customKeywords' },
   { id: 'extract-legal-teachings', field: 'legalTeachings' },
-  { id: 'extract-micro-summary', field: 'microSummary' }
+  { id: 'extract-micro-summary', field: 'microSummary' },
+  { id: 'enrich-provision-citations', field: 'relatedCitationsLegalProvisions' },
+  { id: 'enrich-teaching-citations', field: 'relatedCitationsLegalTeachings' }
 ];
 
 // Jobs to set to null
-const NULL_JOBS = [
-  { field: 'relatedCitationsLegalProvisions' }, // enrich-provision-citations
-  { field: 'relatedCitationsLegalTeachings' }   // enrich-teaching-citations
+const NULL_JOBS: { field: string }[] = [
+  // All jobs are now implemented!
 ];
 
 // Fields to exclude from job data (metadata etc)
@@ -89,6 +90,12 @@ function cleanJobData(jobData: any, outputField: string): any {
       return cleaned.microSummary || cleaned;
     case 'extractedReferences':
       return cleaned.extractedReferences || cleaned;
+    case 'relatedCitationsLegalProvisions':
+      // Source field is 'citedProvisions' from enrich-provision-citations
+      return cleaned.citedProvisions || cleaned;
+    case 'relatedCitationsLegalTeachings':
+      // Source field is 'legalTeachings' from enrich-teaching-citations
+      return cleaned.legalTeachings || cleaned;
     case 'comprehensive':
       // Flatten comprehensive
       const flattened: any = {};
