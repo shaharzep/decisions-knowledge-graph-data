@@ -55,6 +55,9 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
   'enrich-teaching-citations': 'llm-as-a-judge_RFTC_1_legalTeachings.md',
   'enrich-provision-citations': 'llm-as-a-judge_RFTC_2_citedProvisions.md',
   // 'enrich-decision-citations': 'llm-as-a-judge_RFTC_3_citedDecisions.md',
+
+  // Stage 2: Standard Provision Mapping
+  'map-provisions-standard': 'llm-as-a-judge_MAP_STANDARD.md',
 };
 
 /**
