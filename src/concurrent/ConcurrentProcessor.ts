@@ -215,7 +215,8 @@ export class ConcurrentProcessor {
           finalData,
           decisionId,
           language,
-          result.customId
+          result.customId,
+          metadata
         );
         this.streamingState.successCount++;
         if (result.tokenUsage) {
@@ -661,7 +662,7 @@ export class ConcurrentProcessor {
         : processedData;
 
       try {
-        await this.writeSuccessJson(jsonDirectory, finalData, decisionId, language, result.customId);
+        await this.writeSuccessJson(jsonDirectory, finalData, decisionId, language, result.customId, metadata);
         successfulRecords++;
         if (result.tokenUsage) {
           totalTokens += result.tokenUsage.totalTokens;
@@ -808,24 +809,49 @@ export class ConcurrentProcessor {
     data: any,
     decisionId: string | null,
     language: string | null,
-    fallbackId: string
+    fallbackId: string,
+    metadata: Record<string, any> = {}
   ): Promise<void> {
-    const parts: string[] = [];
-    if (decisionId) parts.push(decisionId);
-    if (language) parts.push(language);
-    const baseName = parts.length > 0 ? parts.join('_') : fallbackId;
-    const safeName = this.sanitizeFileName(baseName);
+    const safeName = ConcurrentProcessor.generateFileName(metadata, decisionId, language, fallbackId);
     const filePath = path.join(directory, `${safeName}.json`);
 
     await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
   }
 
   /**
+   * Generate filename based on metadata (public static for reuse by ConcurrentRunner)
+   */
+  public static generateFileName(
+    metadata: Record<string, any>,
+    decisionId: string | null,
+    language: string | null,
+    fallbackId: string
+  ): string {
+    let baseName: string;
+
+    // Priority 1: Internal Parent Act ID (for provision mapping)
+    if (metadata.internal_parent_act_id) {
+      baseName = String(metadata.internal_parent_act_id);
+    } 
+    // Priority 2: Decision ID + Language (for decision-based jobs)
+    else {
+      const parts: string[] = [];
+      if (decisionId) parts.push(decisionId);
+      if (language) parts.push(language);
+      baseName = parts.length > 0 ? parts.join('_') : fallbackId;
+    }
+
+    return ConcurrentProcessor.sanitizeFileName(baseName);
+  }
+
+  /**
    * Sanitize filename to remove unsafe characters
    */
-  private sanitizeFileName(name: string): string {
+  public static sanitizeFileName(name: string): string {
     return name.replace(/[^a-zA-Z0-9._-]+/g, '_');
   }
+
+
 
   /**
    * Persist summary and failures to directory

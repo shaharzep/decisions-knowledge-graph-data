@@ -320,9 +320,15 @@ async function main() {
           console.error('Usage: npm run dev concurrent <job-type>');
           process.exit(1);
         }
+        const resumeFromIndex = flags.indexOf('--resume-from');
+        let resumeFrom: string | undefined;
+        if (resumeFromIndex !== -1 && flags[resumeFromIndex + 1]) {
+          resumeFrom = flags[resumeFromIndex + 1];
+        }
+
         const { ConcurrentRunner } = await import('./concurrent/ConcurrentRunner.js');
         const concurrentConfig = await loadJobConfig(jobType);
-        const concurrentRunner = new ConcurrentRunner(concurrentConfig);
+        const concurrentRunner = new ConcurrentRunner(concurrentConfig, { resumeFrom });
         await concurrentRunner.run();
         break;
 

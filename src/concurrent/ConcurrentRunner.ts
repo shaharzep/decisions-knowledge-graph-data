@@ -1,4 +1,5 @@
 import path from 'path';
+import fs from 'fs/promises';
 import { JobConfig } from '../jobs/JobConfig.js';
 import { DatabaseConfig } from '../config/database.js';
 import { JobLogger } from '../utils/logger.js';
@@ -18,6 +19,7 @@ type CompletionSettings = OpenAICompletionSettings | ClaudeCompletionSettings;
 export interface ConcurrentOptions {
   concurrencyLimit?: number;
   timeout?: number; // Timeout per request in milliseconds
+  resumeFrom?: string; // Directory to resume from (full-data pipeline)
 }
 
 /**
@@ -34,7 +36,7 @@ export type ResultCallback = (result: ProcessedResult) => Promise<void> | void;
  */
 export class ConcurrentRunner {
   private config: JobConfig;
-  private options: Required<ConcurrentOptions>;
+  private options: ConcurrentOptions & { concurrencyLimit: number; timeout: number };
   private logger: JobLogger;
   private client: OpenAIConcurrentClient | ClaudeConcurrentClient;
   private processor: ConcurrentProcessor;
@@ -48,6 +50,7 @@ export class ConcurrentRunner {
         config.concurrencyLimit ??
         200,
       timeout: options.timeout || 600000, // 10 minutes default (required for Claude)
+      resumeFrom: options.resumeFrom,
     };
     this.logger = new JobLogger(`ConcurrentRunner:${config.id}`);
 
@@ -175,7 +178,65 @@ export class ConcurrentRunner {
     // NOTE: Preprocessing is now done just-in-time in executeConcurrent
     // to avoid OOM errors when processing large datasets with heavy preprocessing.
 
+    // Step 3: Filter already processed decisions if resuming
+    if (this.options.resumeFrom) {
+      this.logger.info(`Resuming from directory: ${this.options.resumeFrom}`);
+      const processedIds = await this.getProcessedIds(this.options.resumeFrom);
+      
+      if (processedIds.size > 0) {
+        const originalCount = rows.length;
+        const filteredRows = rows.filter((row, index) => {
+          const metadata = this.extractMetadata(row) || {};
+          // Recreate the filename logic to check existence
+          // Note: We need to use the same fallback ID logic as processSingleDecision
+          const customIdPrefix = this.config.customIdPrefix || this.config.id;
+          const customId = `${customIdPrefix}-${String(index + 1).padStart(4, '0')}`;
+          
+          const expectedFileName = ConcurrentProcessor.generateFileName(
+            metadata,
+            metadata.decision_id || null,
+            metadata.language || null,
+            customId
+          );
+          
+          return !processedIds.has(expectedFileName);
+        });
+        
+        this.logger.info(`Resuming: Skipped ${originalCount - filteredRows.length} already processed records. Remaining: ${filteredRows.length}`);
+        return filteredRows;
+      } else {
+        this.logger.warn('Resume directory found but contained no valid JSON files. Processing all records.');
+      }
+    }
+
     return rows;
+  }
+
+  /**
+   * Get set of processed IDs from resume directory
+   */
+  private async getProcessedIds(resumeDir: string): Promise<Set<string>> {
+    const processedIds = new Set<string>();
+    const jsonsDir = path.join(resumeDir, 'jsons');
+
+    try {
+      await fs.access(jsonsDir);
+      const files = await fs.readdir(jsonsDir);
+      
+      for (const file of files) {
+        if (file.endsWith('.json')) {
+          // Remove extension to get the ID/basename
+          const id = path.basename(file, '.json');
+          processedIds.add(id);
+        }
+      }
+      
+      this.logger.info(`Found ${processedIds.size} processed records in resume directory`);
+    } catch (error) {
+      this.logger.warn(`Could not read resume directory: ${jsonsDir}`, error);
+    }
+
+    return processedIds;
   }
 
   /**

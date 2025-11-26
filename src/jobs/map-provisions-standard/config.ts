@@ -45,7 +45,6 @@ const config: JobConfig = {
       AND dcp.parent_act_date IS NOT NULL
       AND dcp.internal_parent_act_id IS NOT NULL
     ORDER BY dcp.internal_parent_act_id
-    LIMIT 500
   `,
   
   // No params needed for this query
@@ -196,7 +195,9 @@ const config: JobConfig = {
   // Row metadata to track in results
   rowMetadataFields: ['internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'parent_act_date', 'parent_act_type', 'teaching_texts', 'candidate_titles'],
   
-  customIdPrefix: 'map-std'
+  customIdPrefix: 'map-std',
+  
+  useFullDataPipeline: true
 };
 
 export default config;

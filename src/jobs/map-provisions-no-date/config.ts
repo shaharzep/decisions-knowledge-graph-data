@@ -40,15 +40,15 @@ const config: JobConfig = {
       AND dcp.parent_act_type NOT LIKE '%_UE'
       AND dcp.internal_parent_act_id IS NOT NULL
     ORDER BY dcp.internal_parent_act_id
-    LIMIT 200
+    LIMIT 1000
   `,
   
   dbQueryParams: [],
 
   /**
-   * Custom Execution Logic
+   * Preprocess: Fetch candidate documents
    */
-  customExecution: async (row: any, client: any) => {
+  preprocessRow: async (row: any) => {
     // 1. Determine Target Document Type
     let targetTypes: string[] = [];
     const type = row.parent_act_type ? row.parent_act_type.toUpperCase() : '';
@@ -73,18 +73,23 @@ const config: JobConfig = {
     // - Provision Number (INNER JOIN)
     // - Document Type (if mapped)
     // - Date: document_date < decision_date
-    
+    // - Title similarity to parent_act_name (using pg_trgm)
+
     // Use provision_number_key for article lookup, fallback to provision_number
     const articleLookup = row.provision_number_key || row.provision_number;
 
     let query = `
-      SELECT d.document_number, d.title, d.dossier_number, ac.raw_markdown
+      SELECT
+        d.document_number,
+        d.title,
+        d.dossier_number,
+        SIMILARITY(d.title, $2) as title_similarity
       FROM documents d
       JOIN article_contents ac ON d.document_number = ac.document_number
       WHERE ac.article_number = $1
     `;
-    const params: any[] = [articleLookup];
-    let paramIdx = 2;
+    const params: any[] = [articleLookup, row.parent_act_name];
+    let paramIdx = 3;
 
     // Date Filter
     if (row.decision_date) {
@@ -101,6 +106,9 @@ const config: JobConfig = {
       paramIdx++;
     }
 
+    // Order by title similarity (most similar first) and limit to top 20 candidates
+    // query += ` ORDER BY title_similarity DESC LIMIT 100`;
+
     // Execute query
     let candidateDocs: any[] = [];
     try {
@@ -109,53 +117,94 @@ const config: JobConfig = {
        return { match: null, error: `Database query failed: ${e.message}` };
     }
 
-    if (candidateDocs.length === 0) {
-      return { match: null, error: 'No candidate documents found matching criteria.' };
+    // Return early if no candidates - will be handled in prompt
+    const candidate_titles = candidateDocs.map((d: any) => {
+      let cleanTitle = d.title
+        .replace(/\(NOTE[^)]*\)/gi, '')
+        .replace(/\([^)]*En vigueur[^)]*\)/gi, '')
+        .replace(/\([^)]*Consultation des versions[^)]*\)/gi, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+      if (cleanTitle.length > 200) {
+        cleanTitle = cleanTitle.substring(0, 200) + '...';
+      }
+
+      return `[${d.document_number}] ${cleanTitle}`;
+    });
+
+    return {
+      ...row,
+      candidates: candidateDocs,
+      candidate_titles
+    };
+  },
+
+  /**
+   * Generate Prompt
+   */
+  promptTemplate: (row: any) => {
+    if (!row.candidates || row.candidates.length === 0) {
+      // No candidates - return minimal prompt that will fail gracefully
+      return NO_DATE_MATCH_PROMPT
+        .replace('{citedActName}', row.parent_act_name || 'Unknown')
+        .replace('{citedProvision}', row.provision_number || 'Unknown')
+        .replace('{context}', 'No legal teachings available.')
+        .replace('{candidatesList}', 'No candidates found.');
     }
 
-    // 3. Prepare Prompt Context
+    // Format context
     const contextText = row.teaching_texts && row.teaching_texts.length > 0
       ? row.teaching_texts.map((t: string, i: number) => `${i + 1}. ${t}`).join('\n\n')
       : 'No legal teachings available.';
 
-    const candidatesList = candidateDocs.map(d => 
-      `ID: ${d.document_number}
-Title: ${d.title}
-Date: ${d.dossier_number ? d.dossier_number.substring(0, 10) : 'Unknown'}`
-    ).join('\n---\n');
+    // Format candidates
+    const candidatesList = row.candidates.map((d: any) => {
+      let cleanTitle = d.title
+        .replace(/\(NOTE[^)]*\)/gi, '')
+        .replace(/\([^)]*En vigueur[^)]*\)/gi, '')
+        .replace(/\([^)]*Consultation des versions[^)]*\)/gi, '')
+        .replace(/\s+/g, ' ')
+        .trim();
 
-    // 4. Execute LLM Prompt
-    const prompt = NO_DATE_MATCH_PROMPT
+      if (cleanTitle.length > 200) {
+        cleanTitle = cleanTitle.substring(0, 200) + '...';
+      }
+
+      const date = d.dossier_number ? d.dossier_number.substring(0, 10) : 'Unknown';
+      const similarity = d.title_similarity ? ` (similarity: ${(d.title_similarity * 100).toFixed(0)}%)` : '';
+
+      return `ID: ${d.document_number}
+Date: ${date}
+Title: ${cleanTitle}${similarity}`;
+    }).join('\n---\n');
+
+    return NO_DATE_MATCH_PROMPT
       .replace('{citedActName}', row.parent_act_name)
       .replace('{citedProvision}', row.provision_number)
       .replace('{context}', contextText)
       .replace('{candidatesList}', candidatesList);
+  },
 
-    const response = await client.complete(
-      [{ role: 'user', content: prompt }],
-      { type: 'json_object' },
-      { model: 'gpt-4.1', temperature: 0 }
-    );
-
-    // 5. Parse and Sanitize Result
-    let rawResult;
-    try {
-      rawResult = JSON.parse(response.choices[0].message.content);
-    } catch (e) {
-      return { match: null, error: 'Failed to parse LLM response JSON.', candidate_titles: candidateDocs.map(d => d.title) };
-    }
-
+  /**
+   * Post-process: Normalize result format
+   */
+  postProcessRow: (_row: any, result: any) => {
+    // Handle different response formats from LLM
     let matchObj = null;
-    if (rawResult.match) {
-      matchObj = rawResult.match;
-    } else if (rawResult.document_number) {
+
+    if (result.match) {
+      matchObj = result.match;
+    } else if (result.document_number) {
+      // Flat format - normalize to nested
       matchObj = {
-        document_number: rawResult.document_number,
-        score: rawResult.score,
-        reasoning: rawResult.reasoning || rawResult.explanation
+        document_number: result.document_number,
+        score: result.score,
+        reasoning: result.reasoning || result.explanation
       };
     }
 
+    // Sanitize types
     if (matchObj) {
       if (typeof matchObj.document_number === 'number') {
         matchObj.document_number = String(matchObj.document_number);
@@ -167,13 +216,15 @@ Date: ${d.dossier_number ? d.dossier_number.substring(0, 10) : 'Unknown'}`
 
     return {
       match: matchObj,
-      candidate_titles: candidateDocs.map(d => d.title),
-      error: rawResult.error || (matchObj ? undefined : 'No match selected.')
+      candidate_titles: result.candidate_titles || _row.candidate_titles || [],
+      error: result.error || (matchObj ? undefined : 'No match selected.')
     };
   },
 
   /**
    * Output Schema
+   * Note: Only includes fields that LLM must return.
+   * candidate_titles and error are added in postProcessRow from metadata.
    */
   outputSchema: {
     type: 'object',
@@ -189,12 +240,7 @@ Date: ${d.dossier_number ? d.dossier_number.substring(0, 10) : 'Unknown'}`
         },
         required: ['document_number', 'score', 'reasoning'],
         additionalProperties: false
-      },
-      candidate_titles: {
-        type: 'array',
-        items: { type: 'string' }
-      },
-      error: { type: 'string' }
+      }
     }
   },
 
@@ -205,11 +251,12 @@ Date: ${d.dossier_number ? d.dossier_number.substring(0, 10) : 'Unknown'}`
   openaiProvider: 'azure',
   model: 'gpt-4.1',
   temperature: 0,
-  concurrencyLimit: 10,
-  // reasoningEffort: 'medium',
+  // reasoningEffort: 'low',
+  // verbosity: 'low',
+  concurrencyLimit: 200,  // Requires pg_trgm GIN index on documents.title
   
   // Row metadata
-  rowMetadataFields: ['internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'provision_number', 'teaching_texts'],
+  rowMetadataFields: ['internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'provision_number', 'teaching_texts', 'candidate_titles'],
   
   customIdPrefix: 'map-nodate'
 };
