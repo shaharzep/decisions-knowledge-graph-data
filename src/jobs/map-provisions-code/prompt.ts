@@ -1,50 +1,74 @@
+export const PASS_1_CODE_FAMILY_PROMPT = `
+You are a legal expert assisting in mapping cited provisions to their correct Code family.
 
-export const CODE_PASS_1_PROMPT = `## ROLE
-You are a legal expert specializing in Belgian Codes. Your task is to identify the most likely "Code Family" for a given citation.
+# Goal
+Identify the top 3 most likely "Code" families for the cited provision based on the cited name.
 
-## INPUT
-**Cited Code Name**: \`{citedCodeName}\`
+# Input
+- Cited Name: "{citedActName}"
+- Available Codes:
+{availableCodesList}
 
-## CANDIDATE CODES
-{codeList}
+# Instructions
+1. Analyze the "Cited Name" and match it to the "Available Codes".
+2. Return the top 3 most likely matches.
+3. If the cited name is ambiguous (e.g., "Code civil"), include the most relevant specific codes (e.g., "Code civil", "Code judiciaire", etc.) if they are plausible.
+4. If there are fewer than 3 plausible matches, return only the plausible ones.
 
-## INSTRUCTIONS
-1. **Analyze the Citation**: Look for keywords in the cited name (e.g., "C.I.Cr.", "Code pénal", "Veldwetboek").
-2. **Match to Candidates**: Identify the standard Code names from the list that best match the citation.
-3. **Select Top 3**: Return the names of the top 3 most likely candidates. If the citation is unambiguous (e.g., "Code civil"), the first one should be the exact match.
-
-## OUTPUT SCHEMA
-\`\`\`json
+# Output Schema
+Return a JSON object with a "matches" array:
 {
-  "candidate_codes": ["string", "string", "string"]
+  "matches": [
+    "Code Name 1",
+    "Code Name 2",
+    "Code Name 3"
+  ]
 }
-\`\`\`
 `;
 
-export const CODE_PASS_2_PROMPT = `## ROLE
-You are a legal expert. Your task is to identify the EXACT law (document) that contains a specific article cited as part of a Code.
+export const PASS_2_EXACT_MATCH_PROMPT = `
+You are a legal expert assisting in mapping a cited provision to the exact legal document and article.
 
-## INPUT
-1. **Cited Code Name**: \`{citedCodeName}\`
-2. **Cited Article Number**: \`{articleNumber}\`
+# Goal
+Identify the exact document (law/act) that contains the cited article from the provided candidates.
 
-## CANDIDATE DOCUMENTS
+# Input
+- Cited Article Number: "{citedArticle}"
+- Cited Act Name (from text): "{citedActName}"
+- Context (Legal Teachings):
+{context}
+
+# Candidates
 {candidatesList}
 
-## INSTRUCTIONS
-1. **Analyze the Candidates**: Each candidate represents a specific law or decree that is part of a Code family.
-2. **Check Article Content**: Read the content of the article for each candidate.
-3. **Match Context**: Determine which document's version of the article matches the context of the "Cited Code Name".
-   - Example: "Code civil" might have multiple sub-documents. Article 1382 in the main "Code civil" document is different from Article 1382 in a specific amendment or related act if they share the numbering (though usually unique within a Code, sometimes structure varies).
-   - More importantly, check if the article *exists* and if the document title aligns with the citation.
-4. **Select Best Match**: Return the \`document_number\` of the correct document.
+# Instructions
+1. **Analyze Candidates**: Review the list of candidate documents. Each candidate includes:
+    - Document Number (ID)
+    - Title
+    - **Article Content** (The text of the article in that document, if available)
 
-## OUTPUT SCHEMA
-\`\`\`json
+2. **Match Strategy**:
+    - **Primary Check (Article Content)**: If "Article Content" is provided, check if it matches the subject matter implied by the "Context" and "Cited Act Name". This is the strongest signal for disambiguation (e.g., distinguishing between different "Code civil" sub-documents).
+    - **Secondary Check (Title)**: Does the document title align with the "Cited Act Name"?
+    - **Context Validation**: Does the selected document and article make sense given the "Legal Teachings"?
+
+3. **Ambiguity Handling**:
+    - If multiple documents have the same article number, use the **Article Content** and **Context** to decide.
+    - If the article content is missing for a candidate, rely on the Title and Context.
+
+4. **Selection**:
+    - **MANDATORY**: You MUST select the ONE best matching document from the candidates.
+    - Do NOT return null. Always return a match.
+    - If the match is weak or uncertain, select the most plausible candidate and assign a **low score** (e.g., < 50).
+    - Use the score to reflect your confidence, but always provide a selection.
+
+# Output Schema
+Return a JSON object:
 {
-  "document_number": "string | null",
-  "confidence": "number",
-  "reasoning": "string"
+  "match": {
+    "document_number": "string (the ID of the selected candidate)",
+    "score": number (0-100 confidence score),
+    "reasoning": "string (explanation of why this document was selected, citing title, article content match, and context)"
+  }
 }
-\`\`\`
 `;

@@ -1,6 +1,5 @@
-
 import { JobConfig } from '../JobConfig.js';
-import { CODE_PASS_1_PROMPT, CODE_PASS_2_PROMPT } from './prompt.js';
+import { PASS_1_CODE_FAMILY_PROMPT, PASS_2_EXACT_MATCH_PROMPT } from './prompt.js';
 import { DatabaseConfig } from '../../config/database.js';
 import fs from 'fs';
 import path from 'path';
@@ -12,30 +11,7 @@ const __dirname = path.dirname(__filename);
 const codeMappingPath = path.join(__dirname, 'code-mapping.json');
 const codeMapping = JSON.parse(fs.readFileSync(codeMappingPath, 'utf-8'));
 
-const ALL_CODES = [
-  "Code belge de la Navigation", "Code civil", "Code consulaire", "Code d'Instruction Criminelle",
-  "Code de commerce", "Code de droit international privé", "Code de droit économique",
-  "Code de la nationalité belge", "Code de procédure pénale militaire", "Code des droits et taxes divers",
-  "Code du recouvrement amiable et forcé des créances fiscales et non fiscales", "Code électoral",
-  "Code forestier", "Code judiciaire", "Code pénal social", "Code pénal", "Code rural",
-  "Code de l'Enseignement supérieur (Communauté flamande)",
-  "Code de l'enseignement fondamental et de l'enseignement secondaire (communauté française)",
-  "Code flamand de l'enseignement secondaire", "Code flamand des Finances publiques",
-  "Code bruxellois de l'Air, du Climat et de la Maîtrise de l'Energie",
-  "Code bruxellois de l'aménagement du territoire (CoBAT)", "Code bruxellois du Logement",
-  "Code de la démocratie locale et de la décentralisation (Région Wallonne)",
-  "Code de la fonction publique wallonne", "Code électoral communal bruxellois",
-  "Code flamand de l'aménagement du territoire", "Code flamand de la Fiscalité",
-  "Code flamand du Logement", "Code wallon de l'Agriculture",
-  "Code wallon de l'action sociale et de la santé (CWASS) - partie décrétale",
-  "Code wallon de l'action sociale et de la santé (CWASS) - partie réglementaire",
-  "Code wallon de l'environnement (CWE) - Partie décrétale",
-  "Code wallon de l'environnement (CWE) - Partie réglementaire",
-  "Code wallon de l'habitation durable",
-  "Code wallon du Développement territorial (CoDt) - Partie décrétale",
-  "Code wallon du Développement territorial (CoDt) - Partie réglementaire",
-  "Code wallon du Tourisme", "Code wallon du patrimoine (CoPat) - partie réglementaire"
-];
+const ALL_CODES = Object.keys(codeMapping);
 
 /**
  * CODE Provision Mapping Job
@@ -48,17 +24,29 @@ const config: JobConfig = {
 
   /**
    * Select unique CODE citations.
+   * We join with decisions1 to get the ECLI and language.
+   * We also fetch legal teachings for context.
    */
   dbQuery: `
     SELECT DISTINCT ON (dcp.internal_parent_act_id)
       dcp.internal_parent_act_id,
+      d.decision_id,
+      d.language_metadata,
       dcp.parent_act_name,
       dcp.provision_number,
-      dcp.parent_act_type
+      dcp.provision_number_key,
+      dcp.parent_act_type,
+      (
+        SELECT ARRAY_AGG(dlt.teaching_text)
+        FROM decision_legal_teachings dlt
+        WHERE dlt.decision_id = dcp.decision_id
+      ) as teaching_texts
     FROM decision_cited_provisions dcp
+    JOIN decisions1 d ON d.id = dcp.decision_id
     WHERE dcp.parent_act_type = 'CODE'
       AND dcp.internal_parent_act_id IS NOT NULL
     ORDER BY dcp.internal_parent_act_id
+    limit 2500
   `,
   
   dbQueryParams: [],
@@ -68,63 +56,126 @@ const config: JobConfig = {
    */
   customExecution: async (row: any, client: any) => {
     // --- PASS 1: Identify Code Family ---
-    const pass1Prompt = CODE_PASS_1_PROMPT
-      .replace('{citedCodeName}', row.parent_act_name)
-      .replace('{codeList}', ALL_CODES.map(c => `- ${c}`).join('\n'));
+    const pass1Prompt = PASS_1_CODE_FAMILY_PROMPT
+      .replace('{citedActName}', row.parent_act_name)
+      .replace('{availableCodesList}', ALL_CODES.map(c => `- ${c}`).join('\n'));
 
-    const pass1Response = await client.chat.completions.create({
-      model: 'gpt-5-mini',
-      messages: [{ role: 'user', content: pass1Prompt }],
-      response_format: { type: 'json_object' }
-    });
+    const pass1Response = await client.complete(
+      [{ role: 'user', content: pass1Prompt }],
+      { type: 'json_object' },
+      { model: 'gpt-5-mini', reasoningEffort: 'minimal' }
+    );
 
     const pass1Result = JSON.parse(pass1Response.choices[0].message.content);
-    const candidateCodes = pass1Result.candidate_codes || [];
+    const candidateCodes = pass1Result.matches || [];
 
     if (candidateCodes.length === 0) {
-      return { document_number: null, confidence: 0, reasoning: 'No code family identified.' };
+      return { match: null, error: 'No code family identified.' };
     }
 
-    // --- PASS 2: Match Exact Article ---
+    // --- Data Fetching: Candidates & Context ---
     // Gather candidate documents from the identified codes
     let candidateDocs: any[] = [];
+    const docNumbersToFetch: string[] = [];
+
     for (const codeName of candidateCodes) {
       const docNumbers = codeMapping[codeName] || [];
-      if (docNumbers.length > 0) {
-        // Fetch document titles and article content
-        const query = `
-          SELECT d.document_number, d.title, ac.main_text_raw
-          FROM documents d
-          LEFT JOIN article_contents ac 
-            ON d.document_number = ac.document_number 
-            AND ac.article_number = $2
-          WHERE d.document_number = ANY($1)
-        `;
-        const docs = await DatabaseConfig.executeReadOnlyQuery(query, [docNumbers, row.provision_number]);
-        candidateDocs = [...candidateDocs, ...docs];
-      }
+      docNumbersToFetch.push(...docNumbers);
+    }
+
+    if (docNumbersToFetch.length > 0) {
+      // Fetch document titles and article content
+      // We join article_contents to get the text of the specific cited article
+      const query = `
+        SELECT d.document_number, d.title, ac.raw_markdown
+        FROM documents d
+        LEFT JOIN article_contents ac 
+          ON d.document_number = ac.document_number 
+          AND ac.article_number = $2
+        WHERE d.document_number = ANY($1)
+      `;
+      
+      // Use provision_number_key for article lookup (it's cleaner usually)
+      // Fallback to provision_number if key is missing
+      const articleLookup = row.provision_number_key || row.provision_number;
+      
+      const docs = await DatabaseConfig.executeReadOnlyQuery(query, [docNumbersToFetch, articleLookup]);
+      candidateDocs = docs;
     }
 
     if (candidateDocs.length === 0) {
-      return { document_number: null, confidence: 0, reasoning: 'No candidate documents found for identified codes.' };
+      return { match: null, error: 'No candidate documents found for identified codes.' };
     }
 
+    // Format Context (Legal Teachings)
+    const contextText = row.teaching_texts && row.teaching_texts.length > 0
+      ? row.teaching_texts.map((t: string, i: number) => `${i + 1}. ${t}`).join('\n\n')
+      : 'No legal teachings available.';
+
+    // Format Candidates List
     const candidatesList = candidateDocs.map(d => 
-      `ID: ${d.document_number}\nTitle: ${d.title}\nArticle Content: ${d.main_text_raw ? d.main_text_raw.substring(0, 500) + '...' : 'Not found'}`
+      `ID: ${d.document_number}
+Title: ${d.title}
+Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_markdown.length > 800 ? '...' : '') : 'Not available'}`
     ).join('\n---\n');
 
-    const pass2Prompt = CODE_PASS_2_PROMPT
-      .replace('{citedCodeName}', row.parent_act_name)
-      .replace('{articleNumber}', row.provision_number)
+    // --- PASS 2: Match Exact Article ---
+    const pass2Prompt = PASS_2_EXACT_MATCH_PROMPT
+      .replace('{citedArticle}', row.provision_number)
+      .replace('{citedActName}', row.parent_act_name)
+      .replace('{context}', contextText)
       .replace('{candidatesList}', candidatesList);
 
-    const pass2Response = await client.chat.completions.create({
-      model: 'gpt-5-mini',
-      messages: [{ role: 'user', content: pass2Prompt }],
-      response_format: { type: 'json_object' }
-    });
+    const pass2Response = await client.complete(
+      [{ role: 'user', content: pass2Prompt }],
+      { type: 'json_object' },
+      { model: 'gpt-5-mini', reasoningEffort: 'medium' }
+    );
 
-    return JSON.parse(pass2Response.choices[0].message.content);
+    let rawResult;
+    try {
+      rawResult = JSON.parse(pass2Response.choices[0].message.content);
+    } catch (e) {
+      return { match: null, error: 'Failed to parse LLM response JSON.', candidate_titles: candidateDocs.map(d => d.title) };
+    }
+
+    // Sanitize and normalize the result
+    let matchObj = null;
+
+    // Handle case where LLM returns match object
+    if (rawResult.match) {
+      matchObj = rawResult.match;
+    } 
+    // Handle case where LLM returns fields at root
+    else if (rawResult.document_number) {
+      matchObj = {
+        document_number: rawResult.document_number,
+        score: rawResult.score,
+        reasoning: rawResult.reasoning || rawResult.explanation || rawResult.justification
+      };
+    }
+
+    // Normalize match object if it exists
+    if (matchObj) {
+      // Ensure document_number is a string
+      if (typeof matchObj.document_number === 'number') {
+        matchObj.document_number = String(matchObj.document_number);
+      }
+
+      // Ensure score is a number
+      if (typeof matchObj.score !== 'number') {
+        matchObj.score = parseInt(matchObj.score, 10) || 0;
+      }
+    }
+
+    // Construct final result strictly adhering to schema
+    const finalResult = {
+      match: matchObj,
+      candidate_titles: candidateDocs.map(d => d.title),
+      error: rawResult.error || (matchObj ? undefined : 'No strong match found or score below threshold.')
+    };
+    
+    return finalResult;
   },
 
   /**
@@ -132,12 +183,24 @@ const config: JobConfig = {
    */
   outputSchema: {
     type: 'object',
-    required: ['document_number', 'confidence', 'reasoning'],
+    required: ['match'],
     additionalProperties: false,
     properties: {
-      document_number: { type: ['string', 'null'] },
-      confidence: { type: 'number' },
-      reasoning: { type: 'string' }
+      match: {
+        type: ['object', 'null'],
+        properties: {
+          document_number: { type: 'string' },
+          score: { type: 'integer' },
+          reasoning: { type: 'string' }
+        },
+        required: ['document_number', 'score', 'reasoning'],
+        additionalProperties: false
+      },
+      candidate_titles: {
+        type: 'array',
+        items: { type: 'string' }
+      },
+      error: { type: 'string' }
     }
   },
 
@@ -149,7 +212,8 @@ const config: JobConfig = {
   model: 'gpt-5-mini',
   reasoningEffort: 'medium',
   
-  rowMetadataFields: ['internal_parent_act_id', 'parent_act_name', 'provision_number'],
+  // Row metadata to track in results
+  rowMetadataFields: ['internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'provision_number', 'teaching_texts'],
   
   customIdPrefix: 'map-code'
 };

@@ -2,10 +2,15 @@
 import fs from 'fs';
 import path from 'path';
 
-const RESULTS_DIR = 'concurrent/results/map-provisions-standard';
+const JOB_NAME = process.argv[2] || 'map-provisions-standard';
+const RESULTS_DIR = `concurrent/results/${JOB_NAME}`;
 
 async function calculateStats() {
   try {
+    if (!fs.existsSync(RESULTS_DIR)) {
+      throw new Error(`Results directory not found: ${RESULTS_DIR}`);
+    }
+
     // Find latest results directory
     const models = fs.readdirSync(RESULTS_DIR);
     if (models.length === 0) throw new Error('No models found');
@@ -20,6 +25,20 @@ async function calculateStats() {
     
     console.log(`Analyzing results from: ${resultsPath}\n`);
     
+    if (!fs.existsSync(resultsPath)) {
+       console.log('No successful-results.json found. Checking extracted-data.json...');
+       const extractedPath = path.join(latestDir, 'extracted-data.json');
+       if (fs.existsSync(extractedPath)) {
+         console.log(`Using extracted-data.json instead.`);
+         // extracted-data.json might contain failures too, but usually it's the full set
+         // For stats, we usually want successful ones, but let's try reading it.
+         // Actually, let's stick to successful-results.json if possible, or fall back to extracted-data.json
+         // and filter for success if needed. For now, let's just read it.
+       } else {
+         throw new Error('No results file found.');
+       }
+    }
+
     const results = JSON.parse(fs.readFileSync(resultsPath, 'utf-8'));
     
     let totalProcessed = results.length;
@@ -37,14 +56,25 @@ async function calculateStats() {
       '3': 0
     };
 
+    let totalScore = 0;
+
     for (const row of results) {
-      const matches = row.matches || [];
+      let matches: any[] = [];
+      
+      if (row.matches && Array.isArray(row.matches)) {
+        matches = row.matches;
+      } else if (row.match) {
+        matches = [row.match];
+      }
+
       matchCounts[String(Math.min(matches.length, 3)) as keyof typeof matchCounts]++;
       
       if (matches.length > 0) {
         totalMatchesFound++;
         // Analyze top match score
         const score = matches[0].score;
+        totalScore += score;
+        
         if (score >= 90) scoreDistribution['90-100']++;
         else if (score >= 80) scoreDistribution['80-89']++;
         else if (score >= 70) scoreDistribution['70-79']++;
@@ -52,15 +82,21 @@ async function calculateStats() {
       }
     }
 
-    console.log('--- MAPPING STATISTICS ---');
+    console.log(`--- MAPPING STATISTICS (${JOB_NAME}) ---`);
     console.log(`Total Decisions Processed: ${totalProcessed}`);
     console.log(`Decisions with at least one match: ${totalMatchesFound} (${((totalMatchesFound/totalProcessed)*100).toFixed(1)}%)`);
     
+    if (totalMatchesFound > 0) {
+      console.log(`Average Score: ${(totalScore / totalMatchesFound).toFixed(1)}`);
+    }
+
     console.log('\nMatches per Decision:');
     console.log(`0 matches: ${matchCounts['0']}`);
     console.log(`1 match:   ${matchCounts['1']}`);
-    console.log(`2 matches: ${matchCounts['2']}`);
-    console.log(`3 matches: ${matchCounts['3']}`);
+    if (matchCounts['2'] > 0 || matchCounts['3'] > 0) {
+        console.log(`2 matches: ${matchCounts['2']}`);
+        console.log(`3 matches: ${matchCounts['3']}`);
+    }
 
     console.log('\nTop Match Score Distribution (for decisions with matches):');
     console.log(`90-100: ${scoreDistribution['90-100']}`);
