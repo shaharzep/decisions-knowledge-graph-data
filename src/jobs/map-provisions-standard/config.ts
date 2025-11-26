@@ -150,7 +150,7 @@ const config: JobConfig = {
   /**
    * Post-process: Filter matches by score
    */
-  postProcessRow: (row: any, result: any) => {
+  postProcessRow: (_row: any, result: any) => {
     // Filter matches with score >= 80
     const validMatches = (result.matches || []).filter((m: any) => m.score >= 80);
     return {

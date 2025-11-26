@@ -211,6 +211,7 @@ Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_ma
   openaiProvider: 'azure',
   model: 'gpt-5-mini',
   reasoningEffort: 'medium',
+  concurrencyLimit: 200,
   
   // Row metadata to track in results
   rowMetadataFields: ['internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'provision_number', 'teaching_texts'],
