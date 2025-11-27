@@ -46,7 +46,6 @@ const config: JobConfig = {
     WHERE dcp.parent_act_type = 'CODE'
       AND dcp.internal_parent_act_id IS NOT NULL
     ORDER BY dcp.internal_parent_act_id
-    limit 2500
   `,
   
   dbQueryParams: [],
@@ -216,7 +215,9 @@ Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_ma
   // Row metadata to track in results
   rowMetadataFields: ['internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'provision_number', 'teaching_texts'],
   
-  customIdPrefix: 'map-code'
+  customIdPrefix: 'map-code',
+  
+  useFullDataPipeline: true
 };
 
 export default config;

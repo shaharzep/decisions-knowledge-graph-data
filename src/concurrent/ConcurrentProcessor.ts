@@ -848,7 +848,23 @@ export class ConcurrentProcessor {
    * Sanitize filename to remove unsafe characters
    */
   public static sanitizeFileName(name: string): string {
-    return name.replace(/[^a-zA-Z0-9._-]+/g, '_');
+    const sanitized = name.replace(/[^a-zA-Z0-9._-]+/g, '_');
+    
+    // Truncate to 200 chars to avoid ENAMETOOLONG
+    if (sanitized.length > 200) {
+      // Create a simple hash of the full name to ensure uniqueness even after truncation
+      let hash = 0;
+      for (let i = 0; i < name.length; i++) {
+        const char = name.charCodeAt(i);
+        hash = ((hash << 5) - hash) + char;
+        hash = hash & hash; // Convert to 32bit integer
+      }
+      const hashSuffix = Math.abs(hash).toString(16);
+      
+      return `${sanitized.substring(0, 190)}_${hashSuffix}`;
+    }
+    
+    return sanitized;
   }
 
 

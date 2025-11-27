@@ -1,6 +1,6 @@
 
 import { JobConfig } from '../JobConfig.js';
-import { NO_DATE_MATCH_PROMPT } from './prompt.js';
+import { NO_DATE_MATCH_PROMPT, BATCH_SELECTION_PROMPT, FINAL_RANKING_PROMPT } from './prompt.js';
 import { DatabaseConfig } from '../../config/database.js';
 
 /**
@@ -82,14 +82,13 @@ const config: JobConfig = {
       SELECT
         d.document_number,
         d.title,
-        d.dossier_number,
-        SIMILARITY(d.title, $2) as title_similarity
+        d.dossier_number
       FROM documents d
       JOIN article_contents ac ON d.document_number = ac.document_number
       WHERE ac.article_number = $1
     `;
-    const params: any[] = [articleLookup, row.parent_act_name];
-    let paramIdx = 3;
+    const params: any[] = [articleLookup];
+    let paramIdx = 2;
 
     // Date Filter
     if (row.decision_date) {
@@ -119,18 +118,7 @@ const config: JobConfig = {
 
     // Return early if no candidates - will be handled in prompt
     const candidate_titles = candidateDocs.map((d: any) => {
-      let cleanTitle = d.title
-        .replace(/\(NOTE[^)]*\)/gi, '')
-        .replace(/\([^)]*En vigueur[^)]*\)/gi, '')
-        .replace(/\([^)]*Consultation des versions[^)]*\)/gi, '')
-        .replace(/\s+/g, ' ')
-        .trim();
-
-      if (cleanTitle.length > 200) {
-        cleanTitle = cleanTitle.substring(0, 200) + '...';
-      }
-
-      return `[${d.document_number}] ${cleanTitle}`;
+      return `[${d.document_number}] ${d.title}`;
     });
 
     return {
@@ -141,105 +129,132 @@ const config: JobConfig = {
   },
 
   /**
-   * Generate Prompt
+   * Custom Execution with Tournament Logic
    */
-  promptTemplate: (row: any) => {
-    if (!row.candidates || row.candidates.length === 0) {
-      // No candidates - return minimal prompt that will fail gracefully
-      return NO_DATE_MATCH_PROMPT
-        .replace('{citedActName}', row.parent_act_name || 'Unknown')
-        .replace('{citedProvision}', row.provision_number || 'Unknown')
-        .replace('{context}', 'No legal teachings available.')
-        .replace('{candidatesList}', 'No candidates found.');
-    }
-
-    // Format context
+  customExecution: async (row: any, client: any) => {
+    const candidates = row.candidates || [];
     const contextText = row.teaching_texts && row.teaching_texts.length > 0
       ? row.teaching_texts.map((t: string, i: number) => `${i + 1}. ${t}`).join('\n\n')
       : 'No legal teachings available.';
 
-    // Format candidates
-    const candidatesList = row.candidates.map((d: any) => {
-      let cleanTitle = d.title
-        .replace(/\(NOTE[^)]*\)/gi, '')
-        .replace(/\([^)]*En vigueur[^)]*\)/gi, '')
-        .replace(/\([^)]*Consultation des versions[^)]*\)/gi, '')
-        .replace(/\s+/g, ' ')
-        .trim();
+    // Helper to format candidates
+    const formatCandidate = (c: any) => {
+      const date = c.dossier_number ? c.dossier_number.substring(0, 10) : 'Unknown';
+      return `ID: ${c.document_number}\nDate: ${date}\nTitle: ${c.title}`;
+    };
 
-      if (cleanTitle.length > 200) {
-        cleanTitle = cleanTitle.substring(0, 200) + '...';
+    let shortlistedCandidates: any[] = [];
+
+    // --- PHASE 1: Batch Selection (Tournament Semi-Finals) ---
+    // Use a large batch size to minimize API calls, as requested.
+    const BATCH_SIZE = 1000;
+    
+    if (candidates.length > BATCH_SIZE) {
+      const batches = [];
+      for (let i = 0; i < candidates.length; i += BATCH_SIZE) {
+        batches.push(candidates.slice(i, i + BATCH_SIZE));
       }
 
-      const date = d.dossier_number ? d.dossier_number.substring(0, 10) : 'Unknown';
-      const similarity = d.title_similarity ? ` (similarity: ${(d.title_similarity * 100).toFixed(0)}%)` : '';
+      // Process batches in parallel (limited by client concurrency usually, but here we do sequential to avoid rate limits per request)
+      for (const batch of batches) {
+        const batchPrompt = BATCH_SELECTION_PROMPT
+          .replace('{citedActName}', row.parent_act_name)
+          .replace('{citedProvision}', row.provision_number)
+          .replace('{context}', contextText)
+          .replace('{candidatesList}', batch.map(formatCandidate).join('\n---\n'));
 
-      return `ID: ${d.document_number}
-Date: ${date}
-Title: ${cleanTitle}${similarity}`;
-    }).join('\n---\n');
+        try {
+          const response = await client.complete(
+            [{ role: 'user', content: batchPrompt }],
+            { type: 'json_object' },
+            { model: 'gpt-5-mini', reasoningEffort: 'minimal' } // Fast, cheap model for filtering
+          );
+          const result = JSON.parse(response.choices[0].message.content);
+          
+          if (result.matches) {
+            for (const m of result.matches) {
+              const doc = batch.find((c: any) => String(c.document_number) === String(m.document_number));
+              if (doc) shortlistedCandidates.push(doc);
+            }
+          }
+        } catch (e) {
+          console.error('Error in batch selection:', e);
+          // On error, we might skip this batch or add all? Let's skip to be safe/strict.
+        }
+      }
+    } else {
+      // Small enough to process all at once
+      shortlistedCandidates = candidates;
+    }
 
-    return NO_DATE_MATCH_PROMPT
+    // If no candidates survived (or none existed), return empty
+    if (shortlistedCandidates.length === 0) {
+      return { matches: [], error: 'No candidates found or selected.' };
+    }
+
+    // --- PHASE 2: Final Ranking (Tournament Finals) ---
+    const finalPrompt = FINAL_RANKING_PROMPT
       .replace('{citedActName}', row.parent_act_name)
       .replace('{citedProvision}', row.provision_number)
       .replace('{context}', contextText)
-      .replace('{candidatesList}', candidatesList);
-  },
+      .replace('{candidatesList}', shortlistedCandidates.map(formatCandidate).join('\n---\n'));
 
-  /**
-   * Post-process: Normalize result format
-   */
-  postProcessRow: (_row: any, result: any) => {
-    // Handle different response formats from LLM
-    let matchObj = null;
+    const finalResponse = await client.complete(
+      [{ role: 'user', content: finalPrompt }],
+      { type: 'json_object' },
+      { model: 'gpt-5-mini', reasoningEffort: 'medium' } // Stronger reasoning for final pick
+    );
 
-    if (result.match) {
-      matchObj = result.match;
-    } else if (result.document_number) {
-      // Flat format - normalize to nested
-      matchObj = {
-        document_number: result.document_number,
-        score: result.score,
-        reasoning: result.reasoning || result.explanation
-      };
+    let finalResult;
+    try {
+      finalResult = JSON.parse(finalResponse.choices[0].message.content);
+    } catch (e) {
+      return { matches: [], error: 'Failed to parse final ranking JSON.' };
     }
 
-    // Sanitize types
-    if (matchObj) {
-      if (typeof matchObj.document_number === 'number') {
-        matchObj.document_number = String(matchObj.document_number);
-      }
-      if (typeof matchObj.score !== 'number') {
-        matchObj.score = parseInt(matchObj.score, 10) || 0;
-      }
-    }
+    // Normalize and Filter
+    let matches = finalResult.matches || [];
+    if (!Array.isArray(matches)) matches = [];
+
+    // Filter by score >= 80 (Strictness check)
+    matches = matches.filter((m: any) => m.score >= 80);
 
     return {
-      match: matchObj,
-      candidate_titles: result.candidate_titles || _row.candidate_titles || [],
-      error: result.error || (matchObj ? undefined : 'No match selected.')
+      matches: matches.map((m: any) => ({
+        document_number: String(m.document_number),
+        score: parseInt(m.score, 10) || 0,
+        reasoning: m.reasoning,
+        confidence: (parseInt(m.score, 10) || 0) / 100
+      })),
+      candidate_titles: candidates.map((c: any) => c.title) // Keep track of all original candidates
     };
   },
 
   /**
    * Output Schema
-   * Note: Only includes fields that LLM must return.
-   * candidate_titles and error are added in postProcessRow from metadata.
    */
   outputSchema: {
     type: 'object',
-    required: ['match'],
+    required: ['matches'],
     additionalProperties: false,
     properties: {
-      match: {
-        type: ['object', 'null'],
-        properties: {
-          document_number: { type: 'string' },
-          score: { type: 'integer' },
-          reasoning: { type: 'string' }
-        },
-        required: ['document_number', 'score', 'reasoning'],
-        additionalProperties: false
+      matches: {
+        type: 'array',
+        items: {
+          type: 'object',
+          required: ['document_number', 'score', 'reasoning'],
+          additionalProperties: false,
+          properties: {
+            document_number: { type: 'string' },
+            score: { type: 'integer' },
+            reasoning: { type: 'string' },
+            confidence: { type: 'number' }
+          }
+        }
+      },
+      candidate_titles: {
+        type: 'array',
+        items: { type: 'string' }
       }
     }
   },
@@ -249,11 +264,10 @@ Title: ${cleanTitle}${similarity}`;
   // Azure OpenAI Configuration
   provider: 'openai',
   openaiProvider: 'azure',
-  model: 'gpt-4.1',
-  temperature: 0,
+  model: 'gpt-5-mini',
   // reasoningEffort: 'low',
   // verbosity: 'low',
-  concurrencyLimit: 200,  // Requires pg_trgm GIN index on documents.title
+  concurrencyLimit: 50,  // Requires pg_trgm GIN index on documents.title
   
   // Row metadata
   rowMetadataFields: ['internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'provision_number', 'teaching_texts', 'candidate_titles'],

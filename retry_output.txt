@@ -1,0 +1,16 @@
+Loading failures from: /Users/shaharzep/ontology/stage1-data-extraction/full-data/map-provisions-standard/2025-11-26T23-39-34-775Z/failures.json
+Extracted IDs: NaN...
+Starting retry job...
+🔷 Azure OpenAI client initialized for gpt-5-mini
+   Endpoint: https://brieflee.openai.azure.com/
+   Deployment: gpt-5-mini
+   API Version: 2025-03-01-preview
+2025-11-26 22:25:08 [[32minfo[39m] Job started {"component":"Job:ConcurrentRunner:map-provisions-standard-retry","jobId":"ConcurrentRunner:map-provisions-standard-retry"}
+2025-11-26 22:25:08 [[32minfo[39m] Step 1: Loading decisions from database {"component":"Job:ConcurrentRunner:map-provisions-standard-retry","jobId":"ConcurrentRunner:map-provisions-standard-retry"}
+📊 Database pool initialized: postgres@13.39.114.68:5433/lawyers
+2025-11-26 22:25:09 [[31merror[39m] Job failed {"component":"Job:ConcurrentRunner:map-provisions-standard-retry","jobId":"ConcurrentRunner:map-provisions-standard-retry","error":"Database query returned no rows","stack":"Error: Database query returned no rows\n    at ConcurrentRunner.loadDecisions (/Users/shaharzep/ontology/stage1-data-extraction/src/concurrent/ConcurrentRunner.ts:167:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async ConcurrentRunner.run (/Users/shaharzep/ontology/stage1-data-extraction/src/concurrent/ConcurrentRunner.ts:89:25)\n    at async retryProvisionMapping (/Users/shaharzep/ontology/stage1-data-extraction/src/scripts/retry-provision-mapping.ts:81:3)"}
+Error: Database query returned no rows
+    at ConcurrentRunner.loadDecisions (/Users/shaharzep/ontology/stage1-data-extraction/src/concurrent/ConcurrentRunner.ts:167:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConcurrentRunner.run (/Users/shaharzep/ontology/stage1-data-extraction/src/concurrent/ConcurrentRunner.ts:89:25)
+    at async retryProvisionMapping (/Users/shaharzep/ontology/stage1-data-extraction/src/scripts/retry-provision-mapping.ts:81:3)

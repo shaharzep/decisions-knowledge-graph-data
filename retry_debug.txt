@@ -1,0 +1,61 @@
+Loading failures from: /Users/shaharzep/ontology/stage1-data-extraction/full-data/map-provisions-standard/2025-11-26T23-39-34-775Z/failures.json
+First failure record: {
+  "customId": "map-std-0003",
+  "reason": "Write Error",
+  "error": "ENAMETOOLONG: name too long, open '/Users/shaharzep/ontology/stage1-data-extraction/full-data/map-provisions-standard/2025-11-26T23-39-34-775Z/jsons/ACT-ECLI_BE_GHCC_2015_ARR.1600030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.json'",
+  "decision_id": "ECLI:BE:GHCC:2015:ARR.160",
+  "language": "FR",
+  "metadata": {
+    "internal_parent_act_id": "ACT-ECLI:BE:GHCC:2015:ARR.1600030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "decision_id": "ECLI:BE:GHCC:2015:ARR.160",
+    "language": "FR",
+    "parent_act_name": "loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994 (loi coord. 14/07/1994)",
+    "parent_act_date": "1994-07-14T04:00:00.000Z",
+    "parent_act_type": "LOI",
+    "teaching_texts": [
+      "Si une disposition principale est annulée pour inconstitutionnalité et que d'autres dispositions attaquées n'en sont que des modalités indissociablement liées, ces modalités doivent elles aussi être annulées en tant qu'elles participent à la même opération normative.",
+      "Lorsqu'une contribution est présentée comme la contrepartie d'un avantage légal, elle doit respecter le juste équilibre entre l'intérêt général et la protection du droit de propriété : la cotisation est disproportionnée si elle est exigée alors que le bénéficiaire n'a pas la jouissance effective de l'avantage et si des avances sont imposées indépendamment de cette jouissance.",
+      "L'article 20/1, alinéa 9, doit être interprété comme imposant la cotisation par litre de plasma sur la base des litres dont les dérivés ont été effectivement fournis par l'opérateur visé aux hôpitaux «contre la base de remboursement», et non comme visant indifféremment tous les litres fournis par tout fournisseur."
+    ],
+    "candidate_titles": [
+      "[1994025259] 14 JUILLET 1994. - Loi modifiant la loi du 24 février 1921 concernant le trafic des substances vénéneuses, soporifiques, stupéfiantes, désinfectantes ou antiseptiques.",
+      "[1994071451] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités coordonnée le 14 juillet 1994. Partie 1. : TEXTE. (NOTE : art. 165 modifié dans le futur par L [2005-04-27/34](https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&lg_txt=f&cn_search=2005042734), art. 66, 105; En vigueur : indéterminée) (NOTE : art. 29bis, alinéa 4, abrogé dans le futur par L [2005-12-27/31](https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&lg_txt=f&cn_search=2005122731), art. 83, 116; En vigueur : indéterminée) (NOTE : art. 48, 35 et 35bis modifiés dans le futur par L [2006-12-27/30](https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&lg_txt=f&cn_search=2006122730), art. 225 à 227, 125; En vigueur : indéterminée) (NOTE : art. 35bis modifié dans le futur par L [2012-03-29/08](https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&lg_txt=f&cn_search=2012032908), art. 16, 194; En vigueur : 01-05-2012, reportée à une date à déterminer par le Roi ; voir L [2012-06-22/02](https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&lg_txt=f&cn_search=2012062202), art. 129)(NOTE : art. 35bis, 35ter modifiés dans le futur par L [2014-02-07/13](https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&lg_txt=f&cn_search=2014020713), art. 17 et 18, 216; En vigueur : indéterminée) (NOTE : art. 36quater et 36duodecies modifiés dans le futur pour la Région flamande avec effet à une date indéterminée par DCFL [2016-07-15/17](https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&lg_txt=f&cn_search=2016071517), art. 17 et 20; En vigueur : indéterminée) (NOTE : art. 22 modifié avec effet à une date indéterminée par L [2019-03-29/40](https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&lg_txt=f&cn_search=2019032940), art. 4; En vigueur : indéterminée) (Note: ED [2023-12-20/01](https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&lg_txt=f&cn_search=2023122001) pour les titulaires dont la période d'incapacité primaire visée à l'article 87 de la loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994 a débuté avant le 1er janvier 2024 est 01-07-2024)(NOTE : Consultation des versions antérieures à partir du 31-08-1994 et mise à jour au 26-05-2025)",
+      "[1994071454] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités coordonnée le 14 juillet 1994. - Partie 2. : ANNEXES et REFERENCES.(NOTE 1 : les mots \" Caisse des soins de santé de la Société nationale des Chemins de fer belges \" sont remplacés par les mots \" Caisse des soins de santé de la S.N.C.B. Holding \" ; voir AR 2004-10-18/32, art. 38 ; En vigueur : 01-01-2005) (NOTE : Consultation des versions antérieures à partir du 27-08-1994 et mise à jour au 20-10-2004)",
+      "[1994021244] 14 JUILLET 1994. - ARRET N° 59/94 DE LA COUR D'ARBITRAGE  (Numéro de rôle : 592)  En cause : les questions préjudicielles concernant l'article 56, # 1er, des lois sur l'emploi des langues en matière administrative, coordonnées le 18 juillet 1966, et l'article 76 de la loi du 31 décembre 1983 de réformes institutionnelles pour la Communauté germanophone, posées par le Conseil d'Etat.",
+      "[1994021254] 14 JUILLET 1994. - ARRET N° 61/94 DE LA COUR D'ARBITRAGE  (Numéro de rôle : 611)  En cause : le recours en annulation partielle de la loi du 6 mai 1993 modifiant la loi du 15 décembre 1980 sur l'accès au territoire, le séjour, l'établissement et l'éloignement des étrangers, introduit par l'association sans but lucratif Mouvement contre le racisme, l'antisémitisme et la xénophobie et autres",
+      "[1994021283] 14 JUILLET 1994. - ARRET N° 64/94 DE LA COUR D'ARBITRAGE  (Numéros de rôle : 704 et 705)  En cause : les demandes de suspension de l'article 3 de la loi du 6 août 1993 modifiant les articles 259bis et 259quater du Code judiciaire et complétant l'article 21, # 1er, de la loi du 18 juillet 1991 modifiant les règles du Code judiciaire relatives à la formation et au recrutement des magistrats",
+      "[1994025244] 14 JUILLET 1994. - Loi relative au financement de l'Institut d'expertise vétérinaire. (NOTE : Consultation des versions antérieures à partir du 08-10-1994 et mise à jour au 31-12-1998.)",
+      "[1994025285] 14 JUILLET 1994. - Loi portant création du Comité d'attribution du label écologique européen(NOTE : Consultation des versions antérieures à partir du 17-06-2014 et mise à jour au 17-06-2014)",
+      "[1994071452] 14 JUILLET 1994. - STATUTS de la Société régionale wallonne du Transport. - Modification",
+      "[1994921245] 14 JUILLET 1994. - ARRET N° 60/94 DE LA COUR D'ARBITRAGE  (Numéros de rôle : 597-598)  En cause : les recours en annulation des articles 51 et 91 de la loi du 15 février 1993 portant réforme de la loi du 9 août 1963 instituant et organisant un régime d'assurance obligatoire contre la maladie et l'invalidité, introduit par la \"Vereniging voor Vlaamse Klinische Laboratoria\" et la s.c. CDH-Larem",
+      "[2008000938] (1994-07-14) Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives de l'année 2007",
+      "[2008001027] (1994-07-14) Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives",
+      "[2009000104] (1994-07-14) Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives",
+      "[2009000211] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives",
+      "[2010000576] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives",
+      "[2010000581] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives du premier semestre de l'année 2010",
+      "[2011000117] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives",
+      "[2012000022] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives",
+      "[2013000466] 14 JUILLET 1994. - Loi coordonnée relative à l'assurance obligatoire soins de santé et indemnités. - Traduction allemande de dispositions modificatives",
+      "[2013000467] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives",
+      "[2014000464] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives",
+      "[2015000138] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives",
+      "[2018010356] 14 JUILLET 1994. - Loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. - Traduction allemande de dispositions modificatives"
+    ]
+  }
+}
+Extracted IDs: NaN...
+Starting retry job...
+🔷 Azure OpenAI client initialized for gpt-5-mini
+   Endpoint: https://brieflee.openai.azure.com/
+   Deployment: gpt-5-mini
+   API Version: 2025-03-01-preview
+2025-11-26 22:25:57 [[32minfo[39m] Job started {"component":"Job:ConcurrentRunner:map-provisions-standard-retry","jobId":"ConcurrentRunner:map-provisions-standard-retry"}
+2025-11-26 22:25:57 [[32minfo[39m] Step 1: Loading decisions from database {"component":"Job:ConcurrentRunner:map-provisions-standard-retry","jobId":"ConcurrentRunner:map-provisions-standard-retry"}
+📊 Database pool initialized: postgres@13.39.114.68:5433/lawyers
+2025-11-26 22:25:58 [[31merror[39m] Job failed {"component":"Job:ConcurrentRunner:map-provisions-standard-retry","jobId":"ConcurrentRunner:map-provisions-standard-retry","error":"Database query returned no rows","stack":"Error: Database query returned no rows\n    at ConcurrentRunner.loadDecisions (/Users/shaharzep/ontology/stage1-data-extraction/src/concurrent/ConcurrentRunner.ts:167:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async ConcurrentRunner.run (/Users/shaharzep/ontology/stage1-data-extraction/src/concurrent/ConcurrentRunner.ts:89:25)\n    at async retryProvisionMapping (/Users/shaharzep/ontology/stage1-data-extraction/src/scripts/retry-provision-mapping.ts:86:3)"}
+Error: Database query returned no rows
+    at ConcurrentRunner.loadDecisions (/Users/shaharzep/ontology/stage1-data-extraction/src/concurrent/ConcurrentRunner.ts:167:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConcurrentRunner.run (/Users/shaharzep/ontology/stage1-data-extraction/src/concurrent/ConcurrentRunner.ts:89:25)
+    at async retryProvisionMapping (/Users/shaharzep/ontology/stage1-data-extraction/src/scripts/retry-provision-mapping.ts:86:3)

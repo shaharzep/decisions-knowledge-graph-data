@@ -19,7 +19,7 @@ type CompletionSettings = OpenAICompletionSettings | ClaudeCompletionSettings;
 export interface ConcurrentOptions {
   concurrencyLimit?: number;
   timeout?: number; // Timeout per request in milliseconds
-  resumeFrom?: string; // Directory to resume from (full-data pipeline)
+  resumeFrom?: string | string[]; // Directory to resume from (full-data pipeline)
 }
 
 /**
@@ -180,8 +180,18 @@ export class ConcurrentRunner {
 
     // Step 3: Filter already processed decisions if resuming
     if (this.options.resumeFrom) {
-      this.logger.info(`Resuming from directory: ${this.options.resumeFrom}`);
-      const processedIds = await this.getProcessedIds(this.options.resumeFrom);
+      const resumePaths = Array.isArray(this.options.resumeFrom) 
+        ? this.options.resumeFrom 
+        : (this.options.resumeFrom ? [this.options.resumeFrom] : []);
+
+      if (resumePaths.length > 0) {
+        this.logger.info(`Resuming from director${resumePaths.length > 1 ? 'ies' : 'y'}: ${resumePaths.join(', ')}`);
+        
+        const processedIds = new Set<string>();
+        for (const resumeDir of resumePaths) {
+          const ids = await this.getProcessedIds(resumeDir);
+          ids.forEach(id => processedIds.add(id));
+        }
       
       if (processedIds.size > 0) {
         const originalCount = rows.length;
@@ -205,7 +215,8 @@ export class ConcurrentRunner {
         this.logger.info(`Resuming: Skipped ${originalCount - filteredRows.length} already processed records. Remaining: ${filteredRows.length}`);
         return filteredRows;
       } else {
-        this.logger.warn('Resume directory found but contained no valid JSON files. Processing all records.');
+        this.logger.warn('Resume director(y/ies) found but contained no valid JSON files. Processing all records.');
+      }
       }
     }
 
@@ -233,7 +244,7 @@ export class ConcurrentRunner {
       
       this.logger.info(`Found ${processedIds.size} processed records in resume directory`);
     } catch (error) {
-      this.logger.warn(`Could not read resume directory: ${jsonsDir}`, error);
+      this.logger.warn(`Could not read resume directory: ${jsonsDir}`, error!);
     }
 
     return processedIds;
