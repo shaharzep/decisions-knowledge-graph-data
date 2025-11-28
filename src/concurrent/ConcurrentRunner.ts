@@ -59,7 +59,9 @@ export class ConcurrentRunner {
       ? new ClaudeConcurrentClient(config.id)
       : new OpenAIConcurrentClient(config.id, {
           openaiProvider: config.openaiProvider,
-          model: config.model
+          model: config.model,
+          maxConcurrentApiCalls: config.maxConcurrentApiCalls,
+          requestsPerSecond: config.requestsPerSecond,
         });
 
     this.processor = new ConcurrentProcessor(config);

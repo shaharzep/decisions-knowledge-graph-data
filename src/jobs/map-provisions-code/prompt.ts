@@ -30,7 +30,7 @@ export const PASS_2_EXACT_MATCH_PROMPT = `
 You are a legal expert assisting in mapping a cited provision to the exact legal document and article.
 
 # Goal
-Identify the exact document (law/act) that contains the cited article from the provided candidates.
+Evaluate ALL provided candidate documents and score them based on how well they match the cited provision.
 
 # Input
 - Cited Article Number: "{citedArticle}"
@@ -47,28 +47,46 @@ Identify the exact document (law/act) that contains the cited article from the p
     - Title
     - **Article Content** (The text of the article in that document, if available)
 
-2. **Match Strategy**:
-    - **Primary Check (Article Content)**: If "Article Content" is provided, check if it matches the subject matter implied by the "Context" and "Cited Act Name". This is the strongest signal for disambiguation (e.g., distinguishing between different "Code civil" sub-documents).
-    - **Secondary Check (Title)**: Does the document title align with the "Cited Act Name"?
-    - **Context Validation**: Does the selected document and article make sense given the "Legal Teachings"?
+2. **Scoring Strategy (0-100)**:
+    You must calculate the score based on two equal factors (50/50 split):
+    
+    - **Factor 1: Title & Range Relevance (Max 50 points)**
+        - **Act Name**: Does the candidate's Title match the "Cited Act Name"?
+        - **Range Check**: If (and ONLY if) the Title contains an explicit article range (e.g., "art. 1-500"), check if it includes the "Cited Article Number".
+        - 50/50: Act Name matches AND (Range includes article OR **No range is present in the title**).
+        - 0/50: Act Name mismatch OR Range **explicitly EXCLUDES** the cited article (e.g. Title says "art. 1-100" but Cited is "art. 200").
 
-3. **Ambiguity Handling**:
-    - If multiple documents have the same article number, use the **Article Content** and **Context** to decide.
-    - If the article content is missing for a candidate, rely on the Title and Context.
+    - **Factor 2: Context & Content Relevance (Max 50 points)**
+        - **Article Content Check**: This is the strongest signal. Does the candidate's "Article Content" match the subject matter in "Context"?
+        - **CRITICAL**: If "Article Content" is "Not available", it means the article number DOES NOT EXIST in this document. You MUST score this factor as **0/50**.
+        - 50/50: Strong confirmation from content/context.
+        - 25/50: Plausible content but weak confirmation.
+        - 0/50: "Article Content" is "Not available", or content is explicitly contradictory.
 
-4. **Selection**:
-    - **MANDATORY**: You MUST select the ONE best matching document from the candidates.
-    - Do NOT return null. Always return a match.
-    - If the match is weak or uncertain, select the most plausible candidate and assign a **low score** (e.g., < 50).
-    - Use the score to reflect your confidence, but always provide a selection.
+    - **Total Score**: Sum of Factor 1 + Factor 2.
+
+    **GOLDEN RULE**: 
+    If the **Title** is a precise match for the "Cited Act Name", this candidate should be prioritized, **BUT ONLY IF** the "Article Content" is present (not "Not available").
+    - A candidate with Title Match + Existing Content (even if generic) > Candidate with Title Match + Missing Content.
+    - If "Article Content" is "Not available", the maximum Total Score should be 50 (Title only).
+    - If another candidate has a decent Title match AND the Article Content is present and matches the context, it should win.
+
+3. **Output Requirements**:
+    - You MUST return an entry for **EVERY** candidate in the list, even if the score is 0.
+    - Provide a confidence score (0.0 to 1.0) which corresponds to the total score (e.g., score 85 = confidence 0.85).
+    - Provide reasoning explaining the score breakdown.
 
 # Output Schema
-Return a JSON object:
+Return a JSON object with a "matches" array containing ALL candidates:
 {
-  "match": {
-    "document_number": "string (the ID of the selected candidate)",
-    "score": number (0-100 confidence score),
-    "reasoning": "string (explanation of why this document was selected, citing title, article content match, and context)"
-  }
+  "matches": [
+    {
+      "document_number": "string (ID)",
+      "score": number (0-100),
+      "confidence": number (0.0-1.0),
+      "reasoning": "string (Explain the 50/50 scoring split)"
+    },
+    ...
+  ]
 }
 `;

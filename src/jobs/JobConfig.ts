@@ -331,6 +331,32 @@ export interface JobConfig {
   concurrencyLimit?: number;
 
   /**
+   * Maximum concurrent LLM API calls for this job.
+   *
+   * For jobs using customExecution with multiple LLM calls per row,
+   * this limits total concurrent API calls to prevent rate limiting.
+   *
+   * Default: 100 (suitable for standard single-call-per-row jobs)
+   *
+   * Example: For map-provisions-no-date which makes 2-10 LLM calls per provision,
+   * set this to 30-50 to prevent 429 rate limit errors.
+   */
+  maxConcurrentApiCalls?: number;
+
+  /**
+   * Maximum LLM API requests per second for this job.
+   *
+   * Adds delay between requests to prevent rate limit bursts.
+   * Use this when concurrency limiting alone isn't enough.
+   *
+   * Default: undefined (no rate limiting, only concurrency limiting)
+   *
+   * Example: For Azure with 60 RPM limit, set to 1.
+   * For higher limits, set to 10-50 depending on your quota.
+   */
+  requestsPerSecond?: number;
+
+  /**
    * Enable full-data pipeline for large dataset extraction.
    *
    * When false (default):

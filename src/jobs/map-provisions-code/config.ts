@@ -135,43 +135,34 @@ Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_ma
     try {
       rawResult = JSON.parse(pass2Response.choices[0].message.content);
     } catch (e) {
-      return { match: null, error: 'Failed to parse LLM response JSON.', candidate_titles: candidateDocs.map(d => d.title) };
+      return { matches: [], error: 'Failed to parse LLM response JSON.', candidate_titles: candidateDocs.map(d => d.title) };
     }
 
     // Sanitize and normalize the result
-    let matchObj = null;
+    let matches = rawResult.matches || [];
+    if (!Array.isArray(matches)) matches = [];
 
-    // Handle case where LLM returns match object
-    if (rawResult.match) {
-      matchObj = rawResult.match;
-    } 
-    // Handle case where LLM returns fields at root
-    else if (rawResult.document_number) {
-      matchObj = {
-        document_number: rawResult.document_number,
-        score: rawResult.score,
-        reasoning: rawResult.reasoning || rawResult.explanation || rawResult.justification
+    // Ensure all fields are correct types
+    matches = matches.map((m: any) => {
+      const docId = String(m.document_number);
+      const candidate = candidateDocs.find(d => String(d.document_number) === docId);
+      return {
+        document_number: docId,
+        title: candidate ? candidate.title : 'Unknown Title',
+        score: parseInt(m.score, 10) || 0,
+        confidence: parseFloat(m.confidence) || 0.0,
+        reasoning: m.reasoning || 'No reasoning provided'
       };
-    }
+    });
 
-    // Normalize match object if it exists
-    if (matchObj) {
-      // Ensure document_number is a string
-      if (typeof matchObj.document_number === 'number') {
-        matchObj.document_number = String(matchObj.document_number);
-      }
-
-      // Ensure score is a number
-      if (typeof matchObj.score !== 'number') {
-        matchObj.score = parseInt(matchObj.score, 10) || 0;
-      }
-    }
+    // Sort by score descending
+    matches.sort((a: any, b: any) => b.score - a.score);
 
     // Construct final result strictly adhering to schema
     const finalResult = {
-      match: matchObj,
+      matches: matches,
       candidate_titles: candidateDocs.map(d => d.title),
-      error: rawResult.error || (matchObj ? undefined : 'No strong match found or score below threshold.')
+      error: rawResult.error
     };
     
     return finalResult;
@@ -182,18 +173,23 @@ Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_ma
    */
   outputSchema: {
     type: 'object',
-    required: ['match'],
+    required: ['matches'],
     additionalProperties: false,
     properties: {
-      match: {
-        type: ['object', 'null'],
-        properties: {
-          document_number: { type: 'string' },
-          score: { type: 'integer' },
-          reasoning: { type: 'string' }
-        },
-        required: ['document_number', 'score', 'reasoning'],
-        additionalProperties: false
+      matches: {
+        type: 'array',
+        items: {
+          type: 'object',
+          properties: {
+            document_number: { type: 'string' },
+            title: { type: 'string' },
+            score: { type: 'integer' },
+            confidence: { type: 'number' },
+            reasoning: { type: 'string' }
+          },
+          required: ['document_number', 'title', 'score', 'confidence', 'reasoning'],
+          additionalProperties: false
+        }
       },
       candidate_titles: {
         type: 'array',

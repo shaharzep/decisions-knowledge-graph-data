@@ -62,10 +62,10 @@ You are a legal expert specializing in Belgian law. Your task is to filter a lis
 
 ## INSTRUCTIONS
 1. **Analyze**: Compare the Cited Act Name with the candidate titles. Use the Context to verify subject matter alignment.
-2. **Filter**: Select up to 5 candidates that are POTENTIAL matches.
-   - If a candidate is clearly irrelevant, ignore it.
-   - If a candidate is a plausible match (even if not perfect), include it.
-   - Be generous in this phase: we want to keep all potential candidates for the final round.
+2. **Filter**: Select the TOP 3 candidates that are the BEST potential matches.
+   - Rank by relevance: title match + subject matter alignment.
+   - If fewer than 3 candidates are plausible, return only the plausible ones.
+   - If no candidates are plausible, return an empty matches array.
 
 ## OUTPUT SCHEMA
 \`\`\`json

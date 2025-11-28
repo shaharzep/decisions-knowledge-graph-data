@@ -1,12 +1,12 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url';
+
 import { ConcurrentRunner } from '../concurrent/ConcurrentRunner.js';
 import mapProvisionsStandardConfig from '../jobs/map-provisions-standard/config.js';
 import { JobConfig } from '../jobs/JobConfig.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+
+
 
 async function retryProvisionMapping() {
   const args = process.argv.slice(2);

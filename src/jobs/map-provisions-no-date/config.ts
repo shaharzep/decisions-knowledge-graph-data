@@ -1,14 +1,107 @@
 
 import { JobConfig } from '../JobConfig.js';
-import { NO_DATE_MATCH_PROMPT, BATCH_SELECTION_PROMPT, FINAL_RANKING_PROMPT } from './prompt.js';
+import { /* BATCH_SELECTION_PROMPT, */ FINAL_RANKING_PROMPT } from './prompt.js';
 import { DatabaseConfig } from '../../config/database.js';
+import fs from 'fs';
+import path from 'path';
 
 /**
  * No-Date Provision Mapping Job
- * 
+ *
  * Maps provisions that have a Parent Act Name and Type but NO Date.
  * Uses Act Type mapping and Decision Date constraint to filter candidates.
+ *
+ * RESUME MODE: Set RESUME=true to skip already-processed provisions.
  */
+
+// =====================================================================================
+// RESUME LOGIC HELPERS
+// =====================================================================================
+
+/**
+ * Get all timestamped run directories for a job
+ */
+function getRunTimestamps(jobId: string): string[] {
+  const resultsDir = path.join(process.cwd(), 'full-data', jobId);
+
+  if (!fs.existsSync(resultsDir)) {
+    return [];
+  }
+
+  return fs.readdirSync(resultsDir)
+    .filter(name => /^\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}-\d{3}Z/.test(name))
+    .sort()
+    .reverse();
+}
+
+/**
+ * Load processed provision IDs from a single run
+ */
+function loadProcessedIdsFromRun(jobId: string, timestamp: string): string[] {
+  const jsonsDir = path.join(process.cwd(), 'full-data', jobId, timestamp, 'jsons');
+
+  if (!fs.existsSync(jsonsDir)) {
+    return [];
+  }
+
+  const jsonFiles = fs.readdirSync(jsonsDir).filter(f => f.endsWith('.json'));
+  const ids: string[] = [];
+
+  for (const filename of jsonFiles) {
+    try {
+      const filepath = path.join(jsonsDir, filename);
+      const data = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
+      if (data.internal_parent_act_id) {
+        ids.push(data.internal_parent_act_id);
+      }
+    } catch {
+      // Skip malformed files
+    }
+  }
+
+  return ids;
+}
+
+/**
+ * Build set of all processed provision IDs across all previous runs
+ */
+function buildCompletedProvisionSet(): Set<string> {
+  const completedSet = new Set<string>();
+  const timestamps = getRunTimestamps('map-provisions-no-date');
+
+  if (timestamps.length === 0) {
+    return completedSet;
+  }
+
+  console.log(`\n⏯️  RESUME MODE: Scanning ${timestamps.length} previous run(s)...`);
+
+  for (const ts of timestamps) {
+    const ids = loadProcessedIdsFromRun('map-provisions-no-date', ts);
+    console.log(`   - Run ${ts}: ${ids.length} provisions`);
+    for (const id of ids) {
+      completedSet.add(id);
+    }
+  }
+
+  console.log(`   Total unique completed: ${completedSet.size}`);
+  return completedSet;
+}
+
+// =====================================================================================
+// RESUME STATE
+// =====================================================================================
+
+const RESUME_MODE = process.env.RESUME === 'true';
+const COMPLETED_PROVISIONS: Set<string> = RESUME_MODE ? buildCompletedProvisionSet() : new Set();
+
+if (RESUME_MODE) {
+  console.log(`   Remaining to process: (will be calculated after DB query)\n`);
+}
+
+// =====================================================================================
+// JOB CONFIG
+// =====================================================================================
+
 const config: JobConfig = {
   id: 'map-provisions-no-date',
   description: 'Map cited provisions without date to specific documents (Type & Date Filter)',
@@ -40,15 +133,21 @@ const config: JobConfig = {
       AND dcp.parent_act_type NOT LIKE '%_UE'
       AND dcp.internal_parent_act_id IS NOT NULL
     ORDER BY dcp.internal_parent_act_id
-    LIMIT 1000
   `,
-  
+
   dbQueryParams: [],
 
   /**
    * Preprocess: Fetch candidate documents
+   *
+   * RESUME: Skips provisions that were already processed in previous runs.
    */
   preprocessRow: async (row: any) => {
+    // RESUME: Skip already-processed provisions
+    if (RESUME_MODE && COMPLETED_PROVISIONS.has(row.internal_parent_act_id)) {
+      return null;
+    }
+
     // 1. Determine Target Document Type
     let targetTypes: string[] = [];
     const type = row.parent_act_type ? row.parent_act_type.toUpperCase() : '';
@@ -64,20 +163,18 @@ const config: JobConfig = {
     } else if (['GRONDWET', 'CONSTITUTION'].includes(type)) {
       targetTypes = ['CONSTITUTION'];
     } else {
-      // 'AUTRE', 'ANDERE', or unknown -> No type filter (empty array means all)
-      targetTypes = []; 
+      targetTypes = ['unknown'];
     }
 
-    // 2. Fetch Candidates
-    // Filter by:
-    // - Provision Number (INNER JOIN)
-    // - Document Type (if mapped)
-    // - Date: document_date < decision_date
-    // - Title similarity to parent_act_name (using pg_trgm)
-
-    // Use provision_number_key for article lookup, fallback to provision_number
+    // 2. Use provision_number_key for article lookup, fallback to provision_number
     const articleLookup = row.provision_number_key || row.provision_number;
 
+    if (!articleLookup) {
+      console.warn(`No article number for ${row.internal_parent_act_id}, skipping`);
+      return null;
+    }
+
+    // 3. Build candidate query
     let query = `
       SELECT
         d.document_number,
@@ -90,36 +187,27 @@ const config: JobConfig = {
     const params: any[] = [articleLookup];
     let paramIdx = 2;
 
-    // Date Filter
     if (row.decision_date) {
-      // Extract date from dossier_number (YYYY-MM-DD) and compare
       query += ` AND TO_DATE(SUBSTRING(d.dossier_number, 1, 10), 'YYYY-MM-DD') < $${paramIdx}::date`;
       params.push(row.decision_date);
       paramIdx++;
     }
 
-    // Type Filter
     if (targetTypes.length > 0) {
       query += ` AND d.document_type = ANY($${paramIdx})`;
       params.push(targetTypes);
-      paramIdx++;
     }
 
-    // Order by title similarity (most similar first) and limit to top 20 candidates
-    // query += ` ORDER BY title_similarity DESC LIMIT 100`;
-
-    // Execute query
+    // 4. Execute query
     let candidateDocs: any[] = [];
     try {
       candidateDocs = await DatabaseConfig.executeReadOnlyQuery(query, params);
     } catch (e: any) {
-       return { match: null, error: `Database query failed: ${e.message}` };
+      console.error(`DB query failed for ${row.internal_parent_act_id}:`, e.message);
+      return null;
     }
 
-    // Return early if no candidates - will be handled in prompt
-    const candidate_titles = candidateDocs.map((d: any) => {
-      return `[${d.document_number}] ${d.title}`;
-    });
+    const candidate_titles = candidateDocs.map((d: any) => `[${d.document_number}] ${d.title}`);
 
     return {
       ...row,
@@ -129,7 +217,8 @@ const config: JobConfig = {
   },
 
   /**
-   * Custom Execution with Tournament Logic
+   * Custom Execution - Simple Single Call
+   * (Tournament logic commented out below for reprocessing failures)
    */
   customExecution: async (row: any, client: any) => {
     const candidates = row.candidates || [];
@@ -137,86 +226,38 @@ const config: JobConfig = {
       ? row.teaching_texts.map((t: string, i: number) => `${i + 1}. ${t}`).join('\n\n')
       : 'No legal teachings available.';
 
-    // Helper to format candidates
     const formatCandidate = (c: any) => {
       const date = c.dossier_number ? c.dossier_number.substring(0, 10) : 'Unknown';
       return `ID: ${c.document_number}\nDate: ${date}\nTitle: ${c.title}`;
     };
 
-    let shortlistedCandidates: any[] = [];
-
-    // --- PHASE 1: Batch Selection (Tournament Semi-Finals) ---
-    // Use a large batch size to minimize API calls, as requested.
-    const BATCH_SIZE = 1000;
-    
-    if (candidates.length > BATCH_SIZE) {
-      const batches = [];
-      for (let i = 0; i < candidates.length; i += BATCH_SIZE) {
-        batches.push(candidates.slice(i, i + BATCH_SIZE));
-      }
-
-      // Process batches in parallel (limited by client concurrency usually, but here we do sequential to avoid rate limits per request)
-      for (const batch of batches) {
-        const batchPrompt = BATCH_SELECTION_PROMPT
-          .replace('{citedActName}', row.parent_act_name)
-          .replace('{citedProvision}', row.provision_number)
-          .replace('{context}', contextText)
-          .replace('{candidatesList}', batch.map(formatCandidate).join('\n---\n'));
-
-        try {
-          const response = await client.complete(
-            [{ role: 'user', content: batchPrompt }],
-            { type: 'json_object' },
-            { model: 'gpt-5-mini', reasoningEffort: 'minimal' } // Fast, cheap model for filtering
-          );
-          const result = JSON.parse(response.choices[0].message.content);
-          
-          if (result.matches) {
-            for (const m of result.matches) {
-              const doc = batch.find((c: any) => String(c.document_number) === String(m.document_number));
-              if (doc) shortlistedCandidates.push(doc);
-            }
-          }
-        } catch (e) {
-          console.error('Error in batch selection:', e);
-          // On error, we might skip this batch or add all? Let's skip to be safe/strict.
-        }
-      }
-    } else {
-      // Small enough to process all at once
-      shortlistedCandidates = candidates;
+    if (candidates.length === 0) {
+      return { matches: [], error: 'No candidates found.' };
     }
 
-    // If no candidates survived (or none existed), return empty
-    if (shortlistedCandidates.length === 0) {
-      return { matches: [], error: 'No candidates found or selected.' };
-    }
-
-    // --- PHASE 2: Final Ranking (Tournament Finals) ---
+    // Simple single-call approach (candidates already filtered by document_type='unknown')
     const finalPrompt = FINAL_RANKING_PROMPT
-      .replace('{citedActName}', row.parent_act_name)
-      .replace('{citedProvision}', row.provision_number)
+      .replace('{citedActName}', row.parent_act_name || '[Unknown Act]')
+      .replace('{citedProvision}', row.provision_number || '[Unknown Provision]')
       .replace('{context}', contextText)
-      .replace('{candidatesList}', shortlistedCandidates.map(formatCandidate).join('\n---\n'));
+      .replace('{candidatesList}', candidates.map(formatCandidate).join('\n---\n'));
 
     const finalResponse = await client.complete(
       [{ role: 'user', content: finalPrompt }],
       { type: 'json_object' },
-      { model: 'gpt-5-mini', reasoningEffort: 'medium' } // Stronger reasoning for final pick
+      { model: 'gpt-5-mini', reasoningEffort: 'medium' }
     );
 
     let finalResult;
     try {
       finalResult = JSON.parse(finalResponse.choices[0].message.content);
-    } catch (e) {
+    } catch {
       return { matches: [], error: 'Failed to parse final ranking JSON.' };
     }
 
-    // Normalize and Filter
     let matches = finalResult.matches || [];
     if (!Array.isArray(matches)) matches = [];
 
-    // Filter by score >= 80 (Strictness check)
     matches = matches.filter((m: any) => m.score >= 80);
 
     return {
@@ -226,9 +267,110 @@ const config: JobConfig = {
         reasoning: m.reasoning,
         confidence: (parseInt(m.score, 10) || 0) / 100
       })),
-      candidate_titles: candidates.map((c: any) => c.title) // Keep track of all original candidates
+      candidate_titles: candidates.map((c: any) => c.title)
     };
   },
+
+  // =====================================================================================
+  // TOURNAMENT LOGIC (COMMENTED OUT) - Use for reprocessing failures with large candidate sets
+  // =====================================================================================
+  // customExecution_TOURNAMENT: async (row: any, client: any) => {
+  //   const candidates = row.candidates || [];
+  //   const contextText = row.teaching_texts && row.teaching_texts.length > 0
+  //     ? row.teaching_texts.map((t: string, i: number) => `${i + 1}. ${t}`).join('\n\n')
+  //     : 'No legal teachings available.';
+  //
+  //   const formatCandidate = (c: any) => {
+  //     const date = c.dossier_number ? c.dossier_number.substring(0, 10) : 'Unknown';
+  //     return `ID: ${c.document_number}\nDate: ${date}\nTitle: ${c.title}`;
+  //   };
+  //
+  //   let shortlistedCandidates: any[] = [];
+  //
+  //   // --- PHASE 1: Batch Selection ---
+  //   const BATCH_SIZE = 500;
+  //
+  //   if (candidates.length > BATCH_SIZE) {
+  //     const batches = [];
+  //     for (let i = 0; i < candidates.length; i += BATCH_SIZE) {
+  //       batches.push(candidates.slice(i, i + BATCH_SIZE));
+  //     }
+  //
+  //     for (const batch of batches) {
+  //       const batchPrompt = BATCH_SELECTION_PROMPT
+  //         .replace('{citedActName}', row.parent_act_name || '[Unknown Act]')
+  //         .replace('{citedProvision}', row.provision_number || '[Unknown Provision]')
+  //         .replace('{context}', contextText)
+  //         .replace('{candidatesList}', batch.map(formatCandidate).join('\n---\n'));
+  //
+  //       try {
+  //         const response = await client.complete(
+  //           [{ role: 'user', content: batchPrompt }],
+  //           { type: 'json_object' },
+  //           { model: 'gpt-5-mini', reasoningEffort: 'minimal' }
+  //         );
+  //         const result = JSON.parse(response.choices[0].message.content);
+  //
+  //         if (result.matches) {
+  //           for (const m of result.matches) {
+  //             const doc = batch.find((c: any) => String(c.document_number) === String(m.document_number));
+  //             if (doc) shortlistedCandidates.push(doc);
+  //           }
+  //         }
+  //       } catch (e) {
+  //         console.error('Error in batch selection, including all candidates from batch:', e);
+  //         shortlistedCandidates.push(...batch);
+  //       }
+  //     }
+  //   } else {
+  //     shortlistedCandidates = candidates;
+  //   }
+  //
+  //   if (shortlistedCandidates.length === 0) {
+  //     return { matches: [], error: 'No candidates found or selected.' };
+  //   }
+  //
+  //   if (shortlistedCandidates.length > BATCH_SIZE) {
+  //     console.warn(`Phase 1 returned ${shortlistedCandidates.length} candidates, truncating to ${BATCH_SIZE}`);
+  //     shortlistedCandidates = shortlistedCandidates.slice(0, BATCH_SIZE);
+  //   }
+  //
+  //   // --- PHASE 2: Final Ranking ---
+  //   const finalPrompt = FINAL_RANKING_PROMPT
+  //     .replace('{citedActName}', row.parent_act_name || '[Unknown Act]')
+  //     .replace('{citedProvision}', row.provision_number || '[Unknown Provision]')
+  //     .replace('{context}', contextText)
+  //     .replace('{candidatesList}', shortlistedCandidates.map(formatCandidate).join('\n---\n'));
+  //
+  //   const finalResponse = await client.complete(
+  //     [{ role: 'user', content: finalPrompt }],
+  //     { type: 'json_object' },
+  //     { model: 'gpt-5-mini', reasoningEffort: 'medium' }
+  //   );
+  //
+  //   let finalResult;
+  //   try {
+  //     finalResult = JSON.parse(finalResponse.choices[0].message.content);
+  //   } catch {
+  //     return { matches: [], error: 'Failed to parse final ranking JSON.' };
+  //   }
+  //
+  //   let matches = finalResult.matches || [];
+  //   if (!Array.isArray(matches)) matches = [];
+  //
+  //   matches = matches.filter((m: any) => m.score >= 80);
+  //
+  //   return {
+  //     matches: matches.map((m: any) => ({
+  //       document_number: String(m.document_number),
+  //       score: parseInt(m.score, 10) || 0,
+  //       reasoning: m.reasoning,
+  //       confidence: (parseInt(m.score, 10) || 0) / 100
+  //     })),
+  //     candidate_titles: candidates.map((c: any) => c.title)
+  //   };
+  // },
+  // =====================================================================================
 
   /**
    * Output Schema
@@ -255,24 +397,32 @@ const config: JobConfig = {
       candidate_titles: {
         type: 'array',
         items: { type: 'string' }
+      },
+      error: {
+        type: 'string',
+        description: 'Error message if mapping failed'
       }
     }
   },
 
   outputSchemaName: 'no_date_provision_mapping',
-  
-  // Azure OpenAI Configuration
+
   provider: 'openai',
   openaiProvider: 'azure',
   model: 'gpt-5-mini',
-  // reasoningEffort: 'low',
-  // verbosity: 'low',
-  concurrencyLimit: 50,  // Requires pg_trgm GIN index on documents.title
-  
-  // Row metadata
+  reasoningEffort: 'medium',
+  verbosity: 'low',
+
+  // High concurrency for fast processing (candidates now filtered by document_type='unknown')
+  concurrencyLimit: 200,
+  // maxConcurrentApiCalls: 10,  // Uncomment for reprocessing failures with rate limiting
+  // requestsPerSecond: 5,       // Uncomment for reprocessing failures (300 RPM)
+
   rowMetadataFields: ['internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'provision_number', 'teaching_texts', 'candidate_titles'],
-  
-  customIdPrefix: 'map-nodate'
+
+  customIdPrefix: 'map-nodate',
+
+  useFullDataPipeline: true
 };
 
 export default config;
