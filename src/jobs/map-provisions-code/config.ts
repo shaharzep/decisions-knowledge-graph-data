@@ -43,9 +43,10 @@ const config: JobConfig = {
       ) as teaching_texts
     FROM decision_cited_provisions dcp
     JOIN decisions1 d ON d.id = dcp.decision_id
-    WHERE dcp.parent_act_type = 'CODE'
+    WHERE dcp.parent_act_type IN ('CONSTITUTION', 'GRONDWET')
       AND dcp.internal_parent_act_id IS NOT NULL
     ORDER BY dcp.internal_parent_act_id
+    limit 10
   `,
   
   dbQueryParams: [],

@@ -466,13 +466,18 @@ export class ConcurrentRunner {
       );
 
       const preprocessedBatchResults = await Promise.all(preprocessedBatchPromises);
-      
-      // Filter out nulls
+
+      // Filter out nulls (skipped by preprocessRow, e.g., resume mode)
       const validBatchItems: any[] = [];
       for (const item of preprocessedBatchResults) {
         if (item !== null) {
           validBatchItems.push(item);
         }
+      }
+
+      const skippedCount = rawBatch.length - validBatchItems.length;
+      if (skippedCount > 0) {
+        this.logger.info(`Batch ${Math.floor(batchStart / batchSize) + 1}: ${skippedCount}/${rawBatch.length} skipped (preprocessor filtered)`);
       }
 
       // Process valid items in parallel

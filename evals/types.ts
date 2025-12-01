@@ -11,8 +11,16 @@ export type Verdict = 'PASS' | 'FAIL' | 'REVIEW_REQUIRED';
 
 /**
  * Recommendation based on evaluation results
+ *
+ * Legacy values (used by older judge prompts):
+ *   - PROCEED, FIX_PROMPT, REVIEW_SAMPLES
+ *
+ * New values (used by map-provisions-standard and newer prompts):
+ *   - ACCEPT, REJECT, REVIEW_MANUALLY
  */
-export type Recommendation = 'PROCEED' | 'FIX_PROMPT' | 'REVIEW_SAMPLES';
+export type Recommendation =
+  | 'PROCEED' | 'FIX_PROMPT' | 'REVIEW_SAMPLES'  // Legacy
+  | 'ACCEPT' | 'REJECT' | 'REVIEW_MANUALLY';     // New
 
 /**
  * Judge confidence in evaluation

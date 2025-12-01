@@ -184,8 +184,11 @@ export function validateEvaluationResult(result: any): void {
     );
   }
 
-  // Validate recommendation
-  const validRecommendations: Recommendation[] = ['PROCEED', 'FIX_PROMPT', 'REVIEW_SAMPLES'];
+  // Validate recommendation (supports both legacy and new values)
+  const validRecommendations: Recommendation[] = [
+    'PROCEED', 'FIX_PROMPT', 'REVIEW_SAMPLES',  // Legacy
+    'ACCEPT', 'REJECT', 'REVIEW_MANUALLY'       // New
+  ];
   if (!validRecommendations.includes(result.recommendation)) {
     throw new Error(
       `Invalid recommendation: ${result.recommendation}. Must be one of: ${validRecommendations.join(', ')}`

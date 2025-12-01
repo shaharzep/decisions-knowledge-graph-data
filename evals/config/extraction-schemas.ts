@@ -117,6 +117,24 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
     'citedProvisions',        // Array of provisions with HTML citations and relationship mappings
     'metadata',               // Citation statistics and relationship statistics
   ],
+
+  /**
+   * Map Provisions Standard: Map non-CODE provisions to parent acts
+   * Note: Includes input fields because judge needs them to evaluate correctness
+   */
+  'map-provisions-standard': [
+    // Inputs (judge needs these to evaluate)
+    'parent_act_name',        // Input: cited act name
+    'parent_act_date',        // Input: cited act date
+    'parent_act_type',        // Input: type of act
+    'citation_paragraph',     // Input: relevant snippet
+    'teaching_texts',         // Input: legal teachings context
+    'candidate_titles',       // Input: candidate documents
+    // Outputs (what model produced)
+    'citation_type',          // Type of legal instrument (LAW, DECREE, etc.)
+    'matches',                // Array of matched documents with confidence
+    'no_match_reason',        // Explanation if no matches (null otherwise)
+  ],
 };
 
 /**
@@ -138,6 +156,15 @@ export const METADATA_FIELDS = [
   'md_length',               // Document length
   'length_category',         // short/medium/long/very_long
   'url_official_publication',
+  // Map provisions metadata
+  'internal_parent_act_id',  // Provision mapping job identifier
+  'parent_act_name',         // Input: cited act name
+  'parent_act_date',         // Input: cited act date
+  'parent_act_type',         // Input: type mapping
+  'citation_paragraph',      // Input: relevant snippet from citations table
+  'teaching_texts',          // Input: legal teachings context
+  'candidate_titles',        // Input: candidate documents from DB
+  'candidates',              // Input: raw candidate objects
 ];
 
 /**

@@ -129,12 +129,6 @@ export class OpenAIConcurrentClient {
     settings: CompletionSettings
   ): Promise<any> {
     // Log current queue state for debugging
-    const activeCount = this.apiLimiter.activeCount;
-    const pendingCount = this.apiLimiter.pendingCount;
-    if (activeCount + pendingCount > 50) {
-      this.logger.warn(`High queue depth`, { activeCount, pendingCount, total: activeCount + pendingCount });
-    }
-
     // Queue through API limiter to control concurrent calls
     return this.apiLimiter(async () => {
       // Log when we acquire a slot
