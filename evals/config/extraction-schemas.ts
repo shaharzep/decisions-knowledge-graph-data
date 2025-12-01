@@ -148,6 +148,7 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
     'citation_paragraph',     // Input: context paragraph
     'teaching_texts',         // Input: legal teachings context
     // Outputs (what model produced)
+    'identified_code_families', // Pass 1 output: code families identified (e.g., ["Code judiciaire"])
     'decision_path',          // { title_matches, after_range_elimination, existence_status, semantic_disambiguation_used, semantic_match_reasoning }
     'matches',                // Array of document matches with title_match, range_status, existence_status, is_abrogated
     'final_decision',         // SINGLE_MATCH | RESOLVED_BY_RANGE | RESOLVED_BY_EXISTENCE | RESOLVED_BY_SEMANTIC | AMBIGUOUS | NO_MATCH

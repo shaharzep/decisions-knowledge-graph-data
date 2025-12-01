@@ -26,14 +26,12 @@ This job processes **CODE and CONSTITUTION** instruments:
 
 ## Inputs You Will Receive
 
-1. **Cited Article**: The article number being cited
-2. **Cited Act Name**: The name of the code/constitution as cited
-3. **Citation Paragraph**: The paragraph where the article is cited (may be empty)
-4. **Legal Teachings**: Summaries of the decision
-5. **Candidate Documents**: List of potential matches with titles and article content
-6. **System Output (Pass 1)**: Code family identification
-   - `matches`: Array of code family names
-   - `reasoning`: Explanation
+1. **Cited Article**: `provision_number` - The article number being cited
+2. **Cited Act Name**: `parent_act_name` - The name of the code/constitution as cited
+3. **Citation Paragraph**: `citation_paragraph` - The paragraph where the article is cited (may be empty)
+4. **Legal Teachings**: `teaching_texts` - Summaries of the decision
+5. **Candidate Documents**: `candidate_titles` - List of potential matches with titles
+6. **System Output (Pass 1)**: `identified_code_families` - Array of code family names identified from the cited act name (e.g., ["Code judiciaire"] for "Gerechtelijk Wetboek")
 7. **System Output (Pass 2)**: Document matching
    - `decision_path`: Object showing the reasoning chain
      - `title_matches`: IDs that passed title filtering

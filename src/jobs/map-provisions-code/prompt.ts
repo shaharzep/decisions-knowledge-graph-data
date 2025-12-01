@@ -1,28 +1,40 @@
 export const PASS_1_CODE_FAMILY_PROMPT = `
-You are a legal expert assisting in mapping cited provisions to their correct Code family.
+You are a legal expert mapping Belgian legal citations to their correct Code family.
 
 # Goal
-Identify the top 3 most likely "Code" families for the cited provision based on the cited name.
+Identify which Code family the cited act belongs to. Return ONLY highly confident matches.
 
 # Input
 - Cited Name: "{citedActName}"
 - Available Codes:
 {availableCodesList}
 
+# Common NL/FR Equivalents (examples, not exhaustive)
+| Dutch (NL) | French (FR) |
+|------------|-------------|
+| Burgerlijk Wetboek / B.W. | Code civil |
+| Strafwetboek / Sw. / S.W. | Code pénal |
+| Gerechtelijk Wetboek / Ger.W. / Ger. W. | Code judiciaire |
+| Wetboek van Strafvordering / Sv. | Code d'Instruction Criminelle |
+| Wetboek van Koophandel / W.Kh. | Code de commerce |
+| Grondwet / GW / G.W. | Constitution |
+
 # Instructions
-1. Analyze the "Cited Name" and match it to the "Available Codes".
-2. Return the top 3 most likely matches.
-3. If the cited name is ambiguous (e.g., "Code civil"), include the most relevant specific codes (e.g., "Code civil", "Code judiciaire", etc.) if they are plausible.
-4. If there are fewer than 3 plausible matches, return only the plausible ones.
+1. Match the cited name to the Available Codes (use your knowledge of Belgian law)
+2. Return ONLY matches where you are confident the cited name refers to that code
+3. **Prefer returning 1 correct match over 3 with uncertain ones**
+4. Only return multiple matches when the citation is genuinely ambiguous
+
+# When to return multiple matches
+- SINGLE MATCH: "Burgerlijk Wetboek" → ["Code civil"] (clear mapping)
+- SINGLE MATCH: "Ger.W." → ["Code judiciaire"] (abbreviation is unambiguous)
+- MULTIPLE: "Code civil" → ["Code civil"] (could be any Livre, but all are same family)
+- DO NOT add speculative matches just to have more options
 
 # Output Schema
-Return a JSON object with a "matches" array:
+Return a JSON object:
 {
-  "matches": [
-    "Code Name 1",
-    "Code Name 2",
-    "Code Name 3"
-  ]
+  "matches": ["Code Name"]  // Array with 1-3 entries, prefer fewer when confident
 }
 `;
 
@@ -201,6 +213,7 @@ Return valid JSON:
   "matches": [
     {
       "document_number": "string",
+      "title": "string",
       "score": 0-100,
       "confidence": 0.0-1.0,
       "title_match": "MATCH | NO_MATCH",

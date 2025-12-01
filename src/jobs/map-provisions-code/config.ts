@@ -99,7 +99,6 @@ const config: JobConfig = {
       ON drcc.decision_related_citations_id = drc.id
     WHERE dcp.parent_act_type IN ('CODE', 'WETBOEK', 'GRONDWET', 'CONSTITUTION')
       AND dcp.internal_parent_act_id IS NOT NULL
-      and dcp.internal_parent_act_id = 'ACT-ECLI:BE:CABRL:1996:ARR.19960418.7-002'
     ORDER BY dcp.internal_parent_act_id
     limit 100
   `,
@@ -161,7 +160,8 @@ const config: JobConfig = {
       return {
         ...row,
         candidates,
-        candidate_titles: candidates.map((c: any) => c.title)
+        candidate_titles: candidates.map((c: any) => c.title),
+        identified_code_families: candidateCodes
       };
     } catch (e: any) {
       console.error(`DB query failed for ${row.internal_parent_act_id}: ${e.message}`);
@@ -202,13 +202,14 @@ const config: JobConfig = {
   /**
    * Normalize LLM output and attach candidate_titles from preprocessing.
    */
-  postProcessRow: (row: any, result: any) => {
+  postProcessRow: (_row: any, result: any) => {
     // Normalize matches array
     let matches = result.matches || [];
     if (!Array.isArray(matches)) matches = [];
 
     matches = matches.map((m: any) => ({
       document_number: String(m.document_number || ''),
+      title: String(m.title || ''),
       score: parseInt(m.score, 10) || 0,
       confidence: parseFloat(m.confidence) || 0.0,
       title_match: m.title_match || 'NO_MATCH',
@@ -234,8 +235,7 @@ const config: JobConfig = {
       decision_path: decisionPath,
       matches,
       final_decision: result.final_decision || 'NO_MATCH',
-      no_match_reason: result.no_match_reason || null,
-      candidate_titles: row.candidate_titles || []
+      no_match_reason: result.no_match_reason || null
     };
   },
 
@@ -274,10 +274,11 @@ const config: JobConfig = {
         type: 'array',
         items: {
           type: 'object',
-          required: ['document_number', 'score', 'confidence', 'title_match', 'range_status', 'existence_status', 'is_abrogated', 'reasoning'],
+          required: ['document_number', 'title', 'score', 'confidence', 'title_match', 'range_status', 'existence_status', 'is_abrogated', 'reasoning'],
           additionalProperties: false,
           properties: {
             document_number: { type: 'string' },
+            title: { type: 'string' },
             score: { type: 'integer' },
             confidence: { type: 'number' },
             title_match: { type: 'string', enum: ['MATCH', 'NO_MATCH'] },
@@ -313,7 +314,9 @@ const config: JobConfig = {
     'provision_number_key',
     'parent_act_type',
     'citation_paragraph',
-    'teaching_texts'
+    'teaching_texts',
+    'candidate_titles',
+    'identified_code_families'
   ],
 
   customIdPrefix: 'map-code',
