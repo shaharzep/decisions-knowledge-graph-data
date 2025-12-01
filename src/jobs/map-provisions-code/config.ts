@@ -1,6 +1,7 @@
 import { JobConfig } from '../JobConfig.js';
 import { PASS_1_CODE_FAMILY_PROMPT, PASS_2_EXACT_MATCH_PROMPT } from './prompt.js';
 import { DatabaseConfig } from '../../config/database.js';
+import { AzureConfig } from '../../config/azure.js';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -9,14 +10,62 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const codeMappingPath = path.join(__dirname, 'code-mapping.json');
-const codeMapping = JSON.parse(fs.readFileSync(codeMappingPath, 'utf-8'));
+const codeMapping: Record<string, string[]> = JSON.parse(fs.readFileSync(codeMappingPath, 'utf-8'));
 
 const ALL_CODES = Object.keys(codeMapping);
 
+// =====================================================================================
+// PASS 1 HELPER: Identify Code Family
+// =====================================================================================
+
+/**
+ * Call LLM to identify which code family the cited act belongs to.
+ * Returns array of code family names (e.g., ["Code civil", "Code judiciaire"]).
+ */
+async function identifyCodeFamily(parentActName: string): Promise<string[]> {
+  const prompt = PASS_1_CODE_FAMILY_PROMPT
+    .replace('{citedActName}', parentActName)
+    .replace('{availableCodesList}', ALL_CODES.map(c => `- ${c}`).join('\n'));
+
+  try {
+    const client = AzureConfig.getClient();
+    const response: any = await client.responses.create({
+      model: AzureConfig.getDeployment(),
+      input: [
+        {
+          role: 'user',
+          content: [{ type: 'input_text', text: prompt }]
+        }
+      ],
+      text: { format: { type: 'json_object' } },
+      reasoning: { effort: 'low' }
+    });
+
+    let content = '';
+    if (response.output_text) {
+      content = response.output_text;
+    } else if (response.output?.[0]?.content?.[0]?.text) {
+      content = response.output[0].content[0].text;
+    }
+
+    const result = JSON.parse(content);
+    return result.matches || [];
+  } catch (e: any) {
+    console.warn(`Pass 1 failed for "${parentActName}": ${e.message}`);
+    return [];
+  }
+}
+
+// =====================================================================================
+// JOB CONFIG
+// =====================================================================================
+
 /**
  * CODE Provision Mapping Job
- * 
- * Maps CODE provisions using a two-pass approach.
+ *
+ * Maps CODE/Constitution provisions using a two-pass approach:
+ * - Pass 1 (preprocessRow): Identify code family from cited act name
+ * - Pass 2 (promptTemplate → LLM): Match exact document within that family
  */
 const config: JobConfig = {
   id: 'map-provisions-code',
@@ -50,152 +99,112 @@ const config: JobConfig = {
       ON drcc.decision_related_citations_id = drc.id
     WHERE dcp.parent_act_type IN ('CODE', 'WETBOEK', 'GRONDWET', 'CONSTITUTION')
       AND dcp.internal_parent_act_id IS NOT NULL
+      and dcp.internal_parent_act_id = 'ACT-ECLI:BE:CABRL:1996:ARR.19960418.7-002'
     ORDER BY dcp.internal_parent_act_id
     limit 100
   `,
-  
+
   dbQueryParams: [],
 
   /**
-   * Custom Execution Logic for Two-Pass Approach
+   * Pass 1: Identify code family and fetch candidate documents.
+   * Returns null to skip rows where no candidates are found.
    */
-  customExecution: async (row: any, client: any) => {
+  preprocessRow: async (row: any) => {
     // --- PASS 1: Identify Code Family ---
-    const pass1Prompt = PASS_1_CODE_FAMILY_PROMPT
-      .replace('{citedActName}', row.parent_act_name)
-      .replace('{availableCodesList}', ALL_CODES.map(c => `- ${c}`).join('\n'));
-
-    const pass1Response = await client.complete(
-      [{ role: 'user', content: pass1Prompt }],
-      { type: 'json_object' },
-      { model: 'gpt-5-mini', reasoningEffort: 'minimal' }
-    );
-
-    const pass1Result = JSON.parse(pass1Response.choices[0].message.content);
-    const candidateCodes = pass1Result.matches || [];
+    const candidateCodes = await identifyCodeFamily(row.parent_act_name);
 
     if (candidateCodes.length === 0) {
-      return {
-        decision_path: {
-          title_matches: [],
-          after_range_elimination: [],
-          existence_status: {},
-          semantic_disambiguation_used: false,
-          semantic_match_reasoning: null
-        },
-        matches: [],
-        final_decision: 'NO_MATCH',
-        no_match_reason: 'No code family identified in Pass 1.',
-        candidate_titles: []
-      };
+      console.warn(`No code family identified for: ${row.parent_act_name}`);
+      return null;
     }
 
-    // --- Data Fetching: Candidates & Context ---
-    // Gather candidate documents from the identified codes
-    let candidateDocs: any[] = [];
+    // --- Gather document numbers from identified code families ---
     const docNumbersToFetch: string[] = [];
-
     for (const codeName of candidateCodes) {
       const docNumbers = codeMapping[codeName] || [];
       docNumbersToFetch.push(...docNumbers);
     }
 
-    if (docNumbersToFetch.length > 0) {
-      // Fetch document titles and article content
-      // Filter: only include documents published BEFORE the decision date
-      // dossier_number format: YYYY-MM-DD... (first 10 chars = publication date)
-      const query = `
-        SELECT d.document_number, d.title, d.dossier_number, ac.raw_markdown
-        FROM documents d
-        LEFT JOIN article_contents ac
-          ON d.document_number = ac.document_number
-          AND ac.article_number = $2
-        WHERE d.document_number = ANY($1)
-          AND ($3::date IS NULL
-               OR TO_DATE(SUBSTRING(d.dossier_number, 1, 10), 'YYYY-MM-DD') < $3::date)
-      `;
+    if (docNumbersToFetch.length === 0) {
+      console.warn(`No document numbers mapped for codes: ${candidateCodes.join(', ')}`);
+      return null;
+    }
 
-      // Use provision_number_key for article lookup (it's cleaner usually)
-      // Fallback to provision_number if key is missing
-      const articleLookup = row.provision_number_key || row.provision_number;
+    // --- Fetch candidate documents from DB ---
+    // Filter: only include documents published BEFORE the decision date
+    const query = `
+      SELECT d.document_number, d.title, d.dossier_number, ac.raw_markdown
+      FROM documents d
+      LEFT JOIN article_contents ac
+        ON d.document_number = ac.document_number
+        AND ac.article_number = $2
+      WHERE d.document_number = ANY($1)
+        AND ($3::date IS NULL
+             OR TO_DATE(SUBSTRING(d.dossier_number, 1, 10), 'YYYY-MM-DD') < $3::date)
+    `;
 
-      const docs = await DatabaseConfig.executeReadOnlyQuery(query, [
+    const articleLookup = row.provision_number_key || row.provision_number;
+
+    try {
+      const candidates = await DatabaseConfig.executeReadOnlyQuery(query, [
         docNumbersToFetch,
         articleLookup,
         row.decision_date
       ]);
-      candidateDocs = docs;
-    }
 
-    if (candidateDocs.length === 0) {
+      if (candidates.length === 0) {
+        console.warn(`No candidate documents found for: ${row.internal_parent_act_id}`);
+        return null;
+      }
+
       return {
-        decision_path: {
-          title_matches: [],
-          after_range_elimination: [],
-          existence_status: {},
-          semantic_disambiguation_used: false,
-          semantic_match_reasoning: null
-        },
-        matches: [],
-        final_decision: 'NO_MATCH',
-        no_match_reason: 'No candidate documents found for identified codes.',
-        candidate_titles: []
+        ...row,
+        candidates,
+        candidate_titles: candidates.map((c: any) => c.title)
       };
+    } catch (e: any) {
+      console.error(`DB query failed for ${row.internal_parent_act_id}: ${e.message}`);
+      return null;
     }
+  },
 
-    // Format Context (Legal Teachings)
-    const contextText = row.teaching_texts && row.teaching_texts.length > 0
+  /**
+   * Pass 2: Generate prompt for exact document matching.
+   */
+  promptTemplate: (row: any) => {
+    const candidates = row.candidates || [];
+
+    // Format candidates list with article content
+    const candidatesList = candidates.map((d: any) => {
+      const content = d.raw_markdown
+        ? d.raw_markdown.substring(0, 800) + (d.raw_markdown.length > 800 ? '...' : '')
+        : 'Not available';
+      return `ID: ${d.document_number}\nTitle: ${d.title}\nArticle Content: ${content}`;
+    }).join('\n---\n');
+
+    // Format legal teachings
+    const contextText = row.teaching_texts?.length > 0
       ? row.teaching_texts.map((t: string, i: number) => `${i + 1}. ${t}`).join('\n\n')
       : 'No legal teachings available.';
 
-    // Format Citation Paragraph
+    // Format citation paragraph
     const citationParagraph = row.citation_paragraph || 'No citation paragraph available.';
 
-    // Format Candidates List
-    const candidatesList = candidateDocs.map(d =>
-      `ID: ${d.document_number}
-Title: ${d.title}
-Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_markdown.length > 800 ? '...' : '') : 'Not available'}`
-    ).join('\n---\n');
-
-    // --- PASS 2: Match Exact Article ---
-    const pass2Prompt = PASS_2_EXACT_MATCH_PROMPT
+    return PASS_2_EXACT_MATCH_PROMPT
       .replace('{citedArticle}', row.provision_number)
       .replace('{citedActName}', row.parent_act_name)
       .replace('{citationParagraph}', citationParagraph)
       .replace('{context}', contextText)
       .replace('{candidatesList}', candidatesList);
+  },
 
-    const pass2Response = await client.complete(
-      [{ role: 'user', content: pass2Prompt }],
-      { type: 'json_object' },
-      { model: 'gpt-5-mini', reasoningEffort: 'medium' }
-    );
-
-    // Extract candidate titles for output
-    const candidateTitles = candidateDocs.map(d => d.title);
-
-    let rawResult;
-    try {
-      rawResult = JSON.parse(pass2Response.choices[0].message.content);
-    } catch (e) {
-      return {
-        decision_path: {
-          title_matches: [],
-          after_range_elimination: [],
-          existence_status: {},
-          semantic_disambiguation_used: false,
-          semantic_match_reasoning: null
-        },
-        matches: [],
-        final_decision: 'NO_MATCH',
-        no_match_reason: 'Failed to parse LLM response JSON.',
-        candidate_titles: candidateTitles
-      };
-    }
-
+  /**
+   * Normalize LLM output and attach candidate_titles from preprocessing.
+   */
+  postProcessRow: (row: any, result: any) => {
     // Normalize matches array
-    let matches = rawResult.matches || [];
+    let matches = result.matches || [];
     if (!Array.isArray(matches)) matches = [];
 
     matches = matches.map((m: any) => ({
@@ -213,7 +222,7 @@ Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_ma
     matches.sort((a: any, b: any) => b.score - a.score);
 
     // Normalize decision_path
-    const decisionPath = rawResult.decision_path || {
+    const decisionPath = result.decision_path || {
       title_matches: [],
       after_range_elimination: [],
       existence_status: {},
@@ -224,9 +233,9 @@ Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_ma
     return {
       decision_path: decisionPath,
       matches,
-      final_decision: rawResult.final_decision || 'NO_MATCH',
-      no_match_reason: rawResult.no_match_reason || null,
-      candidate_titles: candidateTitles
+      final_decision: result.final_decision || 'NO_MATCH',
+      no_match_reason: result.no_match_reason || null,
+      candidate_titles: row.candidate_titles || []
     };
   },
 
@@ -235,7 +244,7 @@ Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_ma
    */
   outputSchema: {
     type: 'object',
-    required: ['decision_path', 'matches', 'final_decision', 'no_match_reason', 'candidate_titles'],
+    required: ['decision_path', 'matches', 'final_decision', 'no_match_reason'],
     additionalProperties: false,
     properties: {
       decision_path: {
@@ -243,17 +252,19 @@ Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_ma
         required: ['title_matches', 'after_range_elimination', 'existence_status', 'semantic_disambiguation_used', 'semantic_match_reasoning'],
         additionalProperties: false,
         properties: {
-          title_matches: {
-            type: 'array',
-            items: { type: 'string' }
-          },
-          after_range_elimination: {
-            type: 'array',
-            items: { type: 'string' }
-          },
+          title_matches: { type: 'array', items: { type: 'string' } },
+          after_range_elimination: { type: 'array', items: { type: 'string' } },
           existence_status: {
-            type: 'object',
-            additionalProperties: { type: 'string', enum: ['EXISTS', 'UNKNOWN'] }
+            type: 'array',
+            items: {
+              type: 'object',
+              required: ['candidate_id', 'status'],
+              additionalProperties: false,
+              properties: {
+                candidate_id: { type: 'string' },
+                status: { type: 'string', enum: ['EXISTS', 'UNKNOWN'] }
+              }
+            }
           },
           semantic_disambiguation_used: { type: 'boolean' },
           semantic_match_reasoning: { type: ['string', 'null'] }
@@ -267,48 +278,30 @@ Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_ma
           additionalProperties: false,
           properties: {
             document_number: { type: 'string' },
-            score: { type: 'integer', minimum: 0, maximum: 100 },
-            confidence: { type: 'number', minimum: 0, maximum: 1 },
-            title_match: {
-              type: 'string',
-              enum: ['MATCH', 'NO_MATCH']
-            },
-            range_status: {
-              type: 'string',
-              enum: ['INCLUDES', 'EXCLUDES', 'NO_RANGE']
-            },
-            existence_status: {
-              type: 'string',
-              enum: ['EXISTS', 'UNKNOWN']
-            },
+            score: { type: 'integer' },
+            confidence: { type: 'number' },
+            title_match: { type: 'string', enum: ['MATCH', 'NO_MATCH'] },
+            range_status: { type: 'string', enum: ['INCLUDES', 'EXCLUDES', 'NO_RANGE'] },
+            existence_status: { type: 'string', enum: ['EXISTS', 'UNKNOWN'] },
             is_abrogated: { type: 'boolean' },
             reasoning: { type: 'string' }
           }
         }
       },
-      final_decision: {
-        type: 'string',
-        enum: ['SINGLE_MATCH', 'RESOLVED_BY_RANGE', 'RESOLVED_BY_EXISTENCE', 'RESOLVED_BY_SEMANTIC', 'AMBIGUOUS', 'NO_MATCH']
-      },
-      no_match_reason: {
-        type: ['string', 'null']
-      },
-      candidate_titles: {
-        type: 'array',
-        items: { type: 'string' }
-      }
+      final_decision: { type: 'string', enum: ['SINGLE_MATCH', 'RESOLVED_BY_RANGE', 'RESOLVED_BY_EXISTENCE', 'RESOLVED_BY_SEMANTIC', 'AMBIGUOUS', 'NO_MATCH'] },
+      no_match_reason: { type: ['string', 'null'] }
     }
   },
 
   outputSchemaName: 'code_provision_mapping',
-  
+
   // Azure OpenAI Configuration
   provider: 'openai',
   openaiProvider: 'azure',
   model: 'gpt-5-mini',
   reasoningEffort: 'medium',
   concurrencyLimit: 200,
-  
+
   // Row metadata to track in results
   rowMetadataFields: [
     'internal_parent_act_id',
@@ -322,9 +315,9 @@ Article Content: ${d.raw_markdown ? d.raw_markdown.substring(0, 800) + (d.raw_ma
     'citation_paragraph',
     'teaching_texts'
   ],
-  
+
   customIdPrefix: 'map-code',
-  
+
   useFullDataPipeline: false
 };
 

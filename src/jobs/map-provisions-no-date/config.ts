@@ -1,36 +1,107 @@
-
 import { JobConfig } from '../JobConfig.js';
 import { NO_DATE_MAPPING_PROMPT } from './prompt.js';
 import { DatabaseConfig } from '../../config/database.js';
 import { AzureConfig } from '../../config/azure.js';
-import fs from 'fs';
-import path from 'path';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// =============================================================================
+// POPULAR LAWS FAST-PATH
+// =============================================================================
+
+// Load popular laws from map-provisions-standard (shared mapping)
+const rawPopularLaws: Record<string, string> = JSON.parse(
+  readFileSync(join(__dirname, '../map-provisions-standard/popular-laws.json'), 'utf-8')
+);
+
+// Normalize keys for case-insensitive lookup
+const popularLaws: Record<string, string> = {};
+for (const [name, docNum] of Object.entries(rawPopularLaws)) {
+  popularLaws[name.toLowerCase().trim()] = docNum;
+}
 
 /**
- * No-Date Provision Mapping Job
- *
- * Maps provisions that have a Parent Act Name and Type but NO Date.
- * Uses Act Type mapping and article existence to filter candidates.
- * Translates non-French act names to French for better pg_trgm similarity.
- *
- * RESUME MODE: Set RESUME=true to skip already-processed provisions.
+ * Normalize string for exact match lookup
  */
+function normalizeString(str: string): string {
+  return str?.toLowerCase().trim() || '';
+}
 
-// =====================================================================================
+/**
+ * Try fast-path exact match against popular laws
+ */
+function tryFastMatch(parentActName: string): string | null {
+  const normalized = normalizeString(parentActName);
+  return popularLaws[normalized] || null;
+}
+
+/**
+ * Map parent_act_type to citation_type enum
+ */
+function mapToCitationType(parentActType: string): string {
+  const type = parentActType?.toUpperCase() || '';
+
+  if (['LOI', 'WET'].includes(type)) return 'LAW';
+  if (['DECRET', 'DECREET'].includes(type)) return 'DECREE';
+  if (['ORDONNANCE', 'ORDONNANTIE'].includes(type)) return 'ORDINANCE';
+  if (['ARRETE_ROYAL', 'KONINKLIJK_BESLUIT'].includes(type)) return 'ROYAL_DECREE';
+  if (['BESLUIT_VAN_DE_REGERING', 'ARRETE_GOUVERNEMENT'].includes(type)) return 'GOVERNMENT_DECREE';
+  if (['ARRETE_MINISTERIEL', 'MINISTERIEEL_BESLUIT'].includes(type)) return 'MINISTERIAL_DECREE';
+  if (type.includes('COORDONNE') || type.includes('GECOORDINEERD')) return 'COORDINATED';
+
+  return 'OTHER';
+}
+
+/**
+ * Map parent_act_type to document_type for DB query
+ */
+function mapToDocumentType(parentActType: string): string[] {
+  const type = parentActType?.toUpperCase() || '';
+
+  if (['LOI', 'WET'].includes(type)) return ['LOI'];
+  if (['DECRET', 'DECREET'].includes(type)) return ['DECRET'];
+  if (['ORDONNANCE', 'ORDONNANTIE'].includes(type)) return ['ORDONNANCE'];
+  if (['ARRETE_ROYAL', 'KONINKLIJK_BESLUIT', 'BESLUIT_VAN_DE_REGERING', 'ARRETE_GOUVERNEMENT'].includes(type)) return ['ARRETE'];
+  if (['GRONDWET', 'CONSTITUTION'].includes(type)) return ['CONSTITUTION'];
+
+  return ['unknown'];
+}
+
+/**
+ * Build fast-match result matching the output schema
+ */
+function buildFastMatchResult(documentNumber: string, parentActType: string, parentActName: string) {
+  return {
+    citation_type: mapToCitationType(parentActType),
+    matches: [{
+      document_number: documentNumber,
+      confidence: 1.0,
+      score: 100,
+      title_match: 'EXACT' as const,
+      reasoning: `Exact match to popular law: "${parentActName}"`,
+      context_alignment: 'STRONG' as const,
+      context_notes: 'Matched via exact string lookup (pre-verified mapping)'
+    }],
+    no_match_reason: null
+  };
+}
+
+// =============================================================================
 // TRANSLATION HELPER
-// =====================================================================================
+// =============================================================================
 
-// Cache translations to avoid redundant API calls for same act names
 const translationCache = new Map<string, string>();
 
 /**
- * Translate a legal act name to French using Azure OpenAI.
- * Uses caching to minimize API calls for repeated act names.
+ * Translate a legal act name to French using Azure OpenAI
  */
 async function translateToFrench(actName: string): Promise<string> {
   if (!actName || actName.trim().length === 0) return actName;
 
-  // Check cache first
   const cacheKey = actName.toLowerCase().trim();
   if (translationCache.has(cacheKey)) {
     return translationCache.get(cacheKey)!;
@@ -57,83 +128,30 @@ async function translateToFrench(actName: string): Promise<string> {
       reasoning: { effort: 'low' }
     });
 
-    // Extract translated text
-    let translated = actName; // fallback to original
+    let translated = actName;
     if (response.output_text) {
       translated = response.output_text.trim();
     } else if (response.output?.[0]?.content?.[0]?.text) {
       translated = response.output[0].content[0].text.trim();
     }
 
-    // Cache and return
     translationCache.set(cacheKey, translated);
     return translated;
   } catch (e: any) {
     console.warn(`Translation failed for "${actName}": ${e.message}`);
-    return actName; // fallback to original on error
+    return actName;
   }
 }
 
-// =====================================================================================
-// RESUME LOGIC HELPERS
-// =====================================================================================
-
-function getRunTimestamps(jobId: string): string[] {
-  const resultsDir = path.join(process.cwd(), 'full-data', jobId);
-  if (!fs.existsSync(resultsDir)) return [];
-  return fs.readdirSync(resultsDir)
-    .filter(name => /^\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}-\d{3}Z/.test(name))
-    .sort()
-    .reverse();
-}
-
-function loadProcessedIdsFromRun(jobId: string, timestamp: string): string[] {
-  const jsonsDir = path.join(process.cwd(), 'full-data', jobId, timestamp, 'jsons');
-  if (!fs.existsSync(jsonsDir)) return [];
-
-  const ids: string[] = [];
-  for (const filename of fs.readdirSync(jsonsDir).filter(f => f.endsWith('.json'))) {
-    try {
-      const data = JSON.parse(fs.readFileSync(path.join(jsonsDir, filename), 'utf-8'));
-      if (data.internal_parent_act_id) ids.push(data.internal_parent_act_id);
-    } catch { /* skip malformed */ }
-  }
-  return ids;
-}
-
-function buildCompletedProvisionSet(): Set<string> {
-  const completedSet = new Set<string>();
-  const timestamps = getRunTimestamps('map-provisions-no-date');
-  if (timestamps.length === 0) return completedSet;
-
-  console.log(`\n⏯️  RESUME MODE: Scanning ${timestamps.length} previous run(s)...`);
-  for (const ts of timestamps) {
-    const ids = loadProcessedIdsFromRun('map-provisions-no-date', ts);
-    console.log(`   - Run ${ts}: ${ids.length} provisions`);
-    ids.forEach(id => completedSet.add(id));
-  }
-  console.log(`   Total unique completed: ${completedSet.size}`);
-  return completedSet;
-}
-
-// =====================================================================================
-// RESUME STATE
-// =====================================================================================
-
-const RESUME_MODE = process.env.RESUME === 'true';
-const COMPLETED_PROVISIONS: Set<string> = RESUME_MODE ? buildCompletedProvisionSet() : new Set();
-
-if (RESUME_MODE) {
-  console.log(`   Remaining to process: (will be calculated after DB query)\n`);
-}
-
-// =====================================================================================
+// =============================================================================
 // JOB CONFIG
-// =====================================================================================
+// =============================================================================
 
 const config: JobConfig = {
   id: 'map-provisions-no-date',
-  description: 'Map cited provisions without date to specific documents',
+  description: 'Map cited provisions without date to specific documents (with fast-path for popular laws)',
+
+  concurrencyLimit: 200,
 
   dbQuery: `
     SELECT DISTINCT ON (dcp.internal_parent_act_id)
@@ -145,67 +163,70 @@ const config: JobConfig = {
       dcp.provision_number,
       dcp.provision_number_key,
       dcp.parent_act_type,
+      drcc.relevant_snippet AS citation_paragraph,
       (
         SELECT ARRAY_AGG(dlt.teaching_text)
         FROM decision_legal_teachings dlt
         WHERE dlt.decision_id = dcp.decision_id
-      ) as teaching_texts
+      ) AS teaching_texts
     FROM decision_cited_provisions dcp
     JOIN decisions1 d ON d.id = dcp.decision_id
+    LEFT JOIN decision_related_citations drc
+      ON drc.internal_provision_id = dcp.internal_provision_id
+    LEFT JOIN decision_related_citations_citations drcc
+      ON drcc.decision_related_citations_id = drc.id
     WHERE dcp.parent_act_date IS NULL
       AND dcp.parent_act_type <> 'CODE'
       AND dcp.parent_act_type <> 'WETBOEK'
+      AND parent_act_type <> 'GRONDWET'
+      AND parent_act_type <> 'CONSTITUTION'
       AND dcp.parent_act_type NOT LIKE 'EU%'
       AND dcp.parent_act_type NOT LIKE '%_UE'
       AND dcp.internal_parent_act_id IS NOT NULL
     ORDER BY dcp.internal_parent_act_id
-    limit 10
+    limit 50
   `,
 
   dbQueryParams: [],
 
   /**
-   * Preprocess: Fetch candidate documents from article_contents
-   * Translates non-French act names to French for better pg_trgm similarity
+   * Preprocess: Try fast-path match, otherwise fetch candidates from DB
    */
   preprocessRow: async (row: any) => {
-    if (RESUME_MODE && COMPLETED_PROVISIONS.has(row.internal_parent_act_id)) {
-      return null;
+    const { parent_act_name, parent_act_type } = row;
+
+    // === STEP 1: Try exact-match fast-path ===
+    const fastMatchDocNumber = tryFastMatch(parent_act_name);
+
+    if (fastMatchDocNumber) {
+      return {
+        ...row,
+        _skipLLM: true,
+        _result: buildFastMatchResult(fastMatchDocNumber, parent_act_type, parent_act_name)
+      };
     }
 
-    // Map parent_act_type to document_type
-    let targetTypes: string[] = [];
-    const type = row.parent_act_type?.toUpperCase() || '';
-
-    if (['LOI', 'WET'].includes(type)) targetTypes = ['LOI'];
-    else if (['DECRET', 'DECREET'].includes(type)) targetTypes = ['DECRET'];
-    else if (['ORDONNANCE', 'ORDONNANTIE'].includes(type)) targetTypes = ['ORDONNANCE'];
-    else if (['ARRETE_ROYAL', 'KONINKLIJK_BESLUIT', 'BESLUIT_VAN_DE_REGERING', 'ARRETE_GOUVERNEMENT'].includes(type)) targetTypes = ['ARRETE'];
-    else if (['GRONDWET', 'CONSTITUTION'].includes(type)) targetTypes = ['CONSTITUTION'];
-    else targetTypes = ['unknown'];
-
+    // === STEP 2: Fetch candidates from DB for LLM processing ===
+    const targetTypes = mapToDocumentType(parent_act_type);
     const articleLookup = row.provision_number_key || row.provision_number;
+
     if (!articleLookup) {
       console.warn(`No article number for ${row.internal_parent_act_id}, skipping`);
       return null;
     }
 
     // Translate non-French act names for better similarity matching
-    // Document titles in DB are in French, so we need French act names for pg_trgm
-    const parentActName = row.parent_act_name || '';
     const language = row.language_metadata?.toUpperCase();
     const needsTranslation = language === 'NL' || language === 'DE';
+    const searchName = needsTranslation && parent_act_name
+      ? await translateToFrench(parent_act_name)
+      : parent_act_name;
 
-    const searchName = needsTranslation && parentActName
-      ? await translateToFrench(parentActName)
-      : parentActName;
-
-    // Query documents containing this article, ranked by title similarity
     const MAX_CANDIDATES = 200;
 
     let query = `
       SELECT d.document_number, d.title, d.dossier_number,
-             similarity(d.title, $1) as sim_score
+             similarity(d.title, $1) AS sim_score
       FROM documents d
       JOIN article_contents ac ON d.document_number = ac.document_number
       WHERE ac.article_number = $2
@@ -219,7 +240,7 @@ const config: JobConfig = {
       paramIdx++;
     }
 
-    if (targetTypes.length > 0) {
+    if (targetTypes.length > 0 && !targetTypes.includes('unknown')) {
       query += ` AND d.document_type = ANY($${paramIdx})`;
       params.push(targetTypes);
     }
@@ -240,7 +261,7 @@ const config: JobConfig = {
   },
 
   /**
-   * Generate prompt for LLM
+   * Generate prompt for LLM (only called when _skipLLM is not set)
    */
   promptTemplate: (row: any) => {
     const candidates = row.candidates || [];
@@ -252,40 +273,18 @@ const config: JobConfig = {
         }).join('\n')
       : 'No candidates found.';
 
-    const contextText = row.teaching_texts?.length > 0
+    const legalTeachings = row.teaching_texts?.length > 0
       ? row.teaching_texts.map((t: string, i: number) => `${i + 1}. ${t}`).join('\n\n')
       : 'No legal teachings available.';
 
+    const citationParagraph = row.citation_paragraph || 'No citation paragraph available.';
+
     return NO_DATE_MAPPING_PROMPT
       .replace('{citedActName}', row.parent_act_name || 'Unknown')
-      .replace('{citedProvision}', row.provision_number || 'Unknown')
-      .replace('{context}', contextText)
+      .replace('{citationParagraph}', citationParagraph)
+      .replace('{legalTeachings}', legalTeachings)
       .replace('{candidatesList}', candidatesList);
   },
-
-  // /**
-  //  * Post-process: Filter matches by score threshold
-  //  */
-  // postProcessRow: (_row: any, result: any) => {
-  //   const matches = (result.matches || [])
-  //     .filter((m: any) => m.score >= 80)
-  //     .map((m: any) => ({
-  //       document_number: String(m.document_number),
-  //       confidence: parseFloat(m.confidence) || 0,
-  //       score: parseInt(m.score, 10) || 0,
-  //       title_match: m.title_match || 'PARTIAL',
-  //       reasoning: m.reasoning || '',
-  //       context_score: parseInt(m.context_score, 10) || 0,
-  //       context_reasoning: m.context_reasoning || '',
-  //       context_alignment: m.context_alignment || 'NONE'
-  //     }));
-
-  //   return {
-  //     citation_type: result.citation_type || 'OTHER',
-  //     matches,
-  //     no_match_reason: matches.length === 0 ? (result.no_match_reason || null) : null
-  //   };
-  // },
 
   outputSchema: {
     type: 'object',
@@ -294,30 +293,29 @@ const config: JobConfig = {
     properties: {
       citation_type: {
         type: 'string',
-        enum: ['CODE', 'LAW', 'DECREE', 'ORDINANCE', 'TREATY', 'EU_LAW', 'ROYAL_DECREE', 'MINISTERIAL_DECREE', 'COORDINATED', 'OTHER']
+        enum: ['LAW', 'DECREE', 'ORDINANCE', 'ROYAL_DECREE', 'GOVERNMENT_DECREE', 'MINISTERIAL_DECREE', 'COORDINATED', 'OTHER']
       },
       matches: {
         type: 'array',
         maxItems: 3,
         items: {
           type: 'object',
-          required: ['document_number', 'confidence', 'score', 'title_match', 'reasoning', 'context_score', 'context_reasoning', 'context_alignment'],
+          required: ['document_number', 'confidence', 'score', 'title_match', 'reasoning', 'context_alignment', 'context_notes'],
           additionalProperties: false,
           properties: {
             document_number: { type: 'string' },
-            confidence: { type: 'number' },
-            score: { type: 'integer' },
+            confidence: { type: 'number', minimum: 0, maximum: 1.0 },
+            score: { type: 'integer', minimum: 0, maximum: 100 },
             title_match: {
               type: 'string',
               enum: ['EXACT', 'STRONG', 'PARTIAL', 'WEAK']
             },
             reasoning: { type: 'string' },
-            context_score: { type: 'integer' },
-            context_reasoning: { type: 'string' },
             context_alignment: {
               type: 'string',
               enum: ['STRONG', 'MODERATE', 'WEAK', 'NONE', 'TANGENTIAL']
-            }
+            },
+            context_notes: { type: 'string' }
           }
         }
       },
@@ -331,15 +329,21 @@ const config: JobConfig = {
   openaiProvider: 'azure',
   model: 'gpt-5-mini',
   reasoningEffort: 'medium',
-  verbosity: 'low',
 
-  concurrencyLimit: 100,
-
-  rowMetadataFields: ['internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'provision_number', 'teaching_texts', 'candidate_titles'],
+  rowMetadataFields: [
+    'internal_parent_act_id',
+    'decision_id',
+    'language_metadata',
+    'parent_act_name',
+    'provision_number',
+    'citation_paragraph',
+    'teaching_texts',
+    'candidate_titles'
+  ],
 
   customIdPrefix: 'map-nodate',
 
-  useFullDataPipeline: true,
+  useFullDataPipeline: false
 };
 
 export default config;

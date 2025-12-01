@@ -61,6 +61,9 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
 
   // Stage 2: Code/Constitution Provision Mapping
   'map-provisions-code': 'llm-as-a-judge_MAP_CODE.md',
+
+  // Stage 2: No-Date Provision Mapping (provisions without date)
+  'map-provisions-no-date': 'llm-as-a-judge_MAP_NO_DATE.md',
 };
 
 /**

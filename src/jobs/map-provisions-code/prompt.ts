@@ -192,10 +192,9 @@ Return valid JSON:
   "decision_path": {
     "title_matches": ["list of candidate IDs that passed Step 1"],
     "after_range_elimination": ["list of candidate IDs that passed Step 2"],
-    "existence_status": {
-      "candidate_id_1": "EXISTS | UNKNOWN",
-      "candidate_id_2": "EXISTS | UNKNOWN"
-    },
+    "existence_status": [
+      { "candidate_id": "string", "status": "EXISTS | UNKNOWN" }
+    ],
     "semantic_disambiguation_used": true | false,
     "semantic_match_reasoning": "string | null"
   },
@@ -237,7 +236,7 @@ Return valid JSON:
   "decision_path": {
     "title_matches": ["1867060850"],
     "after_range_elimination": ["1867060850"],
-    "existence_status": { "1867060850": "EXISTS" },
+    "existence_status": [{ "candidate_id": "1867060850", "status": "EXISTS" }],
     "semantic_disambiguation_used": false,
     "semantic_match_reasoning": null
   },
@@ -274,7 +273,7 @@ Return valid JSON:
   "decision_path": {
     "title_matches": ["1804032150", "1804032151", "1804032152"],
     "after_range_elimination": ["1804032152"],
-    "existence_status": { "1804032152": "EXISTS" },
+    "existence_status": [{ "candidate_id": "1804032152", "status": "EXISTS" }],
     "semantic_disambiguation_used": false,
     "semantic_match_reasoning": null
   },
@@ -315,7 +314,7 @@ Return valid JSON:
   "decision_path": {
     "title_matches": ["1831020701", "1994021048"],
     "after_range_elimination": ["1831020701", "1994021048"],
-    "existence_status": { "1831020701": "EXISTS", "1994021048": "EXISTS" },
+    "existence_status": [{ "candidate_id": "1831020701", "status": "EXISTS" }, { "candidate_id": "1994021048", "status": "EXISTS" }],
     "semantic_disambiguation_used": true,
     "semantic_match_reasoning": "Citation discusses 'vrijheid van onderwijs' (freedom of education). 1831 Art. 17 is about education freedom. 1994 Art. 17 is about expropriation. Clear semantic match to 1831."
   },
@@ -353,7 +352,7 @@ Return valid JSON:
   "decision_path": {
     "title_matches": ["1804032152", "2019A12168"],
     "after_range_elimination": ["1804032152", "2019A12168"],
-    "existence_status": { "1804032152": "EXISTS", "2019A12168": "UNKNOWN" },
+    "existence_status": [{ "candidate_id": "1804032152", "status": "EXISTS" }, { "candidate_id": "2019A12168", "status": "UNKNOWN" }],
     "semantic_disambiguation_used": false,
     "semantic_match_reasoning": null
   },
@@ -389,7 +388,7 @@ Return valid JSON:
   "decision_path": {
     "title_matches": ["1804032150", "1804032151"],
     "after_range_elimination": ["1804032151"],
-    "existence_status": { "1804032151": "UNKNOWN" },
+    "existence_status": [{ "candidate_id": "1804032151", "status": "UNKNOWN" }],
     "semantic_disambiguation_used": false,
     "semantic_match_reasoning": null
   },
@@ -426,7 +425,7 @@ Return valid JSON:
   "decision_path": {
     "title_matches": ["1804032150", "2019A12168"],
     "after_range_elimination": ["1804032150", "2019A12168"],
-    "existence_status": { "1804032150": "EXISTS", "2019A12168": "EXISTS" },
+    "existence_status": [{ "candidate_id": "1804032150", "status": "EXISTS" }, { "candidate_id": "2019A12168", "status": "EXISTS" }],
     "semantic_disambiguation_used": true,
     "semantic_match_reasoning": "Both documents have an Article 1. Citation context insufficient to determine which one."
   },

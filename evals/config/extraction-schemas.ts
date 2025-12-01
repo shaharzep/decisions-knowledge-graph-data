@@ -154,6 +154,24 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
     'no_match_reason',        // Explanation if no match found (null otherwise)
     'candidate_titles',       // Array of candidate document titles considered
   ],
+
+  /**
+   * Map Provisions No-Date: Map provisions WITHOUT date to parent acts
+   * Title matching is primary signal; context helps disambiguate between different-dated candidates
+   * Confidence capped at 0.90 (no date confirmation available)
+   */
+  'map-provisions-no-date': [
+    // Inputs (judge needs these to evaluate)
+    'parent_act_name',        // Input: cited act name (NO DATE available)
+    'parent_act_type',        // Input: type of act (LAW, DECREE, etc.)
+    'citation_paragraph',     // Input: context paragraph
+    'teaching_texts',         // Input: legal teachings context
+    'candidate_titles',       // Input: candidate documents (may have DIFFERENT DATES)
+    // Outputs (what model produced)
+    'citation_type',          // LAW | DECREE | ORDINANCE | ROYAL_DECREE | GOVERNMENT_DECREE | MINISTERIAL_DECREE | COORDINATED | OTHER
+    'matches',                // Array with document_number, confidence (max 0.90), score, title_match, reasoning, context_alignment, context_notes
+    'no_match_reason',        // Explanation if no matches (null otherwise)
+  ],
 };
 
 /**
