@@ -58,6 +58,9 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
 
   // Stage 2: Standard Provision Mapping
   'map-provisions-standard': 'llm-as-a-judge_MAP_STANDARD.md',
+
+  // Stage 2: Code/Constitution Provision Mapping
+  'map-provisions-code': 'llm-as-a-judge_MAP_CODE.md',
 };
 
 /**

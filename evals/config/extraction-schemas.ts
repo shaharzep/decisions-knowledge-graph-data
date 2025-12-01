@@ -135,6 +135,25 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
     'matches',                // Array of matched documents with confidence
     'no_match_reason',        // Explanation if no matches (null otherwise)
   ],
+
+  /**
+   * Map Provisions Code: Map CODE/Constitution provisions to specific documents
+   * Two-pass algorithm: Pass 1 identifies code family, Pass 2 matches exact document
+   */
+  'map-provisions-code': [
+    // Inputs (judge needs these to evaluate)
+    'parent_act_name',        // Input: cited act name (e.g., "Burgerlijk Wetboek")
+    'provision_number',       // Input: article being cited
+    'provision_number_key',   // Input: normalized article key
+    'citation_paragraph',     // Input: context paragraph
+    'teaching_texts',         // Input: legal teachings context
+    // Outputs (what model produced)
+    'decision_path',          // { title_matches, after_range_elimination, existence_status, semantic_disambiguation_used, semantic_match_reasoning }
+    'matches',                // Array of document matches with title_match, range_status, existence_status, is_abrogated
+    'final_decision',         // SINGLE_MATCH | RESOLVED_BY_RANGE | RESOLVED_BY_EXISTENCE | RESOLVED_BY_SEMANTIC | AMBIGUOUS | NO_MATCH
+    'no_match_reason',        // Explanation if no match found (null otherwise)
+    'candidate_titles',       // Array of candidate document titles considered
+  ],
 };
 
 /**

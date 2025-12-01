@@ -268,6 +268,18 @@ export class ConcurrentRunner {
     const metadata = this.extractMetadata(row);
 
     try {
+      // Check for early exit from preprocessRow (e.g., fast-path exact match)
+      // When _skipLLM is true, use _result directly without calling LLM
+      if (row._skipLLM === true && row._result !== undefined) {
+        return {
+          customId,
+          success: true,
+          data: row._result,
+          metadata,
+          tokenUsage: { promptTokens: 0, completionTokens: 0, totalTokens: 0 },
+        };
+      }
+
       // Check for custom execution (e.g., two-stage processing)
       if (this.config.customExecution) {
         const data = await this.config.customExecution(row, this.client);
