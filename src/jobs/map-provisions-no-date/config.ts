@@ -13,9 +13,9 @@ const __dirname = dirname(__filename);
 // POPULAR LAWS FAST-PATH
 // =============================================================================
 
-// Load popular laws from map-provisions-standard (shared mapping)
+// Load popular laws mapping (local to this job)
 const rawPopularLaws: Record<string, string> = JSON.parse(
-  readFileSync(join(__dirname, '../map-provisions-standard/popular-laws.json'), 'utf-8')
+  readFileSync(join(__dirname, 'popular-laws.json'), 'utf-8')
 );
 
 // Normalize keys for case-insensitive lookup
@@ -229,9 +229,9 @@ const config: JobConfig = {
              similarity(d.title, $1) AS sim_score
       FROM documents d
       JOIN article_contents ac ON d.document_number = ac.document_number
-      WHERE ac.article_number = $2
+      WHERE similarity(d.title, $1) >= 0.15
     `;
-    const params: any[] = [searchName, articleLookup];
+    const params: any[] = [searchName];
     let paramIdx = 3;
 
     if (row.decision_date) {
