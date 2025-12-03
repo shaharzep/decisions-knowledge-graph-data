@@ -832,8 +832,12 @@ export class ConcurrentProcessor {
     // Priority 1: Internal Parent Act ID (for provision mapping)
     if (metadata.internal_parent_act_id) {
       baseName = String(metadata.internal_parent_act_id);
-    } 
-    // Priority 2: Decision ID + Language (for decision-based jobs)
+    }
+    // Priority 2: Internal Decision ID (for cited decision mapping)
+    else if (metadata.internal_decision_id) {
+      baseName = String(metadata.internal_decision_id);
+    }
+    // Priority 3: Decision ID + Language (for decision-based jobs)
     else {
       const parts: string[] = [];
       if (decisionId) parts.push(decisionId);
