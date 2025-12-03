@@ -174,6 +174,23 @@ const config: JobConfig = {
     let candidates: any[] = [];
     try {
       candidates = await DatabaseConfig.executeReadOnlyQuery(query, [`${searchDate}%`, strictTypes]);
+
+      // === STEP 3: If too many candidates, use similarity to rank and limit ===
+      if (candidates.length > 200) {
+        const similarityQuery = `
+          SELECT document_number, title, document_type,
+                 similarity(title, $3) AS sim_score
+          FROM documents
+          WHERE dossier_number LIKE $1
+            AND document_type = ANY($2)
+          ORDER BY sim_score DESC
+          LIMIT 200
+        `;
+        candidates = await DatabaseConfig.executeReadOnlyQuery(
+          similarityQuery,
+          [`${searchDate}%`, strictTypes, parent_act_name]
+        );
+      }
     } catch (error) {
       console.error(`Error fetching candidates for ${row.internal_parent_act_id}:`, error);
     }

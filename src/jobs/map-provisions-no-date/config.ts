@@ -151,7 +151,7 @@ const config: JobConfig = {
   id: 'map-provisions-no-date',
   description: 'Map cited provisions without date to specific documents (with fast-path for popular laws)',
 
-  concurrencyLimit: 200,
+  concurrencyLimit: 50,
 
   dbQuery: `
     SELECT DISTINCT ON (dcp.internal_parent_act_id)
@@ -184,7 +184,6 @@ const config: JobConfig = {
       AND dcp.parent_act_type NOT LIKE '%_UE'
       AND dcp.internal_parent_act_id IS NOT NULL
     ORDER BY dcp.internal_parent_act_id
-    limit 50
   `,
 
   dbQueryParams: [],
@@ -229,9 +228,10 @@ const config: JobConfig = {
              similarity(d.title, $1) AS sim_score
       FROM documents d
       JOIN article_contents ac ON d.document_number = ac.document_number
-      WHERE similarity(d.title, $1) >= 0.15
+      WHERE ac.article_number = $2
+        AND similarity(d.title, $1) >= 0.15
     `;
-    const params: any[] = [searchName];
+    const params: any[] = [searchName, articleLookup];
     let paramIdx = 3;
 
     if (row.decision_date) {
@@ -343,7 +343,7 @@ const config: JobConfig = {
 
   customIdPrefix: 'map-nodate',
 
-  useFullDataPipeline: false
+  useFullDataPipeline: true
 };
 
 export default config;

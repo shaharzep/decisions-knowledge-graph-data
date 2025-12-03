@@ -100,7 +100,6 @@ const config: JobConfig = {
     WHERE dcp.parent_act_type IN ('CODE', 'WETBOEK', 'GRONDWET', 'CONSTITUTION')
       AND dcp.internal_parent_act_id IS NOT NULL
     ORDER BY dcp.internal_parent_act_id
-    limit 100
   `,
 
   dbQueryParams: [],
@@ -321,7 +320,7 @@ const config: JobConfig = {
 
   customIdPrefix: 'map-code',
 
-  useFullDataPipeline: false
+  useFullDataPipeline: true
 };
 
 export default config;
