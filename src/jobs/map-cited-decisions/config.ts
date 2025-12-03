@@ -195,7 +195,7 @@ const config: JobConfig = {
   id: 'map-cited-decisions',
   description: 'Map cited decisions to actual decisions in decisions1 table',
 
-  concurrencyLimit: 10,
+  concurrencyLimit: 200,
 
   /**
    * Select cited decisions with dates for mapping
@@ -222,7 +222,7 @@ const config: JobConfig = {
     JOIN decisions1 d ON d.id = cd.decision_id
     WHERE cd.cited_date IS NOT NULL
     ORDER BY cd.internal_decision_id
-    limit 10
+    limit 500
   `,
 
   dbQueryParams: [],

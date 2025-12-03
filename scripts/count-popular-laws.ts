@@ -36,9 +36,7 @@ async function main() {
       AND parent_act_type NOT LIKE 'EU%'
       AND parent_act_type NOT LIKE '%_UE'
     GROUP BY parent_act_name, parent_act_type
-    HAVING COUNT(*) > 1
     ORDER BY occurrences DESC
-    LIMIT 500
   `;
 
   // Query: Total sum of top 500
@@ -56,9 +54,7 @@ async function main() {
         AND parent_act_type NOT LIKE 'EU%'
         AND parent_act_type NOT LIKE '%_UE'
       GROUP BY parent_act_name, parent_act_type
-      HAVING COUNT(*) > 1
       ORDER BY occurrences DESC
-      LIMIT 500
     ) AS top500
   `;
 
@@ -101,7 +97,7 @@ async function main() {
       const name = row.parent_act_name.length > 80
         ? row.parent_act_name.substring(0, 77) + '...'
         : row.parent_act_name;
-      console.log(`${String(i + 1).padStart(4)} | ${String(row.occurrences).padStart(6)} | ${row.parent_act_type.padEnd(20)} | ${name}`);
+      // console.log(`${String(i + 1).padStart(4)} | ${String(row.occurrences).padStart(6)} | ${row.parent_act_type.padEnd(20)} | ${name}`);
     }
 
     // Output as JSON for easy copy-paste
@@ -112,7 +108,7 @@ async function main() {
     for (const row of unmapped.slice(0, 50)) {
       // Escape quotes in the name
       const escapedName = row.parent_act_name.replace(/"/g, '\\"');
-      console.log(`  "${escapedName}": "DOCUMENT_NUMBER_HERE",`);
+      // console.log(`  "${escapedName}": "DOCUMENT_NUMBER_HERE",`);
     }
 
   } catch (error) {
