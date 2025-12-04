@@ -118,11 +118,15 @@ export function validateExtractionResults(data: any[]): void {
   }
 
   // Check that each result has required fields
+  // Different jobs use different ID fields:
+  // - Most extraction jobs: decisionId or decision_id
+  // - map-cited-decisions: internal_decision_id (unique per citation)
   const firstResult = data[0];
-  if (!firstResult.decisionId && !firstResult.decision_id) {
+  if (!firstResult.decisionId && !firstResult.decision_id && !firstResult.internal_decision_id) {
     console.error('First result keys:', Object.keys(firstResult));
     throw new Error(
       'Extraction results missing decisionId field. ' +
+        'Expected one of: decisionId, decision_id, internal_decision_id. ' +
         'Results may be from an old extraction format.'
     );
   }

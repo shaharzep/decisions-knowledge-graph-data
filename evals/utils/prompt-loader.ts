@@ -62,6 +62,22 @@ export function isTemplateStylePrompt(promptTemplate: string): boolean {
 }
 
 /**
+ * Check if prompt is for map-cited-decisions job
+ *
+ * These prompts use specific placeholders for citation mapping evaluation
+ *
+ * @param promptTemplate - The loaded judge prompt markdown content
+ * @returns true if this is a map-cited-decisions prompt
+ */
+export function isMapCitedDecisionsPrompt(promptTemplate: string): boolean {
+  return (
+    promptTemplate.includes('{citedCourtName}') &&
+    promptTemplate.includes('{modelOutput}') &&
+    promptTemplate.includes('{candidatesList}')
+  );
+}
+
+/**
  * Format snippets as numbered list for prompt injection
  *
  * @param snippets - Array of provision context snippets
@@ -80,10 +96,11 @@ export function formatSnippetsForPrompt(snippets: string[]): string {
 /**
  * Format a judge prompt with actual evaluation data
  *
- * Supports three formatting styles:
- * 1. RFTC-style: Replaces placeholders like {transformedHtml}, {legalTeachingsInput}
- * 2. Template-style: Replaces placeholders like {ground_truth_snippets}
- * 3. Append-style: Appends sections at the end (backward compatible)
+ * Supports four formatting styles:
+ * 1. Map-cited-decisions: Replaces placeholders like {citedCourtName}, {modelOutput}, {candidatesList}
+ * 2. RFTC-style: Replaces placeholders like {transformedHtml}, {legalTeachingsInput}
+ * 3. Template-style: Replaces placeholders like {ground_truth_snippets}
+ * 4. Append-style: Appends sections at the end (backward compatible)
  *
  * @param promptTemplate - The loaded judge prompt markdown content
  * @param decisionId - ECLI identifier
@@ -101,8 +118,11 @@ export function formatJudgePrompt(
   jobType?: string,
   extractedReferences?: any
 ): string {
-  // Detect prompt style
-  if (isTemplateStylePrompt(promptTemplate)) {
+  // Detect prompt style - check map-cited-decisions first (most specific)
+  if (isMapCitedDecisionsPrompt(promptTemplate)) {
+    // Map-cited-decisions style: uses extractedData as both input context and output
+    return formatMapCitedDecisionsPrompt(promptTemplate, extractedData);
+  } else if (isTemplateStylePrompt(promptTemplate)) {
     // Template-style: Replace placeholders
     return formatTemplateStylePrompt(
       promptTemplate,
@@ -250,4 +270,153 @@ ${JSON.stringify(extractedData, null, 2)}
 Return your evaluation as valid JSON only.`;
 
   return appendedContent;
+}
+
+/**
+ * Format map-cited-decisions prompt
+ *
+ * This job evaluates mapping quality, where input context is embedded in the extraction result.
+ * Replaces placeholders: {citedCourtName}, {citedDate}, {citedCaseNumber}, {citedEcli},
+ * {citationSnippet}, {snippetMatchType}, {candidateCount}, {candidatesList},
+ * {modelOutput}, {groundTruth}
+ *
+ * @param promptTemplate - Template with map-cited-decisions placeholders
+ * @param extractedData - Full extraction result containing both input context and model output
+ * @returns Formatted prompt with all placeholders replaced
+ */
+function formatMapCitedDecisionsPrompt(
+  promptTemplate: string,
+  extractedData: any
+): string {
+  let formatted = promptTemplate;
+
+  // Extract input context from the extraction result
+  const citedCourtName = extractedData.cited_court_name || 'N/A';
+  const citedDate = extractedData.cited_date || 'N/A';
+  const citedCaseNumber = extractedData.cited_case_number || 'N/A';
+  const citedEcli = extractedData.cited_ecli || 'N/A';
+  const citationSnippet = extractedData.citation_snippet || '[No snippet available]';
+  const snippetMatchType = extractedData.snippet_match_type || 'UNKNOWN';
+  const candidates = extractedData.candidates || [];
+  const teachingTexts = extractedData.teaching_texts || [];
+
+  // IMPORTANT: candidate_count may be different from candidates.length
+  // In fast-path cases, candidates array is not preserved but candidate_count is
+  const candidateCount = extractedData.candidate_count ?? candidates.length;
+
+  // Format candidates list with fast-path context
+  let candidatesList: string;
+  if (candidates.length > 0) {
+    candidatesList = formatCandidatesForJudge(candidates);
+  } else if (candidateCount > 0) {
+    // Fast-path case: we know there were candidates but they weren't preserved
+    candidatesList = `[FAST-PATH: ${candidateCount} candidate(s) found during preprocessing but not preserved in output.\n` +
+      `The match was determined via fast-path logic (ECLI exact match or single candidate).\n` +
+      `Judge should evaluate based on the match reasoning and cited identifiers.]`;
+  } else {
+    candidatesList = '[No candidates available]';
+  }
+
+  // Extract model output (matches and no_match_reason)
+  const modelOutput = {
+    matches: extractedData.matches || [],
+    no_match_reason: extractedData.no_match_reason || null,
+  };
+
+  // Ground truth: Build context for the judge based on available signals
+  let groundTruth = '';
+
+  // Fast-path detection
+  const isFastPath = candidateCount > 0 && candidates.length === 0;
+  if (isFastPath) {
+    groundTruth += `**FAST-PATH CASE**: This match was determined without LLM (preprocessing logic). `;
+    groundTruth += `candidate_count=${candidateCount} but candidates array not preserved. `;
+  }
+
+  if (citedEcli && citedEcli !== 'N/A') {
+    groundTruth += `Cited ECLI: ${citedEcli} - if model matched this exactly, it's correct. `;
+  }
+  if (citedCaseNumber && citedCaseNumber !== 'N/A') {
+    groundTruth += `Cited case number: ${citedCaseNumber} - compare against matched decision's identifiers. `;
+  }
+
+  // Context based on candidate count
+  if (candidateCount === 0) {
+    groundTruth += `No candidates found - correct behavior is no_match with appropriate reason. `;
+  } else if (candidateCount === 1) {
+    groundTruth += `Single candidate scenario - high confidence match is appropriate if identifiers align. `;
+  } else {
+    groundTruth += `Multiple candidates (${candidateCount}) - verify LLM selected the best match. `;
+  }
+
+  if (!groundTruth) {
+    groundTruth = 'No explicit ground truth provided.';
+  }
+
+  // Replace all placeholders
+  formatted = formatted
+    .replace(/\{citedCourtName\}/g, citedCourtName)
+    .replace(/\{citedDate\}/g, citedDate)
+    .replace(/\{citedCaseNumber\}/g, citedCaseNumber)
+    .replace(/\{citedEcli\}/g, citedEcli)
+    .replace(/\{citationSnippet\}/g, citationSnippet)
+    .replace(/\{snippetMatchType\}/g, snippetMatchType)
+    .replace(/\{candidateCount\}/g, String(candidateCount))
+    .replace(/\{candidatesList\}/g, candidatesList)
+    .replace(/\{modelOutput\}/g, JSON.stringify(modelOutput, null, 2))
+    .replace(/\{groundTruth\}/g, groundTruth);
+
+  return formatted;
+}
+
+/**
+ * Format candidates array for judge prompt
+ *
+ * Produces a numbered list with key information for each candidate.
+ *
+ * @param candidates - Array of candidate decision objects
+ * @returns Formatted string for prompt injection
+ */
+function formatCandidatesForJudge(candidates: any[]): string {
+  if (!candidates || candidates.length === 0) {
+    return '[No candidates available]';
+  }
+
+  return candidates.map((c, idx) => {
+    const parts: string[] = [];
+    parts.push(`${idx + 1}. [${c.decision_id || 'UNKNOWN'}]`);
+
+    if (c.court_name || c.court_name_fr || c.court_name_nl) {
+      parts.push(`   Court: ${c.court_name || c.court_name_fr || c.court_name_nl}`);
+    }
+    if (c.decision_date) {
+      parts.push(`   Date: ${c.decision_date}`);
+    }
+    if (c.decision_type_fr || c.decision_type_nl) {
+      parts.push(`   Type: ${c.decision_type_fr || c.decision_type_nl}`);
+    }
+    if (c.rol_number) {
+      parts.push(`   Case Number (rol_number): ${c.rol_number}`);
+    }
+
+    // Include teaching texts (truncated)
+    if (c.teaching_texts && c.teaching_texts.length > 0) {
+      const teachings = c.teaching_texts.slice(0, 3).map((t: string, i: number) => {
+        const truncated = t.length > 250 ? t.substring(0, 250) + '...' : t;
+        return `     ${i + 1}. ${truncated}`;
+      });
+      parts.push(`   Legal Teachings:\n${teachings.join('\n')}`);
+    }
+
+    // Include summaries (truncated)
+    if (c.summaries && c.summaries.length > 0) {
+      const summaries = c.summaries.slice(0, 2).map((s: string, i: number) => {
+        const truncated = s.length > 200 ? s.substring(0, 200) + '...' : s;
+        return `     ${i + 1}. ${truncated}`;
+      });
+      parts.push(`   Summaries:\n${summaries.join('\n')}`);
+    }
+
+    return parts.join('\n');
+  }).join('\n\n');
 }

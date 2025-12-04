@@ -173,6 +173,28 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
     'matches',                // Array with document_number, confidence (max 0.90), score, title_match, reasoning, context_alignment, context_notes
     'no_match_reason',        // Explanation if no matches (null otherwise)
   ],
+
+  /**
+   * Map Cited Decisions: Map extracted citations to database decisions
+   * Uses date + court filtering to find candidates, LLM disambiguates when multiple
+   * Fast-path skips LLM for ECLI matches or single candidates
+   */
+  'map-cited-decisions': [
+    // Inputs (judge needs these to evaluate correctness)
+    'cited_court_name',       // Input: court name from citation
+    'cited_date',             // Input: date from citation (YYYY-MM-DD)
+    'cited_case_number',      // Input: case/roll number if available
+    'cited_ecli',             // Input: ECLI if explicitly cited
+    'citation_snippet',       // Input: ~600 char context around citation
+    'snippet_match_type',     // Input: how snippet was found (ECLI, CASE_NUMBER, COURT_DATE, COURT_ONLY)
+    'candidates',             // Input: array of candidate decisions (may be empty in fast-path)
+    'candidate_count',        // Input: number of candidates found (preserved even in fast-path)
+    'court_mapping_found',    // Input: whether court name was mapped via CSV
+    'teaching_texts',         // Input: legal teachings from source decision
+    // Outputs (what model produced)
+    'matches',                // Array of {decision_id, court_name, score, confidence, reasoning}
+    'no_match_reason',        // Explanation if no matches (null otherwise)
+  ],
 };
 
 /**

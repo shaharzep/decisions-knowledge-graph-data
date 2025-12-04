@@ -5,9 +5,24 @@
  * with production-readiness focus
  */
 
-import { formatJudgePrompt } from '../utils/prompt-loader.js';
+import { formatJudgePrompt, isMapCitedDecisionsPrompt } from '../utils/prompt-loader.js';
 import { callAzureJudge } from '../config/openai.js';
 import { EvaluationResult, Verdict, Recommendation, Confidence } from '../types.js';
+
+/**
+ * Map-cited-decisions specific evaluation result
+ * Different schema from standard EvaluationResult
+ */
+export interface MapDecisionsEvaluation {
+  match_correctness: 'CORRECT' | 'PARTIALLY_CORRECT' | 'INCORRECT' | 'FALSE_POSITIVE' | 'FALSE_NEGATIVE' | 'CORRECT_NO_MATCH';
+  correct_decision_id: string | null;
+  confidence_calibration: 'WELL_CALIBRATED' | 'OVERCONFIDENT' | 'UNDERCONFIDENT';
+  expected_confidence_range: [number, number];
+  reasoning_quality: number; // 1-5
+  errors: string[];
+  evaluation_notes: string;
+  improvement_suggestions: string | null;
+}
 
 /**
  * Score a single extraction using Azure GPT-4.1 judge
@@ -42,7 +57,14 @@ export async function scoreExtraction(
   // Call Azure GPT-4.1 for evaluation
   const responseText = await callAzureJudge(prompt);
 
-  // Parse and validate response
+  // Parse response based on prompt type
+  if (isMapCitedDecisionsPrompt(judgePromptTemplate)) {
+    // Map-cited-decisions uses a different response schema
+    const mapEval = parseMapDecisionsResponse(responseText);
+    return adaptMapDecisionsToEvaluationResult(mapEval);
+  }
+
+  // Standard evaluation flow
   const evaluation = parseJudgeResponse(responseText);
 
   // Validate result structure
@@ -240,5 +262,193 @@ export function extractScoresForBraintrust(evaluation: EvaluationResult): {
     recommendation: evaluation.recommendation,
     confidence: evaluation.confidence,
     production_ready: evaluation.verdict === 'PASS',
+  };
+}
+
+// ============================================================================
+// MAP-CITED-DECISIONS SPECIFIC PARSING AND ADAPTATION
+// ============================================================================
+
+/**
+ * Parse map-cited-decisions judge response
+ *
+ * This response uses a different schema than standard evaluations.
+ *
+ * @param responseText - Raw response from Azure GPT-4.1
+ * @returns Parsed MapDecisionsEvaluation
+ */
+export function parseMapDecisionsResponse(responseText: string): MapDecisionsEvaluation {
+  try {
+    let jsonText = responseText.trim();
+
+    // Extract JSON from markdown code blocks if present
+    const codeBlockMatch = jsonText.match(/```(?:json)?\s*(\{[\s\S]*?\})\s*```/);
+    if (codeBlockMatch) {
+      jsonText = codeBlockMatch[1];
+    } else {
+      // Try to find JSON object boundaries
+      const jsonMatch = jsonText.match(/\{[\s\S]*\}/);
+      if (jsonMatch) {
+        jsonText = jsonMatch[0];
+      }
+    }
+
+    const parsed = JSON.parse(jsonText);
+
+    // Validate and map to MapDecisionsEvaluation
+    const evaluation: MapDecisionsEvaluation = {
+      match_correctness: parsed.match_correctness || 'INCORRECT',
+      correct_decision_id: parsed.correct_decision_id || null,
+      confidence_calibration: parsed.confidence_calibration || 'WELL_CALIBRATED',
+      expected_confidence_range: Array.isArray(parsed.expected_confidence_range)
+        ? parsed.expected_confidence_range
+        : [0, 100],
+      reasoning_quality: typeof parsed.reasoning_quality === 'number'
+        ? parsed.reasoning_quality
+        : 3,
+      errors: Array.isArray(parsed.errors) ? parsed.errors : [],
+      evaluation_notes: parsed.evaluation_notes || '',
+      improvement_suggestions: parsed.improvement_suggestions || null,
+    };
+
+    return evaluation;
+  } catch (error: any) {
+    if (error instanceof SyntaxError) {
+      throw new Error(
+        `Failed to parse map-cited-decisions judge response as JSON: ${error.message}\n` +
+        `Response preview: ${responseText.substring(0, 500)}...`
+      );
+    }
+    throw error;
+  }
+}
+
+/**
+ * Adapt MapDecisionsEvaluation to standard EvaluationResult
+ *
+ * Converts the domain-specific evaluation schema to the standard format
+ * for Braintrust logging and aggregation.
+ *
+ * Mapping logic:
+ * - match_correctness → verdict (CORRECT/PARTIALLY→PASS, INCORRECT/FALSE→FAIL, etc.)
+ * - reasoning_quality × 20 → score (1-5 becomes 20-100)
+ * - errors → criticalIssues/majorIssues based on severity
+ * - confidence_calibration → confidence
+ * - evaluation_notes → summary
+ *
+ * @param mapEval - Domain-specific evaluation
+ * @returns Standard EvaluationResult
+ */
+export function adaptMapDecisionsToEvaluationResult(
+  mapEval: MapDecisionsEvaluation
+): EvaluationResult {
+  // Map match_correctness to verdict
+  let verdict: Verdict;
+  switch (mapEval.match_correctness) {
+    case 'CORRECT':
+    case 'CORRECT_NO_MATCH':
+      verdict = 'PASS';
+      break;
+    case 'PARTIALLY_CORRECT':
+      verdict = 'REVIEW_REQUIRED';
+      break;
+    case 'INCORRECT':
+    case 'FALSE_POSITIVE':
+    case 'FALSE_NEGATIVE':
+      verdict = 'FAIL';
+      break;
+    default:
+      verdict = 'REVIEW_REQUIRED';
+  }
+
+  // Calculate score from reasoning_quality (1-5 → 20-100)
+  // Also factor in match correctness
+  let baseScore = mapEval.reasoning_quality * 20;
+
+  // Adjust based on correctness
+  if (mapEval.match_correctness === 'CORRECT' || mapEval.match_correctness === 'CORRECT_NO_MATCH') {
+    baseScore = Math.max(baseScore, 80); // Correct matches get at least 80
+  } else if (mapEval.match_correctness === 'PARTIALLY_CORRECT') {
+    baseScore = Math.min(baseScore, 75); // Partial correct capped at 75
+  } else {
+    baseScore = Math.min(baseScore, 50); // Incorrect capped at 50
+  }
+
+  // Adjust for confidence calibration
+  if (mapEval.confidence_calibration === 'OVERCONFIDENT') {
+    baseScore -= 10;
+  } else if (mapEval.confidence_calibration === 'UNDERCONFIDENT') {
+    baseScore -= 5;
+  }
+
+  const score = Math.max(0, Math.min(100, baseScore));
+
+  // Categorize errors by severity
+  const criticalErrors = [
+    'CASE_NUMBER_IGNORED',
+    'CASE_NUMBER_FALSE_MATCH',
+    'ECLI_MISMATCH_IGNORED',
+  ];
+  const majorErrors = [
+    'CONTEXT_MISREAD',
+    'WRONG_COURT_TYPE',
+    'LANGUAGE_CONFUSION',
+  ];
+
+  const criticalIssues: string[] = [];
+  const majorIssues: string[] = [];
+  const minorIssues: string[] = [];
+
+  for (const error of mapEval.errors) {
+    if (error === 'NONE') continue;
+    if (criticalErrors.includes(error)) {
+      criticalIssues.push(error);
+    } else if (majorErrors.includes(error)) {
+      majorIssues.push(error);
+    } else {
+      minorIssues.push(error);
+    }
+  }
+
+  // Add calibration issue if not well-calibrated
+  if (mapEval.confidence_calibration !== 'WELL_CALIBRATED') {
+    majorIssues.push(`CONFIDENCE_${mapEval.confidence_calibration}`);
+  }
+
+  // Map confidence_calibration to Confidence
+  let confidence: Confidence;
+  if (mapEval.match_correctness === 'CORRECT' || mapEval.match_correctness === 'CORRECT_NO_MATCH') {
+    confidence = 'HIGH';
+  } else if (mapEval.match_correctness === 'PARTIALLY_CORRECT') {
+    confidence = 'MEDIUM';
+  } else {
+    confidence = 'LOW';
+  }
+
+  // Map to recommendation
+  let recommendation: Recommendation;
+  if (verdict === 'PASS') {
+    recommendation = 'ACCEPT';
+  } else if (verdict === 'FAIL') {
+    recommendation = mapEval.improvement_suggestions ? 'FIX_PROMPT' : 'REJECT';
+  } else {
+    recommendation = 'REVIEW_MANUALLY';
+  }
+
+  // Build summary
+  let summary = `[${mapEval.match_correctness}] ${mapEval.evaluation_notes}`;
+  if (mapEval.improvement_suggestions) {
+    summary += ` Suggestions: ${mapEval.improvement_suggestions}`;
+  }
+
+  return {
+    verdict,
+    score,
+    criticalIssues,
+    majorIssues,
+    minorIssues,
+    recommendation,
+    confidence,
+    summary,
   };
 }

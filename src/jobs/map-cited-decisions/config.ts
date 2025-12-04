@@ -1,6 +1,7 @@
 import { JobConfig } from '../JobConfig.js';
 import { CITED_DECISION_MAPPING_PROMPT } from './prompt.js';
 import { DatabaseConfig } from '../../config/database.js';
+import { findCitationSnippet } from './citation-finder.js';
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -51,6 +52,19 @@ function loadCourtMappingFromCsv(): Record<string, string> {
 const courtMapping = loadCourtMappingFromCsv();
 
 /**
+ * Load missing courts from JSON file
+ * These are courts that don't exist in the database - skip processing them
+ * Returns normalized Set for O(1) lookup
+ */
+function loadMissingCourts(): Set<string> {
+  const jsonContent = readFileSync(join(__dirname, 'missing-courts.json'), 'utf-8');
+  const courts: string[] = JSON.parse(jsonContent);
+  return new Set(courts.map(normalizeCourtName));
+}
+
+const missingCourts = loadMissingCourts();
+
+/**
  * Try to map court name to court_ecli_code
  * Returns court_ecli_code if found, null otherwise
  */
@@ -60,14 +74,24 @@ function tryCourtMapping(courtName: string): string | null {
 }
 
 /**
+ * Check if court is known to be missing from database
+ * Returns true if court should be skipped
+ */
+function isKnownMissingCourt(courtName: string): boolean {
+  if (!courtName) return false;
+  return missingCourts.has(normalizeCourtName(courtName));
+}
+
+/**
  * Format date to YYYY-MM-DD for DB query
+ * Uses UTC to avoid timezone-related off-by-one errors
  */
 function formatDate(date: Date | string | null): string {
   if (!date) return '';
   const d = new Date(date);
-  const year = d.getFullYear();
-  const month = String(d.getMonth() + 1).padStart(2, '0');
-  const day = String(d.getDate()).padStart(2, '0');
+  const year = d.getUTCFullYear();
+  const month = String(d.getUTCMonth() + 1).padStart(2, '0');
+  const day = String(d.getUTCDate()).padStart(2, '0');
   return `${year}-${month}-${day}`;
 }
 
@@ -104,15 +128,14 @@ interface Candidate {
   decision_date: string;
   decision_type: string | null;
   rol_number: string | null;
-  micro_summary: string | null;
-  facts: string | null;
+  teaching_texts: string[] | null;
   summaries: string[] | null;
 }
 
 /**
  * Fetch candidate decisions from decisions1 matching the cited date
  * Optionally filters by court if mapping is available
- * Includes rol_number for case number matching, plus micro_summary, facts, and summaries for context
+ * Includes rol_number for case number matching, plus teaching_texts and summaries for context
  */
 async function fetchCandidateDecisions(
   citedDate: string,
@@ -120,7 +143,7 @@ async function fetchCandidateDecisions(
 ): Promise<Candidate[]> {
   // Base query: match by date, include rol_number for case number matching
   // Join with courts for court name and decision_types for decision type name
-  // Include micro_summary, facts, and summaries (from summaries table) for context
+  // Include teaching_texts (from decision_legal_teachings) and summaries for context
   let query = `
     SELECT
       d.id AS db_id,
@@ -133,8 +156,11 @@ async function fetchCandidateDecisions(
       dt.decision_type_fr,
       dt.decision_type_nl,
       d.rol_number,
-      d.micro_summary,
-      d.facts,
+      (
+        SELECT ARRAY_AGG(dlt.teaching_text)
+        FROM decision_legal_teachings dlt
+        WHERE dlt.decision_id = d.id
+      ) AS teaching_texts,
       (
         SELECT ARRAY_AGG(s.summary)
         FROM summaries s
@@ -173,8 +199,7 @@ async function fetchCandidateDecisions(
           ? (r.decision_type_nl || r.decision_type_fr || null)
           : (r.decision_type_fr || r.decision_type_nl || null),
         rol_number: r.rol_number || null,
-        micro_summary: r.micro_summary || null,
-        facts: r.facts || null,
+        teaching_texts: r.teaching_texts || null,
         summaries: r.summaries || null
       };
     });
@@ -213,6 +238,7 @@ const config: JobConfig = {
       cd.treatment,
       d.decision_id AS source_ecli,
       d.language_metadata,
+      dm.full_md AS source_full_md,
       (
         SELECT ARRAY_AGG(dlt.teaching_text)
         FROM decision_legal_teachings dlt
@@ -220,9 +246,11 @@ const config: JobConfig = {
       ) AS teaching_texts
     FROM cited_decisions cd
     JOIN decisions1 d ON d.id = cd.decision_id
+    LEFT JOIN decisions_md dm ON dm.decision_id = d.decision_id AND dm.language = d.language_metadata
     WHERE cd.cited_date IS NOT NULL
+      AND cd.cited_type = 'PRECEDENT'
     ORDER BY cd.internal_decision_id
-    limit 500
+    LIMIT 100
   `,
 
   dbQueryParams: [],
@@ -236,7 +264,12 @@ const config: JobConfig = {
    * - null to skip rows (should not happen with this query)
    */
   preprocessRow: async (row: any) => {
-    const { cited_date, cited_court_name, cited_ecli } = row;
+    const { cited_date, cited_court_name, cited_ecli, cited_case_number, source_full_md } = row;
+
+    // === STEP 0: Skip known missing courts (no output) ===
+    if (isKnownMissingCourt(cited_court_name)) {
+      return null;
+    }
 
     // === STEP 1: Format date for query ===
     const searchDate = formatDate(cited_date);
@@ -249,29 +282,31 @@ const config: JobConfig = {
       };
     }
 
-    // === STEP 2: Try court mapping from CSV ===
-    const courtEcliCode = tryCourtMapping(cited_court_name);
+    // === STEP 2: Extract citation snippet from source decision ===
+    const { snippet, matchedOn } = findCitationSnippet(
+      source_full_md,
+      cited_court_name,
+      searchDate,
+      cited_case_number,
+      cited_ecli
+    );
+    row.citation_snippet = snippet;
+    row.snippet_match_type = matchedOn;
 
-    // === STEP 3: Fetch candidates with date filter (and court if available) ===
-    let candidates = await fetchCandidateDecisions(searchDate, courtEcliCode);
+    // === STEP 3: Fetch candidates with date filter only ===
+    let candidates = await fetchCandidateDecisions(searchDate, null);
 
-    // === STEP 4: If court filter applied but no results, try without court filter ===
-    if (candidates.length === 0 && courtEcliCode) {
-      candidates = await fetchCandidateDecisions(searchDate, null);
-    }
-
-    // === STEP 5: Handle results ===
-
-    // No candidates at all - decision likely doesn't exist in our database
+    // === STEP 4: Handle no candidates ===
     if (candidates.length === 0) {
       return {
         ...row,
         _skipLLM: true,
         _result: buildNoMatchResult(`No decisions found for date ${searchDate}`),
-        candidate_count: 0,
-        court_mapping_found: !!courtEcliCode
+        candidate_count: 0
       };
     }
+
+    // === STEP 5: Handle results ===
 
     // Fast-path: ECLI exact match in candidates
     if (cited_ecli) {
@@ -283,8 +318,7 @@ const config: JobConfig = {
           ...row,
           _skipLLM: true,
           _result: buildFastMatchResult(ecliMatch, `Exact ECLI match: ${cited_ecli}`),
-          candidate_count: candidates.length,
-          court_mapping_found: !!courtEcliCode
+          candidate_count: candidates.length
         };
       }
     }
@@ -294,12 +328,8 @@ const config: JobConfig = {
       return {
         ...row,
         _skipLLM: true,
-        _result: buildFastMatchResult(
-          candidates[0],
-          `Single candidate from date${courtEcliCode ? ' + court' : ''} filter`
-        ),
-        candidate_count: 1,
-        court_mapping_found: !!courtEcliCode
+        _result: buildFastMatchResult(candidates[0], `Single candidate from date filter`),
+        candidate_count: 1
       };
     }
 
@@ -307,8 +337,7 @@ const config: JobConfig = {
     return {
       ...row,
       candidates,
-      candidate_count: candidates.length,
-      court_mapping_found: !!courtEcliCode
+      candidate_count: candidates.length
     };
   },
 
@@ -326,11 +355,14 @@ const config: JobConfig = {
       return text.length > maxLen ? text.substring(0, maxLen) + '...' : text;
     };
 
-    // Helper to format context (micro_summary + facts, or summaries as fallback)
+    // Helper to format context (teaching_texts first, then summaries as fallback)
     const formatContext = (c: Candidate): string => {
-      if (c.micro_summary || c.facts) {
-        return `   Summary: ${truncate(c.micro_summary, 300)}
-   Facts: ${truncate(c.facts, 500)}`;
+      if (c.teaching_texts && c.teaching_texts.length > 0) {
+        const teachingsText = c.teaching_texts
+          .slice(0, 3)
+          .map((t, idx) => `     ${idx + 1}. ${truncate(t, 250)}`)
+          .join('\n');
+        return `   Legal Teachings:\n${teachingsText}`;
       } else if (c.summaries && c.summaries.length > 0) {
         const summariesText = c.summaries
           .slice(0, 3)
@@ -358,6 +390,11 @@ ${formatContext(c)}`
       ? row.teaching_texts.slice(0, 5).map((t: string, i: number) => `${i + 1}. ${t}`).join('\n\n')
       : 'No legal teachings available.';
 
+    // Format citation snippet (where citation appears in source text)
+    const citationSnippet = row.citation_snippet
+      ? `${row.citation_snippet}\n\n(Matched on: ${row.snippet_match_type})`
+      : 'Citation location not found in source text.';
+
     return CITED_DECISION_MAPPING_PROMPT
       .replace('{citedCourtName}', row.cited_court_name || 'Unknown')
       .replace('{citedDate}', formatDate(row.cited_date) || 'Unknown')
@@ -365,6 +402,8 @@ ${formatContext(c)}`
       .replace('{citedEcli}', row.cited_ecli || 'Not provided')
       .replace('{sourceDecisionEcli}', row.source_ecli || 'Unknown')
       .replace('{legalTeachings}', legalTeachings)
+      .replace('{treatment}', row.treatment || 'Not specified')
+      .replace('{citationSnippet}', citationSnippet)
       .replace('{candidatesList}', candidatesList)
       .replace('{candidateCount}', String(candidates.length));
   },
@@ -435,7 +474,9 @@ ${formatContext(c)}`
     'treatment',
     'language_metadata',
     'candidate_count',
-    'court_mapping_found',
+    'citation_snippet',
+    'snippet_match_type',
+    'teaching_texts',
     'candidates'
   ],
 

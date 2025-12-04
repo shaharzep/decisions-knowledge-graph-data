@@ -64,6 +64,9 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
 
   // Stage 2: No-Date Provision Mapping (provisions without date)
   'map-provisions-no-date': 'llm-as-a-judge_MAP_NO_DATE.md',
+
+  // Stage 3: Cited Decision Mapping (map citations to database decisions)
+  'map-cited-decisions': 'llm-as-a-judge_map_decisions.md',
 };
 
 /**

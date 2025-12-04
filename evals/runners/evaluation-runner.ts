@@ -102,10 +102,18 @@ export async function runEvaluation(
   console.log(`   Decision keys extracted: ${decisionKeys.length}`);
 
   // Batch load source documents (or RFTC data for block-based citation jobs)
+  // Map-cited-decisions is special: input context is already in extraction result
   let sourceDocuments: Map<string, SourceDocumentWithMetadata | RFTCSourceData>;
   let isRFTCJob = false;
+  let isMapCitedDecisionsJob = jobType === 'map-cited-decisions';
 
-  if (jobType === 'enrich-teaching-citations' || jobType === 'enrich-provision-citations') {
+  if (isMapCitedDecisionsJob) {
+    // Map-cited-decisions: No source documents needed
+    // Input context (cited reference, candidates) is already in extraction result
+    console.log(`\n📚 Skipping source document loading for ${jobType}`);
+    console.log(`   Input context is embedded in extraction results`);
+    sourceDocuments = new Map(); // Empty map - we don't need external docs
+  } else if (jobType === 'enrich-teaching-citations' || jobType === 'enrich-provision-citations') {
     isRFTCJob = true;
     console.log(`\n📚 Loading RFTC data (transformed HTML + dependencies) for ${decisionKeys.length} decisions...`);
     sourceDocuments = await batchLoadRFTCData(decisionKeys, jobType);
@@ -158,14 +166,15 @@ export async function runEvaluation(
   for (const extracted of decisionsToEvaluate) {
     // IMPORTANT: Use decision_id from metadata (database) as authoritative source
     // Model output decisionId may have "corrections" that don't match database
-    const decisionId = extracted.decision_id || extracted.decisionId;
+    const decisionId = extracted.decision_id || extracted.decisionId || extracted.internal_decision_id;
     const language = extracted.language || extracted.language_metadata || extracted.procedureLanguage || 'FR';
 
     // Use composite key to look up source document
     const cacheKey = `${decisionId}|${language}`;
     const sourceDocWithMeta = sourceDocuments.get(cacheKey);
 
-    if (!sourceDocWithMeta) {
+    // For map-cited-decisions, we don't need source documents
+    if (!isMapCitedDecisionsJob && !sourceDocWithMeta) {
       console.warn(`⚠️  Warning: Source document not found for ${decisionId} (${language}), skipping`);
       continue;
     }
@@ -178,7 +187,26 @@ export async function runEvaluation(
     }
 
     // Prepare evaluation input based on job type
-    if (isRFTCJob) {
+    if (isMapCitedDecisionsJob) {
+      // Map-cited-decisions: input context is already in extracted data
+      // Use a placeholder for sourceDocument since the prompt formatter extracts from extractedData
+      evaluationInputs.push({
+        decisionId,
+        sourceDocument: '[Input context embedded in extraction result]',
+        extractedData: extracted,
+        metadata: {
+          id: extracted.id,
+          language,
+          decision_type_ecli_code: extracted.decision_type_ecli_code,
+          decision_type_name: extracted.decision_type_name,
+          court_ecli_code: extracted.court_ecli_code,
+          court_name: extracted.court_name,
+          decision_date: extracted.decision_date,
+          md_length: extracted.md_length,
+          length_category: extracted.length_category,
+        },
+      });
+    } else if (isRFTCJob) {
       // RFTC jobs: use transformed HTML + dependencies
       const rftcData = sourceDocWithMeta as RFTCSourceData;
       evaluationInputs.push({
