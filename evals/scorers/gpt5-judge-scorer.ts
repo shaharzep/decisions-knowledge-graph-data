@@ -16,8 +16,11 @@ import { EvaluationResult, Verdict, Recommendation, Confidence } from '../types.
 export interface MapDecisionsEvaluation {
   match_correctness: 'CORRECT' | 'PARTIALLY_CORRECT' | 'INCORRECT' | 'FALSE_POSITIVE' | 'FALSE_NEGATIVE' | 'CORRECT_NO_MATCH';
   correct_decision_id: string | null;
+  court_alignment_handling: 'CORRECT_ALIGNMENT' | 'MISSED_COURT_MATCH' | 'WRONG_COURT_ACCEPTED' | 'WRONG_JURISDICTION_OVERPUNISHED' | 'WRONG_JURISDICTION_UNDERPUNISHED' | 'SKIPPED_COURT_CHECK';
+  cited_court_classification: 'NATIONAL' | 'SPECIFIC' | 'GENERIC';
   confidence_calibration: 'WELL_CALIBRATED' | 'OVERCONFIDENT' | 'UNDERCONFIDENT';
   expected_confidence_range: [number, number];
+  applicable_ceiling: string | null;
   reasoning_quality: number; // 1-5
   errors: string[];
   evaluation_notes: string;
@@ -299,10 +302,13 @@ export function parseMapDecisionsResponse(responseText: string): MapDecisionsEva
     const evaluation: MapDecisionsEvaluation = {
       match_correctness: parsed.match_correctness || 'INCORRECT',
       correct_decision_id: parsed.correct_decision_id || null,
+      court_alignment_handling: parsed.court_alignment_handling || 'CORRECT_ALIGNMENT',
+      cited_court_classification: parsed.cited_court_classification || 'GENERIC',
       confidence_calibration: parsed.confidence_calibration || 'WELL_CALIBRATED',
       expected_confidence_range: Array.isArray(parsed.expected_confidence_range)
         ? parsed.expected_confidence_range
         : [0, 100],
+      applicable_ceiling: parsed.applicable_ceiling || null,
       reasoning_quality: typeof parsed.reasoning_quality === 'number'
         ? parsed.reasoning_quality
         : 3,
@@ -331,7 +337,8 @@ export function parseMapDecisionsResponse(responseText: string): MapDecisionsEva
  *
  * Mapping logic:
  * - match_correctness → verdict (CORRECT/PARTIALLY→PASS, INCORRECT/FALSE→FAIL, etc.)
- * - reasoning_quality × 20 → score (1-5 becomes 20-100)
+ * - reasoning_quality × 20 → base score (1-5 becomes 20-100)
+ * - court_alignment_handling → score adjustments
  * - errors → criticalIssues/majorIssues based on severity
  * - confidence_calibration → confidence
  * - evaluation_notes → summary
@@ -362,16 +369,37 @@ export function adaptMapDecisionsToEvaluationResult(
   }
 
   // Calculate score from reasoning_quality (1-5 → 20-100)
-  // Also factor in match correctness
   let baseScore = mapEval.reasoning_quality * 20;
 
-  // Adjust based on correctness
+  // Adjust based on match correctness
   if (mapEval.match_correctness === 'CORRECT' || mapEval.match_correctness === 'CORRECT_NO_MATCH') {
-    baseScore = Math.max(baseScore, 80); // Correct matches get at least 80
+    baseScore = Math.max(baseScore, 80);
   } else if (mapEval.match_correctness === 'PARTIALLY_CORRECT') {
-    baseScore = Math.min(baseScore, 75); // Partial correct capped at 75
+    baseScore = Math.min(baseScore, 75);
   } else {
-    baseScore = Math.min(baseScore, 50); // Incorrect capped at 50
+    baseScore = Math.min(baseScore, 50);
+  }
+
+  // Adjust for court alignment handling
+  switch (mapEval.court_alignment_handling) {
+    case 'CORRECT_ALIGNMENT':
+      // No penalty
+      break;
+    case 'WRONG_COURT_ACCEPTED':
+      baseScore -= 20; // Critical: accepted wrong court type
+      break;
+    case 'SKIPPED_COURT_CHECK':
+      baseScore -= 15; // Critical: didn't verify court alignment first
+      break;
+    case 'MISSED_COURT_MATCH':
+      baseScore -= 10; // Major: failed FR/NL equivalence
+      break;
+    case 'WRONG_JURISDICTION_UNDERPUNISHED':
+      baseScore -= 10; // Major: gave >55% to different jurisdiction
+      break;
+    case 'WRONG_JURISDICTION_OVERPUNISHED':
+      baseScore -= 5; // Minor: penalized generic citation
+      break;
   }
 
   // Adjust for confidence calibration
@@ -385,14 +413,28 @@ export function adaptMapDecisionsToEvaluationResult(
 
   // Categorize errors by severity
   const criticalErrors = [
+    // Case number errors
     'CASE_NUMBER_IGNORED',
     'CASE_NUMBER_FALSE_MATCH',
     'ECLI_MISMATCH_IGNORED',
+    // Court alignment errors (severe)
+    'COURT_TYPE_MISMATCH_IGNORED',
+    'JURISDICTION_MISMATCH_IGNORED',
+    // Calibration errors
+    'CEILING_VIOLATED',
   ];
+
   const majorErrors = [
+    // Court alignment errors
+    'COURT_CHECK_SKIPPED',
+    'FR_NL_CONFUSION',
+    'ABBREVIATION_MISSED',
+    'GENERIC_OVERPUNISHED',
+    // Case number errors
+    'MISSING_CASE_NUMBER_PENALIZED',
+    // Context errors
     'CONTEXT_MISREAD',
-    'WRONG_COURT_TYPE',
-    'LANGUAGE_CONFUSION',
+    'OVERFIT_TO_KEYWORDS',
   ];
 
   const criticalIssues: string[] = [];
@@ -407,6 +449,16 @@ export function adaptMapDecisionsToEvaluationResult(
       majorIssues.push(error);
     } else {
       minorIssues.push(error);
+    }
+  }
+
+  // Add court alignment issue if not correct
+  if (mapEval.court_alignment_handling !== 'CORRECT_ALIGNMENT') {
+    const alignmentIssue = `COURT_ALIGNMENT_${mapEval.court_alignment_handling}`;
+    if (['WRONG_COURT_ACCEPTED', 'SKIPPED_COURT_CHECK'].includes(mapEval.court_alignment_handling)) {
+      criticalIssues.push(alignmentIssue);
+    } else {
+      majorIssues.push(alignmentIssue);
     }
   }
 
@@ -435,8 +487,11 @@ export function adaptMapDecisionsToEvaluationResult(
     recommendation = 'REVIEW_MANUALLY';
   }
 
-  // Build summary
-  let summary = `[${mapEval.match_correctness}] ${mapEval.evaluation_notes}`;
+  // Build summary with court classification context
+  let summary = `[${mapEval.match_correctness}] [${mapEval.cited_court_classification}] ${mapEval.evaluation_notes}`;
+  if (mapEval.applicable_ceiling) {
+    summary += ` (Ceiling: ${mapEval.applicable_ceiling})`;
+  }
   if (mapEval.improvement_suggestions) {
     summary += ` Suggestions: ${mapEval.improvement_suggestions}`;
   }

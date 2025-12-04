@@ -11,50 +11,19 @@ const __dirname = dirname(__filename);
 
 /**
  * Normalize court name for consistent lookup
- * Lowercase, trim, and remove common variations
  */
 function normalizeCourtName(name: string): string {
   if (!name) return '';
   return name
     .toLowerCase()
     .trim()
-    .replace(/\s+/g, ' ')  // Collapse multiple spaces
-    .replace(/['']/g, "'"); // Normalize apostrophes
+    .replace(/\s+/g, ' ')
+    .replace(/['']/g, "'");
 }
-
-/**
- * Load court mapping from CSV file
- * CSV format: original_string,mapped_id,official_court_name
- * Returns map of normalized court name -> court_ecli_code
- */
-function loadCourtMappingFromCsv(): Record<string, string> {
-  const csvContent = readFileSync(join(__dirname, 'court-mapping.csv'), 'utf-8');
-  const lines = csvContent.split('\n');
-  const mapping: Record<string, string> = {};
-
-  // Skip header row
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i].trim();
-    if (!line) continue;
-
-    // Parse CSV line (handles quoted values)
-    const match = line.match(/^"([^"]*)",([^,]+),/);
-    if (match) {
-      const originalString = match[1];
-      const mappedId = match[2];
-      mapping[normalizeCourtName(originalString)] = mappedId;
-    }
-  }
-
-  return mapping;
-}
-
-const courtMapping = loadCourtMappingFromCsv();
 
 /**
  * Load missing courts from JSON file
  * These are courts that don't exist in the database - skip processing them
- * Returns normalized Set for O(1) lookup
  */
 function loadMissingCourts(): Set<string> {
   const jsonContent = readFileSync(join(__dirname, 'missing-courts.json'), 'utf-8');
@@ -63,15 +32,6 @@ function loadMissingCourts(): Set<string> {
 }
 
 const missingCourts = loadMissingCourts();
-
-/**
- * Try to map court name to court_ecli_code
- * Returns court_ecli_code if found, null otherwise
- */
-function tryCourtMapping(courtName: string): string | null {
-  const normalized = normalizeCourtName(courtName);
-  return courtMapping[normalized] || null;
-}
 
 /**
  * Check if court is known to be missing from database
@@ -256,22 +216,23 @@ const config: JobConfig = {
   dbQueryParams: [],
 
   /**
-   * Preprocess: Apply date filter, optionally court filter, determine if LLM needed
+   * Preprocess: Filter by date, extract context, apply fast-paths
+   * Court alignment is handled by the main LLM prompt (STEP 1 in prompt.ts)
    *
    * Returns:
-   * - { ...row, _skipLLM: true, _result: {...} } for no-match or single-match cases
-   * - { ...row, candidates: [...] } for LLM processing
-   * - null to skip rows (should not happen with this query)
+   * - null to skip rows (known missing courts)
+   * - { ...row, _skipLLM: true, _result: {...} } for fast-path cases
+   * - { ...row, candidates: [...] } for LLM disambiguation
    */
   preprocessRow: async (row: any) => {
     const { cited_date, cited_court_name, cited_ecli, cited_case_number, source_full_md } = row;
 
-    // === STEP 0: Skip known missing courts (no output) ===
+    // Skip known missing courts (exact matches from missing-courts.json)
     if (isKnownMissingCourt(cited_court_name)) {
       return null;
     }
 
-    // === STEP 1: Format date for query ===
+    // Format and validate date
     const searchDate = formatDate(cited_date);
     if (!searchDate) {
       return {
@@ -282,7 +243,7 @@ const config: JobConfig = {
       };
     }
 
-    // === STEP 2: Extract citation snippet from source decision ===
+    // Extract citation snippet for context
     const { snippet, matchedOn } = findCitationSnippet(
       source_full_md,
       cited_court_name,
@@ -293,10 +254,10 @@ const config: JobConfig = {
     row.citation_snippet = snippet;
     row.snippet_match_type = matchedOn;
 
-    // === STEP 3: Fetch candidates with date filter only ===
-    let candidates = await fetchCandidateDecisions(searchDate, null);
+    // Fetch all candidates for this date (LLM handles court filtering)
+    const candidates = await fetchCandidateDecisions(searchDate, null);
 
-    // === STEP 4: Handle no candidates ===
+    // No candidates for date
     if (candidates.length === 0) {
       return {
         ...row,
@@ -306,9 +267,7 @@ const config: JobConfig = {
       };
     }
 
-    // === STEP 5: Handle results ===
-
-    // Fast-path: ECLI exact match in candidates
+    // Fast-path: exact ECLI match
     if (cited_ecli) {
       const ecliMatch = candidates.find(c =>
         c.decision_id.toLowerCase() === cited_ecli.toLowerCase()
@@ -323,17 +282,17 @@ const config: JobConfig = {
       }
     }
 
-    // Single candidate - high confidence match
+    // Fast-path: single candidate
     if (candidates.length === 1) {
       return {
         ...row,
         _skipLLM: true,
-        _result: buildFastMatchResult(candidates[0], `Single candidate from date filter`),
+        _result: buildFastMatchResult(candidates[0], 'Single candidate from date filter'),
         candidate_count: 1
       };
     }
 
-    // Multiple candidates - need LLM to disambiguate
+    // Multiple candidates - LLM handles court alignment and disambiguation
     return {
       ...row,
       candidates,
@@ -482,7 +441,7 @@ ${formatContext(c)}`
 
   customIdPrefix: 'map-cited-dec',
 
-  useFullDataPipeline: true
+  useFullDataPipeline: false
 };
 
 export default config;
