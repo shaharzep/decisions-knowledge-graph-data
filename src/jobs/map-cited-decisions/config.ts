@@ -2,12 +2,83 @@ import { JobConfig } from '../JobConfig.js';
 import { CITED_DECISION_MAPPING_PROMPT } from './prompt.js';
 import { DatabaseConfig } from '../../config/database.js';
 import { findCitationSnippet } from './citation-finder.js';
-import { readFileSync } from 'fs';
+import { readFileSync, existsSync } from 'fs';
 import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
+import { dirname, join, isAbsolute } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+
+// ============================================================================
+// REPROCESS LIST SUPPORT
+// ============================================================================
+
+/**
+ * Load reprocess list from REPROCESS_LIST environment variable
+ * Returns array of internal_decision_id strings, or null if not set
+ */
+function loadReprocessList(): string[] | null {
+  const listPath = process.env.REPROCESS_LIST;
+  if (!listPath) return null;
+
+  const absolutePath = isAbsolute(listPath)
+    ? listPath
+    : join(process.cwd(), listPath);
+
+  if (!existsSync(absolutePath)) {
+    console.error(`❌ REPROCESS_LIST file not found: ${absolutePath}`);
+    process.exit(1);
+  }
+
+  try {
+    const content = readFileSync(absolutePath, 'utf-8');
+    const ids: string[] = JSON.parse(content);
+    console.log(`📋 Loaded ${ids.length} IDs from reprocess list: ${absolutePath}`);
+    return ids;
+  } catch (error) {
+    console.error(`❌ Failed to parse REPROCESS_LIST: ${error}`);
+    process.exit(1);
+  }
+}
+
+/**
+ * Build the database query, optionally filtering by reprocess list
+ */
+function buildDbQuery(hasReprocessList: boolean): string {
+  const baseQuery = `
+    SELECT DISTINCT ON (cd.internal_decision_id)
+      cd.internal_decision_id,
+      cd.decision_id AS source_decision_db_id,
+      cd.court_name AS cited_court_name,
+      cd.cited_date,
+      cd.case_number AS cited_case_number,
+      cd.ecli AS cited_ecli,
+      cd.cited_type,
+      cd.treatment,
+      d.decision_id AS source_ecli,
+      d.language_metadata,
+      (
+        SELECT ARRAY_AGG(dlt.teaching_text)
+        FROM decision_legal_teachings dlt
+        WHERE dlt.decision_id = cd.decision_id
+      ) AS teaching_texts
+    FROM cited_decisions cd
+    JOIN decisions1 d ON d.id = cd.decision_id
+    WHERE cd.cited_date IS NOT NULL
+      AND cd.cited_type = 'PRECEDENT'`;
+
+  if (hasReprocessList) {
+    return baseQuery + `
+      AND cd.internal_decision_id = ANY($1::text[])
+    ORDER BY cd.internal_decision_id`;
+  }
+
+  return baseQuery + `
+    ORDER BY cd.internal_decision_id`;
+}
+
+// Load reprocess list at module initialization
+const reprocessIds = loadReprocessList();
 
 /**
  * Normalize court name for consistent lookup
@@ -129,7 +200,7 @@ async function fetchCandidateDecisions(
     FROM decisions1 d
     LEFT JOIN courts c ON c.id = d.court_ecli_code
     LEFT JOIN decision_types dt ON dt.decisiontypeeclicode = d.decision_type_ecli_code
-    WHERE d.decision_date::date = $1::date
+    WHERE d.decision_date = $1
   `;
 
   const params: any[] = [citedDate];
@@ -170,6 +241,30 @@ async function fetchCandidateDecisions(
 }
 
 /**
+ * Fetch source decision markdown on-demand
+ * Loads markdown for a single decision to avoid loading all markdowns into memory upfront
+ */
+async function fetchSourceMarkdown(
+  decisionId: string,
+  language: string
+): Promise<string | null> {
+  const query = `
+    SELECT full_md
+    FROM decisions_md
+    WHERE decision_id = $1 AND language = $2
+    LIMIT 1
+  `;
+
+  try {
+    const rows = await DatabaseConfig.executeReadOnlyQuery(query, [decisionId, language]);
+    return rows.length > 0 ? rows[0].full_md : null;
+  } catch (error) {
+    console.error(`Error fetching markdown for ${decisionId}:`, error);
+    return null;
+  }
+}
+
+/**
  * Map Cited Decisions Job
  *
  * Maps cited decisions from extract-cited-decisions to actual decisions in decisions1.
@@ -180,40 +275,17 @@ const config: JobConfig = {
   id: 'map-cited-decisions',
   description: 'Map cited decisions to actual decisions in decisions1 table',
 
-  concurrencyLimit: 200,
+  concurrencyLimit: 100,
 
   /**
    * Select cited decisions with dates for mapping
    * Joins with source decision to get language and legal teachings for context
+   *
+   * If REPROCESS_LIST env var is set, filters to only those IDs
    */
-  dbQuery: `
-    SELECT DISTINCT ON (cd.internal_decision_id)
-      cd.internal_decision_id,
-      cd.decision_id AS source_decision_db_id,
-      cd.court_name AS cited_court_name,
-      cd.cited_date,
-      cd.case_number AS cited_case_number,
-      cd.ecli AS cited_ecli,
-      cd.cited_type,
-      cd.treatment,
-      d.decision_id AS source_ecli,
-      d.language_metadata,
-      dm.full_md AS source_full_md,
-      (
-        SELECT ARRAY_AGG(dlt.teaching_text)
-        FROM decision_legal_teachings dlt
-        WHERE dlt.decision_id = cd.decision_id
-      ) AS teaching_texts
-    FROM cited_decisions cd
-    JOIN decisions1 d ON d.id = cd.decision_id
-    LEFT JOIN decisions_md dm ON dm.decision_id = d.decision_id AND dm.language = d.language_metadata
-    WHERE cd.cited_date IS NOT NULL
-      AND cd.cited_type = 'PRECEDENT'
-    ORDER BY cd.internal_decision_id
-    LIMIT 100
-  `,
+  dbQuery: buildDbQuery(reprocessIds !== null),
 
-  dbQueryParams: [],
+  dbQueryParams: reprocessIds ? [reprocessIds] : [],
 
   /**
    * Preprocess: Filter by date, extract context, apply fast-paths
@@ -225,7 +297,7 @@ const config: JobConfig = {
    * - { ...row, candidates: [...] } for LLM disambiguation
    */
   preprocessRow: async (row: any) => {
-    const { cited_date, cited_court_name, cited_ecli, cited_case_number, source_full_md } = row;
+    const { cited_date, cited_court_name, cited_ecli, cited_case_number, source_ecli, language_metadata } = row;
 
     // Skip known missing courts (exact matches from missing-courts.json)
     if (isKnownMissingCourt(cited_court_name)) {
@@ -243,9 +315,12 @@ const config: JobConfig = {
       };
     }
 
+    // Fetch source markdown on-demand (lazy loading to avoid memory issues)
+    const sourceMarkdown = await fetchSourceMarkdown(source_ecli, language_metadata);
+
     // Extract citation snippet for context
     const { snippet, matchedOn } = findCitationSnippet(
-      source_full_md,
+      sourceMarkdown,
       cited_court_name,
       searchDate,
       cited_case_number,
@@ -267,7 +342,7 @@ const config: JobConfig = {
       };
     }
 
-    // Fast-path: exact ECLI match
+    // Fast-path: exact ECLI match (definitive unique identifier)
     if (cited_ecli) {
       const ecliMatch = candidates.find(c =>
         c.decision_id.toLowerCase() === cited_ecli.toLowerCase()
@@ -282,17 +357,7 @@ const config: JobConfig = {
       }
     }
 
-    // Fast-path: single candidate
-    if (candidates.length === 1) {
-      return {
-        ...row,
-        _skipLLM: true,
-        _result: buildFastMatchResult(candidates[0], 'Single candidate from date filter'),
-        candidate_count: 1
-      };
-    }
-
-    // Multiple candidates - LLM handles court alignment and disambiguation
+    // LLM verifies court alignment and disambiguates (even for single candidate)
     return {
       ...row,
       candidates,
@@ -441,7 +506,7 @@ ${formatContext(c)}`
 
   customIdPrefix: 'map-cited-dec',
 
-  useFullDataPipeline: false
+  useFullDataPipeline: true
 };
 
 export default config;
