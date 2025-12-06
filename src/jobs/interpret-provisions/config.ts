@@ -150,21 +150,18 @@ const FILEPATH_MAP_2B = build2BFilepathMap(LATEST_2B_TIMESTAMP);
  * - Relevant factual context for provision's application (relevantFactualContext)
  *
  * DEPENDS ON: enrich-provisions (Agent 2B)
- * - Loads citedProvisions array with 10 fields from Agent 2A (passed through 2B)
+ * - Loads citedProvisions array with 12 fields from Agent 2A (passed through 2B)
  * - Note: 2B adds extractedReferences separately, but NOT merged into provisions
- * - Preserves all 10 fields from Agent 2A unchanged
- * - Adds 2 new interpretative fields
  *
- * CRITICAL REQUIREMENT:
- * - Must preserve exact internalProvisionId matching from Agent 2A
- * - Same number of provisions in output as input
- * - No provisions added or removed
+ * ARCHITECTURE: Sequence-based matching (eliminates ID corruption)
+ * - LLM outputs only: provisionSequence + 2 interpretative fields
+ * - postProcessRow matches by sequence, copies all immutable fields from input
+ * - IDs (internalProvisionId, internalParentActId) are NEVER touched by LLM
  *
  * Key Features:
- * - Automatic dependency loading via DependencyResolver
- * - Composite key matching (id + decision_id + language)
- * - Transform function stringifies citedProvisions for prompt
- * - Comprehensive schema validates all 12 required fields
+ * - Manual 2B data loading from full-data directory
+ * - Composite key matching (decision_id + language)
+ * - Sequence-based provision matching in postProcessRow
  * - Nullable interpretative fields (null when not applicable)
  */
 
@@ -258,7 +255,8 @@ const config: JobConfig = {
     "id",
     "decision_id",
     "language_metadata",
-    "md_length"
+    "md_length",
+    "agent2b"  // Contains citedProvisions for postProcessRow matching
   ],
 
   /**
@@ -284,13 +282,60 @@ const config: JobConfig = {
   },
 
   /**
-   * Post-Processing: Merge extractedReferences from Agent 2B
+   * Post-Processing: Match by sequence, copy IDs from input
    *
-   * The LLM only outputs citedProvisions with interpretative enrichment.
-   * This function merges the extractedReferences from Agent 2B dependency
-   * to create the complete output structure.
+   * The LLM outputs only provisionSequence + interpretative fields.
+   * This function matches by sequence and copies all immutable fields
+   * (IDs, provision details) from input to ensure ID integrity.
+   *
+   * This eliminates ID corruption because the LLM never touches
+   * complex strings like internalProvisionId/internalParentActId.
    */
   postProcessRow: (row, result) => {
+    const inputProvisions: any[] = row.agent2b?.citedProvisions || [];
+    const llmProvisions: any[] = result.citedProvisions || [];
+
+    // Build lookup map from input provisions (keyed by provisionSequence)
+    const inputBySequence = new Map<number, any>();
+    for (const prov of inputProvisions) {
+      if (typeof prov.provisionSequence === 'number') {
+        inputBySequence.set(prov.provisionSequence, prov);
+      }
+    }
+
+    // Match LLM output by sequence, copy immutable fields from input
+    const mergedProvisions = llmProvisions.map((llmProv: any) => {
+      const seq = llmProv.provisionSequence;
+      const inputProv = inputBySequence.get(seq);
+
+      if (!inputProv) {
+        throw new Error(
+          `No input provision found for provisionSequence ${seq}. ` +
+          `Available sequences: [${Array.from(inputBySequence.keys()).join(', ')}]`
+        );
+      }
+
+      // Copy all immutable fields from input, keep only interpretative fields from LLM
+      return {
+        // From input (never touched by LLM)
+        provisionId: inputProv.provisionId,
+        parentActId: inputProv.parentActId,
+        internalProvisionId: inputProv.internalProvisionId,
+        internalParentActId: inputProv.internalParentActId,
+        provisionSequence: inputProv.provisionSequence,
+        parentActSequence: inputProv.parentActSequence,
+        provisionNumber: inputProv.provisionNumber,
+        provisionNumberKey: inputProv.provisionNumberKey,
+        parentActType: inputProv.parentActType,
+        parentActName: inputProv.parentActName,
+        parentActDate: inputProv.parentActDate,
+        parentActNumber: inputProv.parentActNumber,
+        // From LLM (interpretative enrichment)
+        provisionInterpretation: llmProv.provisionInterpretation,
+        relevantFactualContext: llmProv.relevantFactualContext,
+      };
+    });
+
     // Get extractedReferences from Agent 2B dependency
     const extractedReferences = row.agent2b?.extractedReferences || {
       url: { eu: [], be: [] },
@@ -300,174 +345,53 @@ const config: JobConfig = {
       }
     };
 
-    // Merge LLM result (citedProvisions) with Agent 2B metadata (extractedReferences)
     return {
-      citedProvisions: result.citedProvisions,
+      citedProvisions: mergedProvisions,
       extractedReferences: extractedReferences
     };
   },
 
   /**
-   * Output JSON Schema
+   * Output JSON Schema (LLM Output Only)
    *
-   * Comprehensive schema for interpreted provisions with regex metadata.
+   * CRITICAL: This schema defines what the LLM outputs, NOT the final output.
+   * The final output is constructed in postProcessRow by merging:
+   * - Immutable fields from input (IDs, provision details)
+   * - Interpretative fields from LLM (this schema)
    *
-   * Structure:
-   * - citedProvisions: Array with 12 fields per provision
-   *   - 10 fields from Agent 2A (preserved unchanged via Agent 2B passthrough)
-   *   - 2 new fields from Agent 2C (interpretative enrichment)
-   * - extractedReferences: Regex-extracted metadata from Agent 2B (passed through)
+   * LLM outputs only 3 fields per provision:
+   * - provisionSequence: Matching key to link to input provision
+   * - provisionInterpretation: Court's interpretation (100-1000 chars or null)
+   * - relevantFactualContext: Factual context (50-500 chars or null)
    *
-   * Key validation:
-   * - All fields from 2A must be present and unchanged
-   * - internalProvisionId must match Agent 2A input exactly
-   * - New fields are nullable (null when interpretation not found)
-   * - Length constraints: interpretation 100-1000, context 50-500
-   * - extractedReferences passed through from Agent 2B unchanged
+   * This design eliminates ID corruption by never asking the LLM to
+   * echo back complex strings like internalProvisionId/internalParentActId.
    */
   outputSchema: {
     type: "object",
-    required: ["citedProvisions", "extractedReferences"],
+    required: ["citedProvisions"],
     additionalProperties: false,
     properties: {
       citedProvisions: {
         type: "array",
-        minItems: 0, // Some decisions may cite no provisions
+        minItems: 0,
         items: {
           type: "object",
           required: [
-            // ========================================
-            // FROM AGENT 2A (10 fields - via Agent 2B passthrough)
-            // ========================================
-            "provisionId",
-            "parentActId",
-            "internalProvisionId",
-            "internalParentActId",
-            "provisionNumber",
-            "provisionNumberKey",
-            "parentActType",
-            "parentActName",
-            "parentActDate",
-            "parentActNumber",
-
-            // ========================================
-            // FROM AGENT 2C (2 new interpretative fields)
-            // ========================================
+            "provisionSequence",
             "provisionInterpretation",
             "relevantFactualContext",
           ],
           additionalProperties: false,
           properties: {
             // ========================================
-            // RESERVED DATABASE MAPPING FIELDS (FROM 2A)
+            // MATCHING KEY (links to input provision)
             // ========================================
-            provisionId: {
-              type: "null",
-              description: "Reserved for database mapping - always null",
-            },
-            parentActId: {
-              type: "null",
-              description: "Reserved for database mapping - always null",
-            },
-
-            // ========================================
-            // INTERNAL REFERENCE IDs (FROM 2A)
-            // ========================================
-            internalProvisionId: {
-              type: "string",
-              pattern: "^ART-[a-zA-Z0-9:.]+-\\d{3}$",
-              description: "CRITICAL: Must match Agent 2B input exactly - ART-{decisionId}-{seq}",
-            },
-            internalParentActId: {
-              type: "string",
-              pattern: "^ACT-[a-zA-Z0-9:.]+-\\d{3}$",
-              description: "Parent act ID - ACT-{decisionId}-{seq}",
-            },
-
-            // ========================================
-            // PROVISION IDENTIFICATION (FROM 2A)
-            // ========================================
-            provisionNumber: {
-              type: "string",
-              minLength: 5,
-              maxLength: 200,
-              description: "Verbatim provision number (from Agent 2A)",
-            },
-            provisionNumberKey: {
-              type: "string",
-              minLength: 1,
-              maxLength: 50,
-              description: "Normalized core number (from Agent 2A)",
-            },
-
-            // ========================================
-            // PARENT ACT TYPE (FROM 2A - BILINGUAL ENUM)
-            // ========================================
-            parentActType: {
-              type: "string",
-              enum: [
-                // French (11 values)
-                "LOI",
-                "ARRETE_ROYAL",
-                "CODE",
-                "CONSTITUTION",
-                "REGLEMENT_UE",
-                "DIRECTIVE_UE",
-                "TRAITE",
-                "ARRETE_GOUVERNEMENT",
-                "ORDONNANCE",
-                "DECRET",
-                "AUTRE",
-
-                // Dutch (11 values)
-                "WET",
-                "KONINKLIJK_BESLUIT",
-                "WETBOEK",
-                "GRONDWET",
-                "EU_VERORDENING",
-                "EU_RICHTLIJN",
-                "VERDRAG",
-                "BESLUIT_VAN_DE_REGERING",
-                "ORDONNANTIE",
-                "DECREET",
-                "ANDERE",
-              ],
-              description: "Parent act type (from Agent 2A)",
-            },
-
-            // ========================================
-            // PARENT ACT INFORMATION (FROM 2A)
-            // ========================================
-            parentActName: {
-              type: "string",
-              minLength: 10,
-              maxLength: 500,
-              description: "Verbatim parent act name (from Agent 2A)",
-            },
-            parentActDate: {
-              anyOf: [
-                {
-                  type: "string",
-                  pattern: "^\\d{4}-\\d{2}-\\d{2}$",
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Date in YYYY-MM-DD or null (from Agent 2A)",
-            },
-            parentActNumber: {
-              anyOf: [
-                {
-                  type: "string",
-                  minLength: 1,
-                  maxLength: 100,
-                },
-                {
-                  type: "null",
-                },
-              ],
-              description: "Official act number or null (from Agent 2A)",
+            provisionSequence: {
+              type: "integer",
+              minimum: 1,
+              maximum: 9999,
+              description: "MATCHING KEY: Must match provisionSequence from input. Used to link interpretative fields to the correct provision.",
             },
 
             // ========================================
@@ -479,13 +403,12 @@ const config: JobConfig = {
                   type: "string",
                   minLength: 100,
                   maxLength: 1000,
-                  description: "How court interprets/applies provision (100-1000 chars, procedural language)",
                 },
                 {
                   type: "null",
                 },
               ],
-              description: "Court's interpretation of provision or null if not applicable (NEW: Agent 2C)",
+              description: "Court's interpretation of provision (100-1000 chars, procedural language) or null if not applicable",
             },
 
             relevantFactualContext: {
@@ -494,92 +417,16 @@ const config: JobConfig = {
                   type: "string",
                   minLength: 50,
                   maxLength: 500,
-                  description: "Relevant case facts for provision's application (50-500 chars, procedural language)",
                 },
                 {
                   type: "null",
                 },
               ],
-              description: "Factual context for provision or null if not applicable (NEW: Agent 2C)",
+              description: "Factual context for provision's application (50-500 chars, procedural language) or null if not applicable",
             },
           },
         },
       },
-
-      // ========================================
-      // FROM AGENT 2B: Reference Metadata (PASSTHROUGH)
-      // ========================================
-      extractedReferences: {
-        type: "object",
-        required: ["url", "reference"],
-        additionalProperties: false,
-        description: "Regex-extracted legal reference metadata from Agent 2B (passed through unchanged)",
-        properties: {
-          url: {
-            type: "object",
-            required: ["eu", "be"],
-            additionalProperties: false,
-            properties: {
-              eu: {
-                type: "array",
-                items: { type: "string" },
-                description: "EU URLs (europa.eu with CELEX)"
-              },
-              be: {
-                type: "array",
-                items: { type: "string" },
-                description: "Belgian URLs (ejustice, etaamb)"
-              }
-            }
-          },
-          reference: {
-            type: "object",
-            required: ["eu", "be"],
-            additionalProperties: false,
-            properties: {
-              eu: {
-                type: "object",
-                required: ["extracted", "verified"],
-                additionalProperties: false,
-                properties: {
-                  extracted: {
-                    type: "array",
-                    items: { type: "string" },
-                    description: "CELEX candidates that failed validation"
-                  },
-                  verified: {
-                    type: "array",
-                    items: { type: "string" },
-                    description: "CELEX codes that passed validation"
-                  }
-                }
-              },
-              be: {
-                type: "object",
-                required: ["extracted", "verifiedNumac", "verifiedFileNumber"],
-                additionalProperties: false,
-                properties: {
-                  extracted: {
-                    type: "array",
-                    items: { type: "string" },
-                    description: "Belgian reference candidates that failed validation"
-                  },
-                  verifiedNumac: {
-                    type: "array",
-                    items: { type: "string" },
-                    description: "NUMAC codes that passed validation"
-                  },
-                  verifiedFileNumber: {
-                    type: "array",
-                    items: { type: "string" },
-                    description: "File numbers that passed validation"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     },
   },
 

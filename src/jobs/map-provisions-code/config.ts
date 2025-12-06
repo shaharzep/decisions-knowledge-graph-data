@@ -72,11 +72,17 @@ const config: JobConfig = {
   description: 'Map cited CODE provisions to specific documents (Two-Pass Algorithm)',
 
   /**
-   * Select unique CODE/WETBOEK/GRONDWET/CONSTITUTION citations.
-   * Joins citation context tables to get the paragraph where the provision is cited.
+   * Select CODE/WETBOEK/GRONDWET/CONSTITUTION citations that need reprocessing.
+   *
+   * OPTIMIZATION: Only reprocess rows whose parent_act_number matches a document
+   * from a multi-document code (e.g., Code civil with 20 documents).
+   * Single-document codes (e.g., Code pénal) already have correct mappings.
+   *
+   * Processes every matching row (no DISTINCT) - each row gets its own output file.
    */
   dbQuery: `
-    SELECT DISTINCT ON (dcp.internal_parent_act_id)
+    SELECT DISTINCT ON (dcp.id)
+      dcp.id,
       dcp.internal_parent_act_id,
       d.decision_id,
       d.decision_date,
@@ -99,7 +105,7 @@ const config: JobConfig = {
       ON drcc.decision_related_citations_id = drc.id
     WHERE dcp.parent_act_type IN ('CODE', 'WETBOEK', 'GRONDWET', 'CONSTITUTION')
       AND dcp.internal_parent_act_id IS NOT NULL
-    ORDER BY dcp.internal_parent_act_id
+    ORDER BY dcp.id
   `,
 
   dbQueryParams: [],
@@ -303,7 +309,9 @@ const config: JobConfig = {
   concurrencyLimit: 200,
 
   // Row metadata to track in results
+  // Note: 'id' is the row primary key from decision_cited_provisions, used for unique filenames
   rowMetadataFields: [
+    'id',
     'internal_parent_act_id',
     'decision_id',
     'decision_date',

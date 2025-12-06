@@ -22,7 +22,17 @@ interface Match {
 interface ProvisionMapping {
   internal_parent_act_id?: string;
   decision_id?: string;
+  parent_act_name?: string;
+  provision_number?: string;
   matches: Match[];
+  _filename?: string; // Added during loading for reference
+}
+
+interface NoMatchDetail {
+  parent_act_name: string;
+  provision_number: string;
+  internal_parent_act_id?: string;
+  filename?: string;
 }
 
 interface Stats {
@@ -37,6 +47,8 @@ interface Stats {
   scoreDistribution: {
     [key: string]: number; // "90-100", "80-89", etc.
   };
+  noMatchByParentAct: Map<string, number>;
+  noMatchDetails: NoMatchDetail[];
   averageScore: number;
   medianScore: number;
   minScore: number;
@@ -60,6 +72,7 @@ async function loadAllProvisionFiles(jsonsDir: string): Promise<ProvisionMapping
       const filePath = path.join(jsonsDir, file);
       const content = await fs.readFile(filePath, 'utf-8');
       const provision = JSON.parse(content) as ProvisionMapping;
+      provision._filename = file; // Store filename for reference
 
       provisions.push(provision);
       loadedCount++;
@@ -95,6 +108,8 @@ function calculateStats(provisions: ProvisionMapping[]): Stats {
       '50-59': 0,
       '< 50': 0,
     },
+    noMatchByParentAct: new Map<string, number>(),
+    noMatchDetails: [],
     averageScore: 0,
     medianScore: 0,
     minScore: 100,
@@ -107,7 +122,19 @@ function calculateStats(provisions: ProvisionMapping[]): Stats {
     const matchCount = p.matches ? p.matches.length : 0;
 
     // Match Counts
-    if (matchCount === 0) stats.matchCounts.zero++;
+    if (matchCount === 0) {
+      stats.matchCounts.zero++;
+      // Track by parent_act_name
+      const actName = p.parent_act_name || 'UNKNOWN';
+      stats.noMatchByParentAct.set(actName, (stats.noMatchByParentAct.get(actName) || 0) + 1);
+      // Store details for inspection
+      stats.noMatchDetails.push({
+        parent_act_name: actName,
+        provision_number: p.provision_number || 'UNKNOWN',
+        internal_parent_act_id: p.internal_parent_act_id,
+        filename: p._filename,
+      });
+    }
     else if (matchCount === 1) stats.matchCounts.one++;
     else if (matchCount === 2) stats.matchCounts.two++;
     else if (matchCount === 3) stats.matchCounts.three++;
@@ -178,6 +205,53 @@ function displayResults(stats: Stats): void {
     console.log('   No matches found to analyze scores.');
   }
   console.log('');
+
+  // No-match breakdown by parent_act_name
+  if (stats.matchCounts.zero > 0 && stats.noMatchByParentAct.size > 0) {
+    console.log('❌ NO-MATCH BREAKDOWN BY PARENT ACT NAME (Top 25)');
+    console.log('─────────────────────────────────────────────────────────────────');
+
+    // Sort by count descending
+    const sorted = Array.from(stats.noMatchByParentAct.entries())
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 25);
+
+    for (const [actName, count] of sorted) {
+      const pct = ((count / stats.matchCounts.zero) * 100).toFixed(1);
+      console.log(`   ${count.toLocaleString().padStart(6)} (${pct.padStart(5)}%)  ${actName}`);
+    }
+
+    if (stats.noMatchByParentAct.size > 25) {
+      console.log(`   ... and ${stats.noMatchByParentAct.size - 25} more parent act names`);
+    }
+    console.log('');
+
+    // Detailed list of all no-matches
+    console.log('📋 NO-MATCH DETAILS (All provisions with no matches)');
+    console.log('─────────────────────────────────────────────────────────────────');
+
+    // Group by parent_act_name for cleaner output
+    const groupedByAct = new Map<string, NoMatchDetail[]>();
+    for (const detail of stats.noMatchDetails) {
+      const existing = groupedByAct.get(detail.parent_act_name) || [];
+      existing.push(detail);
+      groupedByAct.set(detail.parent_act_name, existing);
+    }
+
+    // Sort by count descending
+    const sortedGroups = Array.from(groupedByAct.entries())
+      .sort((a, b) => b[1].length - a[1].length);
+
+    for (const [actName, details] of sortedGroups) {
+      console.log(`\n   📖 ${actName} (${details.length} no-matches):`);
+      for (const d of details) {
+        console.log(`      • Article: ${d.provision_number}`);
+        console.log(`        File: ${d.filename}`);
+      }
+    }
+    console.log('');
+  }
+
   console.log('═══════════════════════════════════════════════════════════════════\n');
 }
 

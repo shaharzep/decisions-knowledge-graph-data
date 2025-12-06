@@ -829,15 +829,21 @@ export class ConcurrentProcessor {
   ): string {
     let baseName: string;
 
-    // Priority 1: Internal Parent Act ID (for provision mapping)
-    if (metadata.internal_parent_act_id) {
-      baseName = String(metadata.internal_parent_act_id);
+    // Priority 1: Internal Provision ID (for provision entity lookups - unique per article citation)
+    if (metadata.internal_provision_id) {
+      baseName = String(metadata.internal_provision_id);
     }
-    // Priority 2: Internal Decision ID (for cited decision mapping)
+    // Priority 2: Internal Parent Act ID (for provision mapping)
+    // Append row id to ensure uniqueness when multiple rows share the same parent act
+    else if (metadata.internal_parent_act_id) {
+      const rowId = metadata.id != null ? `_${metadata.id}` : '';
+      baseName = `${metadata.internal_parent_act_id}${rowId}`;
+    }
+    // Priority 3: Internal Decision ID (for cited decision mapping)
     else if (metadata.internal_decision_id) {
       baseName = String(metadata.internal_decision_id);
     }
-    // Priority 3: Decision ID + Language (for decision-based jobs)
+    // Priority 4: Decision ID + Language (for decision-based jobs)
     else {
       const parts: string[] = [];
       if (decisionId) parts.push(decisionId);

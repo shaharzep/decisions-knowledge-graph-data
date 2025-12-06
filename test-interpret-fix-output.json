@@ -1,0 +1,311 @@
+{
+  "testDate": "2025-12-06T03:33:07.069Z",
+  "testDecision": "ECLI:BE:AHANT:1997:ARR.19970917.21",
+  "summary": {
+    "inputProvisionsCount": 9,
+    "llmOutputCount": 9,
+    "mergedCount": 9,
+    "allIdsPreserved": true
+  },
+  "integrityReport": [
+    {
+      "provisionSequence": 1,
+      "input_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-001",
+      "output_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-001",
+      "provisionId_match": true,
+      "input_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-001",
+      "output_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-001",
+      "parentActId_match": true
+    },
+    {
+      "provisionSequence": 2,
+      "input_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-002",
+      "output_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-002",
+      "provisionId_match": true,
+      "input_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-002",
+      "output_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-002",
+      "parentActId_match": true
+    },
+    {
+      "provisionSequence": 3,
+      "input_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-003",
+      "output_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-003",
+      "provisionId_match": true,
+      "input_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-003",
+      "output_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-003",
+      "parentActId_match": true
+    },
+    {
+      "provisionSequence": 4,
+      "input_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+      "output_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+      "provisionId_match": true,
+      "input_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-003",
+      "output_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-003",
+      "parentActId_match": true
+    },
+    {
+      "provisionSequence": 5,
+      "input_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-005",
+      "output_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-005",
+      "provisionId_match": true,
+      "input_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+      "output_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+      "parentActId_match": true
+    },
+    {
+      "provisionSequence": 6,
+      "input_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-006",
+      "output_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-006",
+      "provisionId_match": true,
+      "input_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+      "output_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+      "parentActId_match": true
+    },
+    {
+      "provisionSequence": 7,
+      "input_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-007",
+      "output_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-007",
+      "provisionId_match": true,
+      "input_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+      "output_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+      "parentActId_match": true
+    },
+    {
+      "provisionSequence": 8,
+      "input_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-008",
+      "output_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-008",
+      "provisionId_match": true,
+      "input_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+      "output_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+      "parentActId_match": true
+    },
+    {
+      "provisionSequence": 9,
+      "input_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-009",
+      "output_internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-009",
+      "provisionId_match": true,
+      "input_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-001",
+      "output_internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-001",
+      "parentActId_match": true
+    }
+  ],
+  "rawLlmOutput": {
+    "citedProvisions": [
+      {
+        "provisionSequence": 1,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionSequence": 2,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionSequence": 3,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionSequence": 4,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionSequence": 5,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionSequence": 6,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionSequence": 7,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionSequence": 8,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionSequence": 9,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ]
+  },
+  "finalMergedOutput": {
+    "id": 150108,
+    "decision_id": "ECLI:BE:AHANT:1997:ARR.19970917.21",
+    "language": "NL",
+    "md_length": 26242,
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-001",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-001",
+        "provisionSequence": 1,
+        "parentActSequence": 1,
+        "provisionNumber": "artikel 1056",
+        "provisionNumberKey": "1056",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-002",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-002",
+        "provisionSequence": 2,
+        "parentActSequence": 2,
+        "provisionNumber": "artikel 10bis",
+        "provisionNumberKey": "10bis",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit nr. 50 van 24 oktober 1967",
+        "parentActDate": "1967-10-24",
+        "parentActNumber": "nr. 50",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-003",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-003",
+        "provisionSequence": 3,
+        "parentActSequence": 3,
+        "provisionNumber": "artikel 2, §2, a)",
+        "provisionNumberKey": "2",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 14 oktober 1983 tot uitvoering van artikel 10bis van K.B. nr. 50",
+        "parentActDate": "1983-10-14",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-003",
+        "provisionSequence": 4,
+        "parentActSequence": 3,
+        "provisionNumber": "artikel 3, tweede en derde lid",
+        "provisionNumberKey": "3",
+        "parentActType": "KONINKLIJK_BESLUIT",
+        "parentActName": "Koninklijk Besluit van 14 oktober 1983",
+        "parentActDate": "1983-10-14",
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-005",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+        "provisionSequence": 5,
+        "parentActSequence": 4,
+        "provisionNumber": "artikel 4, derde lid",
+        "provisionNumberKey": "4",
+        "parentActType": "WET",
+        "parentActName": "Samengeordende Wetten op de Militaire Pensioenen (S.W.M.P.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-006",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+        "provisionSequence": 6,
+        "parentActSequence": 4,
+        "provisionNumber": "artikel 51",
+        "provisionNumberKey": "51",
+        "parentActType": "WET",
+        "parentActName": "Samengeordende Wetten op de Militaire Pensioenen (S.W.M.P.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-007",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+        "provisionSequence": 7,
+        "parentActSequence": 4,
+        "provisionNumber": "artikel 52",
+        "provisionNumberKey": "52",
+        "parentActType": "WET",
+        "parentActName": "Samengeordende Wetten op de Militaire Pensioenen (S.W.M.P.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-008",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-004",
+        "provisionSequence": 8,
+        "parentActSequence": 4,
+        "provisionNumber": "artikel 58",
+        "provisionNumberKey": "58",
+        "parentActType": "WET",
+        "parentActName": "Samengeordende Wetten op de Militaire Pensioenen (S.W.M.P.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "internalProvisionId": "ART-ECLI:BE:AHANT:1997:ARR.19970917.21-009",
+        "internalParentActId": "ACT-ECLI:BE:AHANT:1997:ARR.19970917.21-001",
+        "provisionSequence": 9,
+        "parentActSequence": 1,
+        "provisionNumber": "artikel 1017, tweede lid",
+        "provisionNumberKey": "1017",
+        "parentActType": "WETBOEK",
+        "parentActName": "Gerechtelijk Wetboek (Ger.W.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      }
+    ],
+    "extractedReferences": {
+      "url": {
+        "eu": [],
+        "be": []
+      },
+      "reference": {
+        "eu": {
+          "extracted": [],
+          "verified": []
+        },
+        "be": {
+          "extracted": [],
+          "verifiedNumac": [],
+          "verifiedFileNumber": []
+        }
+      }
+    }
+  }
+}

@@ -8,13 +8,13 @@
  * - Relevant factual context for each provision's application
  *
  * DEPENDS ON: Agent 2B (enrich-provisions)
- * INPUT FIELDS: 10 (all from Agent 2A, passed through Agent 2B)
- * OUTPUT FIELDS: 12 (10 from 2A + 2 new interpretative fields)
+ * INPUT: citedProvisions with 12 fields from Agent 2A (passed through Agent 2B)
+ * OUTPUT: provisionSequence (matching key) + 2 interpretative fields
  *
- * Note: Agent 2B adds regex-based extractedReferences separately,
- * but does NOT merge enrichment fields into provisions array.
- *
- * CRITICAL: Must preserve exact internalProvisionId matching
+ * ARCHITECTURE: Sequence-based matching
+ * - LLM outputs provisionSequence to identify which provision
+ * - postProcessRow merges interpretative fields with input provision data
+ * - IDs are NEVER touched by LLM (eliminates corruption)
  */
 
 export const INTERPRET_PROVISIONS_PROMPT = `## ROLE
@@ -172,20 +172,14 @@ If YES to any → Extract the interpretation
 ---
 
 ## OUTPUT SCHEMA
+
+You output ONLY 3 fields per provision. All other fields are merged automatically from input.
+
 \`\`\`json
 {
   "citedProvisions": [
     {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "string (from Agent 2A - **MATCHING KEY**)",
-      "internalParentActId": "string (from Agent 2A)",
-      "provisionNumber": "string (from Agent 2A)",
-      "provisionNumberKey": "string (from Agent 2A)",
-      "parentActType": "enum (from Agent 2A)",
-      "parentActName": "string (from Agent 2A)",
-      "parentActDate": "YYYY-MM-DD or null (from Agent 2A)",
-      "parentActNumber": "string or null (from Agent 2A)",
+      "provisionSequence": 1,
       "provisionInterpretation": "string (100-1000 chars) or null",
       "relevantFactualContext": "string (50-500 chars) or null"
     }
@@ -193,17 +187,19 @@ If YES to any → Extract the interpretation
 }
 \`\`\`
 
+**CRITICAL**: Output one entry for EACH provision in the input, using its \`provisionSequence\` as the matching key.
+
 ---
 
 ## DETAILED FIELD SPECIFICATIONS
 
 ### Matching Key
 
-**\`internalProvisionId\`**
-- **Purpose**: Match enrichment to provisions from previous agents
-- **CRITICAL**: Output must have SAME \`internalProvisionId\` values as input
-- **Format**: \`ART-{decisionId}-{sequence}\`
-- **Example**: \`ART-68b62d344617563d91457888-001\`
+**\`provisionSequence\`** (integer)
+- **Purpose**: Links your output to the correct input provision
+- **CRITICAL**: Must match the \`provisionSequence\` value from the input provision
+- **Example**: If input has \`"provisionSequence": 3\`, output \`"provisionSequence": 3\`
+- **Requirement**: Output MUST have same count as input (one entry per input provision)
 
 ---
 
@@ -294,16 +290,10 @@ functies bleven bestaan en jongere kandidaten werden aangeworven."
 {
   "citedProvisions": [
     {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-68b62d344617563d91457888-001",
-      "internalParentActId": "ACT-68b62d344617563d91457888-001",
+      "provisionSequence": 1,
       "provisionNumber": "article 31, § 2",
-      "provisionNumberKey": "31",
-      "parentActType": "LOI",
       "parentActName": "Loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination",
-      "parentActDate": "2007-05-10",
-      "parentActNumber": null
+      ...
     }
   ]
 }
@@ -327,16 +317,7 @@ et que des candidats plus jeunes ont été recrutés peu après le licenciement.
 {
   "citedProvisions": [
     {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-68b62d344617563d91457888-001",
-      "internalParentActId": "ACT-68b62d344617563d91457888-001",
-      "provisionNumber": "article 31, § 2",
-      "provisionNumberKey": "31",
-      "parentActType": "LOI",
-      "parentActName": "Loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination",
-      "parentActDate": "2007-05-10",
-      "parentActNumber": null,
+      "provisionSequence": 1,
       "provisionInterpretation": "La Cour interprète l'article 31, § 2, comme exigeant non seulement l'existence d'un but légitime, mais également que les moyens utilisés soient appropriés et nécessaires à la réalisation de ce but. Cette disposition impose à la partie défenderesse de justifier objectivement et raisonnablement le traitement différencié appliqué.",
       "relevantFactualContext": "Un organisme public a licencié une employée de 58 ans en invoquant une réorganisation du service, alors que des postes similaires subsistaient et que des candidats plus jeunes ont été recrutés peu après le licenciement."
     }
@@ -354,9 +335,9 @@ et que des candidats plus jeunes ont été recrutés peu après le licenciement.
 \`\`\`
 ## 1. Feiten en procedure
 
-3. Op 27 augustus 2019 wordt de klacht ontvankelijk verklaard op grond van 
-artikel 58 WOG, wordt de klager hiervan in kennis gesteld overeenkomstig 
-artikel 61 WOG en wordt de klacht op grond van artikel 62, §1 WOG, 
+3. Op 27 augustus 2019 wordt de klacht ontvankelijk verklaard op grond van
+artikel 58 WOG, wordt de klager hiervan in kennis gesteld overeenkomstig
+artikel 61 WOG en wordt de klacht op grond van artikel 62, §1 WOG,
 overgemaakt aan de Geschillenkamer.
 \`\`\`
 
@@ -365,16 +346,7 @@ overgemaakt aan de Geschillenkamer.
 {
   "citedProvisions": [
     {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-EXAMPLE-001",
-      "internalParentActId": "ACT-EXAMPLE-001",
-      "provisionNumber": "artikel 58",
-      "provisionNumberKey": "58",
-      "parentActType": "WET",
-      "parentActName": "wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit (WOG)",
-      "parentActDate": "2017-12-03",
-      "parentActNumber": null,
+      "provisionSequence": 1,
       "provisionInterpretation": null,
       "relevantFactualContext": null
     }
@@ -394,9 +366,9 @@ overgemaakt aan de Geschillenkamer.
 
 Artikel 21.2 AVG
 
-"2. Wanneer persoonsgegevens ten behoeve van direct marketing worden verwerkt, 
-heeft de betrokkene te allen tijde het recht bezwaar te maken tegen de verwerking 
-van hem betreffende persoonsgegevens voor dergelijke marketing, met inbegrip van 
+"2. Wanneer persoonsgegevens ten behoeve van direct marketing worden verwerkt,
+heeft de betrokkene te allen tijde het recht bezwaar te maken tegen de verwerking
+van hem betreffende persoonsgegevens voor dergelijke marketing, met inbegrip van
 profilering die betrekking heeft op direct marketing."
 \`\`\`
 
@@ -405,16 +377,7 @@ profilering die betrekking heeft op direct marketing."
 {
   "citedProvisions": [
     {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-EXAMPLE-002",
-      "internalParentActId": "ACT-EXAMPLE-002",
-      "provisionNumber": "artikel 21.2",
-      "provisionNumberKey": "21.2",
-      "parentActType": "EU_VERORDENING",
-      "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
-      "parentActDate": "2016-04-27",
-      "parentActNumber": null,
+      "provisionSequence": 2,
       "provisionInterpretation": null,
       "relevantFactualContext": null
     }
@@ -432,13 +395,13 @@ profilering die betrekking heeft op direct marketing."
 \`\`\`
 ## 3. Motivering
 
-22. Artikel 21.3 AVG bepaalt wat dit betreft dat, "wanneer een betrokkene 
-bezwaar maakt tegen de verwerking ten behoeve van direct marketing, de 
+22. Artikel 21.3 AVG bepaalt wat dit betreft dat, "wanneer een betrokkene
+bezwaar maakt tegen de verwerking ten behoeve van direct marketing, de
 persoonsgegevens niet meer voor deze doeleinden [worden] verwerkt".
 
-23. In het kader van direct marketing dient een dergelijk bezwaar bijgevolg 
-onmiddellijk en zonder bijkomend onderzoek aanleiding te geven tot de 
-regelrechte stopzetting van elke verwerking van gegevens van betrokkene 
+23. In het kader van direct marketing dient een dergelijk bezwaar bijgevolg
+onmiddellijk en zonder bijkomend onderzoek aanleiding te geven tot de
+regelrechte stopzetting van elke verwerking van gegevens van betrokkene
 ten behoeve van die direct marketing.
 \`\`\`
 
@@ -447,16 +410,7 @@ ten behoeve van die direct marketing.
 {
   "citedProvisions": [
     {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-EXAMPLE-003",
-      "internalParentActId": "ACT-EXAMPLE-003",
-      "provisionNumber": "artikel 21.3",
-      "provisionNumberKey": "21.3",
-      "parentActType": "EU_VERORDENING",
-      "parentActName": "Verordening (EU) 2016/679 van 27 april 2016, Algemene Verordening Gegevensbescherming",
-      "parentActDate": "2016-04-27",
-      "parentActNumber": null,
+      "provisionSequence": 3,
       "provisionInterpretation": "Artikel 21.3 AVG stelt dat verwerking voor direct marketing moet stoppen zodra een bezwaar is gemaakt; de Kamer past deze regel strikt toe en oordeelt dat een dergelijk bezwaar onmiddellijk en zonder bijkomend onderzoek aanleiding dient te geven tot de regelrechte stopzetting van elke verwerking.",
       "relevantFactualContext": null
     }
@@ -482,16 +436,7 @@ Reçoit l'appel...
 {
   "citedProvisions": [
     {
-      "provisionId": null,
-      "parentActId": null,
-      "internalProvisionId": "ART-EXAMPLE-004",
-      "internalParentActId": "ACT-EXAMPLE-004",
-      "provisionNumber": "article 24",
-      "provisionNumberKey": "24",
-      "parentActType": "LOI",
-      "parentActName": "loi du 15 juin 1935 sur l'emploi des langues en matière judiciaire",
-      "parentActDate": "1935-06-15",
-      "parentActNumber": null,
+      "provisionSequence": 4,
       "provisionInterpretation": null,
       "relevantFactualContext": null
     }
@@ -509,7 +454,7 @@ Before outputting, verify:
 
 **Matching:**
 - [ ] Output has SAME number of provisions as input
-- [ ] Every \`internalProvisionId\` in output matches input
+- [ ] Every \`provisionSequence\` in output matches an input provision
 - [ ] No provisions added or removed
 
 **Section Awareness:**
