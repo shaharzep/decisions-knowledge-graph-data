@@ -1,10 +1,10 @@
 /**
- * Aggregate Provision Mappings Script
+ * Aggregate Decision Mappings Script
  *
- * Merges JSON results from 3 provision mapping jobs into a single folder
+ * Merges JSON results from map-cited-decisions job into a single folder
  * with simplified output containing only:
- * - internal_parent_act_id
- * - document_number (from top match by score)
+ * - internal_decision_id
+ * - ecli (from top match's decision_id)
  * - score (from top match)
  *
  * Filters:
@@ -21,49 +21,28 @@ import path from 'path';
 
 const MIN_SCORE = 80;
 
-interface SourceConfig {
-  name: string;
-  path: string;
-}
-
-const SOURCES: SourceConfig[] = [
-  {
-    name: 'map-provisions-standard',
-    path: 'full-data/map-provisions-standard/new-results/jsons'
-  },
-  {
-    name: 'map-provisions-code',
-    path: 'full-data/map-provisions-code/2025-12-02T12-09-54-214Z/jsons'
-  },
-  {
-    name: 'map-provisions-no-date',
-    path: 'full-data/map-provisions-no-date/2025-12-02T21-31-52-341Z/jsons'
-  }
-];
-
-const OUTPUT_DIR = 'full-data/provision-mappings-aggregated/jsons';
+const SOURCE_PATH = 'full-data/map-cited-decisions/2025-12-04T22-23-20-074Z/jsons';
+const OUTPUT_DIR = 'full-data/decision-mappings-aggregated/jsons';
 
 // =============================================================================
 // TYPES
 // =============================================================================
 
 interface Match {
-  document_number: string;
+  decision_id: string;
   score: number;
   [key: string]: any;
 }
 
 interface SourceJson {
-  id?: number;
-  internal_parent_act_id: string;
+  internal_decision_id: string;
   matches?: Match[];
   [key: string]: any;
 }
 
 interface SimplifiedOutput {
-  id: number | null;
-  internal_parent_act_id: string;
-  document_number: string;
+  internal_decision_id: string;
+  ecli: string;
   score: number;
 }
 
@@ -73,7 +52,6 @@ interface AggregationStats {
   skippedEmpty: number;
   skippedLowScore: number;
   errors: number;
-  bySource: Record<string, { total: number; written: number }>;
 }
 
 // =============================================================================
@@ -84,7 +62,7 @@ interface AggregationStats {
  * Get the top match by score from matches array
  * Returns null if no matches or all matches below MIN_SCORE
  */
-function getTopMatch(matches: Match[] | undefined): { document_number: string; score: number } | null {
+function getTopMatch(matches: Match[] | undefined): { decision_id: string; score: number } | null {
   if (!matches || matches.length === 0) {
     return null;
   }
@@ -98,7 +76,7 @@ function getTopMatch(matches: Match[] | undefined): { document_number: string; s
   }
 
   return {
-    document_number: top.document_number,
+    decision_id: top.decision_id,
     score: top.score
   };
 }
@@ -131,9 +109,8 @@ async function processJsonFile(
 
     // Build simplified output
     const output: SimplifiedOutput = {
-      id: data.id ?? null,
-      internal_parent_act_id: data.internal_parent_act_id,
-      document_number: topMatch.document_number,
+      internal_decision_id: data.internal_decision_id,
+      ecli: topMatch.decision_id,
       score: topMatch.score
     };
 
@@ -148,71 +125,62 @@ async function processJsonFile(
 }
 
 /**
- * Aggregate all provision mappings from sources into output directory
+ * Aggregate all decision mappings from source into output directory
  */
-async function aggregateProvisionMappings(): Promise<AggregationStats> {
+async function aggregateDecisionMappings(): Promise<AggregationStats> {
   const stats: AggregationStats = {
     totalFiles: 0,
     written: 0,
     skippedEmpty: 0,
     skippedLowScore: 0,
-    errors: 0,
-    bySource: {}
+    errors: 0
   };
 
   // Ensure output directory exists
   await fs.mkdir(OUTPUT_DIR, { recursive: true });
 
-  for (const source of SOURCES) {
-    console.log(`\nProcessing: ${source.name}`);
-    console.log(`  Source: ${source.path}`);
+  console.log(`\nProcessing: map-cited-decisions`);
+  console.log(`  Source: ${SOURCE_PATH}`);
 
-    const sourceStats = { total: 0, written: 0 };
+  try {
+    const files = await fs.readdir(SOURCE_PATH);
+    const jsonFiles = files.filter(f => f.endsWith('.json'));
 
-    try {
-      const files = await fs.readdir(source.path);
-      const jsonFiles = files.filter(f => f.endsWith('.json'));
+    console.log(`  Files found: ${jsonFiles.length}`);
 
-      console.log(`  Files found: ${jsonFiles.length}`);
+    let processed = 0;
+    for (const file of jsonFiles) {
+      const inputPath = path.join(SOURCE_PATH, file);
+      const outputPath = path.join(OUTPUT_DIR, file);
 
-      let processed = 0;
-      for (const file of jsonFiles) {
-        const inputPath = path.join(source.path, file);
-        const outputPath = path.join(OUTPUT_DIR, file);
+      const result = await processJsonFile(inputPath, outputPath);
 
-        const result = await processJsonFile(inputPath, outputPath);
+      stats.totalFiles++;
 
-        stats.totalFiles++;
-        sourceStats.total++;
-
-        switch (result) {
-          case 'written':
-            stats.written++;
-            sourceStats.written++;
-            break;
-          case 'skipped_empty':
-            stats.skippedEmpty++;
-            break;
-          case 'skipped_low_score':
-            stats.skippedLowScore++;
-            break;
-          case 'error':
-            stats.errors++;
-            break;
-        }
-
-        processed++;
-        if (processed % 10000 === 0) {
-          console.log(`  Progress: ${processed}/${jsonFiles.length} (${sourceStats.written} written)`);
-        }
+      switch (result) {
+        case 'written':
+          stats.written++;
+          break;
+        case 'skipped_empty':
+          stats.skippedEmpty++;
+          break;
+        case 'skipped_low_score':
+          stats.skippedLowScore++;
+          break;
+        case 'error':
+          stats.errors++;
+          break;
       }
 
-      console.log(`  Completed: ${sourceStats.written}/${sourceStats.total} written`);
-    } catch (error) {
-      console.error(`Error reading source ${source.name}:`, error);
+      processed++;
+      if (processed % 10000 === 0) {
+        console.log(`  Progress: ${processed}/${jsonFiles.length} (${stats.written} written)`);
+      }
     }
 
-    stats.bySource[source.name] = sourceStats;
+    console.log(`  Completed: ${stats.written}/${stats.totalFiles} written`);
+  } catch (error) {
+    console.error(`Error reading source:`, error);
   }
 
   return stats;
@@ -224,13 +192,14 @@ async function aggregateProvisionMappings(): Promise<AggregationStats> {
 
 async function main() {
   console.log('='.repeat(60));
-  console.log('Provision Mappings Aggregation');
+  console.log('Decision Mappings Aggregation');
   console.log('='.repeat(60));
   console.log(`Minimum score threshold: ${MIN_SCORE}`);
+  console.log(`Source: ${SOURCE_PATH}`);
   console.log(`Output directory: ${OUTPUT_DIR}`);
 
   const startTime = Date.now();
-  const stats = await aggregateProvisionMappings();
+  const stats = await aggregateDecisionMappings();
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
 
   console.log('\n' + '='.repeat(60));
@@ -242,11 +211,6 @@ async function main() {
   console.log(`Skipped (score < ${MIN_SCORE}): ${stats.skippedLowScore.toLocaleString()}`);
   console.log(`Errors: ${stats.errors}`);
   console.log(`Time: ${elapsed}s`);
-
-  console.log('\nBy source:');
-  for (const [name, s] of Object.entries(stats.bySource)) {
-    console.log(`  ${name}: ${s.written.toLocaleString()}/${s.total.toLocaleString()} written`);
-  }
 
   console.log(`\nOutput: ${OUTPUT_DIR}`);
 }

@@ -107,7 +107,8 @@ const config: JobConfig = {
   concurrencyLimit: 200,
 
   dbQuery: `
-    SELECT DISTINCT ON (dcp.internal_parent_act_id)
+    SELECT DISTINCT ON (dcp.id)
+      dcp.id,
       dcp.internal_parent_act_id,
       d.decision_id,
       d.language_metadata,
@@ -134,7 +135,7 @@ const config: JobConfig = {
       AND dcp.parent_act_type NOT LIKE '%_UE'
       AND dcp.parent_act_date IS NOT NULL
       AND dcp.internal_parent_act_id IS NOT NULL
-    ORDER BY dcp.internal_parent_act_id
+    ORDER BY dcp.id
   `,
 
   dbQueryParams: [],
@@ -265,7 +266,7 @@ const config: JobConfig = {
   model: 'gpt-5-mini',
   reasoningEffort: 'medium',
 
-  rowMetadataFields: ['internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'parent_act_date', 'parent_act_type', 'citation_paragraph', 'teaching_texts', 'candidate_titles'],
+  rowMetadataFields: ['id', 'internal_parent_act_id', 'decision_id', 'language_metadata', 'parent_act_name', 'parent_act_date', 'parent_act_type', 'citation_paragraph', 'teaching_texts', 'candidate_titles'],
 
   customIdPrefix: 'map-std',
 

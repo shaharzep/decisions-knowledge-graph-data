@@ -242,14 +242,6 @@ function displayResults(stats: Stats): void {
     const sortedGroups = Array.from(groupedByAct.entries())
       .sort((a, b) => b[1].length - a[1].length);
 
-    for (const [actName, details] of sortedGroups) {
-      console.log(`\n   📖 ${actName} (${details.length} no-matches):`);
-      for (const d of details) {
-        console.log(`      • Article: ${d.provision_number}`);
-        console.log(`        File: ${d.filename}`);
-      }
-    }
-    console.log('');
   }
 
   console.log('═══════════════════════════════════════════════════════════════════\n');

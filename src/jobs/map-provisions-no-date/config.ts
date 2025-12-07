@@ -154,7 +154,8 @@ const config: JobConfig = {
   concurrencyLimit: 50,
 
   dbQuery: `
-    SELECT DISTINCT ON (dcp.internal_parent_act_id)
+    SELECT DISTINCT ON (dcp.id)
+      dcp.id,
       dcp.internal_parent_act_id,
       d.decision_id,
       d.decision_date,
@@ -183,7 +184,7 @@ const config: JobConfig = {
       AND dcp.parent_act_type NOT LIKE 'EU%'
       AND dcp.parent_act_type NOT LIKE '%_UE'
       AND dcp.internal_parent_act_id IS NOT NULL
-    ORDER BY dcp.internal_parent_act_id
+    ORDER BY dcp.id
   `,
 
   dbQueryParams: [],
@@ -331,6 +332,7 @@ const config: JobConfig = {
   reasoningEffort: 'medium',
 
   rowMetadataFields: [
+    'id',
     'internal_parent_act_id',
     'decision_id',
     'language_metadata',
