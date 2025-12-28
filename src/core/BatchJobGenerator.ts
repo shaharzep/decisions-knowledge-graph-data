@@ -49,6 +49,9 @@ export class BatchJobGenerator {
 
     try {
       // Step 1: Fetch data from database
+      if (!this.config.dbQuery) {
+        throw new Error("Batch jobs require dbQuery (staticRows only supported for concurrent mode)");
+      }
       this.logger.debug("Executing database query");
       const rows = await DatabaseConfig.executeReadOnlyQuery(
         this.config.dbQuery,

@@ -56,6 +56,8 @@ export class OpenAIConfig {
       this.client = new OpenAI({
         apiKey: config.apiKey,
         organization: config.organization,
+        timeout: 60000, // 60 second timeout per request
+        maxRetries: 2,  // Retry twice on transient errors
       });
 
       console.log('🟢 OpenAI client initialized');

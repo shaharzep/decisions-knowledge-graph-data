@@ -94,6 +94,8 @@ export class AzureConfig {
         baseURL: `${config.endpoint}/openai`,
         defaultQuery: { 'api-version': config.apiVersion },
         defaultHeaders: { 'api-key': config.apiKey },
+        timeout: 60000, // 60 second timeout per request
+        maxRetries: 2,  // Retry twice on transient errors
       });
 
       this.clients.set(cacheKey, client);

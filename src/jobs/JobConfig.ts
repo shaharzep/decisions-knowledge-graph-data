@@ -82,8 +82,20 @@ export interface JobConfig {
    *
    * Example:
    * "SELECT id, html_content, official_url FROM decisions WHERE status = 'pending'"
+   *
+   * Note: When staticRows is provided, dbQuery is ignored.
    */
-  dbQuery: string;
+  dbQuery?: string;
+
+  /**
+   * Static rows to process (alternative to dbQuery)
+   *
+   * When provided, these rows are used directly instead of querying the database.
+   * Useful for jobs that load data from files or other sources.
+   *
+   * Each element becomes one processing request.
+   */
+  staticRows?: any[];
 
   /**
    * Parameters for the database query

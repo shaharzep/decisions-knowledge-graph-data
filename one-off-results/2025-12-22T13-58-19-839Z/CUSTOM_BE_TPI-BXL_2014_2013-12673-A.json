@@ -1,0 +1,759 @@
+{
+  "decision_id": "CUSTOM:BE:TPI-BXL:2014:2013-12673-A",
+  "language": "FR",
+  "decision_date": "2014-03-19",
+  "court": "TPI",
+  "md_length": 16377,
+  "extraction_timestamp": "2025-12-22T14:07:27.541Z",
+  "job2a": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 1,
+        "parentActSequence": 1,
+        "provisionNumber": "art. 260, 2°",
+        "provisionNumberKey": "260",
+        "parentActType": "CODE",
+        "parentActName": "Code d'enregistrement (cod. Enr.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-001",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-001"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 2,
+        "parentActSequence": 2,
+        "provisionNumber": "article 782",
+        "provisionNumberKey": "782",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 3,
+        "parentActSequence": 2,
+        "provisionNumber": "article 1030",
+        "provisionNumberKey": "1030",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-003",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 4,
+        "parentActSequence": 2,
+        "provisionNumber": "article 88, § 2",
+        "provisionNumberKey": "88",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 5,
+        "parentActSequence": 2,
+        "provisionNumber": "article 1048",
+        "provisionNumberKey": "1048",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-005",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 6,
+        "parentActSequence": 3,
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "AUTRE",
+        "parentActName": "conditions générales d'Hydrobru",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-006",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-003"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 7,
+        "parentActSequence": 4,
+        "provisionNumber": "article 111",
+        "provisionNumberKey": "111",
+        "parentActType": "CODE",
+        "parentActName": "Code civil (C. civ.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-007",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 8,
+        "parentActSequence": 2,
+        "provisionNumber": "article 39",
+        "provisionNumberKey": "39",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-008",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 9,
+        "parentActSequence": 2,
+        "provisionNumber": "article 40",
+        "provisionNumberKey": "40",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-009",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 10,
+        "parentActSequence": 4,
+        "provisionNumber": "article 1165",
+        "provisionNumberKey": "1165",
+        "parentActType": "CODE",
+        "parentActName": "Code civil (C. civ.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-010",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 11,
+        "parentActSequence": 5,
+        "provisionNumber": "article 3, alinéa 2, point 2",
+        "provisionNumberKey": "3",
+        "parentActType": "ORDONNANCE",
+        "parentActName": "ordonnance bruxelloise du 8 septembre 1994 réglementant la fourniture d'eau alimentaire distribuée par réseau en Région bruxelloise (ord. 8/09/1994)",
+        "parentActDate": "1994-09-08",
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-011",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-005"
+      }
+    ]
+  },
+  "job2b": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 1,
+        "parentActSequence": 1,
+        "provisionNumber": "art. 260, 2°",
+        "provisionNumberKey": "260",
+        "parentActType": "CODE",
+        "parentActName": "Code d'enregistrement (cod. Enr.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-001",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-001"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 2,
+        "parentActSequence": 2,
+        "provisionNumber": "article 782",
+        "provisionNumberKey": "782",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 3,
+        "parentActSequence": 2,
+        "provisionNumber": "article 1030",
+        "provisionNumberKey": "1030",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-003",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 4,
+        "parentActSequence": 2,
+        "provisionNumber": "article 88, § 2",
+        "provisionNumberKey": "88",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 5,
+        "parentActSequence": 2,
+        "provisionNumber": "article 1048",
+        "provisionNumberKey": "1048",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-005",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 6,
+        "parentActSequence": 3,
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "AUTRE",
+        "parentActName": "conditions générales d'Hydrobru",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-006",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-003"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 7,
+        "parentActSequence": 4,
+        "provisionNumber": "article 111",
+        "provisionNumberKey": "111",
+        "parentActType": "CODE",
+        "parentActName": "Code civil (C. civ.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-007",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 8,
+        "parentActSequence": 2,
+        "provisionNumber": "article 39",
+        "provisionNumberKey": "39",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-008",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 9,
+        "parentActSequence": 2,
+        "provisionNumber": "article 40",
+        "provisionNumberKey": "40",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-009",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 10,
+        "parentActSequence": 4,
+        "provisionNumber": "article 1165",
+        "provisionNumberKey": "1165",
+        "parentActType": "CODE",
+        "parentActName": "Code civil (C. civ.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-010",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 11,
+        "parentActSequence": 5,
+        "provisionNumber": "article 3, alinéa 2, point 2",
+        "provisionNumberKey": "3",
+        "parentActType": "ORDONNANCE",
+        "parentActName": "ordonnance bruxelloise du 8 septembre 1994 réglementant la fourniture d'eau alimentaire distribuée par réseau en Région bruxelloise (ord. 8/09/1994)",
+        "parentActDate": "1994-09-08",
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-011",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-005"
+      }
+    ],
+    "extractedReferences": {
+      "url": {
+        "eu": [],
+        "be": []
+      },
+      "reference": {
+        "eu": {
+          "extracted": [],
+          "verified": []
+        },
+        "be": {
+          "extracted": [],
+          "verifiedNumac": [],
+          "verifiedFileNumber": []
+        }
+      }
+    }
+  },
+  "job2c": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 1,
+        "parentActSequence": 1,
+        "provisionNumber": "art. 260, 2°",
+        "provisionNumberKey": "260",
+        "parentActType": "CODE",
+        "parentActName": "Code d'enregistrement (cod. Enr.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-001",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-001",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 2,
+        "parentActSequence": 2,
+        "provisionNumber": "article 782",
+        "provisionNumberKey": "782",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 3,
+        "parentActSequence": 2,
+        "provisionNumber": "article 1030",
+        "provisionNumberKey": "1030",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-003",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 4,
+        "parentActSequence": 2,
+        "provisionNumber": "article 88, § 2",
+        "provisionNumberKey": "88",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002",
+        "provisionInterpretation": "La Cour interprète l'article 88, § 2 C. jud. comme imposant que l'exception d'incident de répartition/doctrine d'affectation soit soulevée avant tout autre moyen : si elle est invoquée après une fin de non-recevoir et une défense au fond, elle est tardive et, de ce fait, irrecevable.",
+        "relevantFactualContext": "Hydrobru a soulevé l'incident de répartition après avoir présenté une fin de non-recevoir et une défense au fond ; pour cette raison procédurale le tribunal a déclaré l'exception tardive et irrecevable."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 5,
+        "parentActSequence": 2,
+        "provisionNumber": "article 1048",
+        "provisionNumberKey": "1048",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-005",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002",
+        "provisionInterpretation": "La Cour retient que le délai de recours visé à l'article 1048 C. jud. ne court que si la signification du jugement est régulière : une signification viciée n'engendre pas le point de départ du délai de recours visé par cet article, de sorte qu'une voie de recours peut rester recevable si la signification était irrégulière.",
+        "relevantFactualContext": "L'opposition a été introduite plus d'un an après la signification alléguée du 15 juin 2012 ; M. Zabari conteste la régularité de cette signification (réalisée au prétendu domicile élu), raison pour laquelle le tribunal a estimé que le délai prévu à l'art. 1048 n'avait pas commencé à courir."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 6,
+        "parentActSequence": 3,
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "AUTRE",
+        "parentActName": "conditions générales d'Hydrobru",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-006",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-003",
+        "provisionInterpretation": "La Cour considère que la clause « élection de domicile » figurant à l'article 30 des conditions générales d'Hydrobru, qui fixe d'autorité le lieu du \"domicile élu\", ne constitue ni une élection de domicile conventionnelle ni une élection de domicile légale : elle impose le lieu au lieu de permettre au débiteur de choisir, et ne satisfait pas aux conditions d'une élection valide.",
+        "relevantFactualContext": "Hydrobru invoquait l'article 30 de ses conditions générales pour prétendre que la signification valait au \"domicile élu\" (rue Haute 211-213), alors qu'elle n'a pas démontré l'existence d'une convention avec M. Zabari et que des courriers antérieurs avaient été envoyés à d'autres adresses."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 7,
+        "parentActSequence": 4,
+        "provisionNumber": "article 111",
+        "provisionNumberKey": "111",
+        "parentActType": "CODE",
+        "parentActName": "Code civil (C. civ.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-007",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004",
+        "provisionInterpretation": "La Cour rappelle, au regard de l'article 111 C. civ., que l'élection de domicile découle soit d'une convention soit de la loi ; en conséquence, pour produire effet comme \"élection de domicile conventionnelle\", la clause doit résulter d'un accord valable entre les parties, ce que Hydrobru n'a pas établi en l'espèce.",
+        "relevantFactualContext": "Hydrobru n'a pas produit de preuve d'une convention liant expressément M. Zabari aux conditions générales invoquées ; le tribunal conclut donc que l'élection de domicile conventionnelle n'est pas caractérisée."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 8,
+        "parentActSequence": 2,
+        "provisionNumber": "article 39",
+        "provisionNumberKey": "39",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-008",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002",
+        "provisionInterpretation": "La Cour interprète les articles 39 et 40 C. jud. (en liaison avec l'art. 111 C. civ.) comme définissant le régime de l'élection de domicile légale et les modalités de signification au domicile élu : la clause unilatérale d'Hydrobru (art. 30) ne répond pas aux exigences de ces dispositions et ne peut fonder une signification régulière.",
+        "relevantFactualContext": "La signification du jugement a été faite au prétendu \"domicile élu\" indiqué par Hydrobru ; le tribunal estime que, faute de caractère conventionnel ou légal de cette élection, la signification au titre des arts. 39 et 40 C. jud. n'était pas valable."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 9,
+        "parentActSequence": 2,
+        "provisionNumber": "article 40",
+        "provisionNumberKey": "40",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-009",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002",
+        "provisionInterpretation": "S'agissant de l'article 40 C. jud., la Cour retient que la signification effectuée en vertu du mécanisme prévu pour le domicile élu (art. 40, §3) n'est valable que si l'élection de domicile est effectivement constituée conformément au droit applicable ; faute d'une telle élection, la signification conformément à cet article est irrégulière.",
+        "relevantFactualContext": "La signification du jugement attaqué a eu lieu selon Hydrobru au \"domicile élu\" (rue Haute 211-213) ; le tribunal a considéré que l'élection de domicile invoquée n'était pas valide et, par conséquent, que la signification au titre de l'art. 40 §3 C. jud. n'avait pas effet."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 10,
+        "parentActSequence": 4,
+        "provisionNumber": "article 1165",
+        "provisionNumberKey": "1165",
+        "parentActType": "CODE",
+        "parentActName": "Code civil (C. civ.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-010",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004",
+        "provisionInterpretation": "La Cour indique que les règles du droit des contrats, notamment les effets internes et externes prévus à l'article 1165 C. civ., s'appliquent à une élection de domicile conventionnelle : une telle clause relève du principe d'autonomie de la volonté et est soumise aux effets contractuels visés par l'art. 1165.",
+        "relevantFactualContext": "Le tribunal note que, si l'élection de domicile avait été conventionnelle, elle aurait été soumise aux règles de l'art. 1165 ; or Hydrobru n'a pas démontré l'existence d'une convention avec M. Zabari, de sorte que cette application contractuelle n'est pas retenue."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 11,
+        "parentActSequence": 5,
+        "provisionNumber": "article 3, alinéa 2, point 2",
+        "provisionNumberKey": "3",
+        "parentActType": "ORDONNANCE",
+        "parentActName": "ordonnance bruxelloise du 8 septembre 1994 réglementant la fourniture d'eau alimentaire distribuée par réseau en Région bruxelloise (ord. 8/09/1994)",
+        "parentActDate": "1994-09-08",
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-011",
+        "internalParentActId": "ACT-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-005",
+        "provisionInterpretation": "La Cour relève que l'article 3, al. 2, point 2 de l'ordonnance bruxelloise du 8 septembre 1994 instaure une solidarité légale du propriétaire pour les obligations relatives à la fourniture d'eau : Hydrobru agit donc aussi en vertu de cette solidarité légale, indépendamment d'une élection de domicile contractuelle.",
+        "relevantFactualContext": "Les conclusions et courriers produits montrent qu'Hydrobru a agi contre M. Zabari en se prévalant de la solidarité légale du propriétaire prévue par l'ordonnance de 1994, ce qui explique qu'aucune convention d'élection de domicile n'ait été nécessaire pour intenter l'action."
+      }
+    ],
+    "extractedReferences": {
+      "url": {
+        "eu": [],
+        "be": []
+      },
+      "reference": {
+        "eu": {
+          "extracted": [],
+          "verified": []
+        },
+        "be": {
+          "extracted": [],
+          "verifiedNumac": [],
+          "verifiedFileNumber": []
+        }
+      }
+    }
+  },
+  "job3": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Bruxelles",
+        "date": "2012-03-27",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Bruxelles",
+        "date": "2012-05-03",
+        "caseNumber": "RG 12/5153/A - n° 1308",
+        "ecli": null,
+        "treatment": "OVERRULED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-002"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 3,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Bruxelles",
+        "date": "2012-06-15",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-003"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 4,
+        "courtJurisdictionCode": "BE",
+        "courtName": "tribunal de première instance de Bruxelles",
+        "date": "2013-10-14",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004"
+      }
+    ]
+  },
+  "job5": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-CUSTOM:BE:TPIBXL:2014:2013-126",
+        "text": "L'exception d'incident de répartition visée à l'article 88, § 2 C. jud. doit être soulevée avant tout autre moyen; si elle est invoquée postérieurement à une fin de non-recevoir et à une défense au fond, elle est considérée comme tardive et irrecevable.",
+        "courtVerbatim": "Aux termes de l'article 88, § 2 C. jud., cette exception doit être soulevée « avant tout autre argument par l'une des parties ». Invoquée après une fin de non-recevoir et une défense au fond, cette exception est tardive et, partant, irrecevable.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une partie soulève, en cours d'instance, un incident de répartition après avoir présenté d'autres moyens procéduraux ou une défense au fond.",
+        "relevantFactualContext": "Hydrobru a soulevé, à titre subsidiaire, un incident de répartition après avoir déjà présenté une fin de non-recevoir et une défense au fond; le tribunal a jugé cet incident tardif et irrecevable.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-CUSTOM:BE:TPIBXL:2014:2013-126",
+        "text": "Pour valoir comme élection de domicile, une clause doit constituer soit une élection conventionnelle résultant d'un accord valable entre les parties, soit une élection opérée en vertu de la loi; une clause unilatérale des conditions générales qui fixe d'autorité le lieu prétendu du \"domicile élu\" ne constitue ni une élection conventionnelle ni une élection légale et ne peut fonder une signification régulière au domicile ainsi indiqué.",
+        "courtVerbatim": "En vertu de l'article 111 C. civ., l'élection de domicile découle d'une convention ou de la loi. [...] L'élection de domicile conventionnelle est une véritable convention, qui relève du principe de l'autonomie de la volonté. [...] Or, en l'espèce, Hydrobru ne soutient nullement ni a fortiori ne démontre avoir conclu de convention avec Monsieur Zabari. [...] L'élection de domicile prévue à l'article 30 des conditions générales d'Hydrobru ne constitue donc pas une élection de domicile légale au sens des articles 111 C. civ. et 39 et 40 C. jud.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la partie adverse invoque une clause d'élection de domicile figurant dans des conditions générales pour fonder la régularité d'une signification.",
+        "relevantFactualContext": "Hydrobru invoquait l'article 30 de ses conditions générales, qui fixe le \"domicile élu\" dans l'immeuble concerné; le tribunal a constaté l'absence de preuve d'une convention unissant l'abonné et a estimé que la clause unilatérale ne constituait ni élection conventionnelle ni élection légale.",
+        "principleType": "INTERPRETATION_RULE",
+        "legalArea": "CONTRACT_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-CUSTOM:BE:TPIBXL:2014:2013-126-003"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-006",
+          "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-007",
+          "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-008",
+          "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-009",
+          "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-010"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-CUSTOM:BE:TPIBXL:2014:2013-126",
+        "text": "Le délai de recours prévu à l'article 1048 C. jud. ne commence à courir que si la signification du jugement a été régulièrement effectuée; une signification viciée (par ex. fondée sur une élection de domicile non constituée) n'entraîne pas le point de départ du délai de recours, de sorte qu'une voie de recours peut demeurer recevable si la signification était irrégulière.",
+        "courtVerbatim": "Toutefois, Monsieur Zabari conteste la régularité de la signification de ce jugement. Le délai de recours visé à l'article 1048 C. jud. n'aurait donc pas pris cours. Il se déduit des éléments qui précèdent que la signification du jugement attaqué au (prétendu) domicile élu, conformément à l'article 40, § 3 C. jud., n'était pas valable et n'a, partant, pu faire courir les délais de recours.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsque la partie conteste la régularité de la signification d'un jugement (p.ex. service effectué au prétendu domicile élu dont la validité est disputée).",
+        "relevantFactualContext": "La signification du jugement attaqué a été effectuée au \"domicile élu\" prétendu (rue Haute 211-213); le tribunal a jugé que cette élection n'étant pas constituée, la signification était irrégulière et le délai de recours n'avait pas commencé à courir.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-CUSTOM:BE:TPIBXL:2014:2013-126",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-005",
+          "ART-CUSTOM:BE:TPI-BXL:2014:2013-12673-A-009"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-CUSTOM:BE:TPIBXL:2014:2013-126",
+        "text": "Lorsqu'une partie a procédé à une exécution forcée sur la base d'un titre qui n'était pas exécutoire (ni exécutoire par provision ni revêtu de la force de chose jugée), elle est tenue de restituer les sommes perçues en exécution; la restitution peut être ordonnée majorée des intérêts à compter de la date de la demande pertinente.",
+        "courtVerbatim": "Dans la mesure où elle a procédé à une exécution forcée sur la base d'un titre qui n'était pas exécutoire, Hydrobru doit effectivement restituer à Monsieur Zabari la somme perçue par Hydrobru à son encontre, soit, selon la citation en opposition, 7.743,85 €. Aucune information n'est fournie au tribunal concernant sa répartition ni quant à l'éventuelle restitution d'une partie de ce montant après répartition, mais Hydrobru n'élève aucune contestation concernant la somme elle-même. Il sera donc fait droit à la demande de Monsieur Zabari et cette somme sera en outre majorée des intérêts moratoires depuis le 14 octobre 2013, comme sollicité.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une exécution forcée a été effectuée sur la base d'un titre qui n'était pas exécutoire (p.ex. signification irrégulière entraînant l'irrégularité du titre).",
+        "relevantFactualContext": "Hydrobru a procédé à l'exécution forcée du jugement rétracté alors que ce titre n'était pas exécutoire; le tribunal ordonne la restitution à la partie saisie, majorée des intérêts depuis la date de la demande d'opposition.",
+        "principleType": "REMEDIAL_PRINCIPLE",
+        "legalArea": "CIVIL_LIABILITY",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 4,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 1,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 1,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 4
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  }
+}

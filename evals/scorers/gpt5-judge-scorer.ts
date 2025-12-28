@@ -5,7 +5,7 @@
  * with production-readiness focus
  */
 
-import { formatJudgePrompt, isMapCitedDecisionsPrompt } from '../utils/prompt-loader.js';
+import { formatJudgePrompt, isMapCitedDecisionsPrompt, isClassifyLegalIssuesPrompt } from '../utils/prompt-loader.js';
 import { callAzureJudge } from '../config/openai.js';
 import { EvaluationResult, Verdict, Recommendation, Confidence } from '../types.js';
 
@@ -35,6 +35,7 @@ export interface MapDecisionsEvaluation {
  * @param extractedJSON - Extracted data object
  * @param judgePromptTemplate - The loaded judge prompt markdown content
  * @param jobType - Optional job type for context
+ * @param teachingInput - Optional teaching input for classify-legal-issues
  * @returns Structured evaluation result
  */
 export async function scoreExtraction(
@@ -42,7 +43,8 @@ export async function scoreExtraction(
   originalDocument: string,
   extractedJSON: any,
   judgePromptTemplate: string,
-  jobType?: string
+  jobType?: string,
+  teachingInput?: any
 ): Promise<EvaluationResult> {
   // Extract extractedReferences for Agent 2B evaluation (enrich-provisions)
   const extractedReferences = extractedJSON.extractedReferences || undefined;
@@ -54,7 +56,8 @@ export async function scoreExtraction(
     originalDocument,
     extractedJSON,
     jobType,
-    extractedReferences
+    extractedReferences,
+    teachingInput
   );
 
   // Call Azure GPT-4.1 for evaluation
@@ -65,6 +68,11 @@ export async function scoreExtraction(
     // Map-cited-decisions uses a different response schema
     const mapEval = parseMapDecisionsResponse(responseText);
     return adaptMapDecisionsToEvaluationResult(mapEval);
+  }
+
+  if (isClassifyLegalIssuesPrompt(judgePromptTemplate)) {
+    // Classify-legal-issues uses a different response schema
+    return parseClassifyLegalIssuesResponse(responseText);
   }
 
   // Standard evaluation flow
@@ -506,4 +514,157 @@ export function adaptMapDecisionsToEvaluationResult(
     confidence,
     summary,
   };
+}
+
+/**
+ * Parse classify-legal-issues judge response
+ *
+ * The judge response has a different schema with:
+ * - overall_assessment.total_score (0-100)
+ * - overall_assessment.grade (A/B/C/D/F)
+ * - overall_assessment.recommended_action (ACCEPT/REVIEW/REJECT/RECLASSIFY)
+ * - overall_assessment.critical_issues / minor_issues
+ *
+ * Maps to standard EvaluationResult for Braintrust logging.
+ *
+ * @param responseText - Raw response from judge
+ * @returns Structured EvaluationResult
+ */
+export function parseClassifyLegalIssuesResponse(responseText: string): EvaluationResult {
+  try {
+    // Try to extract JSON from markdown code blocks or plain JSON
+    let jsonText = responseText.trim();
+
+    // Check for markdown code block
+    const codeBlockMatch = jsonText.match(/```(?:json)?\s*(\{[\s\S]*?\})\s*```/);
+    if (codeBlockMatch) {
+      jsonText = codeBlockMatch[1];
+    } else {
+      // Try to find JSON object boundaries
+      const jsonMatch = jsonText.match(/\{[\s\S]*\}/);
+      if (jsonMatch) {
+        jsonText = jsonMatch[0];
+      }
+    }
+
+    const parsed = JSON.parse(jsonText);
+
+    // Extract overall assessment
+    const overall = parsed.overall_assessment || {};
+    const score = typeof overall.total_score === 'number' ? overall.total_score : 50;
+    const grade = overall.grade || 'C';
+    const recommendedAction = overall.recommended_action || 'REVIEW';
+    const classificationQuality = overall.classification_quality || 'ACCEPTABLE';
+
+    // Map recommended_action to verdict
+    let verdict: Verdict;
+    switch (recommendedAction) {
+      case 'ACCEPT':
+        verdict = 'PASS';
+        break;
+      case 'REJECT':
+      case 'RECLASSIFY':
+        verdict = 'FAIL';
+        break;
+      case 'REVIEW':
+      default:
+        verdict = 'REVIEW_REQUIRED';
+    }
+
+    // Map grade to confidence
+    let confidence: Confidence;
+    switch (grade) {
+      case 'A':
+        confidence = 'HIGH';
+        break;
+      case 'B':
+      case 'C':
+        confidence = 'MEDIUM';
+        break;
+      case 'D':
+      case 'F':
+      default:
+        confidence = 'LOW';
+    }
+
+    // Map to recommendation
+    let recommendation: Recommendation;
+    switch (recommendedAction) {
+      case 'ACCEPT':
+        recommendation = 'PROCEED';
+        break;
+      case 'REVIEW':
+        recommendation = 'REVIEW_SAMPLES';
+        break;
+      case 'REJECT':
+      case 'RECLASSIFY':
+        recommendation = 'FIX_PROMPT';
+        break;
+      default:
+        recommendation = 'REVIEW_SAMPLES';
+    }
+
+    // Extract issues
+    const criticalIssues: string[] = Array.isArray(overall.critical_issues)
+      ? overall.critical_issues
+      : [];
+    const minorIssues: string[] = Array.isArray(overall.minor_issues)
+      ? overall.minor_issues
+      : [];
+
+    // Look for major issues in topic and issue type evaluations
+    const majorIssues: string[] = [];
+
+    // Check for missing topics (MAJOR severity)
+    const topicEval = parsed.topic_set_evaluation || {};
+    if (Array.isArray(topicEval.missing_topics)) {
+      for (const missing of topicEval.missing_topics) {
+        if (missing.severity === 'MAJOR') {
+          majorIssues.push(`Missing topic: ${missing.topic_id} - ${missing.reasoning}`);
+        }
+      }
+    }
+
+    // Check for missing issue types (MAJOR severity)
+    const issueTypeEval = parsed.issue_type_set_evaluation || {};
+    if (Array.isArray(issueTypeEval.missing_issue_types)) {
+      for (const missing of issueTypeEval.missing_issue_types) {
+        if (missing.severity === 'MAJOR') {
+          majorIssues.push(`Missing issue type: ${missing.issue_type_id} - ${missing.reasoning}`);
+        }
+      }
+    }
+
+    // Check for production rule violations
+    const productionRulesEval = parsed.production_rules_evaluation || {};
+    if (Array.isArray(productionRulesEval.rules_violated) && productionRulesEval.rules_violated.length > 0) {
+      for (const violation of productionRulesEval.rules_violated) {
+        criticalIssues.push(`Production rule violated: ${violation}`);
+      }
+    }
+
+    // Build summary
+    const summary = overall.summary || `[${grade}] ${classificationQuality} - Score: ${score}/100`;
+
+    return {
+      verdict,
+      score,
+      criticalIssues,
+      majorIssues,
+      minorIssues,
+      recommendation,
+      confidence,
+      summary,
+      // Preserve full response for detailed analysis
+      rawJudgeResponse: parsed,
+    } as EvaluationResult;
+  } catch (error: any) {
+    if (error instanceof SyntaxError) {
+      throw new Error(
+        `Failed to parse classify-legal-issues judge response as JSON: ${error.message}\n` +
+        `Response preview: ${responseText.substring(0, 500)}...`
+      );
+    }
+    throw error;
+  }
 }

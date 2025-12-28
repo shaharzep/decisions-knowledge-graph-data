@@ -8,6 +8,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { loadExtractionResults, validateExtractionResults } from '../loaders/extraction-result-loader.js';
 import { batchLoadSourceDocuments, batchLoadRFTCData, loadSourceDocument, SourceDocumentWithMetadata } from '../loaders/source-document-loader.js';
+import { loadTeachingInputs, TeachingInput } from '../loaders/teaching-input-loader.js';
 import { scoreExtraction, extractScoresForBraintrust } from '../scorers/gpt5-judge-scorer.js';
 import { createExperiment, logEvaluation, summarizeExperiment } from '../config/braintrust.js';
 import { getJudgePromptFile } from '../config/job-prompt-map.js';
@@ -32,7 +33,8 @@ type ScorerFunction = (
   groundTruthData: GroundTruthData | RFTCSourceData,
   extractedJSON: any,
   judgePromptTemplate: string,
-  jobType?: string
+  jobType?: string,
+  teachingInput?: any
 ) => Promise<EvaluationResult>;
 
 /**
@@ -103,11 +105,25 @@ export async function runEvaluation(
 
   // Batch load source documents (or RFTC data for block-based citation jobs)
   // Map-cited-decisions is special: input context is already in extraction result
+  // Classify-legal-issues is special: entity is teaching, not decision
   let sourceDocuments: Map<string, SourceDocumentWithMetadata | RFTCSourceData>;
+  let teachingInputs: Map<string, TeachingInput> = new Map();
   let isRFTCJob = false;
   let isMapCitedDecisionsJob = jobType === 'map-cited-decisions';
+  let isClassifyLegalIssuesJob = jobType === 'classify-legal-issues';
 
-  if (isMapCitedDecisionsJob) {
+  if (isClassifyLegalIssuesJob) {
+    // Classify-legal-issues: Entity is teaching, not decision
+    // Load teaching inputs from extract-legal-teachings full-data
+    console.log(`\n📚 Loading teaching inputs for ${jobType}`);
+
+    // Extract teaching IDs from results
+    const teachingIds = decisionsToEvaluate.map((d) => d.teaching_id || d.data?.teaching_id).filter(Boolean);
+    console.log(`   Found ${teachingIds.length} teaching IDs to load`);
+
+    teachingInputs = await loadTeachingInputs(teachingIds);
+    sourceDocuments = new Map(); // Empty map - we use teachingInputs instead
+  } else if (isMapCitedDecisionsJob) {
     // Map-cited-decisions: No source documents needed
     // Input context (cited reference, candidates) is already in extraction result
     console.log(`\n📚 Skipping source document loading for ${jobType}`);
@@ -173,8 +189,8 @@ export async function runEvaluation(
     const cacheKey = `${decisionId}|${language}`;
     const sourceDocWithMeta = sourceDocuments.get(cacheKey);
 
-    // For map-cited-decisions, we don't need source documents
-    if (!isMapCitedDecisionsJob && !sourceDocWithMeta) {
+    // For map-cited-decisions and classify-legal-issues, we don't need source documents
+    if (!isMapCitedDecisionsJob && !isClassifyLegalIssuesJob && !sourceDocWithMeta) {
       console.warn(`⚠️  Warning: Source document not found for ${decisionId} (${language}), skipping`);
       continue;
     }
@@ -187,7 +203,33 @@ export async function runEvaluation(
     }
 
     // Prepare evaluation input based on job type
-    if (isMapCitedDecisionsJob) {
+    if (isClassifyLegalIssuesJob) {
+      // Classify-legal-issues: entity is teaching, not decision
+      const extractedData = extracted.data || extracted;
+      const teachingId = extracted.teaching_id || extractedData.teaching_id;
+
+      // Prefer embedded teaching_input (new runs), fallback to loaded data (old runs)
+      const embeddedTeachingInput = extractedData.teaching_input;
+      const loadedTeachingInput = teachingInputs.get(teachingId);
+      const teachingInput = embeddedTeachingInput || loadedTeachingInput;
+
+      if (!teachingInput) {
+        console.warn(`⚠️  Warning: Teaching input not found for ${teachingId}, skipping`);
+        continue;
+      }
+
+      evaluationInputs.push({
+        decisionId: teachingId,  // Use teaching_id as entity key
+        sourceDocument: '[Teaching input embedded in result]',
+        teachingInput,  // The original teaching being classified
+        extractedData,  // The classification result
+        metadata: {
+          language: teachingInput.language,
+          teaching_id: teachingId,
+          decision_id: teachingInput.decisionId,
+        },
+      });
+    } else if (isMapCitedDecisionsJob) {
       // Map-cited-decisions: input context is already in extracted data
       // Use a placeholder for sourceDocument since the prompt formatter extracts from extractedData
       evaluationInputs.push({
@@ -288,7 +330,8 @@ export async function runEvaluation(
           judgePromptTemplate,
           jobType,
           input.metadata?.language || 'FR',
-          scoreExtraction  // Pass the selected scorer function
+          scoreExtraction,  // Pass the selected scorer function
+          input.teachingInput  // Pass teaching input for classify-legal-issues
         );
 
         // Log to Braintrust with FULL data (metadata preserved for clustering/analysis)
@@ -391,13 +434,14 @@ export async function runEvaluation(
 /**
  * Evaluate a single decision
  *
- * @param decisionId - ECLI identifier
+ * @param decisionId - ECLI identifier (or teaching_id for classify-legal-issues)
  * @param extractedData - Extracted JSON data
  * @param groundTruthData - Original markdown document OR RFTC data (transformed HTML + dependencies)
  * @param judgePromptTemplate - The loaded judge prompt markdown content
  * @param jobType - Job type (for context)
  * @param language - Procedural language (FR or NL)
  * @param scorer - Scorer function to use (Claude or GPT-5)
+ * @param teachingInput - Teaching input for classify-legal-issues
  * @returns Evaluation result
  */
 export async function evaluateSingleDecision(
@@ -407,7 +451,8 @@ export async function evaluateSingleDecision(
   judgePromptTemplate: string,
   jobType: string,
   language: string,
-  scorer: ScorerFunction
+  scorer: ScorerFunction,
+  teachingInput?: any
 ): Promise<EvaluationResult> {
   // Score the extraction using the provided scorer
   return await scorer(
@@ -415,7 +460,8 @@ export async function evaluateSingleDecision(
     groundTruthData,
     extractedData,
     judgePromptTemplate,
-    jobType
+    jobType,
+    teachingInput
   );
 }
 

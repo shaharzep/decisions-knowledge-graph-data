@@ -195,6 +195,22 @@ export const EXTRACTION_SCHEMAS: Record<string, string[]> = {
     'matches',                // Array of {decision_id, court_name, score, confidence, reasoning}
     'no_match_reason',        // Explanation if no matches (null otherwise)
   ],
+
+  /**
+   * Classify Legal Issues: ULIT taxonomy classification of legal teachings
+   * Entity is teaching (not decision) - each teaching classified independently
+   */
+  'classify-legal-issues': [
+    'teaching_id',            // Teaching identifier
+    'classification',         // { topic_set, topic_set_details, issue_type_set, issue_type_set_details, issue_key }
+    'confidence',             // { overall, topic_set, issue_type_set, per_topic, per_issue_type }
+    'validation',             // { valid, errors, warnings, productionRulesSatisfied }
+    'review_tier',            // auto_accept | expedited_review | mandatory_review
+    'reasoning_trace',        // { stage1_concepts, stage2_analysis, stage3_materiality, production_rules_applied }
+    'alternatives',           // { rejected_topics, rejected_issue_types }
+    'retrieval_info',         // { description, retrieval_queries }
+    'teaching_input',         // { text, courtVerbatim, factualTrigger, principleType, decisionId, language }
+  ],
 };
 
 /**

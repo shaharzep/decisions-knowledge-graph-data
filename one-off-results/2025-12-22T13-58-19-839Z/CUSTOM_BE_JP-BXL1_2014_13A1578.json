@@ -1,0 +1,364 @@
+{
+  "decision_id": "CUSTOM:BE:JP-BXL1:2014:13A1578",
+  "language": "FR",
+  "decision_date": "2014-03-06",
+  "court": "JP",
+  "md_length": 5624,
+  "extraction_timestamp": "2025-12-22T14:01:44.665Z",
+  "job2a": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 1,
+        "parentActSequence": 1,
+        "provisionNumber": "article 792",
+        "provisionNumberKey": "792",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-001",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-001"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 2,
+        "parentActSequence": 2,
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "AUTRE",
+        "parentActName": "conditions générales de la S.C.R.L. HYDROBRU",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-002",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 3,
+        "parentActSequence": 1,
+        "provisionNumber": "article 40",
+        "provisionNumberKey": "40",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-003",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-001"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 4,
+        "parentActSequence": 1,
+        "provisionNumber": "article 867",
+        "provisionNumberKey": "867",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-004",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-001"
+      }
+    ]
+  },
+  "job2b": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 1,
+        "parentActSequence": 1,
+        "provisionNumber": "article 792",
+        "provisionNumberKey": "792",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-001",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-001"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 2,
+        "parentActSequence": 2,
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "AUTRE",
+        "parentActName": "conditions générales de la S.C.R.L. HYDROBRU",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-002",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-002"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 3,
+        "parentActSequence": 1,
+        "provisionNumber": "article 40",
+        "provisionNumberKey": "40",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-003",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-001"
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 4,
+        "parentActSequence": 1,
+        "provisionNumber": "article 867",
+        "provisionNumberKey": "867",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-004",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-001"
+      }
+    ],
+    "extractedReferences": {
+      "url": {
+        "eu": [],
+        "be": []
+      },
+      "reference": {
+        "eu": {
+          "extracted": [],
+          "verified": []
+        },
+        "be": {
+          "extracted": [],
+          "verifiedNumac": [],
+          "verifiedFileNumber": []
+        }
+      }
+    }
+  },
+  "job2c": {
+    "citedProvisions": [
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 1,
+        "parentActSequence": 1,
+        "provisionNumber": "article 792",
+        "provisionNumberKey": "792",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire (C.J.)",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-001",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-001",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 2,
+        "parentActSequence": 2,
+        "provisionNumber": "article 30",
+        "provisionNumberKey": "30",
+        "parentActType": "AUTRE",
+        "parentActName": "conditions générales de la S.C.R.L. HYDROBRU",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-002",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-002",
+        "provisionInterpretation": null,
+        "relevantFactualContext": null
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 3,
+        "parentActSequence": 1,
+        "provisionNumber": "article 40",
+        "provisionNumberKey": "40",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-003",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-001",
+        "provisionInterpretation": "La Cour rappelle que l'article 40 C.J. prévoit la notification par voie postale à la destination étrangère pour ceux qui n'ont en Belgique ni domicile, ni résidence, ni domicile élu connus. Elle retient la jurisprudence de la Cour de cassation selon laquelle le non‑respect de cet article constitue une irrégularité de forme entraînant une nullité absolue d'ordre public, néanmoins susceptible de réparation si l'acte a atteint le but que la loi lui assigne. En l'espèce, la Cour constate que ce but n'a pas été atteint et déclare la signification nulle.",
+        "relevantFactualContext": "La signification du jugement a été effectuée à une adresse qui n'était ni le domicile ni la résidence des demandeurs (ceux‑ci résident en Israël). En conséquence ils n'ont pas eu connaissance de la décision et n'ont pu former opposition dans le délai légal."
+      },
+      {
+        "provisionId": null,
+        "parentActId": null,
+        "provisionSequence": 4,
+        "parentActSequence": 1,
+        "provisionNumber": "article 867",
+        "provisionNumberKey": "867",
+        "parentActType": "CODE",
+        "parentActName": "Code judiciaire",
+        "parentActDate": null,
+        "parentActNumber": null,
+        "internalProvisionId": "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-004",
+        "internalParentActId": "ACT-CUSTOM:BE:JP-BXL1:2014:13A1578-001",
+        "provisionInterpretation": "La Cour expose que l'article 867 C.J. permet, lorsque la nullité est formelle et d'ordre public (comme pour le non‑respect de l'article 40), une réparation si l'acte a réalisé le but que la loi lui assigne. Autrement dit, l'article 867 ouvre la possibilité de régulariser une signification irrégulière à la condition factuelle que la finalité de la notification (porter connaissance de l'acte) ait été atteinte.",
+        "relevantFactualContext": "La Cour applique l'article 867 au cas d'espèce et constate que, faute d'avoir porté connaissance de la décision aux destinataires domiciliés à l'étranger, la condition de réalisation du but n'est pas remplie; la nullité ne peut donc être réparée."
+      }
+    ],
+    "extractedReferences": {
+      "url": {
+        "eu": [],
+        "be": []
+      },
+      "reference": {
+        "eu": {
+          "extracted": [],
+          "verified": []
+        },
+        "be": {
+          "extracted": [],
+          "verifiedNumac": [],
+          "verifiedFileNumber": []
+        }
+      }
+    }
+  },
+  "job3": {
+    "citedDecisions": [
+      {
+        "decisionId": null,
+        "decisionSequence": 1,
+        "courtJurisdictionCode": "BE",
+        "courtName": "JUSTICE DE PAIX du premier canton de Bruxelles",
+        "date": "2014-01-28",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-CUSTOM:BE:JP-BXL1:2014:13A1578-001"
+      },
+      {
+        "decisionId": null,
+        "decisionSequence": 2,
+        "courtJurisdictionCode": "BE",
+        "courtName": "JUSTICE DE PAIX du premier canton de Bruxelles",
+        "date": "2013-12-19",
+        "caseNumber": null,
+        "ecli": null,
+        "treatment": "CITED",
+        "type": "PROCEDURAL",
+        "internalDecisionId": "DEC-CUSTOM:BE:JP-BXL1:2014:13A1578-002"
+      }
+    ]
+  },
+  "job5": {
+    "legalTeachings": [
+      {
+        "teachingId": "TEACH-CUSTOM:BE:JPBXL1:2014:13A1578-001",
+        "text": "Lorsque la signification d'un acte vise des personnes qui n'ont en Belgique ni domicile, ni résidence, ni domicile élu connus, l'irrégularité résultant du non‑respect de l'article 40 C.J. constitue une nullité absolue d'ordre public. Cette nullité peut toutefois être réparée selon l'article 867 C.J. si, malgré l'irrégularité de forme, l'acte a atteint le but légal qui lui était assigné (porter effectivement la connaissance de l'acte au destinataire).",
+        "courtVerbatim": "L'article 40 du Code judiciaire énonce... « A ceux qui n'ont en Belgique ni domicile, ni résidence, ni domicile élu connus, la copie de l'acte est adressée par l'huissier de justice sous pli recommandé à la poste, à leur domicile ou à leur résidence à l'étranger ... La signification est réputée accomplie par la remise de l'acte aux services de la poste contre le récépissé de l'envoi dans les formes prévues au présent article.». La Cour de Cassation a décidé que le non-respect de l'article 40 du Code judiciaire constitue bien une irrégularité de forme sanctionnée d'une nullité absolue touchant à l'ordre public mais qui est susceptible de réparation conformément à l'article 867 du Code judiciaire si l'acte a réalisé le but que la loi lui assigne. En l'espèce, la signification du jugement n'a pas réalisé le but que la loi lui assignait, c'est-à-dire porter à la connaissance de leur destinataire du contenu de la décision aux fins de leur permettre de former opposition dans le délai légal. En signifiant à cette adresse, qui n'était ni celle de leur domicile ni celle de leur résidence, Monsieur Yair ZABARI et Madame Shova CHOVEL ne pouvaient avoir connaissance de la décision et faire opposition. Partant, cette signification est nulle.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique quand une signification vise des personnes sans domicile, résidence ou domicile élu connus en Belgique et n'est pas effectuée conformément aux prescriptions de l'article 40 C.J.",
+        "relevantFactualContext": "Les demandeurs résident en Israël; la signification du jugement rendu par défaut et de la citation introductive d'instance ont été effectuées à une adresse qui n'était ni leur domicile ni leur résidence en Belgique, de sorte qu'ils n'ont pas eu connaissance de la décision et n'ont pu former opposition dans le délai légal.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": null,
+          "refinedByChildPrinciples": [
+            "TEACH-CUSTOM:BE:JPBXL1:2014:13A1578-002"
+          ],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": true,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-003",
+          "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-004"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      },
+      {
+        "teachingId": "TEACH-CUSTOM:BE:JPBXL1:2014:13A1578-002",
+        "text": "Une clause contractuelle d'élection de domicile (conditions générales) a une portée limitée et, sauf disposition expresse et compatible avec les règles de signification, ne vaut pas pour la signification d'une citation à comparaître ou d'actes procéduraux destinés à porter effectivement la connaissance d'une décision. La signification faite à un « domicile élu » qui ne correspond pas au domicile ou à la résidence effective du destinataire et qui, de ce fait, n'a pas permis la connaissance de l'acte, est nulle.",
+        "courtVerbatim": "Monsieur Yair ZABARI et Madame Shova CHOVEL contestent ... et font observer que la signification du jugement rendu par défaut tout comme la citation introductive d'instance du 27 mars 2012 ont été effectuées à une adresse qui n'est ni celle de leur domicile ni celle de leur résidence et que l'élection de domicile prévue à l'article 30 des conditions générales de la S.C.R.L. HYDROBRU a une portée limitée et ne vise que toute invitation à payer, toute communication ou tout avertissement. Ne tombe pas sous le champ d'application de cet article, la signification d'une citation à comparaître. La signification à ce domicile qualifié d'élu doit en conséquence être considérée comme nulle et la demande originaire irrecevable.",
+        "courtVerbatimLanguage": "FR",
+        "factualTrigger": "S'applique lorsqu'une signification procédurale est effectuée à un domicile élu dans des conditions générales et que ce domicile élu ne correspond pas au domicile ou à la résidence effective du destinataire pour la signification d'une citation ou d'un jugement.",
+        "relevantFactualContext": "La société défenderesse s'appuyait sur une clause d'élection de domicile figurant à l'article 30 de ses conditions générales; la Cour retient que cette clause ne visait que des invitations à payer/communications et que la signification procédurale faite à cette adresse ne permettait pas la connaissance de l'acte par les demandeurs domiciliés à l'étranger.",
+        "principleType": "PROCEDURAL_RULE",
+        "legalArea": "PROCEDURAL_LAW",
+        "hierarchicalRelationships": {
+          "refinesParentPrinciple": "TEACH-CUSTOM:BE:JPBXL1:2014:13A1578-001",
+          "refinedByChildPrinciples": [],
+          "exceptionToPrinciple": null,
+          "exceptedByPrinciples": [],
+          "conflictsWith": []
+        },
+        "precedentialWeight": {
+          "courtLevel": "FIRST_INSTANCE",
+          "binding": false,
+          "clarity": "EXPLICIT",
+          "novelPrinciple": false,
+          "confirmsExistingDoctrine": false,
+          "distinguishesPriorCase": false
+        },
+        "relatedLegalIssuesId": [],
+        "relatedCitedProvisionsId": [
+          "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-002",
+          "ART-CUSTOM:BE:JP-BXL1:2014:13A1578-003"
+        ],
+        "relatedCitedDecisionsId": [],
+        "sourceAuthor": "AI_GENERATED"
+      }
+    ],
+    "metadata": {
+      "totalTeachings": 2,
+      "extractedCourtLevel": "FIRST_INSTANCE",
+      "courtLevelConfidence": "HIGH",
+      "teachingTypes": {
+        "interpretive": 0,
+        "application": 0,
+        "balancing": 0,
+        "procedural": 2,
+        "remedial": 0,
+        "legal_test": 0,
+        "burden_proof": 0
+      },
+      "hierarchicalRelationships": {
+        "parentChildPairs": 1,
+        "ruleExceptionPairs": 0,
+        "conflicts": 0
+      },
+      "courtLevelDistribution": {
+        "cassation": 0,
+        "appeal": 0,
+        "first_instance": 2
+      },
+      "validationChecks": {
+        "allTeachingsHaveSourceAuthor": true,
+        "sourceAuthorCorrect": true,
+        "teachingCountReasonable": true,
+        "allTeachingsHaveContext": true,
+        "allTeachingsHaveVerbatim": true,
+        "legalIssuesEmptyAsExpected": true,
+        "allProvisionIdsValid": true,
+        "allDecisionIdsValid": true,
+        "allHierarchyReferencesValid": true,
+        "courtLevelDetected": true
+      }
+    }
+  }
+}

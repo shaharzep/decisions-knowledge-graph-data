@@ -157,19 +157,29 @@ export class ConcurrentRunner {
    * @returns Array of raw decision rows
    */
   private async loadDecisions(): Promise<any[]> {
-    this.logger.debug('Executing database query');
+    let rows: any[];
 
-    // Step 1: Execute database query
-    const rows = await DatabaseConfig.executeReadOnlyQuery(
-      this.config.dbQuery,
-      this.config.dbQueryParams || []
-    );
+    // Step 1: Get rows from staticRows or database query
+    if (this.config.staticRows && this.config.staticRows.length > 0) {
+      // Use pre-loaded static rows (no database needed)
+      rows = this.config.staticRows;
+      this.logger.info(`Using ${rows.length} static rows (no database query)`);
+    } else if (this.config.dbQuery) {
+      // Execute database query
+      this.logger.debug('Executing database query');
+      rows = await DatabaseConfig.executeReadOnlyQuery(
+        this.config.dbQuery,
+        this.config.dbQueryParams || []
+      );
 
-    if (rows.length === 0) {
-      throw new Error('Database query returned no rows');
+      if (rows.length === 0) {
+        throw new Error('Database query returned no rows');
+      }
+
+      this.logger.info(`Fetched ${rows.length} records from database`);
+    } else {
+      throw new Error('Job config must provide either staticRows or dbQuery');
     }
-
-    this.logger.info(`Fetched ${rows.length} records from database`);
 
     // Step 2: Preload dependency results if required
     if (this.dependencyResolver) {

@@ -56,6 +56,9 @@ export interface EvaluationResult {
   notVerbatim?: string[];
   administrativeBodyErrors?: string[];
   sequencingErrors?: string[];
+
+  // Optional: preserve full judge response for detailed analysis
+  rawJudgeResponse?: any;
 }
 
 /**
@@ -162,6 +165,7 @@ export interface DecisionEvaluationInput {
   decisionId: string;
   sourceDocument: string | null;  // null for RFTC jobs (use rftcData instead)
   rftcData?: RFTCSourceData;      // Only for RFTC jobs (enrich-teaching-citations, etc.)
+  teachingInput?: any;            // Only for classify-legal-issues (teaching being classified)
   extractedData: any;
   metadata?: {
     id?: number;
@@ -174,6 +178,9 @@ export interface DecisionEvaluationInput {
     decision_date?: string;
     md_length?: number;
     length_category?: string;
+    // Teaching-specific metadata (classify-legal-issues)
+    teaching_id?: string;
+    decision_id?: string;
   };
 }
 

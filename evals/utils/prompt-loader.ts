@@ -78,6 +78,22 @@ export function isMapCitedDecisionsPrompt(promptTemplate: string): boolean {
 }
 
 /**
+ * Check if prompt is for classify-legal-issues job
+ *
+ * These prompts use ${TEACHING_INPUT} and ${CLASSIFICATION_OUTPUT} placeholders
+ * for evaluating ULIT taxonomy classification of legal teachings.
+ *
+ * @param promptTemplate - The loaded judge prompt markdown content
+ * @returns true if this is a classify-legal-issues prompt
+ */
+export function isClassifyLegalIssuesPrompt(promptTemplate: string): boolean {
+  return (
+    promptTemplate.includes('${TEACHING_INPUT}') &&
+    promptTemplate.includes('${CLASSIFICATION_OUTPUT}')
+  );
+}
+
+/**
  * Format snippets as numbered list for prompt injection
  *
  * @param snippets - Array of provision context snippets
@@ -116,10 +132,14 @@ export function formatJudgePrompt(
   groundTruthData: GroundTruthData | RFTCSourceData,
   extractedData: any,
   jobType?: string,
-  extractedReferences?: any
+  extractedReferences?: any,
+  teachingInput?: any
 ): string {
-  // Detect prompt style - check map-cited-decisions first (most specific)
-  if (isMapCitedDecisionsPrompt(promptTemplate)) {
+  // Detect prompt style - check most specific styles first
+  if (isClassifyLegalIssuesPrompt(promptTemplate)) {
+    // Classify-legal-issues style: uses teachingInput and extractedData
+    return formatClassifyLegalIssuesPrompt(promptTemplate, teachingInput, extractedData);
+  } else if (isMapCitedDecisionsPrompt(promptTemplate)) {
     // Map-cited-decisions style: uses extractedData as both input context and output
     return formatMapCitedDecisionsPrompt(promptTemplate, extractedData);
   } else if (isTemplateStylePrompt(promptTemplate)) {
@@ -419,4 +439,40 @@ function formatCandidatesForJudge(candidates: any[]): string {
 
     return parts.join('\n');
   }).join('\n\n');
+}
+
+/**
+ * Format classify-legal-issues prompt
+ *
+ * This job evaluates ULIT taxonomy classification of legal teachings.
+ * Replaces placeholders: ${TEACHING_INPUT}, ${CLASSIFICATION_OUTPUT}
+ *
+ * @param promptTemplate - Template with classify-legal-issues placeholders
+ * @param teachingInput - The original teaching being classified
+ * @param classificationOutput - The system's classification result
+ * @returns Formatted prompt with all placeholders replaced
+ */
+function formatClassifyLegalIssuesPrompt(
+  promptTemplate: string,
+  teachingInput: any,
+  classificationOutput: any
+): string {
+  let formatted = promptTemplate;
+
+  // Format teaching input as JSON
+  const teachingInputJson = teachingInput
+    ? JSON.stringify(teachingInput, null, 2)
+    : '[Teaching input not available]';
+
+  // Format classification output as JSON
+  const classificationOutputJson = classificationOutput
+    ? JSON.stringify(classificationOutput, null, 2)
+    : '[Classification output not available]';
+
+  // Replace placeholders (note: using ${ } syntax, not { } syntax)
+  formatted = formatted
+    .replace(/\$\{TEACHING_INPUT\}/g, teachingInputJson)
+    .replace(/\$\{CLASSIFICATION_OUTPUT\}/g, classificationOutputJson);
+
+  return formatted;
 }

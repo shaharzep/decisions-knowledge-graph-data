@@ -67,6 +67,9 @@ export const JOB_PROMPT_MAP: Record<string, string> = {
 
   // Stage 3: Cited Decision Mapping (map citations to database decisions)
   'map-cited-decisions': 'llm-as-a-judge_map_decisions.md',
+
+  // Legal Issue Classification (ULIT taxonomy)
+  'classify-legal-issues': 'llm-as-a-judge_classify_legal_issues.md',
 };
 
 /**
