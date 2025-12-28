@@ -66,12 +66,13 @@ export interface ClassificationOutput {
 }
 
 /**
- * Validate classification against rules
+ * Validate classification against rules (ULIT v2.5.0)
  *
  * Checks:
  * - Topic set size (1-3)
  * - Issue type set size (1-4)
- * - Production rules for A18.x topics
+ * - Original production rules for A18.x topics
+ * - New v2.5.0 production rules (R1-R9)
  */
 export function validateClassification(
   topicSet: Stage2Result['topic_set'],
@@ -100,37 +101,121 @@ export function validateClassification(
     errors.push('Maximum 4 issue types allowed');
   }
 
-  // Rule 3: Production rules for A18.x topics
-  // A18.2 → MUST include B22
+  // ========== ORIGINAL PRODUCTION RULES ==========
+  // R-orig-1: A18.2 requires B22
   if (topicIds.some((t) => t.startsWith('A18.2')) && !issueIds.includes('B22')) {
-    errors.push('A18.2 in topic set requires B22 in issue type set');
+    errors.push('R-orig-1: A18.2 requires B22');
   } else if (topicIds.some((t) => t.startsWith('A18.2'))) {
-    productionRulesSatisfied.push('A18.2 → B22 satisfied');
+    productionRulesSatisfied.push('R-orig-1: A18.2 → B22 satisfied');
   }
 
-  // A18.1/A18.4/A18.5/A18.6 → MUST include B21
+  // R-orig-2: A18.1/A18.4/A18.5/A18.6 requires B21
   const proceduralTopics = ['A18.1', 'A18.4', 'A18.5', 'A18.6'];
   const hasProceduralTopic = topicIds.some((t) =>
     proceduralTopics.some((p) => t.startsWith(p))
   );
   if (hasProceduralTopic && !issueIds.includes('B21')) {
-    errors.push('A18.1/A18.4/A18.5/A18.6 in topic set requires B21');
+    errors.push('R-orig-2: A18.1/A18.4/A18.5/A18.6 requires B21');
   } else if (hasProceduralTopic) {
-    productionRulesSatisfied.push('A18.1/4/5/6 → B21 satisfied');
+    productionRulesSatisfied.push('R-orig-2: A18.1/4/5/6 → B21 satisfied');
   }
 
-  // A18.3 → MUST include B8 AND B21
+  // R-orig-3: A18.3 requires B8 AND B21
   if (topicIds.some((t) => t.startsWith('A18.3'))) {
     if (!issueIds.includes('B8') || !issueIds.includes('B21')) {
-      errors.push('A18.3 in topic set requires both B8 and B21');
+      errors.push('R-orig-3: A18.3 requires B8 AND B21');
     } else {
-      productionRulesSatisfied.push('A18.3 → B8 + B21 satisfied');
+      productionRulesSatisfied.push('R-orig-3: A18.3 → B8 + B21 satisfied');
     }
+  }
+
+  // R-orig-4: B3 should not include B21 (warning)
+  if (issueIds.includes('B3') && issueIds.includes('B21')) {
+    warnings.push('R-orig-4: B3 + B21 unusual unless procedure inside forum');
+  }
+
+  // ========== NEW v2.5.0 PRODUCTION RULES ==========
+  // R1: A4.2 requires B7
+  if (topicIds.some((t) => t === 'A4.2') && !issueIds.includes('B7')) {
+    errors.push('R1: A4.2 (Validity defects) requires B7');
+  } else if (topicIds.some((t) => t === 'A4.2')) {
+    productionRulesSatisfied.push('R1: A4.2 → B7 satisfied');
+  }
+
+  // R2: A4.5 requires B11
+  if (topicIds.some((t) => t === 'A4.5') && !issueIds.includes('B11')) {
+    errors.push('R2: A4.5 (Non-performance) requires B11');
+  } else if (topicIds.some((t) => t === 'A4.5')) {
+    productionRulesSatisfied.push('R2: A4.5 → B11 satisfied');
+  }
+
+  // R3: A4.7 requires B20.1
+  if (topicIds.some((t) => t === 'A4.7') && !issueIds.includes('B20.1')) {
+    errors.push('R3: A4.7 (Contract remedies) requires B20.1');
+  } else if (topicIds.some((t) => t === 'A4.7')) {
+    productionRulesSatisfied.push('R3: A4.7 → B20.1 satisfied');
+  }
+
+  // R4: A18.6 requires B23
+  if (topicIds.some((t) => t.startsWith('A18.6')) && !issueIds.includes('B23')) {
+    errors.push('R4: A18.6 (Enforcement) requires B23');
+  } else if (topicIds.some((t) => t.startsWith('A18.6'))) {
+    productionRulesSatisfied.push('R4: A18.6 → B23 satisfied');
+  }
+
+  // R5: B20.3 requires A15.*
+  if (issueIds.includes('B20.3') && !topicIds.some((t) => t.startsWith('A15'))) {
+    errors.push('R5: B20.3 (Criminal sanctions) requires A15.*');
+  } else if (issueIds.includes('B20.3')) {
+    productionRulesSatisfied.push('R5: B20.3 → A15.* satisfied');
+  }
+
+  // R6: B20.4 requires A13.9.*/A6.*/A13.10/A7.1
+  if (issueIds.includes('B20.4')) {
+    const hasAnchor = topicIds.some(
+      (t) => t.startsWith('A13.9') || t.startsWith('A6') || t === 'A13.10' || t === 'A7.1'
+    );
+    if (!hasAnchor) {
+      errors.push('R6: B20.4 (Disciplinary) requires A13.9.*/A6.*/A13.10/A7.1');
+    } else {
+      productionRulesSatisfied.push('R6: B20.4 → anchor satisfied');
+    }
+  }
+
+  // R7: A13.9.* + B20.4 should not include B20.1 unless A5.4
+  if (
+    topicIds.some((t) => t.startsWith('A13.9')) &&
+    issueIds.includes('B20.4') &&
+    issueIds.includes('B20.1')
+  ) {
+    if (!topicIds.includes('A5.4')) {
+      errors.push('R7: A13.9.* + B20.4 + B20.1 requires A5.4');
+    } else {
+      productionRulesSatisfied.push('R7: A13.9.* + B20.4 + B20.1 + A5.4 satisfied');
+    }
+  }
+
+  // R8: A18.7 requires B3/B23/B24
+  if (topicIds.some((t) => t.startsWith('A18.7'))) {
+    if (!issueIds.includes('B3') && !issueIds.includes('B23') && !issueIds.includes('B24')) {
+      errors.push('R8: A18.7 (Arbitration) requires B3/B23/B24');
+    } else {
+      productionRulesSatisfied.push('R8: A18.7 → B3/B23/B24 satisfied');
+    }
+  }
+
+  // R9 (SOFT): A15.10 + B22 should include A18.2
+  if (
+    topicIds.some((t) => t.startsWith('A15.10')) &&
+    issueIds.includes('B22') &&
+    !topicIds.some((t) => t.startsWith('A18.2'))
+  ) {
+    warnings.push('R9: A15.10 + B22 should include A18.2 (soft)');
   }
 
   // No production rules applied
   if (productionRulesSatisfied.length === 0) {
-    productionRulesSatisfied.push('No A18.x topics in set, no mandatory constraints');
+    productionRulesSatisfied.push('No production rules applicable');
   }
 
   return {

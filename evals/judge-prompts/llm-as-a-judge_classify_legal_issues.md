@@ -9,7 +9,7 @@ You will receive:
 
 Your job is to evaluate whether the classification is correct, complete, and appropriately granular.
 
-# COMPLETE TAXONOMY REFERENCE
+# COMPLETE TAXONOMY REFERENCE (ULIT v2.5.0)
 
 ## TREE A — TOPICS
 
@@ -73,10 +73,10 @@ A4.8: Named contract families
   A4.8.8: Settlement and compromise
 
 ### A5. NON-CONTRACTUAL RESPONSIBILITY AND RESTITUTION
-A5.1: Fault-based liability (negligence/delict)
+A5.1: Fault-based liability (negligence/delict). Excludes: administrative illegality as dispositive (→A11.6)
 A5.2: Strict liability regimes
 A5.3: Product responsibility
-A5.4: Professional responsibility (malpractice as tort)
+A5.4: Professional responsibility (malpractice as tort). Excludes: deontology/discipline (→A13.9)
 A5.5: Unjust enrichment and restitution
 A5.6: Negotiorum gestio
 A5.7: Allocation between multiple parties (contribution/recourse)
@@ -102,21 +102,21 @@ A7.6: Enterprise representation
 A7.7: Capital and investor relations
 
 ### A8. MARKETS AND MANDATORY MARKET RULES
-A8.1: Consumer protection
+A8.1: Consumer protection (unfair terms, information duties, withdrawal rights, distance selling)
 A8.2: Unfair commercial practices
 A8.3: Competition and antitrust
-A8.4: Illicit-finance compliance (AML/CTF)
-A8.5: Cross-sector compliance duties
+A8.4: Illicit-finance compliance (AML/CTF, KYC/CDD, sanctions screening)
+A8.5: Cross-sector compliance duties (whistleblower, anti-corruption, ESG)
 
 ### A9. INFORMATION, PRIVACY, REPUTATION, AND IP
-A9.1: Data protection and privacy compliance (GDPR)
-A9.2: Confidentiality and trade secrets
+A9.1: Data protection and privacy compliance (GDPR lawful basis, controller duties, DSAR, transfers)
+A9.2: Confidentiality and trade secrets (NDA, trade secret misappropriation, legal privilege as confidentiality)
 A9.3: Expression, reputation, and speech (defamation)
 A9.4: Image and publicity rights
 A9.5: Copyright
 A9.6: Trademarks and branding
 A9.7: Patents, designs, and other IP
-A9.8: Platform content and intermediary duties
+A9.8: Platform content and intermediary duties (notice-and-takedown, safe harbors). Excludes: DSA-specific (→A13.8.1)
 
 ### A10. CONSTITUTIONAL ORDER AND FUNDAMENTAL RIGHTS
 A10.1: Constitutional structure
@@ -129,7 +129,9 @@ A11.2: Administrative acts and decisions
 A11.3: Administrative procedure
 A11.4: Judicial review of administration
 A11.5: Public procurement
-A11.6: State liability
+A11.6: State liability (damages for unlawful acts where administrative illegality is dispositive)
+A11.7: Administrative transparency and access to documents (FOI, disclosure disputes) [NEW v2.5.0]
+A11.8: Social benefits and public assistance (CPAS/OCMW, victim compensation schemes, disability allowances) [NEW v2.5.0]
 
 ### A12. TAXATION AND PUBLIC REVENUES
 A12.1: Tax principles and general concepts
@@ -151,6 +153,7 @@ A13.1.5: Nature and biodiversity
 A13.1.6: Climate and carbon
 A13.1.7: Environmental liability
 A13.1.8: Planning and land use permits
+A13.1.9: Building safety, habitability, and occupancy regulation [NEW v2.5.0]
 
 #### A13.2 Healthcare and Life Sciences
 A13.2.1: Healthcare facility regulation
@@ -168,7 +171,7 @@ A13.2.10: Medical records and health data
 A13.3.1: Banking regulation
 A13.3.2: Insurance regulation
 A13.3.3: Investment services (MiFID)
-A13.3.4: Payment services (PSD)
+A13.3.4: Payment services (PSD, SCA, unauthorized transaction liability)
 A13.3.5: Consumer financial protection
 A13.3.6: Crypto-asset regulation (MiCA)
 A13.3.7: Market abuse enforcement
@@ -177,7 +180,7 @@ A13.3.7: Market abuse enforcement
 A13.4.1: Telecom licensing and access
 A13.4.2: Net neutrality
 A13.4.3: Audiovisual media
-A13.4.4: Electronic communications privacy (ePrivacy)
+A13.4.4: Electronic communications privacy (ePrivacy, cookies, direct marketing)
 
 #### A13.5 Energy
 A13.5.1: Electricity regulation
@@ -198,7 +201,7 @@ A13.7.3: Agricultural subsidies
 A13.7.4: Plant and animal health
 
 #### A13.8 Digital Services and AI
-A13.8.1: Digital Services Act
+A13.8.1: Digital Services Act (VLOP duties, regulator enforcement)
 A13.8.2: Digital Markets Act
 A13.8.3: AI Act
 A13.8.4: Cybersecurity regulation (NIS2)
@@ -209,6 +212,7 @@ A13.9.1: Legal professions
   A13.9.1.1: Lawyers and bar associations
   A13.9.1.2: Notaries and notarial chambers
   A13.9.1.3: Bailiffs
+  A13.9.1.4: Magistrates and judicial officers (discipline, deontology) [NEW v2.5.0]
 A13.9.2: Health professions
   A13.9.2.1: Physicians and medical orders
   A13.9.2.2: Dentists
@@ -228,6 +232,12 @@ A13.9.5: Other regulated professions
   A13.9.5.2: Private detectives
   A13.9.5.3: Journalists
 
+#### A13.10 Education and Childcare Regulation [NEW v2.5.0]
+A13.10: Education and childcare regulation (licensing, admissions, funding conditions)
+
+#### A13.11 Sports Regulation and Governance [NEW v2.5.0]
+A13.11: Sports regulation (anti-doping, athlete eligibility, federation governance, CAS)
+
 ### A14. MIGRATION AND NATIONALITY
 A14.1: Entry and visas
 A14.2: Residence status
@@ -245,7 +255,7 @@ A15.6: Public order offenses
 A15.7: Cybercrime
 A15.8: Organized crime and terrorism
 A15.9: Sentencing and penal measures
-A15.10: Criminal procedure (substantive aspects)
+A15.10: Criminal procedure (substantive rights/constraints on investigation/detention as guarantees)
 
 ### A16. INTERNATIONAL AND SUPRANATIONAL LAW
 A16.1: Treaties and international law sources
@@ -270,11 +280,12 @@ A18.3: Time limits and deadlines (dispositive)
 A18.4: Procedural incidents (criminal)
 A18.5: Procedural incidents (administrative)
 A18.6: Execution and enforcement incidents
+A18.7: Arbitration and ADR incidents (dispositive jurisdiction/enforcement disputes) [NEW v2.5.0]
 
 ## TREE B — ISSUE TYPES
 
 ### Threshold and Framing (B0-B5)
-B0: Characterization (qualification) — What legal category/regime governs?
+B0: Characterization (qualification) — What legal category/regime governs? Includes samenloop/concours
 B1: Applicability (scope) — Do threshold conditions/exemptions apply?
 B2: Parties, capacity, authority — Who is bound/entitled; standing/privity
 B3: Forum (jurisdiction/competence) — Which court/authority may decide?
@@ -287,16 +298,18 @@ B7: Validity (legal effectiveness) — Void/voidable/unlawful/unconstitutional
 B8: Content (meaning) — Interpretation: what is required/permitted/forbidden
 B9: Standard of conduct — Reasonableness, good faith, due diligence
 
-### Conduct and Breach (B10-B11)
-B10: Compliance and performance — Did conduct meet standard?
-B11: Breach and violation — Legal conclusion that duty was violated
+### Conduct and Breach (B10-B11) — CLARIFIED v2.5.0
+B10: Compliance and performance — FACTUAL assessment: Did conduct meet standard? Did X happen?
+B11: Breach and violation — LEGAL CONCLUSION that duty was violated
+**Note**: B10+B11 co-tagging is common (~40%) when both factual and legal analysis present
 
-### Responsibility and Consequences (B12-B16)
+### Responsibility and Consequences (B12-B16) — CLARIFIED v2.5.0
 B12: Attribution and imputation — Vicarious liability, corporate attribution
 B13: Factual causation — But-for / CSQN / contribution tests
 B14: Legal causation and remoteness — Foreseeability, scope of risk
-B15: Harm and loss identification — What harm/unjust gain exists (not amount)
-B16: Quantification and valuation — How much; valuation method; interest
+B15: Harm and loss identification — WHETHER compensable loss exists and WHAT heads of loss (not amount)
+B16: Quantification and valuation — HOW MUCH; valuation method; interest rate; dates
+**Boundary**: 'Moral damage is compensable' → B15. 'Interest runs from date X' → B16
 
 ### Limiters (B17-B19)
 B17: Mitigation — Failure to reduce loss
@@ -310,11 +323,40 @@ B20: Remedies and sanctions
   B20.3: Criminal sanctions (imprisonment, fines, confiscation)
   B20.4: Disciplinary sanctions (suspension, disbarment)
 
-### Process (B21-B24)
-B21: Procedure — Steps/forms/deadlines inside forum
+### Process (B21-B24) — CLARIFIED v2.5.0
+B21: Procedure — In-forum mechanics (steps/forms/deadlines) when NOT itself dispositive. Excludes: dispositive incidents (→A18.x)
 B22: Evidence and proof — Burden, admissibility, standards, experts
 B23: Enforcement and execution — Seizure, garnishment, compliance
 B24: Review and appeal — Appeal/cassation/judicial review grounds
+
+---
+
+# BOUNDARY CLARIFICATION RULES (v2.5.0)
+
+When evaluating classifications, apply these triage rules to determine correct topic assignment:
+
+## 1. Procedure Triage (A17 vs A18 vs B21/B22)
+- Doctrine ABOUT procedure → A17.* + relevant issue types
+- Procedural MECHANICS inside substantive dispute → Domain Topic + B21/B22 (no A18)
+- Holding TURNS ON procedure (admissibility/proof/deadline dispositive) → A18.* + B21/B22
+
+## 2. State Liability Triage (A11.6 vs A5.1)
+- Administrative illegality is dispositive element → A11.6
+- Ordinary negligence by public agents (illegality not anchor) → A5.1 or A5.2
+
+## 3. Professional Triage
+- Civil damages for professional fault → A5.4
+- Contract scope/fees/mandate → A4.8.3.4
+- Order discipline/deontology/sanctions → A13.9.* + B20.4
+
+## 4. Victim Compensation Schemes (COHSAV/GBAPE)
+- Victim financial assistance eligibility → A11.8 (NOT A5.1, NOT A2.4)
+- Quantification of victim aid → A11.8 + B15/B16
+
+## 5. Data Triage
+- GDPR lawful basis, controller duties → A9.1
+- Cookies, telecom secrecy, direct marketing → A13.4.4
+- Medical file access/retention → A13.2.10
 
 ---
 
@@ -363,12 +405,41 @@ Identify issue types that SHOULD have been included based on the materiality sta
 ### 2.4 Set Size Compliance
 - Issue types must be 1-4 (flag if outside this range)
 
+### 2.5 B10/B11 Co-tagging Assessment
+B10 (Compliance/Performance) and B11 (Breach/Violation) are closely related but distinct:
+- **B10**: FACTUAL assessment — Did conduct meet standard? Did X happen?
+- **B11**: LEGAL CONCLUSION — Duty was violated
+
+When evaluating, consider:
+- **Co-tagging expected (~40% of cases)**: When teaching analyzes BOTH the factual conduct AND draws the legal conclusion of breach
+- **B10 alone**: Teaching only assesses factual compliance without reaching legal conclusion
+- **B11 alone**: Teaching assumes facts and focuses on legal characterization of breach
+- Flag as error if B11 present without either B10 or clear factual assumption in teaching
+
 ## 3. PRODUCTION RULES COMPLIANCE
 
-Check mandatory constraints:
-- If topic_set includes A18.2 → MUST include B22
-- If topic_set includes A18.1/A18.4/A18.5/A18.6 → MUST include B21
-- If topic_set includes A18.3 → MUST include B8 AND B21
+Check mandatory constraints (v2.5.0):
+
+### Original Rules
+- **R-orig-1**: A18.2 → MUST include B22
+- **R-orig-2**: A18.1/A18.4/A18.5/A18.6 → MUST include B21
+- **R-orig-3**: A18.3 → MUST include B8 AND B21
+- **R-orig-4** (soft): B3 + B21 unusual unless procedure inside forum (warn, don't fail)
+
+### New v2.5.0 Rules
+- **R1**: A4.2 (Validity defects) → MUST include B7
+- **R2**: A4.5 (Non-performance) → MUST include B11
+- **R3**: A4.7 (Contract remedies) → MUST include B20.1
+- **R4**: A18.6 (Enforcement) → MUST include B23
+- **R5**: B20.3 (Criminal sanctions) → MUST include A15.*
+- **R6**: B20.4 (Disciplinary) → MUST include A13.9.*/A6.*/A13.10/A7.1
+- **R7**: A13.9.* + B20.4 + B20.1 → MUST include A5.4
+- **R8**: A18.7 (Arbitration) → MUST include B3/B23/B24
+- **R9** (soft): A15.10 + B22 → SHOULD include A18.2 (warn, don't fail)
+
+### Evaluation
+- Hard rules (R-orig-1,2,3 and R1-R8): Violation = automatic compliance failure
+- Soft rules (R-orig-4, R9): Flag as warning, not failure
 
 ## 4. RETRIEVAL UTILITY
 
@@ -573,12 +644,27 @@ Return your evaluation as valid JSON:
 
 3. **Recognize Reasonable Disagreement**: Some classification decisions involve judgment calls. Note when a decision is defensible even if you would have chosen differently.
 
-4. **Weight Errors Appropriately**: 
+4. **Weight Errors Appropriately**:
    - Missing a core topic/issue type is worse than including a marginally relevant one
    - Granularity errors are less severe than outright incorrect classifications
-   - Production rule violations are automatic compliance failures
+   - Production rule violations (hard rules) are automatic compliance failures
+   - Soft rule warnings (R-orig-4, R9) should be noted but not treated as failures
 
 5. **Consider the Teaching Holistically**: Read the full teaching text, verbatim, and factual trigger to understand what the teaching is really about.
+
+6. **Apply Boundary Clarification Rules**: Use the v2.5.0 triage rules to resolve ambiguous classifications:
+   - Procedure triage (A17 vs A18 vs B21/B22)
+   - State liability triage (A11.6 vs A5.1)
+   - Professional triage (A5.4 vs A4.8.3.4 vs A13.9.*)
+   - Victim compensation schemes (A11.8)
+   - Data triage (A9.1 vs A13.4.4 vs A13.2.10)
+
+7. **B10/B11 Co-tagging**: When both factual compliance analysis and legal breach conclusion are present, expect both B10 and B11. This co-tagging occurs in ~40% of cases and is correct when both dimensions are materially engaged.
+
+8. **New Topics (v2.5.0)**: Be aware of the 7 new topics that may be appropriate:
+   - A11.7 (FOI/transparency), A11.8 (social benefits)
+   - A13.1.9 (building safety), A13.9.1.4 (magistrate discipline)
+   - A13.10 (education), A13.11 (sports), A18.7 (arbitration)
 
 ---
 
