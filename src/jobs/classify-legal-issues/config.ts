@@ -5,9 +5,9 @@
  * Entity = Legal Teaching (not Decision) - one teaching = one classification.
  *
  * PIPELINE: 4-stage execution
- * - Stage 1: Candidate Generation (LLM, temp=0.3)
- * - Stage 2: Topic Set Selection (LLM, temp=0.1)
- * - Stage 3: Issue Type Set Selection (LLM, temp=0.2)
+ * - Stage 1: Candidate Generation (LLM, LOW reasoning)
+ * - Stage 2: Topic Set Selection (LLM, LOW reasoning)
+ * - Stage 3: Issue Type Set Selection (LLM, LOW reasoning)
  * - Stage 4: Validation & Issue Key (no LLM)
  *
  * DEPENDENCY: extract-legal-teachings (full-data)
@@ -15,7 +15,7 @@
  * - Filters to comprehensive-197.csv test set decisions
  * - Each teaching becomes one row to process
  *
- * MODEL: gpt-4.1-mini via standard OpenAI
+ * MODEL: gpt-5-mini with LOW reasoning via Azure OpenAI
  */
 
 import { JobConfig } from '../JobConfig.js';
@@ -256,12 +256,13 @@ const config: JobConfig = {
   /**
    * Provider and Model Configuration
    *
-   * gpt-4.1 via Azure OpenAI.
-   * Each teaching requires 3 LLM calls with different temperatures.
+   * gpt-5-mini with LOW reasoning via Azure OpenAI.
+   * Each teaching requires 3 LLM calls with LOW reasoning effort.
    */
   provider: 'openai',
   openaiProvider: 'azure',
-  model: 'gpt-4.1',
+  model: 'gpt-5-mini',
+  reasoningEffort: 'low',
 
   /**
    * Concurrency Configuration

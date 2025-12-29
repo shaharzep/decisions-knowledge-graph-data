@@ -2,7 +2,7 @@
  * ULIT Classification Stages
  *
  * Three-stage LLM execution for legal teaching classification.
- * Each stage uses gpt-4.1 with different temperatures.
+ * Each stage uses gpt-5-mini with LOW reasoning effort.
  */
 
 import {
@@ -142,7 +142,7 @@ function extractResponseContent(completion: any): string {
  * Stage 1: Candidate Generation
  *
  * Generates broad candidate lists (3-6 topics, 3-6 issue types).
- * Uses temperature=0.3 for some creativity in identifying concepts.
+ * Uses LOW reasoning effort for efficient candidate identification.
  */
 export async function runStage1CandidateGeneration(
   teaching: TeachingInput,
@@ -167,7 +167,7 @@ export async function runStage1CandidateGeneration(
   const responseFormat = { type: 'json_object' as const };
 
   const settings = {
-    temperature: 0.3,
+    reasoningEffort: 'low' as const,
   };
 
   const completion = await client.complete(messages, responseFormat, settings);
@@ -189,7 +189,7 @@ export async function runStage1CandidateGeneration(
  * Stage 2: Topic Set Selection
  *
  * Narrows candidates to 1-3 topics.
- * Uses temperature=0.1 for more deterministic selection.
+ * Uses LOW reasoning effort for deterministic selection.
  */
 export async function runStage2TopicSetSelection(
   teaching: TeachingInput,
@@ -216,7 +216,7 @@ export async function runStage2TopicSetSelection(
   const responseFormat = { type: 'json_object' as const };
 
   const settings = {
-    temperature: 0.1,
+    reasoningEffort: 'low' as const,
   };
 
   const completion = await client.complete(messages, responseFormat, settings);
@@ -235,7 +235,7 @@ export async function runStage2TopicSetSelection(
  * Stage 3: Issue Type Set Selection
  *
  * Selects 1-4 issue types using materiality standard.
- * Uses temperature=0.2 for balanced selection.
+ * Uses LOW reasoning effort for balanced selection.
  */
 export async function runStage3IssueTypeSetSelection(
   teaching: TeachingInput,
@@ -261,7 +261,7 @@ export async function runStage3IssueTypeSetSelection(
   const responseFormat = { type: 'json_object' as const };
 
   const settings = {
-    temperature: 0.2,
+    reasoningEffort: 'low' as const,
   };
 
   const completion = await client.complete(messages, responseFormat, settings);
