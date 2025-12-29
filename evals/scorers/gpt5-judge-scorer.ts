@@ -519,11 +519,17 @@ export function adaptMapDecisionsToEvaluationResult(
 /**
  * Parse classify-legal-issues judge response
  *
- * The judge response has a different schema with:
- * - overall_assessment.total_score (0-100)
- * - overall_assessment.grade (A/B/C/D/F)
- * - overall_assessment.recommended_action (ACCEPT/REVIEW/REJECT/RECLASSIFY)
- * - overall_assessment.critical_issues / minor_issues
+ * Supports TWO response formats:
+ *
+ * 1. NEW AUDIT FORMAT (preferred):
+ *    - score_breakdown.total_score (0-100)
+ *    - production_rules_check.overall (PASS/FAIL)
+ *    - evidence_audit.selections_without_evidence
+ *    - set_size_check.overall (PASS/FAIL)
+ *
+ * 2. LEGACY FORMAT (backwards compatible):
+ *    - overall_assessment.total_score (0-100)
+ *    - overall_assessment.grade (A/B/C/D/F)
  *
  * Maps to standard EvaluationResult for Braintrust logging.
  *
@@ -549,115 +555,14 @@ export function parseClassifyLegalIssuesResponse(responseText: string): Evaluati
 
     const parsed = JSON.parse(jsonText);
 
-    // Extract overall assessment
-    const overall = parsed.overall_assessment || {};
-    const score = typeof overall.total_score === 'number' ? overall.total_score : 50;
-    const grade = overall.grade || 'C';
-    const recommendedAction = overall.recommended_action || 'REVIEW';
-    const classificationQuality = overall.classification_quality || 'ACCEPTABLE';
+    // Detect format: new audit format vs legacy format
+    const isAuditFormat = 'score_breakdown' in parsed || 'production_rules_check' in parsed;
 
-    // Map recommended_action to verdict
-    let verdict: Verdict;
-    switch (recommendedAction) {
-      case 'ACCEPT':
-        verdict = 'PASS';
-        break;
-      case 'REJECT':
-      case 'RECLASSIFY':
-        verdict = 'FAIL';
-        break;
-      case 'REVIEW':
-      default:
-        verdict = 'REVIEW_REQUIRED';
+    if (isAuditFormat) {
+      return parseAuditFormatResponse(parsed);
+    } else {
+      return parseLegacyFormatResponse(parsed);
     }
-
-    // Map grade to confidence
-    let confidence: Confidence;
-    switch (grade) {
-      case 'A':
-        confidence = 'HIGH';
-        break;
-      case 'B':
-      case 'C':
-        confidence = 'MEDIUM';
-        break;
-      case 'D':
-      case 'F':
-      default:
-        confidence = 'LOW';
-    }
-
-    // Map to recommendation
-    let recommendation: Recommendation;
-    switch (recommendedAction) {
-      case 'ACCEPT':
-        recommendation = 'PROCEED';
-        break;
-      case 'REVIEW':
-        recommendation = 'REVIEW_SAMPLES';
-        break;
-      case 'REJECT':
-      case 'RECLASSIFY':
-        recommendation = 'FIX_PROMPT';
-        break;
-      default:
-        recommendation = 'REVIEW_SAMPLES';
-    }
-
-    // Extract issues
-    const criticalIssues: string[] = Array.isArray(overall.critical_issues)
-      ? overall.critical_issues
-      : [];
-    const minorIssues: string[] = Array.isArray(overall.minor_issues)
-      ? overall.minor_issues
-      : [];
-
-    // Look for major issues in topic and issue type evaluations
-    const majorIssues: string[] = [];
-
-    // Check for missing topics (MAJOR severity)
-    const topicEval = parsed.topic_set_evaluation || {};
-    if (Array.isArray(topicEval.missing_topics)) {
-      for (const missing of topicEval.missing_topics) {
-        if (missing.severity === 'MAJOR') {
-          majorIssues.push(`Missing topic: ${missing.topic_id} - ${missing.reasoning}`);
-        }
-      }
-    }
-
-    // Check for missing issue types (MAJOR severity)
-    const issueTypeEval = parsed.issue_type_set_evaluation || {};
-    if (Array.isArray(issueTypeEval.missing_issue_types)) {
-      for (const missing of issueTypeEval.missing_issue_types) {
-        if (missing.severity === 'MAJOR') {
-          majorIssues.push(`Missing issue type: ${missing.issue_type_id} - ${missing.reasoning}`);
-        }
-      }
-    }
-
-    // Check for production rule violations
-    const productionRulesEval = parsed.production_rules_evaluation || {};
-    if (Array.isArray(productionRulesEval.rules_violated) && productionRulesEval.rules_violated.length > 0) {
-      for (const violation of productionRulesEval.rules_violated) {
-        criticalIssues.push(`Production rule violated: ${violation}`);
-      }
-    }
-
-    // Build summary
-    const summary = overall.summary || `[${grade}] ${classificationQuality} - Score: ${score}/100`;
-
-    return {
-      verdict,
-      score,
-      criticalIssues,
-      majorIssues,
-      minorIssues,
-      recommendation,
-      confidence,
-      summary,
-      // Preserve full response for detailed analysis
-      rawJudgeResponse: parsed,
-    } as EvaluationResult;
   } catch (error: any) {
     if (error instanceof SyntaxError) {
       throw new Error(
@@ -667,4 +572,239 @@ export function parseClassifyLegalIssuesResponse(responseText: string): Evaluati
     }
     throw error;
   }
+}
+
+/**
+ * Parse NEW audit format response (90% objective, 10% subjective)
+ */
+function parseAuditFormatResponse(parsed: any): EvaluationResult {
+  const scoreBreakdown = parsed.score_breakdown || {};
+  const productionRulesCheck = parsed.production_rules_check || {};
+  const evidenceAudit = parsed.evidence_audit || {};
+  const setSizeCheck = parsed.set_size_check || {};
+  const summary = parsed.summary || {};
+
+  // Get score from score_breakdown, or calculate from components
+  let score: number;
+  if (typeof scoreBreakdown.total_score === 'number') {
+    score = scoreBreakdown.total_score;
+  } else {
+    // Calculate score from objective components
+    const productionPoints = productionRulesCheck.overall === 'PASS' ? 30 : 0;
+
+    // Calculate evidence coverage
+    const topics = evidenceAudit.topics || [];
+    const issueTypes = evidenceAudit.issue_types || [];
+    const totalSelections = topics.length + issueTypes.length;
+    const selectionsWithEvidence =
+      topics.filter((t: any) => t.evidence_found).length +
+      issueTypes.filter((i: any) => i.evidence_found).length;
+    const evidencePoints = totalSelections > 0
+      ? Math.round((selectionsWithEvidence / totalSelections) * 40)
+      : 40;
+
+    // Set size points
+    let setSizePoints = 20;
+    if (setSizeCheck.topic_set_compliant === false) setSizePoints -= 10;
+    if (setSizeCheck.issue_type_set_compliant === false) setSizePoints -= 10;
+
+    // Subjective points (default to 7 if not provided)
+    const subjectivePoints = typeof scoreBreakdown.subjective_quality_points === 'number'
+      ? scoreBreakdown.subjective_quality_points
+      : 7;
+
+    score = productionPoints + evidencePoints + setSizePoints + subjectivePoints;
+  }
+
+  // Determine verdict based on score and violations
+  let verdict: Verdict;
+  const hasHardViolations = (productionRulesCheck.hard_rule_violations || []).length > 0;
+  const selectionsWithoutEvidence = evidenceAudit.selections_without_evidence || [];
+
+  if (hasHardViolations || score < 60) {
+    verdict = 'FAIL';
+  } else if (selectionsWithoutEvidence.length > 0 || score < 80) {
+    verdict = 'REVIEW_REQUIRED';
+  } else {
+    verdict = 'PASS';
+  }
+
+  // Determine confidence based on evidence coverage
+  let confidence: Confidence;
+  if (score >= 90) {
+    confidence = 'HIGH';
+  } else if (score >= 70) {
+    confidence = 'MEDIUM';
+  } else {
+    confidence = 'LOW';
+  }
+
+  // Map to recommendation
+  let recommendation: Recommendation;
+  if (verdict === 'PASS') {
+    recommendation = 'PROCEED';
+  } else if (verdict === 'FAIL') {
+    recommendation = 'FIX_PROMPT';
+  } else {
+    recommendation = 'REVIEW_SAMPLES';
+  }
+
+  // Extract issues
+  const criticalIssues: string[] = [];
+  const majorIssues: string[] = [];
+  const minorIssues: string[] = [];
+
+  // Hard rule violations are critical
+  for (const violation of (productionRulesCheck.hard_rule_violations || [])) {
+    const violationStr = typeof violation === 'string'
+      ? violation
+      : (violation?.rule_id ? `${violation.rule_id}: ${violation.requirement || violation.message || ''}` : JSON.stringify(violation));
+    criticalIssues.push(`Production rule violation: ${violationStr}`);
+  }
+
+  // Selections without evidence are major issues
+  for (const selection of selectionsWithoutEvidence) {
+    const selectionStr = typeof selection === 'string'
+      ? selection
+      : (selection?.topic_id || selection?.issue_type_id || JSON.stringify(selection));
+    majorIssues.push(`No evidence found for: ${selectionStr}`);
+  }
+
+  // Soft rule warnings are minor
+  for (const warning of (productionRulesCheck.soft_rule_warnings || [])) {
+    const warningStr = typeof warning === 'string'
+      ? warning
+      : (warning?.rule_id ? `${warning.rule_id}: ${warning.message || warning.condition || ''}` : JSON.stringify(warning));
+    minorIssues.push(`Soft rule warning: ${warningStr}`);
+  }
+
+  // Build summary string
+  const evidenceCoverage = summary.evidence_coverage || 'N/A';
+  const summaryText = `Score: ${score}/100 | Rules: ${productionRulesCheck.overall || 'N/A'} | Evidence: ${evidenceCoverage} | Sizes: ${setSizeCheck.overall || 'N/A'}`;
+
+  return {
+    verdict,
+    score,
+    criticalIssues,
+    majorIssues,
+    minorIssues,
+    recommendation,
+    confidence,
+    summary: summaryText,
+    rawJudgeResponse: parsed,
+  } as EvaluationResult;
+}
+
+/**
+ * Parse LEGACY format response (for backwards compatibility)
+ */
+function parseLegacyFormatResponse(parsed: any): EvaluationResult {
+  // Extract overall assessment
+  const overall = parsed.overall_assessment || {};
+  const score = typeof overall.total_score === 'number' ? overall.total_score : 50;
+  const grade = overall.grade || 'C';
+  const recommendedAction = overall.recommended_action || 'REVIEW';
+  const classificationQuality = overall.classification_quality || 'ACCEPTABLE';
+
+  // Map recommended_action to verdict
+  let verdict: Verdict;
+  switch (recommendedAction) {
+    case 'ACCEPT':
+      verdict = 'PASS';
+      break;
+    case 'REJECT':
+    case 'RECLASSIFY':
+      verdict = 'FAIL';
+      break;
+    case 'REVIEW':
+    default:
+      verdict = 'REVIEW_REQUIRED';
+  }
+
+  // Map grade to confidence
+  let confidence: Confidence;
+  switch (grade) {
+    case 'A':
+      confidence = 'HIGH';
+      break;
+    case 'B':
+    case 'C':
+      confidence = 'MEDIUM';
+      break;
+    case 'D':
+    case 'F':
+    default:
+      confidence = 'LOW';
+  }
+
+  // Map to recommendation
+  let recommendation: Recommendation;
+  switch (recommendedAction) {
+    case 'ACCEPT':
+      recommendation = 'PROCEED';
+      break;
+    case 'REVIEW':
+      recommendation = 'REVIEW_SAMPLES';
+      break;
+    case 'REJECT':
+    case 'RECLASSIFY':
+      recommendation = 'FIX_PROMPT';
+      break;
+    default:
+      recommendation = 'REVIEW_SAMPLES';
+  }
+
+  // Extract issues
+  const criticalIssues: string[] = Array.isArray(overall.critical_issues)
+    ? overall.critical_issues
+    : [];
+  const minorIssues: string[] = Array.isArray(overall.minor_issues)
+    ? overall.minor_issues
+    : [];
+
+  // Look for major issues in topic and issue type evaluations
+  const majorIssues: string[] = [];
+
+  // Check for missing topics (MAJOR severity)
+  const topicEval = parsed.topic_set_evaluation || {};
+  if (Array.isArray(topicEval.missing_topics)) {
+    for (const missing of topicEval.missing_topics) {
+      if (missing.severity === 'MAJOR') {
+        majorIssues.push(`Missing topic: ${missing.topic_id} - ${missing.reasoning}`);
+      }
+    }
+  }
+
+  // Check for missing issue types (MAJOR severity)
+  const issueTypeEval = parsed.issue_type_set_evaluation || {};
+  if (Array.isArray(issueTypeEval.missing_issue_types)) {
+    for (const missing of issueTypeEval.missing_issue_types) {
+      if (missing.severity === 'MAJOR') {
+        majorIssues.push(`Missing issue type: ${missing.issue_type_id} - ${missing.reasoning}`);
+      }
+    }
+  }
+
+  // Check for production rule violations
+  const productionRulesEval = parsed.production_rules_evaluation || {};
+  if (Array.isArray(productionRulesEval.rules_violated) && productionRulesEval.rules_violated.length > 0) {
+    for (const violation of productionRulesEval.rules_violated) {
+      criticalIssues.push(`Production rule violated: ${violation}`);
+    }
+  }
+
+  // Build summary
+  const summary = overall.summary || `[${grade}] ${classificationQuality} - Score: ${score}/100`;
+
+  return {
+    verdict,
+    score,
+    criticalIssues,
+    majorIssues,
+    minorIssues,
+    recommendation,
+    confidence,
+    summary,
+    rawJudgeResponse: parsed,
+  } as EvaluationResult;
 }

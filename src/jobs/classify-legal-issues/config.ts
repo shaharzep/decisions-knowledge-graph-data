@@ -11,8 +11,7 @@
  * - Stage 4: Validation & Issue Key (no LLM)
  *
  * DEPENDENCY: extract-legal-teachings (full-data)
- * - Loads teachings from latest full-data run
- * - Filters to comprehensive-197.csv test set decisions
+ * - Loads ALL teachings from latest full-data run
  * - Each teaching becomes one row to process
  *
  * MODEL: gpt-5-mini with LOW reasoning via Azure OpenAI
@@ -24,40 +23,11 @@ import {
   TeachingInput,
   runStage1CandidateGeneration,
   runStage2TopicSetSelection,
-  runStage3IssueTypeSetSelection,
+  runStage3WithRetry,
 } from './stages.js';
-import { buildFinalClassification } from './validation.js';
+import { buildFinalClassification, validateClassification } from './validation.js';
 import fs from 'fs';
 import path from 'path';
-
-/**
- * Load test set decision IDs from comprehensive-197.csv
- */
-function loadTestSetDecisionIds(): Set<string> {
-  const csvPath = path.join(process.cwd(), 'evals', 'test-sets', 'comprehensive-197.csv');
-
-  if (!fs.existsSync(csvPath)) {
-    throw new Error(`Test set CSV not found: ${csvPath}`);
-  }
-
-  const csvContent = fs.readFileSync(csvPath, 'utf-8');
-  const lines = csvContent.trim().split('\n');
-
-  // Skip header row, extract decision_id (first column)
-  const decisionIds = new Set<string>();
-  for (let i = 1; i < lines.length; i++) {
-    const columns = lines[i].split(',');
-    if (columns[0]) {
-      decisionIds.add(columns[0].trim());
-    }
-  }
-
-  console.log(`📋 Loaded ${decisionIds.size} decision IDs from comprehensive-197.csv test set`);
-  return decisionIds;
-}
-
-// Load test set at module load time
-const TEST_SET_DECISION_IDS = loadTestSetDecisionIds();
 
 /**
  * Get latest full-data run timestamp for a job
@@ -79,13 +49,12 @@ function getLatestFullDataTimestamp(jobId: string): string | null {
 }
 
 /**
- * Load teachings from extract-legal-teachings full-data
+ * Load ALL teachings from extract-legal-teachings full-data
  *
  * Expands each decision's legalTeachings array into individual teaching objects.
- * Filters to only include teachings from decisions in the test set.
  * Returns flattened array where each element is a single teaching to classify.
  */
-function loadTestSetTeachings(timestamp: string, testSetDecisionIds: Set<string>): TeachingInput[] {
+function loadAllTeachings(timestamp: string): TeachingInput[] {
   const jsonsDir = path.join(
     process.cwd(),
     'full-data',
@@ -106,29 +75,24 @@ function loadTestSetTeachings(timestamp: string, testSetDecisionIds: Set<string>
     throw new Error('No decision JSONs found in extract-legal-teachings full-data directory.');
   }
 
-  console.log(`Scanning ${jsonFiles.length} decision files for test set matches...`);
+  console.log(`Loading teachings from ${jsonFiles.length} decision files...`);
 
-  const testSetTeachings: TeachingInput[] = [];
-  let decisionsMatched = 0;
+  const allTeachings: TeachingInput[] = [];
+  let decisionsProcessed = 0;
 
   for (const filename of jsonFiles) {
     const filepath = path.join(jsonsDir, filename);
     try {
       const data = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
       const decisionId = data.decision_id;
-
-      // Filter: only include decisions from test set
-      if (!testSetDecisionIds.has(decisionId)) {
-        continue;
-      }
-
-      decisionsMatched++;
       const teachings = data.legalTeachings || [];
       const language = data.language || data.language_metadata;
 
+      decisionsProcessed++;
+
       for (const teaching of teachings) {
         // Map teaching fields to TeachingInput
-        testSetTeachings.push({
+        allTeachings.push({
           teachingId: teaching.teachingId,
           text: teaching.text,
           courtVerbatim: teaching.courtVerbatim,
@@ -148,9 +112,9 @@ function loadTestSetTeachings(timestamp: string, testSetDecisionIds: Set<string>
     }
   }
 
-  console.log(`✅ Found ${testSetTeachings.length} teachings from ${decisionsMatched}/${testSetDecisionIds.size} test set decisions`);
+  console.log(`✅ Loaded ${allTeachings.length} teachings from ${decisionsProcessed} decisions`);
 
-  return testSetTeachings;
+  return allTeachings;
 }
 
 // Auto-detect latest extract-legal-teachings run
@@ -164,19 +128,16 @@ if (!LATEST_TEACHINGS_TIMESTAMP) {
 
 console.log(`\n📋 Using extract-legal-teachings results from: ${LATEST_TEACHINGS_TIMESTAMP}`);
 
-// Load teachings from test set only
-const ALL_TEACHINGS = loadTestSetTeachings(LATEST_TEACHINGS_TIMESTAMP, TEST_SET_DECISION_IDS);
+// Load ALL teachings from full-data
+const ALL_TEACHINGS = loadAllTeachings(LATEST_TEACHINGS_TIMESTAMP);
 
-console.log(`\n✅ ${ALL_TEACHINGS.length} teachings ready to classify (from test set)\n`);
-
-// Use all test set teachings (no resume mode for eval runs)
-const teachingsToProcess = ALL_TEACHINGS;
+console.log(`\n✅ ${ALL_TEACHINGS.length} teachings ready to classify\n`);
 
 const config: JobConfig = {
   id: 'classify-legal-issues',
 
   description:
-    'Classify legal teachings using ULIT (comprehensive-197 test set) - 4-stage pipeline with set-based topics and issue types',
+    'Classify legal teachings using ULIT - 4-stage pipeline with set-based topics and issue types (full dataset)',
 
   /**
    * Dependencies - none (data loaded from full-data files)
@@ -189,7 +150,7 @@ const config: JobConfig = {
    * Teachings are pre-loaded from extract-legal-teachings full-data output.
    * Each row contains the full teaching object ready for classification.
    */
-  staticRows: teachingsToProcess.map((teaching) => ({
+  staticRows: ALL_TEACHINGS.map((teaching) => ({
     teaching_id: teaching.teachingId,
     teaching,
   })),
@@ -216,18 +177,23 @@ const config: JobConfig = {
     // Stage 2: Topic Set Selection
     const stage2Result = await runStage2TopicSetSelection(teaching, stage1Result, client);
 
-    // Stage 3: Issue Type Set Selection
-    const stage3Result = await runStage3IssueTypeSetSelection(
+    // Stage 3: Issue Type Set Selection (with retry on validation failure)
+    const { result: stage3Result, retried, originalErrors } = await runStage3WithRetry(
       teaching,
       stage1Result,
       stage2Result,
-      client
+      client,
+      validateClassification
     );
+
+    if (retried) {
+      console.log(`📝 Teaching ${teaching.teachingId}: Stage 3 retry was triggered`);
+    }
 
     // Stage 4: Validation & Issue Key (no LLM)
     const classification = buildFinalClassification(teaching, stage1Result, stage2Result, stage3Result);
 
-    // Include teaching input metadata in output for easier analysis
+    // Include teaching input metadata and retry info in output for easier analysis
     return {
       ...classification,
       teaching_input: {
@@ -239,6 +205,10 @@ const config: JobConfig = {
         decisionId: teaching.decisionId,
         language: teaching.language,
         relatedCitedProvisions: teaching.relatedCitedProvisions,
+      },
+      stage3_retry: {
+        retried,
+        originalErrors: originalErrors || [],
       },
     };
   },
@@ -268,20 +238,21 @@ const config: JobConfig = {
    * Concurrency Configuration
    *
    * Conservative concurrency for multi-stage pipeline:
-   * - 100 concurrent teachings (each = 3 API calls)
-   * - Effective 300 concurrent API calls maximum
+   * - 200 concurrent teachings (each = 3 API calls)
+   * - Effective 600 concurrent API calls maximum
    * - Rate limiting via requestsPerSecond to prevent bursts
    */
-  concurrencyLimit: 100,
-  maxConcurrentApiCalls: 150,
-  requestsPerSecond: 50,
+  concurrencyLimit: 200,
+  maxConcurrentApiCalls: 300,
+  requestsPerSecond: 100,
 
   /**
-   * Standard Pipeline Mode (for test set evaluation)
+   * Full-Data Pipeline Mode
    *
-   * Writes aggregated results to concurrent/results/classify-legal-issues/
+   * Writes per-teaching JSONs to full-data/classify-legal-issues/<timestamp>/jsons/
+   * Required for large datasets and downstream processing.
    */
-  useFullDataPipeline: false,
+  useFullDataPipeline: true,
 
   /**
    * Custom ID prefix

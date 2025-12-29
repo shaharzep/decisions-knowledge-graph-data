@@ -482,7 +482,54 @@ Return valid JSON:
  * ULIT v2.5.0
  */
 export const STAGE3_SYSTEM_PROMPT = `# ROLE
-You are selecting the ISSUE TYPE SET for a legal teaching (ULIT v2.5.0). Like topics, issue types form an UNORDERED SET for retrieval.
+You are selecting the ISSUE TYPE SET for a legal teaching. Like topics, issue types form an UNORDERED SET for retrieval.
+
+# TREE B — ISSUE TYPES
+
+## Threshold and Framing (B0-B5)
+B0: Characterization (qualification) — What legal category/regime governs? Includes samenloop/concours
+B1: Applicability (scope) — Do threshold conditions/exemptions apply? Gates within a single framework
+B2: Parties, capacity, authority — Who is bound/entitled; standing/privity/authority
+B3: Forum (jurisdiction/competence) — Which court/authority may decide? Not procedure inside forum
+B4: Applicable law (choice of law) — Conflict of laws, Rome I/II, party autonomy
+B5: Temporal application — Inter-temporal/transitional law; statutory sunset clauses
+
+## Existence and Meaning (B6-B9)
+B6: Creation and formation — Requirements for creation/formation of right/duty/status
+B7: Validity (legal effectiveness) — Void/voidable/unlawful/unconstitutional
+B8: Content (meaning) — Interpretation: what is required/permitted/forbidden
+B9: Standard of conduct — Reasonableness, good faith, due diligence, best efforts
+
+## Conduct and Breach (B10-B11)
+B10: Compliance and performance — FACTUAL assessment: Did conduct meet standard? Did X happen?
+B11: Breach and violation — LEGAL CONCLUSION that duty was violated
+Note: B10+B11 co-tagging is common (~40%) when both factual and legal analysis present
+
+## Responsibility and Consequences (B12-B16)
+B12: Attribution and imputation — Vicarious liability, corporate attribution, agency attribution
+B13: Factual causation — But-for / CSQN / contribution tests
+B14: Legal causation and remoteness — Foreseeability, scope of risk, intervening causes
+B15: Harm and loss identification — WHETHER compensable loss exists and WHAT heads of loss (not amount)
+B16: Quantification and valuation — HOW MUCH; valuation method; dates; interest rate
+Boundary: 'Moral damage is compensable' → B15. 'Interest runs from date X' → B16
+
+## Limiters (B17-B19)
+B17: Mitigation — Failure to reduce loss
+B18: Defenses/exemptions/justifications — Immunities, safe harbors, justification/excuse
+B19: Time bars (prescription/limitation) — Limitation periods, interruption, suspension
+
+## Outcomes (B20)
+B20: Remedies and sanctions — What may be ordered
+B20.1: Private remedies — Damages, injunctions, declarations, restitution
+B20.2: Administrative measures — Fines, corrective orders, license measures
+B20.3: Criminal sanctions — Imprisonment, fines, probation, confiscation
+B20.4: Disciplinary sanctions — Suspension, disbarment, reprimand, register removal
+
+## Process (B21-B24)
+B21: Procedure — In-forum mechanics (steps/forms/deadlines) when NOT itself dispositive. Excludes: A18.x incidents
+B22: Evidence and proof — Burden, admissibility, standards, experts, presumptions
+B23: Enforcement and execution — Seizure, garnishment, compliance mechanisms
+B24: Review and appeal — Appeal/cassation/judicial review grounds and standards
 
 # MATERIALITY STANDARD
 An Issue Type is 'materially engaged' when:
@@ -502,29 +549,21 @@ An Issue Type is 'materially engaged' when:
 - Someone breached (background) → B11 (Breach) ✗
 - Parties identified but not analyzed → B2 (Capacity) ✗
 
-## B10/B11 CO-TAGGING (v2.5.0)
-- B10: FACTUAL assessment (did conduct meet standard?)
-- B11: LEGAL CONCLUSION (duty was violated)
-- Co-tagging is common (~40%) when both factual and legal analysis present
+# DETERMINISTIC PRODUCTION RULES (MANDATORY)
 
-# DETERMINISTIC PRODUCTION RULES (v2.5.0)
-
-## Original Rules (MANDATORY):
 - If topic_set includes **A18.2** → MUST include **B22**
 - If topic_set includes **A18.1/A18.4/A18.5/A18.6** → MUST include **B21**
 - If topic_set includes **A18.3** → MUST include **B8** AND **B21**
 - If issue_type_set includes **B3** → MUST NOT include B21 (unless discussing procedure inside forum)
-
-## New Rules (v2.5.0 - MANDATORY):
-- R1: If topic_set contains **A4.2** → MUST include **B7** (validity-defect needs validity issue)
-- R2: If topic_set contains **A4.5** → MUST include **B11** (breach topic needs violation)
-- R3: If topic_set contains **A4.7** → MUST include **B20.1** (remedy topic needs remedy)
-- R4: If topic_set contains **A18.6** → MUST include **B23** (enforcement needs execution)
-- R5: If issue_type_set contains **B20.3** → topic_set MUST include **A15.*** (criminal sanctions need criminal topic)
-- R6: If issue_type_set contains **B20.4** → topic_set MUST include **A13.9.*** OR **A6.*** OR **A13.10** OR **A7.1** (disciplinary needs anchor)
-- R7: If topic_set contains **A13.9.*** AND issue_type_set contains **B20.4** → MUST NOT include **B20.1** unless topic_set also contains **A5.4**
-- R8: If topic_set contains **A18.7** → issue_type_set MUST include **B3** OR **B23** OR **B24** (arbitration incidents need forum/enforcement/review)
-- R9 (SOFT): If topic_set contains **A15.10** AND issue_type_set contains **B22** → SHOULD include **A18.2** (expedited_review if violated)
+- If topic_set contains **A4.2** → MUST include **B7** (validity-defect needs validity issue)
+- If topic_set contains **A4.5** → MUST include **B11** (breach topic needs violation)
+- If topic_set contains **A4.7** → MUST include **B20.1** (remedy topic needs remedy)
+- If topic_set contains **A18.6** → MUST include **B23** (enforcement needs execution)
+- If issue_type_set contains **B20.3** → topic_set MUST include **A15.*** (criminal sanctions need criminal topic)
+- If issue_type_set contains **B20.4** → topic_set MUST include **A13.9.*** OR **A6.*** OR **A13.10** OR **A7.1** (disciplinary needs anchor)
+- If topic_set contains **A13.9.*** AND issue_type_set contains **B20.4** → MUST NOT include **B20.1** unless topic_set also contains **A5.4**
+- If topic_set contains **A18.7** → issue_type_set MUST include **B3** OR **B23** OR **B24** (arbitration incidents need forum/enforcement/review)
+- (SOFT): If topic_set contains **A15.10** AND issue_type_set contains **B22** → SHOULD include **A18.2** (expedited_review if violated)
 
 # ISSUE TYPE SET SIZE
 - Minimum: 1 issue type
@@ -725,4 +764,88 @@ ${candidateIssueTypesText}
 ---
 
 Select the ISSUE TYPE SET (unordered, 1-4 issue types) based on material engagement.`;
+}
+
+/**
+ * Build Stage 3 retry prompt when validation fails
+ *
+ * Includes the original prompt plus validation errors to guide correction.
+ */
+export function buildStage3RetryPrompt(
+  teaching: {
+    teachingId: string;
+    text: string;
+    courtVerbatim?: string;
+  },
+  stage1Result: {
+    candidate_issue_types: Array<{
+      issue_type_id: string;
+      issue_type_name: string;
+      reasoning: string;
+      engagement_level: string;
+    }>;
+  },
+  stage2Result: {
+    topic_set: Array<{
+      topic_id: string;
+      topic_name: string;
+    }>;
+  },
+  previousOutput: {
+    issue_type_set: Array<{
+      issue_type_id: string;
+      issue_type_name: string;
+    }>;
+  },
+  validationErrors: string[]
+): string {
+  const topicSetText = stage2Result.topic_set
+    .map((t) => `- **${t.topic_id}**: ${t.topic_name}`)
+    .join('\n');
+
+  const candidateIssueTypesText = stage1Result.candidate_issue_types
+    .map(
+      (it) =>
+        `### ${it.issue_type_id}: ${it.issue_type_name}\n- **Engagement Level**: ${it.engagement_level}\n- **Reasoning**: ${it.reasoning}`
+    )
+    .join('\n\n');
+
+  const previousIssueTypesText = previousOutput.issue_type_set
+    .map((it) => `- ${it.issue_type_id}: ${it.issue_type_name}`)
+    .join('\n');
+
+  const errorsText = validationErrors.map((e) => `- ${e}`).join('\n');
+
+  return `# ISSUE TYPE SET SELECTION TASK (RETRY)
+
+## PRODUCTION RULE VIOLATIONS DETECTED
+Your previous output violated mandatory production rules. You MUST fix these errors.
+
+### Errors to Fix:
+${errorsText}
+
+### Your Previous Output:
+${previousIssueTypesText}
+
+### Instructions:
+- Add the missing issue types required by the production rules
+- Keep all valid issue types from your previous output
+- Ensure the final set complies with ALL production rules
+
+---
+
+## Teaching
+**ID**: ${teaching.teachingId}
+**Text**: ${teaching.text}
+**Court Verbatim**: ${teaching.courtVerbatim || 'N/A'}
+
+## Selected Topic Set (from Stage 2)
+${topicSetText}
+
+## Candidate Issue Types (from Stage 1)
+${candidateIssueTypesText}
+
+---
+
+Select the CORRECTED ISSUE TYPE SET (unordered, 1-4 issue types) that complies with all production rules.`;
 }

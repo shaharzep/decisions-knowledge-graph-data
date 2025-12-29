@@ -13,7 +13,127 @@ import {
   buildStage1UserPrompt,
   buildStage2UserPrompt,
   buildStage3UserPrompt,
+  buildStage3RetryPrompt,
 } from './prompts.js';
+
+/**
+ * Stage 2 JSON Schema for Structured Outputs
+ *
+ * Enforces maxItems: 3 on topic_set to prevent schema validation errors.
+ */
+const STAGE2_RESPONSE_SCHEMA = {
+  type: 'object',
+  properties: {
+    analysis: {
+      type: 'object',
+      properties: {
+        bodies_of_law_engaged: {
+          type: 'array',
+          items: { type: 'string' },
+        },
+        retrieval_consideration: { type: 'string' },
+        granularity_decisions: {
+          type: 'array',
+          items: { type: 'string' },
+        },
+      },
+      required: ['bodies_of_law_engaged', 'retrieval_consideration', 'granularity_decisions'],
+      additionalProperties: false,
+    },
+    topic_set: {
+      type: 'array',
+      minItems: 1,
+      maxItems: 3,
+      items: {
+        type: 'object',
+        properties: {
+          topic_id: { type: 'string' },
+          topic_name: { type: 'string' },
+          confidence: { type: 'number' },
+          materiality_evidence: { type: 'string' },
+        },
+        required: ['topic_id', 'topic_name', 'confidence', 'materiality_evidence'],
+        additionalProperties: false,
+      },
+    },
+    rejected_candidates: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          topic_id: { type: 'string' },
+          rejection_reason: { type: 'string' },
+        },
+        required: ['topic_id', 'rejection_reason'],
+        additionalProperties: false,
+      },
+    },
+  },
+  required: ['analysis', 'topic_set', 'rejected_candidates'],
+  additionalProperties: false,
+};
+
+/**
+ * Stage 3 JSON Schema for Structured Outputs
+ *
+ * Enforces maxItems: 4 on issue_type_set to prevent schema validation errors.
+ */
+const STAGE3_RESPONSE_SCHEMA = {
+  type: 'object',
+  properties: {
+    materiality_analysis: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          issue_type_id: { type: 'string' },
+          issue_type_name: { type: 'string' },
+          engagement_evidence: { type: 'string' },
+          is_material: { type: 'boolean' },
+        },
+        required: ['issue_type_id', 'issue_type_name', 'engagement_evidence', 'is_material'],
+        additionalProperties: false,
+      },
+    },
+    production_rules_applied: {
+      type: 'array',
+      items: { type: 'string' },
+    },
+    production_rules_violations: {
+      type: 'array',
+      items: { type: 'string' },
+    },
+    issue_type_set: {
+      type: 'array',
+      minItems: 1,
+      maxItems: 4,
+      items: {
+        type: 'object',
+        properties: {
+          issue_type_id: { type: 'string' },
+          issue_type_name: { type: 'string' },
+          confidence: { type: 'number' },
+        },
+        required: ['issue_type_id', 'issue_type_name', 'confidence'],
+        additionalProperties: false,
+      },
+    },
+    rejected_candidates: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          issue_type_id: { type: 'string' },
+          rejection_reason: { type: 'string' },
+        },
+        required: ['issue_type_id', 'rejection_reason'],
+        additionalProperties: false,
+      },
+    },
+  },
+  required: ['materiality_analysis', 'production_rules_applied', 'production_rules_violations', 'issue_type_set', 'rejected_candidates'],
+  additionalProperties: false,
+};
 
 /**
  * Teaching input for classification
@@ -213,7 +333,15 @@ export async function runStage2TopicSetSelection(
     { role: 'user' as const, content: userPrompt },
   ];
 
-  const responseFormat = { type: 'json_object' as const };
+  // Use structured outputs with schema to enforce maxItems: 3
+  const responseFormat = {
+    type: 'json_schema' as const,
+    json_schema: {
+      name: 'stage2_topic_set_selection',
+      schema: STAGE2_RESPONSE_SCHEMA,
+      strict: true,
+    },
+  };
 
   const settings = {
     reasoningEffort: 'low' as const,
@@ -258,7 +386,15 @@ export async function runStage3IssueTypeSetSelection(
     { role: 'user' as const, content: userPrompt },
   ];
 
-  const responseFormat = { type: 'json_object' as const };
+  // Use structured outputs with schema to enforce maxItems: 4
+  const responseFormat = {
+    type: 'json_schema' as const,
+    json_schema: {
+      name: 'stage3_issue_type_selection',
+      schema: STAGE3_RESPONSE_SCHEMA,
+      strict: true,
+    },
+  };
 
   const settings = {
     reasoningEffort: 'low' as const,
@@ -274,4 +410,96 @@ export async function runStage3IssueTypeSetSelection(
   }
 
   return result as Stage3Result;
+}
+
+/**
+ * Stage 3 with retry on production rule validation failure
+ *
+ * Runs Stage 3, validates against production rules, and retries with
+ * error feedback if violations are detected. Max 1 retry.
+ *
+ * @param validateFn - Validation function passed from config.ts to avoid circular import
+ */
+export async function runStage3WithRetry(
+  teaching: TeachingInput,
+  stage1Result: Stage1Result,
+  stage2Result: Stage2Result,
+  client: any,
+  validateFn: (
+    topicSet: Stage2Result['topic_set'],
+    issueTypeSet: Stage3Result['issue_type_set']
+  ) => { valid: boolean; errors: string[]; warnings: string[] }
+): Promise<{ result: Stage3Result; retried: boolean; originalErrors?: string[] }> {
+  // First attempt
+  const firstResult = await runStage3IssueTypeSetSelection(
+    teaching,
+    stage1Result,
+    stage2Result,
+    client
+  );
+
+  // Validate against production rules
+  const validation = validateFn(stage2Result.topic_set, firstResult.issue_type_set);
+
+  // If valid or only warnings, return
+  if (validation.valid) {
+    return { result: firstResult, retried: false };
+  }
+
+  // Production rule errors detected - retry with feedback
+  console.log(`⚠️ Stage 3 validation failed for ${teaching.teachingId}: ${validation.errors.join(', ')}`);
+  console.log(`🔄 Retrying Stage 3 with error feedback...`);
+
+  const retryPrompt = buildStage3RetryPrompt(
+    {
+      teachingId: teaching.teachingId,
+      text: teaching.text,
+      courtVerbatim: teaching.courtVerbatim,
+    },
+    stage1Result,
+    stage2Result,
+    { issue_type_set: firstResult.issue_type_set },
+    validation.errors
+  );
+
+  const messages = [
+    { role: 'system' as const, content: STAGE3_SYSTEM_PROMPT },
+    { role: 'user' as const, content: retryPrompt },
+  ];
+
+  // Use structured outputs with schema to enforce maxItems: 4 (same as first attempt)
+  const responseFormat = {
+    type: 'json_schema' as const,
+    json_schema: {
+      name: 'stage3_issue_type_selection',
+      schema: STAGE3_RESPONSE_SCHEMA,
+      strict: true,
+    },
+  };
+
+  const settings = {
+    reasoningEffort: 'low' as const,
+  };
+
+  const completion = await client.complete(messages, responseFormat, settings);
+  const content = extractResponseContent(completion);
+  const retryResult = parseJsonFromResponse(content);
+
+  if (!retryResult.issue_type_set || retryResult.issue_type_set.length === 0) {
+    throw new Error('Stage 3 retry did not produce any issue types');
+  }
+
+  // Validate retry result
+  const retryValidation = validateFn(stage2Result.topic_set, retryResult.issue_type_set);
+  if (!retryValidation.valid) {
+    console.log(`⚠️ Stage 3 retry still has errors: ${retryValidation.errors.join(', ')}`);
+  } else {
+    console.log(`✅ Stage 3 retry successful - production rules satisfied`);
+  }
+
+  return {
+    result: retryResult as Stage3Result,
+    retried: true,
+    originalErrors: validation.errors,
+  };
 }
