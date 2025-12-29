@@ -26,6 +26,7 @@ import {
   runStage3WithRetry,
 } from './stages.js';
 import { buildFinalClassification, validateClassification } from './validation.js';
+import { OpenAIConcurrentClient } from '../../concurrent/OpenAIConcurrentClient.js';
 import fs from 'fs';
 import path from 'path';
 
@@ -133,6 +134,22 @@ const ALL_TEACHINGS = loadAllTeachings(LATEST_TEACHINGS_TIMESTAMP);
 
 console.log(`\n✅ ${ALL_TEACHINGS.length} teachings ready to classify\n`);
 
+// Create fallback client for gpt-4.1 with temp 0 (used when Stage 3 retry fails twice)
+// Lazy initialization - only created once when first needed
+let fallbackClient: OpenAIConcurrentClient | null = null;
+function getFallbackClient(): OpenAIConcurrentClient {
+  if (!fallbackClient) {
+    console.log('🔄 Creating gpt-4.1 fallback client...');
+    fallbackClient = new OpenAIConcurrentClient('classify-legal-issues-fallback', {
+      openaiProvider: 'azure',
+      model: 'gpt-4.1',
+      maxConcurrentApiCalls: 50,
+      requestsPerSecond: 20,
+    });
+  }
+  return fallbackClient;
+}
+
 const config: JobConfig = {
   id: 'classify-legal-issues',
 
@@ -178,20 +195,33 @@ const config: JobConfig = {
     const stage2Result = await runStage2TopicSetSelection(teaching, stage1Result, client);
 
     // Stage 3: Issue Type Set Selection (with retry on validation failure)
-    const { result: stage3Result, retried, originalErrors } = await runStage3WithRetry(
+    // Pass fallback client for gpt-4.1 with temp 0 if retry fails twice
+    const { result: stage3Result, retried, usedFallback, originalErrors } = await runStage3WithRetry(
       teaching,
       stage1Result,
       stage2Result,
       client,
-      validateClassification
+      validateClassification,
+      getFallbackClient()
     );
 
     if (retried) {
-      console.log(`📝 Teaching ${teaching.teachingId}: Stage 3 retry was triggered`);
+      if (usedFallback) {
+        console.log(`📝 Teaching ${teaching.teachingId}: Stage 3 used gpt-4.1 fallback`);
+      } else {
+        console.log(`📝 Teaching ${teaching.teachingId}: Stage 3 retry was triggered`);
+      }
     }
 
     // Stage 4: Validation & Issue Key (no LLM)
     const classification = buildFinalClassification(teaching, stage1Result, stage2Result, stage3Result);
+
+    // FAIL if validation has errors (invalid codes, production rule violations, etc.)
+    // This allows the classification to be re-run and regenerated correctly
+    if (!classification.validation.valid) {
+      const errorMsg = classification.validation.errors.join('; ');
+      throw new Error(`Classification validation failed for ${teaching.teachingId}: ${errorMsg}`);
+    }
 
     // Include teaching input metadata and retry info in output for easier analysis
     return {
@@ -208,6 +238,7 @@ const config: JobConfig = {
       },
       stage3_retry: {
         retried,
+        usedFallback: usedFallback || false,
         originalErrors: originalErrors || [],
       },
     };

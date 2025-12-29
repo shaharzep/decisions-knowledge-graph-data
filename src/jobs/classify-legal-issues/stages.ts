@@ -15,11 +15,18 @@ import {
   buildStage3UserPrompt,
   buildStage3RetryPrompt,
 } from './prompts.js';
+import { VALID_TOPICS, VALID_ISSUE_TYPES } from './validation.js';
+
+// Convert Sets to arrays for JSON schema enum
+const VALID_TOPIC_CODES = Array.from(VALID_TOPICS);
+const VALID_ISSUE_TYPE_CODES = Array.from(VALID_ISSUE_TYPES);
 
 /**
  * Stage 2 JSON Schema for Structured Outputs
  *
- * Enforces maxItems: 3 on topic_set to prevent schema validation errors.
+ * Enforces:
+ * - maxItems: 3 on topic_set
+ * - enum constraint on topic_id to prevent invalid/hallucinated codes
  */
 const STAGE2_RESPONSE_SCHEMA = {
   type: 'object',
@@ -47,7 +54,7 @@ const STAGE2_RESPONSE_SCHEMA = {
       items: {
         type: 'object',
         properties: {
-          topic_id: { type: 'string' },
+          topic_id: { type: 'string', enum: VALID_TOPIC_CODES },
           topic_name: { type: 'string' },
           confidence: { type: 'number' },
           materiality_evidence: { type: 'string' },
@@ -76,7 +83,9 @@ const STAGE2_RESPONSE_SCHEMA = {
 /**
  * Stage 3 JSON Schema for Structured Outputs
  *
- * Enforces maxItems: 4 on issue_type_set to prevent schema validation errors.
+ * Enforces:
+ * - maxItems: 4 on issue_type_set
+ * - enum constraint on issue_type_id to prevent invalid codes
  */
 const STAGE3_RESPONSE_SCHEMA = {
   type: 'object',
@@ -86,7 +95,7 @@ const STAGE3_RESPONSE_SCHEMA = {
       items: {
         type: 'object',
         properties: {
-          issue_type_id: { type: 'string' },
+          issue_type_id: { type: 'string', enum: VALID_ISSUE_TYPE_CODES },
           issue_type_name: { type: 'string' },
           engagement_evidence: { type: 'string' },
           is_material: { type: 'boolean' },
@@ -110,7 +119,7 @@ const STAGE3_RESPONSE_SCHEMA = {
       items: {
         type: 'object',
         properties: {
-          issue_type_id: { type: 'string' },
+          issue_type_id: { type: 'string', enum: VALID_ISSUE_TYPE_CODES },
           issue_type_name: { type: 'string' },
           confidence: { type: 'number' },
         },
@@ -416,9 +425,14 @@ export async function runStage3IssueTypeSetSelection(
  * Stage 3 with retry on production rule validation failure
  *
  * Runs Stage 3, validates against production rules, and retries with
- * error feedback if violations are detected. Max 1 retry.
+ * error feedback if violations are detected.
+ *
+ * Retry strategy:
+ * - 1st retry: Same model with error feedback
+ * - 2nd retry: Fallback to gpt-4.1 with temperature 0 for deterministic output
  *
  * @param validateFn - Validation function passed from config.ts to avoid circular import
+ * @param fallbackClient - Optional client for gpt-4.1 fallback (if not provided, skips fallback)
  */
 export async function runStage3WithRetry(
   teaching: TeachingInput,
@@ -428,8 +442,9 @@ export async function runStage3WithRetry(
   validateFn: (
     topicSet: Stage2Result['topic_set'],
     issueTypeSet: Stage3Result['issue_type_set']
-  ) => { valid: boolean; errors: string[]; warnings: string[] }
-): Promise<{ result: Stage3Result; retried: boolean; originalErrors?: string[] }> {
+  ) => { valid: boolean; errors: string[]; warnings: string[] },
+  fallbackClient?: any
+): Promise<{ result: Stage3Result; retried: boolean; usedFallback?: boolean; originalErrors?: string[] }> {
   // First attempt
   const firstResult = await runStage3IssueTypeSetSelection(
     teaching,
@@ -491,10 +506,47 @@ export async function runStage3WithRetry(
 
   // Validate retry result
   const retryValidation = validateFn(stage2Result.topic_set, retryResult.issue_type_set);
-  if (!retryValidation.valid) {
-    console.log(`⚠️ Stage 3 retry still has errors: ${retryValidation.errors.join(', ')}`);
-  } else {
+  if (retryValidation.valid) {
     console.log(`✅ Stage 3 retry successful - production rules satisfied`);
+    return {
+      result: retryResult as Stage3Result,
+      retried: true,
+      originalErrors: validation.errors,
+    };
+  }
+
+  console.log(`⚠️ Stage 3 retry still has errors: ${retryValidation.errors.join(', ')}`);
+
+  // If fallback client provided and still failing, try with gpt-4.1 + temp 0
+  if (fallbackClient) {
+    console.log(`🔄 Falling back to gpt-4.1 with temperature 0...`);
+
+    const fallbackSettings = {
+      temperature: 0,
+    };
+
+    const fallbackCompletion = await fallbackClient.complete(messages, responseFormat, fallbackSettings);
+    const fallbackContent = extractResponseContent(fallbackCompletion);
+    const fallbackResult = parseJsonFromResponse(fallbackContent);
+
+    if (!fallbackResult.issue_type_set || fallbackResult.issue_type_set.length === 0) {
+      throw new Error('Stage 3 fallback did not produce any issue types');
+    }
+
+    // Validate fallback result
+    const fallbackValidation = validateFn(stage2Result.topic_set, fallbackResult.issue_type_set);
+    if (fallbackValidation.valid) {
+      console.log(`✅ Stage 3 fallback successful - production rules satisfied`);
+    } else {
+      console.log(`⚠️ Stage 3 fallback still has errors: ${fallbackValidation.errors.join(', ')}`);
+    }
+
+    return {
+      result: fallbackResult as Stage3Result,
+      retried: true,
+      usedFallback: true,
+      originalErrors: validation.errors,
+    };
   }
 
   return {
