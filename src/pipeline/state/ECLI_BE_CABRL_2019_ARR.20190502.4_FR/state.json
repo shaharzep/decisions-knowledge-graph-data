@@ -1,0 +1,62 @@
+{
+  "decisionId": "ECLI:BE:CABRL:2019:ARR.20190502.4",
+  "language": "FR",
+  "startedAt": "2026-02-12T06:18:21.023Z",
+  "status": "running",
+  "currentStep": "extract-cited-decisions",
+  "steps": {
+    "extract-comprehensive": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 72276,
+      "tokenUsage": {
+        "prompt": 28019,
+        "completion": 6214,
+        "total": 34233
+      }
+    },
+    "extract-provisions-2a": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 110462
+    },
+    "extract-cited-decisions": {
+      "status": "running",
+      "attempts": 0
+    },
+    "extract-keywords": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "extract-micro-summary": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "enrich-provisions": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "interpret-provisions": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "extract-legal-teachings": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "enrich-provision-citations": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "enrich-teaching-citations": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "classify-legal-issues": {
+      "status": "pending",
+      "attempts": 0
+    }
+  }
+}

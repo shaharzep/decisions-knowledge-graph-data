@@ -1,0 +1,69 @@
+{
+  "reference": {
+    "citationReference": "Cour d'appel de Bruxelles, 02 mai 2019, Arrêt n° 2015-AR-2244, R.G. 2014/AR/183, ECLI:BE:CABRL:2019:ARR.20190502.4"
+  },
+  "parties": [
+    {
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-001",
+      "name": "M. M. P., Mme S. P., Mme A. P. et M. J. P.",
+      "type": "DE_FACTO_ASSOCIATION",
+      "proceduralRole": "APPELANT"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-002",
+      "name": "feue Mme B. L.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "DEFENDEUR"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
+      "name": "M. P. A. et Mme J. S.",
+      "type": "DE_FACTO_ASSOCIATION",
+      "proceduralRole": "INTIME"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-004",
+      "name": "Commune d'UCCLE",
+      "type": "PUBLIC_AUTHORITY",
+      "proceduralRole": "PARTIE_INTERVENANTE"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+      "name": "SPRL Dimmo",
+      "type": "LEGAL_ENTITY",
+      "proceduralRole": "PARTIE_INTERVENANTE"
+    }
+  ],
+  "currentInstance": {
+    "facts": "Les époux A. (M. P. A. et Mme J. S.) sont propriétaires d'une maison trois façades avenue ... ; les époux P. (M. M. P., Mme S. P., Mme A. P. et M. J. P.) ont acquis la maison voisine, n°55, en 2005 et y ont entrepris des travaux de rénovation en partie confiés à la SPRL Dimmo. Les relations de voisinage se détériorent après des travaux: courriers des 8 et 29 décembre 2005 des époux A. demandant états des lieux et dénonçant percement et odeurs de peinture ; permis d'abattage n°104/05 accordé le 15/12/2005 pour trois arbres (condition de replanter deux érables japonais et deux viburnum) ; intervention d'un bureau d'expertises D. mandaté par l'assureur des époux A., visite le 15/02/2006 (les époux P. n'étaient pas présents) ; devis de réparation de 1.750 EUR transmis le 4/04/2006 ; échanges de courriers et contestations des époux P. quant au lien de causalité. D'autres permis et constats suivent: permis n°114/06 (28/11/2006) relatif à un épicéa demandé par M. P. et octroyé à Mme L., visites et rapports de l'administration d'urbanisme (4/01/2007 et 4/01/2008) concluant à l'absence d'infraction urbanistique, constats de police et huissier (mars 2007) sur abattage de haie et érables et fragilisation de la clôture, plantations ultérieures, PV d'infraction dressé par la Commune et régularisation ultérieure. Les époux A. ont introduit action le 20/05/2010 demandant réparations des dommages (travaux des années 2005-2006), replantations, déplacement/ramenage de haie et remboursement de frais ; les époux P. ont formé des fins de non-recevoir/substances et des demandes en garantie contre la SPRL Dimmo et la Commune d'Uccle et une demande reconventionnelle pour procédure téméraire. Par jugement du 9/10/2012, un expert (Mme Galler) est désigné, mission restreinte ; rapport rendu le 25/02/2014. Par jugement du 29/09/2015, le tribunal a déclaré les demandes principales et en intervention recevables, a partiellement fondé la demande des époux A. (condamnation des époux P. à payer 1.210 EUR et à rabattre la haie d'ifs à 1,50 m une fois par an) et a statué sur les dépens. Les époux P. ont relevé appel contre le jugement du 29/09/2015, sollicitant l'annulation intégrale des condamnations, la condamnation des époux A. pour procédure téméraire et diverses condamnations subsidiaires ; les époux A. ont formé un appel incident et demandes complémentaires (réparation à 3.000 EUR, replantation d'un arbre de haute tige calibre 18/20, remplacement de deux érables, réparation de clôture et mur, remboursement de frais d'expertise/constats et dommages moraux de 10.000 EUR, ainsi que demande pour appel téméraire). Mme B. L. est décédée le 28/08/2016 ; les héritiers ont repris l'instance. La cour a examiné l'autorité de chose jugée, le rapport d'expertise, les demandes des parties et les dépens, puis statué par l'arrêt du 02/05/2019.",
+    "requests": [
+      {
+        "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-001",
+        "requests": "Les consorts P. demandent à la cour, principalemement, de dire la demande originaire des époux A. intégralement non fondée et de condamner les époux A. aux dépens et, subsidiairement, de condamner les époux A. à leur payer 10.000 EUR à titre de dommages-intérêts pour procédure téméraire et vexatoire et diverses indemnités et dépens."
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
+        "requests": "Les époux A. demandent à la cour, par appel incident, d'ordonner la réparation des dommages évalués (3.000 EUR ou, subsidiairement, 1.240 EUR après vétusté), la replantation d'un arbre de haute tige calibre minimum 18/20, le remplacement de deux érables, la réparation de la clôture et du mur mitoyen, le remboursement des frais d'expertise et de constat d'huissier, et 10.000 EUR à titre de dommage moral et 10.000 EUR pour appel téméraire des consorts P."
+      }
+    ],
+    "arguments": [
+      {
+        "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-001",
+        "argument": "Les consorts P. soutiennent que le jugement entrepris a méconnu les preuves et le lien de causalité entre leurs travaux et les dommages allégués; ils soutiennent que l'expertise ne permet pas d'établir une faute ou un lien certain entre les travaux de 2005 et les dégâts constatés, invoquent l'autorité de chose jugée pour les questions de permis et contestent l'obligation de replanter ou de réparer certaines prétendues atteintes, concluant à l'irrecevabilité ou au non-fondement des demandes et postulant en garantie la Commune d'Uccle et la SPRL Dimmo. Ils demandent enfin la condamnation des époux A. pour procédure téméraire et vexatoire et le remboursement des dépens des intervenants.",
+        "treatment": "PARTIELLEMENT_ACCEPTE"
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
+        "argument": "Les époux A. fondent leur demande principale sur l'article 1382 du Code civil et, subsidiairement, sur la théorie des troubles de voisinage (art. 544 C. civ.), alléguant que les travaux entrepris par les époux P. ont rompu l'équilibre entre propriétés et causé des dommages aux plafonnages et fissures, la perte d'écran végétal par l'abattage du sapin n°3 et la destruction de la haie mitoyenne, et sollicitent réparation intégrale des préjudices, replantation, réparation de la clôture et du mur, remboursement de frais d'expertise et dommages moraux. Ils soutiennent également l'illégalité ou la mauvaise exécution du permis n°104/05 et demandent indemnisation pour l'atteinte subie.",
+        "treatment": "PARTIELLEMENT_ACCEPTE"
+      }
+    ],
+    "courtOrder": "PAR CES MOTIFS, LA COUR, statuant contradictoirement,\n\nVu l'article 24 de la loi du 15 juin 1935 sur l'emploi des lan¬gues en matière judiciaire,\n\nDonne acte à M. M. P., Mme S. P., Mme A.P. et M. J. P. de leur reprise de l'instance mue initialement contre Mme B L ;\n\nDéclare les appels recevables et partiellement fondés comme suit ;\n\nConfirme le jugement entrepris en ce qu'il a : - déclaré les demandes recevables, - condamné M. P. et feue Mme L. à rabattre la haie d'ifs une fois par an et à indemniser M. P. A. et Mme J. S., sous la double émendation que la hauteur à laquelle la haie doit être rabattue est portée à 1,80 m (et non plus à 1,50 m) et que le montant de l'indemnisation fixé par le premier juge à la somme de 1.210 euro est réduit à 620 euro , - statué sur les dépens,\n\nLe réforme pour le surplus, dans la limite des appels ;\n\nStatuant à nouveau sur les demandes des parties appelantes et intimées,\n\nLes dit fondées dans la mesure précisée ci-après,\n\nCondamne M. M P., Mme S P., Mme A P. et M. J. P. à réparer ou faire réparer la clôture endommagée de M. P A. et Mme J S. en veillant ce qu'elle soit correctement fixée et ne penche plus et ce, dans le mois de la signification de l'arrêt à intervenir ;\n\nRéserve à statuer sur la demande d'astreinte liée à cette condamnation ;\n\nCondamne M. M P., Mme S. P., Mme A. P. et M. J. P. à payer à M. P. A. et Mme J. S. 2.500 euro à titre de dommage moral ;\n\nCondamne M. M. P., Mme S. P., Mme A. P. et M. J. P. à rembourser à M. P A. et Mme J. S. 375 euro (frais d'huissier), à majorer des intérêts judiciaires ;\n\nCondamne M. P. A. et Mme J. S. à payer à M. M. P., Mme S. P., Mme A P. et M. J P. 2.500 euro pour procédure téméraire et vexatoire, à majorer des intérêts judiciaires ;\n\nDit les demandes nouvelles recevables mais non fondées ;\n\nCompense les dépens d'appel.",
+    "outcome": "CONFIRMATION_PARTIELLE"
+  },
+  "_tokenUsage": {
+    "prompt": 28019,
+    "completion": 6214,
+    "total": 34233
+  }
+}

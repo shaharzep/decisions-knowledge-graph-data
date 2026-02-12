@@ -11,6 +11,7 @@ const MODEL_ENV_PREFIX_MAP: Record<string, string> = {
   'gpt-4.1-mini': 'AZURE_GPT4_1_MINI_',
   'gpt-5-mini': 'AZURE_',
   'gpt-5': 'AZURE_',
+  'gpt-5.2': 'AZURE_GPT_5_2_',
 };
 
 /**
@@ -58,8 +59,11 @@ export class AzureConfig {
       );
     }
 
+    // Normalize endpoint: strip trailing /openai/v1/ or /openai/ since getClient appends /openai
+    const normalizedEndpoint = endpoint.replace(/\/openai(\/v1)?\/?$/, '');
+
     return {
-      endpoint,
+      endpoint: normalizedEndpoint,
       apiKey,
       deployment,
       apiVersion: requiredApiVersion,
@@ -94,7 +98,7 @@ export class AzureConfig {
         baseURL: `${config.endpoint}/openai`,
         defaultQuery: { 'api-version': config.apiVersion },
         defaultHeaders: { 'api-key': config.apiKey },
-        timeout: 60000, // 60 second timeout per request
+        timeout: 300000, // 5 minute timeout per request (large completions with reasoning)
         maxRetries: 2,  // Retry twice on transient errors
       });
 

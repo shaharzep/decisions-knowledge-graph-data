@@ -24,7 +24,8 @@
     "clean:html-jsons": "tsx scripts/clean-html-jsons.ts",
     "clean:html-wrappers": "tsx scripts/clean-html-wrapper-tags.ts",
     "resume:html": "tsx scripts/resume-html-conversion.ts",
-    "analyze:classification-errors": "tsx src/scripts/analyze-classification-errors.ts"
+    "analyze:classification-errors": "tsx src/scripts/analyze-classification-errors.ts",
+    "pipeline": "tsx src/pipeline/run-decision.ts"
   },
   "keywords": [
     "legal",
