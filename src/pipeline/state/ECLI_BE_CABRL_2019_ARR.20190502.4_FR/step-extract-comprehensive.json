@@ -1,60 +1,94 @@
 {
   "reference": {
-    "citationReference": "Cour d'appel de Bruxelles, 02 mai 2019, Arrêt n° 2015-AR-2244, R.G. 2014/AR/183, ECLI:BE:CABRL:2019:ARR.20190502.4"
+    "citationReference": "Cour d'appel du ressort de Bruxelles, 02 mai 2019, R.G. 2014/AR/183, ECLI:BE:CABRL:2019:ARR.20190502.4"
   },
   "parties": [
     {
       "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-001",
-      "name": "M. M. P., Mme S. P., Mme A. P. et M. J. P.",
-      "type": "DE_FACTO_ASSOCIATION",
+      "name": "M. M. P.",
+      "type": "NATURAL_PERSON",
       "proceduralRole": "APPELANT"
     },
     {
       "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-002",
+      "name": "Mme S. P.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "APPELANT"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
+      "name": "Mme A. P.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "APPELANT"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-004",
+      "name": "M. J. P.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "APPELANT"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+      "name": "M. P. A.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "INTIME"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-006",
+      "name": "Mme J. S.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "INTIME"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-007",
       "name": "feue Mme B. L.",
       "type": "NATURAL_PERSON",
       "proceduralRole": "DEFENDEUR"
     },
     {
-      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
-      "name": "M. P. A. et Mme J. S.",
-      "type": "DE_FACTO_ASSOCIATION",
-      "proceduralRole": "INTIME"
-    },
-    {
-      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-004",
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-008",
       "name": "Commune d'UCCLE",
       "type": "PUBLIC_AUTHORITY",
       "proceduralRole": "PARTIE_INTERVENANTE"
     },
     {
-      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+      "id": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-009",
       "name": "SPRL Dimmo",
       "type": "LEGAL_ENTITY",
       "proceduralRole": "PARTIE_INTERVENANTE"
     }
   ],
   "currentInstance": {
-    "facts": "Les époux A. (M. P. A. et Mme J. S.) sont propriétaires d'une maison trois façades avenue ... ; les époux P. (M. M. P., Mme S. P., Mme A. P. et M. J. P.) ont acquis la maison voisine, n°55, en 2005 et y ont entrepris des travaux de rénovation en partie confiés à la SPRL Dimmo. Les relations de voisinage se détériorent après des travaux: courriers des 8 et 29 décembre 2005 des époux A. demandant états des lieux et dénonçant percement et odeurs de peinture ; permis d'abattage n°104/05 accordé le 15/12/2005 pour trois arbres (condition de replanter deux érables japonais et deux viburnum) ; intervention d'un bureau d'expertises D. mandaté par l'assureur des époux A., visite le 15/02/2006 (les époux P. n'étaient pas présents) ; devis de réparation de 1.750 EUR transmis le 4/04/2006 ; échanges de courriers et contestations des époux P. quant au lien de causalité. D'autres permis et constats suivent: permis n°114/06 (28/11/2006) relatif à un épicéa demandé par M. P. et octroyé à Mme L., visites et rapports de l'administration d'urbanisme (4/01/2007 et 4/01/2008) concluant à l'absence d'infraction urbanistique, constats de police et huissier (mars 2007) sur abattage de haie et érables et fragilisation de la clôture, plantations ultérieures, PV d'infraction dressé par la Commune et régularisation ultérieure. Les époux A. ont introduit action le 20/05/2010 demandant réparations des dommages (travaux des années 2005-2006), replantations, déplacement/ramenage de haie et remboursement de frais ; les époux P. ont formé des fins de non-recevoir/substances et des demandes en garantie contre la SPRL Dimmo et la Commune d'Uccle et une demande reconventionnelle pour procédure téméraire. Par jugement du 9/10/2012, un expert (Mme Galler) est désigné, mission restreinte ; rapport rendu le 25/02/2014. Par jugement du 29/09/2015, le tribunal a déclaré les demandes principales et en intervention recevables, a partiellement fondé la demande des époux A. (condamnation des époux P. à payer 1.210 EUR et à rabattre la haie d'ifs à 1,50 m une fois par an) et a statué sur les dépens. Les époux P. ont relevé appel contre le jugement du 29/09/2015, sollicitant l'annulation intégrale des condamnations, la condamnation des époux A. pour procédure téméraire et diverses condamnations subsidiaires ; les époux A. ont formé un appel incident et demandes complémentaires (réparation à 3.000 EUR, replantation d'un arbre de haute tige calibre 18/20, remplacement de deux érables, réparation de clôture et mur, remboursement de frais d'expertise/constats et dommages moraux de 10.000 EUR, ainsi que demande pour appel téméraire). Mme B. L. est décédée le 28/08/2016 ; les héritiers ont repris l'instance. La cour a examiné l'autorité de chose jugée, le rapport d'expertise, les demandes des parties et les dépens, puis statué par l'arrêt du 02/05/2019.",
+    "facts": "Les époux A. (M. P. A. et Mme J. S.) sont propriétaires d'une maison trois façades; les époux P. (consorts P. : M. M. P., Mme S. P., Mme A. P. et M. J. P.) ont acquis la maison voisine en 2005 et y ont fait des travaux de rénovation en partie confiés à la SPRL Dimmo. Les époux A. ont demandé l'établissement d'un état des lieux contradictoire avant et après travaux (courrier 8/12/2005). Un permis n°104/05 a été octroyé aux époux P. le 15/12/2005 pour l'abattage de trois arbres avec obligation de replanter deux érables japonais et deux viburnum; un autre permis n°114/06 a été octroyé à Mme L. le 28/11/2006 pour l'abattage d'un épicéa. Les époux A. ont signalé des odeurs de peinture, un percement dans le mur mitoyen et des dégâts au plafonnage; un bureau d'expertise D. est intervenu (visite 15/02/2006) et a communiqué un devis de réparation (1.750 EUR). Des échanges de courriers, constats de police et d'huissier ont suivi (2006-2007). La Région/administration d'urbanisme a constaté à plusieurs reprises qu'aucune infraction urbanistique n'était établie pour les travaux litigieux. Par citation du 20/05/2010 les époux A. ont introduit l'action visant à faire réparer les dégâts, obtenir replantation/déplacement de haie et réparation de clôture/mur, ainsi que le remboursement de frais; les époux P. ont conclu à l'irrecevabilité ou au non-fondement et ont appelé en garantie la Commune d'Uccle et la SPRL Dimmo. Par jugement du 09/10/2012 un expert (Mme Galler) a été désigné; rapport rendu le 25/02/2014. Le tribunal de première instance, par jugement du 29/09/2015, a partiellement accueilli la demande des époux A. en condamnant les époux P. à payer 1.210 EUR et à rabattre la haie; les demandes en intervention ont été déclarées sans objet. Les consorts P. ont relevé appel; Mme L. est décédée le 28/08/2016 et les héritiers (consorts P.) ont repris l'instance. En appel, les parties ont formulé demandes nouvelles et incidents (réformation, indemnités pour procédure téméraire, replantations, astreintes, remboursement de frais d'expertise et d'huissier).",
     "requests": [
       {
         "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-001",
-        "requests": "Les consorts P. demandent à la cour, principalemement, de dire la demande originaire des époux A. intégralement non fondée et de condamner les époux A. aux dépens et, subsidiairement, de condamner les époux A. à leur payer 10.000 EUR à titre de dommages-intérêts pour procédure téméraire et vexatoire et diverses indemnités et dépens."
+        "requests": "Les consorts P. demandent à la cour, quant à l'appel principal, de dire la demande originaire des époux A. intégralement non fondée et de les condamner aux dépens et, subsidiairement, de condamner les époux A. à payer des indemnités pour procédure téméraire et vexatoire et les dépens des parties intervenantes."
       },
       {
-        "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
-        "requests": "Les époux A. demandent à la cour, par appel incident, d'ordonner la réparation des dommages évalués (3.000 EUR ou, subsidiairement, 1.240 EUR après vétusté), la replantation d'un arbre de haute tige calibre minimum 18/20, le remplacement de deux érables, la réparation de la clôture et du mur mitoyen, le remboursement des frais d'expertise et de constat d'huissier, et 10.000 EUR à titre de dommage moral et 10.000 EUR pour appel téméraire des consorts P."
+        "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+        "requests": "Les époux A. demandent que l'appel principal soit déclaré recevable mais non-fondé; en appel incident, ils sollicitent la condamnation des époux P. à payer 3.000 EUR (dommages), replanter un arbre de haut tige calibre 18/20, remplacer deux érables, réparer la clôture et le mur mitoyen, remboursement des frais d'expertise et d'huissier, et 10.000 EUR de dommage moral et 10.000 EUR pour appel téméraire."
       }
     ],
     "arguments": [
       {
         "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-001",
-        "argument": "Les consorts P. soutiennent que le jugement entrepris a méconnu les preuves et le lien de causalité entre leurs travaux et les dommages allégués; ils soutiennent que l'expertise ne permet pas d'établir une faute ou un lien certain entre les travaux de 2005 et les dégâts constatés, invoquent l'autorité de chose jugée pour les questions de permis et contestent l'obligation de replanter ou de réparer certaines prétendues atteintes, concluant à l'irrecevabilité ou au non-fondement des demandes et postulant en garantie la Commune d'Uccle et la SPRL Dimmo. Ils demandent enfin la condamnation des époux A. pour procédure téméraire et vexatoire et le remboursement des dépens des intervenants.",
+        "argument": "Les consorts P. soutiennent que les travaux de rénovation n'ont pas causé de faute de leur part ni de lien de causalité certain avec les dommages allégués; ils font valoir l'absence d'état des lieux contradictoire demandé par les époux A., l'absence de preuve d'une intervention fautive de l'entrepreneur (SPRL Dimmo) et l'existence d'actes administratifs ou constats administratifs (absence d'infraction urbanistique) qui infirmant toute illégalité. Ils soutiennent encore que le tribunal de première instance aurait vidé sa saisine sur la question de la régularité des permis et que, par conséquent, il y a autorité de chose jugée. En résumé, ils plaident l'irrecevabilité ou le non-fondement de la demande et sollicitent la condamnation des époux A. pour procédure vexatoire.",
+        "treatment": "REJETE"
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+        "argument": "Les époux A. fondent leur demande principalement sur l'article 1382 du Code civil et subsidiairement sur la théorie des troubles de voisinage (art. 544 C. civ.), invoquant la réparation des dégâts constatés dans deux chambres, la replantation d'arbres abattus (notamment le sapin n°3 visé par le permis n°104/05), la remise en état de la haie mitoyenne et de la clôture, frais d'huissier et d'expertise, et dommages moraux. Ils soutiennent qu'il existe un lien causal entre les travaux effectués par ou pour les époux P. et la survenance postérieure des fissures et du décollement de plafonnage, que la demande de permis était incomplète et que l'abattage a causé un préjudice visible pour leurs propriétés.",
         "treatment": "PARTIELLEMENT_ACCEPTE"
       },
       {
-        "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
-        "argument": "Les époux A. fondent leur demande principale sur l'article 1382 du Code civil et, subsidiairement, sur la théorie des troubles de voisinage (art. 544 C. civ.), alléguant que les travaux entrepris par les époux P. ont rompu l'équilibre entre propriétés et causé des dommages aux plafonnages et fissures, la perte d'écran végétal par l'abattage du sapin n°3 et la destruction de la haie mitoyenne, et sollicitent réparation intégrale des préjudices, replantation, réparation de la clôture et du mur, remboursement de frais d'expertise et dommages moraux. Ils soutiennent également l'illégalité ou la mauvaise exécution du permis n°104/05 et demandent indemnisation pour l'atteinte subie.",
+        "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+        "argument": "Les époux A. contestent également la régularité du permis d'abattage n°104/05 (manque de photos représentatives, absence d'indication de la propriété voisine, défaut d'indication de l'âge/diamètre de l'arbre) et demandent la replantation d'un arbre de haut tige. Ils allèguent qu'en déposant une demande lacunaire, M. P. a commis une faute administrative causant une perte de chance pour les époux A. d'obtenir une décision protectrice.",
+        "treatment": "REJETE"
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:CABRL:2019:ARR.20190502.4-001",
+        "argument": "Les consorts P. soulevaient également que la condamnation à ramener la haie à 1,50 m constituait un abus de droit et qu'ils avaient le droit d'enlever la haie s'ils pouvaient le faire sur leur propriété; ils critiquent la qualification de mitoyenneté et la portée des prescriptions de l'acte de vente invoquées par les époux A.",
         "treatment": "PARTIELLEMENT_ACCEPTE"
       }
     ],
@@ -63,7 +97,7 @@
   },
   "_tokenUsage": {
     "prompt": 28019,
-    "completion": 6214,
-    "total": 34233
+    "completion": 7281,
+    "total": 35300
   }
 }

@@ -210,5 +210,22 @@
       "internalProvisionId": "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-015",
       "internalParentActId": "ACT-ECLI:BE:CABRL:2019:ARR.20190502.4-007"
     }
-  ]
+  ],
+  "extractedReferences": {
+    "url": {
+      "eu": [],
+      "be": []
+    },
+    "reference": {
+      "eu": {
+        "extracted": [],
+        "verified": []
+      },
+      "be": {
+        "extracted": [],
+        "verifiedNumac": [],
+        "verifiedFileNumber": []
+      }
+    }
+  }
 }

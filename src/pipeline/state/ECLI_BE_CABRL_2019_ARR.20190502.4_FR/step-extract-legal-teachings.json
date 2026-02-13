@@ -1,0 +1,323 @@
+{
+  "legalTeachings": [
+    {
+      "teachingId": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-001",
+      "text": "La cour d'appel n'est tenue de répondre qu'aux moyens qui respectent les exigences formelles de l'article 744 du Code judiciaire ; toutefois, le simple non‑respect formel de ces obligations n'entraîne pas ipso facto l'irrecevabilité d'une voie d'appel : la juridiction peut néanmoins examiner un appel ou un appel incident malgré des manquements formels si l'intérêt du débat le justifie.",
+      "courtVerbatim": "Il convient d'emblée de rappeler que, conformément à l'article 780 du Code judiciaire, la cour n'est tenue de répondre qu'aux moyens qui respectent l'article 744 du même code. Le non-respect éventuel des obligations imposées par cette disposition n'entraîne toutefois pas l'irrecevabilité des demandes qui sont formées de sorte qu'il n'y a, en tout état de cause, pas lieu, comme le suggèrent les consorts P., de conclure à l'irrecevabilité de l'appel incident formé par les époux A.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsqu'une partie soutient l'irrecevabilité d'un appel ou d'un appel incident pour non‑respect formel des exigences de l'article 744 du Code judiciaire.",
+      "relevantFactualContext": "Les consorts P. invoquaient l'irrecevabilité de l'appel incident des époux A. pour prétendu non‑respect des règles formelles de l'article 744 ; la cour a néanmoins admis d'examiner l'appel incident.",
+      "principleType": "PROCEDURAL_RULE",
+      "legalArea": "PROCEDURAL_LAW",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": false,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-002",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-003"
+      ],
+      "relatedCitedDecisionsId": [],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-002",
+      "text": "Les inconvénients du voisinage obéissent à deux régimes distincts et indépendants : (a) la responsabilité aquilienne (articles 1382/1383 C. civ.) qui exige la réunion cumulée d'une faute, d'un dommage et d'un lien de causalité et vise la réparation intégrale ; et (b) la théorie des troubles de voisinage (article 544 C. civ.) qui, de manière objective, indemnise seulement l'excès de dommage nécessaire au rétablissement de l'égalité rompue entre propriétés.",
+      "courtVerbatim": "La cour rappelle que les inconvénients du voisinage, lorsque les voisins ne sont pas liés par un lien contractuel, obéissent principalement à deux régimes, indépendants l'un de l'autre (Cass., 14 juin 1968, Pas., I, p. 1177) : la responsabilité quasi-délictuelle, fondée sur les articles 1382 et suivants du Code civil et la théorie des troubles du voisinage, fondée sur l'article 544 du Code civil. Conformément aux articles 1382 et 1383 du Code civil, la responsabilité aquilienne est soumise à la réunion simultanée de trois conditions : l'existence d'une faute, celle d'un dommage et celle d'un lien de causalité unissant ceux-ci. L'article 544 du Code civil reconnaît à tout propriétaire le droit de jouir normalement de sa chose. En vertu de cette disposition, « le propriétaire d'un immeuble qui, par un fait, une omission ou un comportement quelconque, rompt l'équilibre entre les propriétés en imposant à un propriétaire voisin un trouble excédant la mesure des inconvénients ordinaires du voisinage, lui doit une juste et adéquate compensation, rétablissant l'égalité rompue ». L'action fondée sur l'article 1382 permet d'obtenir une réparation intégrale du dommage alors que celle fondée sur la théorie des troubles de voisinage ne vise qu'une juste et adéquate compensation, rétablissant l'égalité rompue.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsque des préjudices découlent d'activités ou travaux d'un voisin et qu'il s'agit de déterminer le régime de responsabilité applicable.",
+      "relevantFactualContext": "Les époux A. invoquaient alternativement la responsabilité sur le fondement des articles 1382/1383 et la théorie des troubles de voisinage (art. 544) pour des fissures et la chute d'enduit résultant de travaux réalisés par leurs voisins.",
+      "principleType": "INTERPRETATION_RULE",
+      "legalArea": "CIVIL_LIABILITY",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [
+          "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-005"
+        ],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": true,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-004",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-006"
+      ],
+      "relatedCitedDecisionsId": [
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-002",
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-004",
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-006"
+      ],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
+      "text": "La notion légale de cause, en matière de responsabilité délictuelle, se conçoit comme la condition sans laquelle le dommage ne se serait pas réalisé tel qu'il s'est réalisé in concreto ; l'existence du lien de causalité doit donc être appréciée en regard de la réalisation concrète du dommage.",
+      "courtVerbatim": "La notion légale de cause est comprise comme étant la condition sans laquelle le dommage ne se serait pas réalisé tel qu'il s'est réalisé in concreto (Cass., 13 juin 1932, Pas., I, 189 ; 18 juin 1973, Pas., I, 968 ; 27 mars 1980, Pas., I, 931 ; 3 mai 1996, Pas., I, n° 146 ; 21 février 2001, Pas., I, n° 107).",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lors de l'appréciation du lien de causalité requis par la responsabilité aquilienne (articles 1382/1383) entre un fait et un dommage concret.",
+      "relevantFactualContext": "La cour a examiné si les dégâts observés (chute d'enduit, fissures) ont été causés par les travaux réalisés chez le voisin en se référant à la définition juridique de la cause.",
+      "principleType": "INTERPRETATION_RULE",
+      "legalArea": "CIVIL_LIABILITY",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-002",
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": true,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-004"
+      ],
+      "relatedCitedDecisionsId": [
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-004",
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-006",
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-007"
+      ],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-004",
+      "text": "Lorsque plusieurs causes possibles existent pour un même dommage, il appartient au demandeur d'établir, avec une certitude suffisante, que le dommage retenu résulte du fait reproché au défendeur ; l'existence de causes alternatives plausibles peut empêcher la démonstration du lien de causalité et conduire au rejet de la demande compensatoire.",
+      "courtVerbatim": "Il en résulte qu'il existe deux causes possibles au dommage dont se prévalent les époux A. de sorte qu'ils n'établissent pas avec suffisamment de certitude le lien causal entre le dommage qu'ils allèguent et, soit une faute, soit un fait, une omission ou un comportement quelconque imputable aux époux P..",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique quand le dommage invoqué peut raisonnablement résulter de plusieurs causes distinctes et alternatives.",
+      "relevantFactualContext": "Pour la chambre avant du 1er étage, l'expert a relevé que les traces d'enduit pouvaient résulter soit d'un défaut de construction, soit d'infiltration, si bien que les demandeurs n'ont pas établi avec certitude la causalité imputable aux travaux du voisin.",
+      "principleType": "BURDEN_PROOF",
+      "legalArea": "CIVIL_LIABILITY",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": true,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-004",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-005"
+      ],
+      "relatedCitedDecisionsId": [],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+      "text": "En cas d'application de la théorie des troubles de voisinage (responsabilité objective fondée sur l'article 544 C. civ.), il est justifié de tenir compte d'un coefficient de vétusté lors de la fixation de la compensation : contrairement à la réparation intégrale prévue par la responsabilité aquilienne, l'indemnité liée au trouble de voisinage ne vise qu'à réparer l'excès de dommage et peut donc être ajustée en fonction de la vétusté.",
+      "courtVerbatim": "Il convient donc de tenir compte, lors de la fixation d'une indemnité due dans le cadre de la responsabilité aquilienne, d'un coefficient de vétusté et ce, même dans l'hypothèse où la partie préjudiciée se trouve dans l'impossibilité de retrouver une chose présentant le même degré de vétusté que celle endommagée (Cass., 11 février 2016, Pas., I, p. 350 ; dans le même sens, voy. Cass., 5 octobre 2018, R.G. n° C.18.0145.N ECLI:BE:CASS:2018:ARR.20181005.4 , disponible sur www.juridat.be). La doctrine majoritaire critique toutefois cette analyse ... Dans le cas de l'application de la responsabilité pour troubles de voisinage, dont la caractéristique est d'être une responsabilité objective, sans faute, la cour estime cependant que la prise en compte de la vétusté se justifie au motif que ce n'est pas une réparation intégrale qui s'impose mais qu'il n'y a lieu qu'à indemnisation de l'excès de dommage en vue d'un rétablissement de l'équilibre rompu entre les propriétés, c'est-à-dire de l'indemnisation uniquement de ce qui dépasse la limite des inconvénients normaux, ces derniers devant être subis par les victimes du trouble. Dans cette optique, à défaut de toute faute dans le chef du voisin à qui le trouble est imputé, ni l'enrichissement de la victime, ni l'appauvrissement corrélatif du responsable ne peuvent être justifiés dans le cadre de la théorie des troubles de voisinage par l'existence d'un acte illicite dans le chef du responsable, dont découlerait son obligation de réparer le dommage qu'il a causé. Il peut donc être tenu de la vétusté dans l'appréciation de la juste et adéquate compensation due à la victime du trouble de voisinage.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsque la réparation est sollicitée sur le fondement des troubles de voisinage (article 544) et qu'il s'agit de déterminer le quantum de la compensation.",
+      "relevantFactualContext": "La cour a retenu la théorie des troubles de voisinage pour les dommages dans la chambre du 2ème étage et a confirmé l'application d'un coefficient de vétusté pour réduire l'indemnité allouée.",
+      "principleType": "REMEDIAL_PRINCIPLE",
+      "legalArea": "CIVIL_LIABILITY",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-002",
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": true,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-006",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-004"
+      ],
+      "relatedCitedDecisionsId": [
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-010",
+        "DEC-ECLI:BE:CABRL:2019:ARR.20190502.4-011"
+      ],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-006",
+      "text": "La présentation d'une demande de permis d'urbanisme incomplète qui empêche l'autorité d'apprécier les conséquences d'un abattage sur les biens voisins peut constituer une faute civile : cette faute peut engager la responsabilité pour perte de chance lorsque la carence a privé le voisin d'une probabilité réelle d'obtenir le refus du permis ou des conditions moins dommageables.",
+      "courtVerbatim": "En l'espèce, force est de constater que la demande de permis déposée par M. P. : - ne contenait pas de photo significative permettant d'évaluer correctement la situation existante du sapin n°3 sur le bien et les biens voisins (...), - ne reprenait, sauf dans l'extrait du plan cadastral, aucune information quant à la propriété des époux A. (...), - ne reprenait ni le diamètre approximatif de la couronne ni l'âge supposé du sapin n°3 (...), - ne contenait aucun motif justifiant la demande d'abattage. Malgré les omissions de la demande de permis, celui-ci a cependant été octroyé : - sans qu'il soit fait référence à l'impact que l'abattage de cet arbre pourrait avoir sur les propriétés voisines (...) En déposant une demande de permis qui ne permettait pas à l'autorité publique de se prononcer en connaissance de cause, M. P. a commis une faute. Il peut également être considéré que l'abattage du sapin n°3 a causé un dommage aux époux A. dès lors qu'il résulte : - des photos produites que ce sapin permettait de cacher partiellement à la vue de ceux-ci les immeubles situés derrière cet arbre et - du rapport d'expertise que les arbres replantés l'ont été dans le passage latéral ... et non à l'endroit où se trouvait le sapin n°3. ... Il est certain cependant que la faute commise par les époux P. a fait perdre une chance aux époux A. que le permis n°104/05 ne soit pas octroyé ou à tout le moins qu'il soit octroyé à des conditions moins dommageables pour eux.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsqu'une demande de permis d'urbanisme omet des éléments essentiels permettant à l'autorité d'apprécier l'impact des travaux ou abattages sur les voisins.",
+      "relevantFactualContext": "La demande de permis n°104/05 ne comportait pas de photo significative du sapin n°3, ni l'indication de la propriété voisine, ni l'âge/diamètre de l'arbre ; la cour a retenu une faute et une perte de chance.",
+      "principleType": "APPLICATION_STANDARD",
+      "legalArea": "CIVIL_LIABILITY",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": false,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-007",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-008",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-009",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-010",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-011"
+      ],
+      "relatedCitedDecisionsId": [],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-007",
+      "text": "Aux termes de l'article 32 du Code rural, une haie qui sépare des héritages est présumée mitoyenne sauf preuve d'un titre ou d'une possession suffisante du contraire ; cette présomption joue lorsqu'il existe des éléments matériels (souches, plantations) de part et d'autre de la ligne séparative.",
+      "courtVerbatim": "Il convient de rappeler que l'article 32 du Code rural dispose que toute « haie qui sépare des héritages est réputée mitoyenne, à moins qu'il n'y ait qu'un seul des héritages en état de clôture, ou s'il n'y a titre ou possession suffisante du contraire ». L'article 34, al. 3 du même code dispose que le « copropriétaire d'une haie mitoyenne peut la détruire jusqu'à la limite de sa propriété, à la charge de construire un mur sur cette limite ».",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsqu'il s'agit de déterminer la mitoyenneté d'une haie séparant deux propriétés à partir d'indices matériels et de titres/possession.",
+      "relevantFactualContext": "Des photos et un procès-verbal d'huissier montrent des souches et plantations situées des deux côtés de la limite séparative, établissant que l'ancienne haie se trouvait à cheval sur les deux fonds et était réputée mitoyenne.",
+      "principleType": "INTERPRETATION_RULE",
+      "legalArea": "OTHER",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [
+          "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-008"
+        ],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": true,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-012",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-013"
+      ],
+      "relatedCitedDecisionsId": [],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-008",
+      "text": "Le copropriétaire d'une haie mitoyenne ne peut l'arracher intégralement sans concertation avec son voisin : l'arrachage complet d'une haie réputée mitoyenne, sans prévenir le voisin et sans justification légale, constitue une faute susceptible d'engager la responsabilité et d'ouvrir droit à réparation pour les préjudices causés.",
+      "courtVerbatim": "En l'espèce, il résulte clairement des photos déposées par les époux A. que le mur mitoyen séparatif extérieur était prolongé par une haie vive, comprenant notamment des érables. Le PV de constat d'huissier de justice dressé le 24 avril 2007 (...) Il est donc incontestable que la haie se trouvait à cheval sur les deux fonds, certaines souches se trouvant d'un côté, d'autres de l'autre côté de la ligne séparative entre ces fonds. En vertu de l'article 34 du Code rural (confirmé par le titre de propriété des époux A. ), cette haie est réputée mitoyenne et les consorts P. ne démontrent pas qu'elle était privative. ... Les époux P. n'avaient donc pas le droit d'arracher cette haie dans son entièreté, particulièrement sans se concerter avec leurs voisins de sorte que, en agissant ainsi (et sous réserve de la question des érables), ils ont commis une faute.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsqu'une haie reconnue ou réputée mitoyenne est arrachée totalement par un seul propriétaire sans concertation ni droit légal apparent.",
+      "relevantFactualContext": "Les consorts P. ont arraché l'ancienne haie mitoyenne sans prévenir leurs voisins et les constats d'huissier et photos montrent que l'arrachage a porté sur l'ensemble de la haie, y compris des souches situées sur la limite.",
+      "principleType": "APPLICATION_STANDARD",
+      "legalArea": "OTHER",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-007",
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": true,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-013",
+        "ART-ECLI:BE:CABRL:2019:ARR.20190502.4-012"
+      ],
+      "relatedCitedDecisionsId": [],
+      "sourceAuthor": "AI_GENERATED"
+    }
+  ],
+  "metadata": {
+    "totalTeachings": 8,
+    "extractedCourtLevel": "APPEAL",
+    "courtLevelConfidence": "HIGH",
+    "teachingTypes": {
+      "interpretive": 3,
+      "application": 2,
+      "balancing": 0,
+      "procedural": 1,
+      "remedial": 1,
+      "legal_test": 0,
+      "burden_proof": 1
+    },
+    "hierarchicalRelationships": {
+      "parentChildPairs": 1,
+      "ruleExceptionPairs": 0,
+      "conflicts": 0
+    },
+    "courtLevelDistribution": {
+      "cassation": 0,
+      "appeal": 8,
+      "first_instance": 0
+    },
+    "validationChecks": {
+      "allTeachingsHaveSourceAuthor": true,
+      "sourceAuthorCorrect": true,
+      "teachingCountReasonable": true,
+      "allTeachingsHaveContext": true,
+      "allTeachingsHaveVerbatim": true,
+      "legalIssuesEmptyAsExpected": true,
+      "allProvisionIdsValid": true,
+      "allDecisionIdsValid": true,
+      "allHierarchyReferencesValid": true,
+      "courtLevelDetected": true
+    }
+  },
+  "_tokenUsage": {
+    "prompt": 39772,
+    "completion": 11670,
+    "total": 51442
+  }
+}

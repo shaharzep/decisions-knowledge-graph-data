@@ -1,0 +1,1340 @@
+{
+  "classifications": [
+    {
+      "teaching_id": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-001",
+      "classification": {
+        "topic_set": [
+          "A17.1",
+          "A18.1"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A18.1",
+            "topic_name": "Procedural incidents (civil)",
+            "confidence": 0.98,
+            "materiality_evidence": "Teaching addresses irrecevabilité des voies d'appel pour non‑respect formel de l'article 744 et the court's duty/discretion to respond to formally defective grounds."
+          },
+          {
+            "topic_id": "A17.1",
+            "topic_name": "Civil procedure doctrine",
+            "confidence": 0.9,
+            "materiality_evidence": "Teaching articulates a doctrinal principle about how courts should treat formal non‑compliance and the justification (intérêt du débat) for nevertheless examining appeals."
+          }
+        ],
+        "issue_type_set": [
+          "B1",
+          "B21",
+          "B24"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "confidence": 0.98
+          },
+          {
+            "issue_type_id": "B24",
+            "issue_type_name": "Review and appeal",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "confidence": 0.9
+          }
+        ],
+        "issue_key": "{A17.1,A18.1}|{B1,B21,B24}"
+      },
+      "confidence": {
+        "overall": 0.942,
+        "topic_set": 0.94,
+        "issue_type_set": 0.9433333333333334,
+        "per_topic": [
+          {
+            "id": "A18.1",
+            "confidence": 0.98
+          },
+          {
+            "id": "A17.1",
+            "confidence": 0.9
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B21",
+            "confidence": 0.98
+          },
+          {
+            "id": "B24",
+            "confidence": 0.95
+          },
+          {
+            "id": "B1",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "R-orig-2: A18.1/4/5/6 → B21 satisfied"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Queries about admissibility/irrecevabilité of appeals, formal requirements under article 744, courts' duty to respond to formal grounds, and doctrinal guidance on when courts may examine appeals despite formal defects."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A18.3",
+            "rejection_reason": "Focus is on formal admissibility of grounds rather than on temporal prescription or deadlines; less directly relevant."
+          },
+          {
+            "topic_id": "A17.4",
+            "rejection_reason": "Administrative procedure doctrine is a different procedural domain; teaching is specific to civil appeals under the Judicial Code."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B0",
+            "rejection_reason": "Cites statutes but does not materially analyze characterization of the legal regime; more contextual than actionable on qualification."
+          },
+          {
+            "issue_type_id": "B19",
+            "rejection_reason": "No substantive discussion of limitation periods or prescription; engagement is peripheral."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "appel principal",
+          "appel incident",
+          "irrecevabilité (inadmissibilité) des voies d'appel",
+          "exigences formelles de l'article 744 du Code judiciaire",
+          "obligation de répondre aux moyens (article 780 C.j.)",
+          "rôle discrétionnaire de la juridiction d'examiner malgré des manquements formels",
+          "intérêt du débat comme motif d'admettre l'examen",
+          "moyens formels en procédure civile",
+          "sanction procédurale (irrecevabilité vs. examen au fond)"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Civil procedure — admissibility of appeals and procedural formalities (Belgian Judicial Code, article 744, article 780)",
+            "Civil procedure doctrine — judicial discretion on formal defects and interest of the debate"
+          ],
+          "retrieval_consideration": "Queries about admissibility/irrecevabilité of appeals, formal requirements under article 744, courts' duty to respond to formal grounds, and doctrinal guidance on when courts may examine appeals despite formal defects.",
+          "granularity_decisions": [
+            "Select A18.1 (procedural incidents — civil) because the teaching materially analyzes admissibility and formal-defect sanctions in civil appeals.",
+            "Include A17.1 (civil procedure doctrine) because the teaching articulates a doctrinal rule about how courts should treat formal non‑compliance and the discretion to admit consideration in the interest of the debate.",
+            "Do not include A18.3 (time limits/deadlines) because the teaching focuses on formal admissibility requirements rather than prescription or temporal deadlines."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "engagement_evidence": "Teaching gives actionable guidance on procedural mechanics: courts' duty to answer only those grounds that meet article 744 and the court's discretion to examine appeals despite formal defects under article 780.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B24",
+            "issue_type_name": "Review and appeal",
+            "engagement_evidence": "Teaching specifically addresses appellate practice: admissibility of appeals and incidental appeals, and how appellate courts should treat formal non‑compliance when considering irrecevabilité.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "engagement_evidence": "Teaching addresses the scope/effect of the formal requirements—clarifying that failure to comply with article 744 does not automatically render an appeal inadmissible, i.e., the legal effect (scope) of the rule.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B0",
+            "issue_type_name": "Characterization (qualification)",
+            "engagement_evidence": "The teaching cites applicable statutory provisions (arts. 744 and 780) but does not primarily analyze which legal regime governs beyond citation and does not recharacterize the situation into a different regime.",
+            "is_material": false
+          },
+          {
+            "issue_type_id": "B19",
+            "issue_type_name": "Time bars (prescription/limitation)",
+            "engagement_evidence": "Only peripheral mention/possible user interest in procedural sanctions; the teaching does not discuss limitation periods or prescription.",
+            "is_material": false
+          }
+        ],
+        "production_rules_applied": [
+          "topic_set contains A18.1 -> MUST include B21"
+        ],
+        "processed_at": "2026-02-13T03:36:37.728Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-002",
+      "classification": {
+        "topic_set": [
+          "A3.3",
+          "A5.1"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A3.3",
+            "topic_name": "Use rights and neighbor conflicts (usufruct, easements, servitudes, nuisance)",
+            "confidence": 0.98,
+            "materiality_evidence": "Teaching centrally explains the 'troubles de voisinage' regime under article 544 C. civ., focusing on property-based compensation and the proprietor's right to normal enjoyment."
+          },
+          {
+            "topic_id": "A5.1",
+            "topic_name": "Fault-based liability (negligence/delict)",
+            "confidence": 0.96,
+            "materiality_evidence": "Teaching contrasts responsabilité aquilienne under articles 1382/1383 (fault, damage, causation leading to full compensation) with the property-based regime."
+          }
+        ],
+        "issue_type_set": [
+          "B0",
+          "B15",
+          "B20",
+          "B8"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B0",
+            "issue_type_name": "Characterization (qualification)",
+            "confidence": 0.98
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "confidence": 0.97
+          },
+          {
+            "issue_type_id": "B15",
+            "issue_type_name": "Harm and loss identification",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B20",
+            "issue_type_name": "Remedies and sanctions",
+            "confidence": 0.95
+          }
+        ],
+        "issue_key": "{A3.3,A5.1}|{B0,B15,B20,B8}"
+      },
+      "confidence": {
+        "overall": 0.967,
+        "topic_set": 0.97,
+        "issue_type_set": 0.9624999999999999,
+        "per_topic": [
+          {
+            "id": "A3.3",
+            "confidence": 0.98
+          },
+          {
+            "id": "A5.1",
+            "confidence": 0.96
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B0",
+            "confidence": 0.98
+          },
+          {
+            "id": "B8",
+            "confidence": 0.97
+          },
+          {
+            "id": "B15",
+            "confidence": 0.95
+          },
+          {
+            "id": "B20",
+            "confidence": 0.95
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "No production rules applicable"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Users researching distinctions between property-based neighbour remedies (troubles de voisinage) and fault-based delictual liability should retrieve this teaching; queries about article 544, ‘troubles de voisinage’, and articles 1382/1383 should all be anchored to it."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A3.1",
+            "rejection_reason": "Ownership/title is relevant background but the teaching focuses on neighbour conflicts/nuisance under article 544 rather than general doctrines of ownership; A3.3 is the more specific and appropriate leaf."
+          },
+          {
+            "topic_id": "A4.1",
+            "rejection_reason": "Formation/pre-contract duties are peripheral; the teaching applies expressly in non-contractual neighbour situations but does not materially analyze contract-formation doctrines."
+          },
+          {
+            "topic_id": "A17.1",
+            "rejection_reason": "Civil procedure/doctrinal classification is not the main legal framework analyzed; the piece is substantive (liability regimes), not procedural."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B11",
+            "rejection_reason": "While the teaching mentions fault as an element of aquilian liability, it does not engage in a fact-specific legal conclusion about whether a particular conduct constitutes a violation; treatment of 'breach' remains conceptual/background rather than actionable breach analysis."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "inconvénients du voisinage (troubles de voisinage)",
+          "responsabilité aquilienne / quasi-délictuelle (articles 1382/1383 C. civ.)",
+          "article 544 Code civil (droit de jouir normalement de sa chose)",
+          "faute, dommage et lien de causalité (conditons de la responsabilité délictuelle)",
+          "réparation intégrale vs compensation rétablissant l'égalité rompue",
+          "distinction de régimes (tort-based vs property-based remedies)",
+          "actions entre voisins hors contrat"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Property law — neighbor nuisance / disturbances of neighbourhood (article 544 C. civ.)",
+            "Delict/tort law — fault-based (aquilian) liability (articles 1382/1383 C. civ.)"
+          ],
+          "retrieval_consideration": "Users researching distinctions between property-based neighbour remedies (troubles de voisinage) and fault-based delictual liability should retrieve this teaching; queries about article 544, ‘troubles de voisinage’, and articles 1382/1383 should all be anchored to it.",
+          "granularity_decisions": [
+            "Select A3.3 (Use rights and neighbor conflicts) because the teaching centrally analyzes the neighbour-nuisance/property regime under article 544 (most specific leaf).",
+            "Select A5.1 (Fault-based liability) because the teaching expressly contrasts the aquilian delictual regime (articles 1382/1383) with the property-based regime."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B0",
+            "issue_type_name": "Characterization (qualification)",
+            "engagement_evidence": "Teaching's core point is to distinguish and qualify which legal regime governs neighbour nuisances: quasi-delictual liability (articles 1382/1383) versus the property-based theory of troubles de voisinage (article 544).",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "engagement_evidence": "Court explicates the substantive content and required elements of each regime: the tripartite conditions (fault, damage, causation) for articles 1382/1383 and the objective right to normal enjoyment under article 544, including the nature of a 'trouble excédant'.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B15",
+            "issue_type_name": "Harm and loss identification",
+            "engagement_evidence": "Teaching distinguishes what harm is compensated under each regime: full repair of damage under aquilian liability versus only the excess damage necessary to restore equality between properties under troubles de voisinage.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B20",
+            "issue_type_name": "Remedies and sanctions",
+            "engagement_evidence": "Court contrasts the remedies available: réparation intégrale (full compensation/damages) for article 1382 claims versus a 'juste et adéquate compensation' restoring equality for article 544 claims.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "No mandatory production rules triggered by the selected topic set (A3.3, A5.1); no A18.x/A13.9/A15.* constraints apply."
+        ],
+        "processed_at": "2026-02-13T03:37:12.260Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-003",
+      "classification": {
+        "topic_set": [
+          "A17.2",
+          "A5.1"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A5.1",
+            "topic_name": "Fault-based liability (negligence/delict)",
+            "confidence": 0.98,
+            "materiality_evidence": "Teaching defines legal notion of cause for responsabilité délictuelle and applies condition sine qua non standard to articles 1382/1383; central to tort liability analysis."
+          },
+          {
+            "topic_id": "A17.2",
+            "topic_name": "Evidence law doctrine",
+            "confidence": 0.82,
+            "materiality_evidence": "Teaching emphasizes appreciation of causal link 'in concreto' and the evidentiary assessment that damage would not have occurred—addresses proof and burden related to causation."
+          }
+        ],
+        "issue_type_set": [
+          "B13"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B13",
+            "issue_type_name": "Factual causation",
+            "confidence": 0.98
+          }
+        ],
+        "issue_key": "{A17.2,A5.1}|{B13}"
+      },
+      "confidence": {
+        "overall": 0.936,
+        "topic_set": 0.8999999999999999,
+        "issue_type_set": 0.98,
+        "per_topic": [
+          {
+            "id": "A5.1",
+            "confidence": 0.98
+          },
+          {
+            "id": "A17.2",
+            "confidence": 0.82
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B13",
+            "confidence": 0.98
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "No production rules applicable"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Researchers querying causal link in tort liability (CSQN, causalité in concreto) or evidentiary proof of causation should retrieve this teaching; suitable for queries about how to prove causation and how courts assess it against the concrete realization of damage."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A5.7",
+            "rejection_reason": "Teaching focuses on the existence and assessment of causation generally rather than on allocation, contribution, or apportionment between multiple parties."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B14",
+            "rejection_reason": "Teaching does not engage legal causation/remoteness (scope of risk, foreseeability); only sets out but-for test."
+          },
+          {
+            "issue_type_id": "B10",
+            "rejection_reason": "This is a doctrinal definition of causation, not a factual compliance/performance assessment."
+          },
+          {
+            "issue_type_id": "B22",
+            "rejection_reason": "Evidence aspects (burden, admissibility, proof standards) are not addressed in the teaching."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "notion de cause",
+          "lien de causalité",
+          "condition sine qua non (CSQN)",
+          "causalité factuelle",
+          "réalisation in concreto du dommage",
+          "responsabilité délictuelle (responsabilité aquilienne)",
+          "articles 1382/1383 CC (tort/delictual liability)",
+          "appréciation du lien de causalité"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Fault-based (tort/delictual) liability under articles 1382/1383 (causal link/condition sine qua non)",
+            "Evidence law (proof and assessment of causation, burden of proof)"
+          ],
+          "retrieval_consideration": "Researchers querying causal link in tort liability (CSQN, causalité in concreto) or evidentiary proof of causation should retrieve this teaching; suitable for queries about how to prove causation and how courts assess it against the concrete realization of damage.",
+          "granularity_decisions": [
+            "Selected A5.1 (Fault-based liability) as the most specific leaf capturing tort causation under articles 1382/1383",
+            "Included A17.2 (Evidence law doctrine) because the teaching centers on the evidentiary assessment of causation (proof/burden), not broader procedural evidence rules",
+            "Rejected A5.7 (Allocation between multiple parties) because the teaching addresses general causation principles rather than apportionment or contribution among multiple tortfeasors"
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B13",
+            "issue_type_name": "Factual causation",
+            "engagement_evidence": "The teaching defines the legal notion of cause as the condition without which the damage would not have occurred (but-for/CSQN) and requires assessment with regard to the concrete realization of the damage — a direct statement of factual causation.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B14",
+            "issue_type_name": "Legal causation and remoteness",
+            "engagement_evidence": "The text does not address questions of foreseeability, scope of risk, or proximate cause; it focuses on the but-for link to the concrete damage.",
+            "is_material": false
+          },
+          {
+            "issue_type_id": "B10",
+            "issue_type_name": "Compliance and performance",
+            "engagement_evidence": "The passage sets out the legal test for causation rather than performing a factual assessment of whether particular conduct met a standard or occurred.",
+            "is_material": false
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "engagement_evidence": "Although proving causation requires evidence in practice, the teaching does not discuss burdens, standards, admissibility, or evidentiary rules.",
+            "is_material": false
+          }
+        ],
+        "production_rules_applied": [
+          "No mandatory production-rule constraints applied (topic set contains A5.1 and A17.2 only)."
+        ],
+        "processed_at": "2026-02-13T03:37:40.194Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-004",
+      "classification": {
+        "topic_set": [
+          "A18.2",
+          "A5.1"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A5.1",
+            "topic_name": "Fault-based liability (negligence/delict)",
+            "confidence": 0.95,
+            "materiality_evidence": "Teaching materially analyzes the requirement that the claimant prove a causal link between the defendant's fault and the damage with sufficient certainty; directly governs tort liability."
+          },
+          {
+            "topic_id": "A18.2",
+            "topic_name": "Evidence application (dispositive)",
+            "confidence": 0.92,
+            "materiality_evidence": "Holding turns on inability to prove causation because of plausible alternative causes, an evidentiary failure that is dispositive of the compensatory claim."
+          }
+        ],
+        "issue_type_set": [
+          "B13",
+          "B22"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B13",
+            "issue_type_name": "Factual causation",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "confidence": 0.95
+          }
+        ],
+        "issue_key": "{A18.2,A5.1}|{B13,B22}"
+      },
+      "confidence": {
+        "overall": 0.942,
+        "topic_set": 0.935,
+        "issue_type_set": 0.95,
+        "per_topic": [
+          {
+            "id": "A5.1",
+            "confidence": 0.95
+          },
+          {
+            "id": "A18.2",
+            "confidence": 0.92
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B13",
+            "confidence": 0.95
+          },
+          {
+            "id": "B22",
+            "confidence": 0.95
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "R-orig-1: A18.2 → B22 satisfied"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Researchers searching for materials on causation in negligence claims, burden/standard of proof when multiple alternative causes exist, or case law where evidentiary failure is dispositive should retrieve this teaching."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A17.2",
+            "rejection_reason": "While the teaching touches on evidentiary doctrine (burden/standard of proof), its primary function is to decide a tort claim on dispositive evidentiary grounds — A18.2 is more specific and directly applicable."
+          },
+          {
+            "topic_id": "A5.7",
+            "rejection_reason": "Multiple-causes/multiple-parties issues are mentioned, but the teaching does not engage substantively with rules of apportionment or contribution between defendants; primary focus is causation proof for claimant."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B11",
+            "rejection_reason": "The teaching affects whether breach can be attributed only insofar as causation is proved, but it does not materially analyze the legal conclusion of breach itself."
+          },
+          {
+            "issue_type_id": "B20.1",
+            "rejection_reason": "Consequences (dismissal of compensatory claim) are implied but the teaching does not materially analyze remedies or their content."
+          },
+          {
+            "issue_type_id": "B0",
+            "rejection_reason": "Characterization is peripheral; the teaching focuses on causation and proof rather than qualification of the legal regime."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "causal link (causation) in tort",
+          "alternative/competing causes",
+          "burden of proof (proof standard, onus probandi)",
+          "standard of proof / sufficient certainty",
+          "fault/negligence as imputable conduct",
+          "dismissal/rejection of compensatory claim for lack of causation",
+          "evidentiary consequence of alternative causes"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Tort (fault-based) liability — causation and proof in civil claims",
+            "Evidence law — application of proof rules when evidence is dispositive"
+          ],
+          "retrieval_consideration": "Researchers searching for materials on causation in negligence claims, burden/standard of proof when multiple alternative causes exist, or case law where evidentiary failure is dispositive should retrieve this teaching.",
+          "granularity_decisions": [
+            "Selected A5.1 (fault-based liability) as the most specific topic capturing tort causation rather than the broader A5 node.",
+            "Selected A18.2 (evidence application — dispositive) because the teaching is centered on an evidentiary failure that decides the claim, rather than general evidence doctrine (A17.2).",
+            "Excluded A17.2 and A5.7 because their scopes (general evidence doctrine; multi-party allocation/apportionment) are relevant but less central to the dispositive holding."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B13",
+            "issue_type_name": "Factual causation",
+            "engagement_evidence": "The teaching states that when multiple possible causes exist the claimant must establish with sufficient certainty that the damage results from the defendant's act; alternative plausible causes can prevent demonstrating the causal link and lead to dismissal.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "engagement_evidence": "The teaching prescribes the claimant's evidentiary burden and required degree of certainty to prove causation, and explains how alternative causes affect evidentiary proof.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "topic_set contains A18.2 -> must include B22"
+        ],
+        "processed_at": "2026-02-13T03:38:12.884Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-005",
+      "classification": {
+        "topic_set": [
+          "A3.3",
+          "A5.2"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A3.3",
+            "topic_name": "Use rights and neighbor conflicts (usufruct, easements, servitudes, nuisance)",
+            "confidence": 0.97,
+            "materiality_evidence": "Teaching squarely addresses troubles de voisinage (neighbour nuisance) under Article 544 C. civ. and the proper method for fixing compensation (application of a vétusté coefficient)."
+          },
+          {
+            "topic_id": "A5.2",
+            "topic_name": "Strict liability regimes",
+            "confidence": 0.9,
+            "materiality_evidence": "The court frames troubles de voisinage as an objective (strict) liability regime and justifies adjusting indemnity (vétusté) because compensation under this regime covers only the excess damage rather than full reparation."
+          }
+        ],
+        "issue_type_set": [
+          "B15",
+          "B16",
+          "B8"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B15",
+            "issue_type_name": "Harm and loss identification",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B16",
+            "issue_type_name": "Quantification and valuation",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "confidence": 0.9
+          }
+        ],
+        "issue_key": "{A3.3,A5.2}|{B15,B16,B8}"
+      },
+      "confidence": {
+        "overall": 0.934,
+        "topic_set": 0.935,
+        "issue_type_set": 0.9333333333333332,
+        "per_topic": [
+          {
+            "id": "A3.3",
+            "confidence": 0.97
+          },
+          {
+            "id": "A5.2",
+            "confidence": 0.9
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B15",
+            "confidence": 0.95
+          },
+          {
+            "id": "B16",
+            "confidence": 0.95
+          },
+          {
+            "id": "B8",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "No production rules applicable"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Queries about neighbour nuisance compensation, application of depreciation/vétusté to damages for troubles de voisinage, comparison with aquilian (fault-based) full reparation, and doctrine of objective liability and how it affects quantum of indemnity."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A5.1",
+            "rejection_reason": "Fault-based liability is only discussed contrastively (the decision contrasts aquilian full reparation with neighbour-nuisance compensation) but is not a primary focus of analysis."
+          },
+          {
+            "topic_id": "A5.5",
+            "rejection_reason": "Unjust enrichment is mentioned (rejected by the court) but the teaching does not materially analyze the law of unjust enrichment or apply it as a framework."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B0",
+            "rejection_reason": "The teaching mentions and distinguishes the applicable regime (objective neighbour liability vs aquilian liability) but does not primarily provide actionable guidance about characterization; it functions mainly as context for the substantive valuation and compensability rules."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "troubles de voisinage (neighbour nuisance / nuisance between properties)",
+          "responsabilité objective (strict/objective liability)",
+          "article 544 C. civ. (property servitudes / neighbour-law source)",
+          "coefficient de vétusté (depreciation / obsolescence deduction)",
+          "réparation de l'excès de dommage vs réparation intégrale (scope of compensation)",
+          "responsabilité aquilienne (fault-based civil liability / delict) — contrasted",
+          "quantum de l'indemnité (calculation/assessment of damages)",
+          "enrichissement/appauvrissement corrélatif (unjust enrichment reference)"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Neighbour/nuisance law (troubles de voisinage) — property use rights under Article 544 C. civ.",
+            "Tort/liability law — strict/objective liability regimes (calculation of compensation under objective liability)"
+          ],
+          "retrieval_consideration": "Queries about neighbour nuisance compensation, application of depreciation/vétusté to damages for troubles de voisinage, comparison with aquilian (fault-based) full reparation, and doctrine of objective liability and how it affects quantum of indemnity.",
+          "granularity_decisions": [
+            "Select A3.3 (Use rights and neighbor conflicts) as the primary topical anchor because the teaching is focused on troubles de voisinage under Article 544 C. civ.",
+            "Include A5.2 (Strict liability regimes) because the decision treats troubles de voisinage as an objective/strict liability regime and adjusts damages accordingly.",
+            "Do not include broader or sibling nodes (e.g., generic A5 or A5.1) because the analysis concerns the specific modalities of objective liability rather than general fault-based principles."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B15",
+            "issue_type_name": "Harm and loss identification",
+            "engagement_evidence": "Teaching specifies that under the neighbour-nuisance (troubles de voisinage) doctrine only the 'excess' damage beyond normal inconveniences is compensable, identifying which heads/portion of loss are recoverable.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B16",
+            "issue_type_name": "Quantification and valuation",
+            "engagement_evidence": "Teaching authorizes applying a coefficient of depreciation (vétusté) when fixing the amount of compensation for nuisance claims, i.e., gives actionable guidance on valuing/quantifying damages.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "engagement_evidence": "Court explains the scope and aim of the indemnity under the neighbour-nuisance regime (repair of excess damage rather than full reparation), an interpretive determination of the meaning/content of the remedy.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "No deterministic production-rule triggers from the provided topic_set; no mandatory additions required."
+        ],
+        "processed_at": "2026-02-13T03:38:43.440Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-006",
+      "classification": {
+        "topic_set": [
+          "A13.1.8",
+          "A3.3",
+          "A5.1"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A13.1.8",
+            "topic_name": "Planning and land use permits",
+            "confidence": 0.98,
+            "materiality_evidence": "The teaching concerns an urban planning/land‑use permit application and the authority's inability to assess impact of tree felling due to an incomplete file."
+          },
+          {
+            "topic_id": "A5.1",
+            "topic_name": "Fault-based liability (negligence/delict)",
+            "confidence": 0.97,
+            "materiality_evidence": "Court finds a civil fault in how the permit request was presented and awards damages for loss of chance—central tort concepts are analyzed."
+          },
+          {
+            "topic_id": "A3.3",
+            "topic_name": "Use rights and neighbor conflicts (usufruct, easements, servitudes, nuisance)",
+            "confidence": 0.86,
+            "materiality_evidence": "The harm arises from works on one property affecting neighbouring property (tree felling), implicating neighbour rights and nuisance considerations."
+          }
+        ],
+        "issue_type_set": [
+          "B11",
+          "B13",
+          "B15",
+          "B22"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B11",
+            "issue_type_name": "Breach and violation",
+            "confidence": 0.98
+          },
+          {
+            "issue_type_id": "B15",
+            "issue_type_name": "Harm and loss identification",
+            "confidence": 0.97
+          },
+          {
+            "issue_type_id": "B13",
+            "issue_type_name": "Factual causation",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "confidence": 0.9
+          }
+        ],
+        "issue_key": "{A13.1.8,A3.3,A5.1}|{B11,B13,B15,B22}"
+      },
+      "confidence": {
+        "overall": 0.943,
+        "topic_set": 0.9366666666666666,
+        "issue_type_set": 0.95,
+        "per_topic": [
+          {
+            "id": "A13.1.8",
+            "confidence": 0.98
+          },
+          {
+            "id": "A5.1",
+            "confidence": 0.97
+          },
+          {
+            "id": "A3.3",
+            "confidence": 0.86
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B11",
+            "confidence": 0.98
+          },
+          {
+            "id": "B15",
+            "confidence": 0.97
+          },
+          {
+            "id": "B13",
+            "confidence": 0.95
+          },
+          {
+            "id": "B22",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "No production rules applicable"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Users searching for liability for incomplete permit applications, loss-of-chance damages for neighbours after tree-felling or other works, or procedural/ substantive requirements for urban planning permit applications should retrieve this teaching."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A11.2",
+            "rejection_reason": "Administrative act/decision is relevant context (permit was an administrative act) but the teaching primarily analyzes civil liability from the applicant's incomplete file rather than substantive review of administrative law doctrine."
+          },
+          {
+            "topic_id": "A5.5",
+            "rejection_reason": "Unjust enrichment/restitution is peripheral; the remedy in the teaching is damages for loss of chance, not restitution."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B14",
+            "rejection_reason": "Only indirectly implicated (scope/foreseeability not analyzed in depth); the teaching focuses on causation and loss of chance rather than remote legal causation."
+          },
+          {
+            "issue_type_id": "B20",
+            "rejection_reason": "Remedies are only implicit (compensation for lost chance) and not the focus of actionable guidance on remedial measures or form of relief."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "incomplete urban planning / building permit application",
+          "administrative permit decision (octroi du permis)",
+          "civil fault (faute civile) in the submission of permit application",
+          "loss of chance (perte de chance) as head of damage",
+          "neighbor property damage/impairment from tree felling",
+          "causation (factual causation / loss-of-chance causation)",
+          "duty to provide sufficient information to administrative authority",
+          "remedies: damages for lost chance / compensation",
+          "replanting / mitigation measures and their location",
+          "evidentiary proof (photos, expert report)"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Planning and land‑use permit law (urbanism/permits)",
+            "Civil/tort law — fault-based liability and loss of chance",
+            "Neighbour/property rights and nuisance arising from works on adjacent land"
+          ],
+          "retrieval_consideration": "Users searching for liability for incomplete permit applications, loss-of-chance damages for neighbours after tree-felling or other works, or procedural/ substantive requirements for urban planning permit applications should retrieve this teaching.",
+          "granularity_decisions": [
+            "Selected A13.1.8 (Planning and land use permits) as the most specific node for urban/land‑use permit rules rather than a broader planning node.",
+            "Selected A5.1 (Fault-based liability) as the specific tort/fault leaf because the judgment treats the applicant's conduct as a civil fault and awards damages for loss of chance.",
+            "Selected A3.3 (Use rights and neighbour conflicts) to capture the neighbour-impact dimension rather than A3 (broader property law) since the decision concerns interproperty effects (tree felling, nuisance)."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B11",
+            "issue_type_name": "Breach and violation",
+            "engagement_evidence": "The court concludes the applicant 'a commis une faute' by filing an incomplete permit application that prevented the authority from deciding with knowledge — a legal conclusion that a duty was violated.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B15",
+            "issue_type_name": "Harm and loss identification",
+            "engagement_evidence": "The judgment treats 'perte de chance' (loss of chance) as the relevant head of damage — identifying the nature of compensable harm (the lost probability of refusal or less damaging conditions).",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B13",
+            "issue_type_name": "Factual causation",
+            "engagement_evidence": "The analysis requires establishing that the incomplete application deprived the neighbours of a real probability of obtaining refusal or better conditions — a but‑for/probability factual inquiry.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "engagement_evidence": "The decision relies on photos and an expert report to establish both the insufficiency of the permit file and the consequences for probability assessment; evidentiary proof is central to the loss‑of‑chance finding.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "No mandatory production rules triggered by the provided topic_set (A13.1.8, A5.1, A3.3)."
+        ],
+        "processed_at": "2026-02-13T03:39:22.855Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-007",
+      "classification": {
+        "topic_set": [
+          "A3.1",
+          "A3.4"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A3.4",
+            "topic_name": "Co-ownership and partition",
+            "confidence": 0.97,
+            "materiality_evidence": "Teaching sets out the legal presumption of mitoyenneté for a boundary hedge under art. 32 Code rural and explains consequences for co-owners (rights/limits to demolish, obligation to build a wall)."
+          },
+          {
+            "topic_id": "A3.1",
+            "topic_name": "Ownership and title",
+            "confidence": 0.9,
+            "materiality_evidence": "Teaching depends on proof by title or possession to rebut the presumption of mitoyenneté and discusses evidentiary elements (souches, plantations)."
+          }
+        ],
+        "issue_type_set": [
+          "B0",
+          "B1",
+          "B20.1",
+          "B22"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B0",
+            "issue_type_name": "Characterization (qualification)",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "confidence": 0.9
+          },
+          {
+            "issue_type_id": "B20.1",
+            "issue_type_name": "Private remedies (damages, injunctions, declarations, restitution)",
+            "confidence": 0.85
+          }
+        ],
+        "issue_key": "{A3.1,A3.4}|{B0,B1,B20.1,B22}"
+      },
+      "confidence": {
+        "overall": 0.925,
+        "topic_set": 0.935,
+        "issue_type_set": 0.9125,
+        "per_topic": [
+          {
+            "id": "A3.4",
+            "confidence": 0.97
+          },
+          {
+            "id": "A3.1",
+            "confidence": 0.9
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B0",
+            "confidence": 0.95
+          },
+          {
+            "id": "B1",
+            "confidence": 0.95
+          },
+          {
+            "id": "B22",
+            "confidence": 0.9
+          },
+          {
+            "id": "B20.1",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "No production rules applicable"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Researchers will look for materials on mitoyenneté of hedges, legal presumptions under article 32 Code rural, evidentiary proof (title or possession, material indices like stumps/plantings), and consequences for rights to demolish/rebuild at boundary."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A3.3",
+            "rejection_reason": "Neighbour-conflict/use-right aspects are relevant but secondary; the teaching primarily addresses legal characterization (mitoyenneté) and proof rather than general nuisance or servitude rules."
+          },
+          {
+            "topic_id": "A3.6",
+            "rejection_reason": "Registration/transfer/publicity issues may be used as evidence but are not materially analyzed in the teaching; the focus is on presumption and proof rather than property registration law."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B8",
+            "rejection_reason": "Interpretive aspects (meaning of terms) are present but the teaching is primarily about characterization, applicability and proof; no extended interpretive analysis of statutory language that would warrant a standalone Content tag."
+          },
+          {
+            "issue_type_id": "B10",
+            "rejection_reason": "Factual assessment (whether specific material indicators exist) is referenced as the basis for the presumption but the teaching provides legal rule on when presumption applies rather than detailed factual-adjudication guidance; treated under B1/B22 instead."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "mitoyenneté (copropriété de la haie / clôture)",
+          "présomption légale (article 32 Code rural)",
+          "preuve / charge de la preuve (titre ou possession suffisante du contraire)",
+          "indices matériels (souches, plantations) comme élément probant",
+          "limite séparative (droit de démolir jusqu'à la limite de propriété)",
+          "obligation accessoire (construire un mur après démolition) — article 34, al. 3 Code rural",
+          "qualification de l'ouvrage (haie vs clôture / mur mitoyen)"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Rules on boundary co-ownership (mitoyenneté) under civil property law / Code rural",
+            "Proof of ownership and possessory/title evidence in property disputes"
+          ],
+          "retrieval_consideration": "Researchers will look for materials on mitoyenneté of hedges, legal presumptions under article 32 Code rural, evidentiary proof (title or possession, material indices like stumps/plantings), and consequences for rights to demolish/rebuild at boundary.",
+          "granularity_decisions": [
+            "Selected A3.4 (Co-ownership and partition) because mitoyenneté is a specific form of co-ownership directly addressed by the teaching.",
+            "Also selected A3.1 (Ownership and title) because the teaching materially analyzes the burden and kinds of proof (title or possession) required to rebut the presumption."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B0",
+            "issue_type_name": "Characterization (qualification)",
+            "engagement_evidence": "The teaching establishes that a hedge separating hereditaments is 'reputée mitoyenne' under article 32 — directly classifying the hedge within the legal regime of mitoyenneté.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "engagement_evidence": "The passage sets out when the statutory presumption applies (presence of material elements on both sides; exception where only one hereditament is enclosed; rebuttal by title or sufficient possession). This gives actionable guidance on the scope of article 32.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "engagement_evidence": "The teaching identifies the kinds of proof that rebut the presumption (title, possession suffisant) and the material elements (stumps, plantations) that support the presumption, implicating burden/type of proof.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B20.1",
+            "issue_type_name": "Private remedies (damages, injunctions, declarations, restitution)",
+            "engagement_evidence": "By citing article 34, al. 3, the text states the co-owner's entitlement to destroy a mitoyenne hedge up to the property limit and the obligation to build a wall — a concrete private remedy/entitlement consequence.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "No mandatory production rules triggered by the provided topic_set (A3.4, A3.1); selection limited to 1-4 issue types."
+        ],
+        "processed_at": "2026-02-13T03:40:05.820Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:CABRL:2019:ARR.20190502.4-008",
+      "classification": {
+        "topic_set": [
+          "A3.1",
+          "A3.3",
+          "A5.1"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A3.3",
+            "topic_name": "Use rights and neighbor conflicts (usufruct, easements, servitudes, nuisance)",
+            "confidence": 0.97,
+            "materiality_evidence": "Decision turns on status and rights attached to a boundary hedge (haie mitoyenne) and obligations between neighbouring proprietors—classic servitude/neighbor conflict issues."
+          },
+          {
+            "topic_id": "A5.1",
+            "topic_name": "Fault-based liability (negligence/delict)",
+            "confidence": 0.96,
+            "materiality_evidence": "Court finds that uprooting the common hedge without consultation and without legal justification constitutes a fault engaging civil liability and entitling the neighbour to repair."
+          },
+          {
+            "topic_id": "A3.1",
+            "topic_name": "Ownership and title",
+            "confidence": 0.88,
+            "materiality_evidence": "The judgment examines whether the hedge is reputed or legal common property and relies on title/characterisation to determine rights and liability."
+          }
+        ],
+        "issue_type_set": [
+          "B0",
+          "B1",
+          "B11",
+          "B20"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B0",
+            "issue_type_name": "Characterization (qualification)",
+            "confidence": 0.96
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "confidence": 0.9
+          },
+          {
+            "issue_type_id": "B11",
+            "issue_type_name": "Breach and violation (legal conclusion)",
+            "confidence": 0.98
+          },
+          {
+            "issue_type_id": "B20",
+            "issue_type_name": "Remedies and sanctions",
+            "confidence": 0.88
+          }
+        ],
+        "issue_key": "{A3.1,A3.3,A5.1}|{B0,B1,B11,B20}"
+      },
+      "confidence": {
+        "overall": 0.934,
+        "topic_set": 0.9366666666666666,
+        "issue_type_set": 0.9299999999999999,
+        "per_topic": [
+          {
+            "id": "A3.3",
+            "confidence": 0.97
+          },
+          {
+            "id": "A5.1",
+            "confidence": 0.96
+          },
+          {
+            "id": "A3.1",
+            "confidence": 0.88
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B0",
+            "confidence": 0.96
+          },
+          {
+            "id": "B1",
+            "confidence": 0.9
+          },
+          {
+            "id": "B11",
+            "confidence": 0.98
+          },
+          {
+            "id": "B20",
+            "confidence": 0.88
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "No production rules applicable"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Queries about haie mitoyenne, liability for uprooting boundary hedges, neighbour consultation obligations, proof of mitoyenneté and related damages."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A3.6",
+            "rejection_reason": "References to title/proof are present but the teaching does not materially analyze transfer, registration, or publicity mechanisms—too peripheral."
+          },
+          {
+            "topic_id": "A11.6",
+            "rejection_reason": "State/administrative liability is not at issue; the case is a private-law dispute between neighbours, so A11.6 would be misleading for retrieval."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B10",
+            "rejection_reason": "Factual findings (photos, huissier report) are present as evidence but the teaching does not provide actionable guidance on factual-assessment methodology; material focus is on legal qualification and liability."
+          },
+          {
+            "issue_type_id": "B15",
+            "rejection_reason": "Mention that repair is due is general; the teaching does not analyze specific heads of loss or what prejudices are compensable in actionable detail."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "haie mitoyenne (common/boundary hedge)",
+          "mitoyenneté (reputed or legal commonality of boundary features)",
+          "propriété foncière / titre de propriété",
+          "obligation de concertation entre voisins",
+          "arracher/ablation de plantation",
+          "faute civile / responsabilité délictuelle (tort-based liability)",
+          "préjudice et droit à réparation (dommages-intérêts)",
+          "preuve matérielle (constat d'huissier, photos)",
+          "disposition du Code rural (art. 34) applicable aux haies"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Neighbor/real rights law (mitoyenneté, servitudes, boundary features)",
+            "Tort/delict (fault-based civil liability for damage)",
+            "Property law (ownership and proof of title regarding boundary features)"
+          ],
+          "retrieval_consideration": "Queries about haie mitoyenne, liability for uprooting boundary hedges, neighbour consultation obligations, proof of mitoyenneté and related damages.",
+          "granularity_decisions": [
+            "Selected A3.3 (Use rights and neighbor conflicts) rather than a broader A3 because the teaching specifically treats mitoyenneté and neighbour obligations.",
+            "Selected A5.1 (Fault-based liability) as the precise civil-law framework for damages rather than a generic A5.",
+            "Included A3.1 (Ownership and title) as a distinct, specific leaf because the characterization/proof of the hedge as reputed/common is central to the decision."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B0",
+            "issue_type_name": "Characterization (qualification)",
+            "engagement_evidence": "Court determines the hedge is 'réputée mitoyenne' under article 34 of the Code rural and relies on title and photos to qualify the hedge as common boundary vegetation.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "engagement_evidence": "Judgment addresses whether the mitoyenneté rule applies or an exception (privative hedge) exists; the defendants fail to demonstrate the hedge was privative, so the protective rule applies.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B11",
+            "issue_type_name": "Breach and violation (legal conclusion)",
+            "engagement_evidence": "Court holds that uprooting the mitoyenne hedge entirely without consulting the neighbor and without legal justification constituted a fault engaging liability.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B20",
+            "issue_type_name": "Remedies and sanctions",
+            "engagement_evidence": "Teaching states the wrongful act 'ouvre droit à réparation pour les préjudices causés', indicating entitlement to remedies (damages/repair) as a direct consequence.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "No mandatory production rules triggered by the provided topic_set or selected issue types."
+        ],
+        "processed_at": "2026-02-13T03:40:47.196Z"
+      }
+    }
+  ],
+  "totalTeachings": 8,
+  "successCount": 8,
+  "failCount": 0
+}
