@@ -239,6 +239,7 @@ function displayResults(stats: Stats): void {
     }
 
     // Sort by count descending
+    // @ts-expect-error unused but kept for future use
     const sortedGroups = Array.from(groupedByAct.entries())
       .sort((a, b) => b[1].length - a[1].length);
 

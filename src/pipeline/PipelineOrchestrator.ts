@@ -10,6 +10,7 @@ import fs from 'fs';
 import path from 'path';
 import { OpenAIConcurrentClient } from '../concurrent/OpenAIConcurrentClient.js';
 import { PIPELINE_STEPS, PipelineStep } from './steps.js';
+import { aggregatePipelineResults } from './aggregate.js';
 
 // ============================================================================
 // Types
@@ -311,39 +312,9 @@ export class PipelineOrchestrator {
   }
 
   /**
-   * Aggregate all step results into a single decision JSON
-   *
-   * Follows the same field mapping as src/utils/aggregator/jobMappings.ts
+   * Aggregate all step results into the final merged-full-data format
    */
   private aggregateResults(): any {
-    const base = {
-      decision_id: this.decisionId,
-      language: this.language,
-    };
-
-    // Map step results to output fields (matching jobMappings.ts)
-    const fieldMap: Record<string, string> = {
-      'extract-comprehensive': 'comprehensive',
-      'enrich-provisions': 'extractedReferences',
-      'interpret-provisions': 'citedProvisions',
-      'extract-cited-decisions': 'citedDecisions',
-      'extract-keywords': 'customKeywords',
-      'extract-legal-teachings': 'legalTeachings',
-      'extract-micro-summary': 'microSummary',
-      'enrich-provision-citations': 'relatedCitationsLegalProvisions',
-      'enrich-teaching-citations': 'relatedCitationsLegalTeachings',
-      'classify-legal-issues': 'legalIssueClassifications',
-    };
-
-    const aggregated: any = { ...base };
-
-    for (const [stepId, outputField] of Object.entries(fieldMap)) {
-      const data = this.stepResults.get(stepId);
-      if (data !== undefined) {
-        aggregated[outputField] = data;
-      }
-    }
-
-    return aggregated;
+    return aggregatePipelineResults(this.row, this.stepResults);
   }
 }

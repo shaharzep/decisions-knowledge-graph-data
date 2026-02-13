@@ -97,6 +97,7 @@ const PARENT_NODES = new Set([
   'A13.9.1', 'A13.9.2', 'A13.9.3', 'A13.9.4', 'A13.9.5',
 ]);
 
+// @ts-expect-error unused but kept for future use
 function getLatestFullDataTimestamp(jobId: string): string | null {
   const resultsDir = path.join(process.cwd(), 'full-data', jobId);
   if (!fs.existsSync(resultsDir)) return null;

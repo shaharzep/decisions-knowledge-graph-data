@@ -1,14 +1,13 @@
 /**
  * Pipeline Step Definitions
  *
- * Defines all 11 extraction steps for the single-decision pipeline.
+ * Defines all 12 extraction steps for the single-decision pipeline.
  * Each step imports reusable pieces (prompts, schemas, executors) directly
  * from the existing job files, avoiding module-level side effects.
  */
 
 import { OpenAIConcurrentClient } from '../concurrent/OpenAIConcurrentClient.js';
 import { extractJsonFromResponse } from '../utils/validators.js';
-import { DatabaseConfig } from '../config/database.js';
 
 // ============================================================================
 // Safe imports (no module-level side effects)
@@ -41,15 +40,15 @@ import { INTERPRET_PROVISIONS_PROMPT } from '../jobs/interpret-provisions/prompt
 import { EXTRACT_LEGAL_TEACHINGS_PROMPT } from '../jobs/extract-legal-teachings/prompt.js';
 import { EXTRACT_LEGAL_TEACHINGS_SCHEMA, EXTRACT_LEGAL_TEACHINGS_SCHEMA_NAME } from '../jobs/extract-legal-teachings/schema.js';
 
-// Step 9: enrich-provision-citations
+// Step 10: enrich-provision-citations
 import { ENRICH_PROVISION_CITATIONS_PROMPT } from '../jobs/enrich-provision-citations/prompt.js';
 import { enrichProvisionCitationsSchema, SCHEMA_NAME as PROVISION_CITATIONS_SCHEMA_NAME } from '../jobs/enrich-provision-citations/schema.js';
 
-// Step 10: enrich-teaching-citations
+// Step 11: enrich-teaching-citations
 import { ENRICH_TEACHING_CITATIONS_PROMPT } from '../jobs/enrich-teaching-citations/prompt.js';
 import { enrichTeachingCitationsSchema, SCHEMA_NAME as TEACHING_CITATIONS_SCHEMA_NAME } from '../jobs/enrich-teaching-citations/schema.js';
 
-// Step 11: classify-legal-issues
+// Step 12: classify-legal-issues
 import {
   TeachingInput,
   runStage1CandidateGeneration,
@@ -58,8 +57,10 @@ import {
 } from '../jobs/classify-legal-issues/stages.js';
 import { buildFinalClassification, validateClassification } from '../jobs/classify-legal-issues/validation.js';
 
-// HTML block extraction for citation steps
-import { extractBlocksFromTransformedHtml } from '../utils/htmlTransformer.js';
+// Step 9: convert-md-to-html (no LLM) + block extraction for citation steps
+import { extractBlocksFromTransformedHtml, transformDecisionHtml } from '../utils/htmlTransformer.js';
+import { convertMarkdownToHtml } from '../utils/markdownToHtml.js';
+import * as cheerio from 'cheerio';
 
 // ============================================================================
 // Types
@@ -119,17 +120,13 @@ async function standardLLMCall(
 // Helper: Load HTML blocks for citation steps
 // ============================================================================
 
-async function loadHtmlBlocks(row: any): Promise<{ blocks: any[]; blocks_json: string }> {
-  const htmlResult = await DatabaseConfig.executeReadOnlyQuery(
-    'SELECT full_html FROM decision_fulltext1 WHERE decision_id = $1',
-    [row.id]
-  );
-
-  if (!htmlResult || htmlResult.length === 0 || !(htmlResult[0] as any).full_html) {
-    throw new Error(`Could not load HTML for decision ${row.decision_id}`);
+function loadHtmlBlocks(upstreamResults: Record<string, any>, row: any): { blocks: any[]; blocks_json: string } {
+  const htmlResult = upstreamResults['convert-md-to-html'];
+  if (!htmlResult?.full_html) {
+    throw new Error(`No HTML available from convert-md-to-html step for ${row.decision_id}`);
   }
 
-  const blocks = extractBlocksFromTransformedHtml((htmlResult[0] as any).full_html);
+  const blocks = extractBlocksFromTransformedHtml(htmlResult.full_html);
   if (blocks.length === 0) {
     throw new Error(`No blocks found in HTML for decision ${row.decision_id}`);
   }
@@ -467,18 +464,44 @@ const stepExtractLegalTeachings: PipelineStep = {
 };
 
 // ---------------------------------------------------------------------------
-// Step 9: enrich-provision-citations
+// Step 9: convert-md-to-html (no LLM)
+// ---------------------------------------------------------------------------
+const stepConvertMdToHtml: PipelineStep = {
+  id: 'convert-md-to-html',
+  dependsOn: [],
+  requiresLLM: false,
+  execute: async (row, _upstream, _client) => {
+    const markdown = row.full_md || '';
+    if (!markdown.trim()) {
+      throw new Error(`Empty markdown for decision ${row.decision_id}`);
+    }
+
+    let html = await convertMarkdownToHtml(markdown);
+
+    const $ = cheerio.load(html);
+    const bodyContent = $('body').html();
+    if (bodyContent) {
+      html = bodyContent;
+    }
+
+    const { transformedHtml } = transformDecisionHtml(row.decision_id, html);
+    return { full_html: transformedHtml };
+  },
+};
+
+// ---------------------------------------------------------------------------
+// Step 10: enrich-provision-citations
 // ---------------------------------------------------------------------------
 const stepEnrichProvisionCitations: PipelineStep = {
   id: 'enrich-provision-citations',
-  dependsOn: ['interpret-provisions', 'extract-legal-teachings', 'extract-cited-decisions'],
+  dependsOn: ['interpret-provisions', 'extract-legal-teachings', 'extract-cited-decisions', 'convert-md-to-html'],
   requiresLLM: true,
   execute: async (row, upstream, client) => {
     const agent2cResult = upstream['interpret-provisions'];
     const agent5aResult = upstream['extract-legal-teachings'];
     const agent3Result = upstream['extract-cited-decisions'];
 
-    const { blocks_json } = await loadHtmlBlocks(row);
+    const { blocks_json } = loadHtmlBlocks(upstream, row);
 
     const prompt = ENRICH_PROVISION_CITATIONS_PROMPT
       .replace('{decisionId}', row.decision_id || '')
@@ -498,18 +521,18 @@ const stepEnrichProvisionCitations: PipelineStep = {
 };
 
 // ---------------------------------------------------------------------------
-// Step 10: enrich-teaching-citations
+// Step 11: enrich-teaching-citations
 // ---------------------------------------------------------------------------
 const stepEnrichTeachingCitations: PipelineStep = {
   id: 'enrich-teaching-citations',
-  dependsOn: ['extract-legal-teachings', 'interpret-provisions', 'extract-cited-decisions'],
+  dependsOn: ['extract-legal-teachings', 'interpret-provisions', 'extract-cited-decisions', 'convert-md-to-html'],
   requiresLLM: true,
   execute: async (row, upstream, client) => {
     const agent5aResult = upstream['extract-legal-teachings'];
     const agent2cResult = upstream['interpret-provisions'];
     const agent3Result = upstream['extract-cited-decisions'];
 
-    const { blocks_json } = await loadHtmlBlocks(row);
+    const { blocks_json } = loadHtmlBlocks(upstream, row);
 
     const prompt = ENRICH_TEACHING_CITATIONS_PROMPT
       .replace('{decisionId}', row.decision_id || '')
@@ -529,7 +552,7 @@ const stepEnrichTeachingCitations: PipelineStep = {
 };
 
 // ---------------------------------------------------------------------------
-// Step 11: classify-legal-issues
+// Step 12: classify-legal-issues
 // ---------------------------------------------------------------------------
 const stepClassifyLegalIssues: PipelineStep = {
   id: 'classify-legal-issues',
@@ -631,7 +654,8 @@ export const PIPELINE_STEPS: PipelineStep[] = [
   stepEnrichProvisions,            // 6. DB row + step 2 (regex, no LLM)
   stepInterpretProvisions,         // 7. DB row + step 6
   stepExtractLegalTeachings,       // 8. DB row + step 7 + step 3
-  stepEnrichProvisionCitations,    // 9. DB row + step 7 + step 8 + step 3
-  stepEnrichTeachingCitations,     // 10. DB row + step 8
-  stepClassifyLegalIssues,         // 11. step 8 teachings
+  stepConvertMdToHtml,             // 9. DB row only (pandoc, no LLM)
+  stepEnrichProvisionCitations,    // 10. DB row + step 7 + step 8 + step 3 + step 9
+  stepEnrichTeachingCitations,     // 11. DB row + step 8 + step 9
+  stepClassifyLegalIssues,         // 12. step 8 teachings
 ];
