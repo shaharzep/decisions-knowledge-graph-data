@@ -1,0 +1,35 @@
+{
+  "customKeywords": [
+    "Arbeidsrecht",
+    "Ontslag via DocuSign",
+    "Arbeidsovereenkomst beëindiging",
+    "Kandidaat-personeelsafgevaardigde",
+    "C4-uitgifte",
+    "Absolute nietigheid opzegging",
+    "Beschermingsvergoeding",
+    "Elektronische aangetekende zending",
+    "Rechtsmisbruik",
+    "eIDAS toetsing"
+  ],
+  "metadata": {
+    "totalKeywords": 10,
+    "keywordBreakdown": {
+      "legalDomain": 1,
+      "factualSituation": 4,
+      "keyDispute": 4,
+      "distinctiveElement": 1
+    },
+    "validationChecks": {
+      "keywordCountInRange": true,
+      "allKeywordsShort": true,
+      "noGenericTerms": true,
+      "noPartyNames": true,
+      "balancedMix": true
+    }
+  },
+  "_tokenUsage": {
+    "prompt": 15223,
+    "completion": 1436,
+    "total": 16659
+  }
+}

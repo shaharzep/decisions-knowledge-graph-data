@@ -1,0 +1,670 @@
+{
+  "classifications": [
+    {
+      "teaching_id": "TEACH-ECLI:BE:AHANT:2024:ARR.20241210.1-001",
+      "classification": {
+        "topic_set": [
+          "A18.1",
+          "A6.5"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A6.5",
+            "topic_name": "Termination and dismissal",
+            "confidence": 0.98,
+            "materiality_evidence": "The teaching directly addresses the formal validity of an employer's termination notice under Art. 37 §1 of the Employment Contracts Act and the absolute nullity consequence for non-compliance."
+          },
+          {
+            "topic_id": "A18.1",
+            "topic_name": "Procedural incidents (civil)",
+            "confidence": 0.85,
+            "materiality_evidence": "The teaching treats the absolute nullity as a procedural incident that must be declared by the judge ex officio and cannot be cured by the parties."
+          }
+        ],
+        "issue_type_set": [
+          "B18",
+          "B21",
+          "B7"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B7",
+            "issue_type_name": "Validity (legal effectiveness)",
+            "confidence": 0.98
+          },
+          {
+            "issue_type_id": "B18",
+            "issue_type_name": "Defenses/exemptions/justifications",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "confidence": 0.95
+          }
+        ],
+        "issue_key": "{A18.1,A6.5}|{B18,B21,B7}"
+      },
+      "confidence": {
+        "overall": 0.935,
+        "topic_set": 0.915,
+        "issue_type_set": 0.96,
+        "per_topic": [
+          {
+            "id": "A6.5",
+            "confidence": 0.98
+          },
+          {
+            "id": "A18.1",
+            "confidence": 0.85
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B7",
+            "confidence": 0.98
+          },
+          {
+            "id": "B18",
+            "confidence": 0.95
+          },
+          {
+            "id": "B21",
+            "confidence": 0.95
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "R-orig-2: A18.1/4/5/6 → B21 satisfied"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Users searching for employer notice formalities, absolute nullity of dismissals for defective service, or court's ex officio power to declare invalid a termination notice should retrieve this teaching."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A6.2",
+            "rejection_reason": "Less specific: focuses on employment-contract terms generally, whereas the teaching specifically addresses termination notification formalities and their procedural nullity (better covered by A6.5 and A18.1)."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B10",
+            "rejection_reason": "Factual compliance (how the notice was actually sent) is contextually relevant but the teaching provides legal rule on nullity rather than actionable guidance for factual assessment; therefore not materially engaged."
+          },
+          {
+            "issue_type_id": "B22",
+            "rejection_reason": "Evidentiary issues (proof of service) are implicated, but the teaching does not develop burdens/standards of proof or admissibility; it focuses on the absolute nature of the nullity and procedural declaration by the court."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "absolute nietigheid (absolute nullity)",
+          "kennisgeving van opzegging (termination notice / notification)",
+          "ter post aangetekende brief (registered mail / recorded delivery)",
+          "gerechtsdeurwaardersexploot (bailiff service / process-server service)",
+          "anti-datering (antidating / backdating)",
+          "rechterlijke ambtswege vaststelling (judge raising ex officio)",
+          "niet-dekbaarheid door partijen (non-waivable / cannot be cured by parties)",
+          "Arbeidsovereenkomstenwet artikel 37, §1 (Employment Contracts Act art. 37 §1)",
+          "betekening en bewijs van betekening (service of notice and proof of service)"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Belgian employment law — formal requirements for termination notices (Art. 37 §1 Employment Contracts Act)",
+            "Civil procedural law — effects of defective notification and court's power to declare absolute nullity (procedural incident)"
+          ],
+          "retrieval_consideration": "Users searching for employer notice formalities, absolute nullity of dismissals for defective service, or court's ex officio power to declare invalid a termination notice should retrieve this teaching.",
+          "granularity_decisions": [
+            "Selected A6.5 (Termination and dismissal) because the teaching materially analyzes the legal validity of an employer's termination notice under the Employment Contracts Act (most specific leaf for dismissal issues).",
+            "Included A18.1 (Procedural incidents (civil)) because the teaching centrally addresses the procedural consequence (absolute nullity) and the judge's ex officio role — a distinct procedural framework relevant for retrieval.",
+            "Rejected A6.2 (Employment contract terms) because the teaching is not about general contract terms but about statutory formal requirements and procedural nullity specific to termination notices."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B7",
+            "issue_type_name": "Validity (legal effectiveness)",
+            "engagement_evidence": "Teaching states that non-compliance with prescribed notification modes renders the employer's termination absolutely null; this directly concerns the legal effectiveness/validity of the termination.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B18",
+            "issue_type_name": "Defenses/exemptions/justifications",
+            "engagement_evidence": "Teaching emphasises the nullity is absolute and cannot be 'covered' or waived by the employee/parties, addressing availability (or rather unavailability) of waiver/defensive doctrines.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "engagement_evidence": "Teaching explains that the judge must declare the nullity of office (ambtshalve), which is a procedural rule about how the court handles the defect in litigation.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "topic_set contains A18.1 -> MUST include B21 (Procedure)"
+        ],
+        "processed_at": "2026-02-14T03:12:56.162Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:AHANT:2024:ARR.20241210.1-002",
+      "classification": {
+        "topic_set": [
+          "A13.8.5",
+          "A4.1"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A13.8.5",
+            "topic_name": "Electronic identification (eIDAS)",
+            "confidence": 0.98,
+            "materiality_evidence": "Teaching squarely rests on eIDAS articles (article 44; art. 3, 36°) and qualified trust service requirements (qualified timestamps, advanced signatures/seals, qualified trust service providers) for equivalence to registered mail."
+          },
+          {
+            "topic_id": "A4.1",
+            "topic_name": "Formation and pre-contract duties (offer/acceptance, culpa in contrahendo)",
+            "confidence": 0.88,
+            "materiality_evidence": "Teaching analyzes when an electronic transmission satisfies a statutory/formal delivery requirement and thus affects the validity of legal acts (e.g., notices, formation), making it relevant to contract formation and form requirements."
+          }
+        ],
+        "issue_type_set": [
+          "B1",
+          "B22",
+          "B7",
+          "B8"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "confidence": 0.97
+          },
+          {
+            "issue_type_id": "B7",
+            "issue_type_name": "Validity (legal effectiveness)",
+            "confidence": 0.96
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "confidence": 0.92
+          }
+        ],
+        "issue_key": "{A13.8.5,A4.1}|{B1,B22,B7,B8}"
+      },
+      "confidence": {
+        "overall": 0.939,
+        "topic_set": 0.9299999999999999,
+        "issue_type_set": 0.95,
+        "per_topic": [
+          {
+            "id": "A13.8.5",
+            "confidence": 0.98
+          },
+          {
+            "id": "A4.1",
+            "confidence": 0.88
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B1",
+            "confidence": 0.97
+          },
+          {
+            "id": "B7",
+            "confidence": 0.96
+          },
+          {
+            "id": "B8",
+            "confidence": 0.95
+          },
+          {
+            "id": "B22",
+            "confidence": 0.92
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "No production rules applicable"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Queries about when an electronic transmission counts as a legally equivalent registered postal dispatch, requirements under eIDAS (qualified trust service providers, advanced signatures/seals, qualified timestamps), and the consequences for contractual/formal acts (validity of notices, formation, proof of sending/receipt)."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A4.6",
+            "rejection_reason": "While the factual trigger mentions validity of a statutory act (e.g., termination), the teaching focuses on form/equivalence under eIDAS rather than on remedies or contract adjustment (force majeure/hardship), so A4.6 is less directly material."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B0",
+            "rejection_reason": "Characterization/qualification is only background context (labeling an electronic transmission as 'equated') and not actionably analyzed as a separate civil-law qualification issue in the teaching."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "eIDAS-Verordening (article 44; art. 3, 36°)",
+          "gekwalificeerde vertrouwensdienstverlener (qualified trust service provider)",
+          "elektronische aangetekende zending (electronic registered delivery)",
+          "geavanceerde elektronische handtekening / zegel (advanced electronic signature / seal)",
+          "gekwalificeerd elektronisch tijdstempel (qualified electronic timestamp)",
+          "bewijs van verzending en ontvangst (proof of sending/receipt)",
+          "artikel XII.25 §7 WER (verplichting gebruik gekwalificeerde dienst voor elektronische aangetekende zending)",
+          "gelijkstelling van elektronische verzending aan ter post aangetekende zending (equivalence to registered mail)",
+          "beoordelingsbevoegdheid rechter bij afwezigheid gekwalificeerde dienst (judge assessing equivalence)",
+          "gebruik van commerciële diensten zoals DocuSign als niet-gekwalificeerde dienst"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "EU electronic identification and trust services law (eIDAS Regulation) - qualified trust services, electronic registered delivery",
+            "Belgian domestic law on formalities (XII.25 §7 WER) and general contract/form rules (formation and formal validity)"
+          ],
+          "retrieval_consideration": "Queries about when an electronic transmission counts as a legally equivalent registered postal dispatch, requirements under eIDAS (qualified trust service providers, advanced signatures/seals, qualified timestamps), and the consequences for contractual/formal acts (validity of notices, formation, proof of sending/receipt).",
+          "granularity_decisions": [
+            "Select A13.8.5 (Electronic identification / eIDAS) as the most specific leaf covering the regulatory technical requirements and qualified trust services.",
+            "Select A4.1 (Formation and pre-contract duties) rather than broader A4 because the teaching is specifically about form requirements and legal effects of electronic delivery for statutory/formal acts, not about termination remedies broadly.",
+            "Do not include A4.6 (adjustment/termination) because the decision focuses on form/effect of electronic delivery rather than force majeure/hardship issues."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "engagement_evidence": "The teaching determines when an electronic transmission can be regarded as equivalent to a physical registered mailing under eIDAS and national law (when the eIDAS regime / qualified service requirement applies).",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B7",
+            "issue_type_name": "Validity (legal effectiveness)",
+            "engagement_evidence": "The core legal question addressed is whether an electronic sending that meets the listed requirements produces the legal effect of a (physical) registered mailing (i.e., renders the underlying act valid/effective).",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "engagement_evidence": "The teaching specifies the substantive quality requirements (identification, security, advanced signature/seal, qualified timestamp, proof of sending/receipt) that define what 'equivalence' requires.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "engagement_evidence": "When no qualified provider was used the court must examine whether the non-qualified service offers equivalent guarantees—an assessment of evidentiary proof (identification, integrity, timestamps, proof of transmission/receipt).",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "No A18.x topics present; no mandatory B21/B22/B23 inclusions triggered by deterministic rules."
+        ],
+        "processed_at": "2026-02-14T03:13:50.092Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:AHANT:2024:ARR.20241210.1-003",
+      "classification": {
+        "topic_set": [
+          "A13.8.5",
+          "A18.2",
+          "A6.5"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A6.5",
+            "topic_name": "Termination and dismissal",
+            "confidence": 0.95,
+            "materiality_evidence": "The teaching addresses whether an electronic transmission satisfies statutory form requirements for a dismissal and thus whether the termination is valid."
+          },
+          {
+            "topic_id": "A18.2",
+            "topic_name": "Evidence application (dispositive)",
+            "confidence": 0.95,
+            "materiality_evidence": "The holding is dispositive on the evidentiary sufficiency of a completion certificate and places the burden on the sender to prove equivalence with a registered physical service."
+          },
+          {
+            "topic_id": "A13.8.5",
+            "topic_name": "Electronic identification (eIDAS)",
+            "confidence": 0.9,
+            "materiality_evidence": "The decision evaluates eIDAS concepts — advanced electronic signature/seal and qualified timestamp — and their adequacy as proof-of-delivery."
+          }
+        ],
+        "issue_type_set": [
+          "B1",
+          "B22",
+          "B7"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "confidence": 0.98
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "confidence": 0.92
+          },
+          {
+            "issue_type_id": "B7",
+            "issue_type_name": "Validity (legal effectiveness)",
+            "confidence": 0.9
+          }
+        ],
+        "issue_key": "{A13.8.5,A18.2,A6.5}|{B1,B22,B7}"
+      },
+      "confidence": {
+        "overall": 0.933,
+        "topic_set": 0.9333333333333332,
+        "issue_type_set": 0.9333333333333332,
+        "per_topic": [
+          {
+            "id": "A6.5",
+            "confidence": 0.95
+          },
+          {
+            "id": "A18.2",
+            "confidence": 0.95
+          },
+          {
+            "id": "A13.8.5",
+            "confidence": 0.9
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B22",
+            "confidence": 0.98
+          },
+          {
+            "id": "B1",
+            "confidence": 0.92
+          },
+          {
+            "id": "B7",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "R-orig-1: A18.2 → B22 satisfied"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Queries about whether an electronic transmission (completion certificate, advanced signature, qualified timestamp, or commercial platform evidence) suffices to meet statutory form/notification requirements for a dismissal; searches on eIDAS trust services as proof of delivery; procedural proof/burden of proof in employment termination cases involving electronic service."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A4.1",
+            "rejection_reason": "Too general: the teaching is about statutory form for termination and evidentiary proof rather than general formation/pre-contract duties."
+          },
+          {
+            "topic_id": "A9.1",
+            "rejection_reason": "Privacy/data-protection elements are peripheral (identification/security of accounts) and not materially analyzed as a primary legal framework in the teaching."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B0",
+            "rejection_reason": "Characterization/qualification is only background to the core evidentiary and validity questions and not actionably analyzed as a separate legal framing issue."
+          },
+          {
+            "issue_type_id": "B6",
+            "rejection_reason": "Formation/creation aspects are peripheral; the teaching does not provide actionable guidance on requirements for creation of a legal act beyond evidentiary sufficiency and effect."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "bewijslast (burden of proof) bij elektronische zending",
+          "evidentiary value van voltooiingscertificaat / 'completion certificate'",
+          "kwalificeerde dienstverlener (qualified trust service provider) / eIDAS",
+          "geavanceerde elektronische handtekening / zegel",
+          "gekwalificeerd tijdstempel (qualified timestamp)",
+          "beveiliging en identificatieprocedure van ontvanger (account verification)",
+          "elektronische betekening / verzending als wettelijk vormvoorschrift",
+          "geldigheid van opzeggingsbrief / vormvereisten bij beëindiging arbeidsovereenkomst",
+          "gebruik van commerciële platforms (DocuSign) als bewijs"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Employment law — validity of termination notices and statutory form requirements",
+            "Evidentiary law — burden of proof and admissibility/weight of electronic delivery evidence",
+            "eIDAS / electronic identification and trust services — qualified signatures, seals, timestamps and proof-of-delivery"
+          ],
+          "retrieval_consideration": "Queries about whether an electronic transmission (completion certificate, advanced signature, qualified timestamp, or commercial platform evidence) suffices to meet statutory form/notification requirements for a dismissal; searches on eIDAS trust services as proof of delivery; procedural proof/burden of proof in employment termination cases involving electronic service.",
+          "granularity_decisions": [
+            "Selected A6.5 (Termination and dismissal) because the teaching directly determines validity of a dismissal notice.",
+            "Selected A18.2 (Evidence application (dispositive)) because the holding turns on admissibility/weight of a specific evidentiary instrument (completion certificate) as dispositive proof of delivery.",
+            "Selected A13.8.5 (Electronic identification (eIDAS)) because the decision evaluates qualified trust services (advanced signatures/seals, qualified timestamps) under the eIDAS framework.",
+            "Did not choose broader nodes (e.g., A4.1 formation) because the teaching focuses specifically on termination formality and evidentiary proof rather than general contract formation."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "engagement_evidence": "Core teaching focuses on whether the completion certificate and circumstances of the electronic transmission constitute sufficient proof of delivery; Court directs fact-finder to assess weight/admissibility of the certificate and lack of identification/qualified timestamp.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "engagement_evidence": "The teaching raises whether a statutory/formal requirement for a registered/physical delivery can be satisfied by a given electronic service (i.e., whether the electronic channel can fulfil the statutory form requirement).",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B7",
+            "issue_type_name": "Validity (legal effectiveness)",
+            "engagement_evidence": "The conclusion that the completion certificate cannot be considered proof of delivery has direct consequences for the legal effectiveness of the dismissal notice — the teaching addresses whether the termination act is legally effective given insufficient electronic proof.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "topic_set includes A18.2 → MUST include B22"
+        ],
+        "processed_at": "2026-02-14T03:14:36.273Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:AHANT:2024:ARR.20241210.1-004",
+      "classification": {
+        "topic_set": [
+          "A18.1",
+          "A4.2",
+          "A6.5"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A6.5",
+            "topic_name": "Termination and dismissal",
+            "confidence": 0.93,
+            "materiality_evidence": "The decision concerns nullity of an opzegging (termination/notice) of an employment contract when a public-order statutory rule is breached."
+          },
+          {
+            "topic_id": "A4.2",
+            "topic_name": "Validity defects (mistake, fraud, duress, illegality)",
+            "confidence": 0.96,
+            "materiality_evidence": "Central legal effect analyzed is absolute nietigheid under art. 5.58 BW — a substantive validity/illegality ground rendering the act void."
+          },
+          {
+            "topic_id": "A18.1",
+            "topic_name": "Procedural incidents (civil)",
+            "confidence": 0.9,
+            "materiality_evidence": "Teaching establishes a procedural obligation for the judge to raise absolute nullity of a public-order rule ambtshalve, a dispositive procedural incident in civil proceedings."
+          }
+        ],
+        "issue_type_set": [
+          "B2",
+          "B21",
+          "B7"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B7",
+            "issue_type_name": "Validity (legal effectiveness)",
+            "confidence": 0.98
+          },
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B2",
+            "issue_type_name": "Parties, capacity, authority",
+            "confidence": 0.9
+          }
+        ],
+        "issue_key": "{A18.1,A4.2,A6.5}|{B2,B21,B7}"
+      },
+      "confidence": {
+        "overall": 0.936,
+        "topic_set": 0.93,
+        "issue_type_set": 0.9433333333333334,
+        "per_topic": [
+          {
+            "id": "A6.5",
+            "confidence": 0.93
+          },
+          {
+            "id": "A4.2",
+            "confidence": 0.96
+          },
+          {
+            "id": "A18.1",
+            "confidence": 0.9
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B7",
+            "confidence": 0.98
+          },
+          {
+            "id": "B21",
+            "confidence": 0.95
+          },
+          {
+            "id": "B2",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "R-orig-2: A18.1/4/5/6 → B21 satisfied",
+          "R1: A4.2 → B7 satisfied"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Queries about nullity under art. 5.58 BW, public-order (openbare-ordebepaling) defects leading to absolute nietigheid of employment terminations, and the court's procedural obligation to raise such nietigheid ambtshalve."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A17.1",
+            "rejection_reason": "Civil procedure doctrine is relevant but the teaching's procedural issue is specific (procedural incident of raising nietigheid ambtshalve), so the more specific A18.1 was chosen instead of the broader doctrine node."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B0",
+            "rejection_reason": "Characterization (public-order classification) is discussed but serves the validity conclusion; the teaching gives actionable guidance on legal effect and procedure rather than a standalone analysis of norm-qualification."
+          },
+          {
+            "issue_type_id": "B1",
+            "rejection_reason": "Applicability/scope is only indirectly addressed (limits of prior case law) and not developed into actionable guidance separate from the validity/procedure analysis."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "absolute nullity (nietigheid absoluta)",
+          "openbare-ordebepaling (public-order rule)",
+          "ambtshalve opwerping (judge raising nullity ex officio)",
+          "opzegging van arbeidsovereenkomst (termination/notice of employment)",
+          "toegankelijkheid/actio van iedere belanghebbende (standing of any interested party)",
+          "ongeldigheid/vernietigbaarheid (validity defect under civil law)",
+          "toepassing van art. 5.58 Burgerlijk Wetboek",
+          "relatie tot eerdere rechtspraak (precedent and inapplicability of older case law)"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Employment law — termination/notice of employment contracts",
+            "Civil substantive law — contract validity and nullity (absolute nietigheid) under Burgerlijk Wetboek art. 5.58",
+            "Civil procedure — judge's duty to raise public-order nullity ex officio (procedural incident)"
+          ],
+          "retrieval_consideration": "Queries about nullity under art. 5.58 BW, public-order (openbare-ordebepaling) defects leading to absolute nietigheid of employment terminations, and the court's procedural obligation to raise such nietigheid ambtshalve.",
+          "granularity_decisions": [
+            "Selected A4.2 (Validity defects) rather than a higher-level validity node because the teaching centrally analyzes absolute nietigheid as a validity/illegality ground under art. 5.58 BW.",
+            "Included A18.1 (Procedural incidents) because the teaching materially addresses the procedural rule that the judge must raise public-order nullity ex officio.",
+            "Included A6.5 (Termination and dismissal) because the factual trigger and legal application concern the nullity of an employment termination; chose the specific termination leaf rather than a generic labour node."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B7",
+            "issue_type_name": "Validity (legal effectiveness)",
+            "engagement_evidence": "Teaching holds that breach of a public-order provision (art. 5.58 BW and law of 19 March 1991) causes absolute nullity of the termination; court applies this legal-effect rule to the termination at issue.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "engagement_evidence": "Teaching states the judge must raise the absolute nullity ex officio (ambtshalve), imposing a procedural obligation and in-forum mechanic on the court.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B2",
+            "issue_type_name": "Parties, capacity, authority",
+            "engagement_evidence": "Teaching affirms that 'every interested party' may invoke the absolute nullity, directly addressing who may rely on the rule (standing/privity).",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "Topic set contains A18.1 → included B21 (Procedure).",
+          "Topic set contains A4.2 → included B7 (Validity)."
+        ],
+        "processed_at": "2026-02-14T03:15:22.834Z"
+      }
+    }
+  ],
+  "totalTeachings": 4,
+  "successCount": 4,
+  "failCount": 0
+}

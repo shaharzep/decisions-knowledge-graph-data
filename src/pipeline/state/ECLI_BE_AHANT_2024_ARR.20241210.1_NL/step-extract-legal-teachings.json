@@ -1,0 +1,190 @@
+{
+  "legalTeachings": [
+    {
+      "teachingId": "TEACH-ECLI:BE:AHANT:2024:ARR.20241210.1-001",
+      "text": "De kennisgeving van een opzegging door de werkgever moet, op straffe van absolute nietigheid, gebeuren per ter post aangetekende brief of via gerechtsdeurwaardersexploot overeenkomstig art. 37, §1 Arbeidsovereenkomstenwet; deze absolute nietigheid beoogt antidatering te voorkomen en moet door de rechter ambtshalve worden vastgesteld (kan niet door partijen gedekt worden).",
+      "courtVerbatim": "Volgens artikel 37, § 1, vierde lid van de Arbeidsovereenkomstenwet moet de kennisgeving van de opzegging door de werkgever als volgt gebeuren; \"Indien de opzegging uitgaat van de werkgever, kan de kennisgeving van de opzegging, op straffe van nietigheid, enkel geschieden hetzij bij een ter post aangetekende brief die uitwerking heeft de derde werkdag na de datum van verzending, hetzij bij gerechtsdeurwaardersexploot, met dien verstande dat de werknemer die nietigheid niet kan dekken en dat ze door de rechter van ambtswege wordt vastgesteld.\" Het betreft een absolute nietigheid in het algemeen belang met als doel om antidatering te voorkomen. Antidatering kan niet worden gedekt. De nietigheid kan dus niet worden gedekt indien blijkt dat de zending de geadresseerde heeft bereikt.",
+      "courtVerbatimLanguage": "NL",
+      "factualTrigger": "Van toepassing wanneer een werkgever stelt een opzeggingsbrief te hebben betekend en de wijze van betekening in geschil is met het oog op de geldigheid van de opzegging.",
+      "relevantFactualContext": "De werkgever verstuurde de opzeggingsbrief via DocuSign in plaats van per aangetekende brief of deurwaardersexploot; er was geen bewijs van aangetekende zending en de vraag rijst of die verzending de vormvoorschriften van art. 37 §1 vervulde.",
+      "principleType": "PROCEDURAL_RULE",
+      "legalArea": "EMPLOYMENT_LAW",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": true,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-012"
+      ],
+      "relatedCitedDecisionsId": [
+        "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-005"
+      ],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:AHANT:2024:ARR.20241210.1-002",
+      "text": "Een elektronische verzending kan alleen als gelijkgesteld met een fysieke ter post aangetekende zending worden beschouwd indien zij voldoet aan de kwaliteitsvereisten van de eIDAS-Verordening (artikel 44 en artikel 3, 36°) en, voor de onweerlegbare gelijkstelling, via een gekwalificeerde vertrouwensdienstverlener conform artikel XII.25 §7 WER wordt verricht; bij afwezigheid van een gekwalificeerde dienst moet de rechter nagaan of de gebruikte dienst dezelfde waarborgen biedt (identificatie, beveiliging, geavanceerde handtekening/zegel, gekwalificeerd tijdstempel, bewijs van verzending/ontvangst).",
+      "courtVerbatim": "Om van de gekwalificeerde status van een elektronische aangetekende zending te kunnen genieten, moet volgens artikel 44 van de eIDAS-Verordening ... de dienst van een elektronische aangetekende zending aan de volgende eisen voldoen: (i) hij wordt door een of meerdere gekwalificeerde vertrouwensdienstverleners geleverd; (ii) hij garandeert de identificatie van de afzender en de bestemming met een hoge vertrouwensgraad; (iii) de verzending en de ontvangst van de gegevens worden beveiligd door een geavanceerde elektronische handtekening of door een geavanceerd elektronisch zegel van een gekwalificeerde verlener van vertrouwensdiensten, zodat elke niet op te sporen mogelijkheid tot wijziging van de gegevens wordt uitgesloten; (iv) de verzender en de geadresseerde van de gegevens worden op duidelijke wijze in kennis gesteld van elke wijziging van de gegevens die nodig is voor het verzenden of het ontvangen van de gegevens; (v) de datum en het tijdstip van het verzenden, ontvangen en wijzigen van gegevens worden aangegeven met een gekwalificeerd elektronisch tijdstempel. Artikel XII.25, § 7 tweede lid van het Wetboek van economisch recht legt voor het gebruik van een elektronische aangetekende zending de verplichting op om een gekwalificeerde dienstverlener te gebruiken. Wanneer geen gebruik werd gemaakt van een gekwalificeerde dienstverlener, moet het arbeidshof onderzoeken of de versturing van de opzeggingsbrief via DocuSign dezelfde waarborgen biedt als een fysieke aangetekende zending.",
+      "courtVerbatimLanguage": "NL",
+      "factualTrigger": "Toegepast wanneer een partij stelt dat een elektronische verzending voldoet aan het vormvoorschrift van een ter post aangetekende zending en daardoor de geldigheid van een wettelijke handeling moet bepalen.",
+      "relevantFactualContext": "De opzeggingsbrief was verzonden via DocuSign; DocuSign beschikte niet over een QeRDS-certificaat en het voltooiingscertificaat toonde geen identificatieprocedure van de ontvanger, geen geavanceerde handtekening/zegel of gekwalificeerd tijdstempel.",
+      "principleType": "INTERPRETATION_RULE",
+      "legalArea": "EMPLOYMENT_LAW",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [
+          "TEACH-ECLI:BE:AHANT:2024:ARR.20241210.1-003"
+        ],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": false,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-013",
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-014",
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-015",
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-016"
+      ],
+      "relatedCitedDecisionsId": [
+        "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-005",
+        "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-006"
+      ],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:AHANT:2024:ARR.20241210.1-003",
+      "text": "Wanneer een partij, in het bijzonder de werkgever, zich beroept op een elektronische zending om te voldoen aan een wettelijk vormvoorschrift, rust op die partij de bewijslast om aan te tonen dat de gebruikte elektronische dienst dezelfde waarborgen biedt als een fysieke aangetekende zending; een voltooiingscertificaat zonder identificatieprocedure van de ontvanger, geavanceerde handtekening/zegel van de ontvanger of gekwalificeerd tijdstempel volstaat niet als afgiftebewijs.",
+      "courtVerbatim": "Aangezien geen gebruik werd gemaakt van een gekwalificeerde dienstverlener, moet het arbeidshof onderzoeken of de versturing van de opzeggingsbrief via DocuSign dezelfde waarborgen biedt als een fysieke aangetekende zending. Op basis van het voltooiingscertificaat kan worden vastgesteld dat een e-mail werd verstuurd naar het professionele e-mailaccount van C A B, zonder een voorafgaande accountverificatie, en zonder het volgen van een welbepaalde procedure ('beveiligingsniveau e-mail adres'). ... Uit het voltooiingscertificaat blijkt niet dat de verzending en de ontvangst van de brief werden beveiligd door een geavanceerde elektronische handtekening of zegel en door middel van een gekwalificeerde elektronische tijdstempel, zodat elke niet op te sporen mogelijkheid tot wijziging van de gegevens kan worden uitgesloten. Het voltooiingscertificaat kan bijgevolg niet als een afgiftebewijs worden beschouwd.",
+      "courtVerbatimLanguage": "NL",
+      "factualTrigger": "Relevante waar de geldigheid van een opzegging of vormhandeling afhangt van het bewijs dat een elektronische zending de vereiste waarborgen bood.",
+      "relevantFactualContext": "Het voorgelegde DocuSign-voltooiingscertificaat toonde slechts verzending naar een professioneel e-mailaccount en de handtekening van de verzender; er was geen bewijs van ontvangeridentificatie, registratie voor elektronische ontvangst of gekwalificeerd tijdstempel.",
+      "principleType": "BURDEN_PROOF",
+      "legalArea": "EMPLOYMENT_LAW",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": "TEACH-ECLI:BE:AHANT:2024:ARR.20241210.1-002",
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": false,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-013",
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-015",
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-016"
+      ],
+      "relatedCitedDecisionsId": [
+        "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-005",
+        "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-006"
+      ],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:AHANT:2024:ARR.20241210.1-004",
+      "text": "Artikel 5.58, eerste lid, van het Burgerlijk Wetboek brengt mee dat de schending van een openbare-ordebepaling absolute nietigheid tot gevolg heeft; wanneer een wetsbepaling van openbare orde (zoals de wet van 19 maart 1991) wordt geschonden, kan elke belanghebbende zich op die absolute nietigheid beroepen en dient de rechter die nietigheid ambtshalve op te werpen, ook indien de vroegere rechtspraak anders oordeelde vóór de inwerkingtreding van art. 5.58.",
+      "courtVerbatim": "Artikel 5.58, eerste lid van het Burgerlijk Wetboek bepaalt dat de nietigheid absoluut is wanneer de geschonden regel van openbare orde is en dus in hoofdzaak de bescherming van het algemeen belang beoogt. Iedere belanghebbende kan zich op de absolute nietigheid beroepen. Het openbare orde karakter van de wet van 19 maart 1991 werd reeds erkend door het Hof van Cassatie en hierover bestaat geen discussie tussen partijen. Gelet op het voorgaande, had de nietigheid van de opzegging van 5 mei 2021 ambtshalve moeten worden opgeworpen. Het arbeidshof oordeelt dat het arrest van het Hof van Cassatie van 22 juni 2009 niet zonder meer kan worden toegepast op voorliggend geschil, omdat er in het arrest van het Hof van Cassatie sprake was van een rechtsgeldige opzegging voor de werkgever. Dit is hier niet het geval.",
+      "courtVerbatimLanguage": "NL",
+      "factualTrigger": "Van toepassing wanneer een wettelijke bepaling van openbare orde wordt geschonden bij beëindiging van een arbeidsovereenkomst of een procedurele handeling.",
+      "relevantFactualContext": "De opzegging schond de beschermingsregels van de wet van 19 maart 1991 en die wet is van openbare orde; doordat de opzegging bovendien niet in de wettelijk voorgeschreven vorm werd betekend, moest de nietigheid ambtshalve door de rechtbank worden vastgesteld.",
+      "principleType": "INTERPRETATION_RULE",
+      "legalArea": "EMPLOYMENT_LAW",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": true,
+        "confirmsExistingDoctrine": false,
+        "distinguishesPriorCase": true
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-019",
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-009",
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-010",
+        "ART-ECLI:BE:AHANT:2024:ARR.20241210.1-011"
+      ],
+      "relatedCitedDecisionsId": [
+        "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-013",
+        "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-010"
+      ],
+      "sourceAuthor": "AI_GENERATED"
+    }
+  ],
+  "metadata": {
+    "totalTeachings": 4,
+    "extractedCourtLevel": "APPEAL",
+    "courtLevelConfidence": "HIGH",
+    "teachingTypes": {
+      "interpretive": 2,
+      "application": 0,
+      "balancing": 0,
+      "procedural": 1,
+      "remedial": 0,
+      "legal_test": 0,
+      "burden_proof": 1
+    },
+    "hierarchicalRelationships": {
+      "parentChildPairs": 1,
+      "ruleExceptionPairs": 0,
+      "conflicts": 0
+    },
+    "courtLevelDistribution": {
+      "cassation": 0,
+      "appeal": 4,
+      "first_instance": 0
+    },
+    "validationChecks": {
+      "allTeachingsHaveSourceAuthor": true,
+      "sourceAuthorCorrect": true,
+      "teachingCountReasonable": true,
+      "allTeachingsHaveContext": true,
+      "allTeachingsHaveVerbatim": true,
+      "legalIssuesEmptyAsExpected": true,
+      "allProvisionIdsValid": true,
+      "allDecisionIdsValid": true,
+      "allHierarchyReferencesValid": true,
+      "courtLevelDetected": true
+    }
+  },
+  "_tokenUsage": {
+    "prompt": 30391,
+    "completion": 8445,
+    "total": 38836
+  }
+}

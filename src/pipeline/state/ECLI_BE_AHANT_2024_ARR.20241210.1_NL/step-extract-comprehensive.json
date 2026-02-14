@@ -1,0 +1,57 @@
+{
+  "reference": {
+    "citationReference": "Arbeidshof Antwerpen, 10 december 2024, AR 2023/AA/254, ECLI:BE:AHANT:2024:ARR.20241210.1"
+  },
+  "parties": [
+    {
+      "id": "PARTY-ECLI:BE:AHANT:2024:ARR.20241210.1-001",
+      "name": "EXXONMOBIL PETROLEUM & CHEMICAL BV",
+      "type": "LEGAL_ENTITY",
+      "proceduralRole": "APPELLANT"
+    },
+    {
+      "id": "PARTY-ECLI:BE:AHANT:2024:ARR.20241210.1-002",
+      "name": "C A B",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "GEÏNTIMEERDE"
+    },
+    {
+      "id": "PARTY-ECLI:BE:AHANT:2024:ARR.20241210.1-003",
+      "name": "ABVV REGIO ANTWERPEN",
+      "type": "LEGAL_ENTITY",
+      "proceduralRole": "TUSSENKOMENDE_PARTIJ"
+    }
+  ],
+  "currentInstance": {
+    "facts": "C A B trad op 15 oktober 1979 in dienst bij EXXONMOBIL Petroleum & Chemical bv met een arbeidsovereenkomst voor onbepaalde tijd. Bij de sociale verkiezingen van 2020 stelde hij zich kandidaat voor het CPBW en de ondernemingsraad maar werd niet verkozen. Met een brief van 5 mei 2021 beëindigde de bv de arbeidsovereenkomst en vermeldde een opzeggingstermijn van 26 weken, waarvan de opzeg zou ingaan op 10 mei 2021; die brief werd verstuurd via DocuSign. De vakorganisatie van C A B stuurde meerdere aanmaningen (21 juni 2021, 16 juli 2021) en een aangetekende brief van 26 oktober 2021 waarin zij stelde dat de opzegging begon op 10 mei 2021 en liep tot 16 november 2021 wegens opgenomen vakantiedagen. C A B correspondeerde met de werkgever per e-mail (4 november 2021) en ontving een reactie van HR waaruit volgens hem blijkt dat zijn laatste werkdag 16 november 2021 zou zijn. Op 16 november 2021 leverde de bv een formulier C4 af waarin werd vermeld dat C A B die dag vrijwillig zijn arbeidsovereenkomst beëindigde. C A B nam op 15 november 2021 de zaak aanhangig bij de arbeidsrechtbank. Hij nam ook zijn wettelijk pensioen en ontving een pensioenkapitaal van € 397.088,15 bruto via het pensioenfonds van de bv. Voor de arbeidsrechtbank vorderde C A B een beschermingsvergoeding ingevolge de wet van 19 maart 1991; de arbeidsrechtbank wees bij vonnis van 28 november 2022 de vordering deels toe (beschermingsvergoeding € 345.364,36 bruto) en verbood de gerechtskosten aan de zijde van de eiser en stelde rechtsplegingsvergoeding voor de bv vast; bij vonnis van 17 april 2023 werd het dictum van 28 november 2022 ambtshalve aangevuld met de veroordeling tot aflevering van een aangepast formulier C4. EXXONMOBIL tekende bij het arbeidshof hoger beroep aan tegen beide vonnissen op 4 augustus 2023; C A B stelde incidenteel hoger beroep in. In hoger beroep staat onder meer ter discussie of de opzeggingsbrief van 5 mei 2021, verzonden via DocuSign, gelijkgesteld kan worden met een (elektronische) aangetekende zending en of de opzegging rechtsgeldig een einde maakte aan de arbeidsovereenkomst, dan wel absoluut nietig was, alsook of en in hoeverre de wet van 19 maart 1991 bescherming toekent en of eventuele nietigheid ambtshalve moet worden opgeheven of gemitigeerd.",
+    "requests": [
+      {
+        "partyId": "PARTY-ECLI:BE:AHANT:2024:ARR.20241210.1-001",
+        "requests": "Het hoger beroep ontvankelijk en gegrond verklaren; het incidenteel beroep ongegrond verklaren; de vonnissen a quo te hervormen en de vordering van C A B tot veroordeling van ExxonMobil tot betaling van een beschermingsvergoeding en aflevering van een aangepast formulier C4 ongegrond te verklaren; subsidiair de beschermingsvergoeding te herleiden naar € 345.364,36 bruto; C A B te veroordelen in de kosten."
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:AHANT:2024:ARR.20241210.1-002",
+        "requests": "Het hoger beroep ontvankelijk doch ongegrond verklaren en de bestreden vonnissen dd. 28.11.2022 en 17.4.2023 te bevestigen voor hetgeen reeds is toegekend; het incidenteel hoger beroep ontvankelijk en gegrond verklaren; ExxonMobil te veroordelen tot betaling van een beschermingsvergoeding van € 383.545,04 en tot aflevering van een aangepast formulier C4."
+      }
+    ],
+    "arguments": [
+      {
+        "partyId": "PARTY-ECLI:BE:AHANT:2024:ARR.20241210.1-002",
+        "argument": "C A B voert aan dat de opzegging van 5 mei 2021 niet nietig is omdat de werkgever de wet van 19 maart 1991 heeft geschonden en beroept zich op rechtspraak en op het feit dat DocuSign een wettig systeem van elektronische verzending is dat antidatering uitsluit. Hij stelt dat de beschermingsvergoeding is gekoppeld aan het gegeven ontslag en niet aan de wijze van verzending van het opzeggingsbericht en dat zijn e-mailwisselingen en de communicatie van HR niet als een eigen ontslaghandeling kunnen worden beschouwd.",
+        "treatment": "VERWORPEN"
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:AHANT:2024:ARR.20241210.1-001",
+        "argument": "De bv voert aan dat de kennisgeving van de opzegging niet gebeurde conform artikel 37, §1 Arbeidsovereenkomstenwet (niet per aangetekende brief noch deurwaardersexploot) zodat de opzeggingskennisgeving absoluut nietig is en ambtshalve door de rechter moet worden vastgesteld; zij stelt dat de opzegging bijgevolg geen rechtsgevolgen kon hebben en dat C A B later op eigen verzoek uit dienst is getreden.",
+        "treatment": "AANVAARD"
+      }
+    ],
+    "courtOrder": "Het arbeidshof,\n\nBeslist op tegenspraak.\n\nVerklaart het hoger beroep ontvankelijk.\n\nVerklaart het incidenteel beroep ontvankelijk.\n\nAlvorens verder ten gronde te oordelen, nodigt partijen om standpunt in te nemen over de vragen gesteld onder titel 2.2, randnummer 4 van het motiverend gedeelte van het arrest.\n\nVerzoekt in toepassing van artikel 775 van het Gerechtelijk Wetboek partijen, op straffe van ambtshalve verwijdering uit de debatten in geval van laattijdige neerlegging, om hun conclusies onderling uit te wisselen en ter griffie van dit arbeidshof neer te leggen, uiterlijk op de volgende data:\n\n- voor C A B, uiterlijk op 10 januari 2025\n- voor Exxonmobil Petroleum & Chemical bv, uiterlijk op 10 februari 2025\n\nBepaalt de datum waarop partijen zullen worden gehoord op de openbare zitting van 11 maart 2025 om 9.30 uur in zaal 3Q - kamer 2 op volgend adres: Britselei 55, 2000 ANTWERPEN.\n\nHoudt de beslissing over de gerechtskosten aan.",
+    "outcome": "ONTVANKELIJKHEID"
+  },
+  "_tokenUsage": {
+    "prompt": 18462,
+    "completion": 4977,
+    "total": 23439
+  }
+}
