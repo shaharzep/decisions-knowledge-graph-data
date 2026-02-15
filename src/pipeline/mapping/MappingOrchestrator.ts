@@ -131,13 +131,17 @@ export class MappingOrchestrator {
   }
 
   /**
-   * Save step result (array of all item results) to disk
+   * Save step result with decision metadata to disk
    */
   private saveStepResult(stepId: string, items: any[]): void {
     fs.mkdirSync(this.outputDir, { recursive: true });
     fs.writeFileSync(
       path.join(this.outputDir, `step-${stepId}.json`),
-      JSON.stringify(items, null, 2)
+      JSON.stringify({
+        decisionId: this.decisionId,
+        language: this.language,
+        items,
+      }, null, 2)
     );
   }
 

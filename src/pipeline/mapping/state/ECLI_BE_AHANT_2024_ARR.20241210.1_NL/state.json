@@ -1,7 +1,7 @@
 {
   "decisionId": "ECLI:BE:AHANT:2024:ARR.20241210.1",
   "language": "NL",
-  "startedAt": "2026-02-14T04:03:18.881Z",
+  "startedAt": "2026-02-15T04:09:39.090Z",
   "status": "completed",
   "currentStep": null,
   "steps": {
@@ -17,11 +17,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10304,
+          "durationMs": 11173,
           "tokenUsage": {
             "prompt": 6235,
-            "completion": 748,
-            "total": 6983
+            "completion": 513,
+            "total": 6748
           }
         },
         "3490": {
@@ -29,7 +29,7 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 7127,
+          "durationMs": 18624,
           "tokenUsage": {
             "prompt": 5356,
             "completion": 687,
@@ -41,11 +41,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 9066,
+          "durationMs": 11291,
           "tokenUsage": {
             "prompt": 5154,
-            "completion": 824,
-            "total": 5978
+            "completion": 1021,
+            "total": 6175
           }
         },
         "3492": {
@@ -53,11 +53,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10927,
+          "durationMs": 17059,
           "tokenUsage": {
             "prompt": 5131,
-            "completion": 947,
-            "total": 6078
+            "completion": 728,
+            "total": 5859
           }
         },
         "3493": {
@@ -65,11 +65,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 16050,
+          "durationMs": 11178,
           "tokenUsage": {
             "prompt": 5695,
-            "completion": 1249,
-            "total": 6944
+            "completion": 1086,
+            "total": 6781
           }
         },
         "3494": {
@@ -77,11 +77,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 14025,
+          "durationMs": 16586,
           "tokenUsage": {
             "prompt": 6234,
-            "completion": 963,
-            "total": 7197
+            "completion": 644,
+            "total": 6878
           }
         },
         "3495": {
@@ -89,11 +89,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 6744,
+          "durationMs": 11228,
           "tokenUsage": {
             "prompt": 6234,
-            "completion": 594,
-            "total": 6828
+            "completion": 911,
+            "total": 7145
           }
         },
         "3496": {
@@ -101,11 +101,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 6423,
+          "durationMs": 11191,
           "tokenUsage": {
             "prompt": 6234,
-            "completion": 545,
-            "total": 6779
+            "completion": 670,
+            "total": 6904
           }
         },
         "3497": {
@@ -113,11 +113,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 11469,
+          "durationMs": 19397,
           "tokenUsage": {
             "prompt": 5760,
-            "completion": 492,
-            "total": 6252
+            "completion": 743,
+            "total": 6503
           }
         },
         "3498": {
@@ -125,11 +125,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10415,
+          "durationMs": 6970,
           "tokenUsage": {
             "prompt": 9247,
-            "completion": 587,
-            "total": 9834
+            "completion": 457,
+            "total": 9704
           }
         },
         "3499": {
@@ -137,11 +137,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 6480,
+          "durationMs": 9483,
           "tokenUsage": {
             "prompt": 9247,
-            "completion": 579,
-            "total": 9826
+            "completion": 514,
+            "total": 9761
           }
         },
         "3500": {
@@ -149,11 +149,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 8349,
+          "durationMs": 10860,
           "tokenUsage": {
             "prompt": 5749,
-            "completion": 834,
-            "total": 6583
+            "completion": 691,
+            "total": 6440
           }
         },
         "3501": {
@@ -161,11 +161,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10179,
+          "durationMs": 9193,
           "tokenUsage": {
             "prompt": 5728,
-            "completion": 776,
-            "total": 6504
+            "completion": 626,
+            "total": 6354
           }
         },
         "3502": {
@@ -173,11 +173,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 14488,
+          "durationMs": 19071,
           "tokenUsage": {
             "prompt": 6579,
-            "completion": 719,
-            "total": 7298
+            "completion": 724,
+            "total": 7303
           }
         },
         "3503": {
@@ -185,11 +185,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10438,
+          "durationMs": 23318,
           "tokenUsage": {
             "prompt": 13107,
-            "completion": 1028,
-            "total": 14135
+            "completion": 1386,
+            "total": 14493
           }
         },
         "651271": {
@@ -197,11 +197,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 11367,
+          "durationMs": 11616,
           "tokenUsage": {
             "prompt": 5274,
-            "completion": 774,
-            "total": 6048
+            "completion": 837,
+            "total": 6111
           }
         },
         "651277": {
@@ -209,11 +209,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 5702,
+          "durationMs": 11188,
           "tokenUsage": {
             "prompt": 5194,
-            "completion": 525,
-            "total": 5719
+            "completion": 729,
+            "total": 5923
           }
         },
         "651278": {
@@ -221,11 +221,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10480,
+          "durationMs": 8539,
           "tokenUsage": {
             "prompt": 5196,
-            "completion": 535,
-            "total": 5731
+            "completion": 614,
+            "total": 5810
           }
         },
         "651279": {
@@ -233,11 +233,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10036,
+          "durationMs": 12831,
           "tokenUsage": {
             "prompt": 5180,
-            "completion": 647,
-            "total": 5827
+            "completion": 761,
+            "total": 5941
           }
         },
         "651280": {
@@ -245,11 +245,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 6922,
+          "durationMs": 12716,
           "tokenUsage": {
             "prompt": 5384,
-            "completion": 591,
-            "total": 5975
+            "completion": 754,
+            "total": 6138
           }
         },
         "651285": {
@@ -257,11 +257,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10501,
+          "durationMs": 8518,
           "tokenUsage": {
             "prompt": 5497,
-            "completion": 632,
-            "total": 6129
+            "completion": 748,
+            "total": 6245
           }
         },
         "651286": {
@@ -269,11 +269,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 13080,
+          "durationMs": 8524,
           "tokenUsage": {
             "prompt": 5579,
-            "completion": 528,
-            "total": 6107
+            "completion": 564,
+            "total": 6143
           }
         },
         "651291": {
@@ -281,11 +281,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10428,
+          "durationMs": 18555,
           "tokenUsage": {
             "prompt": 5274,
-            "completion": 550,
-            "total": 5824
+            "completion": 719,
+            "total": 5993
           }
         },
         "651297": {
@@ -293,11 +293,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 12853,
+          "durationMs": 11360,
           "tokenUsage": {
             "prompt": 5194,
-            "completion": 611,
-            "total": 5805
+            "completion": 545,
+            "total": 5739
           }
         },
         "651298": {
@@ -305,11 +305,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 7922,
+          "durationMs": 11335,
           "tokenUsage": {
             "prompt": 5196,
-            "completion": 807,
-            "total": 6003
+            "completion": 625,
+            "total": 5821
           }
         },
         "651299": {
@@ -317,11 +317,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 6806,
+          "durationMs": 17188,
           "tokenUsage": {
             "prompt": 5180,
-            "completion": 590,
-            "total": 5770
+            "completion": 547,
+            "total": 5727
           }
         },
         "651300": {
@@ -329,11 +329,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 8765,
+          "durationMs": 17614,
           "tokenUsage": {
             "prompt": 5384,
-            "completion": 954,
-            "total": 6338
+            "completion": 848,
+            "total": 6232
           }
         },
         "651305": {
@@ -341,11 +341,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10523,
+          "durationMs": 11232,
           "tokenUsage": {
             "prompt": 5497,
-            "completion": 861,
-            "total": 6358
+            "completion": 796,
+            "total": 6293
           }
         },
         "651306": {
@@ -353,11 +353,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 8660,
+          "durationMs": 16393,
           "tokenUsage": {
             "prompt": 5579,
-            "completion": 571,
-            "total": 6150
+            "completion": 564,
+            "total": 6143
           }
         },
         "651311": {
@@ -365,11 +365,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10463,
+          "durationMs": 8510,
           "tokenUsage": {
             "prompt": 5274,
-            "completion": 645,
-            "total": 5919
+            "completion": 672,
+            "total": 5946
           }
         },
         "651317": {
@@ -377,11 +377,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 12635,
+          "durationMs": 12198,
           "tokenUsage": {
             "prompt": 5194,
-            "completion": 567,
-            "total": 5761
+            "completion": 566,
+            "total": 5760
           }
         },
         "651318": {
@@ -389,11 +389,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 5291,
+          "durationMs": 18093,
           "tokenUsage": {
             "prompt": 5196,
-            "completion": 573,
-            "total": 5769
+            "completion": 600,
+            "total": 5796
           }
         },
         "651319": {
@@ -401,11 +401,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 16609,
+          "durationMs": 15978,
           "tokenUsage": {
             "prompt": 5180,
-            "completion": 765,
-            "total": 5945
+            "completion": 625,
+            "total": 5805
           }
         },
         "651320": {
@@ -413,11 +413,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 7212,
+          "durationMs": 19026,
           "tokenUsage": {
             "prompt": 5384,
-            "completion": 604,
-            "total": 5988
+            "completion": 795,
+            "total": 6179
           }
         },
         "651325": {
@@ -425,11 +425,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 6166,
+          "durationMs": 15157,
           "tokenUsage": {
             "prompt": 5497,
-            "completion": 621,
-            "total": 6118
+            "completion": 474,
+            "total": 5971
           }
         },
         "651326": {
@@ -437,11 +437,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 15356,
+          "durationMs": 11198,
           "tokenUsage": {
             "prompt": 5579,
-            "completion": 576,
-            "total": 6155
+            "completion": 459,
+            "total": 6038
           }
         },
         "651331": {
@@ -449,11 +449,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 11444,
+          "durationMs": 11204,
           "tokenUsage": {
             "prompt": 5274,
-            "completion": 585,
-            "total": 5859
+            "completion": 845,
+            "total": 6119
           }
         },
         "651337": {
@@ -461,11 +461,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 7598,
+          "durationMs": 11280,
           "tokenUsage": {
             "prompt": 5194,
-            "completion": 606,
-            "total": 5800
+            "completion": 740,
+            "total": 5934
           }
         },
         "651338": {
@@ -473,11 +473,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 7178,
+          "durationMs": 11216,
           "tokenUsage": {
             "prompt": 5196,
-            "completion": 723,
-            "total": 5919
+            "completion": 551,
+            "total": 5747
           }
         },
         "651339": {
@@ -485,11 +485,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 15165,
+          "durationMs": 11190,
           "tokenUsage": {
             "prompt": 5180,
-            "completion": 670,
-            "total": 5850
+            "completion": 638,
+            "total": 5818
           }
         },
         "651340": {
@@ -497,11 +497,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10430,
+          "durationMs": 17903,
           "tokenUsage": {
             "prompt": 5384,
-            "completion": 1008,
-            "total": 6392
+            "completion": 588,
+            "total": 5972
           }
         },
         "651345": {
@@ -509,11 +509,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10444,
+          "durationMs": 11176,
           "tokenUsage": {
             "prompt": 5497,
-            "completion": 492,
-            "total": 5989
+            "completion": 678,
+            "total": 6175
           }
         },
         "651346": {
@@ -521,11 +521,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10350,
+          "durationMs": 11490,
           "tokenUsage": {
             "prompt": 5579,
-            "completion": 553,
-            "total": 6132
+            "completion": 462,
+            "total": 6041
           }
         },
         "651351": {
@@ -533,11 +533,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 8390,
+          "durationMs": 11350,
           "tokenUsage": {
             "prompt": 5274,
-            "completion": 529,
-            "total": 5803
+            "completion": 744,
+            "total": 6018
           }
         },
         "651357": {
@@ -545,11 +545,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 15586,
+          "durationMs": 11152,
           "tokenUsage": {
             "prompt": 5194,
-            "completion": 546,
-            "total": 5740
+            "completion": 607,
+            "total": 5801
           }
         },
         "651358": {
@@ -557,11 +557,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 15874,
+          "durationMs": 11496,
           "tokenUsage": {
             "prompt": 5196,
-            "completion": 599,
-            "total": 5795
+            "completion": 798,
+            "total": 5994
           }
         },
         "651359": {
@@ -569,11 +569,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 8831,
+          "durationMs": 11253,
           "tokenUsage": {
             "prompt": 5180,
-            "completion": 661,
-            "total": 5841
+            "completion": 515,
+            "total": 5695
           }
         },
         "651360": {
@@ -581,11 +581,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 13367,
+          "durationMs": 11269,
           "tokenUsage": {
             "prompt": 5384,
-            "completion": 894,
-            "total": 6278
+            "completion": 856,
+            "total": 6240
           }
         },
         "651365": {
@@ -593,11 +593,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10422,
+          "durationMs": 20044,
           "tokenUsage": {
             "prompt": 5497,
-            "completion": 756,
-            "total": 6253
+            "completion": 926,
+            "total": 6423
           }
         },
         "651366": {
@@ -605,15 +605,15 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 14031,
+          "durationMs": 17613,
           "tokenUsage": {
             "prompt": 5579,
-            "completion": 508,
-            "total": 6087
+            "completion": 592,
+            "total": 6171
           }
         }
       },
-      "durationMs": 519430
+      "durationMs": 23376
     },
     "map-provisions-code": {
       "status": "completed",
@@ -627,11 +627,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 31514,
+          "durationMs": 19837,
           "tokenUsage": {
             "prompt": 9266,
-            "completion": 1553,
-            "total": 10819
+            "completion": 1707,
+            "total": 10973
           }
         },
         "3505": {
@@ -639,11 +639,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 22794,
+          "durationMs": 25171,
           "tokenUsage": {
             "prompt": 9232,
-            "completion": 1530,
-            "total": 10762
+            "completion": 1580,
+            "total": 10812
           }
         },
         "3506": {
@@ -651,11 +651,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 19845,
+          "durationMs": 22450,
           "tokenUsage": {
             "prompt": 9213,
-            "completion": 1668,
-            "total": 10881
+            "completion": 1959,
+            "total": 11172
           }
         },
         "3507": {
@@ -663,11 +663,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 20688,
+          "durationMs": 28568,
           "tokenUsage": {
             "prompt": 9245,
-            "completion": 1830,
-            "total": 11075
+            "completion": 1958,
+            "total": 11203
           }
         },
         "651269": {
@@ -675,11 +675,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 25785,
+          "durationMs": 25087,
           "tokenUsage": {
             "prompt": 9269,
-            "completion": 1495,
-            "total": 10764
+            "completion": 1561,
+            "total": 10830
           }
         },
         "651272": {
@@ -687,11 +687,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 22034,
+          "durationMs": 30619,
           "tokenUsage": {
             "prompt": 9079,
-            "completion": 1457,
-            "total": 10536
+            "completion": 1669,
+            "total": 10748
           }
         },
         "651273": {
@@ -699,11 +699,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 16795,
+          "durationMs": 26809,
           "tokenUsage": {
             "prompt": 9233,
-            "completion": 1753,
-            "total": 10986
+            "completion": 1526,
+            "total": 10759
           }
         },
         "651274": {
@@ -711,11 +711,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 20376,
+          "durationMs": 25635,
           "tokenUsage": {
             "prompt": 9177,
-            "completion": 1213,
-            "total": 10390
+            "completion": 1267,
+            "total": 10444
           }
         },
         "651275": {
@@ -723,11 +723,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 25276,
+          "durationMs": 24625,
           "tokenUsage": {
             "prompt": 9201,
-            "completion": 1522,
-            "total": 10723
+            "completion": 1450,
+            "total": 10651
           }
         },
         "651276": {
@@ -735,11 +735,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 17157,
+          "durationMs": 24557,
           "tokenUsage": {
             "prompt": 9215,
-            "completion": 1319,
-            "total": 10534
+            "completion": 1482,
+            "total": 10697
           }
         },
         "651284": {
@@ -747,11 +747,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 20746,
+          "durationMs": 27765,
           "tokenUsage": {
             "prompt": 7983,
-            "completion": 1086,
-            "total": 9069
+            "completion": 822,
+            "total": 8805
           }
         },
         "651287": {
@@ -759,11 +759,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 67990,
+          "durationMs": 52063,
           "tokenUsage": {
             "prompt": 10522,
-            "completion": 5479,
-            "total": 16001
+            "completion": 5059,
+            "total": 15581
           }
         },
         "651288": {
@@ -771,11 +771,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 18944,
+          "durationMs": 21217,
           "tokenUsage": {
             "prompt": 9316,
-            "completion": 1850,
-            "total": 11166
+            "completion": 1562,
+            "total": 10878
           }
         },
         "651289": {
@@ -783,11 +783,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 22908,
+          "durationMs": 33015,
           "tokenUsage": {
             "prompt": 9269,
-            "completion": 1516,
-            "total": 10785
+            "completion": 1503,
+            "total": 10772
           }
         },
         "651292": {
@@ -795,11 +795,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 24161,
+          "durationMs": 22552,
           "tokenUsage": {
             "prompt": 9079,
-            "completion": 1527,
-            "total": 10606
+            "completion": 1241,
+            "total": 10320
           }
         },
         "651293": {
@@ -807,11 +807,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 24720,
+          "durationMs": 34324,
           "tokenUsage": {
             "prompt": 9233,
-            "completion": 1545,
-            "total": 10778
+            "completion": 1601,
+            "total": 10834
           }
         },
         "651294": {
@@ -819,11 +819,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 17319,
+          "durationMs": 24866,
           "tokenUsage": {
             "prompt": 9177,
-            "completion": 1777,
-            "total": 10954
+            "completion": 1466,
+            "total": 10643
           }
         },
         "651295": {
@@ -831,11 +831,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 17246,
+          "durationMs": 27169,
           "tokenUsage": {
             "prompt": 9201,
-            "completion": 1891,
-            "total": 11092
+            "completion": 1566,
+            "total": 10767
           }
         },
         "651296": {
@@ -843,11 +843,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 17322,
+          "durationMs": 34485,
           "tokenUsage": {
             "prompt": 9215,
-            "completion": 1580,
-            "total": 10795
+            "completion": 1548,
+            "total": 10763
           }
         },
         "651304": {
@@ -855,11 +855,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 19866,
+          "durationMs": 17925,
           "tokenUsage": {
             "prompt": 7983,
-            "completion": 1180,
-            "total": 9163
+            "completion": 1235,
+            "total": 9218
           }
         },
         "651307": {
@@ -867,11 +867,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 52902,
+          "durationMs": 47834,
           "tokenUsage": {
             "prompt": 10522,
-            "completion": 4881,
-            "total": 15403
+            "completion": 3973,
+            "total": 14495
           }
         },
         "651308": {
@@ -879,11 +879,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 21367,
+          "durationMs": 22234,
           "tokenUsage": {
             "prompt": 9316,
-            "completion": 2026,
-            "total": 11342
+            "completion": 1564,
+            "total": 10880
           }
         },
         "651309": {
@@ -891,11 +891,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 24559,
+          "durationMs": 35247,
           "tokenUsage": {
             "prompt": 9269,
-            "completion": 1622,
-            "total": 10891
+            "completion": 2026,
+            "total": 11295
           }
         },
         "651312": {
@@ -903,11 +903,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 23879,
+          "durationMs": 21125,
           "tokenUsage": {
             "prompt": 9079,
-            "completion": 1653,
-            "total": 10732
+            "completion": 1347,
+            "total": 10426
           }
         },
         "651313": {
@@ -915,11 +915,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 22943,
+          "durationMs": 26499,
           "tokenUsage": {
             "prompt": 9233,
-            "completion": 1467,
-            "total": 10700
+            "completion": 1370,
+            "total": 10603
           }
         },
         "651314": {
@@ -927,11 +927,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 14078,
+          "durationMs": 25947,
           "tokenUsage": {
             "prompt": 9177,
-            "completion": 1458,
-            "total": 10635
+            "completion": 1415,
+            "total": 10592
           }
         },
         "651315": {
@@ -939,11 +939,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 22055,
+          "durationMs": 30709,
           "tokenUsage": {
             "prompt": 9201,
-            "completion": 2266,
-            "total": 11467
+            "completion": 1643,
+            "total": 10844
           }
         },
         "651316": {
@@ -951,11 +951,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 23881,
+          "durationMs": 25534,
           "tokenUsage": {
             "prompt": 9215,
-            "completion": 1669,
-            "total": 10884
+            "completion": 1734,
+            "total": 10949
           }
         },
         "651324": {
@@ -963,11 +963,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 9209,
+          "durationMs": 31719,
           "tokenUsage": {
             "prompt": 7983,
-            "completion": 914,
-            "total": 8897
+            "completion": 948,
+            "total": 8931
           }
         },
         "651327": {
@@ -975,11 +975,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 34512,
+          "durationMs": 57608,
           "tokenUsage": {
             "prompt": 10522,
-            "completion": 3246,
-            "total": 13768
+            "completion": 4537,
+            "total": 15059
           }
         },
         "651328": {
@@ -987,11 +987,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 15695,
+          "durationMs": 34994,
           "tokenUsage": {
             "prompt": 9316,
-            "completion": 1737,
-            "total": 11053
+            "completion": 1698,
+            "total": 11014
           }
         },
         "651329": {
@@ -999,11 +999,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 24259,
+          "durationMs": 26039,
           "tokenUsage": {
             "prompt": 9269,
-            "completion": 1642,
-            "total": 10911
+            "completion": 1417,
+            "total": 10686
           }
         },
         "651332": {
@@ -1011,11 +1011,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 14011,
+          "durationMs": 23501,
           "tokenUsage": {
             "prompt": 9079,
-            "completion": 1578,
-            "total": 10657
+            "completion": 1602,
+            "total": 10681
           }
         },
         "651333": {
@@ -1023,11 +1023,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 24060,
+          "durationMs": 34982,
           "tokenUsage": {
             "prompt": 9233,
-            "completion": 1407,
-            "total": 10640
+            "completion": 1775,
+            "total": 11008
           }
         },
         "651334": {
@@ -1035,11 +1035,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 22422,
+          "durationMs": 23834,
           "tokenUsage": {
             "prompt": 9177,
-            "completion": 1759,
-            "total": 10936
+            "completion": 1401,
+            "total": 10578
           }
         },
         "651335": {
@@ -1047,11 +1047,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 16154,
+          "durationMs": 27079,
           "tokenUsage": {
             "prompt": 9201,
-            "completion": 1439,
-            "total": 10640
+            "completion": 1541,
+            "total": 10742
           }
         },
         "651336": {
@@ -1059,11 +1059,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 12279,
+          "durationMs": 24297,
           "tokenUsage": {
             "prompt": 9215,
-            "completion": 1595,
-            "total": 10810
+            "completion": 1554,
+            "total": 10769
           }
         },
         "651344": {
@@ -1071,11 +1071,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 10343,
+          "durationMs": 19342,
           "tokenUsage": {
             "prompt": 7983,
-            "completion": 854,
-            "total": 8837
+            "completion": 828,
+            "total": 8811
           }
         },
         "651347": {
@@ -1083,11 +1083,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 27184,
+          "durationMs": 56779,
           "tokenUsage": {
             "prompt": 10522,
-            "completion": 2258,
-            "total": 12780
+            "completion": 4425,
+            "total": 14947
           }
         },
         "651348": {
@@ -1095,11 +1095,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 22123,
+          "durationMs": 35674,
           "tokenUsage": {
             "prompt": 9316,
-            "completion": 1600,
-            "total": 10916
+            "completion": 1773,
+            "total": 11089
           }
         },
         "651349": {
@@ -1107,11 +1107,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 21345,
+          "durationMs": 29982,
           "tokenUsage": {
             "prompt": 9269,
-            "completion": 1392,
-            "total": 10661
+            "completion": 1666,
+            "total": 10935
           }
         },
         "651352": {
@@ -1119,11 +1119,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 22277,
+          "durationMs": 26638,
           "tokenUsage": {
             "prompt": 9079,
-            "completion": 1502,
-            "total": 10581
+            "completion": 1646,
+            "total": 10725
           }
         },
         "651353": {
@@ -1131,11 +1131,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 12827,
+          "durationMs": 23589,
           "tokenUsage": {
             "prompt": 9233,
-            "completion": 1703,
-            "total": 10936
+            "completion": 1514,
+            "total": 10747
           }
         },
         "651354": {
@@ -1143,11 +1143,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 13158,
+          "durationMs": 27603,
           "tokenUsage": {
             "prompt": 9177,
-            "completion": 1535,
-            "total": 10712
+            "completion": 1442,
+            "total": 10619
           }
         },
         "651355": {
@@ -1155,11 +1155,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 20446,
+          "durationMs": 26238,
           "tokenUsage": {
             "prompt": 9201,
-            "completion": 1803,
-            "total": 11004
+            "completion": 1484,
+            "total": 10685
           }
         },
         "651356": {
@@ -1167,11 +1167,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 23309,
+          "durationMs": 24689,
           "tokenUsage": {
             "prompt": 9215,
-            "completion": 1830,
-            "total": 11045
+            "completion": 1716,
+            "total": 10931
           }
         },
         "651364": {
@@ -1179,11 +1179,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 11137,
+          "durationMs": 21242,
           "tokenUsage": {
             "prompt": 7983,
-            "completion": 722,
-            "total": 8705
+            "completion": 1039,
+            "total": 9022
           }
         },
         "651367": {
@@ -1191,11 +1191,11 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 31270,
+          "durationMs": 50149,
           "tokenUsage": {
             "prompt": 10522,
-            "completion": 3558,
-            "total": 14080
+            "completion": 4280,
+            "total": 14802
           }
         },
         "651368": {
@@ -1203,15 +1203,15 @@
           "status": "completed",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 23999,
+          "durationMs": 25652,
           "tokenUsage": {
             "prompt": 9316,
-            "completion": 1725,
-            "total": 11041
+            "completion": 1675,
+            "total": 10991
           }
         }
       },
-      "durationMs": 1091201
+      "durationMs": 57609
     },
     "map-provisions-no-date": {
       "status": "completed",
@@ -1261,200 +1261,148 @@
           "fastPath": true
         }
       },
-      "durationMs": 2
+      "durationMs": 0
     },
     "map-cited-decisions": {
       "status": "completed",
       "totalItems": 16,
-      "completedItems": 13,
-      "skippedItems": 3,
+      "completedItems": 0,
+      "skippedItems": 16,
       "failedItems": 0,
       "items": {
         "DEC-ECLI:BE:AHANT:2005:ARR.20051124.1-006": {
           "itemId": "DEC-ECLI:BE:AHANT:2005:ARR.20051124.1-006",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 22803,
-          "tokenUsage": {
-            "prompt": 9211,
-            "completion": 1531,
-            "total": 10742
-          }
+          "durationMs": 17957,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2005:ARR.20051124.1-007": {
           "itemId": "DEC-ECLI:BE:AHANT:2005:ARR.20051124.1-007",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 20366,
-          "tokenUsage": {
-            "prompt": 8342,
-            "completion": 2495,
-            "total": 10837
-          }
+          "durationMs": 17237,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2005:ARR.20051124.1-009": {
           "itemId": "DEC-ECLI:BE:AHANT:2005:ARR.20051124.1-009",
           "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 155,
+          "durationMs": 14681,
           "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2005:ARR.20051124.1-010": {
           "itemId": "DEC-ECLI:BE:AHANT:2005:ARR.20051124.1-010",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 23474,
-          "tokenUsage": {
-            "prompt": 7541,
-            "completion": 1544,
-            "total": 9085
-          }
+          "durationMs": 16410,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-005": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-005",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 19604,
-          "tokenUsage": {
-            "prompt": 7885,
-            "completion": 1051,
-            "total": 8936
-          }
+          "durationMs": 16417,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-006": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-006",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 36831,
-          "tokenUsage": {
-            "prompt": 18967,
-            "completion": 3027,
-            "total": 21994
-          }
+          "durationMs": 20948,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-007": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-007",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 29661,
-          "tokenUsage": {
-            "prompt": 7665,
-            "completion": 2288,
-            "total": 9953
-          }
+          "durationMs": 15989,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-008": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-008",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 18563,
-          "tokenUsage": {
-            "prompt": 10254,
-            "completion": 2059,
-            "total": 12313
-          }
+          "durationMs": 17789,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-009": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-009",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 24233,
-          "tokenUsage": {
-            "prompt": 9708,
-            "completion": 1312,
-            "total": 11020
-          }
+          "durationMs": 17790,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-010": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-010",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 15644,
-          "tokenUsage": {
-            "prompt": 9589,
-            "completion": 1275,
-            "total": 10864
-          }
+          "durationMs": 17575,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-011": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-011",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 13232,
-          "tokenUsage": {
-            "prompt": 9158,
-            "completion": 1165,
-            "total": 10323
-          }
+          "durationMs": 17109,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-012": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-012",
           "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 196,
+          "durationMs": 14681,
           "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-013": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-013",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 23011,
-          "tokenUsage": {
-            "prompt": 8033,
-            "completion": 1605,
-            "total": 9638
-          }
+          "durationMs": 16396,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-014": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-014",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 17018,
-          "tokenUsage": {
-            "prompt": 7076,
-            "completion": 1531,
-            "total": 8607
-          }
+          "durationMs": 15705,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-015": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-015",
-          "status": "completed",
+          "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 28156,
-          "tokenUsage": {
-            "prompt": 8518,
-            "completion": 2370,
-            "total": 10888
-          }
+          "durationMs": 17235,
+          "fastPath": true
         },
         "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-016": {
           "itemId": "DEC-ECLI:BE:AHANT:2024:ARR.20241210.1-016",
           "status": "skipped",
           "attempts": 1,
           "model": "gpt-5-mini",
-          "durationMs": 168,
+          "durationMs": 14680,
           "fastPath": true
         }
       },
-      "durationMs": 293263
+      "durationMs": 21195
     }
   },
-  "completedAt": "2026-02-14T04:35:03.074Z",
-  "totalDurationMs": 1904192,
-  "totalTokens": 1007182
+  "completedAt": "2026-02-15T04:11:23.111Z",
+  "totalDurationMs": 104020,
+  "totalTokens": 863719
 }
