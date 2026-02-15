@@ -83,6 +83,7 @@ export interface ItemResult {
 export interface MappingStep {
   id: string;
   dependsOn: string[];
+  concurrencyLimit: number;
   loadItems: (decisionId: string, language: string) => Promise<any[]>;
   processItem: (item: any, client: OpenAIConcurrentClient, context: StepContext) => Promise<ItemResult>;
 }

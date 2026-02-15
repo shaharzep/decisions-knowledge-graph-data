@@ -70,7 +70,7 @@ export class MappingOrchestrator {
       this.clients.set(model, new OpenAIConcurrentClient('mapping-pipeline', {
         openaiProvider: 'azure',
         model,
-        maxConcurrentApiCalls: 5,
+        maxConcurrentApiCalls: 200,
       }));
     }
     return this.clients.get(model)!;

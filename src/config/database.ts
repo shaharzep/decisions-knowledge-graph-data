@@ -27,7 +27,7 @@ export class DatabaseConfig {
         password: process.env.PGPASSWORD,
         database: process.env.PGDATABASE || process.env.POSTGRES_DB,
         // Connection pool settings
-        max: 100, // Maximum number of clients (matches typical concurrencyLimit)
+        max: 200, // Maximum number of clients (matches mapping concurrencyLimit)
         idleTimeoutMillis: 30000,
         connectionTimeoutMillis: 30000, // 30 seconds to acquire connection
       });

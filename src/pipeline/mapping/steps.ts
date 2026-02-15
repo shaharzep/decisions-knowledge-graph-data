@@ -288,6 +288,7 @@ const CITED_DECISION_OUTPUT_SCHEMA = {
 const stepMapProvisionsStandard: MappingStep = {
   id: 'map-provisions-standard',
   dependsOn: [],
+  concurrencyLimit: 200,
 
   loadItems: async (decisionId: string) => {
     const buckets = await loadAllProvisions(decisionId);
@@ -376,6 +377,7 @@ const codeFamilyCache = new Map<string, string[]>();
 const stepMapProvisionsCode: MappingStep = {
   id: 'map-provisions-code',
   dependsOn: [],
+  concurrencyLimit: 200,
 
   loadItems: async (decisionId: string) => {
     const buckets = await loadAllProvisions(decisionId);
@@ -584,6 +586,7 @@ async function translateToFrench(actName: string, client: OpenAIConcurrentClient
 const stepMapProvisionsNoDate: MappingStep = {
   id: 'map-provisions-no-date',
   dependsOn: [],
+  concurrencyLimit: 50,
 
   loadItems: async (decisionId: string) => {
     const buckets = await loadAllProvisions(decisionId);
@@ -778,6 +781,7 @@ async function fetchCandidateDecisions(citedDate: string, courtEcliCode: string 
 const stepMapCitedDecisions: MappingStep = {
   id: 'map-cited-decisions',
   dependsOn: [],
+  concurrencyLimit: 100,
 
   loadItems: async (decisionId: string) => {
     return loadCitedDecisions(decisionId);
