@@ -140,7 +140,7 @@ export function transformDecisionHtml(
   });
 
   return {
-    transformedHtml: $.html(),
+    transformedHtml: $('body').html() || $.html(),
     blocks,
     totalBlocks: blocks.length
   };
