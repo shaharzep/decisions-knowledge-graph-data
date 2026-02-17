@@ -1,0 +1,28 @@
+{
+  "citedDecisions": [
+    {
+      "decisionId": null,
+      "decisionSequence": 1,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Conseil d'État",
+      "date": "2025-11-07",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:RVSCE:2026:ARR.265.346-001"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 2,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Conseil d'État",
+      "date": "2026-01-06",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:RVSCE:2026:ARR.265.346-002"
+    }
+  ]
+}

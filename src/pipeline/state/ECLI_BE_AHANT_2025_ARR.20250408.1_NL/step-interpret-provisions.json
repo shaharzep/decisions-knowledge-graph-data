@@ -1,0 +1,165 @@
+{
+  "citedProvisions": [
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:AHANT:2025:ARR.20250408.1-001",
+      "internalParentActId": "ACT-ECLI:BE:AHANT:2025:ARR.20250408.1-001",
+      "provisionSequence": 1,
+      "parentActSequence": 1,
+      "provisionNumber": "artikel 1134",
+      "provisionNumberKey": "1134",
+      "parentActType": "WETBOEK",
+      "parentActName": "het oud Burgerlijk Wetboek",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": "Het arbeidshof stelt dat artikel 1134 oud BW in contractuele aangelegenheden de basis vormt voor het verbod op rechtsmisbruik: overeenkomsten moeten te goeder trouw worden uitgevoerd en een partij mag geen misbruik maken van haar rechten. Het artikel draagt ertoe bij dat een uitoefening van rechten die de grenzen overschrijdt kan worden tegengehouden.",
+      "relevantFactualContext": "Toegepast omdat de werkgever eerst handelde alsof de opzegging rechtsgeldig was en pas in hoger beroep de absolute nietigheid inroept, waardoor de werknemer werd belemmerd in zijn vordering tot opzeggingsvergoeding."
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:AHANT:2025:ARR.20250408.1-002",
+      "internalParentActId": "ACT-ECLI:BE:AHANT:2025:ARR.20250408.1-002",
+      "provisionSequence": 2,
+      "parentActSequence": 2,
+      "provisionNumber": "artikel 5.73",
+      "provisionNumberKey": "5",
+      "parentActType": "WETBOEK",
+      "parentActName": "het Burgerlijk Wetboek",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": "Het hof merkt op dat de principes van uitvoering te goeder trouw en het verbod van rechtsmisbruik nu uitdrukkelijk in artikel 5.73 BW zijn verankerd; dit artikel bevestigt de verplichting om rechten naar normale maatstaven uit te oefenen en verhindert misbruik van rechten.",
+      "relevantFactualContext": "Gebruikt om te onderbouwen dat de werkgever haar recht om nietigheid in te roepen op een wijze uitoefende die de grenzen van normale rechtsuitoefening overschreed in de omgang met de opzegging van 5 mei 2021."
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:AHANT:2025:ARR.20250408.1-003",
+      "internalParentActId": "ACT-ECLI:BE:AHANT:2025:ARR.20250408.1-002",
+      "provisionSequence": 3,
+      "parentActSequence": 2,
+      "provisionNumber": "artikel 1.10",
+      "provisionNumberKey": "1",
+      "parentActType": "WETBOEK",
+      "parentActName": "het Burgerlijk Wetboek",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": "Het hof citeert en gebruikt artikel 1.10 BW als definitie van rechtsmisbruik: rechtsoefening die kennelijk de grenzen te buiten gaat van die van een voorzichtig en redelijk persoon; de sanctie bestaat in matiging van het recht tot normale uitoefening en herstel van de schade. Het artikel wordt aangevuld met criteria uit Cassatierechtspraak.",
+      "relevantFactualContext": "Aangewend om te toetsen of het late inroepen van absolute nietigheid door de werkgever, na lang gedrag alsof de opzegging geldig was, neerkomt op kennelijk grensoverschrijdende rechtsuitoefening."
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:AHANT:2025:ARR.20250408.1-004",
+      "internalParentActId": "ACT-ECLI:BE:AHANT:2025:ARR.20250408.1-003",
+      "provisionSequence": 4,
+      "parentActSequence": 3,
+      "provisionNumber": "artikel 2, §1, tweede lid, 1°",
+      "provisionNumberKey": "2",
+      "parentActType": "WET",
+      "parentActName": "de wet van 19 maart 1991 houdende bijzondere ontslagregeling voor personeelsafgevaardigden",
+      "parentActDate": "1991-03-19",
+      "parentActNumber": null,
+      "provisionInterpretation": "Het hof legt artikel 2, §1, tweede lid, 1° van de wet van 19 maart 1991 uit als bepalend dat een ontslag iedere beëindiging door de werkgever betreft die tijdens de beschermde periode ter kennis wordt gebracht; de ontslaghandeling moet door de werkgever zijn verricht om recht op beschermingsvergoeding te geven.",
+      "relevantFactualContext": "Toegepast op de opzeggingshandeling van 5 mei 2021; het hof acht bewezen dat de beëindiging door de werkgever gebeurde ondanks de absolute nietigheid en dat de werknemer daarom aanspraak maakt op de beschermingsvergoeding."
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:AHANT:2025:ARR.20250408.1-005",
+      "internalParentActId": "ACT-ECLI:BE:AHANT:2025:ARR.20250408.1-003",
+      "provisionSequence": 5,
+      "parentActSequence": 3,
+      "provisionNumber": "artikel 14",
+      "provisionNumberKey": "14",
+      "parentActType": "WET",
+      "parentActName": "de wet van 19 maart 1991",
+      "parentActDate": "1991-03-19",
+      "parentActNumber": null,
+      "provisionInterpretation": "Het hof wijst op artikel 14 van de wet van 19 maart 1991: indien re-integratie niet werd gevorderd overeenkomstig artikel 14, volgt de verplichting van de werkgever tot betaling van de forfaitaire beschermingsvergoeding onder de voorwaarden van de wet.",
+      "relevantFactualContext": "Er werd geen re-integratieverzoek ingediend; dit brengt mee dat de werkgever de forfaitaire vergoeding verschuldigd is, gegeven de vastgestelde beëindiging door de werkgever."
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:AHANT:2025:ARR.20250408.1-006",
+      "internalParentActId": "ACT-ECLI:BE:AHANT:2025:ARR.20250408.1-003",
+      "provisionSequence": 6,
+      "parentActSequence": 3,
+      "provisionNumber": "artikel 16",
+      "provisionNumberKey": "16",
+      "parentActType": "WET",
+      "parentActName": "de wet van 19 maart 1991",
+      "parentActDate": "1991-03-19",
+      "parentActNumber": null,
+      "provisionInterpretation": "Het hof past artikel 16 van de wet van 19 maart 1991 toe en stelt dat bij twintig of meer dienstjaren de forfaitaire beschermingsvergoeding gelijk is aan het lopende loon over vier jaar; dit artikel bepaalt de omvang van de vergoeding waarop de werknemer recht heeft.",
+      "relevantFactualContext": "De werknemer had twintig of meer dienstjaren; het jaarloon werd vastgesteld op €86.341,09 bruto, wat leidde tot een berekende beschermingsvergoeding van €345.364,36 bruto."
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:AHANT:2025:ARR.20250408.1-007",
+      "internalParentActId": "ACT-ECLI:BE:AHANT:2025:ARR.20250408.1-004",
+      "provisionSequence": 7,
+      "parentActSequence": 4,
+      "provisionNumber": "artikel 10",
+      "provisionNumberKey": "10",
+      "parentActType": "WET",
+      "parentActName": "de wet op de bescherming van het loon",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:AHANT:2025:ARR.20250408.1-008",
+      "internalParentActId": "ACT-ECLI:BE:AHANT:2025:ARR.20250408.1-005",
+      "provisionSequence": 8,
+      "parentActSequence": 5,
+      "provisionNumber": "art. 102",
+      "provisionNumberKey": "102",
+      "parentActType": "WET",
+      "parentActName": "de wet betreffende de arbeidsovereenkomsten",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:AHANT:2025:ARR.20250408.1-009",
+      "internalParentActId": "ACT-ECLI:BE:AHANT:2025:ARR.20250408.1-006",
+      "provisionSequence": 9,
+      "parentActSequence": 6,
+      "provisionNumber": "artikel 1017, eerste lid",
+      "provisionNumberKey": "1017",
+      "parentActType": "WETBOEK",
+      "parentActName": "het Gerechtelijk Wetboek",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    }
+  ],
+  "extractedReferences": {
+    "url": {
+      "eu": [],
+      "be": []
+    },
+    "reference": {
+      "eu": {
+        "extracted": [],
+        "verified": []
+      },
+      "be": {
+        "extracted": [],
+        "verifiedNumac": [],
+        "verifiedFileNumber": []
+      }
+    }
+  }
+}

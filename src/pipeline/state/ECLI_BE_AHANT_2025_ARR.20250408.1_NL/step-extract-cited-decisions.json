@@ -1,0 +1,148 @@
+{
+  "citedDecisions": [
+    {
+      "decisionId": null,
+      "decisionSequence": 1,
+      "courtJurisdictionCode": "BE",
+      "courtName": "arbeidsrechtbank Antwerpen, afdeling Antwerpen",
+      "date": "2022-11-28",
+      "caseNumber": "21/2575/A",
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-001"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 2,
+      "courtJurisdictionCode": "BE",
+      "courtName": "arbeidsrechtbank Antwerpen, afdeling Antwerpen",
+      "date": "2023-04-17",
+      "caseNumber": "23/375/A",
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-002"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 3,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Arbeidshof Antwerpen, afdeling Antwerpen",
+      "date": "2024-12-10",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-003"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 4,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "1971-09-10",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-004"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 5,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "2006-01-06",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-005"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 6,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "2008-09-28",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-006"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 7,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "2010-10-01",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-007"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 8,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "2011-06-20",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-008"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 9,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "2015-04-02",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-009"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 10,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "2021-02-08",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-010"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 11,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "2023-11-16",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-011"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 12,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "2024-10-18",
+      "caseNumber": "C.23.0486.N",
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:AHANT:2025:ARR.20250408.1-012"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "legalTeachings": [],
+  "metadata": {
+    "totalTeachings": 0,
+    "citationStatistics": {
+      "totalCitations": 0,
+      "avgCitationsPerTeaching": 0,
+      "teachingsWithMinimalCitations": 0,
+      "teachingsWithNoCitations": 0
+    },
+    "validationSummary": {
+      "totalProvisionsValidated": 0,
+      "totalProvisionsNotFound": 0,
+      "totalDecisionsValidated": 0,
+      "totalDecisionsNotFound": 0
+    },
+    "extractionNotes": [
+      "Aucun enseignement fourni dans l'entrée Stage 5A ; aucune citation n'a été extraite."
+    ]
+  },
+  "_tokenUsage": {
+    "prompt": 13068,
+    "completion": 409,
+    "total": 13477
+  }
+}

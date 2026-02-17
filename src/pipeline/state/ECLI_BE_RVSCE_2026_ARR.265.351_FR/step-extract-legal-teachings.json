@@ -1,0 +1,76 @@
+{
+  "legalTeachings": [
+    {
+      "teachingId": "TEACH-ECLI:BE:RVSCE:2026:ARR.265.351-001",
+      "text": "Lorsqu'un rapport d'auditeur n'a pas été notifié à une ou plusieurs parties, privant celles-ci de la possibilité de déposer le dernier mémoire prévu par l'article 14, alinéa 2, du règlement général de procédure, la procédure doit être reprise au stade de la notification et il convient d'accorder aux parties un délai pour déposer ce dernier mémoire.",
+      "courtVerbatim": "Le 14 août 2025, le rapport de l'auditeur rapporteur a été notifié aux parties adverse et intervenantes conformément à l'article 14, alinéa 1er, du règlement général de procédure. Si le dernier mémoire déposé par les parties intervenantes a été notifié aux parties requérantes le 12 septembre 2025, il apparaît toutefois que tel n'est pas le cas du rapport de l'auditeur rapporteur. Il s'ensuit que les parties requérantes n'ont pas eu la possibilité de déposer un dernier mémoire, comme le prévoit l'article 14, alinéa 2, du règlement général de procédure. Il convient dès lors d'accorder aux parties requérantes un délai de trente jours à compter de la notification du présent arrêt pour déposer un dernier mémoire.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsqu'un rapport d'auditeur n'est pas notifié à une partie, l'empêchant de déposer le dernier mémoire prévu par l'article 14, alinéa 2, du règlement général de procédure.",
+      "relevantFactualContext": "Le rapport de l'auditeur rapporteur du 14 août 2025 a été notifié aux parties adverse et intervenantes mais pas aux parties requérantes; en conséquence, les parties requérantes n'ont pas eu la possibilité de déposer le dernier mémoire prévu par l'article 14, alinéa 2.",
+      "principleType": "PROCEDURAL_RULE",
+      "legalArea": "PROCEDURAL_LAW",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "CASSATION",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": false,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:RVSCE:2026:ARR.265.351-002"
+      ],
+      "relatedCitedDecisionsId": [],
+      "sourceAuthor": "AI_GENERATED"
+    }
+  ],
+  "metadata": {
+    "totalTeachings": 1,
+    "extractedCourtLevel": "CASSATION",
+    "courtLevelConfidence": "HIGH",
+    "teachingTypes": {
+      "interpretive": 0,
+      "application": 0,
+      "balancing": 0,
+      "procedural": 1,
+      "remedial": 0,
+      "legal_test": 0,
+      "burden_proof": 0
+    },
+    "hierarchicalRelationships": {
+      "parentChildPairs": 0,
+      "ruleExceptionPairs": 0,
+      "conflicts": 0
+    },
+    "courtLevelDistribution": {
+      "cassation": 1,
+      "appeal": 0,
+      "first_instance": 0
+    },
+    "validationChecks": {
+      "allTeachingsHaveSourceAuthor": true,
+      "sourceAuthorCorrect": true,
+      "teachingCountReasonable": true,
+      "allTeachingsHaveContext": true,
+      "allTeachingsHaveVerbatim": true,
+      "legalIssuesEmptyAsExpected": true,
+      "allProvisionIdsValid": true,
+      "allDecisionIdsValid": true,
+      "allHierarchyReferencesValid": true,
+      "courtLevelDetected": true
+    }
+  },
+  "_tokenUsage": {
+    "prompt": 13597,
+    "completion": 3270,
+    "total": 16867
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "decisionId": "ECLI:BE:AHANT:2024:ARR.20241210.1",
-  "language": "NL",
-  "startedAt": "2026-02-14T02:57:06.994Z",
+  "decisionId": "ECLI:BE:RVSCE:2026:ARR.265.351",
+  "language": "FR",
+  "startedAt": "2026-02-15T22:49:01.180Z",
   "status": "completed",
   "currentStep": null,
   "steps": {
@@ -9,111 +9,111 @@
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 44738,
+      "durationMs": 31014,
       "tokenUsage": {
-        "prompt": 18462,
-        "completion": 4977,
-        "total": 23439
+        "prompt": 8487,
+        "completion": 4370,
+        "total": 12857
       }
     },
     "extract-provisions-2a": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 152169
+      "durationMs": 21622
     },
     "extract-cited-decisions": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 196761
+      "durationMs": 43729
     },
     "extract-keywords": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 18343,
+      "durationMs": 12264,
       "tokenUsage": {
-        "prompt": 15223,
-        "completion": 1436,
-        "total": 16659
+        "prompt": 5248,
+        "completion": 1510,
+        "total": 6758
       }
     },
     "extract-micro-summary": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 15372,
+      "durationMs": 9216,
       "tokenUsage": {
-        "prompt": 13885,
-        "completion": 963,
-        "total": 14848
+        "prompt": 3904,
+        "completion": 1334,
+        "total": 5238
       }
     },
     "enrich-provisions": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 2
+      "durationMs": 1
     },
     "interpret-provisions": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 49962,
+      "durationMs": 6885,
       "tokenUsage": {
-        "prompt": 19038,
-        "completion": 4939,
-        "total": 23977
+        "prompt": 5947,
+        "completion": 638,
+        "total": 6585
       }
     },
     "extract-legal-teachings": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 99014,
+      "durationMs": 19350,
       "tokenUsage": {
-        "prompt": 30391,
-        "completion": 8445,
-        "total": 38836
+        "prompt": 13597,
+        "completion": 3270,
+        "total": 16867
       }
     },
     "convert-md-to-html": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 485
+      "durationMs": 333
     },
     "enrich-provision-citations": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 176690,
+      "durationMs": 22737,
       "tokenUsage": {
-        "prompt": 40721,
-        "completion": 18583,
-        "total": 59304
+        "prompt": 12052,
+        "completion": 3132,
+        "total": 15184
       }
     },
     "enrich-teaching-citations": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 144742,
+      "durationMs": 21533,
       "tokenUsage": {
-        "prompt": 45020,
-        "completion": 13901,
-        "total": 58921
+        "prompt": 13721,
+        "completion": 2680,
+        "total": 16401
       }
     },
     "classify-legal-issues": {
       "status": "completed",
       "attempts": 1,
       "model": "gpt-5-mini",
-      "durationMs": 197551
+      "durationMs": 27344
     }
   },
-  "completedAt": "2026-02-15T22:32:10.585Z",
-  "totalDurationMs": 0,
-  "totalTokens": 0
+  "completedAt": "2026-02-15T22:52:37.217Z",
+  "totalDurationMs": 216036,
+  "totalTokens": 79890
 }

@@ -1,0 +1,54 @@
+{
+  "legalTeachings": [
+    {
+      "teachingId": "TEACH-ECLI:BE:RVSCE:2026:ARR.265.351-001",
+      "citations": [
+        {
+          "blockId": "ECLI:BE:RVSCE:2026:ARR.265.351:block-028",
+          "relevantSnippet": "Le 14 août 2025, le rapport de l’auditeur rapporteur a été notifié\naux parties adverse et intervenantes conformément à l’article 14, alinéa\n1er, du règlement général de procédure."
+        },
+        {
+          "blockId": "ECLI:BE:RVSCE:2026:ARR.265.351:block-031",
+          "relevantSnippet": "Il s'ensuit que les parties requérantes n'ont pas eu la possibilité de\ndéposer un dernier mémoire, comme le prévoit l'article 14, alinéa 2, du\nrèglement général de procédure."
+        },
+        {
+          "blockId": "ECLI:BE:RVSCE:2026:ARR.265.351:block-032",
+          "relevantSnippet": "Il convient dès lors d’accorder aux parties requérantes un délai de\ntrente jours à compter de la notification du présent arrêt pour déposer\nun dernier mémoire."
+        },
+        {
+          "blockId": "ECLI:BE:RVSCE:2026:ARR.265.351:block-035",
+          "relevantSnippet": "La procédure est reprise au stade de la notification du rapport aux\nparties requérantes."
+        }
+      ],
+      "relationshipValidation": {
+        "provisionsValidated": 1,
+        "provisionsNotFoundInCitations": [],
+        "decisionsValidated": 0,
+        "decisionsNotFoundInCitations": []
+      }
+    }
+  ],
+  "metadata": {
+    "totalTeachings": 1,
+    "citationStatistics": {
+      "totalCitations": 4,
+      "avgCitationsPerTeaching": 4,
+      "teachingsWithMinimalCitations": 0,
+      "teachingsWithNoCitations": 0
+    },
+    "validationSummary": {
+      "totalProvisionsValidated": 1,
+      "totalProvisionsNotFound": 0,
+      "totalDecisionsValidated": 0,
+      "totalDecisionsNotFound": 0
+    },
+    "extractionNotes": [
+      "Le raisonnement contient des références à l'article 14, alinéa 1er (bloc-028) et à l'article 14, alinéa 2 (bloc-031). Le relatedCitedProvisionsId fourni (ART-ECLI:BE:RVSCE:2026:ARR.265.351-002) correspond à \"article 14, alinéa 1er\" et a été validé dans le bloc-028."
+    ]
+  },
+  "_tokenUsage": {
+    "prompt": 13721,
+    "completion": 2680,
+    "total": 16401
+  }
+}

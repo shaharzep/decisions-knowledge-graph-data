@@ -1,0 +1,35 @@
+{
+  "customKeywords": [
+    "Droit administratif",
+    "Refus d'accès",
+    "Bâtiments et événements police",
+    "Demande de suspension",
+    "Désistement du requérant",
+    "Annulation de décision",
+    "Suspension d'exécution",
+    "Indemnité de procédure",
+    "Dépens et droit de rôle",
+    "Dépersonnalisation de l'arrêt"
+  ],
+  "metadata": {
+    "totalKeywords": 10,
+    "keywordBreakdown": {
+      "legalDomain": 1,
+      "factualSituation": 4,
+      "keyDispute": 4,
+      "distinctiveElement": 1
+    },
+    "validationChecks": {
+      "keywordCountInRange": true,
+      "allKeywordsShort": true,
+      "noGenericTerms": true,
+      "noPartyNames": true,
+      "balancedMix": true
+    }
+  },
+  "_tokenUsage": {
+    "prompt": 5880,
+    "completion": 1284,
+    "total": 7164
+  }
+}

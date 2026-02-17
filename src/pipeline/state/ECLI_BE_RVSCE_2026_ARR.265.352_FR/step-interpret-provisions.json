@@ -1,0 +1,53 @@
+{
+  "citedProvisions": [
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.352-001",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.352-001",
+      "provisionSequence": 1,
+      "parentActSequence": 1,
+      "provisionNumber": "article 12",
+      "provisionNumberKey": "12",
+      "parentActType": "AUTRE",
+      "parentActName": "règlement général de procédure (règlement général de procédure applicable au Conseil d'État)",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.352-002",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.352-001",
+      "provisionSequence": 2,
+      "parentActSequence": 1,
+      "provisionNumber": "article 66, 6°",
+      "provisionNumberKey": "66",
+      "parentActType": "AUTRE",
+      "parentActName": "règlement général de procédure (règlement général de procédure applicable au Conseil d'État)",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    }
+  ],
+  "extractedReferences": {
+    "url": {
+      "eu": [],
+      "be": []
+    },
+    "reference": {
+      "eu": {
+        "extracted": [],
+        "verified": []
+      },
+      "be": {
+        "extracted": [],
+        "verifiedNumac": [],
+        "verifiedFileNumber": []
+      }
+    }
+  }
+}

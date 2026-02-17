@@ -1,0 +1,86 @@
+{
+  "reference": {
+    "citationReference": "Conseil d'État, 9 janvier 2026, n° 265.351, ECLI:BE:RVSCE:2026:ARR.265.351"
+  },
+  "parties": [
+    {
+      "id": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-001",
+      "name": "A.C.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "DEMANDEUR"
+    },
+    {
+      "id": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-002",
+      "name": "C.G.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "DEMANDEUR"
+    },
+    {
+      "id": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-003",
+      "name": "M.B.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "DEMANDEUR"
+    },
+    {
+      "id": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-004",
+      "name": "J.S.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "DEMANDEUR"
+    },
+    {
+      "id": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-005",
+      "name": "la commune d'Éghezée",
+      "type": "PUBLIC_AUTHORITY",
+      "proceduralRole": "DEFENDEUR"
+    },
+    {
+      "id": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-006",
+      "name": "P.B.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "PARTIE_INTERVENANTE"
+    },
+    {
+      "id": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-007",
+      "name": "D.C.",
+      "type": "NATURAL_PERSON",
+      "proceduralRole": "PARTIE_INTERVENANTE"
+    }
+  ],
+  "currentInstance": {
+    "facts": "Par une requête introduite le 18 mars 2022, les parties requérantes (A.C., C.G., M.B., J.S.) demandent l'annulation de la décision du 17 janvier 2022 par laquelle le collège communal d'Éghezée octroie à P.B. et D.C. un permis d'urbanisme ayant pour objet « la régularisation de percements de baies – non mise en œuvre de percement de baies sur permis d'urbanisme délivré » sur un bien sis rue du Parc 12 à Bonneffe. Par une requête électronique du 5 mai 2022, P.B. et D.C. ont demandé à être reçus en qualité de parties intervenantes ; cette intervention a été accueillie par une ordonnance du 14 juin 2022. Le dossier administratif a été déposé et les mémoires en réponse, en réplique et en intervention ont été régulièrement échangés. M. Quentin Picquereau, auditeur adjoint, a rédigé un rapport en application de l'article 12 du règlement général de procédure. Le 14 août 2025, le rapport de l'auditeur rapporteur a été notifié aux parties adverse et intervenantes, mais il apparaît que ledit rapport n'a pas été notifié aux parties requérantes ; le dernier mémoire déposé par les parties intervenantes a été notifié aux parties requérantes le 12 septembre 2025. Il en résulte que les parties requérantes n'ont pas eu la possibilité de déposer un dernier mémoire, comme prévu à l'article 14, alinéa 2, du règlement général de procédure.",
+    "requests": [
+      {
+        "partyId": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-001",
+        "requests": "Les parties requérantes demandent l'annulation de la décision du 17 janvier 2022 par laquelle le collège communal d'Éghezée octroie à P.B. et D.C. un permis d'urbanisme relatif à la régularisation de percements de baies sur le bien sis rue du Parc 12 à Bonneffe."
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-002",
+        "requests": "Les parties requérantes demandent l'annulation de la décision du 17 janvier 2022 par laquelle le collège communal d'Éghezée octroie à P.B. et D.C. un permis d'urbanisme relatif à la régularisation de percements de baies sur le bien sis rue du Parc 12 à Bonneffe."
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-003",
+        "requests": "Les parties requérantes demandent l'annulation de la décision du 17 janvier 2022 par laquelle le collège communal d'Éghezée octroie à P.B. et D.C. un permis d'urbanisme relatif à la régularisation de percements de baies sur le bien sis rue du Parc 12 à Bonneffe."
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-004",
+        "requests": "Les parties requérantes demandent l'annulation de la décision du 17 janvier 2022 par laquelle le collège communal d'Éghezée octroie à P.B. et D.C. un permis d'urbanisme relatif à la régularisation de percements de baies sur le bien sis rue du Parc 12 à Bonneffe."
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-006",
+        "requests": "Par une requête du 5 mai 2022, P.B. a demandé à être reçu en qualité de partie intervenante dans la procédure."
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:RVSCE:2026:ARR.265.351-007",
+        "requests": "Par une requête du 5 mai 2022, D.C. a demandé à être reçu en qualité de partie intervenante dans la procédure."
+      }
+    ],
+    "arguments": [],
+    "courtOrder": "## **PAR CES MOTIFS, LE CONSEIL D'ÉTAT DÉCIDE :**\n\n### **Article 1<sup>er</sup>.**\n\nLa procédure est reprise au stade de la notification du rapport aux parties requérantes.\n\n### **Article 2.**\n\nL'affaire est fixée à l'audience publique du 19 mars 2026 à 13 heures 30.\n\n### **Article 3.**\n\nLes dépens sont réservés.",
+    "outcome": "AUTRE"
+  },
+  "_tokenUsage": {
+    "prompt": 8487,
+    "completion": 4370,
+    "total": 12857
+  }
+}

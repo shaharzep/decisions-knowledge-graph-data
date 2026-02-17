@@ -1,0 +1,101 @@
+{
+  "citedProvisions": [
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.347-001",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.347-001",
+      "provisionSequence": 1,
+      "parentActSequence": 1,
+      "provisionNumber": "article 66, 6°",
+      "provisionNumberKey": "66",
+      "parentActType": "ARRETE_ROYAL",
+      "parentActName": "l'arrêté du Régent du 23 août 1948 déterminant la procédure devant la section du contentieux administratif du Conseil d'État",
+      "parentActDate": "1948-08-23",
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.347-002",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.347-001",
+      "provisionSequence": 2,
+      "parentActSequence": 1,
+      "provisionNumber": "article 70",
+      "provisionNumberKey": "70",
+      "parentActType": "ARRETE_ROYAL",
+      "parentActName": "l'arrêté du Régent du 23 août 1948 déterminant la procédure devant la section du contentieux administratif du Conseil d'État",
+      "parentActDate": "1948-08-23",
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.347-003",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.347-002",
+      "provisionSequence": 3,
+      "parentActSequence": 2,
+      "provisionNumber": "article 15",
+      "provisionNumberKey": "15",
+      "parentActType": "LOI",
+      "parentActName": "la loi du 17 juin 2013 relative à la motivation, à l'information et aux voies de recours en matière de marchés publics, de certains marchés de travaux, de fournitures et de services et de concessions",
+      "parentActDate": "2013-06-17",
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.347-004",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.347-002",
+      "provisionSequence": 4,
+      "parentActSequence": 2,
+      "provisionNumber": "article 24",
+      "provisionNumberKey": "24",
+      "parentActType": "LOI",
+      "parentActName": "la loi du 17 juin 2013 relative à la motivation, à l'information et aux voies de recours en matière de marchés publics (référencé par l'article 15)",
+      "parentActDate": "2013-06-17",
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.347-005",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.347-002",
+      "provisionSequence": 5,
+      "parentActSequence": 2,
+      "provisionNumber": "article 14",
+      "provisionNumberKey": "14",
+      "parentActType": "LOI",
+      "parentActName": "la loi du 17 juin 2013 relative à la motivation, à l'information et aux voies de recours en matière de marchés publics, de certains marchés de travaux, de fournitures et de services et de concessions",
+      "parentActDate": "2013-06-17",
+      "parentActNumber": null,
+      "provisionInterpretation": "La Cour applique l’article 14 en retenant que la recevabilité d’une demande (et, par renvoi, la suspension visée à l’article 15) suppose que le requérant ait « été ou risque d’être lésé » par la violation alléguée. En l’espèce, le retrait rétroactif de la décision attaquée fait disparaître le préjudice ou le risque de préjudice et, partant, l’une des conditions de recevabilité prévues par l’article 14 n’est pas remplie, rendant la demande de suspension irrecevable.",
+      "relevantFactualContext": "Les requérantes demandaient la suspension d’une décision du 20 novembre 2025 attribuant un marché à NRB ; cette décision a été retirée par la partie adverse le 18 décembre 2025 avec effet rétroactif à la date d’adoption, de sorte que les violations alléguées n’ont ni lésé ni risqué de léser les requérantes."
+    }
+  ],
+  "extractedReferences": {
+    "url": {
+      "eu": [],
+      "be": []
+    },
+    "reference": {
+      "eu": {
+        "extracted": [],
+        "verified": []
+      },
+      "be": {
+        "extracted": [],
+        "verifiedNumac": [],
+        "verifiedFileNumber": []
+      }
+    }
+  }
+}

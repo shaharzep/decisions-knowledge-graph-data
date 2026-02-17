@@ -1,0 +1,108 @@
+{
+  "legalTeachings": [
+    {
+      "teachingId": "TEACH-ECLI:BE:RVSCE:2026:ARR.265.347-001",
+      "text": "Pour qu'une demande de suspension visée à l'article 15 (en renvoi à l'article 14) soit recevable, le requérant doit avoir « été ou risquer d'être lésé » par la violation alléguée ; si l'acte attaqué est retiré avec effet rétroactif de sorte qu'il n'y a ni préjudice ni risque de préjudice, l'une des conditions de recevabilité fait défaut et la demande de suspension doit être déclarée irrecevable.",
+      "courtVerbatim": "La demande examinée en la présente cause tend à la suspension de l’exécution de la décision identifiée sous le titre « I. Objet de la requête » de l’arrêt. Cette décision a toutefois été retirée par la partie adverse le 18 décembre 2025. Ce retrait opère avec effet rétroactif à la date d’adoption de la décision attaquée. Il s’ensuit que – à les supposer avérées – les violations alléguées par les requérantes n’ont ni lésé ni risqué de lésé celles-ci.\n\nDans ces circonstances où l’une des deux conditions de recevabilité fixées par l’article 14 précité n’est pas rencontrée, la demande de suspension doit être déclarée irrecevable.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsqu'une demande de suspension en vertu de l'article 15 (renvoyant à l'article 14) est examinée et que l'acte attaqué a été retiré, éventuellement avec effet rétroactif.",
+      "relevantFactualContext": "Les requérantes demandaient la suspension d'une décision du 20 novembre 2025 attribuant un marché public ; la partie adverse a retiré cette décision le 18 décembre 2025 avec effet rétroactif, de sorte que, selon la Cour, les violations alléguées n'ont ni lésé ni risqué de léser les requérantes.",
+      "principleType": "PROCEDURAL_RULE",
+      "legalArea": "PROCEDURAL_LAW",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": false,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:RVSCE:2026:ARR.265.347-003",
+        "ART-ECLI:BE:RVSCE:2026:ARR.265.347-005"
+      ],
+      "relatedCitedDecisionsId": [
+        "DEC-ECLI:BE:RVSCE:2026:ARR.265.347-001"
+      ],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:RVSCE:2026:ARR.265.347-002",
+      "text": "Lorsque, au stade de la procédure, une partie sollicite le caractère confidentiel de pièces et que cette demande demeure non contestée par la partie adverse, le Conseil d'État peut décider, à ce stade, de maintenir la confidentialité des pièces concernées.",
+      "courtVerbatim": "Cette demande n'étant pas contestée, il y a lieu, à ce stade de la procédure, de maintenir la confidentialité des pièces concernées.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsqu'une demande de confidentialité de pièces déposées en annexe est présentée et n'est pas contestée par la partie adverse au moment de l'examen.",
+      "relevantFactualContext": "Les requérantes ont demandé que les pièces 6, 8 et 10 demeurent confidentielles ; cette demande n'étant pas contestée par la partie adverse, la Cour a maintenu la confidentialité de ces pièces à ce stade.",
+      "principleType": "PROCEDURAL_RULE",
+      "legalArea": "PROCEDURAL_LAW",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "APPEAL",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": false,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [],
+      "relatedCitedDecisionsId": [],
+      "sourceAuthor": "AI_GENERATED"
+    }
+  ],
+  "metadata": {
+    "totalTeachings": 2,
+    "extractedCourtLevel": "APPEAL",
+    "courtLevelConfidence": "HIGH",
+    "teachingTypes": {
+      "interpretive": 0,
+      "application": 0,
+      "balancing": 0,
+      "procedural": 2,
+      "remedial": 0,
+      "legal_test": 0,
+      "burden_proof": 0
+    },
+    "hierarchicalRelationships": {
+      "parentChildPairs": 0,
+      "ruleExceptionPairs": 0,
+      "conflicts": 0
+    },
+    "courtLevelDistribution": {
+      "cassation": 0,
+      "appeal": 2,
+      "first_instance": 0
+    },
+    "validationChecks": {
+      "allTeachingsHaveSourceAuthor": true,
+      "sourceAuthorCorrect": true,
+      "teachingCountReasonable": true,
+      "allTeachingsHaveContext": true,
+      "allTeachingsHaveVerbatim": true,
+      "legalIssuesEmptyAsExpected": true,
+      "allProvisionIdsValid": true,
+      "allDecisionIdsValid": true,
+      "allHierarchyReferencesValid": true,
+      "courtLevelDetected": true
+    }
+  },
+  "_tokenUsage": {
+    "prompt": 15518,
+    "completion": 4205,
+    "total": 19723
+  }
+}

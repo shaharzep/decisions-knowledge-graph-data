@@ -1,0 +1,44 @@
+{
+  "legalTeachings": [],
+  "metadata": {
+    "totalTeachings": 0,
+    "extractedCourtLevel": "FIRST_INSTANCE",
+    "courtLevelConfidence": "MEDIUM",
+    "teachingTypes": {
+      "interpretive": 0,
+      "application": 0,
+      "balancing": 0,
+      "procedural": 0,
+      "remedial": 0,
+      "legal_test": 0,
+      "burden_proof": 0
+    },
+    "hierarchicalRelationships": {
+      "parentChildPairs": 0,
+      "ruleExceptionPairs": 0,
+      "conflicts": 0
+    },
+    "courtLevelDistribution": {
+      "cassation": 0,
+      "appeal": 0,
+      "first_instance": 0
+    },
+    "validationChecks": {
+      "allTeachingsHaveSourceAuthor": true,
+      "sourceAuthorCorrect": true,
+      "teachingCountReasonable": true,
+      "allTeachingsHaveContext": true,
+      "allTeachingsHaveVerbatim": true,
+      "legalIssuesEmptyAsExpected": true,
+      "allProvisionIdsValid": true,
+      "allDecisionIdsValid": true,
+      "allHierarchyReferencesValid": true,
+      "courtLevelDetected": true
+    }
+  },
+  "_tokenUsage": {
+    "prompt": 13425,
+    "completion": 1260,
+    "total": 14685
+  }
+}

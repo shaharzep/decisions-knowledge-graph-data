@@ -1,0 +1,174 @@
+{
+  "classifications": [
+    {
+      "teaching_id": "TEACH-ECLI:BE:RVSCE:2026:ARR.265.351-001",
+      "classification": {
+        "topic_set": [
+          "A11.3",
+          "A18.1",
+          "A18.3"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A18.1",
+            "topic_name": "Procedural incidents (civil)",
+            "confidence": 0.95,
+            "materiality_evidence": "The teaching addresses a dispositive procedural incident (failure to notify an auditor's report) requiring the procedure to be restarted so parties can file the final mémoire."
+          },
+          {
+            "topic_id": "A11.3",
+            "topic_name": "Administrative procedure",
+            "confidence": 0.93,
+            "materiality_evidence": "The ruling interprets and applies the Règlement général de procédure and is handed down by the Conseil d'État, engaging administrative procedure law directly."
+          },
+          {
+            "topic_id": "A18.3",
+            "topic_name": "Time limits and deadlines (dispositive)",
+            "confidence": 0.88,
+            "materiality_evidence": "The remedy ordered is to grant parties a specific time limit to submit the last mémoire (article 14(2)), so deadlines are central to the holding."
+          }
+        ],
+        "issue_type_set": [
+          "B20.1",
+          "B21",
+          "B8"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "confidence": 0.98
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "confidence": 0.92
+          },
+          {
+            "issue_type_id": "B20.1",
+            "issue_type_name": "Private remedies (damages, injunctions, declarations, restitution)",
+            "confidence": 0.85
+          }
+        ],
+        "issue_key": "{A11.3,A18.1,A18.3}|{B20.1,B21,B8}"
+      },
+      "confidence": {
+        "overall": 0.919,
+        "topic_set": 0.9199999999999999,
+        "issue_type_set": 0.9166666666666666,
+        "per_topic": [
+          {
+            "id": "A18.1",
+            "confidence": 0.95
+          },
+          {
+            "id": "A11.3",
+            "confidence": 0.93
+          },
+          {
+            "id": "A18.3",
+            "confidence": 0.88
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B21",
+            "confidence": 0.98
+          },
+          {
+            "id": "B8",
+            "confidence": 0.92
+          },
+          {
+            "id": "B20.1",
+            "confidence": 0.85
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "R-orig-2: A18.1/4/5/6 → B21 satisfied",
+          "R-orig-3: A18.3 → B8 + B21 satisfied"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Researchers will search for decisions about missing notification of an auditor's/rapporteur's report, remedies requiring reprise de la procédure, and the issuance of a time limit to file the final mémoire under article 14(2) of the Règlement général de procédure."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A9.1",
+            "rejection_reason": "Privacy/data protection topics are not engaged by this procedural, administrative decision."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B10",
+            "rejection_reason": "Factual question about whether notification occurred is background to the remedial teaching but the teaching does not provide actionable guidance on factual proof or assessment methods."
+          },
+          {
+            "issue_type_id": "B11",
+            "rejection_reason": "The decision reaches a remedial conclusion rather than analysing the legal elements of a breach; inclusion of breach as a separate issue type would be redundant given procedural/remedy focus."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "notification of procedural documents",
+          "auditor's (rapporteur) report",
+          "right to be heard / opportunity to file final pleadings",
+          "procedural restart / reprise de la procédure",
+          "granting of a deadline to file documents",
+          "violation of procedural rules (reglement general de procedure, art. 14)",
+          "remedial order by court to cure procedural defect"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Administrative procedure (Règlement général de procédure / Conseil d'État practice)",
+            "Procedural incidents in civil/administrative litigation (notification defects and procedural restart)",
+            "Procedural time limits and deadlines (granting a period to file the final memorandum)"
+          ],
+          "retrieval_consideration": "Researchers will search for decisions about missing notification of an auditor's/rapporteur's report, remedies requiring reprise de la procédure, and the issuance of a time limit to file the final mémoire under article 14(2) of the Règlement général de procédure.",
+          "granularity_decisions": [
+            "Select A11.3 (Administrative procedure) because the decision applies the Règlement général de procédure and is from the Conseil d'État.",
+            "Select A18.1 (Procedural incidents) rather than a broader procedural topic because the teaching addresses a specific incident (missing notification) requiring procedural restart.",
+            "Select A18.3 (Time limits and deadlines) because the remedial order specifically grants a new deadline for filing the last mémoire; choose the specific deadlines leaf rather than a generic timing topic."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "engagement_evidence": "Teaching prescribes in-forum mechanics: when an auditor's report was not notified, the procedure must be restarted at the notification stage and parties must be granted a time limit to file the final memorandum.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "engagement_evidence": "Teaching interprets the procedural rule (art. 14) to require restarting notification and granting a new deadline when notification failed, i.e. clarifies what the rule requires in this situation.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B20.1",
+            "issue_type_name": "Private remedies (damages, injunctions, declarations, restitution)",
+            "engagement_evidence": "Teaching orders a judicial remedy addressing a procedural defect: restarting the procedure at notification and granting parties a 30‑day period to file the last memorandum.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "Topic set includes A18.1 → MUST include B21",
+          "Topic set includes A18.3 → MUST include B8 AND B21"
+        ],
+        "processed_at": "2026-02-15T22:52:37.216Z"
+      }
+    }
+  ],
+  "totalTeachings": 1,
+  "successCount": 1,
+  "failCount": 0
+}

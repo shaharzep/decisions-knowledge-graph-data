@@ -1,0 +1,133 @@
+{
+  "citedProvisions": [
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.346-001",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.346-001",
+      "provisionSequence": 1,
+      "parentActSequence": 1,
+      "provisionNumber": "article 17, § 4, alinéa 2",
+      "provisionNumberKey": "17",
+      "parentActType": "LOI",
+      "parentActName": "des lois sur le Conseil d'État, coordonnées le 12 janvier 1973",
+      "parentActDate": "1973-01-12",
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.346-002",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.346-001",
+      "provisionSequence": 2,
+      "parentActSequence": 1,
+      "provisionNumber": "article 30, § 5",
+      "provisionNumberKey": "30",
+      "parentActType": "LOI",
+      "parentActName": "des lois coordonnées sur le Conseil d'État, coordonnées le 12 janvier 1973",
+      "parentActDate": "1973-01-12",
+      "parentActNumber": null,
+      "provisionInterpretation": "La Cour applique l'article 30, § 5, en le considérant comme permettant au Conseil d'État de se prononcer par un seul et même arrêt sur la demande de suspension et sur la requête en annulation lorsque le requérant se désiste ou lorsque l'acte attaqué est retiré, sans qu'il soit nécessaire d'introduire une demande de poursuite de la procédure, et en précisant qu'en pareil cas la taxe y afférente n'est pas due.",
+      "relevantFactualContext": "Par un courriel du 14 décembre 2025, la requérante a manifesté son intention d'annuler définitivement son recours, ce qui a été retenu comme un désistement intervenu au cours de la procédure de suspension."
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.346-003",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.346-001",
+      "provisionSequence": 3,
+      "parentActSequence": 1,
+      "provisionNumber": "article 30/1",
+      "provisionNumberKey": "30/1",
+      "parentActType": "LOI",
+      "parentActName": "des lois sur le Conseil d'État, coordonnées le 12 janvier 1973",
+      "parentActDate": "1973-01-12",
+      "parentActNumber": null,
+      "provisionInterpretation": "La Cour entend l'article 30/1 comme la disposition permettant d'identifier la partie « ayant obtenu gain de cause » et d'ouvrir droit à une indemnité de procédure; elle conclut qu'en cas de désistement intervenu pendant la procédure, la partie adverse doit être regardée comme ayant obtenu gain de cause au sens de cet article et peut se voir attribuer une indemnité.",
+      "relevantFactualContext": "En raison du désistement de la requérante intervenu avant l'examen du fond, la partie adverse est considérée comme ayant obtenu gain de cause et sollicite une indemnité de procédure."
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.346-004",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.346-002",
+      "provisionSequence": 4,
+      "parentActSequence": 2,
+      "provisionNumber": "article 67, § 2, alinéa 3",
+      "provisionNumberKey": "67",
+      "parentActType": "ARRETE_GOUVERNEMENT",
+      "parentActName": "du règlement général de procédure (arrêté relatif au règlement général de procédure)",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": "La Cour interprète l'article 67, § 2, alinéa 3, comme énonçant que «aucune majoration n'est due notamment» dans plusieurs hypothèses (recours en annulation sans objet, débats succincts, application des articles 11/2 à 11/4), le terme «notamment» étant non limitatif; appliquée au cas d'espèce, cette règle conduit à écarter la majoration lorsque le recours en annulation n'est pas examiné en raison du désistement.",
+      "relevantFactualContext": "Le désistement de la requérante est intervenu au stade de l'examen de la demande de suspension, de sorte que le recours en annulation n'a pas été examiné et qu'il n'est pas justifié d'accorder une majoration."
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.346-005",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.346-002",
+      "provisionSequence": 5,
+      "parentActSequence": 2,
+      "provisionNumber": "article 11/2",
+      "provisionNumberKey": "11/2",
+      "parentActType": "ARRETE_GOUVERNEMENT",
+      "parentActName": "du présent arrêté du règlement général de procédure",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.346-006",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.346-002",
+      "provisionSequence": 6,
+      "parentActSequence": 2,
+      "provisionNumber": "article 11/4",
+      "provisionNumberKey": "11/4",
+      "parentActType": "ARRETE_GOUVERNEMENT",
+      "parentActName": "du présent arrêté du règlement général de procédure",
+      "parentActDate": null,
+      "parentActNumber": null,
+      "provisionInterpretation": null,
+      "relevantFactualContext": null
+    },
+    {
+      "provisionId": null,
+      "parentActId": null,
+      "internalProvisionId": "ART-ECLI:BE:RVSCE:2026:ARR.265.346-007",
+      "internalParentActId": "ACT-ECLI:BE:RVSCE:2026:ARR.265.346-003",
+      "provisionSequence": 7,
+      "parentActSequence": 3,
+      "provisionNumber": "article 2, alinéa 1er",
+      "provisionNumberKey": "2",
+      "parentActType": "ARRETE_ROYAL",
+      "parentActName": "de l'arrêté royal du 7 juillet 1997 relatif à la publication des arrêts et des ordonnances de non-admission du Conseil d'État",
+      "parentActDate": "1997-07-07",
+      "parentActNumber": null,
+      "provisionInterpretation": "La Cour expose le sens de l'article 2, alinéa 1er, de l'arrêté royal du 7 juillet 1997 en retenant que toute personne physique partie à un litige peut, dès la requête et jusqu'à la clôture des débats, demander que son identité ne soit pas mentionnée lors de la publication de l'arrêt; la demande de dépersonnalisation peut donc être accueillie si rien ne s'y oppose.",
+      "relevantFactualContext": "La requérante a sollicité la dépersonnalisation de l'arrêt dans sa requête; le Conseil d'État a jugé qu'aucun obstacle ne s'opposait à la non-mention de son identité lors de la publication."
+    }
+  ],
+  "extractedReferences": {
+    "url": {
+      "eu": [],
+      "be": []
+    },
+    "reference": {
+      "eu": {
+        "extracted": [],
+        "verified": []
+      },
+      "be": {
+        "extracted": [],
+        "verifiedNumac": [],
+        "verifiedFileNumber": []
+      }
+    }
+  }
+}

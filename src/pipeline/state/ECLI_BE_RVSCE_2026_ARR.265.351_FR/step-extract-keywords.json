@@ -1,0 +1,35 @@
+{
+  "customKeywords": [
+    "Droit administratif",
+    "Permis d'urbanisme",
+    "Régularisation de percements",
+    "Percements de baies",
+    "Décision communale",
+    "Annulation du permis",
+    "Droit d'être entendu",
+    "Vice de procédure",
+    "Reprise de la procédure",
+    "Notification du rapport manquante"
+  ],
+  "metadata": {
+    "totalKeywords": 10,
+    "keywordBreakdown": {
+      "legalDomain": 1,
+      "factualSituation": 4,
+      "keyDispute": 4,
+      "distinctiveElement": 1
+    },
+    "validationChecks": {
+      "keywordCountInRange": true,
+      "allKeywordsShort": true,
+      "noGenericTerms": true,
+      "noPartyNames": true,
+      "balancedMix": true
+    }
+  },
+  "_tokenUsage": {
+    "prompt": 5248,
+    "completion": 1510,
+    "total": 6758
+  }
+}
