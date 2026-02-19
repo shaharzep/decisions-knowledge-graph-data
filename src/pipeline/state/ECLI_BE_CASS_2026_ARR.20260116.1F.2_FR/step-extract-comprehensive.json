@@ -1,0 +1,53 @@
+{
+  "reference": {
+    "citationReference": "Cass., 16 janvier 2026, C.23.0400.F, ECLI:BE:CASS:2026:ARR.20260116.1F.2"
+  },
+  "parties": [
+    {
+      "id": "PARTY-ECLI:BE:CASS:2026:ARR.20260116.1F.2-001",
+      "name": "ASSIA EAL S.L.",
+      "type": "LEGAL_ENTITY",
+      "proceduralRole": "DEMANDEUR_EN_CASSATION"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CASS:2026:ARR.20260116.1F.2-002",
+      "name": "PROXIMUS",
+      "type": "PUBLIC_AUTHORITY",
+      "proceduralRole": "DEFENDEUR_EN_CASSATION"
+    },
+    {
+      "id": "PARTY-ECLI:BE:CASS:2026:ARR.20260116.1F.2-003",
+      "name": "Adaptative Spectrum and Signal Alignment, Inc. (ASSIA Inc.)",
+      "type": "LEGAL_ENTITY",
+      "proceduralRole": "AUTRE"
+    }
+  ],
+  "currentInstance": {
+    "facts": "La demanderesse est titulaire de la partie belge d'un brevet (revendication 1 du brevet EP 2 259 495) portant sur un procédé de gestion des lignes de télécommunications. En décembre 2018, ASSIA Inc., titulaire originaire du brevet, introduit une requête en saisie-description contre la défenderesse, rejetée par ordonnance du président du tribunal de l'entreprise de Bruxelles du 24 décembre 2018; la cour d'appel de Bruxelles confirme ce rejet par arrêt du 14 janvier 2019. ASSIA Inc. cède ensuite le brevet à sa filiale espagnole ASSIA EAL S.L. En 2019 la demanderesse fait procéder à des constats (tests sur lignes DSL) et, sur la base d'indices recueillis en 2019, introduit une nouvelle requête en saisie-description le 14 février 2020; le président la rejette par ordonnance du 27 février 2020 au motif que les tests de 2019 auraient pu être déjà disponibles lors de la première procédure. La cour d'appel de Bruxelles réforme le 4 juin 2020 et autorise la saisie-description; la défenderesse forme tierce opposition qui est rejetée par la cour d'appel de Bruxelles le 29 janvier 2021 au motif que les procès-verbaux de constat de 2019 sont des éléments intrinsèquement nouveaux. Par arrêt du 24 novembre 2022, la Cour de cassation casse cet arrêt en rappelant que ces indices ne constituent des circonstances nouvelles que s'ils n'étaient pas raisonnablement accessibles lors de la première demande. Sur renvoi, la cour d'appel de Liège, par arrêt du 27 juin 2023, décide que les circonstances nouvelles invoquées par la demanderesse étaient raisonnablement accessibles lors de l'examen de la première requête, accueille la tierce opposition de la défenderesse et annule l'arrêt du 4 juin 2020. La demanderesse forme pourvoi en cassation. La question juridique centrale porte sur l'interprétation de la notion «présenter des éléments de preuve raisonnablement accessibles» (art. 7, dir. 2004/48/CE), la recevabilité d'une question préjudicielle (art. 267 TFUE) et les conséquences éventuelles en droit de l'Union (articles 1er, 2.1, 3 et 7 de la directive) ainsi que sur les moyens tirés de l'article 6 CEDH et de l'article 47 de la Charte. La Cour de cassation, saisie du pourvoi, rejette le pourvoi et condamne la demanderesse aux dépens.",
+    "requests": [
+      {
+        "partyId": "PARTY-ECLI:BE:CASS:2026:ARR.20260116.1F.2-001",
+        "requests": "Poser trois questions préjudicielles à la Cour de justice de l'Union européenne sur l'interprétation de la notion «présent[er] des éléments de preuve raisonnablement accessibles» visée à l'article 7, § 1er, de la directive 2004/48; casser et annuler l'arrêt attaqué et renvoyer la cause devant la cour d'appel de Bruxelles; statuer comme de droit sur les dépens de l'instance de cassation."
+      }
+    ],
+    "arguments": [
+      {
+        "partyId": "PARTY-ECLI:BE:CASS:2026:ARR.20260116.1F.2-001",
+        "argument": "La demanderesse soutient, en première branche, que la cour d'appel de Liège aurait dû poser une question préjudicielle à la Cour de justice de l'Union européenne quant à l'interprétation de la notion «présent[er] des éléments de preuve raisonnablement accessibles» de l'article 7, § 1er, de la directive 2004/48/CE. Elle soutient que cette interprétation est déterminante pour la solution du litige: soit l'article 7 impose que le juge examine les éléments produits à l'appui de chaque requête indépendamment d'une précédente demande rejetée, soit il autorise l'exigence supplémentaire que ces éléments n'auraient pas pu être constitués ou connus antérieurement; à supposer que la transposition belge (art. 1369bis/1, § 3 C. jud.) soit incorrecte, la directive est suffisamment claire, précise et inconditionnelle pour produire un effet direct et la Cour d'appel était tenue, en vertu de l'article 267 TFUE, de saisir la CJUE.",
+        "treatment": "REJETE"
+      },
+      {
+        "partyId": "PARTY-ECLI:BE:CASS:2026:ARR.20260116.1F.2-001",
+        "argument": "En seconde branche, la demanderesse allègue que le rejet de la prise en compte des indices nouveaux porte atteinte à son droit à un procès équitable (art. 6 CEDH) et à son droit d'accès à un recours effectif (art. 47 Charte). Elle affirme que l'interprétation retenue par la cour d'appel restreint l'effectivité des mesures conservatoires prévues par la directive 2004/48 et crée des obstacles disproportionnés à la protection des droits de propriété intellectuelle, privant ainsi la demanderesse d'un accès effectif au juge et d'un débat loyal sur l'atteinte alléguée.",
+        "treatment": "IRRECEVABLE"
+      }
+    ],
+    "courtOrder": "Par ces motifs,\n\nLa Cour\n\nRejette le pourvoi ;\n\nCondamne la demanderesse aux dépens.\n\nLes dépens taxés à la somme de cinq cent cinq euros nonante-neuf centimes envers la partie demanderesse, y compris la somme de vingt-quatre euros au profit du fonds budgétaire relatif à l'aide juridique de deuxième ligne, à la somme de trois cent dix euros trente-six centimes envers la partie défenderesse, et à la somme de six cent cinquante euros due à l'État au titre de mise au rôle.",
+    "outcome": "REJET"
+  },
+  "_tokenUsage": {
+    "prompt": 19982,
+    "completion": 3517,
+    "total": 23499
+  }
+}

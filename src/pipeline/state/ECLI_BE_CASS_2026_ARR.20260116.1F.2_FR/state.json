@@ -1,0 +1,119 @@
+{
+  "decisionId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2",
+  "language": "FR",
+  "startedAt": "2026-02-18T04:03:24.722Z",
+  "status": "completed",
+  "currentStep": null,
+  "steps": {
+    "extract-comprehensive": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 29501,
+      "tokenUsage": {
+        "prompt": 19982,
+        "completion": 3517,
+        "total": 23499
+      }
+    },
+    "extract-provisions-2a": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 108813
+    },
+    "extract-cited-decisions": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 113228
+    },
+    "extract-keywords": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 13273,
+      "tokenUsage": {
+        "prompt": 16743,
+        "completion": 1499,
+        "total": 18242
+      }
+    },
+    "extract-micro-summary": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 7683,
+      "tokenUsage": {
+        "prompt": 15405,
+        "completion": 1064,
+        "total": 16469
+      }
+    },
+    "enrich-provisions": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 3
+    },
+    "interpret-provisions": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 29180,
+      "tokenUsage": {
+        "prompt": 20179,
+        "completion": 3303,
+        "total": 23482
+      }
+    },
+    "extract-legal-teachings": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 51645,
+      "tokenUsage": {
+        "prompt": 30391,
+        "completion": 6610,
+        "total": 37001
+      }
+    },
+    "convert-md-to-html": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 422
+    },
+    "enrich-provision-citations": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 152750,
+      "tokenUsage": {
+        "prompt": 41411,
+        "completion": 19247,
+        "total": 60658
+      }
+    },
+    "enrich-teaching-citations": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 57678,
+      "tokenUsage": {
+        "prompt": 44799,
+        "completion": 6374,
+        "total": 51173
+      }
+    },
+    "classify-legal-issues": {
+      "status": "completed",
+      "attempts": 1,
+      "model": "gpt-5-mini",
+      "durationMs": 94080
+    }
+  },
+  "completedAt": "2026-02-18T04:14:23.001Z",
+  "totalDurationMs": 658278,
+  "totalTokens": 230524
+}

@@ -1,0 +1,148 @@
+{
+  "legalTeachings": [
+    {
+      "teachingId": "TEACH-ECLI:BE:CASS:2026:ARR.20260116.1F.2-001",
+      "text": "La juridiction de renvoi saisie après cassation n'est liée que par le point de droit effectivement tranché par l'arrêt de cassation : elle doit se conformer à l'interprétation de la règle de droit donnée par la Cour de cassation sur ce point précis. Toutefois, cette obligation n'empêche pas la juridiction de renvoi d'examiner la conformité de la règle ainsi interprétée au droit de l'Union européenne.",
+      "courtVerbatim": "En vertu de l'article 1110, alinéa 4, du Code judiciaire, la juridiction de renvoi se conforme à l'arrêt de la Cour de cassation sur le point de droit jugé par cette Cour ; aucun recours en cassation n'est admis contre la décision de cette juridiction, en tant que celle-ci est conforme à l'arrêt de cassation.\n\nIl s'ensuit que la juridiction de renvoi n'est liée que par l'interprétation que la Cour a, dans l'arrêt de cassation, donnée d'une règle de droit.\n\nCette disposition ne fait en revanche pas obstacle à ce que la juridiction de renvoi examine la conformité de la règle de droit ainsi interprétée au droit de l'Union.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsqu'une juridiction nationale statue comme juridiction de renvoi après cassation et doit décider d'un point de droit déjà tranché par un arrêt de cassation.",
+      "relevantFactualContext": "La défenderesse alléguait une fin de non-recevoir au pourvoi en soutenant que l'arrêt de la cour d'appel de Liège était conforme à un précédent arrêt de cassation ; la Cour rappelle les effets de l'article 1110, al. 4, et rejette la fin de non-recevoir.",
+      "principleType": "PROCEDURAL_RULE",
+      "legalArea": "PROCEDURAL_LAW",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "CASSATION",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": true,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CASS:2026:ARR.20260116.1F.2-001"
+      ],
+      "relatedCitedDecisionsId": [
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-002"
+      ],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CASS:2026:ARR.20260116.1F.2-002",
+      "text": "L'article 7, §1er, de la directive 2004/48/CE impose aux États membres de prévoir, avant l'action au fond, la possibilité pour les autorités judiciaires d'ordonner des mesures provisoires rapides et efficaces de conservation des éléments de preuve lorsqu'une partie présente des éléments de preuve raisonnablement accessibles. Cette obligation vise l'effectivité de la protection des droits de propriété intellectuelle mais n'enlève pas aux États membres leur autonomie procédurale pour définir l'autorité compétente et les conditions dans lesquelles une demande peut être réitérée après un rejet.",
+      "courtVerbatim": "L'article 7, paragraphe 1er, de la directive, inséré dans la section 2 relative aux preuves, dispose que, avant même l'engagement d'une action au fond, les États membres veillent à ce que les autorités judiciaires compétentes puissent, sur requête d'une partie qui a présenté des éléments de preuve raisonnablement accessibles pour étayer ses allégations selon lesquelles il est porté atteinte à son droit de propriété intellectuelle ou qu'une telle atteinte est imminente, ordonner des mesures provisoires rapides et efficaces pour conserver les éléments de preuve pertinents, au regard de l'atteinte alléguée, sous réserve que la protection des renseignements confidentiels soit assurée.\n\nCette disposition tend à imposer aux États membres de mettre en place une procédure permettant à la partie qui présente des éléments de preuve raisonnablement accessibles à l'appui de l'allégation d'une atteinte à son droit de propriété intellectuelle d'obtenir des mesures provisoires de conservation des preuves.\n\nElle n'a en revanche ni pour objet ni pour effet de soustraire à l'autonomie procédurale des États membres l'appréciation de l'autorité que revêt la décision statuant sur cette demande et dès lors la détermination des conditions dans lesquelles celle-ci peut être réitérée après une décision rejetant une demande d'obtention de mesures de conservation des preuves.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsqu'une partie sollicite, avant l'action au fond, des mesures provisoires pour conserver des éléments de preuve relatifs à une atteinte alléguée à des droits de propriété intellectuelle et produit des éléments raisonnablement accessibles.",
+      "relevantFactualContext": "La demanderesse sollicitait des mesures provisoires de conservation des preuves fondées sur des constats et procès-verbaux établis en 2019; la question se posait de savoir si la directive empêchait une juridiction nationale d'écarter une requête réitérée pour des raisons procédurales.",
+      "principleType": "INTERPRETATION_RULE",
+      "legalArea": "INTELLECTUAL_PROPERTY",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "CASSATION",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": false,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CASS:2026:ARR.20260116.1F.2-004",
+        "ART-ECLI:BE:CASS:2026:ARR.20260116.1F.2-002",
+        "ART-ECLI:BE:CASS:2026:ARR.20260116.1F.2-003"
+      ],
+      "relatedCitedDecisionsId": [],
+      "sourceAuthor": "AI_GENERATED"
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CASS:2026:ARR.20260116.1F.2-003",
+      "text": "L'obligation de saisir la Cour de justice en vertu de l'article 267 TFUE n'est pas méconnue lorsqu'une question d'interprétation du droit de l'Union est suffisamment claire qu'elle ne laisse place à aucun doute raisonnable, ou lorsque la question préjudicielle n'est pas utile à la solution du litige : dans ces circonstances, la juridiction nationale peut s'abstenir de poser la question.",
+      "courtVerbatim": "Et cette interprétation du champ d'application de la directive 2004/48/CE précitée s'imposant avec une évidence telle qu'elle ne laisse place à aucun doute raisonnable, il n'y a pas lieu de poser à la Cour de justice de l'Union européenne la question préjudicielle proposée par la demanderesse, qui repose sur le soutènement contraire.\n\nl'arrêt, qui, en réponse à la demande de la demanderesse de « saisir la Cour de justice de l'Union européenne d'une question préjudicielle au regard de l'article 7, paragraphe 1er, de la directive 2004/48/CE », considère que cette question « n'est pas utile à la solution du litige » au motif que « l'objet [de ce litige] porte sur les conditions dans lesquelles un requérant débouté d'une première demande de saisie-description est recevable à réitérer cette demande en invoquant de nouveaux indices d'atteinte à son droit de propriété intellectuelle », ne viole pas l'article 267 du Traité sur le fonctionnement de l'Union européenne.",
+      "courtVerbatimLanguage": "FR",
+      "factualTrigger": "S'applique lorsqu'une juridiction nationale estime que l'interprétation d'une disposition de droit de l'Union est manifestement claire ou que la réponse de la CJUE serait inutile pour trancher le litige en cause.",
+      "relevantFactualContext": "La demanderesse demandait que la cour d'appel saisisse la CJUE sur l'interprétation de l'article 7; la Cour a estimé l'interprétation suffisamment claire et que la question préjudicielle n'était pas utile à la solution du litige.",
+      "principleType": "INTERPRETATION_RULE",
+      "legalArea": "PROCEDURAL_LAW",
+      "hierarchicalRelationships": {
+        "refinesParentPrinciple": null,
+        "refinedByChildPrinciples": [],
+        "exceptionToPrinciple": null,
+        "exceptedByPrinciples": [],
+        "conflictsWith": []
+      },
+      "precedentialWeight": {
+        "courtLevel": "CASSATION",
+        "binding": true,
+        "clarity": "EXPLICIT",
+        "novelPrinciple": false,
+        "confirmsExistingDoctrine": true,
+        "distinguishesPriorCase": false
+      },
+      "relatedLegalIssuesId": [],
+      "relatedCitedProvisionsId": [
+        "ART-ECLI:BE:CASS:2026:ARR.20260116.1F.2-005",
+        "ART-ECLI:BE:CASS:2026:ARR.20260116.1F.2-004"
+      ],
+      "relatedCitedDecisionsId": [
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-009",
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-010",
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-011",
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-012"
+      ],
+      "sourceAuthor": "AI_GENERATED"
+    }
+  ],
+  "metadata": {
+    "totalTeachings": 3,
+    "extractedCourtLevel": "CASSATION",
+    "courtLevelConfidence": "HIGH",
+    "teachingTypes": {
+      "interpretive": 2,
+      "application": 0,
+      "balancing": 0,
+      "procedural": 1,
+      "remedial": 0,
+      "legal_test": 0,
+      "burden_proof": 0
+    },
+    "hierarchicalRelationships": {
+      "parentChildPairs": 0,
+      "ruleExceptionPairs": 0,
+      "conflicts": 0
+    },
+    "courtLevelDistribution": {
+      "cassation": 3,
+      "appeal": 0,
+      "first_instance": 0
+    },
+    "validationChecks": {
+      "allTeachingsHaveSourceAuthor": true,
+      "sourceAuthorCorrect": true,
+      "teachingCountReasonable": true,
+      "allTeachingsHaveContext": true,
+      "allTeachingsHaveVerbatim": true,
+      "legalIssuesEmptyAsExpected": true,
+      "allProvisionIdsValid": true,
+      "allDecisionIdsValid": true,
+      "allHierarchyReferencesValid": true,
+      "courtLevelDetected": true
+    }
+  },
+  "_tokenUsage": {
+    "prompt": 30391,
+    "completion": 6610,
+    "total": 37001
+  }
+}

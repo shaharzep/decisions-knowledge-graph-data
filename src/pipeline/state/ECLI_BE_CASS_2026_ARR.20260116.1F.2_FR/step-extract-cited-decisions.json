@@ -1,0 +1,160 @@
+{
+  "citedDecisions": [
+    {
+      "decisionId": null,
+      "decisionSequence": 1,
+      "courtJurisdictionCode": "BE",
+      "courtName": "septième A chambre civile de la cour d'appel de Liège",
+      "date": "2023-06-27",
+      "caseNumber": "R.G. n° 2023/RG/136",
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-001"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 2,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cour de cassation",
+      "date": "2022-11-24",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-002"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 3,
+      "courtJurisdictionCode": "BE",
+      "courtName": "président du tribunal de l'entreprise de Bruxelles",
+      "date": "2018-12-24",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-003"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 4,
+      "courtJurisdictionCode": "BE",
+      "courtName": "cour d'appel de Bruxelles",
+      "date": "2019-01-14",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-004"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 5,
+      "courtJurisdictionCode": "BE",
+      "courtName": "président du tribunal de l'entreprise francophone de Bruxelles",
+      "date": "2020-02-27",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-005"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 6,
+      "courtJurisdictionCode": "BE",
+      "courtName": "cour d'appel de Bruxelles",
+      "date": "2020-06-04",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-006"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 7,
+      "courtJurisdictionCode": "BE",
+      "courtName": "cour d'appel de Bruxelles",
+      "date": "2021-01-29",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PROCEDURAL",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-007"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 8,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "2018-01-15",
+      "caseNumber": "Pas. n° 59",
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-008"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 9,
+      "courtJurisdictionCode": "EU",
+      "courtName": "CJUE",
+      "date": "1982-10-06",
+      "caseNumber": "C-283/81",
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-009"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 10,
+      "courtJurisdictionCode": "EU",
+      "courtName": "CJUE",
+      "date": "2013-07-18",
+      "caseNumber": "C-316/12",
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-010"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 11,
+      "courtJurisdictionCode": "EU",
+      "courtName": "CJUE",
+      "date": "2017-03-15",
+      "caseNumber": "C-3/16",
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-011"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 12,
+      "courtJurisdictionCode": "EU",
+      "courtName": "C.J.U.E.",
+      "date": "1997-11-04",
+      "caseNumber": "C-337/95",
+      "ecli": null,
+      "treatment": "FOLLOWED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-012"
+    },
+    {
+      "decisionId": null,
+      "decisionSequence": 13,
+      "courtJurisdictionCode": "BE",
+      "courtName": "Cass.",
+      "date": "2020-12-04",
+      "caseNumber": null,
+      "ecli": null,
+      "treatment": "CITED",
+      "type": "PRECEDENT",
+      "internalDecisionId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-013"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "legalTeachings": [
+    {
+      "teachingId": "TEACH-ECLI:BE:CASS:2026:ARR.20260116.1F.2-001",
+      "citations": [
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-023",
+          "relevantSnippet": "En vertu de l’article 1110, alinéa 4, du Code judiciaire, la juridiction de renvoi se conforme à l’arrêt de la Cour de cassation sur le point de droit jugé par cette Cour ; aucun recours en cassation n’est admis contre la décision de cette juridiction, en tant que celle-ci est conforme à l’arrêt de cassation."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-024",
+          "relevantSnippet": "Il s’ensuit que la juridiction de renvoi n’est liée que par l’interprétation que la Cour a, dans l’arrêt de cassation, donnée d'une règle de droit."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-027",
+          "relevantSnippet": "Cette disposition ne fait en revanche pas obstacle à ce que la juridiction de renvoi examine la conformité de la règle de droit ainsi interprétée au droit de l’Union."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-146",
+          "relevantSnippet": "Par son arrêt du 24 novembre 2022, Votre Cour a cassé cet arrêt au motif qu’il suit des dispositions de la loi belge que «lorsque le requérant, débouté de sa demande de saisie-description, réitère cette demande en invoquant de nouveaux indices d’atteinte à son droit de propriété intellectuelle, ces indices ne constituent des circonstances nouvelles que s’ils n’étaient pas raisonnablement accessibles au requérant lors de l’examen de sa première demande». "
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-028",
+          "relevantSnippet": "La fin de non-recevoir ne peut être accueillie..§."
+        }
+      ],
+      "relationshipValidation": {
+        "provisionsValidated": 1,
+        "provisionsNotFoundInCitations": [],
+        "decisionsValidated": 1,
+        "decisionsNotFoundInCitations": []
+      }
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CASS:2026:ARR.20260116.1F.2-002",
+      "citations": [
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-032",
+          "relevantSnippet": "L’article 1er de la directive 2004/48/CE du Parlement européen et du Conseil du 29 avril 2004 relative au respect des droits de propriété intellectuelle énonce que celle-ci concerne les mesures, procédures et réparations nécessaires pour assurer le respect des droits de propriété intellectuelle."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-033",
+          "relevantSnippet": "Le considérant 20 de cette directive précise qu’étant donné que la preuve est un élément capital pour l’établissement de l’atteinte aux droits de propriété intellectuelle, il convient de veiller à ce que des moyens de présenter, d’obtenir et de conserver les éléments de preuve existent effectivement."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-034",
+          "relevantSnippet": "L’article 7, paragraphe 1er, de la directive, inséré dans la section 2 relative aux preuves, dispose que, avant même l’engagement d’une action au fond, les États membres veillent à ce que les autorités judiciaires compétentes puissent, sur requête d’une partie qui a présenté des éléments de preuve raisonnablement accessibles pour étayer ses allégations selon lesquelles il est porté atteinte à son droit de propriété intellectuelle ou qu’une telle atteinte est imminente, ordonner des mesures/prov."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-035",
+          "relevantSnippet": "Cette disposition tend à imposer aux États membres de mettre en place une procédure permettant à la partie qui présente des éléments de preuve"
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-039",
+          "relevantSnippet": "Elle n’a en revanche ni pour objet ni pour effet de soustraire à l’autonomie procédurale des États membres l’appréciation de l’autorité que revêt la décision statuant sur cette demande et dès lors la détermination des conditions dans lesquelles celle-ci peut être réitérée après une décision rejetant une demande d’obtention de mesures de conservation des preuves."
+        }
+      ],
+      "relationshipValidation": {
+        "provisionsValidated": 3,
+        "provisionsNotFoundInCitations": [],
+        "decisionsValidated": 0,
+        "decisionsNotFoundInCitations": []
+      }
+    },
+    {
+      "teachingId": "TEACH-ECLI:BE:CASS:2026:ARR.20260116.1F.2-003",
+      "citations": [
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-041",
+          "relevantSnippet": "Et cette interprétation du champ d’application de la directive 2004/48/CE précitée s’imposant avec une évidence telle qu’elle ne laisse place à aucun doute raisonnable, il n’y a pas lieu de poser à la Cour de justice de l’Union européenne la question préjudicielle proposée par la demanderesse, qui repose sur le soutènement contraire."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-042",
+          "relevantSnippet": "Pour le surplus, l’arrêt, qui, en réponse à la demande de la demanderesse de « saisir la Cour de justice de l’Union européenne d’une question préjudicielle au regard de l’article 7, paragraphe 1er, de la directive 2004/48/CE », considère que cette question « n’est pas utile à la solution du litige » au motif que « l’objet [de ce litige] porte sur les conditions dans lesquelles un requérant débouté d’une première demande de saisie-description est recevable à réitérer cette demande en invoquant de"
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-223",
+          "relevantSnippet": "Une question préjudicielle est pertinente dès lors que la réponse, quelle qu’elle soit, aura une influence certaine sur la solution du litige (CJUE, 6 octobre 1982, Cilfit, aff. C-283/81, point 10; CJUE, 18 juillet 2013, Consiglio Nazionale dei Geologi, aff. C-316/12, point 26; CJUE, 15 mars 2017, Aquino, aff. C-3/16, point 43)."
+        },
+        {
+          "blockId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2:block-224",
+          "relevantSnippet": "Selon la Cour de justice de l’Union européenne, le renvoi prejudiciel est obligatoire lorsque la question d’interprétation de la directive qui commande la solution d’un litige ne lui a jamais été soumise auparavant (voir notamment C.J.U.E., 4 novembre 1997, Parfums Christian Dior / Evora (C-337/95, Rec. P. I-6013))."
+        }
+      ],
+      "relationshipValidation": {
+        "provisionsValidated": 2,
+        "provisionsNotFoundInCitations": [],
+        "decisionsValidated": 4,
+        "decisionsNotFoundInCitations": []
+      }
+    }
+  ],
+  "metadata": {
+    "totalTeachings": 3,
+    "citationStatistics": {
+      "totalCitations": 14,
+      "avgCitationsPerTeaching": 4.666666666666667,
+      "teachingsWithMinimalCitations": 0,
+      "teachingsWithNoCitations": 0
+    },
+    "validationSummary": {
+      "totalProvisionsValidated": 6,
+      "totalProvisionsNotFound": 0,
+      "totalDecisionsValidated": 5,
+      "totalDecisionsNotFound": 0
+    },
+    "extractionNotes": [
+      "Selections focused on blocks within 'III. La décision de la Cour' and development sections ('Développements').",
+      "For TEACH-...-001 included the block referencing the 24 November 2022 cassation (block-146) to validate the cited prior cassation decision.",
+      "All chosen blocks are part of the court's reasoning; party-argument sections (moyens) were excluded."
+    ]
+  },
+  "_tokenUsage": {
+    "prompt": 44799,
+    "completion": 6374,
+    "total": 51173
+  }
+}

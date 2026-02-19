@@ -1,0 +1,264 @@
+{
+  "decisionId": "ECLI:BE:CASS:2026:ARR.20260116.1F.2",
+  "language": "FR",
+  "startedAt": "2026-02-18T04:14:25.845Z",
+  "status": "completed",
+  "currentStep": null,
+  "steps": {
+    "map-provisions-standard": {
+      "status": "completed",
+      "totalItems": 4,
+      "completedItems": 4,
+      "skippedItems": 0,
+      "failedItems": 0,
+      "items": {
+        "651716": {
+          "itemId": "651716",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 7454,
+          "tokenUsage": {
+            "prompt": 2849,
+            "completion": 757,
+            "total": 3606
+          }
+        },
+        "651719": {
+          "itemId": "651719",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 8916,
+          "tokenUsage": {
+            "prompt": 2849,
+            "completion": 906,
+            "total": 3755
+          }
+        },
+        "651722": {
+          "itemId": "651722",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 7780,
+          "tokenUsage": {
+            "prompt": 4856,
+            "completion": 803,
+            "total": 5659
+          }
+        },
+        "651723": {
+          "itemId": "651723",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 5420,
+          "tokenUsage": {
+            "prompt": 2889,
+            "completion": 486,
+            "total": 3375
+          }
+        }
+      },
+      "durationMs": 8955
+    },
+    "map-provisions-code": {
+      "status": "completed",
+      "totalItems": 7,
+      "completedItems": 7,
+      "skippedItems": 0,
+      "failedItems": 0,
+      "items": {
+        "651712": {
+          "itemId": "651712",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 16421,
+          "tokenUsage": {
+            "prompt": 6885,
+            "completion": 1534,
+            "total": 8419
+          }
+        },
+        "651721": {
+          "itemId": "651721",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 11972,
+          "tokenUsage": {
+            "prompt": 6871,
+            "completion": 1227,
+            "total": 8098
+          }
+        },
+        "651724": {
+          "itemId": "651724",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 39513,
+          "tokenUsage": {
+            "prompt": 8456,
+            "completion": 4076,
+            "total": 12532
+          }
+        },
+        "651725": {
+          "itemId": "651725",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 17701,
+          "tokenUsage": {
+            "prompt": 6847,
+            "completion": 1776,
+            "total": 8623
+          }
+        },
+        "651726": {
+          "itemId": "651726",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 13965,
+          "tokenUsage": {
+            "prompt": 5624,
+            "completion": 1071,
+            "total": 6695
+          }
+        },
+        "651727": {
+          "itemId": "651727",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 18354,
+          "tokenUsage": {
+            "prompt": 6945,
+            "completion": 1733,
+            "total": 8678
+          }
+        },
+        "651728": {
+          "itemId": "651728",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 17882,
+          "tokenUsage": {
+            "prompt": 6934,
+            "completion": 1924,
+            "total": 8858
+          }
+        }
+      },
+      "durationMs": 39515
+    },
+    "map-provisions-no-date": {
+      "status": "completed",
+      "totalItems": 1,
+      "completedItems": 1,
+      "skippedItems": 0,
+      "failedItems": 0,
+      "items": {
+        "651720": {
+          "itemId": "651720",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 10540,
+          "tokenUsage": {
+            "prompt": 12767,
+            "completion": 1125,
+            "total": 13892
+          }
+        }
+      },
+      "durationMs": 10542
+    },
+    "map-cited-decisions": {
+      "status": "completed",
+      "totalItems": 7,
+      "completedItems": 3,
+      "skippedItems": 4,
+      "failedItems": 0,
+      "items": {
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-002": {
+          "itemId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-002",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 15051,
+          "tokenUsage": {
+            "prompt": 14973,
+            "completion": 1264,
+            "total": 16237
+          }
+        },
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-008": {
+          "itemId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-008",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 6771,
+          "tokenUsage": {
+            "prompt": 10429,
+            "completion": 319,
+            "total": 10748
+          }
+        },
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-009": {
+          "itemId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-009",
+          "status": "skipped",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 1,
+          "fastPath": true
+        },
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-010": {
+          "itemId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-010",
+          "status": "skipped",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 1,
+          "fastPath": true
+        },
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-011": {
+          "itemId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-011",
+          "status": "skipped",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 2,
+          "fastPath": true
+        },
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-012": {
+          "itemId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-012",
+          "status": "skipped",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 2,
+          "fastPath": true
+        },
+        "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-013": {
+          "itemId": "DEC-ECLI:BE:CASS:2026:ARR.20260116.1F.2-013",
+          "status": "completed",
+          "attempts": 1,
+          "model": "gpt-5-mini",
+          "durationMs": 18147,
+          "tokenUsage": {
+            "prompt": 8694,
+            "completion": 1950,
+            "total": 10644
+          }
+        }
+      },
+      "durationMs": 18199
+    }
+  },
+  "completedAt": "2026-02-18T04:15:43.233Z",
+  "totalDurationMs": 77387,
+  "totalTokens": 129819
+}

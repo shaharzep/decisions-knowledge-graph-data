@@ -1,0 +1,487 @@
+{
+  "classifications": [
+    {
+      "teaching_id": "TEACH-ECLI:BE:CASS:2026:ARR.20260116.1F.2-001",
+      "classification": {
+        "topic_set": [
+          "A16.1",
+          "A17.1"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A17.1",
+            "topic_name": "Civil procedure doctrine",
+            "confidence": 0.98,
+            "materiality_evidence": "Teaching articulates a doctrinal rule about the legal effect of a cassation decision on the remittal court and the remittal court's obligations — a core civilprocedure/doctrine issue."
+          },
+          {
+            "topic_id": "A16.1",
+            "topic_name": "Treaties and international law sources",
+            "confidence": 0.93,
+            "materiality_evidence": "Teaching expressly authorises the remittal court to examine the conformity of the interpreted rule with Union law, engaging supranational/EU law review issues."
+          }
+        ],
+        "issue_type_set": [
+          "B1",
+          "B21",
+          "B24"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B24",
+            "issue_type_name": "Review and appeal",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "confidence": 0.92
+          }
+        ],
+        "issue_key": "{A16.1,A17.1}|{B1,B21,B24}"
+      },
+      "confidence": {
+        "overall": 0.948,
+        "topic_set": 0.9550000000000001,
+        "issue_type_set": 0.94,
+        "per_topic": [
+          {
+            "id": "A17.1",
+            "confidence": 0.98
+          },
+          {
+            "id": "A16.1",
+            "confidence": 0.93
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B21",
+            "confidence": 0.95
+          },
+          {
+            "id": "B24",
+            "confidence": 0.95
+          },
+          {
+            "id": "B1",
+            "confidence": 0.92
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "No production rules applicable"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Queries about the binding effect of a cassation ruling on remittal courts, obligations when a national court sits as remittal after cassation, and whether/remittal courts may review conformity of the interpreted rule with EU law; searches combining cassation + renvoi + droit de l'Union should retrieve this teaching."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A18.1",
+            "rejection_reason": "While the content concerns a procedural incident (renvoi), A17.1 better captures the doctrinal nature of the rule; including both would be redundant—prefer the doctrinal/canonical node."
+          },
+          {
+            "topic_id": "A24",
+            "rejection_reason": "Placeholder and not applicable."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B8",
+            "rejection_reason": "Although the teaching refers to the Court of Cassation's interpretation, it does not provide actionable guidance on interpretive methods or meaning beyond delimiting scope; thus not materially engaged as a 'Content' issue."
+          },
+          {
+            "issue_type_id": "B0",
+            "rejection_reason": "The characterization element is peripheral; the teaching does not materially engage in classifying the legal regime beyond stating the narrow binding effect."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "juridiction de renvoi (remittal court)",
+          "effet contraignant de l'arrêt de cassation (binding effect of cassation)",
+          "point de droit effectivement tranché (issue actually decided)",
+          "obligation de conformer la décision de renvoi à l'arrêt de cassation",
+          "examen de la conformité au droit de l'Union (review for EU law compatibility)",
+          "article 1110, al. 4, Code judiciaire",
+          "limites du contrôle du juge de renvoi",
+          "distinction entre portée de l'arrêt de cassation et libre examen du droit de l'Union"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Civil procedure — effects of cassation and duties of the remittal court (national procedural law)",
+            "European Union law — review of national rules for compatibility with EU law (supranational law / treaties)"
+          ],
+          "retrieval_consideration": "Queries about the binding effect of a cassation ruling on remittal courts, obligations when a national court sits as remittal after cassation, and whether/remittal courts may review conformity of the interpreted rule with EU law; searches combining cassation + renvoi + droit de l'Union should retrieve this teaching.",
+          "granularity_decisions": [
+            "Selected A17.1 (Civil procedure doctrine) as the most specific node covering doctrine on cassation and remittal obligations rather than a broader civil-procedure parent.",
+            "Selected A16.1 (Treaties and international law sources) because the teaching specifically addresses examination of conformity with EU law — using the international/supranational law leaf rather than a generic international-law parent."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "engagement_evidence": "The teaching prescribes the procedural obligation of the remittal court under article 1110(4) of the Judicial Code — i.e., how the remittal court must act in light of a cassation decision (in-forum mechanics and binding effect).",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B24",
+            "issue_type_name": "Review and appeal",
+            "engagement_evidence": "The teaching governs the appellate mechanism and the legal consequences of cassation for the remittal court (scope of what is subject to review and that no cassation remedy lies against a decision that conforms to the cassation ruling).",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "engagement_evidence": "The teaching delimits the scope of what binds the remittal court — specifically that it is bound only by the precise point of law actually decided by the Court of Cassation.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "engagement_evidence": "The teaching touches on the interpretation given by the Court of Cassation to the rule of law (what the binding point of law comprises).",
+            "is_material": false
+          },
+          {
+            "issue_type_id": "B0",
+            "issue_type_name": "Characterization (qualification)",
+            "engagement_evidence": "The teaching indirectly characterizes the legal effect of a cassation decision (narrow binding effect), but it does not primarily analyze classification issues or compare competing legal regimes.",
+            "is_material": false
+          }
+        ],
+        "production_rules_applied": [
+          "No mandatory production-rule constraints triggered by provided topic_set (A17.1; A16.1)."
+        ],
+        "processed_at": "2026-02-18T04:13:20.710Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:CASS:2026:ARR.20260116.1F.2-002",
+      "classification": {
+        "topic_set": [
+          "A18.1",
+          "A9.7"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A18.1",
+            "topic_name": "Procedural incidents (civil)",
+            "confidence": 0.95,
+            "materiality_evidence": "Teaching focuses on pre-action provisional measures to preserve evidence and procedural rules (possibility to order swift and effective conservatory measures before the main action)."
+          },
+          {
+            "topic_id": "A9.7",
+            "topic_name": "Patents, designs, and other IP",
+            "confidence": 0.9,
+            "materiality_evidence": "Teaching interprets Directive 2004/48/EC on enforcement of intellectual property rights and applies to preservation of evidence for alleged infringements across IP categories."
+          }
+        ],
+        "issue_type_set": [
+          "B1",
+          "B21",
+          "B22"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "confidence": 0.95
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "confidence": 0.9
+          }
+        ],
+        "issue_key": "{A18.1,A9.7}|{B1,B21,B22}"
+      },
+      "confidence": {
+        "overall": 0.929,
+        "topic_set": 0.925,
+        "issue_type_set": 0.9333333333333332,
+        "per_topic": [
+          {
+            "id": "A18.1",
+            "confidence": 0.95
+          },
+          {
+            "id": "A9.7",
+            "confidence": 0.9
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B21",
+            "confidence": 0.95
+          },
+          {
+            "id": "B22",
+            "confidence": 0.95
+          },
+          {
+            "id": "B1",
+            "confidence": 0.9
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "R-orig-2: A18.1/4/5/6 → B21 satisfied"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Queries about Directive 2004/48/EC provisional conservatory measures, preservation of evidence before the main action in IP enforcement, and Member State procedural autonomy for competence and request repetition should retrieve this teaching."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A9.5",
+            "rejection_reason": "Too specific to copyright; the teaching addresses the Enforcement Directive's cross‑IP scope rather than copyright alone."
+          },
+          {
+            "topic_id": "A9.6",
+            "rejection_reason": "Too specific to trademarks; teaching concerns IP enforcement measures generally under Directive 2004/48/EC rather than trademark issues only."
+          },
+          {
+            "topic_id": "A17.4",
+            "rejection_reason": "Administrative procedure doctrine is relevant but secondary; the core analysis is civil procedural measures for IP enforcement, so A18.1 better captures the main procedural focus."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B3",
+            "rejection_reason": "Although the text mentions Member States' autonomy to determine the competent authority, including B3 would conflict with the mandatory inclusion of B21 (production rule: if set contains B3, must not include B21). The procedural aspect (B21) is more directly material."
+          },
+          {
+            "issue_type_id": "B8",
+            "rejection_reason": "The teaching interprets Article 7(1) but does so in service of procedural, evidentiary and scope rules; the interpretive content is not a standalone, actionable 'content/meaning' issue beyond those material aspects."
+          },
+          {
+            "issue_type_id": "B0",
+            "rejection_reason": "Characterization/qualification is background (identifying the directive provision) but the teaching provides actionable guidance on procedure, evidence and applicability rather than merely classifying the rule."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "prévention/mesures provisoires de conservation des preuves",
+          "preuve raisonnablement accessible",
+          "droits de propriété intellectuelle (atteinte alléguée ou imminente)",
+          "directive 2004/48/CE (directive sur l'exécution des droits de propriété intellectuelle)",
+          "autonomie procédurale des États membres (compétence pour déterminer l'autorité et conditions procédurales)",
+          "protection des renseignements confidentiels",
+          "réitération d'une demande après rejet"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "Civil procedural law — pre-action provisional measures and evidence-preservation",
+            "Intellectual property enforcement under Directive 2004/48/EC ( enforcement of IP rights )"
+          ],
+          "retrieval_consideration": "Queries about Directive 2004/48/EC provisional conservatory measures, preservation of evidence before the main action in IP enforcement, and Member State procedural autonomy for competence and request repetition should retrieve this teaching.",
+          "granularity_decisions": [
+            "Include A18.1 (procedural incidents) because the teaching materially analyses pre-action procedural mechanism for evidence preservation.",
+            "Include A9.7 (patents, designs, and other IP) rather than narrower IP leaf nodes (copyright/trademark) because the Directive and teaching address enforcement measures across IP categories (other than being limited to a single IP right)."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B21",
+            "issue_type_name": "Procedure",
+            "engagement_evidence": "Teaching requires Member States to put in place a procedure allowing a party to obtain provisional preservation measures before the main action and addresses conditions for reapplication after a rejected request.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B22",
+            "issue_type_name": "Evidence and proof",
+            "engagement_evidence": "Central to the teaching is the evidentiary threshold that a party must have presented 'elements of evidence reasonably accessible' to support allegations of an IP rights infringement; this is an admissibility/threshold for relief.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "engagement_evidence": "The teaching defines the temporal and factual scope: measures must be available before the action on the merits and where reasonably accessible evidence is presented, i.e., specifying when the obligation applies.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "topic_set contains A18.1 → MUST include B21",
+          "If issue_type_set includes B3 → MUST NOT include B21 (inferred conflict avoided)"
+        ],
+        "processed_at": "2026-02-18T04:13:53.200Z"
+      }
+    },
+    {
+      "teaching_id": "TEACH-ECLI:BE:CASS:2026:ARR.20260116.1F.2-003",
+      "classification": {
+        "topic_set": [
+          "A16.1",
+          "A17.1"
+        ],
+        "topic_set_details": [
+          {
+            "topic_id": "A16.1",
+            "topic_name": "Treaties and international law sources",
+            "confidence": 0.96,
+            "materiality_evidence": "The teaching centrally analyzes the procedural duty arising from Article 267 TFEU (a Treaty provision) and the conditions permitting national courts not to refer (acte clair / lack of utility)."
+          },
+          {
+            "topic_id": "A17.1",
+            "topic_name": "Civil procedure doctrine",
+            "confidence": 0.92,
+            "materiality_evidence": "The ruling explicates a doctrinal rule of national civil procedure concerning when a national court must or may abstain from making a preliminary reference to the CJEU."
+          }
+        ],
+        "issue_type_set": [
+          "B1",
+          "B8"
+        ],
+        "issue_type_set_details": [
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "confidence": 0.98
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "confidence": 0.95
+          }
+        ],
+        "issue_key": "{A16.1,A17.1}|{B1,B8}"
+      },
+      "confidence": {
+        "overall": 0.951,
+        "topic_set": 0.94,
+        "issue_type_set": 0.965,
+        "per_topic": [
+          {
+            "id": "A16.1",
+            "confidence": 0.96
+          },
+          {
+            "id": "A17.1",
+            "confidence": 0.92
+          }
+        ],
+        "per_issue_type": [
+          {
+            "id": "B1",
+            "confidence": 0.98
+          },
+          {
+            "id": "B8",
+            "confidence": 0.95
+          }
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "productionRulesSatisfied": [
+          "No production rules applicable"
+        ]
+      },
+      "review_tier": "auto_accept",
+      "retrieval_info": {
+        "description": "Use set intersection for retrieval: match sources where topic_set ∩ query_topics ≠ ∅ AND issue_type_set ∩ query_issue_types ≠ ∅",
+        "retrieval_queries": "Users searching for the duty to refer under Article 267 TFEU, the acte clair/doctrine of not referring, or procedural rules on when national civil courts may abstain from referring should retrieve this teaching; likewise searches on interplay between national procedure and EU preliminary references."
+      },
+      "alternatives": {
+        "rejected_topics": [
+          {
+            "topic_id": "A13.8.1",
+            "rejection_reason": "Not materially about the Digital Services Act or platform-specific regulation; inclusion would be only tangential for retrieval and would reduce specificity."
+          },
+          {
+            "topic_id": "A3.6",
+            "rejection_reason": "Although the factual trigger references IP enforcement measures (directive 2004/48/CE), the teaching's substantive analysis concerns preliminary-reference doctrine rather than IP substantive or registration/transfer issues."
+          }
+        ],
+        "rejected_issue_types": [
+          {
+            "issue_type_id": "B3",
+            "rejection_reason": "Related to competence/jurisdiction but the teaching focuses on the scope and meaning of the referral obligation rather than on which forum may decide; B1/B8 better capture material engagement."
+          },
+          {
+            "issue_type_id": "B21",
+            "rejection_reason": "Although the rule has procedural effects, it addresses the substantive duty to refer and its limits rather than in-forum procedural mechanics; material engagement with procedure is limited."
+          },
+          {
+            "issue_type_id": "B0",
+            "rejection_reason": "Characterization is only secondary here (qualifying conduct as breach/non-breach) and the teaching does not primarily offer a characterization analysis."
+          }
+        ]
+      },
+      "reasoning_trace": {
+        "stage1_concepts": [
+          "préjudicielle / renvoi préjudiciel (article 267 TFUE)",
+          "obligation de renvoi vs faculté de ne pas renvoyer",
+          "doctrine de l'acte clair (acte clair / acte évident)",
+          "inutilité de la question préjudicielle (manque d'utilité)",
+          "interprétation du droit de l'Union / interprétation d'une directive (2004/48/CE)",
+          "compétence/obligation des juridictions nationales",
+          "critères de recevabilité d'une question préjudicielle",
+          "relation entre droit national et droit de l'Union (primauté/effet utile implicite)"
+        ],
+        "stage2_analysis": {
+          "bodies_of_law_engaged": [
+            "EU law - preliminary reference procedure under Article 267 TFEU (obligation to refer / acte clair doctrine)",
+            "National civil procedure - duties and doctrine governing courts' procedural obligations to make preliminary references"
+          ],
+          "retrieval_consideration": "Users searching for the duty to refer under Article 267 TFEU, the acte clair/doctrine of not referring, or procedural rules on when national civil courts may abstain from referring should retrieve this teaching; likewise searches on interplay between national procedure and EU preliminary references.",
+          "granularity_decisions": [
+            "Select A16.1 (Treaties and international law sources) because the teaching materially analyzes an obligation created by an EU Treaty provision (Art. 267 TFEU).",
+            "Select A17.1 (Civil procedure doctrine) rather than a broader procedure node because the teaching addresses a specific procedural/doctrinal rule applicable to national courts in civil litigation (when to refer).",
+            "Do not include sectoral leaf nodes (e.g., IP enforcement) because although the factual background mentions an IP directive, the material legal analysis concerns the preliminary-reference obligation and acte clair doctrine, not substantive IP law."
+          ]
+        },
+        "stage3_materiality": [
+          {
+            "issue_type_id": "B1",
+            "issue_type_name": "Applicability (scope)",
+            "engagement_evidence": "The teaching specifies when the obligation to refer under Article 267 TFUE does not apply (where the question is acte clair or the preliminary question would not be useful to the resolution of the dispute). This defines the scope/limits of the referral obligation.",
+            "is_material": true
+          },
+          {
+            "issue_type_id": "B8",
+            "issue_type_name": "Content (meaning)",
+            "engagement_evidence": "The teaching interprets key concepts of the Article 267 duty (what it means for a question to be 'sufficiently clear' or 'not useful'), providing substantive meaning to the duty.",
+            "is_material": true
+          }
+        ],
+        "production_rules_applied": [
+          "No A18.x topics present; no mandatory mappings required."
+        ],
+        "processed_at": "2026-02-18T04:14:22.998Z"
+      }
+    }
+  ],
+  "totalTeachings": 3,
+  "successCount": 3,
+  "failCount": 0
+}

@@ -1,0 +1,35 @@
+{
+  "customKeywords": [
+    "Droit de la propriété intellectuelle",
+    "Saisie-description",
+    "Tests sur lignes DSL",
+    "Cession de brevet",
+    "Requêtes répétées",
+    "Éléments raisonnablement accessibles",
+    "Recevabilité de réitération",
+    "Interprétation directive 2004/48",
+    "Accès à la preuve",
+    "Question préjudicielle refusée"
+  ],
+  "metadata": {
+    "totalKeywords": 10,
+    "keywordBreakdown": {
+      "legalDomain": 1,
+      "factualSituation": 4,
+      "keyDispute": 4,
+      "distinctiveElement": 1
+    },
+    "validationChecks": {
+      "keywordCountInRange": true,
+      "allKeywordsShort": true,
+      "noGenericTerms": true,
+      "noPartyNames": true,
+      "balancedMix": true
+    }
+  },
+  "_tokenUsage": {
+    "prompt": 16743,
+    "completion": 1499,
+    "total": 18242
+  }
+}
